@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-29T04:18:02.131050+00:00",
+  "scope": "Retainedownprogrammebodyreview;no newfetch",
+  "overrides": [
+    {
+      "id": "pan-cata-20261029-1800",
+      "price": null,
+      "min": false,
+      "priceNote": "Programme price not explicitly stated. General centre entry is free but does not prove this specific programme free.",
+      "admission": "Public literature programme; specific event price/booking not stated. End conflict19:00vs19:30; actual end unknown.",
+      "priceEvidence": {
+        "standard": null,
+        "currency": "USD",
+        "text": "Ownprogramme has no explicit free/price statement; genericvenuefreeentry not imported as eventfree."
+      }
+    },
+    {
+      "id": "pan-cata-20261124-1800",
+      "price": null,
+      "min": false,
+      "priceNote": "Programme price not explicitly stated. General centre entry is free but does not prove this specific programme free.",
+      "admission": "Public literature programme; specific event price/booking not stated. End conflict19:00vs19:30; actual end unknown.",
+      "priceEvidence": {
+        "standard": null,
+        "currency": "USD",
+        "text": "Ownprogramme has no explicit free/price statement; genericvenuefreeentry not imported as eventfree."
+      }
+    }
+  ],
+  "confirmedFree": [
+    {
+      "id": "pan-domingos-20261031-1600",
+      "sourceUrl": "https://ccecasadelsoldado.aecid.es/w/proyecci%C3%B3n-de-pel%C3%ADculas-ganadoras-de-los-premios-goya-2026",
+      "evidence": "Own Goyaprogramme: La entrada es gratuita, puedes reservar tu plaza a través de este enlace."
+    },
+    {
+      "id": "pan-sirat-20261031-1830",
+      "sourceUrl": "https://ccecasadelsoldado.aecid.es/w/proyecci%C3%B3n-de-pel%C3%ADculas-ganadoras-de-los-premios-goya-2026",
+      "evidence": "Own Goyaprogramme: La entrada es gratuita, puedes reservar tu plaza a través de este enlace."
+    },
+    {
+      "id": "pan-maspalomas-20261031-2100",
+      "sourceUrl": "https://ccecasadelsoldado.aecid.es/w/proyecci%C3%B3n-de-pel%C3%ADculas-ganadoras-de-los-premios-goya-2026",
+      "evidence": "Own Goyaprogramme: La entrada es gratuita, puedes reservar tu plaza a través de este enlace."
+    }
+  ]
+}

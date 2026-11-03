@@ -1,0 +1,83 @@
+{
+  "city": "Minsk",
+  "checkedAt": "2026-10-19T08:09:33.678528+00:00",
+  "sources": [
+    {
+      "id": "source-a6d2eb293c8d",
+      "name": "minsk_region",
+      "url": "https://t.me/s/minsk_region",
+      "checkedAt": "2026-10-19T08:02:25.895560+00:00",
+      "status": "checked-public-history",
+      "accessStatus": "checked-public-history",
+      "count": 0,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-2ee1334b4f4e",
+      "name": "minsk_kudago",
+      "url": "https://t.me/s/minsk_kudago",
+      "checkedAt": "2026-10-19T08:02:26.255702+00:00",
+      "status": "checked-public-history",
+      "accessStatus": "checked-public-history",
+      "count": 0,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-2180901f5df9",
+      "name": "minsk_kuda",
+      "url": "https://t.me/s/minsk_kuda",
+      "checkedAt": "2026-10-19T08:02:26.131232+00:00",
+      "status": "checked-public-history",
+      "accessStatus": "checked-public-history",
+      "count": 0,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-645c6645a8aa",
+      "name": "philharmonic.by",
+      "url": "https://philharmonic.by/ru",
+      "checkedAt": "2026-10-19T08:09:33.678528+00:00",
+      "status": "imported",
+      "accessStatus": "checked",
+      "count": 10,
+      "note": "",
+      "type": "web"
+    },
+    {
+      "id": "source-c052409ca1b5",
+      "name": "minsk.theatrehd.ru",
+      "url": "https://minsk.theatrehd.ru/ru/whats-on",
+      "checkedAt": "2026-10-19T08:09:33.678528+00:00",
+      "status": "imported",
+      "accessStatus": "checked",
+      "count": 3,
+      "note": "",
+      "type": "web"
+    },
+    {
+      "id": "source-8cabfaa91acd",
+      "name": "hubl.by",
+      "url": "https://hubl.by/minsk/teatr",
+      "checkedAt": "2026-10-19T08:09:33.678528+00:00",
+      "status": "checked",
+      "accessStatus": "checked",
+      "count": 0,
+      "note": "",
+      "type": "web"
+    },
+    {
+      "id": "source-6c22d1241376",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/relation/59195",
+      "checkedAt": "2026-10-19T08:06:18.717895+00:00",
+      "status": "directory_snapshot",
+      "accessStatus": "directory_snapshot",
+      "count": 0,
+      "note": "3823 named place records after boundary filtering and deduplication; operating status not individually verified. ODbL source export: /downloads/city-directories-20261019/minsk-osm.json.gz"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

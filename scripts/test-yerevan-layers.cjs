@@ -1,0 +1,10 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
+const code=fs.readFileSync('public/yerevan/app.js','utf8');
+const body=code.slice(code.indexOf('function setLayer(value)'),code.indexOf('function placeCard(',code.indexOf('function setLayer(value)')));
+const c={layer:'nearby',category:'cafe',events:[{category:'music'}],limit:50,render(){this.rendered=true;}};vm.createContext(c);vm.runInContext(body,c);
+c.setLayer('events');assert.equal(c.category,'all');assert.equal(c.layer,'events');assert.equal(c.limit,18);
+c.category='music';c.setLayer('places');assert.equal(c.category,'music');c.setLayer('events');assert.equal(c.category,'music');
+assert(code.includes("!nearbyList.length?mapPlaces(nearbyList):nearbyList"));
+assert(code.includes('renderMap(nearbyList)'));
+assert(code.includes('const all=mapPlaces(visible()),missing='));
+console.log('Yerevan: venue categories cannot hide events; map/list fallback preserves nearby focus.');

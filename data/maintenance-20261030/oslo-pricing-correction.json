@@ -1,0 +1,265 @@
+{
+  "appliedAt": "2026-10-30T01:37:21.879080+00:00",
+  "baseline": "0837398747801b4fb5160a5e1b1e81f3048a0d44",
+  "changes": [
+    {
+      "locale": "ru",
+      "id": "oslo-a9ee4fbab00ff0",
+      "before": {
+        "price": 0,
+        "priceMax": 150,
+        "min": true,
+        "priceNote": "NOK150; all students free regardless of institution."
+      },
+      "after": {
+        "price": 150,
+        "priceMax": 150,
+        "min": false,
+        "priceNote": "Standard admission NOK150; all students free regardless of institution. Mandatory booking fees are not stated on the primary page."
+      }
+    },
+    {
+      "locale": "ru",
+      "id": "oslo-a2dd3def886bfd",
+      "before": {
+        "price": 0,
+        "priceMax": 395,
+        "min": true,
+        "priceNote": "Members free; regular zones295/395; A-kort315; student/under30 195 withID."
+      },
+      "after": {
+        "price": null,
+        "priceMax": null,
+        "min": false,
+        "priceNote": "Historical tariff recorded 28 October 2026, not reconfirmed on the current programme page: members free; regular zones NOK295/395; A-kort NOK315; students/under30 NOK195 with ID. Check the booking page for the current price and eligibility."
+      }
+    },
+    {
+      "locale": "en/",
+      "id": "oslo-a9ee4fbab00ff0",
+      "before": {
+        "price": 0,
+        "priceMax": 150,
+        "min": true,
+        "priceNote": "NOK150; all students free regardless of institution."
+      },
+      "after": {
+        "price": 150,
+        "priceMax": 150,
+        "min": false,
+        "priceNote": "Standard admission NOK150; all students free regardless of institution. Mandatory booking fees are not stated on the primary page."
+      }
+    },
+    {
+      "locale": "en/",
+      "id": "oslo-a2dd3def886bfd",
+      "before": {
+        "price": 0,
+        "priceMax": 395,
+        "min": true,
+        "priceNote": "Members free; regular zones295/395; A-kort315; student/under30 195 withID."
+      },
+      "after": {
+        "price": null,
+        "priceMax": null,
+        "min": false,
+        "priceNote": "Historical tariff recorded 28 October 2026, not reconfirmed on the current programme page: members free; regular zones NOK295/395; A-kort NOK315; students/under30 NOK195 with ID. Check the booking page for the current price and eligibility."
+      }
+    }
+  ],
+  "evidence": {
+    "reviewedAt": "2026-10-30T01:35:42.330156+00:00",
+    "scope": "Two exact authorized guarded GETs only; no ticket links followed, no site/doc changes.",
+    "sourceAudit": [
+      {
+        "url": "https://nmh.no/arrangementer/kammermusikkveka-kammersamtid-3",
+        "checkedAt": "2026-10-30T01:34:46.524823+00:00",
+        "ledgerHashes": {
+          "audit/historical-shared-stops.json": "2373a2f58374a0f189259e5979fe64d28ec98c9bb47e2d5583695605d46b5c11",
+          "audit/access-stop-additions.json": "5115bc78e898de858f8dbab7821ffe0af6a49377f7b002a51a9b01b4c2308203",
+          "maintenance/stops.json": "b8db437de87636ab76fcf96e50379f6e650faaea3a33206419032bbabde1ff09",
+          "preparation-research/stops.json": "9e2ea2b074831d52fdf6eef43b3e1d72287910b9799b6705d42ddb6cac782fd7",
+          "research/stops.json": "aa689d3392b84cc1e9ca3dc28113f033df729749bbd69d85b0dd47bcd7cc9dc4",
+          "safety/new-stops.json": "f4bf91fdb0cec61d9520f8c6697f6b8e1ca3e32b4bf4da5ec447c0b7d004b51b",
+          "safety/historical-source-stops.json": "af0ef2c93423106865716bb14842e636b9606f0f0c562fbe81077334d2465f3d"
+        },
+        "status": 200,
+        "finalUrl": "https://nmh.no/arrangementer/kammermusikkveka-kammersamtid-3",
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 30539,
+        "classification": "read_requires_manual_semantic_review",
+        "rawPath": "resume-20261029/maintenance/oslo-pricing-20261030/77e472faccfbf7f4.raw",
+        "rawSHA256": "f6083c4ff1e41308bc7925f6aabfe06f1daf62035bc18ed9310ae30798af4161"
+      },
+      {
+        "url": "https://www.aulaseriene.no/program/oslo-221126",
+        "checkedAt": "2026-10-30T01:35:00.885244+00:00",
+        "ledgerHashes": {
+          "audit/historical-shared-stops.json": "2373a2f58374a0f189259e5979fe64d28ec98c9bb47e2d5583695605d46b5c11",
+          "audit/access-stop-additions.json": "5115bc78e898de858f8dbab7821ffe0af6a49377f7b002a51a9b01b4c2308203",
+          "maintenance/stops.json": "b8db437de87636ab76fcf96e50379f6e650faaea3a33206419032bbabde1ff09",
+          "preparation-research/stops.json": "9e2ea2b074831d52fdf6eef43b3e1d72287910b9799b6705d42ddb6cac782fd7",
+          "research/stops.json": "aa689d3392b84cc1e9ca3dc28113f033df729749bbd69d85b0dd47bcd7cc9dc4",
+          "safety/new-stops.json": "f4bf91fdb0cec61d9520f8c6697f6b8e1ca3e32b4bf4da5ec447c0b7d004b51b",
+          "safety/historical-source-stops.json": "af0ef2c93423106865716bb14842e636b9606f0f0c562fbe81077334d2465f3d"
+        },
+        "status": 200,
+        "finalUrl": "https://www.aulaseriene.no/program/oslo-221126",
+        "contentType": "text/html;charset=utf-8",
+        "bytes": 267934,
+        "classification": "read_requires_manual_semantic_review",
+        "rawPath": "resume-20261029/maintenance/oslo-pricing-20261030/cade97532455510f.raw",
+        "rawSHA256": "134580c11140827ce0b4d246c220f75195fe2a9f7713d9e0f16567f1375ccc81"
+      }
+    ],
+    "results": [
+      {
+        "id": "oslo-a9ee4fbab00ff0",
+        "sourceCheckedAt": "2026-10-30T01:34:46.524823+00:00",
+        "fullPrimaryConfirmed": {
+          "date": "2026-11-06",
+          "startTime": "19:30",
+          "venue": "Norges musikkhøgskole, Lindemansalen",
+          "address": "Slemdalsveien11,0369Oslo",
+          "standardPrice": 150,
+          "currency": "NOK",
+          "concession": "All students free, regardless of institution",
+          "mandatoryFees": null,
+          "endTime": null,
+          "cancellationOrSoldOutNoticeFound": false,
+          "liveTicketInventoryVerified": false
+        },
+        "priceEvidence": "Visible Pris150kr; Gratis for alle studentar uansett studiestad.",
+        "proposedPriceOnlyCorrection": {
+          "price": 150,
+          "priceMin": 150,
+          "priceMax": 150,
+          "min": false,
+          "isFree": false,
+          "priceNote": "Standard admission NOK150; students at any institution enter free. Mandatory booking fees are not stated on this page."
+        },
+        "doNotChange": "No new venue coordinates, end, or registration requirement inferred.",
+        "pricingCheckedAt": "2026-10-30T01:34:46.524823+00:00",
+        "programmeCheckedAt": "2026-10-30T01:34:46.524823+00:00"
+      },
+      {
+        "id": "oslo-a2dd3def886bfd",
+        "sourceCheckedAt": "2026-10-30T01:35:00.885244+00:00",
+        "fullPrimaryConfirmed": {
+          "date": "2026-11-22",
+          "startTime": "15:00",
+          "venue": "Universitetets aula, Oslo",
+          "address": "Karl Johans gate47,0162Oslo",
+          "calendarEnd": "16:30",
+          "durationProse": "Approximately90minutes including interval",
+          "standardPrice": null,
+          "mandatoryFees": null,
+          "cancellationOrSoldOutNoticeFound": false,
+          "liveTicketInventoryVerified": false
+        },
+        "priceEvidence": "NO tariff in full own response:295/395 absent;195 occurrences only image timestamps; membership navigation not a free admission claim. Ticketco link observed but not followed under two-URL scope.",
+        "retainedHistoricalEvidence": {
+          "sourceCheckedAt": "2026-10-28T02:28:20Z",
+          "priceNote": "Members free; regular zones295/395; A-kort315; student/under30 195 withID.",
+          "provenance": "Existing published structured note, not fresh tariff confirmation or independently recovered ticket raw."
+        },
+        "decision": "Fresh own page confirms programme/date, not tariff. Do not label historical295/395/195 as freshly verified. Price0 is not supported as universal free entry; use retained-evidence-qualified correction only if original tariff provenance accepted, otherwise numericprice null until ticket-source scope authorized.",
+        "endEvidenceCaveat": "16:30 is calendar end with approximate90min prose, not new exact performance-end proof; price-only task does not change end.",
+        "programmeCheckedAt": "2026-10-30T01:35:00.885244+00:00",
+        "pricingCheckedAt": "2026-10-28T02:28:20Z",
+        "pricingFreshlyConfirmed": false,
+        "proposedPriceOnlyCorrection": {
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "min": false,
+          "isFree": false,
+          "priceNote": "Price not reconfirmed on the current programme page. Retained tariff note from2026-10-28T02:28:20Z: members free; regular zones NOK295/395; A-kort315; student/under30 NOK195 with ID. Current ticket price and mandatory fees unknown.",
+          "priceEvidenceStatus": "historical_tariff_unreconfirmed"
+        }
+      }
+    ],
+    "historicalRecords": {
+      "oslo-a9ee4fbab00ff0": {
+        "id": "oslo-a9ee4fbab00ff0",
+        "title": "Kammermusikkveka: Musikkhøgskolens kammerorkester",
+        "venue": "Norges musikkhøgskole — Lindemansalen",
+        "venueId": "oslo-venue-ddc17d7a0a902c",
+        "address": "Slemdalsveien 11, 0369 Oslo",
+        "description": "",
+        "date": "2026-11-06",
+        "time": "19:30",
+        "end": null,
+        "startAt": "2026-11-06T19:30:00+01:00",
+        "category": "music",
+        "lat": 59.932369,
+        "lng": 10.714164,
+        "coordinateSource": "https://nmh.no/arrangementer/coffee-schmoffee-1-2026",
+        "coordinatePrecision": "venue",
+        "coordinateEvidence": "Official Finn veien link resolves named Norges musikkhøgskole marker payload !3d59.932369!4d10.714164. Same address confirmed https://nmh.no/kontakt-oss. Final Google renderer blocked non-retryable; no retry or bypass.",
+        "source": "Norwegian Academy of Music",
+        "sourceUrl": "https://nmh.no/arrangementer/kammermusikkveka-kammersamtid-3",
+        "sourceURLs": [
+          "https://nmh.no/arrangementer/kammermusikkveka-kammersamtid-3"
+        ],
+        "checkedAt": "2026-10-28T02:28:20Z",
+        "yearEvidence": "explicit_2026_detail",
+        "price": 0,
+        "priceMax": 150,
+        "priceNote": "NOK150; all students free regardless of institution.",
+        "currency": "NOK",
+        "timezone": "Europe/Oslo",
+        "language": null,
+        "status": "scheduled",
+        "admission": null,
+        "min": true,
+        "kind": "event",
+        "city": "Oslo",
+        "cityId": "oslo"
+      },
+      "oslo-a2dd3def886bfd": {
+        "id": "oslo-a2dd3def886bfd",
+        "title": "Engegårdkvartetten & Olli Mustonen: Beethoven, Brahms & Mustonen",
+        "venue": "Universitetets aula",
+        "venueId": "oslo-venue-d2990452b4228a",
+        "address": "Karl Johans gate 47, 0162 Oslo",
+        "description": "Purchased tickets nonrefundable; concession ID may be checked.",
+        "date": "2026-11-22",
+        "time": "15:00",
+        "end": "16:30",
+        "startAt": "2026-11-22T15:00:00+01:00",
+        "endAt": "2026-11-22T16:30:00+01:00",
+        "category": "music",
+        "lat": 59.91535570075229,
+        "lng": 10.735178715248589,
+        "coordinateSource": "https://api.kartverket.no/adresser/v1/sok?sok=Karl+Johans+gate+47+Oslo&treffPerSide=5",
+        "coordinatePrecision": "address_representative_point",
+        "coordinateEvidence": "Kartverket official exact full street address and Oslo municipality matched; EPSG4258 representative address point, not a city/postcode centroid or surveyed venue entrance. Geodetic verification: False",
+        "source": "VisitOslo",
+        "sourceUrl": "https://www.aulaseriene.no/program/oslo-221126",
+        "sourceURLs": [
+          "https://www.aulaseriene.no/program/oslo-221126"
+        ],
+        "checkedAt": "2026-10-28T02:28:20Z",
+        "yearEvidence": "explicit_2026_detail",
+        "price": 0,
+        "priceMax": 395,
+        "priceNote": "Members free; regular zones295/395; A-kort315; student/under30 195 withID.",
+        "currency": "NOK",
+        "timezone": "Europe/Oslo",
+        "language": null,
+        "status": "scheduled",
+        "admission": "Purchased tickets nonrefundable; concession ID may be checked.",
+        "min": true,
+        "kind": "event",
+        "city": "Oslo",
+        "cityId": "oslo"
+      }
+    },
+    "networkRequests": 2,
+    "newStops": 0,
+    "readyFreshPriceCorrections": 1,
+    "unresolvedFreshTariffs": 1
+  },
+  "scope": "Two pricing corrections; no new events, places or cities; original research immutable."
+}

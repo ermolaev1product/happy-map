@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-14",
+  "cities": {
+    "tbilisi": {
+      "before": 2225,
+      "places": 2851,
+      "added": 626,
+      "missingStreetAddress": 2220
+    },
+    "belgrade": {
+      "before": 395,
+      "places": 3052,
+      "added": 2657,
+      "missingStreetAddress": 1719
+    },
+    "moscow": {
+      "before": 106,
+      "places": 3494,
+      "added": 3388,
+      "missingStreetAddress": 3099
+    },
+    "palo-alto": {
+      "before": 27,
+      "places": 317,
+      "added": 290,
+      "missingStreetAddress": 0
+    },
+    "paris": {
+      "before": 543,
+      "places": 17079,
+      "added": 16536,
+      "missingStreetAddress": 16536
+    },
+    "london": {
+      "before": 53,
+      "places": 35446,
+      "added": 35393,
+      "missingStreetAddress": 0
+    },
+    "flensburg": {
+      "before": 281,
+      "places": 281,
+      "added": 0,
+      "missingStreetAddress": 61
+    }
+  },
+  "scope": "Food and drink directory expansion, preserving existing culture and other places. Not complete city coverage or independent confirmation that each business is open.",
+  "flensburg": {
+    "newEvents": 6,
+    "newSoldOutEvents": 1,
+    "placesAudited": 281,
+    "missingFullAddress": 61
+  },
+  "limitations": [
+    "Moscow: central grid only; upstream bandwidth limit stopped further collection.",
+    "Paris food snapshot: 8 October 2026; exported street addresses absent.",
+    "Georgia/Serbia OSM snapshots: 13 October 2026.",
+    "London: FSA directory, public access exclusions; no rating filter.",
+    "Public Instagram inaccessible; no usable Threads results.",
+    "Telegram announcements queued separately; no guessed venues added."
+  ]
+}

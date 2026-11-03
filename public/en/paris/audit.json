@@ -1,0 +1,3554 @@
+{
+  "checkedAt": "2026-10-11T00:11:12.971289+00:00",
+  "method": "Public Paris Data API, paginated, exact occurrences only; no scheduler",
+  "sourceRecords": 1507,
+  "uniqueFetched": 1507,
+  "includedRecords": 1114,
+  "distinctPrograms": 807,
+  "exclusions": [
+    {
+      "id": "11090",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier d'écriture Buissonnier"
+    },
+    {
+      "id": "11737",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier d'écriture petits papiers"
+    },
+    {
+      "id": "13390",
+      "reason": "outside_Paris",
+      "title": "Kiosques en fête dans les squares et jardins parisiens"
+    },
+    {
+      "id": "13407",
+      "reason": "outside_Paris",
+      "title": "Programme nature à Paris : des balades, ateliers et sorties gratuites pour tous"
+    },
+    {
+      "id": "14223",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les 4 Saisons de Vivaldi Intégrale & Petite Musique de Nuit de Mozart"
+    },
+    {
+      "id": "16238",
+      "reason": "outside_Paris",
+      "title": "Ces crèches qui accueillent les familles le samedi"
+    },
+    {
+      "id": "20167",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mélomanes en culotte courte"
+    },
+    {
+      "id": "22177",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "L’Inde à Paris : visite contée dans les temples hindous"
+    },
+    {
+      "id": "22794",
+      "reason": "outside_Paris",
+      "title": "Légendes et occultisme au Père Lachaise - visite guidée"
+    },
+    {
+      "id": "23188",
+      "reason": "outside_Paris",
+      "title": "Les secrets de Montmartre - visite guidée"
+    },
+    {
+      "id": "23322",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les 4 Saisons de Vivaldi, Ave Maria et Célèbres Adagios"
+    },
+    {
+      "id": "23327",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les 4 saisons de Vivaldi, Ave Maria et célèbres concertos"
+    },
+    {
+      "id": "23332",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Requiem de Mozart & Boléro de Ravel"
+    },
+    {
+      "id": "23426",
+      "reason": "outside_Paris",
+      "title": "La Grande Mosquée de Paris et sa balade contée"
+    },
+    {
+      "id": "23433",
+      "reason": "outside_Paris",
+      "title": "Les secrets du quartier Mouffetard"
+    },
+    {
+      "id": "23436",
+      "reason": "outside_Paris",
+      "title": "Le Paris de la folie : visite de la Salpêtrière"
+    },
+    {
+      "id": "23513",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Culture club"
+    },
+    {
+      "id": "23525",
+      "reason": "outside_Paris",
+      "title": "Les passages couverts parisiens - visite guidée"
+    },
+    {
+      "id": "25847",
+      "reason": "outside_Paris",
+      "title": "Les femmes célèbres du Père Lachaise - visite guidée"
+    },
+    {
+      "id": "25858",
+      "reason": "outside_Paris",
+      "title": "Le Paris secret des Templiers - visite guidée"
+    },
+    {
+      "id": "28537",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les 4 saisons de Vivaldi intégrale & Petite Musique de Nuit de Mozart"
+    },
+    {
+      "id": "28539",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les 4 Saisons de Vivaldi, Ave Maria et Célèbres Concertos"
+    },
+    {
+      "id": "32678",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "\"Aujourd'hui, c'est mon anniversaire\" : spectacle"
+    },
+    {
+      "id": "34804",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Stage arts plastiques | Chasse aux images | Vacances de Printemps 2026"
+    },
+    {
+      "id": "35420",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La Nuit européenne des musées à la Grande galerie de l'évolution"
+    },
+    {
+      "id": "36253",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mini sculpteur 1-3 ans en famille"
+    },
+    {
+      "id": "36261",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visite et atelier de modelage en famille - Petit sculpteur à quatre mains"
+    },
+    {
+      "id": "36806",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Requiem de Fauré, 3ème symphonie de Beethoven"
+    },
+    {
+      "id": "36815",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Boléro de Ravel / 9ème Symphonie de Beethoven"
+    },
+    {
+      "id": "37301",
+      "reason": "outside_Paris",
+      "title": "La Cité de l'Histoire, l'expérience immersive à travers l'Histoire de France"
+    },
+    {
+      "id": "37680",
+      "reason": "outside_Paris",
+      "title": "Le Paris gallo-romain : au temps de Lutèce"
+    },
+    {
+      "id": "38623",
+      "reason": "outside_Paris",
+      "title": "Jazz sur Seine : les clubs de jazz de Paris et d'Île-de-France font leur Festival !"
+    },
+    {
+      "id": "39280",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Contine-moi une histoire"
+    },
+    {
+      "id": "40855",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Copier, Créer : atelier de modelage pour adultes et adolescents"
+    },
+    {
+      "id": "41112",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "« Dernier coup de ciseaux » au Théâtre des Mathurins"
+    },
+    {
+      "id": "41151",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "The Live Thriller : l'expérience d'une enquête criminelle"
+    },
+    {
+      "id": "41529",
+      "reason": "outside_Paris",
+      "title": "Un parcours sonore et urbain"
+    },
+    {
+      "id": "41903",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Requiem de Verdi Eglise de la Madeleine"
+    },
+    {
+      "id": "42128",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les concerts en famille de Radio France"
+    },
+    {
+      "id": "42912",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Festival Gange sur Seine : à la découverte du cinéma indien"
+    },
+    {
+      "id": "43275",
+      "reason": "outside_Paris",
+      "title": "Octobre Rose : le programme 2026 pour s’informer et se faire dépister"
+    },
+    {
+      "id": "43877",
+      "reason": "outside_Paris",
+      "title": "Paris sport familles : profitez d'activités gratuites en famille le week-end."
+    },
+    {
+      "id": "44139",
+      "reason": "outside_Paris",
+      "title": "La Zombie Walk 2026"
+    },
+    {
+      "id": "44433",
+      "reason": "outside_Paris",
+      "title": "Paris sport proximité : des activités gratuites proches de chez vous"
+    },
+    {
+      "id": "44682",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : baby parkour (motricité enfant) au Centr'Halles Park Suzanne Berlioux"
+    },
+    {
+      "id": "44683",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : basket / motricité au gymnase Saint Germain"
+    },
+    {
+      "id": "44684",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : éveil gymnique et multisports au gymnase Valeyre"
+    },
+    {
+      "id": "44689",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : sport famille au gymnase Althea Gibson"
+    },
+    {
+      "id": "44692",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : jeux d'éveil / motricité au centre sportif Charcot"
+    },
+    {
+      "id": "44694",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : jeux d'éveil / motricité au gymnase Blanqui"
+    },
+    {
+      "id": "44698",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : badminton et basket au centre sportif Lenglen"
+    },
+    {
+      "id": "44700",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : Motricité (enfants) et renforcement (adultes) au centre sportif Charles Mildé"
+    },
+    {
+      "id": "44701",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : roller et skate à l'EGP18 et au gymnase des Fillettes"
+    },
+    {
+      "id": "44703",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : Activites motrices / multisports au gymnase Chapelle International"
+    },
+    {
+      "id": "48616",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : E-Sport au Quartier Jeunes"
+    },
+    {
+      "id": "48629",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : futsal au gymnase Suzanne Berlioux"
+    },
+    {
+      "id": "48632",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : cardio boxing, fitness, stretching et auto-défense féminine au gymnase Jean Dame"
+    },
+    {
+      "id": "48697",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition Mission spatiale à la Cité des sciences"
+    },
+    {
+      "id": "48709",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "On a vu, on a aimé « La Claque » au théâtre"
+    },
+    {
+      "id": "48774",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Badminton à la Halle des Blancs Manteaux"
+    },
+    {
+      "id": "48826",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Badminton et Volley-ball à Saint Merri"
+    },
+    {
+      "id": "48828",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : multisports (dominante basket) au TEP Paris Stadium Charlemagne"
+    },
+    {
+      "id": "49158",
+      "reason": "outside_Paris",
+      "title": "Paris sport proximité : stretching au gymnase Masseran"
+    },
+    {
+      "id": "49159",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton, basketball et pickleball au centre sportif Jacqueline Auriol"
+    },
+    {
+      "id": "49194",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton, basket au centre sportif Parmentier"
+    },
+    {
+      "id": "49195",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton et tennis de table au centre sportif de la Grange Aux Belles"
+    },
+    {
+      "id": "49247",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : initiation multisports à la Fontaine au Roi"
+    },
+    {
+      "id": "49251",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : initiation multisports au gymnase Cour des Lions"
+    },
+    {
+      "id": "49287",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le Monde de Noé, la première expérience immersive avec des animaux"
+    },
+    {
+      "id": "49300",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : musculation au centre sportif Victor Young Perez"
+    },
+    {
+      "id": "49301",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton, crossfit et gym douce au gymnase Reuilly"
+    },
+    {
+      "id": "49302",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : renforcement musculaire au centre sportif Léo Lagrange"
+    },
+    {
+      "id": "49415",
+      "reason": "outside_Paris",
+      "title": "Paris sport proximité : course à pied au parc Kellermann"
+    },
+    {
+      "id": "49417",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : tennis féminin, multisports au centre sportif Charles Moureu"
+    },
+    {
+      "id": "49418",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton, tennis de table et basket au gymnase le Stadium"
+    },
+    {
+      "id": "49421",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : tennis de table au gymnase Blanqui"
+    },
+    {
+      "id": "49440",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : futsal, basket, foot et tennis de table au centre sportif Elisabeth"
+    },
+    {
+      "id": "49441",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : roller, remise en forme et boxe au centre sportif Jules Noël"
+    },
+    {
+      "id": "49510",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : remise en forme, gym douce et badminton au centre sportif Emile Anthoine"
+    },
+    {
+      "id": "49511",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : marche nordique, badminton et volley au gymnase Fédération"
+    },
+    {
+      "id": "49514",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : remise en forme et stretching à la piscine Blomet"
+    },
+    {
+      "id": "49605",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : yoga, cross training, abdos/fessiers, boxe-française, badminton, futsal et basket au gymnase Charles Mildé"
+    },
+    {
+      "id": "49607",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : basket, remise en forme, coaching VMA, Mixed Martial Arts (MMA)au centre sportif Max-Rousié"
+    },
+    {
+      "id": "49640",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : futsal au Gymnase Adidas Arena, Alice CoachMan"
+    },
+    {
+      "id": "49643",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : remise en forme, boxe, circuit training et badminton au centre sportif Micheline Ostermeyer"
+    },
+    {
+      "id": "49645",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : remise en forme au Square Carpeaux"
+    },
+    {
+      "id": "49646",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton et tennis de table au gymnase Chapelle International"
+    },
+    {
+      "id": "49650",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : BMX, Skate et Roller à l'EGP18"
+    },
+    {
+      "id": "49652",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton au gymnase Tristant Tzara"
+    },
+    {
+      "id": "49654",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : cardio / circuit training au parc Chapelle Charbon"
+    },
+    {
+      "id": "49656",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : boxe au gymnase Ronsard"
+    },
+    {
+      "id": "49745",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton et boxe au gymnase Macdonald"
+    },
+    {
+      "id": "49751",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : initiation et éveil sportif au gymnase Archereau"
+    },
+    {
+      "id": "49752",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : initiation sportive au gymnase Mathis"
+    },
+    {
+      "id": "49878",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : tennis de table, badminton et pickleball au stade Louis Lumière"
+    },
+    {
+      "id": "49883",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : basket ball et running au centre sportif Maryse Hilsz"
+    },
+    {
+      "id": "49884",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : football mixte et tennis au centre sportif Déjerine"
+    },
+    {
+      "id": "49886",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : renforcement musculaire, préparation physique, self défense féminin et yoga à la salle de sport de Menilmontant"
+    },
+    {
+      "id": "49891",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : musculation/ cardio/ réathlétisation à la salle de sport Pelleport"
+    },
+    {
+      "id": "49892",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : boxe et préparation physique au Centre Sportif Angélique Duchemin (ex - TEP les Amandiers)"
+    },
+    {
+      "id": "49893",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton au gymnase Vignoles"
+    },
+    {
+      "id": "49894",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton & Futsal au gymnase Le Vau"
+    },
+    {
+      "id": "51468",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Ateliers de conversation : parler en français"
+    },
+    {
+      "id": "51551",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "L'exposition permanente du musée Banksy sur le plus mystérieux des graffeurs"
+    },
+    {
+      "id": "52150",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Saison culturelle de la Bibliothèque historique de la Ville de Paris"
+    },
+    {
+      "id": "53241",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "L'atelier du mercredi | À la manière de…"
+    },
+    {
+      "id": "53682",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Jazz & goûter : toute la programmation"
+    },
+    {
+      "id": "54741",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Amok - Sois toujours mort en Eurydice"
+    },
+    {
+      "id": "54742",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier de conversation en français à la bibliothèque Aimé Césaire ( Paris 14e)"
+    },
+    {
+      "id": "55034",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Animation jeux vidéo à la bibliothèque Aimé Césaire"
+    },
+    {
+      "id": "55039",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Animation jeux de société"
+    },
+    {
+      "id": "56271",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris Sportives : activités réathlétisation, nutrition avec le PARIS UNIVERSITE CLUB"
+    },
+    {
+      "id": "63815",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier numérique - Utilisation des ressources numériques des bibliothèques et d'Internet"
+    },
+    {
+      "id": "63949",
+      "reason": "outside_Paris",
+      "title": "C’est l’histoire d’une ville : parcours guidés pour découvrir Paris en famille"
+    },
+    {
+      "id": "64249",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "L'heure du conte des grands"
+    },
+    {
+      "id": "66448",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les coulisses de l’UNESCO"
+    },
+    {
+      "id": "66695",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les coulisses du stade Roland-Garros"
+    },
+    {
+      "id": "66697",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les coulisses des Ateliers des Gobelins"
+    },
+    {
+      "id": "66708",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les réserves du Mobilier national, visite exclusive"
+    },
+    {
+      "id": "66765",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Aura Invalides, l'expérience immersive"
+    },
+    {
+      "id": "66776",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Notre-Dame de Paris : les mystères de la reconstruction"
+    },
+    {
+      "id": "66778",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les mystères du Père Lachaise"
+    },
+    {
+      "id": "66785",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Balade au cœur des Passages Couverts"
+    },
+    {
+      "id": "66789",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris Street Art à la Butte-aux-Cailles"
+    },
+    {
+      "id": "66792",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les Francs-maçons, mythes et révélations sur une société secrète"
+    },
+    {
+      "id": "66818",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris côté obscur"
+    },
+    {
+      "id": "66821",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris, cité du crime"
+    },
+    {
+      "id": "66827",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le Cambrioleur de la Butte Montmartre"
+    },
+    {
+      "id": "66829",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le prisonnier de la Bastille"
+    },
+    {
+      "id": "67052",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Un cocktail magique avec Maxence Vire au Théâtre Le Double Fond"
+    },
+    {
+      "id": "67362",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "« Le Milieu des choses », une œuvre de Javier Carro Temboury pour Black Swan Real Estate Capital"
+    },
+    {
+      "id": "68154",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : Bougez en famille à la piscine Emile Anthoine"
+    },
+    {
+      "id": "68163",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : multisports au gymnase Atlas"
+    },
+    {
+      "id": "68165",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : motricité/coordination au gymnase Paul Meurice"
+    },
+    {
+      "id": "68607",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Jeu de piste à Paris : Le Trésor du Marais"
+    },
+    {
+      "id": "68610",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Jeu de Piste à Paris : La Romance de la Butte"
+    },
+    {
+      "id": "69188",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Ateliers de conversation en vietnamien"
+    },
+    {
+      "id": "69235",
+      "reason": "outside_Paris",
+      "title": "Paris Sport Dimanches : et si on faisait du sport gratuitement en bas de chez soi ?"
+    },
+    {
+      "id": "69375",
+      "reason": "outside_Paris",
+      "title": "Découvrez la programmation du Mois de la prévention des rixes"
+    },
+    {
+      "id": "69406",
+      "reason": "outside_Paris",
+      "title": "Paris sport dimanches : Boxe Fit adultes / Boxe enfant au Parc Martin Luther King"
+    },
+    {
+      "id": "69491",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Parkour au Centr'Halles Suzanne Berlioux"
+    },
+    {
+      "id": "69522",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton, basket et de remise en forme au centre sportif Michel Le Comte"
+    },
+    {
+      "id": "69603",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : futsal au centre sportif Suzanne Lenglen"
+    },
+    {
+      "id": "69656",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton et tennis de table au gymnase Wilma Rudolph (EX Madeleine Rébérioux)"
+    },
+    {
+      "id": "69683",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : remise en forme, STEP, course à pied au centre sportif Bertrand Dauvin"
+    },
+    {
+      "id": "69685",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton, futsal, basket et tennis au centre sportif Bertrand Dauvin"
+    },
+    {
+      "id": "69706",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : karaté, football, badminton, padel au centre sportif Jules Ladoumègue"
+    },
+    {
+      "id": "69708",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : marche sportive et préparation physique générale (PPG) au centre sportif Jules Ladoumègue"
+    },
+    {
+      "id": "70074",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Futsal, basket au gymnase Fragonard"
+    },
+    {
+      "id": "75197",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Heure du conte"
+    },
+    {
+      "id": "76051",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "L'Atelier créatif ados-adultes"
+    },
+    {
+      "id": "76412",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris Volley : le calendrier complet des matchs à domicile"
+    },
+    {
+      "id": "76677",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Club de lecture"
+    },
+    {
+      "id": "77921",
+      "reason": "outside_Paris",
+      "title": "Découvrez les clubs seniors parisiens !"
+    },
+    {
+      "id": "77923",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 5e arrondissement de Paris"
+    },
+    {
+      "id": "77986",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visites guidées en Sorbonne"
+    },
+    {
+      "id": "78206",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Troc de graines et de boutures"
+    },
+    {
+      "id": "78285",
+      "reason": "outside_Paris",
+      "title": "Les animations pour jouer en bibliothèque"
+    },
+    {
+      "id": "78739",
+      "reason": "outside_Paris",
+      "title": "Montmartre Enchanté by night la visite nocturne en chansons et à pieds"
+    },
+    {
+      "id": "79191",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 20e arrondissement de Paris"
+    },
+    {
+      "id": "79211",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs seniors dans le 17e arrondissement de Paris"
+    },
+    {
+      "id": "79213",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs seniors dans le 8e arrondissement de Paris"
+    },
+    {
+      "id": "79214",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 15e arrondissement de Paris"
+    },
+    {
+      "id": "79215",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 11e arrondissement de Paris"
+    },
+    {
+      "id": "79216",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 6e arrondissement de Paris"
+    },
+    {
+      "id": "79217",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 14e arrondissement de Paris"
+    },
+    {
+      "id": "79218",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 7e arrondissement de Paris"
+    },
+    {
+      "id": "79219",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 16e arrondissement de Paris"
+    },
+    {
+      "id": "79220",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 13e arrondissement de Paris"
+    },
+    {
+      "id": "79221",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 18e arrondissement de Paris"
+    },
+    {
+      "id": "79222",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans l'arrondissement Centre de Paris"
+    },
+    {
+      "id": "79231",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 9e arrondissement de Paris"
+    },
+    {
+      "id": "79234",
+      "reason": "outside_Paris",
+      "title": "Soirée astrologie : visite guidée + conférence"
+    },
+    {
+      "id": "79240",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 19e arrondissement de Paris"
+    },
+    {
+      "id": "79250",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier Fabrique à Brac"
+    },
+    {
+      "id": "79252",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier crochet"
+    },
+    {
+      "id": "79253",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 10e arrondissement de Paris"
+    },
+    {
+      "id": "79255",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez les activités des clubs séniors dans le 12e arrondissement de Paris"
+    },
+    {
+      "id": "79672",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Points Paris Emploi : le programme"
+    },
+    {
+      "id": "79834",
+      "reason": "outside_Paris",
+      "title": "La culture à pleines mains"
+    },
+    {
+      "id": "80120",
+      "reason": "outside_Paris",
+      "title": "Une visite insolite au cœur de la Tour aux figures"
+    },
+    {
+      "id": "80712",
+      "reason": "outside_Paris",
+      "title": "Piscines parisiennes : le programme des activités du week-end"
+    },
+    {
+      "id": "81463",
+      "reason": "outside_Paris",
+      "title": "Paris Sportives : du sport en plein air pour toutes !"
+    },
+    {
+      "id": "81498",
+      "reason": "outside_Paris",
+      "title": "Sport Seniors en plein air : un programme dynamique pour votre bien-être et votre vitalité"
+    },
+    {
+      "id": "81856",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris Sportives : Initiation skateboard avec Le Comité Départemental de Roller et de Skateboard de Paris"
+    },
+    {
+      "id": "81867",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Troc de graines et de boutures 2026"
+    },
+    {
+      "id": "82379",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Cabaret d'improvisation à la MVAC"
+    },
+    {
+      "id": "82926",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Jeu de piste - Enquête à Paris : Le Revers de la Médaille"
+    },
+    {
+      "id": "82932",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Jeu de piste - Enquête sur l'Île de la Cité : l'Île aux espions"
+    },
+    {
+      "id": "83397",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier Kokedama"
+    },
+    {
+      "id": "85896",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Apprenez à réparer vos objets avec la Bricolette et Solicyle"
+    },
+    {
+      "id": "86041",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Marche culturelle et sportive - Parcours Centre"
+    },
+    {
+      "id": "86111",
+      "reason": "outside_Paris",
+      "title": "(Re)découvrez les musées de la Ville de Paris en famille !"
+    },
+    {
+      "id": "86861",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au Square Edouard Vaillant"
+    },
+    {
+      "id": "86893",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square Séverine"
+    },
+    {
+      "id": "86903",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square Sarah Bernhardt"
+    },
+    {
+      "id": "86912",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au parc de Belleville"
+    },
+    {
+      "id": "86945",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au Square Serge Reggiani"
+    },
+    {
+      "id": "86949",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en fête au Square Monseigneur Maillet"
+    },
+    {
+      "id": "86956",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en fête au square Paul Robin"
+    },
+    {
+      "id": "86961",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square Maurice Kriegel-Valrimont"
+    },
+    {
+      "id": "86974",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en fête au Jardin d'Éole"
+    },
+    {
+      "id": "86981",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en fête au square des Epinettes"
+    },
+    {
+      "id": "86986",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en fête sur la Promenade Pereire - Gilberte Brossolette"
+    },
+    {
+      "id": "86996",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en fête au jardin du Ranelagh"
+    },
+    {
+      "id": "87001",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en fête au square Violet"
+    },
+    {
+      "id": "87013",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en fête au square Necker"
+    },
+    {
+      "id": "87028",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en fête au square Jean Chérioux"
+    },
+    {
+      "id": "87076",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez l'expo photo « Nature sauvage à Paris »"
+    },
+    {
+      "id": "87199",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visite guidée : Histoire des Buttes-Chaumont"
+    },
+    {
+      "id": "87667",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Succès reprise ! « Maître Mô » revient au Funambule Montmartre !"
+    },
+    {
+      "id": "88005",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Saison 2026-2027 : ouverture des inscriptions"
+    },
+    {
+      "id": "88415",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visite guidée : Les femmes du Père-Lachaise"
+    },
+    {
+      "id": "88433",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La Petite Séance - Projections jeunesse"
+    },
+    {
+      "id": "88721",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visite guidée : Bouchers et ogresses au coeur de Paris"
+    },
+    {
+      "id": "90237",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Jeux vidéo"
+    },
+    {
+      "id": "90297",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "L'agenda du CRR de Paris"
+    },
+    {
+      "id": "90308",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Sport Santé jeunesse au Quartier Jeunes"
+    },
+    {
+      "id": "90388",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visite guidée : Histoire de la prostitution à Paris"
+    },
+    {
+      "id": "90605",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Badminton au centre sportif Julie Vlasto"
+    },
+    {
+      "id": "90614",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : tennis au centre sportif Charles Rigoulot"
+    },
+    {
+      "id": "90617",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : préparation physique générale à l'Ile aux Cygnes"
+    },
+    {
+      "id": "90671",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : remise en forme au centre sportif Suchet"
+    },
+    {
+      "id": "90678",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Abdos / fessiers au gymnase Renée Garilhe (ex: gymnase Courcelles)"
+    },
+    {
+      "id": "90679",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton au gymnase Mösche Weinberg"
+    },
+    {
+      "id": "90681",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Foot féminin au gymnase Pierre Rémond"
+    },
+    {
+      "id": "90752",
+      "reason": "outside_Paris",
+      "title": "Le programme de la Fête des Vendanges de Montmartre 2026"
+    },
+    {
+      "id": "90758",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : remise en forme au square Maurice-Kriegel"
+    },
+    {
+      "id": "90759",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : remise en forme au square Léon Serpollet"
+    },
+    {
+      "id": "90884",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visite guidée : Les femmes en or de Paris 2024"
+    },
+    {
+      "id": "90888",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : entretien corporel à la salle de sport Michelet Curial"
+    },
+    {
+      "id": "90889",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton au centre sportif Paul Meurice"
+    },
+    {
+      "id": "90890",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : badminton en famille, option tennis de table"
+    },
+    {
+      "id": "90895",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : éveil gymnique au gymnase de la Grange Aux Belles"
+    },
+    {
+      "id": "90898",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : motricité au gymnase Rosa Parks"
+    },
+    {
+      "id": "90899",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : motricité (enfants) et renforcement (adultes) au centre sportif Suchet"
+    },
+    {
+      "id": "90900",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : motricité et badminton au complexe sportif Alice Milliat"
+    },
+    {
+      "id": "90940",
+      "reason": "outside_Paris",
+      "title": "Les visites guidées du Parcours Révolution : saison 2026"
+    },
+    {
+      "id": "91260",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La bibliothèque Marguerite Audoux fait son cinéma"
+    },
+    {
+      "id": "91521",
+      "reason": "outside_Paris",
+      "title": "Toutes les expositions gratuites de la Ville"
+    },
+    {
+      "id": "92079",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le samedi des enfants"
+    },
+    {
+      "id": "92080",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "De fil en aiguille : club de tricot, crochet, broderie"
+    },
+    {
+      "id": "92788",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les évènements du conservatoire Mozart"
+    },
+    {
+      "id": "98772",
+      "reason": "outside_Paris",
+      "title": "Aux frontières de l'Imaginaire, exposition collective au Pavillon Vendôme"
+    },
+    {
+      "id": "99418",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition : Les comédiennes des passerelles"
+    },
+    {
+      "id": "99419",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "L'agenda du Conservatoire Erik Satie"
+    },
+    {
+      "id": "99981",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Que faire à Paris quand on est gourmand"
+    },
+    {
+      "id": "100259",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Groupe de parole pour les malades du cancer"
+    },
+    {
+      "id": "100800",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mazarin et les Gardiens du secret"
+    },
+    {
+      "id": "101425",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Fresque « Protégeons les civils des bombardements »"
+    },
+    {
+      "id": "101578",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le Nid - La cabane de Lucie Felix"
+    },
+    {
+      "id": "101658",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Parole d'hommes et co-parents"
+    },
+    {
+      "id": "101801",
+      "reason": "outside_Paris",
+      "title": "« Mon premier atelier santé environnement » : pour bien démarrer avec votre bébé"
+    },
+    {
+      "id": "101809",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement au centre de PMI Rhin et Danube"
+    },
+    {
+      "id": "101818",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement au centre de PMI Lefebvre"
+    },
+    {
+      "id": "101819",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement au centre de PMI Ménilmontant"
+    },
+    {
+      "id": "101821",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement au centre de PMI la Chapelle"
+    },
+    {
+      "id": "102063",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement au centre de PMI Satragne"
+    },
+    {
+      "id": "102064",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement au centre de PMI Raspail"
+    },
+    {
+      "id": "102066",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement au centre de PMI Lauriston"
+    },
+    {
+      "id": "102067",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement à la PMI Tourneux"
+    },
+    {
+      "id": "102068",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement au centre de PMI Wagram"
+    },
+    {
+      "id": "102069",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement au centre de PMI Caillebotte"
+    },
+    {
+      "id": "102175",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visite-atelier Pop-up à l'Arc de triomphe"
+    },
+    {
+      "id": "102177",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visite-atelier « Décors en origami » à l'Arc de triomphe"
+    },
+    {
+      "id": "102307",
+      "reason": "outside_Paris",
+      "title": "Visite originale dans Paris : le trésor du Louvre"
+    },
+    {
+      "id": "102312",
+      "reason": "outside_Paris",
+      "title": "Visite insolite avec des comédiens : l’Intrigue des Passages Couverts"
+    },
+    {
+      "id": "102358",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Une chorale pop participative où tout le monde donne de la voix !"
+    },
+    {
+      "id": "102361",
+      "reason": "outside_Paris",
+      "title": "Visite enquête insolite autour de Notre-Dame de Paris"
+    },
+    {
+      "id": "102406",
+      "reason": "outside_Paris",
+      "title": "3 raisons d’applaudir « La Cage aux folles », à la Seine Musicale"
+    },
+    {
+      "id": "102547",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le cycle musical de Paul Serri au Théâtre de la Concorde !"
+    },
+    {
+      "id": "102572",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Un cycle pour explorer la démocratie au Théâtre de la Concorde"
+    },
+    {
+      "id": "103173",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Apéro citoyen"
+    },
+    {
+      "id": "103234",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Cycle IA, démocraties et milieu informationnel"
+    },
+    {
+      "id": "103520",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Club Ciné"
+    },
+    {
+      "id": "103646",
+      "reason": "outside_Paris",
+      "title": "Groupe de parole : Femmes victimes de violences intrafamiliales"
+    },
+    {
+      "id": "103792",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "30h - Formation \"Yogathérapie et douleurs\""
+    },
+    {
+      "id": "103942",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Une année de réchauffement, une comédie malgré tout !"
+    },
+    {
+      "id": "104239",
+      "reason": "outside_Paris",
+      "title": "Paris-Roma : et si on célébrait les 70 ans du jumelage ?"
+    },
+    {
+      "id": "104301",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Initiation à la sérigraphie"
+    },
+    {
+      "id": "105098",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Complot à la Conciergerie"
+    },
+    {
+      "id": "105106",
+      "reason": "outside_Paris",
+      "title": "Cercle de paroles de femmes"
+    },
+    {
+      "id": "105260",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier : À vous de bruiter !"
+    },
+    {
+      "id": "105261",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier : Raconte moi la pellicule"
+    },
+    {
+      "id": "105263",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier : Ciné puzzle"
+    },
+    {
+      "id": "105267",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier : Tout en couleurs"
+    },
+    {
+      "id": "105291",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Ciné spectacle : Drôles d'inventions"
+    },
+    {
+      "id": "105312",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition photo de Frédéric Combeau - \"Focus sur la biodiversité parisienne\""
+    },
+    {
+      "id": "105327",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier \"Wikipédia, wikisource : découvrez, contribuez !\""
+    },
+    {
+      "id": "105450",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les rendez-vous de l'Escalier : café littéraire et culturel"
+    },
+    {
+      "id": "105454",
+      "reason": "outside_Paris",
+      "title": "Exposition « Paris - Rome » à Espace Musées"
+    },
+    {
+      "id": "105467",
+      "reason": "outside_Paris",
+      "title": "Parcours bien-être dans le Bois de Vincennes : Respirations, méditation, sophrologie"
+    },
+    {
+      "id": "105917",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La grande aventure du savoir médical"
+    },
+    {
+      "id": "106067",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Initiation aux gestes qui sauvent pour bébé"
+    },
+    {
+      "id": "106110",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Stages vacances d'automne dans le 12ème"
+    },
+    {
+      "id": "106312",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier Créatif Linogravure"
+    },
+    {
+      "id": "106408",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Agenda artistique du Conservatoire Municipal Francis Poulenc"
+    },
+    {
+      "id": "106519",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Déclic - Aide numérique"
+    },
+    {
+      "id": "106854",
+      "reason": "outside_Paris",
+      "title": "Una Roberta a Parigi : édition Spéciale en l'honneur du jumelage Paris-Rome"
+    },
+    {
+      "id": "106911",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le Chantier invisible : dans les coulisses des films de Jean-Jacques Annaud"
+    },
+    {
+      "id": "106958",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Expérience vins & fromages"
+    },
+    {
+      "id": "107076",
+      "reason": "outside_Paris",
+      "title": "Billy mais pas Elliot - Théâtre La Flèche"
+    },
+    {
+      "id": "107716",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "« Voyage en milieux humides », la nouvelle saison du Parc zoologique de Paris"
+    },
+    {
+      "id": "108024",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les 4 Saisons de Vivaldi Intégrale & Petite Musique de Nuit de Mozart"
+    },
+    {
+      "id": "108037",
+      "reason": "outside_Paris",
+      "title": "Les courses à pied à faire en équipe à Paris cette année"
+    },
+    {
+      "id": "108521",
+      "reason": "outside_Paris",
+      "title": "Visites Spectacles : découvrez Paris comme vous ne l’avez jamais vu"
+    },
+    {
+      "id": "108547",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au jardin Nelson Mandela"
+    },
+    {
+      "id": "108548",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square du Temple - Elie Wiesel"
+    },
+    {
+      "id": "108549",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au jardin des Champs-Élysées"
+    },
+    {
+      "id": "108553",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square d'Anvers - Jean-Claude Carrière"
+    },
+    {
+      "id": "108554",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au jardin Villemin - Mahsa Jîna Amini"
+    },
+    {
+      "id": "108560",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square Maurice Gardette"
+    },
+    {
+      "id": "108565",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square Dominique Bernard (ex Jules Ferry)"
+    },
+    {
+      "id": "108567",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au jardin de Marianne"
+    },
+    {
+      "id": "108569",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square Courteline"
+    },
+    {
+      "id": "108570",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square Jean Morin"
+    },
+    {
+      "id": "108572",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square Trousseau"
+    },
+    {
+      "id": "108592",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au parc de Choisy"
+    },
+    {
+      "id": "108593",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au Boulevard Blanqui"
+    },
+    {
+      "id": "108620",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au parc Montsouris"
+    },
+    {
+      "id": "108621",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square du Cardinal Wyszynski"
+    },
+    {
+      "id": "108623",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square Yvette-Chauviré"
+    },
+    {
+      "id": "108625",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au parc Georges Brassens"
+    },
+    {
+      "id": "108629",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square Franck Bauer"
+    },
+    {
+      "id": "108633",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au parc Sainte-Périne"
+    },
+    {
+      "id": "108635",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête à la promenade Pereire - Thérèse Pierre"
+    },
+    {
+      "id": "108637",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête à la promenade Pereire - Ternes Maillot"
+    },
+    {
+      "id": "108638",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au square Carpeaux"
+    },
+    {
+      "id": "108640",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Kiosque en Fête au jardin Curial"
+    },
+    {
+      "id": "108814",
+      "reason": "outside_Paris",
+      "title": "Le Jardin des langues"
+    },
+    {
+      "id": "108816",
+      "reason": "outside_Paris",
+      "title": "SISM 2026 dans les bibliothèques parisiennes"
+    },
+    {
+      "id": "108823",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Ecole du Kiosque - Kiosques en fête"
+    },
+    {
+      "id": "108926",
+      "reason": "outside_Paris",
+      "title": "Le Paris de la luxure - visite guidée"
+    },
+    {
+      "id": "109021",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "« Parole de femmes » : échanges à la Maison des 1000 premiers jours du 20e"
+    },
+    {
+      "id": "109036",
+      "reason": "outside_Paris",
+      "title": "Conférences Mardis de l'histoire de Paris : le divertissement à Paris"
+    },
+    {
+      "id": "109547",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris Sportives : Multisports avec La Maison Bleue"
+    },
+    {
+      "id": "109569",
+      "reason": "outside_Paris",
+      "title": "Festival des Places 2026"
+    },
+    {
+      "id": "109615",
+      "reason": "outside_Paris",
+      "title": "Soirée jeux avec Paris Social Club"
+    },
+    {
+      "id": "109618",
+      "reason": "outside_Paris",
+      "title": "Cours de salsa et salsa party"
+    },
+    {
+      "id": "109841",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les 4 Saisons de Vivaldi, Ave Maria et Célèbres Adagios"
+    },
+    {
+      "id": "109846",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Gospel Hélios, profitez d'un concert à l’Église de Saint Philippe du Roule"
+    },
+    {
+      "id": "109849",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les 4 Saisons de Vivaldi, Ave Maria, Concerto de Mendelssohn à l'église Saint-Sulpice"
+    },
+    {
+      "id": "109877",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Concert Gospel Hélios à l’Église Saint Philippe du Roule"
+    },
+    {
+      "id": "109911",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le premier génocide du XXe siècle : Herero et Nama dans le Sud-Ouest africain allemand, 1904-1908"
+    },
+    {
+      "id": "110232",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Musique en Mouvement - Ecole de musique"
+    },
+    {
+      "id": "110514",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement au centre de PMI Choron"
+    },
+    {
+      "id": "110532",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Centre Culturel Canadien : la programmation du moment"
+    },
+    {
+      "id": "110700",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La Philharmonie des enfants"
+    },
+    {
+      "id": "110744",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Soirées jeux de société - bilingue LSF/FR"
+    },
+    {
+      "id": "111187",
+      "reason": "outside_Paris",
+      "title": "Apéro jeux avec Paris Social Club"
+    },
+    {
+      "id": "111215",
+      "reason": "outside_Paris",
+      "title": "Où faire du foot gratuitement à Paris quand on est une femme ?"
+    },
+    {
+      "id": "111233",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Recrutement staff & équipe artistique – Comédie musicale à Paris (2026/2027)"
+    },
+    {
+      "id": "111264",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Jam de Carreau"
+    },
+    {
+      "id": "111563",
+      "reason": "outside_Paris",
+      "title": "Le programme des marches culturelles et sportives des musées parisiens"
+    },
+    {
+      "id": "111589",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "EXPOSITION | \"Grands Lacs – L’horizon commun des mers intérieures\", Robert Burley"
+    },
+    {
+      "id": "111648",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visitez les Grandes Serres du Jardin des Plantes"
+    },
+    {
+      "id": "111703",
+      "reason": "outside_Paris",
+      "title": "Salon International Coquelicot - 6ème édition"
+    },
+    {
+      "id": "111724",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Soirées jeux des bibliothèques du 10e"
+    },
+    {
+      "id": "111749",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Musée de l'IMA"
+    },
+    {
+      "id": "112095",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Académie Musicale du 13ème et du 5ème Inscriptions 2026-2027"
+    },
+    {
+      "id": "112220",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La fin des temps"
+    },
+    {
+      "id": "112230",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les P'tits Fauteuils"
+    },
+    {
+      "id": "112910",
+      "reason": "permanent_collection_place_layer",
+      "title": "Musée de la musique - Collection permanente"
+    },
+    {
+      "id": "113034",
+      "reason": "outside_Paris",
+      "title": "Exposition \"Écorces\" à l'Arboretum de Paris"
+    },
+    {
+      "id": "113112",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "L'Espace entre nous"
+    },
+    {
+      "id": "113321",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris 20e Nature : Le Peuple Invisible du 20e"
+    },
+    {
+      "id": "113350",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Bercy encore"
+    },
+    {
+      "id": "113360",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "BiblioCréation à Paris 18 : quand les livres ouvrent la voie à l’écriture et à la rencontre"
+    },
+    {
+      "id": "113405",
+      "reason": "outside_Paris",
+      "title": "L'Automne de la science dans les bibliothèques - La nature nous inspire"
+    },
+    {
+      "id": "113553",
+      "reason": "outside_Paris",
+      "title": "Que faire à Paris quand on aime le vélo"
+    },
+    {
+      "id": "113563",
+      "reason": "outside_Paris",
+      "title": "Mahabharata, une histoire de la violence – nouvelle création de Pauline Bayle"
+    },
+    {
+      "id": "113598",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La cabane des petites histoires (0-3 ans)"
+    },
+    {
+      "id": "113761",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Sam'dit de lire : le club de lecture pour les ados"
+    },
+    {
+      "id": "113764",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Des livres et des biberons"
+    },
+    {
+      "id": "113860",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Soirée Jeu de rôle"
+    },
+    {
+      "id": "113922",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Prisonnières - Les dernières années de la prison Saint-Lazare (1919-1932)"
+    },
+    {
+      "id": "114052",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition ImmersION : dialogue entre liberté créative et rigueur scientifique"
+    },
+    {
+      "id": "114172",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Voyage extraordinaire à la Galerie de l’Évolution"
+    },
+    {
+      "id": "114178",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "BÉATRICE CIVATON - “FLORAISON”"
+    },
+    {
+      "id": "114430",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition \"Animalia. Bestiaire de la Collection Al Thani\""
+    },
+    {
+      "id": "114466",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "#Rdv avec LE QUINT’UP"
+    },
+    {
+      "id": "114485",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition \"Cornebidouille\" de L'école des loisirs"
+    },
+    {
+      "id": "114531",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Club Mordus du manga"
+    },
+    {
+      "id": "114561",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Soirées jeux - bibliothèques du 5e et 6e arrondissement"
+    },
+    {
+      "id": "114579",
+      "reason": "outside_Paris",
+      "title": "Zoufris Maracas"
+    },
+    {
+      "id": "114666",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les Parisculteurs s'exposent pour les 10 ans du Paysan urbain"
+    },
+    {
+      "id": "114726",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Vive la mariée !"
+    },
+    {
+      "id": "114754",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition les imprimés du cinéma - Vidocq, Fantômas, James Bond et autres univers transmédiatiques"
+    },
+    {
+      "id": "114761",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition - Sow cyan"
+    },
+    {
+      "id": "114803",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Ateliers conversation & clubs de lecture en italien"
+    },
+    {
+      "id": "114866",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "1, 2, 3, Raconte moi"
+    },
+    {
+      "id": "114869",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Marta Domingo 5tet"
+    },
+    {
+      "id": "114910",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "English Club à la bibliothèque Buffon"
+    },
+    {
+      "id": "114947",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "A la recherche d'Agatha Christie dans les bibliothèques du sud-ouest parisien"
+    },
+    {
+      "id": "115004",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les Heures du Conte - Bilingues LSF/FR"
+    },
+    {
+      "id": "115007",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier tissu Cirque & Danse"
+    },
+    {
+      "id": "115009",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Ateliers linguistiques Jardin des langues - bibliothèque Buffon"
+    },
+    {
+      "id": "115036",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Avec une légère intimité : Madeleine Malraux, pianiste"
+    },
+    {
+      "id": "115085",
+      "reason": "outside_Paris",
+      "title": "Lumière & Vision - La Course 2026"
+    },
+    {
+      "id": "115150",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Eveil théâtral 4-5 ans 75011"
+    },
+    {
+      "id": "115192",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Ateliers cirque aérien adultes"
+    },
+    {
+      "id": "115279",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le vivant comme modèle - une exposition du CNRS"
+    },
+    {
+      "id": "115291",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Viens faire de la comédie musicale à Paris !"
+    },
+    {
+      "id": "115300",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition \"Témoins des réalités climatiques : la migration comme adaptation\""
+    },
+    {
+      "id": "115308",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "FORMULA BULA 2026 - Marly ou la neige en été, une exposition d'Emmanuel Lantam"
+    },
+    {
+      "id": "115349",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition | Les P'tits naturalistes"
+    },
+    {
+      "id": "115383",
+      "reason": "outside_Paris",
+      "title": "Découvrir et pratiquer les langues étrangères dans les bibliothèques de la Ville de Paris"
+    },
+    {
+      "id": "115465",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "1976-2026. Regards croisés"
+    },
+    {
+      "id": "115512",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les métiers d'art dans les photographies de François Kollar"
+    },
+    {
+      "id": "115547",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Permanence du Réseau EIF·FEL"
+    },
+    {
+      "id": "115579",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les Automnales du 10e"
+    },
+    {
+      "id": "115587",
+      "reason": "outside_Paris",
+      "title": "Gildaa + Arthur Ely"
+    },
+    {
+      "id": "115599",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition Jean-Henri Fabre"
+    },
+    {
+      "id": "115627",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition \"Chaussez vos bottes\" avec Chloé du Colombier"
+    },
+    {
+      "id": "115629",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition Hypersensible Hyperpouvoir : les Piailleries de la Maison Perchée"
+    },
+    {
+      "id": "115693",
+      "reason": "outside_Paris",
+      "title": "Schéhérazade"
+    },
+    {
+      "id": "115698",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les Bébé Concerts de l'Orchestre Lamoureux"
+    },
+    {
+      "id": "115795",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La Place fête ses 10 ans !"
+    },
+    {
+      "id": "116125",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Aquarelle : carnet de voyage"
+    },
+    {
+      "id": "116182",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Jeux de rôle à la médiathèque Marguerite Duras - septembre - novembre"
+    },
+    {
+      "id": "116240",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement à la Maison des 1000 premiers jours du 18ème"
+    },
+    {
+      "id": "116246",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Thés dansants saison 2026-2027"
+    },
+    {
+      "id": "116254",
+      "reason": "outside_Paris",
+      "title": "Ateliers éducatifs gratuits pour les jeunes"
+    },
+    {
+      "id": "116278",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition : Monika Emmanuelle Kazi au Centre culturel suisse"
+    },
+    {
+      "id": "116310",
+      "reason": "outside_Paris",
+      "title": "Semaine parisienne de lutte contre les discriminations : le programme 2026"
+    },
+    {
+      "id": "116453",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Germaine Acogny, Gregory Maqoma _ As We Are"
+    },
+    {
+      "id": "116454",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les Pensées Nicolas Doutey / Sylvain Maurice"
+    },
+    {
+      "id": "116545",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Night Swimming • Buenos Vampiros • Hors Service"
+    },
+    {
+      "id": "116579",
+      "reason": "outside_Paris",
+      "title": "Sur les traces de la Seconde Guerre mondiale"
+    },
+    {
+      "id": "116581",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "4e Forum générations de la Shoah"
+    },
+    {
+      "id": "116611",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les P'tits Baudets, la prog famille des Trois Baudets !"
+    },
+    {
+      "id": "116712",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mary Pickford, la grâce et la malice"
+    },
+    {
+      "id": "116737",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "6ème Édition de la Semaine des Autres Modes"
+    },
+    {
+      "id": "116756",
+      "reason": "outside_Paris",
+      "title": "Jungle avec Rachel Mbiga Epelbaum"
+    },
+    {
+      "id": "116759",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Oliver Twist"
+    },
+    {
+      "id": "116764",
+      "reason": "outside_Paris",
+      "title": "Goûter Philo"
+    },
+    {
+      "id": "116781",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La première pièce inédite et vraiment personnelle de Jean-Luc Lagarce au Funambule Montmartre"
+    },
+    {
+      "id": "116787",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Venez découvrir La fin de la civilisation au Funambule Montmartre !"
+    },
+    {
+      "id": "116788",
+      "reason": "outside_Paris",
+      "title": "Sorority Boxing"
+    },
+    {
+      "id": "116789",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Démodé, la comédie qui fait vivre les mots !"
+    },
+    {
+      "id": "116792",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Embarquez pour un voyage au cœur des livres et de la vie de Françoise Sagan au Funambule Montmartre."
+    },
+    {
+      "id": "116826",
+      "reason": "outside_Paris",
+      "title": "Le Paris de la sorcellerie"
+    },
+    {
+      "id": "116870",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition des photographies de Karl Blossfeldt"
+    },
+    {
+      "id": "116924",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "FRANCHIR, une exposition sur le pont Saint-Ange"
+    },
+    {
+      "id": "116952",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "On a vu, on a aimé « Le Procès d’une vie » : le jour où les femmes ont dit non"
+    },
+    {
+      "id": "116953",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "« L’Art d’avoir toujours raison », au Théâtre Tristan Bernard"
+    },
+    {
+      "id": "116957",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "On a vu, on a aimé « La Zone indigo » : une fiction qui ressemble dangereusement au réel"
+    },
+    {
+      "id": "116987",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Tout en parlant de lectures"
+    },
+    {
+      "id": "116995",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition personnelle « Pluie fossile » de Julien Discrit à la Galerie Anne-Sarah Bénichou"
+    },
+    {
+      "id": "117024",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Ce matin-LÀ !"
+    },
+    {
+      "id": "117025",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Chevaliers Princesse et Dragon"
+    },
+    {
+      "id": "117026",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Flash le petit papillon dont les minutes sont contées"
+    },
+    {
+      "id": "117028",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "ADOS"
+    },
+    {
+      "id": "117029",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visites-conférences pour les collections permanentes"
+    },
+    {
+      "id": "117031",
+      "reason": "outside_Paris",
+      "title": "Location de barques sur le lac des Minimes"
+    },
+    {
+      "id": "117093",
+      "reason": "outside_Paris",
+      "title": "TaxiTram octobre 2026"
+    },
+    {
+      "id": "117162",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon premier atelier santé environnement à la Maison des 1000 premiers jours du 20ème"
+    },
+    {
+      "id": "117171",
+      "reason": "outside_Paris",
+      "title": "Yoga avec Céline Coelho"
+    },
+    {
+      "id": "117196",
+      "reason": "outside_Paris",
+      "title": "Visites insolites du CNRS 2026 : la science comme vous ne l’avez jamais vue !"
+    },
+    {
+      "id": "117217",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "« Fénéstrou », une exposition photographique"
+    },
+    {
+      "id": "117218",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "SISM 2026 « Pour notre santé mentale, Ouvrons-Nous aux Arts »"
+    },
+    {
+      "id": "117240",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition 10 000 ans de voyage gustatif"
+    },
+    {
+      "id": "117276",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "J'ai un coup de cœur… et vous ?"
+    },
+    {
+      "id": "117277",
+      "reason": "outside_Paris",
+      "title": "Maroc multiculturel"
+    },
+    {
+      "id": "117280",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les bibliothécaires racontent et signent"
+    },
+    {
+      "id": "117292",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "« Sur les traces des dinosaures » à la Grande Galerie de l'Évolution"
+    },
+    {
+      "id": "117325",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Un Cycle de Ciné-philo au Théâtre de la Concorde"
+    },
+    {
+      "id": "117331",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Breque - Lisa Biscaro Balle"
+    },
+    {
+      "id": "117366",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Prix des Mordus du Manga 2026 à la bibliothèque Benoîte Groult"
+    },
+    {
+      "id": "117385",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La Tendresse de Julie Berès au Théâtre de la Concorde"
+    },
+    {
+      "id": "117431",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier chorale : Mai en chantant"
+    },
+    {
+      "id": "117444",
+      "reason": "outside_Paris",
+      "title": "Duo gourmand : Mini cakes citron / huile d’olive"
+    },
+    {
+      "id": "117461",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier peinture sèche parent-bébé"
+    },
+    {
+      "id": "117471",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Amour Sourd"
+    },
+    {
+      "id": "117486",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition : Femme, Vie, Liberté"
+    },
+    {
+      "id": "117495",
+      "reason": "outside_Paris",
+      "title": "Que la vie en vaut la peine - Théâtre La Flèche"
+    },
+    {
+      "id": "117496",
+      "reason": "outside_Paris",
+      "title": "Pardon ? - Théâtre La Flèche"
+    },
+    {
+      "id": "117497",
+      "reason": "outside_Paris",
+      "title": "Je choisis le printemps - Théâtre La Flèche"
+    },
+    {
+      "id": "117498",
+      "reason": "outside_Paris",
+      "title": "C’est pas la mer à boire - Théâtre La Flèche"
+    },
+    {
+      "id": "117500",
+      "reason": "outside_Paris",
+      "title": "The boy and the light - Théâtre La Flèche"
+    },
+    {
+      "id": "117501",
+      "reason": "outside_Paris",
+      "title": "Aurélien 3000 - Théâtre La Flèche"
+    },
+    {
+      "id": "117502",
+      "reason": "outside_Paris",
+      "title": "À quel prix - Théâtre La Flèche"
+    },
+    {
+      "id": "117503",
+      "reason": "outside_Paris",
+      "title": "Derniers remords avant l'oubli - Théâtre La Flèche"
+    },
+    {
+      "id": "117516",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Cycle de 5 stages de Systema 2026-2027"
+    },
+    {
+      "id": "117579",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Stage Paris Escrime Sporting Club – Enfants & Adultes"
+    },
+    {
+      "id": "117611",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition \"Drôles d'insectes\" de Kei"
+    },
+    {
+      "id": "117629",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Cinéma des petits"
+    },
+    {
+      "id": "117631",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Graine de joueurs"
+    },
+    {
+      "id": "117633",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Graine de livres Grands"
+    },
+    {
+      "id": "117634",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Graine de livres bébés"
+    },
+    {
+      "id": "117635",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier de conversation Français Langue Etrangère"
+    },
+    {
+      "id": "117700",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Loner Deer - Release Party"
+    },
+    {
+      "id": "117717",
+      "reason": "outside_Paris",
+      "title": "Récital flamenco avec El Turry"
+    },
+    {
+      "id": "117732",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mais c'est quoi ce langage (inclusif) ?"
+    },
+    {
+      "id": "117772",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Cercle de parole Nayoki"
+    },
+    {
+      "id": "117784",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Rentrée 2026 : arts martiaux et sports de combat pour adultes à Paris 14e (Wing-Tsun kungfu, Kali Eskrima)"
+    },
+    {
+      "id": "117787",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Initiation au Wing-tsun kungfu traditionnel et kali eskrima (cours arts martiaux adultes)"
+    },
+    {
+      "id": "117797",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Moment des 3- 6 ans : Les p'tites mains"
+    },
+    {
+      "id": "117798",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Club lecture jeunesse : Tatoulu"
+    },
+    {
+      "id": "117802",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Nouveauté pour les tout-petits : ciné pouss'"
+    },
+    {
+      "id": "117813",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition photos « faire communauté » au Village Notre-Dame de Bon Secours"
+    },
+    {
+      "id": "117839",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "#JamVocale / OpenMic de Raphaël & Valentin"
+    },
+    {
+      "id": "117888",
+      "reason": "outside_Paris",
+      "title": "Le Festival ATMOSPHERES revient à Courbevoie"
+    },
+    {
+      "id": "117899",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Permanence numérique"
+    },
+    {
+      "id": "117906",
+      "reason": "outside_Paris",
+      "title": "Le Tour du monde en 80 jours par la Compagnie Moonshine"
+    },
+    {
+      "id": "117996",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La Palestine photographiée par Joss Dray"
+    },
+    {
+      "id": "117997",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Tenter l’art pour soigner - À l’hôpital psychiatrique de Blida-Joinville dans les années 1960"
+    },
+    {
+      "id": "117999",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Penn & Fashion"
+    },
+    {
+      "id": "118004",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris Saint-Germain - Le calendrier 2026-2027 des matchs à domicile"
+    },
+    {
+      "id": "118005",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "« Eclats d'amour - carte blanche à Laurent Pernot » au Musée Postal"
+    },
+    {
+      "id": "118012",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Matchs du Paris FC pour la saison 2026-2027, le calendrier complet"
+    },
+    {
+      "id": "118018",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "10ème Festival Mois Kréyol 2026"
+    },
+    {
+      "id": "118019",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris Saint-Germain Handball : le calendrier complet des matchs à domicile, saison 2026-2027"
+    },
+    {
+      "id": "118026",
+      "reason": "outside_Paris",
+      "title": "Les rois d'aujourd'hui ne sont-ils pas sans couronne ? / Luke James"
+    },
+    {
+      "id": "118027",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Pré-ouverture des portes du quartier Saint-Vincent-De-Paul, Paris 14e"
+    },
+    {
+      "id": "118056",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Stade Français Paris : le calendrier complet de la saison 2026-2027"
+    },
+    {
+      "id": "118057",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les 48h de la Petite Ceinture"
+    },
+    {
+      "id": "118062",
+      "reason": "outside_Paris",
+      "title": "Semaine bleue 2026 : relions tous les âges !"
+    },
+    {
+      "id": "118082",
+      "reason": "outside_Paris",
+      "title": "Festival [ frasq ] rencontre de la performance #18"
+    },
+    {
+      "id": "118097",
+      "reason": "outside_Paris",
+      "title": "En 2026, la Fête de la science explore les saveurs savantes"
+    },
+    {
+      "id": "118115",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris Basketball : le calendrier des matchs"
+    },
+    {
+      "id": "118125",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition Anna Maria Sibylla Merian"
+    },
+    {
+      "id": "118130",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les toutes petites histoires de Colette"
+    },
+    {
+      "id": "118131",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les histoires de Colette"
+    },
+    {
+      "id": "118147",
+      "reason": "outside_Paris",
+      "title": "Le RDV des curieux, tous les mardis à 19h30"
+    },
+    {
+      "id": "118181",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Faire place au monde"
+    },
+    {
+      "id": "118183",
+      "reason": "outside_Paris",
+      "title": "Expo « Les Vitesses » de Greg Lecoeur x IFAW"
+    },
+    {
+      "id": "118192",
+      "reason": "outside_Paris",
+      "title": "Une exposition où s’entremêlent héritages, mémoires et migrations"
+    },
+    {
+      "id": "118229",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Festival du cinéma: Artdocfest Echo Paris 2026 !"
+    },
+    {
+      "id": "118230",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le temps des histoires"
+    },
+    {
+      "id": "118231",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Aide numérique"
+    },
+    {
+      "id": "118262",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Stages Yoga Iyengar débutants et intermédiaires"
+    },
+    {
+      "id": "118269",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Sois belle et tais-toi ! nouveau cycle au forum des images"
+    },
+    {
+      "id": "118283",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "CinéKids : les séances de septembre au Forum des images"
+    },
+    {
+      "id": "118327",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition d'œuvres sur carton et papier recyclé"
+    },
+    {
+      "id": "118402",
+      "reason": "outside_Paris",
+      "title": "La Rédac' déchaînée : spectacle d'improvisation théâtrale !"
+    },
+    {
+      "id": "118424",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La Bulle - Club de lecture pour ados"
+    },
+    {
+      "id": "118468",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "De bouche à oreilles"
+    },
+    {
+      "id": "118492",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "9ème festival cinématographique de Paris 14 Territoire de cinéma"
+    },
+    {
+      "id": "118500",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Soirées jeux de société dans le 14ème arrondissement"
+    },
+    {
+      "id": "123031",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les bals de Sangnier"
+    },
+    {
+      "id": "123073",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition « La grotte de Seokguram : le Secret millénaire de l’art bouddhique »"
+    },
+    {
+      "id": "123090",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Rankin : LA F.AI.M, la photographie à l'épreuve de l'IA"
+    },
+    {
+      "id": "123091",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La programmation de la Fabrique de la Solidarité"
+    },
+    {
+      "id": "123094",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Ciné-Club Corée « K-Heritage »"
+    },
+    {
+      "id": "123111",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "« Cabaret(s) - Histoire d'une transmission vivante », une exposition photo sur les grilles du square du Temple Elie-Wiesel"
+    },
+    {
+      "id": "123163",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Pilates, zumba gold, stretching, fitness et de cardio training au centre sportif Jacqueline Auriol"
+    },
+    {
+      "id": "123189",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : remise en forme féminin au centre sportif Charles Moureu (13e)"
+    },
+    {
+      "id": "123193",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Expo à la Galerie du 19M : « Métamorphoses, les chapeaux de Maison Michel »"
+    },
+    {
+      "id": "123222",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : badminton au gymnase Patriarches"
+    },
+    {
+      "id": "123223",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : futsal au TEP Barruel"
+    },
+    {
+      "id": "123224",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : futsal au gymnase Raymond Burgard"
+    },
+    {
+      "id": "123225",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport dimanche : marche nordique et renforcement musculaire au gymnase Garancière"
+    },
+    {
+      "id": "123230",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : sports de raquette au gymnase Jean Dame"
+    },
+    {
+      "id": "123231",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : multisports au gymnase Michel Le Comte"
+    },
+    {
+      "id": "123232",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport familles : motricité / baby gym au gymnase Ortolan"
+    },
+    {
+      "id": "123233",
+      "reason": "outside_Paris",
+      "title": "Seul en scène musical : \"Fini la comédie ! Mes confidences à Dalida\""
+    },
+    {
+      "id": "123258",
+      "reason": "outside_Paris",
+      "title": "Balades guidées à la découverte des quartiers parisiens"
+    },
+    {
+      "id": "123269",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La semaine bleue dans le 18e"
+    },
+    {
+      "id": "123273",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport dimanches : renforcement musculaire / course à pied au centre sportif Maryse Hilsz"
+    },
+    {
+      "id": "123301",
+      "reason": "outside_Paris",
+      "title": "Danse et LSF : atelier chorésigne pour enfants sourds"
+    },
+    {
+      "id": "123305",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Zélie La Pirate s'installe à l'Apollo Théâtre pour l'hiver"
+    },
+    {
+      "id": "123344",
+      "reason": "outside_Paris",
+      "title": "Les idées reçues autour des arbres"
+    },
+    {
+      "id": "123359",
+      "reason": "outside_Paris",
+      "title": "Mieux comprendre le dépistage organisé du cancer du sein"
+    },
+    {
+      "id": "123360",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Battle pro – Finale Internationale 2026 au théâtre du Châtelet"
+    },
+    {
+      "id": "123364",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Ogresses en pièces"
+    },
+    {
+      "id": "123365",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Foot, basket, rugby, hand : où encourager les équipes parisiennes pour la saison 2026-2027 ?"
+    },
+    {
+      "id": "123369",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "EXPOSITION Envisage au FIAP Paris"
+    },
+    {
+      "id": "123375",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Finally, Something Good."
+    },
+    {
+      "id": "123422",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition \"LALA photographie sa ville\" - Jardin Villemin - Mahsa Jîna Amini"
+    },
+    {
+      "id": "123440",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les animations d'octobre à L'Heure Joyeuse"
+    },
+    {
+      "id": "123462",
+      "reason": "outside_Paris",
+      "title": "Première édition du Festival CinéBelleville"
+    },
+    {
+      "id": "123500",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Stage improvisation théâtre week-end octobre Paris"
+    },
+    {
+      "id": "123511",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Journées réparation autour du textile avec l'UAMEP"
+    },
+    {
+      "id": "123528",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Erella pour 4 soirées au Sunside pour présenter son album Héritages"
+    },
+    {
+      "id": "123571",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Musique Enchienne"
+    },
+    {
+      "id": "123572",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La Velu.e - cabaret de tous poils"
+    },
+    {
+      "id": "123575",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les soirées cabaret du Bal Blomet"
+    },
+    {
+      "id": "123582",
+      "reason": "outside_Paris",
+      "title": "Projection du documentaire Être Vivant(s)- interroger nos liens"
+    },
+    {
+      "id": "123668",
+      "reason": "outside_Paris",
+      "title": "Saison Cabaret : découvrez le programme parisien"
+    },
+    {
+      "id": "123674",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Heat Club By Saturation Collective & 100°C"
+    },
+    {
+      "id": "123690",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les bons contes font les bons amis"
+    },
+    {
+      "id": "123700",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le cercle des jeunes lecteurs et lectrices"
+    },
+    {
+      "id": "123783",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "2:22 A Ghost Story"
+    },
+    {
+      "id": "123785",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La Folle Journée ou Le Mariage de Figaro"
+    },
+    {
+      "id": "123786",
+      "reason": "outside_Paris",
+      "title": "Festival d'Automne 2026 : tout le programme"
+    },
+    {
+      "id": "123794",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "L’âge bête"
+    },
+    {
+      "id": "123798",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Laponie"
+    },
+    {
+      "id": "123800",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le père"
+    },
+    {
+      "id": "123828",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le Discours d’un Roi"
+    },
+    {
+      "id": "123835",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le sens de l'humour"
+    },
+    {
+      "id": "123836",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Dance Day"
+    },
+    {
+      "id": "123844",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visite guidée : Pigalle, ou l'envers inverti de Paris"
+    },
+    {
+      "id": "123846",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visite guidée : La rive gauche des intellectuel·les homosexuel·les américain·es"
+    },
+    {
+      "id": "123848",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Visite guidée : Les spoliations antisémites par Vichy et les nazis"
+    },
+    {
+      "id": "123864",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "L’Université Paris Cité dévoile l’exposition « La couleur de nos métiers » à travers l’objectif du photographe Pascal Maitre"
+    },
+    {
+      "id": "123877",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Danse orientale"
+    },
+    {
+      "id": "123907",
+      "reason": "outside_Paris",
+      "title": "Les concerts Doudou & Magie par l'Orchestre Colonne"
+    },
+    {
+      "id": "123962",
+      "reason": "outside_Paris",
+      "title": "Concert du Trio Au Vivo"
+    },
+    {
+      "id": "123966",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition la chapelle en mouvement"
+    },
+    {
+      "id": "123979",
+      "reason": "outside_Paris",
+      "title": "La Swaré House An NOU"
+    },
+    {
+      "id": "124017",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le Salon Photo & Vidéo célèbre 200 ans de photographie à Paris du 8 au 11 octobre !"
+    },
+    {
+      "id": "124022",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Djamil le Shlag | Humour"
+    },
+    {
+      "id": "124072",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Beside Festival 2026"
+    },
+    {
+      "id": "124111",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "24e édition du festival de cinéma Images mouvementées"
+    },
+    {
+      "id": "124132",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les Wriggles en spectacle à l'Olympia"
+    },
+    {
+      "id": "124138",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Festival Viva Mexico, rencontres cinématographiques : 14ème édition !"
+    },
+    {
+      "id": "124182",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Agenda Culturel du Conservatoire Charles Munch 2026 2027"
+    },
+    {
+      "id": "124211",
+      "reason": "outside_Paris",
+      "title": "Spectacle de marionnette et cuisine italienne : GINA"
+    },
+    {
+      "id": "124263",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Festival Close-up : exposition La beauté mortelle des cinémas / Indian Travellings"
+    },
+    {
+      "id": "124315",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Festival Culture en mouvement"
+    },
+    {
+      "id": "124365",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Five Views — La photographie japonaise émergente"
+    },
+    {
+      "id": "124377",
+      "reason": "outside_Paris",
+      "title": "Exposition Le Cube Garges : D’autres voix · langage · code · traduction"
+    },
+    {
+      "id": "124382",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Puzzle Fiction : Paris 10e - Ateliers d'écriture animés par Antonin Crenn"
+    },
+    {
+      "id": "124445",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "U2 : Une histoire irlandaise"
+    },
+    {
+      "id": "124452",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le Forum des images lance son podcast dédié aux artistes"
+    },
+    {
+      "id": "124476",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les soirées 100% doc de septembre - octobre au Forum des images"
+    },
+    {
+      "id": "124492",
+      "reason": "outside_Paris",
+      "title": "La Semaine du Goût s’invite sur les marchés parisiens !"
+    },
+    {
+      "id": "124508",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les Cours du vendredi font leur rentrée au Forum des images"
+    },
+    {
+      "id": "124509",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les événements du conservatoire Claude Debussy"
+    },
+    {
+      "id": "124510",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "La SLOW Galerie fête les 1 an de son espace Luxembourg !"
+    },
+    {
+      "id": "124549",
+      "reason": "outside_Paris",
+      "title": "Jeunes d’Avenirs x Worldskills France"
+    },
+    {
+      "id": "124555",
+      "reason": "outside_Paris",
+      "title": "Fête de la Science 2026 à l'Université Paris Cité : le programme des évènements à ne pas manquer !"
+    },
+    {
+      "id": "124565",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Planète Océan, Immersion vers les profondeurs à l’Atelier Des Lumières"
+    },
+    {
+      "id": "124568",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Explorez la nature sauvage en réalité virtuelle au Forum des images"
+    },
+    {
+      "id": "124590",
+      "reason": "outside_Paris",
+      "title": "\"DIE & RETRY\" aux Magasins Généraux"
+    },
+    {
+      "id": "124598",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Atelier en famille à la Bourse de Commerce — Pinault Collection"
+    },
+    {
+      "id": "124604",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Découvrez Trop petite, une épopée musicale, à partir de 5 ans au Funambule Montmartre."
+    },
+    {
+      "id": "124613",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Venez découvrir Les musiciens de Brême, quatre drôles d'animaux bien décidé à former un groupe de rock !"
+    },
+    {
+      "id": "124619",
+      "reason": "outside_Paris",
+      "title": "Le Bénévolat à la Prairie du canal"
+    },
+    {
+      "id": "124734",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Tear Club Is Back à La Machine du Moulin Rouge !"
+    },
+    {
+      "id": "124746",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Droit de regard accueille les seniors pour prendre soin de leur vue"
+    },
+    {
+      "id": "124753",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Conférences Art-Sciences : \"Sur les chemins du vivant – Histoires naturelles du XXIe siècle\""
+    },
+    {
+      "id": "124755",
+      "reason": "outside_Paris",
+      "title": "Des imprimés et des hommes - nouveaux regards de la recherche - Troisième cycle"
+    },
+    {
+      "id": "124775",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Illusions Tour - Le plus grand show de magie d'Europe ENFIN sur Paris !!!"
+    },
+    {
+      "id": "124804",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Orphée"
+    },
+    {
+      "id": "124865",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Marta Domingo 5tet"
+    },
+    {
+      "id": "124877",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Imprimer, éditer, illustrer : la modernité typographique et graphique au Vietnam (1860-1945)"
+    },
+    {
+      "id": "124878",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Mon petit Carnavalet"
+    },
+    {
+      "id": "124887",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Octobre rose à Paris Centre : opérations \"Mammographie sans RDV\" à Hôtel Dieu"
+    },
+    {
+      "id": "124892",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Ma petite visite contée au musée du quai Branly"
+    },
+    {
+      "id": "124893",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "CinéKids : les séances d'octobre au Forum des images"
+    },
+    {
+      "id": "124894",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition Théophile de Viau à la Bibliothèque Mazarine"
+    },
+    {
+      "id": "124896",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les baby visite du MAM"
+    },
+    {
+      "id": "124899",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Discrète broderie médicale, exposition de Martina Chiquet"
+    },
+    {
+      "id": "124913",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Stage couture intensif débutant - 4 demies-journées - Paris 10"
+    },
+    {
+      "id": "124914",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les séances POP d'octobre au Forum des images"
+    },
+    {
+      "id": "124925",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "À la table de la météo et du climat : dégustons les sciences !"
+    },
+    {
+      "id": "124926",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Balades conviviales Paris & environs"
+    },
+    {
+      "id": "124934",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Jeu | Parties d’échecs en jeu libre"
+    },
+    {
+      "id": "124935",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Club | Tricot"
+    },
+    {
+      "id": "124973",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition en plein air « Les krâneuses qui tétonnent »"
+    },
+    {
+      "id": "124986",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les heures musicales"
+    },
+    {
+      "id": "124994",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Installation d'art numérique : Radiances oncologiques, dépistez-vous !"
+    },
+    {
+      "id": "125013",
+      "reason": "outside_Paris",
+      "title": "Concert Happy Hours - Trio Zadig"
+    },
+    {
+      "id": "125044",
+      "reason": "outside_Paris",
+      "title": "Birds on a Wire"
+    },
+    {
+      "id": "125067",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Semaine de l’allaitement maternel : « Un tremplin pour la vie : soutenir et renforcer ce qui fonctionne »"
+    },
+    {
+      "id": "125068",
+      "reason": "outside_Paris",
+      "title": "Détox Digitale 24h/48h : Pause numérique participative tous les week-ends jusqu'à janvier 2027"
+    },
+    {
+      "id": "125087",
+      "reason": "outside_Paris",
+      "title": "Visite théâtralisée « Légendes et croyances »"
+    },
+    {
+      "id": "125134",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le Festival Paris Ciné contre les Discri’ fait écran aux discriminations"
+    },
+    {
+      "id": "125148",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les Amants Terribles à La Scène Libre"
+    },
+    {
+      "id": "125165",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris Sport Proximité : multisports au gymnase Tristan Tzara"
+    },
+    {
+      "id": "125167",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Rencontrez-vous"
+    },
+    {
+      "id": "125168",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le jour de la Nuit à Montsouris"
+    },
+    {
+      "id": "125182",
+      "reason": "outside_Paris",
+      "title": "Échecs et Malt"
+    },
+    {
+      "id": "125184",
+      "reason": "outside_Paris",
+      "title": "La Fresque de la Sécurité sociale de l'alimentation"
+    },
+    {
+      "id": "125187",
+      "reason": "outside_Paris",
+      "title": "Tournoi des jeux de bar de Communale St-Ouen"
+    },
+    {
+      "id": "125204",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition Portraits de France"
+    },
+    {
+      "id": "125223",
+      "reason": "outside_Paris",
+      "title": "Semaines de sensibilisation et d'information à la santé mentale : le programme 2026"
+    },
+    {
+      "id": "125239",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Festival des cinémas différents et expérimentaux de Paris"
+    },
+    {
+      "id": "125250",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Octobre Rose à la piscine des Amiraux"
+    },
+    {
+      "id": "125287",
+      "reason": "outside_Paris",
+      "title": "Exposition « Dans les coulisses de la SACEM »"
+    },
+    {
+      "id": "125322",
+      "reason": "outside_Paris",
+      "title": "Lancement du livre « C'était Paris en 1970 »"
+    },
+    {
+      "id": "125347",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Semaine bleue 2026 : \"Expo collective de peinture\" club séniors Granges aux Belles (Paris 10e)"
+    },
+    {
+      "id": "125407",
+      "reason": "outside_Paris",
+      "title": "SILENTIUM, le nouveau scénario Halloween 2026 de The Dark Dreams Paris."
+    },
+    {
+      "id": "125425",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Jardinage et animaux de la ferme aux jardins passagers de la Villette"
+    },
+    {
+      "id": "125431",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "« Le courage » : la thématique d'octobre au Théâtre de la Concorde"
+    },
+    {
+      "id": "125452",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Immersion lyrique : bases du chant et fondamentaux"
+    },
+    {
+      "id": "125471",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le cinéma libanais vous donne rendez-vous à Paris !"
+    },
+    {
+      "id": "125475",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Badminton et Futsal à la Halle Sportive Dunois"
+    },
+    {
+      "id": "125496",
+      "reason": "outside_Paris",
+      "title": "200 LUX EXPO"
+    },
+    {
+      "id": "125515",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Vos vacances de la Toussaint au Jardin des Plantes"
+    },
+    {
+      "id": "125520",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Cinq ans du Prix ellipse"
+    },
+    {
+      "id": "125521",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "En compagnie de Senghor"
+    },
+    {
+      "id": "125527",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Día de los Muertos au Jardin d'Acclimatation : Quand le Mexique enchante l'automne parisien"
+    },
+    {
+      "id": "125546",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Badminton au Gymnase des Patriarches"
+    },
+    {
+      "id": "125576",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Sara Keneshlou : encres et peintures à l’Échomusée"
+    },
+    {
+      "id": "125585",
+      "reason": "outside_Paris",
+      "title": "Semaine de la médiation familiale 2026"
+    },
+    {
+      "id": "125602",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Les auditions du département musique"
+    },
+    {
+      "id": "125618",
+      "reason": "outside_Paris",
+      "title": "20 ans de photographies du collectif MYOP en live"
+    },
+    {
+      "id": "125639",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Stage informatique : Initiation à l'IA"
+    },
+    {
+      "id": "125650",
+      "reason": "outside_Paris",
+      "title": "Entrez dans la Neuilly Game Zone à Neuilly-sur-Marne"
+    },
+    {
+      "id": "125651",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Course à pied au Parc Kellermann"
+    },
+    {
+      "id": "125655",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Paris sport proximité : Remise en forme à la MVAC 13"
+    },
+    {
+      "id": "125666",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Exposition solo « Reliefs » : Sophie Bloch"
+    },
+    {
+      "id": "125689",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Common People"
+    },
+    {
+      "id": "125722",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Leïla Mendez — Ciné-concert documentaire"
+    },
+    {
+      "id": "125737",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Expo Halloween au centre Paris'Anim Bessie Smith"
+    },
+    {
+      "id": "125744",
+      "reason": "no_explicit_occurrence_in_week",
+      "title": "Le Parc de L'Étrange"
+    }
+  ],
+  "categoryCounts": {
+    "lecture": 130,
+    "other": 246,
+    "games": 20,
+    "music": 146,
+    "sport": 107,
+    "art": 186,
+    "theatre": 244,
+    "city": 13,
+    "film": 22
+  },
+  "license": "Que Faire à Paris — Ville de Paris, retrieved 2026-10-11, Open Database License (ODbL1.0). This derived Paris Data selection is available in paris-data-derived.json under ODbL1.0.",
+  "publishedSelection": {
+    "generatedAt": "2026-10-11T00:11:12.971289+00:00",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-17",
+    "datedListings": 1137,
+    "distinctPrograms": 830,
+    "permanentPlaces": 526,
+    "sourceAccessPoints": 45,
+    "knownPrices": 827,
+    "mapped": 1137,
+    "coordinatePrecision": {
+      "official-calendar": 1134,
+      "venue-complex": 3
+    },
+    "categoryCounts": {
+      "art": 186,
+      "other": 246,
+      "music": 149,
+      "sport": 107,
+      "lecture": 150,
+      "theatre": 244,
+      "film": 22,
+      "city": 13,
+      "games": 20
+    },
+    "sourceCounts": {
+      "Que Faire à Paris · Ville de Paris": 1114,
+      "Collège de France": 20,
+      "Philharmonie de Paris": 3
+    },
+    "telegramAccessPoints": 13,
+    "note": "Manual bounded collection. No continuous Telegram or daily automatic import. Profiles and links are not current programmes."
+  },
+  "cancellationReview": {
+    "source": "https://www.sortiraparis.com/enfant-famille/articles/282556-fete-de-la-science-2026-a-la-sorbonne-les-animations-annulees-a-jussieu",
+    "scope": "Village des Sciences and science activities at campus Pierre-et-Marie-Curie/Jussieu. No such campus entries remain in selection; cancellation does not apply to all Paris science events."
+  }
+}

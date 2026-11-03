@@ -1,0 +1,64 @@
+{
+  "cityId": "san-salvador",
+  "checkedAt": "2026-10-29T04:11:47.834888+00:00",
+  "publication": {
+    "at": "2026-10-29T04:18:51.558Z",
+    "publishedCommit": "76459ca9dff31a46ffe66a12b698cbf572dbf303",
+    "excludedNewElapsedIds": [
+      "san-salvador-necrotour-20261028-1800",
+      "san-salvador-necrotour-20261028-1930",
+      "san-salvador-necrotour-20261028-2100"
+    ],
+    "retainedHistoricalIds": []
+  },
+  "templateRoot": "/workspace/scratch/59f6a13c9f12/overnight-20261029/site",
+  "templateSHA256": "a52beaf248ecd297cd4aaff980c57deba80f898e9ce99a96e1dba481dd71515f",
+  "center": [
+    13.693881682,
+    -89.233382441
+  ],
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "events": 42,
+    "places": 5,
+    "sources": 29,
+    "mappedEvents": 42,
+    "liveEvents": 42,
+    "liveMappedEvents": 42,
+    "expiredEvents": 0,
+    "dates": [
+      "2026-03-14",
+      "2026-07-29",
+      "2026-08-27",
+      "2026-09-03",
+      "2026-10-07",
+      "2026-10-21",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-19",
+      "2026-11-24"
+    ],
+    "venues": [
+      "san-salvador-venue-cemetery",
+      "san-salvador-venue-marte",
+      "san-salvador-venue-cce",
+      "san-salvador-venue-muna",
+      "san-salvador-venue-millennium"
+    ]
+  }
+}

@@ -1,0 +1,977 @@
+{
+  "city": "Budapest",
+  "checkedAt": "2026-10-28T10:09:02.289577+00:00",
+  "sources": [
+    {
+      "id": "budapest-source-fd6055d800faab",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/batyu-fecske-klub-ritmus-az-elet-1",
+      "checkedAt": "2026-10-28T09:46:27.721661+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-0913a72f728bf7",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/en/event/freddie-exhibition-at-the-house-of-music-hungary/",
+      "checkedAt": "2026-10-28T09:40:01.350272+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "named venue point"
+    },
+    {
+      "id": "budapest-source-29284643b377db",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/dome-replay-katona-klari-kozelseg-1",
+      "checkedAt": "2026-10-28T09:46:32.974167+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-83f4ed88fecc42",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/sallai-laszlo-a-nyugat-titkos-tortenete",
+      "checkedAt": "2026-10-28T09:45:51.446163+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-9adeb1b33fa9fc",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/magyar-albummm-16bagossy-brothers-company",
+      "checkedAt": "2026-10-28T09:46:28.041994+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-5be00991a7073d",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/orom-zene-alkotas-7",
+      "checkedAt": "2026-10-28T09:45:26.946285+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-e20116301e6974",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/glam-rock-2-queen-uk-70s-80s",
+      "checkedAt": "2026-10-28T09:45:22.058193+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-1d61845ab2cbcc",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/dome-live-041-delibab-magyarorszag-hanglenyomata",
+      "checkedAt": "2026-10-28T09:45:21.735693+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-f8d6780b52c4ba",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/hol-vagytok-mama-zombola-peter-zeneszerzo-utja-az-arvahaztol-a-vilaghirig",
+      "checkedAt": "2026-10-28T09:44:57.597270+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-b16b6dfbe771cf",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/los-piranas-col-szode-1",
+      "checkedAt": "2026-10-28T09:45:51.195667+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-93cf05a1b00ef1",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/dome-concertfilm-makrohang",
+      "checkedAt": "2026-10-28T09:45:39.931581+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 3,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-6151d6333b7e50",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/a-zeneszerzo-fejedelem-sajatos-requiemje",
+      "checkedAt": "2026-10-28T09:46:44.253251+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-b11aff9b20f26b",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/joan-as-police-woman-usa",
+      "checkedAt": "2026-10-28T09:46:22.913121+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-ef560c62d6cf9d",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/casa-da-musica-tiki-taka",
+      "checkedAt": "2026-10-28T09:46:08.580879+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-e7093c4e9c6f4d",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/dome-concertfilm-vad-fruttik",
+      "checkedAt": "2026-10-28T09:44:57.596509+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 2,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-289ae50b8485d2",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/sip-es-lant-berecz-andras-gorog-musora",
+      "checkedAt": "2026-10-28T09:45:21.425797+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-86ee71263e8ba5",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/xii-orszagos-rajzfilmunnep-pannonia-antologia",
+      "checkedAt": "2026-10-28T09:45:55.895785+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-1ad030d3198ff6",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/50-eves-a-disco-3-eurodisco-es-italodisco",
+      "checkedAt": "2026-10-28T09:46:18.169230+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-69ed562d17d314",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/dalszerzok-kore-9-brody-janos-fekete-giorgio-schoblocher-barbara",
+      "checkedAt": "2026-10-28T09:47:03.190888+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-7c3d8603fd6a4d",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/gyerekeknek-szolo-tarlatvezetes-145",
+      "checkedAt": "2026-10-28T09:45:10.659681+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-49b7321d5b1ba3",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/arrol-hogy-meg-tart-az-elet",
+      "checkedAt": "2026-10-28T09:45:11.102557+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-51d52e7813ddf3",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/epuletseta-zene-az-uvegen-tul-48",
+      "checkedAt": "2026-10-28T09:46:42.896231+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-817fd5c3372e59",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/scott-lavene-uk",
+      "checkedAt": "2026-10-28T09:45:05.644358+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-fd4e32aa4c1ffe",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/ringato-294",
+      "checkedAt": "2026-10-28T09:45:15.848131+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-1569a49c7f912c",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/sztorik-freddie-mercury-rol-elsokezbol",
+      "checkedAt": "2026-10-28T09:46:37.667830+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-83645085e6afb1",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/agyuk-es-viragok-unnepi-koncert-cziffra-gyorgy-105-szuletesnapjan",
+      "checkedAt": "2026-10-28T09:45:31.842319+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-2b406d64207f4c",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/szubjektiv-batta-andras-sorozata-dalestek-prozaban-2",
+      "checkedAt": "2026-10-28T09:46:54.809420+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-3a7e7714f25289",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/an-evening-with-freddie-mercury-and-peter-freestone-feat-milan-devinne-band",
+      "checkedAt": "2026-10-28T09:45:39.135598+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-a3d067030b8c19",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/isten-hata-mogott-1",
+      "checkedAt": "2026-10-28T09:46:13.557521+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-22af19c366680d",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/ringato-296",
+      "checkedAt": "2026-10-28T09:46:50.190874+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-a088a1e9aa2ef7",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/moldovai-dallamok-es-ritmusok-ivan-curteannal",
+      "checkedAt": "2026-10-28T09:46:32.728938+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-dc29bace518b62",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/lackfi-janos-teremtes",
+      "checkedAt": "2026-10-28T09:46:24.582929+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-77be64cf82beb4",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/alela-diane-usa",
+      "checkedAt": "2026-10-28T09:46:18.335493+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-811b74cb918c6c",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/kalaka-nalatok-laknak-e-allatok",
+      "checkedAt": "2026-10-28T09:45:39.432730+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-ad25e0a42c7aaf",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/dome-021-platon-karataev-napkotozo",
+      "checkedAt": "2026-10-28T09:44:57.595479+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-99ba1e8c951818",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/robotorgona-26",
+      "checkedAt": "2026-10-28T09:45:05.514888+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-6add4ce0049625",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/peter-freestone-freddie-tarlatvezetesei-angolul-8",
+      "checkedAt": "2026-10-28T09:45:32.822888+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-548b2f1f00b943",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/flash-gordon-1980",
+      "checkedAt": "2026-10-28T09:46:54.599968+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-f89c8ea1067f4b",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/ringato-293",
+      "checkedAt": "2026-10-28T09:45:15.744248+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-c7dcc6c778c075",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/barzongora-est-16",
+      "checkedAt": "2026-10-28T09:45:16.075912+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-7cda3e9bfae9d0",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/the-royal-opera-bizet-carmen",
+      "checkedAt": "2026-10-28T09:46:54.175679+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-ae9a0140e11456",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/jewish-chamber-orchestra-munich",
+      "checkedAt": "2026-10-28T09:46:43.101576+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-03cfa9151f22cf",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/lunchtime-koncert-albert-anna-es-barna-aniko",
+      "checkedAt": "2026-10-28T09:46:23.877598+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-2f15c39c6f9586",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/freak-fusion-cabaret-confusion",
+      "checkedAt": "2026-10-28T09:46:08.390086+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-8ace1cc15d862f",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/tapai-dora-erezd-a-ritmust-1",
+      "checkedAt": "2026-10-28T09:46:09.718766+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-313be2efb20c5e",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/ferenczi-gyorgy-es-az-1so-pesti-rackak-a-rackak-gyerek-vilaga",
+      "checkedAt": "2026-10-28T09:45:10.354766+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-78c057164571ff",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/hangado-junior-mitol-zene-a-zene-2",
+      "checkedAt": "2026-10-28T09:46:37.996435+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-5192d1126fb217",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/basszus-tudtam-16",
+      "checkedAt": "2026-10-28T09:45:56.733086+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-fffc640c6c46e6",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/emingo",
+      "checkedAt": "2026-10-28T09:46:18.936346+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-6199ca9e0d5e7f",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/ringato-295",
+      "checkedAt": "2026-10-28T09:46:49.009382+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-ae6088d5b359c2",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/duka-elemer-gipsy-chamber-orchestra-jakab-roland-codrut-ionescu-gogan-gabriel-rom",
+      "checkedAt": "2026-10-28T09:46:48.359869+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-ff8e8f9622bc35",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/xii-orszagos-rajzfilmunnep-pannonia-antologia-1",
+      "checkedAt": "2026-10-28T09:46:04.204904+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-2f1e8e14e671a6",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/akiert-wagner-is-rajongott-carl-maria-von-weber-1",
+      "checkedAt": "2026-10-28T09:45:26.672113+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-8694f5fc48b174",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/xii-orszagos-rajzfilmunnep-lengemesek-1",
+      "checkedAt": "2026-10-28T09:46:03.014947+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-7d8d1fa956606b",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/in-pari-tanc-es-zene-2",
+      "checkedAt": "2026-10-28T09:45:05.592468+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-a23af859d92ff0",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/kottarulett-rohmann-ditta-kruchio-eszter-es-dani-imre",
+      "checkedAt": "2026-10-28T09:45:26.451732+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-56f373c5fa2e0d",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/babazuri-tunderfatyol-zeneszo-3",
+      "checkedAt": "2026-10-28T09:46:39.113385+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-aea2b4fec02e5d",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/epuletseta-zene-az-uvegen-tul-47",
+      "checkedAt": "2026-10-28T09:46:32.473932+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-c14ef7b50cdcbf",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/muzsikusok-kavehaza-elo-ciganyzene-a-trilla-etteremben-4",
+      "checkedAt": "2026-10-28T09:46:13.909581+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-edfd24819306e5",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/amazonia-kiallitas-neprajzi-muzeum-2026-majus/",
+      "checkedAt": "2026-10-28T09:43:22.261368+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-8e8817bedfbba6",
+      "name": "Budapest source: mnm.hu",
+      "url": "https://mnm.hu/en/exhibitions/american-dream-hungarians-united-states-1776-2026-0",
+      "checkedAt": "2026-10-28T09:41:23.813336+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-f278737b09b994",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/amerikai-alom-kiallitas-magyar-nemzeti-muzeum-2026-julius/",
+      "checkedAt": "2026-10-28T09:43:22.731545+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "editorial named-venue point; not entrance-level"
+    },
+    {
+      "id": "budapest-source-46dba298c4ce2b",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/antoni-tapies-kiallitas-magyar-nemzeti-galeria-2026-szeptember/",
+      "checkedAt": "2026-10-28T09:43:26.043435+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-5d0f0b389895be",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/balance-iparmuveszeti-kiallitas-pesti-vigado-2026-szeptember/",
+      "checkedAt": "2026-10-28T09:43:29.523399+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-236820cecd1323",
+      "name": "Budapest source: www.walterrozsivilla.hu",
+      "url": "https://www.walterrozsivilla.hu/breuer-goldfinger-es-mas-magyarok",
+      "checkedAt": "2026-10-28T09:46:56.224853+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-b790801057598f",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/brutalizmus-kiallitas-walter-rozsi-villa-2026-marcius/",
+      "checkedAt": "2026-10-28T09:43:36.683713+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "editorial named-venue point; not entrance-level"
+    },
+    {
+      "id": "budapest-source-fc2ccf520fd53f",
+      "name": "Budapest source: lightartmuseum.hu",
+      "url": "https://lightartmuseum.hu/",
+      "checkedAt": "2026-10-28T09:47:02.481573+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-ea85368b5b0796",
+      "name": "Budapest source: maps.app.goo.gl",
+      "url": "https://maps.app.goo.gl/N7tvtuVdEuAMJNFM8",
+      "checkedAt": "2026-10-28T09:55:45Z",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "officially linked named museum marker"
+    },
+    {
+      "id": "budapest-source-e20f74f11c273d",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/ego-kiallitas-light-art-museum-2026-oktober/",
+      "checkedAt": "2026-10-28T09:47:02.481573+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "budapest-source-0ad727a2d91ecd",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/fontfront-kiallitas-kastner-kommunity-2026-november/",
+      "checkedAt": "2026-10-28T09:43:51.427979+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-2cc70533125ebd",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/friedrich-barnabas-hajdu-levente-zsigmond-kiallitas-kastner-kommunity-2026-oktober/",
+      "checkedAt": "2026-10-28T09:43:56.343920+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-473f707f00af05",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/hatartalan-design-2026-oktober/",
+      "checkedAt": "2026-10-28T09:44:07.809457+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-e5f562195672fe",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/katonadolog-a-sorkatonasag-emlekezete-kiallitas-neprajzi-muzeum-2026-szeptember/",
+      "checkedAt": "2026-10-28T09:44:12.386327+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-953f97d166f856",
+      "name": "Budapest source: deak17galeria.hu",
+      "url": "https://deak17galeria.hu/kiallitasok/kepmesek-a-tortenet-a-tied/",
+      "checkedAt": "2026-10-28T09:48:07.531998+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-c1d45022a9812c",
+      "name": "Budapest source: deak17galeria.hu",
+      "url": "https://deak17galeria.hu/latogatasi-informaciok/",
+      "checkedAt": "2026-10-28T09:55:55Z",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "official named gallery map marker"
+    },
+    {
+      "id": "budapest-source-138f3724058c87",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/kepmesek-silent-book-kiallitas-deak17-gyermek-es-ifjusagi-muveszeti-galeria-2026-szeptember/",
+      "checkedAt": "2026-10-28T09:48:07.531998+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "budapest-source-e694eaaa543b48",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/komar-sabrina-kiallitas-pikszis-2026-november/",
+      "checkedAt": "2026-10-28T09:44:15.914763+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-2639d621bccb50",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/konnyu-arnyai-nadas-peter-kiallitas-petofi-irodalmi-muzeum-2026-oktober/",
+      "checkedAt": "2026-10-28T09:44:19.241104+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-4492bbdf4c54f1",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/magyar-sajtofoto-kiallitas-2026-szeptember/",
+      "checkedAt": "2026-10-28T09:44:26.707219+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-0b5356e95f3a89",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/millennium-130-nagybanya-130-kiallitas-magyar-nemzeti-galeria-2026-marcius/",
+      "checkedAt": "2026-10-28T09:44:35.863332+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-3cfaa0bc115247",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/morzsologia-kiallitas-tradi-budapest-2026-november/",
+      "checkedAt": "2026-10-28T09:44:36.194931+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-9e9f68352fb0ff",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/neogrady-kiss-barnabas-kiallitas-muvhaz-2026-oktober/",
+      "checkedAt": "2026-10-28T09:44:39.849847+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-a0338ff9024dff",
+      "name": "Budapest source: semmelweismuseum.hu",
+      "url": "https://semmelweismuseum.hu/osszeomlott-szepsegek-felett-orkodom/",
+      "checkedAt": "2026-10-28T09:48:21.552582+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-1dc4abeecf2ae5",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/osszeomlott-szepsegek-felett-orkodom-kiallitas-semmelweiss-orvostorteneti-muzeum-2026-szeptember/",
+      "checkedAt": "2026-10-28T09:44:43.727252+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "editorial named-venue point; not entrance-level"
+    },
+    {
+      "id": "budapest-source-78fb615345ba22",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/paul-gauguin-kiallitas-szepmuveszeti-muzeum-2026-oktober/",
+      "checkedAt": "2026-10-28T09:44:46.949780+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Editorial city agenda, not an official organizer; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-95d5b7903673ef",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/esemeny/freddie/",
+      "checkedAt": "2026-10-28T09:41:23.812812+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-9dff403ce3e329",
+      "name": "Budapest source: zenehaza.hu",
+      "url": "https://zenehaza.hu/nyitvatartas",
+      "checkedAt": "2026-10-28T09:41:23.812812+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "budapest-source-9c1638122b6b8c",
+      "name": "Budapest source: www.arkki.hu",
+      "url": "https://www.arkki.hu/workshopok/remsegek-szallodaja/",
+      "checkedAt": "2026-10-28T09:48:38.175985+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-0eee6d4e512d03",
+      "name": "Budapest source: maps.app.goo.gl",
+      "url": "https://maps.app.goo.gl/jTyLP23UwzcePnFP7",
+      "checkedAt": "2026-10-28T09:55:41Z",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "officially linked exact address-building marker"
+    },
+    {
+      "id": "budapest-source-c6ee46a237238d",
+      "name": "Budapest source: zoobudapest.com",
+      "url": "https://zoobudapest.com/programok/halloween-este-a-fovarosi-allat-es-novenykertben/",
+      "checkedAt": "2026-10-28T10:09:02.289577+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-d487e57d65ae2e",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/program/halloweeni-programok-fovarosi-allat-es-novenykert-2026-oktober/",
+      "checkedAt": "2026-10-28T10:09:02.289577+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "named venue/campus marker; not surveyed entrance"
+    },
+    {
+      "id": "budapest-source-d1e0836d6ea3bc",
+      "name": "Budapest source: cooltix.hu",
+      "url": "https://cooltix.hu/event/6aa6e9f3d60e2260cb6338c7",
+      "checkedAt": "2026-10-28T10:09:02.289577+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Official event source; selected facts, not complete host coverage."
+    },
+    {
+      "id": "budapest-source-5b124970942500",
+      "name": "Budapest source: www.joandjoe.com",
+      "url": "https://www.joandjoe.com/budapest/en/",
+      "checkedAt": "2026-10-28T10:09:02.289577+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "named venue/campus marker; not surveyed entrance"
+    },
+    {
+      "id": "budapest-source-d75437584a6ee8",
+      "name": "Budapest source: t.me",
+      "url": "https://t.me/s/eventsbudapest",
+      "checkedAt": "2026-10-28T09:39:19.544270+00:00",
+      "status": "unavailable",
+      "accessStatus": "unavailable",
+      "count": 0,
+      "note": "Public GET returned Site Unavailable page, not channel content. No bypass or retry."
+    },
+    {
+      "id": "budapest-source-e38e2352d8d45b",
+      "name": "Budapest source: t.me",
+      "url": "https://t.me/s/tripandme",
+      "checkedAt": "2026-10-28T09:39:19.548588+00:00",
+      "status": "unavailable",
+      "accessStatus": "unavailable",
+      "count": 0,
+      "note": "Public GET returned Site Unavailable page, not channel content. No bypass or retry."
+    },
+    {
+      "id": "budapest-source-66d37b54688b02",
+      "name": "Budapest source: t.me",
+      "url": "https://t.me/chattripandme",
+      "checkedAt": "2026-10-28T09:39:22.997092+00:00",
+      "status": "unavailable",
+      "accessStatus": "unavailable",
+      "count": 0,
+      "note": "Public GET returned Site Unavailable page, not channel content. No bypass or retry."
+    },
+    {
+      "id": "budapest-source-aebf9c86beca2a",
+      "name": "Budapest source: welovebudapest.com",
+      "url": "https://welovebudapest.com/en/events/",
+      "checkedAt": "2026-10-28T10:09:02.289577+00:00",
+      "status": "partial_review_rate_limit_stopped",
+      "accessStatus": "partial_review_rate_limit_stopped",
+      "count": 0,
+      "note": "Editorial agenda: prior19 EN and74 HU details read before429; remaining18 unread. No retry. Actual fetch times retained in research audit."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

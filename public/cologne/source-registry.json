@@ -1,0 +1,157 @@
+{
+  "city": "Cologne",
+  "checkedAt": "2026-11-02T10:36:41Z",
+  "sources": [
+    {
+      "id": "source-0be11317a0c3",
+      "name": "koeln.de",
+      "url": "https://www.koeln.de/veranstaltungen/",
+      "checkedAt": "2026-11-02T10:31:22Z",
+      "status": "read_partial",
+      "accessStatus": "read_partial",
+      "count": 0,
+      "note": "Primary first; November2–8 day listings selected sections, not complete pagination."
+    },
+    {
+      "id": "source-34cdfd1d1ae0",
+      "name": "Museum Ludwig",
+      "url": "https://www.museum-ludwig.de/de/besuch/veranstaltungen/kalender",
+      "checkedAt": "2026-11-02T10:36:41Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 32,
+      "note": "Full November calendar read in sections; all event details not imported; teacher-only/student-only/offsite cases held."
+    },
+    {
+      "id": "source-062b90c3c40b",
+      "name": "COMEDIA Theater",
+      "url": "https://comedia-koeln.de/buehne/termine/",
+      "checkedAt": "2026-11-02T10:35:53Z",
+      "status": "imported",
+      "accessStatus": "read_partial",
+      "count": 21,
+      "note": "November1–December1 programme read; selected public direct announcements verified; cancelled/school sessions excluded."
+    },
+    {
+      "id": "source-c2e7c204e31b",
+      "name": "Kölner Philharmonie",
+      "url": "https://www.koelner-philharmonie.de/en",
+      "checkedAt": "2026-11-02T10:36:12Z",
+      "status": "imported",
+      "accessStatus": "read_partial",
+      "count": 3,
+      "note": "Homepage +3 dated direct November concerts; calendar cache only toNov1 not complete current month."
+    },
+    {
+      "id": "source-0411ca3c5379",
+      "name": "Fritz Thyssen Stiftung",
+      "url": "https://www.fritz-thyssen-stiftung.de/veranstaltungen/liste-veranstaltungen/",
+      "checkedAt": "2026-11-02T10:36:12Z",
+      "status": "read_full_relevant_body",
+      "accessStatus": "read_full_relevant_body",
+      "count": 0,
+      "note": "Four dated public November evening talks; registration form CAPTCHA not interacted with; non-public workshops excluded."
+    },
+    {
+      "id": "source-f9472bfa2bf9",
+      "name": "koeln.de dated city listing",
+      "url": "https://www.koeln.de/events/heute/",
+      "checkedAt": "2026-11-02T10:31:22Z",
+      "status": "read_partial",
+      "accessStatus": "read_partial",
+      "count": 0,
+      "note": "Selected dated listings reviewed; no complete pagination claim. Direct official announcements used for final sessions."
+    },
+    {
+      "id": "source-a9ba15deaf2b",
+      "name": "koeln.de dated city listing",
+      "url": "https://www.koeln.de/events/2026-11-03/",
+      "checkedAt": "2026-11-02T10:31:22Z",
+      "status": "read_partial",
+      "accessStatus": "read_partial",
+      "count": 0,
+      "note": "Selected dated listings reviewed; no complete pagination claim. Direct official announcements used for final sessions."
+    },
+    {
+      "id": "source-429864f23c75",
+      "name": "koeln.de dated city listing",
+      "url": "https://www.koeln.de/events/2026-11-04/",
+      "checkedAt": "2026-11-02T10:31:22Z",
+      "status": "read_partial",
+      "accessStatus": "read_partial",
+      "count": 0,
+      "note": "Selected dated listings reviewed; no complete pagination claim. Direct official announcements used for final sessions."
+    },
+    {
+      "id": "source-d00c7c6d7409",
+      "name": "koeln.de dated city listing",
+      "url": "https://www.koeln.de/events/2026-11-05/",
+      "checkedAt": "2026-11-02T10:31:22Z",
+      "status": "read_partial",
+      "accessStatus": "read_partial",
+      "count": 0,
+      "note": "Selected dated listings reviewed; no complete pagination claim. Direct official announcements used for final sessions."
+    },
+    {
+      "id": "source-fedfad46000d",
+      "name": "koeln.de dated city listing",
+      "url": "https://www.koeln.de/events/2026-11-06/",
+      "checkedAt": "2026-11-02T10:31:22Z",
+      "status": "read_partial",
+      "accessStatus": "read_partial",
+      "count": 0,
+      "note": "Selected dated listings reviewed; no complete pagination claim. Direct official announcements used for final sessions."
+    },
+    {
+      "id": "source-4591a33f0448",
+      "name": "koeln.de dated city listing",
+      "url": "https://www.koeln.de/events/2026-11-07/",
+      "checkedAt": "2026-11-02T10:31:22Z",
+      "status": "read_partial",
+      "accessStatus": "read_partial",
+      "count": 0,
+      "note": "Selected dated listings reviewed; no complete pagination claim. Direct official announcements used for final sessions."
+    },
+    {
+      "id": "source-bd14de6246b1",
+      "name": "koeln.de dated city listing",
+      "url": "https://www.koeln.de/events/2026-11-08/",
+      "checkedAt": "2026-11-02T10:31:22Z",
+      "status": "read_partial",
+      "accessStatus": "read_partial",
+      "count": 0,
+      "note": "Selected dated listings reviewed; no complete pagination claim. Direct official announcements used for final sessions."
+    },
+    {
+      "id": "source-222be2b92b8f",
+      "name": "COMEDIA Theater coordinate POI",
+      "url": "https://www.outdooractive.com/de/poi/region-koeln-bonn/comedia-theater/807635752/",
+      "checkedAt": "2026-11-02T10:39:24.024Z",
+      "status": "read_full_relevant_body",
+      "accessStatus": "read_full_relevant_body",
+      "count": 0,
+      "note": "Parent supported normal browser read, named venue coordinate link; building approximate, not entrance."
+    },
+    {
+      "id": "source-75349317756b",
+      "name": "Kölner Philharmonie coordinate POI",
+      "url": "https://www.outdooractive.com/de/poi/region-koeln-bonn/koelner-philharmonie/807649892/",
+      "checkedAt": "2026-11-02T10:39:23.000Z",
+      "status": "read_full_relevant_body",
+      "accessStatus": "read_full_relevant_body",
+      "count": 0,
+      "note": "Parent supported normal browser read, named venue coordinate link; building approximate, not entrance."
+    },
+    {
+      "id": "source-c60e2cc39f6f",
+      "name": "Museum Ludwig coordinate POI",
+      "url": "https://www.outdooractive.com/de/poi/region-koeln-bonn/museum-ludwig/57693284/",
+      "checkedAt": "2026-11-02T10:35:09Z",
+      "status": "read_full_relevant_body",
+      "accessStatus": "read_full_relevant_body",
+      "count": 0,
+      "note": "Coordinate and exact museum address read; old POI prices and opening hours rejected in favor of official current page."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

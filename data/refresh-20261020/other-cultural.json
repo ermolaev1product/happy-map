@@ -1,0 +1,917 @@
+{
+  "generatedAt": "2026-10-20T05:22:51.932462+00:00",
+  "scope": "Read-only primary-source deep verification for Oct 20–27 sparse-date gaps, with Stanford AI next-30-day checks. Source project files were not edited.",
+  "sourceRoot": "/workspace/scratch/59f6a13c9f12/map-oct20/public",
+  "checkedExistingCounts": {
+    "london": 196,
+    "yerevan": 378,
+    "moscow": 3728,
+    "palo-alto": 644
+  },
+  "verifiedAdditionCount": 9,
+  "verifiedAdditions": [
+    {
+      "cityKey": "london",
+      "event": {
+        "id": "deep-20261020-london-4ebff4ba9f589d",
+        "kind": "event",
+        "title": "The Firebird — London Philharmonic Orchestra",
+        "category": "music",
+        "date": "2026-10-23",
+        "time": "19:30",
+        "end": null,
+        "endDate": null,
+        "startAt": "2026-10-23T19:30:00+01:00",
+        "endAt": null,
+        "timezone": "Europe/London",
+        "city": "London",
+        "venue": "Royal Festival Hall",
+        "venueId": "ldn-venue-dab4490d7288e30f",
+        "address": "Belvedere Road, London, SE1 8XX",
+        "lat": 51.50580619999999,
+        "lng": -0.1166288,
+        "coordinatePrecision": "official-venue",
+        "coordinateSource": "https://www.southbankcentre.co.uk/whats-on/quentin-blake-the-southbank-parade/",
+        "coordinateNote": "Coordinates published by the venue.",
+        "source": "Southbank Centre",
+        "sourceUrl": "https://www.southbankcentre.co.uk/whats-on/the-firebird/",
+        "primarySourceUrl": "https://www.southbankcentre.co.uk/whats-on/the-firebird/",
+        "checkedAt": "2026-10-20T05:22:51.932462+00:00",
+        "sourceRetrievedAt": "2026-10-20T05:22:51.932462+00:00",
+        "price": 20,
+        "currency": "GBP",
+        "fees": null,
+        "min": true,
+        "priceStatus": "published",
+        "priceNote": "Published starting price; current seat availability and fees not checked.",
+        "description": "Edward Gardner conducts the LPO in Howell, a Mark Simpson piano concerto premiere, and Stravinsky. Tamara Stefanovich is the currently advertised pianist.",
+        "isInPerson": true,
+        "availabilityVerified": false,
+        "accessType": "ticket",
+        "accessNote": "Ticket required; ages 7+. Under-12s must be accompanied by an adult. Prices can change with demand. Booking inventory was not checked.",
+        "verification": "primary_dated_event_and_existing_venue",
+        "researchBatch": "oct20-deep-gap-verification",
+        "stale": false,
+        "durationMinutes": 120,
+        "durationNote": "Organizer states approximately two hours; no exact end time inferred.",
+        "ageGuidance": "7+"
+      },
+      "evidence": {
+        "primaryAnnouncementFullyRead": true,
+        "sourceCheckedAt": "2026-10-20T05:22:51.932462+00:00",
+        "facts": [
+          {
+            "url": "https://www.southbankcentre.co.uk/whats-on/the-firebird/",
+            "status": "read",
+            "supports": [
+              "23 Oct 2026 19:30",
+              "Royal Festival Hall",
+              "Belvedere Road, London SE1 8XX",
+              "standard tickets from GBP 20",
+              "current pianist Tamara Stefanovich, replacing originally advertised artist",
+              "ages 7+; under-12s accompanied by an adult"
+            ],
+            "webRef": "turn1395view0"
+          }
+        ],
+        "venueCoordinateReuse": {
+          "sourceFile": "/workspace/scratch/59f6a13c9f12/map-oct20/public/london/places.json",
+          "recordId": "ldn-venue-dab4490d7288e30f",
+          "lat": 51.50580619999999,
+          "lng": -0.1166288,
+          "coordinateSource": "https://www.southbankcentre.co.uk/whats-on/quentin-blake-the-southbank-parade/",
+          "coordinatePrecision": "official-venue",
+          "note": "Copied exactly from the current source record. Event source independently establishes venue identity/address; coordinates were not freshly geocoded."
+        },
+        "duplicateCheck": {
+          "currentEventCount": 196,
+          "sameDateSourceTitleOrExactVenueTimeMatches": [],
+          "candidateIdAlreadyExists": false
+        }
+      }
+    },
+    {
+      "cityKey": "london",
+      "event": {
+        "id": "deep-20261020-london-7d6de83e9f01d4",
+        "kind": "event",
+        "title": "Jean Rondeau, Nicolas Altstaedt & Thomas Dunford",
+        "category": "music",
+        "date": "2026-10-25",
+        "time": "14:00",
+        "end": null,
+        "endDate": null,
+        "startAt": "2026-10-25T14:00:00+00:00",
+        "endAt": null,
+        "timezone": "Europe/London",
+        "city": "London",
+        "venue": "Queen Elizabeth Hall",
+        "venueId": "ldn-venue-393a5f961f6ad193",
+        "address": "Belvedere Road, London, SE1 8XX",
+        "lat": 51.5066003,
+        "lng": -0.1165167,
+        "coordinatePrecision": "official-venue",
+        "coordinateSource": "https://www.southbankcentre.co.uk/whats-on/chineke-orchestra-arabic-symphony/",
+        "coordinateNote": "Coordinates published by the venue.",
+        "source": "Southbank Centre",
+        "sourceUrl": "https://www.southbankcentre.co.uk/whats-on/jean-rondeau-nicolas-altstaedt-thomas-dunford/",
+        "primarySourceUrl": "https://www.southbankcentre.co.uk/whats-on/jean-rondeau-nicolas-altstaedt-thomas-dunford/",
+        "checkedAt": "2026-10-20T05:22:51.932462+00:00",
+        "sourceRetrievedAt": "2026-10-20T05:22:51.932462+00:00",
+        "price": 22,
+        "currency": "GBP",
+        "fees": null,
+        "min": true,
+        "priceStatus": "published",
+        "priceNote": "Published starting price; current seat availability and fees not checked.",
+        "description": "French Baroque programme for harpsichord, cello and lute, with music by Marais, Forqueray and Couperin.",
+        "isInPerson": true,
+        "availabilityVerified": false,
+        "accessType": "ticket",
+        "accessNote": "Ticket required; ages 7+. Under-12s must be accompanied by an adult. Prices can change with demand. Booking inventory was not checked.",
+        "verification": "primary_dated_event_and_existing_venue",
+        "researchBatch": "oct20-deep-gap-verification",
+        "stale": false,
+        "durationMinutes": 120,
+        "durationNote": "Organizer states approximately two hours; no exact end time inferred.",
+        "ageGuidance": "7+"
+      },
+      "evidence": {
+        "primaryAnnouncementFullyRead": true,
+        "sourceCheckedAt": "2026-10-20T05:22:51.932462+00:00",
+        "facts": [
+          {
+            "url": "https://www.southbankcentre.co.uk/whats-on/jean-rondeau-nicolas-altstaedt-thomas-dunford/",
+            "status": "read",
+            "supports": [
+              "25 Oct 2026 14:00",
+              "Queen Elizabeth Hall",
+              "Belvedere Road, London SE1 8XX",
+              "standard tickets from GBP 22",
+              "ages 7+"
+            ],
+            "webRef": "turn1399view0"
+          }
+        ],
+        "venueCoordinateReuse": {
+          "sourceFile": "/workspace/scratch/59f6a13c9f12/map-oct20/public/london/places.json",
+          "recordId": "ldn-venue-393a5f961f6ad193",
+          "lat": 51.5066003,
+          "lng": -0.1165167,
+          "coordinateSource": "https://www.southbankcentre.co.uk/whats-on/chineke-orchestra-arabic-symphony/",
+          "coordinatePrecision": "official-venue",
+          "note": "Copied exactly from the current source record. Event source independently establishes venue identity/address; coordinates were not freshly geocoded."
+        },
+        "duplicateCheck": {
+          "currentEventCount": 196,
+          "sameDateSourceTitleOrExactVenueTimeMatches": [],
+          "candidateIdAlreadyExists": false
+        }
+      }
+    },
+    {
+      "cityKey": "london",
+      "event": {
+        "id": "deep-20261020-london-5f06793b0f7a96",
+        "kind": "event",
+        "title": "Orsino Ensemble at Wigmore Hall",
+        "category": "music",
+        "date": "2026-10-26",
+        "time": "13:00",
+        "end": null,
+        "endDate": null,
+        "startAt": "2026-10-26T13:00:00+00:00",
+        "endAt": null,
+        "timezone": "Europe/London",
+        "city": "London",
+        "venue": "Wigmore Hall",
+        "venueId": "ldn-venue-b984ebfdad793732",
+        "address": "36 Wigmore Street, London W1U 2BP",
+        "lat": 51.516656,
+        "lng": -0.148262,
+        "coordinatePrecision": "postcode-centroid",
+        "coordinateSource": "https://api.postcodes.io/postcodes/W1U%202BP",
+        "coordinateNote": "Approximate marker for the venue’s verified postcode. Follow the street address for the entrance.",
+        "source": "Nicholas Daniel — artist event announcement",
+        "sourceUrl": "https://nicholasdaniel.co.uk/event/orsino-ensemble-at-wigmore-hall/",
+        "primarySourceUrl": "https://nicholasdaniel.co.uk/event/orsino-ensemble-at-wigmore-hall/",
+        "checkedAt": "2026-10-20T05:22:51.932462+00:00",
+        "sourceRetrievedAt": "2026-10-20T05:22:51.932462+00:00",
+        "price": null,
+        "currency": "GBP",
+        "fees": null,
+        "min": false,
+        "priceStatus": "not_published",
+        "priceNote": "No event-specific price verified. Unknown does not mean free.",
+        "description": "Wind chamber concert featuring Barber, Nielsen and a UK premiere by Mark Simpson.",
+        "isInPerson": true,
+        "availabilityVerified": false,
+        "accessType": "ticket",
+        "accessNote": "Public Wigmore Hall recital announced by the performing artist. Venue ticket page returned HTTP 403; price and availability were not verified.",
+        "verification": "primary_dated_event_and_existing_venue",
+        "researchBatch": "oct20-deep-gap-verification",
+        "stale": false
+      },
+      "evidence": {
+        "primaryAnnouncementFullyRead": true,
+        "sourceCheckedAt": "2026-10-20T05:22:51.932462+00:00",
+        "facts": [
+          {
+            "url": "https://nicholasdaniel.co.uk/event/orsino-ensemble-at-wigmore-hall/",
+            "status": "read",
+            "supports": [
+              "event-specific dated artist announcement",
+              "explicit date 2026-10-26",
+              "13:00",
+              "Wigmore Hall, 36 Wigmore Street, London W1U 2BP",
+              "official venue event link"
+            ],
+            "webRef": "turn1395view2"
+          },
+          {
+            "url": "https://www.wigmore-hall.org.uk/whats-on/202610261300",
+            "status": "403_forbidden",
+            "supports": [],
+            "note": "Venue event page inaccessible; the full artist announcement is the primary evidence."
+          }
+        ],
+        "venueCoordinateReuse": {
+          "sourceFile": "/workspace/scratch/59f6a13c9f12/map-oct20/public/london/places.json",
+          "recordId": "ldn-venue-b984ebfdad793732",
+          "lat": 51.516656,
+          "lng": -0.148262,
+          "coordinateSource": "https://api.postcodes.io/postcodes/W1U%202BP",
+          "coordinatePrecision": "postcode-centroid",
+          "note": "Copied exactly from the current source record. Event source independently establishes venue identity/address; coordinates were not freshly geocoded."
+        },
+        "duplicateCheck": {
+          "currentEventCount": 196,
+          "sameDateSourceTitleOrExactVenueTimeMatches": [],
+          "candidateIdAlreadyExists": false
+        }
+      }
+    },
+    {
+      "cityKey": "london",
+      "event": {
+        "id": "deep-20261020-london-1c444e227401d9",
+        "kind": "event",
+        "title": "Dame Sarah Connolly & Joseph Middleton",
+        "category": "music",
+        "date": "2026-10-27",
+        "time": "19:30",
+        "end": "20:30",
+        "endDate": "2026-10-27",
+        "startAt": "2026-10-27T19:30:00+00:00",
+        "endAt": "2026-10-27T20:30:00+00:00",
+        "timezone": "Europe/London",
+        "city": "London",
+        "venue": "Wigmore Hall",
+        "venueId": "ldn-venue-b984ebfdad793732",
+        "address": "36 Wigmore Street, London W1U 2BP",
+        "lat": 51.516656,
+        "lng": -0.148262,
+        "coordinatePrecision": "postcode-centroid",
+        "coordinateSource": "https://api.postcodes.io/postcodes/W1U%202BP",
+        "coordinateNote": "Approximate marker for the venue’s verified postcode. Follow the street address for the entrance.",
+        "source": "Joseph Middleton — artist event announcement",
+        "sourceUrl": "https://www.josephmiddleton.com/concerts/dame-sarah-connolly-wigmore-hall",
+        "primarySourceUrl": "https://www.josephmiddleton.com/concerts/dame-sarah-connolly-wigmore-hall",
+        "checkedAt": "2026-10-20T05:22:51.932462+00:00",
+        "sourceRetrievedAt": "2026-10-20T05:22:51.932462+00:00",
+        "price": null,
+        "currency": "GBP",
+        "fees": null,
+        "min": false,
+        "priceStatus": "not_published",
+        "priceNote": "No event-specific price verified. Unknown does not mean free.",
+        "description": "Mezzo-soprano Dame Sarah Connolly and pianist Joseph Middleton in recital.",
+        "isInPerson": true,
+        "availabilityVerified": false,
+        "accessType": "ticket",
+        "accessNote": "Public recital announced by the pianist. Venue ticket page returned HTTP 403; price and availability were not verified.",
+        "verification": "primary_dated_event_and_existing_venue",
+        "researchBatch": "oct20-deep-gap-verification",
+        "stale": false,
+        "endTimeNote": "20:30 is explicitly published on the artist event page, not inferred from a standard duration."
+      },
+      "evidence": {
+        "primaryAnnouncementFullyRead": true,
+        "sourceCheckedAt": "2026-10-20T05:22:51.932462+00:00",
+        "facts": [
+          {
+            "url": "https://www.josephmiddleton.com/concerts/dame-sarah-connolly-wigmore-hall",
+            "status": "read",
+            "supports": [
+              "Tuesday 27 October 2026",
+              "19:30–20:30 explicitly printed",
+              "Wigmore Hall, 36 Wigmore Street, London W1U 2BP",
+              "performers and venue event link"
+            ],
+            "webRef": "turn1409view2"
+          },
+          {
+            "url": "https://www.wigmore-hall.org.uk/whats-on/202610271930",
+            "status": "403_forbidden",
+            "supports": [],
+            "note": "Venue ticket page inaccessible; artist event announcement fully read."
+          }
+        ],
+        "venueCoordinateReuse": {
+          "sourceFile": "/workspace/scratch/59f6a13c9f12/map-oct20/public/london/places.json",
+          "recordId": "ldn-venue-b984ebfdad793732",
+          "lat": 51.516656,
+          "lng": -0.148262,
+          "coordinateSource": "https://api.postcodes.io/postcodes/W1U%202BP",
+          "coordinatePrecision": "postcode-centroid",
+          "note": "Copied exactly from the current source record. Event source independently establishes venue identity/address; coordinates were not freshly geocoded."
+        },
+        "duplicateCheck": {
+          "currentEventCount": 196,
+          "sameDateSourceTitleOrExactVenueTimeMatches": [],
+          "candidateIdAlreadyExists": false
+        }
+      }
+    },
+    {
+      "cityKey": "yerevan",
+      "event": {
+        "id": "deep-20261020-yerevan-0e8836cc22bad2",
+        "kind": "event",
+        "title": "Le souffle des femmes — Anaïd Boyadjian, Aghtamar Quartet & Sergey Ayvazyan",
+        "category": "music",
+        "date": "2026-10-27",
+        "time": "19:00",
+        "end": "21:00",
+        "endDate": "2026-10-27",
+        "startAt": "2026-10-27T19:00:00+04:00",
+        "endAt": "2026-10-27T21:00:00+04:00",
+        "timezone": "Asia/Yerevan",
+        "city": "Yerevan",
+        "venue": "Arno Babajanian Concert Hall",
+        "venueId": "yv-osm:node:2681033804",
+        "address": "2 Abovyan Street, Yerevan",
+        "lat": 40.1791157,
+        "lng": 44.5136908,
+        "coordinatePrecision": "venue",
+        "coordinateSource": "https://www.openstreetmap.org/node/2681033804",
+        "coordinateNote": "Exact existing venue coordinates reused; no new geocoding performed.",
+        "source": "The State Philharmonia of Armenia",
+        "sourceUrl": "https://philharmonia.am/en/event/anaid-boyadjian-vocals/",
+        "primarySourceUrl": "https://philharmonia.am/en/event/anaid-boyadjian-vocals/",
+        "checkedAt": "2026-10-20T05:22:51.932462+00:00",
+        "sourceRetrievedAt": "2026-10-20T05:22:51.932462+00:00",
+        "price": null,
+        "currency": "AMD",
+        "fees": null,
+        "min": false,
+        "priceStatus": "not_published",
+        "priceNote": "No event-specific price verified. Unknown does not mean free.",
+        "description": "Voice, string quartet and piano in a programme combining Komitas, chamber music and contemporary songs.",
+        "isInPerson": true,
+        "availabilityVerified": false,
+        "accessType": "ticket",
+        "accessNote": "Ticket required. Organizer offers online and box-office sales. The ticket-seat page did not expose a ticket price or remaining inventory; no free-admission claim.",
+        "verification": "primary_dated_event_and_existing_venue",
+        "researchBatch": "oct20-deep-gap-verification",
+        "stale": false,
+        "endTimeNote": "21:00 is explicitly printed on the organizer October 2026 calendar.",
+        "addressOriginal": "2 Աբովյան փողոց"
+      },
+      "evidence": {
+        "primaryAnnouncementFullyRead": true,
+        "sourceCheckedAt": "2026-10-20T05:22:51.932462+00:00",
+        "facts": [
+          {
+            "url": "https://philharmonia.am/en/events___plugin/month/2026-10/",
+            "status": "read",
+            "supports": [
+              "explicit October 2026 calendar",
+              "27 October 19:00–21:00",
+              "exact event link"
+            ],
+            "webRef": "turn1404view4"
+          },
+          {
+            "url": "https://philharmonia.am/en/event/anaid-boyadjian-vocals/",
+            "status": "read",
+            "supports": [
+              "27 October 19:00",
+              "performers and programme",
+              "Babajanyan Concert Hall",
+              "2 Abovyan Street",
+              "public ticket link"
+            ],
+            "webRef": "turn1409view3"
+          }
+        ],
+        "venueCoordinateReuse": {
+          "sourceFile": "/workspace/scratch/59f6a13c9f12/map-oct20/public/yerevan/places.json",
+          "recordId": "yv-osm:node:2681033804",
+          "lat": 40.1791157,
+          "lng": 44.5136908,
+          "coordinateSource": "https://www.openstreetmap.org/node/2681033804",
+          "coordinatePrecision": "venue",
+          "note": "Copied exactly from the current source record. Event source independently establishes venue identity/address; coordinates were not freshly geocoded."
+        },
+        "duplicateCheck": {
+          "currentEventCount": 378,
+          "sameDateSourceTitleOrExactVenueTimeMatches": [],
+          "candidateIdAlreadyExists": false
+        }
+      }
+    },
+    {
+      "cityKey": "yerevan",
+      "event": {
+        "id": "deep-20261020-yerevan-2d236bc9534039",
+        "kind": "event",
+        "title": "Свободная пара",
+        "category": "theatre",
+        "date": "2026-10-27",
+        "time": "19:00",
+        "end": null,
+        "endDate": null,
+        "startAt": "2026-10-27T19:00:00+04:00",
+        "endAt": null,
+        "timezone": "Asia/Yerevan",
+        "city": "Yerevan",
+        "venue": "Dramatical Theatre after Stanislavski",
+        "venueId": "yv-osm:way:32804173",
+        "address": "7 Abovyan Street, Yerevan",
+        "lat": 40.18219273333333,
+        "lng": 44.5164216,
+        "coordinatePrecision": "building-center",
+        "coordinateSource": "https://www.openstreetmap.org/way/32804173",
+        "coordinateNote": "Exact existing venue coordinates reused; no new geocoding performed.",
+        "source": "Yerevan Stanislavsky Russian Drama Theatre",
+        "sourceUrl": "https://stanislavski.am/ru/shows/svobodnaya",
+        "primarySourceUrl": "https://stanislavski.am/ru/shows/svobodnaya",
+        "checkedAt": "2026-10-20T05:22:51.932462+00:00",
+        "sourceRetrievedAt": "2026-10-20T05:22:51.932462+00:00",
+        "price": 3000,
+        "currency": "AMD",
+        "fees": null,
+        "min": false,
+        "priceStatus": "published",
+        "priceNote": "Organizer publishes AMD 3,000 for the Oct 27 performance. Remaining seats and fees were not checked.",
+        "description": "Russian-language lyrical comedy based on Dario Fo, directed by Nora Grigoryan, on the small stage.",
+        "isInPerson": true,
+        "availabilityVerified": false,
+        "accessType": "ticket",
+        "accessNote": "Ticket required; 16+. Performed in Russian on the small stage. Remaining ticket inventory not verified.",
+        "verification": "primary_dated_event_and_existing_venue",
+        "researchBatch": "oct20-deep-gap-verification",
+        "stale": false,
+        "durationMinutes": 70,
+        "durationNote": "Published duration 70 minutes; exact end time not inferred.",
+        "language": "RU",
+        "room": "Малая сцена",
+        "ageGuidance": "16+",
+        "addressOriginal": "7 Աբովյան փողոց"
+      },
+      "evidence": {
+        "primaryAnnouncementFullyRead": true,
+        "sourceCheckedAt": "2026-10-20T05:22:51.932462+00:00",
+        "facts": [
+          {
+            "url": "https://stanislavski.am/ru/schedule",
+            "status": "read",
+            "supports": [
+              "explicit October 2026 calendar",
+              "27 October 19:00",
+              "small stage",
+              "Russian language",
+              "16+",
+              "AMD 3000"
+            ],
+            "webRef": "turn1412view0"
+          },
+          {
+            "url": "https://stanislavski.am/ru/shows/svobodnaya",
+            "status": "read",
+            "supports": [
+              "dated performance announcement",
+              "play details",
+              "70-minute duration, no interval",
+              "7 Abovyan Street, Yerevan"
+            ],
+            "webRef": "turn1412view1"
+          }
+        ],
+        "venueCoordinateReuse": {
+          "sourceFile": "/workspace/scratch/59f6a13c9f12/map-oct20/public/yerevan/places.json",
+          "recordId": "yv-osm:way:32804173",
+          "lat": 40.18219273333333,
+          "lng": 44.5164216,
+          "coordinateSource": "https://www.openstreetmap.org/way/32804173",
+          "coordinatePrecision": "building-center",
+          "note": "Copied exactly from the current source record. Event source independently establishes venue identity/address; coordinates were not freshly geocoded."
+        },
+        "duplicateCheck": {
+          "currentEventCount": 378,
+          "sameDateSourceTitleOrExactVenueTimeMatches": [],
+          "candidateIdAlreadyExists": false
+        }
+      }
+    },
+    {
+      "cityKey": "moscow",
+      "event": {
+        "id": "deep-20261020-moscow-98172bcbfad032",
+        "kind": "event",
+        "title": "«СДВИГ». Ансамбль солистов «Студия новой музыки» и проект Hauntology",
+        "category": "music",
+        "date": "2026-10-20",
+        "time": "19:00",
+        "end": null,
+        "endDate": null,
+        "startAt": "2026-10-20T19:00:00+03:00",
+        "endAt": null,
+        "timezone": "Europe/Moscow",
+        "city": "Moscow",
+        "venue": "Московская консерватория — Рахманиновский зал",
+        "venueId": "coverage-venue:moscow:4f4edb9c6429",
+        "address": "Москва, ул. Большая Никитская, 11",
+        "lat": 55.75634265092586,
+        "lng": 37.60580503954384,
+        "coordinatePrecision": "venue",
+        "coordinateSource": "https://www.afisha.ru/msk/concerthall/rahmaninovskiy-zal-konservatorii-4743/",
+        "coordinateNote": "Exact existing venue coordinates reused; no new geocoding performed.",
+        "source": "Moscow Conservatory",
+        "sourceUrl": "https://www.mosconsv.ru/ru/concert/204106",
+        "primarySourceUrl": "https://www.mosconsv.ru/ru/concert/204106",
+        "checkedAt": "2026-10-20T05:22:51.932462+00:00",
+        "sourceRetrievedAt": "2026-10-20T05:22:51.932462+00:00",
+        "price": 500,
+        "currency": "RUB",
+        "fees": null,
+        "min": true,
+        "priceStatus": "published",
+        "priceNote": "Official event page publishes RUB 500–2,000; remaining seat availability not checked.",
+        "description": "Concert marking Steve Reich’s 90th anniversary, with Reich, Feldman, arrangements of Aphex Twin and Coldcut, and an acoustic techno set.",
+        "isInPerson": true,
+        "availabilityVerified": false,
+        "accessType": "ticket",
+        "accessNote": "Public ticketed event. Check the organizer for remaining tickets and admission conditions.",
+        "verification": "primary_dated_event_and_existing_venue",
+        "researchBatch": "oct20-deep-gap-verification",
+        "stale": false,
+        "priceMax": 2000,
+        "language": "RU"
+      },
+      "evidence": {
+        "primaryAnnouncementFullyRead": true,
+        "sourceCheckedAt": "2026-10-20T05:22:51.932462+00:00",
+        "facts": [
+          {
+            "url": "https://www.mosconsv.ru/afisha/2026-10-20",
+            "status": "read",
+            "supports": [
+              "explicit 20 October 2026 date heading",
+              "19:00",
+              "Rachmaninov Hall",
+              "500–2000 RUB"
+            ],
+            "webRef": "turn1403view2"
+          },
+          {
+            "url": "https://www.mosconsv.ru/ru/concert/204106",
+            "status": "read",
+            "supports": [
+              "full event announcement and programme",
+              "19:00",
+              "Rachmaninov Hall",
+              "500–2000 RUB",
+              "ticket link"
+            ],
+            "webRef": "turn1407view0"
+          },
+          {
+            "url": "https://www.mosconsv.ru/ru/venue/1724",
+            "status": "read",
+            "supports": [
+              "Rachmaninov Hall address: 11 Bolshaya Nikitskaya Street, Moscow"
+            ],
+            "webRef": "turn1410view2"
+          }
+        ],
+        "venueCoordinateReuse": {
+          "sourceFile": "/workspace/scratch/59f6a13c9f12/map-oct20/public/moscow/events.json",
+          "recordId": "culture-20261016-moscow-3770f524c42a",
+          "lat": 55.75634265092586,
+          "lng": 37.60580503954384,
+          "coordinateSource": "https://www.afisha.ru/msk/concerthall/rahmaninovskiy-zal-konservatorii-4743/",
+          "coordinatePrecision": "venue",
+          "note": "Copied exactly from the current source record. Event source independently establishes venue identity/address; coordinates were not freshly geocoded."
+        },
+        "duplicateCheck": {
+          "currentEventCount": 3728,
+          "sameDateSourceTitleOrExactVenueTimeMatches": [],
+          "candidateIdAlreadyExists": false
+        }
+      }
+    },
+    {
+      "cityKey": "moscow",
+      "event": {
+        "id": "deep-20261020-moscow-f432d8c40f7352",
+        "kind": "event",
+        "title": "«Шедевры мировой классики» — Государственный Кремлёвский оркестр",
+        "category": "music",
+        "date": "2026-10-20",
+        "time": "19:00",
+        "end": null,
+        "endDate": null,
+        "startAt": "2026-10-20T19:00:00+03:00",
+        "endAt": null,
+        "timezone": "Europe/Moscow",
+        "city": "Moscow",
+        "venue": "Московская консерватория — Большой зал",
+        "venueId": "coverage-venue:moscow:906507fe2560",
+        "address": "Москва, ул. Большая Никитская, 13/6",
+        "lat": 55.756311,
+        "lng": 37.604349,
+        "coordinatePrecision": "venue",
+        "coordinateSource": "https://2gis.ru/moscow/geo/70030076345981775",
+        "coordinateNote": "Exact existing venue coordinates reused; no new geocoding performed.",
+        "source": "Moscow Conservatory",
+        "sourceUrl": "https://www.mosconsv.ru/ru/concert/203706",
+        "primarySourceUrl": "https://www.mosconsv.ru/ru/concert/203706",
+        "checkedAt": "2026-10-20T05:22:51.932462+00:00",
+        "sourceRetrievedAt": "2026-10-20T05:22:51.932462+00:00",
+        "price": null,
+        "currency": "RUB",
+        "fees": null,
+        "min": false,
+        "priceStatus": "not_published",
+        "priceNote": "No event-specific price verified. Unknown does not mean free.",
+        "description": "Konstantin Chudovsky conducts, with pianist Giovanni Bertolazzi. Programme includes Mendelssohn, Liszt, Nielsen and Grieg.",
+        "isInPerson": true,
+        "availabilityVerified": false,
+        "accessType": "ticket",
+        "accessNote": "Public ticketed event. Check the organizer for remaining tickets and admission conditions.",
+        "verification": "primary_dated_event_and_existing_venue",
+        "researchBatch": "oct20-deep-gap-verification",
+        "stale": false,
+        "language": "RU"
+      },
+      "evidence": {
+        "primaryAnnouncementFullyRead": true,
+        "sourceCheckedAt": "2026-10-20T05:22:51.932462+00:00",
+        "facts": [
+          {
+            "url": "https://www.mosconsv.ru/afisha/2026-10-20",
+            "status": "read",
+            "supports": [
+              "explicit 20 October 2026 date heading",
+              "19:00",
+              "Great Hall",
+              "performer names"
+            ],
+            "webRef": "turn1403view2"
+          },
+          {
+            "url": "https://www.mosconsv.ru/ru/concert/203706",
+            "status": "read",
+            "supports": [
+              "full event announcement",
+              "19:00",
+              "Great Hall",
+              "performers and programme",
+              "public ticket link"
+            ],
+            "webRef": "turn1407view1"
+          },
+          {
+            "url": "https://www.mosconsv.ru/ru/venue/1710",
+            "status": "read",
+            "supports": [
+              "Great Hall address: 13/6 Bolshaya Nikitskaya Street, Moscow"
+            ],
+            "webRef": "turn1410view3"
+          }
+        ],
+        "venueCoordinateReuse": {
+          "sourceFile": "/workspace/scratch/59f6a13c9f12/map-oct20/public/moscow/events.json",
+          "recordId": "culture-20261016-moscow-54ad1f120ce1",
+          "lat": 55.756311,
+          "lng": 37.604349,
+          "coordinateSource": "https://2gis.ru/moscow/geo/70030076345981775",
+          "coordinatePrecision": "venue",
+          "note": "Copied exactly from the current source record. Event source independently establishes venue identity/address; coordinates were not freshly geocoded."
+        },
+        "duplicateCheck": {
+          "currentEventCount": 3728,
+          "sameDateSourceTitleOrExactVenueTimeMatches": [],
+          "candidateIdAlreadyExists": false
+        }
+      }
+    },
+    {
+      "cityKey": "palo-alto",
+      "event": {
+        "id": "deep-20261020-palo-alto-fdb5a1860bf2df",
+        "kind": "event",
+        "title": "Amy X. Zhang: What can CSCW Teach us About How to Work with Agents?",
+        "category": "talk",
+        "date": "2026-10-23",
+        "time": "11:30",
+        "end": "12:30",
+        "endDate": "2026-10-23",
+        "startAt": "2026-10-23T11:30:00-07:00",
+        "endAt": "2026-10-23T12:30:00-07:00",
+        "timezone": "America/Los_Angeles",
+        "city": "Stanford",
+        "venue": "Gates Computer Science Building",
+        "venueId": "pa-stanford-venue-37946733090163",
+        "address": "353 Jane Stanford Way, Stanford, CA 94305",
+        "lat": 37.429987,
+        "lng": -122.17333,
+        "coordinatePrecision": "official-building",
+        "coordinateSource": "https://events.stanford.edu/gates_computer_science_building",
+        "coordinateNote": "Exact existing venue coordinates reused; no new geocoding performed.",
+        "source": "Stanford HCI Seminar",
+        "sourceUrl": "https://hci.stanford.edu/seminar/speaker.php?date=2026-10-23",
+        "primarySourceUrl": "https://hci.stanford.edu/seminar/speaker.php?date=2026-10-23",
+        "checkedAt": "2026-10-20T05:22:51.932462+00:00",
+        "sourceRetrievedAt": "2026-10-20T05:22:51.932462+00:00",
+        "price": null,
+        "currency": "USD",
+        "fees": null,
+        "min": false,
+        "priceStatus": "not_published",
+        "priceNote": "No event-specific price verified. Unknown does not mean free.",
+        "description": "Amy X. Zhang discusses collaborative systems and research for coordinating people with AI agents.",
+        "isInPerson": true,
+        "availabilityVerified": false,
+        "accessType": "open_to_public",
+        "accessNote": "Explicitly open to non-Stanford attendees in person, Gates B3. No public livestream. Price is not stated; do not label as free. Seminars are recorded and incidental attendee images/voices may be captured.",
+        "verification": "primary_dated_event_and_existing_venue",
+        "researchBatch": "oct20-deep-gap-verification",
+        "stale": false,
+        "language": "EN",
+        "room": "B3",
+        "mapRegion": "Palo Alto / Stanford",
+        "locality": "Stanford campus",
+        "audience": [
+          "General Public"
+        ],
+        "boundaryNote": "Stanford campus, not asserted to be inside Palo Alto municipal boundaries."
+      },
+      "evidence": {
+        "primaryAnnouncementFullyRead": true,
+        "sourceCheckedAt": "2026-10-20T05:22:51.932462+00:00",
+        "facts": [
+          {
+            "url": "https://hci.stanford.edu/seminar/speaker.php?date=2026-10-23",
+            "status": "read",
+            "supports": [
+              "explicit October 23, 2026",
+              "11:30–12:30 PT",
+              "Gates B3",
+              "open to the public",
+              "full talk abstract"
+            ],
+            "webRef": "turn1415view0"
+          },
+          {
+            "url": "https://hci.stanford.edu/seminar/",
+            "status": "read",
+            "supports": [
+              "Fall 2026 series date",
+              "non-Stanford audience explicitly welcome in person",
+              "no public live stream",
+              "recordings generally posted later"
+            ],
+            "webRef": "turn1414view0"
+          }
+        ],
+        "venueCoordinateReuse": {
+          "sourceFile": "/workspace/scratch/59f6a13c9f12/map-oct20/public/palo-alto/events.json",
+          "recordId": "pa-stanford-event-393aa733faf432",
+          "lat": 37.429987,
+          "lng": -122.17333,
+          "coordinateSource": "https://events.stanford.edu/gates_computer_science_building",
+          "coordinatePrecision": "official-building",
+          "note": "Copied exactly from the current source record. Event source independently establishes venue identity/address; coordinates were not freshly geocoded."
+        },
+        "duplicateCheck": {
+          "currentEventCount": 644,
+          "sameDateSourceTitleOrExactVenueTimeMatches": [],
+          "candidateIdAlreadyExists": false
+        }
+      }
+    }
+  ],
+  "conditionalCandidates": [
+    {
+      "cityKey": "palo-alto",
+      "title": "Daniel Rock | The Free Hypothesis: AI and Shifted Bottlenecks in Science",
+      "date": "2026-10-26",
+      "time": "12:00",
+      "end": "13:00",
+      "timezone": "America/Los_Angeles",
+      "startAt": "2026-10-26T12:00:00-07:00",
+      "endAt": "2026-10-26T13:00:00-07:00",
+      "venue": "Gates Computer Science Building",
+      "room": "119",
+      "address": "353 Serra Mall, Stanford, CA 94305",
+      "venueId": "pa-stanford-venue-37946733090163",
+      "lat": 37.429987,
+      "lng": -122.17333,
+      "coordinateSource": "https://events.stanford.edu/gates_computer_science_building",
+      "coordinatePrecision": "official-building",
+      "sourceUrl": "https://digitaleconomy.stanford.edu/event/daniel-rock-the-free-hypothesis-ai-and-shifted-bottlenecks-in-science/",
+      "checkedAt": "2026-10-20T05:22:51.932462+00:00",
+      "price": null,
+      "currency": "USD",
+      "verification": "date_time_venue_confirmed_public_eligibility_not_explicit",
+      "reasonNotInVerifiedAdditions": "Official event offers an in-person Eventbrite registration link, but does not explicitly state general-public eligibility. Registration page returned HTTP 429, so eligibility, cost and availability could not be verified. Do not infer unrestricted public access from registration link alone.",
+      "registrationUrl": "https://www.eventbrite.com/e/daniel-rock-the-free-hypothesis-ai-and-shifted-bottlenecks-in-science-tickets-2002311269909",
+      "coordinateReuseRecordId": "pa-stanford-event-393aa733faf432",
+      "webRef": "turn1403view3"
+    }
+  ],
+  "blockedCandidates": [
+    {
+      "cityKey": "yerevan",
+      "candidate": "Հրեշը լուսնի վրա / Monster on the Moon",
+      "targetDate": "2026-10-26",
+      "exactAction": "Read year-specific full ticket/event announcement",
+      "targets": [
+        "https://ticketsystem.am/public/hy/events/details/12908/hreshy-lvousni-vra",
+        "https://ticketsystem.am/en/events/filter?filter_category=&filter_city=&filter_venue=company-80",
+        "https://www.toms.am/am/ticket/150",
+        "https://www.tomsarkgh.am/hy/event/44536/%D5%80%D6%80%D5%A5%D5%B7%D5%A8-%D5%AC%D5%B8%D6%82%D5%BD%D5%B6%D5%AB-%D5%BE%D6%80%D5%A1.html"
+      ],
+      "reason": "Ticketsystem and Toms detail reads returned cache miss. Tomsarkgh returned a stale completed April occurrence despite newer search snippets. Official theatre October 2026 schedule did not list this guest production. Search snippets were not imported.",
+      "completed": "Read current theatre calendar and available Toms listing; exact matching existing venue coordinates found.",
+      "state": "uncertain_source_freshness",
+      "denied": false,
+      "included": false
+    },
+    {
+      "cityKey": "palo-alto",
+      "candidate": "Confronting Our AI Future: Hope, Fear, and the Choices Ahead",
+      "targetDate": "2026-10-28",
+      "exactAction": "Verify availability of in-person conference",
+      "target": "https://hai.stanford.edu/events/confronting-our-ai-future-hope-fear-and-the-choices-ahead",
+      "reason": "Primary page explicitly says sold out and offers waitlist only.",
+      "completed": "Read full event, 09:00–18:45, David and Joan Traitel Building, 435 Lasuen Mall, Stanford. Existing venue coordinates available.",
+      "state": "sold_out_waitlist_only",
+      "denied": false,
+      "included": false,
+      "webRef": "turn1395view1"
+    }
+  ],
+  "coverageSummary": {
+    "london": [
+      "2026-10-23",
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27"
+    ],
+    "yerevan": [
+      "2026-10-27 (two additions)"
+    ],
+    "moscow": [
+      "2026-10-20 (two additions)"
+    ],
+    "palo-alto": [
+      "2026-10-23 (public AI/HCI seminar)"
+    ],
+    "unclosedGaps": [
+      "Yerevan 2026-10-26: no import-ready primary dated announcement obtained."
+    ]
+  },
+  "methodNotes": [
+    "No event was accepted solely from a search snippet or a generic profile.",
+    "No assumed year, exact end, free admission, available seat, or new coordinates.",
+    "London changes to GMT on October 25 are reflected by IANA Europe/London conversion.",
+    "Venue coordinatePrecision and coordinateSource copied without upgrading precision. Wigmore remains an approximate postcode-centroid marker.",
+    "Primary page access failures are disclosed; no browser or authentication was used."
+  ],
+  "snapshotEvidence": {
+    "london": {
+      "eventsFileSha256": "c861c2c4405cfc86eccdc5ffbc221a1c6cbce03bb03959908f80b0c60dace32d",
+      "sortedCurrentIdsSha256": "8753577160cdad16e211774acad1b536a5611f084d9cdd75629da71a66af98d0",
+      "eventCount": 196
+    },
+    "yerevan": {
+      "eventsFileSha256": "dc1ffb1f74895ac7b8d90100ca496de4c908256d7dcfbf2daa2efc1242181da9",
+      "sortedCurrentIdsSha256": "2f13fba7a6a722ea94702fbcb8985b702aef71126e99c06da0a3b885b573f315",
+      "eventCount": 378
+    },
+    "moscow": {
+      "eventsFileSha256": "6ddfc563283db73229087f1c1069c29f4f6f2ea05b317f73761648651127ddf0",
+      "sortedCurrentIdsSha256": "3bb03f6bd9a750e48f922047176477770daa89ae4740509122558c4a6075e459",
+      "eventCount": 3728
+    },
+    "palo-alto": {
+      "eventsFileSha256": "e89c9e7b4da56cd59b90c0ff8a1fbe1b60ed9a358b19238fbed4ebf316bab1c9",
+      "sortedCurrentIdsSha256": "49435d2c4493e953efe8f837b205c7ec490a1d19ac68862672a6a49e09ba712c",
+      "eventCount": 644
+    }
+  }
+}

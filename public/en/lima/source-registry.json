@@ -1,0 +1,307 @@
+{
+  "city": "Lima",
+  "checkedAt": "2026-10-29T03:39:07.147507+00:00",
+  "sources": [
+    {
+      "id": "lima-source-40dbfcc3ce3e30",
+      "name": "eventosenlima.com",
+      "url": "https://eventosenlima.com/",
+      "checkedAt": "2026-10-29T03:31:47.413386+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-752262b601774a",
+      "name": "visualcity.pe",
+      "url": "https://visualcity.pe/es/eventos/?date=2026-10-29",
+      "checkedAt": "2026-10-29T03:31:54.261834+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-78f78917784f02",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/?eventos-fecha=2026-10-29",
+      "checkedAt": "2026-10-29T03:31:59.925894+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 8,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-927dea2925ecf3",
+      "name": "teleticket.com.pe",
+      "url": "https://teleticket.com.pe/Landing/ListadoEventosTodos",
+      "checkedAt": "2026-10-29T03:32:06.215984+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-8cde6096d69191",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/eventos/una-mirada-britanica-kate-hepburn-60-a-de-arte-y-diseno/",
+      "checkedAt": "2026-10-29T03:32:49.236731+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-483220a155c1d2",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/eventos/algo-mas-cerca-de-la-verdad-santa-anita/",
+      "checkedAt": "2026-10-29T03:32:52.263370+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-76a5582a46f9f2",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/eventos/tribu-police/",
+      "checkedAt": "2026-10-29T03:32:54.955319+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-315bad744441dc",
+      "name": "mali.pe",
+      "url": "https://mali.pe/es/exhibition/codesido/",
+      "checkedAt": "2026-10-29T03:32:58.775275+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "503; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-2072c6bca087d2",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/eventos/serenata-criolla/",
+      "checkedAt": "2026-10-29T03:32:58.840443+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-23760af8c05995",
+      "name": "aflima.org.pe",
+      "url": "https://aflima.org.pe/",
+      "checkedAt": "2026-10-29T03:33:03.541787+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-470c3cab008317",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/eventos/blanca-ponte-un-alma/",
+      "checkedAt": "2026-10-29T03:33:05.217138+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 21,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-b6201092911b48",
+      "name": "ccelima.org",
+      "url": "https://ccelima.org/",
+      "checkedAt": "2026-10-29T03:33:08.877209+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "406; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-015f70d228e377",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/eventos/la-mujer-de-negro/",
+      "checkedAt": "2026-10-29T03:33:11.728420+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 17,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-c9afedfcd3397b",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/?post_type=bri-evt-evento&p=15462",
+      "checkedAt": "2026-10-29T03:33:15.105842+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-1e7181d3a74610",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/?post_type=bri-evt-evento&p=15467",
+      "checkedAt": "2026-10-29T03:33:21.399862+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-1782ff7d17ea42",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/?post_type=bri-evt-evento&p=15404",
+      "checkedAt": "2026-10-29T03:33:26.712331+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-44a63297758641",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/?post_type=bri-evt-evento&p=15418",
+      "checkedAt": "2026-10-29T03:33:33.520030+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-7737f1483c5963",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/?post_type=bri-evt-evento&p=15393",
+      "checkedAt": "2026-10-29T03:33:46.479242+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-ad3917d09c84a0",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/cultural/?post_type=bri-evt-evento&p=15258",
+      "checkedAt": "2026-10-29T03:33:52.524963+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-e448c14d7a1ce3",
+      "name": "britanico.edu.pe",
+      "url": "https://britanico.edu.pe/sedes/",
+      "checkedAt": "2026-10-29T03:34:19.504798+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-a164e5d3931e70",
+      "name": "www.joinnus.com",
+      "url": "https://www.joinnus.com/events/theater/lima-blanca-ponte-un-alma-78264",
+      "checkedAt": "2026-10-29T03:34:22.691520+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-e4bc321112c800",
+      "name": "aflima.org.pe",
+      "url": "https://aflima.org.pe/evento/mujeres-por-mujeres-mujeres-en-arte-y-ciencia/",
+      "checkedAt": "2026-10-29T03:34:31.190174+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-81b98169bab869",
+      "name": "aflima.org.pe",
+      "url": "https://aflima.org.pe/evento/fete-du-cinema-danimation-x-meli/",
+      "checkedAt": "2026-10-29T03:34:34.473526+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-6204febc271779",
+      "name": "aflima.org.pe",
+      "url": "https://aflima.org.pe/evento/las-aulas-celestes/",
+      "checkedAt": "2026-10-29T03:34:37.269421+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-6d8a758ed0d3cc",
+      "name": "aflima.org.pe",
+      "url": "https://aflima.org.pe/evento/las-conferencias-de-victor-vich/",
+      "checkedAt": "2026-10-29T03:34:40.888424+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-b175b20531d783",
+      "name": "aflima.org.pe",
+      "url": "https://aflima.org.pe/evento/memoria-a-pantallazosel-cine-peruano-visto-desdeel-aula-de-un-instituto/",
+      "checkedAt": "2026-10-29T03:34:44.091398+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-54b65ea1274841",
+      "name": "aflima.org.pe",
+      "url": "https://aflima.org.pe/evento/la-forma-de-mirarnos/",
+      "checkedAt": "2026-10-29T03:34:47.252930+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-016a0eab9ab16d",
+      "name": "aflima.org.pe",
+      "url": "https://aflima.org.pe/evento/7ma-edicion-del-concursonacional-de-narrativa-grafica/",
+      "checkedAt": "2026-10-29T03:34:50.760855+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-30099292428002",
+      "name": "aflima.org.pe",
+      "url": "https://aflima.org.pe/sedes-de-la-alianza-francesa-lima/",
+      "checkedAt": "2026-10-29T03:36:07.353055+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "lima-source-205d8709384ad2",
+      "name": "enlima.pe",
+      "url": "https://enlima.pe/lugares/alianza-francesa-sede-miraflores",
+      "checkedAt": "2026-10-29T03:36:14.438149+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

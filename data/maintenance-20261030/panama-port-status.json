@@ -1,0 +1,445 @@
+{
+  "compiledAt": "2026-10-30T02:15:31.300348+00:00",
+  "baselineCommit": "39c20c944781b1272d2a9eb4d684cc1ec22194dd",
+  "changes": [
+    {
+      "city": "panama-city",
+      "locale": "ru",
+      "id": "pan-cata-20261029-1800",
+      "applied": "cancelled"
+    },
+    {
+      "city": "panama-city",
+      "locale": "ru",
+      "id": "pan-domingos-20261031-1600",
+      "applied": "cancelled"
+    },
+    {
+      "city": "panama-city",
+      "locale": "ru",
+      "id": "pan-sirat-20261031-1830",
+      "applied": "cancelled"
+    },
+    {
+      "city": "panama-city",
+      "locale": "ru",
+      "id": "pan-maspalomas-20261031-2100",
+      "applied": "cancelled"
+    },
+    {
+      "city": "panama-city",
+      "locale": "ru",
+      "id": "pan-coral-20261030-1900",
+      "applied": "held_for_recheck"
+    },
+    {
+      "city": "panama-city",
+      "locale": "en/",
+      "id": "pan-cata-20261029-1800",
+      "applied": "cancelled"
+    },
+    {
+      "city": "panama-city",
+      "locale": "en/",
+      "id": "pan-domingos-20261031-1600",
+      "applied": "cancelled"
+    },
+    {
+      "city": "panama-city",
+      "locale": "en/",
+      "id": "pan-sirat-20261031-1830",
+      "applied": "cancelled"
+    },
+    {
+      "city": "panama-city",
+      "locale": "en/",
+      "id": "pan-maspalomas-20261031-2100",
+      "applied": "cancelled"
+    },
+    {
+      "city": "panama-city",
+      "locale": "en/",
+      "id": "pan-coral-20261030-1900",
+      "applied": "held_for_recheck"
+    },
+    {
+      "city": "port-of-spain",
+      "locale": "ru",
+      "id": "port-of-spain-wired-sat-20261107-2000",
+      "applied": "held_for_recheck"
+    },
+    {
+      "city": "port-of-spain",
+      "locale": "ru",
+      "id": "port-of-spain-wired-sun-20261108-1800",
+      "applied": "held_for_recheck"
+    },
+    {
+      "city": "port-of-spain",
+      "locale": "en/",
+      "id": "port-of-spain-wired-sat-20261107-2000",
+      "applied": "held_for_recheck"
+    },
+    {
+      "city": "port-of-spain",
+      "locale": "en/",
+      "id": "port-of-spain-wired-sun-20261108-1800",
+      "applied": "held_for_recheck"
+    }
+  ],
+  "panamaEvidence": {
+    "reviewedAt": "2026-10-30T02:12:02.252634+00:00",
+    "status": "proposed_narrow_cancellation_requires_peer_no_edits",
+    "networkRequestsThisDetail": 1,
+    "sourceAudit": {
+      "url": "https://ccecasadelsoldado.aecid.es/w/cancelaci%C3%B3n-de-actividades-por-luto-nacional-1",
+      "checkedAt": "2026-10-30T02:11:24.748028+00:00",
+      "ledgerHashes": {
+        "audit/historical-shared-stops.json": "2373a2f58374a0f189259e5979fe64d28ec98c9bb47e2d5583695605d46b5c11",
+        "audit/access-stop-additions.json": "5115bc78e898de858f8dbab7821ffe0af6a49377f7b002a51a9b01b4c2308203",
+        "maintenance/stops.json": "b8db437de87636ab76fcf96e50379f6e650faaea3a33206419032bbabde1ff09",
+        "preparation-research/stops.json": "9e2ea2b074831d52fdf6eef43b3e1d72287910b9799b6705d42ddb6cac782fd7",
+        "research/stops.json": "aa689d3392b84cc1e9ca3dc28113f033df729749bbd69d85b0dd47bcd7cc9dc4",
+        "safety/new-stops.json": "19212c86e02a107c5be84fbb0ba66615c80bfbfd95b64b1ea6a284f6817a2421",
+        "safety/historical-source-stops.json": "af0ef2c93423106865716bb14842e636b9606f0f0c562fbe81077334d2465f3d"
+      },
+      "status": 200,
+      "finalUrl": "https://ccecasadelsoldado.aecid.es/w/cancelaci%C3%B3n-de-actividades-por-luto-nacional-1",
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 152018,
+      "classification": "read_requires_manual_semantic_review",
+      "rawPath": "resume-20261029/maintenance/panama-quality-20261030/raw/1dc785ef77afeafd.raw",
+      "rawSHA256": "480b09b3eaf7c5fd33f956e0978c1b49888ce38239cd232b8bdfbb385b76e7cd"
+    },
+    "originalEvidence": {
+      "exactScopeQuote": "el Centro Cultural de España en Panamá cancela sus actividades hasta el 31 de octubre",
+      "namedProgrammeQuote": "Cata de libros. Maridaje de palabras; Goya on tour: proyección de películas ganadoras de los Premios Goya2026",
+      "dateLabel": "28/Oct/2026 -31/Oct/2026",
+      "rescheduling": "Esperamos poder reprogramar estos eventos más adelante. No actualreplacementdate provided.",
+      "sourceReason": "Nationalmourning notice refers to railwayaccidentToledo; this is organizerstatement, no independentnewsclaim."
+    },
+    "corrections": [
+      {
+        "id": "pan-cata-20261029-1800",
+        "existingStatus": "scheduled",
+        "date": "2026-10-29",
+        "venue": "Centro Cultural de España, Casa del Soldado",
+        "proposedStatus": "cancelled",
+        "cancelled": true,
+        "sourceUrl": "https://ccecasadelsoldado.aecid.es/w/cancelaci%C3%B3n-de-actividades-por-luto-nacional-1",
+        "statusCheckedAt": "2026-10-30T02:11:24.748028+00:00",
+        "reason": "Own organiser cancellation notice explicitly names this programme family and covers this occurrence date. Film screenings are offsiteCinépolisSoho, but notice names Goya on tour, not only CCEbuilding closure.",
+        "originalEventSourceUrl": "https://ccecasadelsoldado.aecid.es/w/cata-de-libros.-maridaje-de-palabras"
+      },
+      {
+        "id": "pan-domingos-20261031-1600",
+        "existingStatus": "scheduled",
+        "date": "2026-10-31",
+        "venue": "Cinépolis Soho Mall",
+        "proposedStatus": "cancelled",
+        "cancelled": true,
+        "sourceUrl": "https://ccecasadelsoldado.aecid.es/w/cancelaci%C3%B3n-de-actividades-por-luto-nacional-1",
+        "statusCheckedAt": "2026-10-30T02:11:24.748028+00:00",
+        "reason": "Own organiser cancellation notice explicitly names this programme family and covers this occurrence date. Film screenings are offsiteCinépolisSoho, but notice names Goya on tour, not only CCEbuilding closure.",
+        "originalEventSourceUrl": "https://ccecasadelsoldado.aecid.es/w/proyecci%C3%B3n-de-pel%C3%ADculas-ganadoras-de-los-premios-goya-2026"
+      },
+      {
+        "id": "pan-sirat-20261031-1830",
+        "existingStatus": "scheduled",
+        "date": "2026-10-31",
+        "venue": "Cinépolis Soho Mall",
+        "proposedStatus": "cancelled",
+        "cancelled": true,
+        "sourceUrl": "https://ccecasadelsoldado.aecid.es/w/cancelaci%C3%B3n-de-actividades-por-luto-nacional-1",
+        "statusCheckedAt": "2026-10-30T02:11:24.748028+00:00",
+        "reason": "Own organiser cancellation notice explicitly names this programme family and covers this occurrence date. Film screenings are offsiteCinépolisSoho, but notice names Goya on tour, not only CCEbuilding closure.",
+        "originalEventSourceUrl": "https://ccecasadelsoldado.aecid.es/w/proyecci%C3%B3n-de-pel%C3%ADculas-ganadoras-de-los-premios-goya-2026"
+      },
+      {
+        "id": "pan-maspalomas-20261031-2100",
+        "existingStatus": "scheduled",
+        "date": "2026-10-31",
+        "venue": "Cinépolis Soho Mall",
+        "proposedStatus": "cancelled",
+        "cancelled": true,
+        "sourceUrl": "https://ccecasadelsoldado.aecid.es/w/cancelaci%C3%B3n-de-actividades-por-luto-nacional-1",
+        "statusCheckedAt": "2026-10-30T02:11:24.748028+00:00",
+        "reason": "Own organiser cancellation notice explicitly names this programme family and covers this occurrence date. Film screenings are offsiteCinépolisSoho, but notice names Goya on tour, not only CCEbuilding closure.",
+        "originalEventSourceUrl": "https://ccecasadelsoldado.aecid.es/w/proyecci%C3%B3n-de-pel%C3%ADculas-ganadoras-de-los-premios-goya-2026"
+      }
+    ],
+    "heldForRecheck": [
+      {
+        "id": "pan-coral-20261030-1900",
+        "proposedPublicationStatus": "held_for_recheck",
+        "reason": "Date inside notice, sameorganizer, but choralconcert NOT among explicitly enumerated cancelledprogrammes and differentvenue. Broadopeningwording versus specificlist ambiguous; do not assertconfirmedcancellation withoutclarification.",
+        "sourceUrl": "https://ccecasadelsoldado.aecid.es/w/cancelaci%C3%B3n-de-actividades-por-luto-nacional-1",
+        "statusCheckedAt": "2026-10-30T02:11:24.748028+00:00"
+      }
+    ],
+    "unchanged": [
+      {
+        "id": "pan-cata-20261124-1800",
+        "reason": "OutsideexplicitOct28–31window; no basis tocancelNovember24."
+      }
+    ],
+    "notInPublishedFeed": [
+      "PasiónVega",
+      "MiniQuijotes"
+    ],
+    "counts": {
+      "exactCancelledOccurrences": 4,
+      "ambiguousHeld": 1,
+      "newEvents": 0,
+      "newPlaces": 0
+    },
+    "baselineFeedSHA256": "794c10548152a6d460c196691755fd2b8f0cf172e6c06416056e622f0fd444c6",
+    "limits": "No wholecityclosure, venueclosure, futureprogramme cancellation, reschedule date, or cancellation of allCinépolisscreenings inferred. All oldfacts/IDs should bepreserved ifpublisherappliesstatusdelta.",
+    "siteEdits": 0
+  },
+  "portEvidence": {
+    "reviewedAt": "2026-10-30T02:14:03.870218+00:00",
+    "mode": "offline_only",
+    "networkRequests": 0,
+    "verdict": "unresolved_conflict_propose_held_for_recheck_only",
+    "targetIds": [
+      "port-of-spain-wired-sat-20261107-2000",
+      "port-of-spain-wired-sun-20261108-1800"
+    ],
+    "currentPublicFacts": [
+      {
+        "id": "port-of-spain-wired-sat-20261107-2000",
+        "title": "WIRED! A True Trini Bacchanal!",
+        "venue": "Central Bank Auditorium",
+        "venueId": "port-of-spain-venue-central",
+        "address": "Eric Williams Plaza, Independence Square North, Port of Spain",
+        "description": "A Trinidadian stage comedy follows political secrets, mistaken explanations and escalating lies.",
+        "date": "2026-11-07",
+        "time": "20:00",
+        "end": null,
+        "startAt": "2026-11-07T20:00:00-04:00",
+        "category": "theatre",
+        "lat": 10.6487,
+        "lng": -61.51218,
+        "coordinateSource": "https://auditorium.centralbankarts.org.tt/",
+        "coordinatePrecision": "own venue campus marker, not exact auditorium entrance",
+        "coordinateEvidence": "Own auditorium homepage explicit sbvcgmap-marker data-lat10.6487 data-lng-61.51218, not generic map centre. Named address in own access section.",
+        "source": "Port of Spain official organizer / venue",
+        "sourceUrl": "https://islandetickets.com/event/WIRED-ENCORE-SCAI-PRODUCTIONS-SATURDAY",
+        "sourceURLs": [
+          "https://islandetickets.com/event/WIRED-ENCORE-SCAI-PRODUCTIONS-SATURDAY",
+          "https://auditorium.centralbankarts.org.tt/"
+        ],
+        "checkedAt": "2026-10-29T04:21:55.312132+00:00",
+        "yearEvidence": "Full organizer/authorized ticket source explicitly dated2026. No footer-year inference.",
+        "price": 250,
+        "priceNote": "Adults only stated onFridayversion of same production. GeneralTTD250; reservedTTD300 Friday–Sunday. Mondayonlygeneral250published. Mandatoryticketfees unknown. Header90min end not used.",
+        "currency": "TTD",
+        "timezone": "America/Port_of_Spain",
+        "status": "scheduled",
+        "admission": "Adults only stated onFridayversion of same production. GeneralTTD250; reservedTTD300 Friday–Sunday. Mondayonlygeneral250published. Mandatoryticketfees unknown. Header90min end not used.",
+        "min": false,
+        "kind": "event",
+        "city": "Port of Spain",
+        "cityId": "port-of-spain",
+        "programmeId": "port-of-spain-wired",
+        "placeId": "port-of-spain-venue-central",
+        "mandatoryFees": null,
+        "feeStatus": "See admission; unknown fees are not zero",
+        "coordinateCheckedAt": "2026-10-29T04:22:26.095815+00:00",
+        "endEvidence": "Explicit prose/festival programme intervals only; generic ticket-header endings not treated as proof of performance duration."
+      },
+      {
+        "id": "port-of-spain-wired-sun-20261108-1800",
+        "title": "WIRED! A True Trini Bacchanal!",
+        "venue": "Central Bank Auditorium",
+        "venueId": "port-of-spain-venue-central",
+        "address": "Eric Williams Plaza, Independence Square North, Port of Spain",
+        "description": "A Trinidadian stage comedy follows political secrets, mistaken explanations and escalating lies.",
+        "date": "2026-11-08",
+        "time": "18:00",
+        "end": null,
+        "startAt": "2026-11-08T18:00:00-04:00",
+        "category": "theatre",
+        "lat": 10.6487,
+        "lng": -61.51218,
+        "coordinateSource": "https://auditorium.centralbankarts.org.tt/",
+        "coordinatePrecision": "own venue campus marker, not exact auditorium entrance",
+        "coordinateEvidence": "Own auditorium homepage explicit sbvcgmap-marker data-lat10.6487 data-lng-61.51218, not generic map centre. Named address in own access section.",
+        "source": "Port of Spain official organizer / venue",
+        "sourceUrl": "https://islandetickets.com/event/WIRED-ENCORE-SCAI-SUNDAY",
+        "sourceURLs": [
+          "https://islandetickets.com/event/WIRED-ENCORE-SCAI-SUNDAY",
+          "https://auditorium.centralbankarts.org.tt/"
+        ],
+        "checkedAt": "2026-10-29T04:21:58.067786+00:00",
+        "yearEvidence": "Full organizer/authorized ticket source explicitly dated2026. No footer-year inference.",
+        "price": 250,
+        "priceNote": "Adults only stated onFridayversion of same production. GeneralTTD250; reservedTTD300 Friday–Sunday. Mondayonlygeneral250published. Mandatoryticketfees unknown. Header90min end not used.",
+        "currency": "TTD",
+        "timezone": "America/Port_of_Spain",
+        "status": "scheduled",
+        "admission": "Adults only stated onFridayversion of same production. GeneralTTD250; reservedTTD300 Friday–Sunday. Mondayonlygeneral250published. Mandatoryticketfees unknown. Header90min end not used.",
+        "min": false,
+        "kind": "event",
+        "city": "Port of Spain",
+        "cityId": "port-of-spain",
+        "programmeId": "port-of-spain-wired",
+        "placeId": "port-of-spain-venue-central",
+        "mandatoryFees": null,
+        "feeStatus": "See admission; unknown fees are not zero",
+        "coordinateCheckedAt": "2026-10-29T04:22:26.095815+00:00",
+        "endEvidence": "Explicit prose/festival programme intervals only; generic ticket-header endings not treated as proof of performance duration."
+      }
+    ],
+    "originalRetainedPacketFacts": [
+      {
+        "title": "WIRED! A True Trini Bacchanal!",
+        "titleEn": "WIRED! A True Trini Bacchanal!",
+        "venue": "Central Bank Auditorium",
+        "venueId": "port-of-spain-venue-central",
+        "placeId": "port-of-spain-venue-central",
+        "address": "Eric Williams Plaza, Independence Square North, Port of Spain",
+        "category": "theatre",
+        "lat": 10.6487,
+        "lng": -61.51218,
+        "coordinateSource": "https://auditorium.centralbankarts.org.tt/",
+        "coordinatePrecision": "own venue campus marker, not exact auditorium entrance",
+        "coordinateEvidence": "Own auditorium homepage explicit sbvcgmap-marker data-lat10.6487 data-lng-61.51218, not generic map centre. Named address in own access section.",
+        "coordinateCheckedAt": "2026-10-29T04:22:26.095815+00:00",
+        "source": "Port of Spain official organizer / venue",
+        "sourceUrl": "https://islandetickets.com/event/WIRED-ENCORE-SCAI-PRODUCTIONS-SATURDAY",
+        "sourceURLs": [
+          "https://islandetickets.com/event/WIRED-ENCORE-SCAI-PRODUCTIONS-SATURDAY",
+          "https://auditorium.centralbankarts.org.tt/"
+        ],
+        "checkedAt": "2026-10-29T04:21:55.312132+00:00",
+        "yearEvidence": "Full organizer/authorized ticket source explicitly dated2026. No footer-year inference.",
+        "currency": "TTD",
+        "timezone": "America/Port_of_Spain",
+        "price": 250,
+        "min": false,
+        "priceNote": "Adults only stated onFridayversion of same production. GeneralTTD250; reservedTTD300 Friday–Sunday. Mondayonlygeneral250published. Mandatoryticketfees unknown. Header90min end not used.",
+        "mandatoryFees": null,
+        "feeStatus": "See admission; unknown fees are not zero",
+        "status": "scheduled",
+        "description": "A Trinidadian stage comedy follows political secrets, mistaken explanations and escalating lies.",
+        "admission": "Adults only stated onFridayversion of same production. GeneralTTD250; reservedTTD300 Friday–Sunday. Mondayonlygeneral250published. Mandatoryticketfees unknown. Header90min end not used.",
+        "programmeId": "port-of-spain-wired",
+        "endEvidence": "Explicit prose/festival programme intervals only; generic ticket-header endings not treated as proof of performance duration.",
+        "id": "port-of-spain-wired-sat-20261107-2000",
+        "date": "2026-11-07",
+        "time": "20:00",
+        "end": null,
+        "startAt": "2026-11-07T20:00:00-04:00"
+      },
+      {
+        "title": "WIRED! A True Trini Bacchanal!",
+        "titleEn": "WIRED! A True Trini Bacchanal!",
+        "venue": "Central Bank Auditorium",
+        "venueId": "port-of-spain-venue-central",
+        "placeId": "port-of-spain-venue-central",
+        "address": "Eric Williams Plaza, Independence Square North, Port of Spain",
+        "category": "theatre",
+        "lat": 10.6487,
+        "lng": -61.51218,
+        "coordinateSource": "https://auditorium.centralbankarts.org.tt/",
+        "coordinatePrecision": "own venue campus marker, not exact auditorium entrance",
+        "coordinateEvidence": "Own auditorium homepage explicit sbvcgmap-marker data-lat10.6487 data-lng-61.51218, not generic map centre. Named address in own access section.",
+        "coordinateCheckedAt": "2026-10-29T04:22:26.095815+00:00",
+        "source": "Port of Spain official organizer / venue",
+        "sourceUrl": "https://islandetickets.com/event/WIRED-ENCORE-SCAI-SUNDAY",
+        "sourceURLs": [
+          "https://islandetickets.com/event/WIRED-ENCORE-SCAI-SUNDAY",
+          "https://auditorium.centralbankarts.org.tt/"
+        ],
+        "checkedAt": "2026-10-29T04:21:58.067786+00:00",
+        "yearEvidence": "Full organizer/authorized ticket source explicitly dated2026. No footer-year inference.",
+        "currency": "TTD",
+        "timezone": "America/Port_of_Spain",
+        "price": 250,
+        "min": false,
+        "priceNote": "Adults only stated onFridayversion of same production. GeneralTTD250; reservedTTD300 Friday–Sunday. Mondayonlygeneral250published. Mandatoryticketfees unknown. Header90min end not used.",
+        "mandatoryFees": null,
+        "feeStatus": "See admission; unknown fees are not zero",
+        "status": "scheduled",
+        "description": "A Trinidadian stage comedy follows political secrets, mistaken explanations and escalating lies.",
+        "admission": "Adults only stated onFridayversion of same production. GeneralTTD250; reservedTTD300 Friday–Sunday. Mondayonlygeneral250published. Mandatoryticketfees unknown. Header90min end not used.",
+        "programmeId": "port-of-spain-wired",
+        "endEvidence": "Explicit prose/festival programme intervals only; generic ticket-header endings not treated as proof of performance duration.",
+        "id": "port-of-spain-wired-sun-20261108-1800",
+        "date": "2026-11-08",
+        "time": "18:00",
+        "end": null,
+        "startAt": "2026-11-08T18:00:00-04:00"
+      }
+    ],
+    "originalTicketProvenance": [
+      {
+        "id": "port-of-spain-source-557a06e5a58215",
+        "name": "islandetickets.com",
+        "url": "https://islandetickets.com/event/WIRED-ENCORE-SCAI-PRODUCTIONS-SATURDAY",
+        "checkedAt": "2026-10-29T04:21:55.312132+00:00",
+        "status": "read_full_source",
+        "note": "200; actual fetch time, not generatedAt"
+      },
+      {
+        "id": "port-of-spain-source-b1b0948f4c12c6",
+        "name": "islandetickets.com",
+        "url": "https://islandetickets.com/event/WIRED-ENCORE-SCAI-SUNDAY",
+        "checkedAt": "2026-10-29T04:21:58.067786+00:00",
+        "status": "read_full_source",
+        "note": "200; actual fetch time, not generatedAt"
+      }
+    ],
+    "ticketFullBodies": {
+      "status": "not_found_in_accessible_retained_files",
+      "searchScope": "Local scratch filename search and resume-20261029 content references; no denied session paths. Source registry and derived packet are not substitutes for lost full ticket bodies.",
+      "independentlyAvailableCalendar": {
+        "url": "https://islandetickets.com/event_manager/calendar/events/2026/11",
+        "sourceReadAt": "2026-10-29T15:13:42.040994+00:00",
+        "raw": "resume-20261029/maintenance/port-of-spain/raw/e54fbf44df740214.raw",
+        "sha256": "c005aecdca68d4091a2982466f6b6f9cbcbb4bd375ca04ff6e2cefd857f5fd61",
+        "text": [
+          "WIRED! A True Trini Bacchanal! Central Bank Auditorium Nov 7th @ 8:00pm",
+          "WIRED! A True Trini Bacchanal! Central Bank Auditorium Nov 8th @ 6:00pm"
+        ],
+        "limitation": "Calendar rows corroborate stored starts, but cannot distinguish doors/performance or establish ticket-body change history."
+      }
+    },
+    "currentVenueProvenance": {
+      "url": "https://auditorium.centralbankarts.org.tt/whats-on-2/",
+      "sourceReadAt": "2026-10-30T02:11:54.078668+00:00",
+      "raw": "resume-20261029/maintenance/port-of-spain-quality-20261030/raw/310a516de420f7fe.raw",
+      "sha256": "e0d8203a3d054dd30587878bd4a0757c258c7ac0b4393ee25d021d6daeb3aef4",
+      "dateText": "Fri 06 – Mon 09 Nov 2026",
+      "timeText": "Sat- 7:00 pm | Sun- 6:30 pm",
+      "doorsMention": false,
+      "contentUpdateTimestamp": "No dateModified/datePublished/article modified timestamp found. Template CSS numeric timestamps do not establish a programme-specific change date.",
+      "embeddedCalendar": "No target Nov7/8 ISO date; unrelated October entries cannot adjudicate."
+    },
+    "reason": "Newer read time does not prove newer organizer fact. Neither retained evidence set explains discrepant start times as doors versus performance; no authoritative correction notice established.",
+    "proposal": [
+      {
+        "id": "port-of-spain-wired-sat-20261107-2000",
+        "proposedStatus": "held_for_recheck",
+        "changeStart": false,
+        "cancelled": false,
+        "deleteOrAlias": false,
+        "preserveStableIdAndSavedPlans": true
+      },
+      {
+        "id": "port-of-spain-wired-sun-20261108-1800",
+        "proposedStatus": "held_for_recheck",
+        "changeStart": false,
+        "cancelled": false,
+        "deleteOrAlias": false,
+        "preserveStableIdAndSavedPlans": true
+      }
+    ],
+    "otherRows": "FriNov6 andMonNov9 untouched; no broad production cancellation.",
+    "sourceCheckedAtPolicy": "Retain original event source timestamps; new venue read separately attributed.",
+    "writesToCheckout": 0
+  },
+  "scope": "Four cancellation statuses; three recheck holds. No new events/places/cities; no timestamps/fees/end/coordinates invented."
+}

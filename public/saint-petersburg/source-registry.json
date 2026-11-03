@@ -1,0 +1,216 @@
+{
+  "city": "Saint Petersburg",
+  "checkedAt": "2026-10-15T10:56:00Z",
+  "sources": [
+    {
+      "id": "candidate:6754f3466f92602a",
+      "name": "Петербургская филармония",
+      "url": "https://www.philharmonia.spb.ru/afisha/",
+      "checkedAt": "2026-10-15T10:22:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 5,
+      "note": "Current 2026 dates, sold-out status, prices and reschedules readable; exact event pages verified.",
+      "type": "first_party_calendar"
+    },
+    {
+      "id": "candidate:82cd2435a7021fd3",
+      "name": "Театральная библиотека",
+      "url": "https://sptl.spb.ru/afisha",
+      "checkedAt": "2026-10-15T10:22:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 4,
+      "note": "2026 and 2025 entries coexist. Parse year per entry, never use page-wide year. Some times explicitly unknown.",
+      "type": "first_party_calendar"
+    },
+    {
+      "id": "candidate:ebd48f1ddd384731",
+      "name": "Новая Голландия",
+      "url": "https://www.newhollandsp.ru/events/all-events/",
+      "checkedAt": "2026-10-15T10:22:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 3,
+      "note": "Dated community programme and individual details readable. Calendar includes elapsed dates; each occurrence filtered.",
+      "type": "first_party_calendar"
+    },
+    {
+      "id": "candidate:dcd5a50e9ddfab73",
+      "name": "KudaGo Петербург",
+      "url": "https://t.me/kudagospb",
+      "checkedAt": "2026-10-15T10:22:00Z",
+      "status": "public_preview_read_permalink_fetch_failed",
+      "accessStatus": "public_preview_read_permalink_fetch_failed",
+      "count": 0,
+      "note": "Post 46069 advertises a free book exchange on 16 October 19:00, Pskovskaya 14; explicit year not visible in extracted post text, so held.",
+      "type": "telegram"
+    },
+    {
+      "id": "candidate:f46e497703b12830",
+      "name": "Новая Голландия Telegram",
+      "url": "https://t.me/newhollandsp",
+      "checkedAt": "2026-10-15T11:00:00Z",
+      "status": "public_preview_read_permalink_fetch_failed",
+      "accessStatus": "public_preview_read_permalink_fetch_failed",
+      "count": 0,
+      "note": "Public preview supplied October programme text but exact post year was not verified. Direct post failed; later cloud-browser public preview returned SiteUnavailable. Official event pages supply admitted dates. This is not a functioning authenticated Telegram feed.",
+      "type": "telegram"
+    },
+    {
+      "id": "candidate:3d97de46f9179419",
+      "name": "r/SPb",
+      "url": "https://www.reddit.com/r/SPb/new/",
+      "checkedAt": "2026-10-15T10:22:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Recent-looking community feed readable, but no usable current dated event verified. Discovery channel only; freshness of individual posts still to check.",
+      "type": "reddit"
+    },
+    {
+      "id": "candidate:6029366778236709",
+      "name": "New Holland Instagram",
+      "url": "https://www.instagram.com/newhollandsp/",
+      "checkedAt": "2026-10-15T10:22:00Z",
+      "status": "fetch_failed",
+      "accessStatus": "fetch_failed",
+      "count": 0,
+      "note": "Cache miss. No post content verified; does not establish login requirement or a working feed.",
+      "type": "instagram"
+    },
+    {
+      "id": "candidate:0edb88434e03be1f",
+      "name": "New Holland Threads candidate",
+      "url": "https://www.threads.com/@newhollandsp",
+      "checkedAt": "2026-10-15T10:22:00Z",
+      "status": "unverified_candidate_access_failed",
+      "accessStatus": "unverified_candidate_access_failed",
+      "count": 0,
+      "note": "Profile URL was a candidate, not independently verified; inaccessible via web tool. Do not count as a confirmed source.",
+      "type": "threads"
+    },
+    {
+      "id": "candidate:3b813a72cba6d784",
+      "name": "Яндекс Афиша",
+      "url": "https://afisha.yandex.ru/saint-petersburg",
+      "checkedAt": "2026-10-15T10:22:00Z",
+      "status": "indexed_event_details_read",
+      "accessStatus": "indexed_event_details_read",
+      "count": 0,
+      "note": "Specific Philharmonia event pages are readable in search index with date/address; use first-party detail to resolve year and changes.",
+      "type": "aggregator"
+    },
+    {
+      "id": "candidate:87063a5856ec9cbd",
+      "name": "Культура Петербурга",
+      "url": "https://spbcult.ru/",
+      "checkedAt": "2026-10-15T10:22:00Z",
+      "status": "public_page_and_index_read",
+      "accessStatus": "public_page_and_index_read",
+      "count": 0,
+      "note": "Official city cultural portal: named-venue POI coordinates and dated free-event programme used; separate calendar and neighbourhood coverage remains partial.",
+      "type": "institutional_calendar"
+    },
+    {
+      "id": "candidate:8e1cbf53539f5904",
+      "name": "Мариинский театр — официальная афиша",
+      "url": "https://www.mariinsky.ru/playbill/playbillxml/",
+      "checkedAt": "2026-10-15T10:34:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 103,
+      "note": "103 in-window actual scheduled occurrences parsed from dated official feed. Separate stage identities verified; move notices exclude old dates. Ticket flag not treated as availability. Facts only, no marketing descriptions.",
+      "type": "first_party_calendar"
+    },
+    {
+      "id": "candidate:e2e1ec4935ca223a",
+      "name": "Афиша.ру Санкт-Петербург",
+      "url": "https://www.afisha.ru/spb/",
+      "checkedAt": "2026-10-15T10:34:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Core aggregator accessible. Day calendars read for 19–21 October; stale indexed variants exist, so full-year detail verification required. Earlier /spb/schedule/ route failed; this does not mean the source is inaccessible.",
+      "type": "aggregator"
+    },
+    {
+      "id": "candidate:fade42bb4f767880",
+      "name": "Кассир.ру Санкт-Петербург",
+      "url": "https://spb.kassir.ru/",
+      "checkedAt": "2026-10-15T10:45:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 13,
+      "note": "Major ticket catalogue reviewed across sport, stand-up, concerts and exhibitions; exact dated detail records retained. Stale ads, SEO titles, impossible placeholder durations and conflicting minimum prices not used.",
+      "type": "ticket_calendar"
+    },
+    {
+      "id": "candidate:7526196cfaf6712b",
+      "name": "СКА Арена",
+      "url": "https://skaarena.ru/",
+      "checkedAt": "2026-10-15T10:45:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 6,
+      "note": "Six in-window dated official calendar occurrences, named arena address; numeric POI from explicit OSM way 1024552165 representation.",
+      "type": "first_party_calendar"
+    },
+    {
+      "id": "candidate:931594815f201bb7",
+      "name": "КСК Арена",
+      "url": "https://www.kckarena.com/contact",
+      "checkedAt": "2026-10-15T10:45:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Official contacts and audience entrance verified. Event facts from authorized ticket calendar; homepage failed.",
+      "type": "first_party_venue"
+    },
+    {
+      "id": "candidate:4365a9a77fc4beb7",
+      "name": "Культура Петербурга — бесплатные события",
+      "url": "https://spbcult.ru/articles/gotovye-resheniya-kuda-poyti/kuda-poyti-besplatno-v-peterburge-13-26-oktyabrya-2026-goda-/",
+      "checkedAt": "2026-10-15T10:45:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 10,
+      "note": "Dated 2026 free-programme roundup reviewed. Ten individual records retained, external-region events excluded. Registration links restricted or cache-miss.",
+      "type": "official_city_calendar"
+    },
+    {
+      "id": "candidate:d7c8029924acfb73",
+      "name": "Timepad Санкт-Петербург",
+      "url": "https://afisha.timepad.ru/saint-petersburg",
+      "checkedAt": "2026-10-15T10:45:00Z",
+      "status": "access_blocked_403",
+      "accessStatus": "access_blocked_403",
+      "count": 0,
+      "note": "Ten linked organizer-registration pages attempted: 403 or cache miss. No registration availability assertion.",
+      "type": "aggregator"
+    },
+    {
+      "id": "candidate:ee7d4095345a7dd3",
+      "name": "Санкт-Петербургский планетарий",
+      "url": "https://www.planetary-spb.ru/afisha/schedule/",
+      "checkedAt": "2026-10-15T10:52:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 297,
+      "note": "299 actual dated occurrences extracted from live published DOM tables, not extrapolated recurrence. Full date section IDs and dated ticket hrefs inspected. Six halls are one physical building, not six artificial venues.",
+      "type": "first_party_calendar"
+    },
+    {
+      "id": "candidate:85b1efa52548943c",
+      "name": "Музей Эрарта",
+      "url": "https://www.erarta.com/ru/calendar/exhibitions/",
+      "checkedAt": "2026-10-15T10:56:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 16,
+      "note": "Thirteen overlapping published exhibition intervals plus three exact-dated workshop/lecture/performance records reviewed. Tuesday closure and 11:00–23:00 hours verified. General admission not applied to club-only workshop or unspecified performance.",
+      "type": "first_party_calendar"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

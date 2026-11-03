@@ -1,0 +1,994 @@
+{
+  "checkedAt": "2026-10-28T03:18:05.285682+00:00",
+  "venues": [
+    {
+      "venue": "Centro Cultural Recoleta",
+      "address": "JUNIN 1930, CABA",
+      "lat": -34.586496,
+      "lng": -58.391578,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Jun%C3%ADn+1930%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:02:43.914721+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "query": "Junín 1930"
+    },
+    {
+      "venue": "Teatro San Martín",
+      "address": "CORRIENTES AV. 1530, CABA",
+      "lat": -34.604241,
+      "lng": -58.388642,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+1530%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:02:48.838550+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "query": "Av. Corrientes 1530"
+    },
+    {
+      "venue": "Usina del Arte",
+      "address": "CAFFARENA, AGUSTIN R. 1, CABA",
+      "lat": -34.628692,
+      "lng": -58.356101,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Agust%C3%ADn+R.+Caffarena+1%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:02:53.515175+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29
+      ],
+      "query": "Agustín R. Caffarena 1"
+    },
+    {
+      "venue": "Museo Moderno",
+      "address": "SAN JUAN AV. 350, CABA",
+      "lat": -34.621892,
+      "lng": -58.370727,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+San+Juan+350%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:02:57.415265+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19
+      ],
+      "query": "Av. San Juan 350"
+    },
+    {
+      "venue": "Movistar Arena",
+      "address": "HUMBOLDT 450, CABA",
+      "lat": -34.594737,
+      "lng": -58.447789,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Humboldt+450%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:03:01.231947+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        49,
+        62,
+        49,
+        49,
+        62,
+        49,
+        49,
+        49,
+        49,
+        49,
+        62
+      ],
+      "query": "Humboldt 450"
+    },
+    {
+      "venue": "Teatro Colón",
+      "address": "TUCUMAN 1171, CABA",
+      "lat": -34.601435,
+      "lng": -58.38344,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Tucum%C3%A1n+1171%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:11:16.319892+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        26,
+        26,
+        26,
+        94,
+        26,
+        9,
+        26
+      ],
+      "query": "Tucumán 1171"
+    },
+    {
+      "venue": "Casa de la Cultura",
+      "address": "DE MAYO AV. 575, CABA",
+      "lat": -34.608487,
+      "lng": -58.374405,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+de+Mayo+575%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:03:10.404015+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        32,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        32,
+        6,
+        6
+      ],
+      "query": "Av. de Mayo 575"
+    },
+    {
+      "venue": "Avenida de Mayo 575",
+      "address": "DE MAYO AV. 575, CABA",
+      "lat": -34.608487,
+      "lng": -58.374405,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+de+Mayo+575%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:03:10.404015+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        14,
+        6
+      ],
+      "query": "Av. de Mayo 575"
+    },
+    {
+      "venue": "Centro Cultural 25 de Mayo",
+      "address": "TRIUNVIRATO AV. 4444, CABA",
+      "lat": -34.576177,
+      "lng": -58.483568,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Triunvirato+4444%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:03:15.616632+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "query": "Av. Triunvirato 4444"
+    },
+    {
+      "venue": "Malba",
+      "address": "FIGUEROA ALCORTA, PRES. AV. 3415, CABA",
+      "lat": -34.577246,
+      "lng": -58.40377,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Figueroa+Alcorta+3415%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:11:21.448591+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        12,
+        12
+      ],
+      "query": "Av. Figueroa Alcorta 3415"
+    },
+    {
+      "venue": "Museo Larreta",
+      "address": "JURAMENTO AV. 2291, CABA",
+      "lat": -34.561129,
+      "lng": -58.455265,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Juramento+2291%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:03:24.620588+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        3,
+        3
+      ],
+      "query": "Av. Juramento 2291"
+    },
+    {
+      "venue": "Cine Teatro El Plata",
+      "address": "ALBERDI, JUAN BAUTISTA AV. 5765, CABA",
+      "lat": -34.650904,
+      "lng": -58.501873,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Juan+Bautista+Alberdi+5765%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:03:36.116739+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        6,
+        6,
+        6
+      ],
+      "query": "Av. Juan Bautista Alberdi 5765"
+    },
+    {
+      "venue": "C Art Media",
+      "address": "CORRIENTES AV. 6271, CABA",
+      "lat": -34.590964,
+      "lng": -58.448246,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+6271%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:11:26.122851+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        6,
+        6,
+        6,
+        49,
+        49
+      ],
+      "query": "Av. Corrientes 6271"
+    },
+    {
+      "venue": "Teatro Regio",
+      "address": "CORDOBA AV. 6056, CABA",
+      "lat": -34.584184,
+      "lng": -58.445789,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+C%C3%B3rdoba+6056%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:03:46.452781+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        3
+      ],
+      "query": "Av. Córdoba 6056"
+    },
+    {
+      "venue": "Microestadio Malvinas Argentinas",
+      "address": "GUTENBERG 350, CABA",
+      "lat": -34.592463,
+      "lng": -58.471803,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Gutenberg+350%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:03:55.980407+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid. Club owner confirms Gutenberg350; city-event API point kilometres away rejected.",
+      "sourceCoordinateDistancesMetres": [
+        3563,
+        3563
+      ],
+      "query": "Gutenberg 350",
+      "additionalAddressSource": "https://argentinosjuniors.com.ar/noticias/socios/se-viene-un-festejo-unico-en-familia/"
+    },
+    {
+      "venue": "Anfiteatro del Parque Centenario",
+      "address": "MARECHAL, LEOPOLDO 832, CABA",
+      "lat": -34.608251,
+      "lng": -58.437469,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Leopoldo+Marechal+832%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:04:00.108038+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        10,
+        10
+      ],
+      "query": "Av. Leopoldo Marechal 832"
+    },
+    {
+      "venue": "Sitio Arqueológico La Cisterna",
+      "address": "MORENO 550, CABA",
+      "lat": -34.611463,
+      "lng": -58.374128,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Moreno+550%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:04:03.473187+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        4,
+        4
+      ],
+      "query": "Moreno 550"
+    },
+    {
+      "venue": "Niceto Club",
+      "address": "VEGA, NICETO, CNEL. AV. 5510, CABA",
+      "lat": -34.587241,
+      "lng": -58.438732,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Cnel.+Niceto+Vega+5510%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:04:08.020645+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        5,
+        296,
+        5
+      ],
+      "query": "Cnel. Niceto Vega 5510",
+      "additionalAddressSource": "https://nicetoclub.com/nosotros/"
+    },
+    {
+      "venue": "Teatro Ópera",
+      "address": "CORRIENTES AV. 860, CABA",
+      "lat": -34.603628,
+      "lng": -58.378947,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+860%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:04:14.549300+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        4,
+        4
+      ],
+      "query": "Av. Corrientes 860"
+    },
+    {
+      "venue": "Parque de la Ciudad",
+      "address": "ROCA, CNEL. AV. 4099, CABA",
+      "lat": -34.674476,
+      "lng": -58.447049,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Coronel+Roca+4099%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:04:19.556263+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        24,
+        24
+      ],
+      "query": "Av. Coronel Roca 4099"
+    },
+    {
+      "venue": "Hotel Scala",
+      "address": "IRIGOYEN, BERNARDO DE 740, CABA",
+      "lat": -34.616934,
+      "lng": -58.380247,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Bernardo+de+Irigoyen+740%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:04:23.645929+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        9
+      ],
+      "query": "Bernardo de Irigoyen 740"
+    },
+    {
+      "venue": "Cubo Itaú",
+      "address": "VEDIA 3892, CABA",
+      "lat": -34.546707,
+      "lng": -58.490759,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Vedia+3892%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:04:34.795353+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        84
+      ],
+      "query": "Vedia 3892"
+    },
+    {
+      "venue": "CEC",
+      "address": "FIGUEROA ALCORTA, PRES. AV. 2099, CABA",
+      "lat": -34.584318,
+      "lng": -58.390278,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Figueroa+Alcorta+2099%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:04:39.519162+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        59
+      ],
+      "query": "Av. Figueroa Alcorta 2099"
+    },
+    {
+      "venue": "Palacio Ceci",
+      "address": "LINCOLN AV. 4300, CABA",
+      "lat": -34.599066,
+      "lng": -58.515179,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Lincoln+4300%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:04:43.368141+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        6
+      ],
+      "query": "Av. Lincoln 4300"
+    },
+    {
+      "venue": "Teatro Coliseo",
+      "address": "ALVEAR, MARCELO T. DE 1125, CABA",
+      "lat": -34.596797,
+      "lng": -58.383259,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Marcelo+T.+de+Alvear+1125%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:04:51.412876+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        3,
+        7
+      ],
+      "query": "Marcelo T. de Alvear 1125"
+    },
+    {
+      "venue": "Espacio Cultural Plaza Defensa",
+      "address": "DEFENSA 535, CABA",
+      "lat": -34.614147,
+      "lng": -58.371871,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Defensa+535%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:04:58.876583+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid. City official venue page confirms Defensa535; erroneous event API latitude rejected.",
+      "sourceCoordinateDistancesMetres": [
+        10319
+      ],
+      "query": "Defensa 535",
+      "additionalAddressSource": "https://buenosaires.gob.ar/gcaba_historico/circuito-de-espacios-culturales/plaza-defensa"
+    },
+    {
+      "venue": "Teatro Broadway",
+      "address": "CORRIENTES AV. 1155, CABA",
+      "lat": -34.603712,
+      "lng": -58.383174,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+1155%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:05:09.052589+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        405
+      ],
+      "query": "Av. Corrientes 1155",
+      "additionalAddressSource": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/teatro-broadway"
+    },
+    {
+      "venue": "Plaza Castelli",
+      "address": "JURAMENTO y CONDE, CABA",
+      "lat": -34.567258,
+      "lng": -58.465509,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Juramento+y+Conde%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:05:16.757321+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        0
+      ],
+      "query": "Juramento y Conde"
+    },
+    {
+      "venue": "Parque Los Andes",
+      "address": "CORRIENTES AV. y NEWBERY, JORGE, CABA",
+      "lat": -34.58869,
+      "lng": -58.450769,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+y+Jorge+Newbery%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:05:28.335181+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        0
+      ],
+      "query": "Av. Corrientes y Jorge Newbery"
+    },
+    {
+      "venue": "Arena Sur",
+      "address": "SAENZ AV. 459, CABA",
+      "lat": -34.644773,
+      "lng": -58.416264,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Avenida+S%C3%A1enz+459%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:17:14.803082+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        3
+      ],
+      "query": "Avenida Sáenz 459"
+    },
+    {
+      "venue": "Artlab",
+      "address": "ROSETI 93, CABA",
+      "lat": -34.58616,
+      "lng": -58.446387,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Roseti+93%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:11:46.188634+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        3
+      ],
+      "query": "Roseti 93"
+    },
+    {
+      "venue": "CC Konex",
+      "address": "SARMIENTO 3131, CABA",
+      "lat": -34.606624,
+      "lng": -58.410465,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Sarmiento+3131%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:11:53.095162+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        23
+      ],
+      "query": "Sarmiento 3131"
+    },
+    {
+      "venue": "Casa Chaca",
+      "address": "NEWBERY, JORGE AV. 3816, CABA",
+      "lat": -34.586254,
+      "lng": -58.449912,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Jorge+Newbery+3816%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:17:24.072185+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        5
+      ],
+      "query": "Jorge Newbery 3816"
+    },
+    {
+      "venue": "Casa Temple",
+      "address": "COSTA RICA 4677, CABA",
+      "lat": -34.588221,
+      "lng": -58.426846,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Costa+Rica+4677%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:12:05.507769+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        7
+      ],
+      "query": "Costa Rica 4677"
+    },
+    {
+      "venue": "Casa de Gobierno de la Ciudad",
+      "address": "USPALLATA 3160, CABA",
+      "lat": -34.640329,
+      "lng": -58.407019,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Uspallata+3160%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:12:10.315192+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [],
+      "query": "Uspallata 3160"
+    },
+    {
+      "venue": "Casal de Catalunya",
+      "address": "CHACABUCO 863, CABA",
+      "lat": -34.618169,
+      "lng": -58.375917,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Chacabuco+863%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:12:14.066370+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        3
+      ],
+      "query": "Chacabuco 863"
+    },
+    {
+      "venue": "Centro Cultural Nicolás Olivari",
+      "address": "CASTRO 954, CABA",
+      "lat": -34.623842,
+      "lng": -58.42049,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Castro+954%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:12:17.951395+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        4
+      ],
+      "query": "Castro 954"
+    },
+    {
+      "venue": "Centro de Experimentación del Teatro Colón",
+      "address": "VIAMONTE 1168, CABA",
+      "lat": -34.600454,
+      "lng": -58.383404,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Viamonte+1168%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:12:21.838788+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        3
+      ],
+      "query": "Viamonte 1168"
+    },
+    {
+      "venue": "Club Museum",
+      "address": "PERU 535, CABA",
+      "lat": -34.614192,
+      "lng": -58.374682,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Per%C3%BA+535%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:12:26.616380+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        1
+      ],
+      "query": "Perú 535"
+    },
+    {
+      "venue": "Deseo Club",
+      "address": "CHORROARIN AV. 1040, CABA",
+      "lat": -34.584511,
+      "lng": -58.46973,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Chorroar%C3%ADn+1040%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:17:28.536935+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        6
+      ],
+      "query": "Av. Chorroarín 1040"
+    },
+    {
+      "venue": "ESCUELA METROPOLITANA DE ARTE DRAMÁTICO (EMAD)",
+      "address": "RAMIREZ DE VELASCO, JUAN 419, CABA",
+      "lat": -34.598978,
+      "lng": -58.436064,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Juan+Ram%C3%ADrez+de+Velasco+419%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:12:35.525913+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        3
+      ],
+      "query": "Juan Ramírez de Velasco 419"
+    },
+    {
+      "venue": "Espacio Gadí",
+      "address": "SAN JUAN AV. 3852, CABA",
+      "lat": -34.626025,
+      "lng": -58.41958,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+San+Juan+3852%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:12:40.592653+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [],
+      "query": "Av. San Juan 3852"
+    },
+    {
+      "venue": "Espacio Histórico de la PFA",
+      "address": "DE MAYO AV. 1333, CABA",
+      "lat": -34.609318,
+      "lng": -58.385305,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+de+Mayo+1333%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:12:55.858377+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        15
+      ],
+      "query": "Av. de Mayo 1333"
+    },
+    {
+      "venue": "Estadio Vélez Sarsfield",
+      "address": "JUSTO, JUAN B. AV. 9200, CABA",
+      "lat": -34.633653,
+      "lng": -58.519508,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Juan+B.+Justo+9200%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:12:59.981305+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [],
+      "query": "Av. Juan B. Justo 9200"
+    },
+    {
+      "venue": "Groove",
+      "address": "SANTA FE AV. 4389, CABA",
+      "lat": -34.579654,
+      "lng": -58.423242,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Santa+Fe+4389%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:13:04.080111+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        5
+      ],
+      "query": "Av. Santa Fe 4389"
+    },
+    {
+      "venue": "La Trastienda",
+      "address": "BALCARCE 460, CABA",
+      "lat": -34.613091,
+      "lng": -58.370677,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Balcarce+460%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:13:12.216535+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid. Venue own website confirms Balcarce460; distant event API point rejected.",
+      "sourceCoordinateDistancesMetres": [
+        930233,
+        13
+      ],
+      "query": "Balcarce 460",
+      "additionalAddressSource": "https://www.latrastienda.com/"
+    },
+    {
+      "venue": "Leiva 4249",
+      "address": "LEIVA 4249, CABA",
+      "lat": -34.592358,
+      "lng": -58.450037,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Leiva+4249%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:13:16.049577+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [],
+      "query": "Leiva 4249"
+    },
+    {
+      "venue": "MARQ. Museo de Arquitectura y Diseño",
+      "address": "DEL LIBERTADOR AV. 999, CABA",
+      "lat": -34.58658,
+      "lng": -58.385833,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+del+Libertador+999%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:13:23.220717+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        9
+      ],
+      "query": "Av. del Libertador 999"
+    },
+    {
+      "venue": "Museo Fernández Blanco",
+      "address": "SUIPACHA 1422, CABA",
+      "lat": -34.590901,
+      "lng": -58.379932,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Suipacha+1422%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:13:27.302090+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        14
+      ],
+      "query": "Suipacha 1422"
+    },
+    {
+      "venue": "Museo Saavedra",
+      "address": "LARRALDE, CRISOLOGO AV. 6309, CABA",
+      "lat": -34.568836,
+      "lng": -58.50747,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Cris%C3%B3logo+Larralde+6309%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:13:31.293007+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        9
+      ],
+      "query": "Crisólogo Larralde 6309"
+    },
+    {
+      "venue": "Museo de Arte Popular José Hernández",
+      "address": "DEL LIBERTADOR AV. 2373, CABA",
+      "lat": -34.579834,
+      "lng": -58.405196,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+del+Libertador+2373%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:13:35.137891+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        21
+      ],
+      "query": "Av. del Libertador 2373"
+    },
+    {
+      "venue": "Museo de Esculturas Luis Perlotti",
+      "address": "PUJOL 644, CABA",
+      "lat": -34.615027,
+      "lng": -58.448257,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Pujol+644%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:13:38.660837+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [],
+      "query": "Pujol 644"
+    },
+    {
+      "venue": "Museo de la Ciudad",
+      "address": "DEFENSA 187, CABA",
+      "lat": -34.610012,
+      "lng": -58.372111,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Defensa+187%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:13:42.345998+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        1
+      ],
+      "query": "Defensa 187"
+    },
+    {
+      "venue": "Parque de Innovación",
+      "address": "UDAONDO, GUILLERMO AV. 1075, CABA",
+      "lat": -34.543954,
+      "lng": -58.450414,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Guillermo+Udaondo+1075%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:13:56.255773+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        26
+      ],
+      "query": "Guillermo Udaondo 1075"
+    },
+    {
+      "venue": "Parque de la Estación",
+      "address": "PERON, JUAN DOMINGO, TTE. GENERAL 3326, CABA",
+      "lat": -34.607511,
+      "lng": -58.413265,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Per%C3%B3n+3326%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:14:00.383232+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [],
+      "query": "Perón 3326"
+    },
+    {
+      "venue": "Plaza Martín Fierro",
+      "address": "LA RIOJA 1200, CABA",
+      "lat": -34.624292,
+      "lng": -58.407049,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=La+Rioja+1200%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:14:04.568250+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        14
+      ],
+      "query": "La Rioja 1200"
+    },
+    {
+      "venue": "Plaza Vuelta de Obligado",
+      "address": "GARAY, JUAN DE AV. 200, CABA",
+      "lat": -34.624149,
+      "lng": -58.367953,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Juan+de+Garay+200%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:14:09.236648+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        31
+      ],
+      "query": "Av. Juan de Garay 200"
+    },
+    {
+      "venue": "Teatro Astros",
+      "address": "CORRIENTES AV. 746, CABA",
+      "lat": -34.603522,
+      "lng": -58.377283,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+746%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:14:24.053891+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        5
+      ],
+      "query": "Av. Corrientes 746"
+    },
+    {
+      "venue": "Teatro Margarita Xirgu",
+      "address": "CHACABUCO 875, CABA",
+      "lat": -34.618169,
+      "lng": -58.375917,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Chacabuco+875%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:14:28.060963+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        3
+      ],
+      "query": "Chacabuco 875"
+    },
+    {
+      "venue": "Teatro Metropolitan",
+      "address": "CORRIENTES AV. 1343, CABA",
+      "lat": -34.603869,
+      "lng": -58.385841,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+1343%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:14:32.079159+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        4
+      ],
+      "query": "Av. Corrientes 1343"
+    },
+    {
+      "venue": "Teatro Presidente Alvear",
+      "address": "CORRIENTES AV. 1659, CABA",
+      "lat": -34.604195,
+      "lng": -58.390136,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+1659%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:14:36.261580+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        4
+      ],
+      "query": "Av. Corrientes 1659"
+    },
+    {
+      "venue": "Universidad de la Ciudad Autónoma de Buenos Aires",
+      "address": "PERON, JUAN DOMINGO, TTE. GENERAL 802, CABA",
+      "lat": -34.605962,
+      "lng": -58.378179,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Per%C3%B3n+802%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:14:48.784196+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        16
+      ],
+      "query": "Perón 802"
+    },
+    {
+      "venue": "Teatro Gran Rex",
+      "address": "CORRIENTES AV. 857, CABA",
+      "lat": -34.603454,
+      "lng": -58.378882,
+      "coordinateSource": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+857%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "coordinatePrecision": "address_representative_point",
+      "checkedAt": "2026-10-28T03:14:53.225479+00:00",
+      "coordinateEvidence": "Official Buenos Aires USIG exact street/number/intersection and CABA matched. WGS84 address representative point; not surveyed entrance, room or city/postcode centroid.",
+      "sourceCoordinateDistancesMetres": [
+        3,
+        14
+      ],
+      "query": "Av. Corrientes 857"
+    },
+    {
+      "venue": "Museo Sívori",
+      "address": "Av. Infanta Isabel 555",
+      "lat": -34.5696,
+      "lng": -58.4171,
+      "coordinateSource": "https://es.wikipedia.org/wiki/Museo_de_Artes_Pl%C3%A1sticas_Eduardo_S%C3%ADvori",
+      "coordinatePrecision": "venue_approximate",
+      "checkedAt": "2026-10-28T03:18:05.285647+00:00",
+      "coordinateEvidence": "Named venue coordinates read in full source and matched city official venue address. Approximate building position, not entrance; municipal street interpolations/park-corner points and conflicting event API pins rejected."
+    },
+    {
+      "venue": "Planetario Galileo Galilei",
+      "address": "Av. Sarmiento y Belisario Roldán",
+      "lat": -34.569722222222,
+      "lng": -58.411666666667,
+      "coordinateSource": "https://es.wikipedia.org/wiki/Planetario_Galileo_Galilei",
+      "coordinatePrecision": "venue_approximate",
+      "checkedAt": "2026-10-28T03:18:05.285659+00:00",
+      "coordinateEvidence": "Named venue coordinates read in full source and matched city official venue address. Approximate building position, not entrance; municipal street interpolations/park-corner points and conflicting event API pins rejected."
+    }
+  ],
+  "pending": [
+    {
+      "venue": "La Rural",
+      "reason": "Named landmark / entrance position differs from street interpolation by >150m; held pending precise site evidence."
+    },
+    {
+      "venue": "Sala SinPiso",
+      "reason": "Named landmark / entrance position differs from street interpolation by >150m; held pending precise site evidence."
+    },
+    {
+      "venue": "Torre Monumental",
+      "reason": "Named landmark / entrance position differs from street interpolation by >150m; held pending precise site evidence."
+    }
+  ]
+}

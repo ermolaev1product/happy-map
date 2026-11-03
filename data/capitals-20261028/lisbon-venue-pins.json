@@ -1,0 +1,832 @@
+[
+  {
+    "venue": "Museu de Lisboa - Palácio Pimenta",
+    "address": "Campo Grande, 245",
+    "lat": 38.758551,
+    "lng": -9.156418,
+    "source": "https://egeac.pt/espacos/museu-de-lisboa-3/",
+    "precision": "venue_approximate",
+    "evidence": "Full EGEAC operator page address and linked named Maps !3d/!4d payload; viewport explicitly not used. Destination cache miss, linked coordinates readable. official_named_building_not_entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "CAM – Centro de Arte Moderna Gulbenkian",
+    "address": "Rua Marquês de Fronteira, 2",
+    "lat": 38.7357516,
+    "lng": -9.1537415,
+    "source": "https://gulbenkian.pt/cam/",
+    "precision": "venue_approximate",
+    "evidence": "Independent public Maps namedplace query returns Centro de Arte Moderna Gulbenkian (CAM), Rua Marquês de Fronteira2, linked officialwebsite, CID13923683065232342960, coordinates[38.7357516,-9.153741499999999]. Map postcode1050-078 differs ownwebsite1070-295; preserve official postcode; street/number and identity match. named museum building point; not studio entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Cine Theatro Gymnásio - Espaço Chiado",
+    "address": "Rua da Misericórdia 14,",
+    "lat": 38.7113749,
+    "lng": -9.1427936,
+    "source": "https://fadoinchiado.com/",
+    "precision": "venue_approximate",
+    "evidence": "OwnembeddedGooglemapnamedpayload0xd19347f083271cf:0x1f1accf1147bf15cwithFadoinChiado+R.daMisericórdia14+coordinatearray; viewportignored namedvenuemapmarker,notentrancesurvey",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Casa-Museu Amália Rodrigues",
+    "address": "Rua de São Bento, 193",
+    "lat": 38.71541607142857,
+    "lng": -9.154590528571429,
+    "source": "https://www.openstreetmap.org/api/0.6/way/178227720/full.json",
+    "precision": "venue_approximate",
+    "evidence": "Named OSM building polygon, exact street/number matched; arithmetic representative point of vertices, not city centroid; opening hours not adopted from OSM. named_building_approximate_not_entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Padrão dos Descobrimentos",
+    "address": "Avenida de Brasilia",
+    "lat": 38.693627,
+    "lng": -9.205672,
+    "source": "https://imovel.patrimoniocultural.gov.pt/detalhes.php?code=7939117",
+    "precision": "venue_approximate",
+    "evidence": "Namedheritageentry+avenidaaddress+LATITUDELONGITUDE; notexactentrance. officialnationalheritageobjectpoint",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "MAAT Central / Tejo Power Station",
+    "address": "Av. Brasília",
+    "lat": 38.69575,
+    "lng": -9.1954,
+    "source": "https://mapcarta.com/N5150663698",
+    "precision": "venue_approximate",
+    "evidence": "Building centre38.69578,-9.19529 agreeswithin~10m; officialmaplabelsCentralwestofGallery. Named OSM museum node5150663698 within powerstation buildingway522306708; not entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "MAAT Gallery",
+    "address": "Av. Brasília",
+    "lat": 38.69601771148568,
+    "lng": -9.193635948434343,
+    "source": "https://www.openstreetmap.org/api/0.6/relation/11381632/full.json",
+    "precision": "venue_approximate",
+    "evidence": "Official map distinguishes curved Gallery east from brickCentral west. OSM relation alt_name CentralTejo reflects shared campus, NOT a reason to use Gallery pin for Central. Wikipedia mainarticle38.69591,-9.19464 is westward campus-edge and not used. Named museum building outer-footprint centroid calculated from OSM relation11381632 outerway446717674; not city/viewport centroid and not entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "MAAT Gallery",
+    "address": "Av. Brasília",
+    "lat": 38.69601771148568,
+    "lng": -9.193635948434343,
+    "source": "https://www.openstreetmap.org/api/0.6/relation/11381632/full.json",
+    "precision": "venue_approximate",
+    "evidence": "Official map distinguishes curved Gallery east from brickCentral west. OSM relation alt_name CentralTejo reflects shared campus, NOT a reason to use Gallery pin for Central. Wikipedia mainarticle38.69591,-9.19464 is westward campus-edge and not used. Named museum building outer-footprint centroid calculated from OSM relation11381632 outerway446717674; not city/viewport centroid and not entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "MAAT Gallery",
+    "address": "Av. Brasília",
+    "lat": 38.69601771148568,
+    "lng": -9.193635948434343,
+    "source": "https://www.openstreetmap.org/api/0.6/relation/11381632/full.json",
+    "precision": "venue_approximate",
+    "evidence": "Official map distinguishes curved Gallery east from brickCentral west. OSM relation alt_name CentralTejo reflects shared campus, NOT a reason to use Gallery pin for Central. Wikipedia mainarticle38.69591,-9.19464 is westward campus-edge and not used. Named museum building outer-footprint centroid calculated from OSM relation11381632 outerway446717674; not city/viewport centroid and not entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "MAAT Central / Tejo Power Station",
+    "address": "Av. Brasília",
+    "lat": 38.69575,
+    "lng": -9.1954,
+    "source": "https://mapcarta.com/N5150663698",
+    "precision": "venue_approximate",
+    "evidence": "Building centre38.69578,-9.19529 agreeswithin~10m; officialmaplabelsCentralwestofGallery. Named OSM museum node5150663698 within powerstation buildingway522306708; not entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Bairro do Avillez",
+    "address": "Rua Nova da Trindade, 18",
+    "lat": 38.712265,
+    "lng": -9.142378,
+    "source": "https://www.bairrodoavillez.pt/",
+    "precision": "venue_approximate",
+    "evidence": "Officialhomepage JSON-LD PostalAddress street18/postcode1200-303; raw /workspace/shared/lisbon-research/avillez-official.html. Named Maps Páteo-BairrodoAvillez CID7341468816802144534 exactsameaddress. Official ENhome and samba detail explicitly name Páteo for both Fado/Samba; not automatically MiniBarpin. named venue building point, not exact room/entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Mercado da Ribeira",
+    "address": "Av. 24 de Julho 49 ",
+    "lat": 38.7069715,
+    "lng": -9.14561585625,
+    "source": "https://www.openstreetmap.org/api/0.6/way/39729235/full.json",
+    "precision": "venue_approximate",
+    "evidence": "Named OSM building polygon, exact street/number matched; arithmetic representative point of vertices, not city centroid; opening hours not adopted from OSM. named_building_approximate_not_entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Bairro do Avillez",
+    "address": "Rua Nova da Trindade, 18",
+    "lat": 38.712265,
+    "lng": -9.142378,
+    "source": "https://www.bairrodoavillez.pt/",
+    "precision": "venue_approximate",
+    "evidence": "Officialhomepage JSON-LD PostalAddress street18/postcode1200-303; raw /workspace/shared/lisbon-research/avillez-official.html. Named Maps Páteo-BairrodoAvillez CID7341468816802144534 exactsameaddress. Official ENhome and samba detail explicitly name Páteo for both Fado/Samba; not automatically MiniBarpin. named venue building point, not exact room/entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Espaço Escola de Mulheres (Clube Estefânia)",
+    "address": "Rua Alexandre Braga, 24 A",
+    "lat": 38.7307518,
+    "lng": -9.1399042,
+    "source": "https://www.escolademulheres.com/contactos/",
+    "precision": "venue_approximate",
+    "evidence": "Named Mapsplace CID7489649796770802250 with exact24A address and officialwebsite. Official contact distinguishes theatre24A from administrativeheadquarters Quinta dasLavadeiras14; use theatre. named venue building point, not exact room/entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Palácio de São Bento / Assembleia da República",
+    "address": "Praça da Constituição de 1976",
+    "lat": 38.71222222222222,
+    "lng": -9.153333333333334,
+    "source": "https://www.parlamento.pt/Paginas/contactos.aspx",
+    "precision": "venue_approximate",
+    "evidence": "Full primary contact page lines286–294 gives palace/address and latitude38º42'44\"N longitude9º9'12\"W Official parliament contact coordinate, building/location approximate, not specifically verified entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Teatro Armando Cortez",
+    "address": "Estrada da Pontinha, 7",
+    "lat": 38.7605321,
+    "lng": -9.1920828,
+    "source": "https://api.openstreetmap.org/api/0.6/node/12351992712.json",
+    "precision": "venue_approximate",
+    "evidence": "OSMnode12351992712 nameTeatroArmandoCortez amenitytheatre gives exactcoordinate. FullOSMway145459192 nameTeatroArmandoCortez amenitytheatre buildingyes; raycasting confirms nodeinsidepolygon. Officialvenue/organizer eachconfirmEstradaPontinha7; ownerpostcode1600-583 vsTIL1600-582 noted. Selectownerpostcode; samephysicalvenue. named OSM theatre POI inside independently named theatre building polygon; not entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "LAV - Lisboa ao Vivo",
+    "address": "Avenida Marechal Gomes da Costa 29B",
+    "lat": 38.75734,
+    "lng": -9.11058,
+    "source": "https://lisboaaovivo.com/contactos/",
+    "precision": "venue_approximate",
+    "evidence": "Own venue explicit latitude/longitude. Current exact29B address and event association confirmed authorized ticket vendor https://www.masqueticket.com/en/salas/lav-lisboa-ao-vivo. Old VisitLisboa InfanteDomHenrique address rejected. official venue-published GPS or named map point; not surveyed entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Espaço Escola de Mulheres (Clube Estefânia)",
+    "address": "Rua Alexandre Braga, 24 A",
+    "lat": 38.7307518,
+    "lng": -9.1399042,
+    "source": "https://www.escolademulheres.com/contactos/",
+    "precision": "venue_approximate",
+    "evidence": "Named Mapsplace CID7489649796770802250 with exact24A address and officialwebsite. Official contact distinguishes theatre24A from administrativeheadquarters Quinta dasLavadeiras14; use theatre. named venue building point, not exact room/entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Espaço Escola de Mulheres (Clube Estefânia)",
+    "address": "Rua Alexandre Braga, 24 A",
+    "lat": 38.7307518,
+    "lng": -9.1399042,
+    "source": "https://www.escolademulheres.com/contactos/",
+    "precision": "venue_approximate",
+    "evidence": "Named Mapsplace CID7489649796770802250 with exact24A address and officialwebsite. Official contact distinguishes theatre24A from administrativeheadquarters Quinta dasLavadeiras14; use theatre. named venue building point, not exact room/entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "O’culto da Ajuda",
+    "address": "Travessa das Zebras, 25/27",
+    "lat": 38.69907,
+    "lng": -9.19881,
+    "source": "https://www.misomusic.me/ocultocatedraldaartemusical",
+    "precision": "venue_approximate",
+    "evidence": "PRIMARY ownpage explicitly prints GPSLatitude38.699070 Longitude-9.198810 beside fullvenueaddress. Prefer ownGPS. IndependentnamedMaps CID10041684421062131943 [38.6990722,-9.1989273] ~10mwest, same25address/officialwebsite. official venue-published GPS point; entrance precision not specified",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "Escola Superior de Música de Lisboa",
+    "address": "Campus de Benfica do Instituto Politécnico de Lisboa, 1500-651 Lisboa",
+    "lat": 38.745326,
+    "lng": -9.196798,
+    "source": "https://www.esml.upl.pt/contactos",
+    "precision": "venue_approximate",
+    "evidence": "Own contact HTML contacts-map lat/lng attributes; shipped Drupal esmlContactsMap uses same values in L.marker([lat,lng]), not only setView. Raw esml-contact.html and esml-map.js read. official contact map marker; not surveyed entrance",
+    "checkedAt": "2026-10-28T04:05:28.552354+00:00"
+  },
+  {
+    "venue": "MAC/CCB Museum of Contemporary Art and Architecture Centre",
+    "address": "Centro Cultural de Belém - Praça do Império",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "MAC/CCB Museum of Contemporary Art and Architecture Centre",
+    "address": "Centro Cultural de Belém - Praça do Império",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Casa Fernando Pessoa",
+    "address": "Rua Coelho da Rocha, 16/18, Campo de Ourique",
+    "lat": 38.7166508,
+    "lng": -9.1624939,
+    "source": "https://www.casafernandopessoa.pt/pt/cfp/visita/como-chegar",
+    "precision": "venue_approximate",
+    "evidence": "OwngettingherepageexplicitGPSlatitude/longitudealongsidefulladdress. officialvisitorGPSpoint",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Pavilhão Julião Sarmento",
+    "address": "Avenida da Índia, 172",
+    "lat": 38.69424357105741,
+    "lng": -9.212498281711257,
+    "source": "https://api.openstreetmap.org/api/0.6/way/280989956/full",
+    "precision": "venue_approximate",
+    "evidence": "PublicOSMfullwaytagsname+tourismmuseum; polygoncentroidcomputedusingactualgeometry. Officialmuseumaddressindependentlyread. computedpolygoncentroidnamedOSMbuilding,notentrance",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Pavilhão Julião Sarmento",
+    "address": "Avenida da Índia, 172",
+    "lat": 38.69424357105741,
+    "lng": -9.212498281711257,
+    "source": "https://api.openstreetmap.org/api/0.6/way/280989956/full",
+    "precision": "venue_approximate",
+    "evidence": "PublicOSMfullwaytagsname+tourismmuseum; polygoncentroidcomputedusingactualgeometry. Officialmuseumaddressindependentlyread. computedpolygoncentroidnamedOSMbuilding,notentrance",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Pavilhão Julião Sarmento",
+    "address": "Avenida da Índia, 172",
+    "lat": 38.69424357105741,
+    "lng": -9.212498281711257,
+    "source": "https://api.openstreetmap.org/api/0.6/way/280989956/full",
+    "precision": "venue_approximate",
+    "evidence": "PublicOSMfullwaytagsname+tourismmuseum; polygoncentroidcomputedusingactualgeometry. Officialmuseumaddressindependentlyread. computedpolygoncentroidnamedOSMbuilding,notentrance",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "MACAM – Museu de Arte Contemporânea Armando Martins",
+    "address": "Rua da Junqueira, 66",
+    "lat": 38.700449,
+    "lng": -9.1833449,
+    "source": "https://maps.app.goo.gl/gVVJ3DCUVSk4pa2J8",
+    "precision": "venue_approximate",
+    "evidence": "Owncontacthttps://macam.pt/en/visit/address-and-contacts-2 namedmapredirect !3d38.700449!4d-9.1833449; viewportignored. officiallinkednamedmapplacepoint",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "MACAM – Museu de Arte Contemporânea Armando Martins",
+    "address": "Rua da Junqueira, 66",
+    "lat": 38.700449,
+    "lng": -9.1833449,
+    "source": "https://maps.app.goo.gl/gVVJ3DCUVSk4pa2J8",
+    "precision": "venue_approximate",
+    "evidence": "Owncontacthttps://macam.pt/en/visit/address-and-contacts-2 namedmapredirect !3d38.700449!4d-9.1833449; viewportignored. officiallinkednamedmapplacepoint",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Fundação Arpad Szenes - Vieira da Silva",
+    "address": "Praça das Amoreiras, 56",
+    "lat": 38.7221804,
+    "lng": -9.1558392,
+    "source": "https://goo.gl/maps/qTUhtqt9s5isUpXM7",
+    "precision": "venue_approximate",
+    "evidence": "Ownmuseumfooterlinkredirect !3d38.7221804!4d-9.1558392 namedfoundation officiallinkednamedmapplacepoint",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Pavilhão Julião Sarmento",
+    "address": "Avenida da Índia, 172",
+    "lat": 38.69424357105741,
+    "lng": -9.212498281711257,
+    "source": "https://api.openstreetmap.org/api/0.6/way/280989956/full",
+    "precision": "venue_approximate",
+    "evidence": "PublicOSMfullwaytagsname+tourismmuseum; polygoncentroidcomputedusingactualgeometry. Officialmuseumaddressindependentlyread. computedpolygoncentroidnamedOSMbuilding,notentrance",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Pavilhão Julião Sarmento",
+    "address": "Avenida da Índia, 172",
+    "lat": 38.69424357105741,
+    "lng": -9.212498281711257,
+    "source": "https://api.openstreetmap.org/api/0.6/way/280989956/full",
+    "precision": "venue_approximate",
+    "evidence": "PublicOSMfullwaytagsname+tourismmuseum; polygoncentroidcomputedusingactualgeometry. Officialmuseumaddressindependentlyread. computedpolygoncentroidnamedOSMbuilding,notentrance",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Pavilhão Julião Sarmento",
+    "address": "Avenida da Índia, 172",
+    "lat": 38.69424357105741,
+    "lng": -9.212498281711257,
+    "source": "https://api.openstreetmap.org/api/0.6/way/280989956/full",
+    "precision": "venue_approximate",
+    "evidence": "PublicOSMfullwaytagsname+tourismmuseum; polygoncentroidcomputedusingactualgeometry. Officialmuseumaddressindependentlyread. computedpolygoncentroidnamedOSMbuilding,notentrance",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Pavilhão Julião Sarmento",
+    "address": "Avenida da Índia, 172",
+    "lat": 38.69424357105741,
+    "lng": -9.212498281711257,
+    "source": "https://api.openstreetmap.org/api/0.6/way/280989956/full",
+    "precision": "venue_approximate",
+    "evidence": "PublicOSMfullwaytagsname+tourismmuseum; polygoncentroidcomputedusingactualgeometry. Officialmuseumaddressindependentlyread. computedpolygoncentroidnamedOSMbuilding,notentrance",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Pavilhão Julião Sarmento",
+    "address": "Avenida da Índia, 172",
+    "lat": 38.69424357105741,
+    "lng": -9.212498281711257,
+    "source": "https://api.openstreetmap.org/api/0.6/way/280989956/full",
+    "precision": "venue_approximate",
+    "evidence": "PublicOSMfullwaytagsname+tourismmuseum; polygoncentroidcomputedusingactualgeometry. Officialmuseumaddressindependentlyread. computedpolygoncentroidnamedOSMbuilding,notentrance",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Pavilhão Julião Sarmento",
+    "address": "Avenida da Índia, 172",
+    "lat": 38.69424357105741,
+    "lng": -9.212498281711257,
+    "source": "https://api.openstreetmap.org/api/0.6/way/280989956/full",
+    "precision": "venue_approximate",
+    "evidence": "PublicOSMfullwaytagsname+tourismmuseum; polygoncentroidcomputedusingactualgeometry. Officialmuseumaddressindependentlyread. computedpolygoncentroidnamedOSMbuilding,notentrance",
+    "checkedAt": "2026-10-28T04:07:54.535986+00:00"
+  },
+  {
+    "venue": "Coliseu de Lisboa",
+    "address": "Rua das Portas de Santo Antão, 96",
+    "lat": 38.7167438,
+    "lng": -9.1401777,
+    "source": "https://coliseulisboa.com/contactos/",
+    "precision": "venue_approximate",
+    "evidence": "Official contact map named marker CID3694446163163978216 same exact address; viewport ignored. official venue-published GPS or named map point; not surveyed entrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Cineteatro Capitólio",
+    "address": "Parque Mayer",
+    "lat": 38.7188712,
+    "lng": -9.1466143,
+    "source": "https://egeac.pt/espacos/capitolio/",
+    "precision": "venue_approximate",
+    "evidence": "Official get-directions https://maps.app.goo.gl/tJhK8HcgzbYnXGaK6 redirects named Cineteatro Capitólio !3d38.7188712!4d-9.1466143. Not generic park. official venue-published GPS or named map point; not surveyed entrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Campo Pequeno",
+    "address": "Centro de Lazer do Campo Pequeno",
+    "lat": 38.7425689,
+    "lng": -9.1454728,
+    "source": "https://www.sagrescampopequeno.pt/en/how-to-get-there",
+    "precision": "venue_approximate",
+    "evidence": "Official iframe named marker CID3151489881882408996 pairs exact venue/address and coordinates; viewport ignored. official venue-published GPS or named map point; not surveyed entrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Teatro Municipal São Luiz",
+    "address": "Rua António Maria Cardoso,38 /54",
+    "lat": 38.70924,
+    "lng": -9.1423,
+    "source": "https://mapcarta.com/pt/W146784835",
+    "precision": "venue_approximate",
+    "evidence": "FullMapcarta page explicitnamedTeatroSãoLuizway146784835 coords; officialagenda38, ticketprovider54 samebuilding butentrynumberconflictretained. OSMnamedbuildingcentroidapproximate,notentrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Teatro Municipal São Luiz",
+    "address": "Rua António Maria Cardoso,38 /54",
+    "lat": 38.70924,
+    "lng": -9.1423,
+    "source": "https://mapcarta.com/pt/W146784835",
+    "precision": "venue_approximate",
+    "evidence": "FullMapcarta page explicitnamedTeatroSãoLuizway146784835 coords; officialagenda38, ticketprovider54 samebuilding butentrynumberconflictretained. OSMnamedbuildingcentroidapproximate,notentrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Teatro Municipal São Luiz",
+    "address": "Rua António Maria Cardoso,38 /54",
+    "lat": 38.70924,
+    "lng": -9.1423,
+    "source": "https://mapcarta.com/pt/W146784835",
+    "precision": "venue_approximate",
+    "evidence": "FullMapcarta page explicitnamedTeatroSãoLuizway146784835 coords; officialagenda38, ticketprovider54 samebuilding butentrynumberconflictretained. OSMnamedbuildingcentroidapproximate,notentrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Teatro Municipal São Luiz",
+    "address": "Rua António Maria Cardoso,38 /54",
+    "lat": 38.70924,
+    "lng": -9.1423,
+    "source": "https://mapcarta.com/pt/W146784835",
+    "precision": "venue_approximate",
+    "evidence": "FullMapcarta page explicitnamedTeatroSãoLuizway146784835 coords; officialagenda38, ticketprovider54 samebuilding butentrynumberconflictretained. OSMnamedbuildingcentroidapproximate,notentrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém",
+    "address": "Praça do Império",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Cineteatro Capitólio",
+    "address": "Parque Mayer",
+    "lat": 38.7188712,
+    "lng": -9.1466143,
+    "source": "https://egeac.pt/espacos/capitolio/",
+    "precision": "venue_approximate",
+    "evidence": "Official get-directions https://maps.app.goo.gl/tJhK8HcgzbYnXGaK6 redirects named Cineteatro Capitólio !3d38.7188712!4d-9.1466143. Not generic park. official venue-published GPS or named map point; not surveyed entrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Teatro Municipal São Luiz",
+    "address": "Rua António Maria Cardoso,38 /54",
+    "lat": 38.70924,
+    "lng": -9.1423,
+    "source": "https://mapcarta.com/pt/W146784835",
+    "precision": "venue_approximate",
+    "evidence": "FullMapcarta page explicitnamedTeatroSãoLuizway146784835 coords; officialagenda38, ticketprovider54 samebuilding butentrynumberconflictretained. OSMnamedbuildingcentroidapproximate,notentrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Museu do Oriente",
+    "address": "Avenida Brasília, Doca de Alcântara (Norte)",
+    "lat": 38.7025,
+    "lng": -9.172222222222222,
+    "source": "https://www.foriente.pt/static.php?id=E4E0B7F8-6A91-4932-82F4-1A9DB7B5FBDC",
+    "precision": "venue_approximate",
+    "evidence": "Own directions explicit GPS 38°42′09N,9°10′20W converted to decimal. Venue point not surveyed entrance. official venue-published GPS or named map point; not surveyed entrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Teatro Municipal São Luiz",
+    "address": "Rua António Maria Cardoso,38 /54",
+    "lat": 38.70924,
+    "lng": -9.1423,
+    "source": "https://mapcarta.com/pt/W146784835",
+    "precision": "venue_approximate",
+    "evidence": "FullMapcarta page explicitnamedTeatroSãoLuizway146784835 coords; officialagenda38, ticketprovider54 samebuilding butentrynumberconflictretained. OSMnamedbuildingcentroidapproximate,notentrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Teatro Municipal São Luiz",
+    "address": "Rua António Maria Cardoso,38 /54",
+    "lat": 38.70924,
+    "lng": -9.1423,
+    "source": "https://mapcarta.com/pt/W146784835",
+    "precision": "venue_approximate",
+    "evidence": "FullMapcarta page explicitnamedTeatroSãoLuizway146784835 coords; officialagenda38, ticketprovider54 samebuilding butentrynumberconflictretained. OSMnamedbuildingcentroidapproximate,notentrance",
+    "checkedAt": "2026-10-28T04:13:03.182436+00:00"
+  },
+  {
+    "venue": "Campo Pequeno",
+    "address": "Centro de Lazer do Campo Pequeno",
+    "lat": 38.7425689,
+    "lng": -9.1454728,
+    "source": "https://www.sagrescampopequeno.pt/en/how-to-get-there",
+    "precision": "venue_approximate",
+    "evidence": "Official iframe named marker CID3151489881882408996 pairs exact venue/address and coordinates; viewport ignored. official venue-published GPS or named map point; not surveyed entrance",
+    "checkedAt": "2026-10-28T04:21:10.168326+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Garden; meeting Foundation atrium",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Museu; meeting Art Library atrium",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7375107,
+    "lng": -9.153222,
+    "source": "https://gulbenkian.pt/agenda/olhar-lento-20-minutos-com-arte/",
+    "precision": "venue_approximate",
+    "evidence": "Namedlibrary CID9752998855990879018, officialwebsite gulbenkian.pt/biblioteca-arte and phone217823458 matching owncontact. Mapnumber45 vs owncomplex45A; samevenueidentity. OlharLento explicitly meets libraryatrium, optional moreprecise point than foundation. named venue building point, not exact room/entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Grande Auditório",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Auditório 2",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Grande Auditório",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Sala do Foyer",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Estúdio Centro de Arte Moderna",
+    "address": "Rua Marquês de Fronteira 2, 1070-295 Lisboa",
+    "lat": 38.7357516,
+    "lng": -9.1537415,
+    "source": "https://gulbenkian.pt/cam/",
+    "precision": "venue_approximate",
+    "evidence": "Independent public Maps namedplace query returns Centro de Arte Moderna Gulbenkian (CAM), Rua Marquês de Fronteira2, linked officialwebsite, CID13923683065232342960, coordinates[38.7357516,-9.153741499999999]. Map postcode1050-078 differs ownwebsite1070-295; preserve official postcode; street/number and identity match. named museum building point; not studio entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Sala 2",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Sala 2",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Grande Auditório",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Galeria Principal Museu Calouste Gulbenkian",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7378124,
+    "lng": -9.1535455,
+    "source": "https://gulbenkian.pt/agenda/visita-the-best-of-calouste-gulbenkian-museum/",
+    "precision": "venue_approximate",
+    "evidence": "Namedmuseum CID618020217539397691, officialwebsite gulbenkian.pt/museu, sameaddress. Optional moreprecise replacement for foundationcomplexpin for BestCollection gallerytour; event primary says GaleriaPrincipalMuseu. named venue building point, not exact room/entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Grande Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Pequeno Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Foyer do Grande Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Centro de Congressos e Reuniões",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Pequeno Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Espaço Fábrica das Artes",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Black Box",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Pequeno Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Grande Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Grande Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Grande Auditório",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Sala do Foyer",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Grande Auditório",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Sala do Foyer",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Grande Auditório",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Fundação Calouste Gulbenkian — Grande Auditório",
+    "address": "Av. de Berna 45A, 1067-001 Lisboa",
+    "lat": 38.7374112,
+    "lng": -9.1547132,
+    "source": "https://gulbenkian.pt/contacte-nos/",
+    "precision": "venue_approximate",
+    "evidence": "Official footer linked CID566985792386140131 converted into public embed query. Returned named Fundação Calouste Gulbenkian, Av.deBerna45A with [38.7374112,-9.1547132], distinct from supplied viewport. Not CAM. named foundation complex/building point; not specific auditorium entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Pequeno Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Pequeno Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Pequeno Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Pequeno Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Pequeno Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  },
+  {
+    "venue": "Centro Cultural de Belém — Pequeno Auditório",
+    "address": "Praça do Império, 1449-003 Lisboa",
+    "lat": 38.6955029,
+    "lng": -9.2083542,
+    "source": "https://www.ccb.pt/contatos/",
+    "precision": "venue_approximate",
+    "evidence": "Named marker array pairs Centro Cultural de Belém, Praça do Império, 1449-003 Lisboa with [38.6955029,-9.208354199999999]; CID3937532079701267766. Same numeric viewport exists but this is independent named marker payload. named venue complex point; not individual room entrance",
+    "checkedAt": "2026-10-28T04:11:25.638279+00:00"
+  }
+]

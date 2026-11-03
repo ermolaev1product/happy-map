@@ -1,0 +1,1570 @@
+{
+  "schema": "palo-alto-maximum-coverage-release-v1",
+  "baselineVersion": 108,
+  "baselineCommit": "94c9fd94f81a4e7a58ca5829dd584e43c43813af",
+  "checkedAt": "2026-10-14T17:18:30Z",
+  "before": 495,
+  "after": 606,
+  "newEventRecords": 111,
+  "newIds": [
+    "pa-max-calave-halloween-20261031",
+    "pa-community-e7d2879ad596bc9b",
+    "pa-community-bc4813b8a9fa8a5c",
+    "pa-culture-d0097e09997dff8b",
+    "pa-culture-0113d0c7f80ae104",
+    "pa-culture-463d81c99a3ebaa6",
+    "pa-culture-2ae417619504f074",
+    "pa-culture-7f5ca710b66e4692",
+    "pa-culture-c9c635cd3e80dfee",
+    "pa-culture-c2491ac931f94f78",
+    "pa-culture-bdd484e9efe659a2",
+    "pa-culture-93a431d3aa823a8f",
+    "pa-culture-d267d3273a82738b",
+    "pa-culture-c1227adc7a22db17",
+    "pa-culture-6b9defbdd6f9ec3f",
+    "pa-culture-304f404f53ab7c19",
+    "pa-culture-37ea4ed259a6ed26",
+    "pa-culture-b12425c97a30e5d1",
+    "pa-culture-62a14e61f67e68de",
+    "pa-culture-402956a98411c0e1",
+    "pa-culture-177890ec7d5c0544",
+    "pa-culture-a4400296224b7410",
+    "pa-culture-2162e10d831c9b9c",
+    "pa-culture-dd63eee8c48ef6fa",
+    "pa-culture-611511d51cef36e8",
+    "pa-culture-eba57e9e6d40f7a4",
+    "pa-culture-51bb542e88c2f396",
+    "pa-culture-da2edade0c31ea88",
+    "pa-culture-5815b1f4519a8bce",
+    "pa-culture-8f74cd5627bf818f",
+    "pa-culture-b4ac6a56cfb3c80a",
+    "pa-culture-84619d88dcc4ac00",
+    "pa-culture-7a9d903402ca3973",
+    "pa-culture-a9ab44b308405486",
+    "pa-culture-e1a2920f5851f6ef",
+    "pa-culture-d811eb3692db14da",
+    "pa-culture-90dee4d45a4008f1",
+    "pa-culture-02d0648b954e0f65",
+    "pa-culture-9c609a8d709fa4f3",
+    "pa-culture-ced2bf628caad86b",
+    "pa-culture-b814a85d617a3786",
+    "pa-culture-3a6a8eeb66b45e8f",
+    "pa-culture-869c73be99eac2fc",
+    "pa-culture-b17adc0f17c245b7",
+    "pa-culture-23d0ddafc2faae42",
+    "pa-culture-b1f54d52bca1db01",
+    "pa-culture-5239edf3b4fd2882",
+    "pa-culture-87c6e0ee21b35c0c",
+    "pa-culture-a037202fdfeaa4ea",
+    "pa-culture-2ec8b56d78c851cd",
+    "pa-culture-106d076a3ad54dd1",
+    "pa-culture-8e33198c4e2ededb",
+    "pa-culture-1a9c2e1ce702fd3f",
+    "pa-culture-855ea8132c8be53b",
+    "pa-culture-24754134776d7907",
+    "pa-culture-61af6bb60e0f810b",
+    "pa-culture-554c588dd41f1a6d",
+    "pa-culture-ea6a03a0bf2fa928",
+    "pa-culture-cef347cee36c71fd",
+    "pa-culture-d992e980665e2b44",
+    "pa-culture-35ef22cd6990ce6d",
+    "pa-culture-59f5066e6e610e9e",
+    "pa-culture-7aee29fadef968c1",
+    "pa-culture-66a8f8523447b34e",
+    "pa-culture-37aa2e52a7472f89",
+    "pa-culture-fd44a30157d8ddcd",
+    "pa-culture-5f4e7fcc0359a35f",
+    "pa-culture-ae71a058d70efb0d",
+    "pa-culture-f3619bf5158adf74",
+    "pa-culture-4aeb4227232f5701",
+    "pa-culture-ca6e84531c4048dd",
+    "pa-culture-3dd57028e1af4fa3",
+    "pa-culture-1a32ab8e7b8dbcbb",
+    "pa-culture-5f46e82ab97bd890",
+    "pa-culture-5a9a55dc8b87ef69",
+    "pa-culture-fb8609aa88accf15",
+    "pa-culture-73178ddb433f4f23",
+    "pa-max-5d141df153dca49b",
+    "pa-max-590cbdc428c0abb0",
+    "pa-max-c8fae30b24938162",
+    "pa-max-87a1ca4eab63423e",
+    "pa-max-3984cc6d94f23c45",
+    "pa-max-fcf12f70078e905a",
+    "pa-max-4a092d174d5d6da8",
+    "pa-community-07e67309017853f4",
+    "pa-max-8df637364ada0196",
+    "pa-max-6ded475957ed162a",
+    "pa-max-8c0ed0aedcafb0bc",
+    "pa-max-b6d3b4f3f149ed2f",
+    "pa-max-4c5d7cd6500a1c3d",
+    "pa-max-8c51c983f2111d8e",
+    "pa-max-e6392c9efc35432f",
+    "pa-max-8b1e18eb7c62fdf2",
+    "pa-max-4aa587282f37a4dd",
+    "pa-max-c5dad543c78c6efe",
+    "pa-max-be12dd2ff96f27e0",
+    "pa-max-820a45f38115cca2",
+    "pa-max-6e8423886e649aaa",
+    "pa-max-215fcc71594a568a",
+    "pa-max-20d3cc0e4069ad3c",
+    "pa-max-c4b7f880f7162523",
+    "pa-community-ece5f77c5c5e0671",
+    "pa-community-8870ca8be941a832",
+    "pa-community-a8a2d4b75725f392",
+    "pa-community-bdf2abfb5b0a2b2d",
+    "pa-meetup-316971548",
+    "pa-meetup-316196875",
+    "pa-meetup-316693996",
+    "pa-eventbrite-1988033267018",
+    "pa-eventbrite-1977985876001",
+    "pa-eventbrite-2002280573094"
+  ],
+  "rescuedHeldRecords": [
+    "pa-community-e7d2879ad596bc9b",
+    "pa-community-bc4813b8a9fa8a5c",
+    "pa-community-07e67309017853f4",
+    "pa-community-ece5f77c5c5e0671",
+    "pa-community-8870ca8be941a832",
+    "pa-community-a8a2d4b75725f392",
+    "pa-community-bdf2abfb5b0a2b2d"
+  ],
+  "byCategory": {
+    "art": 9,
+    "city": 20,
+    "talk": 18,
+    "film": 34,
+    "music": 14,
+    "workshop": 1,
+    "theatre": 14,
+    "other": 1
+  },
+  "bySource": {
+    "Qualia Contemporary Art": 1,
+    "Hauser & Wirth": 1,
+    "City of Palo Alto": 6,
+    "Bryant Street Gallery": 1,
+    "Pacific Art League": 4,
+    "Gamble Garden": 1,
+    "Stanford Federal Credit Union": 1,
+    "Avenidas": 5,
+    "Palo Alto Community Fund": 1,
+    "College Terrace Residents Association": 1,
+    "Stanford Theatre": 22,
+    "Hotel Citrine": 1,
+    "Christian Science Palo Alto": 2,
+    "Palo Alto Stanford Heritage": 4,
+    "AbilityPath": 1,
+    "Steven Chanan": 1,
+    "San Francisco Chamber Orchestra": 1,
+    "Unity Palo Alto": 4,
+    "St. Mark’s Episcopal Church": 1,
+    "Barron Park Association": 1,
+    "UNAFF": 15,
+    "Palo Alto CryptoMondays": 4,
+    "Something Made / Books Inc.": 1,
+    "Stanford symposium organizer": 2,
+    "Voices of Music": 1,
+    "Ives Collective": 1,
+    "Pamela Walsh Gallery": 1,
+    "Stratford School Palo Alto": 1,
+    "Town & Country Village": 1,
+    "PACO-Ghana": 1,
+    "Peninsula Cantare": 1,
+    "Palo Alto Philharmonic": 2,
+    "Earthwise Productions": 1,
+    "Palo Alto Chamber Orchestra": 2,
+    "Meetup organizer": 2,
+    "Keizai Silicon Valley": 1,
+    "Palo Alto Players": 8,
+    "City of Palo Alto / Palo Alto Recreation Foundation": 1,
+    "Books Inc.": 1,
+    "Zohar Dance Company": 1,
+    "Repair Café Silicon Valley": 1,
+    "Brandon Woody / Earthwise": 1,
+    "106 Miles": 1
+  },
+  "newTitleCount": 76,
+  "exhibitions": 8,
+  "heldCandidates": [
+    {
+      "title": "CoHo Jams",
+      "date": "2026-10-19",
+      "time": null,
+      "end": null,
+      "venue": "CoHo, Stanford Coffee House",
+      "address": "459 Lagunita Drive, Stanford, CA 94305",
+      "sourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-10-19/",
+      "source": "Stanford Jazz Workshop",
+      "category": "music",
+      "price": null,
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "checkedAt": "2026-10-14T17:11:00Z",
+      "accessType": "public",
+      "accessNote": "Public jazz jam; current calendar date and venue confirmed. Prior official series descriptions say free admission, but current-instance pricing was not readable.",
+      "registrationStatus": "check_source",
+      "priceStatus": "not_published",
+      "priceNote": "Admission price not verified; do not assume free.",
+      "kind": "event",
+      "min": false,
+      "sourceEvidenceUrl": "https://stanfordjazz.org/events/",
+      "timeNote": "Individual date is listed in current official calendar. Detail page did not yield readable content. Prior 2026 CoHo page and secondary Oct 26 listing say 20:00–22:00, but current-instance hours remain unverified.",
+      "verificationStatus": "date_venue_confirmed_time_unverified",
+      "city": "Stanford",
+      "id": "pa-culture-40a4ce4fa4830d22",
+      "startAt": null,
+      "endAt": null,
+      "lat": 37.424305,
+      "lng": -122.170842,
+      "venueId": "pa-stanford-venue-37946741201874",
+      "coordinateSource": "https://events.stanford.edu/tresidder_union",
+      "coordinatePrecision": "official-building",
+      "mapRegion": "Palo Alto / Stanford",
+      "isInPerson": true,
+      "language": "EN",
+      "admission": "Public jazz jam; current calendar date and venue confirmed. Prior official series descriptions say free admission, but current-instance pricing was not readable.",
+      "priceCheckedAt": "2026-10-14T17:11:00Z",
+      "priceEvidenceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-10-19/",
+      "availabilityVerified": false,
+      "researchBatch": "palo-alto-maximum-coverage-20261014",
+      "publicationStatus": "held_for_recheck",
+      "primarySourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-10-19/",
+      "holdReason": "Exact start time not verified"
+    },
+    {
+      "title": "UNAFF · Session 20 — FROM SEA TO SHINING SEA",
+      "date": "2026-10-22",
+      "time": "16:00",
+      "end": null,
+      "venue": "Lane History Corner, Building 200, Room 205",
+      "address": "450 Jane Stanford Way, Stanford, CA 94305",
+      "sourceUrl": "https://www.unaff.org/2026/schedule.html",
+      "source": "UNAFF",
+      "category": "film",
+      "price": 0,
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "checkedAt": "2026-10-14T17:11:00Z",
+      "accessType": "public",
+      "accessNote": "First-come, first-served; arrive early. Films are unrated. Multi-film-session timing may shift with guests and Q&A.",
+      "registrationStatus": "check_source",
+      "priceStatus": "free",
+      "priceNote": "All Stanford screenings are free; all students with valid ID also admitted free.",
+      "kind": "event",
+      "min": false,
+      "sessionNumber": 20,
+      "films": [
+        {
+          "time": "16:00",
+          "title": "FROM SEA TO SHINING SEA"
+        },
+        {
+          "time": "16:45",
+          "title": "SEIZED"
+        }
+      ],
+      "priceEvidenceUrl": "https://www.unaff.org/2026/tickets.html",
+      "timeNote": "Published session start. Later film starts are approximate; no official session end is given.",
+      "city": "Stanford",
+      "id": "pa-culture-b502ba2b14c2275f",
+      "startAt": "2026-10-22T16:00:00-07:00",
+      "endAt": null,
+      "lat": null,
+      "lng": null,
+      "coordinateSource": null,
+      "coordinatePrecision": "unverified",
+      "mapRegion": "Palo Alto / Stanford",
+      "isInPerson": true,
+      "language": "EN",
+      "admission": "First-come, first-served; arrive early. Films are unrated. Multi-film-session timing may shift with guests and Q&A.",
+      "priceCheckedAt": "2026-10-14T17:11:00Z",
+      "availabilityVerified": false,
+      "researchBatch": "palo-alto-maximum-coverage-20261014",
+      "publicationStatus": "held_for_recheck",
+      "primarySourceUrl": "https://www.unaff.org/2026/schedule.html",
+      "cinemaSession": true,
+      "holdReason": "Verified address without verified map point"
+    },
+    {
+      "title": "UNAFF · Panel: Democracy, Ethics and Truth in the Time of AI",
+      "date": "2026-10-22",
+      "time": "18:30",
+      "end": null,
+      "venue": "Lane History Corner, Building 200, Room 205",
+      "address": "450 Jane Stanford Way, Stanford, CA 94305",
+      "sourceUrl": "https://www.unaff.org/2026/schedule.html",
+      "source": "UNAFF",
+      "category": "talk",
+      "price": 0,
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "checkedAt": "2026-10-14T17:11:00Z",
+      "accessType": "public",
+      "accessNote": "Free public panel; first-come, first-served. Times can shift with preceding screenings and Q&A.",
+      "registrationStatus": "check_source",
+      "priceStatus": "free",
+      "priceNote": "Free admission.",
+      "kind": "event",
+      "min": false,
+      "priceEvidenceUrl": "https://www.unaff.org/2026/tickets.html",
+      "id": "pa-culture-44972f5f181fc947",
+      "startAt": "2026-10-22T18:30:00-07:00",
+      "endAt": null,
+      "timeNote": "End time was not published in the source checked.",
+      "lat": null,
+      "lng": null,
+      "coordinateSource": null,
+      "coordinatePrecision": "unverified",
+      "city": "Stanford",
+      "mapRegion": "Palo Alto / Stanford",
+      "isInPerson": true,
+      "language": "EN",
+      "admission": "Free public panel; first-come, first-served. Times can shift with preceding screenings and Q&A.",
+      "priceCheckedAt": "2026-10-14T17:11:00Z",
+      "availabilityVerified": false,
+      "researchBatch": "palo-alto-maximum-coverage-20261014",
+      "publicationStatus": "held_for_recheck",
+      "primarySourceUrl": "https://www.unaff.org/2026/schedule.html",
+      "holdReason": "Verified address without verified map point"
+    },
+    {
+      "title": "UNAFF · Session 21 — PUTIN AND THE 5 SEAS WAR",
+      "date": "2026-10-22",
+      "time": "19:30",
+      "end": null,
+      "venue": "Lane History Corner, Building 200, Room 205",
+      "address": "450 Jane Stanford Way, Stanford, CA 94305",
+      "sourceUrl": "https://www.unaff.org/2026/schedule.html",
+      "source": "UNAFF",
+      "category": "film",
+      "price": 0,
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "checkedAt": "2026-10-14T17:11:00Z",
+      "accessType": "public",
+      "accessNote": "First-come, first-served; arrive early. Films are unrated. Multi-film-session timing may shift with guests and Q&A.",
+      "registrationStatus": "check_source",
+      "priceStatus": "free",
+      "priceNote": "All Stanford screenings are free; all students with valid ID also admitted free.",
+      "kind": "event",
+      "min": false,
+      "sessionNumber": 21,
+      "films": [
+        {
+          "time": "19:30",
+          "title": "PUTIN AND THE 5 SEAS WAR"
+        },
+        {
+          "time": "20:30",
+          "title": "OUR COLORS NEVER FADE"
+        }
+      ],
+      "priceEvidenceUrl": "https://www.unaff.org/2026/tickets.html",
+      "timeNote": "Published session start. Later film starts are approximate; no official session end is given.",
+      "city": "Stanford",
+      "id": "pa-culture-36c4a476cc42b21e",
+      "startAt": "2026-10-22T19:30:00-07:00",
+      "endAt": null,
+      "lat": null,
+      "lng": null,
+      "coordinateSource": null,
+      "coordinatePrecision": "unverified",
+      "mapRegion": "Palo Alto / Stanford",
+      "isInPerson": true,
+      "language": "EN",
+      "admission": "First-come, first-served; arrive early. Films are unrated. Multi-film-session timing may shift with guests and Q&A.",
+      "priceCheckedAt": "2026-10-14T17:11:00Z",
+      "availabilityVerified": false,
+      "researchBatch": "palo-alto-maximum-coverage-20261014",
+      "publicationStatus": "held_for_recheck",
+      "primarySourceUrl": "https://www.unaff.org/2026/schedule.html",
+      "cinemaSession": true,
+      "holdReason": "Verified address without verified map point"
+    },
+    {
+      "title": "UNAFF · Session 23 — STEAL THIS STORY, PLEASE!",
+      "date": "2026-10-23",
+      "time": "18:30",
+      "end": null,
+      "venue": "CEMEX Auditorium",
+      "address": "641 Knight Way, Stanford, CA 94305",
+      "sourceUrl": "https://www.unaff.org/2026/schedule.html",
+      "source": "UNAFF",
+      "category": "film",
+      "price": 0,
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "checkedAt": "2026-10-14T17:11:00Z",
+      "accessType": "public",
+      "accessNote": "First-come, first-served; arrive early. Films are unrated. Multi-film-session timing may shift with guests and Q&A.",
+      "registrationStatus": "check_source",
+      "priceStatus": "free",
+      "priceNote": "All Stanford screenings are free; all students with valid ID also admitted free.",
+      "kind": "event",
+      "min": false,
+      "sessionNumber": 23,
+      "films": [
+        {
+          "time": "18:30",
+          "title": "STEAL THIS STORY, PLEASE!"
+        }
+      ],
+      "priceEvidenceUrl": "https://www.unaff.org/2026/tickets.html",
+      "timeNote": "Published session start. Later film starts are approximate; no official session end is given.",
+      "city": "Stanford",
+      "id": "pa-culture-73adccb108626833",
+      "startAt": "2026-10-23T18:30:00-07:00",
+      "endAt": null,
+      "coordinateSource": null,
+      "mapRegion": "Palo Alto / Stanford",
+      "isInPerson": true,
+      "language": "EN",
+      "admission": "First-come, first-served; arrive early. Films are unrated. Multi-film-session timing may shift with guests and Q&A.",
+      "priceCheckedAt": "2026-10-14T17:11:00Z",
+      "availabilityVerified": false,
+      "researchBatch": "palo-alto-maximum-coverage-20261014",
+      "publicationStatus": "held_for_recheck",
+      "primarySourceUrl": "https://www.unaff.org/2026/schedule.html",
+      "cinemaSession": true,
+      "holdReason": "Verified address without verified map point",
+      "coordinatePrecision": "unverified"
+    },
+    {
+      "title": "CoHo Jams",
+      "date": "2026-10-26",
+      "time": null,
+      "end": null,
+      "venue": "CoHo, Stanford Coffee House",
+      "address": "459 Lagunita Drive, Stanford, CA 94305",
+      "sourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-10-26/",
+      "source": "Stanford Jazz Workshop",
+      "category": "music",
+      "price": null,
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "checkedAt": "2026-10-14T17:11:00Z",
+      "accessType": "public",
+      "accessNote": "Public jazz jam; current calendar date and venue confirmed. Prior official series descriptions say free admission, but current-instance pricing was not readable.",
+      "registrationStatus": "check_source",
+      "priceStatus": "not_published",
+      "priceNote": "Admission price not verified; do not assume free.",
+      "kind": "event",
+      "min": false,
+      "sourceEvidenceUrl": "https://stanfordjazz.org/events/",
+      "timeNote": "Individual date is listed in current official calendar. Detail page did not yield readable content. Prior 2026 CoHo page and secondary Oct 26 listing say 20:00–22:00, but current-instance hours remain unverified.",
+      "verificationStatus": "date_venue_confirmed_time_unverified",
+      "city": "Stanford",
+      "id": "pa-culture-1ff60c6157ebb9da",
+      "startAt": null,
+      "endAt": null,
+      "lat": 37.424305,
+      "lng": -122.170842,
+      "venueId": "pa-stanford-venue-37946741201874",
+      "coordinateSource": "https://events.stanford.edu/tresidder_union",
+      "coordinatePrecision": "official-building",
+      "mapRegion": "Palo Alto / Stanford",
+      "isInPerson": true,
+      "language": "EN",
+      "admission": "Public jazz jam; current calendar date and venue confirmed. Prior official series descriptions say free admission, but current-instance pricing was not readable.",
+      "priceCheckedAt": "2026-10-14T17:11:00Z",
+      "priceEvidenceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-10-26/",
+      "availabilityVerified": false,
+      "researchBatch": "palo-alto-maximum-coverage-20261014",
+      "publicationStatus": "held_for_recheck",
+      "primarySourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-10-26/",
+      "holdReason": "Exact start time not verified"
+    },
+    {
+      "title": "CoHo Jams",
+      "date": "2026-11-02",
+      "time": null,
+      "end": null,
+      "venue": "CoHo, Stanford Coffee House",
+      "address": "459 Lagunita Drive, Stanford, CA 94305",
+      "sourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-11-02/",
+      "source": "Stanford Jazz Workshop",
+      "category": "music",
+      "price": null,
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "checkedAt": "2026-10-14T17:11:00Z",
+      "accessType": "public",
+      "accessNote": "Public jazz jam; current calendar date and venue confirmed. Prior official series descriptions say free admission, but current-instance pricing was not readable.",
+      "registrationStatus": "check_source",
+      "priceStatus": "not_published",
+      "priceNote": "Admission price not verified; do not assume free.",
+      "kind": "event",
+      "min": false,
+      "sourceEvidenceUrl": "https://stanfordjazz.org/events/",
+      "timeNote": "Individual date is listed in current official calendar. Detail page did not yield readable content. Prior 2026 CoHo page and secondary Oct 26 listing say 20:00–22:00, but current-instance hours remain unverified.",
+      "verificationStatus": "date_venue_confirmed_time_unverified",
+      "city": "Stanford",
+      "id": "pa-culture-7bffd1289d59f72e",
+      "startAt": null,
+      "endAt": null,
+      "lat": 37.424305,
+      "lng": -122.170842,
+      "venueId": "pa-stanford-venue-37946741201874",
+      "coordinateSource": "https://events.stanford.edu/tresidder_union",
+      "coordinatePrecision": "official-building",
+      "mapRegion": "Palo Alto / Stanford",
+      "isInPerson": true,
+      "language": "EN",
+      "admission": "Public jazz jam; current calendar date and venue confirmed. Prior official series descriptions say free admission, but current-instance pricing was not readable.",
+      "priceCheckedAt": "2026-10-14T17:11:00Z",
+      "priceEvidenceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-11-02/",
+      "availabilityVerified": false,
+      "researchBatch": "palo-alto-maximum-coverage-20261014",
+      "publicationStatus": "held_for_recheck",
+      "primarySourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-11-02/",
+      "holdReason": "Exact start time not verified"
+    },
+    {
+      "title": "CoHo Jams",
+      "date": "2026-11-09",
+      "time": null,
+      "end": null,
+      "venue": "CoHo, Stanford Coffee House",
+      "address": "459 Lagunita Drive, Stanford, CA 94305",
+      "sourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-11-09/",
+      "source": "Stanford Jazz Workshop",
+      "category": "music",
+      "price": null,
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "checkedAt": "2026-10-14T17:11:00Z",
+      "accessType": "public",
+      "accessNote": "Public jazz jam; current calendar date and venue confirmed. Prior official series descriptions say free admission, but current-instance pricing was not readable.",
+      "registrationStatus": "check_source",
+      "priceStatus": "not_published",
+      "priceNote": "Admission price not verified; do not assume free.",
+      "kind": "event",
+      "min": false,
+      "sourceEvidenceUrl": "https://stanfordjazz.org/events/",
+      "timeNote": "Individual date is listed in current official calendar. Detail page did not yield readable content. Prior 2026 CoHo page and secondary Oct 26 listing say 20:00–22:00, but current-instance hours remain unverified.",
+      "verificationStatus": "date_venue_confirmed_time_unverified",
+      "city": "Stanford",
+      "id": "pa-culture-a31e4aa87515ea1b",
+      "startAt": null,
+      "endAt": null,
+      "lat": 37.424305,
+      "lng": -122.170842,
+      "venueId": "pa-stanford-venue-37946741201874",
+      "coordinateSource": "https://events.stanford.edu/tresidder_union",
+      "coordinatePrecision": "official-building",
+      "mapRegion": "Palo Alto / Stanford",
+      "isInPerson": true,
+      "language": "EN",
+      "admission": "Public jazz jam; current calendar date and venue confirmed. Prior official series descriptions say free admission, but current-instance pricing was not readable.",
+      "priceCheckedAt": "2026-10-14T17:11:00Z",
+      "priceEvidenceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-11-09/",
+      "availabilityVerified": false,
+      "researchBatch": "palo-alto-maximum-coverage-20261014",
+      "publicationStatus": "held_for_recheck",
+      "primarySourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-11-09/",
+      "holdReason": "Exact start time not verified"
+    },
+    {
+      "title": "Act Four",
+      "date": "2026-11-13",
+      "time": null,
+      "end": null,
+      "venue": "Cubberley Theatre",
+      "address": "4120 Middlefield Road, Palo Alto, CA 94303",
+      "sourceUrl": "https://www.naatak.org/portfolio/act-four/",
+      "source": "Naatak",
+      "category": "theatre",
+      "price": null,
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "checkedAt": "2026-10-14T17:11:00Z",
+      "accessType": "registration",
+      "accessNote": "English-language production; no children under 7. Individual tickets refundable minus fees until the day before the show; season passes and bulk tickets nonrefundable.",
+      "registrationStatus": "check_source",
+      "priceStatus": "not_published",
+      "priceNote": "Admission price not verified; do not assume free.",
+      "kind": "event",
+      "min": false,
+      "timeNote": "Official run starts Nov 13, 2026 and ends Nov 29. Only Nov 13 falls within this research window. Exact opening-night start/end and price not readable in the ticket widget.",
+      "verificationStatus": "date_venue_confirmed_time_unverified",
+      "id": "pa-culture-401d770dbdc1e85d",
+      "startAt": null,
+      "endAt": null,
+      "coordinateSource": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4120+Middlefield+Road%2C+Palo+Alto%2C+CA+94303&benchmark=Public_AR_Current&format=json",
+      "city": "Palo Alto",
+      "mapRegion": "Palo Alto / Stanford",
+      "isInPerson": true,
+      "language": "EN",
+      "admission": "English-language production; no children under 7. Individual tickets refundable minus fees until the day before the show; season passes and bulk tickets nonrefundable.",
+      "priceCheckedAt": "2026-10-14T17:11:00Z",
+      "priceEvidenceUrl": "https://www.naatak.org/portfolio/act-four/",
+      "availabilityVerified": false,
+      "researchBatch": "palo-alto-maximum-coverage-20261014",
+      "publicationStatus": "held_for_recheck",
+      "primarySourceUrl": "https://www.naatak.org/portfolio/act-four/",
+      "lat": 37.417297723965,
+      "lng": -122.105624143892,
+      "coordinatePrecision": "census-address-range",
+      "coordinateNote": "US Census matched the exact public venue address; approximate street-range point, not an entrance survey.",
+      "matchedAddress": "4120 MIDDLEFIELD RD, PALO ALTO, CA, 94303",
+      "holdReason": "Exact start time not verified"
+    }
+  ],
+  "auditedSources": [
+    {
+      "checkedAt": "2026-10-14T17:06:50Z",
+      "name": "Palo Alto Online calendar",
+      "sourceURL": "https://www.paloaltoonline.com/calendar/",
+      "status": "blocked_robots",
+      "notes": "Web fetch explicitly denied by robots.txt. No circumvention attempted; indexed search can supply discovery but not full calendar coverage."
+    },
+    {
+      "checkedAt": "2026-10-14T17:06:50Z",
+      "name": "Patch Palo Alto calendar",
+      "sourceURL": "https://patch.com/california/paloalto/calendar",
+      "status": "accessible",
+      "notes": "Public calendar accessible; discovery includes neighboring cities, which must be separated; search/open snapshots differ."
+    },
+    {
+      "checkedAt": "2026-10-14T17:06:50Z",
+      "name": "Nextdoor Palo Alto public event preview",
+      "sourceURL": "https://nextdoor.com/events/calendar/ca/palo-alto/",
+      "status": "public_preview_only",
+      "notes": "Read without logging in. Only public cards exposed; cards lack time, venue, price and direct event text links. Search and opened snapshots differ. No private neighborhood feed coverage; no joining."
+    },
+    {
+      "checkedAt": "2026-10-14T17:06:50Z",
+      "name": "Reddit r/paloalto Trick or Trivia post",
+      "sourceURL": "https://www.reddit.com/r/paloalto/comments/1wdpawv/upcoming_event_trick_or_trivia_in_the_baylands/",
+      "status": "indexed_only",
+      "notes": "Search snippet identifies Oct 17 2026 at Environmental Volunteers EcoCenter; full thread fetch returned cache miss. Verify official organizer."
+    },
+    {
+      "checkedAt": "2026-10-14T17:06:50Z",
+      "name": "College Terrace Residents Association",
+      "sourceURL": "https://www.collegeterrace.org/",
+      "status": "accessible",
+      "notes": "Oct 15 2026 board agenda available on homepage. Detail link fetch returned cache miss. No private mailing list accessed."
+    },
+    {
+      "checkedAt": "2026-10-14T17:06:50Z",
+      "name": "Greenmeadow Community Association",
+      "sourceURL": "https://greenmeadow.org/community/",
+      "status": "accessible",
+      "notes": "Official October 2026 calendar has four in-range events. Clubhouse/pool default access members and guests, max four guests/event, eight/month; Greenmeadow residents cannot attend as guests. Not generally public."
+    },
+    {
+      "checkedAt": "2026-10-14T17:06:50Z",
+      "name": "Palo Alto Stanford Heritage",
+      "sourceURL": "https://www.pastheritage.org/tours.html",
+      "status": "accessible",
+      "notes": "Official 2026 fall tours; four in-range dates. Free and public; dates subject to change."
+    },
+    {
+      "checkedAt": "2026-10-14T17:06:50Z",
+      "name": "Midtown Residents Association",
+      "sourceURL": "https://midtownresidents.org/",
+      "status": "accessible_no_in_range_events",
+      "notes": "Homepage has association info and images, newsletter signup; no in-range dated event text found. Did not subscribe."
+    },
+    {
+      "checkedAt": "2026-10-14T17:06:50Z",
+      "name": "Palo Alto Neighborhoods umbrella association",
+      "sourceURL": "https://paneighborhoods.org/",
+      "status": "accessible_out_of_range",
+      "notes": "Official election page resolved pictured candidate forum to October 1 2026, outside window. https://paneighborhoods.org/home-page-2/election-2026/"
+    },
+    {
+      "checkedAt": "2026-10-14T17:06:50Z",
+      "name": "Barron Park Association",
+      "sourceURL": "https://bpapaloalto.org/events/list/",
+      "status": "accessible_conflicting_time",
+      "notes": "Movie Oct 18 description says 6 p.m.; open snapshot time header says 8 a.m.–5 p.m., search snapshot says 6–9 p.m. Requires detail/flyer resolution. Nov 15 craft fair outside window."
+    },
+    {
+      "name": "Transition Palo Alto community blog",
+      "sourceURL": "https://transitionpaloalto.org/",
+      "status": "accessible_out_of_range",
+      "notes": "Latest event Scare Faire Oct 10 2026 is before requested window; older posts not rolled forward.",
+      "checkedAt": "2026-10-14T17:09:40Z"
+    },
+    {
+      "name": "Evergreen Park Neighborhood Association",
+      "sourceURL": "https://epna.palo-alto.ca.us/",
+      "status": "fetch_failed",
+      "notes": "Public homepage fetch returned internal error; no current dated listing verified.",
+      "checkedAt": "2026-10-14T17:09:40Z"
+    },
+    {
+      "name": "Downtown North / Crescent Park / Old Palo Alto neighborhood associations",
+      "sourceURL": "https://paneighborhoods.org/neighborhood-associations/",
+      "status": "directory_only",
+      "notes": "Associations listed in umbrella directory; targeted public-web searches found no dated Oct 14–Nov 13 2026 events. No private email/Google/Nextdoor groups joined.",
+      "checkedAt": "2026-10-14T17:09:40Z"
+    },
+    {
+      "name": "Palo Alto Daily Post",
+      "sourceURL": "https://padailypost.com/",
+      "status": "accessible_no_in_range_events",
+      "notes": "Read public home and targeted event searches; mainly news/election coverage, no additional fully dated in-range event established.",
+      "checkedAt": "2026-10-14T17:09:40Z"
+    },
+    {
+      "name": "InMenlo community blog",
+      "sourceURL": "https://inmenlo.com/",
+      "status": "accessible_neighboring_cities",
+      "notes": "Found Oct 17 Heritage & Harvest Festival, 555 Ravenswood Avenue, Menlo Park; excluded from Palo Alto events. No geographic conflation.",
+      "checkedAt": "2026-10-14T17:09:40Z"
+    },
+    {
+      "name": "First Palo Alto United Methodist Church",
+      "sourceURL": "https://firstpaloalto.com/",
+      "status": "partially_accessible",
+      "notes": "Nextdoor Trunk-n-Treat/Scary Tales leads. Official site has 2026 trunk banner and October newsletter, but banner/PDF fetch failed. Concert page stale; calendar opened April snapshot. Leads kept pending.",
+      "checkedAt": "2026-10-14T17:09:40Z"
+    },
+    {
+      "name": "Christian Science Palo Alto / official speaker calendar",
+      "sourceURL": "https://www.christianscience.com/ln/calendar/ann-kneeland",
+      "status": "accessible",
+      "notes": "Two Palo Alto lectures confirmed Oct 16/17 2026 at 459 California Ave; local organizer detail cache miss.",
+      "checkedAt": "2026-10-14T17:09:40Z"
+    },
+    {
+      "name": "AbilityPath",
+      "sourceURL": "https://abilitypath.org/events-news/",
+      "status": "accessible",
+      "notes": "Official calendar and organization-issued press release verify Oct 17 authors luncheon. Price unavailable.",
+      "checkedAt": "2026-10-14T17:09:40Z"
+    },
+    {
+      "name": "Stratford School Palo Alto Eventbrite",
+      "sourceURL": "https://www.eventbrite.com/e/stratford-school-palo-alto-fall-open-house-tickets-2002594065759",
+      "status": "accessible",
+      "notes": "School-authored page verifies Oct 24 2026 9–1; advance registration required.",
+      "checkedAt": "2026-10-14T17:09:40Z"
+    },
+    {
+      "name": "Palo Alto Community Fund",
+      "sourceURL": "https://paloaltocommfund.org/events/",
+      "status": "accessible",
+      "notes": "Oct 15 Poker Party added. Gather & Grow Oct 20 is Redwood City, excluded from Palo Alto list.",
+      "checkedAt": "2026-10-14T17:09:40Z"
+    },
+    {
+      "name": "Gamble Garden via Patch",
+      "sourceURL": "https://www.gamblegarden.org/events/",
+      "status": "accessible",
+      "notes": "Patch uncovers omitted luncheon and floral workshop; followed official links; workshop registration already closed.",
+      "checkedAt": "2026-10-14T17:09:40Z"
+    },
+    {
+      "checkedAt": "2026-10-14T17:14:00Z",
+      "name": "Palo Alto Online Town Square",
+      "sourceURL": "https://www.paloaltoonline.com/square/",
+      "status": "blocked_robots",
+      "notes": "Direct calendar and Town Square searches/fetch explicitly robots denied. Do not claim full coverage."
+    },
+    {
+      "checkedAt": "2026-10-14T17:14:00Z",
+      "name": "Reddit public local discussions",
+      "sourceURL": "https://www.reddit.com/r/paloalto/comments/1wxnr2v/local_events/",
+      "status": "indexed_public_only",
+      "notes": "Targeted r/paloalto, r/bayarea and related local discussion searches. Oct 4 local-events thread yields venue recommendations, not dated events. Trick or Trivia already in baseline. No private Reddit groups or feeds read."
+    },
+    {
+      "checkedAt": "2026-10-14T17:14:00Z",
+      "name": "Repair Café Silicon Valley / Trash Nothing community board",
+      "sourceURL": "https://repaircafesv.org/",
+      "status": "accessible",
+      "notes": "Trash Nothing discovery followed to official exact Nov 8 2026 Palo Alto event. Other dates in San Jose, Mountain View, Sunnyvale and Los Gatos excluded."
+    },
+    {
+      "checkedAt": "2026-10-14T17:14:00Z",
+      "name": "Unity Palo Alto community calendar",
+      "sourceURL": "https://unitypaloalto.org/calendar/list/?hide_subsequent_recurrences=1",
+      "status": "accessible",
+      "notes": "Four exact in-range dates captured, plus membership/RSVP/donation notes. Recurring generic entries not mechanically expanded. Detail fetches returned cache misses."
+    },
+    {
+      "checkedAt": "2026-10-14T17:14:00Z",
+      "name": "Stanford Federal Credit Union event listing",
+      "sourceURL": "https://www.eventbrite.com/e/international-credit-union-day-celebration-tickets-2003018692830",
+      "status": "accessible",
+      "notes": "Official organizer-authored event confirms Oct 15 9–5 at 1860 Embarcadero; drawing restricted to members."
+    },
+    {
+      "checkedAt": "2026-10-14T17:14:00Z",
+      "name": "Town & Country Village merchants' event board",
+      "sourceURL": "https://tandcvillage.com/event-promotion/",
+      "status": "indexed_current_open_stale",
+      "notes": "Current indexed Oct 2 2026 announcements found Framebridge Oct 24 noon–3. Open fetch older cached September content. Sales discounts/menu launches not treated as events; Mamahuhu Oct 15 held for registration conflict, dumpling class Oct 10 outside window."
+    },
+    {
+      "checkedAt": "2026-10-14T17:14:00Z",
+      "name": "Palo Alto Ledger",
+      "sourceURL": "https://paloaltoledger.com/",
+      "status": "accessible_discovery_only",
+      "notes": "Used for discovery; tailoring event traced to original Palo Alto Daily Post. City Halloween/storm headlines duplicate official city leads."
+    },
+    {
+      "checkedAt": "2026-10-14T17:14:00Z",
+      "name": "Avenidas events and activity newsletters",
+      "sourceURL": "https://www.avenidas.org/category/activities/",
+      "status": "indexed_partial_access",
+      "notes": "Five in-range Palo Alto events captured from official indexed calendar/newsletter text. Direct requests return cache misses or 403. Oct 15 health event actually Mountain View, excluded. AI generators date conflict and recurring PDF-only calendars held."
+    },
+    {
+      "checkedAt": "2026-10-14T17:14:00Z",
+      "name": "Avenidas Community Health & Wellness",
+      "sourceURL": "https://www.avenidas.org/event/community-health-wellness-event/2026-10-15/",
+      "status": "excluded_neighboring_city",
+      "notes": "October 15 2026, 16:30–18:30; Mountain View Senior Center, 266 Escuela Avenue, not Palo Alto."
+    },
+    {
+      "checkedAt": "2026-10-14T17:14:00Z",
+      "name": "CACCC public community press post",
+      "sourceURL": "https://patch.com/california/cupertino/caccc-receives-10-000-silicon-valley-community-foundation-svcf-nodx",
+      "status": "lead_only",
+      "notes": "Nov 5 Heart to Heart Café at ACCC Palo Alto; primary future calendar not located. Kept as held lead, not published verified event."
+    },
+    {
+      "checkedAt": "2026-10-14T17:14:00Z",
+      "name": "Palo Alto Chamber calendar",
+      "sourceURL": "https://business.paloaltochamber.com/events/calendar/2026-10-09",
+      "status": "indexed_only",
+      "notes": "Calendar discovered but direct fetch failed; no new event rows included without detailed verification."
+    },
+    {
+      "name": "City of Palo Alto events directory",
+      "url": "https://www.paloalto.gov/Events-Directory",
+      "status": "accessible",
+      "checkedAt": "2026-10-14T17:18:30Z",
+      "notes": "Read current directory and exact Cal Ave Halloween page; Pet Palooza and From Trash to Textile already present. Canceled commission meetings and online-only webinars excluded. Selected announcements, not complete directory import."
+    },
+    {
+      "name": "Canopy public event calendar",
+      "url": "https://canopy.org/event-calendar/",
+      "status": "accessible_held_address",
+      "checkedAt": "2026-10-14T17:18:30Z",
+      "notes": "Oct30 youth planting and Nov7 Palo Alto neighborhood planting lack exact public meeting location. East Palo Alto/Mountain View/Menlo Park events excluded. No newsletter subscription or group joining."
+    },
+    {
+      "name": "Peninsula Open Space Trust events",
+      "url": "https://openspacetrust.org/",
+      "status": "accessible_neighboring_cities",
+      "checkedAt": "2026-10-14T17:18:30Z",
+      "notes": "Public upcoming listings checked; headquarters is Palo Alto but current Bair Island/Coyote Creek/Hellyer/Rancho Canada del Oro events are elsewhere, and Oct29 talk is online. No Palo Alto relabeling."
+    },
+    {
+      "name": "Hotel Citrine Jazz Night",
+      "url": "https://www.hotelcitrine.com/events/jazz-night-12/",
+      "status": "imported",
+      "checkedAt": "2026-10-14T17:18:30Z",
+      "notes": "Visible dated Oct16 calendar and detail confirm 18–20, free, Wild Onion Patio. Embedded stale February/AC Lounge schema rejected. Hotel point matched current official address and independent coordinate evidence."
+    },
+    {
+      "name": "St. Mark’s Episcopal Church speaker series",
+      "url": "https://saint-marks.com/event/bbc-speaker-series-presents-jon-a-powell-with-beyond-the-divide-a-conversation-on-belonging/",
+      "status": "imported",
+      "checkedAt": "2026-10-14T17:18:30Z",
+      "notes": "Exact Oct18 14–15:30 event read. Public invitation; price unspecified. Census exact-address match is explicitly street-range approximate."
+    },
+    {
+      "source": "Qualia Contemporary Art",
+      "sourceUrl": "https://qualiagallery.com/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-d0097e09997dff8b"
+      ],
+      "primaryEvidenceUrls": [
+        "https://qualiagallery.com/",
+        "https://qualiagallery.com/contact/"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Hauser & Wirth",
+      "sourceUrl": "https://www.hauserwirth.com/hauser-wirth-exhibitions/calder-okeeffe/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-0113d0c7f80ae104"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.hauserwirth.com/hauser-wirth-exhibitions/calder-okeeffe/"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "City of Palo Alto",
+      "sourceUrl": "https://www.paloalto.gov/Departments/Community-Services/Arts-Sciences/Palo-Alto-Art-Center/See-Art/Exhibitions/Current-Exhibition/Live-the-Moment-Light",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-463d81c99a3ebaa6"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.paloalto.gov/About/Visiting",
+        "https://www.paloalto.gov/Departments/Community-Services",
+        "https://www.paloalto.gov/Departments/Community-Services/Arts-Sciences/Palo-Alto-Art-Center/See-Art/Exhibitions/Current-Exhibition/Live-the-Moment-Light"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Bryant Street Gallery",
+      "sourceUrl": "https://www.bryantstreet.com/art-exhibitions/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-2ae417619504f074"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.bryantstreet.com/art-exhibitions/",
+        "https://www.bryantstreet.com/contact/"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Pacific Art League",
+      "sourceUrl": "https://www.pacificartleague.org/call-to-artists-postcard-exhibition-2026",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-7f5ca710b66e4692"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.pacificartleague.org/call-to-artists-postcard-exhibition-2026",
+        "https://www.pacificartleague.org/pal-gallery-hours"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Pacific Art League",
+      "sourceUrl": "https://www.pacificartleague.org/judy-kramer-solo",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-c9c635cd3e80dfee"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.pacificartleague.org/judy-kramer-solo",
+        "https://www.pacificartleague.org/pal-gallery-hours"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Stanford Theatre",
+      "sourceUrl": "https://stanfordtheatre.org/calendars/Eva%20Marie%20Saint.html",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 22,
+      "recordIds": [
+        "pa-culture-c2491ac931f94f78",
+        "pa-culture-bdd484e9efe659a2",
+        "pa-culture-93a431d3aa823a8f",
+        "pa-culture-d267d3273a82738b",
+        "pa-culture-6b9defbdd6f9ec3f",
+        "pa-culture-37ea4ed259a6ed26",
+        "pa-culture-b12425c97a30e5d1",
+        "pa-culture-62a14e61f67e68de",
+        "pa-culture-402956a98411c0e1",
+        "pa-culture-177890ec7d5c0544",
+        "pa-culture-a4400296224b7410",
+        "pa-culture-b4ac6a56cfb3c80a",
+        "pa-culture-e1a2920f5851f6ef",
+        "pa-culture-d811eb3692db14da",
+        "pa-culture-b814a85d617a3786",
+        "pa-culture-23d0ddafc2faae42",
+        "pa-culture-a037202fdfeaa4ea",
+        "pa-culture-2ec8b56d78c851cd",
+        "pa-culture-ea6a03a0bf2fa928",
+        "pa-culture-d992e980665e2b44",
+        "pa-culture-35ef22cd6990ce6d",
+        "pa-culture-59f5066e6e610e9e"
+      ],
+      "primaryEvidenceUrls": [
+        "https://stanfordtheatre.org/aboutMore.html",
+        "https://stanfordtheatre.org/calendars/Eva%20Marie%20Saint.html"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Steven Chanan",
+      "sourceUrl": "https://www.eventbrite.com/e/steven-chanan-in-recital-tickets-1992262923033",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-c1227adc7a22db17"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.eventbrite.com/e/steven-chanan-in-recital-tickets-1992262923033",
+        "https://www.eventbrite.com/poi/ca--stanford/cantor-arts-center-at-stanford-university--fQvMU/"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "San Francisco Chamber Orchestra",
+      "sourceUrl": "https://www.thesfco.org/events/seasonannouncement-xefg2-9j9kc-gjler-fxn7j-wtf86-3hea3-demlp",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-304f404f53ab7c19"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.thesfco.org/events/seasonannouncement-xefg2-9j9kc-gjler-fxn7j-wtf86-3hea3-demlp",
+        "https://www.thesfco.org/mainstage"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Stanford Jazz Workshop",
+      "sourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-10-19/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-40a4ce4fa4830d22"
+      ],
+      "primaryEvidenceUrls": [
+        "https://stanfordjazz.org/event/coho-jams-2-2/2026-10-19/",
+        "https://stanfordjazz.org/events/"
+      ],
+      "timeUnverifiedCount": 1,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "UNAFF",
+      "sourceUrl": "https://www.unaff.org/2026/schedule.html",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 19,
+      "recordIds": [
+        "pa-culture-2162e10d831c9b9c",
+        "pa-culture-dd63eee8c48ef6fa",
+        "pa-culture-611511d51cef36e8",
+        "pa-culture-51bb542e88c2f396",
+        "pa-culture-da2edade0c31ea88",
+        "pa-culture-5815b1f4519a8bce",
+        "pa-culture-b502ba2b14c2275f",
+        "pa-culture-44972f5f181fc947",
+        "pa-culture-36c4a476cc42b21e",
+        "pa-culture-8f74cd5627bf818f",
+        "pa-culture-84619d88dcc4ac00",
+        "pa-culture-73adccb108626833",
+        "pa-culture-ced2bf628caad86b",
+        "pa-culture-3a6a8eeb66b45e8f",
+        "pa-culture-b17adc0f17c245b7",
+        "pa-culture-b1f54d52bca1db01",
+        "pa-culture-1a9c2e1ce702fd3f",
+        "pa-culture-554c588dd41f1a6d",
+        "pa-culture-cef347cee36c71fd"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.unaff.org/2026/schedule.html",
+        "https://www.unaff.org/2026/tickets.html"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 4,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Something Made / Books Inc.",
+      "sourceUrl": "https://www.eventbrite.com/e/book-bedazzling-at-books-inc-palo-alto-tickets-1999046277228",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-eba57e9e6d40f7a4"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.eventbrite.com/e/book-bedazzling-at-books-inc-palo-alto-tickets-1999046277228"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Voices of Music",
+      "sourceUrl": "https://www.voicesofmusic.org/concerts.html",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-7a9d903402ca3973"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.voicesofmusic.org/concerts.html"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Ives Collective",
+      "sourceUrl": "https://ivescollective.org/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-a9ab44b308405486"
+      ],
+      "primaryEvidenceUrls": [
+        "https://ivescollective.org/"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Pamela Walsh Gallery",
+      "sourceUrl": "https://www.pamelawalshgallery.com/exhibitions/63-bay-borough-exhibition/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-90dee4d45a4008f1"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.pamelawalshgallery.com/contact/",
+        "https://www.pamelawalshgallery.com/exhibitions/63-bay-borough-exhibition/"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "City of Palo Alto",
+      "sourceUrl": "https://www.paloalto.gov/Departments/Community-Services/Arts-Sciences/Palo-Alto-Childrens-Theatre/Productions/Playhouse-Productions",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 5,
+      "recordIds": [
+        "pa-culture-02d0648b954e0f65",
+        "pa-culture-9c609a8d709fa4f3",
+        "pa-culture-106d076a3ad54dd1",
+        "pa-culture-8e33198c4e2ededb",
+        "pa-culture-61af6bb60e0f810b"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.paloalto.gov/Departments/Community-Services/Arts-Sciences/Palo-Alto-Childrens-Theatre/Productions/Playhouse-Productions"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "PACO-Ghana",
+      "sourceUrl": "https://www.eventbrite.com/e/paco-ghana-fundraising-concert-tickets-2002912014753",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-869c73be99eac2fc"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.eventbrite.com/e/paco-ghana-fundraising-concert-tickets-2002912014753"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Peninsula Cantare",
+      "sourceUrl": "https://www.eventbrite.com/e/an-evening-of-cabaret-a-gala-fundraiser-tickets-1997801156037",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-5239edf3b4fd2882"
+      ],
+      "primaryEvidenceUrls": [
+        "https://peninsulacantare.org/concerts/",
+        "https://www.eventbrite.com/e/an-evening-of-cabaret-a-gala-fundraiser-tickets-1997801156037"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Palo Alto Philharmonic",
+      "sourceUrl": "https://www.paphil.org/performances/2026/10/24/darkness-to-light",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-87c6e0ee21b35c0c"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.paphil.org/performances/2026/10/24/darkness-to-light"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Earthwise Productions",
+      "sourceUrl": "https://www.eventbrite.com/e/earthwise-welcomes-adam-ofarrills-elephant-tickets-1994919405644",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-855ea8132c8be53b"
+      ],
+      "primaryEvidenceUrls": [
+        "https://markweiss86.com/2026/07/29/fair-play-to-those-who-dare-to-dream/",
+        "https://www.eventbrite.com/e/earthwise-welcomes-adam-ofarrills-elephant-tickets-1994919405644"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Palo Alto Chamber Orchestra",
+      "sourceUrl": "https://www.pacomusic.org/events/2026-27/leder-masterclass-with-elizabeth-oakes-viola-october-25-2026",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-24754134776d7907"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.pacomusic.org/events/2026-27/leder-masterclass-with-elizabeth-oakes-viola-october-25-2026"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Stanford Jazz Workshop",
+      "sourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-10-26/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-1ff60c6157ebb9da"
+      ],
+      "primaryEvidenceUrls": [
+        "https://stanfordjazz.org/event/coho-jams-2-2/2026-10-26/",
+        "https://stanfordjazz.org/events/"
+      ],
+      "timeUnverifiedCount": 1,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Palo Alto Players",
+      "sourceUrl": "https://paplayers.org/show/the-addams-family/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 8,
+      "recordIds": [
+        "pa-culture-7aee29fadef968c1",
+        "pa-culture-66a8f8523447b34e",
+        "pa-culture-37aa2e52a7472f89",
+        "pa-culture-f3619bf5158adf74",
+        "pa-culture-4aeb4227232f5701",
+        "pa-culture-1a32ab8e7b8dbcbb",
+        "pa-culture-fb8609aa88accf15",
+        "pa-culture-73178ddb433f4f23"
+      ],
+      "primaryEvidenceUrls": [
+        "https://paplayers.org/show/the-addams-family/"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Stanford Jazz Workshop",
+      "sourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-11-02/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-7bffd1289d59f72e"
+      ],
+      "primaryEvidenceUrls": [
+        "https://stanfordjazz.org/event/coho-jams-2-2/2026-11-02/",
+        "https://stanfordjazz.org/events/"
+      ],
+      "timeUnverifiedCount": 1,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Books Inc.",
+      "sourceUrl": "https://www.eventbrite.com/e/frish-brandt-at-books-inc-palo-alto-tickets-2000663796271",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-fd44a30157d8ddcd"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.eventbrite.com/e/frish-brandt-at-books-inc-palo-alto-tickets-2000663796271"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Pacific Art League",
+      "sourceUrl": "https://www.pacificartleague.org/105-anniversary-and-fundraiser",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 2,
+      "recordIds": [
+        "pa-culture-5f4e7fcc0359a35f",
+        "pa-culture-ae71a058d70efb0d"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.pacificartleague.org/105-anniversary-and-fundraiser",
+        "https://www.pacificartleague.org/pal-gallery-hours"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Palo Alto Philharmonic",
+      "sourceUrl": "https://www.paphil.org/performances/2026/11/7/fall-chamber-concert",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-ca6e84531c4048dd"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.paphil.org/performances/2026/11/7/fall-chamber-concert"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Palo Alto Chamber Orchestra",
+      "sourceUrl": "https://www.pacomusic.org/events/2026-27/senior-paco-november-7-2026",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-3dd57028e1af4fa3"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.pacomusic.org/events/2026-27/senior-paco-november-7-2026"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Zohar Dance Company",
+      "sourceUrl": "https://www.eventbrite.com/e/zohar-performance-series-14-tickets-2003168358484",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-5f46e82ab97bd890"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.eventbrite.com/e/zohar-performance-series-14-tickets-2003168358484"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Brandon Woody / Earthwise",
+      "sourceUrl": "https://www.brandonwoody.com/calendar/vjen7lez4ul6n8429z36clca4h6int",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-5a9a55dc8b87ef69"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.brandonwoody.com/calendar/vjen7lez4ul6n8429z36clca4h6int"
+      ],
+      "timeUnverifiedCount": 0,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Stanford Jazz Workshop",
+      "sourceUrl": "https://stanfordjazz.org/event/coho-jams-2-2/2026-11-09/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-a31e4aa87515ea1b"
+      ],
+      "primaryEvidenceUrls": [
+        "https://stanfordjazz.org/event/coho-jams-2-2/2026-11-09/",
+        "https://stanfordjazz.org/events/"
+      ],
+      "timeUnverifiedCount": 1,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Naatak",
+      "sourceUrl": "https://www.naatak.org/portfolio/act-four/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "verified_additions",
+      "netNewCount": 1,
+      "recordIds": [
+        "pa-culture-401d770dbdc1e85d"
+      ],
+      "primaryEvidenceUrls": [
+        "https://www.naatak.org/portfolio/act-four/"
+      ],
+      "timeUnverifiedCount": 1,
+      "coordinateHoldCount": 0,
+      "note": "Current dated public in-person event/exhibition verified. See per-record caveats; unknown prices remain null."
+    },
+    {
+      "source": "Meyhouse Jazz",
+      "sourceUrl": "https://www.meyhousejazz.com/paloalto",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "already_covered",
+      "netNewCount": 0,
+      "note": "All 14 in-range listed seatings already present in baseline. Two Jenna Mammina early-bird tiers are now sold out; separate enrichment patches supplied."
+    },
+    {
+      "source": "West Bay Opera",
+      "sourceUrl": "https://www.wbopera.org/abduction-from-the-seraglio-2026",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "already_covered",
+      "netNewCount": 0,
+      "note": "Oct 17 19:00 and Oct 18 14:00 performances already present; Oct 11 lies before window."
+    },
+    {
+      "source": "Palo Alto Museum",
+      "sourceUrl": "https://paloaltomuseum.org/events/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "already_covered",
+      "netNewCount": 0,
+      "note": "Oct 15 and Nov 4 meetings already present. First Look Nov 7–8 is already a combined record with both validDates; do not duplicate Nov 8."
+    },
+    {
+      "source": "Bell’s Books",
+      "sourceUrl": "https://www.bellsbooks.com/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "no_verified_in_range_event",
+      "netNewCount": 0,
+      "note": "No dated in-range 2026 event confirmed. Search hit for 90th-anniversary party is Oct 18, 2025, not 2026."
+    },
+    {
+      "source": "Books Inc. full calendar",
+      "sourceUrl": "https://www.booksinc.net/events",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "partial_calendar_access",
+      "netNewCount": 0,
+      "note": "Two organizer Eventbrite listings verified. Jude Berman Oct 22 18:00 appears in local-news October 2026 roundup but no primary event page found; not included."
+    },
+    {
+      "source": "Linden Tree Books",
+      "sourceUrl": "https://www.lindentreebooks.com/events/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "outside_geography_or_window",
+      "netNewCount": 0,
+      "note": "Bookstore is in Los Altos. Palo Alto Spangenberg event located in search was Sep 13, outside window. No in-range Palo Alto event confirmed."
+    },
+    {
+      "source": "Gallery House",
+      "sourceUrl": "https://www.galleryhouse.art/about",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "outside_geography",
+      "netNewCount": 0,
+      "note": "Gallery is now at 826 Santa Cruz Avenue, Menlo Park. Excluded from Palo Alto additions."
+    },
+    {
+      "source": "Friends of Palo Alto Library",
+      "sourceUrl": "https://www.fopal.org/book-sale",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "outside_window",
+      "netNewCount": 0,
+      "note": "October 10–11 sale precedes window; November 14–15 sale follows Nov 13 cutoff. Do not manufacture a sale inside window."
+    },
+    {
+      "source": "Palo Alto Art Center related programming",
+      "sourceUrl": "https://www.paloalto.gov/Departments/Community-Services/Arts-Sciences/Palo-Alto-Art-Center/See-Art/Exhibitions/Current-Exhibition/Live-the-Moment-Light",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "exhibition_only",
+      "netNewCount": 0,
+      "note": "Opening Friday Night was Oct 2; Corita Legacy program Dec 12; Nov 13 member studio visits are outside Palo Alto and member-only. Only dated public exhibition added."
+    },
+    {
+      "source": "UNAFF existing early sessions",
+      "sourceUrl": "https://www.unaff.org/2026/schedule.html",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "partially_already_covered",
+      "netNewCount": 0,
+      "note": "Sessions 1–12 plus Oct 17/18 panels already covered. Added sessions 13–16 and 19–29 plus four later panels. Session 17 East Palo Alto and session 18 San Francisco excluded."
+    },
+    {
+      "source": "Stanford Jazz Workshop CoHo",
+      "sourceUrl": "https://stanfordjazz.org/events/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "date_verified_time_hold",
+      "netNewCount": 0,
+      "note": "Official calendar expressly lists Oct 19, Oct 26, Nov 2 and Nov 9. Current detail pages did not expose hours. Prior February series 20:00–22:00/free and secondary Oct 26 listing are insufficient to verify all current sessions."
+    },
+    {
+      "source": "Naatak Act Four",
+      "sourceUrl": "https://www.naatak.org/portfolio/act-four/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "date_verified_time_hold",
+      "netNewCount": 0,
+      "note": "Official run begins Nov 13; no exact opening-night time readable. One date-confirmed hold only; no inferred recurring shows."
+    },
+    {
+      "source": "Stanford Theatre late-October program",
+      "sourceUrl": "https://stanfordtheatre.org/",
+      "checkedAt": "2026-10-14T17:18:00Z",
+      "status": "unannounced_program_excluded",
+      "netNewCount": 0,
+      "note": "Oct 30–Nov 1 marked TBA. No invented titles/showtimes."
+    }
+  ],
+  "duplicateCandidates": [],
+  "limits": [
+    "No exhaustive coverage claim.",
+    "Unknown or conflicting start times and unverified map points are held.",
+    "Exhibitions are bounded records with organizer-published visiting hours, not daily invented events.",
+    "Address-range geocodes are marked approximate; room or entrance precision is not claimed.",
+    "No joining private groups, posting, outreach or logins."
+  ],
+  "publication": {
+    "status": "prepared"
+  }
+}

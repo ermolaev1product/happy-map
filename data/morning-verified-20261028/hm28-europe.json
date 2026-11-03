@@ -1,0 +1,1502 @@
+{
+  "schemaVersion": "hm28-research-1",
+  "baseline": "v205",
+  "basePath": "/workspace/scratch/59f6a13c9f12/happymap-capitals",
+  "checkedAt": "2026-10-28T04:59:39.898743+00:00",
+  "sourceAudit": [
+    {
+      "cityId": "belgrade",
+      "timezone": "Europe/Belgrade",
+      "checkedAt": "2026-10-28T04:59:39.898019+00:00",
+      "localCheckedAt": "2026-10-28T05:59:39.898019+01:00",
+      "primarySource": "https://www.danubeogradu.rs/izlasci/",
+      "status": "bounded_index_read",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://www.danubeogradu.rs/izlasci/",
+          "checkedAt": "2026-10-28T04:59:39.898019+00:00",
+          "status": "bounded_index_read",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://t.me/s/afisha_rs",
+          "status": "public_announcements_read",
+          "scope": "Current preview; Oct28 Chaika vs Oct29 Novi Sad carefully separated. Most current inspected entries already in baseline or elapsed.",
+          "checkedAt": "2026-10-28T05:13:16.177193Z"
+        },
+        {
+          "url": "https://t.me/s/auditoria_belgrade",
+          "status": "public_announcements_read",
+          "scope": "Current weekly text Oct26–Nov1; duplicate dog lecture/Kurnikov/Finist suppressed. Romanova and choral party held pending explicit year/ticket confirmation.",
+          "checkedAt": "2026-10-28T05:13:16.177934Z"
+        },
+        {
+          "url": "https://luma.com/qdetfph9",
+          "status": "partial_event_read",
+          "scope": "Organizer/venue/address/prices read but the tool-rendered page omits date; no date invented.",
+          "checkedAt": "2026-10-28T05:13:16.178751Z"
+        },
+        {
+          "url": "https://fienta.com/olga-romanova-public-talk",
+          "status": "cache_miss",
+          "scope": "Public ticket link failed. No bypass.",
+          "checkedAt": "2026-10-28T05:13:16.179522Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/afisha_rs",
+          "status": "public_announcements_read",
+          "scope": "Current preview; Oct28 Chaika vs Oct29 Novi Sad carefully separated. Most current inspected entries already in baseline or elapsed.",
+          "checkedAt": "2026-10-28T05:13:16.177193Z"
+        },
+        {
+          "url": "https://t.me/s/auditoria_belgrade",
+          "status": "public_announcements_read",
+          "scope": "Current weekly text Oct26–Nov1; duplicate dog lecture/Kurnikov/Finist suppressed. Romanova and choral party held pending explicit year/ticket confirmation.",
+          "checkedAt": "2026-10-28T05:13:16.177934Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/Belgrade_Chat",
+          "status": "profile_only",
+          "checkedAt": "2026-10-28T05:13:16.204824Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204832Z",
+      "candidateCount": 0,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "paris",
+      "timezone": "Europe/Paris",
+      "checkedAt": "2026-10-28T04:59:39.898226+00:00",
+      "localCheckedAt": "2026-10-28T05:59:39.898226+01:00",
+      "primarySource": "https://www.paris.fr/quefaire",
+      "status": "bounded_index_read",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://www.paris.fr/quefaire",
+          "checkedAt": "2026-10-28T04:59:39.898226+00:00",
+          "status": "bounded_index_read",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://t.me/s/marie_paris",
+          "status": "public_preview_read",
+          "scope": "Visible current text chiefly news/media, not a fully dated importable event.",
+          "checkedAt": "2026-10-28T05:13:16.180259Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/marie_paris",
+          "status": "public_preview_read",
+          "scope": "Visible current text chiefly news/media, not a fully dated importable event.",
+          "checkedAt": "2026-10-28T05:13:16.180259Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/parischatik",
+          "status": "inaccessible_tool",
+          "checkedAt": "2026-10-28T05:13:16.204840Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204843Z",
+      "candidateCount": 0,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "london",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-10-28T04:59:39.898295+00:00",
+      "localCheckedAt": "2026-10-28T04:59:39.898295+00:00",
+      "primarySource": "https://www.ianvisits.co.uk/calendar/",
+      "status": "bounded_index_read",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://www.ianvisits.co.uk/calendar/",
+          "checkedAt": "2026-10-28T04:59:39.898295+00:00",
+          "status": "bounded_index_read",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://www.ianvisits.co.uk/calendar/tomorrow/",
+          "status": "stale_relative_calendar_read",
+          "scope": "Heading tomorrow explicitly means Wed28Oct; cannot interpret relative labels as Oct29. Individual event pages and November pagination not completed.",
+          "checkedAt": "2026-10-28T05:13:16.180981Z"
+        },
+        {
+          "url": "https://t.me/s/afishalondon",
+          "status": "public_preview_read",
+          "scope": "Current preview read; Lightroom ongoing exhibition mentioned without exact verified session times. No profile treated as announcement.",
+          "checkedAt": "2026-10-28T05:13:16.181741Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/afishalondon",
+          "status": "public_preview_read",
+          "scope": "Current preview read; Lightroom ongoing exhibition mentioned without exact verified session times. No profile treated as announcement.",
+          "checkedAt": "2026-10-28T05:13:16.181741Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/activelondonru",
+          "status": "inaccessible_tool",
+          "checkedAt": "2026-10-28T05:13:16.204847Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204850Z",
+      "candidateCount": 0,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "vienna",
+      "timezone": "Europe/Vienna",
+      "checkedAt": "2026-10-28T04:59:39.898348+00:00",
+      "localCheckedAt": "2026-10-28T05:59:39.898348+01:00",
+      "primarySource": "https://www.eventfinder.at/wien/veranstaltungen/",
+      "status": "bounded_calendar_read_stale_relative_banner",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://www.eventfinder.at/wien/veranstaltungen/",
+          "checkedAt": "2026-10-28T04:59:39.898348+00:00",
+          "status": "bounded_calendar_read_stale_relative_banner",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://neueoperwien.at/tree-of-codes/",
+          "status": "read",
+          "scope": "Full organizer event page; five exact dates verified, time/duration/address. Does not establish citywide coverage.",
+          "checkedAt": "2026-10-28T05:06:28.596566Z"
+        },
+        {
+          "url": "https://www.eventfinder.at/wien/veranstaltungen/naechste-woche/",
+          "status": "blocked_direct_http_403",
+          "scope": "Direct urllib public GET returned 403. No retries or bypass. Earlier tool page was stale Oct26 week, not target Nov2 week.",
+          "checkedAt": "2026-10-28T05:06:28.597380Z"
+        },
+        {
+          "url": "https://t.me/s/afishawien",
+          "status": "inaccessible_tool",
+          "scope": "Public announcement preview failed, no login/bypass.",
+          "checkedAt": "2026-10-28T05:13:16.182472Z"
+        },
+        {
+          "url": "https://t.me/s/bestvienna",
+          "status": "inaccessible_tool",
+          "scope": "Public preview failed; separate public profile only does not expose posts.",
+          "checkedAt": "2026-10-28T05:13:16.183402Z"
+        },
+        {
+          "url": "https://off-theater.at/spielplan/",
+          "status": "inaccessible_tool",
+          "scope": "Independent organizer fallback for Joker unavailable; no import from Eventfinder snippets.",
+          "checkedAt": "2026-10-28T05:13:16.184195Z"
+        },
+        {
+          "url": "https://www.wien.gv.at/veranstaltungen/kein-platz-fuer-joker",
+          "status": "http_500",
+          "scope": "Primary municipal event page failed; search result schedule not sufficient for import.",
+          "checkedAt": "2026-10-28T05:13:16.185031Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/afishawien",
+          "status": "inaccessible_tool",
+          "scope": "Public announcement preview failed, no login/bypass.",
+          "checkedAt": "2026-10-28T05:13:16.182472Z"
+        },
+        {
+          "url": "https://t.me/s/bestvienna",
+          "status": "inaccessible_tool",
+          "scope": "Public preview failed; separate public profile only does not expose posts.",
+          "checkedAt": "2026-10-28T05:13:16.183402Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/bestvienna",
+          "status": "profile_only",
+          "checkedAt": "2026-10-28T05:13:16.204853Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204856Z",
+      "candidateCount": 5,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "flensburg",
+      "timezone": "Europe/Berlin",
+      "checkedAt": "2026-10-28T04:59:39.898394+00:00",
+      "localCheckedAt": "2026-10-28T05:59:39.898394+01:00",
+      "primarySource": "https://foerdekompass.sh/kalender/",
+      "status": "timeout",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://foerdekompass.sh/kalender/",
+          "checkedAt": "2026-10-28T04:59:39.898394+00:00",
+          "status": "timeout",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://stadtbibliothek.flensburg.de/veranstaltungen/",
+          "status": "read",
+          "scope": "First page 52-result library listing, displayed dates through Nov19. Explicit Nov5 cancellation. Page2 not yet checked.",
+          "checkedAt": "2026-10-28T05:06:28.598919Z"
+        },
+        {
+          "url": "https://t.me/s/ganzebaeckereiFL",
+          "status": "stale_public_preview",
+          "scope": "Visible explicit next dates Feb28/Mar28/Apr25; do not project recurring schedule into Oct/Nov.",
+          "checkedAt": "2026-10-28T05:13:16.185806Z"
+        },
+        {
+          "url": "https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstaltungen/index.php?ModID=11&NavID=2792.14&kuo=1&object=tx%7C4228.4.1&ofs_1=25",
+          "status": "http_404",
+          "scope": "Clicked actual pagination page2 link after page1 dates through Nov19; failed404; 30day horizon not exhausted.",
+          "checkedAt": "2026-10-28T05:13:16.186569Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/ganzebaeckereiFL",
+          "status": "stale_public_preview",
+          "scope": "Visible explicit next dates Feb28/Mar28/Apr25; do not project recurring schedule into Oct/Nov.",
+          "checkedAt": "2026-10-28T05:13:16.185806Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "",
+          "status": "discovery_only_no_suitable_public_history",
+          "checkedAt": "2026-10-28T05:13:16.204859Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204861Z",
+      "candidateCount": 0,
+      "correctionCount": 1
+    },
+    {
+      "cityId": "prague",
+      "timezone": "Europe/Prague",
+      "checkedAt": "2026-10-28T04:59:39.898441+00:00",
+      "localCheckedAt": "2026-10-28T05:59:39.898441+01:00",
+      "primarySource": "https://prague.eu/en/events/",
+      "status": "inaccessible_tool",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://prague.eu/en/events/",
+          "checkedAt": "2026-10-28T04:59:39.898441+00:00",
+          "status": "inaccessible_tool",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://prague.eu/en/akce-kategorie/events/",
+          "status": "bounded_calendar_read",
+          "scope": "Canonical calendar read after wrong path failed; 373 results rendered. Inspected date blocks through Nov13, not all 30 days or all detail pages.",
+          "checkedAt": "2026-10-28T05:13:16.187445Z"
+        },
+        {
+          "url": "https://t.me/s/pragafisha",
+          "status": "public_announcements_read",
+          "scope": "Dated2026 Sokol run discovery; other tours outside Prague excluded. No exhaustive channel pagination.",
+          "checkedAt": "2026-10-28T05:13:16.188210Z"
+        },
+        {
+          "url": "https://www.behrepubliky.cz/propozice/praha",
+          "status": "primary_detail_read",
+          "scope": "Full race programme and address confirmed; exact start/pin differs from Tyršův dům support venue. Held rather than reusing swimming-pool pin.",
+          "checkedAt": "2026-10-28T05:13:16.188990Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/pragafisha",
+          "status": "public_announcements_read",
+          "scope": "Dated2026 Sokol run discovery; other tours outside Prague excluded. No exhaustive channel pagination.",
+          "checkedAt": "2026-10-28T05:13:16.188210Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/pragueflow_chat",
+          "status": "inaccessible_tool",
+          "checkedAt": "2026-10-28T05:13:16.204865Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204867Z",
+      "candidateCount": 0,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "berlin",
+      "timezone": "Europe/Berlin",
+      "checkedAt": "2026-10-28T04:59:39.898480+00:00",
+      "localCheckedAt": "2026-10-28T05:59:39.898480+01:00",
+      "primarySource": "https://www.visitberlin.de/en/event-calendar-berlin",
+      "status": "bounded_calendar_read",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://www.visitberlin.de/en/event-calendar-berlin",
+          "checkedAt": "2026-10-28T04:59:39.898480+00:00",
+          "status": "bounded_calendar_read",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://t.me/s/freventsgermany",
+          "status": "public_announcements_read",
+          "scope": "Explicit2026 tags, Berlin lectures/LittleBig discovered; exact organizer/tickets/pins not completed. Munich/Cologne not imported into Berlin.",
+          "checkedAt": "2026-10-28T05:13:16.189764Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/freventsgermany",
+          "status": "public_announcements_read",
+          "scope": "Explicit2026 tags, Berlin lectures/LittleBig discovered; exact organizer/tickets/pins not completed. Munich/Cologne not imported into Berlin.",
+          "checkedAt": "2026-10-28T05:13:16.189764Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/russian_speakers_in_berlin",
+          "status": "profile_only_channel_not_chat_history",
+          "checkedAt": "2026-10-28T05:13:16.204870Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204872Z",
+      "candidateCount": 0,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "barcelona",
+      "timezone": "Europe/Madrid",
+      "checkedAt": "2026-10-28T04:59:39.898485+00:00",
+      "localCheckedAt": "2026-10-28T05:59:39.898485+01:00",
+      "primarySource": "https://guia.barcelona.cat/en/agenda",
+      "status": "http_418",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://guia.barcelona.cat/en/agenda",
+          "checkedAt": "2026-10-28T04:59:39.898485+00:00",
+          "status": "http_418",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://www.cccb.org/en/w/activities/beirut-the-myth-of-resilience",
+          "status": "read",
+          "scope": "Full dated event page plus CCCB Visit address; one Nov3 debate.",
+          "checkedAt": "2026-10-28T05:06:28.598287Z"
+        },
+        {
+          "url": "https://t.me/s/bcn_afisha",
+          "status": "inaccessible_tool",
+          "scope": "Public preview failed. No login or bypass.",
+          "checkedAt": "2026-10-28T05:13:16.190593Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/bcn_afisha",
+          "status": "inaccessible_tool",
+          "scope": "Public preview failed. No login or bypass.",
+          "checkedAt": "2026-10-28T05:13:16.190593Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/amistadbcn",
+          "status": "profile_only",
+          "checkedAt": "2026-10-28T05:13:16.204875Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204877Z",
+      "candidateCount": 2,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "madrid",
+      "timezone": "Europe/Madrid",
+      "checkedAt": "2026-10-28T04:59:39.898526+00:00",
+      "localCheckedAt": "2026-10-28T05:59:39.898526+01:00",
+      "primarySource": "https://www.esmadrid.com/en/whats-on",
+      "status": "inaccessible_tool",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://www.esmadrid.com/en/whats-on",
+          "checkedAt": "2026-10-28T04:59:39.898526+00:00",
+          "status": "inaccessible_tool",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://t.me/s/HoyMadridApp",
+          "status": "public_preview_read",
+          "scope": "Readable current leisure recommendations and generic POM CondeDuque2026–27; exact dated sessions not independently verified.",
+          "checkedAt": "2026-10-28T05:13:16.191436Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/HoyMadridApp",
+          "status": "public_preview_read",
+          "scope": "Readable current leisure recommendations and generic POM CondeDuque2026–27; exact dated sessions not independently verified.",
+          "checkedAt": "2026-10-28T05:13:16.191436Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/ErasmusPlusMadrid",
+          "status": "profile_only",
+          "checkedAt": "2026-10-28T05:13:16.204880Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204881Z",
+      "candidateCount": 0,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "riga",
+      "timezone": "Europe/Riga",
+      "checkedAt": "2026-10-28T04:59:39.898530+00:00",
+      "localCheckedAt": "2026-10-28T06:59:39.898530+02:00",
+      "primarySource": "https://www.liveriga.com/en/visit/events",
+      "status": "bounded_calendar_page1_read",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://www.liveriga.com/en/visit/events",
+          "checkedAt": "2026-10-28T04:59:39.898530+00:00",
+          "status": "bounded_calendar_page1_read",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://www.liveriga.com/en/visit/events?page=2",
+          "status": "cached_pagination_inconsistent",
+          "scope": "Actualpage2 read; older cached dates overlap page1 (Oct25–31), so no claim Nov2/3 horizon exhausted. Page3+ not read.",
+          "checkedAt": "2026-10-28T05:13:16.192242Z"
+        },
+        {
+          "url": "https://www.liveriga.com/en/visit/events/theatre/performance-of-the-three-musketeers",
+          "status": "full_primary_detail_read",
+          "scope": "Explicit2026 schedule, times, venue, address, ticket range and official destination pin. Nov27 outside30daywindow excluded.",
+          "checkedAt": "2026-10-28T05:13:16.193033Z"
+        },
+        {
+          "url": "https://www.liveriga.com/en/visit/events/theatre/performance-erick-and-anna-1",
+          "status": "unexpected_status",
+          "scope": "Linked detail failed; no new event imported from index alone.",
+          "checkedAt": "2026-10-28T05:13:16.193873Z"
+        },
+        {
+          "url": "https://t.me/s/rigaevents",
+          "status": "stale_public_preview",
+          "scope": "VisibleF.P.H.2023 and undated tomorrow posts; no fresh2026 programme confirmed.",
+          "checkedAt": "2026-10-28T05:13:16.194917Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/rigaevents",
+          "status": "stale_public_preview",
+          "scope": "VisibleF.P.H.2023 and undated tomorrow posts; no fresh2026 programme confirmed.",
+          "checkedAt": "2026-10-28T05:13:16.194917Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/RigaRusChat",
+          "status": "profile_only",
+          "checkedAt": "2026-10-28T05:13:16.204884Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204886Z",
+      "candidateCount": 2,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "oslo",
+      "timezone": "Europe/Oslo",
+      "checkedAt": "2026-10-28T04:59:39.898573+00:00",
+      "localCheckedAt": "2026-10-28T05:59:39.898573+01:00",
+      "primarySource": "https://www.visitoslo.com/whats-on/",
+      "status": "calendar_hub_read",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://www.visitoslo.com/whats-on/",
+          "checkedAt": "2026-10-28T04:59:39.898573+00:00",
+          "status": "calendar_hub_read",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://www.visitoslo.com/whats-on/events",
+          "status": "bounded_calendar_read",
+          "scope": "Explicit Wed28Oct2026 current list read; firstpage only, not all7dates or30days.",
+          "checkedAt": "2026-10-28T05:13:16.195804Z"
+        },
+        {
+          "url": "https://www.visitoslo.com/event/pumpkin-carving-with-emil-hauge-2",
+          "status": "partial_detail_verified_hold_pin",
+          "scope": "Oct28 17–20,NOK195,venueaddress; exact map pin unresolved. Ticketco link cache-missed. No city-center pin invented.",
+          "checkedAt": "2026-10-28T05:13:16.196606Z"
+        },
+        {
+          "url": "https://www.visitoslo.com/event/frankenstein",
+          "status": "partial_schedule_read",
+          "scope": "43date family show; rendered detail exposes oldOct13–15 firstdates only. Todaycalendar suggestsOct28 but exact fullsessions/pin remain held.",
+          "checkedAt": "2026-10-28T05:13:16.197461Z"
+        }
+      ],
+      "telegram": [
+        {
+          "status": "bounded_search_no_relevant_fresh_announcement_found",
+          "checkedAt": "2026-10-28T05:13:16.204891Z",
+          "query": "site:t.me/s Oslo афиша / Осло мероприятия",
+          "scope": "Search returned unrelated/old material; this does not prove no channel exists."
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/%2Bpr0vMfj3cQM5ZDli",
+          "status": "invite_preview_only_not_joined",
+          "checkedAt": "2026-10-28T05:13:16.204889Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204893Z",
+      "candidateCount": 0,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "tallinn",
+      "timezone": "Europe/Tallinn",
+      "checkedAt": "2026-10-28T04:59:39.898612+00:00",
+      "localCheckedAt": "2026-10-28T06:59:39.898612+02:00",
+      "primarySource": "https://visittallinn.ee/eng/visitor/see-do/events",
+      "status": "http_404_wrong_path",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://visittallinn.ee/eng/visitor/see-do/events",
+          "checkedAt": "2026-10-28T04:59:39.898612+00:00",
+          "status": "http_404_wrong_path",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://visittallinn.ee/eng/visitor/see-do/events/events",
+          "status": "js_shell_only",
+          "scope": "Canonical event page read; filters/modal returned, no actual event payload. Search snippets not imported.",
+          "checkedAt": "2026-10-28T05:13:16.198408Z"
+        },
+        {
+          "url": "https://huvi.tallinn.ee/uritused?page=1",
+          "status": "stale_calendar_page",
+          "scope": "Municipal fallback read: page explicitlyToday25Oct2026, not28Oct. Do not treat relative today as fresh; targetpagination incomplete.",
+          "checkedAt": "2026-10-28T05:13:16.199426Z"
+        },
+        {
+          "url": "https://t.me/s/AfishaMiraTallinn",
+          "status": "public_preview_stale_or_out_of_window",
+          "scope": "Readable preview; prominentDecember and older tour dates, no new exact target-horizon verified event.",
+          "checkedAt": "2026-10-28T05:13:16.200268Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/AfishaMiraTallinn",
+          "status": "public_preview_stale_or_out_of_window",
+          "scope": "Readable preview; prominentDecember and older tour dates, no new exact target-horizon verified event.",
+          "checkedAt": "2026-10-28T05:13:16.200268Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/tallinncourier",
+          "status": "profile_only_narrow_courier_group_not_event_feed",
+          "checkedAt": "2026-10-28T05:13:16.204896Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204898Z",
+      "candidateCount": 0,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "warsaw",
+      "timezone": "Europe/Warsaw",
+      "checkedAt": "2026-10-28T04:59:39.898655+00:00",
+      "localCheckedAt": "2026-10-28T05:59:39.898655+01:00",
+      "primarySource": "https://pik.warszawa.pl/",
+      "status": "bounded_index_read",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://pik.warszawa.pl/",
+          "checkedAt": "2026-10-28T04:59:39.898655+00:00",
+          "status": "bounded_index_read",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://t.me/s/varshava_afisha",
+          "status": "inaccessible_tool",
+          "scope": "Public preview failed; no login/bypass. PIK index read but organiser-specific horizon not exhausted.",
+          "checkedAt": "2026-10-28T05:13:16.201147Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/varshava_afisha",
+          "status": "inaccessible_tool",
+          "scope": "Public preview failed; no login/bypass. PIK index read but organiser-specific horizon not exhausted.",
+          "checkedAt": "2026-10-28T05:13:16.201147Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/Warsaw_people",
+          "status": "inaccessible_tool",
+          "checkedAt": "2026-10-28T05:13:16.204901Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204903Z",
+      "candidateCount": 0,
+      "correctionCount": 0
+    },
+    {
+      "cityId": "lisbon",
+      "timezone": "Europe/Lisbon",
+      "checkedAt": "2026-10-28T04:59:39.898698+00:00",
+      "localCheckedAt": "2026-10-28T04:59:39.898698+00:00",
+      "primarySource": "https://www.agendalx.pt/",
+      "status": "http_520",
+      "next7LocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "horizonFrom": "2026-10-28",
+      "horizonThrough": "2026-11-26",
+      "horizonDefinition": "30 local dates inclusive",
+      "pagination": "Only first landing/calendar page attempted; further named-page checks recorded separately.",
+      "fullCoverage": false,
+      "sourceChecks": [
+        {
+          "url": "https://www.agendalx.pt/",
+          "checkedAt": "2026-10-28T04:59:39.898698+00:00",
+          "status": "http_520",
+          "scope": "Fresh bounded initial public page read/attempt, not full date/category calendar."
+        },
+        {
+          "url": "https://www.visitlisboa.com/en/p/whats-on",
+          "status": "primary_hub_read",
+          "scope": "Independent tourism fallback after AgendaLX520; followed actualall-events link.",
+          "checkedAt": "2026-10-28T05:13:16.202175Z"
+        },
+        {
+          "url": "https://www.visitlisboa.com/en/events",
+          "status": "bounded_calendar_read",
+          "scope": "102results; firstpage ongoing exhibitions/selectedevents. Furtherpagination not exhausted; overnight171baseline kept separate.",
+          "checkedAt": "2026-10-28T05:13:16.203065Z"
+        },
+        {
+          "url": "https://t.me/s/AfishaLissabon",
+          "status": "public_announcements_read",
+          "scope": "Current text inspected: Russian filmweekOct26–30, unspecified-centerOct31workshop, GreaterLisbonretreat. SpainMonsterWorldTour explicitly excluded; details held.",
+          "checkedAt": "2026-10-28T05:13:16.203939Z"
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/AfishaLissabon",
+          "status": "public_announcements_read",
+          "scope": "Current text inspected: Russian filmweekOct26–30, unspecified-centerOct31workshop, GreaterLisbonretreat. SpainMonsterWorldTour explicitly excluded; details held.",
+          "checkedAt": "2026-10-28T05:13:16.203939Z"
+        }
+      ],
+      "publicChats": [
+        {
+          "url": "https://t.me/Itlisbon",
+          "status": "profile_only",
+          "checkedAt": "2026-10-28T05:13:16.204906Z",
+          "scope": "Public landing/preview only. No join, login, message or hidden history access. Profiles are not event announcements."
+        }
+      ],
+      "instagram": "Existing sources retained; no login attempted; current pass has not checked IG yet.",
+      "coverageGaps": "All target dates/categories considered as research scope, not exhaustively verified. See per-URL pagination/cache/access limits. No complete 7-day or 30-day source coverage claim.",
+      "auditFinalizedAt": "2026-10-28T05:13:16.204908Z",
+      "candidateCount": 0,
+      "correctionCount": 0
+    }
+  ],
+  "candidates": [
+    {
+      "cityId": "vienna",
+      "city": "Vienna",
+      "title": "Tree of Codes",
+      "originalTitle": "Tree of Codes",
+      "category": "theatre",
+      "date": "2026-10-31",
+      "time": "19:30",
+      "end": "21:00",
+      "timezone": "Europe/Vienna",
+      "venue": "REAKTOR",
+      "address": "Geblergasse 40, 1170 Wien",
+      "placeId": "vi-osm:node:9163264241",
+      "lat": 48.2163902,
+      "lng": 16.3358522,
+      "coordinateSource": "https://www.openstreetmap.org/node/9163264241",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Existing v205 REAKTOR building pin; fresh organizer page independently confirms the same venue and Geblergasse 40 address. No new pin inferred.",
+      "source": "Neue Oper Wien",
+      "sourceUrl": "https://neueoperwien.at/tree-of-codes/",
+      "evidenceUrls": [
+        "https://neueoperwien.at/tree-of-codes/",
+        "https://www.musiktheater-wien.at/produktionen/tree-of-codes/",
+        "https://neueoperwien.at/tickets/"
+      ],
+      "description": "Liza Lim opera, Austrian premiere with Neue Oper Wien and Wien Modern. Organizer states a 90-minute duration.",
+      "dateEvidence": "Primary organizer lists 31 October and 3, 5, 6, 8 November 2026, each 19:30; duration 90 min. End time derived from explicit duration.",
+      "access": "Ticket required. Contact organizer by 16:00 on performance day for wheelchair seats; wheelchair and accompanying seats EUR20 each. Standard price not stated on inspected pages.",
+      "priceNote": "Standard ticket price unknown; special wheelchair-seat price is not used as general admission.",
+      "id": "vienna-research28-1768c8f9d3da",
+      "checkedAt": "2026-10-28T05:06:28.591634Z",
+      "status": "verified_announcement",
+      "kind": "event",
+      "yearEvidence": "Exact 2026 dates stated in the full primary event page.",
+      "availabilityVerified": false,
+      "availabilityNote": "Announcement verified; remaining tickets/capacity not independently verified.",
+      "price": null,
+      "currency": "EUR",
+      "language": "",
+      "dedupEvidence": "Compared against fresh v205 city feed by title, venue, dates and source URL; no matching occurrence found."
+    },
+    {
+      "cityId": "vienna",
+      "city": "Vienna",
+      "title": "Tree of Codes",
+      "originalTitle": "Tree of Codes",
+      "category": "theatre",
+      "date": "2026-11-03",
+      "time": "19:30",
+      "end": "21:00",
+      "timezone": "Europe/Vienna",
+      "venue": "REAKTOR",
+      "address": "Geblergasse 40, 1170 Wien",
+      "placeId": "vi-osm:node:9163264241",
+      "lat": 48.2163902,
+      "lng": 16.3358522,
+      "coordinateSource": "https://www.openstreetmap.org/node/9163264241",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Existing v205 REAKTOR building pin; fresh organizer page independently confirms the same venue and Geblergasse 40 address. No new pin inferred.",
+      "source": "Neue Oper Wien",
+      "sourceUrl": "https://neueoperwien.at/tree-of-codes/",
+      "evidenceUrls": [
+        "https://neueoperwien.at/tree-of-codes/",
+        "https://www.musiktheater-wien.at/produktionen/tree-of-codes/",
+        "https://neueoperwien.at/tickets/"
+      ],
+      "description": "Liza Lim opera, Austrian premiere with Neue Oper Wien and Wien Modern. Organizer states a 90-minute duration.",
+      "dateEvidence": "Primary organizer lists 31 October and 3, 5, 6, 8 November 2026, each 19:30; duration 90 min. End time derived from explicit duration.",
+      "access": "Ticket required. Contact organizer by 16:00 on performance day for wheelchair seats; wheelchair and accompanying seats EUR20 each. Standard price not stated on inspected pages.",
+      "priceNote": "Standard ticket price unknown; special wheelchair-seat price is not used as general admission.",
+      "id": "vienna-research28-6095e3564ab6",
+      "checkedAt": "2026-10-28T05:06:28.592204Z",
+      "status": "verified_announcement",
+      "kind": "event",
+      "yearEvidence": "Exact 2026 dates stated in the full primary event page.",
+      "availabilityVerified": false,
+      "availabilityNote": "Announcement verified; remaining tickets/capacity not independently verified.",
+      "price": null,
+      "currency": "EUR",
+      "language": "",
+      "dedupEvidence": "Compared against fresh v205 city feed by title, venue, dates and source URL; no matching occurrence found."
+    },
+    {
+      "cityId": "vienna",
+      "city": "Vienna",
+      "title": "Tree of Codes",
+      "originalTitle": "Tree of Codes",
+      "category": "theatre",
+      "date": "2026-11-05",
+      "time": "19:30",
+      "end": "21:00",
+      "timezone": "Europe/Vienna",
+      "venue": "REAKTOR",
+      "address": "Geblergasse 40, 1170 Wien",
+      "placeId": "vi-osm:node:9163264241",
+      "lat": 48.2163902,
+      "lng": 16.3358522,
+      "coordinateSource": "https://www.openstreetmap.org/node/9163264241",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Existing v205 REAKTOR building pin; fresh organizer page independently confirms the same venue and Geblergasse 40 address. No new pin inferred.",
+      "source": "Neue Oper Wien",
+      "sourceUrl": "https://neueoperwien.at/tree-of-codes/",
+      "evidenceUrls": [
+        "https://neueoperwien.at/tree-of-codes/",
+        "https://www.musiktheater-wien.at/produktionen/tree-of-codes/",
+        "https://neueoperwien.at/tickets/"
+      ],
+      "description": "Liza Lim opera, Austrian premiere with Neue Oper Wien and Wien Modern. Organizer states a 90-minute duration.",
+      "dateEvidence": "Primary organizer lists 31 October and 3, 5, 6, 8 November 2026, each 19:30; duration 90 min. End time derived from explicit duration.",
+      "access": "Ticket required. Contact organizer by 16:00 on performance day for wheelchair seats; wheelchair and accompanying seats EUR20 each. Standard price not stated on inspected pages.",
+      "priceNote": "Standard ticket price unknown; special wheelchair-seat price is not used as general admission.",
+      "id": "vienna-research28-f38a47f03285",
+      "checkedAt": "2026-10-28T05:06:28.593088Z",
+      "status": "verified_announcement",
+      "kind": "event",
+      "yearEvidence": "Exact 2026 dates stated in the full primary event page.",
+      "availabilityVerified": false,
+      "availabilityNote": "Announcement verified; remaining tickets/capacity not independently verified.",
+      "price": null,
+      "currency": "EUR",
+      "language": "",
+      "dedupEvidence": "Compared against fresh v205 city feed by title, venue, dates and source URL; no matching occurrence found."
+    },
+    {
+      "cityId": "vienna",
+      "city": "Vienna",
+      "title": "Tree of Codes",
+      "originalTitle": "Tree of Codes",
+      "category": "theatre",
+      "date": "2026-11-06",
+      "time": "19:30",
+      "end": "21:00",
+      "timezone": "Europe/Vienna",
+      "venue": "REAKTOR",
+      "address": "Geblergasse 40, 1170 Wien",
+      "placeId": "vi-osm:node:9163264241",
+      "lat": 48.2163902,
+      "lng": 16.3358522,
+      "coordinateSource": "https://www.openstreetmap.org/node/9163264241",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Existing v205 REAKTOR building pin; fresh organizer page independently confirms the same venue and Geblergasse 40 address. No new pin inferred.",
+      "source": "Neue Oper Wien",
+      "sourceUrl": "https://neueoperwien.at/tree-of-codes/",
+      "evidenceUrls": [
+        "https://neueoperwien.at/tree-of-codes/",
+        "https://www.musiktheater-wien.at/produktionen/tree-of-codes/",
+        "https://neueoperwien.at/tickets/"
+      ],
+      "description": "Liza Lim opera, Austrian premiere with Neue Oper Wien and Wien Modern. Organizer states a 90-minute duration.",
+      "dateEvidence": "Primary organizer lists 31 October and 3, 5, 6, 8 November 2026, each 19:30; duration 90 min. End time derived from explicit duration.",
+      "access": "Ticket required. Contact organizer by 16:00 on performance day for wheelchair seats; wheelchair and accompanying seats EUR20 each. Standard price not stated on inspected pages.",
+      "priceNote": "Standard ticket price unknown; special wheelchair-seat price is not used as general admission.",
+      "id": "vienna-research28-da226e582230",
+      "checkedAt": "2026-10-28T05:06:28.593538Z",
+      "status": "verified_announcement",
+      "kind": "event",
+      "yearEvidence": "Exact 2026 dates stated in the full primary event page.",
+      "availabilityVerified": false,
+      "availabilityNote": "Announcement verified; remaining tickets/capacity not independently verified.",
+      "price": null,
+      "currency": "EUR",
+      "language": "",
+      "dedupEvidence": "Compared against fresh v205 city feed by title, venue, dates and source URL; no matching occurrence found."
+    },
+    {
+      "cityId": "vienna",
+      "city": "Vienna",
+      "title": "Tree of Codes",
+      "originalTitle": "Tree of Codes",
+      "category": "theatre",
+      "date": "2026-11-08",
+      "time": "19:30",
+      "end": "21:00",
+      "timezone": "Europe/Vienna",
+      "venue": "REAKTOR",
+      "address": "Geblergasse 40, 1170 Wien",
+      "placeId": "vi-osm:node:9163264241",
+      "lat": 48.2163902,
+      "lng": 16.3358522,
+      "coordinateSource": "https://www.openstreetmap.org/node/9163264241",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Existing v205 REAKTOR building pin; fresh organizer page independently confirms the same venue and Geblergasse 40 address. No new pin inferred.",
+      "source": "Neue Oper Wien",
+      "sourceUrl": "https://neueoperwien.at/tree-of-codes/",
+      "evidenceUrls": [
+        "https://neueoperwien.at/tree-of-codes/",
+        "https://www.musiktheater-wien.at/produktionen/tree-of-codes/",
+        "https://neueoperwien.at/tickets/"
+      ],
+      "description": "Liza Lim opera, Austrian premiere with Neue Oper Wien and Wien Modern. Organizer states a 90-minute duration.",
+      "dateEvidence": "Primary organizer lists 31 October and 3, 5, 6, 8 November 2026, each 19:30; duration 90 min. End time derived from explicit duration.",
+      "access": "Ticket required. Contact organizer by 16:00 on performance day for wheelchair seats; wheelchair and accompanying seats EUR20 each. Standard price not stated on inspected pages.",
+      "priceNote": "Standard ticket price unknown; special wheelchair-seat price is not used as general admission.",
+      "id": "vienna-research28-921921304089",
+      "checkedAt": "2026-10-28T05:06:28.594028Z",
+      "status": "verified_announcement",
+      "kind": "event",
+      "yearEvidence": "Exact 2026 dates stated in the full primary event page.",
+      "availabilityVerified": false,
+      "availabilityNote": "Announcement verified; remaining tickets/capacity not independently verified.",
+      "price": null,
+      "currency": "EUR",
+      "language": "",
+      "dedupEvidence": "Compared against fresh v205 city feed by title, venue, dates and source URL; no matching occurrence found."
+    },
+    {
+      "cityId": "barcelona",
+      "city": "Barcelona",
+      "title": "Beirut: Cities and The Myth of Resilience",
+      "category": "talk",
+      "date": "2026-11-03",
+      "time": "18:30",
+      "end": "20:00",
+      "timezone": "Europe/Madrid",
+      "venue": "CCCB — The Mirador",
+      "address": "Montalegre 5, 08001 Barcelona",
+      "lat": 41.38391450226559,
+      "lng": 2.1668129104163323,
+      "coordinateSource": "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html",
+      "coordinatePrecision": "existing-official-venue-pin",
+      "coordinateEvidence": "Reuse v205 CCCB building pin, not room-specific. Fresh CCCB Visit page confirms Montalegre 5; municipal source URL retained as historical pin provenance only, not newly fetched after GuiaBCN 418.",
+      "source": "CCCB",
+      "sourceUrl": "https://www.cccb.org/en/w/activities/beirut-the-myth-of-resilience",
+      "evidenceUrls": [
+        "https://www.cccb.org/en/w/activities/beirut-the-myth-of-resilience",
+        "https://www.cccb.org/en/visit"
+      ],
+      "description": "Camille Ammoun in conversation with Albert Elfa about Beirut and overlapping urban crises.",
+      "price": 4,
+      "priceNote": "EUR4 regular; EUR3 listed concessions. Listed qualifying groups admitted free.",
+      "access": "Ticket link provided. Magnetic loop. Free for CCCB Friends, under16s, unemployed, Targeta Rosa, compulsory-education teachers, and disability-card holders plus one companion.",
+      "language": "English with simultaneous Catalan translation",
+      "id": "barcelona-research28-0160ba7375de",
+      "checkedAt": "2026-10-28T05:06:28.594654Z",
+      "status": "verified_announcement",
+      "kind": "event",
+      "yearEvidence": "Exact 2026 dates stated in the full primary event page.",
+      "availabilityVerified": false,
+      "availabilityNote": "Announcement verified; remaining tickets/capacity not independently verified.",
+      "currency": "EUR",
+      "dedupEvidence": "Compared against fresh v205 city feed by title, venue, dates and source URL; no matching occurrence found."
+    },
+    {
+      "cityId": "riga",
+      "city": "Riga",
+      "title": "The Three Musketeers",
+      "category": "theatre",
+      "date": "2026-10-30",
+      "time": "19:00",
+      "timezone": "Europe/Riga",
+      "venue": "Mikhail Chekhov Riga Russian Theatre",
+      "address": "Kaļķu iela 16, Riga",
+      "lat": 56.948928401,
+      "lng": 24.1094068417,
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=56.9489284010,24.1094068417",
+      "coordinatePrecision": "official-venue-pin",
+      "coordinateEvidence": "Exact coordinates exposed in LiveRiga event-page View on map link; the same page names the theatre and Kaļķu iela 16.",
+      "source": "LiveRiga",
+      "sourceUrl": "https://www.liveriga.com/en/visit/events/theatre/performance-of-the-three-musketeers",
+      "evidenceUrls": [
+        "https://www.liveriga.com/en/visit/events/theatre/performance-of-the-three-musketeers"
+      ],
+      "price": 21.89,
+      "priceNote": "Listed ticket range EUR21.89–51.52. Minimum published price, not a claim of current seat availability.",
+      "description": "Chekhov Theatre musical adaptation of The Three Musketeers with Imants Kalniņš music.",
+      "language": "Russian",
+      "access": "Tickets required.",
+      "id": "riga-research28-c2b6735e72d2",
+      "checkedAt": "2026-10-28T05:13:16.174540Z",
+      "status": "verified_announcement",
+      "kind": "event",
+      "yearEvidence": "Exact 2026 dates stated in the full primary event page.",
+      "availabilityVerified": false,
+      "availabilityNote": "Announcement verified; remaining tickets/capacity not independently verified.",
+      "currency": "EUR",
+      "end": "",
+      "dedupEvidence": "Compared against fresh v205 city feed by title, venue, dates and source URL; no matching occurrence found."
+    },
+    {
+      "cityId": "riga",
+      "city": "Riga",
+      "title": "The Three Musketeers",
+      "category": "theatre",
+      "date": "2026-10-31",
+      "time": "18:00",
+      "timezone": "Europe/Riga",
+      "venue": "Mikhail Chekhov Riga Russian Theatre",
+      "address": "Kaļķu iela 16, Riga",
+      "lat": 56.948928401,
+      "lng": 24.1094068417,
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=56.9489284010,24.1094068417",
+      "coordinatePrecision": "official-venue-pin",
+      "coordinateEvidence": "Exact coordinates exposed in LiveRiga event-page View on map link; the same page names the theatre and Kaļķu iela 16.",
+      "source": "LiveRiga",
+      "sourceUrl": "https://www.liveriga.com/en/visit/events/theatre/performance-of-the-three-musketeers",
+      "evidenceUrls": [
+        "https://www.liveriga.com/en/visit/events/theatre/performance-of-the-three-musketeers"
+      ],
+      "price": 21.89,
+      "priceNote": "Listed ticket range EUR21.89–51.52. Minimum published price, not a claim of current seat availability.",
+      "description": "Chekhov Theatre musical adaptation of The Three Musketeers with Imants Kalniņš music.",
+      "language": "Russian",
+      "access": "Tickets required.",
+      "id": "riga-research28-f937c19e6f56",
+      "checkedAt": "2026-10-28T05:13:16.175433Z",
+      "status": "verified_announcement",
+      "kind": "event",
+      "yearEvidence": "Exact 2026 dates stated in the full primary event page.",
+      "availabilityVerified": false,
+      "availabilityNote": "Announcement verified; remaining tickets/capacity not independently verified.",
+      "currency": "EUR",
+      "end": "",
+      "dedupEvidence": "Compared against fresh v205 city feed by title, venue, dates and source URL; no matching occurrence found."
+    },
+    {
+      "cityId": "barcelona",
+      "city": "Barcelona",
+      "title": "Beirut: The City and Collapse",
+      "category": "talk",
+      "date": "2026-11-18",
+      "time": "18:30",
+      "end": "20:00",
+      "timezone": "Europe/Madrid",
+      "venue": "CCCB — The Mirador",
+      "address": "Montalegre 5, 08001 Barcelona",
+      "lat": 41.38391450226559,
+      "lng": 2.1668129104163323,
+      "coordinateSource": "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html",
+      "coordinatePrecision": "existing-official-venue-pin",
+      "coordinateEvidence": "Reuse v205 CCCB building pin, not room-specific. Fresh CCCB Visit page confirms Montalegre 5; municipal source URL retained as historical pin provenance only, not newly fetched after GuiaBCN 418.",
+      "source": "CCCB",
+      "sourceUrl": "https://www.cccb.org/en/w/activities/beirut-the-city-and-collapse",
+      "evidenceUrls": [
+        "https://www.cccb.org/en/w/activities/beirut-the-city-and-collapse",
+        "https://www.cccb.org/en/visit"
+      ],
+      "description": "Rana Eid and Camille Ammoun discuss Beirut through a sound archive and the experience of urban catastrophe.",
+      "price": 4,
+      "priceNote": "EUR4 regular; EUR3 listed concessions. Listed qualifying groups admitted free.",
+      "access": "Ticket link provided. Magnetic loop. Free for CCCB Friends, under16s, unemployed, Targeta Rosa, compulsory-education teachers, and disability-card holders plus one companion.",
+      "language": "French with simultaneous Catalan translation",
+      "checkedAt": "2026-10-28T05:06:37Z",
+      "status": "verified_announcement",
+      "kind": "event",
+      "yearEvidence": "Exact 2026 dates stated in the full primary event page.",
+      "availabilityVerified": false,
+      "availabilityNote": "Announcement verified; remaining tickets/capacity not independently verified.",
+      "currency": "EUR",
+      "dedupEvidence": "Compared against fresh v205 city feed by title, venue, dates and source URL; no matching occurrence found.",
+      "id": "barcelona-research28-ea781d45452e"
+    }
+  ],
+  "corrections": [
+    {
+      "cityId": "flensburg",
+      "eventId": "fl-2de27f756507df40",
+      "title": "Häkel-Workshop",
+      "date": "2026-11-05",
+      "time": "16:00",
+      "action": "cancel_or_exclude_active",
+      "status": "cancellation_confirmed_on_current_primary_index",
+      "checkedAt": "2026-10-28T05:06:28.595708Z",
+      "sourceUrl": "https://stadtbibliothek.flensburg.de/veranstaltungen/",
+      "evidence": "Current official listing labels the 5 November 2026 16:00–18:30 session cancelled. Updated deep link retains FID2792.1071.1, matching the baseline event.",
+      "conflict": "Old detail page has an older two-week cached version without cancellation. Updated cancellation deep link returned cache miss, not a contrary announcement.",
+      "evidenceUrls": [
+        "https://stadtbibliothek.flensburg.de/veranstaltungen/",
+        "https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstaltungen/H%C3%A4kel-Workshop-f%C3%A4llt-leider-aus.php?FID=2792.1071.1&ModID=11&NavID=2792.14&object=tx%2C4228.4.1"
+      ],
+      "safeAction": "Do not promote the cancelled occurrence as active; retain source/history.",
+      "patch": {
+        "cancelled": true,
+        "status": "cancelled",
+        "availabilityNote": "Official current library listing marks this occurrence cancelled; old cached detail predates cancellation."
+      },
+      "sameSourceRecordEvidence": "Updated and previous deep links share FID=2792.1071.1 and the exact Nov5 16:00–18:30 session; index cancellation is unambiguous."
+    }
+  ],
+  "held": [
+    {
+      "cityId": "paris",
+      "title": "A corpo libero — four listing sessions",
+      "sourceUrl": "https://www.paris.fr/evenements/a-corpo-libero-giada-ciccolini-festival-les-enfants-d-abord-05-11-a-17h30-126444",
+      "reason": "Nov5/6 titles conflict with Dec5/6 structured dates on17:30 pages; even16:00 Nov5 ticketlink has5thDec. DICE403. Hold entire series until organizer resolves dates/times.",
+      "checkedAt": "2026-10-28T05:13:16.204912Z",
+      "status": "held_for_recheck"
+    },
+    {
+      "cityId": "vienna",
+      "title": "KEIN.PLATZ.FÜR.JOKER",
+      "sourceUrl": "https://www.wien.gv.at/veranstaltungen/kein-platz-fuer-joker",
+      "reason": "Primary500 andOFFTheaterinaccessible; searchsnippet dates includingNov3 not importable.",
+      "checkedAt": "2026-10-28T05:13:16.204914Z",
+      "status": "held_for_recheck"
+    },
+    {
+      "cityId": "vienna",
+      "title": "Feel It",
+      "sourceUrl": "https://www.oeticket.com/event/feel-it-theater-delphin-22138075/",
+      "reason": "Nov3 discovery search only; fullpagecachemiss, venuepinunverified.",
+      "checkedAt": "2026-10-28T05:13:16.204915Z",
+      "status": "held_for_recheck"
+    },
+    {
+      "cityId": "oslo",
+      "title": "Pumpkin carving with Emil Hauge",
+      "sourceUrl": "https://www.visitoslo.com/event/pumpkin-carving-with-emil-hauge-2",
+      "reason": "Exact datedcalendar andtime/price/addressread; named mapplaceID not coordinate, pin unresolved. Ticketco cachemiss.",
+      "checkedAt": "2026-10-28T05:13:16.204917Z",
+      "status": "held_for_recheck"
+    },
+    {
+      "cityId": "oslo",
+      "title": "Frankenstein",
+      "sourceUrl": "https://www.visitoslo.com/event/frankenstein",
+      "reason": "Full targetsessiondates and exactvenuepin unresolved; no inferred repeated daily sessions.",
+      "checkedAt": "2026-10-28T05:13:16.204918Z",
+      "status": "held_for_recheck"
+    },
+    {
+      "cityId": "belgrade",
+      "title": "Olga Romanova public talk Oct30",
+      "sourceUrl": "https://t.me/auditoria_belgrade/1818",
+      "reason": "Fresh primaryvenuepreview givesOct30 19:00 EUR11+ address; linkedFienta cachemiss. Explicityearonfullticketpage not obtained.",
+      "checkedAt": "2026-10-28T05:13:16.204920Z",
+      "status": "held_for_recheck"
+    },
+    {
+      "cityId": "belgrade",
+      "title": "Choral party Oct31",
+      "sourceUrl": "https://luma.com/qdetfph9",
+      "reason": "Organizerprice/addresscorroborated but renderedLuma date omitted; no exact2026fieldread.",
+      "checkedAt": "2026-10-28T05:13:16.204921Z",
+      "status": "held_for_recheck"
+    },
+    {
+      "cityId": "prague",
+      "title": "Sokolský běh republiky 2026",
+      "sourceUrl": "https://www.behrepubliky.cz/propozice/praha",
+      "reason": "Officialschedule verified; race start Hellichova vs supportsite Tyršův dům; exactstartpinnotverified. Avoid wrong swimming-pool pin.",
+      "checkedAt": "2026-10-28T05:13:16.204922Z",
+      "status": "held_for_recheck"
+    },
+    {
+      "cityId": "lisbon",
+      "title": "Russian Cinema week Oct26–30",
+      "sourceUrl": "https://t.me/s/AfishaLissabon",
+      "reason": "Telegramdates19–21atAlcântaralibrary, individualfilmprogrammes/explicityearandprimarylibrarycorroboration not completed.",
+      "checkedAt": "2026-10-28T05:13:16.204924Z",
+      "status": "held_for_recheck"
+    },
+    {
+      "cityId": "lisbon",
+      "title": "Halloween flower workshop Oct31 13:00",
+      "sourceUrl": "https://t.me/s/AfishaLissabon",
+      "reason": "Only citycenter disclosed; no exactvenue/pin.",
+      "checkedAt": "2026-10-28T05:13:16.204925Z",
+      "status": "held_for_recheck"
+    },
+    {
+      "cityId": "madrid",
+      "title": "Warehouse operations course Nov3",
+      "sourceUrl": "https://emempleoverdeyoficios.madrid.es/programa/curso-de-operaciones-de-almacen/",
+      "reason": "Datesorientative; restrictedtoeligiblejobseekers/selection, notverifieddrop-inpublicevent; venueambiguous.",
+      "checkedAt": "2026-10-28T05:13:16.204927Z",
+      "status": "held_for_recheck"
+    },
+    {
+      "cityId": "berlin",
+      "title": "Alex Yusupov lecture Oct28",
+      "sourceUrl": "https://t.me/s/freventsgermany",
+      "reason": "Public2026announcementdiscovered19:00Art-CafeAVIATOR,LindowerStr18; primaryregistration/exactpinnotfinished.",
+      "checkedAt": "2026-10-28T05:13:16.204928Z",
+      "status": "held_for_recheck"
+    }
+  ],
+  "duplicates": [
+    {
+      "cityId": "belgrade",
+      "existingEventId": "bg-tg-auditoria-kurnikov-20261029",
+      "reason": "Current public organizer weekly announcement matches existing exact date/time; not a new event.",
+      "checkedAt": "2026-10-28T05:13:16.204931Z"
+    },
+    {
+      "cityId": "belgrade",
+      "existingEventId": "morning27-belgrade-a5eeba812eb7fe",
+      "reason": "Current public organizer weekly announcement matches existing exact date/time; not a new event.",
+      "checkedAt": "2026-10-28T05:13:16.204933Z"
+    },
+    {
+      "cityId": "belgrade",
+      "existingEventId": "morning27-belgrade-6ffa78be149fcb",
+      "reason": "Current public organizer weekly announcement matches existing exact date/time; not a new event.",
+      "checkedAt": "2026-10-28T05:13:16.204934Z"
+    }
+  ],
+  "fullCoverage": false,
+  "updatedAt": "2026-10-28T05:13:43.902804Z",
+  "excluded": [
+    {
+      "cityId": "riga",
+      "title": "The Three Musketeers Nov27",
+      "reason": "Outside inclusiveOct28–Nov26 horizon."
+    },
+    {
+      "cityId": "lisbon",
+      "title": "Monster World Tour",
+      "reason": "Announcement explicitly locates venue in Spain, not Lisbon."
+    },
+    {
+      "cityId": "prague",
+      "title": "AquaDome / Saxon Switzerland tours",
+      "reason": "Event destinations outside assigned city; no city-center pin for excursion."
+    },
+    {
+      "cityId": "oslo",
+      "title": "Hadeland Glassverk Christmas market",
+      "reason": "Outside Oslo city, not imported."
+    }
+  ],
+  "limitations": [
+    "Bounded public read-only research, not complete calendar/category ingestion.",
+    "Fresh checkAt means current retrieval/review; some providers serve cached pages with older crawled timestamps. Explicit stale relative-date problems are retained.",
+    "No login/CAPTCHA bypass, joins, messages, source/feed/Library/browser writes.",
+    "Existing Instagram inventory retained without logging in; IG was not freshly inspected in this bounded pass.",
+    "No new places created; candidate pins are reused named-venue pins with fresh address corroboration, or exact official map destinations.",
+    "No publicTelegram posts or profiles treated as evidence of ticket availability."
+  ],
+  "summary": {
+    "candidateOccurrences": 9,
+    "uniqueProgrammes": 4,
+    "corrections": 1,
+    "held": 12,
+    "citiesAudited": 14,
+    "fullCoverage": false
+  },
+  "validation": {
+    "checkedAt": "2026-10-28T05:13:43.902787Z",
+    "issues": [],
+    "candidateIDsUnique": true,
+    "candidateDateWindowValid": true,
+    "baselineExactSourceOrTitleDateDuplicates": 0,
+    "sourceAuditCities": 14,
+    "readOnlyTask": true
+  }
+}

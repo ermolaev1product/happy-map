@@ -1,0 +1,128 @@
+{
+  "city": "Almaty",
+  "checkedAt": "2026-10-15T11:15:00Z",
+  "sources": [
+    {
+      "id": "candidate:e21670da866dd89a",
+      "name": "Sxodim Almaty",
+      "url": "https://sxodim.com/almaty",
+      "checkedAt": "2026-10-15T11:15:00Z",
+      "status": "imported",
+      "accessStatus": "calendar_and_event_pages_read",
+      "count": 8,
+      "note": "Current October calendar and exact-year event JSON-LD read. Homepage is a discovery subset, not entire supply; prices can differ between visible and structured data.",
+      "type": "website"
+    },
+    {
+      "id": "candidate:7c2af04997dc87a0",
+      "name": "Lermontov Theatre",
+      "url": "https://tl.kz/content/index.php",
+      "checkedAt": "2026-10-15T11:15:00Z",
+      "status": "imported",
+      "accessStatus": "calendar_and_event_pages_read",
+      "count": 31,
+      "note": "Official October and November repertory read, including main/small stages and cancellations. Prices not extracted.",
+      "type": "website"
+    },
+    {
+      "id": "candidate:6dc12e8cc73861cf",
+      "name": "Tselinny",
+      "url": "https://www.tselinny.org/en",
+      "checkedAt": "2026-10-15T11:15:00Z",
+      "status": "imported",
+      "accessStatus": "calendar_and_event_pages_read",
+      "count": 5,
+      "note": "Official English writing-course dates, exhibitions, visiting hours and ticket policies read. Recurring mediation schedule kept as venue information rather than cloned daily events.",
+      "type": "website"
+    },
+    {
+      "id": "candidate:2bbcbf142bf116a3",
+      "name": "Almaty Museum of Arts",
+      "url": "https://www.almaty.art/ru/what-is-on",
+      "checkedAt": "2026-10-15T11:15:00Z",
+      "status": "calendar_read_with_detail_gaps",
+      "accessStatus": "calendar_read_with_detail_gaps",
+      "count": 0,
+      "note": "Official calendar and visitor details read; Oct 20 lecture needs start time, photo course needs current admission/session detail.",
+      "type": "website"
+    },
+    {
+      "id": "candidate:26a52bf24cfde3b5",
+      "name": "Abai Opera and Ballet Theatre",
+      "url": "https://abaykazntob.kz/",
+      "checkedAt": "2026-10-15T11:15:00Z",
+      "status": "imported",
+      "accessStatus": "individual_event_read_calendar_timeout",
+      "count": 1,
+      "note": "Individual tour page verified; homepage timed out. No inferred full opera repertory.",
+      "type": "website"
+    },
+    {
+      "id": "candidate:4123d47b27d4b696",
+      "name": "Abai official Telegram",
+      "url": "https://t.me/s/gatob_kz",
+      "checkedAt": "2026-10-15T11:15:00Z",
+      "status": "public_posts_read",
+      "accessStatus": "public_posts_read",
+      "count": 0,
+      "note": "Official website links this public channel. Tosca Oct 30/31 announcement lacks start times in preview.",
+      "type": "telegram"
+    },
+    {
+      "id": "candidate:548629c9aed1c0fc",
+      "name": "Sxodim Telegram",
+      "url": "https://t.me/s/sxodim",
+      "checkedAt": "2026-10-15T11:15:00Z",
+      "status": "public_posts_read",
+      "accessStatus": "public_posts_read",
+      "count": 0,
+      "note": "Public editorial feed read. No extra event counted solely from channel identity.",
+      "type": "telegram"
+    },
+    {
+      "id": "candidate:b47a271aac62002b",
+      "name": "Ticketon Almaty",
+      "url": "https://ticketon.kz/almaty?profession=2",
+      "checkedAt": "2026-10-15T11:15:00Z",
+      "status": "public_calendar_stale",
+      "accessStatus": "public_calendar_stale",
+      "count": 0,
+      "note": "Seed returns a cached September calendar; needs current event-specific intake. No stale calendar rows counted.",
+      "type": "website"
+    },
+    {
+      "id": "candidate:a07cbbf454ae92ff",
+      "name": "Relocants in Almaty",
+      "url": "https://t.me/russians_almaty",
+      "checkedAt": "2026-10-15T11:15:00Z",
+      "status": "landing_page_only",
+      "accessStatus": "landing_page_only",
+      "count": 0,
+      "note": "Public group landing only; no joined/member content claimed.",
+      "type": "telegram"
+    },
+    {
+      "id": "candidate:0a70fbd011e3a66b",
+      "name": "Teatr.kz Almaty",
+      "url": "https://teatr.kz/ru/almaty",
+      "checkedAt": "2026-10-15T11:15:00Z",
+      "status": "calendar_read_with_detail_gaps",
+      "accessStatus": "calendar_read_with_detail_gaps",
+      "count": 0,
+      "note": "Current discovery calendar contains theatre shows and links to first-party ticket sources. Exact year must be verified per show; no duplicate platform rows counted.",
+      "type": "website"
+    },
+    {
+      "id": "candidate:d71af1a0fefb3738",
+      "name": "Kino.kz arts",
+      "url": "https://kino.kz/ru/art",
+      "checkedAt": "2026-10-15T11:15:00Z",
+      "status": "public_page_partial_dynamic_sessions",
+      "accessStatus": "public_page_partial_dynamic_sessions",
+      "count": 0,
+      "note": "Museum and learning discovery. Himoya detail read but session list rendered placeholders; no fabricated start or ticket price.",
+      "type": "website"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

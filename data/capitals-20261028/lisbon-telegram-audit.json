@@ -1,0 +1,165 @@
+{
+  "city": "Lisbon",
+  "checkedAt": "2026-10-28T04:19:13.122902+00:00",
+  "window": {
+    "from": "2026-10-28",
+    "through": "2026-11-26"
+  },
+  "sequence": [
+    "Broad official AgendaLisboa/VisitLisboa researched byparent",
+    "Official venue reserves CCB/Gulbenkian fulldetails",
+    "Public Telegram announcement channel discovery and previews",
+    "Public conversational citychat discovery and previews"
+  ],
+  "announcementChannels": [
+    {
+      "name": "Афиша Лиссабон",
+      "url": "https://t.me/s/AfishaLissabon",
+      "status": "full_public_announcement_text_read",
+      "scope": "Public channel preview page, not full archive. Several full textual announcements read; media unavailable not claimed read. Search results differed from opened cached preview; only opened page used as evidence.",
+      "examples": [
+        {
+          "url": "https://t.me/AfishaLissabon/22285",
+          "readVia": "https://t.me/s/AfishaLissabon",
+          "title": "Halloweek no Oceanário de Lisboa",
+          "eventYear": 2026,
+          "dates": "22–31 October2026",
+          "time": null,
+          "timezone": null,
+          "summary": "Oceanarium promotional online tickets €15, limited allocation. Full textual announcement read in preview; direct permalink fetch cachemiss. Not a fully verified admission programme."
+        },
+        {
+          "url": "https://t.me/AfishaLissabon/22281",
+          "readVia": "https://t.me/s/AfishaLissabon",
+          "title": "Halloween roundup including Yumala",
+          "eventYear": 2026,
+          "dates": "Yumala31October2026",
+          "time": null,
+          "timezone": null,
+          "summary": "Yumala at SalaTejo(MEOArena), €22 and linkedticket; full roundup text read in preview. Directpermalink is widget shell only. Not promoted without primarydetail."
+        },
+        {
+          "url": "https://t.me/AfishaLissabon/22267",
+          "readVia": "https://t.me/s/AfishaLissabon",
+          "title": "Russian film festival at Alcântara library",
+          "eventYear": null,
+          "dates": "26–30October",
+          "time": "19:00–21:00",
+          "timezone": null,
+          "summary": "Free;12+;Russian films with English/Portuguese subtitles. Year not stated in readannouncement; not inferred from currentdate. Directpermalink widget shell."
+        }
+      ],
+      "candidatePromotions": 0
+    },
+    {
+      "name": "Liberty events",
+      "url": "https://t.me/s/libertyevents",
+      "status": "full_public_announcement_text_read",
+      "scope": "Public preview only. Organizer channel with directFienta links; Lisbon and Parede mixed, geographically distinguish.",
+      "examples": [
+        {
+          "url": "https://t.me/libertyevents/1559",
+          "readVia": "https://t.me/s/libertyevents",
+          "title": "Ler Portugal — Tavares book club",
+          "eventYear": null,
+          "dates": "28October(Wednesday)",
+          "time": "19:00",
+          "timezone": null,
+          "primaryDetail": "https://fienta.com/ru/2026-ler-portugal-tavaresh",
+          "summary": "Full announcement read in channel. LinkedFienta fulltext confirms19–21,€15regular,€40membership,LibertyBooksRuaEsperança21,1200-267Lisboa. URLcontains2026 but bodyyear not explicit; rawGET403 prevents structureddate verification. No promotion. DirectTGpermalink widget shell."
+        }
+      ],
+      "candidatePromotions": 0
+    },
+    {
+      "name": "Говорит Лиссабон",
+      "url": "https://t.me/fala_Lisboa",
+      "previewAttempt": "https://t.me/s/fala_Lisboa",
+      "status": "profile_only",
+      "scope": "Profile says adult/children Lisbon/suburb events; no announcements read. Preview inaccessible via webtool."
+    },
+    {
+      "name": "Камон! Лиссабон",
+      "url": "https://t.me/kamonlisbon",
+      "previewAttempt": "https://t.me/s/kamonlisbon",
+      "status": "profile_only",
+      "scope": "Profile says cityevents/news; no announcements read. Preview inaccessible via webtool."
+    }
+  ],
+  "conversationalChats": [
+    {
+      "name": "Лиссабон чат-сообщество",
+      "url": "https://t.me/lissabonstvo",
+      "previewAttempt": "https://t.me/s/lissabonstvo",
+      "status": "profile_only_no_conversation_read",
+      "read": "Public profile title and description only; no messages/history retrieved. /s/preview inaccessible viawebtool. ViewinTelegram affordance not used.",
+      "candidatePromotions": 0
+    },
+    {
+      "name": "Лиссабон чатик",
+      "url": "https://t.me/lisbonchatik",
+      "previewAttempt": "https://t.me/s/lisbonchatik",
+      "status": "profile_only_no_conversation_read",
+      "read": "Public profile title and description only; no messages/history retrieved. /s/preview inaccessible viawebtool. ViewinTelegram affordance not used.",
+      "candidatePromotions": 0
+    },
+    {
+      "name": "Лиссабон экспаты",
+      "url": "https://t.me/lissabon_expats",
+      "previewAttempt": "https://t.me/s/lissabon_expats",
+      "status": "profile_only_no_conversation_read",
+      "read": "Public profile title and description only; no messages/history retrieved. /s/preview inaccessible viawebtool. ViewinTelegram affordance not used.",
+      "candidatePromotions": 0
+    },
+    {
+      "name": "Португалия Лиссабон Чат",
+      "url": "https://t.me/portugal_granitsa",
+      "previewAttempt": "https://t.me/s/portugal_granitsa",
+      "status": "profile_only_no_conversation_read",
+      "read": "Public profile title and description only; no messages/history retrieved. /s/preview inaccessible viawebtool. ViewinTelegram affordance not used.",
+      "candidatePromotions": 0
+    }
+  ],
+  "actions": {
+    "publicReadOnly": true,
+    "joined": false,
+    "loggedIn": false,
+    "posted": false,
+    "contactedAdmins": false,
+    "botsStarted": false,
+    "accessBypassed": false
+  },
+  "coverageComplete": false,
+  "summary": "2 channels with fullannouncement text;2profile-onlychannels;4chatprofiles only,0conversations read. NoTGcandidate promoted. Explicityear present in selectedAfisha fulltexts but exacttimes/primaryverification incomplete. Profile discovery is not conversation coverage.",
+  "blockers": [
+    {
+      "action": "Read public/s/preview",
+      "targets": [
+        "https://t.me/s/fala_Lisboa",
+        "https://t.me/s/kamonlisbon",
+        "https://t.me/s/lissabonstvo",
+        "https://t.me/s/lisbonchatik",
+        "https://t.me/s/lissabon_expats",
+        "https://t.me/s/portugal_granitsa"
+      ],
+      "status": "URL not accessible viawebtool",
+      "reason": "Public fetched preview unavailable; stopped at accessibleprofile; no join/login/bypass."
+    },
+    {
+      "action": "Read individualTelegram permalink",
+      "targets": [
+        "https://t.me/libertyevents/1559",
+        "https://t.me/AfishaLissabon/22267",
+        "https://t.me/AfishaLissabon/22281"
+      ],
+      "status": "widget_shell_only",
+      "reason": "Fulltext read through publicchannelpreview instead; not claimed frompermalink."
+    },
+    {
+      "action": "Fetch primaryFienta rawstructured dates",
+      "target": "https://fienta.com/ru/2026-ler-portugal-tavaresh",
+      "status": "403Forbidden",
+      "reason": "Webfulltext readable,rawGETblocked; no bypass; year remainsnull."
+    }
+  ]
+}

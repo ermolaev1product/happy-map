@@ -1,0 +1,13 @@
+
+.header .app-download{display:inline-flex;align-items:center;justify-content:center;gap:10px;margin-left:auto;padding:15px 23px;min-height:48px;background:#ffe4a0;color:#61420d;border:1px solid #d5a33f;border-radius:100px;text-decoration:none;font-size:14px;font-weight:700;white-space:nowrap;box-shadow:none;transition:background .15s,transform .15s}.header .app-download:hover{background:#ffe5a3;transform:translateY(-1px)}.header .app-download:focus-visible{outline:3px solid #765015;outline-offset:4px}.header .app-download>span:first-child{font-size:23px;line-height:1}.header .more-menu{margin-left:0}
+@media(max-width:760px){.map-first .header{display:flex;flex-wrap:wrap;height:auto;min-height:70px;padding:12px 5%;gap:8px}.map-first .header .wordmark{font-size:25px}.map-first .header .sunmark{font-size:27px}.header .app-download{font-size:12px;padding:10px 14px;min-height:44px;gap:6px;order:2}.header .more-menu{order:3;margin-left:0}.map-first .header .city-picker{order:4;flex-basis:100%;margin:0}.header .city-picker select{max-width:100%;font-size:12px}.header .more-menu summary{padding:6px;min-width:32px}.header .app-download>span:first-child{font-size:19px}}
+@media(max-width:370px){.map-first .header .wordmark{font-size:22px}.header .app-download{font-size:11px;padding:10px}}
+
+
+@media(max-width:760px){.header .social-nav{order:5;margin-left:auto}.map-first .header .city-picker{flex-basis:auto;margin-right:auto}}
+
+.calendar .day{min-width:0}.calendar .day-name{white-space:nowrap;text-align:center;line-height:1.2}
+
+/* The map is the primary task; installation stays calm and recognisable. */
+.mobile-nav .download-tab{color:#61420d}.mobile-nav .download-tab:focus-visible{outline:3px solid #765015;outline-offset:-3px;border-radius:10px}
+@media(prefers-reduced-motion:reduce){.header .app-download{transition:none}.header .app-download:hover{transform:none}}

@@ -1,0 +1,188 @@
+{
+  "checkedAt": "2026-10-24T05:35:45Z",
+  "baseCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+  "events": [
+    {
+      "cityId": "london",
+      "title": "Diwali on Trafalgar Square",
+      "date": "2026-10-25",
+      "time": "13:00",
+      "venue": "Trafalgar Square",
+      "sourceUrl": "https://www.diwaliinlondon.com/",
+      "category": "festival",
+      "price": 0,
+      "currency": "GBP",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-10-24T05:35:45Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "end": "19:00",
+      "address": "Trafalgar Square,London WC2N5DN",
+      "lat": 51.50806,
+      "lng": -0.12806,
+      "coordinateSource": "https://en.wikipedia.org/wiki/Trafalgar_Square",
+      "coordinatePrecision": "named-square-centre",
+      "coordinateEvidence": "Namedpublicsquare coordinate verified; eventoccupiesthesquare,notcitycentroid.",
+      "admission": "Free entry,no tickets needed.",
+      "sourceURLs": [
+        "https://www.diwaliinlondon.com/",
+        "https://www.timeout.com/london/things-to-do/diwali-on-trafalgar-square"
+      ],
+      "id": "london-afisha24-f0c95e00a80c",
+      "programmeId": "london-afisha24-f0c95e00a80c",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    },
+    {
+      "address": "45 Queen Caroline Street,London W69QH",
+      "lat": 51.490702,
+      "lng": -0.224458,
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "fsa:804700",
+      "cityId": "london",
+      "title": "Hocus Pocus: Film with Live Orchestra",
+      "date": "2026-10-25",
+      "time": "14:30",
+      "venue": "Eventim Apollo",
+      "sourceUrl": "https://www.axs.com/uk/events/1489022/hocus-pocus-film-with-live-orchestra-tickets",
+      "category": "music",
+      "price": 40,
+      "currency": "GBP",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-10-24T05:35:45Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "doors": "13:30",
+      "admission": "Age8+;14andunderaccompaniedadult;PGfilm;A4sizebagsor smaller.",
+      "priceNote": "TimeOut£40–87.50; sellerprice/mandatoryfeesnotfullyconfirmed. Door13:30 isnotshowtime.",
+      "sourceURLs": [
+        "https://www.axs.com/uk/events/1489022/hocus-pocus-film-with-live-orchestra-tickets",
+        "https://www.timeout.com/london/things-to-do/hocus-pocus-in-concert"
+      ],
+      "verificationNote": "TimeOut wronglylinksApolloStudios43ACrefeldClose;AXSconfirmsEventimApollo45QueenCarolineStreet; correctedbeforepublication.",
+      "id": "london-afisha24-1fcc4e542eda",
+      "programmeId": "london-afisha24-1fcc4e542eda",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    },
+    {
+      "cityId": "london",
+      "title": "Becoming America: How Science Shaped a Nation",
+      "date": "2026-10-23",
+      "time": null,
+      "venue": "Science Museum — Special Exhibition Gallery2",
+      "sourceUrl": "https://www.sciencemuseum.org.uk/see-and-do/becoming-america",
+      "category": "exhibition",
+      "price": 0,
+      "currency": "GBP",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-10-24T05:35:45Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "startDate": "2026-10-23",
+      "endDate": "2027-04-25",
+      "address": "Exhibition Road,London SW72DD",
+      "lat": 51.4975,
+      "lng": -0.17472,
+      "coordinateSource": "https://en.wikipedia.org/wiki/Science_Museum,_London",
+      "coordinatePrecision": "named-building-approximate",
+      "coordinateEvidence": "Namedmuseumcoordinate; didnotreusepostcodecentroidbaseline.",
+      "openingHours": {
+        "monday": "10:00–18:00",
+        "tuesday": "10:00–18:00",
+        "wednesday": "10:00–18:00",
+        "thursday": "10:00–18:00",
+        "friday": "10:00–18:00",
+        "saturday": "10:00–18:00",
+        "sunday": "10:00–18:00"
+      },
+      "openingHoursExceptions": {
+        "2026-10-24/2026-10-30": "09:00–18:00"
+      },
+      "closedDates": [
+        "2026-12-24",
+        "2026-12-25",
+        "2026-12-26"
+      ],
+      "admission": "Free,ticketed;recommended11+;level2.",
+      "sourceURLs": [
+        "https://www.sciencemuseum.org.uk/see-and-do/becoming-america",
+        "https://www.sciencemuseum.org.uk/",
+        "https://blavatnikfoundation.org/becoming-america-how-science-shaped-a-nation-opens-at-the-science-museum-this-october/",
+        "https://www.timeout.com/london/things-to-do/becoming-america-how-science-shaped-a-nation"
+      ],
+      "id": "london-afisha24-d0c2747d7d07",
+      "programmeId": "london-afisha24-d0c2747d7d07",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    }
+  ],
+  "held": [
+    {
+      "cityId": "london",
+      "title": "God Save The Queens",
+      "date": "2026-10-23",
+      "time": null,
+      "venue": "Museum of Youth Culture",
+      "sourceUrl": "https://upyourscollective.com/exhibition/",
+      "category": "exhibition",
+      "price": 0,
+      "currency": "GBP",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-10-24T05:35:45Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "startDate": "2026-10-23",
+      "endDate": "2026-11-22",
+      "address": "51StPancrasWay,London NW10PZ",
+      "openingHours": {
+        "wednesday": "12:00–18:00",
+        "thursday": "12:00–18:00",
+        "friday": "12:00–18:00",
+        "saturday": "12:00–18:00",
+        "sunday": "12:00–18:00"
+      },
+      "closedDays": [
+        "monday",
+        "tuesday"
+      ],
+      "heldReason": "Venuepinnotverified;thirdpartyeventslistsearchcoordinate51.5420,-0.1358couldnotopenfullpage.",
+      "admission": "Freewalkins;prebookingadvised.",
+      "sourceURLs": [
+        "https://upyourscollective.com/exhibition/",
+        "https://www.timeout.com/london/things-to-do/up-yours-god-save-the-queens"
+      ],
+      "verificationNote": "OfficialstartOct23;TimeOutOct24correctedfromorganizer.",
+      "id": "london-afisha24-91600fa4612d",
+      "programmeId": "london-afisha24-91600fa4612d",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    }
+  ],
+  "sourceChecks": [
+    {
+      "city": "london",
+      "url": "https://www.timeout.com/london/things-to-do-in-london-this-weekend",
+      "status": "partial",
+      "scope": "All30recommendationsread;notall30fulldetails. Primary4newdetails+officialconfirmationread. Theatreseancesandotherexhibitionsstillneedverification. No30daycompleteclaim.",
+      "checkedAt": "2026-10-24T05:35:45Z"
+    }
+  ],
+  "conflicts": []
+}

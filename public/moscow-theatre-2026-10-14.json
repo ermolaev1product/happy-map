@@ -1,0 +1,125 @@
+{
+  "schema": "happymap-moscow-theatre-supplement-v1",
+  "batch": "moscow-theatre-2026-10-14",
+  "verifiedAt": "2026-10-14T12:21:05.014Z",
+  "baseCommit": "4b8d99b5bf3964da780d044438bc858929a6cbbb",
+  "newUniqueEvents": 40,
+  "newTheatreSessions": 40,
+  "newDistinctTheatreProductions": 35,
+  "newCinemaSessions": 0,
+  "newCulturalRecords": 40,
+  "newIndependentPlaces": 6,
+  "independentPlacesAfter": 74,
+  "storedEventsBefore": 2733,
+  "storedEventsAfter": 2773,
+  "cumulativeFromMorning": {
+    "eventsBefore": 314,
+    "newUniqueEvents": 2459,
+    "cinemaSessions": 2283,
+    "distinctFilms": 111,
+    "culturalRecords": 176,
+    "independentPlacesBefore": 7,
+    "independentPlacesAfter": 74
+  },
+  "sourceAccessPointsReviewed": 8,
+  "heldCandidateGroups": 19,
+  "next7": [
+    {
+      "date": "2026-10-14",
+      "total": 179,
+      "newTheatre": 3,
+      "categories": {
+        "exhibition": 16,
+        "theatre": 3,
+        "lecture": 9,
+        "community": 3,
+        "music": 4,
+        "cinema": 144
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "total": 298,
+      "newTheatre": 4,
+      "categories": {
+        "exhibition": 16,
+        "theatre": 4,
+        "lecture": 6,
+        "community": 7,
+        "music": 2,
+        "cinema": 263
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "total": 313,
+      "newTheatre": 8,
+      "categories": {
+        "exhibition": 17,
+        "theatre": 8,
+        "lecture": 3,
+        "community": 6,
+        "music": 6,
+        "cinema": 273
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "total": 326,
+      "newTheatre": 8,
+      "categories": {
+        "exhibition": 17,
+        "theatre": 8,
+        "lecture": 5,
+        "community": 14,
+        "music": 6,
+        "cinema": 276
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "total": 312,
+      "newTheatre": 3,
+      "categories": {
+        "exhibition": 17,
+        "theatre": 3,
+        "lecture": 5,
+        "community": 15,
+        "music": 5,
+        "cinema": 267
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "total": 270,
+      "newTheatre": 3,
+      "categories": {
+        "exhibition": 1,
+        "theatre": 3,
+        "lecture": 4,
+        "community": 4,
+        "music": 4,
+        "cinema": 254
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "total": 281,
+      "newTheatre": 4,
+      "categories": {
+        "exhibition": 15,
+        "theatre": 4,
+        "lecture": 3,
+        "community": 3,
+        "music": 3,
+        "cinema": 253
+      }
+    }
+  ],
+  "limitations": [
+    "Ticket prices and service fees remain unknown where not explicitly published.",
+    "Ten session seat maps were checked, but availability can change; no tickets were reserved.",
+    "Request-only, sold-out and out-of-city candidates remain unpublished.",
+    "Unknown performance ends remain null; the existing two-hour visibility grace is not a stated runtime."
+  ]
+}

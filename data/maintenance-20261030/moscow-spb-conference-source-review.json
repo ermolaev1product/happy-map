@@ -1,0 +1,624 @@
+{
+  "reviewedAt": "2026-10-30T04:37:53.282966+00:00",
+  "baseline": "082e5501ac03d9e6e613f69d9709564a4d32c843",
+  "scope": "One existing SPb pricing clarification and two exact memberships (SPb and Dublin); Moscow source audit only, zero Moscow record changes. No new sessions or venue points.",
+  "sourceAudit": {
+    "reviewedAt": "2026-10-30T04:13:25.185783+00:00",
+    "scope": "Two exact sequential authorized primary GET only; no links, tickets, maps, forms or additional source requests. No checkout/site/Library modifications.",
+    "networkReads": 2,
+    "records": [
+      {
+        "city": "moscow",
+        "id": "moscow-oct24-conference-1015053",
+        "originalRecord": {
+          "id": "moscow-oct24-conference-1015053",
+          "programmeId": "afisha-1015053",
+          "cityId": "moscow",
+          "city": "Moscow",
+          "kind": "event",
+          "title": "Рамки Conf I Бизнес-2027",
+          "date": "2026-11-05",
+          "time": "11:00",
+          "timezone": "Europe/Moscow",
+          "category": "conference",
+          "venue": "Зал Pulsar",
+          "address": "3-я ул. Ямского Поля, 2, корп. 5а",
+          "source": "RAMKI / Nethouse Events",
+          "sourceUrl": "https://afisha.nethouse.ru/event/ramki-conf-1",
+          "checkedAt": "2026-10-24T06:00:09Z",
+          "currency": "RUB",
+          "price": null,
+          "language": null,
+          "status": "scheduled",
+          "admission": "16+; registration required. Ticket page lists 11:00–19:00, but the actual programme end is not independently confirmed.",
+          "mandatoryFees": null,
+          "availabilityVerified": false,
+          "yearEvidence": "Full publicNethouse page explicitly5November2026,11:00–19:00Moscow; endnotpromotedtoactualeventendwithoutagenda.",
+          "description": "A business conference listed by the RAMKI organizer on Nethouse. Afisha corroborates the date and Pulsar venue.",
+          "timeUnknown": false,
+          "lat": 55.78399785830004,
+          "lng": 37.58238324444744,
+          "coordinateSource": "https://www.afisha.ru/exhibition/ramki-conf-i-biznes-2027-1015053/?tab=schedule",
+          "coordinatePrecision": "venue",
+          "coordinateEvidence": "Afisha named venue address and exact AddressGeoPoint matched to organizer/ticket page address.",
+          "titleEn": "RAMKI Conf: Business 2027",
+          "venueEn": "Pulsar Hall",
+          "addressEn": "3rd Yamskogo Polya Street, 2, Building 5A",
+          "sourceURLs": [
+            "https://afisha.nethouse.ru/event/ramki-conf-1",
+            "https://www.afisha.ru/exhibition/ramki-conf-i-biznes-2027-1015053/?tab=schedule"
+          ],
+          "sourceCategory": "conference",
+          "publicationStatus": "verified",
+          "placeId": "venue-b46238e25a079077",
+          "venueId": "venue-b46238e25a079077",
+          "startAt": "2026-11-05T11:00:00+03:00"
+        },
+        "originalFeedSHA256": "db6bf318ec13d2cb8a5b52eed174c7ae18f572b6e864f19554fcda3327418812",
+        "freshSource": {
+          "url": "https://afisha.nethouse.ru/event/ramki-conf-1",
+          "checkedAt": "2026-10-30T04:11:40.663923+00:00",
+          "status": 200,
+          "finalUrl": "https://afisha.nethouse.ru/event/ramki-conf-1",
+          "rawPath": "resume-20261029/maintenance/moscow-spb-conferences-20261030/raw/d79098464aefcd5f.raw",
+          "rawSHA256": "a9d60161ca603edc467351f54540b647e33482c8f9d248b02685ef725f8520fd",
+          "classification": "read_requires_manual_semantic_review"
+        },
+        "decision": "HOLD membership, price and actual end; date/time/address reconfirmation only",
+        "confirmed": {
+          "date": "2026-11-05",
+          "time": "11:00",
+          "timezone": "Europe/Moscow",
+          "listedInterval": "11:00–19:00",
+          "venueAddressMatchesExisting": true,
+          "cancelledOrSoldOutVisible": false
+        },
+        "visibleEvidence": "РАМКИ conf. Бизнес 2027. Офлайн Москва, PULSAR г. Москва, 3-я ул. Ямского поля, д. 2 к5А 5 ноября 2026, 11:00–19:00 по Москве Регистрация",
+        "fieldQuarantine": {
+          "JSONLDdescription": "Apparent template placeholder repeats neural-network lecture text interspersed with Gregor Samsa/Kafka quotation; not trustworthy actual RAMKI programme. No AI membership inferred.",
+          "JSONLDoffer": "2990 RUB/InStock appears only in metadata alongside placeholder description and stock theme images; no visible tariff corroboration, keep existing price null and availabilityVerified false.",
+          "endDate": "19:00 listing/JSON-LD only, no actual programme prose; retain unknown actual end."
+        },
+        "admission": "Visible registration CTA, no completed checkout or live stock verification; existing16+ not freshly corroborated.",
+        "pin": "Existing coordinateSource Afisha not re-read; address identity matches, no new coordinate verification.",
+        "proposedMembership": null,
+        "eventFieldPatch": {}
+      },
+      {
+        "city": "saint-petersburg",
+        "id": "saint-petersburg-oct24-conference-1014685",
+        "originalRecord": {
+          "id": "saint-petersburg-oct24-conference-1014685",
+          "programmeId": "afisha-1014685",
+          "cityId": "saint-petersburg",
+          "city": "Saint Petersburg",
+          "kind": "event",
+          "title": "Медиаконфа-2026 в «Измайловском»",
+          "date": "2026-11-01",
+          "time": "10:00",
+          "timezone": "Europe/Moscow",
+          "category": "conference",
+          "venue": "Тренинг-центр «Измайловский»",
+          "address": "Измайловский проспект, 2 / наб. реки Фонтанки, 120, 4 этаж",
+          "source": "Izmailovsky Training Centre",
+          "sourceUrl": "https://arenda-zala.spb.ru/mediaconfa",
+          "checkedAt": "2026-10-24T06:00:07Z",
+          "currency": "RUB",
+          "price": 2800,
+          "language": null,
+          "status": "scheduled",
+          "admission": "16+; registration required. Opening and networking at 10:00; speaker sessions begin at 11:00. Standard ticket 2800 RUB, VIP 5800 RUB; organizer announces price increase from 27 October. Mandatory fees unknown.",
+          "mandatoryFees": null,
+          "availabilityVerified": false,
+          "yearEvidence": "Organizer explicitly1November2026; fullagenda10:00registration/opening,11:00speakers,17:00–18:00closing.",
+          "description": "A one-day conference on personal branding, media, content and AI tools in marketing. The organizer publishes a timed programme ending at 18:00.",
+          "timeUnknown": false,
+          "lat": 59.918839207193344,
+          "lng": 30.30821470059584,
+          "coordinateSource": "https://www.afisha.ru/exhibition/mediakonfa-2026-v-izmaylovskom-1014685/?tab=schedule",
+          "coordinatePrecision": "venue",
+          "coordinateEvidence": "Afisha named venue address and exact AddressGeoPoint matched to organizer/ticket page address.",
+          "titleEn": "Mediaconfa 2026",
+          "venueEn": "Izmailovsky Training Centre",
+          "addressEn": "Izmailovsky Avenue, 2 / Fontanka River Embankment, 120, fourth floor",
+          "end": "18:00",
+          "min": true,
+          "sourceURLs": [
+            "https://arenda-zala.spb.ru/mediaconfa",
+            "https://www.afisha.ru/exhibition/mediakonfa-2026-v-izmaylovskom-1014685/?tab=schedule"
+          ],
+          "sourceCategory": "conference",
+          "publicationStatus": "verified",
+          "placeId": "venue-d85ce00872c5c5b8",
+          "venueId": "venue-d85ce00872c5c5b8",
+          "startAt": "2026-11-01T10:00:00+03:00",
+          "priceLabel": "from 2800 RUB"
+        },
+        "originalFeedSHA256": "65e84352440903665dfe03e8082625262d9662e86c951e426798ceb79aab74b2",
+        "freshSource": {
+          "url": "https://arenda-zala.spb.ru/mediaconfa",
+          "checkedAt": "2026-10-30T04:11:56.947549+00:00",
+          "status": 200,
+          "finalUrl": "https://arenda-zala.spb.ru/mediaconfa",
+          "rawPath": "resume-20261029/maintenance/moscow-spb-conferences-20261030/raw/d19f18fde02e647a.raw",
+          "rawSHA256": "9f4cfcfaa979d43883d5468db5905d47fafabb906b93a10ec5ca2abebec558d8",
+          "classification": "read_requires_manual_semantic_review"
+        },
+        "decision": "READY exact membership and removal of stale numeric2800; current numerical tariff HOLD",
+        "confirmed": {
+          "date": "2026-11-01",
+          "time": "10:00",
+          "timezone": "Europe/Moscow",
+          "openingRegistrationNetworking": "10:00–11:00 (includes actual opening, not registration only)",
+          "speakerProgramme": "11:00–13:00 and14:00–17:00",
+          "closing": "17:00–18:00",
+          "end": "18:00",
+          "venueAddressMatchesExisting": true,
+          "cancelledOrSoldOutVisible": false
+        },
+        "semanticEvidence": [
+          "Нейросети в маркетинге",
+          "ИИ-инструменты и тренды, которые реально работают в маркетинге и бизнесе",
+          "МЕДИА • МАРКЕТИНГ • ЛИЧНЫЙ БРЕНД • КОНТЕНТ"
+        ],
+        "priceEvidence": {
+          "standardDisplayedRUB": 3500,
+          "VIPDisplayedRUB": 6500,
+          "quote": "Успейте приобрести по текущей цене! С 30 октября стоимость повысится.",
+          "ambiguity": "Read occurred on Oct30 local morning. Page still shows3500/6500 and a same-day increase warning without replacement rates. These are displayed source tariffs, not verified checkout amounts or guaranteed availability.",
+          "mandatoryFees": null,
+          "freeVideoBoothNotFreeEvent": true,
+          "fullVisiblePriceSection": "Стоимость участия Успейте приобрести по текущей цене! С 30 октября стоимость повысится. УЧАСТИЕ В МЕДИАКОНФЕ 2026 в \"Измайловском\" 3500₽ В билет включены: -Участие в лекциях, воркшопах и мастер-классах МЕДИАКОНФЫ 2026; -Участие в нетворкинге; -Кофе-брейк; -Доступ к видеоредактору \"Мовавика\" на 2 месяца; -Фото с мероприятия. УЧАСТВОВАТЬ VIP-УЧАСТИЕ В МЕДИАКОНФЕ 2026 в \"Измайловском\" 6500₽ В билет включены: -Гарантированное место в первом ряду; -Участие в лекциях, воркшопах и мастер-классах МЕДИАКОНФЫ 2026; -Участие в нетворкинге; -Кофе-брейк; -Обед; -Безлимитный чай/кофе в течение всего мероприятия; -Доступ к видеоредактору \"Мовавика\" на 2 месяца; -Фото с мероприятия. УЧАСТВОВАТЬ "
+        },
+        "proposedMembership": {
+          "city": "saint-petersburg",
+          "id": "saint-petersburg-oct24-conference-1014685",
+          "date": "2026-11-01",
+          "topics": [
+            "ai",
+            "marketing",
+            "media"
+          ],
+          "format": "conference",
+          "sourceUrl": "https://arenda-zala.spb.ru/mediaconfa",
+          "checkedAt": "2026-10-30T04:11:56.947549+00:00"
+        },
+        "eventFieldPatch": {
+          "price": null,
+          "min": false,
+          "priceLabel": "Price to confirm: source displays3500 RUB standard /6500 RUB VIP, with a price-rise warning from30October",
+          "admission": "Registration required. Conference opening and networking start at10:00; speaker sessions11:00; closing ends18:00. Source displays standard3500 RUB / VIP6500 RUB and warns prices increase from30October, without a replacement tariff. Confirm current price before purchase; mandatory fees and ticket availability unknown. Historical16+ rating was not reverified in this read."
+        },
+        "pin": "Existing Afisha named venue point not re-read; own address matches Izmailovsky2 / Fontanka120,4thfloor. No coordinate change.",
+        "preserve": [
+          "id",
+          "date",
+          "time",
+          "startAt",
+          "end",
+          "timezone",
+          "coordinates",
+          "sourceURLs",
+          "original historical checkedAt in history"
+        ],
+        "priceAlternativeIfPolicyRequiresCheckoutConfirmedRate": "Not an alternative: recommended numeric price null because same-day increase is unresolved. Preserve displayed tariffs as qualified text only.",
+        "programmeEvidence": "Программа конференции 1 ноября 2026 (воскресенье) 10:00 – 11:00 10:00 – 11:00 Регистрация. Открытие конференции. Свободный нетворкинг 11:00 – 13:00 11:00 – 13:00 Выступление спикеров, панельная дискуссия 13:00 – 14:00 13:00 – 14:00 Обед 14:00 – 17:00 14:00 – 17:00 Выступление спикеров, нетворкинг 17:00 – 18.00 17:00 – 18.00 Завершение конференции Участвую! "
+      }
+    ],
+    "statusLimit": "No cancellation or soldout notice seen does not independently verify bookable stock. No unknown age/fees/pins inferred.",
+    "historicalClockPolicy": "Preserve original Oct24 checks as history; fresh field-specific Oct30 evidence clock is not a blanket refresh of coordinate/age/checkout facts."
+  },
+  "independentPeerSHA256": "01b59c868a05042be8245a0ddbdd5601eec95303bf13c78a5c2ff3341d2b1551",
+  "originalRecords": [
+    {
+      "path": "public/saint-petersburg/events.json",
+      "record": {
+        "id": "saint-petersburg-oct24-conference-1014685",
+        "programmeId": "afisha-1014685",
+        "cityId": "saint-petersburg",
+        "city": "Saint Petersburg",
+        "kind": "event",
+        "title": "Медиаконфа-2026 в «Измайловском»",
+        "date": "2026-11-01",
+        "time": "10:00",
+        "timezone": "Europe/Moscow",
+        "category": "conference",
+        "venue": "Тренинг-центр «Измайловский»",
+        "address": "Измайловский проспект, 2 / наб. реки Фонтанки, 120, 4 этаж",
+        "source": "Izmailovsky Training Centre",
+        "sourceUrl": "https://arenda-zala.spb.ru/mediaconfa",
+        "checkedAt": "2026-10-24T06:00:07Z",
+        "currency": "RUB",
+        "price": 2800,
+        "language": null,
+        "status": "scheduled",
+        "admission": "16+; registration required. Opening and networking at 10:00; speaker sessions begin at 11:00. Standard ticket 2800 RUB, VIP 5800 RUB; organizer announces price increase from 27 October. Mandatory fees unknown.",
+        "mandatoryFees": null,
+        "availabilityVerified": false,
+        "yearEvidence": "Organizer explicitly1November2026; fullagenda10:00registration/opening,11:00speakers,17:00–18:00closing.",
+        "description": "A one-day conference on personal branding, media, content and AI tools in marketing. The organizer publishes a timed programme ending at 18:00.",
+        "timeUnknown": false,
+        "lat": 59.918839207193344,
+        "lng": 30.30821470059584,
+        "coordinateSource": "https://www.afisha.ru/exhibition/mediakonfa-2026-v-izmaylovskom-1014685/?tab=schedule",
+        "coordinatePrecision": "venue",
+        "coordinateEvidence": "Afisha named venue address and exact AddressGeoPoint matched to organizer/ticket page address.",
+        "titleEn": "Mediaconfa 2026",
+        "venueEn": "Izmailovsky Training Centre",
+        "addressEn": "Izmailovsky Avenue, 2 / Fontanka River Embankment, 120, fourth floor",
+        "end": "18:00",
+        "min": true,
+        "sourceURLs": [
+          "https://arenda-zala.spb.ru/mediaconfa",
+          "https://www.afisha.ru/exhibition/mediakonfa-2026-v-izmaylovskom-1014685/?tab=schedule"
+        ],
+        "sourceCategory": "conference",
+        "publicationStatus": "verified",
+        "placeId": "venue-d85ce00872c5c5b8",
+        "venueId": "venue-d85ce00872c5c5b8",
+        "startAt": "2026-11-01T10:00:00+03:00",
+        "priceLabel": "from 2800 RUB"
+      }
+    },
+    {
+      "path": "public/en/saint-petersburg/events.json",
+      "record": {
+        "id": "saint-petersburg-oct24-conference-1014685",
+        "programmeId": "afisha-1014685",
+        "cityId": "saint-petersburg",
+        "city": "Saint Petersburg",
+        "kind": "event",
+        "title": "Mediaconfa 2026",
+        "date": "2026-11-01",
+        "time": "10:00",
+        "timezone": "Europe/Moscow",
+        "category": "conference",
+        "venue": "Izmailovsky Training Centre",
+        "address": "Izmailovsky Avenue, 2 / Fontanka River Embankment, 120, fourth floor",
+        "source": "Izmailovsky Training Centre",
+        "sourceUrl": "https://arenda-zala.spb.ru/mediaconfa",
+        "checkedAt": "2026-10-24T06:00:07Z",
+        "currency": "RUB",
+        "price": 2800,
+        "language": null,
+        "status": "scheduled",
+        "admission": "16+; registration required. Opening and networking at 10:00; speaker sessions begin at 11:00. Standard ticket 2800 RUB, VIP 5800 RUB; organizer announces price increase from 27 October. Mandatory fees unknown.",
+        "mandatoryFees": null,
+        "availabilityVerified": false,
+        "yearEvidence": "Organizer explicitly1November2026; fullagenda10:00registration/opening,11:00speakers,17:00–18:00closing.",
+        "description": "A one-day conference on personal branding, media, content and AI tools in marketing. The organizer publishes a timed programme ending at 18:00.",
+        "timeUnknown": false,
+        "lat": 59.918839207193344,
+        "lng": 30.30821470059584,
+        "coordinateSource": "https://www.afisha.ru/exhibition/mediakonfa-2026-v-izmaylovskom-1014685/?tab=schedule",
+        "coordinatePrecision": "venue",
+        "coordinateEvidence": "Afisha named venue address and exact AddressGeoPoint matched to organizer/ticket page address.",
+        "titleEn": "Mediaconfa 2026",
+        "venueEn": "Izmailovsky Training Centre",
+        "addressEn": "Izmailovsky Avenue, 2 / Fontanka River Embankment, 120, fourth floor",
+        "end": "18:00",
+        "min": true,
+        "sourceURLs": [
+          "https://arenda-zala.spb.ru/mediaconfa",
+          "https://www.afisha.ru/exhibition/mediakonfa-2026-v-izmaylovskom-1014685/?tab=schedule"
+        ],
+        "sourceCategory": "conference",
+        "publicationStatus": "verified",
+        "placeId": "venue-d85ce00872c5c5b8",
+        "venueId": "venue-d85ce00872c5c5b8",
+        "startAt": "2026-11-01T10:00:00+03:00",
+        "priceLabel": "from 2800 RUB"
+      }
+    }
+  ],
+  "memberships": [
+    {
+      "city": "saint-petersburg",
+      "id": "saint-petersburg-oct24-conference-1014685",
+      "date": "2026-11-01",
+      "topics": [
+        "ai",
+        "marketing",
+        "media"
+      ],
+      "format": "conference",
+      "sourceUrl": "https://arenda-zala.spb.ru/mediaconfa",
+      "checkedAt": "2026-10-30T04:11:56.947549+00:00"
+    },
+    {
+      "city": "dublin",
+      "id": "dublin-dub-ai-20261117-0930",
+      "date": "2026-11-17",
+      "topics": [
+        "ai"
+      ],
+      "format": "conference",
+      "sourceUrl": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    }
+  ],
+  "retainedDublinReview": {
+    "reviewedAt": "2026-10-30T04:33:00.097081+00:00",
+    "scope": "Offline four existing records only; no source/network/code changes",
+    "networkRequests": 0,
+    "currentGateRows": 167,
+    "gatePredicateUnchanged": "Exact city+id+date and kind !=place; no category fallback.",
+    "filterMeaning": "Conferences, meetups and talks about AI, IT, product, marketing, startups, science and the future.",
+    "rows": [
+      {
+        "city": "singapore",
+        "id": "sg-esp-a9cea1a88e6b4ddca836e8a4d075744b-20261125-1900",
+        "date": "2026-11-25",
+        "time": "19:00",
+        "end": "21:00",
+        "title": "Asian Intercultural Conference (AIC) 2026: Staging the Unseen: Bodies, Power, and Belonging",
+        "description": "Artists and researchers discuss performance, identity, community and intercultural theatre practice.",
+        "admission": "Ages 6+; English. Standard conference ticket SGD 150, concession SGD 105. The ticket’s coverage across days is not established, so no per-session price is asserted. Expired early-bird offers and the closed-door funders’ dialogue are excluded.",
+        "price": null,
+        "currency": "SGD",
+        "sourceUrl": "https://www.esplanade.com/whats-on/2026/asian-intercultural-conference-aic-2026-staging-the-unseen-bodies-power-and-belonging",
+        "historicalCheckedAt": "2026-10-29T02:45:14.926914+00:00",
+        "currentStatus": "scheduled",
+        "currentCategory": "conference",
+        "alreadyReviewed": false,
+        "retainedEvidencePath": "resume-20261029/site/data/capitals-20261029/singapore-research-publisher.json",
+        "fullRawLocated": false,
+        "offlineHostGuard": {
+          "allowed": true,
+          "reason": "no recorded stop; response still requires classification",
+          "ledgerHashes": {
+            "audit/historical-shared-stops.json": "2373a2f58374a0f189259e5979fe64d28ec98c9bb47e2d5583695605d46b5c11",
+            "audit/access-stop-additions.json": "5115bc78e898de858f8dbab7821ffe0af6a49377f7b002a51a9b01b4c2308203",
+            "maintenance/stops.json": "b8db437de87636ab76fcf96e50379f6e650faaea3a33206419032bbabde1ff09",
+            "preparation-research/stops.json": "9e2ea2b074831d52fdf6eef43b3e1d72287910b9799b6705d42ddb6cac782fd7",
+            "research/stops.json": "aa689d3392b84cc1e9ca3dc28113f033df729749bbd69d85b0dd47bcd7cc9dc4",
+            "safety/new-stops.json": "67e08bc119730e51f59e1c537539ff65b8d75dfd196bc14d597bae50e06b4017",
+            "safety/historical-source-stops.json": "af0ef2c93423106865716bb14842e636b9606f0f0c562fbe81077334d2465f3d"
+          }
+        },
+        "recordPatch": {},
+        "decision": "NO_MEMBERSHIP: thematic fit not demonstrated",
+        "confidence": "high that the preserved description supports arts/intercultural-performance conference, not the filter technology/science remit",
+        "reason": "Artists/researchers discussing performance, identity, community and intercultural theatre does not establish AI, IT, product, marketing, startups, science or future-tech content. Researcher participation alone is not proof of science-filter relevance. Do not automatically whitelist category conference or relabel the event.",
+        "proposedMembership": null,
+        "accessCaveats": "SGD150 standard/105 concession coverage across days unknown; keep numeric per-session price null. Closed-door funder dialogue and expired early bird remain excluded."
+      },
+      {
+        "city": "singapore",
+        "id": "sg-esp-a9cea1a88e6b4ddca836e8a4d075744b-20261126-1930",
+        "date": "2026-11-26",
+        "time": "19:30",
+        "end": "21:00",
+        "title": "Asian Intercultural Conference (AIC) 2026: Staging the Unseen: Bodies, Power, and Belonging",
+        "description": "Artists and researchers discuss performance, identity, community and intercultural theatre practice.",
+        "admission": "Ages 6+; English. Standard conference ticket SGD 150, concession SGD 105. The ticket’s coverage across days is not established, so no per-session price is asserted. Expired early-bird offers and the closed-door funders’ dialogue are excluded.",
+        "price": null,
+        "currency": "SGD",
+        "sourceUrl": "https://www.esplanade.com/whats-on/2026/asian-intercultural-conference-aic-2026-staging-the-unseen-bodies-power-and-belonging",
+        "historicalCheckedAt": "2026-10-29T02:45:14.926914+00:00",
+        "currentStatus": "scheduled",
+        "currentCategory": "conference",
+        "alreadyReviewed": false,
+        "retainedEvidencePath": "resume-20261029/site/data/capitals-20261029/singapore-research-publisher.json",
+        "fullRawLocated": false,
+        "offlineHostGuard": {
+          "allowed": true,
+          "reason": "no recorded stop; response still requires classification",
+          "ledgerHashes": {
+            "audit/historical-shared-stops.json": "2373a2f58374a0f189259e5979fe64d28ec98c9bb47e2d5583695605d46b5c11",
+            "audit/access-stop-additions.json": "5115bc78e898de858f8dbab7821ffe0af6a49377f7b002a51a9b01b4c2308203",
+            "maintenance/stops.json": "b8db437de87636ab76fcf96e50379f6e650faaea3a33206419032bbabde1ff09",
+            "preparation-research/stops.json": "9e2ea2b074831d52fdf6eef43b3e1d72287910b9799b6705d42ddb6cac782fd7",
+            "research/stops.json": "aa689d3392b84cc1e9ca3dc28113f033df729749bbd69d85b0dd47bcd7cc9dc4",
+            "safety/new-stops.json": "67e08bc119730e51f59e1c537539ff65b8d75dfd196bc14d597bae50e06b4017",
+            "safety/historical-source-stops.json": "af0ef2c93423106865716bb14842e636b9606f0f0c562fbe81077334d2465f3d"
+          }
+        },
+        "recordPatch": {},
+        "decision": "NO_MEMBERSHIP: thematic fit not demonstrated",
+        "confidence": "high that the preserved description supports arts/intercultural-performance conference, not the filter technology/science remit",
+        "reason": "Artists/researchers discussing performance, identity, community and intercultural theatre does not establish AI, IT, product, marketing, startups, science or future-tech content. Researcher participation alone is not proof of science-filter relevance. Do not automatically whitelist category conference or relabel the event.",
+        "proposedMembership": null,
+        "accessCaveats": "SGD150 standard/105 concession coverage across days unknown; keep numeric per-session price null. Closed-door funder dialogue and expired early bird remain excluded."
+      },
+      {
+        "city": "singapore",
+        "id": "sg-esp-a9cea1a88e6b4ddca836e8a4d075744b-20261127-1900",
+        "date": "2026-11-27",
+        "time": "19:00",
+        "end": "21:00",
+        "title": "Asian Intercultural Conference (AIC) 2026: Staging the Unseen: Bodies, Power, and Belonging",
+        "description": "Artists and researchers discuss performance, identity, community and intercultural theatre practice.",
+        "admission": "Ages 6+; English. Standard conference ticket SGD 150, concession SGD 105. The ticket’s coverage across days is not established, so no per-session price is asserted. Expired early-bird offers and the closed-door funders’ dialogue are excluded.",
+        "price": null,
+        "currency": "SGD",
+        "sourceUrl": "https://www.esplanade.com/whats-on/2026/asian-intercultural-conference-aic-2026-staging-the-unseen-bodies-power-and-belonging",
+        "historicalCheckedAt": "2026-10-29T02:45:14.926914+00:00",
+        "currentStatus": "scheduled",
+        "currentCategory": "conference",
+        "alreadyReviewed": false,
+        "retainedEvidencePath": "resume-20261029/site/data/capitals-20261029/singapore-research-publisher.json",
+        "fullRawLocated": false,
+        "offlineHostGuard": {
+          "allowed": true,
+          "reason": "no recorded stop; response still requires classification",
+          "ledgerHashes": {
+            "audit/historical-shared-stops.json": "2373a2f58374a0f189259e5979fe64d28ec98c9bb47e2d5583695605d46b5c11",
+            "audit/access-stop-additions.json": "5115bc78e898de858f8dbab7821ffe0af6a49377f7b002a51a9b01b4c2308203",
+            "maintenance/stops.json": "b8db437de87636ab76fcf96e50379f6e650faaea3a33206419032bbabde1ff09",
+            "preparation-research/stops.json": "9e2ea2b074831d52fdf6eef43b3e1d72287910b9799b6705d42ddb6cac782fd7",
+            "research/stops.json": "aa689d3392b84cc1e9ca3dc28113f033df729749bbd69d85b0dd47bcd7cc9dc4",
+            "safety/new-stops.json": "67e08bc119730e51f59e1c537539ff65b8d75dfd196bc14d597bae50e06b4017",
+            "safety/historical-source-stops.json": "af0ef2c93423106865716bb14842e636b9606f0f0c562fbe81077334d2465f3d"
+          }
+        },
+        "recordPatch": {},
+        "decision": "NO_MEMBERSHIP: thematic fit not demonstrated",
+        "confidence": "high that the preserved description supports arts/intercultural-performance conference, not the filter technology/science remit",
+        "reason": "Artists/researchers discussing performance, identity, community and intercultural theatre does not establish AI, IT, product, marketing, startups, science or future-tech content. Researcher participation alone is not proof of science-filter relevance. Do not automatically whitelist category conference or relabel the event.",
+        "proposedMembership": null,
+        "accessCaveats": "SGD150 standard/105 concession coverage across days unknown; keep numeric per-session price null. Closed-door funder dialogue and expired early bird remain excluded."
+      },
+      {
+        "city": "dublin",
+        "id": "dublin-dub-ai-20261117-0930",
+        "date": "2026-11-17",
+        "time": "09:30",
+        "end": "14:00",
+        "title": "AI Awards 2026",
+        "description": "Церемония, обсуждения и нетворкинг сообщества искусственного интеллекта.",
+        "admission": "Билет и ID обязательны; smart casual. Регистрация 08:30, программа 09:30; обед включён.",
+        "price": 250,
+        "currency": "EUR",
+        "sourceUrl": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+        "historicalCheckedAt": "2026-10-28T07:53:40.100169+00:00",
+        "currentStatus": "scheduled",
+        "currentCategory": "conference",
+        "alreadyReviewed": false,
+        "retainedEvidencePath": "resume-20261029/site/data/capitals-20261028/dublin-research.json",
+        "fullRawLocated": false,
+        "offlineHostGuard": {
+          "allowed": true,
+          "reason": "no recorded stop; response still requires classification",
+          "ledgerHashes": {
+            "audit/historical-shared-stops.json": "2373a2f58374a0f189259e5979fe64d28ec98c9bb47e2d5583695605d46b5c11",
+            "audit/access-stop-additions.json": "5115bc78e898de858f8dbab7821ffe0af6a49377f7b002a51a9b01b4c2308203",
+            "maintenance/stops.json": "b8db437de87636ab76fcf96e50379f6e650faaea3a33206419032bbabde1ff09",
+            "preparation-research/stops.json": "9e2ea2b074831d52fdf6eef43b3e1d72287910b9799b6705d42ddb6cac782fd7",
+            "research/stops.json": "aa689d3392b84cc1e9ca3dc28113f033df729749bbd69d85b0dd47bcd7cc9dc4",
+            "safety/new-stops.json": "67e08bc119730e51f59e1c537539ff65b8d75dfd196bc14d597bae50e06b4017",
+            "safety/historical-source-stops.json": "af0ef2c93423106865716bb14842e636b9606f0f0c562fbe81077334d2465f3d"
+          }
+        },
+        "recordPatch": {},
+        "decision": "PROPOSE_EXACT_MEMBERSHIP_ON_RETAINED_STRUCTURED_EVIDENCE",
+        "confidence": "moderate-high semantic fit; no fresh full-body/status/ticket verification",
+        "reason": "Retained author programme explicitly describes an AI-community awards ceremony with discussions and networking, categories conference/technology. AI topic is direct, not inferred from generic conference tag. It is a mixed awards/networking programme, not solely a scientific lecture.",
+        "proposedMembership": {
+          "city": "dublin",
+          "id": "dublin-dub-ai-20261117-0930",
+          "date": "2026-11-17",
+          "topics": [
+            "ai"
+          ],
+          "format": "conference",
+          "sourceUrl": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+          "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+        },
+        "accessCaveats": "Public paid ticket250EUR, nominees99/students49 only eligible; ticket+ID/smart casual; registration08:30 distinct from09:30 programme. Preserve interval14:00, fees/stock not newly verified."
+      }
+    ],
+    "totals": {
+      "reviewedRecords": 4,
+      "proposedMemberships": 1,
+      "noThematicMembership": 3,
+      "freshFullBodyReads": 0
+    },
+    "DublinOriginalRetainedProgramme": {
+      "id": "dub-ai",
+      "title": "AI Awards 2026",
+      "summary": "Церемония, обсуждения и нетворкинг сообщества искусственного интеллекта.",
+      "summaryEn": "An awards ceremony, discussions and networking for Ireland’s AI community.",
+      "categories": [
+        "conference",
+        "technology"
+      ],
+      "venue": "Radisson Blu Royal Hotel",
+      "venueDetail": "Radisson Blu Royal Hotel",
+      "address": "Golden Lane, Dublin 8",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+      "sourceUrls": [
+        "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+        "https://aiawards.ie/",
+        "https://dublin.ie/whats-on/listings/ai-awards/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "ticket-66.json",
+        "primary-66.json",
+        "event-66.json"
+      ],
+      "yearEvidenceUrl": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-17",
+          "startTime": "09:30",
+          "endTime": "14:00",
+          "doorsTime": "08:30",
+          "evidenceUrl": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 250,
+        "max": 250,
+        "details": "€250 full ticket; nominees €99, students €49 subject to conditions; early bird over."
+      },
+      "restrictions": "Билет и ID обязательны; smart casual. Регистрация 08:30, программа 09:30; обед включён.",
+      "restrictionsEn": "Ticket and ID required; smart casual. Registration 08:30, programme 09:30; lunch included.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+        "classification": "explicit_own_event_programme_or_access_window"
+      },
+      "ticketUrl": "https://www.eventbrite.ie/e/ai-awards-2026-tickets-1991069116325",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3408763,
+      "longitude": -6.2683225,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3408763,-6.2683225&query_place_id=ChIJ0WxXRycMZ0gRIv3nDVYfRjM",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/ai-awards/",
+        "localSnapshot": "event-66.html",
+        "checkedAt": "2026-10-28T07:47:56.487890+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    "rawLimitations": [
+      "Dublin locators ticket-66.json, primary-66.json, event-66.json/event-66.html are historical relative paths; no originals found in bounded permitted workspace search.",
+      "Singapore primary Esplanade body not located; source-attributed published packet retained.",
+      "Eventbrite historical STOP remains enforceable, regardless of historical successful read. No network attempted or stop cleared.",
+      "All source clocks are historical, not this offline review time; no availability/fees/coordinates/date refresh claimed."
+    ],
+    "inputs": [
+      {
+        "path": "resume-20261029/site/public/catalog-modes.js",
+        "sha256": "307896c964fdafc7af1c9a3f1f4b1450e3a4fa07e4ef02fd6ef3c13486cef191"
+      },
+      {
+        "path": "resume-20261029/site/public/singapore/events.json",
+        "sha256": "bacbe76e3fe39947751b4dab0d01661658dd284089059d1f86397cb56f951853"
+      },
+      {
+        "path": "resume-20261029/site/data/capitals-20261029/singapore-research-publisher.json",
+        "sha256": "b4ab479fff4461053e99eadf0298f67a55c346e6c335449ca6e9649f193e4d64"
+      },
+      {
+        "path": "resume-20261029/site/public/dublin/events.json",
+        "sha256": "da6c57eca34612e10decf71e2d6e2be32de6e0214a4723529df6ae5b00c3c246"
+      },
+      {
+        "path": "resume-20261029/site/data/capitals-20261028/dublin-research.json",
+        "sha256": "2c82f29d16e1fa3b3c811cbd4b6e90d9b3e434eaeb64581f50574d3ebd2d772f"
+      }
+    ]
+  },
+  "DublinPeerSHA256": "31b99925d11d6137e2cc42a3c538cafc7bd6ae015d35fc3dccc1a9d7586498d4",
+  "evidenceSeparation": "SPb fresh primary body; Dublin historical structured-only evidence, original raw unavailable and Eventbrite family HOLD. No Dublin record/clocks changed; Singapore AIC three sessions explicitly excluded.",
+  "clockPolicy": "Historical checkedAt and coordinate evidence unchanged; sourceReadAt/priceCheckedAt are actual source-specific retrieval timestamps, not compile/review time. Displayed 3500/6500 are not confirmed current checkout prices."
+}

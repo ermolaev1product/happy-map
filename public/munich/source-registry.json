@@ -1,0 +1,247 @@
+{
+  "city": "Munich",
+  "checkedAt": "2026-11-02T10:03:46Z",
+  "sources": [
+    {
+      "id": "source-5e2561741fb5",
+      "name": "Munich Travel November calendar",
+      "url": "https://www.munich.travel/artikel/veranstaltungskalender/november-muenchen",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "read_partial",
+      "accessStatus": "read_partial",
+      "count": 0,
+      "note": "Official tourism November 2026 highlights read; selection not complete city calendar."
+    },
+    {
+      "id": "source-920bb72ff0a3",
+      "name": "THEA November",
+      "url": "https://www.thea.info/november",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "read_partial",
+      "accessStatus": "read_partial",
+      "count": 0,
+      "note": "First page only; 77 results indicated. No membership-only tickets imported."
+    },
+    {
+      "id": "source-936ddd11fb1b",
+      "name": "muenchen.de November",
+      "url": "https://www.muenchen.de/veranstaltungen/november",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "technical_unavailable",
+      "accessStatus": "technical_unavailable",
+      "count": 0,
+      "note": "HTTP405; no bypass or retry, not asserted security denial."
+    },
+    {
+      "id": "source-e9fb7db9b2d8",
+      "name": "Residenztheater programme",
+      "url": "https://www.residenztheater.de/spielplan",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_partial",
+      "count": 35,
+      "note": "November programme read in multiple overlapping sections through30November; most public sessions captured. Several restricted/school-only programmes excluded; exact venue unknown for youthclub and offsite walk. December1notyetchecked."
+    },
+    {
+      "id": "source-26c008e5c834",
+      "name": "Gasteig programme",
+      "url": "https://www.gasteig.de/veranstaltungen/",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "read_partial",
+      "accessStatus": "read_partial",
+      "count": 0,
+      "note": "Programme first visible page and ten direct dated event bodies, art and literature festival pages. Load-more not traversed; no complete 30-day claim."
+    },
+    {
+      "id": "source-4e8d0def7893",
+      "name": "GOROD programme",
+      "url": "https://www.newgorod.org/meropriyatiya",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "read_full_visible",
+      "accessStatus": "read_full_visible",
+      "count": 0,
+      "note": "Seven visible cards read, one elapsed excluded, six future direct event bodies fully read. No hidden pagination claim; ticket vendors not visited."
+    },
+    {
+      "id": "source-cda824bd75ae",
+      "name": "Deutsches Museum Freie Maschinen",
+      "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/freie-maschinen",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "read_full_relevant_body",
+      "accessStatus": "read_full_relevant_body",
+      "count": 0,
+      "note": "Full dated visit schedule read; omitted dates are not active. Tourism start date superseded by official 8 October. Admission linkage left unknown."
+    },
+    {
+      "id": "source-e8d0cc96071e",
+      "name": "Deutsches Museum official closures",
+      "url": "https://www.deutsches-museum.de/museumsinsel/besuch/oeffnungszeiten",
+      "checkedAt": "2026-11-02T10:03:46Z",
+      "status": "read_full_relevant_body",
+      "accessStatus": "read_full_relevant_body",
+      "count": 0,
+      "note": "Official entire-day Museumsinsel exhibition closures1and11November2026."
+    },
+    {
+      "id": "source-d1f742b6c281",
+      "name": "www.gasteig.de",
+      "url": "https://www.gasteig.de/veranstaltungen/carmina-burana-2/",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-cbcc3f0d6332",
+      "name": "www.gasteig.de",
+      "url": "https://www.gasteig.de/veranstaltungen/raffaele-casarano-bazar-live/",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-8edd7f24d02b",
+      "name": "www.gasteig.de",
+      "url": "https://www.gasteig.de/veranstaltungen/konzert-des-brso-takemitsu-britten-rachmaninow/",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 2,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-62130d744764",
+      "name": "www.gasteig.de",
+      "url": "https://www.gasteig.de/veranstaltungen/konzert-des-brso-mahler/",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-6935734a5ee6",
+      "name": "www.gasteig.de",
+      "url": "https://www.gasteig.de/veranstaltungen/luxembourg-philharmonic-orchestra/",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-fbe9d3076462",
+      "name": "www.gasteig.de",
+      "url": "https://www.gasteig.de/veranstaltungen/queeres-literaturfestival-4/",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-b284753e0fde",
+      "name": "www.gasteig.de",
+      "url": "https://www.gasteig.de/veranstaltungen/queeres-literaturfestival-3/",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-0609e96e05ed",
+      "name": "www.gasteig.de",
+      "url": "https://www.gasteig.de/veranstaltungen/uebersetzerinnen-im-gespraech-mit-sonja-finck-frank-weigand/",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-444560a9ecbf",
+      "name": "www.gasteig.de",
+      "url": "https://www.gasteig.de/veranstaltungen/queere-lyrik-alexander-schnickmann-gestirne-anna-julian-mendlik-dante-im-darkroom/",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-737619d0ea5b",
+      "name": "www.newgorod.org",
+      "url": "https://www.newgorod.org/events/dan-the-stranger-standup-show-the-man",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-bb736e9b829f",
+      "name": "www.newgorod.org",
+      "url": "https://www.newgorod.org/events/tamara-eidelman-in-munchen-wie-nationen-entstehen-und-verschwinden",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-d7296f52f9a7",
+      "name": "www.newgorod.org",
+      "url": "https://www.newgorod.org/events/mikhail-shats-in-munchen-stand-up-comedy-aufzug-selfie",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-8d503a48a358",
+      "name": "www.newgorod.org",
+      "url": "https://www.newgorod.org/events/das-fest-nach-der-komodie-tribute-von-bernard-slade-1-1",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-096e95fb513b",
+      "name": "www.newgorod.org",
+      "url": "https://www.newgorod.org/events/tarakany-35-jahre-dmitry-spirin-tournee-in-deutschland",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-a5c5ea288c11",
+      "name": "www.newgorod.org",
+      "url": "https://www.newgorod.org/events/ilya-akselrod-in-munchen-stand-up-tournee",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    },
+    {
+      "id": "source-dd0243001960",
+      "name": "Gasteig HP8",
+      "url": "https://www.gasteig.de/veranstaltungen/we-are-video-spark-b0094/",
+      "checkedAt": "2026-11-02T09:59:33Z",
+      "status": "imported",
+      "accessStatus": "read_full_relevant_body",
+      "count": 1,
+      "note": "Individual dated announcement read through relevant date, venue, programme and price/access sections. No ticket checkout; fees may remain unknown."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

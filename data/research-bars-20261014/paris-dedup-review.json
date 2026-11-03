@@ -1,0 +1,258 @@
+{
+  "same_name_nearby_pairs": [
+    {
+      "candidate_ids": [
+        "osm:node:815764595",
+        "osm:node:13340259868"
+      ],
+      "names": [
+        "The Cricketer",
+        "The Cricketer"
+      ],
+      "addresses": [
+        null,
+        null
+      ],
+      "distance_metres_approx": 23.9,
+      "same_nonempty_address": false,
+      "same_nonempty_website": false,
+      "action": "review_same_name_nearby_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:node:1812659246",
+        "osm:node:4038906093"
+      ],
+      "names": [
+        "La Panthère Ose",
+        "La Panthère Ose"
+      ],
+      "addresses": [
+        "42 Rue Marguerite de Rochechouart",
+        null
+      ],
+      "distance_metres_approx": 30.0,
+      "same_nonempty_address": false,
+      "same_nonempty_website": false,
+      "action": "review_same_name_nearby_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:node:2283655494",
+        "osm:node:6095596485"
+      ],
+      "names": [
+        "Le refuge",
+        "Le Refuge"
+      ],
+      "addresses": [
+        "6-8 Place de la Bataille de Stalingrad 75019 Paris",
+        null
+      ],
+      "distance_metres_approx": 126.9,
+      "same_nonempty_address": false,
+      "same_nonempty_website": false,
+      "action": "review_same_name_nearby_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:node:5353492574",
+        "osm:node:12459495701"
+      ],
+      "names": [
+        "Le Mousk",
+        "Le Mousk"
+      ],
+      "addresses": [
+        null,
+        "168 Rue Saint-Martin 75003"
+      ],
+      "distance_metres_approx": 9.8,
+      "same_nonempty_address": false,
+      "same_nonempty_website": false,
+      "action": "review_same_name_nearby_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:node:10201239984",
+        "osm:way:1392683807"
+      ],
+      "names": [
+        "Annette K",
+        "Annette K"
+      ],
+      "addresses": [
+        null,
+        null
+      ],
+      "distance_metres_approx": 41.4,
+      "same_nonempty_address": false,
+      "same_nonempty_website": false,
+      "action": "review_same_name_nearby_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:way:618752756",
+        "osm:way:1392687175"
+      ],
+      "names": [
+        "Rosa Bonheur sur Seine",
+        "Rosa Bonheur sur Seine"
+      ],
+      "addresses": [
+        "37 Quai d'Orsay 75007",
+        "37 Quai d'Orsay 75007"
+      ],
+      "distance_metres_approx": 28.2,
+      "same_nonempty_address": true,
+      "same_nonempty_website": true,
+      "action": "review_same_name_nearby_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:way:618752756",
+        "osm:way:1392687178"
+      ],
+      "names": [
+        "Rosa Bonheur sur Seine",
+        "Rosa Bonheur sur Seine"
+      ],
+      "addresses": [
+        "37 Quai d'Orsay 75007",
+        "Quai d'Orsay"
+      ],
+      "distance_metres_approx": 26.8,
+      "same_nonempty_address": false,
+      "same_nonempty_website": true,
+      "action": "review_same_name_nearby_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:way:1392687175",
+        "osm:way:1392687178"
+      ],
+      "names": [
+        "Rosa Bonheur sur Seine",
+        "Rosa Bonheur sur Seine"
+      ],
+      "addresses": [
+        "37 Quai d'Orsay 75007",
+        "Quai d'Orsay"
+      ],
+      "distance_metres_approx": 11.8,
+      "same_nonempty_address": false,
+      "same_nonempty_website": true,
+      "action": "review_same_name_nearby_not_auto_merge"
+    }
+  ],
+  "same_address_different_name_pairs": [
+    {
+      "candidate_ids": [
+        "osm:node:1164839323",
+        "osm:node:10879400705"
+      ],
+      "names": [
+        "Hellfest Corner",
+        "The Joke"
+      ],
+      "address": "37 Rue Quincampoix 75004 Paris",
+      "distance_metres_approx": 7.9,
+      "action": "review_possible_rebranding_or_colocated_venues_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:node:2696636916",
+        "osm:node:10705447960"
+      ],
+      "names": [
+        "L'Ivress",
+        "Vignes en ville"
+      ],
+      "address": "5 Rue Poissonnière",
+      "distance_metres_approx": 68.9,
+      "action": "review_possible_rebranding_or_colocated_venues_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:node:4762218233",
+        "osm:node:5584661121"
+      ],
+      "names": [
+        "Les Justes",
+        "L'Injuste"
+      ],
+      "address": "1 Rue Frochot 75009 Paris",
+      "distance_metres_approx": 4.2,
+      "action": "review_possible_rebranding_or_colocated_venues_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:node:5353492568",
+        "osm:node:5353492571"
+      ],
+      "names": [
+        "L'everest Bar Beaubourg",
+        "Les Barytons"
+      ],
+      "address": "164 Rue Saint-Martin",
+      "distance_metres_approx": 19.2,
+      "action": "review_possible_rebranding_or_colocated_venues_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:node:5476706421",
+        "osm:node:7046302991"
+      ],
+      "names": [
+        "Bar à Nenette",
+        "Le Froggy"
+      ],
+      "address": "26 Rue de Lappe 75011 Paris",
+      "distance_metres_approx": 11.4,
+      "action": "review_possible_rebranding_or_colocated_venues_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:node:5941386598",
+        "osm:node:11370120153"
+      ],
+      "names": [
+        "Le Boucan",
+        "Le Black Pearl"
+      ],
+      "address": "108 Boulevard de Clichy 75018 Paris",
+      "distance_metres_approx": 7.0,
+      "action": "review_possible_rebranding_or_colocated_venues_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:node:6219537542",
+        "osm:node:6221012929"
+      ],
+      "names": [
+        "Opulence",
+        "Bar des Ferrailleurs"
+      ],
+      "address": "18 Rue de Lappe 75011 Paris",
+      "distance_metres_approx": 6.9,
+      "action": "review_possible_rebranding_or_colocated_venues_not_auto_merge"
+    },
+    {
+      "candidate_ids": [
+        "osm:node:11292380366",
+        "osm:node:11467712656"
+      ],
+      "names": [
+        "Cosmo Bar",
+        "Les Trois Roses"
+      ],
+      "address": "64 Rue Jean-Baptiste Pigalle 75009 Paris",
+      "distance_metres_approx": 4.2,
+      "action": "review_possible_rebranding_or_colocated_venues_not_auto_merge"
+    }
+  ],
+  "notes": [
+    "No auto-merges made. Officially confirmed Rosa Bonheur sur Seine complex should render once while preserving three source aliases.",
+    "Same name by itself is insufficient: multiple CRAVAN and Liquiderie branches exist."
+  ]
+}

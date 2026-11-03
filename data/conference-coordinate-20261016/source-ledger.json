@@ -1,0 +1,237 @@
+{
+  "checkedAt": "2026-10-16T18:14:00Z",
+  "scope": "Only fifteen existing v147 conference and learning rows missing coordinates. No new events or broad discovery.",
+  "sourcesByRow": [
+    {
+      "cityId": "vienna",
+      "existingId": "vienna-univie-green-20261021:2026-10-21",
+      "status": "verified_coordinate_correction_prepared_not_imported",
+      "sourceUrl": "https://www.wien.info/en/now-on/events/city-hall-1134656",
+      "supportingURLs": [
+        "https://www.wien.gv.at/rathaus/online-fuehrung-volkshalle"
+      ],
+      "evidence": "Official Vienna tourism page has a data-js-location object explicitly titled Vienna City Hall (Wiener Rathaus), with lat 48.21074755940426 and long 16.357214343130952. This is the Rathaus building point, not a claimed Volkshalle door. The event address remains Rathausplatz 1; the tourism source describes the separate guided-tour entrance on Friedrich-Schmidt-Platz. Do not replace the event address or promise access through the tour entrance.",
+      "rawEvidenceFiles": [
+        "rathaus-tourism.html",
+        "rathaus.html"
+      ]
+    },
+    {
+      "cityId": "vienna",
+      "existingId": "vienna-ai-solution-day-20261020:2026-10-20",
+      "status": "verified_coordinate_correction_prepared_not_imported",
+      "sourceUrl": "https://wexelerate.com/en/contact/",
+      "supportingURLs": [
+        "https://www.google.com/maps?q=weXelerate%2C+Praterstra%C3%9Fe+1,+1020+Wien,+Austria&z=15&output=embed"
+      ],
+      "evidence": "Official venue contact page links its embedded Google map. The map response contains the named weXelerate place tuple at Praterstraße 1 with [48.2131378,16.3796897], place ID 0x476d07a097138105:0xb580b47168686686. Extracted the place marker, not the viewport center. Closed application status is unchanged.",
+      "rawEvidenceFiles": [
+        "wexelerate.html",
+        "wexelerate-embed.html"
+      ]
+    },
+    {
+      "cityId": "prague",
+      "existingId": "prague-make-waves-main-20261020:2026-10-20",
+      "status": "verified_coordinate_correction_prepared_not_imported",
+      "sourceUrl": "https://www.cubexcentrum.cz/en/for-visitors/",
+      "supportingURLs": [
+        "https://www.google.com/maps/d/kml?mid=1VI18MQm3pt9coNNbM_ezpo6RW_kQCeM&forcekml=1"
+      ],
+      "evidence": "Venue official visitor page embeds public Google My Maps document 1VI18MQm3pt9coNNbM_ezpo6RW_kQCeM. Its KML has a named Point placemark Cubex Centrum Praha spol. s r. o. with coordinates 14.4399328,50.0497116,0 (longitude, latitude). This is the venue placemark, not map center.",
+      "rawEvidenceFiles": [
+        "cubex-visitor.html",
+        "cubex.kml"
+      ]
+    },
+    {
+      "cityId": "prague",
+      "existingId": "prague-make-current-20261019:2026-10-19",
+      "status": "verified_coordinate_correction_prepared_not_imported",
+      "sourceUrl": "https://www.cubexcentrum.cz/en/for-visitors/",
+      "supportingURLs": [
+        "https://www.google.com/maps/d/kml?mid=1VI18MQm3pt9coNNbM_ezpo6RW_kQCeM&forcekml=1"
+      ],
+      "evidence": "Venue official visitor page embeds public Google My Maps document 1VI18MQm3pt9coNNbM_ezpo6RW_kQCeM. Its KML has a named Point placemark Cubex Centrum Praha spol. s r. o. with coordinates 14.4399328,50.0497116,0 (longitude, latitude). This is the venue placemark, not map center.",
+      "rawEvidenceFiles": [
+        "cubex-visitor.html",
+        "cubex.kml"
+      ]
+    },
+    {
+      "cityId": "prague",
+      "existingId": "prague-ai-culture-20261019:2026-10-19",
+      "status": "verified_coordinate_correction_prepared_not_imported",
+      "sourceUrl": "https://luma.com/esk-thph",
+      "supportingURLs": [
+        "https://www.google.com/maps/search/?api=1&query=50.094693899999996%2C14.449755199999998&query_place_id=ChIJeYOak-GVC0cR68RhOafobnM"
+      ],
+      "evidence": "Organizer Luma page includes structured Place geo coordinates and place_coordinate for mesic.ai at Rohanské nábřeží 19. Both latitude and longitude agree, and geo_address_visibility is public. This is the event venue, not the viewer location also present elsewhere in the page.",
+      "rawEvidenceFiles": [
+        "mesic.html"
+      ]
+    },
+    {
+      "cityId": "prague",
+      "existingId": "prague-venture-pitch-20261020:2026-10-20",
+      "status": "verified_coordinate_correction_prepared_not_imported",
+      "sourceUrl": "https://goout.net/cs/endorfin-world/vzlald/",
+      "supportingURLs": [
+        "https://endorfin.cz/kontakt/"
+      ],
+      "evidence": "GoOut ticketing venue page identifies Endorfin World, Petrohradská 216/3, and publishes matching latitude/longitude in Place structured data and venue state. The official Endorfin contact page confirms the same address and says entry is through the courtyard from Petrohradská. Official HTML direct fetch returned 466 but the page was readable via web extraction.",
+      "rawEvidenceFiles": [
+        "endorfin-goout.html"
+      ]
+    },
+    {
+      "cityId": "saint-petersburg",
+      "existingId": "spb-npt-forum-20261021:2026-10-21",
+      "status": "verified_coordinate_correction_prepared_not_imported",
+      "sourceUrl": "https://www.spbstu.ru/campus-map/",
+      "supportingURLs": [
+        "https://yandex.ru/map-widget/v1/-/CCUMF8SFsC",
+        "https://www.spbstu.ru/media/announcements/archive/competitions_grants/otkrytyy-chempionat-goroda-po-3d-tekhnologiyam/"
+      ],
+      "evidence": "University official campus page embeds public Yandex map CCUMF8SFsC. Its labelled placemark 45. Научно-исследовательский корпус (НИК), Политехническая ул., 29 has coordinates [30.379537301634336,60.00674111071065] in longitude/latitude order. University text identifies this research building as Технополис Политех at 29, letter АФ. This is the specific research building, not the generic campus center or main building.",
+      "rawEvidenceFiles": [
+        "polytech.html",
+        "polytech-yandex.html",
+        "npt.html"
+      ]
+    },
+    {
+      "cityId": "saint-petersburg",
+      "existingId": "spb-itmo-young-opening-20261019:2026-10-19",
+      "status": "verified_coordinate_correction_prepared_not_imported",
+      "sourceUrl": "https://itmo.ru/ru/map/",
+      "supportingURLs": [],
+      "evidence": "ITMO official campus map defines a ymaps.Placemark([59.9269,30.3378]) with the explicit balloon label Ломоносова улица д.9. Use this labelled campus building point for the opening at Lomonosova 9, not the other ITMO campus. Listener registration and external-access uncertainty remain unchanged.",
+      "rawEvidenceFiles": [
+        "itmo-map.html"
+      ]
+    },
+    {
+      "cityId": "saint-petersburg",
+      "existingId": "spb-itmo-applied-ai-20261020:2026-10-20",
+      "status": "verified_coordinate_correction_prepared_not_imported",
+      "sourceUrl": "https://itmo.ru/ru/map/",
+      "supportingURLs": [
+        "https://en.itmo.ru/en/map/1/Kronverksky_Pr._49.htm"
+      ],
+      "evidence": "ITMO official campus map defines a ymaps.Placemark([59.9574,30.3079]) explicitly labelled Главный корпус. Кронверкский проспект, д.49. The dedicated English university map page repeats this point. Building point only, not room 2304 or room 1212 coordinates. Registration and external-access restrictions remain unchanged.",
+      "rawEvidenceFiles": [
+        "itmo-map.html",
+        "itmo-kron.html"
+      ]
+    },
+    {
+      "cityId": "saint-petersburg",
+      "existingId": "spb-itmo-foresight-20261022:2026-10-22",
+      "status": "verified_coordinate_correction_prepared_not_imported",
+      "sourceUrl": "https://itmo.ru/ru/map/",
+      "supportingURLs": [
+        "https://en.itmo.ru/en/map/1/Kronverksky_Pr._49.htm"
+      ],
+      "evidence": "ITMO official campus map defines a ymaps.Placemark([59.9574,30.3079]) explicitly labelled Главный корпус. Кронверкский проспект, д.49. The dedicated English university map page repeats this point. Building point only, not room 2304 or room 1212 coordinates. Registration and external-access restrictions remain unchanged.",
+      "rawEvidenceFiles": [
+        "itmo-map.html",
+        "itmo-kron.html"
+      ]
+    },
+    {
+      "cityId": "istanbul",
+      "existingId": "istanbul-developer-summit-20261017:2026-10-17",
+      "status": "verified_coordinate_correction_prepared_not_imported",
+      "sourceUrl": "https://www.eliteworldhotels.com.tr/en/contact",
+      "supportingURLs": [],
+      "evidence": "Official hotel contact page has a Küçükyalı section at İnönü Caddesi 22 and its embedded Google map. The map response names Elite World Grand İstanbul Küçükyalı with the matching address and exact marker [40.95593119999999,29.1160031], place ID 0x14cac7408a6eab81:0x5182fec8c51c7787. This marker differs from the iframe viewport center; only the named marker is used. Sales-deadline warning remains unchanged.",
+      "rawEvidenceFiles": [
+        "elite2.html",
+        "elite2-embed.html"
+      ]
+    },
+    {
+      "existingId": "istanbul-ai-cyber-expo-20261020:2026-10-20",
+      "cityId": "istanbul",
+      "venue": "İTÜ Süleyman Demirel Kültür Merkezi (SDKM)",
+      "address": "İTÜ Ayazağa Kampüsü, Maslak, Sarıyer, İstanbul",
+      "privateOrUndisclosed": false,
+      "status": "named_venue_conflicting_map_target",
+      "reason": "Official SDKM venue page confirms the specific cultural center in Ayazağa. However its embedded Google map resolves to İTÜ External Relations and Protocol Directorate at [41.1067052,29.0212816], not a marker named SDKM. An OSM-derived source locates SDKM roughly 160 metres away at 41.10707,29.02307. Do not silently choose between a department point and the auditorium. Keep unknown pending an unambiguous venue marker.",
+      "sources": [
+        "https://sdkm.itu.edu.tr/",
+        "https://disiliskiler.itu.edu.tr/merkez-salonlar/sdkm",
+        "https://mapcarta.com/fr/W145346163"
+      ]
+    },
+    {
+      "existingId": "istanbul-ai-cyber-expo-20261020:2026-10-21",
+      "cityId": "istanbul",
+      "venue": "İTÜ Süleyman Demirel Kültür Merkezi (SDKM)",
+      "address": "İTÜ Ayazağa Kampüsü, Maslak, Sarıyer, İstanbul",
+      "privateOrUndisclosed": false,
+      "status": "named_venue_conflicting_map_target",
+      "reason": "Official SDKM venue page confirms the specific cultural center in Ayazağa. However its embedded Google map resolves to İTÜ External Relations and Protocol Directorate at [41.1067052,29.0212816], not a marker named SDKM. An OSM-derived source locates SDKM roughly 160 metres away at 41.10707,29.02307. Do not silently choose between a department point and the auditorium. Keep unknown pending an unambiguous venue marker.",
+      "sources": [
+        "https://sdkm.itu.edu.tr/",
+        "https://disiliskiler.itu.edu.tr/merkez-salonlar/sdkm",
+        "https://mapcarta.com/fr/W145346163"
+      ]
+    },
+    {
+      "existingId": "istanbul-ied-brand-design-20261017:2026-10-17",
+      "cityId": "istanbul",
+      "venue": "KMK Sanat",
+      "address": "Erenköy, Kazım Karabekirpaşa Sokak No.8, 34738 Kadıköy, İstanbul",
+      "privateOrUndisclosed": false,
+      "status": "named_venue_map_data_not_retrieved",
+      "reason": "Official KMK Sanat contact page confirms Kazım Karabekirpaşa Sokak 8 in Erenköy. Its Google map is dynamically rendered and an exact marker was not recovered in the bounded pass. Do not substitute the nearby Kazım Karabekir Museum, a district center, or an unverified map-directory point.",
+      "sources": [
+        "https://www.kmksanat.com/contact",
+        "https://www.ied.edu/events/your-ideas-your-design-identity"
+      ]
+    },
+    {
+      "existingId": "moscow-ai-driver-recsys-20261017:2026-10-17",
+      "cityId": "moscow",
+      "venue": "Офис Сбера, Большой конференц-зал",
+      "address": "Москва, Кутузовский проспект, 32",
+      "privateOrUndisclosed": false,
+      "status": "named_venue_exact_building_unresolved",
+      "reason": "Event publishes the Sber office at Kutuzovsky Avenue 32 but no exact pin or corpus. Map results distinguish several buildings (32, 32k1, 32k2, 32k3). A different Sber conference explicitly names corpus 1, which does not establish that this event uses the same building. No campus-center or other-event pin substituted. Registration closed does not itself prevent map display.",
+      "sources": [
+        "https://developers.sber.ru/kak-v-sbere/events/ai_driver_october_2026",
+        "https://developers.sber.ru/kak-v-sbere/events/sberconf_november_2025"
+      ]
+    }
+  ],
+  "accessNotes": [
+    {
+      "url": "https://endorfin.cz/kontakt/",
+      "result": "Direct HTML fetch returned HTTP 466, but web extraction confirmed official address. Exact venue coordinate obtained from GoOut structured data."
+    },
+    {
+      "url": "https://www.cubexcentrum.cz/en/contact/",
+      "result": "Preliminary path returned 404. Venue homepage, official For Visitors page and its public embedded KML were successfully read."
+    },
+    {
+      "url": "https://www.eliteworldhotels.com.tr/hotels/elite-world-grand-istanbul-kucukyali/",
+      "result": "Preliminary path returned 404. Official current /en/contact page and exact named embedded place were successfully read."
+    },
+    {
+      "url": "https://www.kmksanat.com/contact",
+      "result": "Official address readable; dynamic map component present but exact marker not recovered. Held."
+    }
+  ],
+  "validation": {
+    "exactPublishedRows": 15,
+    "verifiedPatches": 11,
+    "heldRows": 4,
+    "newEvents": 0,
+    "coordinateRangeChecks": "passed",
+    "duplicatePatchIds": 0,
+    "allEvidenceFilesPresent": true
+  },
+  "publicationStatus": "No import or publication performed by researcher. Current startup-only release is explicitly unaffected."
+}

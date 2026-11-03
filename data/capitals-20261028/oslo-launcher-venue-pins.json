@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-10-28T02:29:37Z",
+  "venues": [
+    {
+      "venue": "Norges musikkhøgskole",
+      "address": "Slemdalsveien 11, 0369 Oslo",
+      "lat": 59.932369,
+      "lng": 10.714164,
+      "coordinateSource": "https://nmh.no/arrangementer/coffee-schmoffee-1-2026",
+      "mapUrl": "https://goo.gl/maps/u7K8pMooutMzawNm6",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Official Finn veien link resolves named Norges musikkhøgskole marker payload !3d59.932369!4d10.714164. Same address confirmed https://nmh.no/kontakt-oss. Final Google renderer blocked non-retryable; no retry or bypass."
+    },
+    {
+      "venue": "Akershus slottskirke",
+      "address": "Akershus Festning, 0150 Oslo",
+      "lat": 59.90642,
+      "lng": 10.73643,
+      "coordinateSource": "https://mapcarta.com/N8402143318",
+      "coordinatePrecision": "venue_approximate",
+      "coordinateEvidence": "Full named church OSM node 8402143318 mirror read; located inside southern fortress as official event address. Not fortress/city centroid. Direct OSM returned cache miss.",
+      "addressSource": "https://www.visitoslo.com/event/free-lunch-concert-at-the-slottskirken"
+    },
+    {
+      "venue": "IBSEN Museum & Teater",
+      "address": "Henrik Ibsens gate 26, Oslo",
+      "lat": 59.91503,
+      "lng": 10.72705,
+      "coordinateSource": "https://mapcarta.com/W90768996",
+      "coordinatePrecision": "building_centroid",
+      "coordinateEvidence": "Full OSM way90768996 mirror identifies named museum, operatorNorskFolkemuseum and officialibsenmt.no, buildingcoordinate notcitycentroid; officialVisitOslo exactaddress confirms same venue.",
+      "addressSource": "https://www.visitoslo.com/attraction/ibsen-museum-teater"
+    },
+    {
+      "venue": "Frøyas have",
+      "address": "Drammensveien 89, Oslo; entrance via Skarpsnoparken",
+      "lat": 59.91573,
+      "lng": 10.69671,
+      "coordinateSource": "https://mapcarta.com/W5249065",
+      "coordinatePrecision": "venue_area_centroid",
+      "coordinateEvidence": "Full OSM parkway5249065 mirror read; coordinate is named park area, NOT precise entrance. Event address entranceviaSkarpsnoparken must remain explicit; officialaddress still requires researcher eventdetail confirmation.",
+      "addressSource": "https://www.visitoslo.com/event/halloween-fr-yas-have-oslo-2026",
+      "status": "pending_address_detail_crosscheck"
+    },
+    {
+      "venue": "Vestkanttorvet",
+      "address": "Professor Dahls gate, Oslo",
+      "lat": 59.92424,
+      "lng": 10.71373,
+      "coordinateSource": "https://mapcarta.com/W29500226",
+      "coordinatePrecision": "venue_area_centroid",
+      "coordinateEvidence": "Full named Vestkanttorget OSMway29500226 mirror read; public square/market area rather than exact stall entrance. Exact location named in official market detail.",
+      "addressSource": "https://www.visitoslo.com/event/vestkanttorvet-antique-and-second-hand-market",
+      "checkedAt": "2026-10-28T02:33:06Z"
+    }
+  ],
+  "excluded": [
+    {
+      "venue": "Parkteatret",
+      "reason": "Wikipedia59.92352889,10.7583306 versus Commons59.923488,10.756133 discrepancy; separate worker verifying official marker. Do not silently accept."
+    },
+    {
+      "venue": "Jordal Amfi",
+      "reason": "City official map addresspoint59.9092363,10.7818573 is ~250m from currentarena namedcenter59.9112278,10.7839417; Kartverket12A-D ambiguity, awaiting OSM venue proof."
+    }
+  ]
+}

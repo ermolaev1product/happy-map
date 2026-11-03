@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-10-28T03:17:30Z",
+  "published": false,
+  "programmes": [
+    {
+      "programmeId": "brasilia-clube-leitura",
+      "title": "Clube de Leitura — Ruy Castro e Heloisa Seixas",
+      "category": "talk",
+      "venueId": "ccbb",
+      "sourceUrl": "https://ingressosccbb.com.br/ccbb-brasilia-apresenta-clube-de-leitura-com-ruy-castro-e-heloisa-seixas__4162",
+      "additionalSources": [
+        "https://ccbb.com.br/brasilia/programacao/",
+        "https://blog.bb.com.br/clube-de-leitura-ccbb-programacao-novembro/"
+      ],
+      "checkedAt": "2026-10-28T03:17:30Z",
+      "timezone": "America/Sao_Paulo",
+      "status": "verified_candidate_with_resolution_not_published",
+      "price": 0,
+      "currency": "BRL",
+      "mandatoryFees": 0,
+      "sessions": [
+        {
+          "date": "2026-11-04",
+          "time": "18:30",
+          "endTime": "20:00"
+        }
+      ],
+      "durationMinutes": 90,
+      "ageRestriction": "14+",
+      "ticketRequirement": "Free ticket required; release2026-11-03at12:00local, currently notyetavailable;10minuteentrytolerance",
+      "history": "Prior hold: page lower service Tuesday despite WednesdayNov4. Official linked ticket header corrupted start2024, but full Serviço explicitly04/11/2026 18:30–20:00,90min. Current official main04/11/26 plus independent Banco doBrasil blogNov4 corroborate sameperformers/place; propose resolve on three agreeing explicit service sources, retain malformed header in audit."
+    }
+  ],
+  "held": [
+    {
+      "title": "Eu Quero Ser Uma Locomotiva",
+      "venueId": "ccbb",
+      "sourceUrl": "https://ccbb.com.br/brasilia/programacao/vem-ai/",
+      "dateRangeMention": "19Nov–6Dec",
+      "status": "held_for_recheck",
+      "reason": "Official futureprogramme read; exact2026session dates/time/tickets unannounced. Noinvented dailytheatre sessions."
+    },
+    {
+      "title": "Festival de Cinema Italiano",
+      "venueId": "ccbb",
+      "sourceUrl": "https://ccbb.com.br/brasilia/programacao/vem-ai/",
+      "dateRangeMention": "5–29Nov",
+      "status": "held_for_recheck",
+      "reason": "Official upcomingfestivalrange but no exactsessions/time; countrywide120screens/80cities not allBrasília. Needofficial localprogramme and reliable2026year beforepublication."
+    },
+    {
+      "programmeId": "brasilia-amano",
+      "status": "held_for_recheck",
+      "reason": "Newly read Jornal deBrasíliaOct26 explicitly extends untilMonNov2 with specialAngelsEgg16:00; officialdetail and officialticket fullread stillendNov1, last ticket optionsNov1. Realend/holidayopening unresolved. Supersedes earlier activecandidate recommendation.",
+      "sources": [
+        "https://jornaldebrasilia.com.br/viva/exposicoes/exposicao-de-yoshitaka-amano-encerra-temporada-no-feriado-de-finados-com-programacao-especial/",
+        "https://ingressosccbb.com.br/exposicao-yoshitaka-amano-alem-da-fantasia__3869",
+        "https://ccbb.com.br/brasilia/programacao/yoshitaka-amano-alem-da-fantasia/"
+      ],
+      "checkedAt": "2026-10-28T03:20:53Z"
+    },
+    {
+      "programmeId": "brasilia-ataxia",
+      "status": "held_for_recheck",
+      "reason": "Official main/detail10–28Oct2026 versus linkedticket titledTrilhasInclusão whosebodyexplicitAlémAtaxia/Pollyana andServiço09–29Oct2026 withactualOct28/29options. Alias/dateconflict; do not addduplicateTrilhas or publishunresolvedrange.",
+      "sources": [
+        "https://ingressosccbb.com.br/exposicao-trilhas-da-inclusao__4106",
+        "https://ccbb.com.br/brasilia/programacao/alem-da-ataxia/"
+      ],
+      "checkedAt": "2026-10-28T03:26:20Z"
+    }
+  ],
+  "sourceChecks": [
+    {
+      "url": "https://ccbb.com.br/brasilia/programacao/yoshitaka-amano-alem-da-fantasia/",
+      "status": "Fulltext and fullmain confirmNov1end. Searchsnippetmain showedNov2 but notfull; don'textend intoMondayNov2."
+    },
+    {
+      "url": "https://ingressosccbb.com.br/exposicao-vik-muniz-a-olho-nu__4140",
+      "status": "Fullyread matches27Oct2026–31Jan2027, Galerias1/2,09–21lastadmission20:40; freeticketsreleasedweeklyTue12. No new sessioninflation."
+    }
+  ]
+}

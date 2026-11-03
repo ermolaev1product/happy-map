@@ -1,0 +1,6 @@
+const fs=require('node:fs'),assert=require('node:assert/strict');
+const cities=JSON.parse(fs.readFileSync('public/city-picker.json','utf8'));const list=Array.isArray(cities)?cities:cities.cities;
+let checked=0;for(const city of list){const id=city.id;for(const prefix of ['public/','public/en/']){const path=prefix+(id==='tbilisi'?'map.html':id+'/index.html');const s=fs.readFileSync(path,'utf8');assert(s.includes('plan-account.js'),path+' missing sync');assert(/social(?:\.en)?\.js/.test(s),path+' missing auth');assert(!s.includes('id="citySelect"'),path+' old city UI');checked++;}}
+const de=fs.readFileSync('public/de/flensburg/social.en.js','utf8');assert(de.includes('Ohne Registrierung fortfahren'));assert(!de.includes("button('Continue without registration'"));
+for(const file of ['public/social.js','public/en/social.js',...['palo-alto','paris','london','flensburg'].map(c=>'public/'+c+'/social.en.js'),'public/de/flensburg/social.en.js']){const s=fs.readFileSync(file,'utf8');assert(s.includes('onAuthStateChange'),file);assert(s.includes('expectedIdentity'),file);assert(s.includes('subscribe:'),file);assert(s.includes('serviceAvailable===false'),file);}
+console.log('PASS account and sync attached to '+checked+' city/locale routes; German guest button; shared auth-state and owner guards retained.');

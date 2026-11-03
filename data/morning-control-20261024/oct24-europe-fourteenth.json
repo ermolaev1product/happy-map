@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-10-24T05:43:00Z",
+  "baseCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+  "events": [
+    {
+      "venueId": "osm:node:13001075437",
+      "lat": 54.8071849,
+      "lng": 9.459716,
+      "coordinateSource": "https://www.openstreetmap.org/node/13001075437",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "osm:node:13001075437",
+      "cityId": "flensburg",
+      "title": "Peter Lühr — Hutkonzert",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "venue": "Heimathafen Seewarte",
+      "sourceUrl": "https://foerdekompass.sh/kalender/hutkonzert-mit-peter-luehr/",
+      "category": "music",
+      "price": 0,
+      "currency": "EUR",
+      "timezone": "Europe/Berlin",
+      "checkedAt": "2026-10-24T05:43:00Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "doors": "19:00",
+      "address": "Mürwiker Straße164,24944 Flensburg",
+      "admission": "Free entry, donationhat.",
+      "id": "flensburg-afisha24-02419d33f877",
+      "programmeId": "flensburg-afisha24-02419d33f877",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    },
+    {
+      "address": "Ritterstraße27,24939 Flensburg",
+      "lat": 54.7933434545,
+      "lng": 9.4293041,
+      "coordinateSource": "https://www.openstreetmap.org/way/137962596",
+      "coordinatePrecision": "building",
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "fl-fest-der-begegnung-20261107",
+      "cityId": "flensburg",
+      "title": "Vera Ufoma Ukuwrere — Wurzeln im Wind",
+      "date": "2026-11-07",
+      "time": "17:00",
+      "venue": "Duborg-Skolen",
+      "sourceUrl": "https://foerdekompass.sh/kalender/wurzeln-im-wind/",
+      "category": "talk",
+      "price": 0,
+      "currency": "EUR",
+      "timezone": "Europe/Berlin",
+      "checkedAt": "2026-10-24T05:43:00Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "end": "18:00",
+      "programmeRelationship": "Part of InterkulturelleWochen; potentially component of FestderBegegnung14–18 samevenue; parentsemanticallydedupe beforepublishing.",
+      "id": "flensburg-afisha24-a04afabb12a3",
+      "programmeId": "flensburg-afisha24-a04afabb12a3",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    }
+  ],
+  "held": [
+    {
+      "cityId": "flensburg",
+      "title": "Flensburger Ateliertage2026",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-08",
+      "time": "11:00",
+      "end": "17:00",
+      "sourceUrl": "https://foerdekompass.sh/kalender/flensburger-ateliertage-2026/",
+      "checkedAt": "2026-10-24T05:43:00Z",
+      "heldReason": "48studios programme; noindividualaddresses/pinsyet, do notmapcitycentroid."
+    },
+    {
+      "cityId": "flensburg",
+      "title": "Comedyflash",
+      "date": "2026-11-07",
+      "time": "20:30",
+      "sourceUrl": "https://foerdekompass.sh/kalender/comedyflash/",
+      "checkedAt": "2026-10-24T05:43:00Z",
+      "heldReason": "CalendarNov7 but full detailOct17 18/20:30; notfreshNov7confirmation."
+    }
+  ],
+  "sourceChecks": [
+    {
+      "city": "flensburg",
+      "url": "https://foerdekompass.sh/kalender/",
+      "checkedAt": "2026-10-24T05:43:00Z",
+      "status": "partial",
+      "scope": "12additionaldetailrequests:6read includingHürupBiodiversität excludedoutsidecity;5cachemissandBücherbasar404. Ateliertageheldmulti-venue;Comedyflashdateconflict. ExistingFestderBegegnungverifiednotnew."
+    }
+  ],
+  "conflicts": [
+    {
+      "cityId": "flensburg",
+      "title": "FestderBegegnung",
+      "existingId": "fl-fest-der-begegnung-20261107",
+      "result": "Freshprimaryfullprogrammeread; alreadybaseline, donotduplicate. Wurzelnreadingpossiblefestivalcomponent."
+    }
+  ]
+}

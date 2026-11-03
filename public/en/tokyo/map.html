@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Happy Map — Tokyo: Events and Places</title>
+
+<meta name="description" content="Discover verified events and interesting places in Tokyo. Choose where to go and save your plans.">
+
+<link rel="canonical" href="https://happymap.app/en/tokyo/map.html">
+
+<meta property="og:type" content="website"><meta property="og:site_name" content="Happy Map">
+
+<meta property="og:title" content="Happy Map — Tokyo: Events and Places"><meta property="og:description" content="Discover verified events and interesting places in Tokyo. Choose where to go and save your plans."><meta property="og:url" content="https://happymap.app/en/tokyo/map.html">
+
+<meta property="og:image" content="https://happymap.app/assets/happy-map-unified-20261015-en.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Happy Map — Events. Places. Plans."><meta property="og:locale" content="en_GB">
+
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Happy Map — Tokyo: Events and Places"><meta name="twitter:description" content="Discover verified events and interesting places in Tokyo. Choose where to go and save your plans."><meta name="twitter:image" content="https://happymap.app/assets/happy-map-unified-20261015-en.png"><meta name="twitter:image:alt" content="Happy Map — Events. Places. Plans.">
+
+  
+
+  <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="theme-color" content="#ffffff">
+  
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;450;500;550;600;650;700;750;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../assets/leaflet.css?v=337bfca5cabd"><link rel="stylesheet" href="style.css?v=0ab72cef3086">
+  
+  <script defer src="../assets/leaflet.js?v=db49d009c841"></script><link rel="stylesheet" href="/en/assets/maplibre/maplibre-gl.css?v=43c1d886b5fd"><script defer src="/en/assets/maplibre/maplibre-gl.js?v=1525f971223d"></script><script defer src="/en/assets/maplibre/leaflet-maplibre-gl.js?v=81a92cefb959"></script><script defer src="/en/map-basemap.js?v=5904be4869c8"></script><script defer src="map-layout.js?v=ba7e7e9975c3"></script><script defer src="../discovery-model.js?v=b0724918928a"></script><script defer src="app.js?v=36a9895bfbdb"></script><script defer src="/en/location-control.js?v=aeeb8eb2ffe4"></script>
+
+<script defer src="discovery.js?v=9ec4d1f34911"></script>
+
+<script defer src="/catalog-modes.js?v=eeb73d42e00a"></script>
+
+<script defer src="../city-state.js?v=0c75ee67a4c0" data-city="tokyo"></script><link rel="stylesheet" href="../discovery.css?v=37c6ea1d9ba7"><link rel="stylesheet" href="/en/social.css?v=a4214c9258b0"><script defer src="/en/social.js?v=9dfe91e35af8"></script><script defer src="/en/plan-account.js?v=f8e00848e5a9"></script><link rel="stylesheet" href="../dialog.css?v=b43e57321f1f">
+
+<link rel="stylesheet" href="/en/assets/download.css?v=71a91a023af2"><script defer src="/en/assets/app-shell.js?v=61bd1e8a75c2"></script><script defer src="../freshness.js?v=7477084cef9f"></script><script src="/en/locale-policy.js?v=d8d65fa22468"></script><script src="/language-switch.js?v=894a3ab5bc80"></script><link rel="stylesheet" href="/en/map-space.css?v=c6a1ae597f81"><link rel="stylesheet" href="/en/assets/controls.css?v=dd95db7a686c"><link rel="stylesheet" href="/assets/controls.css?v=dd95db7a686c"></head>
+
+<body data-palette="coral" class="map-first">
+  
+  <header class="header">
+    
+    <a class="wordmark" href="/en/index.html" aria-label="Happy Map — home"><span translate="no" class="notranslate">Happy Map</span><span class="sunmark" aria-hidden="true">✳</span></a>
+    
+    <div class="city city-picker city-context"><span class="current-city">Tokyo</span><a class="change-city" href="/en/cities.html">Change city</a></div>
+    
+    <nav aria-label="Main navigation"><button class="nav-tab active" id="exploreTab">Map</button><button class="nav-tab" id="plansTab">My plans <span id="planCount" class="nav-count">0</span></button></nav>
+    
+    <a class="app-download" href="/en/android.html"><span aria-hidden="true">↓</span><span>Download the app</span></a>
+    
+    <details class="more-menu"><summary aria-label="Happy Map menu">•••</summary><div><a href="sources.html">All sources ↗</a><button type="button" data-share-city>Share this map · Tokyo</button><button id="visitorButton">My profile</button><button id="organizerButton">For organisers</button><a href="../android.html">Download app (Android)</a><a href="../cities.html">Choose city</a><button data-peace class="peace-link">For peace</button></div></details>
+  
+  <button type="button" id="addOwnEvent">＋ Add your event · free</button></header>
+
+  
+
+  <main><div class="journey" id="journey" hidden><strong>Step 3 of 3 · Make a plan</strong><span>Open an event → check time and price → tap “Add to my plan”.</span></div>
+    
+    <section class="intro">
+      
+      <div><div class="eyebrow"><span class="tiny-star">✳</span> WHAT’S ON IN THE CITY</div><h1 id="mainTitle">The city has plans.<br><span>Now you do too.</span></h1></div>
+      
+      <div class="intro-side"><span class="edition">TOKYO · JP</span><p>From coffee with new people<br>to the final track on the dance floor.</p><button id="sourcesButton" class="demo-label"><span></span> Loading event listings…</button></div>
+    
+    </section>
+
+    
+
+    <div class="catalog-status" id="catalogStatus" role="status"></div><div class="layer-tabs" role="group" aria-label="Show on map"><button id="eventsLayer" class="active" aria-pressed="true">Events</button><button id="cityLayer" aria-pressed="false">Whole city</button></div><section class="discovery-controls" aria-label="Choose a day and events">
+      
+      <div class="calendar-row"><div class="month-label">October <span>2026</span><span class="week-caption">Your week ahead</span></div><div id="calendar" class="calendar" role="group" aria-label="Seven-day calendar"></div><button class="filter-button week-button" id="wholeWeek">Full week</button><div class="week-note">A good day<br>starts with an idea <span>↘</span></div></div>
+      
+      <div class="search-row"><label><span>Find an event or place</span><input id="eventSearch" type="search" placeholder="Jazz, talks, D&D, a bar name…" autocomplete="off"></label></div><div class="filters-row" id="filtersRow"><div class="category-scroll"><button class="category-arrow" id="categoryPrev" aria-label="Previous categories" aria-controls="categories">‹</button><div class="categories" id="categories" role="group" aria-label="Categories"></div><button class="category-arrow" id="categoryNext" aria-label="Next categories" aria-controls="categories">›</button></div><div class="filter-actions"><button id="nearButton" class="filter-button">Near me</button><button id="programOnly" class="filter-button" aria-pressed="false">With a programme</button><button id="freeFilter" class="filter-button" aria-pressed="false">Free</button><button id="filtersButton" aria-label="Filters" class="filter-button" aria-expanded="false"><span data-icon="sliders"></span><span class="filters-word">Filters</span></button></div></div>
+      
+      <div id="extraFilters" class="extra-filters" hidden><label>When <select id="timeFilter"><option value="all">Any time</option><option value="day">Daytime, before 18:00</option><option value="evening">Evening, after 18:00</option></select></label><label>Event language <select id="languageFilter"><option value="all">Any</option><option value="RU">Russian</option><option value="EN">English</option><option value="SR">Serbian</option></select></label><label>Distance<select id="radiusFilter"><option value="0">Whole city</option><option value="0.5">Within 500 m</option></select></label><button class="text-button" id="resetFilters">Reset filters</button></div>
+    
+    </section>
+
+    
+
+    <p id="discoveryNote" class="discovery-note"></p><section class="workspace" id="workspace">
+      
+      <div class="events-panel">
+        
+        <div class="list-heading"><div><h2 id="listTitle">Sunday, 4 October</h2><span id="resultCount" class="muted"></span></div><button class="sort-button" id="sortButton" aria-label="Sort by time"><span data-icon="sort"></span></button></div>
+        
+        <div id="eventList" class="event-list" aria-live="polite"></div>
+        
+        <div id="planBudget" class="plan-budget" hidden></div>
+        
+        <div class="list-bottom"><span class="tiny-star">✳</span><p>Something interesting<br>could be around the corner.</p><span class="small-arrow">↗</span></div>
+      
+      </div>
+      
+      <div class="map-shell">
+        
+        <div id="map" aria-label="Tokyo event map"></div>
+        
+        <div id="mapEmpty" class="map-empty" hidden></div><div class="map-top"><button class="map-label" id="mapResults" aria-haspopup="dialog"><span class="city-dot"></span><span id="mapLabel">Open event list →</span></button><button class="map-home" id="mapHome" aria-label="Show all events on the map"><span data-icon="focus"></span></button></div>
+        
+        <div class="map-feature" id="mapFeature"><span class="feature-kicker">LITTLE DISCOVERIES</span><h3>A big city.<br>Your little plan.</h3><p>Discover places on the map.<br>The rest will follow.</p><span class="feature-flower" aria-hidden="true">✳</span></div>
+        
+        <button class="map-bottom" id="mapPlanButton" type="button"><span class="map-plan-copy"><span class="plan-icon" data-icon="bookmark"></span><span><strong id="mapPlanTitle">This week’s events</strong><span id="mapPlanSubtitle">Save places you want to go</span></span></span><span class="map-cta-arrow" data-icon="arrow"></span></button>
+        
+        <div id="mapFallback" class="map-fallback" hidden>The map is unavailable. You can still browse the event list.</div>
+      
+      </div>
+    
+    </section>
+
+    
+
+    <section class="closing-note"><span>EVENTS AND PLACES NEAR YOU</span><p>Discover events and save them to your plans <span>↗</span></p></section>
+    
+    <footer><a class="data-credit" href="/en/tokyo/places.json" download>Venue directory · sources in every card</a><a class="wordmark small" href="/en/index.html"><span translate="no" class="notranslate">Happy Map</span><span class="sunmark" aria-hidden="true">✳</span></a><a class="text-button" href="../android.html">Download <span translate="no" class="notranslate">Happy Map</span> for Android ↗</a><div class="design-options" aria-label="Colour theme"><span>Theme</span><button class="swatch coral selected" data-palette="coral" aria-label="Coral theme" aria-pressed="true"></button><button class="swatch cobalt" data-palette="cobalt" aria-label="Blue theme" aria-pressed="false"></button><button class="swatch olive" data-palette="olive" aria-label="Olive theme" aria-pressed="false"></button></div><button data-peace class="peace-link">For peace</button></footer>
+  
+  </main>
+  
+  <div class="mobile-nav"><button id="mobileExplore" class="active"><span data-icon="map"></span>Map</button><button id="mobilePlans"><span data-icon="bookmark"></span>My plans <span id="mobileCount">0</span></button><button id="mobileList">Events</button><a class="download-tab" href="../android.html">Download ↓</a></div>
+  
+  <dialog id="eventDialog" class="event-dialog"><div class="dialog-toolbar"><span><span translate="no" class="notranslate">Happy Map</span></span><button type="button" class="close-dialog" aria-label="Close details" id="closeEvent"><span>Close</span><span data-icon="close" aria-hidden="true"></span></button></div><div id="eventDetails"></div></dialog>
+  
+  <dialog id="organizerDialog" class="organizer-dialog"><button class="close-dialog" aria-label="Close form" id="closeOrganizer"><span data-icon="close"></span></button><span class="eyebrow">BRING PEOPLE TOGETHER</span><h2>What are you<br>planning?</h2><p class="muted">Try adding an event. This is a demo form; nothing will be published.</p><form id="organizerForm"><label>Event title<input name="title" placeholder="For example, a chess evening" required maxlength="80"></label><div class="form-row"><label>Day<select name="day" id="organizerDay"></select></label><label>Start time<input type="time" value="19:00" required name="time"></label></div><label>Venue<input placeholder="Your bar or venue name" required name="venue"></label><button class="primary-button" type="submit">Preview event <span>↗</span></button></form><div id="organizerPreview" hidden></div></dialog>
+  
+  <div id="toast" role="status" class="toast"></div>
+
+<script src="/en/map-space.js?v=a1d1961098f7"></script><script defer src="/en/business-entry.js?v=9842aaa3f77d"></script><a data-traffic-privacy href="/en/traffic-privacy.html" style="display:block;text-align:center;font-size:12px;padding:12px;color:inherit">Visitor statistics &amp; privacy</a><script src="/en/assets/traffic.js?v=f992ccfcbc04" defer></script></body>
+
+</html>
+

@@ -1,0 +1,2201 @@
+{
+  "checkedAt": "2026-10-27T05:14:34.621038+00:00",
+  "asOfLocalDate": "2026-10-27",
+  "windows": {
+    "nextSevenLocalDates": [
+      "2026-10-27",
+      "2026-11-02"
+    ],
+    "thirtyDayHorizon": [
+      "2026-10-27",
+      "2026-11-26"
+    ]
+  },
+  "scope": "Read-only public research, no external mutations. Primary afisha before social discovery. Partial coverage, never a claim of exhaustive city events.",
+  "baseline": "Fresh v193 data in /workspace/scratch/59f6a13c9f12/hm27/public; verified matching venue points reused with source attribution.",
+  "sourceChecks": [
+    {
+      "cityId": "tel-aviv",
+      "source": "Secret Tel Aviv tickets and categories",
+      "urls": [
+        "https://www.secrettelaviv.com/tickets",
+        "https://www.secrettelaviv.com/tickets?pno=2",
+        "https://www.secrettelaviv.com/tickets?pno=3",
+        "https://www.secrettelaviv.com/tickets?pno=4",
+        "https://www.secrettelaviv.com/tickets?pno=5",
+        "https://www.secrettelaviv.com/tickets?pno=6",
+        "https://www.secrettelaviv.com/tickets?pno=7"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "opened all seven pagination pages",
+      "sourceDates": "Crawlmetadata:p1–4today,p5three days,p6–7five days",
+      "observedHorizon": "Page1Oct22–28;page2Oct28–30;page3Oct30–Nov3;page4Nov6onwards;page5Nov10onwards;page6Nov17–28;page7lateNov–Jan2027",
+      "pagination": "Sevenpages,50rowsperfullpage; allpagesreviewed.",
+      "limits": "No publicationdates; includesout-of-city/member-only items; AI-assisteddisclaimer. Nov1aggregate wrong venue/start correctedagainst primary. LiveMusic/Meetupcategories timedout;CultureHighlights accessible."
+    },
+    {
+      "cityId": "tel-aviv",
+      "source": "Tzavta Strings Festival + individual shows",
+      "urls": [
+        "https://www.tzavta.co.il/event/3819",
+        "https://www.tzavta.co.il/event/5226",
+        "https://www.tzavta.co.il/event/5219",
+        "https://www.tzavta.co.il/event/5221",
+        "https://www.tzavta.co.il/event/5220",
+        "https://www.tzavta.co.il/event/5222",
+        "https://www.tzavta.co.il/event/5223",
+        "https://www.tzavta.co.il/event/5224",
+        "https://www.tzavta.co.il/event/5225",
+        "https://www.tzavta.co.il/event/5228",
+        "https://www.tzavta.co.il/event/5227",
+        "https://www.tzavta.co.il/event/5229",
+        "https://www.tzavta.co.il/event/5232",
+        "https://www.tzavta.co.il/event/5231",
+        "https://www.tzavta.co.il/event/5230"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "all14individualprimarypages opened",
+      "sourceDates": "All primary dates explicitly2026",
+      "observedHorizon": "Nov1–7 2026",
+      "pagination": "Festival lists14shows; individualdates/hallschecked",
+      "limits": "Smarticketiframe publictextprices visible for11rows; later3priceunknown; reservation/loginnotused."
+    },
+    {
+      "cityId": "tel-aviv",
+      "source": "Tel Aviv Piano Festival",
+      "urls": [
+        "https://telavivfestival.co.il/",
+        "https://telavivfestival.co.il/program",
+        "https://telavivfestival.co.il/show/opening-muskat",
+        "https://www.ticketmaster.co.il/performance/MIO14/001/ALL/iw"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "opened",
+      "sourceDates": "2026programme",
+      "observedHorizon": "2026Nov1,4,5,6,8;59showprogramme",
+      "pagination": "Programmefullpage,openingverifiedprimary",
+      "limits": "Only Nov1 opening imported from this programme; other59not allindividuallyverified."
+    },
+    {
+      "cityId": "palo-alto",
+      "source": "Eventbrite and Stanford",
+      "urls": [
+        "https://www.eventbrite.com/d/ca--palo-alto/events/",
+        "https://events.stanford.edu/",
+        "https://events.stanford.edu/department/tech_impact_and_policy_center/calendar"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "mixed: listings/search accessible, individualEventbrite and Stanford429",
+      "sourceDates": "Searchindex freshnessvaries; not proofcompletecalendar",
+      "observedHorizon": "Search targetedOct27–Nov26 2026; no exhaustive readablecalendar",
+      "pagination": "Not fully paginated due rate-limit/access response",
+      "limits": "Public/StanfordID distinctionchecked. Searchsnippetsnotaccepted alone for newAIcourses. MenloPark/SF excluded."
+    },
+    {
+      "cityId": "palo-alto",
+      "source": "Palo Alto city events",
+      "urls": [
+        "https://www.paloalto.gov/Events-Directory"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "opened",
+      "sourceDates": null,
+      "observedHorizon": "FirstpageOct26–29 2026",
+      "pagination": "84results,9pages,10firstpageitems; paginationnotexposedasreadablelinks",
+      "limits": "Date/categoryfiltersvisible; not fully paginated. School/zoo registrationeligibility notconfirmed, noaddedunverifiedclasses."
+    },
+    {
+      "cityId": "palo-alto",
+      "source": "Startup Valley / Luma",
+      "urls": [
+        "https://startupvalley.club/cities/palo-alto",
+        "https://startupvalley.club/events/palo-alto-2026-11-24",
+        "https://luma.com/n577ty36"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "opened primary pages",
+      "sourceDates": null,
+      "observedHorizon": "Oct29,Nov24,Dec17,Jan14upcoming",
+      "pagination": "4listed; first2withinwindow",
+      "limits": "Oct29alreadybaseline;Nov24new. Standardpublicticket distinctfrominvestorapproval/pitchselection. Priceblank."
+    },
+    {
+      "cityId": "new-york",
+      "source": "Time Out NYC calendars",
+      "urls": [
+        "https://www.timeout.com/newyork/events-calendar/october-events-calendar",
+        "https://www.timeout.com/newyork/events-calendar/november-events-calendar",
+        "https://www.timeout.com/newyork/sitemaps/2026/10"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "opened",
+      "sourceDates": "OctoberupdatedSep18 2026;NovemberupdatedOct15 2026",
+      "observedHorizon": "October and November2026",
+      "pagination": "Monthlyeditoriallists,nopagination",
+      "limits": "Curatednotexhaustive; event-specificprimaryverification required."
+    },
+    {
+      "cityId": "new-york",
+      "source": "Primary organizers",
+      "urls": [
+        "https://www.amnh.org/calendar/halloween-celebration",
+        "https://halloween-nyc.com/",
+        "https://halloween-nyc.com/watch/",
+        "https://www.bam.org/community/2026/playback-street-party",
+        "https://www.bam.org/film/2026/playback"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "opened",
+      "sourceDates": null,
+      "observedHorizon": "Oct31,Nov7 2026",
+      "pagination": "Individualpages,notcitycalendar",
+      "limits": "Parade/streetpartypointsleftblank; AMNH25USD excludes mandatorymuseumadmission."
+    },
+    {
+      "cityId": "dubai",
+      "source": "Platinumlist main calendar and categories",
+      "urls": [
+        "https://dubai.platinumlist.net/calendar",
+        "https://dubai.platinumlist.net/calendar/this-weekend",
+        "https://dubai.platinumlist.net/calendar/october",
+        "https://dubai.platinumlist.net/concert",
+        "https://dubai.platinumlist.net/nightlife"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "opened",
+      "sourceDates": "Crawlmetadata today; eventpages explicit2026",
+      "observedHorizon": "Today/Oct30–Nov1 weekend; categoryhorizon2027",
+      "pagination": "Visiblecardsreviewed; noexplicitpaginationinreadabletext",
+      "limits": "Homepageinitialtimeout; calendaraccessible. IncludesAbuDhabi/Muscatpromos excluded. Inventorynotbooked."
+    },
+    {
+      "cityId": "limassol",
+      "source": "Check In Cyprus and WGO",
+      "urls": [
+        "https://www.checkincyprus.com/",
+        "https://www.checkincyprus.com/section/things-to-do/ekdiloseis/city/lemesos/",
+        "https://wgolimassol.com/en/calendar/2026-10",
+        "https://wgolimassol.com/en/calendar/2026-11",
+        "https://wgolimassol.com/en/nightlife"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "opened",
+      "sourceDates": "WGONovpageOct26 18:05stamp;CheckIncurrentOct26weekagenda",
+      "observedHorizon": "CheckInweekOct26–29/categoryNovDec;WGOwholeOct&Nov",
+      "pagination": "BothWGOmonthpagesreviewed,day-by-day; categoryvisiblelist",
+      "limits": "Districtnotcity: Pissouri,Lania,Kolossi,Ypsonas,Parekklisia,AgiosPavlos,Pelendri,Arsos excluded. Ticketprimary402blocks somevalidation."
+    },
+    {
+      "cityId": "antalya",
+      "source": "Bubilet main, concert, theatre, stand-up",
+      "urls": [
+        "https://www.bubilet.com.tr/antalya",
+        "https://www.bubilet.com.tr/antalya/etiket/konser",
+        "https://www.bubilet.com.tr/antalya/etiket/tiyatro",
+        "https://www.bubilet.com.tr/antalya/etiket/stand-up"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "allactualcategorypagesopened",
+      "sourceDates": "Main/concerttoday;Antstandupcrawl2weeksold",
+      "observedHorizon": "Oct27–Nov26window plus visiblehorizonDec2026/Jan2027andJune2027",
+      "pagination": "~24initialcards;date/district/pricefiltersvisible; no explicitpagination exposed",
+      "limits": "Provincecategorynotmunicipality. AntalyasubEventManavgatexcluded. EachcandidatefirstpartyHTML/JSON-LDsaved. Calendarcoveragepartialnotexhaustive."
+    },
+    {
+      "cityId": "istanbul",
+      "source": "Bubilet main, concert, theatre, stand-up",
+      "urls": [
+        "https://www.bubilet.com.tr/istanbul",
+        "https://www.bubilet.com.tr/istanbul/etiket/konser",
+        "https://www.bubilet.com.tr/istanbul/etiket/tiyatro",
+        "https://www.bubilet.com.tr/istanbul/etiket/stand-up"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "allactualcategorypagesopened",
+      "sourceDates": "Main/concerttoday;Antstandupcrawl2weeksold",
+      "observedHorizon": "Oct27–Nov26window plus visiblehorizonDec2026/Jan2027andJune2027",
+      "pagination": "~24initialcards;date/district/pricefiltersvisible; no explicitpagination exposed",
+      "limits": "Provincecategorynotmunicipality. AntalyasubEventManavgatexcluded. EachcandidatefirstpartyHTML/JSON-LDsaved. Calendarcoveragepartialnotexhaustive."
+    },
+    {
+      "cityId": "palo-alto",
+      "source": "Instagram OFJCC",
+      "urls": [
+        "https://www.instagram.com/ofjcc/"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "429; no eventannouncementimported",
+      "sourceDates": null,
+      "observedHorizon": "Publicpreviewonly",
+      "pagination": "Noarchive/paginationclaimed",
+      "limits": "No login,CAPTCHA,profile-as-announcementoraccessbypass. Threads search nousablecurrentdatedannouncement."
+    },
+    {
+      "cityId": "new-york",
+      "source": "Telegram NYC afisha",
+      "urls": [
+        "https://t.me/s/afisha_in_newyork"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "inaccessible; no login/bypass",
+      "sourceDates": null,
+      "observedHorizon": "Publicpreviewonly",
+      "pagination": "Noarchive/paginationclaimed",
+      "limits": "No login,CAPTCHA,profile-as-announcementoraccessbypass. Threads search nousablecurrentdatedannouncement."
+    },
+    {
+      "cityId": "dubai",
+      "source": "Telegram Dubai afisha",
+      "urls": [
+        "https://t.me/s/dubai_afisha"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "accessible preview, Apr/Mayoldermaterial and RiverdanceOct31Nov1EtihadAbuDhabi(outofcity); no validatednewDubaiannouncement",
+      "sourceDates": null,
+      "observedHorizon": "Publicpreviewonly",
+      "pagination": "Noarchive/paginationclaimed",
+      "limits": "No login,CAPTCHA,profile-as-announcementoraccessbypass. Threads search nousablecurrentdatedannouncement."
+    },
+    {
+      "cityId": "tel-aviv",
+      "source": "Telegram Israel afisha",
+      "urls": [
+        "https://t.me/s/israelaf"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "inaccessible",
+      "sourceDates": null,
+      "observedHorizon": "Publicpreviewonly",
+      "pagination": "Noarchive/paginationclaimed",
+      "limits": "No login,CAPTCHA,profile-as-announcementoraccessbypass. Threads search nousablecurrentdatedannouncement."
+    },
+    {
+      "cityId": "tel-aviv",
+      "source": "Instagram BlueFox originalpost",
+      "urls": [
+        "https://www.instagram.com/p/DeZBwWGRtcl/"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "cachemiss; exacteventnotvalidated",
+      "sourceDates": null,
+      "observedHorizon": "Publicpreviewonly",
+      "pagination": "Noarchive/paginationclaimed",
+      "limits": "No login,CAPTCHA,profile-as-announcementoraccessbypass. Threads search nousablecurrentdatedannouncement."
+    },
+    {
+      "cityId": "tel-aviv",
+      "source": "Instagram Tarot originalreel",
+      "urls": [
+        "https://www.instagram.com/reel/DewOe5OOBos/?obrf=MXVkc3B5cml1aDR6Zg%3D%3D"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "cachemiss; profile notsubstituted",
+      "sourceDates": null,
+      "observedHorizon": "Publicpreviewonly",
+      "pagination": "Noarchive/paginationclaimed",
+      "limits": "No login,CAPTCHA,profile-as-announcementoraccessbypass. Threads search nousablecurrentdatedannouncement."
+    },
+    {
+      "cityId": "limassol",
+      "source": "Telegram CyprusJournalMusic",
+      "urls": [
+        "https://t.me/s/cyprusjournalmusic"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "accessible preview, LINDA18Nov2026 announced, venueverificationpending; RiotNov11DowntownLiveNicosiaexcluded",
+      "sourceDates": null,
+      "observedHorizon": "Publicpreviewonly",
+      "pagination": "Noarchive/paginationclaimed",
+      "limits": "No login,CAPTCHA,profile-as-announcementoraccessbypass. Threads search nousablecurrentdatedannouncement."
+    },
+    {
+      "cityId": "antalya",
+      "source": "Telegram Antalya",
+      "urls": [
+        "https://t.me/s/antalyadaa"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "accessible; Oct25/Nov8/22/29bodyclasses andNov1/15eveningmention but year/venueunverified; studentcarddeadlineNov1notanevent",
+      "sourceDates": null,
+      "observedHorizon": "Publicpreviewonly",
+      "pagination": "Noarchive/paginationclaimed",
+      "limits": "No login,CAPTCHA,profile-as-announcementoraccessbypass. Threads search nousablecurrentdatedannouncement."
+    },
+    {
+      "cityId": "istanbul",
+      "source": "Telegram events Istanbul",
+      "urls": [
+        "https://t.me/s/events_istanbul"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "accessible preview includesOct6–17past; novalidatednewcandidate",
+      "sourceDates": null,
+      "observedHorizon": "Publicpreviewonly",
+      "pagination": "Noarchive/paginationclaimed",
+      "limits": "No login,CAPTCHA,profile-as-announcementoraccessbypass. Threads search nousablecurrentdatedannouncement."
+    },
+    {
+      "cityId": "istanbul",
+      "source": "Telegram In a Room and Half",
+      "urls": [
+        "https://t.me/s/inaroomandhalf"
+      ],
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "inaccessible",
+      "sourceDates": null,
+      "observedHorizon": "Publicpreviewonly",
+      "pagination": "Noarchive/paginationclaimed",
+      "limits": "No login,CAPTCHA,profile-as-announcementoraccessbypass. Threads search nousablecurrentdatedannouncement."
+    },
+    {
+      "cityId": "dubai",
+      "source": "Visit Dubai / Coca-Cola Arena, Nov2 targeted gap",
+      "urls": [
+        "https://www.visitdubai.com/en/festivals-and-events/dubai-events-calendar/dubai-basketball-vs-zadar",
+        "https://coca-cola-arena.com/sports/2188/dubai-basketball-vs-zadar"
+      ],
+      "checkedAt": "2026-10-27T05:14:34.621038+00:00",
+      "status": "Opened both primary pages",
+      "observedHorizon": "2November2026",
+      "pagination": "Individualevent",
+      "limits": "Student15AEDnotgeneral;ordinaryminimum20AEDverified."
+    },
+    {
+      "cityId": "istanbul",
+      "source": "Bubilet Ayta Sözeri, Nov2 targeted gap",
+      "urls": [
+        "https://www.bubilet.com.tr/istanbul/etkinlik/aytasozeri-",
+        "https://www.bubilet.com.tr/istanbul/etkinlik/aytasozeri-/seans/279268"
+      ],
+      "checkedAt": "2026-10-27T05:14:34.621038+00:00",
+      "status": "Primaryeventanddatedsessionopened; freshHTMLsaved",
+      "observedHorizon": "2November2026;18Decemberoutsidewindow",
+      "pagination": "Bothsessionslisted;onlyNovemberimportcandidate",
+      "limits": "Discountstocklimited;schemaprice925preferredoverolder750snapshot."
+    },
+    {
+      "cityId": "palo-alto",
+      "source": "Stanford Genetics AI Longevity primary follow-up",
+      "urls": [
+        "https://med.stanford.edu/genetics.html",
+        "https://med.stanford.edu/genetics/events/Stanford_AI_Longevity_Lab_Certificate_Course1.html",
+        "https://med.stanford.edu/snyderlab.html/",
+        "https://med.stanford.edu/iti/about/contacts.html",
+        "https://campus-map.stanford.edu/"
+      ],
+      "checkedAt": "2026-10-27T05:14:34.621038+00:00",
+      "status": "Primarypagesopened",
+      "observedHorizon": "Module2beginsOct27 2026,18–20; conflictendNov3vsNov17",
+      "pagination": "Individualcourseanddepartmentannouncements",
+      "limits": "Publicaccessandno prerequisitesconfirmed. Courseend/sessiondateconflict: departmentdetailOct27–Nov3; departmenthome/SnyderOct27–Nov17; EventbriteindexedbodyOct27,Nov3,19,17(notallTuesdays). Feeunknown;noexactbuildingpointconfirmed. Heldratherthanconstructsessions. Campusmapno-loginavailablebutreadabletextdoesnotsurfacepoint."
+    }
+  ],
+  "candidates": [
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Arik Sinai and Yifat Taase – Not Talking About Arik",
+      "date": "2026-11-01",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 1",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5226",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": 120,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5226",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": 120,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-3333a29f1bcfbc",
+      "startLocal": "2026-11-01T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "priceEvidence": "Price on linked Tzavta Smarticket event page; range eligibility not specified.",
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Oksana Yablonskaya – Musical Journey Beyond Time",
+      "date": "2026-11-01",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 2",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5219",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": 80,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5219",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": 80,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-6ca7eaf3f17543",
+      "startLocal": "2026-11-01T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "priceEvidence": "Price on linked Tzavta Smarticket event page; range eligibility not specified.",
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Gil Shohat and Doron Mazar – La Bella Italia",
+      "date": "2026-11-02",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 1",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5221",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": 110,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5221",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": 110,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-8f8818860624e0",
+      "startLocal": "2026-11-02T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "priceEvidence": "Price on linked Tzavta Smarticket event page; range eligibility not specified.",
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Dafna Armoni – The Best",
+      "date": "2026-11-02",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 2",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5220",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": 65,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5220",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted.",
+        "Price range shown; discounted eligibility not established. Do not label the lower price as universally available."
+      ],
+      "category": "music",
+      "priceTo": 80,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-e3456dd2eee061",
+      "startLocal": "2026-11-02T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "priceEvidence": "Price on linked Tzavta Smarticket event page; range eligibility not specified.",
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Michael Harpaz Sings Elton John",
+      "date": "2026-11-03",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 1",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5222",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": 110,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5222",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": 110,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-4d1918b389af87",
+      "startLocal": "2026-11-03T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "priceEvidence": "Price on linked Tzavta Smarticket event page; range eligibility not specified.",
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Simcha Haled and Misha Zartsikel – Romantic Program",
+      "date": "2026-11-03",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 2",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5223",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": 80,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5223",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": 80,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-92676f1237c217",
+      "startLocal": "2026-11-03T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "priceEvidence": "Price on linked Tzavta Smarticket event page; range eligibility not specified.",
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Nicky Goldstein – King of Pop",
+      "date": "2026-11-04",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 1",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5224",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": 110,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5224",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": 110,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-b85c6452015481",
+      "startLocal": "2026-11-04T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "priceEvidence": "Price on linked Tzavta Smarticket event page; range eligibility not specified.",
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Leonid Ptashka Trio",
+      "date": "2026-11-04",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 2",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5225",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": 80,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5225",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": 80,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-fe2801c2d8f06d",
+      "startLocal": "2026-11-04T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "priceEvidence": "Price on linked Tzavta Smarticket event page; range eligibility not specified.",
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Kristina Reiko Cooper and Evgeny Brakhman – Golden Age of Romanticism",
+      "date": "2026-11-05",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 2",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5228",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": 80,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5228",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": 80,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-c6387178e7d322",
+      "startLocal": "2026-11-05T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "priceEvidence": "Price on linked Tzavta Smarticket event page; range eligibility not specified.",
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Daniel Salomon with String Quartet",
+      "date": "2026-11-06",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 1",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5227",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": 135,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5227",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted.",
+        "Price range shown; discounted eligibility not established. Do not label the lower price as universally available."
+      ],
+      "category": "music",
+      "priceTo": 149,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-11c4f523b448d3",
+      "startLocal": "2026-11-06T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "priceEvidence": "Price on linked Tzavta Smarticket event page; range eligibility not specified.",
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Yotam Cohen and Ira Bertman – Journey Between Worlds",
+      "date": "2026-11-06",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 2",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5229",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": 80,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5229",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": 80,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-8a2185a7d16598",
+      "startLocal": "2026-11-06T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "priceEvidence": "Price on linked Tzavta Smarticket event page; range eligibility not specified.",
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Rishonim Quartet – Musical Morning",
+      "date": "2026-11-07",
+      "time": "11:00",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 1",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5232",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": null,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5232",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": null,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-77eb5e4f0a5a52",
+      "startLocal": "2026-11-07T11:00:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Miki Kam and Yehuda Eder – Love Twenty Plus",
+      "date": "2026-11-07",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 1",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5231",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": null,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5231",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": null,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-5f8fd9de42135a",
+      "startLocal": "2026-11-07T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Strings Festival: Omri Mor – Solo Piano",
+      "date": "2026-11-07",
+      "time": "20:30",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Tzavta, Hall 2",
+      "address": "30 Ibn Gabirol Street, Tel Aviv-Yafo",
+      "sourceUrl": "https://www.tzavta.co.il/event/5230",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "priceFrom": null,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.tzavta.co.il/event/5230",
+          "supports": "Exact date/year, local start, hall, title; public ticket iframe"
+        },
+        {
+          "url": "https://www.tzavta.co.il/event/3819",
+          "supports": "2026 festival programme and 14 individual performances"
+        },
+        {
+          "url": "https://www.tzavta.co.il/page/10",
+          "supports": "Venue address 30 Ibn Gabirol, Tel Aviv"
+        },
+        {
+          "url": "https://mapcarta.com/N12101869647",
+          "supports": "Named Tzavta building at matching address; 32.07524,34.78227"
+        }
+      ],
+      "warnings": [
+        "Live ticket capacity unknown; ticket iframe asks browser settings / login, no checkout attempted."
+      ],
+      "category": "music",
+      "priceTo": null,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "named venue building, not hall entrance",
+      "id": "hm27-global-aecc371ed8312f",
+      "startLocal": "2026-11-07T20:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Tel Aviv Piano Festival Opening: Tamir Muskat – I'm a Tribe",
+      "date": "2026-11-01",
+      "time": "20:00",
+      "timezone": "Asia/Jerusalem",
+      "venue": "Israeli Opera – Tel Aviv Performing Arts Center",
+      "address": "19 Shaul HaMelech Boulevard, Tel Aviv-Yafo",
+      "sourceUrl": "https://telavivfestival.co.il/show/opening-muskat",
+      "lat": 32.07659,
+      "lng": 34.78478,
+      "priceFrom": null,
+      "currency": "ILS",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://telavivfestival.co.il/show/opening-muskat",
+          "supports": "Opening show, local 20:00, doors19:00, approx90min, Performing Arts Center"
+        },
+        {
+          "url": "https://www.ticketmaster.co.il/performance/MIO14/001/ALL/iw",
+          "supports": "Explicit 1 November 2026 20:00 at Opera House/Performing Arts Center"
+        }
+      ],
+      "warnings": [
+        "Secret Tel Aviv aggregate erroneously suggests 18:00 museum: primary organizer/ticket seller override.",
+        "Price and live ticket inventory unknown."
+      ],
+      "venueId": "tel-aviv-2a9e2c1bc8007b",
+      "doorsTime": "19:00",
+      "durationMinutes": 90,
+      "language": "he",
+      "category": "music",
+      "coordinateSource": "https://mapcarta.com/W96838151",
+      "coordinatePrecision": "Existing verified named venue building point from baseline",
+      "id": "hm27-global-5b742410afd4bf",
+      "startLocal": "2026-11-01T20:00:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/tel-aviv/events.json"
+    },
+    {
+      "cityId": "antalya",
+      "title": "HalloweenFest Antalya 10.Yıl",
+      "date": "2026-10-30",
+      "time": "21:00",
+      "timezone": "Europe/Istanbul",
+      "venue": "Sponge Pub Kaleiçi",
+      "address": "Selçuk, İzmirli Ali Efendi Sk. no:26, 07100 Muratpaşa/Antalya",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/halloweenfest-antalya-",
+      "lat": 36.88535643,
+      "lng": 30.70470507,
+      "priceFrom": 500,
+      "currency": "TRY",
+      "checkedAt": "2026-10-27T05:04:14.520459+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.bubilet.com.tr/antalya/etkinlik/halloweenfest-antalya-",
+          "supports": "Primary visible event page plus Event/subEvent JSON-LD exact 2026 startDate with +00:00, venue, full address, coordinates, price, availability"
+        },
+        {
+          "localArtifact": "/workspace/shared/hm27-global-evidence/bubilet.json",
+          "supports": "Saved fetched primary schema data and timestamps"
+        }
+      ],
+      "warnings": [
+        "End time in schema appears templated 90 minutes; not imported without visible corroboration.",
+        "InStock is the published schema status, not a live reservation guarantee. Age/entry rules not visible in text; check seller."
+      ],
+      "category": "music",
+      "ticketUrl": "https://www.bubilet.com.tr/antalya/etkinlik/halloweenfest-antalya-/seans/296610",
+      "coordinateSource": "https://www.bubilet.com.tr/antalya/etkinlik/halloweenfest-antalya-",
+      "coordinatePrecision": "First-party event subEvent location.geo",
+      "availabilityPublished": "https://schema.org/InStock",
+      "id": "hm27-global-b5cf488ecd1f37",
+      "startLocal": "2026-10-30T21:00:00+03:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/antalya/events.json"
+    },
+    {
+      "cityId": "antalya",
+      "title": "Halloweenfest Antalya 10.Yıl Özel",
+      "date": "2026-10-31",
+      "time": "21:00",
+      "timezone": "Europe/Istanbul",
+      "venue": "Beyond The Night",
+      "address": "Selçuk, Balıkpazarı Sk. No:10 C, 07100 Muratpaşa/Antalya",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/halloweenfest-antalya",
+      "lat": 36.88427837,
+      "lng": 30.70619712,
+      "priceFrom": 500,
+      "currency": "TRY",
+      "checkedAt": "2026-10-27T05:04:13.198396+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.bubilet.com.tr/antalya/etkinlik/halloweenfest-antalya",
+          "supports": "Primary visible event page plus Event/subEvent JSON-LD exact 2026 startDate with +00:00, venue, full address, coordinates, price, availability"
+        },
+        {
+          "localArtifact": "/workspace/shared/hm27-global-evidence/bubilet.json",
+          "supports": "Saved fetched primary schema data and timestamps"
+        }
+      ],
+      "warnings": [
+        "End time in schema appears templated 90 minutes; not imported without visible corroboration.",
+        "InStock is the published schema status, not a live reservation guarantee. Age/entry rules not visible in text; check seller."
+      ],
+      "category": "music",
+      "ticketUrl": "https://www.bubilet.com.tr/antalya/etkinlik/halloweenfest-antalya/seans/294008",
+      "coordinateSource": "https://www.bubilet.com.tr/antalya/etkinlik/halloweenfest-antalya",
+      "coordinatePrecision": "First-party event subEvent location.geo",
+      "availabilityPublished": "https://schema.org/InStock",
+      "id": "hm27-global-70e227561f0f8d",
+      "startLocal": "2026-10-31T21:00:00+03:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/antalya/events.json"
+    },
+    {
+      "cityId": "antalya",
+      "title": "The Bar Halloween Night",
+      "date": "2026-10-31",
+      "time": "19:00",
+      "timezone": "Europe/Istanbul",
+      "venue": "The Bar Kaleiçi",
+      "address": "Tuzcular Mh. Paşa Cami Sk. No:34, Antalya, Turkey 07100",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/the-bar-halloween-night",
+      "lat": 36.88491351,
+      "lng": 30.70597351,
+      "priceFrom": null,
+      "currency": "TRY",
+      "checkedAt": "2026-10-27T05:04:08.808110+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.bubilet.com.tr/antalya/etkinlik/the-bar-halloween-night",
+          "supports": "Primary visible event page plus Event/subEvent JSON-LD exact 2026 startDate with +00:00, venue, full address, coordinates, price, availability"
+        },
+        {
+          "localArtifact": "/workspace/shared/hm27-global-evidence/bubilet.json",
+          "supports": "Saved fetched primary schema data and timestamps"
+        }
+      ],
+      "warnings": [
+        "End time in schema appears templated 90 minutes; not imported without visible corroboration.",
+        "InStock is the published schema status, not a live reservation guarantee. Age/entry rules not visible in text; check seller.",
+        "Price conflict: indexed visible page TRY500, fresh HTML schema TRY400. Price held blank pending resolution."
+      ],
+      "category": "music",
+      "ticketUrl": "https://www.bubilet.com.tr/antalya/etkinlik/the-bar-halloween-night/seans/281189",
+      "coordinateSource": "https://www.bubilet.com.tr/antalya/etkinlik/the-bar-halloween-night",
+      "coordinatePrecision": "First-party event subEvent location.geo",
+      "availabilityPublished": "https://schema.org/InStock",
+      "id": "hm27-global-d5d4afc808710d",
+      "startLocal": "2026-10-31T19:00:00+03:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/antalya/events.json"
+    },
+    {
+      "cityId": "antalya",
+      "title": "Gripin Konseri",
+      "date": "2026-11-14",
+      "time": "22:00",
+      "timezone": "Europe/Istanbul",
+      "venue": "The Bar Kaleiçi",
+      "address": "Tuzcular Mh. Paşa Cami Sk. No:34, Antalya, Turkey 07100",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/-gripin-konseri-",
+      "lat": 36.88491351,
+      "lng": 30.70597351,
+      "priceFrom": 1000,
+      "currency": "TRY",
+      "checkedAt": "2026-10-27T05:04:13.430430+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.bubilet.com.tr/antalya/etkinlik/-gripin-konseri-",
+          "supports": "Primary visible event page plus Event/subEvent JSON-LD exact 2026 startDate with +00:00, venue, full address, coordinates, price, availability"
+        },
+        {
+          "localArtifact": "/workspace/shared/hm27-global-evidence/bubilet.json",
+          "supports": "Saved fetched primary schema data and timestamps"
+        }
+      ],
+      "warnings": [
+        "End time in schema appears templated 90 minutes; not imported without visible corroboration.",
+        "InStock is the published schema status, not a live reservation guarantee. Age/entry rules not visible in text; check seller."
+      ],
+      "category": "music",
+      "ticketUrl": "https://www.bubilet.com.tr/antalya/etkinlik/-gripin-konseri-/seans/279994",
+      "coordinateSource": "https://www.bubilet.com.tr/antalya/etkinlik/-gripin-konseri-",
+      "coordinatePrecision": "First-party event subEvent location.geo",
+      "availabilityPublished": "https://schema.org/InStock",
+      "id": "hm27-global-31b62846ba60e3",
+      "startLocal": "2026-11-14T22:00:00+03:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/antalya/events.json"
+    },
+    {
+      "cityId": "antalya",
+      "title": "Altın Gün Konseri",
+      "date": "2026-11-18",
+      "time": "22:00",
+      "timezone": "Europe/Istanbul",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "address": "Selçuk Mah. Uzun Çarşı Sokak 42 Kaleiçi\nMURATPAŞA / Antalya",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/altin-gun-konseri-",
+      "lat": 36.88563743,
+      "lng": 30.70431947,
+      "priceFrom": 700,
+      "currency": "TRY",
+      "checkedAt": "2026-10-27T05:04:18.286237+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.bubilet.com.tr/antalya/etkinlik/altin-gun-konseri-",
+          "supports": "Primary visible event page plus Event/subEvent JSON-LD exact 2026 startDate with +00:00, venue, full address, coordinates, price, availability"
+        },
+        {
+          "localArtifact": "/workspace/shared/hm27-global-evidence/bubilet.json",
+          "supports": "Saved fetched primary schema data and timestamps"
+        }
+      ],
+      "warnings": [
+        "End time in schema appears templated 90 minutes; not imported without visible corroboration.",
+        "InStock is the published schema status, not a live reservation guarantee. Age/entry rules not visible in text; check seller."
+      ],
+      "category": "music",
+      "ticketUrl": "https://www.bubilet.com.tr/antalya/etkinlik/altin-gun-konseri-/seans/228738",
+      "coordinateSource": "https://www.bubilet.com.tr/antalya/etkinlik/altin-gun-konseri-",
+      "coordinatePrecision": "First-party event subEvent location.geo",
+      "availabilityPublished": "https://schema.org/InStock",
+      "id": "hm27-global-a7a9188b5de827",
+      "startLocal": "2026-11-18T22:00:00+03:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/antalya/events.json"
+    },
+    {
+      "cityId": "antalya",
+      "title": "Ceylan Ertem Konseri",
+      "date": "2026-11-21",
+      "time": "22:00",
+      "timezone": "Europe/Istanbul",
+      "venue": "The Bar Kaleiçi",
+      "address": "Tuzcular Mh. Paşa Cami Sk. No:34, Antalya, Turkey 07100",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/ceylan-ertem-konseri",
+      "lat": 36.88491351,
+      "lng": 30.70597351,
+      "priceFrom": 500,
+      "currency": "TRY",
+      "checkedAt": "2026-10-27T05:04:17.286743+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.bubilet.com.tr/antalya/etkinlik/ceylan-ertem-konseri",
+          "supports": "Primary visible event page plus Event/subEvent JSON-LD exact 2026 startDate with +00:00, venue, full address, coordinates, price, availability"
+        },
+        {
+          "localArtifact": "/workspace/shared/hm27-global-evidence/bubilet.json",
+          "supports": "Saved fetched primary schema data and timestamps"
+        }
+      ],
+      "warnings": [
+        "End time in schema appears templated 90 minutes; not imported without visible corroboration.",
+        "InStock is the published schema status, not a live reservation guarantee. Age/entry rules not visible in text; check seller."
+      ],
+      "category": "music",
+      "ticketUrl": "https://www.bubilet.com.tr/antalya/etkinlik/ceylan-ertem-konseri/seans/295295",
+      "coordinateSource": "https://www.bubilet.com.tr/antalya/etkinlik/ceylan-ertem-konseri",
+      "coordinatePrecision": "First-party event subEvent location.geo",
+      "availabilityPublished": "https://schema.org/InStock",
+      "id": "hm27-global-c142a8dade2fec",
+      "startLocal": "2026-11-21T22:00:00+03:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/antalya/events.json"
+    },
+    {
+      "cityId": "antalya",
+      "title": "Çalıkuşu - Kanatları Kalbinde",
+      "date": "2026-10-31",
+      "time": "20:30",
+      "timezone": "Europe/Istanbul",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "address": "Yeşilbahçe, 1455. Sk. No:8, 07160 Muratpaşa/Antalya",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/calikusu-kanatlarin-kalbinde",
+      "lat": 36.87052798,
+      "lng": 30.72480588,
+      "priceFrom": 800,
+      "currency": "TRY",
+      "checkedAt": "2026-10-27T05:04:16.962813+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.bubilet.com.tr/antalya/etkinlik/calikusu-kanatlarin-kalbinde",
+          "supports": "Primary visible event page plus Event/subEvent JSON-LD exact 2026 startDate with +00:00, venue, full address, coordinates, price, availability"
+        },
+        {
+          "localArtifact": "/workspace/shared/hm27-global-evidence/bubilet.json",
+          "supports": "Saved fetched primary schema data and timestamps"
+        }
+      ],
+      "warnings": [
+        "End time in schema appears templated 90 minutes; not imported without visible corroboration.",
+        "InStock is the published schema status, not a live reservation guarantee. Age/entry rules not visible in text; check seller."
+      ],
+      "category": "theatre",
+      "ticketUrl": "https://www.bubilet.com.tr/antalya/etkinlik/calikusu-kanatlarin-kalbinde/seans/292261",
+      "coordinateSource": "https://www.bubilet.com.tr/antalya/etkinlik/calikusu-kanatlarin-kalbinde",
+      "coordinatePrecision": "First-party event subEvent location.geo",
+      "availabilityPublished": "https://schema.org/InStock",
+      "id": "hm27-global-1498f0d9b056d1",
+      "startLocal": "2026-10-31T20:30:00+03:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/antalya/events.json"
+    },
+    {
+      "cityId": "istanbul",
+      "title": "Mustafa Sandal Konseri",
+      "date": "2026-10-27",
+      "time": "21:00",
+      "timezone": "Europe/Istanbul",
+      "venue": "Harbiye Cemil Topuzlu Açıkhava Tiyatrosu",
+      "address": " Harbiye, Taşkışla Cd. No:8, 34367 Şişli",
+      "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/mustafa-sandal-konseri",
+      "lat": 41.04726676,
+      "lng": 28.98961301,
+      "priceFrom": 2822.4,
+      "currency": "TRY",
+      "checkedAt": "2026-10-27T05:04:20.689053+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.bubilet.com.tr/istanbul/etkinlik/mustafa-sandal-konseri",
+          "supports": "Primary visible event page plus Event/subEvent JSON-LD exact 2026 startDate with +00:00, venue, full address, coordinates, price, availability"
+        },
+        {
+          "localArtifact": "/workspace/shared/hm27-global-evidence/bubilet.json",
+          "supports": "Saved fetched primary schema data and timestamps"
+        }
+      ],
+      "warnings": [
+        "End time in schema appears templated 90 minutes; not imported without visible corroboration.",
+        "InStock is the published schema status, not a live reservation guarantee. Age/entry rules not visible in text; check seller."
+      ],
+      "category": "music",
+      "ticketUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/mustafa-sandal-konseri/seans/269158",
+      "coordinateSource": "https://www.bubilet.com.tr/istanbul/etkinlik/mustafa-sandal-konseri",
+      "coordinatePrecision": "First-party event subEvent location.geo",
+      "availabilityPublished": "https://schema.org/InStock",
+      "id": "hm27-global-9aed37158d7f0e",
+      "startLocal": "2026-10-27T21:00:00+03:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/istanbul/events.json"
+    },
+    {
+      "cityId": "istanbul",
+      "title": "JODOK CELLO",
+      "date": "2026-11-01",
+      "time": "20:00",
+      "timezone": "Europe/Istanbul",
+      "venue": "AKM Türk Telekom Opera Salonu",
+      "address": " Gümüşsuyu, Tak-ı Zafer Cd., 34437 Beyoğlu",
+      "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/jodok-cello",
+      "lat": 41.03694158,
+      "lng": 28.98770452,
+      "priceFrom": null,
+      "currency": "TRY",
+      "checkedAt": "2026-10-27T05:04:20.526968+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.bubilet.com.tr/istanbul/etkinlik/jodok-cello",
+          "supports": "Primary visible event page plus Event/subEvent JSON-LD exact 2026 startDate with +00:00, venue, full address, coordinates, price, availability"
+        },
+        {
+          "localArtifact": "/workspace/shared/hm27-global-evidence/bubilet.json",
+          "supports": "Saved fetched primary schema data and timestamps"
+        }
+      ],
+      "warnings": [
+        "End time in schema appears templated 90 minutes; not imported without visible corroboration.",
+        "InStock is the published schema status, not a live reservation guarantee. Age/entry rules not visible in text; check seller.",
+        "Price conflict: indexed discounted price1796.25, category/schema2695 TRY. Price held blank pending eligibility resolution."
+      ],
+      "category": "music",
+      "ticketUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/jodok-cello/seans/248197",
+      "coordinateSource": "https://www.bubilet.com.tr/istanbul/etkinlik/jodok-cello",
+      "coordinatePrecision": "First-party event subEvent location.geo",
+      "availabilityPublished": "https://schema.org/InStock",
+      "id": "hm27-global-3293a5241a0a4c",
+      "startLocal": "2026-11-01T20:00:00+03:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/istanbul/events.json"
+    },
+    {
+      "cityId": "istanbul",
+      "title": "Kendine Has Sahnesi: Büyük Ev Ablukada - Jakuzi - Arkadaş",
+      "date": "2026-10-31",
+      "time": "17:00",
+      "timezone": "Europe/Istanbul",
+      "venue": "KüçükÇiftlik Park",
+      "address": "KüçükÇiftlik Park Harbiye Kadırgalar Cad. No:4 Şişli / İstanbul",
+      "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/kendine-has-sahnesi-buyuk-ev-ablukada-jakuzi-arkadas",
+      "lat": 41.04361235,
+      "lng": 28.99297,
+      "priceFrom": 900,
+      "currency": "TRY",
+      "checkedAt": "2026-10-27T05:04:20.846925+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.bubilet.com.tr/istanbul/etkinlik/kendine-has-sahnesi-buyuk-ev-ablukada-jakuzi-arkadas",
+          "supports": "Primary visible event page plus Event/subEvent JSON-LD exact 2026 startDate with +00:00, venue, full address, coordinates, price, availability"
+        },
+        {
+          "localArtifact": "/workspace/shared/hm27-global-evidence/bubilet.json",
+          "supports": "Saved fetched primary schema data and timestamps"
+        }
+      ],
+      "warnings": [
+        "End time in schema appears templated 90 minutes; not imported without visible corroboration.",
+        "InStock is the published schema status, not a live reservation guarantee. Age/entry rules not visible in text; check seller."
+      ],
+      "category": "music",
+      "ticketUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/kendine-has-sahnesi-buyuk-ev-ablukada-jakuzi-arkadas/seans/283852",
+      "coordinateSource": "https://www.bubilet.com.tr/istanbul/etkinlik/kendine-has-sahnesi-buyuk-ev-ablukada-jakuzi-arkadas",
+      "coordinatePrecision": "First-party event subEvent location.geo",
+      "availabilityPublished": "https://schema.org/InStock",
+      "id": "hm27-global-cbae3e36d92a70",
+      "startLocal": "2026-10-31T17:00:00+03:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/istanbul/events.json"
+    },
+    {
+      "cityId": "palo-alto",
+      "title": "Startup Pitch Night & Tech Networking in Palo Alto",
+      "date": "2026-11-24",
+      "time": "17:00",
+      "timezone": "America/Los_Angeles",
+      "venue": "JOE & THE JUICE",
+      "address": "508 University Avenue, Palo Alto, CA 94301",
+      "sourceUrl": "https://startupvalley.club/events/palo-alto-2026-11-24",
+      "lat": 37.4483752,
+      "lng": -122.1589036,
+      "priceFrom": null,
+      "currency": "USD",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "Standard public ticket; investor ticket requires approval, pitch requires selection",
+      "endTime": "20:00",
+      "evidence": [
+        {
+          "url": "https://startupvalley.club/events/palo-alto-2026-11-24",
+          "supports": "Explicit 2026 event URL/title and TueNov24 17:00, JOE&JUICE"
+        },
+        {
+          "url": "https://luma.com/n577ty36",
+          "supports": "17:00–20:00 agenda, full venue address, ticket types and access conditions"
+        },
+        {
+          "url": "https://startupvalley.club/cities/palo-alto",
+          "supports": "Upcoming Oct29/Nov24/Dec17/Jan14 series; anyone may buy standard ticket"
+        }
+      ],
+      "warnings": [
+        "Price not visible; do not label free.",
+        "Super early ticket sold out; early bird displayed9left at check, not a guarantee.",
+        "Do not describe investor/pitch access as unconditional."
+      ],
+      "category": "tech",
+      "ticketUrl": "https://luma.com/n577ty36",
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=37.4483752,-122.15890359999999&query_place_id=ChIJY_cc3Ti7j4AR_46J7zYVlWM",
+      "coordinatePrecision": "Existing Oct29 baseline exact same venue map point; organizer address matches",
+      "id": "hm27-global-8a46f2f7c2080d",
+      "startLocal": "2026-11-24T17:00:00-08:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": false,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/palo-alto/events.json"
+    },
+    {
+      "cityId": "limassol",
+      "title": "Hadjidakis Meets Rachmaninoff",
+      "date": "2026-11-01",
+      "time": "19:30",
+      "timezone": "Asia/Nicosia",
+      "venue": "Pattihio Municipal Theatre",
+      "address": "4 Agias Zonis Street, Limassol 3027",
+      "sourceUrl": "https://www.pattihio.com.cy/class/hadjidakis-meets-rachmaninoff/",
+      "lat": 34.68129,
+      "lng": 33.04389,
+      "priceFrom": 15,
+      "currency": "EUR",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "Public ticket; under16 accompanied by adult",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://www.pattihio.com.cy/class/hadjidakis-meets-rachmaninoff/",
+          "supports": "1/11/26 19:30,90min including10min interval,15/10EUR, under16adultsupervision"
+        },
+        {
+          "url": "https://wgolimassol.com/en/event/hadjidakis-rachmaninoff-2026",
+          "supports": "Afisha corroboration 2026"
+        }
+      ],
+      "warnings": [
+        "Reduced EUR10 eligibility not specified; use15 ordinary published price.",
+        "Ticket link published; live inventory unknown."
+      ],
+      "category": "music",
+      "durationMinutes": 90,
+      "venueId": "limassol-pattihio",
+      "coordinateSource": "https://mapcarta.com/W269171005",
+      "coordinatePrecision": "Existing verified venue building point from baseline",
+      "id": "hm27-global-b22b3fe13d3470",
+      "startLocal": "2026-11-01T19:30:00+02:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/limassol/events.json"
+    },
+    {
+      "cityId": "new-york",
+      "title": "Halloween Celebration at the American Museum of Natural History",
+      "date": "2026-10-31",
+      "time": "11:00",
+      "timezone": "America/New_York",
+      "venue": "American Museum of Natural History – Milstein Hall of Ocean Life",
+      "address": "200 Central Park West, New York, NY 10024",
+      "sourceUrl": "https://www.amnh.org/calendar/halloween-celebration",
+      "lat": 40.7811,
+      "lng": -73.97421,
+      "priceFrom": 25,
+      "currency": "USD",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": "16:00",
+      "evidence": [
+        {
+          "url": "https://www.amnh.org/calendar/halloween-celebration",
+          "supports": "SaturdayOct31 2026,11–16,exacthall,address,25general/15member plusmuseumadmission; masksnotallowed"
+        },
+        {
+          "url": "https://www.timeout.com/newyork/things-to-do/halloween-celebration-at-the-american-museum-of-natural-history",
+          "supports": "TimeOut editorial updatedOct16 2026 corroboration"
+        },
+        {
+          "url": "https://mapcarta.com/22559924",
+          "supports": "AMNH named building coordinates"
+        }
+      ],
+      "warnings": [
+        "Live inventory unknown.",
+        "Costumes encouraged, masks prohibited."
+      ],
+      "category": "family",
+      "coordinateSource": "https://mapcarta.com/22559924",
+      "coordinatePrecision": "Named museum building; not internal hall entrance",
+      "priceNote": "$25 general-public event ticket PLUS separately required museum admission; $15 members. Do not represent $25 as total admission cost.",
+      "id": "hm27-global-2b3c64eaa0b06b",
+      "startLocal": "2026-10-31T11:00:00-04:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/new-york/events.json"
+    },
+    {
+      "cityId": "new-york",
+      "title": "New York's Village Halloween Parade",
+      "date": "2026-10-31",
+      "time": "19:00",
+      "timezone": "America/New_York",
+      "venue": "Sixth Avenue parade route",
+      "address": "Sixth Avenue from King Street to West 15th Street, Manhattan, New York",
+      "sourceUrl": "https://halloween-nyc.com/",
+      "lat": null,
+      "lng": null,
+      "priceFrom": 0,
+      "currency": "USD",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "Free public spectator access; marching requires costume; optional paid VIP areas",
+      "endTime": "23:00",
+      "evidence": [
+        {
+          "url": "https://halloween-nyc.com/",
+          "supports": "Explicit2026 Oct31 19:00"
+        },
+        {
+          "url": "https://halloween-nyc.com/watch/",
+          "supports": "Official spectator route KingStreet toW15th, approx19–23, free public viewing"
+        }
+      ],
+      "warnings": [
+        "Route event: no invented point coordinate. Map-ineligible until verified specific route anchor.",
+        "23:00 approximate finish."
+      ],
+      "category": "festival",
+      "id": "hm27-global-7b04f5045c1a5c",
+      "startLocal": "2026-10-31T19:00:00-04:00",
+      "mapEligible": false,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/new-york/events.json"
+    },
+    {
+      "cityId": "new-york",
+      "title": "Playback’s Street Party",
+      "date": "2026-11-07",
+      "time": "11:00",
+      "timezone": "America/New_York",
+      "venue": "Outside BAM Rose Cinemas",
+      "address": "Lafayette Avenue between Ashland Place and St. Felix Street, Brooklyn, NY",
+      "sourceUrl": "https://www.bam.org/community/2026/playback-street-party",
+      "lat": null,
+      "lng": null,
+      "priceFrom": 0,
+      "currency": "USD",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "Free first-come-first-served; RSVP does not guarantee entry",
+      "endTime": "17:00",
+      "evidence": [
+        {
+          "url": "https://www.bam.org/community/2026/playback-street-party",
+          "supports": "OutsideBAMRoseCinemas exactblock,free/firstcome and RSVP conditions"
+        },
+        {
+          "url": "https://www.bam.org/film/2026/playback",
+          "supports": "2026 programme Nov7 11–17 party"
+        }
+      ],
+      "warnings": [
+        "Street segment, not indoor cinema. No fabricated point."
+      ],
+      "category": "festival",
+      "id": "hm27-global-dc37660fb85c6e",
+      "startLocal": "2026-11-07T11:00:00-05:00",
+      "mapEligible": false,
+      "nextSevenLocalDates": false,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/new-york/events.json"
+    },
+    {
+      "cityId": "dubai",
+      "title": "Bongo's Bingo Dubai – Halloween Special",
+      "date": "2026-10-30",
+      "time": "20:30",
+      "timezone": "Asia/Dubai",
+      "venue": "Bla Bla by McGettigan’s – The Tent",
+      "address": "5101 Messer Street, The Beach, JBR / Dubai Marina, Dubai",
+      "sourceUrl": "https://dubai.platinumlist.net/event-tickets/bongos-bingo-dubai-halloween-special",
+      "lat": 25.0747,
+      "lng": 55.12914,
+      "priceFrom": 150,
+      "currency": "AED",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "Public ticket, strictly21+, lastentry20:00, no reentry, unreservedfloorseating",
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://dubai.platinumlist.net/event-tickets/bongos-bingo-dubai-halloween-special",
+          "supports": "2026title Oct30 20:30,doors19,lastentry20,from150AED,21+,venue"
+        }
+      ],
+      "warnings": [
+        "Few tickets left shown, live inventory not guaranteed."
+      ],
+      "category": "nightlife",
+      "doorsTime": "19:00",
+      "venueId": "dubai-bla-bla",
+      "coordinateSource": "https://mapcarta.com/W1128074467",
+      "coordinatePrecision": "Existing verified BlaBla building point, not separate Tent entrance",
+      "id": "hm27-global-237c65e60c6358",
+      "startLocal": "2026-10-30T20:30:00+04:00",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/dubai/events.json"
+    },
+    {
+      "cityId": "dubai",
+      "title": "FNDM 2026",
+      "date": "2026-10-31",
+      "time": "11:00",
+      "timezone": "Asia/Dubai",
+      "venue": "Concourse Convention Center, Dubai Outlet Mall",
+      "address": "Dubai Outlet Mall, Dubai–Al Ain Road (Route 66), Madinat Hind 1, Dubai",
+      "sourceUrl": "https://dubai.platinumlist.net/event-tickets/fndm",
+      "lat": null,
+      "lng": null,
+      "priceFrom": 75,
+      "currency": "AED",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": "23:00",
+      "evidence": [
+        {
+          "url": "https://dubai.platinumlist.net/event-tickets/fndm",
+          "supports": "ExplicitOct31/Nov1 2026,eachday11–23,ConcourseConventionCenteratOutletMall,ticketprices"
+        }
+      ],
+      "warnings": [
+        "Mall coordinates are not verified convention-hall coordinates; leftblank.",
+        "Live ticket inventory unknown."
+      ],
+      "category": "festival",
+      "priceNote": "Adult day75AED,weekend130AED; age7–11 AED25atdoor,under7free.",
+      "id": "hm27-global-aa3103e0c721dd",
+      "startLocal": "2026-10-31T11:00:00+04:00",
+      "mapEligible": false,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/dubai/events.json"
+    },
+    {
+      "cityId": "dubai",
+      "title": "FNDM 2026",
+      "date": "2026-11-01",
+      "time": "11:00",
+      "timezone": "Asia/Dubai",
+      "venue": "Concourse Convention Center, Dubai Outlet Mall",
+      "address": "Dubai Outlet Mall, Dubai–Al Ain Road (Route 66), Madinat Hind 1, Dubai",
+      "sourceUrl": "https://dubai.platinumlist.net/event-tickets/fndm",
+      "lat": null,
+      "lng": null,
+      "priceFrom": 75,
+      "currency": "AED",
+      "checkedAt": "2026-10-27T05:12:07.014282+00:00",
+      "status": "candidate",
+      "eventStatus": "scheduled",
+      "soldOut": null,
+      "publicAccess": "public ticket / registration",
+      "endTime": "23:00",
+      "evidence": [
+        {
+          "url": "https://dubai.platinumlist.net/event-tickets/fndm",
+          "supports": "ExplicitOct31/Nov1 2026,eachday11–23,ConcourseConventionCenteratOutletMall,ticketprices"
+        }
+      ],
+      "warnings": [
+        "Mall coordinates are not verified convention-hall coordinates; leftblank.",
+        "Live ticket inventory unknown."
+      ],
+      "category": "festival",
+      "priceNote": "Adult day75AED,weekend130AED; age7–11 AED25atdoor,under7free.",
+      "id": "hm27-global-0f029c264085bb",
+      "startLocal": "2026-11-01T11:00:00+04:00",
+      "mapEligible": false,
+      "nextSevenLocalDates": true,
+      "baselineDuplicateIds": [],
+      "baselinePath": "/workspace/scratch/59f6a13c9f12/hm27/public/dubai/events.json"
+    },
+    {
+      "id": "hm27-global-istanbul-ayta-20261102",
+      "cityId": "istanbul",
+      "title": "Ayta Sözeri",
+      "date": "2026-11-02",
+      "time": "21:00",
+      "startLocal": "2026-11-02T21:00:00+03:00",
+      "timezone": "Europe/Istanbul",
+      "venue": "Harbiye Cemil Topuzlu Açıkhava Tiyatrosu",
+      "address": " Harbiye, Taşkışla Cd. No:8, 34367 Şişli",
+      "lat": 41.04726676,
+      "lng": 28.98961301,
+      "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/aytasozeri-",
+      "ticketUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/aytasozeri-/seans/279268",
+      "coordinateSource": "https://www.bubilet.com.tr/istanbul/etkinlik/aytasozeri-",
+      "coordinatePrecision": "Primary subEvent.location.geo",
+      "priceFrom": 925,
+      "currency": "TRY",
+      "priceNote": "Published autumn campaign price925TRY; limited stock campaign. Older session snapshot750advantage tickets not used as current guaranteed minimum.",
+      "publicAccess": "Public ticket,6+,no reentry withoutnewticket",
+      "soldOut": null,
+      "availabilityPublished": "https://schema.org/InStock",
+      "endTime": null,
+      "category": "music",
+      "status": "candidate",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "checkedAt": "2026-10-27T05:13:35.724565+00:00",
+      "baselineDuplicateIds": [],
+      "evidence": [
+        {
+          "url": "https://www.bubilet.com.tr/istanbul/etkinlik/aytasozeri-/seans/279268",
+          "supports": "Explicit2Nov2026 21:00,Harbiye,6+ and campaignconditions"
+        },
+        {
+          "url": "https://www.bubilet.com.tr/istanbul/etkinlik/aytasozeri-",
+          "supports": "FreshJSON-LD exact2026UTCstart,venue,address,coordinates,925TRYcampaignprice"
+        },
+        {
+          "localArtifact": "/workspace/shared/hm27-global-evidence/ayta.json",
+          "supports": "Savedprimaryschema"
+        }
+      ],
+      "warnings": [
+        "Campaignstocklimited; publishedInStocknotreservationguarantee.",
+        "Templated90minendnotimported."
+      ]
+    },
+    {
+      "id": "hm27-global-dubai-zadar-20261102",
+      "cityId": "dubai",
+      "title": "Dubai Basketball vs Zadar (ABA League)",
+      "date": "2026-11-02",
+      "time": "19:30",
+      "doorsTime": "18:00",
+      "startLocal": "2026-11-02T19:30:00+04:00",
+      "timezone": "Asia/Dubai",
+      "venue": "Coca-Cola Arena",
+      "venueId": "dubai-coca-cola-arena",
+      "address": "City Walk, Dubai, United Arab Emirates",
+      "lat": 25.20375,
+      "lng": 55.26569,
+      "coordinateSource": "https://tr.aroundus.com/p/4091762-coca-cola-arena",
+      "coordinatePrecision": "Existingverifiedbaselinevenuebuildingpoint",
+      "sourceUrl": "https://coca-cola-arena.com/sports/2188/dubai-basketball-vs-zadar",
+      "priceFrom": 20,
+      "priceTo": 1390,
+      "currency": "AED",
+      "priceNote": "OrdinaryCAT C and familysection20AED. Studentpass15AED for16+ withpossibleID. Selectchildtickets0AED,categoryconditionsapply.",
+      "publicAccess": "Publicticket;under16mustbeaccompaniedbyadult18+",
+      "soldOut": null,
+      "status": "candidate",
+      "mapEligible": true,
+      "nextSevenLocalDates": true,
+      "category": "sports",
+      "checkedAt": "2026-10-27T05:14:34.621038+00:00",
+      "baselineDuplicateIds": [],
+      "endTime": null,
+      "evidence": [
+        {
+          "url": "https://coca-cola-arena.com/sports/2188/dubai-basketball-vs-zadar",
+          "supports": "Monday2Nov2026,19:30,doors18,venue,categoryC20AED,15AEDstudentonly,under16adultrequirement"
+        },
+        {
+          "url": "https://www.visitdubai.com/en/festivals-and-events/dubai-events-calendar/dubai-basketball-vs-zadar",
+          "supports": "Governmentcalendarcorroboratesdate/year/time/venue"
+        }
+      ],
+      "warnings": [
+        "Do not advertise15AEDas unrestrictedgeneraladmission.",
+        "Ticketcategoriesvisible,liveinventorynotreserved."
+      ]
+    }
+  ],
+  "heldOrExcluded": [
+    {
+      "cityId": "antalya",
+      "title": "Çalıkuşu - Kanatları Kalbinde",
+      "date": "2026-10-30",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/calikusu-kanatlarin-kalbinde",
+      "reason": "Excluded: Manavgat municipality, not Antalya city. Province category is not city boundary evidence."
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Nude Renaissance",
+      "date": "2026-11-01",
+      "sourceUrl": "https://www.secrettelaviv.com/tickets?pno=3",
+      "reason": "Afisha SundayNov1 but body says Friday; original Instagram cachemiss. Date conflict unresolved."
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Games Night at Blue Fox",
+      "date": "2026-11-01",
+      "sourceUrl": "https://www.instagram.com/p/DeZBwWGRtcl/",
+      "reason": "Afisha20–22:30/body23 conflict, address unverified, primaryIGcachemiss."
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "Tarot Art Night at Heart Gallery",
+      "date": "2026-11-01",
+      "sourceUrl": "https://www.instagram.com/reel/DewOe5OOBos/?obrf=MXVkc3B5cml1aDR6Zg%3D%3D",
+      "reason": "Afisha20–22,Eilat4,160/140ILS but originalIGcachemiss; price eligibility/point not verified."
+    },
+    {
+      "cityId": "palo-alto",
+      "title": "AI Agent Arena",
+      "date": "2026-11-19",
+      "sourceUrl": "https://stayhappening.com/e/ai-agent-arena-E118SB4UXX2A2",
+      "reason": "Secondary19Nov2026 18:30,OshmanJCC3921FabianWay; primaryEventbrite not resolved; baseline hasOct22 only. Do not manufacture recurring session."
+    },
+    {
+      "cityId": "palo-alto",
+      "title": "Module 2 AI Longevity Researcher",
+      "date": "2026-10-27",
+      "sourceUrl": "https://www.eventbrite.com/e/module-2-ai-longevity-researcher-registration-form-tickets-1996757699029",
+      "reason": "PrimaryStanfordconfirmsopenpublic/no prerequisites andOct27 2026 18–20BiomedicalInnovations240Pasteur. Howevercourseendconflict: detailNov3,home/SnyderNov17; indexedEventbritebodylistsOct27,Nov3,19,17despiteTuesdays. Feeandvenuepointunknown; no synthetic sessions added.",
+      "additionalSources": [
+        "https://med.stanford.edu/genetics/events/Stanford_AI_Longevity_Lab_Certificate_Course1.html",
+        "https://med.stanford.edu/genetics.html",
+        "https://med.stanford.edu/snyderlab.html/"
+      ]
+    },
+    {
+      "cityId": "palo-alto",
+      "title": "Building120 AI event / Tech Impact and Policy Center",
+      "date": "2026-10-27",
+      "sourceUrl": "https://events.stanford.edu/department/tech_impact_and_policy_center/calendar",
+      "reason": "Explicit bringStanfordID restriction overrides Everyone tag. Exclude ordinarypublic feed."
+    },
+    {
+      "cityId": "palo-alto",
+      "title": "The Big Tent AI event",
+      "date": "2026-11-20",
+      "sourceUrl": "https://thebigtent.ai/",
+      "reason": "POSTPONED,newdatesTBA overrides staleNov20–21 body."
+    },
+    {
+      "cityId": "palo-alto",
+      "title": "TechEquity AI Summit",
+      "date": "2026-11-03",
+      "reason": "SnowflakeHubMenloPark outside PaloAlto boundary."
+    },
+    {
+      "cityId": "limassol",
+      "title": "The Smurfs – Green Mission",
+      "date": "2026-10-31",
+      "sourceUrl": "https://www.pattihio.com.cy/class/stroumfakia/",
+      "reason": "Venueprimary visible11:00 only; WGO11&16and2026, SoldOutticketprimary402. Hold16session; primaryyear and exactprice still needcorroboration."
+    },
+    {
+      "cityId": "limassol",
+      "title": "The House of Bernarda Alba",
+      "date": "2026-10-28",
+      "sourceUrl": "https://wgolimassol.com/en/event/bernarda-alba-synergio-2026",
+      "reason": "WGOOct28/29at20,Synergio35EUR16+; originalticketunavailable, exactvenueaddress/pointunverified."
+    },
+    {
+      "cityId": "limassol",
+      "title": "Mikhail Kazinik",
+      "date": "2026-10-29",
+      "sourceUrl": "https://wgolimassol.com/en/event/kazinik-lanitio-2026",
+      "reason": "WGO19:00Laniteio55EURfrom; originalticketunavailable and pointunverified."
+    },
+    {
+      "cityId": "dubai",
+      "title": "Summer in Nashville 2026",
+      "date": "2026-10-31",
+      "sourceUrl": "https://dubai.platinumlist.net/event-tickets/summer-in-nashville",
+      "reason": "14:00doors only, not start; MediaCityAmphitheatre,from175AED,member20%discount; exactpoint notverified. Hold until doors-only handling and location confirmed."
+    },
+    {
+      "cityId": "dubai",
+      "title": "The Fridge Concert Series – Season50",
+      "date": "2026-10-27",
+      "sourceUrl": "https://dubai.platinumlist.net/event-tickets/108314/the-fridge-concert-series-season-50-in-dubai",
+      "reason": "Primary explicitly SoldOut; not offered as available."
+    },
+    {
+      "cityId": "antalya",
+      "title": "Simge – Antalya Kültür Yolu Festivali",
+      "date": "2026-11-02",
+      "time": "21:00",
+      "sourceUrl": "https://kulturyolufestivali.com/etkinlik/simge-konseri-1791531424",
+      "reason": "Secondary2026programmeconfirmsfreeKonyaaltiBeachParkbutofficialprimary403; noexactstagepointverified. Held, notsilentlyfilledNov2gap.",
+      "discoverySources": [
+        "https://www.organizone.com.tr/etkinlikler/antalya",
+        "https://jollin.com.tr/share/post/01a167cf-277a-72db-b252-ec435e45d0fb/"
+      ]
+    }
+  ],
+  "accessFailures": [
+    {
+      "target": "Primary individual Eventbrite and Stanford calendar pages",
+      "action": "Read public page",
+      "reason": "HTTP429 / rate limit",
+      "outcome": "No login/bypass; candidates held if exact access/date unverified"
+    },
+    {
+      "target": "Tzavta/Luma/Platinumlist primary direct HTTP fetch",
+      "action": "Read public HTML using urllib after normalwebreads",
+      "reason": "HTTP403",
+      "outcome": "Stopped directfetches; previously available webtext retained, no retry/bypass"
+    },
+    {
+      "target": "https://www.soldoutticketbox.com/event/stroumfakia-i-prasini-apostoli-2026?lang=el",
+      "action": "Read originalticketpage",
+      "reason": "HTTP402PaymentRequired",
+      "outcome": "No purchase/login/bypass; extra16:00session held"
+    },
+    {
+      "target": "Public IG posts listed in sourceChecks",
+      "action": "Read originalannouncement",
+      "reason": "Cachemiss/429",
+      "outcome": "No profile substitution,no bypass"
+    },
+    {
+      "target": "https://kulturyolufestivali.com/etkinlik/simge-konseri-1791531424",
+      "action": "Open published primary event link from public afisha",
+      "reason": "HTTP403Forbidden",
+      "outcome": "No retry/bypass; event held"
+    }
+  ]
+}

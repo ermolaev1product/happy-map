@@ -1,0 +1,99 @@
+[
+  {
+    "id": "tg:auditoria_tbilisi:7600:2026-10-17:1930",
+    "operation": "update_existing_only",
+    "preserveId": true,
+    "changes": {
+      "title": "«Наука на краю земли»: документальный фильм и обсуждение с биологом",
+      "titleEn": "Science at the Edge of the World: documentary and discussion with a biologist",
+      "category": "film",
+      "eventFormat": "science_film_and_discussion",
+      "learningEligible": true,
+      "learningTopics": [
+        "science",
+        "field research",
+        "nature conservation"
+      ],
+      "description": "Документальный фильм «Чукотка. Наука в Мейныпильгыно» и разговор с биологом Никитой Тиуновым о полевых исследованиях, экспедиционной жизни и охране природы. Это кинопоказ с научным обсуждением, не конференция. Вход за донат, нужна регистрация.",
+      "descriptionEn": "A documentary about field research in Chukotka, followed by a discussion with biologist Nikita Tiunov about expedition science and nature conservation. A science film and discussion, not a conference. Donation-based admission; registration required.",
+      "price": null,
+      "priceLabel": "Донат любой бумажной купюрой или эквивалент переводом; регистрация обязательна.",
+      "priceLabelEn": "Donation of any banknote or equivalent transfer; registration required.",
+      "priceNote": "Донат, не бесплатный вход. Средства организатор направляет в поддержку Софьи Розенфельд.",
+      "ticketUrl": "https://t.me/auditoria_tbilisi_bot?start=xiask",
+      "registrationRequired": true,
+      "registration": "Регистрация у организатора: https://t.me/auditoria_tbilisi_bot?start=xiask",
+      "availabilityVerified": false,
+      "availabilityNote": "Анонс содержит публичную регистрацию; остаток мест и успешная запись не проверены. Отмены или sold out в просмотренном анонсе нет.",
+      "announcementLanguage": "ru"
+    },
+    "unchangedSchedule": {
+      "date": "2026-10-17",
+      "time": "19:30",
+      "timezone": "Asia/Tbilisi",
+      "endTime": null
+    },
+    "unchangedVenue": {
+      "venue": "Auditoria",
+      "address": "22–26 Simon Janashia Street, Tbilisi",
+      "lat": 41.7058354,
+      "lng": 44.7814223,
+      "mapSource": "https://maps.app.goo.gl/cvvHU4JbKJPdfEEq9",
+      "coordinateEvidence": "Retain previously verified organizer map pin; no new geocoding claimed."
+    },
+    "sourceUrl": "https://t.me/auditoria_tbilisi/7600",
+    "sourcePublishedAt": "2026-10-14T14:20:45+00:00",
+    "checkedAt": "2026-10-16T17:00:00Z",
+    "evidence": {
+      "primaryYearTimeVenue": "Existing baseline recorded organizer post publication metadata in October 2026 and exact Oct17 19:30 date/time, venue and donation/registration.",
+      "currentCorroboration": "Current indexed TG.ME channel copy repeats the complete Oct14 announcement with date/time, named biologist, scientific discussion, donation and registration URL. Direct primary Telegram open was unavailable in this web tool on Oct16; this is enrichment of an existing verified record, not a new discovery.",
+      "corroborationUrl": "https://tg.me/auditoria_tbilisi",
+      "baselinePath": "happymap-conferences-all20-20261016/public/events.json"
+    },
+    "languageEvidence": "The announcement is in Russian. No new claim about spoken/discussion language is made. Preserve existing language fields and their prior provenance."
+  },
+  {
+    "id": "tg-week-dba8193289bc1e",
+    "operation": "update_existing_only",
+    "preserveId": true,
+    "editorialDecision": "Eligible intellectual/creative-industry discussion because independent filmmaking and artistic choices are explicitly advertised; preserve film format.",
+    "changes": {
+      "category": "film",
+      "eventFormat": "film_screening_and_filmmaking_discussion",
+      "learningEligible": true,
+      "learningTopics": [
+        "independent filmmaking",
+        "creative industries",
+        "cinema"
+      ],
+      "description": "Показ независимого фильма «Я тебя слышу» (2023), затем разговор по видеосвязи с режиссёром Вахтангом Жоржолиани о дебютном фильме, независимом кинопроизводстве и художественных решениях. Ведущий Вадим Кривобок. Сбор 19:00, начало 19:20.",
+      "descriptionEn": "A screening of I Hear You (2023), followed by a video Q&A with director Vakhtang Zhorzholiani about making a debut feature, independent filmmaking and artistic choices. Hosted by Vadim Krivobok. Doors 19:00; programme 19:20.",
+      "price": 15,
+      "priceLabel": "15 GEL по предоплате; 20 GEL в день показа.",
+      "priceLabelEn": "15 GEL in advance; 20 GEL on the day.",
+      "priceNote": "15 GEL по предоплате; 20 GEL в день показа.",
+      "ticketUrl": "https://t.me/auditoria_tbilisi_bot?start=shqmj",
+      "registrationRequired": true,
+      "registration": "Билеты и места через бот организатора: https://t.me/auditoria_tbilisi_bot?start=shqmj",
+      "availabilityVerified": false,
+      "availabilityNote": "Публичная регистрация рекламируется; свободные места и успешная покупка не проверены.",
+      "doorsTime": "19:00",
+      "announcementLanguage": "ru"
+    },
+    "unchangedSchedule": {
+      "date": "2026-10-18",
+      "time": "19:20",
+      "timezone": "Asia/Tbilisi",
+      "endTime": null
+    },
+    "sourceUrl": "https://t.me/auditoria_tbilisi/7582",
+    "checkedAt": "2026-10-16T17:00:00Z",
+    "evidence": {
+      "primarySchedule": "Existing verified Oct12 weekly programme already supplies Oct18 19:20 and venue, with machine-readable 2026 publication timestamp.",
+      "currentDetail": "Organizer channel announcement dated Oct15 is reproduced in the current indexed TG.ME channel copy, explicitly advertising filmmaking discussion and prices; its individual primary post number has not yet been resolved. Do not claim freshly fetched primary admission verification.",
+      "corroborationUrl": "https://tg.me/auditoria_tbilisi",
+      "baselinePath": "happymap-conferences-all20-20261016/public/events.json"
+    },
+    "languageEvidence": "The announcement is in Russian. No new claim about spoken/discussion language is made. Preserve existing language fields and their prior provenance."
+  }
+]

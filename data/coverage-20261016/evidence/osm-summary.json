@@ -1,0 +1,111 @@
+[
+  {
+    "city": "prague",
+    "candidateCount": 7963,
+    "sourcePacketSha256": "a5c35a9d576ba3a3fadb973e4d3a1662f701e049d07551c45b6f3ef7c4310e4f",
+    "boundary": {
+      "osm_id": "435514",
+      "name": "Praha",
+      "admin_level": "4"
+    },
+    "boundarySha256": "2d768b26477b06ae4c10d2bddfb0d26ac098f5c0e9666fc8da3bcd0c637e55dc",
+    "pbfProvenanceVerified": true,
+    "sourceSnapshot": "2026-10-15T20:21:00+00:00",
+    "rawFeaturesFound": 7963,
+    "baselineCount": 96,
+    "currentCount": 96,
+    "baselineRecordsPreserved": true,
+    "currentPlacesSha256": "1046585c0057889a4cae5e71729d8dfd8dd97af5c381f6fdcd0e8c1f8ff8e161",
+    "currentEventsSha256": "71db1b06ef85ea63cbc74f0ca56e7c9b8c8f994036dcdfd6bccc2b58efaca340",
+    "eventLinkedVenueReferences": 91,
+    "possibleCurrentReferenceDuplicates": 10,
+    "additionalInternalReviewPairs": 11,
+    "payloadBytes": {
+      "verbosePretty": 18063387,
+      "verboseMinified": 14727732,
+      "verboseGzip": 865096,
+      "projectedMinified": 2251875,
+      "projectedGzip": 452967
+    },
+    "issues": {
+      "duplicateIds": 0,
+      "duplicateOsmIds": 0,
+      "nonAbsoluteUrl": 19,
+      "outsideExactMunicipalBoundary": 0
+    },
+    "durationSeconds": 3.01
+  },
+  {
+    "city": "berlin",
+    "candidateCount": 20801,
+    "sourcePacketSha256": "f574f545cc686028c63147e4e1ad8624fe2b4f8d286477fb99e17a437a6fd156",
+    "boundary": {
+      "osm_id": "62422",
+      "name": "Berlin",
+      "admin_level": "4"
+    },
+    "boundarySha256": "70b205693cf3f771a75a855a12f891f07e14cdb690a9bb86fb9fed5d8a2779ff",
+    "pbfProvenanceVerified": true,
+    "sourceSnapshot": "2026-10-15T20:21:00+00:00",
+    "rawFeaturesFound": 20801,
+    "baselineCount": 27,
+    "currentCount": 27,
+    "baselineRecordsPreserved": true,
+    "currentPlacesSha256": "cf359d63e10468848a5b99b3a4aef1dcaa06f84013d398dbc62a4caa59f80a2b",
+    "currentEventsSha256": "b41569b258fa7fcaad562a491854d1c999943e48f2ec6052a297f6df4d973c11",
+    "eventLinkedVenueReferences": 31,
+    "possibleCurrentReferenceDuplicates": 7,
+    "additionalInternalReviewPairs": 2,
+    "payloadBytes": {
+      "verbosePretty": 47355850,
+      "verboseMinified": 38654649,
+      "verboseGzip": 2356411,
+      "projectedMinified": 6214400,
+      "projectedGzip": 1256067
+    },
+    "issues": {
+      "duplicateIds": 0,
+      "duplicateOsmIds": 0,
+      "nonAbsoluteUrl": 5,
+      "outsideExactMunicipalBoundary": 0,
+      "polygonPointOutsideFeature": 1
+    },
+    "durationSeconds": 7.16
+  },
+  {
+    "city": "limassol",
+    "candidateCount": 636,
+    "sourcePacketSha256": "1ec8251429750f4f324e7491ee21a3267e35469c32e85c88ca0a075e28e37971",
+    "boundary": {
+      "osm_id": "17716603",
+      "name": "Δήμος Λεμεσού",
+      "admin_level": "6"
+    },
+    "boundarySha256": "fdaa53edc3d6ca2308791cc2887df43924f9ef50c71d12ecce0404689fb1e498",
+    "pbfProvenanceVerified": true,
+    "sourceSnapshot": "2026-10-15T20:21:00+00:00",
+    "rawFeaturesFound": 636,
+    "baselineCount": 8,
+    "currentCount": 8,
+    "baselineRecordsPreserved": true,
+    "currentPlacesSha256": "d426f2825ae178f78e92f6fd94be46492b71e49161ec3cb03d26e113f7582795",
+    "currentEventsSha256": "10870057360a7c228f6bf2f3b537610db9a7c9ce627b4017982d4c8f3447fa71",
+    "eventLinkedVenueReferences": 11,
+    "possibleCurrentReferenceDuplicates": 3,
+    "additionalInternalReviewPairs": 1,
+    "payloadBytes": {
+      "verbosePretty": 1446586,
+      "verboseMinified": 1180088,
+      "verboseGzip": 65978,
+      "projectedMinified": 163994,
+      "projectedGzip": 33137
+    },
+    "issues": {
+      "duplicateIds": 0,
+      "duplicateOsmIds": 0,
+      "nonAbsoluteUrl": 4,
+      "outsideExactMunicipalBoundary": 0
+    },
+    "durationSeconds": 0.75
+  }
+]

@@ -1,0 +1,1007 @@
+{
+  "checkedAt": "2026-10-09T02:17:00Z",
+  "batchId": "reviewed-research-2026-10-09",
+  "events": [
+    {
+      "example": "tbilisi-quiz-7",
+      "city": "tbilisi",
+      "reason": "Do not publish an exact-time map occurrence until the one-hour conflict is resolved. Existing exact venue name can supply coordinates after time is confirmed.",
+      "evidenceUrls": [
+        "https://club60sec.ru/city/tbilisi"
+      ],
+      "status": "pending"
+    },
+    {
+      "example": "tbilisi-quiz-8",
+      "city": "tbilisi",
+      "reason": "Do not publish an exact-time map occurrence until the one-hour conflict is resolved. Le Tapis existing curated point uses address 178 while this listing specifies 180; retain that coordinate candidate as unverified.",
+      "evidenceUrls": [
+        "https://club60sec.ru/city/tbilisi"
+      ],
+      "status": "pending"
+    },
+    {
+      "example": "tbilisi-biennale-symposium",
+      "city": "tbilisi",
+      "reason": "Date, time and exact venue point are confirmed. Public admission/registration remains unverified; keep pending rather than imply drop-in availability.",
+      "evidenceUrls": [
+        "https://www.tbilisibiennale.com/2026/project-agenda/",
+        "https://www.nplg.gov.ge/eng/Reading_Halls",
+        "https://www.tbilisibiennale.com/2026/shedule-1/"
+      ],
+      "status": "pending"
+    },
+    {
+      "example": "moscow-museum-week",
+      "city": "moscow",
+      "reason": "Composite multi-venue offer lacks a single location or visit interval. Do not assign generic Museum Moscow coordinates to all branches. Separate exhibition/branch tickets and hours are required.",
+      "evidenceUrls": [
+        "https://mosmuseum.ru/visitors/tikets/free/"
+      ],
+      "status": "pending"
+    },
+    {
+      "example": "belgrade-1",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/debate/predstavljanje-fukt-casopisa/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "updated",
+      "eventId": "bg-afisha-2140",
+      "title": "Презентация журнала FUKT: Бьёрн Хегардт и Ариане Шпанир в Доме омладине",
+      "date": "2026-10-12",
+      "time": "19:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?place=venue%3Adomomladinebeograda%3A44.8154%3A20.4628&date=2026-10-12&radius=all"
+    },
+    {
+      "example": "belgrade-2",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "https://mapcarta.com/W32809082"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-museum-heritage-20261011-tour",
+      "title": "«Свобода для нас — мечта»: авторская экскурсия",
+      "date": "2026-10-11",
+      "time": "13:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:muzejjugoslavijemuzej25maj:44.7880:20.4520",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?place=venue%3Amuzejjugoslavijemuzej25maj%3A44.7880%3A20.4520&date=2026-10-11&radius=all"
+    },
+    {
+      "example": "belgrade-2",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "https://mapcarta.com/W32809082"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-museum-heritage-20261011-conversation",
+      "title": "Дни европейского наследия: встреча с авторами выставки",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:muzejjugoslavijemuzej25maj:44.7880:20.4520",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?place=venue%3Amuzejjugoslavijemuzej25maj%3A44.7880%3A20.4520&date=2026-10-11&radius=all"
+    },
+    {
+      "example": "belgrade-2",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "https://mapcarta.com/W32809082"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-museum-heritage-20261011-performance",
+      "title": "«U potpisu, nezaboravljeni»: перформанс",
+      "date": "2026-10-11",
+      "time": "18:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:muzejjugoslavijemuzej25maj:44.7880:20.4520",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?place=venue%3Amuzejjugoslavijemuzej25maj%3A44.7880%3A20.4520&date=2026-10-11&radius=all"
+    },
+    {
+      "example": "belgrade-3",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://ra.co/events/2532528",
+        "https://www.openstreetmap.org/node/5302622223"
+      ],
+      "status": "updated",
+      "eventId": "bg-afisha-1537",
+      "title": "MRAK с Sedef Adasï: резидентка Berghain и Blitz в Drugstore",
+      "date": "2026-10-10",
+      "time": "23:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "osm:node:5302622223",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?place=osm%3Anode%3A5302622223&date=2026-10-10&radius=all"
+    },
+    {
+      "example": "belgrade-4",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://www.narodnopozoriste.rs/repertoar",
+        "https://afisha.rs/ru/venues/narodno-pozoriste-u-beogradu"
+      ],
+      "status": "updated",
+      "eventId": "bg-afisha-1541",
+      "title": "«Кармен» Бизе на Большой сцене Народного театра",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:narodnopozoristeubeogradu:44.8170:20.4610",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?place=venue%3Anarodnopozoristeubeogradu%3A44.8170%3A20.4610&date=2026-10-10&radius=all"
+    },
+    {
+      "example": "belgrade-5",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://www.narodnopozoriste.rs/repertoar",
+        "https://afisha.rs/ru/venues/narodno-pozoriste-u-beogradu"
+      ],
+      "status": "updated",
+      "eventId": "bg-afisha-1945",
+      "title": "«Отцы и праотцы» — с английскими титрами",
+      "date": "2026-10-11",
+      "time": "19:30",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:narodnopozoristeubeogradu:44.8170:20.4610",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?place=venue%3Anarodnopozoristeubeogradu%3A44.8170%3A20.4610&date=2026-10-11&radius=all"
+    },
+    {
+      "example": "belgrade-6",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://www.kcb.org.rs/2026/10/upis-na-jesenju-foto-radionicu-out-of-the-box/?script=cir",
+        "https://www.wikidata.org/wiki/Q116200976"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-out-of-box-20261020",
+      "title": "Старт фотомастерской Out of the Box",
+      "date": "2026-10-20",
+      "time": "18:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:galerijaartgetkulturnicentarbeograda:44.8154:20.4598"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261021-1900",
+      "title": "Vladimir Nikolov Nonet: History Now · Белградский джазовый фестиваль",
+      "date": "2026-10-21",
+      "time": "19:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261021-2100",
+      "title": "Ana Popović · Белградский джазовый фестиваль",
+      "date": "2026-10-21",
+      "time": "21:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261022-1900",
+      "title": "Tino Tracanna: Panorchestra · Белградский джазовый фестиваль",
+      "date": "2026-10-22",
+      "time": "19:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261022-2100",
+      "title": "Chicago Underground Duo: Rob Mazurek & Chad Taylor · Белградский джазовый фестиваль",
+      "date": "2026-10-22",
+      "time": "21:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261022-2230",
+      "title": "Andreas Schaerer & Daniel García Diego · Белградский джазовый фестиваль",
+      "date": "2026-10-22",
+      "time": "22:30",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261022-2345",
+      "title": "Arun Ramamurthy Trio · Белградский джазовый фестиваль",
+      "date": "2026-10-22",
+      "time": "23:45",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261023-1900",
+      "title": "Ivan Radivojević Quartet feat. Rastko Obradović · Белградский джазовый фестиваль",
+      "date": "2026-10-23",
+      "time": "19:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261023-2100",
+      "title": "The Messthetics and James Brandon Lewis · Белградский джазовый фестиваль",
+      "date": "2026-10-23",
+      "time": "21:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261023-2230",
+      "title": "Seifert Night: Akimbo + JuMa · Белградский джазовый фестиваль",
+      "date": "2026-10-23",
+      "time": "22:30",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261024-1900",
+      "title": "João Paulo Esteves da Silva Quartet · Белградский джазовый фестиваль",
+      "date": "2026-10-24",
+      "time": "19:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261024-2100",
+      "title": "Marquis Hill Blacktet Revisited · Белградский джазовый фестиваль",
+      "date": "2026-10-24",
+      "time": "21:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261024-2230",
+      "title": "Đorđe Kujundžić Quartet · Белградский джазовый фестиваль",
+      "date": "2026-10-24",
+      "time": "22:30",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-jazz-20261024-2345",
+      "title": "Jam Session · Белградский джазовый фестиваль",
+      "date": "2026-10-24",
+      "time": "23:45",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "venue:domomladinebeograda:44.8154:20.4628"
+    },
+    {
+      "example": "belgrade-8",
+      "city": "belgrade",
+      "evidenceUrls": [
+        "https://t.me/vstrechi_v_belgrade/13108",
+        "https://afisha.rs/ru/venues/anticafe-black-cat"
+      ],
+      "status": "added",
+      "eventId": "bg-verified-blackcat-abre-los-ojos-20261011",
+      "title": "Киноклуб «Кино после кино»: «Открой глаза»",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?radius=all",
+      "placeId": "bg-place-blackcat",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/belgrade/index.html?place=bg-place-blackcat&date=2026-10-11&radius=all"
+    },
+    {
+      "example": "verified-see360-mariam-20261009",
+      "city": "tbilisi",
+      "evidenceUrls": [
+        "https://www.see360.ge/event-agenda",
+        "https://www.openstreetmap.org/node/11945876532"
+      ],
+      "status": "added",
+      "eventId": "verified-see360-mariam-20261009",
+      "title": "Mariam Kikvilashvili — Live Music",
+      "date": "2026-10-09",
+      "time": "20:30",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/map.html?radius=all",
+      "placeId": "osm:node:11945876532",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/map.html?place=osm%3Anode%3A11945876532&date=2026-10-09&radius=all"
+    },
+    {
+      "example": "verified-see360-maria-20261010",
+      "city": "tbilisi",
+      "evidenceUrls": [
+        "https://www.see360.ge/event-agenda",
+        "https://www.openstreetmap.org/node/11945876532"
+      ],
+      "status": "added",
+      "eventId": "verified-see360-maria-20261010",
+      "title": "Maria Besedina — Live Music",
+      "date": "2026-10-10",
+      "time": "20:30",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/map.html?radius=all",
+      "placeId": "osm:node:11945876532",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/map.html?place=osm%3Anode%3A11945876532&date=2026-10-10&radius=all"
+    },
+    {
+      "example": "tbilisi-tbc-opening",
+      "city": "tbilisi",
+      "evidenceUrls": [
+        "https://tbcconcept.ge/ge/events/irina-jibuti-gamopena",
+        "https://t.me/ProGeorgian/34588"
+      ],
+      "status": "added",
+      "eventId": "verified-tbc-irina-opening-20261009",
+      "title": "Ирина Джибути — открытие выставки",
+      "date": "2026-10-09",
+      "time": "18:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/map.html?radius=all",
+      "placeId": "curated-place:8f035e1159e1",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/map.html?place=curated-place%3A8f035e1159e1&date=2026-10-09&radius=all"
+    },
+    {
+      "example": "tbilisi-silk-museum",
+      "city": "tbilisi",
+      "evidenceUrls": [
+        "https://silkmuseum.ge/en/exhibition/67/muzeumi-da-mdinare",
+        "https://www.openstreetmap.org/way/135869289"
+      ],
+      "status": "added",
+      "eventId": "verified-silk-museum-river-2026",
+      "title": "Museum and the River",
+      "date": "2026-05-23",
+      "time": "11:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/map.html?radius=all",
+      "placeId": "osm:way:135869289",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/map.html?place=osm%3Away%3A135869289&date=2026-10-09&radius=all"
+    },
+    {
+      "example": "moscow-mosvintage",
+      "city": "moscow",
+      "evidenceUrls": [
+        "https://mosvintage.ru/market",
+        "https://mosvintage.ru/market"
+      ],
+      "status": "added",
+      "eventId": "verified-msk-mosvintage-2026-10-09",
+      "title": "Мосвинтаж Селект в Музее Москвы",
+      "date": "2026-10-09",
+      "time": "12:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?radius=all",
+      "placeId": "venue:музеимосквыкорпус1этаж2белыизал:55.7364:37.5932",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?place=venue%3A%D0%BC%D1%83%D0%B7%D0%B5%D0%B8%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D1%8B%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%811%D1%8D%D1%82%D0%B0%D0%B62%D0%B1%D0%B5%D0%BB%D1%8B%D0%B8%D0%B7%D0%B0%D0%BB%3A55.7364%3A37.5932&date=2026-10-09&radius=all"
+    },
+    {
+      "example": "moscow-mosvintage",
+      "city": "moscow",
+      "evidenceUrls": [
+        "https://mosvintage.ru/market",
+        "https://mosvintage.ru/market"
+      ],
+      "status": "added",
+      "eventId": "verified-msk-mosvintage-2026-10-10",
+      "title": "Мосвинтаж Селект в Музее Москвы",
+      "date": "2026-10-10",
+      "time": "12:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?radius=all",
+      "placeId": "venue:музеимосквыкорпус1этаж2белыизал:55.7364:37.5932",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?place=venue%3A%D0%BC%D1%83%D0%B7%D0%B5%D0%B8%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D1%8B%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%811%D1%8D%D1%82%D0%B0%D0%B62%D0%B1%D0%B5%D0%BB%D1%8B%D0%B8%D0%B7%D0%B0%D0%BB%3A55.7364%3A37.5932&date=2026-10-10&radius=all"
+    },
+    {
+      "example": "moscow-mosvintage",
+      "city": "moscow",
+      "evidenceUrls": [
+        "https://mosvintage.ru/market",
+        "https://mosvintage.ru/market"
+      ],
+      "status": "added",
+      "eventId": "verified-msk-mosvintage-2026-10-11",
+      "title": "Мосвинтаж Селект в Музее Москвы",
+      "date": "2026-10-11",
+      "time": "12:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?radius=all",
+      "placeId": "venue:музеимосквыкорпус1этаж2белыизал:55.7364:37.5932",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?place=venue%3A%D0%BC%D1%83%D0%B7%D0%B5%D0%B8%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D1%8B%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%811%D1%8D%D1%82%D0%B0%D0%B62%D0%B1%D0%B5%D0%BB%D1%8B%D0%B8%D0%B7%D0%B0%D0%BB%3A55.7364%3A37.5932&date=2026-10-11&radius=all"
+    },
+    {
+      "example": "moscow-shrimps",
+      "city": "moscow",
+      "evidenceUrls": [
+        "https://www.16tons.ru/concert/2026-the-shrimps-10oct/",
+        "https://yandex.com/maps/org/16_tonn/186517304540/"
+      ],
+      "status": "updated",
+      "eventId": "msk-a8c30bbdb1dbb758",
+      "title": "The Shrimps Танцевальная вечеринка на Арбате",
+      "date": "2026-10-10",
+      "time": "20:30",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?radius=all",
+      "placeId": "venue:16тоннарбат:55.7495:37.5910",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?place=venue%3A16%D1%82%D0%BE%D0%BD%D0%BD%D0%B0%D1%80%D0%B1%D0%B0%D1%82%3A55.7495%3A37.5910&date=2026-10-10&radius=all"
+    },
+    {
+      "example": "moscow-tumaniyo",
+      "city": "moscow",
+      "evidenceUrls": [
+        "https://tau.place/events/tumaniyo-202610112000",
+        "https://yandex.com/maps/org/tau/206418889846/"
+      ],
+      "status": "added",
+      "eventId": "verified-msk-tumaniyo-20261011",
+      "title": "TumaniYO",
+      "date": "2026-10-11",
+      "time": "20:00",
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?radius=all",
+      "placeId": "venue:tau:55.7236:37.7529",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?place=venue%3Atau%3A55.7236%3A37.7529&date=2026-10-11&radius=all"
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/kuratorskaya-ekskursiya-po-vystavke-hleb/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ],
+      "status": "added",
+      "eventId": "verified-msk-zotov-curator-2026-10-16",
+      "title": "Кураторская экскурсия по выставке «Хлеб»",
+      "date": "2026-10-16",
+      "time": "19:30",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?radius=all",
+      "placeId": "msk-place-zotov"
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/vypechka-instrukcziya-po-primeneniyu/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ],
+      "status": "added",
+      "eventId": "verified-msk-zotov-baking-2026-10-17",
+      "title": "Выпечка. Инструкция по применению",
+      "date": "2026-10-17",
+      "time": "14:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?radius=all",
+      "placeId": "msk-place-zotov"
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/detskij-master-klass-piczcza-margarita/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ],
+      "status": "added",
+      "eventId": "verified-msk-zotov-pizza-2026-10-17",
+      "title": "Детский мастер-класс «Пицца Маргарита» / Экскурсия по выставке «Хлеб»",
+      "date": "2026-10-17",
+      "time": "13:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?radius=all",
+      "placeId": "msk-place-zotov"
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/art-branch-istoriya-hleba-ot-pervobytnosti-do-nashih-dnej-2/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ],
+      "status": "added",
+      "eventId": "verified-msk-zotov-brunch-2026-10-18",
+      "title": "Арт-бранч «История хлеба. От первобытности до наших дней»",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?radius=all",
+      "placeId": "msk-place-zotov"
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/pablik-tok-vkus-kak-nasledie/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ],
+      "status": "added",
+      "eventId": "verified-msk-zotov-heritage-2026-10-18",
+      "title": "Паблик-ток «Вкус как наследие»",
+      "date": "2026-10-18",
+      "time": "15:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?radius=all",
+      "placeId": "msk-place-zotov"
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/keramicheskie-podvesy/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ],
+      "status": "added",
+      "eventId": "verified-msk-zotov-ceramic-2026-10-18",
+      "title": "Керамические подвесы",
+      "date": "2026-10-18",
+      "time": "16:00",
+      "inCurrentMapWindow": false,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/moscow/index.html?radius=all",
+      "placeId": "msk-place-zotov"
+    },
+    {
+      "example": "tbilisi-tbc-opening",
+      "city": "tbilisi",
+      "reason": "Preserve the existing ongoing exhibition; add verified closed days and official source. Exact opening is separate.",
+      "evidenceUrls": [
+        "https://tbcconcept.ge/ge/events/irina-jibuti-gamopena"
+      ],
+      "status": "updated",
+      "eventId": "n23:45d4d0f389334454",
+      "title": "Ирина Джибути · From Earth to Fire to Earth",
+      "date": "2026-10-09",
+      "time": null,
+      "inCurrentMapWindow": true,
+      "cityMapUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/map.html?radius=all",
+      "placeId": "curated-place:8f035e1159e1",
+      "mapVenueProgramUrl": "https://morrow-tbilisi-preview.ermolife.chatgpt.site/map.html?place=curated-place%3A8f035e1159e1&date=2026-10-09&radius=all"
+    }
+  ],
+  "sources": {
+    "added": 150,
+    "reviewedExisting": 28,
+    "total": 362,
+    "unit": "страницы / каналы, не независимые поставщики и не географические точки"
+  },
+  "examples": [
+    {
+      "key": "belgrade-1",
+      "city": "belgrade",
+      "title": "Predstavljanje FUKT časopisa",
+      "status": "already_present_updated",
+      "eventIds": [
+        "bg-afisha-2140"
+      ],
+      "sourceUrls": [
+        "https://domomladine.org/debate/predstavljanje-fukt-casopisa/"
+      ],
+      "notes": [
+        "Do not infer language from page language."
+      ]
+    },
+    {
+      "key": "belgrade-2",
+      "city": "belgrade",
+      "title": "Dani evropske baštine u Muzeju Jugoslavije",
+      "status": "added",
+      "eventIds": [
+        "bg-verified-museum-heritage-20261011-tour",
+        "bg-verified-museum-heritage-20261011-conversation",
+        "bg-verified-museum-heritage-20261011-performance"
+      ],
+      "sourceUrls": [
+        "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/"
+      ],
+      "notes": [
+        "Registration form target was resolved from the official page but form capacity itself could not be read; no seats claim."
+      ]
+    },
+    {
+      "key": "belgrade-3",
+      "city": "belgrade",
+      "title": "MRAK with Sedef Adasï",
+      "status": "already_present_updated",
+      "eventIds": [
+        "bg-afisha-1537"
+      ],
+      "sourceUrls": [
+        "https://ra.co/events/2532528"
+      ],
+      "notes": [
+        "Price tiers are organizer announcements, not a live purchasable inventory check. Use null numeric price with qualified label."
+      ]
+    },
+    {
+      "key": "belgrade-4",
+      "city": "belgrade",
+      "title": "Karmen",
+      "status": "already_present_updated",
+      "eventIds": [
+        "bg-afisha-1541"
+      ],
+      "sourceUrls": [
+        "https://www.narodnopozoriste.rs/",
+        "https://www.narodnopozoriste.rs/repertoar"
+      ],
+      "notes": [
+        "Performance and subtitle languages not revalidated."
+      ]
+    },
+    {
+      "key": "belgrade-5",
+      "city": "belgrade",
+      "title": "Očevi i oci",
+      "status": "already_present_updated",
+      "eventIds": [
+        "bg-afisha-1945"
+      ],
+      "sourceUrls": [
+        "https://www.narodnopozoriste.rs/",
+        "https://www.narodnopozoriste.rs/repertoar"
+      ],
+      "notes": [
+        "Existing aggregate says from 300 RSD; official ticket page did not load, so this price is not newly reverified. Prefer no numeric price."
+      ]
+    },
+    {
+      "key": "belgrade-6",
+      "city": "belgrade",
+      "title": "Upis na jesenju foto-radionicu Out of the Box",
+      "status": "added",
+      "eventIds": [
+        "bg-verified-out-of-box-20261020"
+      ],
+      "sourceUrls": [
+        "https://www.kcb.org.rs/najave/",
+        "https://www.kcb.org.rs/2026/10/upis-na-jesenju-foto-radionicu-out-of-the-box/?script=cir",
+        "https://www.kcb.org.rs/o-centru/prostor/"
+      ],
+      "notes": [
+        "Wikidata Gallery Artget publishes DMS 44°48'55.60038\"N, 20°27'35.18687\"E, converted arithmetically to decimal. Its underlying Google reference is for the KCB building. Official event confirms exact gallery entrance address Trg Republike 5/I. This is a building-level pin, not independently verified doorway accuracy.",
+        "Only first session added; do not synthesize all ten dates or present as an unrestricted drop-in."
+      ]
+    },
+    {
+      "key": "belgrade-7",
+      "city": "belgrade",
+      "title": "42. Beogradski džez festival 2026",
+      "status": "added",
+      "eventIds": [
+        "bg-verified-jazz-20261021-1900",
+        "bg-verified-jazz-20261021-2100",
+        "bg-verified-jazz-20261022-1900",
+        "bg-verified-jazz-20261022-2100",
+        "bg-verified-jazz-20261022-2230",
+        "bg-verified-jazz-20261022-2345",
+        "bg-verified-jazz-20261023-1900",
+        "bg-verified-jazz-20261023-2100",
+        "bg-verified-jazz-20261023-2230",
+        "bg-verified-jazz-20261024-1900",
+        "bg-verified-jazz-20261024-2100",
+        "bg-verified-jazz-20261024-2230",
+        "bg-verified-jazz-20261024-2345"
+      ],
+      "sourceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/"
+      ],
+      "notes": [
+        "No session end times inferred. Seifert Night remains one timed card. Jam Session pricing not explicitly stated: never mark free or paid without ticket detail."
+      ]
+    },
+    {
+      "key": "belgrade-8",
+      "city": "belgrade",
+      "title": "Открой глаза — Кино после кино",
+      "status": "added",
+      "eventIds": [
+        "bg-verified-blackcat-abre-los-ojos-20261011"
+      ],
+      "sourceUrls": [
+        "https://t.me/s/vstrechi_v_belgrade"
+      ],
+      "notes": [
+        "Full announcement verified in public preview. Direct permalink fetch cache-missed. Capacity is not publicly confirmed; do not promise availability."
+      ]
+    },
+    {
+      "key": "tbilisi-quiz-7",
+      "city": "tbilisi",
+      "title": "60 Seconds — Autumn-7 Open League",
+      "status": "pending",
+      "eventIds": [],
+      "sourceUrls": [
+        "https://club60sec.ru/city/tbilisi"
+      ],
+      "notes": [
+        "Do not publish an exact-time map occurrence until the one-hour conflict is resolved. Existing exact venue name can supply coordinates after time is confirmed."
+      ]
+    },
+    {
+      "key": "tbilisi-quiz-8",
+      "city": "tbilisi",
+      "title": "60 Seconds — Autumn-8 Open League",
+      "status": "pending",
+      "eventIds": [],
+      "sourceUrls": [
+        "https://club60sec.ru/city/tbilisi"
+      ],
+      "notes": [
+        "Do not publish an exact-time map occurrence until the one-hour conflict is resolved. Le Tapis existing curated point uses address 178 while this listing specifies 180; retain that coordinate candidate as unverified."
+      ]
+    },
+    {
+      "key": "verified-see360-mariam-20261009",
+      "city": "tbilisi",
+      "title": "Mariam Kikvilashvili — Live Music",
+      "status": "added",
+      "eventIds": [
+        "verified-see360-mariam-20261009"
+      ],
+      "sourceUrls": [
+        "https://www.see360.ge/event-agenda"
+      ],
+      "notes": []
+    },
+    {
+      "key": "verified-see360-maria-20261010",
+      "city": "tbilisi",
+      "title": "Maria Besedina — Live Music",
+      "status": "added",
+      "eventIds": [
+        "verified-see360-maria-20261010"
+      ],
+      "sourceUrls": [
+        "https://www.see360.ge/event-agenda"
+      ],
+      "notes": []
+    },
+    {
+      "key": "tbilisi-tbc-opening",
+      "city": "tbilisi",
+      "title": "Irina Jibuti — From Earth to Fire, From Earth to Earth: Opening",
+      "status": "added",
+      "eventIds": [
+        "verified-tbc-irina-opening-20261009"
+      ],
+      "sourceUrls": [
+        "https://tbcconcept.ge/ge/events/irina-jibuti-gamopena"
+      ],
+      "notes": [
+        "Opening is a distinct two-hour occurrence; the exhibition itself already exists as n23:45d4d0f389334454. Do not duplicate the ongoing exhibition."
+      ]
+    },
+    {
+      "key": "tbilisi-silk-museum",
+      "city": "tbilisi",
+      "title": "Museum and the River",
+      "status": "added",
+      "eventIds": [
+        "verified-silk-museum-river-2026"
+      ],
+      "sourceUrls": [
+        "https://silkmuseum.ge/en/whats-on",
+        "https://silkmuseum.ge/en/visit"
+      ],
+      "notes": [
+        "Store as ongoing with closedWeekdays [0,1]. General museum standard ticket is confirmed; any separate exhibition surcharge is not stated. End date is Monday, so last normal open day is November 28 unless museum announces otherwise."
+      ]
+    },
+    {
+      "key": "tbilisi-biennale-symposium",
+      "city": "tbilisi",
+      "title": "Tbilisi Stage Design Biennale — International Symposium",
+      "status": "pending",
+      "eventIds": [],
+      "sourceUrls": [
+        "https://www.tbilisibiennale.com/2026/project-agenda/",
+        "https://www.nplg.gov.ge/eng/Reading_Halls",
+        "https://www.tbilisibiennale.com/2026/shedule-1/"
+      ],
+      "notes": [
+        "Date, time and exact venue point are confirmed. Public admission/registration remains unverified; keep pending rather than imply drop-in availability."
+      ]
+    },
+    {
+      "key": "moscow-mosvintage",
+      "city": "moscow",
+      "title": "Фестиваль «Мосвинтаж»",
+      "status": "added",
+      "eventIds": [
+        "verified-msk-mosvintage-2026-10-09",
+        "verified-msk-mosvintage-2026-10-10",
+        "verified-msk-mosvintage-2026-10-11"
+      ],
+      "sourceUrls": [
+        "https://mosvintage.ru/market",
+        "https://mosmuseum.ru/"
+      ],
+      "notes": [
+        "Publish three daytime occurrences, not one continuous 57-hour event."
+      ]
+    },
+    {
+      "key": "moscow-shrimps",
+      "city": "moscow",
+      "title": "The Shrimps — танцевальная вечеринка",
+      "status": "already_present_updated",
+      "eventIds": [
+        "msk-a8c30bbdb1dbb758"
+      ],
+      "sourceUrls": [
+        "https://www.16tons.ru/concert/2026-the-shrimps-10oct/",
+        "https://www.16tons.ru/",
+        "https://yandex.com/maps/org/16_tonn/186517304540/"
+      ],
+      "notes": [
+        "Enrich existing id msk-a8c30bbdb1dbb758; do not create a duplicate. No performance end is published."
+      ]
+    },
+    {
+      "key": "moscow-tumaniyo",
+      "city": "moscow",
+      "title": "TumaniYO",
+      "status": "added",
+      "eventIds": [
+        "verified-msk-tumaniyo-20261011"
+      ],
+      "sourceUrls": [
+        "https://tau.place/events/tumaniyo-202610112000",
+        "https://tau.place/contacts",
+        "https://yandex.com/maps/org/tau/206418889846/"
+      ],
+      "notes": []
+    },
+    {
+      "key": "moscow-museum-week",
+      "city": "moscow",
+      "title": "Московская музейная неделя — Музей Москвы и филиалы",
+      "status": "pending",
+      "eventIds": [],
+      "sourceUrls": [
+        "https://mosmuseum.ru/visitors/tikets/free/"
+      ],
+      "notes": [
+        "Composite multi-venue offer lacks a single location or visit interval. Do not assign generic Museum Moscow coordinates to all branches. Separate exhibition/branch tickets and hours are required."
+      ]
+    },
+    {
+      "key": "moscow-bread-weekend",
+      "city": "moscow",
+      "title": "Хлебный уикенд",
+      "status": "added",
+      "eventIds": [
+        "verified-msk-zotov-curator-2026-10-16",
+        "verified-msk-zotov-baking-2026-10-17",
+        "verified-msk-zotov-pizza-2026-10-17",
+        "verified-msk-zotov-brunch-2026-10-18",
+        "verified-msk-zotov-heritage-2026-10-18",
+        "verified-msk-zotov-ceramic-2026-10-18"
+      ],
+      "sourceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/kuratorskaya-ekskursiya-po-vystavke-hleb/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/vypechka-instrukcziya-po-primeneniyu/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/detskij-master-klass-piczcza-margarita/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/art-branch-istoriya-hleba-ot-pervobytnosti-do-nashih-dnej-2/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/pablik-tok-vkus-kak-nasledie/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/keramicheskie-podvesy/"
+      ],
+      "notes": [
+        "Publish only individual dated sessions below. Session prices are not stated in inspected details; registration does not imply free admission.",
+        "Семейный мастер-класс. Бутербродная: коллажный дизайн: Listed explicitly in parent program, but individual detail failed to load; omit from ready records in this conservative pass.",
+        "Детская интерактивная экскурсия по выставке «Хлеб»: Program lists multiple dates without one precise session time; not expanded."
+      ]
+    }
+  ],
+  "mapLinkNote": "Ссылки mapVenueProgramUrl открывают карточку площадки и программу выбранного дня. Прямого адреса отдельной карточки события нет. Более поздние даты пока вне семидневного окна."
+}

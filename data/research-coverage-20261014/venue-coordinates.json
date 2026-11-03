@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-10-13T23:39:15Z",
+  "venues": [
+    {
+      "venue": "KPGT",
+      "address": "Radnička 3, Stara šećerana, Beograd",
+      "lat": 44.78794,
+      "lng": 20.422,
+      "coordinateSource": "https://mapcarta.com/N6061077285",
+      "coordinateType": "Named theatre point from OpenStreetMap node 6061077285, surfaced by Mapcarta",
+      "addressSources": [
+        "https://mapcarta.com/N6061077285",
+        "https://urbanbug.net/mapa/beograd/kpgt"
+      ],
+      "verified": "The exact KPGT theatre entry gives Radnička 3, identifies the Old Sugar Factory and states these coordinates. It is not the unrelated US radio station named KPGT.",
+      "sourceAccess": "Full indexed source excerpt; direct open returned cache miss."
+    },
+    {
+      "venue": "Konak kneginje Ljubice",
+      "address": "Kneza Sime Markovića 8, Beograd",
+      "lat": 44.81711,
+      "lng": 20.45224,
+      "coordinateSource": "https://mapcarta.com/W38575518",
+      "coordinateType": "Named museum building from OpenStreetMap way 38575518, surfaced by Mapcarta",
+      "addressSources": [
+        "https://mapcarta.com/W38575518"
+      ],
+      "verified": "Museum building entry names Princess Ljubica's Residence, gives Kneza Sime Markovića 8 and official mgb.org.rs identity. This is a building point, not a photo camera position.",
+      "sourceAccess": "Search and full page opened."
+    },
+    {
+      "venue": "Malo pozorište \"Duško Radović\"",
+      "address": "Aberdareva 1, 11000 Beograd",
+      "lat": 44.81101,
+      "lng": 20.46969,
+      "coordinateSource": "https://mapcarta.com/W394141649",
+      "coordinateType": "Named theatre building from OpenStreetMap way 394141649, surfaced by Mapcarta",
+      "addressSources": [
+        "https://malopozoriste.co.rs/kontakt/",
+        "https://mapcarta.com/W394141649"
+      ],
+      "verified": "Official contact page and mapped theatre both identify Aberdareva 1 beside the Russian church in Tašmajdan. Excludes two unrelated schools named Duško Radović.",
+      "sourceAccess": "Official contact and mapped building opened in web tool. Official short Google Maps link could not be resolved; no guessed coordinates used."
+    },
+    {
+      "venue": "Muzej iluzija",
+      "address": "Nušićeva 11, 11000 Beograd",
+      "lat": 44.81429,
+      "lng": 20.46242,
+      "coordinateSource": "https://mapcarta.com/W393169188",
+      "coordinateType": "Named museum building from OpenStreetMap way 393169188, surfaced by Mapcarta",
+      "addressSources": [
+        "https://muzejiluzija.rs/",
+        "https://mapcarta.com/W393169188"
+      ],
+      "verified": "Official museum site and mapped building agree on Nušićeva 11 and museum contact identity. Official Google embed also identifies the museum, but its viewport center was not treated as the building pin.",
+      "sourceAccess": "Official site and mapped building opened."
+    },
+    {
+      "venue": "Pozorište Slavija",
+      "address": "Svetog Save 16–18, 11000 Beograd",
+      "lat": 44.80087,
+      "lng": 20.46741,
+      "coordinateSource": "https://mapcarta.com/N3964427391",
+      "coordinateType": "Named theatre point from OpenStreetMap node 3964427391, surfaced by Mapcarta",
+      "addressSources": [
+        "https://pozoriste-slavija.co.rs/kontakt/",
+        "https://mapcarta.com/N3964427391"
+      ],
+      "verified": "Official contact page and theatre point agree on Svetog Save 16–18 and theatre identity. Official embedded Google map viewport center was intentionally not used as the venue point.",
+      "sourceAccess": "Official contact retrieved HTTP 200 and saved locally; mapped theatre opened."
+    },
+    {
+      "venue": "Dvorana Kulturnog centra Beograda",
+      "address": "Kolarčeva 6, Beograd",
+      "lat": 44.815478,
+      "lng": 20.46037,
+      "coordinateSource": "https://yandex.com/maps/10522/belgrade/house/ZkkYcgFgSkIHQFpufXRwdHhkbA%3D%3D/",
+      "coordinateType": "Exact street-address building pin with Dvorana Kulturnog Centra named inside",
+      "addressSources": [
+        "https://www.kcb.org.rs/premises/dvorana-kulturnog-centra/",
+        "https://yandex.com/maps/10522/belgrade/house/ZkkYcgFgSkIHQFpufXRwdHhkbA%3D%3D/"
+      ],
+      "verified": "Official cinema premises page explicitly names Kolarčeva 6. Yandex exact-address building gives these coordinates and lists Dvorana Kulturnog Centra inside. Existing pin 44.8154275,20.4603707 is roughly 6 m south of this verified building point, consistent with the cinema, and is distinct from the generic KCB building at 44.8154733,20.4597113.",
+      "priorCatalogPoint": {
+        "lat": 44.8154275,
+        "lng": 20.4603707
+      },
+      "officialGenericKcbPointDoNotUseForCinema": {
+        "lat": 44.8154733,
+        "lng": 20.4597113,
+        "source": "https://www.kcb.org.rs/kontakt/"
+      },
+      "sourceAccess": "Official cinema page opened; Yandex full indexed excerpt gives exact building coordinates; direct open returned cache miss. No separate official cinema map pin was available."
+    }
+  ]
+}

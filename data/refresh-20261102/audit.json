@@ -1,0 +1,1413 @@
+{
+  "tbilisi": {
+    "telegram": [
+      {
+        "channel": "mesto_info",
+        "pagesRequested": 2,
+        "postsFetched": 37,
+        "postsRead": 18,
+        "earliest": "2026-10-14T10:03:28+00:00",
+        "latest": "2026-11-01T15:10:14+00:00",
+        "readNote": "Latest page rendered in full; older dated ArtLav programme read. Other earlier fetched pages not fully read."
+      },
+      {
+        "channel": "georgiaafisha",
+        "pagesRequested": 3,
+        "postsFetched": 56,
+        "postsRead": 5,
+        "earliest": "2026-09-01T11:03:04+00:00",
+        "latest": "2026-10-31T14:34:24+00:00",
+        "readNote": "Selected date-bearing excerpts only; others fetched but not counted read."
+      }
+    ],
+    "web": [],
+    "closure": {
+      "sourceUrl": "https://t.me/mesto_info/2946",
+      "date": "2026-11-08",
+      "from": "18:00",
+      "note": "Private booking: no public activities after18:00. Do not extrapolate recurring programmes."
+    },
+    "existingDuplicates": []
+  },
+  "yerevan": {
+    "telegram": [
+      {
+        "channel": "masterskayaArtLav",
+        "pagesRequested": 2,
+        "postsFetched": 7,
+        "postsRead": 7,
+        "earliest": "2026-10-15T15:59:18+00:00",
+        "latest": "2026-10-28T18:20:21+00:00",
+        "readNote": "Latest page rendered in full; older dated ArtLav programme read. Other earlier fetched pages not fully read."
+      },
+      {
+        "channel": "relokant",
+        "pagesRequested": 2,
+        "postsFetched": 40,
+        "postsRead": 20,
+        "earliest": "2026-09-28T12:15:09+00:00",
+        "latest": "2026-10-30T10:55:15+00:00",
+        "readNote": "Latest page rendered in full; older dated ArtLav programme read. Other earlier fetched pages not fully read."
+      },
+      {
+        "channel": "ErevanRus",
+        "pagesRequested": 3,
+        "postsFetched": 48,
+        "postsRead": 4,
+        "earliest": "2026-10-19T08:05:18+00:00",
+        "latest": "2026-11-01T10:03:47+00:00",
+        "readNote": "Selected date-bearing excerpts only; others fetched but not counted read."
+      },
+      {
+        "channel": "easygoing_yerevan",
+        "pagesRequested": 3,
+        "postsFetched": 39,
+        "postsRead": 9,
+        "earliest": "2026-10-26T11:44:32+00:00",
+        "latest": "2026-11-01T17:00:07+00:00",
+        "readNote": "Selected date-bearing excerpts only; others fetched but not counted read."
+      },
+      {
+        "channel": "uptown_yerevan",
+        "pagesRequested": 3,
+        "postsFetched": 23,
+        "postsRead": 2,
+        "earliest": "2026-10-21T16:50:01+00:00",
+        "latest": "2026-11-01T07:33:30+00:00",
+        "readNote": "Selected date-bearing excerpts only; others fetched but not counted read."
+      },
+      {
+        "channel": "gargoyle_pub",
+        "pagesRequested": 3,
+        "postsFetched": 55,
+        "postsRead": 0,
+        "earliest": "2026-08-01T10:22:53+00:00",
+        "latest": "2026-10-31T12:46:10+00:00",
+        "readNote": "Selected date-bearing excerpts only; others fetched but not counted read."
+      },
+      {
+        "channel": "kruzhokww",
+        "pagesRequested": 3,
+        "postsFetched": 54,
+        "postsRead": 1,
+        "earliest": "2026-08-29T17:42:28+00:00",
+        "latest": "2026-10-31T10:02:25+00:00",
+        "readNote": "Selected date-bearing excerpts only; others fetched but not counted read."
+      }
+    ],
+    "web": [
+      {
+        "url": "https://www.art-lav.com/blank/klub-dlya-mam-vremya-dlya-sebya-2026-11-02-12-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Клуб для мам \"Время для себя\"",
+          "description": "лепка из глины в уютной атмосфере\n(мастер-класс от Миланы, язык русский)\n10.000 драм за одного и 18.000 за двоих",
+          "startDate": "2026-11-02T12:00:00+04:00",
+          "endDate": "2026-11-02T14:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/klub-dlya-mam-vremya-dlya-sebya-2026-11-02-12-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_d3b0844f114f417b92ba0b99ac8c0ef6~mv2.jpg/v1/fill/w_1024,h_1024,al_c,q_85/fb1c73_d3b0844f114f417b92ba0b99ac8c0ef6~mv2.jpg",
+            "width": "1024",
+            "height": "1024"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/lepka-na-svobodnuyu-temu-kazhdyy-vtornik-2026-11-03-12-00-1",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Лепка на свободную тему: каждый вторник ",
+          "description": "мастер-класс по керамике \n(мастер Милана, язык русский)\n10.000 драм",
+          "startDate": "2026-11-03T12:00:00+04:00",
+          "endDate": "2026-11-03T14:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/lepka-na-svobodnuyu-temu-kazhdyy-vtornik-2026-11-03-12-00-1",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_5954f7a103b24ea9a2c12a963676df77~mv2.jpg/v1/fill/w_864,h_1280,al_c,q_85/fb1c73_5954f7a103b24ea9a2c12a963676df77~mv2.jpg",
+            "width": "864",
+            "height": "1280"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/kurs-zhivopisnoye-myshleniye-2026-11-03-19-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Курс \"Живописное мышление\"",
+          "description": "Новый курс живописи для взрослых и детей: авторская методика изучения искусства и развития творческого потенциала. \nМастер Базян Анна.\nВзрослым и детям от 9 лет\n8.000 драм разовое и 52.000 абонемент на месяц из 8 занятий.",
+          "startDate": "2026-11-03T19:00:00+04:00",
+          "endDate": "2026-11-03T21:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/kurs-zhivopisnoye-myshleniye-2026-11-03-19-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_d36f9bb14bb64e03b106d6517a2b0d06~mv2.jpg/v1/fill/w_720,h_1280,al_c,q_85/fb1c73_d36f9bb14bb64e03b106d6517a2b0d06~mv2.jpg",
+            "width": "720",
+            "height": "1280"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/master-klass-na-goncharnom-kruge-individualnyy-2026-11-03-19-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Мастер-класс на гончарном круге (индивидуальный)",
+          "description": "Индивидуальный мастер-класс за гончарным кругом. \nДля взрослых и детей от 12 лет\nПродолжительность 1,5 часа\nСтоимость 12.000 драм за одного человека и 20.000 драм за двоих",
+          "startDate": "2026-11-03T19:00:00+04:00",
+          "endDate": "2026-11-03T20:30:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/master-klass-na-goncharnom-kruge-individualnyy-2026-11-03-19-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_0f26c3883d7c41a49ac0812958e9377d~mv2.jpg/v1/fill/w_736,h_1104,al_c,q_85/fb1c73_0f26c3883d7c41a49ac0812958e9377d~mv2.jpg",
+            "width": "736",
+            "height": "1104"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/keramika-na-ladoni-boleye-15-variantov-izdeliy-2026-11-04-12-00-1",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Керамика на ладони: более 15 вариантов изделий!",
+          "description": "Мастер-класс по керамике: небольшие вещи с большим смыслом. Лепка из глины и роспись ангобами или глазурями.\n5.000 драм\n(мастер Милана, языки русский и английский)",
+          "startDate": "2026-11-04T12:00:00+04:00",
+          "endDate": "2026-11-04T14:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/keramika-na-ladoni-boleye-15-variantov-izdeliy-2026-11-04-12-00-1",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_743db61385c04d25b4dbc2db4e17b4dc~mv2.jpg/v1/fill/w_989,h_1280,al_c,q_85/fb1c73_743db61385c04d25b4dbc2db4e17b4dc~mv2.jpg",
+            "width": "989",
+            "height": "1280"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/valyaniye-shersti-deti-2026-11-04-16-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Валяние шерсти (дети)",
+          "description": "Броши-цветы, фигурка или кулон из войлока!\n5+\n8.000 драм или абонемент 25.000",
+          "startDate": "2026-11-04T16:00:00+04:00",
+          "endDate": "2026-11-04T18:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/valyaniye-shersti-deti-2026-11-04-16-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_f9a0b0b247fd4f1a8e7d3466a1174a84~mv2.jpg/v1/fill/w_507,h_500,al_c,q_80/fb1c73_f9a0b0b247fd4f1a8e7d3466a1174a84~mv2.jpg",
+            "width": "507",
+            "height": "500"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/kartina-iz-shersti-vzroslyye-2026-11-04-19-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Картина из шерсти (взрослые)",
+          "description": "Войлоковалянием сделаем колье, браслет или бусы! \n10.000",
+          "startDate": "2026-11-04T19:00:00+04:00",
+          "endDate": "2026-11-04T21:30:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/kartina-iz-shersti-vzroslyye-2026-11-04-19-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_61dac75283694c44b400d960d69a6056~mv2.jpg/v1/fill/w_420,h_553,al_c,q_80/fb1c73_61dac75283694c44b400d960d69a6056~mv2.jpg",
+            "width": "420",
+            "height": "553"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/master-klass-na-goncharnom-kruge-individualnyy-2026-11-04-19-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Мастер-класс на гончарном круге (индивидуальный)",
+          "description": "Индивидуальный мастер-класс за гончарным кругом. \nДля взрослых и детей от 12 лет\nПродолжительность 1,5 часа\nСтоимость 12.000 драм за одного человека и 20.000 драм за двоих",
+          "startDate": "2026-11-04T19:00:00+04:00",
+          "endDate": "2026-11-04T20:30:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/master-klass-na-goncharnom-kruge-individualnyy-2026-11-04-19-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_da290c968b694d7f888cb16dd6f5cb60~mv2.jpg/v1/fill/w_736,h_1104,al_c,q_85/fb1c73_da290c968b694d7f888cb16dd6f5cb60~mv2.jpg",
+            "width": "736",
+            "height": "1104"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/lepka-na-svobodnuyu-temu-kazhdyy-chetverg-2026-11-05-12-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Лепка на свободную тему: каждый четверг",
+          "description": "мастер-класс по керамике \n(мастер Милана, язык русский, английский)\n10.000 драм",
+          "startDate": "2026-11-05T12:00:00+04:00",
+          "endDate": "2026-11-05T14:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/lepka-na-svobodnuyu-temu-kazhdyy-chetverg-2026-11-05-12-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_1e8a1e49ff604b3fbb5d47bd634300ba~mv2.jpg/v1/fill/w_735,h_913,al_c,q_85/fb1c73_1e8a1e49ff604b3fbb5d47bd634300ba~mv2.jpg",
+            "width": "735",
+            "height": "913"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/rospis-futbolki-tekhnikoy-tay-day-2026-11-05-17-30",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Роспись футболки техникой тай-дай",
+          "description": "Мастер-класс по тай-дай: создайте свою уникальную вещь\n7+ и взрослые\n10.000 драм (-2000 драм если со своей футболкой)\nмастер Мила (языки русский и армянский)",
+          "startDate": "2026-11-05T17:30:00+04:00",
+          "endDate": "2026-11-05T18:10:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/rospis-futbolki-tekhnikoy-tay-day-2026-11-05-17-30",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_da0bedadf4e94f0dbd40b0d1561f4c55~mv2.jpg/v1/fill/w_736,h_668,al_c,q_85/fb1c73_da0bedadf4e94f0dbd40b0d1561f4c55~mv2.jpg",
+            "width": "736",
+            "height": "668"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/rospis-shopera-2026-11-05-18-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Роспись шопера",
+          "description": "Роспись шопера красками по ткани, референсы любой сложности. \nМастер Мари (языки: русский, армянский)\n10.000 драм",
+          "startDate": "2026-11-05T18:00:00+04:00",
+          "endDate": "2026-11-05T20:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/rospis-shopera-2026-11-05-18-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_818e92b02766433e821b0a6d16b97e14~mv2.jpg/v1/fill/w_736,h_981,al_c,q_85/fb1c73_818e92b02766433e821b0a6d16b97e14~mv2.jpg",
+            "width": "736",
+            "height": "981"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/kurs-zhivopisnoye-myshleniye-2026-11-05-19-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Курс \"Живописное мышление\"",
+          "description": "Новый курс живописи для взрослых и детей: авторская методика изучения искусства и развития творческого потенциала. \nМастер Базян Анна.\nВзрослым и детям от 9 лет\n8.000 драм разовое и 52.000 абонемент на месяц из 8 занятий.",
+          "startDate": "2026-11-05T19:00:00+04:00",
+          "endDate": "2026-11-05T21:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/kurs-zhivopisnoye-myshleniye-2026-11-05-19-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_d36f9bb14bb64e03b106d6517a2b0d06~mv2.jpg/v1/fill/w_720,h_1280,al_c,q_85/fb1c73_d36f9bb14bb64e03b106d6517a2b0d06~mv2.jpg",
+            "width": "720",
+            "height": "1280"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/keramicheskiy-svetilnik-2026-11-06-13-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Керамический светильник",
+          "description": "мастер-класс по керамике \n(мастер Милана, язык русский, английский)\n10.000 драм",
+          "startDate": "2026-11-06T13:00:00+04:00",
+          "endDate": "2026-11-06T15:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/keramicheskiy-svetilnik-2026-11-06-13-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_5cb0fec07eef4b7f843313ad66cf4706~mv2.jpg/v1/fill/w_1280,h_960,al_c,q_85/fb1c73_5cb0fec07eef4b7f843313ad66cf4706~mv2.jpg",
+            "width": "1280",
+            "height": "960"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/ukrasheniya-iz-epoksidki-2026-11-06-16-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Украшения из эпоксидки",
+          "description": "Изготовление украшений из эпоксидной смолы своими руками.\nМастер Мари (русский, армянский).\n10.000 драм",
+          "startDate": "2026-11-06T16:00:00+04:00",
+          "endDate": "2026-11-06T18:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/ukrasheniya-iz-epoksidki-2026-11-06-16-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_34f9416132f84964a87b4f8bc54eef39~mv2.jpg/v1/fill/w_736,h_1073,al_c,q_85/fb1c73_34f9416132f84964a87b4f8bc54eef39~mv2.jpg",
+            "width": "736",
+            "height": "1073"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/teplo-gliny-i-svoboda-tvorchestva-kazhduyu-pyatnitsu-2026-11-06-19-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Тепло глины и свобода творчества каждую пятницу",
+          "description": "мастер-класс по керамике на свободную тему - вы можете лепить кружку, а можете и реализовать свою идею!\n(мастер Татьяна, язык русский, армянский)\n10.000 драм",
+          "startDate": "2026-11-06T19:00:00+04:00",
+          "endDate": "2026-11-06T21:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/teplo-gliny-i-svoboda-tvorchestva-kazhduyu-pyatnitsu-2026-11-06-19-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_671f9527b94543dba297f584f689828a~mv2.jpg/v1/fill/w_1199,h_1591,al_c,q_85/fb1c73_671f9527b94543dba297f584f689828a~mv2.jpg",
+            "width": "1199",
+            "height": "1591"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/svechi-deserty",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Свечи-десерты",
+          "description": "🕯️создание натуральных ароматических свечей\n(мастер Мари, русский и армянский язык)\n12.000 драм",
+          "startDate": "2026-11-06T19:00:00+04:00",
+          "endDate": "2026-11-06T21:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/svechi-deserty",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_50a3942bcd424779a13e8d5f28c5007d~mv2.jpg/v1/fill/w_688,h_837,al_c,q_85/fb1c73_50a3942bcd424779a13e8d5f28c5007d~mv2.jpg",
+            "width": "688",
+            "height": "837"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/tarelka-s-bantom",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Тарелка с бантом",
+          "description": "мастер-класс по керамике: нежная изящная сервировочная тарелочка к предстоящим праздникам.\n10.000 драм\n(мастер Милана, языки русский и английский)",
+          "startDate": "2026-11-07T16:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/tarelka-s-bantom",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_6b9d2aa0aad84201a7ad21a44f8500c5~mv2.jpg/v1/fill/w_1129,h_1280,al_c,q_85/fb1c73_6b9d2aa0aad84201a7ad21a44f8500c5~mv2.jpg",
+            "width": "1129",
+            "height": "1280"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/shitye-igrushek-iz-fetra-2026-11-08-14-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Шитье игрушек из фетра",
+          "description": "мастерская шитья игрушек из фетра, для детей 6+\n6.000 драм разовое, абонемент 4 занятия в месяц - 20.000, абонемент на три субботних занятия - 15.000.",
+          "startDate": "2026-11-08T14:00:00+04:00",
+          "endDate": "2026-11-08T15:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/shitye-igrushek-iz-fetra-2026-11-08-14-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_182fda3207da488690743bcfe51ee9ef~mv2.jpg/v1/fill/w_960,h_1280,al_c,q_85/fb1c73_182fda3207da488690743bcfe51ee9ef~mv2.jpg",
+            "width": "960",
+            "height": "1280"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/romantichnaya-art-vecherinka-s-glintveynom-kakao",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Романтичная арт-вечеринка с глинтвейном/какао!",
+          "description": "Живопись для взрослых: картина акрилом на холсте за 1 занятие.\nВходят все материалы и бокал вина.\nМастер Мари (русский, армянский, английский языки)\n10.000 драм или абонемент\n14+\nՑանկանու՞մ եք զգալ Ձեզ որպես իսկական նկարիչ։\nԱյդ դեպքում հրավիրում ենք Ձեզ Art-party-ի մեր արվեստանոցում։",
+          "startDate": "2026-11-08T17:00:00+04:00",
+          "endDate": "2026-11-08T19:30:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/romantichnaya-art-vecherinka-s-glintveynom-kakao",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_846f51ba2c904f6ba09978a4245328d3~mv2.jpg/v1/fill/w_736,h_968,al_c,q_85/fb1c73_846f51ba2c904f6ba09978a4245328d3~mv2.jpg",
+            "width": "736",
+            "height": "968"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/kruzhok-po-biologii-dlya-shkolnikov-2026-11-05-18-30",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Кружок по биологии для школьников",
+          "description": "Факультатив для детей - знания по зоологии, ботанике и эволюции, научные работы и выезды на природу.\nСтаршая группа: от 7 класса.\nПедагог - Леонид Неймарк.\n5000 разовое занятие",
+          "startDate": "2026-11-05T18:30:00+04:00",
+          "endDate": "2026-11-05T20:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/kruzhok-po-biologii-dlya-shkolnikov-2026-11-05-18-30",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_7bb24314709740d3b5df0350fcca9af7~mv2.jpg/v1/fill/w_853,h_1280,al_c,q_85/fb1c73_7bb24314709740d3b5df0350fcca9af7~mv2.jpg",
+            "width": "853",
+            "height": "1280"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/kurs-zhivopisi-dlya-podrostkov-2026-11-06-18-30",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Курс живописи для подростков",
+          "description": "Обучение живописи для подростков и взрослых.\n7.000 разовое занятие или 20.000 абонемент",
+          "startDate": "2026-11-06T18:30:00+04:00",
+          "endDate": "2026-11-06T20:30:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/kurs-zhivopisi-dlya-podrostkov-2026-11-06-18-30",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_9eb2abd3264a4f3192104a5ac860b108~mv2.jpg/v1/fill/w_736,h_1213,al_c,q_85/fb1c73_9eb2abd3264a4f3192104a5ac860b108~mv2.jpg",
+            "width": "736",
+            "height": "1213"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/kruzhok-po-biologii-dlya-shkolnikov-mladshaya-gruppa-2026-11-06-18-30",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Кружок по биологии для школьников (младшая группа)",
+          "description": "Факультатив для детей - знания по зоологии, ботанике и эволюции, научные работы и выезды на природу.\nМладшая группа: 4-6 класс. \nПедагог - Леонид Неймарк.\n5000 разовое занятие",
+          "startDate": "2026-11-06T18:30:00+04:00",
+          "endDate": "2026-11-06T20:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/kruzhok-po-biologii-dlya-shkolnikov-mladshaya-gruppa-2026-11-06-18-30",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_763f9ddb3b3d4d44b0aacbcdcdcfc213~mv2.jpg/v1/fill/w_956,h_1280,al_c,q_85/fb1c73_763f9ddb3b3d4d44b0aacbcdcdcfc213~mv2.jpg",
+            "width": "956",
+            "height": "1280"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/klub-lepim-vmeste-2026-11-07-12-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Клуб \"Лепим вместе\"",
+          "description": "Занятия для детей - обучение лепке из глины и пластилина, декорированию\n20.000 абонемент, 7000 разовое,\n3,5 - 6 лет",
+          "startDate": "2026-11-07T12:00:00+04:00",
+          "endDate": "2026-11-07T13:30:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/klub-lepim-vmeste-2026-11-07-12-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_6eb54a2268064027a7622c430f12a049~mv2.jpg/v1/fill/w_787,h_775,al_c,q_85/fb1c73_6eb54a2268064027a7622c430f12a049~mv2.jpg",
+            "width": "787",
+            "height": "775"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/kurs-zhivopisi-vzroslaya-gruppa-2026-11-07-14-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Курс живописи (взрослая группа)",
+          "description": "Обучение живописи для взрослых и подростков\n7.000 разовое занятие или 25.000 абонемент",
+          "startDate": "2026-11-07T14:00:00+04:00",
+          "endDate": "2026-11-07T16:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/kurs-zhivopisi-vzroslaya-gruppa-2026-11-07-14-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_fca6d1ad75b24e26b9d9b145c7a1bf34~mv2.jpg/v1/fill/w_574,h_960,al_c,q_85/fb1c73_fca6d1ad75b24e26b9d9b145c7a1bf34~mv2.jpg",
+            "width": "574",
+            "height": "960"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/det-skaya-keramicheskaya-studiya-2026-11-07-14-30",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Детская керамическая студия",
+          "description": "Факультатив для детей - обучение лепке из глины и декорированию,\n20.000 абонемент, 7000 разовое,\n8-13 лет\n(внимание, в субботу смешанная группа со взрослыми! в воскресенье только детская группа)",
+          "startDate": "2026-11-07T14:30:00+04:00",
+          "endDate": "2026-11-07T16:30:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/det-skaya-keramicheskaya-studiya-2026-11-07-14-30",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_2118a99492bd444693f94d41b1a73f5d~mv2.jpg/v1/fill/w_974,h_840,al_c,q_85/fb1c73_2118a99492bd444693f94d41b1a73f5d~mv2.jpg",
+            "width": "974",
+            "height": "840"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/kurs-zhivopisi-det-skaya-gruppa-2026-11-07-16-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Курс живописи (детская группа)",
+          "description": "Обучение живописи для детей от 5 до 13 лет.\n7.000 разовое занятие или 20.000 абонемент",
+          "startDate": "2026-11-07T16:00:00+04:00",
+          "endDate": "2026-11-07T18:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/kurs-zhivopisi-det-skaya-gruppa-2026-11-07-16-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_c6e79d683dcc4c079ec963fcc2f5a252~mv2.jpg/v1/fill/w_736,h_1308,al_c,q_85/fb1c73_c6e79d683dcc4c079ec963fcc2f5a252~mv2.jpg",
+            "width": "736",
+            "height": "1308"
+          }
+        }
+      },
+      {
+        "url": "https://www.art-lav.com/blank/art-den-dlya-detey-biser-shitye-i-risovaniye-2026-11-08-14-00",
+        "status": "read",
+        "evidence": {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Арт-день для детей: бисер, шитье и рисование!",
+          "description": "Творческая суббота для детей от 5 до 13 лет: шитье из фетра, бисероплетение и час творчества (рисование, лепка из пластилина, коллаж...)\n15.000 драм за комплекс из трех занятий с 14.00 до 17.00. \n50.000 драм за месяц.",
+          "startDate": "2026-11-08T14:00:00+04:00",
+          "endDate": "2026-11-08T17:00:00+04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "url": "https://www.art-lav.com/blank/art-den-dlya-detey-biser-shitye-i-risovaniye-2026-11-08-14-00",
+            "name": "АртЛав",
+            "address": "Айгедзор, Ереван, Армения"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/fb1c73_333d3c35855c4333a475edc00d127e5f~mv2.jpg/v1/fill/w_896,h_1195,al_c,q_85/fb1c73_333d3c35855c4333a475edc00d127e5f~mv2.jpg",
+            "width": "896",
+            "height": "1195"
+          }
+        }
+      }
+    ],
+    "existingDuplicates": []
+  },
+  "belgrade": {
+    "telegram": [
+      {
+        "handle": "auditoria_belgrade",
+        "pages": [
+          {
+            "url": "https://t.me/s/auditoria_belgrade",
+            "fetched": 18
+          },
+          {
+            "url": "https://t.me/s/auditoria_belgrade?before=1818",
+            "fetched": 18
+          },
+          {
+            "url": "https://t.me/s/auditoria_belgrade?before=1795",
+            "fetched": 17
+          }
+        ],
+        "fetchedPosts": 53,
+        "readPostIds": [
+          1818,
+          1822,
+          1823,
+          1825,
+          1826,
+          1827,
+          1828,
+          1829,
+          1831,
+          1833,
+          1834
+        ],
+        "postsRead": 11,
+        "publicationRange": [
+          "2026-10-10T14:33:28+00:00",
+          "2026-11-01T19:11:57+00:00"
+        ],
+        "status": "partial_read",
+        "newOrganizerCandidates": [
+          "https://t.me/auditoria_belgrade/1552",
+          "https://t.me/auditoria_belgrade/1592",
+          "https://t.me/auditoria_belgrade/1770",
+          "https://t.me/auditoria_belgrade/1772",
+          "https://t.me/auditoria_belgrade/1780",
+          "https://t.me/auditoria_belgrade/1801",
+          "https://t.me/auditoria_belgrade/1807",
+          "https://t.me/auditoria_belgrade/1809",
+          "https://t.me/auditoria_belgrade/1810",
+          "https://t.me/auditoria_belgrade/1811",
+          "https://t.me/auditoria_belgrade/1812",
+          "https://t.me/auditoria_belgrade/1814",
+          "https://t.me/auditoria_belgrade/1815",
+          "https://t.me/auditoria_belgrade/1817",
+          "https://t.me/auditoria_belgrade/1820",
+          "https://t.me/auditoria_belgrade/1826",
+          "https://t.me/auditoria_belgrade/1827",
+          "https://t.me/auditoria_belgrade/1828",
+          "https://t.me/auditoria_belgrade/1829",
+          "https://t.me/auditoria_belgrade/1831",
+          "https://t.me/auditoria_belgrade/1832",
+          "https://t.me/auditoria_belgrade/1833",
+          "https://t.me/salmon_of_wisdom",
+          "https://t.me/woss_all_about"
+        ]
+      },
+      {
+        "handle": "triptix_belgrade",
+        "pages": [
+          {
+            "url": "https://t.me/s/triptix_belgrade",
+            "fetched": 16
+          },
+          {
+            "url": "https://t.me/s/triptix_belgrade?before=1580",
+            "fetched": 16
+          },
+          {
+            "url": "https://t.me/s/triptix_belgrade?before=1552",
+            "fetched": 16
+          }
+        ],
+        "fetchedPosts": 48,
+        "readPostIds": [
+          1588,
+          1590,
+          1592,
+          1598,
+          1552,
+          1556,
+          1557,
+          1558
+        ],
+        "postsRead": 8,
+        "publicationRange": [
+          "2026-07-13T21:03:13+00:00",
+          "2026-11-01T17:30:04+00:00"
+        ],
+        "status": "partial_read",
+        "newOrganizerCandidates": [
+          "https://t.me/triptix_bot"
+        ]
+      },
+      {
+        "handle": "quizpleasebeg",
+        "pages": [
+          {
+            "url": "https://t.me/s/quizpleasebeg",
+            "fetched": 20
+          },
+          {
+            "url": "https://t.me/s/quizpleasebeg?before=821",
+            "fetched": 20
+          },
+          {
+            "url": "https://t.me/s/quizpleasebeg?before=801",
+            "fetched": 18
+          }
+        ],
+        "fetchedPosts": 58,
+        "readPostIds": [
+          838,
+          839,
+          840,
+          841
+        ],
+        "postsRead": 4,
+        "publicationRange": [
+          "2026-08-15T09:14:31+00:00",
+          "2026-10-30T20:42:18+00:00"
+        ],
+        "status": "partial_read",
+        "newOrganizerCandidates": []
+      },
+      {
+        "handle": "vranin_tavan",
+        "pages": [
+          {
+            "url": "https://t.me/s/vranin_tavan",
+            "fetched": 20
+          },
+          {
+            "url": "https://t.me/s/vranin_tavan?before=1022",
+            "fetched": 20
+          },
+          {
+            "url": "https://t.me/s/vranin_tavan?before=1000",
+            "fetched": 20
+          }
+        ],
+        "fetchedPosts": 60,
+        "readPostIds": [
+          1033,
+          1035,
+          1039,
+          1040,
+          1041,
+          1042
+        ],
+        "postsRead": 6,
+        "publicationRange": [
+          "2026-09-14T13:39:17+00:00",
+          "2026-10-31T16:49:04+00:00"
+        ],
+        "status": "partial_read",
+        "newOrganizerCandidates": [
+          "https://t.me/Pochikaevskiy",
+          "https://t.me/adriana_w",
+          "https://t.me/rudadel",
+          "https://t.me/vranin_tavan",
+          "https://t.me/vranin_tavan/294"
+        ]
+      },
+      {
+        "handle": "blackcat_beograd",
+        "pages": [
+          {
+            "url": "https://t.me/s/blackcat_beograd",
+            "fetched": 20
+          },
+          {
+            "url": "https://t.me/s/blackcat_beograd?before=1504",
+            "fetched": 20
+          },
+          {
+            "url": "https://t.me/s/blackcat_beograd?before=1480",
+            "fetched": 20
+          }
+        ],
+        "fetchedPosts": 60,
+        "readPostIds": [
+          1521,
+          1522,
+          1523,
+          1524
+        ],
+        "postsRead": 4,
+        "publicationRange": [
+          "2026-09-14T13:42:18+00:00",
+          "2026-11-01T15:22:10+00:00"
+        ],
+        "status": "partial_read",
+        "newOrganizerCandidates": [
+          "https://t.me/blackcat_beograd",
+          "https://t.me/blackcat_boardgames",
+          "https://t.me/blackcat_srpski"
+        ]
+      }
+    ],
+    "web": [
+      {
+        "url": "https://bgmanifestacije.rs/",
+        "status": "read homepage; displayed September listings, no current week detail verified"
+      },
+      {
+        "url": "https://howtobelgrade.com/",
+        "status": "read calendar shell; no first-party event imported"
+      },
+      {
+        "url": "https://www.beogradskifestivali.com/",
+        "status": "web tool inaccessible; candidate domain not validated"
+      },
+      {
+        "url": "https://beg.quizplease.com/schedule",
+        "status": "read page; dynamic schedule absent"
+      }
+    ]
+  },
+  "moscow": {
+    "telegram": [
+      {
+        "handle": "privetpoidem",
+        "pages": [
+          {
+            "url": "https://t.me/s/privetpoidem",
+            "fetched": 3
+          },
+          {
+            "url": "https://t.me/s/privetpoidem?before=28250",
+            "fetched": 3
+          },
+          {
+            "url": "https://t.me/s/privetpoidem?before=28227",
+            "fetched": 3
+          }
+        ],
+        "fetchedPosts": 9,
+        "readPostIds": [
+          28257,
+          28221
+        ],
+        "postsRead": 2,
+        "publicationRange": [
+          "2026-10-28T09:32:12+00:00",
+          "2026-10-31T16:11:11+00:00"
+        ],
+        "status": "partial_read",
+        "newOrganizerCandidates": [
+          "https://t.me/apanaran",
+          "https://t.me/chagalkiskusstvu",
+          "https://t.me/privetpoidem/22211"
+        ]
+      },
+      {
+        "handle": "centrezotov",
+        "pages": [
+          {
+            "url": "https://t.me/s/centrezotov",
+            "fetched": 10
+          },
+          {
+            "url": "https://t.me/s/centrezotov?before=10222",
+            "fetched": 7
+          },
+          {
+            "url": "https://t.me/s/centrezotov?before=10202",
+            "fetched": 12
+          }
+        ],
+        "fetchedPosts": 29,
+        "readPostIds": [
+          10226,
+          10231,
+          10233,
+          10237,
+          10202,
+          10209,
+          10212,
+          10221,
+          10184,
+          10195,
+          10197,
+          10198
+        ],
+        "postsRead": 12,
+        "publicationRange": [
+          "2026-10-22T11:20:30+00:00",
+          "2026-10-30T15:14:49+00:00"
+        ],
+        "status": "partial_read",
+        "newOrganizerCandidates": [
+          "https://t.me/dramkryzok"
+        ]
+      },
+      {
+        "handle": "ges2",
+        "pages": [
+          {
+            "url": "https://t.me/s/ges2",
+            "fetched": 0
+          }
+        ],
+        "fetchedPosts": 0,
+        "readPostIds": [],
+        "postsRead": 0,
+        "publicationRange": null,
+        "status": "no_public_posts_returned",
+        "newOrganizerCandidates": []
+      },
+      {
+        "handle": "mosrazvitie",
+        "pages": [
+          {
+            "url": "https://t.me/s/mosrazvitie",
+            "fetched": 0
+          }
+        ],
+        "fetchedPosts": 0,
+        "readPostIds": [],
+        "postsRead": 0,
+        "publicationRange": null,
+        "status": "no_public_posts_returned",
+        "newOrganizerCandidates": []
+      },
+      {
+        "handle": "Hlebozavod9",
+        "pages": [
+          {
+            "url": "https://t.me/s/Hlebozavod9",
+            "fetched": 5
+          },
+          {
+            "url": "https://t.me/s/Hlebozavod9?before=5330",
+            "fetched": 6
+          },
+          {
+            "url": "https://t.me/s/Hlebozavod9?before=5306",
+            "fetched": 4
+          }
+        ],
+        "fetchedPosts": 15,
+        "readPostIds": [
+          5349,
+          5321,
+          5328
+        ],
+        "postsRead": 3,
+        "publicationRange": [
+          "2026-10-09T10:49:04+00:00",
+          "2026-11-01T14:29:57+00:00"
+        ],
+        "status": "partial_read",
+        "newOrganizerCandidates": [
+          "https://t.me/simplemusicens"
+        ]
+      }
+    ],
+    "web": [
+      {
+        "url": "https://centrezotov.ru/events/speczialnyj-pokaz-malika/",
+        "status": "read official date 06.11.26 19:15, discussion and street address confirmed"
+      },
+      {
+        "url": "https://mos-razvitie.ru/",
+        "status": "read official homepage; event detail not reached"
+      },
+      {
+        "url": "https://ges-2.org/en/calendar?date=2026-11-03&paid=free",
+        "status": "web tool cache miss"
+      },
+      {
+        "url": "https://synchro.timepad.ru/",
+        "status": "web tool inaccessible; candidate not confirmed"
+      },
+      {
+        "url": "https://mestobyt.timepad.ru/",
+        "status": "web tool inaccessible; candidate not confirmed"
+      },
+      {
+        "url": "https://centrezotov.ru/events/foto-revyu-2/",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://centrezotov.ru/events/speczialnyj-pokaz-pletyonyj-muzh-wicker/",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://centrezotov.ru/events/speczialnyj-pokaz-novyj-dom/",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://centrezotov.ru/events/rozhdennye-v-sssr-35-let-seriya-1-3/",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://centrezotov.ru/events/rozhdennye-v-sssr-35-let-seriya-4-6/",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://centrezotov.ru/events/zastolya/skvernyj-anekdot/",
+        "error": "<urlopen error timed out>"
+      }
+    ]
+  },
+  "barcelona": {
+    "telegram": [
+      {
+        "url": "https://t.me/s/BcnAjuntament",
+        "pages": [
+          {
+            "url": "https://t.me/s/BcnAjuntament",
+            "success": true,
+            "posts": 20
+          },
+          {
+            "url": "https://t.me/s/BcnAjuntament?before=1131",
+            "success": true,
+            "posts": 20
+          },
+          {
+            "url": "https://t.me/s/BcnAjuntament?before=1110",
+            "success": true,
+            "posts": 20
+          }
+        ],
+        "fetched": 60,
+        "fullyRead": 5,
+        "readPostIds": [
+          "BcnAjuntament/1151",
+          "BcnAjuntament/1152",
+          "BcnAjuntament/1154",
+          "BcnAjuntament/1090",
+          "BcnAjuntament/1121"
+        ],
+        "publicationDateRange": [
+          "2026-08-24T11:44:59+00:00",
+          "2026-10-30T09:20:42+00:00"
+        ],
+        "status": "selected posts read, not entire fetched history"
+      },
+      {
+        "url": "https://t.me/s/bcn_afisha",
+        "pages": [
+          {
+            "url": "https://t.me/s/bcn_afisha",
+            "success": true,
+            "posts": 17
+          },
+          {
+            "url": "https://t.me/s/bcn_afisha?before=4932",
+            "success": true,
+            "posts": 14
+          },
+          {
+            "url": "https://t.me/s/bcn_afisha?before=4912",
+            "success": true,
+            "posts": 18
+          }
+        ],
+        "fetched": 49,
+        "fullyRead": 5,
+        "readPostIds": [
+          "bcn_afisha/4949",
+          "bcn_afisha/4950",
+          "bcn_afisha/4951",
+          "bcn_afisha/4891",
+          "bcn_afisha/4918"
+        ],
+        "publicationDateRange": [
+          "2026-10-14T16:09:15+00:00",
+          "2026-11-01T11:38:21+00:00"
+        ],
+        "status": "selected posts read, not entire fetched history"
+      },
+      {
+        "url": "https://t.me/s/barca",
+        "pages": [
+          {
+            "url": "https://t.me/s/barca",
+            "success": true,
+            "posts": 20
+          },
+          {
+            "url": "https://t.me/s/barca?before=124",
+            "success": true,
+            "posts": 19
+          },
+          {
+            "url": "https://t.me/s/barca?before=101",
+            "success": true,
+            "posts": 17
+          }
+        ],
+        "fetched": 56,
+        "fullyRead": 3,
+        "readPostIds": [
+          "barca/142",
+          "barca/143",
+          "barca/144"
+        ],
+        "publicationDateRange": [
+          "2026-01-05T08:49:52+00:00",
+          "2026-10-26T10:02:02+00:00"
+        ],
+        "status": "selected posts read, not entire fetched history"
+      }
+    ],
+    "web": [
+      {
+        "url": "https://guia.barcelona.cat/ca/detall/xerrada-subirachs-i-la-facana-de-la-passio_99400789749.html",
+        "status": "fresh complete event details and municipal pins read"
+      },
+      {
+        "url": "https://guia.barcelona.cat/ca/detall/xerrada-com-funciona-lorquestra_99400786139.html",
+        "status": "fresh complete event details and municipal pins read"
+      },
+      {
+        "url": "https://guia.barcelona.cat/ca/detall/xerrada-catalunya-i-la-petjada-esclavista-mes-enlla-dels-museus-memoria-colonial-i-reparacio-amb-laida-memba-ikuga-fundacio-mies-van-der-rohe_99400770388.html",
+        "status": "fresh complete event details and municipal pins read"
+      }
+    ]
+  },
+  "madrid": {
+    "telegram": [
+      {
+        "url": "https://t.me/s/madrid_gorit",
+        "pages": [
+          {
+            "url": "https://t.me/s/madrid_gorit",
+            "success": true,
+            "posts": 11
+          },
+          {
+            "url": "https://t.me/s/madrid_gorit?before=3649",
+            "success": true,
+            "posts": 12
+          },
+          {
+            "url": "https://t.me/s/madrid_gorit?before=3629",
+            "success": true,
+            "posts": 8
+          }
+        ],
+        "fetched": 31,
+        "fullyRead": 6,
+        "readPostIds": [
+          "madrid_gorit/3662",
+          "madrid_gorit/3668",
+          "madrid_gorit/3669",
+          "madrid_gorit/3609",
+          "madrid_gorit/3644",
+          "madrid_gorit/3656"
+        ],
+        "publicationDateRange": [
+          "2026-10-20T19:15:57+00:00",
+          "2026-11-01T08:25:15+00:00"
+        ],
+        "status": "selected posts read, not entire fetched history"
+      },
+      {
+        "url": "https://t.me/s/HoyMadridApp",
+        "pages": [
+          {
+            "url": "https://t.me/s/HoyMadridApp",
+            "success": true,
+            "posts": 20
+          },
+          {
+            "url": "https://t.me/s/HoyMadridApp?before=1381",
+            "success": true,
+            "posts": 20
+          },
+          {
+            "url": "https://t.me/s/HoyMadridApp?before=1361",
+            "success": true,
+            "posts": 20
+          }
+        ],
+        "fetched": 60,
+        "fullyRead": 5,
+        "readPostIds": [
+          "HoyMadridApp/1398",
+          "HoyMadridApp/1399",
+          "HoyMadridApp/1400",
+          "HoyMadridApp/1341",
+          "HoyMadridApp/1371"
+        ],
+        "publicationDateRange": [
+          "2026-10-08T09:44:40+00:00",
+          "2026-11-01T16:59:44+00:00"
+        ],
+        "status": "selected posts read, not entire fetched history"
+      }
+    ],
+    "web": [
+      {
+        "url": "https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json",
+        "status": "fresh municipal catalogue; selected records individually reviewed, not all catalogue"
+      }
+    ]
+  }
+}

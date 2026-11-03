@@ -1,0 +1,704 @@
+{
+  "city": "Buenos Aires",
+  "windowStart": "2026-10-28",
+  "windowEnd": "2026-11-26",
+  "checkedAt": "2026-10-28T03:17:00Z",
+  "sourceSetItems": 245,
+  "uniqueIds": 245,
+  "pagination": "Public API page=1 and page=2 with limit=200 each returned the same 245 complete objects despite metadata claiming two pages. Exact ID order and objects compared. This is a pagination anomaly, not two distinct pages. All returned objects screened; no claim of complete citywide coverage.",
+  "publicApiDiscovery": "Observed public /agenda JavaScript useEventosFiltrados and its /api/frontend/events/filter GET. No authentication, cookies, login, posting or access bypass.",
+  "rawFiles": [
+    "/workspace/shared/buenos-aires-research/linda-filter-all-20261028.json",
+    "/workspace/shared/buenos-aires-research/linda-page-1.json",
+    "/workspace/shared/buenos-aires-research/linda-page-2.json"
+  ],
+  "unknowns": "Null means unknown, not free/available. API coordinates require independent venue QA. Live checkout inventory was not checked.",
+  "dedup": "Suppressed generic Salón Dorado programme overlapping individual concerts, and Jazz Buenos Aires overlapping Christian Sands Quartet.",
+  "exhibitionPolicy": "Only exact ranged exhibitions retained; opening hours and visiting dates are separate from scheduled performances. Moderno month-only range and conflicting Perlotti opening held.",
+  "dateMatrix": [
+    {
+      "date": "2026-10-28",
+      "scheduledSessions": 24,
+      "scheduledProgrammes": 20,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "conference",
+        "film",
+        "food",
+        "kids",
+        "music",
+        "talk",
+        "theatre",
+        "workshop"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "scheduledSessions": 31,
+      "scheduledProgrammes": 28,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "conference",
+        "film",
+        "food",
+        "kids",
+        "music",
+        "talk",
+        "theatre",
+        "workshop"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "scheduledSessions": 37,
+      "scheduledProgrammes": 35,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "conference",
+        "film",
+        "food",
+        "kids",
+        "music",
+        "talk",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "scheduledSessions": 64,
+      "scheduledProgrammes": 50,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "conference",
+        "film",
+        "food",
+        "kids",
+        "music",
+        "talk",
+        "theatre",
+        "workshop"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "scheduledSessions": 38,
+      "scheduledProgrammes": 35,
+      "exhibitionsOpen": 3,
+      "categories": [
+        "art",
+        "city",
+        "film",
+        "food",
+        "kids",
+        "music",
+        "sport",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "scheduledSessions": 1,
+      "scheduledProgrammes": 1,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "conference"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "scheduledSessions": 8,
+      "scheduledProgrammes": 8,
+      "exhibitionsOpen": 1,
+      "categories": [
+        "art",
+        "city",
+        "conference",
+        "food",
+        "music",
+        "talk",
+        "workshop"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "scheduledSessions": 10,
+      "scheduledProgrammes": 9,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "food",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "scheduledSessions": 9,
+      "scheduledProgrammes": 9,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "film",
+        "food",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "scheduledSessions": 10,
+      "scheduledProgrammes": 10,
+      "exhibitionsOpen": 3,
+      "categories": [
+        "art",
+        "city",
+        "film",
+        "food",
+        "music",
+        "sport",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "scheduledSessions": 19,
+      "scheduledProgrammes": 15,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "film",
+        "food",
+        "kids",
+        "music",
+        "sport",
+        "talk",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "scheduledSessions": 16,
+      "scheduledProgrammes": 16,
+      "exhibitionsOpen": 3,
+      "categories": [
+        "art",
+        "film",
+        "food",
+        "music",
+        "sport",
+        "talk",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "scheduledSessions": 0,
+      "scheduledProgrammes": 0,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "scheduledSessions": 3,
+      "scheduledProgrammes": 3,
+      "exhibitionsOpen": 1,
+      "categories": [
+        "art",
+        "food",
+        "theatre",
+        "workshop"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "scheduledSessions": 5,
+      "scheduledProgrammes": 5,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "food",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "scheduledSessions": 6,
+      "scheduledProgrammes": 6,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "film",
+        "food",
+        "talk",
+        "theatre",
+        "workshop"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "scheduledSessions": 7,
+      "scheduledProgrammes": 7,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "film",
+        "food",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "scheduledSessions": 18,
+      "scheduledProgrammes": 14,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "food",
+        "kids",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "scheduledSessions": 13,
+      "scheduledProgrammes": 13,
+      "exhibitionsOpen": 3,
+      "categories": [
+        "art",
+        "food",
+        "kids",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "scheduledSessions": 2,
+      "scheduledProgrammes": 2,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "talk"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "scheduledSessions": 4,
+      "scheduledProgrammes": 4,
+      "exhibitionsOpen": 1,
+      "categories": [
+        "art",
+        "film",
+        "food",
+        "music",
+        "workshop"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "scheduledSessions": 9,
+      "scheduledProgrammes": 8,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "food",
+        "music",
+        "talk",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "scheduledSessions": 4,
+      "scheduledProgrammes": 4,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "food",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "scheduledSessions": 6,
+      "scheduledProgrammes": 6,
+      "exhibitionsOpen": 3,
+      "categories": [
+        "art",
+        "film",
+        "food",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "scheduledSessions": 12,
+      "scheduledProgrammes": 8,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "food",
+        "kids",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "scheduledSessions": 10,
+      "scheduledProgrammes": 10,
+      "exhibitionsOpen": 3,
+      "categories": [
+        "art",
+        "film",
+        "food",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "scheduledSessions": 3,
+      "scheduledProgrammes": 3,
+      "exhibitionsOpen": 2,
+      "categories": [
+        "art",
+        "city",
+        "food",
+        "music"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "scheduledSessions": 6,
+      "scheduledProgrammes": 6,
+      "exhibitionsOpen": 1,
+      "categories": [
+        "art",
+        "food",
+        "music",
+        "talk",
+        "workshop"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "scheduledSessions": 4,
+      "scheduledProgrammes": 4,
+      "exhibitionsOpen": 2,
+      "categories": [
+        "art",
+        "food",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "scheduledSessions": 5,
+      "scheduledProgrammes": 5,
+      "exhibitionsOpen": 2,
+      "categories": [
+        "art",
+        "food",
+        "music",
+        "talk",
+        "theatre"
+      ]
+    }
+  ],
+  "firstSevenDates": [
+    {
+      "date": "2026-10-28",
+      "scheduledSessions": 24,
+      "scheduledProgrammes": 20,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "conference",
+        "film",
+        "food",
+        "kids",
+        "music",
+        "talk",
+        "theatre",
+        "workshop"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "scheduledSessions": 31,
+      "scheduledProgrammes": 28,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "conference",
+        "film",
+        "food",
+        "kids",
+        "music",
+        "talk",
+        "theatre",
+        "workshop"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "scheduledSessions": 37,
+      "scheduledProgrammes": 35,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "conference",
+        "film",
+        "food",
+        "kids",
+        "music",
+        "talk",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "scheduledSessions": 64,
+      "scheduledProgrammes": 50,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "city",
+        "conference",
+        "film",
+        "food",
+        "kids",
+        "music",
+        "talk",
+        "theatre",
+        "workshop"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "scheduledSessions": 38,
+      "scheduledProgrammes": 35,
+      "exhibitionsOpen": 3,
+      "categories": [
+        "art",
+        "city",
+        "film",
+        "food",
+        "kids",
+        "music",
+        "sport",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "scheduledSessions": 1,
+      "scheduledProgrammes": 1,
+      "exhibitionsOpen": 4,
+      "categories": [
+        "art",
+        "conference"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "scheduledSessions": 8,
+      "scheduledProgrammes": 8,
+      "exhibitionsOpen": 1,
+      "categories": [
+        "art",
+        "city",
+        "conference",
+        "food",
+        "music",
+        "talk",
+        "workshop"
+      ]
+    }
+  ],
+  "scheduledSessionGaps": [
+    "2026-11-09"
+  ],
+  "programmeCount": 180,
+  "sessionCount": 384,
+  "exhibitionCount": 4,
+  "normalizedCategoryCounts": {
+    "conference": 6,
+    "food": 15,
+    "city": 21,
+    "workshop": 11,
+    "kids": 13,
+    "film": 13,
+    "music": 65,
+    "talk": 12,
+    "theatre": 17,
+    "art": 5,
+    "sport": 2
+  },
+  "districtCounts": {
+    "san_nicolas": 43,
+    "nunez": 3,
+    "monserrat": 8,
+    "villa_devoto": 2,
+    "san_telmo": 13,
+    "palermo": 26,
+    "recoleta": 8,
+    "retiro": 4,
+    "balvanera": 5,
+    "parque_patricios": 2,
+    "chacarita": 11,
+    "villa_urquiza": 5,
+    "caballito": 6,
+    "boedo": 2,
+    "mataderos": 3,
+    "villa_crespo": 11,
+    "la_paternal": 2,
+    "barracas": 2,
+    "parque_chacabuco": 1,
+    "san_cristobal": 1,
+    "la_boca": 9,
+    "saavedra": 2,
+    "belgrano": 4,
+    "null": 1,
+    "villa_soldati": 2,
+    "villa_lugano": 2,
+    "liniers": 1,
+    "nueva_pompeya": 1
+  },
+  "complete": false,
+  "telegramAudit": {
+    "sequence": "Official broad agenda and reserves read first, then public announcement channels, then public conversational chat previews.",
+    "importedCandidates": 0,
+    "attempts": [
+      {
+        "url": "https://t.me/s/AfishaBA?q=%23club",
+        "status": "read_archival_announcements",
+        "result": "Accessible preview contains old announcements, including August 2025; no verified event in requested window."
+      },
+      {
+        "url": "https://t.me/s/buenosaires_afisha?before=28",
+        "status": "read_archival_announcements",
+        "result": "Read messages explicitly dated February–March 2024. Excluded from October–November 2026 window."
+      },
+      {
+        "url": "https://t.me/s/AfishaBA",
+        "status": "tool_unavailable",
+        "result": "Current root preview could not be fetched by web tool."
+      },
+      {
+        "url": "https://t.me/s/buenosaires_afisha",
+        "status": "tool_unavailable",
+        "result": "Current root preview could not be fetched by web tool."
+      },
+      {
+        "url": "https://t.me/AfishaBAchat",
+        "status": "tool_unavailable",
+        "result": "Public conversation preview unavailable."
+      },
+      {
+        "url": "https://t.me/s/AfishaBAchat",
+        "status": "tool_unavailable",
+        "result": "Public conversation preview unavailable."
+      },
+      {
+        "url": "https://t.me/buenosaires_chatik",
+        "status": "profile_only",
+        "result": "Public profile visible; messages not read. Not treated as an announcement source."
+      },
+      {
+        "url": "https://t.me/s/buenosaires_chatik",
+        "status": "tool_unavailable",
+        "result": "Public conversation preview unavailable."
+      }
+    ],
+    "limits": "No login, joining, posting, private reading, contact harvesting or access bypass. Search snippets were not accepted as read announcements."
+  },
+  "blockers": [
+    {
+      "action": "Read current Planetario ticket programme and inventory",
+      "target": "https://entradasba.buenosaires.gob.ar/establecimientos/89",
+      "status": "connection_error_page",
+      "reason": "Official Planetario programme/ticket links redirect here; page reports lost server connection. Generic culture listing remains readable."
+    },
+    {
+      "action": "Read arteba current price and ticket inventory",
+      "target": "https://www.allaccess.com.ar/event/feria-arteba",
+      "status": "HTTP_403_stopped",
+      "reason": "Linked official ticket vendor denies public tool access; no bypass attempted."
+    },
+    {
+      "action": "Resolve exact geographic points",
+      "target": "Raw LINDA venue coordinates",
+      "status": "independent_allowlist_required",
+      "reason": "Multiple source points are demonstrably wrong, including different cities. All canonical candidate latitude/longitude fields remain null; launcher owns independent coordinate audit."
+    },
+    {
+      "action": "Establish exact day range for Moderno and conflicting Perlotti opening",
+      "target": "Held exhibition records 11 and 193",
+      "status": "held",
+      "reason": "Month-only official range / inconsistent primary opening dates; no invented exact dates."
+    }
+  ],
+  "mainSourceAudit": [
+    {
+      "url": "https://turismo.buenosaires.gob.ar/es/eventos",
+      "status": "read",
+      "scope": "Broad official city tourism agenda; contains expired Finalizado cards and future entries, individually screened."
+    },
+    {
+      "url": "https://linda.buenosaires.gob.ar/agenda",
+      "status": "read_public_ui_and_api",
+      "scope": "245 complete public programme objects returned; entire returned set screened. Pagination anomaly recorded, not claimed as two independent pages."
+    },
+    {
+      "url": "https://teatrocolon.org.ar/produccion/manon/",
+      "status": "read",
+      "scope": "Current organiser overrides incomplete city agenda dates with nine November performances."
+    },
+    {
+      "url": "https://www.arteba.org/noticia-180-nueva-fecha-",
+      "status": "read",
+      "scope": "Explicit rescheduling and pavilion corroborated; entrance frontage remains for coordinate QA."
+    },
+    {
+      "url": "https://planetario.buenosaires.gob.ar/el-universo-que-no-vemos",
+      "status": "read",
+      "scope": "Full 2026 course date, local time, age 15+, free preregistration and capacity."
+    },
+    {
+      "url": "https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museosivori",
+      "status": "read",
+      "scope": "Official museum address, hours, tiered ARS prices, resident restrictions and accessibility."
+    }
+  ],
+  "contentSnapshotStatus": "Frozen for launcher QA. No source registry, Library, site or application writes performed by research worker.",
+  "pendingGeoAuditFile": "/workspace/shared/buenos-aires-venue-pins-20261028.json",
+  "dateMatrixMeaning": "Research candidate pool before independent geographic filtering. Scheduled session gap November 9 is honest; exhibitions have visiting hours that day. Do not claim all 30 days have scheduled performances."
+}

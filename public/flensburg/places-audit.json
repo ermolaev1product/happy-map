@@ -1,0 +1,470 @@
+{
+  "checkedAt": "2026-10-14T12:29:31.274786+00:00",
+  "rawCount": 284,
+  "retrieval": [
+    {
+      "sourceUrl": "https://api.openstreetmap.org/api/0.6/map?bbox=9.42,54.78,9.44,54.80"
+    },
+    {
+      "checkedAt": "2026-10-14",
+      "licence": "© OpenStreetMap contributors, ODbL 1.0",
+      "note": "Raw named food/drink amenities from 34 map bboxes covering Flensburg boundary alongside parent central tile; requires city boundary and lifecycle filtering plus deduplication. Way coordinates are vertex means. No opening status inferred.",
+      "requests": [
+        {
+          "bbox": [
+            9.4,
+            54.78,
+            9.42,
+            54.8
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.4,54.78,9.42,54.8",
+          "bytes": 5334029,
+          "elements": 7,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.44,
+            54.78,
+            9.46,
+            54.8
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.44,54.78,9.46,54.8",
+          "bytes": 7996778,
+          "elements": 20,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.42,
+            54.76,
+            9.44,
+            54.78
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.42,54.76,9.44,54.78",
+          "bytes": 6571172,
+          "elements": 15,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.42,
+            54.8,
+            9.44,
+            54.82
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.42,54.8,9.44,54.82",
+          "bytes": 3724210,
+          "elements": 10,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.44,
+            54.8,
+            9.46,
+            54.82
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.44,54.8,9.46,54.82",
+          "bytes": 2734545,
+          "elements": 15,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.46,
+            54.8,
+            9.48,
+            54.82
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.46,54.8,9.48,54.82",
+          "bytes": 6106553,
+          "elements": 9,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.46,
+            54.78,
+            9.48,
+            54.8
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.46,54.78,9.48,54.8",
+          "bytes": 6364653,
+          "elements": 9,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.4,
+            54.76,
+            9.42,
+            54.78
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.4,54.76,9.42,54.78",
+          "bytes": 3896162,
+          "elements": 5,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.44,
+            54.76,
+            9.46,
+            54.78
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.44,54.76,9.46,54.78",
+          "bytes": 4415414,
+          "elements": 8,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.38,
+            54.78,
+            9.4,
+            54.8
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.38,54.78,9.4,54.8",
+          "bytes": 2103723,
+          "elements": 5,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.4,
+            54.8,
+            9.42,
+            54.82
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.4,54.8,9.42,54.82",
+          "bytes": 4805939,
+          "elements": 2,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.46,
+            54.76,
+            9.48,
+            54.78
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.46,54.76,9.48,54.78",
+          "bytes": 4093306,
+          "elements": 1,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.48,
+            54.78,
+            9.5,
+            54.8
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.48,54.78,9.5,54.8",
+          "bytes": 2774677,
+          "elements": 0,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.48,
+            54.8,
+            9.5,
+            54.82
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.48,54.8,9.5,54.82",
+          "bytes": 4604331,
+          "elements": 3,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.44,
+            54.82,
+            9.46,
+            54.84
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.44,54.82,9.46,54.84",
+          "bytes": 1151232,
+          "elements": 0,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.46,
+            54.82,
+            9.48,
+            54.84
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.46,54.82,9.48,54.84",
+          "bytes": 1467190,
+          "elements": 2,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.48,
+            54.82,
+            9.5,
+            54.84
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.48,54.82,9.5,54.84",
+          "bytes": 1538367,
+          "elements": 2,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.38,
+            54.76,
+            9.4,
+            54.78
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.38,54.76,9.4,54.78",
+          "bytes": 3688776,
+          "elements": 11,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.4,
+            54.74,
+            9.42,
+            54.76
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.4,54.74,9.42,54.76",
+          "bytes": 3739160,
+          "elements": 5,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.42,
+            54.74,
+            9.44,
+            54.76
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.42,54.74,9.44,54.76",
+          "bytes": 3408921,
+          "elements": 0,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.34,
+            54.76,
+            9.36,
+            54.78
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.34,54.76,9.36,54.78",
+          "bytes": 2563736,
+          "elements": 0,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.34,
+            54.78,
+            9.36,
+            54.8
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.34,54.78,9.36,54.8",
+          "bytes": 1972102,
+          "elements": 0,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.36,
+            54.74,
+            9.38,
+            54.76
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.36,54.74,9.38,54.76",
+          "bytes": 1394245,
+          "elements": 0,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.36,
+            54.76,
+            9.38,
+            54.78
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.36,54.76,9.38,54.78",
+          "bytes": 2917458,
+          "elements": 1,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.36,
+            54.78,
+            9.38,
+            54.8
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.36,54.78,9.38,54.8",
+          "bytes": 1190823,
+          "elements": 8,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.38,
+            54.74,
+            9.4,
+            54.76
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.38,54.74,9.4,54.76",
+          "bytes": 4785570,
+          "elements": 3,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.4,
+            54.82,
+            9.42,
+            54.84
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.4,54.82,9.42,54.84",
+          "bytes": 2644286,
+          "elements": 4,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.42,
+            54.82,
+            9.44,
+            54.84
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.42,54.82,9.44,54.84",
+          "bytes": 1638784,
+          "elements": 1,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.44,
+            54.74,
+            9.46,
+            54.76
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.44,54.74,9.46,54.76",
+          "bytes": 1483270,
+          "elements": 0,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.46,
+            54.74,
+            9.48,
+            54.76
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.46,54.74,9.48,54.76",
+          "bytes": 953053,
+          "elements": 0,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.48,
+            54.76,
+            9.5,
+            54.78
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.48,54.76,9.5,54.78",
+          "bytes": 1019917,
+          "elements": 0,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.5,
+            54.76,
+            9.52,
+            54.78
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.5,54.76,9.52,54.78",
+          "bytes": 533996,
+          "elements": 0,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.5,
+            54.78,
+            9.52,
+            54.8
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.5,54.78,9.52,54.8",
+          "bytes": 600405,
+          "elements": 0,
+          "status": "ok"
+        },
+        {
+          "bbox": [
+            9.5,
+            54.8,
+            9.52,
+            54.82
+          ],
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.5,54.8,9.52,54.82",
+          "bytes": 1733694,
+          "elements": 1,
+          "status": "ok"
+        }
+      ],
+      "summary": {
+        "requestsSucceeded": 34,
+        "uniqueRawAmenities": 147,
+        "insideCityBoundary": 127,
+        "insideCityCategories": {
+          "restaurant": 47,
+          "fast_food": 42,
+          "pub": 13,
+          "cafe": 20,
+          "bar": 4,
+          "ice_cream": 1
+        },
+        "coverage": "34 requested tiles plus parent central tile cover all 35 polygon-intersecting 0.02-degree cells; grid extent lon9.34–9.52 lat54.74–54.84; city boundary extent lon9.3571368–9.5072052 lat54.7519286–54.8369721.",
+        "coverageLimit": "All named node/way amenities matching selected food/drink types available from these OSM API map responses, not all real-world businesses. Relation-only and unnamed amenities excluded; OSM omissions and stale lifecycle possible."
+      }
+    }
+  ],
+  "boundarySource": "https://www.openstreetmap.org/relation/27020",
+  "imported": 281,
+  "counts": {
+    "restaurant": 98,
+    "cafe": 54,
+    "bar": 7,
+    "pub": 34,
+    "biergarten": 1,
+    "fast_food": 82,
+    "ice_cream": 5,
+    "food_court": 0
+  },
+  "excluded": [
+    {
+      "osm": "node/7040875766",
+      "name": "Bennys Bar Cocktailbar",
+      "reason": "Probable duplicate of nearby named venue; held after name and proximity review"
+    },
+    {
+      "osm": "node/7040875767",
+      "name": "Lykke",
+      "reason": "Address conflict: own site 73, map 75; pin review pending"
+    },
+    {
+      "osm": "node/14239591663",
+      "name": "Smørre Brød",
+      "reason": "Probable duplicate of nearby named venue; held after name and proximity review"
+    }
+  ],
+  "mergedDuplicates": [],
+  "missingStreetAddress": 62
+}

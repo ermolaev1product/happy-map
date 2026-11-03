@@ -1,0 +1,179 @@
+{
+  "city": "Antalya",
+  "checkedAt": "2026-10-15T10:58:00Z",
+  "sources": [
+    {
+      "id": "candidate:474196d20e30a6cf",
+      "name": "Bubilet Antalya",
+      "url": "https://www.bubilet.com.tr/antalya",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 36,
+      "note": "City and named venue calendars, individual sessions and live JSON-LD. Province-wide listings require strict municipality filtering.",
+      "type": "ticketing"
+    },
+    {
+      "id": "candidate:ad212926fc805869",
+      "name": "Bilet Takvimi Antalya October 2026",
+      "url": "https://bilettakvimi.com/takvim/antalya/ay/ekim-2026",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Two calendar pages inspected; useful discovery, not authoritative on live price or rescheduling.",
+      "type": "aggregator"
+    },
+    {
+      "id": "candidate:769ed30c83a6dc2d",
+      "name": "Muratpaşa municipal events",
+      "url": "https://www.muratpasa-bld.gov.tr/etkinlikler",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 11,
+      "note": "October 2026 calendar includes theatre, children, conference and free choral music. Suspicious 19.39 time held.",
+      "type": "institution"
+    },
+    {
+      "id": "candidate:173300a93c70739b",
+      "name": "Muratpaşa cultural centres",
+      "url": "https://kultursanat.muratpasa-bld.gov.tr/merkezlerimiz",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Official addresses and named map targets; culture portal front-page event features can be stale.",
+      "type": "institution"
+    },
+    {
+      "id": "candidate:77e012adb3bf2c20",
+      "name": "Sanat Cepte",
+      "url": "https://sanatcepte.gov.tr/etkinlik/etkinlikler",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 19,
+      "note": "State theatre, opera, ballet and symphony calendar; distinguish performance time from on-sale opening time. Some detail pages lag.",
+      "type": "institution"
+    },
+    {
+      "id": "candidate:fc051b5c668331d5",
+      "name": "Antalya City Theatre",
+      "url": "https://www.ast.gov.tr/aylik-program",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 22,
+      "note": "Official October 2026 poster visually read; exact stage assignments retained.",
+      "type": "institution"
+    },
+    {
+      "id": "candidate:c96752ef06762d7a",
+      "name": "Antalya State Symphony",
+      "url": "https://adso.ktb.gov.tr/TR-378845/2026---2027-sanat-sezonu-programi.html",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Season page is image-led. October 16 concert verified separately via Sanat Cepte.",
+      "type": "institution"
+    },
+    {
+      "id": "candidate:f68c682d27b997b1",
+      "name": "Antalya Altın Portakal Film Festival",
+      "url": "https://antalyaff.com/tr",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "October 24–31, 2026 confirmed. Children’s 10:00 strand confirmed but individual films/venues not yet assigned; screening schedule links currently placeholders.",
+      "type": "institution"
+    },
+    {
+      "id": "candidate:13cd982ec3de62a1",
+      "name": "Анталия: новости, афиша, советы",
+      "url": "https://t.me/s/antalyadaa",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 1,
+      "note": "Public preview supplies exact-year free gala. Older indexed pages include 2025 events and must not be carried into 2026.",
+      "type": "telegram"
+    },
+    {
+      "id": "candidate:354c31b8b31869b1",
+      "name": "Russian Society of Antalya",
+      "url": "https://www.ruantalya.com/",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Public institutional background and course links. States Russian government-linked support; no exact next-30-day session calendar extracted.",
+      "type": "community"
+    },
+    {
+      "id": "candidate:d829e950ba848fb8",
+      "name": "W.E. Media Group Turkey tour",
+      "url": "https://ru.we-mediagroup.com/bagjan_turkiye_2026",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Antalya October 14 is outside this window; Alanya October 16 is a separate municipality. Istanbul October 18 belongs in its own packet.",
+      "type": "promoter"
+    },
+    {
+      "id": "candidate:793bc99fe9a96da3",
+      "name": "Biletinial Russian children’s theatre",
+      "url": "https://cdn.biletinial.com/tr-tr/tiyatro/dinleme-becerisi-gunu?cinemaBranchId=17215",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "imported",
+      "accessStatus": "public_index_read",
+      "count": 2,
+      "note": "Public indexed event details confirm two Russian-language sessions, price and age. Main-domain direct extraction unavailable.",
+      "type": "ticketing"
+    },
+    {
+      "id": "candidate:72c56ea85e0e454b",
+      "name": "r/Antalya local role-playing community",
+      "url": "https://www.reddit.com/r/Antalya/comments/1x360uh/antalyada_yapacak_etkinlik_arayanlar_m%C4%B1_var/",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Current community post: monthly free activities plus paid role-playing tables. Exact next date/venue requires a public post; no DM or joining performed.",
+      "type": "reddit"
+    },
+    {
+      "id": "candidate:1f00e05d2364c1f6",
+      "name": "ASSİM",
+      "url": "https://assimmuratpasa.com/",
+      "checkedAt": "2026-10-15T10:58:00Z",
+      "status": "public_stale_calendar",
+      "accessStatus": "public_stale_calendar",
+      "count": 0,
+      "note": "Venue and address verified; displayed events feed is May, not current October.",
+      "type": "institution"
+    },
+    {
+      "id": "overnight29-source-03bde6cec3109647",
+      "name": "Biletix official ticket seller",
+      "url": "https://www.biletix.com/etkinlik/5OPUA/ANTALYA/tr/happy-hallowen-2026-29-10-2026-antalya",
+      "checkedAt": "2026-10-29T01:35:43Z",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Selected dated programme facts checked; not full venue or city coverage. Unknown fees/end times remain unknown.",
+      "sourceReadAt": null,
+      "sourceReadWindow": {
+        "from": "2026-10-29T01:28:00Z",
+        "to": "2026-10-29T01:34:18Z",
+        "note": "Bounded by current execution history; exact source-fetch seconds not retained."
+      },
+      "checkedAtPrecision": "Evidence review of full source responses retained in current run; not a new fetch."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
+  "editorialUpdatedAt": "2026-10-29T01:36:34.306269+00:00"
+}

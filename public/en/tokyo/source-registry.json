@@ -1,0 +1,627 @@
+{
+  "city": "Tokyo",
+  "checkedAt": "2026-10-29T02:41:40.895098+00:00",
+  "sources": [
+    {
+      "id": "tokyo-source-83e3a9e9fcaa43",
+      "name": "20th.starryworks.co.jp",
+      "url": "https://20th.starryworks.co.jp/",
+      "checkedAt": "2026-10-29T02:33:35.292182+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-02feb28cd1af5c",
+      "name": "www.tnm.jp",
+      "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=1&id=11865",
+      "checkedAt": "2026-10-29T02:31:45.986413+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-07783bcb186ba7",
+      "name": "designfesta.com",
+      "url": "https://designfesta.com/",
+      "checkedAt": "2026-10-29T02:33:23.211005+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-93e51cc73abc6f",
+      "name": "planetarium.konicaminolta.jp",
+      "url": "https://planetarium.konicaminolta.jp/planetariatokyo/access",
+      "checkedAt": "2026-10-29T02:34:57.594174+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-c157fce1827728",
+      "name": "www.gotokyo.org",
+      "url": "https://www.gotokyo.org/jp/event/sumida/20261003.html",
+      "checkedAt": "2026-10-29T02:26:54.608478+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-1385946b547708",
+      "name": "www.gotokyo.org",
+      "url": "https://www.gotokyo.org/jp/calendar/index.html",
+      "checkedAt": "2026-10-29T02:25:15.485856+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-af9f077957c65d",
+      "name": "goo.gl",
+      "url": "https://goo.gl/maps/mhn1eLBvFF5Uz1rL6",
+      "checkedAt": "2026-10-29T02:36:02.392457+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-bde451229ac5a8",
+      "name": "www.tnm.jp",
+      "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=5&id=11861",
+      "checkedAt": "2026-10-29T02:32:03.883700+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-22f9cf1b9d251e",
+      "name": "www.tnm.jp",
+      "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=5&id=11860",
+      "checkedAt": "2026-10-29T02:31:59.234061+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-5b9d3e1f873cec",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/28168016",
+      "checkedAt": "2026-10-29T02:35:34.283864+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-202209dded27a9",
+      "name": "www.tnm.jp",
+      "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=5&id=11783",
+      "checkedAt": "2026-10-29T02:31:30.788651+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-ed0c02f75779b7",
+      "name": "www.city.toshima.lg.jp",
+      "url": "https://www.city.toshima.lg.jp/130/bunka/kanko/kikaku/1912230850.html",
+      "checkedAt": "2026-10-29T02:32:19.436621+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 4,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-88c1a092f00b08",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/389312/",
+      "checkedAt": "2026-10-29T02:32:19.464083+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-fd21f182f02b85",
+      "name": "www.gotokyo.org",
+      "url": "https://www.gotokyo.org/jp/event/tokyotouristinfo/20260401.html",
+      "checkedAt": "2026-10-29T02:26:44.090201+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-dffc1f3cd2fa61",
+      "name": "designfesta.com",
+      "url": "https://designfesta.com/about-ticket/",
+      "checkedAt": "2026-10-29T02:34:50.108462+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-573e859cadd130",
+      "name": "www.tnm.jp",
+      "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=5&id=11869",
+      "checkedAt": "2026-10-29T02:31:24.897107+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 3,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-594b991598130c",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/668310/",
+      "checkedAt": "2026-10-29T02:32:14.679601+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-b10f6200d85867",
+      "name": "www.city.arakawa.tokyo.jp",
+      "url": "https://www.city.arakawa.tokyo.jp/a020/sangyou/nipporicollection/nippori2026.html",
+      "checkedAt": "2026-10-29T02:32:10.527108+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-62ca7701fc61c8",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/2088259/",
+      "checkedAt": "2026-10-29T02:27:09.223546+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-6fd495e7c6c2eb",
+      "name": "www.google.com",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.5295805349715!2d139.72290537578692!3d35.663960072592786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b7ba3fdd249%3A0x181985607243a696!2z6Z2S5bGx5YWs5ZySIOWNl-WcsOWMug!5e0!3m2!1sja!2sjp!4v1698749612297!5m2!1sja!2sjp",
+      "checkedAt": "2026-10-29T02:35:48.997426+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-9cc031d63558b3",
+      "name": "www.tnm.jp",
+      "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=113",
+      "checkedAt": "2026-10-29T02:34:32.901582+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-88e7a602519d73",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/list/its26/5/",
+      "checkedAt": "2026-10-29T02:26:50.660175+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-9a04f311ad80e3",
+      "name": "www.gotokyo.org",
+      "url": "https://www.gotokyo.org/jp/event/tokyotouristinfo/20261113.html",
+      "checkedAt": "2026-10-29T02:27:01.875215+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-8ac785ffdb6a81",
+      "name": "designfesta.com",
+      "url": "https://designfesta.com/about/",
+      "checkedAt": "2026-10-29T02:34:43.440390+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-b18a7b570777a2",
+      "name": "www.city.sumida.lg.jp",
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/siryou/kyoudobunka/index.html",
+      "checkedAt": "2026-10-29T02:32:01.918092+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-eb40fe1c849935",
+      "name": "jimbou.info",
+      "url": "https://jimbou.info/news/20260908.html",
+      "checkedAt": "2026-10-29T02:33:18.154888+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-0534237d8888cb",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/1096396/",
+      "checkedAt": "2026-10-29T02:32:07.815257+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-c2650118b3cd27",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/1427212/",
+      "checkedAt": "2026-10-29T02:32:29.436401+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-871049f912e1e6",
+      "name": "planetarium.konicaminolta.jp",
+      "url": "https://planetarium.konicaminolta.jp/program/monetclassic/?hall=planetariatokyo&rl=260901_ptok_placon",
+      "checkedAt": "2026-10-29T02:33:52.156008+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 15,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-d4eb018b222a47",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/883888/",
+      "checkedAt": "2026-10-29T02:32:38.335444+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-3151c9f435f428",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/list/its26/2/",
+      "checkedAt": "2026-10-29T02:26:37.210245+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-8b6438e755f79c",
+      "name": "www.deutschlandfest.com",
+      "url": "https://www.deutschlandfest.com/",
+      "checkedAt": "2026-10-29T02:33:13.107458+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-52254791d0ef31",
+      "name": "www.tnm.jp",
+      "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=6&id=11764",
+      "checkedAt": "2026-10-29T02:31:37.486930+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-da801bd344f2f6",
+      "name": "maps.app.goo.gl",
+      "url": "https://maps.app.goo.gl/7BQdk8SHa8uTFrMLA",
+      "checkedAt": "2026-10-29T02:35:06.781428+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-cdee4e9037c62a",
+      "name": "www.gotokyo.org",
+      "url": "https://www.gotokyo.org/en/index.html",
+      "checkedAt": "2026-10-29T02:25:09.564390+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-71738e2d6f3b83",
+      "name": "www.deutschlandfest.com",
+      "url": "https://www.deutschlandfest.com/access/",
+      "checkedAt": "2026-10-29T02:34:38.969424+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-1c6b7c62a4ab47",
+      "name": "www.city.arakawa.tokyo.jp",
+      "url": "https://www.city.arakawa.tokyo.jp/a022/event/doukan_matsuri_2026.html",
+      "checkedAt": "2026-10-29T02:32:06.183072+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-b9ccf2de14d360",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/2082857/",
+      "checkedAt": "2026-10-29T02:32:34.019755+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-2afd8dc4b57794",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/list/its26/",
+      "checkedAt": "2026-10-29T02:25:19.294327+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-d9e3c61e379dc2",
+      "name": "www.city.arakawa.tokyo.jp",
+      "url": "https://www.city.arakawa.tokyo.jp/a015/bunkageijutsu/kokunai/fair_koryur8.html",
+      "checkedAt": "2026-10-29T02:32:15.260174+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-f2712257100cf0",
+      "name": "www.tnm.jp",
+      "url": "https://www.tnm.jp/modules/r_event/index.php?contro=&lang=ja",
+      "checkedAt": "2026-10-29T02:25:23.717220+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-1475bb22d77020",
+      "name": "www.city.sumida.lg.jp",
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/siryou/kyoudobunka/sisetuannai/riyou_annai.html",
+      "checkedAt": "2026-10-29T02:32:45.669810+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-bb499b30536a87",
+      "name": "www.deutschlandfest.com",
+      "url": "https://www.deutschlandfest.com/about/",
+      "checkedAt": "2026-10-29T02:35:54.459603+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-ac99d0b57e8e17",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/1000809/",
+      "checkedAt": "2026-10-29T02:32:24.558237+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-ebee7bce5d3325",
+      "name": "www.gotokyo.org",
+      "url": "https://www.gotokyo.org/jp/event/tokyotouristinfo/20261031.html",
+      "checkedAt": "2026-10-29T02:26:58.517034+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-f18eb38c43bd5b",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/list/its26/3/",
+      "checkedAt": "2026-10-29T02:26:42.727274+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-1bcd179de29ad9",
+      "name": "www.gettiis.jp",
+      "url": "https://www.gettiis.jp/event/detail/101605/asakusa261",
+      "checkedAt": "2026-10-29T02:31:40.793805+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 6,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-3c9eaa1c1f05b2",
+      "name": "tennozcanalfes.com",
+      "url": "https://tennozcanalfes.com/",
+      "checkedAt": "2026-10-29T02:33:30.443423+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-25a6c8de7784c7",
+      "name": "www.gotokyo.org",
+      "url": "https://www.gotokyo.org/en/calendar/index.html",
+      "checkedAt": "2026-10-29T02:26:31.879945+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-2289ee54a1d7d2",
+      "name": "www.gotokyo.org",
+      "url": "https://www.gotokyo.org/jp/event/tokyotouristinfo/20261003.html",
+      "checkedAt": "2026-10-29T02:26:48.739700+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-5cd6af9b6d312a",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/list/its26/4/",
+      "checkedAt": "2026-10-29T02:26:46.723592+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-e920ee33f581de",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/2052059/",
+      "checkedAt": "2026-10-29T02:32:42.463960+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-ee5dba265a2c3c",
+      "name": "www.tobunken.go.jp",
+      "url": "https://www.tobunken.go.jp/kuroda/",
+      "checkedAt": "2026-10-29T02:35:44.555998+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-6f79ebac68b020",
+      "name": "www.enjoytokyo.jp",
+      "url": "https://www.enjoytokyo.jp/event/2085548/",
+      "checkedAt": "2026-10-29T02:27:05.577074+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-f9938644b97af0",
+      "name": "maps.app.goo.gl",
+      "url": "https://maps.app.goo.gl/7hpL6Kwy12fyE2qW8",
+      "checkedAt": "2026-10-29T02:31:46.310496+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-6f2b37c9cbcfdb",
+      "name": "www.google.com",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1621.4612737784817!2d139.79251445232296!3d35.62963586080204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889dd0720e041%3A0x7745f93860ffbb05!2z5p2x5Lqs44OT44OD44Kw44K144Kk44OI!5e0!3m2!1sja!2sjp!4v1706082624098!5m2!1sja!2sjp",
+      "checkedAt": "2026-10-29T02:35:52.787946+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-53aab007a95687",
+      "name": "www.tnm.jp",
+      "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=6&id=11813",
+      "checkedAt": "2026-10-29T02:31:41.100503+00:00",
+      "status": "HTTP Error 503: Service Unavailable",
+      "accessStatus": "HTTP Error 503: Service Unavailable",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-7dd20718fee7ca",
+      "name": "www.city.sumida.lg.jp",
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/siryou/kyoudobunka/info/gokokuji08.html",
+      "checkedAt": "2026-10-29T02:32:39.121424+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-4facfa6fe635e5",
+      "name": "planetarium.konicaminolta.jp",
+      "url": "https://planetarium.konicaminolta.jp/wp-content/uploads/PC6_schedule202610.png",
+      "checkedAt": "2026-10-29T02:36:49.204290+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-dfbfc8278b691e",
+      "name": "www.tokyo-midtown.com",
+      "url": "https://www.tokyo-midtown.com/jp/event/8117/",
+      "checkedAt": "2026-10-29T02:33:39.629603+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+    },
+    {
+      "id": "tokyo-source-91f594c0e678e7",
+      "name": "tokyotouristinfo.com",
+      "url": "https://tokyotouristinfo.com/detail/M0361",
+      "checkedAt": "2026-10-29T02:36:12Z",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Tokyo Metropolitan Government tourist-information full named facility page gives matching address and both own displayed map/search and route destination with identical coordinates. Google page cache miss itself is not a second map read."
+    },
+    {
+      "id": "tokyo-source-dc7c6180932f04",
+      "name": "www.openstreetmap.org",
+      "url": "https://www.openstreetmap.org/api/0.6/way/1557773722/full",
+      "checkedAt": "2026-10-29T02:37:13.211022+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Fresh OSM exact observed way1557773722 has name日暮里駅前イベント広場,place=square,area=yes. Boundary yields interior venue-area marker; official Arakawa full page names same square and provides use-plan map. Mapcarta used discovery only, full fetch cache miss."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

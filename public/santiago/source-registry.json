@@ -1,0 +1,657 @@
+{
+  "city": "Santiago",
+  "checkedAt": "2026-10-29T03:46:40.674783+00:00",
+  "sources": [
+    {
+      "id": "santiago-source-40361a72ac372b",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/",
+      "checkedAt": "2026-10-29T03:37:06.934444+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-080fd24ce3fc1f",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/eventos/region-metropolitana-de-santiago/arte-y-cultura-octubre-2026",
+      "checkedAt": "2026-10-29T03:37:14.992777+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-089adda23b0065",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/eventos/region-metropolitana-de-santiago/teatro-noviembre-2026",
+      "checkedAt": "2026-10-29T03:37:22.824442+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-1fed371a2aedbb",
+      "name": "Santiago source",
+      "url": "https://gam.cl/",
+      "checkedAt": "2026-10-29T03:37:28.142354+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-916cb6be49d1f9",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/exposicion-tiempo-de-sombreros-las-condes/",
+      "checkedAt": "2026-10-29T03:38:40.613544+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-e6a55eab134dc6",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/te-creo-paisaje-enrique-ramirez-mnba/",
+      "checkedAt": "2026-10-29T03:38:47.631759+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-b63fce355e4cb6",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/casa-museo-efm-presenta-muestra-fotografica-fragmentos-de-una-memoria-que-todavia-nos-pertenece/",
+      "checkedAt": "2026-10-29T03:38:52.755132+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-bc85bc5c0bf6ae",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/bio-la-ultima-funcion-penalolen/",
+      "checkedAt": "2026-10-29T03:38:56.403779+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-01e10be13ce272",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/dona-rosita-anotada-gam/",
+      "checkedAt": "2026-10-29T03:38:59.934920+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-2ca890732c79de",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/festival-del-dia-de-los-muertos-llega-al-persa-victor-manuel/",
+      "checkedAt": "2026-10-29T03:39:03.694444+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-008d31487e6a25",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/3seminario-patrimonio-en-llamas-6546",
+      "checkedAt": "2026-10-29T03:39:07.919954+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-3dfb5ff829fffc",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/lanzamiento-de-libro-kantar-jorge-campos-6331",
+      "checkedAt": "2026-10-29T03:39:11.494335+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-3f13c34045882e",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/stay-groovy-2026-2709",
+      "checkedAt": "2026-10-29T03:39:14.670613+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-dfc9933a0803bf",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/el-sol-nuestra-estrella-viviente-353",
+      "checkedAt": "2026-10-29T03:39:17.347789+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-050ca867e2ee10",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/mas-que-un-verso-canto-guitarra-piano-y-poesia-2806",
+      "checkedAt": "2026-10-29T03:39:20.554901+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-4bfa129286bbcc",
+      "name": "Santiago source",
+      "url": "https://gam.cl/calendario/",
+      "checkedAt": "2026-10-29T03:39:23.554551+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-50d15bccdc132d",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/",
+      "checkedAt": "2026-10-29T03:39:42.773365+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-ef044e1dea4489",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/",
+      "checkedAt": "2026-10-29T03:39:52.003026+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-fe70979e6f5b49",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/experiencia/como-llegar/",
+      "checkedAt": "2026-10-29T03:39:56.423340+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-8b11ff745b4663",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/encore-ensemble-coreografico-de-chile-desde-mi-4774",
+      "checkedAt": "2026-10-29T03:43:30.108068+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-ce4ca7b43672cb",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/hombres-daga-1993",
+      "checkedAt": "2026-10-29T03:43:33.714419+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-16c44ebeb46485",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/retrospectiva-tryo-teatro-banda-pedro-de-valdivia-737",
+      "checkedAt": "2026-10-29T03:43:38.569181+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-27ed405d0b7928",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/freire-la-epopeya-de-las-provincias-2302",
+      "checkedAt": "2026-10-29T03:43:41.493435+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-17398ab9c43be3",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/solo-nos-queda-cantar-3052",
+      "checkedAt": "2026-10-29T03:43:46.184728+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-865d4f4c716b1f",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/yeguas-sueltas-cia-teatro-sur-6283",
+      "checkedAt": "2026-10-29T03:43:49.179754+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-4f9b8525183533",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/retrospectiva-tryo-teatro-banda-carrera-813",
+      "checkedAt": "2026-10-29T03:43:51.809776+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-96d1f5b2d75fda",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/la-muerte-del-padre-919",
+      "checkedAt": "2026-10-29T03:43:54.497424+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-f6090781aab54c",
+      "name": "Santiago source",
+      "url": "https://www.mhn.gob.cl/cartelera/apertura-exposicion-tiempo-de-sombreros-1920-1960-coleccion-museo-historico-nacional",
+      "checkedAt": "2026-10-29T03:43:54.991685+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-ddc9b12a00a92c",
+      "name": "Santiago source",
+      "url": "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje",
+      "checkedAt": "2026-10-29T03:44:01.355758+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-3f19f11c5ecb8f",
+      "name": "Santiago source",
+      "url": "https://teatrocamino.cl",
+      "checkedAt": "2026-10-29T03:44:05.695281+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 406"
+    },
+    {
+      "id": "santiago-source-505b84b57c6f96",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 11,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-3bddf979664fde",
+      "name": "Santiago source",
+      "url": "https://welcu.com/comtec/3seminario-patrimonio-en-llamas",
+      "checkedAt": "2026-10-29T03:44:15.672678+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-5880aa3e065735",
+      "name": "Santiago source",
+      "url": "https://portaldisc.com/evento/kantarjorgecampos",
+      "checkedAt": "2026-10-29T03:44:18.668557+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-c5fa705bbeadaa",
+      "name": "Santiago source",
+      "url": "https://rhymshot.evently.cl/Stay-Groovy-2026-31-10-2026",
+      "checkedAt": "2026-10-29T03:44:21.765699+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-d4e1c9c9e39999",
+      "name": "Santiago source",
+      "url": "https://ticketplus.cl/events/el-sol-nuestra-estrella-viviente-the-sun-our-living-star",
+      "checkedAt": "2026-10-29T03:44:26.642636+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-e5e42075a7f9d3",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/la-veta/",
+      "checkedAt": "2026-10-29T03:44:24.670537+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-fab402dc8db46e",
+      "name": "Santiago source",
+      "url": "https://portaldisc.com/evento/masqueunverso2",
+      "checkedAt": "2026-10-29T03:44:30.874026+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-eaf150b07f5eed",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/del-leon-a-la-bestia-100-anos-de-animacion-en-chile/",
+      "checkedAt": "2026-10-29T03:44:32.231545+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-86d839a620ef49",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/exposicion-salvataje/",
+      "checkedAt": "2026-10-29T03:44:42.082540+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-9d0b70312dd0ec",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/subrealistas/",
+      "checkedAt": "2026-10-29T03:44:45.249593+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-cbb1092741a47f",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/mundo-pepo/",
+      "checkedAt": "2026-10-29T03:44:48.435065+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-df8328946bf50d",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/exposicion-el-valle-de-los-moomin/",
+      "checkedAt": "2026-10-29T03:44:51.801740+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-f6e3e98095dc27",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/",
+      "checkedAt": "2026-10-29T03:44:55.946277+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 8,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-9f5210737ad43b",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/tardes-de-plaza-carro-nomade/",
+      "checkedAt": "2026-10-29T03:44:59.081455+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-b78b1d35abed7d",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/",
+      "checkedAt": "2026-10-29T03:45:02.351585+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 8,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-b8727c91e6b128",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/viaje-al-corazon-de-la-madre-tierra/",
+      "checkedAt": "2026-10-29T03:45:07.455744+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-e9ffda61451a0f",
+      "name": "Santiago source",
+      "url": "https://www.casamuseoeduardofrei.cl/contacto/",
+      "checkedAt": "2026-10-29T03:45:08.434441+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-f717afa2ab06a5",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/la-muerte-del-padre/",
+      "checkedAt": "2026-10-29T03:45:12.149425+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-977d543f321edc",
+      "name": "Santiago source",
+      "url": "https://www.casamuseoeduardofrei.cl/",
+      "checkedAt": "2026-10-29T03:45:15.031319+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-abc521c9d84297",
+      "name": "Santiago source",
+      "url": "https://www.santiagoturismo.cl/es/sala-antonio-varas-teatro-nacional-chileno/",
+      "checkedAt": "2026-10-29T03:45:19.226566+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-06f639ddcc26bb",
+      "name": "Santiago source",
+      "url": "https://www.uc.cl/agenda/actividad/conoce-el-teatro-uc",
+      "checkedAt": "2026-10-29T03:45:25.038398+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-844596507595ca",
+      "name": "Santiago source",
+      "url": "https://teatrouc.uc.cl/evento/freire-la-epopeya-de-las-provincias/",
+      "checkedAt": "2026-10-29T03:45:26.620564+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-0628f08feb1df4",
+      "name": "Santiago source",
+      "url": "https://tnch.uchile.cl/",
+      "checkedAt": "2026-10-29T03:45:32.453576+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-d9d6cc96cbe99c",
+      "name": "Santiago source",
+      "url": "https://www.casamuseoeduardofrei.cl/conversatorio-gratuito-y-abierto-de-adulto-mayores/",
+      "checkedAt": "2026-10-29T03:46:28.053719+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-e88c45e9320642",
+      "name": "Santiago source",
+      "url": "https://www.casamuseoeduardofrei.cl/casa-museo-efm-presenta-muestra-fotografica-fragmentos-de-una-memoria-que-todavia-nos-pertenece/",
+      "checkedAt": "2026-10-29T03:46:40.674783+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-b93f494471329f",
+      "name": "Santiago source",
+      "url": "https://www.openstreetmap.org/api/0.6/way/587531988/full",
+      "checkedAt": "2026-10-29T03:46:41.219163+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-6a6513e93fce49",
+      "name": "Santiago source",
+      "url": "https://mut.cl/es/",
+      "checkedAt": "2026-10-29T03:46:46.714385+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-123254d0da7230",
+      "name": "Santiago source",
+      "url": "https://barriolastarria.cl/socios/bar-liguria/",
+      "checkedAt": "2026-10-29T03:46:49.511650+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-d49469fca48094",
+      "name": "Santiago source",
+      "url": "https://www.google.com/maps/search/?api=1&query=Bar+Liguria+-+Lastarria,+Merced+298,+Santiago+Centro",
+      "checkedAt": "2026-10-29T03:48:02.174767+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-d38f2fdd7852a3",
+      "name": "Santiago source",
+      "url": "https://www.google.com/maps/search/?api=1&query=-33.4378877,-70.6380715&query_place_id=ChIJ_8g-7pvFYpYRAzAl1_3-0Ok",
+      "checkedAt": "2026-10-29T03:48:09.208032+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-8cf2bba5be7b5a",
+      "name": "Santiago source",
+      "url": "https://ohstgo.cl/espacios/2024-mut/",
+      "checkedAt": "2026-10-29T03:48:13.154109+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-e2aeed3eb5a6eb",
+      "name": "Santiago source",
+      "url": "https://www.liguria.cl/locales/",
+      "checkedAt": "2026-10-29T03:48:55.848813+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-f5cf6c529aaa10",
+      "name": "Santiago source",
+      "url": "https://roavina.com/pt/chile/santiago/mercado-urbano-tobalaba",
+      "checkedAt": "2026-10-29T03:49:00.928383+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-6f7473fcff15a9",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/clases-abiertas-de-ballet-primavera-en-mut-4853",
+      "checkedAt": "2026-10-29T03:52:32.839821+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-46df39bb7bef14",
+      "name": "Santiago source",
+      "url": "https://www.mnba.gob.cl/planifica-tu-visita",
+      "checkedAt": "2026-10-29T03:44:56.841053+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

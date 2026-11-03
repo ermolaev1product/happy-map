@@ -1,0 +1,33 @@
+{
+  "retrievedOn": "2026-10-14",
+  "sourceSnapshotAt": "2026-10-08T05:18:37+00:00",
+  "sourceUrl": "https://babel.opendatasoft.com/explore/dataset/osm-restaurant-fr/",
+  "query": "code_departement='75'",
+  "rawCount": 16863,
+  "eligibleCount": 16606,
+  "heldCounts": {
+    "unnamed": 179,
+    "same_normalized_name_within_15m": 78
+  },
+  "categoryCounts": {
+    "restaurant": 8962,
+    "fast_food": 2908,
+    "bar": 1750,
+    "cafe": 2567,
+    "pub": 274,
+    "ice_cream": 133,
+    "biergarten": 5,
+    "food_court": 7
+  },
+  "streetAddressesMissing": 16606,
+  "attribution": "© OpenStreetMap contributors; GéoDataMine / Babel Opendatasoft",
+  "license": "https://opendatacommons.org/licenses/odbl/",
+  "notes": [
+    "Uses Paris department code; not all Ile-de-France.",
+    "Street addresses absent in source export; null rather than inferred.",
+    "Coordinates are source geometry points/centres, not independent entrance verification.",
+    "Current operating status unverified.",
+    "No customer ratings or prices fabricated.",
+    "Older HuwiseOct6 snapshot retained for audit only, not merged to avoid resurrecting removed places."
+  ]
+}

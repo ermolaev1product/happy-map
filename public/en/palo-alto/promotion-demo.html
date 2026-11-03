@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Promotion demo · AI Agent Arena · Happy Map</title>
+
+<meta name="description" content="A clearly labelled visual test: a small crown above AI Agent Arena, October 22, 2026, in Palo Alto. No payment or partnership is implied.">
+
+<meta name="robots" content="noindex,follow"><meta name="theme-color" content="#faf8f2">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/leaflet.css?v=337bfca5cabd"><link rel="stylesheet" href="/en/assets/maplibre/maplibre-gl.css?v=43c1d886b5fd"><link rel="stylesheet" href="promotion-demo.css?v=6a08fc03037d"><link rel="stylesheet" href="promotion-preview.css?v=a0f00fd6f04e">
+
+<script defer src="assets/leaflet.js?v=db49d009c841"></script><script defer src="/en/assets/maplibre/maplibre-gl.js?v=1525f971223d"></script><script defer src="/en/assets/maplibre/leaflet-maplibre-gl.js?v=81a92cefb959"></script><script defer src="/en/map-basemap.js?v=5904be4869c8"></script><script defer src="promotion-demo.js?v=a1a66000a9b6"></script><script defer src="promotion-preview.js?v=e0975d8783ea"></script>
+
+<link rel="stylesheet" href="/en/assets/controls.css?v=dd95db7a686c"><link rel="stylesheet" href="/assets/controls.css?v=dd95db7a686c"></head>
+
+<body>
+
+<header class="preview-header"><a class="wordmark" href="index.html" aria-label="Happy Map home">Happy Map <span aria-hidden="true">✳</span></a><a class="back-link" href="index.html">Back to Palo Alto map <span aria-hidden="true">↗</span></a></header>
+
+<main class="preview-main">
+
+<section class="preview-intro" aria-labelledby="preview-heading"><div><span class="preview-kicker">A HAPPY MAP EXPERIMENT</span><h1 id="preview-heading">A little spotlight.</h1><p>A small crown for an event worth noticing.</p></div><div class="preview-toggle"><span id="demoState" role="status">Promotion demo</span><label class="toggle-label"><input id="demoToggle" type="checkbox" checked><span class="toggle-track" aria-hidden="true"></span>Show the crown</label></div></section>
+
+<div class="preview-notice"><span class="notice-dot" aria-hidden="true"></span><p>This is a visual promotion demo. No payment was received and no organizer partnership is implied.</p></div>
+
+<section class="preview-workspace" aria-label="Promotion design preview">
+
+<div class="preview-map-wrap"><div id="previewMap" aria-label="AI Agent Arena venue map"></div><div class="preview-map-caption"><span class="notice-dot" aria-hidden="true"></span><span id="mapCaption">Palo Alto · loading event date…</span></div><p class="preview-map-note">One-event preview · your map filters stay unchanged</p><p id="mapError" class="map-error" hidden>The map could not load. The event details are still available.</p></div>
+
+<div class="preview-sidebar"><span class="preview-kicker">THE EVENT CARD</span><div id="previewCard" aria-live="polite"><p>Loading the published listing…</p></div><div class="preview-concept"><h2>How it could work</h2><p>An organizer chooses one event to highlight. A small crown marks its pin and a warm border highlights its card.</p><span>Same position in results. No checkout in this test.</span></div></div>
+
+</section>
+
+<footer class="preview-footer"><p>Prototype only · dates, admission and source details come from the published event listing.</p><a href="index.html">Explore the map →</a></footer>
+
+</main>
+
+<dialog id="previewDetails" aria-labelledby="detailsTitle"><div class="preview-dialog-toolbar"><span>EVENT DETAILS</span><button id="closeDetails" type="button" aria-label="Close event details">Close ×</button></div><div id="detailsBody"></div></dialog>
+
+</body></html>
+

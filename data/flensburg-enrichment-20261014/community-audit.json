@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-10-14T16:28:31.094230+00:00",
+  "city": "Flensburg",
+  "proposedAdditions": 11,
+  "duplicateExistingEvents": [
+    "Herbstautokino 2026-10-15",
+    "KLASK-Turnier 2026-10-17"
+  ],
+  "telegram": [
+    {
+      "url": "https://t.me/s/flensburgfuergrundrechte",
+      "posts": 20,
+      "firstDate": "2026-08-27T15:24:56+00:00",
+      "lastDate": "2026-10-12T14:23:48+00:00"
+    },
+    {
+      "url": "https://t.me/s/flensburgfuergrundrechte?before=2911",
+      "posts": 19,
+      "firstDate": "2026-07-08T11:21:31+00:00",
+      "lastDate": "2026-08-25T15:40:50+00:00"
+    },
+    {
+      "url": "https://t.me/s/flensburgfuergrundrechte?before=2891",
+      "posts": 20,
+      "firstDate": "2026-05-28T14:28:44+00:00",
+      "lastDate": "2026-07-06T19:16:31+00:00"
+    }
+  ],
+  "telegramResult": "59 public posts across three history pages inspected, May 28–October 12 2026; no verified upcoming Flensburg leisure event imported. Political commentary predominates; historic June/July events excluded.",
+  "sources": [
+    {
+      "url": "https://stadtbibliothek.flensburg.de/veranstaltungen/",
+      "status": "reviewed",
+      "note": "October detail pages checked; 11 new event proposals with verified venue coordinates reused from existing Herbstautokino record."
+    },
+    {
+      "url": "https://www.mrija-flensburg.de/",
+      "status": "reviewed_no_dates",
+      "name": "Mrija Flensburg",
+      "note": "Official German-Danish-Ukrainian association; address Mürwiker Str.53,24943 Flensburg. No dated programme exposed on homepage."
+    },
+    {
+      "url": "https://www.flensburg.de/interkulturellewochen",
+      "status": "reviewed",
+      "note": "City confirms 7 Nov 2026 14:00–18:00 Fest der Begegnung at Duborg Skolen, entrance Mitte Königstraße. Flyer download not readable via web tool."
+    },
+    {
+      "url": "https://blaupause-flensburg.de/veranstaltungen/",
+      "status": "calendar_not_exposed",
+      "note": "Public page exposes venue and hours but event feed absent in text."
+    },
+    {
+      "url": "https://tableau-kulturcafe.de/",
+      "status": "calendar_js_only",
+      "note": "Official calendar https://cloud.tableau-kulturcafe.de/index.php/apps/calendar/embed/ALPMtsinAbnArfiR requires JavaScript; no dated upcoming event verified."
+    },
+    {
+      "url": "https://uahelp.wiki/german-city-chats",
+      "status": "discovery_only",
+      "note": "Flensburg Ukrainian regional group invite is private; not joined and not checked."
+    },
+    {
+      "url": "https://t.me/+OuBUVKWcmUM2NDdi",
+      "status": "private_not_checked",
+      "note": "Ukrainian help Schleswig-Holstein; no message access attempted."
+    },
+    {
+      "url": "https://t.me/+pnZGdDDQYftjYzIy",
+      "status": "private_not_checked",
+      "note": "Sharing is Caring Flensburg; public invite description only, no posts checked."
+    }
+  ],
+  "pending": [
+    {
+      "title": "AFROBEAT-PARTY",
+      "date": "2026-10-17",
+      "time": "18:00",
+      "end": "22:00",
+      "venue": "Gemeindezentrum Engelsby",
+      "address": "Brahmsstraße 13,24943 Flensburg",
+      "sourceUrl": "https://www.nordkirche.de/veranstaltungen/veranstaltung/event/afrobeat-party",
+      "reason": "Official search result gives date/address but detailpage returned internal error; coordinates not verified."
+    },
+    {
+      "title": "Digitale Sprechstunde and Baby-Vormittag",
+      "sourceUrl": "https://stadtbibliothek.flensburg.de/veranstaltungen/",
+      "reason": "Listing confirmed Oct22 15:30–16:30 and Oct26 10:00–12:00; detail requests returned error, omitted from verified11."
+    }
+  ],
+  "resolved": [
+    {
+      "title": "Fest der Begegnung",
+      "coordinateSource": "https://www.openstreetmap.org/way/137962596",
+      "status": "added; building coordinate, event entrance specified separately"
+    }
+  ]
+}

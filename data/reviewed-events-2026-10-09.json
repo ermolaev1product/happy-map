@@ -1,0 +1,2244 @@
+{
+  "batchId": "reviewed-research-2026-10-09",
+  "checkedAt": "2026-10-09T02:17:00Z",
+  "sourceResearchFile": "data/source-research-2026-10-09.json",
+  "reportFile": "public/research-update-2026-10-09.json",
+  "examples": [
+    {
+      "key": "belgrade-1",
+      "city": "belgrade",
+      "title": "Predstavljanje FUKT časopisa",
+      "status": "already_present_updated",
+      "eventIds": [
+        "bg-afisha-2140"
+      ],
+      "sourceUrls": [
+        "https://domomladine.org/debate/predstavljanje-fukt-casopisa/"
+      ],
+      "notes": [
+        "Do not infer language from page language."
+      ]
+    },
+    {
+      "key": "belgrade-2",
+      "city": "belgrade",
+      "title": "Dani evropske baštine u Muzeju Jugoslavije",
+      "status": "added",
+      "eventIds": [
+        "bg-verified-museum-heritage-20261011-tour",
+        "bg-verified-museum-heritage-20261011-conversation",
+        "bg-verified-museum-heritage-20261011-performance"
+      ],
+      "sourceUrls": [
+        "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/"
+      ],
+      "notes": [
+        "Registration form target was resolved from the official page but form capacity itself could not be read; no seats claim."
+      ]
+    },
+    {
+      "key": "belgrade-3",
+      "city": "belgrade",
+      "title": "MRAK with Sedef Adasï",
+      "status": "already_present_updated",
+      "eventIds": [
+        "bg-afisha-1537"
+      ],
+      "sourceUrls": [
+        "https://ra.co/events/2532528"
+      ],
+      "notes": [
+        "Price tiers are organizer announcements, not a live purchasable inventory check. Use null numeric price with qualified label."
+      ]
+    },
+    {
+      "key": "belgrade-4",
+      "city": "belgrade",
+      "title": "Karmen",
+      "status": "already_present_updated",
+      "eventIds": [
+        "bg-afisha-1541"
+      ],
+      "sourceUrls": [
+        "https://www.narodnopozoriste.rs/",
+        "https://www.narodnopozoriste.rs/repertoar"
+      ],
+      "notes": [
+        "Performance and subtitle languages not revalidated."
+      ]
+    },
+    {
+      "key": "belgrade-5",
+      "city": "belgrade",
+      "title": "Očevi i oci",
+      "status": "already_present_updated",
+      "eventIds": [
+        "bg-afisha-1945"
+      ],
+      "sourceUrls": [
+        "https://www.narodnopozoriste.rs/",
+        "https://www.narodnopozoriste.rs/repertoar"
+      ],
+      "notes": [
+        "Existing aggregate says from 300 RSD; official ticket page did not load, so this price is not newly reverified. Prefer no numeric price."
+      ]
+    },
+    {
+      "key": "belgrade-6",
+      "city": "belgrade",
+      "title": "Upis na jesenju foto-radionicu Out of the Box",
+      "status": "added",
+      "eventIds": [
+        "bg-verified-out-of-box-20261020"
+      ],
+      "sourceUrls": [
+        "https://www.kcb.org.rs/najave/",
+        "https://www.kcb.org.rs/2026/10/upis-na-jesenju-foto-radionicu-out-of-the-box/?script=cir",
+        "https://www.kcb.org.rs/o-centru/prostor/"
+      ],
+      "notes": [
+        "Wikidata Gallery Artget publishes DMS 44°48'55.60038\"N, 20°27'35.18687\"E, converted arithmetically to decimal. Its underlying Google reference is for the KCB building. Official event confirms exact gallery entrance address Trg Republike 5/I. This is a building-level pin, not independently verified doorway accuracy.",
+        "Only first session added; do not synthesize all ten dates or present as an unrestricted drop-in."
+      ]
+    },
+    {
+      "key": "belgrade-7",
+      "city": "belgrade",
+      "title": "42. Beogradski džez festival 2026",
+      "status": "added",
+      "eventIds": [
+        "bg-verified-jazz-20261021-1900",
+        "bg-verified-jazz-20261021-2100",
+        "bg-verified-jazz-20261022-1900",
+        "bg-verified-jazz-20261022-2100",
+        "bg-verified-jazz-20261022-2230",
+        "bg-verified-jazz-20261022-2345",
+        "bg-verified-jazz-20261023-1900",
+        "bg-verified-jazz-20261023-2100",
+        "bg-verified-jazz-20261023-2230",
+        "bg-verified-jazz-20261024-1900",
+        "bg-verified-jazz-20261024-2100",
+        "bg-verified-jazz-20261024-2230",
+        "bg-verified-jazz-20261024-2345"
+      ],
+      "sourceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/"
+      ],
+      "notes": [
+        "No session end times inferred. Seifert Night remains one timed card. Jam Session pricing not explicitly stated: never mark free or paid without ticket detail."
+      ]
+    },
+    {
+      "key": "belgrade-8",
+      "city": "belgrade",
+      "title": "Открой глаза — Кино после кино",
+      "status": "added",
+      "eventIds": [
+        "bg-verified-blackcat-abre-los-ojos-20261011"
+      ],
+      "sourceUrls": [
+        "https://t.me/s/vstrechi_v_belgrade"
+      ],
+      "notes": [
+        "Full announcement verified in public preview. Direct permalink fetch cache-missed. Capacity is not publicly confirmed; do not promise availability."
+      ]
+    },
+    {
+      "key": "tbilisi-quiz-7",
+      "city": "tbilisi",
+      "title": "60 Seconds — Autumn-7 Open League",
+      "status": "pending",
+      "eventIds": [],
+      "sourceUrls": [
+        "https://club60sec.ru/city/tbilisi"
+      ],
+      "notes": [
+        "Do not publish an exact-time map occurrence until the one-hour conflict is resolved. Existing exact venue name can supply coordinates after time is confirmed."
+      ]
+    },
+    {
+      "key": "tbilisi-quiz-8",
+      "city": "tbilisi",
+      "title": "60 Seconds — Autumn-8 Open League",
+      "status": "pending",
+      "eventIds": [],
+      "sourceUrls": [
+        "https://club60sec.ru/city/tbilisi"
+      ],
+      "notes": [
+        "Do not publish an exact-time map occurrence until the one-hour conflict is resolved. Le Tapis existing curated point uses address 178 while this listing specifies 180; retain that coordinate candidate as unverified."
+      ]
+    },
+    {
+      "key": "verified-see360-mariam-20261009",
+      "city": "tbilisi",
+      "title": "Mariam Kikvilashvili — Live Music",
+      "status": "added",
+      "eventIds": [
+        "verified-see360-mariam-20261009"
+      ],
+      "sourceUrls": [
+        "https://www.see360.ge/event-agenda"
+      ],
+      "notes": []
+    },
+    {
+      "key": "verified-see360-maria-20261010",
+      "city": "tbilisi",
+      "title": "Maria Besedina — Live Music",
+      "status": "added",
+      "eventIds": [
+        "verified-see360-maria-20261010"
+      ],
+      "sourceUrls": [
+        "https://www.see360.ge/event-agenda"
+      ],
+      "notes": []
+    },
+    {
+      "key": "tbilisi-tbc-opening",
+      "city": "tbilisi",
+      "title": "Irina Jibuti — From Earth to Fire, From Earth to Earth: Opening",
+      "status": "added",
+      "eventIds": [
+        "verified-tbc-irina-opening-20261009"
+      ],
+      "sourceUrls": [
+        "https://tbcconcept.ge/ge/events/irina-jibuti-gamopena"
+      ],
+      "notes": [
+        "Opening is a distinct two-hour occurrence; the exhibition itself already exists as n23:45d4d0f389334454. Do not duplicate the ongoing exhibition."
+      ]
+    },
+    {
+      "key": "tbilisi-silk-museum",
+      "city": "tbilisi",
+      "title": "Museum and the River",
+      "status": "added",
+      "eventIds": [
+        "verified-silk-museum-river-2026"
+      ],
+      "sourceUrls": [
+        "https://silkmuseum.ge/en/whats-on",
+        "https://silkmuseum.ge/en/visit"
+      ],
+      "notes": [
+        "Store as ongoing with closedWeekdays [0,1]. General museum standard ticket is confirmed; any separate exhibition surcharge is not stated. End date is Monday, so last normal open day is November 28 unless museum announces otherwise."
+      ]
+    },
+    {
+      "key": "tbilisi-biennale-symposium",
+      "city": "tbilisi",
+      "title": "Tbilisi Stage Design Biennale — International Symposium",
+      "status": "pending",
+      "eventIds": [],
+      "sourceUrls": [
+        "https://www.tbilisibiennale.com/2026/project-agenda/",
+        "https://www.nplg.gov.ge/eng/Reading_Halls",
+        "https://www.tbilisibiennale.com/2026/shedule-1/"
+      ],
+      "notes": [
+        "Date, time and exact venue point are confirmed. Public admission/registration remains unverified; keep pending rather than imply drop-in availability."
+      ]
+    },
+    {
+      "key": "moscow-mosvintage",
+      "city": "moscow",
+      "title": "Фестиваль «Мосвинтаж»",
+      "status": "added",
+      "eventIds": [
+        "verified-msk-mosvintage-2026-10-09",
+        "verified-msk-mosvintage-2026-10-10",
+        "verified-msk-mosvintage-2026-10-11"
+      ],
+      "sourceUrls": [
+        "https://mosvintage.ru/market",
+        "https://mosmuseum.ru/"
+      ],
+      "notes": [
+        "Publish three daytime occurrences, not one continuous 57-hour event."
+      ]
+    },
+    {
+      "key": "moscow-shrimps",
+      "city": "moscow",
+      "title": "The Shrimps — танцевальная вечеринка",
+      "status": "already_present_updated",
+      "eventIds": [
+        "msk-a8c30bbdb1dbb758"
+      ],
+      "sourceUrls": [
+        "https://www.16tons.ru/concert/2026-the-shrimps-10oct/",
+        "https://www.16tons.ru/",
+        "https://yandex.com/maps/org/16_tonn/186517304540/"
+      ],
+      "notes": [
+        "Enrich existing id msk-a8c30bbdb1dbb758; do not create a duplicate. No performance end is published."
+      ]
+    },
+    {
+      "key": "moscow-tumaniyo",
+      "city": "moscow",
+      "title": "TumaniYO",
+      "status": "added",
+      "eventIds": [
+        "verified-msk-tumaniyo-20261011"
+      ],
+      "sourceUrls": [
+        "https://tau.place/events/tumaniyo-202610112000",
+        "https://tau.place/contacts",
+        "https://yandex.com/maps/org/tau/206418889846/"
+      ],
+      "notes": []
+    },
+    {
+      "key": "moscow-museum-week",
+      "city": "moscow",
+      "title": "Московская музейная неделя — Музей Москвы и филиалы",
+      "status": "pending",
+      "eventIds": [],
+      "sourceUrls": [
+        "https://mosmuseum.ru/visitors/tikets/free/"
+      ],
+      "notes": [
+        "Composite multi-venue offer lacks a single location or visit interval. Do not assign generic Museum Moscow coordinates to all branches. Separate exhibition/branch tickets and hours are required."
+      ]
+    },
+    {
+      "key": "moscow-bread-weekend",
+      "city": "moscow",
+      "title": "Хлебный уикенд",
+      "status": "added",
+      "eventIds": [
+        "verified-msk-zotov-curator-2026-10-16",
+        "verified-msk-zotov-baking-2026-10-17",
+        "verified-msk-zotov-pizza-2026-10-17",
+        "verified-msk-zotov-brunch-2026-10-18",
+        "verified-msk-zotov-heritage-2026-10-18",
+        "verified-msk-zotov-ceramic-2026-10-18"
+      ],
+      "sourceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/kuratorskaya-ekskursiya-po-vystavke-hleb/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/vypechka-instrukcziya-po-primeneniyu/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/detskij-master-klass-piczcza-margarita/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/art-branch-istoriya-hleba-ot-pervobytnosti-do-nashih-dnej-2/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/pablik-tok-vkus-kak-nasledie/",
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/keramicheskie-podvesy/"
+      ],
+      "notes": [
+        "Publish only individual dated sessions below. Session prices are not stated in inspected details; registration does not imply free admission.",
+        "Семейный мастер-класс. Бутербродная: коллажный дизайн: Listed explicitly in parent program, but individual detail failed to load; omit from ready records in this conservative pass.",
+        "Детская интерактивная экскурсия по выставке «Хлеб»: Program lists multiple dates without one precise session time; not expanded."
+      ]
+    }
+  ],
+  "items": [
+    {
+      "example": "tbilisi-quiz-7",
+      "city": "tbilisi",
+      "action": "pending",
+      "reason": "Do not publish an exact-time map occurrence until the one-hour conflict is resolved. Existing exact venue name can supply coordinates after time is confirmed.",
+      "evidenceUrls": [
+        "https://club60sec.ru/city/tbilisi"
+      ]
+    },
+    {
+      "example": "tbilisi-quiz-8",
+      "city": "tbilisi",
+      "action": "pending",
+      "reason": "Do not publish an exact-time map occurrence until the one-hour conflict is resolved. Le Tapis existing curated point uses address 178 while this listing specifies 180; retain that coordinate candidate as unverified.",
+      "evidenceUrls": [
+        "https://club60sec.ru/city/tbilisi"
+      ]
+    },
+    {
+      "example": "tbilisi-biennale-symposium",
+      "city": "tbilisi",
+      "action": "pending",
+      "reason": "Date, time and exact venue point are confirmed. Public admission/registration remains unverified; keep pending rather than imply drop-in availability.",
+      "evidenceUrls": [
+        "https://www.tbilisibiennale.com/2026/project-agenda/",
+        "https://www.nplg.gov.ge/eng/Reading_Halls",
+        "https://www.tbilisibiennale.com/2026/shedule-1/"
+      ]
+    },
+    {
+      "example": "moscow-museum-week",
+      "city": "moscow",
+      "action": "pending",
+      "reason": "Composite multi-venue offer lacks a single location or visit interval. Do not assign generic Museum Moscow coordinates to all branches. Separate exhibition/branch tickets and hours are required.",
+      "evidenceUrls": [
+        "https://mosmuseum.ru/visitors/tikets/free/"
+      ]
+    },
+    {
+      "example": "belgrade-1",
+      "city": "belgrade",
+      "action": "update",
+      "event": {
+        "id": "bg-afisha-2140",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Презентация журнала FUKT: Бьёрн Хегардт и Ариане Шпанир в Доме омладине",
+        "date": "2026-10-12",
+        "time": "19:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "talk",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/debate/predstavljanje-fukt-casopisa/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/debate/predstavljanje-fukt-casopisa/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": 0,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": 0,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Klub",
+        "priceLabel": "Бесплатно",
+        "description": "Презентация журнала FUKT и встреча с его редакторами. Клуб Дома омладине. Вход свободный; язык выступления не опубликован.",
+        "startAt": "2026-10-12T19:00:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/debate/predstavljanje-fukt-casopisa/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ],
+      "expectedDate": "2026-10-12",
+      "refreshOfferPrices": false
+    },
+    {
+      "example": "belgrade-2",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-museum-heritage-20261011-tour",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "«Свобода для нас — мечта»: авторская экскурсия",
+        "date": "2026-10-11",
+        "time": "13:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Muzej Jugoslavije — Muzej 25. maj",
+        "address": "Mihaila Mike Jankovića 6, Beograd",
+        "lat": 44.78799,
+        "lng": 20.45202,
+        "coordinateSource": "https://mapcarta.com/W32809082",
+        "venueSource": "https://mapcarta.com/W32809082",
+        "addressSource": "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "category": "city",
+        "source": "Muzej Jugoslavije",
+        "sourceUrl": "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "sources": [
+          {
+            "name": "Muzej Jugoslavije",
+            "url": "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": 0,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": 0,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Muzej 25. maj — Izložbeni prostor levo",
+        "priceLabel": "Бесплатно",
+        "registrationRequired": false,
+        "registrationUrl": null,
+        "description": "Авторская экскурсия по выставке в программе Дней европейского наследия.",
+        "parentProgram": "Dani evropske baštine u Muzeju Jugoslavije",
+        "startAt": "2026-10-11T13:00:00+02:00",
+        "coordinateAttribution": "© OpenStreetMap contributors, ODbL; building-level point via Mapcarta"
+      },
+      "evidenceUrls": [
+        "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "https://mapcarta.com/W32809082"
+      ]
+    },
+    {
+      "example": "belgrade-2",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-museum-heritage-20261011-conversation",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Дни европейского наследия: встреча с авторами выставки",
+        "date": "2026-10-11",
+        "time": "17:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Muzej Jugoslavije — Muzej 25. maj",
+        "address": "Mihaila Mike Jankovića 6, Beograd",
+        "lat": 44.78799,
+        "lng": 20.45202,
+        "coordinateSource": "https://mapcarta.com/W32809082",
+        "venueSource": "https://mapcarta.com/W32809082",
+        "addressSource": "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "category": "talk",
+        "source": "Muzej Jugoslavije",
+        "sourceUrl": "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "sources": [
+          {
+            "name": "Muzej Jugoslavije",
+            "url": "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": 0,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": 0,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Muzej 25. maj — Izložbeni prostor levo",
+        "priceLabel": "Бесплатно",
+        "registrationRequired": false,
+        "registrationUrl": null,
+        "description": "Презентация третьей, перформативной тетради выставки и разговор с Бояном Джорджевом и Арсением Штимцем.",
+        "parentProgram": "Dani evropske baštine u Muzeju Jugoslavije",
+        "startAt": "2026-10-11T17:00:00+02:00",
+        "coordinateAttribution": "© OpenStreetMap contributors, ODbL; building-level point via Mapcarta"
+      },
+      "evidenceUrls": [
+        "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "https://mapcarta.com/W32809082"
+      ]
+    },
+    {
+      "example": "belgrade-2",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-museum-heritage-20261011-performance",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "«U potpisu, nezaboravljeni»: перформанс",
+        "date": "2026-10-11",
+        "time": "18:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Muzej Jugoslavije — Muzej 25. maj",
+        "address": "Mihaila Mike Jankovića 6, Beograd",
+        "lat": 44.78799,
+        "lng": 20.45202,
+        "coordinateSource": "https://mapcarta.com/W32809082",
+        "venueSource": "https://mapcarta.com/W32809082",
+        "addressSource": "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "category": "theatre",
+        "source": "Muzej Jugoslavije",
+        "sourceUrl": "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "sources": [
+          {
+            "name": "Muzej Jugoslavije",
+            "url": "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": 0,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": 0,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Muzej 25. maj — Izložbeni prostor levo",
+        "priceLabel": "Бесплатно; нужна запись",
+        "registrationRequired": true,
+        "registrationUrl": "https://forms.gle/wGtfS7stop4eeDbp7",
+        "description": "Перформанс в программе Дней европейского наследия; обязательна предварительная запись из-за ограниченной вместимости.",
+        "parentProgram": "Dani evropske baštine u Muzeju Jugoslavije",
+        "startAt": "2026-10-11T18:00:00+02:00",
+        "priceNote": "Предварительная запись обязательна; наличие мест не подтверждено.",
+        "coordinateAttribution": "© OpenStreetMap contributors, ODbL; building-level point via Mapcarta"
+      },
+      "evidenceUrls": [
+        "https://muzej-jugoslavije.org/program/dani-evropske-bastine-u-muzeju-jugoslavije-2/",
+        "https://mapcarta.com/W32809082"
+      ]
+    },
+    {
+      "example": "belgrade-3",
+      "city": "belgrade",
+      "action": "update",
+      "event": {
+        "id": "bg-afisha-1537",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "MRAK с Sedef Adasï: резидентка Berghain и Blitz в Drugstore",
+        "date": "2026-10-10",
+        "time": "23:00",
+        "end": "06:00",
+        "endDate": "2026-10-11",
+        "timezone": "Europe/Belgrade",
+        "venue": "Drugstore",
+        "address": "Bulevar Despota Stefana 115 - Poenkareova, Beograd",
+        "lat": 44.8191235,
+        "lng": 20.4891454,
+        "coordinateSource": "https://www.openstreetmap.org/node/5302622223",
+        "venueSource": "https://www.openstreetmap.org/node/5302622223",
+        "addressSource": "https://ra.co/events/2532528",
+        "category": "music",
+        "source": "Resident Advisor / DrugstoreBeograd",
+        "sourceUrl": "https://ra.co/events/2532528",
+        "sources": [
+          {
+            "name": "Resident Advisor / DrugstoreBeograd",
+            "url": "https://ra.co/events/2532528",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "placeId": "osm:node:5302622223",
+        "priceLabel": "Объявлены 2 000 RSD заранее / 2 500 RSD на входе; наличие уточнить",
+        "ticketUrl": "https://ra.co/events/2532528",
+        "minimumAge": 18,
+        "description": "Ночь MRAK в Drugstore: Sedef Adasï, Sacha Mambo, Tsola, Filip Xavi и IXOE. До 06:00 следующего дня. 18+. Ранний тариф 1 500 RSD закончился 23 сентября.",
+        "removeStalePrice": 1500,
+        "startAt": "2026-10-10T23:00:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://ra.co/events/2532528",
+        "https://www.openstreetmap.org/node/5302622223"
+      ],
+      "expectedDate": "2026-10-10",
+      "refreshOfferPrices": true
+    },
+    {
+      "example": "belgrade-4",
+      "city": "belgrade",
+      "action": "update",
+      "event": {
+        "id": "bg-afisha-1541",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "«Кармен» Бизе на Большой сцене Народного театра",
+        "date": "2026-10-10",
+        "time": "19:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Narodno pozorište u Beogradu",
+        "address": "Francuska 3, 11000 Beograd",
+        "lat": 44.817006,
+        "lng": 20.461005,
+        "coordinateSource": "https://afisha.rs/ru/venues/narodno-pozoriste-u-beogradu",
+        "venueSource": "https://afisha.rs/ru/venues/narodno-pozoriste-u-beogradu",
+        "addressSource": "https://www.narodnopozoriste.rs/kontakt",
+        "category": "theatre",
+        "source": "Narodno pozorište",
+        "sourceUrl": "https://www.narodnopozoriste.rs/repertoar",
+        "sources": [
+          {
+            "name": "Narodno pozorište",
+            "url": "https://www.narodnopozoriste.rs/repertoar",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Velika scena",
+        "availability": "sold_out",
+        "priceLabel": "Билеты распроданы",
+        "description": "Опера Жоржа Бизе на Большой сцене. Официальный репертуар при проверке помечал показ как распроданный.",
+        "startAt": "2026-10-10T19:00:00+02:00",
+        "soldOut": true
+      },
+      "evidenceUrls": [
+        "https://www.narodnopozoriste.rs/repertoar",
+        "https://afisha.rs/ru/venues/narodno-pozoriste-u-beogradu"
+      ],
+      "expectedDate": "2026-10-10",
+      "refreshOfferPrices": true
+    },
+    {
+      "example": "belgrade-5",
+      "city": "belgrade",
+      "action": "update",
+      "event": {
+        "id": "bg-afisha-1945",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "«Отцы и праотцы» — с английскими титрами",
+        "date": "2026-10-11",
+        "time": "19:30",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Narodno pozorište u Beogradu",
+        "address": "Francuska 3, 11000 Beograd",
+        "lat": 44.817006,
+        "lng": 20.461005,
+        "coordinateSource": "https://afisha.rs/ru/venues/narodno-pozoriste-u-beogradu",
+        "venueSource": "https://afisha.rs/ru/venues/narodno-pozoriste-u-beogradu",
+        "addressSource": "https://www.narodnopozoriste.rs/kontakt",
+        "category": "theatre",
+        "source": "Narodno pozorište",
+        "sourceUrl": "https://www.narodnopozoriste.rs/repertoar",
+        "sources": [
+          {
+            "name": "Narodno pozorište",
+            "url": "https://www.narodnopozoriste.rs/repertoar",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Velika scena",
+        "subtitles": [
+          "en"
+        ],
+        "priceLabel": "Платно; цену уточнить",
+        "ticketUrl": "https://www.narodnopozoriste.rs/lat/ulaznice/odabir-ulaznica?p=6404",
+        "description": "Спектакль «Očevi i oci» на Большой сцене. Английские титры прямо указаны в официальной программе.",
+        "startAt": "2026-10-11T19:30:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://www.narodnopozoriste.rs/repertoar",
+        "https://afisha.rs/ru/venues/narodno-pozoriste-u-beogradu"
+      ],
+      "expectedDate": "2026-10-11",
+      "refreshOfferPrices": true
+    },
+    {
+      "example": "belgrade-6",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-out-of-box-20261020",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Старт фотомастерской Out of the Box",
+        "date": "2026-10-20",
+        "time": "18:00",
+        "end": "20:00",
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Galerija ARTGET, Kulturni centar Beograda",
+        "address": "Trg Republike 5/I, Beograd",
+        "lat": 44.81544455,
+        "lng": 20.45977413,
+        "coordinateSource": "https://www.wikidata.org/wiki/Q116200976",
+        "venueSource": "https://www.wikidata.org/wiki/Q116200976",
+        "addressSource": "https://www.kcb.org.rs/2026/10/upis-na-jesenju-foto-radionicu-out-of-the-box/?script=cir",
+        "category": "workshop",
+        "source": "Kulturni centar Beograda",
+        "sourceUrl": "https://www.kcb.org.rs/2026/10/upis-na-jesenju-foto-radionicu-out-of-the-box/?script=cir",
+        "sources": [
+          {
+            "name": "Kulturni centar Beograda",
+            "url": "https://www.kcb.org.rs/2026/10/upis-na-jesenju-foto-radionicu-out-of-the-box/?script=cir",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "registrationRequired": true,
+        "registrationEmail": "marijako78@gmail.com",
+        "registrationContact": "@outofthebox",
+        "priceLabel": "Стоимость уточняется при записи",
+        "description": "Начало цикла из десяти встреч по вторникам, 18:00–20:00, в галерее ARTGET (1-й этаж). Запись и условия: marijako78@gmail.com или @outofthebox. Стоимость не опубликована.",
+        "eventType": "course_start",
+        "startAt": "2026-10-20T18:00:00+02:00",
+        "priceNote": "Предварительная запись обязательна; наличие мест не подтверждено."
+      },
+      "evidenceUrls": [
+        "https://www.kcb.org.rs/2026/10/upis-na-jesenju-foto-radionicu-out-of-the-box/?script=cir",
+        "https://www.wikidata.org/wiki/Q116200976"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261021-1900",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Vladimir Nikolov Nonet: History Now · Белградский джазовый фестиваль",
+        "date": "2026-10-21",
+        "time": "19:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Velika sala",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Velika sala. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-21T19:00:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261021-2100",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Ana Popović · Белградский джазовый фестиваль",
+        "date": "2026-10-21",
+        "time": "21:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Velika sala",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Velika sala. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-21T21:00:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261022-1900",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Tino Tracanna: Panorchestra · Белградский джазовый фестиваль",
+        "date": "2026-10-22",
+        "time": "19:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Velika sala",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Velika sala. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-22T19:00:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261022-2100",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Chicago Underground Duo: Rob Mazurek & Chad Taylor · Белградский джазовый фестиваль",
+        "date": "2026-10-22",
+        "time": "21:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Velika sala",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Velika sala. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-22T21:00:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261022-2230",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Andreas Schaerer & Daniel García Diego · Белградский джазовый фестиваль",
+        "date": "2026-10-22",
+        "time": "22:30",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Amerikana",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Amerikana. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-22T22:30:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261022-2345",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Arun Ramamurthy Trio · Белградский джазовый фестиваль",
+        "date": "2026-10-22",
+        "time": "23:45",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Amerikana",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Amerikana. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-22T23:45:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261023-1900",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Ivan Radivojević Quartet feat. Rastko Obradović · Белградский джазовый фестиваль",
+        "date": "2026-10-23",
+        "time": "19:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Velika sala",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Velika sala. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-23T19:00:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261023-2100",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "The Messthetics and James Brandon Lewis · Белградский джазовый фестиваль",
+        "date": "2026-10-23",
+        "time": "21:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Velika sala",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Velika sala. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-23T21:00:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261023-2230",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Seifert Night: Akimbo + JuMa · Белградский джазовый фестиваль",
+        "date": "2026-10-23",
+        "time": "22:30",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Amerikana",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Amerikana. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-23T22:30:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261024-1900",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "João Paulo Esteves da Silva Quartet · Белградский джазовый фестиваль",
+        "date": "2026-10-24",
+        "time": "19:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Velika sala",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Velika sala. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-24T19:00:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261024-2100",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Marquis Hill Blacktet Revisited · Белградский джазовый фестиваль",
+        "date": "2026-10-24",
+        "time": "21:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Velika sala",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Velika sala. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-24T21:00:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261024-2230",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Đorđe Kujundžić Quartet · Белградский джазовый фестиваль",
+        "date": "2026-10-24",
+        "time": "22:30",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Amerikana",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Amerikana. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-24T22:30:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-7",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-jazz-20261024-2345",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Jam Session · Белградский джазовый фестиваль",
+        "date": "2026-10-24",
+        "time": "23:45",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Dom omladine Beograda",
+        "address": "Makedonska 22, 11000 Beograd",
+        "lat": 44.815407,
+        "lng": 20.462793,
+        "coordinateSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "venueSource": "https://afisha.rs/ru/venues/dom-omladine-beograda",
+        "addressSource": "https://domomladine.org/kontakt/",
+        "category": "music",
+        "source": "Dom omladine Beograda",
+        "sourceUrl": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "sources": [
+          {
+            "name": "Dom omladine Beograda",
+            "url": "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": null,
+        "currency": "RSD",
+        "min": false,
+        "language": null,
+        "stage": "Amerikana",
+        "priceLabel": "Цена и наличие билетов — у организатора",
+        "description": "42-й Белградский джазовый фестиваль. Зал: Amerikana. Точное время начала опубликовано организатором. Абонемент охватывает только 8 концертов основной программы; условия отдельных билетов уточняйте.",
+        "parentProgram": "42. Beogradski džez festival 2026",
+        "startAt": "2026-10-24T23:45:00+02:00"
+      },
+      "evidenceUrls": [
+        "https://domomladine.org/koncerti/42-beogradski-dzez-festival-2026/",
+        "https://afisha.rs/ru/venues/dom-omladine-beograda"
+      ]
+    },
+    {
+      "example": "belgrade-8",
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "id": "bg-verified-blackcat-abre-los-ojos-20261011",
+        "kind": "event",
+        "city": "Belgrade",
+        "title": "Киноклуб «Кино после кино»: «Открой глаза»",
+        "date": "2026-10-11",
+        "time": "17:00",
+        "end": null,
+        "endDate": null,
+        "timezone": "Europe/Belgrade",
+        "venue": "Anticafe Black Cat",
+        "address": "Braće Baruh 6, Beograd",
+        "lat": 44.825284,
+        "lng": 20.458099,
+        "coordinateSource": "https://afisha.rs/ru/venues/anticafe-black-cat",
+        "venueSource": "https://afisha.rs/ru/venues/anticafe-black-cat",
+        "addressSource": "https://t.me/vstrechi_v_belgrade/13108",
+        "category": "film",
+        "source": "Встречи в Белграде / Кино после кино",
+        "sourceUrl": "https://t.me/vstrechi_v_belgrade/13108",
+        "sources": [
+          {
+            "name": "Встречи в Белграде / Кино после кино",
+            "url": "https://t.me/vstrechi_v_belgrade/13108",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": 1500,
+            "min": false
+          }
+        ],
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "price": 1500,
+        "currency": "RSD",
+        "min": false,
+        "language": "ru",
+        "placeId": "bg-place-blackcat",
+        "doorsTime": "16:30",
+        "priceLabel": "1 500 RSD; нужна запись",
+        "registrationRequired": true,
+        "registrationUrl": "https://t.me/yuliyacom",
+        "description": "Просмотр «Открой глаза» (1997) на русском языке и обсуждение. Сбор гостей в 16:30, фильм в 17:00. В стоимость включены лёгкий фуршет, чай, кофе и сладости. Нужна запись у организатора.",
+        "startAt": "2026-10-11T17:00:00+02:00",
+        "priceNote": "Предварительная запись обязательна; наличие мест не подтверждено."
+      },
+      "evidenceUrls": [
+        "https://t.me/vstrechi_v_belgrade/13108",
+        "https://afisha.rs/ru/venues/anticafe-black-cat"
+      ]
+    },
+    {
+      "example": "verified-see360-mariam-20261009",
+      "city": "tbilisi",
+      "action": "add",
+      "event": {
+        "id": "verified-see360-mariam-20261009",
+        "kind": "event",
+        "city": "Tbilisi",
+        "title": "Mariam Kikvilashvili — Live Music",
+        "date": "2026-10-09",
+        "time": "20:30",
+        "end": "23:30",
+        "venue": "See360",
+        "address": "24 Betlemi Street",
+        "lat": 41.6894406,
+        "lng": 44.8066498,
+        "coordinateSource": "https://www.openstreetmap.org/node/11945876532",
+        "source": "See360",
+        "sourceUrl": "https://www.see360.ge/event-agenda",
+        "sources": [
+          {
+            "name": "See360",
+            "url": "https://www.see360.ge/event-agenda",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "category": "music",
+        "price": null,
+        "currency": "GEL",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "Живая музыка на террасе See360. Условия посещения и бронирования — у ресторана.",
+        "priceNote": "Цена входа или условия заказа на странице программы не указаны.",
+        "placeId": "osm:node:11945876532",
+        "startAt": "2026-10-09T20:30:00+04:00",
+        "min": false,
+        "timezone": "Asia/Tbilisi"
+      },
+      "evidenceUrls": [
+        "https://www.see360.ge/event-agenda",
+        "https://www.openstreetmap.org/node/11945876532"
+      ]
+    },
+    {
+      "example": "verified-see360-maria-20261010",
+      "city": "tbilisi",
+      "action": "add",
+      "event": {
+        "id": "verified-see360-maria-20261010",
+        "kind": "event",
+        "city": "Tbilisi",
+        "title": "Maria Besedina — Live Music",
+        "date": "2026-10-10",
+        "time": "20:30",
+        "end": "23:30",
+        "venue": "See360",
+        "address": "24 Betlemi Street",
+        "lat": 41.6894406,
+        "lng": 44.8066498,
+        "coordinateSource": "https://www.openstreetmap.org/node/11945876532",
+        "source": "See360",
+        "sourceUrl": "https://www.see360.ge/event-agenda",
+        "sources": [
+          {
+            "name": "See360",
+            "url": "https://www.see360.ge/event-agenda",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "category": "music",
+        "price": null,
+        "currency": "GEL",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "Живая музыка на террасе See360. Условия посещения и бронирования — у ресторана.",
+        "priceNote": "Цена входа или условия заказа на странице программы не указаны.",
+        "placeId": "osm:node:11945876532",
+        "startAt": "2026-10-10T20:30:00+04:00",
+        "min": false,
+        "timezone": "Asia/Tbilisi"
+      },
+      "evidenceUrls": [
+        "https://www.see360.ge/event-agenda",
+        "https://www.openstreetmap.org/node/11945876532"
+      ]
+    },
+    {
+      "example": "tbilisi-tbc-opening",
+      "city": "tbilisi",
+      "action": "add",
+      "event": {
+        "id": "verified-tbc-irina-opening-20261009",
+        "kind": "event",
+        "city": "Tbilisi",
+        "title": "Ирина Джибути — открытие выставки",
+        "date": "2026-10-09",
+        "time": "18:00",
+        "end": "20:00",
+        "venue": "TBC Concept",
+        "address": "7 Kote Marjanishvili Street",
+        "lat": 41.7084833,
+        "lng": 44.7950453,
+        "coordinateSource": "https://t.me/ProGeorgian/34588",
+        "source": "TBC Concept",
+        "sourceUrl": "https://tbcconcept.ge/ge/events/irina-jibuti-gamopena",
+        "sources": [
+          {
+            "name": "TBC Concept",
+            "url": "https://tbcconcept.ge/ge/events/irina-jibuti-gamopena",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "category": "art",
+        "price": null,
+        "currency": "GEL",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "Открытие выставки «From Earth to Fire, From Earth to Earth». Выставка продолжится до 14 ноября.",
+        "priceNote": "Стоимость или свободный вход в официальном описании не указаны.",
+        "placeId": "curated-place:8f035e1159e1",
+        "startAt": "2026-10-09T18:00:00+04:00",
+        "min": false,
+        "timezone": "Asia/Tbilisi"
+      },
+      "evidenceUrls": [
+        "https://tbcconcept.ge/ge/events/irina-jibuti-gamopena",
+        "https://t.me/ProGeorgian/34588"
+      ]
+    },
+    {
+      "example": "tbilisi-silk-museum",
+      "city": "tbilisi",
+      "action": "add",
+      "event": {
+        "id": "verified-silk-museum-river-2026",
+        "kind": "event",
+        "city": "Tbilisi",
+        "title": "Museum and the River",
+        "date": "2026-05-23",
+        "time": "11:00",
+        "end": "18:00",
+        "venue": "State Silk Museum",
+        "address": "6 Giorgi Tsabadze Street",
+        "lat": 41.721885,
+        "lng": 44.7882094,
+        "coordinateSource": "https://www.openstreetmap.org/way/135869289",
+        "source": "State Silk Museum",
+        "sourceUrl": "https://silkmuseum.ge/en/exhibition/67/muzeumi-da-mdinare",
+        "sources": [
+          {
+            "name": "State Silk Museum",
+            "url": "https://silkmuseum.ge/en/exhibition/67/muzeumi-da-mdinare",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": 12,
+            "min": false
+          },
+          {
+            "name": "State Silk Museum — посещение",
+            "url": "https://silkmuseum.ge/en/visit",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": 12,
+            "min": false
+          }
+        ],
+        "category": "art",
+        "price": 12,
+        "currency": "GEL",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "ongoing": true,
+        "endDate": "2026-11-30",
+        "closedWeekdays": [
+          0,
+          1
+        ],
+        "placeId": "osm:way:135869289",
+        "description": "Выставка в Государственном музее шелка. Открыто со вторника по субботу; воскресенье и понедельник — выходные.",
+        "priceNote": "Стандартный билет в музей — 12 GEL. Есть льготы; в первую среду месяца вход бесплатный. Доплата за выставку отдельно не указана.",
+        "timeNote": "Вт–сб 11:00–18:00; вс и пн закрыто.",
+        "startAt": "2026-05-23T11:00:00+04:00",
+        "min": false,
+        "timezone": "Asia/Tbilisi",
+        "priceLabel": "12 GEL — стандартный билет в музей"
+      },
+      "evidenceUrls": [
+        "https://silkmuseum.ge/en/exhibition/67/muzeumi-da-mdinare",
+        "https://www.openstreetmap.org/way/135869289"
+      ]
+    },
+    {
+      "example": "moscow-mosvintage",
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "id": "verified-msk-mosvintage-2026-10-09",
+        "kind": "event",
+        "city": "Moscow",
+        "title": "Мосвинтаж Селект в Музее Москвы",
+        "date": "2026-10-09",
+        "time": "12:00",
+        "end": "21:00",
+        "venue": "Музей Москвы, корпус 1, этаж 2, Белый зал",
+        "address": "Зубовский бульвар, 2, корпус 1",
+        "lat": 55.736380000419,
+        "lng": 37.593167192427,
+        "coordinateSource": "https://mosvintage.ru/market",
+        "source": "Мосвинтаж",
+        "sourceUrl": "https://mosvintage.ru/market",
+        "sources": [
+          {
+            "name": "Мосвинтаж",
+            "url": "https://mosvintage.ru/market",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": 0,
+            "min": false
+          }
+        ],
+        "category": "market",
+        "price": 0,
+        "currency": "RUB",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "Винтажный маркет. Вход со двора, корпус 1, второй этаж, Белый зал.",
+        "priceNote": "Вход свободный; покупки оплачиваются отдельно.",
+        "startAt": "2026-10-09T12:00:00+03:00",
+        "min": false,
+        "timezone": "Europe/Moscow"
+      },
+      "evidenceUrls": [
+        "https://mosvintage.ru/market",
+        "https://mosvintage.ru/market"
+      ]
+    },
+    {
+      "example": "moscow-mosvintage",
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "id": "verified-msk-mosvintage-2026-10-10",
+        "kind": "event",
+        "city": "Moscow",
+        "title": "Мосвинтаж Селект в Музее Москвы",
+        "date": "2026-10-10",
+        "time": "12:00",
+        "end": "21:00",
+        "venue": "Музей Москвы, корпус 1, этаж 2, Белый зал",
+        "address": "Зубовский бульвар, 2, корпус 1",
+        "lat": 55.736380000419,
+        "lng": 37.593167192427,
+        "coordinateSource": "https://mosvintage.ru/market",
+        "source": "Мосвинтаж",
+        "sourceUrl": "https://mosvintage.ru/market",
+        "sources": [
+          {
+            "name": "Мосвинтаж",
+            "url": "https://mosvintage.ru/market",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": 0,
+            "min": false
+          }
+        ],
+        "category": "market",
+        "price": 0,
+        "currency": "RUB",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "Винтажный маркет. Вход со двора, корпус 1, второй этаж, Белый зал.",
+        "priceNote": "Вход свободный; покупки оплачиваются отдельно.",
+        "startAt": "2026-10-10T12:00:00+03:00",
+        "min": false,
+        "timezone": "Europe/Moscow"
+      },
+      "evidenceUrls": [
+        "https://mosvintage.ru/market",
+        "https://mosvintage.ru/market"
+      ]
+    },
+    {
+      "example": "moscow-mosvintage",
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "id": "verified-msk-mosvintage-2026-10-11",
+        "kind": "event",
+        "city": "Moscow",
+        "title": "Мосвинтаж Селект в Музее Москвы",
+        "date": "2026-10-11",
+        "time": "12:00",
+        "end": "21:00",
+        "venue": "Музей Москвы, корпус 1, этаж 2, Белый зал",
+        "address": "Зубовский бульвар, 2, корпус 1",
+        "lat": 55.736380000419,
+        "lng": 37.593167192427,
+        "coordinateSource": "https://mosvintage.ru/market",
+        "source": "Мосвинтаж",
+        "sourceUrl": "https://mosvintage.ru/market",
+        "sources": [
+          {
+            "name": "Мосвинтаж",
+            "url": "https://mosvintage.ru/market",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": 0,
+            "min": false
+          }
+        ],
+        "category": "market",
+        "price": 0,
+        "currency": "RUB",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "Винтажный маркет. Вход со двора, корпус 1, второй этаж, Белый зал.",
+        "priceNote": "Вход свободный; покупки оплачиваются отдельно.",
+        "startAt": "2026-10-11T12:00:00+03:00",
+        "min": false,
+        "timezone": "Europe/Moscow"
+      },
+      "evidenceUrls": [
+        "https://mosvintage.ru/market",
+        "https://mosvintage.ru/market"
+      ]
+    },
+    {
+      "example": "moscow-shrimps",
+      "city": "moscow",
+      "action": "update",
+      "event": {
+        "id": "msk-a8c30bbdb1dbb758",
+        "kind": "event",
+        "city": "Moscow",
+        "title": "The Shrimps Танцевальная вечеринка на Арбате",
+        "date": "2026-10-10",
+        "time": "20:30",
+        "end": null,
+        "venue": "16 Тонн — Арбат",
+        "address": "ул. Арбат, 28, стр. 1",
+        "lat": 55.749523,
+        "lng": 37.590967,
+        "coordinateSource": "https://yandex.com/maps/org/16_tonn/186517304540/",
+        "source": "16 Тонн",
+        "sourceUrl": "https://www.16tons.ru/concert/2026-the-shrimps-10oct/",
+        "sources": [
+          {
+            "name": "16 Тонн",
+            "url": "https://www.16tons.ru/concert/2026-the-shrimps-10oct/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": 0,
+            "min": false
+          }
+        ],
+        "category": "music",
+        "price": 0,
+        "currency": "RUB",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "Танцевальная вечеринка с кавер-группой The Shrimps; DJ с 22:30.",
+        "priceNote": "В текущей официальной афише вход свободный. Бронирование стола доступно отдельно.",
+        "timeNote": "Начало 20:30; DJ с 22:30. Время окончания не опубликовано.",
+        "startAt": "2026-10-10T20:30:00+03:00",
+        "min": false,
+        "timezone": "Europe/Moscow"
+      },
+      "evidenceUrls": [
+        "https://www.16tons.ru/concert/2026-the-shrimps-10oct/",
+        "https://yandex.com/maps/org/16_tonn/186517304540/"
+      ],
+      "expectedDate": "2026-10-10",
+      "refreshOfferPrices": true
+    },
+    {
+      "example": "moscow-tumaniyo",
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "id": "verified-msk-tumaniyo-20261011",
+        "kind": "event",
+        "city": "Moscow",
+        "title": "TumaniYO",
+        "date": "2026-10-11",
+        "time": "20:00",
+        "end": null,
+        "venue": "TAU",
+        "address": "Рязанский проспект, 8А, стр. 10",
+        "lat": 55.723554,
+        "lng": 37.752917,
+        "coordinateSource": "https://yandex.com/maps/org/tau/206418889846/",
+        "source": "TAU",
+        "sourceUrl": "https://tau.place/events/tumaniyo-202610112000",
+        "sources": [
+          {
+            "name": "TAU",
+            "url": "https://tau.place/events/tumaniyo-202610112000",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "category": "music",
+        "price": null,
+        "currency": "RUB",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "Сольный концерт TumaniYO. 16+. Двери с 18:30. Въезд на территорию «МЕТМАШ» временно ограничен из-за ремонта.",
+        "priceNote": "Билет онлайн; актуальная цена не проверена.",
+        "timeNote": "Концерт 20:00; двери 18:30. Время окончания не опубликовано.",
+        "startAt": "2026-10-11T20:00:00+03:00",
+        "min": false,
+        "timezone": "Europe/Moscow"
+      },
+      "evidenceUrls": [
+        "https://tau.place/events/tumaniyo-202610112000",
+        "https://yandex.com/maps/org/tau/206418889846/"
+      ]
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "id": "verified-msk-zotov-curator-2026-10-16",
+        "kind": "event",
+        "city": "Moscow",
+        "title": "Кураторская экскурсия по выставке «Хлеб»",
+        "date": "2026-10-16",
+        "time": "19:30",
+        "end": "21:00",
+        "venue": "Центр «Зотов»",
+        "address": "Ходынская улица, 2, стр. 1",
+        "lat": 55.770331040485075,
+        "lng": 37.5646587871239,
+        "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+        "source": "Центр «Зотов»",
+        "sourceUrl": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/kuratorskaya-ekskursiya-po-vystavke-hleb/",
+        "sources": [
+          {
+            "name": "Центр «Зотов»",
+            "url": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/kuratorskaya-ekskursiya-po-vystavke-hleb/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "category": "art",
+        "price": null,
+        "currency": "RUB",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "16+. 1-й этаж.",
+        "priceNote": "Билет; актуальная цена не проверена.",
+        "placeId": "msk-place-zotov",
+        "timeNote": "Окончание рассчитано по опубликованной длительности 90 минут.",
+        "startAt": "2026-10-16T19:30:00+03:00",
+        "durationMinutes": 90,
+        "min": false,
+        "timezone": "Europe/Moscow",
+        "parentProgram": "Хлебный уикенд"
+      },
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/kuratorskaya-ekskursiya-po-vystavke-hleb/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ]
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "id": "verified-msk-zotov-baking-2026-10-17",
+        "kind": "event",
+        "city": "Moscow",
+        "title": "Выпечка. Инструкция по применению",
+        "date": "2026-10-17",
+        "time": "14:00",
+        "end": "15:30",
+        "venue": "Центр «Зотов»",
+        "address": "Ходынская улица, 2, стр. 1",
+        "lat": 55.770331040485075,
+        "lng": 37.5646587871239,
+        "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+        "source": "Центр «Зотов»",
+        "sourceUrl": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/vypechka-instrukcziya-po-primeneniyu/",
+        "sources": [
+          {
+            "name": "Центр «Зотов»",
+            "url": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/vypechka-instrukcziya-po-primeneniyu/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "category": "talk",
+        "price": null,
+        "currency": "RUB",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "12+. Лекторий, 4-й этаж.",
+        "priceNote": "Нужна регистрация; стоимость в описании не указана.",
+        "placeId": "msk-place-zotov",
+        "timeNote": "Окончание рассчитано по опубликованной длительности 90 минут.",
+        "startAt": "2026-10-17T14:00:00+03:00",
+        "durationMinutes": 90,
+        "min": false,
+        "timezone": "Europe/Moscow",
+        "parentProgram": "Хлебный уикенд",
+        "registrationRequired": true
+      },
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/vypechka-instrukcziya-po-primeneniyu/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ]
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "id": "verified-msk-zotov-pizza-2026-10-17",
+        "kind": "event",
+        "city": "Moscow",
+        "title": "Детский мастер-класс «Пицца Маргарита» / Экскурсия по выставке «Хлеб»",
+        "date": "2026-10-17",
+        "time": "13:00",
+        "end": null,
+        "venue": "Центр «Зотов»",
+        "address": "Ходынская улица, 2, стр. 1",
+        "lat": 55.770331040485075,
+        "lng": 37.5646587871239,
+        "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+        "source": "Центр «Зотов»",
+        "sourceUrl": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/detskij-master-klass-piczcza-margarita/",
+        "sources": [
+          {
+            "name": "Центр «Зотов»",
+            "url": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/detskij-master-klass-piczcza-margarita/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "category": "workshop",
+        "price": null,
+        "currency": "RUB",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "7–12 лет. Сбор: первый этаж Центра «Зотов», у тактильного макета. Программа также проходит в ресторане Farina; точка на карте — подтверждённое место сбора в Центре «Зотов».",
+        "priceNote": "Билет; сопровождающим нужен отдельный билет на выставку.",
+        "placeId": "msk-place-zotov",
+        "timeNote": "Начало подтверждено. В карточке указаны 80 минут, а части программы дают 70; время окончания не указано из-за расхождения.",
+        "startAt": "2026-10-17T13:00:00+03:00",
+        "locationPrecision": "verified_meeting_venue",
+        "min": false,
+        "timezone": "Europe/Moscow",
+        "parentProgram": "Хлебный уикенд"
+      },
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/detskij-master-klass-piczcza-margarita/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ]
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "id": "verified-msk-zotov-brunch-2026-10-18",
+        "kind": "event",
+        "city": "Moscow",
+        "title": "Арт-бранч «История хлеба. От первобытности до наших дней»",
+        "date": "2026-10-18",
+        "time": "14:00",
+        "end": "15:30",
+        "venue": "Центр «Зотов»",
+        "address": "Ходынская улица, 2, стр. 1",
+        "lat": 55.770331040485075,
+        "lng": 37.5646587871239,
+        "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+        "source": "Центр «Зотов»",
+        "sourceUrl": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/art-branch-istoriya-hleba-ot-pervobytnosti-do-nashih-dnej-2/",
+        "sources": [
+          {
+            "name": "Центр «Зотов»",
+            "url": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/art-branch-istoriya-hleba-ot-pervobytnosti-do-nashih-dnej-2/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "category": "talk",
+        "price": null,
+        "currency": "RUB",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "16+. Сбор: первый этаж Центра «Зотов», у тактильного макета. Программа также проходит в ресторане Farina; точка на карте — подтверждённое место сбора в Центре «Зотов».",
+        "priceNote": "Билет включает бранч и выставку; цена не проверена.",
+        "placeId": "msk-place-zotov",
+        "timeNote": "Окончание рассчитано по опубликованной длительности 90 минут.",
+        "startAt": "2026-10-18T14:00:00+03:00",
+        "locationPrecision": "verified_meeting_venue",
+        "durationMinutes": 90,
+        "min": false,
+        "timezone": "Europe/Moscow",
+        "parentProgram": "Хлебный уикенд"
+      },
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/art-branch-istoriya-hleba-ot-pervobytnosti-do-nashih-dnej-2/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ]
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "id": "verified-msk-zotov-heritage-2026-10-18",
+        "kind": "event",
+        "city": "Moscow",
+        "title": "Паблик-ток «Вкус как наследие»",
+        "date": "2026-10-18",
+        "time": "15:00",
+        "end": "16:30",
+        "venue": "Центр «Зотов»",
+        "address": "Ходынская улица, 2, стр. 1",
+        "lat": 55.770331040485075,
+        "lng": 37.5646587871239,
+        "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+        "source": "Центр «Зотов»",
+        "sourceUrl": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/pablik-tok-vkus-kak-nasledie/",
+        "sources": [
+          {
+            "name": "Центр «Зотов»",
+            "url": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/pablik-tok-vkus-kak-nasledie/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "category": "talk",
+        "price": null,
+        "currency": "RUB",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "12+. Лекторий, 4-й этаж.",
+        "priceNote": "Нужна регистрация; стоимость в описании не указана.",
+        "placeId": "msk-place-zotov",
+        "timeNote": "Окончание рассчитано по опубликованной длительности 90 минут.",
+        "startAt": "2026-10-18T15:00:00+03:00",
+        "durationMinutes": 90,
+        "min": false,
+        "timezone": "Europe/Moscow",
+        "parentProgram": "Хлебный уикенд",
+        "registrationRequired": true
+      },
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/pablik-tok-vkus-kak-nasledie/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ]
+    },
+    {
+      "example": "moscow-bread-weekend",
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "id": "verified-msk-zotov-ceramic-2026-10-18",
+        "kind": "event",
+        "city": "Moscow",
+        "title": "Керамические подвесы",
+        "date": "2026-10-18",
+        "time": "16:00",
+        "end": "17:30",
+        "venue": "Центр «Зотов»",
+        "address": "Ходынская улица, 2, стр. 1",
+        "lat": 55.770331040485075,
+        "lng": 37.5646587871239,
+        "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+        "source": "Центр «Зотов»",
+        "sourceUrl": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/keramicheskie-podvesy/",
+        "sources": [
+          {
+            "name": "Центр «Зотов»",
+            "url": "https://centrezotov.ru/events/hleb/hlebnyj-uikend/keramicheskie-podvesy/",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ],
+        "category": "workshop",
+        "price": null,
+        "currency": "RUB",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "verificationStatus": "verified",
+        "stale": false,
+        "description": "16+. Форум, 1-й этаж.",
+        "priceNote": "Нужна регистрация; стоимость в описании не указана.",
+        "placeId": "msk-place-zotov",
+        "timeNote": "Окончание рассчитано по опубликованной длительности 90 минут.",
+        "startAt": "2026-10-18T16:00:00+03:00",
+        "durationMinutes": 90,
+        "min": false,
+        "timezone": "Europe/Moscow",
+        "parentProgram": "Хлебный уикенд",
+        "registrationRequired": true
+      },
+      "evidenceUrls": [
+        "https://centrezotov.ru/events/hleb/hlebnyj-uikend/keramicheskie-podvesy/",
+        "https://www.afisha.ru/msk/other/centr-zotov-120289/"
+      ]
+    },
+    {
+      "example": "tbilisi-tbc-opening",
+      "city": "tbilisi",
+      "action": "update",
+      "expectedDate": "2026-10-09",
+      "event": {
+        "time": null,
+        "end": "20:00",
+        "closedWeekdays": [
+          0
+        ],
+        "endDate": "2026-11-14",
+        "sourceUrl": "https://tbcconcept.ge/ge/events/irina-jibuti-gamopena",
+        "source": "TBC Concept",
+        "checkedAt": "2026-10-09T02:17:00Z",
+        "timeNote": "9 октября открытие 18:00–20:00. С 10 октября: понедельник–суббота, 10:00–20:00; воскресенье — выходной.",
+        "price": null,
+        "priceNote": "В официальном описании цена не указана; прежнее значение 0 не переподтверждено.",
+        "id": "n23:45d4d0f389334454",
+        "category": "art",
+        "sources": [
+          {
+            "name": "TBC Concept",
+            "url": "https://tbcconcept.ge/ge/events/irina-jibuti-gamopena",
+            "checkedAt": "2026-10-09T02:17:00Z",
+            "price": null,
+            "min": false
+          }
+        ]
+      },
+      "reason": "Preserve the existing ongoing exhibition; add verified closed days and official source. Exact opening is separate.",
+      "evidenceUrls": [
+        "https://tbcconcept.ge/ge/events/irina-jibuti-gamopena"
+      ]
+    }
+  ]
+}

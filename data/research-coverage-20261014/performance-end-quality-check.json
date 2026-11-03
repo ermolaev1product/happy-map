@@ -1,0 +1,387 @@
+{
+  "checkedAt": "2026-10-13T23:55:10Z",
+  "scope": "Saved research evidence only; no new network requests",
+  "conclusion": "All 18 factual performance end times must be cleared. These are ticket-system range fields whose runtime semantics are not verified; do not call them actual performance endings or assert a FullCalendar default implementation.",
+  "evidence": [
+    {
+      "file": "source-atelje.html",
+      "lines": "1072–1085",
+      "finding": "Renderer displays v.vreme alone for ordinary single-day performances; datum_vreme_do is appended only for a multi-day record or firma_tip == 1 (museum)."
+    },
+    {
+      "file": "source-zvezdara.html",
+      "lines": "1072–1085",
+      "finding": "Identical rendering condition."
+    },
+    {
+      "file": "source-atelje212-public-repertoire.json",
+      "finding": "31 saved records: 28 two-hour blocks, two 90-minute blocks and one 150-minute block. The same Akademija smeha production has 120-minute home blocks but a 90-minute touring block; range field is insufficient evidence of actual runtime."
+    },
+    {
+      "file": "source-zvezdarateatar-public-repertoire.json",
+      "finding": "All 19 saved records, across different productions, have two-hour blocks. No explicit performance-duration statement was retrieved."
+    }
+  ],
+  "events": [
+    {
+      "id": "bg-official-atelje212-4915-20261014-2000",
+      "title": "Otac",
+      "date": "2026-10-14",
+      "time": "20:00",
+      "venue": "Atelje 212",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-14T22:00:00+02:00",
+        "end": "22:00",
+        "endDate": "2026-10-14",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.atelje212.rs/repertoar.php?prostorterminid=4915"
+    },
+    {
+      "id": "bg-official-atelje212-4941-20261014-2030",
+      "title": "Akademija Smeha",
+      "date": "2026-10-14",
+      "time": "20:30",
+      "venue": "Atelje 212",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-14T22:30:00+02:00",
+        "end": "22:30",
+        "endDate": "2026-10-14",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.atelje212.rs/repertoar.php?prostorterminid=4941"
+    },
+    {
+      "id": "bg-official-atelje212-4916-20261015-2000",
+      "title": "Korporativna Bajka",
+      "date": "2026-10-15",
+      "time": "20:00",
+      "venue": "Atelje 212",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-15T22:00:00+02:00",
+        "end": "22:00",
+        "endDate": "2026-10-15",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.atelje212.rs/repertoar.php?prostorterminid=4916"
+    },
+    {
+      "id": "bg-official-atelje212-4917-20261016-2000",
+      "title": "Gladni Duhovi",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "venue": "Atelje 212",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-16T22:00:00+02:00",
+        "end": "22:00",
+        "endDate": "2026-10-16",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.atelje212.rs/repertoar.php?prostorterminid=4917"
+    },
+    {
+      "id": "bg-official-atelje212-4943-20261016-2030",
+      "title": "Ceo Život Za Godinu Dana",
+      "date": "2026-10-16",
+      "time": "20:30",
+      "venue": "Atelje 212",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-16T22:30:00+02:00",
+        "end": "22:30",
+        "endDate": "2026-10-16",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.atelje212.rs/repertoar.php?prostorterminid=4943"
+    },
+    {
+      "id": "bg-official-atelje212-4918-20261017-2000",
+      "title": "Oda Radosti",
+      "date": "2026-10-17",
+      "time": "20:00",
+      "venue": "Atelje 212",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-17T22:00:00+02:00",
+        "end": "22:00",
+        "endDate": "2026-10-17",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.atelje212.rs/repertoar.php?prostorterminid=4918"
+    },
+    {
+      "id": "bg-official-atelje212-4919-20261018-2000",
+      "title": "Oda Radosti",
+      "date": "2026-10-18",
+      "time": "20:00",
+      "venue": "Atelje 212",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-18T22:00:00+02:00",
+        "end": "22:00",
+        "endDate": "2026-10-18",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.atelje212.rs/repertoar.php?prostorterminid=4919"
+    },
+    {
+      "id": "bg-official-atelje212-4944-20261018-2030",
+      "title": "Režim Ljubavi",
+      "date": "2026-10-18",
+      "time": "20:30",
+      "venue": "Atelje 212",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-18T22:30:00+02:00",
+        "end": "22:30",
+        "endDate": "2026-10-18",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.atelje212.rs/repertoar.php?prostorterminid=4944"
+    },
+    {
+      "id": "bg-official-atelje212-4920-20261019-2000",
+      "title": "64",
+      "date": "2026-10-19",
+      "time": "20:00",
+      "venue": "Atelje 212",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-19T22:00:00+02:00",
+        "end": "22:00",
+        "endDate": "2026-10-19",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.atelje212.rs/repertoar.php?prostorterminid=4920"
+    },
+    {
+      "id": "bg-official-atelje212-4945-20261019-2030",
+      "title": "Ovaj Će Biti Drugačiji",
+      "date": "2026-10-19",
+      "time": "20:30",
+      "venue": "Atelje 212",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-19T22:30:00+02:00",
+        "end": "22:30",
+        "endDate": "2026-10-19",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.atelje212.rs/repertoar.php?prostorterminid=4945"
+    },
+    {
+      "id": "bg-official-zvezdarateatar-2628-20261014-1930",
+      "title": "Ljubav U Savamali",
+      "date": "2026-10-14",
+      "time": "19:30",
+      "venue": "Zvezdara teatar",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-14T21:30:00+02:00",
+        "end": "21:30",
+        "endDate": "2026-10-14",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.zvezdarateatar.rs/repertoar.php?prostorterminid=2628"
+    },
+    {
+      "id": "bg-official-zvezdarateatar-2629-20261015-1930",
+      "title": "Sportsko Srce",
+      "date": "2026-10-15",
+      "time": "19:30",
+      "venue": "Zvezdara teatar",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-15T21:30:00+02:00",
+        "end": "21:30",
+        "endDate": "2026-10-15",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.zvezdarateatar.rs/repertoar.php?prostorterminid=2629"
+    },
+    {
+      "id": "bg-official-zvezdarateatar-2630-20261017-1930",
+      "title": "Udovica Živog Čoveka",
+      "date": "2026-10-17",
+      "time": "19:30",
+      "venue": "Zvezdara teatar",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-17T21:30:00+02:00",
+        "end": "21:30",
+        "endDate": "2026-10-17",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.zvezdarateatar.rs/repertoar.php?prostorterminid=2630"
+    },
+    {
+      "id": "bg-official-zvezdarateatar-2648-20261017-2000",
+      "title": "Kuća",
+      "date": "2026-10-17",
+      "time": "20:00",
+      "venue": "Zvezdara teatar",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-17T22:00:00+02:00",
+        "end": "22:00",
+        "endDate": "2026-10-17",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.zvezdarateatar.rs/repertoar.php?prostorterminid=2648"
+    },
+    {
+      "id": "bg-official-zvezdarateatar-2631-20261018-1930",
+      "title": "Osama - Kasaba U Njujorku",
+      "date": "2026-10-18",
+      "time": "19:30",
+      "venue": "Zvezdara teatar",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-18T21:30:00+02:00",
+        "end": "21:30",
+        "endDate": "2026-10-18",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.zvezdarateatar.rs/repertoar.php?prostorterminid=2631"
+    },
+    {
+      "id": "bg-official-zvezdarateatar-2632-20261019-1930",
+      "title": "Profesionalac",
+      "date": "2026-10-19",
+      "time": "19:30",
+      "venue": "Zvezdara teatar",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-19T21:30:00+02:00",
+        "end": "21:30",
+        "endDate": "2026-10-19",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.zvezdarateatar.rs/repertoar.php?prostorterminid=2632"
+    },
+    {
+      "id": "bg-official-zvezdarateatar-2633-20261020-1930",
+      "title": "Klaustrofobična Komedija",
+      "date": "2026-10-20",
+      "time": "19:30",
+      "venue": "Zvezdara teatar",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-20T21:30:00+02:00",
+        "end": "21:30",
+        "endDate": "2026-10-20",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.zvezdarateatar.rs/repertoar.php?prostorterminid=2633"
+    },
+    {
+      "id": "bg-official-zvezdarateatar-2649-20261020-2000",
+      "title": "Knjiga O Milutinu",
+      "date": "2026-10-20",
+      "time": "20:00",
+      "venue": "Zvezdara teatar",
+      "rawTicketCalendarMetadata": {
+        "localEnd": "2026-10-20T22:00:00+02:00",
+        "end": "22:00",
+        "endDate": "2026-10-20",
+        "sourceField": "datum_vreme_do",
+        "semantics": "Ticket-system range end, actual performance ending or runtime unverified"
+      },
+      "recommendedFactualFields": {
+        "end": null,
+        "endDate": null,
+        "localEnd": null
+      },
+      "sourceUrl": "https://bilet.zvezdarateatar.rs/repertoar.php?prostorterminid=2649"
+    }
+  ]
+}

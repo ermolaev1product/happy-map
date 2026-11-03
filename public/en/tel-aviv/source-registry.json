@@ -1,0 +1,271 @@
+{
+  "city": "Tel Aviv",
+  "checkedAt": "2026-10-15T11:20:00Z",
+  "sources": [
+    {
+      "id": "candidate:f81cc5351dbafae1",
+      "name": "Kassa BRAVO: producer-linked page",
+      "url": "https://shimon.kassa.co.il/announce/86933",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_content_retrieved",
+      "accessStatus": "public_content_retrieved",
+      "count": 0,
+      "note": "Readable Tel Aviv-Yafo, Haifa and Ashkelon performance rows, explicit language and price ranges. National supplier: filter by exact venue/city, not tour title.",
+      "type": "major_russian_ticket_aggregator"
+    },
+    {
+      "id": "candidate:c7e870bf2ba461a7",
+      "name": "Anshlag Tel Aviv calendar",
+      "url": "https://anshlag.co.il/city/tel-aviv/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_content_retrieved",
+      "count": 22,
+      "note": "Strong Russian-interface theatre/music inventory. Main index mixes 2026 listings with stale entries exposing 1970-01-01; reject epoch dates and check each performance.",
+      "type": "russian_ticket_calendar"
+    },
+    {
+      "id": "candidate:dc8d1f4f580ba326",
+      "name": "Eventim Tel Aviv",
+      "url": "https://www.eventim.co.il/en/city/%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91-249/?page=1&pnum=2",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_content_retrieved",
+      "accessStatus": "public_content_retrieved",
+      "count": 0,
+      "note": "Many actual 2026 rows including Disco Train, Walkways, Halloween and Reichel. Event-series range is not one continuous event. Some cards only exposed image links in text retrieval.",
+      "type": "major_ticket_aggregator"
+    },
+    {
+      "id": "candidate:10c8b59d17882ddb",
+      "name": "Secret Tel Aviv",
+      "url": "https://www.secrettelaviv.com/tickets",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_content_retrieved",
+      "accessStatus": "public_content_retrieved",
+      "count": 0,
+      "note": "Broad English/Hebrew local community, nightlife and free cultural supply. Individual pages disclose external and possibly AI-assisted text; follow Original Event and do not trust boilerplate end times.",
+      "type": "local_community_aggregator"
+    },
+    {
+      "id": "candidate:da6347a231dc92a8",
+      "name": "Tel Aviv-Yafo municipal calendar",
+      "url": "https://www.tel-aviv.gov.il/Visitors/Events/Pages/Events.aspx",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_shell_retrieved",
+      "accessStatus": "public_shell_retrieved",
+      "count": 0,
+      "note": "Page and date/category filters render but the body includes unresolved template placeholders. No specific event rows verified via this retrieval.",
+      "type": "official_city_calendar"
+    },
+    {
+      "id": "candidate:6a8ac078d03588f3",
+      "name": "Cremulator producer",
+      "url": "https://cremulator.net/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_content_retrieved",
+      "accessStatus": "public_content_retrieved",
+      "count": 0,
+      "note": "Producer explicitly lists Tel Aviv 17 Oct 2026 20:00 and other cities separately; Russian-language declaration is explicit.",
+      "type": "first_party_touring_theatre"
+    },
+    {
+      "id": "candidate:c4553a45d1cf112d",
+      "name": "MAKORE",
+      "url": "https://makore.life/ru",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "minimal_shell_retrieved",
+      "accessStatus": "minimal_shell_retrieved",
+      "count": 0,
+      "note": "Search index advertises dated listings; direct open returned only 23 lines with no usable event body established. Do not elevate indexed snippets to verified current inventory.",
+      "type": "russian_local_aggregator"
+    },
+    {
+      "id": "candidate:69fb4689f4f3cc54",
+      "name": "Afisha Israel",
+      "url": "https://t.me/s/israelaf",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "retrieval_error",
+      "accessStatus": "retrieval_error",
+      "count": 0,
+      "note": "Channel discovered through indexed mirrors, but direct preview failed. No current event posts readable in the source itself during this pass.",
+      "type": "telegram_community"
+    },
+    {
+      "id": "candidate:a29130dfb565dcba",
+      "name": "Post Tarbut historical public preview",
+      "url": "https://t.me/s/posttarbut/1063",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_preview_retrieved",
+      "accessStatus": "public_preview_retrieved",
+      "count": 0,
+      "note": "Base preview failed; this exact indexed preview opened. Art/community descriptions contain October dates without a reliable 2026 year. Useful organizer leads only; do not recycle them as current events.",
+      "type": "telegram_community"
+    },
+    {
+      "id": "candidate:e9accd0da70b5f51",
+      "name": "Roof TLV",
+      "url": "https://t.me/roof_tlv?before=1379",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "search_index_only_open_error",
+      "accessStatus": "search_index_only_open_error",
+      "count": 0,
+      "note": "Search verifies community title, but direct open failed. No readable event evidence.",
+      "type": "telegram_community"
+    },
+    {
+      "id": "candidate:d286408bc27b2f27",
+      "name": "Tel Aviv local community discussion",
+      "url": "https://www.reddit.com/r/telaviv/comments/1wgz39a/visiting_in_midoctober/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_post_retrieved",
+      "accessStatus": "public_post_retrieved",
+      "count": 0,
+      "note": "Readable exact thread provides venue leads and points to venues Instagram feeds. No exact current event is proved by those recommendations.",
+      "type": "reddit"
+    },
+    {
+      "id": "candidate:4f77391b0eecae44",
+      "name": "Zappa: Walkways",
+      "url": "https://www.zappa-club.co.il/en/artist/walkways/?affiliate=ZP4",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "search_index_only_open_error",
+      "accessStatus": "search_index_only_open_error",
+      "count": 0,
+      "note": "Search index shows 5 Nov 2026 21:30 Tel Aviv; direct fetch failed. Retained for verification, not one of the admitted event examples.",
+      "type": "first_party_venue_calendar"
+    },
+    {
+      "id": "candidate:9aae1c72cbb5d89b",
+      "name": "Tel Aviv Museum of Art",
+      "url": "https://www.tamuseum.org.il/en/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 20,
+      "note": "Individual dated event pages, exhibitions, visit hours and prices publicly read. Museum calendar index is a shell; linked individual details are proof.",
+      "type": "first_party_museum"
+    },
+    {
+      "id": "candidate:08161d65160385a3",
+      "name": "Ozen",
+      "url": "https://ozentelaviv.com/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 4,
+      "note": "Specific readable event pages reconciled with the local community calendar; exact source URLs accompany each record.",
+      "type": "first_party_or_primary_ticket_calendar"
+    },
+    {
+      "id": "candidate:21d014818cb8d47b",
+      "name": "Soul Events",
+      "url": "https://soulevents.co.il/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 5,
+      "note": "Specific readable event pages reconciled with the local community calendar; exact source URLs accompany each record.",
+      "type": "first_party_or_primary_ticket_calendar"
+    },
+    {
+      "id": "candidate:96bd00df56553079",
+      "name": "Charles Bronfman Auditorium",
+      "url": "https://www.hatarbut.co.il/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 1,
+      "note": "Specific readable event pages reconciled with the local community calendar; exact source URLs accompany each record.",
+      "type": "first_party_or_primary_ticket_calendar"
+    },
+    {
+      "id": "candidate:4f218285fe152b93",
+      "name": "Matmon",
+      "url": "https://matmon.space/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 15,
+      "note": "Specific readable event pages reconciled with the local community calendar; exact source URLs accompany each record.",
+      "type": "first_party_or_primary_ticket_calendar"
+    },
+    {
+      "id": "candidate:2ed7fcc2d1d65d10",
+      "name": "Beit Radical",
+      "url": "https://radical.org.il/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 6,
+      "note": "Specific readable event pages reconciled with the local community calendar; exact source URLs accompany each record.",
+      "type": "first_party_or_primary_ticket_calendar"
+    },
+    {
+      "id": "candidate:b5307fc823b5f2a9",
+      "name": "Hangar11",
+      "url": "https://hangar11.co.il/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 3,
+      "note": "Specific readable event pages reconciled with the local community calendar; exact source URLs accompany each record.",
+      "type": "first_party_or_primary_ticket_calendar"
+    },
+    {
+      "id": "candidate:35a06fc09b423c01",
+      "name": "Resident Advisor",
+      "url": "https://ra.co/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 1,
+      "note": "Specific readable event pages reconciled with the local community calendar; exact source URLs accompany each record.",
+      "type": "first_party_or_primary_ticket_calendar"
+    },
+    {
+      "id": "candidate:a14164b4cd581e3c",
+      "name": "Comy",
+      "url": "https://comy.co.il/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 2,
+      "note": "Specific readable event pages reconciled with the local community calendar; exact source URLs accompany each record.",
+      "type": "first_party_or_primary_ticket_calendar"
+    },
+    {
+      "id": "candidate:c78239fa9699902c",
+      "name": "Lauter",
+      "url": "https://lauter.co.il/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 6,
+      "note": "Specific readable event pages reconciled with the local community calendar; exact source URLs accompany each record.",
+      "type": "first_party_or_primary_ticket_calendar"
+    },
+    {
+      "id": "candidate:c7f1f7dbb05b7e76",
+      "name": "GoShow",
+      "url": "https://www.goshow.co.il/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 2,
+      "note": "Specific readable event pages reconciled with the local community calendar; exact source URLs accompany each record.",
+      "type": "first_party_or_primary_ticket_calendar"
+    },
+    {
+      "id": "candidate:8443688ab72aa409",
+      "name": "Chillz",
+      "url": "https://chillz.com/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 3,
+      "note": "Specific readable event pages reconciled with the local community calendar; exact source URLs accompany each record.",
+      "type": "first_party_or_primary_ticket_calendar"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

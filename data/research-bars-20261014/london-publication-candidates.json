@@ -1,0 +1,665 @@
+[
+  {
+    "researchKey": "satans-whiskers",
+    "kind": "place",
+    "name": "Satan’s Whiskers",
+    "city": "London",
+    "area": "Bethnal Green",
+    "address": "343 Cambridge Heath Road, London E2 9RA",
+    "website": "https://www.satanswhiskers.com/",
+    "openingHours": {
+      "raw": "Sunday–Thursday from 17:00 until late; Friday and Saturday a little later",
+      "exactClosingTimes": null
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:way:378578236",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_html",
+    "coordinates": {
+      "lat": 51.5294825,
+      "lng": -0.0561597,
+      "sourceURL": "https://www.openstreetmap.org/way/378578236",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "checkedAt": "2026-10-14T03:55:52.817264+00:00",
+    "evidenceURLs": [
+      "https://www.satanswhiskers.com/",
+      "https://www.openstreetmap.org/way/378578236"
+    ],
+    "notes": [
+      "Do not invent exact closing times from the word late. Official site accepts walk-ins and telephone reservations."
+    ],
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "candidateRecord": {
+      "city": "london",
+      "name": "Satan's Whiskers",
+      "category": "bar",
+      "address": "343 Cambridge Heath Road London",
+      "lat": 51.5294825,
+      "lng": -0.0561597,
+      "website": "https://www.satanswhiskers.com/",
+      "instagram": "satans_whiskers",
+      "sourceUrl": "https://www.openstreetmap.org/way/378578236",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": null,
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "homeboy-islington",
+    "kind": "place",
+    "name": "Homeboy Islington",
+    "city": "London",
+    "area": "Islington",
+    "address": "108 Essex Road, London N1 8LX",
+    "website": "https://homeboybar.com/islington-homeboy-bar/",
+    "openingHours": {
+      "Monday-Thursday": "15:00–23:00",
+      "Friday": "15:00–01:00+1d",
+      "Saturday": "12:30–01:00+1d",
+      "Sunday": null
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:node:503882231",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_html",
+    "coordinates": {
+      "lat": 51.5389804,
+      "lng": -0.0982697,
+      "sourceURL": "https://www.openstreetmap.org/node/503882231",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "checkedAt": "2026-10-14T03:55:52.817264+00:00",
+    "evidenceURLs": [
+      "https://homeboybar.com/islington-homeboy-bar/",
+      "https://www.openstreetmap.org/node/503882231"
+    ],
+    "notes": [
+      "Official page contradicts itself for Sunday: its Sun–Thu group starts at 15:00, but a separate Sunday row says 12:30. Preserve the conflict and do not label Sunday hours verified. Weekly music is a recurring venue feature, not a dated event."
+    ],
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "candidateRecord": {
+      "city": "london",
+      "name": "Homeboy Bar",
+      "category": "bar",
+      "address": "108 Essex Road London",
+      "lat": 51.5389804,
+      "lng": -0.0982697,
+      "website": null,
+      "instagram": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/503882231",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": null,
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "trailer-happiness",
+    "kind": "place",
+    "name": "Trailer Happiness",
+    "city": "London",
+    "area": "Notting Hill",
+    "address": "177 Portobello Road, London W11 2DY",
+    "website": "https://trailerh.com/",
+    "openingHours": {
+      "Monday-Wednesday": "17:00–00:00+1d",
+      "Thursday": "17:00–00:30+1d",
+      "Friday": "17:00–01:00+1d",
+      "Saturday": "16:00–01:00+1d",
+      "Sunday": "16:00–00:00+1d"
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:node:7176852708",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_html",
+    "coordinates": {
+      "lat": 51.5149992,
+      "lng": -0.2046274,
+      "sourceURL": "https://www.openstreetmap.org/node/7176852708",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "checkedAt": "2026-10-14T03:55:52.817264+00:00",
+    "evidenceURLs": [
+      "https://www.trailerhappiness.com/",
+      "https://trailerh.com/",
+      "https://www.openstreetmap.org/node/7176852708"
+    ],
+    "notes": [
+      "Old official domain www.trailerhappiness.com redirects to trailerh.com. Retain redirect provenance."
+    ],
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "candidateRecord": {
+      "city": "london",
+      "name": "Trailer Happiness",
+      "category": "bar",
+      "address": "177 Portobello Road W11 2DY London",
+      "lat": 51.5149992,
+      "lng": -0.2046274,
+      "website": "https://trailerh.com/",
+      "instagram": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/7176852708",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": null,
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "three-sheets-dalston",
+    "kind": "place",
+    "name": "Three Sheets Dalston",
+    "city": "London",
+    "area": "Dalston",
+    "address": "510B Kingsland Road, London E8 4AE",
+    "website": "https://www.threesheets-bar.com/contact",
+    "openingHours": {
+      "Tuesday-Sunday": "17:00–01:00+1d",
+      "Monday": "not listed"
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:node:13108594401",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_html",
+    "coordinates": {
+      "lat": 51.5439307,
+      "lng": -0.0758401,
+      "sourceURL": "https://www.openstreetmap.org/node/13108594401",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "checkedAt": "2026-10-14T03:55:52.817264+00:00",
+    "evidenceURLs": [
+      "https://www.threesheets-bar.com/contact",
+      "https://www.openstreetmap.org/node/13108594401"
+    ],
+    "notes": [
+      "Official contact page is the preferred hours source. Third-party/booking listings show a different Saturday start, so retain evidence and check if time-sensitive. Separate branch from Soho."
+    ],
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "candidateRecord": {
+      "city": "london",
+      "name": "Three Sheets",
+      "category": "bar",
+      "address": "510b Kingsland Road London",
+      "lat": 51.5439307,
+      "lng": -0.0758401,
+      "website": "https://www.threesheets-bar.com/",
+      "instagram": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/13108594401",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": "We-Su 17:00-01:00",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "sun-tavern-bethnal-green",
+    "kind": "place",
+    "name": "The Sun Tavern",
+    "city": "London",
+    "area": "Bethnal Green",
+    "address": "441 Bethnal Green Road, London E2 0AN",
+    "website": "https://www.thesuntavern.co.uk/",
+    "openingHours": {
+      "Sunday-Wednesday": "12:00–00:00+1d",
+      "Thursday-Saturday": "12:00–02:00+1d"
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:node:1420042285",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_html",
+    "coordinates": {
+      "lat": 51.5272941,
+      "lng": -0.0584212,
+      "sourceURL": "https://www.openstreetmap.org/node/1420042285",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "checkedAt": "2026-10-14T03:55:52.817264+00:00",
+    "evidenceURLs": [
+      "https://www.thesuntavern.co.uk/",
+      "https://www.openstreetmap.org/node/1420042285"
+    ],
+    "notes": [
+      "Do not merge with The Sun Tavern in Covent Garden at 66 Long Acre. Venue has an official What’s On feed worth retaining."
+    ],
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "candidateRecord": {
+      "city": "london",
+      "name": "The Sun Tavern",
+      "category": "pub",
+      "address": "441 Bethnal Green Road E2 0AN London",
+      "lat": 51.5272941,
+      "lng": -0.0584212,
+      "website": "https://www.thesuntavern.co.uk/",
+      "instagram": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1420042285",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": null,
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "nine-lives-london-bridge",
+    "kind": "place",
+    "name": "Nine Lives",
+    "city": "London",
+    "area": "London Bridge / Bermondsey",
+    "address": "8 Holyrood Street, London SE1 2EL",
+    "website": "https://www.ninelivesbar.com/",
+    "openingHours": {
+      "Monday": "closed",
+      "Tuesday": "17:00–22:00",
+      "Wednesday": "17:00–23:00",
+      "Thursday-Friday": "17:00–00:00+1d",
+      "Saturday": "15:00–00:00+1d",
+      "Sunday": "closed"
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:node:3801496832",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_html",
+    "coordinates": {
+      "lat": 51.5033757,
+      "lng": -0.0820609,
+      "sourceURL": "https://www.openstreetmap.org/node/3801496832",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "checkedAt": "2026-10-14T03:55:52.817264+00:00",
+    "evidenceURLs": [
+      "https://www.ninelivesbar.com/",
+      "https://www.openstreetmap.org/node/3801496832"
+    ],
+    "notes": [
+      "Current official hours differ from some guides. Separate fixed London Bridge venue from Nine Lives W1 seasonal Soho location. Do not turn recurring Taco Royale and weekly DJs into fabricated dated events."
+    ],
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "candidateRecord": {
+      "city": "london",
+      "name": "Nine Lives",
+      "category": "bar",
+      "address": "8 Holyrood Street SE1 2EL London",
+      "lat": 51.5033757,
+      "lng": -0.0820609,
+      "website": "https://www.ninelivesbar.com/",
+      "instagram": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/3801496832",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": "Tu-We 17:00-23:00; Th-Fr 17:00-00:00; Sa 15:00-00:00",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "dove-hammersmith",
+    "kind": "place",
+    "name": "The Dove",
+    "city": "London",
+    "area": "Hammersmith",
+    "address": "19 Upper Mall, Hammersmith, London W6 9TA",
+    "website": "https://www.dovehammersmith.co.uk/",
+    "openingHours": {
+      "Monday-Saturday": "12:00–23:00",
+      "Sunday": "12:00–22:30"
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:way:174088755",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_html",
+    "coordinates": {
+      "lat": 51.4904854,
+      "lng": -0.2348421,
+      "sourceURL": "https://www.openstreetmap.org/way/174088755",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "checkedAt": "2026-10-14T03:55:52.817264+00:00",
+    "evidenceURLs": [
+      "https://www.dovehammersmith.co.uk/",
+      "https://www.openstreetmap.org/way/174088755"
+    ],
+    "notes": [],
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "candidateRecord": {
+      "city": "london",
+      "name": "The Dove",
+      "category": "pub",
+      "address": "19 Upper Mall W6 9TA London",
+      "lat": 51.4904854,
+      "lng": -0.2348421,
+      "website": "https://www.dovehammersmith.co.uk/",
+      "instagram": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/174088755",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": null,
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "duke-hamilton",
+    "kind": "place",
+    "name": "The Duke of Hamilton",
+    "city": "London",
+    "area": "Hampstead",
+    "address": "23–25 New End, London NW3 1JD",
+    "website": "https://locipubs.com/duke/",
+    "openingHours": {
+      "Monday-Saturday": "12:00–23:00",
+      "Sunday": "12:00–22:00"
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:way:523400975",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_html",
+    "coordinates": {
+      "lat": 51.5588884,
+      "lng": -0.1775081,
+      "sourceURL": "https://www.openstreetmap.org/way/523400975",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "checkedAt": "2026-10-14T03:55:52.817264+00:00",
+    "evidenceURLs": [
+      "https://locipubs.com/duke/",
+      "https://hampsteadjazzclub.com/duke-of-hamilton/",
+      "https://www.openstreetmap.org/way/523400975"
+    ],
+    "notes": [
+      "Operator’s current pub page gives Sunday close at 22:00. The jazz-club page lists 22:30 and contains an ambiguous 12am start; do not copy jazz-page hours over pub hours. Officially linked jazz-club programme is a separate useful event source."
+    ],
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "candidateRecord": {
+      "city": "london",
+      "name": "Duke of Hamilton",
+      "category": "pub",
+      "address": "New End NW3 1JD London",
+      "lat": 51.5588884,
+      "lng": -0.1775081,
+      "website": null,
+      "instagram": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/523400975",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": null,
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "mothers-ruin",
+    "kind": "place",
+    "name": "Mother’s Ruin Gin Palace",
+    "city": "London",
+    "area": "Walthamstow",
+    "address": "Unit 18, Ravenswood Industrial Estate, Shernhall Street, London E17 9HQ",
+    "website": "https://www.mothersruin.net/palace",
+    "openingHours": {
+      "Friday": "17:00–23:30",
+      "Saturday": "12:00–23:30",
+      "Sunday": null
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:node:2252043080",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_html",
+    "coordinates": {
+      "lat": 51.5838283,
+      "lng": -0.008169,
+      "sourceURL": "https://www.openstreetmap.org/node/2252043080",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "checkedAt": "2026-10-14T03:55:52.817264+00:00",
+    "evidenceURLs": [
+      "https://www.mothersruin.net/palace",
+      "https://www.mothersruin.net/faq",
+      "https://www.openstreetmap.org/node/2252043080"
+    ],
+    "notes": [
+      "Official Gin Palace page says Sunday 13:00–20:00; official FAQ says Sunday 14:00–20:00. Preserve conflict rather than assert exact Sunday opening."
+    ],
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "candidateRecord": {
+      "city": "london",
+      "name": "Mother's Ruin Gin Factory",
+      "category": "bar",
+      "address": "Shernhall Street E17 9HQ London",
+      "lat": 51.5838283,
+      "lng": -0.008169,
+      "website": "https://www.mothersruin.net/",
+      "instagram": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/2252043080",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": null,
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "trafalgar-tavern",
+    "kind": "place",
+    "name": "Trafalgar Tavern",
+    "city": "London",
+    "area": "Greenwich",
+    "address": "Park Row, Royal Greenwich, London SE10 9NW",
+    "website": "https://www.trafalgartavern.co.uk/contact-us/",
+    "openingHours": {
+      "Sunday-Thursday": "11:00–23:00",
+      "Friday-Saturday": "11:00–00:00+1d"
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:way:299668095",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_html",
+    "coordinates": {
+      "lat": 51.4846028,
+      "lng": -0.0041688,
+      "sourceURL": "https://www.openstreetmap.org/way/299668095",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "checkedAt": "2026-10-14T03:55:52.817264+00:00",
+    "evidenceURLs": [
+      "https://www.trafalgartavern.co.uk/contact-us/",
+      "https://www.openstreetmap.org/way/299668095"
+    ],
+    "notes": [],
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "candidateRecord": {
+      "city": "london",
+      "name": "The Trafalgar Tavern",
+      "category": "pub",
+      "address": "Park Row SE10 9NW London",
+      "lat": 51.4846028,
+      "lng": -0.0041688,
+      "website": "https://www.trafalgartavern.co.uk/",
+      "instagram": "trafalgartaverngreenwich",
+      "sourceUrl": "https://www.openstreetmap.org/way/299668095",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": "Su-Th 11:00-23:00; Fr-Sa 11:00-24:00",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "sun-tavern-covent-garden",
+    "kind": "place",
+    "name": "The Sun Tavern",
+    "city": "London",
+    "area": "Covent Garden",
+    "address": "66 Long Acre, Covent Garden, London WC2E 9JD",
+    "website": "https://www.thesuntaverncoventgarden.co.uk/contact",
+    "openingHours": {
+      "Monday-Thursday": "12:00–23:00",
+      "Friday-Saturday": "12:00–00:00+1d",
+      "Sunday": "12:00–20:00"
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:way:80208385",
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "candidateRecord": {
+      "city": "london",
+      "name": "The Sun Tavern",
+      "category": "pub",
+      "address": "66 Long Acre London",
+      "lat": 51.5139873,
+      "lng": -0.1226274,
+      "website": null,
+      "instagram": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/80208385",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": "Mo-Th 11:00-23:30; Fr 11:00-00:00; Sa 12:00-22:30",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_html",
+    "coordinates": {
+      "lat": 51.5139873,
+      "lng": -0.1226274,
+      "sourceURL": "https://www.openstreetmap.org/way/80208385",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "checkedAt": "2026-10-14T03:57:27.367912+00:00",
+    "evidenceURLs": [
+      "https://www.thesuntaverncoventgarden.co.uk/contact",
+      "https://www.openstreetmap.org/way/80208385"
+    ],
+    "notes": [
+      "Distinct from The Sun Tavern in Bethnal Green. Exact-name dedupe alone would incorrectly merge them."
+    ],
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "swift-soho",
+    "kind": "place",
+    "name": "Swift Soho",
+    "city": "London",
+    "area": "Soho",
+    "address": "12 Old Compton Street, London W1D 4TQ",
+    "website": "https://www.barswift.com/swift-bar-locations",
+    "openingHours": {
+      "Monday-Saturday": "15:00–00:00+1d",
+      "Sunday": "15:00–23:00"
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:node:692190788",
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_json",
+    "coordinates": {
+      "lat": 51.5137372,
+      "lng": -0.1299905,
+      "sourceURL": "https://www.openstreetmap.org/node/692190788",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "checkedAt": "2026-10-14T04:00:15.147618+00:00",
+    "evidenceURLs": [
+      "https://www.barswift.com/swift-bar-locations",
+      "https://www.openstreetmap.org/node/692190788"
+    ],
+    "notes": [
+      "Official address corrects OSM postcode W1D 4TF to W1D 4TQ. Name Swift Bar and exact street/number establish branch identity. Replace old OSM hours with official hours."
+    ],
+    "candidateRecord": {
+      "city": "london",
+      "name": "Swift Bar",
+      "category": "bar",
+      "address": "12 Old Compton Street W1D 4TF London",
+      "lat": 51.5137372,
+      "lng": -0.1299905,
+      "website": "https://www.barswift.com/soho",
+      "instagram": "https://www.instagram.com/swiftbars/",
+      "sourceUrl": "https://www.openstreetmap.org/node/692190788",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": "Mo-Th 12:00-22:30; Fr 12:00-22:45; Sa 12:30-22:45; Su 12:30-21:30",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  },
+  {
+    "researchKey": "boom-oxford-street",
+    "kind": "place",
+    "name": "BOOM BATTLE BAR Oxford Street",
+    "city": "London",
+    "area": "Oxford Street",
+    "address": "Basement and Ground Floor Level, 70–88 Oxford Street, London W1D 1BP",
+    "website": "https://boombattlebar.com/uk/london-oxford-street/find-us/",
+    "openingHours": {
+      "Monday-Wednesday": "11:30–23:30",
+      "Thursday": "11:30–00:30+1d",
+      "Friday": "11:30–01:00+1d",
+      "Saturday": "10:00–01:00+1d",
+      "Sunday": "11:30–22:30"
+    },
+    "operatingStatus": "listed_operating",
+    "recordStatus": "verified_primary_fields",
+    "candidateId": "osm:node:12920872810",
+    "candidateIdBasis": "Normalized OSM identity from original london.json sourceUrl; JSON has no standalone ID field.",
+    "publishedPlaceId": null,
+    "matchStatus": "name_and_address_matched_to_registry_json",
+    "coordinates": {
+      "lat": 51.5162566,
+      "lng": -0.1339106,
+      "sourceURL": "https://www.openstreetmap.org/node/12920872810",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "checkedAt": "2026-10-14T04:00:15.147618+00:00",
+    "evidenceURLs": [
+      "https://boombattlebar.com/uk/london-oxford-street/find-us/",
+      "https://www.openstreetmap.org/node/12920872810"
+    ],
+    "notes": [
+      "Resolves additional-candidates Telegram lead to official branch page. Do not merge with other Boom branches. Replace OSM closing hours with official page hours."
+    ],
+    "candidateRecord": {
+      "city": "london",
+      "name": "Boom Battle Bar",
+      "category": "bar",
+      "address": "70-88 Oxford Street W1D 1BP London",
+      "lat": 51.5162566,
+      "lng": -0.1339106,
+      "website": "https://boombattlebar.com/uk/london-oxford-street/",
+      "instagram": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/12920872810",
+      "status": "catalogue_candidate",
+      "boundaryStatus": "administrative_area",
+      "openingHours": "Mo,Tu 11:30-23:30; We 11:30-24:00; Th,Fr 11:30-26:00; Sa 10:00-26:00; Su 11:30-22:30",
+      "license": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "coordinateStatus": "OSM coordinates retained from source candidate; official name and address evidence separately checked; not a new geocode or GPS observation.",
+    "publicationDecision": "eligible_official_fields_with_osm_location"
+  }
+]

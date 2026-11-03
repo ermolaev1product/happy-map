@@ -1,0 +1,45 @@
+{
+  "cityId": "philadelphia",
+  "checkedAt": "2026-11-02T10:36:41Z",
+  "publication": {
+    "at": "2026-11-02T10:56:40.729Z",
+    "publishedCommit": "d9ce4d85aaded392bb30e94b7d43e916afa969ee",
+    "excludedNewElapsedIds": [],
+    "retainedHistoricalIds": []
+  },
+  "templateRoot": "/workspace/shared/hm-quality/source",
+  "templateSHA256": "fe7d4d460ae5dee1c63d04e76ef237453655ac66890b5e816114c423b8b8e5d8",
+  "center": [
+    39.9606625,
+    -75.1728218224587
+  ],
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "events": 11,
+    "places": 3,
+    "sources": 18,
+    "mappedEvents": 11,
+    "liveEvents": 11,
+    "liveMappedEvents": 11,
+    "expiredEvents": 0,
+    "dates": [
+      "2026-10-10",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08",
+      "2026-11-11",
+      "2026-11-13",
+      "2026-11-17"
+    ],
+    "venues": [
+      "philadelphia-pma",
+      "philadelphia-parkway-library",
+      "philadelphia-barnes"
+    ]
+  }
+}

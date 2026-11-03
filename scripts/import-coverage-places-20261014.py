@@ -1,0 +1,17 @@
+import copy,json,math
+from pathlib import Path
+R=Path(__file__).resolve().parents[1]
+j=json.loads((R/'data/research-coverage-20261014/tbilisi-places.json').read_text());p=R/'public/places.json';places=json.loads(p.read_text());byid={x['id']:x for x in places};added=[];updated=[];translations=json.loads((R/'data/i18n/english-reviewed.json').read_text())
+ru_descriptions={'tbilisi-place-bugadze-gallery':'Галерея живописи, рисунков и графики Гии Бугадзе в его бывшей мастерской.','tbilisi-place-gamrekeli-gallery':'Художественная галерея и выставочное пространство в историческом здании на улице Павле Ингороква, 14.'}
+for raw in j['confirmed']:
+ e=copy.deepcopy(raw);assert e['id'] not in byid
+ assert all(math.isfinite(e[k]) for k in ['lat','lng']);assert e['sourceUrl'] and e['address'] and e['coordinateSource']
+ assert not any(x['title'].lower()==e['title'].lower() for x in places)
+ e['description']=ru_descriptions[e['id']];translations[e['description']]=e['descriptionEn'];e['concept']=e['description'];e['price']=None;e['currency']='GEL';e['highlights']=[];e['source']='Bugadze Gallery / Yandex Maps' if 'bugadze' in e['id'] else 'Yandex Maps / Waze';e['openingNote']='Часы работы уточняйте перед визитом.';translations[e['openingNote']]='Check opening hours before visiting.';e['researchBatch']='city-coverage-2026-10-14';e['importedAt']=j['checkedAt'];places.append(e);byid[e['id']]=e;added.append(e['id'])
+for update in j['enrichments']:
+ e=byid[update['id']];assert e['title']==update['existingTitle'];assert e['lat']==update['existingLat'] and e['lng']==update['existingLng']
+ old=copy.deepcopy(e);fields=copy.deepcopy(update['set']);aliases=fields.pop('aliasesAdd',[]);e.update(fields)
+ if aliases:e['aliases']=list(dict.fromkeys(e.get('aliases',[])+aliases))
+ e['sourceURLs']=list(dict.fromkeys(e.get('sourceURLs',[])+update['sourceURLs']));e['editorialUpdatedAt']=update['checkedAt'];e['addressCheckedAt']=update['checkedAt'];e['verifiedFields']=sorted(fields);e['verificationSources']=update['sourceURLs'];e['verificationNote']=update['note'];updated.append({'id':e['id'],'title':e['title'],'changedFields':[k for k in e if e[k]!=old.get(k)],'oldAddress':old.get('address'),'newAddress':e['address']})
+assert len(places)==2225 and len(set(x['id'] for x in places))==2225
+p.write_text(json.dumps(places,ensure_ascii=False,indent=2)+'\n');meta=json.loads((R/'public/places-meta.json').read_text());meta['count']=len(places);meta['editorialUpdatedAt']=j['checkedAt'];meta['latestResearchBatch']='city-coverage-2026-10-14';meta['latestResearchSummary']={'added':len(added),'enriched':len(updated),'scope':'Selected map and venue websites; existing OSM coordinates preserved; not a citywide recheck.'};(R/'public/places-meta.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n');(R/'data/i18n/english-reviewed.json').write_text(json.dumps(translations,ensure_ascii=False,indent=2)+'\n');report={'checkedAt':j['checkedAt'],'city':'Tbilisi','before':2223,'after':len(places),'added':added,'updated':updated,'heldCandidates':j['candidates'],'qualityWarnings':j['dedupeAndQualityWarnings'],'sourceChecks':j['sourceChecks']};(R/'data/research-coverage-20261014/places-import-result.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'added':len(added),'enriched':len(updated),'missingAddresses':sum(not e.get('address') for e in places)}))

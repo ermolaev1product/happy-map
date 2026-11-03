@@ -1,0 +1,58 @@
+[
+  {
+    "venue": "Sava Centar – Plava dvorana",
+    "address": "Milentija Popovića 9, Beograd",
+    "lat": 44.808889,
+    "lng": 20.431111,
+    "source": "GeoNames",
+    "sourceUrl": "https://www.geonames.org/advanced-search.html?featureClass=S&q=opstina&startRow=100",
+    "addressSourceUrl": "https://savacentar.rs/",
+    "note": "Complex location; individual entrances may differ.",
+    "checkedAt": "2026-10-04"
+  },
+  {
+    "venue": "Ložionica",
+    "address": "Ulica Ideja 2; entrance Luke Ćelovića Trebinjca 39, Beograd",
+    "lat": 44.8005,
+    "lng": 20.44801,
+    "source": "OpenStreetMap via Mapcarta",
+    "sourceUrl": "https://mapcarta.com/W1137425817",
+    "addressSourceUrl": "https://lozionica.rs/kontakt/",
+    "note": "OSM community centre way 1137425817. Official embedded map viewport center is offset and was not used.",
+    "checkedAt": "2026-10-04"
+  },
+  {
+    "venue": "Katedrala Uznesenja Blažene Djevice Marije",
+    "address": "Hadži Milentijeva 75, Beograd",
+    "lat": 44.7944725,
+    "lng": 20.4751867,
+    "source": "OpenStreetMap via Mapy",
+    "sourceUrl": "https://mapy.com/ru/?id=113757540&source=osm",
+    "addressSourceUrl": "https://kc.org.rs/uskrs-2024-raspored-bogosluzja-u-zupama-grada-beograda/",
+    "note": "Cathedral on Neimar, distinct from the Zemun church.",
+    "checkedAt": "2026-10-04"
+  },
+  {
+    "venue": "Jevrejski kulturni centar",
+    "address": "Jevrejska 16, Beograd",
+    "lat": 44.8280258,
+    "lng": 20.4572825,
+    "source": "In Your Pocket map link for former Rex Cultural Centre",
+    "sourceUrl": "https://www.inyourpocket.com/belgrade/Rex-Cultural-Centre_38778v",
+    "mapUrl": "https://maps.google.com/maps?q=44.8280258%2C20.4572825",
+    "addressSourceUrl": "https://beotura.rs/en/oneg-shabbat-jewish-cultural-center/",
+    "note": "Same building formerly housed Rex; use newer Afisha GPS if available.",
+    "checkedAt": "2026-10-04"
+  },
+  {
+    "venue": "Hangar Mol",
+    "address": "Železnička bb, Mol",
+    "lat": null,
+    "lng": null,
+    "source": "Gigstix",
+    "sourceUrl": "https://new.gigstix.com/event/mol-hangar-001-mol-10-oktobar-2026/",
+    "exclude": true,
+    "note": "Not Belgrade: organiser explicitly says Hangar u Molu and is registered in Mol. Removed tickets-28559 from events.",
+    "checkedAt": "2026-10-04"
+  }
+]

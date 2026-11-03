@@ -1,0 +1,323 @@
+{
+  "Becco": {
+    "url": "https://api.kartverket.no/adresser/v1/sok?sok=Kristian+Augusts+gate+11+Oslo&treffPerSide=5",
+    "response": {
+      "metadata": {
+        "treffPerSide": 5,
+        "side": 0,
+        "totaltAntallTreff": 1,
+        "viserFra": 0,
+        "viserTil": 5,
+        "sokeStreng": "sok=Kristian+Augusts+gate+11+Oslo&treffPerSide=5",
+        "asciiKompatibel": true
+      },
+      "adresser": [
+        {
+          "adressenavn": "Kristian Augusts gate",
+          "adressetekst": "Kristian Augusts gate 11",
+          "adressetilleggsnavn": null,
+          "adressekode": 13969,
+          "nummer": 11,
+          "bokstav": "",
+          "kommunenummer": "0301",
+          "kommunenavn": "OSLO",
+          "gardsnummer": 209,
+          "bruksnummer": 158,
+          "festenummer": 0,
+          "undernummer": null,
+          "bruksenhetsnummer": [],
+          "objtype": "Vegadresse",
+          "poststed": "OSLO",
+          "postnummer": "0164",
+          "adressetekstutenadressetilleggsnavn": "Kristian Augusts gate 11",
+          "stedfestingverifisert": false,
+          "representasjonspunkt": {
+            "epsg": "EPSG:4258",
+            "lat": 59.91675877902305,
+            "lon": 10.737756213975889
+          },
+          "oppdateringsdato": "2020-06-15T18:03:33"
+        }
+      ]
+    }
+  },
+  "Riksscenen": {
+    "url": "https://api.kartverket.no/adresser/v1/sok?sok=Trondheimsveien+2T+Oslo&treffPerSide=5",
+    "response": {
+      "metadata": {
+        "treffPerSide": 5,
+        "side": 0,
+        "totaltAntallTreff": 0,
+        "viserFra": 0,
+        "viserTil": 5,
+        "sokeStreng": "sok=Trondheimsveien+2T+Oslo&treffPerSide=5",
+        "asciiKompatibel": true
+      },
+      "adresser": []
+    }
+  },
+  "Dansens Hus": {
+    "url": "https://api.kartverket.no/adresser/v1/sok?sok=Vulkan+1+Oslo&treffPerSide=5",
+    "response": {
+      "metadata": {
+        "treffPerSide": 5,
+        "side": 0,
+        "totaltAntallTreff": 1,
+        "viserFra": 0,
+        "viserTil": 5,
+        "sokeStreng": "sok=Vulkan+1+Oslo&treffPerSide=5",
+        "asciiKompatibel": true
+      },
+      "adresser": [
+        {
+          "adressenavn": "Vulkan",
+          "adressetekst": "Vulkan 1",
+          "adressetilleggsnavn": null,
+          "adressekode": 21649,
+          "nummer": 1,
+          "bokstav": "",
+          "kommunenummer": "0301",
+          "kommunenavn": "OSLO",
+          "gardsnummer": 218,
+          "bruksnummer": 253,
+          "festenummer": 0,
+          "undernummer": null,
+          "bruksenhetsnummer": [],
+          "objtype": "Vegadresse",
+          "poststed": "OSLO",
+          "postnummer": "0182",
+          "adressetekstutenadressetilleggsnavn": "Vulkan 1",
+          "stedfestingverifisert": true,
+          "representasjonspunkt": {
+            "epsg": "EPSG:4258",
+            "lat": 59.921391258259405,
+            "lon": 10.752559155128992
+          },
+          "oppdateringsdato": "2026-03-26T19:41:05"
+        }
+      ]
+    }
+  },
+  "Trekanten": {
+    "url": "https://api.kartverket.no/adresser/v1/sok?sok=Pilestredet+24+Oslo&treffPerSide=5",
+    "response": {
+      "metadata": {
+        "treffPerSide": 5,
+        "side": 0,
+        "totaltAntallTreff": 2,
+        "viserFra": 0,
+        "viserTil": 5,
+        "sokeStreng": "sok=Pilestredet+24+Oslo&treffPerSide=5",
+        "asciiKompatibel": true
+      },
+      "adresser": [
+        {
+          "adressenavn": "Pilestredet",
+          "adressetekst": "Pilestredet 24",
+          "adressetilleggsnavn": null,
+          "adressekode": 15670,
+          "nummer": 24,
+          "bokstav": "",
+          "kommunenummer": "0301",
+          "kommunenavn": "OSLO",
+          "gardsnummer": 208,
+          "bruksnummer": 494,
+          "festenummer": 0,
+          "undernummer": null,
+          "bruksenhetsnummer": [],
+          "objtype": "Vegadresse",
+          "poststed": "OSLO",
+          "postnummer": "0165",
+          "adressetekstutenadressetilleggsnavn": "Pilestredet 24",
+          "stedfestingverifisert": false,
+          "representasjonspunkt": {
+            "epsg": "EPSG:4258",
+            "lat": 59.917479579679124,
+            "lon": 10.73942169969718
+          },
+          "oppdateringsdato": "2026-03-26T19:41:05"
+        },
+        {
+          "adressenavn": "Pilestredet Park",
+          "adressetekst": "Pilestredet Park 24",
+          "adressetilleggsnavn": null,
+          "adressekode": 21418,
+          "nummer": 24,
+          "bokstav": "",
+          "kommunenummer": "0301",
+          "kommunenavn": "OSLO",
+          "gardsnummer": 208,
+          "bruksnummer": 928,
+          "festenummer": 0,
+          "undernummer": null,
+          "bruksenhetsnummer": [
+            "H0101",
+            "H0102",
+            "H0103",
+            "H0104",
+            "H0105",
+            "H0201",
+            "H0202",
+            "H0203",
+            "H0204",
+            "H0205",
+            "H0206",
+            "H0301",
+            "H0302",
+            "H0303",
+            "H0304",
+            "H0305",
+            "H0306",
+            "H0401",
+            "H0402",
+            "H0403",
+            "H0404",
+            "H0405",
+            "H0501",
+            "H0502",
+            "H0503",
+            "H0504",
+            "H0505"
+          ],
+          "objtype": "Vegadresse",
+          "poststed": "OSLO",
+          "postnummer": "0176",
+          "adressetekstutenadressetilleggsnavn": "Pilestredet Park 24",
+          "stedfestingverifisert": false,
+          "representasjonspunkt": {
+            "epsg": "EPSG:4258",
+            "lat": 59.91893809158178,
+            "lon": 10.737315617170959
+          },
+          "oppdateringsdato": "2026-03-26T19:41:05"
+        }
+      ]
+    }
+  },
+  "Parkteatret": {
+    "url": "https://api.kartverket.no/adresser/v1/sok?sok=Olaf+Ryes+plass+11+Oslo&treffPerSide=5",
+    "response": {
+      "metadata": {
+        "treffPerSide": 5,
+        "side": 0,
+        "totaltAntallTreff": 1,
+        "viserFra": 0,
+        "viserTil": 5,
+        "sokeStreng": "sok=Olaf+Ryes+plass+11+Oslo&treffPerSide=5",
+        "asciiKompatibel": true
+      },
+      "adresser": [
+        {
+          "adressenavn": "Olaf Ryes plass",
+          "adressetekst": "Olaf Ryes plass 11",
+          "adressetilleggsnavn": null,
+          "adressekode": 15331,
+          "nummer": 11,
+          "bokstav": "",
+          "kommunenummer": "0301",
+          "kommunenavn": "OSLO",
+          "gardsnummer": 228,
+          "bruksnummer": 256,
+          "festenummer": 0,
+          "undernummer": null,
+          "bruksenhetsnummer": [],
+          "objtype": "Vegadresse",
+          "poststed": "OSLO",
+          "postnummer": "0552",
+          "adressetekstutenadressetilleggsnavn": "Olaf Ryes plass 11",
+          "stedfestingverifisert": false,
+          "representasjonspunkt": {
+            "epsg": "EPSG:4258",
+            "lat": 59.923491593862295,
+            "lon": 10.758325345993262
+          },
+          "oppdateringsdato": "2026-03-26T19:41:05"
+        }
+      ]
+    }
+  },
+  "Sentrum Scene": {
+    "url": "https://api.kartverket.no/adresser/v1/sok?sok=Arbeidersamfunnets+plass+1+Oslo&treffPerSide=5",
+    "response": {
+      "metadata": {
+        "treffPerSide": 5,
+        "side": 0,
+        "totaltAntallTreff": 1,
+        "viserFra": 0,
+        "viserTil": 5,
+        "sokeStreng": "sok=Arbeidersamfunnets+plass+1+Oslo&treffPerSide=5",
+        "asciiKompatibel": true
+      },
+      "adresser": [
+        {
+          "adressenavn": "Arbeidersamfunnets plass",
+          "adressetekst": "Arbeidersamfunnets plass 1",
+          "adressetilleggsnavn": null,
+          "adressekode": 10210,
+          "nummer": 1,
+          "bokstav": "",
+          "kommunenummer": "0301",
+          "kommunenavn": "OSLO",
+          "gardsnummer": 208,
+          "bruksnummer": 866,
+          "festenummer": 0,
+          "undernummer": null,
+          "bruksenhetsnummer": [],
+          "objtype": "Vegadresse",
+          "poststed": "OSLO",
+          "postnummer": "0181",
+          "adressetekstutenadressetilleggsnavn": "Arbeidersamfunnets plass 1",
+          "stedfestingverifisert": false,
+          "representasjonspunkt": {
+            "epsg": "EPSG:4258",
+            "lat": 59.915522025173345,
+            "lon": 10.751804294249158
+          },
+          "oppdateringsdato": "2026-03-26T19:41:05"
+        }
+      ]
+    }
+  },
+  "Cosmopolite": {
+    "url": "https://api.kartverket.no/adresser/v1/sok?sok=Vogts+gate+64+Oslo&treffPerSide=5",
+    "response": {
+      "metadata": {
+        "treffPerSide": 5,
+        "side": 0,
+        "totaltAntallTreff": 1,
+        "viserFra": 0,
+        "viserTil": 5,
+        "sokeStreng": "sok=Vogts+gate+64+Oslo&treffPerSide=5",
+        "asciiKompatibel": true
+      },
+      "adresser": [
+        {
+          "adressenavn": "Vogts gate",
+          "adressetekst": "Vogts gate 64",
+          "adressetilleggsnavn": null,
+          "adressekode": 18380,
+          "nummer": 64,
+          "bokstav": "",
+          "kommunenummer": "0301",
+          "kommunenavn": "OSLO",
+          "gardsnummer": 225,
+          "bruksnummer": 371,
+          "festenummer": 0,
+          "undernummer": null,
+          "bruksenhetsnummer": [],
+          "objtype": "Vegadresse",
+          "poststed": "OSLO",
+          "postnummer": "0477",
+          "adressetekstutenadressetilleggsnavn": "Vogts gate 64",
+          "stedfestingverifisert": false,
+          "representasjonspunkt": {
+            "epsg": "EPSG:4258",
+            "lat": 59.9361466493251,
+            "lon": 10.765707094455388
+          },
+          "oppdateringsdato": "2020-06-15T18:04:52"
+        }
+      ]
+    }
+  }
+}

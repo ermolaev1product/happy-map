@@ -1,0 +1,168 @@
+{
+  "city": "Baku",
+  "timezone": "Asia/Baku",
+  "compiledAt": "2026-10-29T23:59:01.736067+00:00",
+  "status": "narrow_maintenance_candidate_delta_not_published",
+  "programmes": [
+    {
+      "sourceId": "baku-iticket-shahar-binyamini-new-earth-bolero-x",
+      "title": "Shahar Binyamini | New Earth // Bolero X",
+      "normalizedCategory": "theatre",
+      "summaryEn": "Two contemporary dance works explore renewal, collective movement and Ravel’s Boléro.",
+      "sourceUrl": "https://iticket.az/en/events/biaf/shahar-binyamini-or-new-earth-bolero-x/245764",
+      "bookingUrl": "https://iticket.az/en/events/biaf/shahar-binyamini-or-new-earth-bolero-x/245764",
+      "checkedAt": "2026-10-29T23:56:56.414198+00:00",
+      "rawPath": "resume-20261029/maintenance/baku-nov5/raw/5b5b927ceb876a6b.raw",
+      "rawSHA256": "14cb650ba8d9597252b8c2e7c64bf0804a36fbb9fa6ecde2bda3d916fe95556f",
+      "timezone": "Asia/Baku",
+      "occurrences": [
+        {
+          "date": "2026-11-05",
+          "startTime": "20:00",
+          "endTime": null,
+          "sourceCalendarEnd": "21:36"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "20:00",
+          "endTime": null,
+          "sourceCalendarEnd": "21:36"
+        }
+      ],
+      "venue": "Academic National Drama Theatre",
+      "venueId": "baku-a0a7dc5105",
+      "address": "Füzuli Street 1, Baku, Azerbaijan",
+      "verifiedCoordinates": {
+        "latitude": 40.3752448,
+        "longitude": 49.8311684,
+        "sourceUrl": "https://iticket.az/en/events/biaf/shahar-binyamini-or-new-earth-bolero-x/245764",
+        "checkedAt": "2026-10-29T23:56:56.414198+00:00",
+        "precision": "named venue building location, not surveyed entrance or seat",
+        "evidence": "Full seller Event JSONLD location names theatre/address and exact geo; visible named venue block numeric maps search destination agrees. Parsed offline; no maps requests. Same coordinates/address and existing venueId found in retained Baku feed."
+      },
+      "price": {
+        "standard": null,
+        "min": 25,
+        "max": 600,
+        "currency": "AZN",
+        "mandatoryFees": null,
+        "unit": "per ticket",
+        "note": "Visible from25AZN;25–600 ticket range, not fixed standard or600standard. Checkout fees unknown."
+      },
+      "admission": "18+; guests aged12+ may attend with a parent or guardian. QR tickets activate on event day and require signing into the iTicket mobile app; physical tickets are offered at city box offices. No account accessed or purchase attempted.",
+      "ageEvidenceQuote": "Age restriction: 18+ // Guests aged 12+ are permitted when accompanied by a parent or guardian",
+      "yearEvidence": "Visible header5–6November2026 with two explicit20:00 sessions; Event schema starts2026-11-05T16:00Z agrees20:00Asia/Baku.",
+      "endEvidence": "21:36 exists only in session/calendar fields. Fresh full description contains no96-minute runtime. Actual end remains null; no range built from multi-session aggregate schema.",
+      "durationMinutes": null,
+      "status": "candidate_requires_publisher_QA",
+      "availability": "Buy ticket displayed; EventScheduled/InStock schema at read time, not guaranteed current capacity.",
+      "audienceReview": {
+        "fullRenderedHTMLTextRead": true,
+        "eventJSONLDRead": true,
+        "main18PlusBadge": true,
+        "conditional12PlusRuleRead": true,
+        "relatedCardsExcluded": true
+      },
+      "researchConflict": "Search discovery excerpt had40performers and96min runtime; actual lawful source body says30performers and no runtime. Discovery text not imported."
+    }
+  ],
+  "holds": [
+    {
+      "sourceId": "baku-iticket-wine-salon-20261105",
+      "title": "Wine Salon",
+      "sourceUrl": "https://iticket.az/en/events/exhibitions/wine-salon",
+      "checkedAt": "2026-10-29T23:57:27.269929+00:00",
+      "rawPath": "resume-20261029/maintenance/baku-nov5/raw/c2fef5438c570354.raw",
+      "rawSHA256": "96e309c527ce40e7d96e8cb13c455ec1cdfb2f2e36ea68858829e3cdc21c1fe1",
+      "date": "2026-11-05",
+      "startTime": "18:00",
+      "endTime": null,
+      "sourceCalendarEnd": "22:00",
+      "timezone": "Asia/Baku",
+      "venue": "Hilton Baku",
+      "address": "1B Azadliq avenue",
+      "sourceNamedCoordinates": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.3721103,
+        "longitude": 49.8495853
+      },
+      "price": {
+        "standard": 30,
+        "currency": "AZN",
+        "mandatoryFees": null
+      },
+      "admission": "18+ classification; ticket includes unspecified tasting entitlement. No claim of unlimitedwine/freefood. QR-app or physical-ticket rules same source.",
+      "status": "held_pending_attendance_window_semantics_review",
+      "reason": "Source header/calendar18–22 but prose only Nov5 evening, no exact access/lastarrival interval or duration; do not turn into unverified ongoingwindow or force a hardarrivalcutoff. One full primary read retained for reviewer; no gap closure claimed from this held record."
+    }
+  ],
+  "sourceAudit": [
+    {
+      "url": "https://iticket.az/en/events/exhibitions/wine-salon",
+      "checkedAt": "2026-10-29T23:57:27.269929+00:00",
+      "ledgerHashes": {
+        "audit/historical-shared-stops.json": "2373a2f58374a0f189259e5979fe64d28ec98c9bb47e2d5583695605d46b5c11",
+        "audit/access-stop-additions.json": "5115bc78e898de858f8dbab7821ffe0af6a49377f7b002a51a9b01b4c2308203",
+        "maintenance/stops.json": "b8db437de87636ab76fcf96e50379f6e650faaea3a33206419032bbabde1ff09",
+        "preparation-research/stops.json": "9e2ea2b074831d52fdf6eef43b3e1d72287910b9799b6705d42ddb6cac782fd7",
+        "research/stops.json": "aa689d3392b84cc1e9ca3dc28113f033df729749bbd69d85b0dd47bcd7cc9dc4",
+        "safety/new-stops.json": "a455f003b153f78775b60541aa2fc4873f487d8f78965eb616b6793bfd101380",
+        "safety/historical-source-stops.json": "af0ef2c93423106865716bb14842e636b9606f0f0c562fbe81077334d2465f3d"
+      },
+      "status": 200,
+      "finalUrl": "https://iticket.az/en/events/exhibitions/wine-salon",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 378578,
+      "classification": "read_requires_manual_semantic_review",
+      "rawPath": "resume-20261029/maintenance/baku-nov5/raw/c2fef5438c570354.raw",
+      "rawSHA256": "96e309c527ce40e7d96e8cb13c455ec1cdfb2f2e36ea68858829e3cdc21c1fe1",
+      "metadataPath": "resume-20261029/maintenance/baku-nov5/raw/c2fef5438c570354.json"
+    },
+    {
+      "url": "https://iticket.az/en/events/biaf/shahar-binyamini-or-new-earth-bolero-x/245764",
+      "checkedAt": "2026-10-29T23:56:56.414198+00:00",
+      "ledgerHashes": {
+        "audit/historical-shared-stops.json": "2373a2f58374a0f189259e5979fe64d28ec98c9bb47e2d5583695605d46b5c11",
+        "audit/access-stop-additions.json": "5115bc78e898de858f8dbab7821ffe0af6a49377f7b002a51a9b01b4c2308203",
+        "maintenance/stops.json": "b8db437de87636ab76fcf96e50379f6e650faaea3a33206419032bbabde1ff09",
+        "preparation-research/stops.json": "9e2ea2b074831d52fdf6eef43b3e1d72287910b9799b6705d42ddb6cac782fd7",
+        "research/stops.json": "aa689d3392b84cc1e9ca3dc28113f033df729749bbd69d85b0dd47bcd7cc9dc4",
+        "safety/new-stops.json": "a455f003b153f78775b60541aa2fc4873f487d8f78965eb616b6793bfd101380",
+        "safety/historical-source-stops.json": "af0ef2c93423106865716bb14842e636b9606f0f0c562fbe81077334d2465f3d"
+      },
+      "status": 200,
+      "finalUrl": "https://iticket.az/en/events/biaf/shahar-binyamini-or-new-earth-bolero-x/245764",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 399966,
+      "classification": "read_requires_manual_semantic_review",
+      "rawPath": "resume-20261029/maintenance/baku-nov5/raw/5b5b927ceb876a6b.raw",
+      "rawSHA256": "14cb650ba8d9597252b8c2e7c64bf0804a36fbb9fa6ecde2bda3d916fe95556f",
+      "metadataPath": "resume-20261029/maintenance/baku-nov5/raw/5b5b927ceb876a6b.json"
+    }
+  ],
+  "counts": {
+    "readyForPublisherQAProgrammes": 1,
+    "discreteStarts": 2,
+    "nov5DiscreteStarts": 1,
+    "physicalVenueIds": 1,
+    "additionalHeldProgramme": 1
+  },
+  "dedupAudit": {
+    "inputFeedPath": "resume-20261029/site/public/baku/events.json",
+    "inputFeedSHA256": "a32dc2805ab150c45eca9c32abf59bccbfc769c4525174fec2e2a9a3260768c9",
+    "inputCount": 93,
+    "nov5ExistingStarts": 0,
+    "programmeNameOrSourceMatch": false,
+    "existingVenueId": "baku-a0a7dc5105",
+    "sameVenueExistingEventIds": [
+      "baku-eventsaz-b5accc65f29788",
+      "baku-eventsaz-cdc9ee846c1004",
+      "baku-eventsaz-c532c6c1092d63",
+      "baku-eventsaz-d4e4fac2d64010",
+      "baku-eventsaz-9923befb9e647c"
+    ],
+    "existingDirectoryFeature": "osm:way:174900796 is named drama theatre about18m from sellerpoint; not a new surveyed pin or independent fresh read. Reuse stable active venueId rather than fabricate a second theatre."
+  },
+  "scope": "Nov5 gap from coordinator localmodel only, no liveclaim. Two lawful primary bodies, not wholecalendar. No site/source mutation or external account activity.",
+  "telegram": "Historical t.me stop; not requested."
+}

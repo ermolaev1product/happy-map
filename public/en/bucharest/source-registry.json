@@ -1,0 +1,1227 @@
+{
+  "city": "Bucharest",
+  "checkedAt": "2026-10-28T11:10:36.580557+00:00",
+  "sources": [
+    {
+      "id": "bucharest-source-d6d4508877f25f",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/live-jozef-van-wissem-usa",
+      "checkedAt": "2026-10-28T10:18:24.937063+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-06b47e4a82f4e5",
+      "name": "Bucharest source: mapcarta.com",
+      "url": "https://mapcarta.com/N1729617170",
+      "checkedAt": "2026-10-28T10:23:34.467601+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "named_OSM_venue_point_not_indoor_room_or_surveyed_entrance"
+    },
+    {
+      "id": "bucharest-source-28c698ee68aed2",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/pages/club-control-regulament",
+      "checkedAt": "2026-10-28T10:18:24.937063+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-c75d6a05b09803",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/ctrl-x-salonul-de-proiecte-sounding-the-archive-counter-histories-in-everyday-life",
+      "checkedAt": "2026-10-28T10:18:24.937063+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-45c53d01a7ad56",
+      "name": "Bucharest source: eventbook.ro",
+      "url": "https://eventbook.ro/music/bilete-jozef-van-wissem-control-club-29-10-2026",
+      "checkedAt": "2026-10-28T10:18:24.937063+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-8c918ea51afd3e",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/halloween-bash-26-w-d-e-n-i-s-plant",
+      "checkedAt": "2026-10-28T10:18:24.937774+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-a28b900f6e77ae",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/david-carretta-fr",
+      "checkedAt": "2026-10-28T10:23:34.467149+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-c16f10f9d5110a",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/live-sonoro-festival-face-to-face",
+      "checkedAt": "2026-10-28T10:18:29.034354+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-22960958edd922",
+      "name": "Bucharest source: eventbook.ro",
+      "url": "https://eventbook.ro/music/bilete-fata-in-fata-festivalul-sonoro-bucuresti",
+      "checkedAt": "2026-10-28T10:18:29.034354+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-5521d33cffb982",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/alt-jazz-elijah-fox-usa",
+      "checkedAt": "2026-10-28T10:18:29.085232+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-1ab15cdd3647bb",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/live-rana-anniversary-show",
+      "checkedAt": "2026-10-28T10:18:29.088019+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-b2ff40abd184c5",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/ctrl-live-the-veils",
+      "checkedAt": "2026-10-28T10:18:34.107983+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-45768fd7ab75fd",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/live-the-notwist-de",
+      "checkedAt": "2026-10-28T10:18:34.109618+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-49205714382009",
+      "name": "Bucharest source: eventbook.ro",
+      "url": "https://eventbook.ro/music/bilete-the-notwist-live-at-control-21-11-2026",
+      "checkedAt": "2026-10-28T10:18:34.109618+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-0d7e2125a3ce83",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/ctrl-live-arab-strap-uk",
+      "checkedAt": "2026-10-28T10:18:34.149467+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-7fef7d6cd44f1e",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/eveniment/concert-bella-voce-bella-musica-soprana-leontina-vaduva-si-pianistul-catalin-raducanu",
+      "checkedAt": "2026-10-28T10:18:41.557969+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-ec59389cad7cce",
+      "name": "Bucharest source: premiumedu.ro",
+      "url": "https://premiumedu.ro/bafi-2026/",
+      "checkedAt": "2026-10-28T10:26:39.928110+00:00",
+      "status": "imported",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 1,
+      "note": "organizer_named_venue_navigation_point_not_indoor_room"
+    },
+    {
+      "id": "bucharest-source-f6405840ccfacd",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/eveniment/the-corner-of-the-dead-peru-stagiunea-internationala-de-teatru",
+      "checkedAt": "2026-10-28T10:18:41.641186+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 2,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-6ec4419fb6c717",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/noutati/spectacole-premiate-si-apreciate-pe-marile-scene-ale-lumii-in-stagiunea-internationala-de-teatru-arcub",
+      "checkedAt": "2026-10-28T10:18:41.641186+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-bbf4c2de225b93",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/eveniment/expozitie-imbracand-timpul-bucuresti-moda-memorie-identitate-curator-iulia-gorneanu",
+      "checkedAt": "2026-10-28T10:18:37.046286+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-f5dd1d84a75edf",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/eveniment/expozitia-eyes-flatten-lucrari-semnate-de-artistele-emma-cossee-cruz-franta-chile-camilia-filipov-romania-moldova-si-delia-popa-romania",
+      "checkedAt": "2026-10-28T10:18:37.117012+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-25f2b46aa93fa4",
+      "name": "Bucharest source: antipa.ro",
+      "url": "https://antipa.ro/product/culori-la-amurg-atelier-de-pictura-despre-lilieci-29-octombrie-2026/",
+      "checkedAt": "2026-10-28T10:27:16.137635+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-862533aa10bf49",
+      "name": "Bucharest source: antipa.ro",
+      "url": "https://antipa.ro/info-utile/contact/",
+      "checkedAt": "2026-10-28T10:27:21.730871+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "official_contact_map_coordinate_label_not_indoor_room_or_surveyed_door"
+    },
+    {
+      "id": "bucharest-source-a804df7ee83fda",
+      "name": "Bucharest source: antipa.ro",
+      "url": "https://antipa.ro/rezervari/",
+      "checkedAt": "2026-10-28T10:27:16.137635+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-99aca306e58ee7",
+      "name": "Bucharest source: antipa.ro",
+      "url": "https://antipa.ro/product/ateliere-de-halloween-la-antipa/",
+      "checkedAt": "2026-10-28T10:26:34.688056+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 2,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-e5e04acfd15930",
+      "name": "Bucharest source: antipa.ro",
+      "url": "https://antipa.ro/product/ariciul-un-tepos-simpatic-7-noiembrie-2026/",
+      "checkedAt": "2026-10-28T10:27:12.107401+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-7c71ccdfaeb169",
+      "name": "Bucharest source: antipa.ro",
+      "url": "https://antipa.ro/product/hai-in-barlog-14-noiembrie-2026/",
+      "checkedAt": "2026-10-28T10:27:12.106804+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-9983b2958a8566",
+      "name": "Bucharest source: operanb.ro",
+      "url": "https://operanb.ro/spectacol/barbierul-din-sevilla/",
+      "checkedAt": "2026-10-28T10:55:28.456308+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-fa6170e9f200d7",
+      "name": "Bucharest source: www.google.com",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.866540252783!2d26.077325815387674!3d44.435899779102265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff5dfdf24371%3A0x4d0dda7ed8f42b61!2zT3BlcmEgUm9tw6JuxIMgZGluIEJ1Y3VyZciZdGk!5e0!3m2!1sro!2sro!4v1473710565317",
+      "checkedAt": "2026-10-28T10:52:33.439753+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "named_venue_building_or_campus_point_not_indoor_room_or_surveyed_entrance"
+    },
+    {
+      "id": "bucharest-source-be2ebc8a1b36b1",
+      "name": "Bucharest source: operanb.ro",
+      "url": "https://operanb.ro/calendar/",
+      "checkedAt": "2026-10-28T10:55:28.456308+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-a01df525dd6859",
+      "name": "Bucharest source: operanb.ro",
+      "url": "https://operanb.ro/calendar/?luna=11&anul=2026",
+      "checkedAt": "2026-10-28T10:55:28.456308+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-4e48904dec47e1",
+      "name": "Bucharest source: operanb.ro",
+      "url": "https://operanb.ro/pentru-spectatori/bilete/",
+      "checkedAt": "2026-10-28T10:55:28.456308+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-241299c4de790d",
+      "name": "Bucharest source: operanb.ro",
+      "url": "https://operanb.ro/contact/",
+      "checkedAt": "2026-10-28T10:55:28.456308+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-7e01c5a960a73c",
+      "name": "Bucharest source: operanb.ro",
+      "url": "https://operanb.ro/spectacol/madama-butterfly/",
+      "checkedAt": "2026-10-28T10:51:36.497792+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 2,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-77c1768ffde29d",
+      "name": "Bucharest source: operanb.ro",
+      "url": "https://operanb.ro/spectacol/vortex-concert-multimedia/",
+      "checkedAt": "2026-10-28T10:46:31.486212+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-135341a42b15e8",
+      "name": "Bucharest source: operanb.ro",
+      "url": "https://operanb.ro/spectacol/giselle-2/",
+      "checkedAt": "2026-10-28T10:55:19.945402+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 4,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-f48ad5ff23e0ee",
+      "name": "Bucharest source: operacomica.ro",
+      "url": "https://operacomica.ro/repertoriu/noaptea-vrajitoarelor/",
+      "checkedAt": "2026-10-28T11:00:50.772696+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 5,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-9ca5b2a97b50da",
+      "name": "Bucharest source: www.google.com",
+      "url": "https://www.google.com/maps/place/Calea%2BGiule%C8%99ti%2B16,%2BBucure%C8%99ti%2B060276/@44.4549965,26.057503,17z/data=!3m1!4b1!4m6!3m5!1s0x40b2018c9fa39d5b:0x9405fad443b67876!8m2!3d44.4549965!4d26.057503!16s%2Fg%2F11bw3zk35d",
+      "checkedAt": "2026-10-28T10:48:22.176629+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "named_venue_building_or_campus_point_not_indoor_room_or_surveyed_entrance"
+    },
+    {
+      "id": "bucharest-source-78945074588737",
+      "name": "Bucharest source: operacomica.ro",
+      "url": "https://operacomica.ro/spectacole/program/",
+      "checkedAt": "2026-10-28T11:00:50.772696+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-b1cd5b6ea169c5",
+      "name": "Bucharest source: operacomica.ro",
+      "url": "https://operacomica.ro/cum-ajungi/",
+      "checkedAt": "2026-10-28T11:00:50.772696+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-44e6a0b7d96e61",
+      "name": "Bucharest source: operacomica.ro",
+      "url": "https://operacomica.ro/repertoriu/hansel-si-gretel/",
+      "checkedAt": "2026-10-28T10:48:00.571788+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 3,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-e053eab8f42a2a",
+      "name": "Bucharest source: operacomica.ro",
+      "url": "https://operacomica.ro/repertoriu/noaptea-magiei/",
+      "checkedAt": "2026-10-28T10:48:22.176629+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 12,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-2fdccce82ab970",
+      "name": "Bucharest source: operacomica.ro",
+      "url": "https://operacomica.ro/repertoriu/fetita-cu-chibrituri/",
+      "checkedAt": "2026-10-28T10:54:35.704826+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 5,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-0f801cc5354cff",
+      "name": "Bucharest source: muzeulbucurestiului.ro",
+      "url": "https://muzeulbucurestiului.ro/expozitia-monede-biblice-comunicat/",
+      "checkedAt": "2026-10-28T10:49:38.975823+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 2,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-062e68b72d4891",
+      "name": "Bucharest source: www.google.com",
+      "url": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11395.67483534992!2d26.1023426!3d44.4348297!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x467bd471b49c2cb9!2sBucharest%20Municipality%20Museum!5e0!3m2!1sen!2sro!4v1674910545238!5m2!1sen!2sro",
+      "checkedAt": "2026-10-28T10:52:36.706122+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "named_venue_building_or_campus_point_not_indoor_room_or_surveyed_entrance"
+    },
+    {
+      "id": "bucharest-source-ec7558319a0075",
+      "name": "Bucharest source: muzeulbucurestiului.ro",
+      "url": "https://muzeulbucurestiului.ro/bilete-palatul-sutu/",
+      "checkedAt": "2026-10-28T10:49:38.975823+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-a6d6b9ed08a5a4",
+      "name": "Bucharest source: muzeulbucurestiului.ro",
+      "url": "https://muzeulbucurestiului.ro/palatul-sutu.html",
+      "checkedAt": "2026-10-28T10:49:38.975823+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-f94660c8151dec",
+      "name": "Bucharest source: muzeul-satului.ro",
+      "url": "https://muzeul-satului.ro/events/singureni-vlasca-istorie-si-civilizatie-locala/?occurrence=2026-10-24",
+      "checkedAt": "2026-10-28T10:55:40.671641+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-00245b2e455ea8",
+      "name": "Bucharest source: maps.google.com",
+      "url": "https://maps.google.com/maps?q=muzeul%20satului%20dimitrie%20gusti&t=m&z=15&output=embed&iwloc=near",
+      "checkedAt": "2026-10-28T11:01:13.948762+00:00",
+      "status": "named_venue_coordinate_evidence",
+      "accessStatus": "named_venue_coordinate_evidence",
+      "count": 0,
+      "note": "named_venue_building_or_campus_point_not_indoor_room_or_surveyed_entrance"
+    },
+    {
+      "id": "bucharest-source-44dc6ee9cac850",
+      "name": "Bucharest source: muzeul-satului.ro",
+      "url": "https://muzeul-satului.ro/acces-muzeu/bilete/",
+      "checkedAt": "2026-10-28T10:55:40.671641+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-8f56ab00580b0c",
+      "name": "Bucharest source: muzeul-satului.ro",
+      "url": "https://muzeul-satului.ro/contact/",
+      "checkedAt": "2026-10-28T10:55:40.671641+00:00",
+      "status": "programme_evidence_reference",
+      "accessStatus": "programme_evidence_reference",
+      "count": 0,
+      "note": "Referenced in the curated programme; independent fetch/review scope and timestamp are retained in research audit, not implied by this row."
+    },
+    {
+      "id": "bucharest-source-92334e48f65836",
+      "name": "Bucharest source: muzeul-satului.ro",
+      "url": "https://muzeul-satului.ro/events/delta-dunarii-prin-ochii-copiilor-4/?occurrence=2026-11-07&time=1794009600",
+      "checkedAt": "2026-10-28T10:55:45.058002+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "official_organizer_or_host_full_announcement; selected facts, not complete host coverage."
+    },
+    {
+      "id": "bucharest-source-ecd27a461eee98",
+      "name": "Bucharest source: t.me",
+      "url": "https://t.me/s/kudapoytibucharest",
+      "checkedAt": "2026-10-28T09:39:17.012611+00:00",
+      "status": "unavailable",
+      "accessStatus": "unavailable",
+      "count": 0,
+      "note": "Public GET returned Site Unavailable page, not channel content. No bypass or retry."
+    },
+    {
+      "id": "bucharest-source-b26e3d4ed34485",
+      "name": "Bucharest source: t.me",
+      "url": "https://t.me/bucharest_ua",
+      "checkedAt": "2026-10-28T09:39:19.543934+00:00",
+      "status": "unavailable",
+      "accessStatus": "unavailable",
+      "count": 0,
+      "note": "Public GET returned Site Unavailable page, not channel content. No bypass or retry."
+    },
+    {
+      "id": "bucharest-source-3ba1f58ab10c25",
+      "name": "Bucharest source: antipa.ro",
+      "url": "https://antipa.ro/product/pradatorul-din-umbra-pantera-neagra-28-octombrie-2026/",
+      "checkedAt": "2026-10-28T10:27:16.022661+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-7f6dfcd263c6e6",
+      "name": "Bucharest source: antipa.ro",
+      "url": "https://antipa.ro/product/sah-la-antipa-toamna-2026/",
+      "checkedAt": "2026-10-28T10:27:21.455500+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-48487f79abfa51",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/contact",
+      "checkedAt": "2026-10-28T10:18:44.306693+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-a8685bef8fafb9",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/eveniment/five-kinds-of-silence-slovenia-stagiunea-internationala-de-teatru",
+      "checkedAt": "2026-10-28T10:18:44.219863+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-504c9bb3e92649",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/spatiile-noastre/hanul-gabroveni",
+      "checkedAt": "2026-10-28T10:26:12.557384+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-eec9273acadf3d",
+      "name": "Bucharest source: www.google.com",
+      "url": "https://www.google.com/maps/search/Bucuresti%2C%2BArCuB%2B-%2BHanul%2BGabroveni",
+      "checkedAt": "2026-10-28T10:26:40.599354+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-1a6e537dab5490",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/",
+      "checkedAt": "2026-10-28T10:16:21.145373+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-39094476d41d9e",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/eveniment/inscrieri-voluntar-2-0",
+      "checkedAt": "2026-10-28T10:18:36.977902+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-28266d587a6ebc",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/eveniment/intalniri-cu-oameni-pasari-esente-de-zbor-teodora-brody-and-marcel-iures",
+      "checkedAt": "2026-10-28T10:18:41.207157+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-55d94b503e0fa3",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/noutati/teatrelli-devine-laboratorul-teatral-arcub-o-noua-stagiune-dedicata-experimentului-cercetarii-si-coproductiilor-internationale",
+      "checkedAt": "2026-10-28T10:16:21.720215+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-48a5e2c23b55f8",
+      "name": "Bucharest source: mapcarta.com",
+      "url": "https://mapcarta.com/N7613023108",
+      "checkedAt": "2026-10-28T10:23:50.163896+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-7c9c6dd6a4dc81",
+      "name": "Bucharest source: www.ww.infopensiuni.ro",
+      "url": "https://www.ww.infopensiuni.ro/cazare-bucuresti/obiective-turistice-bucuresti/hanul-gabroveni_6146",
+      "checkedAt": "2026-10-28T10:26:18.655898+00:00",
+      "status": "source_access_503",
+      "accessStatus": "source_access_503",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-89c32b9d721fb5",
+      "name": "Bucharest source: mapcarta.com",
+      "url": "https://mapcarta.com/N10775260923",
+      "checkedAt": "2026-10-28T10:24:36.824130+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-e1dd0cb691f5de",
+      "name": "Bucharest source: mapcarta.com",
+      "url": "https://mapcarta.com/N7622689033",
+      "checkedAt": "2026-10-28T10:26:45.992650+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-227f68ffa23c37",
+      "name": "Bucharest source: arcub.ro",
+      "url": "https://arcub.ro/spatiile-noastre",
+      "checkedAt": "2026-10-28T10:25:51.013725+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-75af164e365ba8",
+      "name": "Bucharest source: artweek.ro",
+      "url": "https://artweek.ro/venue/art-safari-new-museum",
+      "checkedAt": "2026-10-28T10:23:42.721997+00:00",
+      "status": "source_access_403",
+      "accessStatus": "source_access_403",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-ddfadb966ecc44",
+      "name": "Bucharest source: www.eventim.ro",
+      "url": "https://www.eventim.ro/event/art-safari-new-museum-sezonul-19-art-safari-22103348/?affiliate=4R6",
+      "checkedAt": "2026-10-28T10:23:42.903662+00:00",
+      "status": "source_access_503",
+      "accessStatus": "source_access_503",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-956770e971e10e",
+      "name": "Bucharest source: www.artsafari.ro",
+      "url": "https://www.artsafari.ro/en/exhibitions/",
+      "checkedAt": "2026-10-28T10:15:13.934017+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-b5968ddd3a323d",
+      "name": "Bucharest source: www.artsafari.ro",
+      "url": "https://www.artsafari.ro/",
+      "checkedAt": "2026-10-28T10:18:44.345084+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-f38b3af76cf029",
+      "name": "Bucharest source: www.artsafari.ro",
+      "url": "https://www.artsafari.ro/en/info-en/",
+      "checkedAt": "2026-10-28T10:22:40.652876+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-0ca35f4d6ced8f",
+      "name": "Bucharest source: www.artsafari.ro",
+      "url": "https://www.artsafari.ro/project/bilete-zurli20/",
+      "checkedAt": "2026-10-28T10:15:19.388207+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-20b6d9f12531eb",
+      "name": "Bucharest source: visitbucharest.today",
+      "url": "https://visitbucharest.today/events/",
+      "checkedAt": "2026-10-28T09:37:54.290457+00:00",
+      "status": "source_access_403",
+      "accessStatus": "source_access_403",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-d4823871d1c74c",
+      "name": "Bucharest source: bucharestevents.ro",
+      "url": "https://bucharestevents.ro/",
+      "checkedAt": "2026-10-28T10:14:08.089203+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-01c50c013779af",
+      "name": "Bucharest source: bucharestevents.ro",
+      "url": "https://bucharestevents.ro/events/luna/2026-11/",
+      "checkedAt": "2026-10-28T10:15:13.933467+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-29b2c43eb0a017",
+      "name": "Bucharest source: bucharestevents.ro",
+      "url": "https://bucharestevents.ro/events/luna/",
+      "checkedAt": "2026-10-28T10:14:32.987804+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-cdc009a34b0f46",
+      "name": "Bucharest source: www.control-club.ro",
+      "url": "https://www.control-club.ro/about/",
+      "checkedAt": "2026-10-28T10:22:40.652125+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-4b27ca1def7816",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/cinema-esperanto-8-ufo-sweden-se",
+      "checkedAt": "2026-10-28T10:18:24.937481+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-cec422fc77c93b",
+      "name": "Bucharest source: control-club.ro",
+      "url": "https://control-club.ro/events/",
+      "checkedAt": "2026-10-28T10:16:14.820024+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-d9c372a9e4c7fa",
+      "name": "Bucharest source: www.control-club.ro",
+      "url": "https://www.control-club.ro/",
+      "checkedAt": "2026-10-28T10:16:14.818571+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-7425c05e316595",
+      "name": "Bucharest source: bucharestevents.ro",
+      "url": "https://bucharestevents.ro/event/west-side-hallo-fest/",
+      "checkedAt": "2026-10-28T10:24:36.823622+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-7678e7dc4a9e4a",
+      "name": "Bucharest source: bucharestevents.ro",
+      "url": "https://bucharestevents.ro/event/hotel-des-poemes-spectacol-in-camere-de-hotel/",
+      "checkedAt": "2026-10-28T10:14:45.671684+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-c8cb8416d4ce39",
+      "name": "Bucharest source: bucharestevents.ro",
+      "url": "https://bucharestevents.ro/event/polo-csa-steaua-bucuresti-cn-marseille/",
+      "checkedAt": "2026-10-28T10:14:46.334802+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-50944a3762be8e",
+      "name": "Bucharest source: bucharestevents.ro",
+      "url": "https://bucharestevents.ro/event/expozitia-zurli20-povestea-unui-fenomen/",
+      "checkedAt": "2026-10-28T10:14:32.987302+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-356d4a6b5ef8ec",
+      "name": "Bucharest source: eventbook.ro",
+      "url": "https://eventbook.ro/film/bilete-cinema-esperanto-8-watch-the-skies-se?p=195542",
+      "checkedAt": "2026-10-28T10:25:11.882514+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-aac33cbc39f770",
+      "name": "Bucharest source: nominatim.openstreetmap.org",
+      "url": "https://nominatim.openstreetmap.org/search?q=Hanul+Gabroveni%2C+Bucharest&format=jsonv2&addressdetails=1&limit=3",
+      "checkedAt": "2026-10-28T10:25:10.394256+00:00",
+      "status": "source_access_403",
+      "accessStatus": "source_access_403",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-e19a18208a2c98",
+      "name": "Bucharest source: nominatim.openstreetmap.org",
+      "url": "https://nominatim.openstreetmap.org/search?q=Art+Safari%2C+Bucharest&format=jsonv2&addressdetails=1&limit=3",
+      "checkedAt": "2026-10-28T10:25:17.715163+00:00",
+      "status": "source_access_403",
+      "accessStatus": "source_access_403",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-0d0f349e8d801a",
+      "name": "Bucharest source: nominatim.openstreetmap.org",
+      "url": "https://nominatim.openstreetmap.org/search?q=Baza+Digului+Lacului+Morii%2C+Bucharest&format=jsonv2&addressdetails=1&limit=3",
+      "checkedAt": "2026-10-28T10:25:22.714580+00:00",
+      "status": "source_access_403",
+      "accessStatus": "source_access_403",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-a99468f15a36f5",
+      "name": "Bucharest source: westsideevents.ro",
+      "url": "https://westsideevents.ro/west-side-hallo-fest-2026/",
+      "checkedAt": "2026-10-28T10:28:38.744389+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-325ef998297bf6",
+      "name": "Bucharest source: www.academiaparintilor.ro",
+      "url": "https://www.academiaparintilor.ro/",
+      "checkedAt": "2026-10-28T10:25:51.014203+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-6f166f91b0f0d1",
+      "name": "Bucharest source: bucharestevents.ro",
+      "url": "https://bucharestevents.ro/go/ticket/29930/",
+      "checkedAt": "2026-10-28T10:15:22.395151+00:00",
+      "status": "source_access_403",
+      "accessStatus": "source_access_403",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-50eb083e95c996",
+      "name": "Bucharest source: bucharestevents.ro",
+      "url": "https://bucharestevents.ro/go/ticket/30518/",
+      "checkedAt": "2026-10-28T10:15:24.605474+00:00",
+      "status": "source_access_403",
+      "accessStatus": "source_access_403",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-5c15169550d080",
+      "name": "Bucharest source: evenimente.primariasector1.ro",
+      "url": "https://evenimente.primariasector1.ro/eveniment/a1791440928472976",
+      "checkedAt": "2026-10-28T10:22:47.366603+00:00",
+      "status": "source_access_403",
+      "accessStatus": "source_access_403",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-f59abc6318d0b5",
+      "name": "Bucharest source: www.primarie6.ro",
+      "url": "https://www.primarie6.ro/primarie_sector6/cum-ajungi-la-festival-si-ce-trebuie-sa-stii-west-side-hallo-fest-se-apropie",
+      "checkedAt": "2026-10-28T10:23:39.278592+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-b63c2d0602d417",
+      "name": "Bucharest source: www.primarie6.ro",
+      "url": "https://www.primarie6.ro/primarie_sector6/west-side-hallo-fest-2026-reuneste-zeci-de-sponsori-si-parteneri-sub-tema-origini-inainte-de-povesti",
+      "checkedAt": "2026-10-28T10:22:47.665643+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-84a384db7d14f5",
+      "name": "Bucharest source: www.primarie6.ro",
+      "url": "https://www.primarie6.ro/primarie_sector6/west-side-hallo-fest-revine-la-baza-digului-lacului-morii-intre-30-octombrie-si-1-noiembrie-trei-zile-de-concerte-spectacole-si-ateliere-pentru-intreaga-familie",
+      "checkedAt": "2026-10-28T10:23:39.084458+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-05920ab29ee242",
+      "name": "Bucharest source: www.dalles.ro",
+      "url": "https://www.dalles.ro/evenimente/2026-10-29/",
+      "checkedAt": "2026-10-28T10:49:33.286068+00:00",
+      "status": "source_access_403",
+      "accessStatus": "source_access_403",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-6f6fbee2675373",
+      "name": "Bucharest source: madrigal.ro",
+      "url": "https://madrigal.ro/spectacole/madrigal-ziua-republicii-turcia-2026/",
+      "checkedAt": "2026-10-28T10:53:01.961911+00:00",
+      "status": "source_access_503",
+      "accessStatus": "source_access_503",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-23961894d76278",
+      "name": "Bucharest source: evenimente.muzeulbucurestiului.ro",
+      "url": "https://evenimente.muzeulbucurestiului.ro/calendarmmb",
+      "checkedAt": "2026-10-28T10:49:43.878871+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-88b98d40d61bbc",
+      "name": "Bucharest source: muzeulbucurestiului.ro",
+      "url": "https://muzeulbucurestiului.ro/contact.html",
+      "checkedAt": "2026-10-28T10:50:26.877334+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-e615f79c2526a4",
+      "name": "Bucharest source: muzeulbucurestiului.ro",
+      "url": "https://muzeulbucurestiului.ro/bilete-online.html",
+      "checkedAt": "2026-10-28T10:50:30.930681+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-4f51769fe69396",
+      "name": "Bucharest source: www.mnac.ro",
+      "url": "https://www.mnac.ro/",
+      "checkedAt": "2026-10-28T10:46:24.254225+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-7dcf146c63a5f8",
+      "name": "Bucharest source: muzeulviu.ro",
+      "url": "https://muzeulviu.ro/",
+      "checkedAt": "2026-10-28T10:49:23.670517+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-34fcffc97293bd",
+      "name": "Bucharest source: operacomica.ro",
+      "url": "https://operacomica.ro/festival/vrajitoarele/",
+      "checkedAt": "2026-10-28T10:46:38.122849+00:00",
+      "status": "source_access_503",
+      "accessStatus": "source_access_503",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-9506ea9e5a367a",
+      "name": "Bucharest source: www.operacomica.ro",
+      "url": "https://www.operacomica.ro/",
+      "checkedAt": "2026-10-28T10:46:15.891945+00:00",
+      "status": "source_access_503",
+      "accessStatus": "source_access_503",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-7628be1434b3b6",
+      "name": "Bucharest source: operanb.ro",
+      "url": "https://operanb.ro/wp-content/themes/opera/css/calendar.css?v=1.2.4",
+      "checkedAt": "2026-10-28T10:50:08.791985+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-739ba6356406ad",
+      "name": "Bucharest source: operanb.ro",
+      "url": "https://operanb.ro/spectacol/giselle/",
+      "checkedAt": "2026-10-28T10:51:43.455262+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-2125049d76478d",
+      "name": "Bucharest source: tickets.operanb.ro",
+      "url": "https://tickets.operanb.ro/event.php?id=65624",
+      "checkedAt": "2026-10-28T10:47:45.055071+00:00",
+      "status": "source_access_302",
+      "accessStatus": "source_access_302",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-35c6adf8df5576",
+      "name": "Bucharest source: www.opereta.ro",
+      "url": "https://www.opereta.ro/calendar/",
+      "checkedAt": "2026-10-28T10:50:40.815246+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-0fe2b9fb86a874",
+      "name": "Bucharest source: www.opereta.ro",
+      "url": "https://www.opereta.ro/contact/",
+      "checkedAt": "2026-10-28T10:50:35.097155+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-84c1044bea4656",
+      "name": "Bucharest source: www.opereta.ro",
+      "url": "https://www.opereta.ro/",
+      "checkedAt": "2026-10-28T10:45:45.867827+00:00",
+      "status": "source_access_None",
+      "accessStatus": "source_access_None",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-14820f76a8dc94",
+      "name": "Bucharest source: www.opereta.ro",
+      "url": "https://www.opereta.ro/spectacole/bonjour-bonne-nuit-paris/",
+      "checkedAt": "2026-10-28T10:49:49.125308+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-f525e8c08ee97c",
+      "name": "Bucharest source: www.tnb.ro",
+      "url": "https://www.tnb.ro/ro/calendar?month=11&view=list&year=2026",
+      "checkedAt": "2026-10-28T10:45:41.122907+00:00",
+      "status": "source_access_503",
+      "accessStatus": "source_access_503",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-40743c4421aa2c",
+      "name": "Bucharest source: muzeul-satului.ro",
+      "url": "https://muzeul-satului.ro/events/",
+      "checkedAt": "2026-10-28T10:55:36.139780+00:00",
+      "status": "source_access_200",
+      "accessStatus": "source_access_200",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-aaa6824bceaa63",
+      "name": "Bucharest source: operacomica.ro",
+      "url": "https://operacomica.ro/despre-noi/cum-ajungi/",
+      "checkedAt": "2026-10-28T10:48:00.571788+00:00",
+      "status": "source_access_None",
+      "accessStatus": "source_access_None",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-21653da79dd444",
+      "name": "Bucharest source: bilete.operacomica.ro",
+      "url": "https://bilete.operacomica.ro/?e=35935&p=event",
+      "checkedAt": "2026-10-28T10:54:35.704826+00:00",
+      "status": "source_access_None",
+      "accessStatus": "source_access_None",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-d0ec86d6b4992b",
+      "name": "Bucharest source: www.google.com",
+      "url": "https://www.google.com/maps/place/Calea%2BGiule%C8%99ti%2B16%2C%2BBucure%C8%99ti%2B060276/%4044.4549965%2C26.057503%2C17z/data%3D%213m1%214b1%214m6%213m5%211s0x40b2018c9fa39d5b%3A0x9405fad443b67876%218m2%213d44.4549965%214d26.057503%2116s%2Fg%2F11bw3zk35d?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
+      "checkedAt": "2026-10-28T10:48:22.176629+00:00",
+      "status": "source_access_None",
+      "accessStatus": "source_access_None",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-b1d15c35bd1335",
+      "name": "Bucharest source: bilete.operacomica.ro",
+      "url": "https://bilete.operacomica.ro/?e=35938&p=event",
+      "checkedAt": "2026-10-28T10:48:22.176629+00:00",
+      "status": "source_access_None",
+      "accessStatus": "source_access_None",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "bucharest-source-5e7a95b9a92a8d",
+      "name": "Bucharest source: bilete.operacomica.ro",
+      "url": "https://bilete.operacomica.ro/?e=35866&p=event",
+      "checkedAt": "2026-10-28T10:48:22.176629+00:00",
+      "status": "source_access_None",
+      "accessStatus": "source_access_None",
+      "count": 0,
+      "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

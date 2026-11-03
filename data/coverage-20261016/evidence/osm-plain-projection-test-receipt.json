@@ -1,0 +1,47 @@
+[
+  {
+    "city": "prague",
+    "retainedAdditions": 7949,
+    "baselineRows": 96,
+    "baselineUnchanged": true,
+    "semanticProjectionChecks": "passed",
+    "usesUnmodifiedRuntimeModel": true,
+    "parseMs": 17.6,
+    "connectMs": 45.17,
+    "connectedTotalPlaces": 8046,
+    "events": 389,
+    "linkedEvents": 380,
+    "unlinkedCulture": [],
+    "performanceEnvironment": "Node.js in cloud executor, not physical handset or mobile browser"
+  },
+  {
+    "city": "berlin",
+    "retainedAdditions": 20790,
+    "baselineRows": 27,
+    "baselineUnchanged": true,
+    "semanticProjectionChecks": "passed",
+    "usesUnmodifiedRuntimeModel": true,
+    "parseMs": 36.91,
+    "connectMs": 76.8,
+    "connectedTotalPlaces": 20826,
+    "events": 112,
+    "linkedEvents": 97,
+    "unlinkedCulture": [],
+    "performanceEnvironment": "Node.js in cloud executor, not physical handset or mobile browser"
+  },
+  {
+    "city": "limassol",
+    "retainedAdditions": 634,
+    "baselineRows": 8,
+    "baselineUnchanged": true,
+    "semanticProjectionChecks": "passed",
+    "usesUnmodifiedRuntimeModel": true,
+    "parseMs": 0.88,
+    "connectMs": 2.78,
+    "connectedTotalPlaces": 644,
+    "events": 48,
+    "linkedEvents": 45,
+    "unlinkedCulture": [],
+    "performanceEnvironment": "Node.js in cloud executor, not physical handset or mobile browser"
+  }
+]

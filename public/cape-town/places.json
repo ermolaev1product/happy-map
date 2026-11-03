@@ -1,0 +1,221 @@
+{
+  "city": "Cape Town",
+  "cityId": "cape-town",
+  "timezone": "Africa/Johannesburg",
+  "currency": "ZAR",
+  "generatedAt": "2026-10-29T21:38:16.490917+00:00",
+  "checkedAt": "2026-10-29T21:38:16.490917+00:00",
+  "coverage": "Selected primary cultural programmes across five venue points; not a complete city calendar. Nov2 has no timed starts; a genuine exhibition window does not conceal the gap.",
+  "operatingStatusVerified": false,
+  "description": "Sourced venue selection. A directory entry does not confirm opening today; check the venue before visiting.",
+  "places": [
+    {
+      "id": "cape-town-venue-amphitheatre",
+      "title": "V&A Waterfront Amphitheatre",
+      "venueId": "cape-town-venue-amphitheatre",
+      "address": "Quays District, V&A Waterfront, Cape Town",
+      "category": "city",
+      "lat": -33.90488,
+      "lng": 18.420094,
+      "coordinateSource": "https://www.cape-town-heritage.co.za/landmark/v-a-waterfront-amphitheatre.html",
+      "coordinatePrecision": "Independent Cape Town Heritage named open-air amphitheatre representative point, not entrance; own event names exact same Amphitheatre/Quays District. Decimal and DMS latitude agree to rounding; separate printed GPS minutes have a typo and are rejected.",
+      "coordinateEvidence": {
+        "latitude": -33.90488,
+        "longitude": 18.420094,
+        "precision": "Independent Cape Town Heritage named open-air amphitheatre representative point, not entrance; own event names exact same Amphitheatre/Quays District. Decimal and DMS latitude agree to rounding; separate printed GPS minutes have a typo and are rejected.",
+        "sourceUrl": "https://www.cape-town-heritage.co.za/landmark/v-a-waterfront-amphitheatre.html",
+        "checkedAt": "2026-10-29T16:29:03.121839+00:00",
+        "rawFile": "resume-20261029/research/cape-town/amphitheatre-geo/1af91ef5a2cdcfce.raw"
+      },
+      "source": "Verified named venue evidence",
+      "sourceUrl": "https://www.cape-town-heritage.co.za/landmark/v-a-waterfront-amphitheatre.html",
+      "checkedAt": "2026-10-29T16:29:03.121839+00:00",
+      "currency": "ZAR",
+      "timezone": "Africa/Johannesburg",
+      "provenance": {
+        "coordinateEvidence": {
+          "latitude": -33.90488,
+          "longitude": 18.420094,
+          "precision": "Independent Cape Town Heritage named open-air amphitheatre representative point, not entrance; own event names exact same Amphitheatre/Quays District. Decimal and DMS latitude agree to rounding; separate printed GPS minutes have a typo and are rejected.",
+          "sourceUrl": "https://www.cape-town-heritage.co.za/landmark/v-a-waterfront-amphitheatre.html",
+          "checkedAt": "2026-10-29T16:29:03.121839+00:00",
+          "rawFile": "resume-20261029/research/cape-town/amphitheatre-geo/1af91ef5a2cdcfce.raw"
+        },
+        "coordinateCheckedAt": "2026-10-29T16:29:03.121839+00:00"
+      },
+      "kind": "place",
+      "city": "Cape Town",
+      "cityId": "cape-town"
+    },
+    {
+      "id": "cape-town-venue-artscape",
+      "title": "Artscape Theatre Centre",
+      "venueId": "cape-town-venue-artscape",
+      "address": "D.F. Malan Street, Foreshore, Cape Town 8001",
+      "category": "city",
+      "lat": -33.91994596276222,
+      "lng": 18.430472210831383,
+      "coordinateSource": "https://www.webtickets.co.za/v2/event.aspx?itemid=1599032944",
+      "coordinatePrecision": "Own-linked ticket provider named Artscape venue destination; building representative, not room or entrance. Google destination URL read literally in retained HTML; Google not requested.",
+      "coordinateEvidence": {
+        "latitude": -33.91994596276222,
+        "longitude": 18.430472210831383,
+        "precision": "Own-linked ticket provider named Artscape venue destination; building representative, not room or entrance. Google destination URL read literally in retained HTML; Google not requested.",
+        "sourceUrl": "https://www.webtickets.co.za/v2/event.aspx?itemid=1599032944",
+        "checkedAt": "2026-10-29T16:18:22.809313+00:00",
+        "rawFile": "resume-20261029/research/cape-town/dracula-ticket/4df52e8818ce4fbc.raw"
+      },
+      "source": "Verified named venue evidence",
+      "sourceUrl": "https://www.webtickets.co.za/v2/event.aspx?itemid=1599032944",
+      "checkedAt": "2026-10-29T16:18:22.809313+00:00",
+      "currency": "ZAR",
+      "timezone": "Africa/Johannesburg",
+      "provenance": {
+        "coordinateEvidence": {
+          "latitude": -33.91994596276222,
+          "longitude": 18.430472210831383,
+          "precision": "Own-linked ticket provider named Artscape venue destination; building representative, not room or entrance. Google destination URL read literally in retained HTML; Google not requested.",
+          "sourceUrl": "https://www.webtickets.co.za/v2/event.aspx?itemid=1599032944",
+          "checkedAt": "2026-10-29T16:18:22.809313+00:00",
+          "rawFile": "resume-20261029/research/cape-town/dracula-ticket/4df52e8818ce4fbc.raw"
+        },
+        "coordinateCheckedAt": "2026-10-29T16:18:22.809313+00:00"
+      },
+      "kind": "place",
+      "city": "Cape Town",
+      "cityId": "cape-town"
+    },
+    {
+      "id": "cape-town-venue-baxter",
+      "title": "Baxter Theatre Centre",
+      "venueId": "cape-town-venue-baxter",
+      "address": "Main Road, Rondebosch, Cape Town",
+      "category": "city",
+      "lat": -33.956847,
+      "lng": 18.470494,
+      "coordinateSource": "https://www.webtickets.co.za/v2/event.aspx?itemid=1597601289",
+      "coordinatePrecision": "Own-linked ticket provider named Flipside/Baxter venue destination; building representative, not auditorium entrance. Google not requested.",
+      "coordinateEvidence": {
+        "latitude": -33.956847,
+        "longitude": 18.470494,
+        "precision": "Own-linked ticket provider named Flipside/Baxter venue destination; building representative, not auditorium entrance. Google not requested.",
+        "sourceUrl": "https://www.webtickets.co.za/v2/event.aspx?itemid=1597601289",
+        "checkedAt": "2026-10-29T16:19:36.798606+00:00",
+        "rawFile": "resume-20261029/research/cape-town/baxter-ticket/a2a7a6e966ee6c85.raw"
+      },
+      "source": "Verified named venue evidence",
+      "sourceUrl": "https://www.webtickets.co.za/v2/event.aspx?itemid=1597601289",
+      "checkedAt": "2026-10-29T16:19:36.798606+00:00",
+      "currency": "ZAR",
+      "timezone": "Africa/Johannesburg",
+      "provenance": {
+        "coordinateEvidence": {
+          "latitude": -33.956847,
+          "longitude": 18.470494,
+          "precision": "Own-linked ticket provider named Flipside/Baxter venue destination; building representative, not auditorium entrance. Google not requested.",
+          "sourceUrl": "https://www.webtickets.co.za/v2/event.aspx?itemid=1597601289",
+          "checkedAt": "2026-10-29T16:19:36.798606+00:00",
+          "rawFile": "resume-20261029/research/cape-town/baxter-ticket/a2a7a6e966ee6c85.raw"
+        },
+        "coordinateCheckedAt": "2026-10-29T16:19:36.798606+00:00"
+      },
+      "kind": "place",
+      "city": "Cape Town",
+      "cityId": "cape-town"
+    },
+    {
+      "id": "cape-town-venue-iziko-planetarium",
+      "title": "Iziko Planetarium and Digital Dome — South African Museum complex",
+      "venueId": "cape-town-venue-iziko-planetarium",
+      "address": "25 Queen Victoria Street, Gardens, Cape Town",
+      "category": "city",
+      "lat": -33.9287876,
+      "lng": 18.4150541,
+      "coordinateSource": "https://www.webtickets.co.za/event.aspx?itemid=1527098177",
+      "coordinatePrecision": "Named South African Museum building/complex representative point from own-linked Planetarium ticket page; NOT exact dome, room or entrance.",
+      "coordinateEvidence": {
+        "latitude": -33.9287876,
+        "longitude": 18.4150541,
+        "precision": "Named South African Museum building/complex representative point from own-linked Planetarium ticket page; NOT exact dome, room or entrance.",
+        "sourceUrl": "https://www.webtickets.co.za/event.aspx?itemid=1527098177",
+        "checkedAt": "2026-10-29T21:00:21.123811+00:00",
+        "rawFile": "resume-20261029/research/cape-town/breadth/planetarium-ticket/319508e9ded3a456.raw",
+        "evidence": "Ticket heading identifies Planetarium; Venue names Iziko South African Museum/Queen Victoria Street adjacent to explicit maps?q numeric destination. Independent ASSA locates the Planetarium within that museum. Google destination not requested.",
+        "independentLocationEvidence": {
+          "sourceUrl": "https://assa.saao.ac.za/astronomy-in-south-africa/planetaria/",
+          "checkedAt": "2026-10-29T21:01:04.100349+00:00",
+          "rawFile": "resume-20261029/research/cape-town/breadth/planetarium-association/fca7d3850f6e0ee3.raw",
+          "sha256": "94675026827c3048b430700fc90ef17d2a1f1b73aed67ed0e431e7023c433ad2"
+        }
+      },
+      "source": "Verified named venue evidence",
+      "sourceUrl": "https://www.webtickets.co.za/event.aspx?itemid=1527098177",
+      "checkedAt": "2026-10-29T21:00:21.123811+00:00",
+      "currency": "ZAR",
+      "timezone": "Africa/Johannesburg",
+      "provenance": {
+        "coordinateEvidence": {
+          "latitude": -33.9287876,
+          "longitude": 18.4150541,
+          "precision": "Named South African Museum building/complex representative point from own-linked Planetarium ticket page; NOT exact dome, room or entrance.",
+          "sourceUrl": "https://www.webtickets.co.za/event.aspx?itemid=1527098177",
+          "checkedAt": "2026-10-29T21:00:21.123811+00:00",
+          "rawFile": "resume-20261029/research/cape-town/breadth/planetarium-ticket/319508e9ded3a456.raw",
+          "evidence": "Ticket heading identifies Planetarium; Venue names Iziko South African Museum/Queen Victoria Street adjacent to explicit maps?q numeric destination. Independent ASSA locates the Planetarium within that museum. Google destination not requested.",
+          "independentLocationEvidence": {
+            "sourceUrl": "https://assa.saao.ac.za/astronomy-in-south-africa/planetaria/",
+            "checkedAt": "2026-10-29T21:01:04.100349+00:00",
+            "rawFile": "resume-20261029/research/cape-town/breadth/planetarium-association/fca7d3850f6e0ee3.raw",
+            "sha256": "94675026827c3048b430700fc90ef17d2a1f1b73aed67ed0e431e7023c433ad2"
+          }
+        },
+        "coordinateCheckedAt": "2026-10-29T21:00:21.123811+00:00"
+      },
+      "kind": "place",
+      "city": "Cape Town",
+      "cityId": "cape-town"
+    },
+    {
+      "id": "cape-town-venue-zeitz",
+      "title": "Zeitz Museum of Contemporary Art Africa",
+      "venueId": "cape-town-venue-zeitz",
+      "address": "Silo District, South Arm Road, V&A Waterfront, Cape Town",
+      "category": "city",
+      "lat": -33.9083833,
+      "lng": 18.4229806,
+      "coordinateSource": "https://artefacts.co.za/main/Buildings/bldgframes_mob.php?bldgid=14605",
+      "coordinatePrecision": "Independent architectural archive named museum-building representative point; not entrance, event room or Silo Hotel.",
+      "coordinateEvidence": {
+        "latitude": -33.9083833,
+        "longitude": 18.4229806,
+        "precision": "Independent architectural archive named museum-building representative point; not entrance, event room or Silo Hotel.",
+        "sourceUrl": "https://artefacts.co.za/main/Buildings/bldgframes_mob.php?bldgid=14605",
+        "checkedAt": "2026-10-29T20:45:50.577284+00:00",
+        "rawFile": "resume-20261029/research/cape-town/overnight/zeitz-architecture/4cff245923a0a9cd.raw",
+        "evidence": "Explicit L.marker([-33.9083833,18.4229806]) bound to full museum name. Printed33°54'30.17\"S18°25'22.73\"E agrees. Own museum and independent Waterfront confirm same converted grain silo in Silo District.",
+        "bodySHA256": "ad2528c7a020f86fc83b9a38b518efe5cefde22b596d7ca6643324e4b7899085"
+      },
+      "source": "Verified named venue evidence",
+      "sourceUrl": "https://artefacts.co.za/main/Buildings/bldgframes_mob.php?bldgid=14605",
+      "checkedAt": "2026-10-29T20:45:50.577284+00:00",
+      "currency": "ZAR",
+      "timezone": "Africa/Johannesburg",
+      "provenance": {
+        "coordinateEvidence": {
+          "latitude": -33.9083833,
+          "longitude": 18.4229806,
+          "precision": "Independent architectural archive named museum-building representative point; not entrance, event room or Silo Hotel.",
+          "sourceUrl": "https://artefacts.co.za/main/Buildings/bldgframes_mob.php?bldgid=14605",
+          "checkedAt": "2026-10-29T20:45:50.577284+00:00",
+          "rawFile": "resume-20261029/research/cape-town/overnight/zeitz-architecture/4cff245923a0a9cd.raw",
+          "evidence": "Explicit L.marker([-33.9083833,18.4229806]) bound to full museum name. Printed33°54'30.17\"S18°25'22.73\"E agrees. Own museum and independent Waterfront confirm same converted grain silo in Silo District.",
+          "bodySHA256": "ad2528c7a020f86fc83b9a38b518efe5cefde22b596d7ca6643324e4b7899085"
+        },
+        "coordinateCheckedAt": "2026-10-29T20:45:50.577284+00:00"
+      },
+      "kind": "place",
+      "city": "Cape Town",
+      "cityId": "cape-town"
+    }
+  ]
+}

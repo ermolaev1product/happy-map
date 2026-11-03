@@ -1,0 +1,128 @@
+{
+  "city": "Prague",
+  "checkedAt": "2026-10-15T11:09:00Z",
+  "sources": [
+    {
+      "id": "candidate:16223b543378243c",
+      "name": "Prague City Tourism event calendar",
+      "url": "https://prague.eu/en/akce-kategorie/events/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 384,
+      "note": "Public HTML includes individual occurrence date lists and numeric named-venue POI map fields. Synthetic 00:00/23:59 bounds are suppressed unless visible display format states those times.",
+      "type": "official_city_calendar"
+    },
+    {
+      "id": "candidate:a63bd267b6cf91e2",
+      "name": "GoOut Prague",
+      "url": "https://goout.net/en/prague/events/leznyvlkk/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_content_retrieved",
+      "accessStatus": "public_content_retrieved",
+      "count": 0,
+      "note": "Broad music, theatre, art, parties and food supply. Individual event pages provide full 2026 date ranges; city index often omits the year in display. Existing researched seed; access distinctions preserved.",
+      "type": "source_discovery"
+    },
+    {
+      "id": "candidate:49f98bd65d4015fe",
+      "name": "Ticketportal Czechia",
+      "url": "https://www.ticketportal.cz/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_content_retrieved",
+      "accessStatus": "public_content_retrieved",
+      "count": 0,
+      "note": "Readable national listings. Prague filtering and individual session/venue validation still needed; national page is not a city yield measurement. Existing researched seed; access distinctions preserved.",
+      "type": "source_discovery"
+    },
+    {
+      "id": "candidate:94153897a519a29b",
+      "name": "Prague Sounds programme / Brooklyn Rider",
+      "url": "https://praguesounds.cz/en/event/brooklyn-rider-glass-0PXJbF",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_content_retrieved",
+      "accessStatus": "public_content_retrieved",
+      "count": 0,
+      "note": "Organizer lists individual 2026 performances, local times and venues; includes early-November shows in scope and later shows out of scope. Existing researched seed; access distinctions preserved.",
+      "type": "source_discovery"
+    },
+    {
+      "id": "candidate:6e06834bc13ccc67",
+      "name": "National Theatre October programme",
+      "url": "https://www.narodni-divadlo.cz/en/program/pdf/2026/10",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_pdf_retrieved",
+      "accessStatus": "public_pdf_retrieved",
+      "count": 0,
+      "note": "One-page October 2026 PDF opened. Useful official theatre/opera/ballet source; no sample event extracted from this PDF in the packet. Existing researched seed; access distinctions preserved.",
+      "type": "source_discovery"
+    },
+    {
+      "id": "candidate:7f10c1b711ff6062",
+      "name": "Afisha Prague Czechia",
+      "url": "https://t.me/s/pragafisha",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_preview_retrieved",
+      "accessStatus": "public_preview_retrieved",
+      "count": 0,
+      "note": "Actual Russian-language community/event text public. Mixes commercial ads, overseas excursions, events without year and venue withheld until registration; do not ingest indiscriminately. Existing researched seed; access distinctions preserved.",
+      "type": "source_discovery"
+    },
+    {
+      "id": "candidate:f851e845f6ae2e01",
+      "name": "Prague City Tourism Instagram",
+      "url": "https://www.instagram.com/praguecitytourism/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "retrieval_error",
+      "accessStatus": "retrieval_error",
+      "count": 0,
+      "note": "Account ownership corroborated by tourism organization marketing page. Direct open failed; no dated post verified. Existing researched seed; access distinctions preserved.",
+      "type": "source_discovery"
+    },
+    {
+      "id": "candidate:68949ea9851343f7",
+      "name": "Signal Space Instagram",
+      "url": "https://www.instagram.com/signalspaceprague/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "retrieval_error",
+      "accessStatus": "retrieval_error",
+      "count": 0,
+      "note": "Exact venue profile is linked on the official Prague City Tourism Brooklyn Rider detail page; direct open failed. No event coverage asserted. Existing researched seed; access distinctions preserved.",
+      "type": "source_discovery"
+    },
+    {
+      "id": "candidate:6763df7cad1f4460",
+      "name": "Prague October recommendations thread",
+      "url": "https://www.reddit.com/r/Prague/comments/1x5oi5n/visiting_prague_this_is_the_monthly/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "search_index_only_open_cache_miss",
+      "accessStatus": "search_index_only_open_cache_miss",
+      "count": 0,
+      "note": "Exact monthly thread discovered in search but opening failed. Useful discovery lead only, not an official dated event. Existing researched seed; access distinctions preserved.",
+      "type": "source_discovery"
+    },
+    {
+      "id": "candidate:11f41defae7bbd06",
+      "name": "Urgant Live",
+      "url": "https://urgant.live/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "search_index_retrieved",
+      "accessStatus": "search_index_retrieved",
+      "count": 0,
+      "note": "Prague shows explicitly October 7 and 8, 2026, marked ended. Useful organizer seed, but excluded from Oct 15–Nov 13 examples. Existing researched seed; access distinctions preserved.",
+      "type": "source_discovery"
+    },
+    {
+      "id": "candidate:4ae6d1d66877bb26",
+      "name": "Expats event route attempt",
+      "url": "https://www.expats.cz/prague/events",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "retrieval_error",
+      "accessStatus": "retrieval_error",
+      "count": 0,
+      "note": "Attempted route returned Internal Error. Do not count it as a verified accessible calendar until canonical current events route is established. Existing researched seed; access distinctions preserved.",
+      "type": "source_discovery"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

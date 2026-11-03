@@ -1,0 +1,243 @@
+/* Keep the original palette and map; give the map the first screen. */
+.map-first .header{height:64px;gap:16px;padding:0 3%}
+.map-first .wordmark{font-size:27px;letter-spacing:-1.2px}
+.map-first .header .city{padding-left:12px}
+.map-first main{padding:0 3%}
+.map-first .intro,.map-first .search-row,.map-first .discovery-note,.map-first .week-note,.map-first .closing-note{display:none!important}
+.map-first .layer-tabs{margin:8px 0;gap:5px}
+.map-first .layer-tabs button{padding:7px 12px;font-size:12px;min-height:34px}
+.map-first .calendar-row{padding:6px 0;gap:12px}
+.map-first .month-label{font-size:12px;min-width:95px}
+.map-first .week-caption{display:none}
+.map-first .day{height:45px;width:48px;gap:4px;border-radius:10px}
+.map-first .day .day-num{font-size:18px}
+.map-first .filters-row{padding:3px 0 8px}
+.map-first .category{padding:7px 10px;font-size:12px;min-height:34px}
+.map-first .category .icon{width:13px;height:13px}
+.map-first .workspace{padding-top:0;gap:16px}
+.map-first .map-shell,.map-first.nearby-view .map-shell,.map-first.places-view .map-shell{height:calc(100svh - 225px);min-height:420px}
+.map-first .map-feature{display:none}
+.map-options{margin:14px 0;border:1px solid #e5e6e0;border-radius:14px;padding:12px 16px}
+.map-options summary{cursor:pointer;font-size:13px;font-weight:500}
+.map-options .filter-actions{margin-top:14px;display:flex;gap:8px;flex-wrap:wrap}
+.map-options .extra-filters{padding:15px 0 0;flex-wrap:wrap}
+.map-options .catalog-status{margin-top:14px;font-size:12px}
+@media(max-width:760px){
+.map-first .header{height:auto;min-height:58px;flex-wrap:wrap;gap:8px;padding:10px 3%}
+.map-first .header .wordmark{font-size:23px}.map-first .header .happymap-mark{width:22px;height:22px}
+.map-first #addOwnEvent{font-size:11px!important;padding:9px 10px!important}
+.map-first .calendar-row{gap:4px}.map-first .month-label{display:none}
+.map-first .day{height:43px;width:auto;flex:1}
+.map-first .layer-tabs button{font-size:11px;padding:6px 8px;min-height:34px}
+.map-first .map-shell,.map-first.nearby-view .map-shell,.map-first.places-view .map-shell{height:calc(100svh - 245px);min-height:340px}
+.map-options .filter-actions{width:auto;flex-wrap:wrap}
+}
+
+.leaflet-tile-pane{filter:grayscale(.85) saturate(.35) contrast(.88) brightness(1.075)}
+#addOwnEvent{background:#f5bb47;color:#28251b;border:0;border-radius:24px;padding:10px 16px;font:inherit;font-size:12px;font-weight:600;cursor:pointer}
+.language-switch{display:inline-flex;gap:3px;white-space:nowrap}.language-switch a{font:600 12px inherit;padding:7px;text-decoration:none;color:inherit;border-radius:8px}.language-switch a[aria-current]{background:#e9ebe6}
+@media(max-width:760px){.header nav{gap:4px}.header .nav-tab{font-size:12px;padding:6px}.language-switch a{padding:5px}.header{column-gap:6px!important}}
+.map-first .header{gap:8px}
+#addOwnEvent{white-space:nowrap;flex-shrink:0}
+.map-first .header .app-download{padding:10px 12px!important;font-size:12px!important;min-height:36px!important;white-space:nowrap}
+.map-first .header nav{gap:4px}.map-first .header .nav-tab{padding:8px;font-size:12px;white-space:nowrap}
+.map-first .header .social-nav{padding:8px 10px;font-size:12px}
+@media(min-width:761px) and (max-width:1150px){.map-first .header{flex-wrap:wrap;height:auto;min-height:64px;padding-top:8px;padding-bottom:8px}.map-first .wordmark{font-size:24px}.map-first .header .city{padding-left:0}}
+
+/* Readable navigation at normal laptop scale, shared by both languages. */
+.map-first .header{height:auto;min-height:76px;gap:12px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px}
+.map-first .header .wordmark{font-size:32px;white-space:nowrap}
+.map-first .header .city-picker select{font-size:16px;min-height:44px;max-width:150px}
+.map-first .header .nav-tab,.map-first .header .social-nav{font-size:16px;padding:10px 14px;min-height:44px}
+.map-first .header .nav-count{font-size:13px}
+.map-first .header .app-download{font-size:16px!important;padding:12px 16px!important;min-height:44px!important}
+.map-first #addOwnEvent{font-size:16px!important;padding:12px 18px!important;min-height:44px}
+.map-first .language-switch a{font-size:16px;min-width:40px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+.map-first .more-menu summary{min-width:44px;min-height:44px;display:flex;align-items:center;justify-content:center}
+.map-first .layer-tabs button{font-size:16px;min-height:44px;padding:10px 16px}
+.map-first .month-label{font-size:15px;min-width:110px}
+.map-first .day{height:54px;width:56px;gap:4px}
+.map-first .day .day-name{font-size:14px;color:#5e635b}
+.map-first .day .day-num{font-size:22px}
+.map-first .week-button{font-size:16px;min-height:44px}
+.map-first .category{font-size:15px;min-height:44px;padding:10px 14px}
+.map-first .category .icon{width:17px;height:17px}
+.map-first .map-shell,.map-first.nearby-view .map-shell,.map-first.places-view .map-shell{height:calc(100svh - 270px)}
+@media(max-width:1300px) and (min-width:761px){.map-first .header nav{margin-left:auto}.map-first .map-shell{height:calc(100svh - 320px)}}
+@media(max-width:760px){
+.map-first .header{gap:8px;min-height:64px;padding-top:8px;padding-bottom:8px}
+.map-first .header .wordmark{font-size:27px}
+.map-first .header .nav-tab,.map-first .header .social-nav,.map-first .header .app-download,.map-first #addOwnEvent{font-size:14px!important;padding:10px 12px!important}
+.map-first .layer-tabs button{font-size:14px;padding:9px 12px}
+.map-first .category{font-size:14px;padding:9px 12px}
+.map-first .day{width:auto;min-width:0;height:50px}
+.map-first .day .day-name{font-size:12px}.map-first .day .day-num{font-size:20px}
+.map-first .week-button{font-size:14px;width:70px;min-width:70px}
+.map-first .map-shell,.map-first.nearby-view .map-shell,.map-first.places-view .map-shell{height:calc(100svh - 300px)}
+}
+@media(min-width:761px) and (max-width:1450px){
+.map-first .header{display:grid;grid-template-columns:auto auto 1fr auto auto;gap:8px 12px}
+.map-first .header .wordmark{grid-column:1;grid-row:1}
+.map-first .header .city{grid-column:2;grid-row:1;padding-left:0}
+.map-first .header .language-switch{grid-column:5;grid-row:1;justify-self:end}
+.map-first .header nav{grid-column:1;grid-row:2;margin:0}
+.map-first .header .social-nav{grid-column:2;grid-row:2;margin:0;justify-self:start}
+.map-first .header .app-download{grid-column:3;grid-row:2;justify-self:end;margin:0}
+.map-first .header .more-menu{grid-column:4;grid-row:2}
+.map-first .header #addOwnEvent{grid-column:5;grid-row:2}
+}
+/* City picker: one visual language with the map controls. */
+.map-first .header .city-menu{position:relative;border-left:0;padding-left:0;z-index:1100;overflow:visible}
+.city-menu select[hidden],.city-menu-list[hidden]{display:none!important}
+.city-menu-trigger{display:flex;align-items:center;gap:20px;justify-content:space-between;min-height:46px;padding:10px 14px;border:1px solid #e5e6e0;border-radius:14px;background:#f5f6f2;color:#242721;font:600 16px/1.3 'Golos Text',system-ui,sans-serif;white-space:nowrap;cursor:pointer}
+.city-menu-trigger:hover,.city-menu-trigger[aria-expanded=true]{background:#eceee7;border-color:#cdd2c6}
+.city-menu-arrow{font-size:20px;line-height:1;color:#65705f}
+.city-menu-list{position:absolute;top:calc(100% + 10px);left:0;width:240px;max-width:calc(100vw - 32px);padding:8px;background:#fff;border:1px solid #e2e5db;border-radius:18px;box-shadow:0 14px 40px #202d2029;max-height:65vh;overflow:auto}
+.city-menu-option{display:flex;align-items:center;justify-content:space-between;gap:20px;width:100%;min-height:48px;padding:12px 14px;border:0;border-radius:11px;background:transparent;color:#242721;text-align:left;font:500 16px/1.4 'Golos Text',system-ui,sans-serif;cursor:pointer}
+.city-menu-option:hover,.city-menu-option:focus-visible{background:#f3f5ef;outline:2px solid #cdd5c5;outline-offset:-2px}
+.city-menu-option[aria-selected=true]{background:#fff1d2;color:#4c3a15;font-weight:650}
+.city-menu-check{visibility:hidden;color:#735415}.city-menu-option[aria-selected=true] .city-menu-check{visibility:visible}
+.city-menu-trigger:focus-visible{outline:3px solid #d99d35;outline-offset:3px}
+@media(max-width:760px){.city-menu-list{width:220px}.city-menu-trigger{font-size:16px}}
+
+/* Keep the wider city visible while the search circle focuses the nearby list. */
+.compact-pin.search-context{opacity:.8;filter:grayscale(.4)}
+.compact-pin.search-context:hover,.compact-pin.search-context:focus-visible{opacity:1;filter:none}
+.compact-pin.search-focus .compact-dot{box-shadow:0 0 0 2px #4669ed}
+
+
+/* Primary discovery choices: obvious before secondary header actions. */
+.map-first .layer-tabs{
+ display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+ width:min(100%,560px);gap:6px;margin:12px 0;padding:6px;
+ background:#f0f1ef;border:1px solid #dfe2dd;border-radius:18px;
+}
+.map-first .layer-tabs button{
+ position:relative;min-width:0;min-height:52px;padding:12px 18px 14px;
+ border:1px solid transparent;border-radius:12px;background:transparent;
+ color:#62675f;font-size:17px;font-weight:650;line-height:1.2;
+ white-space:normal;cursor:pointer;transition:background .15s,border-color .15s;
+}
+.map-first .layer-tabs button:hover:not([aria-pressed="true"]){background:#e7e9e5;border-color:#d6dad2}
+.map-first .layer-tabs button[aria-pressed="true"]{
+ background:#e5d2a8;border-color:#8b7346;color:#49310f;font-weight:750;
+ box-shadow:0 1px 4px #27332212;
+}
+/* Plans only shows the two saved-content choices. */
+.map-first.plan-view .layer-tabs{grid-template-columns:repeat(2,minmax(0,1fr));width:min(100%,560px)}
+/* The short underline makes selection visible without relying on colour. */
+.map-first .layer-tabs button[aria-pressed="true"]::after{
+ content:"";position:absolute;bottom:5px;left:calc(50% - 14px);
+ width:28px;height:3px;border-radius:3px;background:currentColor;
+}
+.map-first .layer-tabs button:focus-visible{
+ outline:3px solid #67745f;outline-offset:3px;z-index:1;
+}
+.map-first #addOwnEvent{
+ background:#dce8cf;color:#2f4429;border:1px solid #a9bf96;box-shadow:0 2px 4px #354a2510;
+ font-size:14px!important;font-weight:700;padding:11px 14px!important;
+}
+.map-first #addOwnEvent:hover{background:#cddfbc;border-color:#91ac7a}
+.map-first #addOwnEvent:focus-visible{outline:3px solid #526e42;outline-offset:3px}
+@media(max-width:760px){
+ .map-first .layer-tabs{width:100%;gap:4px;padding:5px;margin:10px 0;border-radius:16px}
+ .map-first .layer-tabs button{min-height:48px;font-size:16px;padding:11px 8px 13px;border-radius:11px}
+ .map-first #addOwnEvent{font-size:13px!important;padding:10px 12px!important}
+}
+@media(max-width:360px){.map-first .layer-tabs button{font-size:14px;padding-left:4px;padding-right:4px}}
+@media(prefers-reduced-motion:reduce){.map-first .layer-tabs button{transition:none}}
+
+/* Equal-width, equally readable primary modes. Warm colour belongs to selection. */
+.map-first .layer-tabs{width:min(100%,560px);grid-template-columns:repeat(2,minmax(0,1fr))}
+.map-first .discovery-note:not([hidden]){display:block!important;margin:0 0 10px;font-size:13px;line-height:1.45;color:#596052;max-width:850px}
+.map-first .discovery-note[hidden]{display:none!important}
+@media(max-width:760px){.map-first .layer-tabs button{padding-left:6px;padding-right:6px}.map-first .discovery-note:not([hidden]){font-size:12px}}
+
+/* Leaflet panes have no intrinsic width: give hover previews a real measure
+   instead of letting their text collapse into a tall, one-word column. */
+.leaflet-tooltip.event-tooltip {
+ width:260px;max-width:calc(100vw - 48px);min-width:0;
+ padding:10px 12px;font-size:13px;line-height:18px;
+ white-space:normal;overflow:hidden;overflow-wrap:break-word;
+ display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;
+ max-height:56px;border-radius:10px;pointer-events:none;
+}
+
+/* Date scope is a selection, not a warning or destructive action. */
+.map-first #wholeWeek{background:#fff;color:#485248;border:1px solid #d3dacf;border-radius:12px;box-shadow:none;width:auto;min-width:116px;padding:10px 16px;transition:background .15s,border-color .15s}
+.map-first #wholeWeek:hover{background:#f1f4ee;border-color:#aab8a0}
+.map-first #wholeWeek.active,.map-first #wholeWeek[aria-pressed="true"]{background:#e4ebdd;color:#34412e;border-color:#a8b79a;font-weight:600}
+.map-first #wholeWeek[aria-pressed="true"]::before{content:'✓';display:inline-block;margin-right:8px}
+.map-first #wholeWeek:focus-visible{outline:2px solid #667d54;outline-offset:3px}
+
+/* Mobile hierarchy: brand and app download, then city and language. Secondary actions
+   share the existing menu, leaving one sticky header above the map. */
+@media(max-width:760px){
+ html:has(.header--compact){scroll-padding-top:calc(112px + env(safe-area-inset-top,0px))}
+ .map-first .header.header--compact{
+  display:grid;grid-template-columns:minmax(0,1fr) auto 44px;grid-template-rows:44px 44px;
+  align-items:center;gap:4px 8px!important;width:100%;min-height:0;height:auto;
+  margin:0;padding:calc(6px + env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) 6px max(12px,env(safe-area-inset-left,0px));
+  position:sticky;top:0;z-index:1200;background:#fff;border-bottom:1px solid #e2e5df;
+ }
+ .header--compact>*{order:0!important;min-width:0}
+ .map-first .header--compact>.wordmark{
+  grid-column:1;grid-row:1;font-size:22px;line-height:1.2;font-weight:700;letter-spacing:-.7px;
+ }
+ .header--compact>.wordmark .sunmark,.header--compact>.wordmark .happymap-mark{display:none}
+ .map-first .header--compact>.app-download{
+  grid-column:2;grid-row:1;display:inline-flex;align-items:center;justify-content:center;
+  white-space:nowrap;min-height:40px!important;padding:8px 12px!important;font-size:13px!important;
+  margin:0;background:#ffe4a0;border-color:#d5a33f;color:#5b3c0b;gap:6px;
+ }
+ .map-first .header--compact>.more-menu{grid-column:3;grid-row:1;position:relative;margin:0;justify-self:end}
+ .map-first .header--compact>.more-menu>summary{
+  display:flex;position:relative;align-items:center;justify-content:center;width:44px;height:44px;
+  min-width:44px;min-height:44px;padding:0;border:1px solid #e2e5df;border-radius:10px;
+  font-size:0;letter-spacing:0;background:#fff;color:#3c4439;
+ }
+ .header--compact>.more-menu>summary::before{content:"";width:18px;height:12px;border-top:1.5px solid currentColor;border-bottom:1.5px solid currentColor}
+ .header--compact>.more-menu>summary::after{content:"";position:absolute;width:18px;border-top:1.5px solid currentColor}
+ .header--compact>.more-menu[open]>summary{background:#f3f5f0;border-color:#b7c0b1}
+ .map-first .header--compact>.more-menu>div{
+  top:calc(100% + 8px);right:0;min-width:0;width:min(292px,calc(100vw - 24px));
+  max-height:calc(100dvh - 80px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));
+  overflow:auto;overscroll-behavior:contain;border-radius:12px;box-shadow:0 12px 32px #2532211f;
+ }
+ .map-first .header--compact>.more-menu>div>*{
+  min-height:44px;padding:12px!important;border:0;border-radius:8px;margin:0;box-shadow:none;
+  font-size:14px!important;font-weight:500;line-height:1.4;background:transparent;color:#30382d;
+ }
+ .map-first .header--compact>.more-menu>div>*:hover{background:#f2f4ef}
+ .map-first .header--compact>.more-menu #addOwnEvent{
+  background:transparent;color:#30382d;border:0;border-radius:8px;box-shadow:none;
+  min-height:44px;padding:12px!important;font-size:14px!important;font-weight:500;text-align:left;
+ }
+ .map-first .header--compact>.more-menu #addOwnEvent:hover{background:#f2f4ef}
+ .map-first .header--compact>.city-picker{
+  grid-column:1;grid-row:2;display:flex;justify-self:stretch;width:100%;margin:0;padding:0;border:0;
+ }
+ .header--compact .city-menu-trigger{
+  width:100%;min-height:44px;min-width:0;padding:8px 0;border:0;border-radius:6px;background:transparent;
+  justify-content:flex-start;gap:8px;font-size:15px;font-weight:550;line-height:1.3;
+ }
+ .header--compact .city-menu-trigger>span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ .header--compact .city-menu-arrow{font-size:17px;flex-shrink:0}
+ .header--compact .city-menu-list{top:calc(100% + 4px);max-height:calc(100dvh - 130px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));border-radius:12px}
+ .map-first .header--compact>.language-switch{grid-column:2 / 4;grid-row:2;justify-self:end;gap:2px;align-items:center}
+ .map-first .header--compact>.language-switch a{min-width:38px;min-height:44px;padding:8px;font-size:12px;font-weight:550;border-radius:6px;color:#6b7366}
+ .map-first .header--compact>.language-switch a[aria-current]{background:#f0f2ed;color:#30382d;font-weight:700}
+ .map-first .header--compact>nav{display:none}
+ .map-first:has(.header--compact) .mobile-nav .download-tab{display:none}
+ .map-first:has(.header--compact) .mobile-nav .bottom-peace{display:flex;align-items:center;justify-content:center;min-height:44px;font-size:12px!important;color:#62695e!important;font-weight:400!important;padding:8px 3px;white-space:nowrap}
+ .map-first:has(.header--compact) footer [data-peace]{display:inline-flex}
+ .header--compact :is(button,a,summary):focus-visible{outline:2px solid #765015;outline-offset:2px}
+}
+
+/* The city is context, not a menu of every destination. */
+.map-first .header .city-context{display:flex;flex-direction:column;align-items:flex-start;gap:0;border-left:0;padding-left:0;min-width:0;max-width:210px}
+.city-context .current-city{font-size:16px;font-weight:600;line-height:1.35;overflow-wrap:anywhere}
+.city-context .change-city{display:inline-flex;align-items:center;min-height:32px;padding:4px 0;color:#59654e;font-size:12px;font-weight:400;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.city-context .change-city:hover{color:#30382d}
+.city-context .change-city:focus-visible{outline:2px solid #a16c18;outline-offset:3px;border-radius:3px}
+@media(max-width:760px){.map-first .header--compact>.city-context{flex-direction:column;align-items:flex-start;justify-content:center;gap:0;max-width:none;min-height:44px}.city-context .current-city{font-size:15px;min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.city-context .change-city{min-height:24px;padding:2px 0;font-size:12px;flex-shrink:0}}

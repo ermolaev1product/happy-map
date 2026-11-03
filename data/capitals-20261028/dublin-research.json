@@ -1,0 +1,2709 @@
+{
+  "city": "Dublin",
+  "countryCode": "IE",
+  "windowStart": "2026-10-28",
+  "windowEnd": "2026-11-26",
+  "timezone": "Europe/Dublin",
+  "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+  "complete": false,
+  "mainSource": {
+    "url": "https://dublin.ie/whats-on/",
+    "status": "bounded_fresh_detail_recovery",
+    "fullCardsFetched": 55,
+    "note": "Full HTML/text fetched for 55 known cards; only selected candidate facts semantically rechecked for promotion."
+  },
+  "reserveSource": {
+    "url": "https://www.visitdublin.com/events",
+    "status": "selected_five_full_details_fresh_read"
+  },
+  "programmes": [
+    {
+      "id": "dub-4",
+      "title": "Little Red & The Big Bad Wolf",
+      "summary": "Семейная музыкальная версия Красной Шапочки на Хеллоуин.",
+      "summaryEn": "A family musical retelling of Little Red Riding Hood for Halloween.",
+      "categories": [
+        "theatre",
+        "family"
+      ],
+      "venue": "Ambassador Theatre",
+      "venueDetail": "Ambassador Theatre",
+      "address": "Upper O’Connell Street, Rotunda, Dublin 1",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.mcd.ie/artists/little-red-the-big-bad-wolf",
+      "sourceUrls": [
+        "https://www.mcd.ie/artists/little-red-the-big-bad-wolf",
+        "https://dublin.ie/whats-on/listings/little-red-the-big-bad-wolf-2/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-4.json",
+        "event-4.json"
+      ],
+      "yearEvidenceUrl": "https://www.mcd.ie/artists/little-red-the-big-bad-wolf",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-10-28",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "evidenceUrl": "https://www.mcd.ie/artists/little-red-the-big-bad-wolf"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "evidenceUrl": "https://www.mcd.ie/artists/little-red-the-big-bad-wolf"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "evidenceUrl": "https://www.mcd.ie/artists/little-red-the-big-bad-wolf"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 24.15,
+        "max": null,
+        "details": "€24.15 single; €91.60 family of four, advertised fees included."
+      },
+      "restrictions": "От 4 лет; двери 13:00, спектакль 14:00; 60 минут без антракта.",
+      "restrictionsEn": "Ages 4+. Doors 13:00, show 14:00; 60 minutes without interval.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "three_explicit_2026_dates_and_60_minute_duration",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.mcd.ie/artists/little-red-the-big-bad-wolf",
+        "classification": "explicit_primary_prose_duration"
+      },
+      "ticketUrl": "https://www.ticketmaster.ie/artist/5708273?camefrom=CFC_IE_CLI_MCDWEB_ARTIST_LR&TBBW",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.352914,
+      "longitude": -6.262148,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.352914,-6.262148&query_place_id=ChIJjwUL0IYOZ0gRHoJ8GVJuDaU",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/little-red-the-big-bad-wolf-2/",
+        "localSnapshot": "event-4.html",
+        "checkedAt": "2026-10-28T07:47:07.687766+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-9",
+      "title": "MoLI’s Haunted Literary Tour",
+      "summary": "Литературные легенды и призраки в историческом доме MoLI.",
+      "summaryEn": "Literary legends and ghost stories in MoLI’s historic house.",
+      "categories": [
+        "tour",
+        "museum"
+      ],
+      "venue": "MoLI — Museum of Literature Ireland",
+      "venueDetail": "MoLI — Museum of Literature Ireland",
+      "address": "UCD Newman House, 85 St Stephen’s Green, Dublin 2",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://moli.ie/events/molis-haunted-literary-tour",
+      "sourceUrls": [
+        "https://moli.ie/events/molis-haunted-literary-tour",
+        "https://dublin.ie/whats-on/listings/haunted-literary-tours-samhain-at-moli/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-9.json",
+        "event-9.json"
+      ],
+      "yearEvidenceUrl": "https://moli.ie/events/molis-haunted-literary-tour",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-10-28",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "evidenceUrl": "https://moli.ie/events/molis-haunted-literary-tour"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "evidenceUrl": "https://moli.ie/events/molis-haunted-literary-tour"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "evidenceUrl": "https://moli.ie/events/molis-haunted-literary-tour"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "13:00",
+          "endTime": "14:00",
+          "evidenceUrl": "https://moli.ie/events/molis-haunted-literary-tour"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "evidenceUrl": "https://moli.ie/events/molis-haunted-literary-tour"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "13:00",
+          "endTime": "14:00",
+          "evidenceUrl": "https://moli.ie/events/molis-haunted-literary-tour"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "evidenceUrl": "https://moli.ie/events/molis-haunted-literary-tour"
+        },
+        {
+          "date": "2026-11-02",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "evidenceUrl": "https://moli.ie/events/molis-haunted-literary-tour"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 18,
+        "max": 18,
+        "details": "€18; MoLI members 50% off; children 12 and under free with paying adult."
+      },
+      "restrictions": "Бронирование обязательно, мест мало.",
+      "restrictionsEn": "Booking required; limited places.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "Primary extends municipal dates to 2 November; extra 13:00 tours 31 October and 1 November."
+      ],
+      "scheduleEvidence": {
+        "method": "explicit_daily_tour_and_two_extra_dated_slots",
+        "sourceFirstDate": "2026-10-24",
+        "sourceLastDate": "2026-11-02",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://moli.ie/events/molis-haunted-literary-tour",
+        "classification": "explicit_own_event_programme_or_access_window"
+      },
+      "ticketUrl": "https://moli.ie/events/molis-haunted-literary-tour",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3367903,
+      "longitude": -6.2601607,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3367903,-6.2601607&query_place_id=ChIJofOaL58OZ0gRD8SCnNbYPgA",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/haunted-literary-tours-samhain-at-moli/",
+        "localSnapshot": "event-9.html",
+        "checkedAt": "2026-10-28T07:47:10.147719+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-18",
+      "title": "ANIMALS",
+      "summary": "Абсурдистский спектакль по рассказам Blindboyboatclub.",
+      "summaryEn": "An absurdist stage production based on Blindboyboatclub’s stories.",
+      "categories": [
+        "theatre"
+      ],
+      "venue": "Abbey Theatre",
+      "venueDetail": "Abbey Theatre",
+      "address": "26/27 Lower Abbey Street, Dublin 1, D01 K0F1",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.abbeytheatre.ie/whats-on/animals/",
+      "sourceUrls": [
+        "https://www.abbeytheatre.ie/whats-on/animals/",
+        "https://dublin.ie/whats-on/listings/animals/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-18.json",
+        "event-18.json"
+      ],
+      "yearEvidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-10-28",
+          "startTime": "19:30",
+          "endTime": "22:25",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "19:30",
+          "endTime": "22:25",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "19:30",
+          "endTime": "22:25",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "14:00",
+          "endTime": "16:55",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "19:30",
+          "endTime": "22:25",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        },
+        {
+          "date": "2026-11-02",
+          "startTime": "19:30",
+          "endTime": "22:25",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "19:30",
+          "endTime": "22:25",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "19:30",
+          "endTime": "22:25",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "19:30",
+          "endTime": "22:25",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "19:30",
+          "endTime": "22:25",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "14:00",
+          "endTime": "16:55",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "19:30",
+          "endTime": "22:25",
+          "evidenceUrl": "https://www.abbeytheatre.ie/whats-on/animals/"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 15,
+        "max": 55,
+        "details": "€15–55 plus booking fee."
+      },
+      "restrictions": "16+; дым, туман, травяные сигареты и мигающий свет. 2 ч 55 мин с антрактом.",
+      "restrictionsEn": "16+; smoke, haze, herbal cigarettes and flashing lights. 2 hours 55 minutes including interval.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "31 October 14:00 is audio-described/captioned. Wednesday matinee is only 7 October, outside window."
+      ],
+      "scheduleEvidence": {
+        "method": "bounded_explicit_Mon_Sat_evenings_and_Saturday_matinees",
+        "sourceFirstDate": "2026-09-23",
+        "sourceLastDate": "2026-11-07",
+        "durationMinutes": 175,
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.abbeytheatre.ie/whats-on/animals/",
+        "classification": "explicit_primary_prose_duration"
+      },
+      "ticketUrl": "https://booking.abbeytheatre.ie/events/19755?hidedate",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3483986,
+      "longitude": -6.2571782,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3483986,-6.2571782&query_place_id=ChIJTbhZoYUOZ0gRNnQpVyd85Cs",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/animals/",
+        "localSnapshot": "event-18.html",
+        "checkedAt": "2026-10-28T07:47:17.815673+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-19",
+      "title": "Moving Signatures — Technologies of Peace",
+      "summary": "Рассматривание искусства и двигательная мастерская в IMMA.",
+      "summaryEn": "Slow-looking art tours and a movement workshop at IMMA.",
+      "categories": [
+        "workshop",
+        "art"
+      ],
+      "venue": "IMMA — Creativity Hub",
+      "venueDetail": "IMMA — Creativity Hub",
+      "address": "Royal Hospital Kilmainham, Military Road, Kilmainham, Dublin 8, D08 FW31",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.coisceim.com/dance/broadreach/moving-signatures-technologies-of-peace/",
+      "sourceUrls": [
+        "https://www.coisceim.com/dance/broadreach/moving-signatures-technologies-of-peace/",
+        "https://dublin.ie/whats-on/listings/moving-signatures/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-19.json",
+        "event-19.json"
+      ],
+      "yearEvidenceUrl": "https://www.coisceim.com/dance/broadreach/moving-signatures-technologies-of-peace/",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-10-31",
+          "startTime": "10:30",
+          "endTime": "13:30",
+          "evidenceUrl": "https://www.coisceim.com/dance/broadreach/moving-signatures-technologies-of-peace/"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "10:30",
+          "endTime": "13:30",
+          "evidenceUrl": "https://www.coisceim.com/dance/broadreach/moving-signatures-technologies-of-peace/"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "10:30",
+          "endTime": "13:30",
+          "evidenceUrl": "https://www.coisceim.com/dance/broadreach/moving-signatures-technologies-of-peace/"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 0,
+        "max": 0,
+        "details": "Free; booking required."
+      },
+      "restrictions": "Для взрослых; опыт не нужен.",
+      "restrictionsEn": "For adults; no experience needed.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "Pin is IMMA campus, not the specific Creativity Hub entrance."
+      ],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.coisceim.com/dance/broadreach/moving-signatures-technologies-of-peace/",
+        "classification": "explicit_own_event_programme_or_access_window"
+      },
+      "ticketUrl": "https://imma.ticketsolve.com/ticketbooth/shows/873689958",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3427934,
+      "longitude": -6.3000033,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3427934,-6.3000033&query_place_id=ChIJzX_9LkYMZ0gRzmoOXjab3AM",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/moving-signatures/",
+        "localSnapshot": "event-19.html",
+        "checkedAt": "2026-10-28T07:47:17.803753+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-30",
+      "title": "Tim Burton’s Universe — Mystery Ensemble",
+      "summary": "Камерный концерт музыки из фильмов Тима Бёртона.",
+      "summaryEn": "A chamber concert of music from Tim Burton’s films.",
+      "categories": [
+        "music"
+      ],
+      "venue": "O’Reilly Theatre",
+      "venueDetail": "O’Reilly Theatre",
+      "address": "6 Great Denmark Street, Rotunda, Dublin 1",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://redevents.world/event/918-tim-burton-s-universe-by-mystery-ensemble.html",
+      "sourceUrls": [
+        "https://redevents.world/event/918-tim-burton-s-universe-by-mystery-ensemble.html",
+        "https://dublin.ie/whats-on/listings/tim-burtons-universe-by-mystery-ensemble/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-30.json",
+        "event-30.json"
+      ],
+      "yearEvidenceUrl": "https://redevents.world/event/918-tim-burton-s-universe-by-mystery-ensemble.html",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-10-31",
+          "startTime": "17:00",
+          "endTime": "18:00",
+          "evidenceUrl": "https://redevents.world/event/918-tim-burton-s-universe-by-mystery-ensemble.html"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "19:00",
+          "endTime": "20:00",
+          "evidenceUrl": "https://redevents.world/event/918-tim-burton-s-universe-by-mystery-ensemble.html"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 20,
+        "max": null,
+        "details": "From €20; final ticket band/fees at organiser."
+      },
+      "restrictions": "6+; двери за 30 минут, опоздавшим вход может быть отказан; 60 минут.",
+      "restrictionsEn": "6+; doors 30 minutes before; late entry may be refused; 60 minutes.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "Ignore erroneous JSON-LD endDate equal to startDate; use explicit 60-minute duration."
+      ],
+      "scheduleEvidence": {
+        "method": "two_visible_start_times_and_explicit_60min_duration_year_from_Event_startDate",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://redevents.world/event/918-tim-burton-s-universe-by-mystery-ensemble.html",
+        "classification": "explicit_primary_prose_duration"
+      },
+      "ticketUrl": "https://redevents.world/event/918-tim-burton-s-universe-by-mystery-ensemble.html",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3556337,
+      "longitude": -6.2620851,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3556337,-6.2620851&query_place_id=ChIJVYdTQocOZ0gRS3DhnmpR37g",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/tim-burtons-universe-by-mystery-ensemble/",
+        "localSnapshot": "event-30.html",
+        "checkedAt": "2026-10-28T07:47:23.844017+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-33",
+      "title": "The Liberties Haunt",
+      "summary": "Семейный районный Хеллоуин с домом ужасов и сценой.",
+      "summaryEn": "A neighbourhood Halloween celebration with a haunted house and live stage.",
+      "categories": [
+        "festival",
+        "family"
+      ],
+      "venue": "Digital Hub Depot",
+      "venueDetail": "Digital Hub Depot",
+      "address": "Roe Lane, The Liberties, Dublin 8, D08 TCV4",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.dublincity.ie/events/liberties-haunt",
+      "sourceUrls": [
+        "https://www.dublincity.ie/events/liberties-haunt",
+        "https://dublin.ie/whats-on/listings/the-liberties-haunt/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-33.json",
+        "event-33.json"
+      ],
+      "yearEvidenceUrl": "https://www.dublincity.ie/events/liberties-haunt",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-10-31",
+          "startTime": "16:30",
+          "endTime": "20:30",
+          "evidenceUrl": "https://www.dublincity.ie/events/liberties-haunt"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 0,
+        "max": 0,
+        "details": "Free according to dublin.ie."
+      },
+      "restrictions": "16:30–17:30 сенсорно-дружественный час; основная программа 17:30–20:30.",
+      "restrictionsEn": "Sensory-friendly hour 16:30–17:30; main programme 17:30–20:30.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "One overall access interval, sensory hour not counted twice."
+      ],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.dublincity.ie/events/liberties-haunt",
+        "classification": "explicit_own_event_programme_or_access_window"
+      },
+      "ticketUrl": null,
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3440308,
+      "longitude": -6.283706,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3440308,-6.283706&query_place_id=ChIJezr9lzoMZ0gRYGq1ZoA-bh0",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/the-liberties-haunt/",
+        "localSnapshot": "event-33.html",
+        "checkedAt": "2026-10-28T07:47:23.844111+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-37",
+      "title": "ClothesCycle — Dublin Thrift Market",
+      "summary": "Рынок винтажной и подержанной одежды с музыкой и обменом вещами.",
+      "summaryEn": "A vintage and pre-loved fashion market with music and clothes swapping.",
+      "categories": [
+        "market",
+        "festival"
+      ],
+      "venue": "RDS Halls 3 & 4",
+      "venueDetail": "RDS Halls 3 & 4",
+      "address": "Royal Dublin Society, 4 Anglesea Road, Ballsbridge, Dublin 4, D04 N2A4",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.clothescyclemarkets.co.uk/event-details/europes-largest-thrift-market-dublin-1-1",
+      "sourceUrls": [
+        "https://www.clothescyclemarkets.co.uk/event-details/europes-largest-thrift-market-dublin-1-1",
+        "https://dublin.ie/whats-on/listings/europes-largest-thrift-festival/",
+        "https://www.visitdublin.com/clothes-cycle-rds"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-37.json",
+        "event-37.json",
+        "reserve-clothes-cycle-rds.json"
+      ],
+      "yearEvidenceUrl": "https://www.clothescyclemarkets.co.uk/event-details/europes-largest-thrift-market-dublin-1-1",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-01",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "evidenceUrl": "https://www.clothescyclemarkets.co.uk/event-details/europes-largest-thrift-market-dublin-1-1"
+        }
+      ],
+      "currency": null,
+      "price": {
+        "min": null,
+        "max": null,
+        "details": "Currency conflict: organiser lists GBP ticket prices plus VAT/service fee; municipality lists EUR. No conversion or numeric headline price."
+      },
+      "restrictions": "Вход по времени билета. VIP 10:00 sold out; опубликованный общий вход с 11:00. Для других слотов свои условия.",
+      "restrictionsEn": "Timed ticket required. 10:00 VIP is sold out; published general admission starts at 11:00. Other slots have their own conditions.",
+      "availability": "10:00 VIP sold out; 11:00 general-admission ticket option displayed; no checkout performed",
+      "notes": [
+        "Event access window ends 18:00. Earlier municipal RDS Arena pin rejected; replaced by official Hall 4 pin."
+      ],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.clothescyclemarkets.co.uk/event-details/europes-largest-thrift-market-dublin-1-1",
+        "classification": "explicit_own_event_programme_or_access_window"
+      },
+      "ticketUrl": "https://www.clothescyclemarkets.co.uk/event-details/europes-largest-thrift-market-dublin-1-1",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3271747,
+      "longitude": -6.229338599999999,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=RDS Hall 4 (Industries Hall), Anglesea Rd, Ballsbridge, Dublin 4, D04 AK83, Ireland&query_place_id=ChIJHcHyccYOZ0gR6iQVKFhjbZ4",
+      "pinEvidence": {
+        "method": "official_tourism_named_venue_embedded_map_marker",
+        "sourceUrl": "https://www.visitdublin.com/clothes-cycle-rds",
+        "localSnapshot": "reserve-clothes-cycle-rds.html",
+        "checkedAt": "2026-10-28T07:52:46.479487+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-41",
+      "title": "Theatre Room: Food for Thought",
+      "summary": "Дневной театральный симпозиум с участием зрителей.",
+      "summaryEn": "A daytime performance symposium with audience participation.",
+      "categories": [
+        "theatre",
+        "talk"
+      ],
+      "venue": "Smock Alley Theatre — Main Space",
+      "venueDetail": "Smock Alley Theatre — Main Space",
+      "address": "Exchange Street Lower, Temple Bar, Dublin 8, D08 EH67",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://smockalley.com/theatre-room-food-for-thought-daylight-performance-symposium/",
+      "sourceUrls": [
+        "https://smockalley.com/theatre-room-food-for-thought-daylight-performance-symposium/",
+        "https://dublin.ie/whats-on/listings/theatre-room-food-for-thought-a-daylight-performance-symposium/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-41.json",
+        "event-41.json"
+      ],
+      "yearEvidenceUrl": "https://smockalley.com/theatre-room-food-for-thought-daylight-performance-symposium/",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-04",
+          "startTime": "14:00",
+          "endTime": "17:00",
+          "evidenceUrl": "https://smockalley.com/theatre-room-food-for-thought-daylight-performance-symposium/"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 21,
+        "max": 21,
+        "details": "€21 standard; €16 concession; Food For Thought Pack €10."
+      },
+      "restrictions": "12+; 3 часа с 25-минутным антрактом.",
+      "restrictionsEn": "12+; 3 hours including a 25-minute interval.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_2026_start_and_3h_duration",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://smockalley.com/theatre-room-food-for-thought-daylight-performance-symposium/",
+        "classification": "explicit_primary_prose_duration"
+      },
+      "ticketUrl": "https://smockalley.ticketsolve.com/",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3450078,
+      "longitude": -6.2691663,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3450078,-6.2691663&query_place_id=ChIJfVel4icMZ0gRMSOJzby2Cuw",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/theatre-room-food-for-thought-a-daylight-performance-symposium/",
+        "localSnapshot": "event-41.html",
+        "checkedAt": "2026-10-28T07:47:31.608992+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-tattoo",
+      "title": "International Dublin Tattoo Convention",
+      "summary": "Конвенция тату-искусства, выставки и развлекательная программа.",
+      "summaryEn": "A tattoo-art convention with exhibitions and live entertainment.",
+      "categories": [
+        "festival",
+        "art"
+      ],
+      "venue": "RDS Main Hall",
+      "venueDetail": "RDS Main Hall",
+      "address": "Merrion Road, Ballsbridge, Dublin 4",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.dublintattooconvention.com/info/",
+      "sourceUrls": [
+        "https://www.dublintattooconvention.com/info/",
+        "https://www.dublintattooconvention.com/faqs/",
+        "https://dublin.ie/whats-on/listings/dublin-tattoo-convention/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "tattoo-info.json",
+        "tattoo-faq.json",
+        "event-43.json"
+      ],
+      "yearEvidenceUrl": "https://www.dublintattooconvention.com/info/",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-06",
+          "startTime": "18:00",
+          "endTime": "23:00",
+          "evidenceUrl": "https://www.dublintattooconvention.com/info/"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "11:15",
+          "endTime": "21:00",
+          "evidenceUrl": "https://www.dublintattooconvention.com/info/"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "11:15",
+          "endTime": "19:00",
+          "evidenceUrl": "https://www.dublintattooconvention.com/info/"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 16.5,
+        "max": null,
+        "details": "From €16.50 according to dublin.ie; tattoos charged separately."
+      },
+      "restrictions": "До 18 лет с взрослым; до 14 лет бесплатно с взрослым. 10:45 ранний вход с предкупленным билетом, 11:15 общий.",
+      "restrictionsEn": "Under-18s with an adult; under-14s free with adult. Advance-ticket entry 10:45; general entry 11:15.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.dublintattooconvention.com/info/",
+        "classification": "explicit_own_event_programme_or_access_window"
+      },
+      "ticketUrl": "https://www.dublintattooconvention.com/tickets/",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3276868,
+      "longitude": -6.22895189999997,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3276868,-6.22895189999997&query_place_id=",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/dublin-tattoo-convention/",
+        "localSnapshot": "event-43.html",
+        "checkedAt": "2026-10-28T07:47:34.247786+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-45",
+      "title": "Let’s Talk Science Festival",
+      "summary": "Семейный день науки с опытами и демонстрациями.",
+      "summaryEn": "A family science day with experiments and demonstrations.",
+      "categories": [
+        "science",
+        "family"
+      ],
+      "venue": "Rediscovery Centre",
+      "venueDetail": "Rediscovery Centre",
+      "address": "The Boilerhouse, Main Street, Ballymun, Dublin 9, D09 HK58",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.rediscoverycentre.ie/workshops/lets-talk-science-festival-2026/",
+      "sourceUrls": [
+        "https://www.rediscoverycentre.ie/workshops/lets-talk-science-festival-2026/",
+        "https://dublin.ie/whats-on/listings/lets-talk-science-festival/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-45.json",
+        "event-45.json"
+      ],
+      "yearEvidenceUrl": "https://www.rediscoverycentre.ie/workshops/lets-talk-science-festival-2026/",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-07",
+          "startTime": "11:00",
+          "endTime": "16:00",
+          "evidenceUrl": "https://www.rediscoverycentre.ie/workshops/lets-talk-science-festival-2026/"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 0,
+        "max": 0,
+        "details": "Free according to dublin.ie."
+      },
+      "restrictions": "Дети с взрослым; свободное посещение 11:00–16:00.",
+      "restrictionsEn": "Children with an adult; drop in between 11:00 and 16:00.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.rediscoverycentre.ie/workshops/lets-talk-science-festival-2026/",
+        "classification": "explicit_own_event_programme_or_access_window"
+      },
+      "ticketUrl": "https://www.eventbrite.ie/e/lets-talk-science-festival-2026-tickets-1999164020401",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.397774,
+      "longitude": -6.2632391,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.397774,-6.2632391&query_place_id=ChIJZej7BR0OZ0gRcKyVFctdoXM",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/lets-talk-science-festival/",
+        "localSnapshot": "event-45.html",
+        "checkedAt": "2026-10-28T07:47:35.031934+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-58",
+      "title": "Clare Sands",
+      "summary": "Концерт ирландской фолк-музыки и двуязычных песен.",
+      "summaryEn": "Irish folk music and bilingual songs performed live.",
+      "categories": [
+        "music"
+      ],
+      "venue": "Dublin Unitarian Church",
+      "venueDetail": "Dublin Unitarian Church",
+      "address": "St Stephen’s Green, Dublin 2, D02 YP23",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.tickettailor.com/events/claresands/2209111",
+      "sourceUrls": [
+        "https://www.tickettailor.com/events/claresands/2209111",
+        "https://dublin.ie/whats-on/listings/clare-sands/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-58.json",
+        "event-58.json"
+      ],
+      "yearEvidenceUrl": "https://www.tickettailor.com/events/claresands/2209111",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-13",
+          "startTime": "19:30",
+          "endTime": "22:00",
+          "evidenceUrl": "https://www.tickettailor.com/events/claresands/2209111"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 22,
+        "max": 25,
+        "details": "€22–25 according to dublin.ie; additional fees not confirmed."
+      },
+      "restrictions": "",
+      "restrictionsEn": "",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.tickettailor.com/events/claresands/2209111",
+        "classification": "own_full_primary_event_header_interval_only_not_independent_prose_duration"
+      },
+      "ticketUrl": "https://www.tickettailor.com/checkout/view-event/id/8253005/chk/fc98/?modal_widget=true&widget=true",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3379902,
+      "longitude": -6.2626471,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3379902,-6.2626471&query_place_id=ChIJg6ae8J4OZ0gRHEV22wUD4sg",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/clare-sands/",
+        "localSnapshot": "event-58.html",
+        "checkedAt": "2026-10-28T07:47:51.415774+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-60",
+      "title": "DCU Open Day — Glasnevin Campus",
+      "summary": "Знакомство с программами и университетской жизнью DCU.",
+      "summaryEn": "Explore DCU’s courses and campus life.",
+      "categories": [
+        "education"
+      ],
+      "venue": "DCU Glasnevin Campus",
+      "venueDetail": "DCU Glasnevin Campus",
+      "address": "Collins Avenue Extension, Whitehall, Dublin 9",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.dcu.ie/openday",
+      "sourceUrls": [
+        "https://www.dcu.ie/openday",
+        "https://dublin.ie/whats-on/listings/dcu-open-day/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-60.json",
+        "event-60.json"
+      ],
+      "yearEvidenceUrl": "https://www.dcu.ie/openday",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-13",
+          "startTime": "10:00",
+          "endTime": "15:00",
+          "evidenceUrl": "https://www.dcu.ie/openday"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "10:00",
+          "endTime": "14:00",
+          "evidenceUrl": "https://www.dcu.ie/openday"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 0,
+        "max": 0,
+        "details": "Free; registration required."
+      },
+      "restrictions": "",
+      "restrictionsEn": "",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "Only Glasnevin Campus included. St Patrick’s Campus is a different site and not placed at this pin. Campus-level pin."
+      ],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.dcu.ie/openday",
+        "classification": "explicit_own_event_programme_or_access_window"
+      },
+      "ticketUrl": "https://www.dcu.ie/openday",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3850942,
+      "longitude": -6.2576761,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3850942,-6.2576761&query_place_id=ChIJ4xBIOREOZ0gRUKRlmx0DDCw",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/dcu-open-day/",
+        "localSnapshot": "event-60.html",
+        "checkedAt": "2026-10-28T07:47:53.786272+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-ai",
+      "title": "AI Awards 2026",
+      "summary": "Церемония, обсуждения и нетворкинг сообщества искусственного интеллекта.",
+      "summaryEn": "An awards ceremony, discussions and networking for Ireland’s AI community.",
+      "categories": [
+        "conference",
+        "technology"
+      ],
+      "venue": "Radisson Blu Royal Hotel",
+      "venueDetail": "Radisson Blu Royal Hotel",
+      "address": "Golden Lane, Dublin 8",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+      "sourceUrls": [
+        "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+        "https://aiawards.ie/",
+        "https://dublin.ie/whats-on/listings/ai-awards/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "ticket-66.json",
+        "primary-66.json",
+        "event-66.json"
+      ],
+      "yearEvidenceUrl": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-17",
+          "startTime": "09:30",
+          "endTime": "14:00",
+          "doorsTime": "08:30",
+          "evidenceUrl": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 250,
+        "max": 250,
+        "details": "€250 full ticket; nominees €99, students €49 subject to conditions; early bird over."
+      },
+      "restrictions": "Билет и ID обязательны; smart casual. Регистрация 08:30, программа 09:30; обед включён.",
+      "restrictionsEn": "Ticket and ID required; smart casual. Registration 08:30, programme 09:30; lunch included.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+        "classification": "explicit_own_event_programme_or_access_window"
+      },
+      "ticketUrl": "https://www.eventbrite.ie/e/ai-awards-2026-tickets-1991069116325",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3408763,
+      "longitude": -6.2683225,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3408763,-6.2683225&query_place_id=ChIJ0WxXRycMZ0gRIv3nDVYfRjM",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/ai-awards/",
+        "localSnapshot": "event-66.html",
+        "checkedAt": "2026-10-28T07:47:56.487890+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-71",
+      "title": "The Seagull",
+      "summary": "Современная сценическая версия «Чайки» Чехова.",
+      "summaryEn": "A contemporary stage adaptation of Chekhov’s The Seagull.",
+      "categories": [
+        "theatre"
+      ],
+      "venue": "Smock Alley Theatre — Main Space",
+      "venueDetail": "Smock Alley Theatre — Main Space",
+      "address": "Exchange Street Lower, Temple Bar, Dublin 8, D08 EH67",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.smockalley.com/the-seagull/",
+      "sourceUrls": [
+        "https://www.smockalley.com/the-seagull/",
+        "https://dublin.ie/whats-on/listings/the-seagull/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-71.json",
+        "event-71.json"
+      ],
+      "yearEvidenceUrl": "https://www.smockalley.com/the-seagull/",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-20",
+          "startTime": "19:00",
+          "endTime": "21:50",
+          "evidenceUrl": "https://www.smockalley.com/the-seagull/"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "19:30",
+          "endTime": "22:20",
+          "evidenceUrl": "https://www.smockalley.com/the-seagull/"
+        },
+        {
+          "date": "2026-11-23",
+          "startTime": "19:00",
+          "endTime": "21:50",
+          "evidenceUrl": "https://www.smockalley.com/the-seagull/"
+        },
+        {
+          "date": "2026-11-24",
+          "startTime": "19:00",
+          "endTime": "21:50",
+          "evidenceUrl": "https://www.smockalley.com/the-seagull/"
+        },
+        {
+          "date": "2026-11-25",
+          "startTime": "19:00",
+          "endTime": "21:50",
+          "evidenceUrl": "https://www.smockalley.com/the-seagull/"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "19:00",
+          "endTime": "21:50",
+          "evidenceUrl": "https://www.smockalley.com/the-seagull/"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 24,
+        "max": 27,
+        "details": "€24–27; groups of 6+ €22 each."
+      },
+      "restrictions": "12+; 2 ч 50 мин с антрактом. Нет воскресных спектаклей.",
+      "restrictionsEn": "12+; 2 hours 50 minutes including interval. No Sunday performances.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "Saturday matinees begin 28 November, outside window."
+      ],
+      "scheduleEvidence": {
+        "method": "explicit_bounded_weekdays_and_Saturdays_no_Sundays_plus170min_duration",
+        "sourceFirstDate": "2026-11-20",
+        "sourceLastDate": "2026-12-12",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.smockalley.com/the-seagull/",
+        "classification": "explicit_primary_prose_duration"
+      },
+      "ticketUrl": "https://smockalley.ticketsolve.com/",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3450078,
+      "longitude": -6.2691663,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3450078,-6.2691663&query_place_id=ChIJfVel4icMZ0gRMSOJzby2Cuw",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/the-seagull/",
+        "localSnapshot": "event-71.html",
+        "checkedAt": "2026-10-28T07:48:05.113597+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-76",
+      "title": "Trinity Undergraduate Open Day",
+      "summary": "День открытых дверей: курсы, преподаватели, студенты и экскурсии по кампусу.",
+      "summaryEn": "An open day with course talks, staff, students and campus tours.",
+      "categories": [
+        "education"
+      ],
+      "venue": "Trinity College Dublin",
+      "venueDetail": "Trinity College Dublin",
+      "address": "College Green, Dublin 2",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.tcd.ie/openday/",
+      "sourceUrls": [
+        "https://www.tcd.ie/openday/",
+        "https://dublin.ie/whats-on/listings/trinity-open-day/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-76.json",
+        "event-76.json"
+      ],
+      "yearEvidenceUrl": "https://www.tcd.ie/openday/",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-21",
+          "startTime": "10:00",
+          "endTime": "16:30",
+          "evidenceUrl": "https://www.tcd.ie/openday/"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 0,
+        "max": 0,
+        "details": "Free according to dublin.ie."
+      },
+      "restrictions": "",
+      "restrictionsEn": "",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "Campus-level pin; individual lecture rooms and tour starts are not separately expanded."
+      ],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.tcd.ie/openday/",
+        "classification": "explicit_own_event_programme_or_access_window"
+      },
+      "ticketUrl": "https://www.tcd.ie/cao/#d.en.2535251",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3437935,
+      "longitude": -6.254571599999963,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3437935,-6.254571599999963&query_place_id=",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/trinity-open-day/",
+        "localSnapshot": "event-76.html",
+        "checkedAt": "2026-10-28T07:48:10.079799+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-martin-angolo-nov-2026",
+      "title": "Martin Angolo: Live",
+      "summary": "Стендап-концерт ирландского комика.",
+      "summaryEn": "An Irish stand-up comedy show.",
+      "categories": [
+        "comedy"
+      ],
+      "venue": "Whelan’s Main Venue",
+      "venueDetail": "Whelan’s Main Venue",
+      "address": "25 Wexford Street, Dublin 2, D02 H527",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.whelanslive.com/event/martin-angolo/",
+      "sourceUrls": [
+        "https://www.whelanslive.com/event/martin-angolo/",
+        "https://www.visitdublin.com/martin-angolo-nov-2026"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "reserve-primary-martin-angolo-nov-2026.json",
+        "reserve-martin-angolo-nov-2026.json"
+      ],
+      "yearEvidenceUrl": "https://www.visitdublin.com/martin-angolo-nov-2026",
+      "yearEvidenceMethod": "explicit_2026_in_full_official_tourism_event_date_with_primary_start_and_details_crosscheck",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-02",
+          "startTime": "20:00",
+          "endTime": "22:45",
+          "evidenceUrl": "https://www.visitdublin.com/martin-angolo-nov-2026"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 23.4,
+        "max": 23.4,
+        "details": "€23.40 plus €1 service charge."
+      },
+      "restrictions": "Строго 18+, возможна проверка ID; ограниченные незакреплённые сидячие места/стоячая зона.",
+      "restrictionsEn": "Strictly 18+; ID may be required; limited unreserved seating/standing.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "End time is published in full official VisitDublin detail, not independently stated in venue prose. Preserve as published end, not observed actual finish."
+      ],
+      "scheduleEvidence": {
+        "method": "primary_start_date_crosschecked_official_tourism_interval",
+        "sourceUrl": "https://www.visitdublin.com/martin-angolo-nov-2026",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.visitdublin.com/martin-angolo-nov-2026",
+        "classification": "official_tourism_interval_only_primary_prose_no_end"
+      },
+      "ticketUrl": "https://www.whelanslive.com/ticket/martin-angolo/",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.33658,
+      "longitude": -6.265715,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=Whelan's, 25 Wexford St, Portobello, Dublin 2, D02 H527, Ireland&query_place_id=ChIJeVe40Z8OZ0gRWQrpG0YiJXA",
+      "pinEvidence": {
+        "method": "official_tourism_named_venue_embedded_map_marker",
+        "sourceUrl": "https://www.visitdublin.com/martin-angolo-nov-2026",
+        "localSnapshot": "reserve-martin-angolo-nov-2026.html",
+        "checkedAt": "2026-10-28T07:52:43.284659+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-bed-nov-2026",
+      "title": "bed — Irish debut",
+      "summary": "Дебютный ирландский концерт японской постпанк-группы.",
+      "summaryEn": "The Japanese post-punk band’s Irish debut.",
+      "categories": [
+        "music"
+      ],
+      "venue": "Whelan’s Upstairs",
+      "venueDetail": "Whelan’s Upstairs",
+      "address": "25 Wexford Street, Dublin 2, D02 H527",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.whelanslive.com/event/bed/",
+      "sourceUrls": [
+        "https://www.whelanslive.com/event/bed/",
+        "https://www.visitdublin.com/bed-nov-2026"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "reserve-primary-bed-nov-2026.json",
+        "reserve-bed-nov-2026.json"
+      ],
+      "yearEvidenceUrl": "https://www.visitdublin.com/bed-nov-2026",
+      "yearEvidenceMethod": "explicit_2026_in_full_official_tourism_event_date_with_primary_start_and_details_crosscheck",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-03",
+          "startTime": "20:00",
+          "endTime": "22:30",
+          "evidenceUrl": "https://www.visitdublin.com/bed-nov-2026"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 18,
+        "max": 18,
+        "details": "€18 plus €0.50 service charge."
+      },
+      "restrictions": "Строго 18+, возможна проверка ID; последующая дискотека не включена. Общий вход, только стоячие места.",
+      "restrictionsEn": "Strictly 18+; ID may be required; later silent disco not included. General admission; standing only.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "End time is published in full official VisitDublin detail, not independently stated in venue prose. Preserve as published end, not observed actual finish."
+      ],
+      "scheduleEvidence": {
+        "method": "primary_start_date_crosschecked_official_tourism_interval",
+        "sourceUrl": "https://www.visitdublin.com/bed-nov-2026",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.visitdublin.com/bed-nov-2026",
+        "classification": "official_tourism_interval_only_primary_prose_no_end"
+      },
+      "ticketUrl": "https://www.whelanslive.com/ticket/bed/",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.33658,
+      "longitude": -6.265715,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=Whelan's, 25 Wexford St, Portobello, Dublin 2, D02 H527, Ireland&query_place_id=ChIJeVe40Z8OZ0gRWQrpG0YiJXA",
+      "pinEvidence": {
+        "method": "official_tourism_named_venue_embedded_map_marker",
+        "sourceUrl": "https://www.visitdublin.com/bed-nov-2026",
+        "localSnapshot": "reserve-bed-nov-2026.html",
+        "checkedAt": "2026-10-28T07:52:43.310748+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-better-call-solomons-james-joyce-and-the-solomons-family",
+      "title": "Better Call Solomons",
+      "summary": "Лекция о семье Соломонс и Джеймсе Джойсе.",
+      "summaryEn": "A lecture on the Solomons family and James Joyce.",
+      "categories": [
+        "talk",
+        "literature"
+      ],
+      "venue": "James Joyce Centre",
+      "venueDetail": "James Joyce Centre",
+      "address": "35 North Great George’s Street, Dublin 1, D01 WK44",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://jamesjoyce.ie/events/better-call-solomons/",
+      "sourceUrls": [
+        "https://jamesjoyce.ie/events/better-call-solomons/",
+        "https://www.visitdublin.com/better-call-solomons-james-joyce-and-the-solomons-family"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "reserve-primary-better-call-solomons-james-joyce-and-the-solomons-family.json",
+        "reserve-better-call-solomons-james-joyce-and-the-solomons-family.json"
+      ],
+      "yearEvidenceUrl": "https://www.visitdublin.com/better-call-solomons-james-joyce-and-the-solomons-family",
+      "yearEvidenceMethod": "explicit_2026_in_full_official_tourism_event_date_with_primary_start_and_details_crosscheck",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-03",
+          "startTime": "18:30",
+          "endTime": "19:30",
+          "evidenceUrl": "https://www.visitdublin.com/better-call-solomons-james-joyce-and-the-solomons-family"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 5,
+        "max": 5,
+        "details": "€5."
+      },
+      "restrictions": "Двери 18:00.",
+      "restrictionsEn": "Doors at 18:00.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "End time is published in full official VisitDublin detail, not independently stated in venue prose. Preserve as published end, not observed actual finish."
+      ],
+      "scheduleEvidence": {
+        "method": "primary_start_date_crosschecked_official_tourism_interval",
+        "sourceUrl": "https://www.visitdublin.com/better-call-solomons-james-joyce-and-the-solomons-family",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.visitdublin.com/better-call-solomons-james-joyce-and-the-solomons-family",
+        "classification": "official_tourism_interval_only_primary_prose_no_end"
+      },
+      "ticketUrl": "https://www.eventbrite.ie/e/better-call-solomons-james-joyce-and-the-solomons-family-tickets-2003713580257",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3541941,
+      "longitude": -6.259980499999999,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=James Joyce Centre, James Joyce House, 35 N Great George's St, Rotunda, Basement, Co. Dublin, D01 WK44, Ireland&query_place_id=ChIJV2soBIcOZ0gRPPBrxva2Twg",
+      "pinEvidence": {
+        "method": "official_tourism_named_venue_embedded_map_marker",
+        "sourceUrl": "https://www.visitdublin.com/better-call-solomons-james-joyce-and-the-solomons-family",
+        "localSnapshot": "reserve-better-call-solomons-james-joyce-and-the-solomons-family.html",
+        "checkedAt": "2026-10-28T07:52:43.939631+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026",
+      "title": "Inclusive Accessible Tour — Hilma af Klint",
+      "summary": "Доступная экскурсия по выставке Хильмы аф Клинт.",
+      "summaryEn": "An accessible guided tour of the Hilma af Klint exhibition.",
+      "categories": [
+        "tour",
+        "art"
+      ],
+      "venue": "National Gallery of Ireland",
+      "venueDetail": "National Gallery of Ireland",
+      "address": "Merrion Square West, Dublin 2, D02 K303; meet at ticket desk near Clare Street entrance",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.nationalgallery.ie/whats-on/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary",
+      "sourceUrls": [
+        "https://www.nationalgallery.ie/whats-on/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary",
+        "https://www.visitdublin.com/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "reserve-primary-inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026.json",
+        "reserve-inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026.json"
+      ],
+      "yearEvidenceUrl": "https://www.visitdublin.com/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026",
+      "yearEvidenceMethod": "explicit_2026_in_full_official_tourism_event_date_with_primary_start_and_details_crosscheck",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-03",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "evidenceUrl": "https://www.visitdublin.com/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 14.2,
+        "max": null,
+        "details": "Tour free, relevant exhibition timeslot ticket required; VisitDublin advertises €14.20."
+      },
+      "restrictions": "Встреча у стойки рядом с Clare Street; T-loop гарнитуры для слабослышащих.",
+      "restrictionsEn": "Meet at the ticket desk near Clare Street; T-loop headsets available.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "End time is published in full official VisitDublin detail, not independently stated in venue prose. Preserve as published end, not observed actual finish."
+      ],
+      "scheduleEvidence": {
+        "method": "primary_start_date_crosschecked_official_tourism_interval",
+        "sourceUrl": "https://www.visitdublin.com/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.visitdublin.com/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026",
+        "classification": "own_full_primary_event_header_interval_only_not_independent_prose_duration"
+      },
+      "ticketUrl": null,
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3408887,
+      "longitude": -6.2522962,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=National Gallery of Ireland, Merrion Square W, Dublin 2, D02 K303, Ireland&query_place_id=ChIJb1ecSpcOZ0gRMQ3w0Qyz_Vg",
+      "pinEvidence": {
+        "method": "official_tourism_named_venue_embedded_map_marker",
+        "sourceUrl": "https://www.visitdublin.com/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026",
+        "localSnapshot": "reserve-inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026.html",
+        "checkedAt": "2026-10-28T07:52:46.575827+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-2378950",
+      "title": "Dreamgun Film Reads: Jumanji",
+      "summary": "Комедийное чтение переработанного сценария Jumanji.",
+      "summaryEn": "A comic reading of a rewritten Jumanji script.",
+      "categories": [
+        "comedy",
+        "podcast"
+      ],
+      "venue": "Hen’s Teeth",
+      "venueDetail": "Hen’s Teeth",
+      "address": "Blackpitts, Dublin 8, D08 A9FD",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2378950",
+      "sourceUrls": [
+        "https://www.tickettailor.com/events/cheerfulearfulireland/2378950",
+        "https://dublin.ie/whats-on/listings/cheerful-earful/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "podcast-2378950.json",
+        "event-50.json"
+      ],
+      "yearEvidenceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2378950",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-08",
+          "startTime": "13:00",
+          "endTime": "14:00",
+          "evidenceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2378950"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": null,
+        "max": null,
+        "details": "Individual show price not established; festival-wide minimum not assigned."
+      },
+      "restrictions": "Живая запись, зритель может попасть в неё; места без закрепления; доступный первый этаж.",
+      "restrictionsEn": "Live recording may include the audience; unreserved seating; accessible ground floor.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2378950",
+        "classification": "explicit_primary_prose_duration"
+      },
+      "ticketUrl": "https://www.tickettailor.com/checkout/view-event/id/8961242/chk/8d36ade8c14ece4fb391052a2f8443b8/?modal_widget=true&widget=true",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3367333,
+      "longitude": -6.2750908,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3367333,-6.2750908&query_place_id=ChIJGZn6rJ0OZ0gRuOorwxqJ32I",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/cheerful-earful/",
+        "localSnapshot": "event-50.html",
+        "checkedAt": "2026-10-28T07:47:40.027766+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-2369574",
+      "title": "Weird Ireland — Live",
+      "summary": "Истории о необычных местах и легендах Ирландии.",
+      "summaryEn": "Stories about Ireland’s unusual places and legends.",
+      "categories": [
+        "comedy",
+        "podcast"
+      ],
+      "venue": "Hen’s Teeth",
+      "venueDetail": "Hen’s Teeth",
+      "address": "Blackpitts, Dublin 8, D08 A9FD",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2369574",
+      "sourceUrls": [
+        "https://www.tickettailor.com/events/cheerfulearfulireland/2369574",
+        "https://dublin.ie/whats-on/listings/cheerful-earful/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "podcast-2369574.json",
+        "event-50.json"
+      ],
+      "yearEvidenceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2369574",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-08",
+          "startTime": "14:30",
+          "endTime": "15:30",
+          "evidenceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2369574"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": null,
+        "max": null,
+        "details": "Individual show price not established; festival-wide minimum not assigned."
+      },
+      "restrictions": "Живая запись, зритель может попасть в неё; места без закрепления; доступный первый этаж.",
+      "restrictionsEn": "Live recording may include the audience; unreserved seating; accessible ground floor.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2369574",
+        "classification": "explicit_primary_prose_duration"
+      },
+      "ticketUrl": "https://www.tickettailor.com/checkout/view-event/id/8917420/chk/06c7ff96197fc2f2b0dfd8fec262f242/?modal_widget=true&widget=true",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3367333,
+      "longitude": -6.2750908,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3367333,-6.2750908&query_place_id=ChIJGZn6rJ0OZ0gRuOorwxqJ32I",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/cheerful-earful/",
+        "localSnapshot": "event-50.html",
+        "checkedAt": "2026-10-28T07:47:40.027766+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-2346724",
+      "title": "The Bad Articles: Lock-In",
+      "summary": "Импровизационная комедия о паранормальном агентстве.",
+      "summaryEn": "An improvised comedy about a supernatural agency.",
+      "categories": [
+        "comedy",
+        "podcast"
+      ],
+      "venue": "Hen’s Teeth",
+      "venueDetail": "Hen’s Teeth",
+      "address": "Blackpitts, Dublin 8, D08 A9FD",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2346724",
+      "sourceUrls": [
+        "https://www.tickettailor.com/events/cheerfulearfulireland/2346724",
+        "https://dublin.ie/whats-on/listings/cheerful-earful/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "podcast-2346724.json",
+        "event-50.json"
+      ],
+      "yearEvidenceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2346724",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-08",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "evidenceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2346724"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": null,
+        "max": null,
+        "details": "Individual show price not established; festival-wide minimum not assigned."
+      },
+      "restrictions": "Живая запись, зритель может попасть в неё; места без закрепления; доступный первый этаж.",
+      "restrictionsEn": "Live recording may include the audience; unreserved seating; accessible ground floor.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2346724",
+        "classification": "explicit_primary_prose_duration"
+      },
+      "ticketUrl": "https://www.tickettailor.com/checkout/view-event/id/8818820/chk/2baa327530418c71b1d326d6a1175018/?modal_widget=true&widget=true",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3367333,
+      "longitude": -6.2750908,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3367333,-6.2750908&query_place_id=ChIJGZn6rJ0OZ0gRuOorwxqJ32I",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/cheerful-earful/",
+        "localSnapshot": "event-50.html",
+        "checkedAt": "2026-10-28T07:47:40.027766+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-2327851",
+      "title": "Legitimate Likes — Live",
+      "summary": "Подкаст о популярных увлечениях и их репутации.",
+      "summaryEn": "A podcast exploring popular fascinations and whether they deserve the hype.",
+      "categories": [
+        "comedy",
+        "podcast"
+      ],
+      "venue": "Hen’s Teeth",
+      "venueDetail": "Hen’s Teeth",
+      "address": "Blackpitts, Dublin 8, D08 A9FD",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2327851",
+      "sourceUrls": [
+        "https://www.tickettailor.com/events/cheerfulearfulireland/2327851",
+        "https://dublin.ie/whats-on/listings/cheerful-earful/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "podcast-2327851.json",
+        "event-50.json"
+      ],
+      "yearEvidenceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2327851",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-08",
+          "startTime": "17:30",
+          "endTime": "18:30",
+          "evidenceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2327851"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": null,
+        "max": null,
+        "details": "Individual show price not established; festival-wide minimum not assigned."
+      },
+      "restrictions": "Живая запись, зритель может попасть в неё; места без закрепления; доступный первый этаж.",
+      "restrictionsEn": "Live recording may include the audience; unreserved seating; accessible ground floor.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2327851",
+        "classification": "explicit_primary_prose_duration"
+      },
+      "ticketUrl": "https://www.tickettailor.com/checkout/view-event/id/8758399/chk/015a2a6e4f37ec8baf2d26ecb058d2a4/?modal_widget=true&widget=true",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3367333,
+      "longitude": -6.2750908,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3367333,-6.2750908&query_place_id=ChIJGZn6rJ0OZ0gRuOorwxqJ32I",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/cheerful-earful/",
+        "localSnapshot": "event-50.html",
+        "checkedAt": "2026-10-28T07:47:40.027766+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-2356366",
+      "title": "Agony Rants — Live",
+      "summary": "Комедийный подкаст с Геароидом Фаррелли и Нив Кавана.",
+      "summaryEn": "A comedy podcast with Gearóid Farrelly and Niamh Kavanagh.",
+      "categories": [
+        "comedy",
+        "podcast"
+      ],
+      "venue": "Hen’s Teeth",
+      "venueDetail": "Hen’s Teeth",
+      "address": "Blackpitts, Dublin 8, D08 A9FD",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2356366",
+      "sourceUrls": [
+        "https://www.tickettailor.com/events/cheerfulearfulireland/2356366",
+        "https://dublin.ie/whats-on/listings/cheerful-earful/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "podcast-2356366.json",
+        "event-50.json"
+      ],
+      "yearEvidenceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2356366",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-08",
+          "startTime": "19:00",
+          "endTime": "20:00",
+          "evidenceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2356366"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": null,
+        "max": null,
+        "details": "Individual show price not established; festival-wide minimum not assigned."
+      },
+      "restrictions": "Живая запись, зритель может попасть в неё; места без закрепления; доступный первый этаж.",
+      "restrictionsEn": "Live recording may include the audience; unreserved seating; accessible ground floor.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.tickettailor.com/events/cheerfulearfulireland/2356366",
+        "classification": "explicit_primary_prose_duration"
+      },
+      "ticketUrl": "https://www.tickettailor.com/checkout/view-event/id/8859092/chk/b7f8fb1753533fc1ce619d8c5fe7cbac/?modal_widget=true&widget=true",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3367333,
+      "longitude": -6.2750908,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3367333,-6.2750908&query_place_id=ChIJGZn6rJ0OZ0gRuOorwxqJ32I",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/cheerful-earful/",
+        "localSnapshot": "event-50.html",
+        "checkedAt": "2026-10-28T07:47:40.027766+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-science-furniture",
+      "title": "Furniture Revamping Workshop",
+      "summary": "Практическая реставрация и декоративная окраска мебели.",
+      "summaryEn": "A practical furniture revamping and decorative painting workshop.",
+      "categories": [
+        "workshop"
+      ],
+      "venue": "Rediscovery Centre",
+      "venueDetail": "Rediscovery Centre",
+      "address": "The Boilerhouse, Main Street, Ballymun, Dublin 9, D09 HK58",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.rediscoverycentre.ie/workshops/furniture-revamping-workshop-2/",
+      "sourceUrls": [
+        "https://www.rediscoverycentre.ie/workshops/furniture-revamping-workshop-2/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "science-furniture.json"
+      ],
+      "yearEvidenceUrl": "https://www.rediscoverycentre.ie/workshops/furniture-revamping-workshop-2/",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-21",
+          "startTime": "10:00",
+          "endTime": "16:00",
+          "evidenceUrl": "https://www.rediscoverycentre.ie/workshops/furniture-revamping-workshop-2/"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 120,
+        "max": 120,
+        "details": "€120; materials included, lunch not included."
+      },
+      "restrictions": "16+; принести небольшой предмет мебели; работы с обивкой не подходят.",
+      "restrictionsEn": "16+; bring a small furniture item; upholstery projects are not suitable.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.rediscoverycentre.ie/workshops/furniture-revamping-workshop-2/",
+        "classification": "own_full_primary_event_header_interval_only_not_independent_prose_duration"
+      },
+      "ticketUrl": "https://www.eventbrite.ie/e/furniture-revamping-workshop-tickets-1987734915641",
+      "status": "candidate_checked_not_published",
+      "latitude": 53.397774,
+      "longitude": -6.2632391,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.397774,-6.2632391&query_place_id=ChIJZej7BR0OZ0gRcKyVFctdoXM",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/lets-talk-science-festival/",
+        "localSnapshot": "event-45.html",
+        "checkedAt": "2026-10-28T07:47:35.031934+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-57",
+      "title": "Art Source — Dublin",
+      "summary": "Ярмарка современного искусства.",
+      "summaryEn": "A contemporary art fair.",
+      "categories": [
+        "art",
+        "market"
+      ],
+      "venue": "RDS Main Hall",
+      "venueDetail": "RDS Main Hall",
+      "address": "Merrion Road, Ballsbridge, Dublin 4",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/art-source/",
+      "sourceUrls": [
+        "http://www.artsource.ie/",
+        "https://dublin.ie/whats-on/listings/art-source/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-57.json",
+        "event-57.json"
+      ],
+      "yearEvidenceUrl": "http://www.artsource.ie/",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": null,
+      "endDate": null,
+      "openingHours": null,
+      "occurrences": [
+        {
+          "date": "2026-11-13",
+          "startTime": "11:00",
+          "endTime": "21:00",
+          "evidenceUrl": "https://dublin.ie/whats-on/listings/art-source/"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "evidenceUrl": "https://dublin.ie/whats-on/listings/art-source/"
+        }
+      ],
+      "currency": "EUR",
+      "price": {
+        "min": 10,
+        "max": 10,
+        "details": "€10 according to dublin.ie; extra fees not confirmed."
+      },
+      "restrictions": "",
+      "restrictionsEn": "",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "15 November held: municipal row incorrectly says 2025; primary confirms 2026 run but not Sunday hours."
+      ],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/art-source/",
+        "classification": "explicit_own_event_programme_or_access_window"
+      },
+      "ticketUrl": null,
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3276868,
+      "longitude": -6.22895189999997,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3276868,-6.22895189999997&query_place_id=",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/art-source/",
+        "localSnapshot": "event-57.html",
+        "checkedAt": "2026-10-28T07:47:49.703802+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    },
+    {
+      "id": "dub-3",
+      "title": "LORE: Mexican & Irish Folklore",
+      "summary": "Выставка современного искусства о мексиканском и ирландском фольклоре.",
+      "summaryEn": "A contemporary-art exhibition exploring Mexican and Irish folklore.",
+      "categories": [
+        "art",
+        "exhibition"
+      ],
+      "venue": "Embassy of Mexico in Ireland",
+      "venueDetail": "Embassy of Mexico in Ireland",
+      "address": "19 Raglan Road, Dublin 4, D04 TX89",
+      "city": "Dublin",
+      "countryCode": "IE",
+      "timezone": "Europe/Dublin",
+      "sourceUrl": "https://www.minawcollective.com/",
+      "sourceUrls": [
+        "https://www.minawcollective.com/",
+        "https://dublin.ie/whats-on/listings/lore-mexican-irish-folklore/"
+      ],
+      "sourceType": "fresh_full_primary_announcement_with_official_municipal_or_tourism_crosscheck",
+      "evidenceStatus": "read_full_announcement_fresh_recovery",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00",
+      "localEvidence": [
+        "primary-3.json",
+        "event-3.json"
+      ],
+      "yearEvidenceUrl": "https://www.minawcollective.com/",
+      "yearEvidenceMethod": "explicit_2026_in_event_body_or_Event_date_metadata",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-30",
+      "openingHours": null,
+      "occurrences": [],
+      "currency": "EUR",
+      "price": {
+        "min": 0,
+        "max": 0,
+        "details": "Free according to dublin.ie."
+      },
+      "restrictions": "16 октября открытие по приглашениям. Публичное посещение без записи, последний вход 16:45.",
+      "restrictionsEn": "16 October reception by invitation. Public visits need no appointment; last admission 16:45.",
+      "availability": "listed_inventory_not_verified",
+      "notes": [
+        "Date range only. Visiting windows 09:00–13:00 and 14:30–17:00 are stated but weekdays not explicit. Not open-now evidence."
+      ],
+      "scheduleEvidence": {
+        "method": "explicit_published_event_interval",
+        "notVenueOpeningHours": true
+      },
+      "endEvidence": {
+        "status": "published_interval_not_observed_actual_finish",
+        "sourceUrl": "https://www.minawcollective.com/",
+        "classification": "exhibition_range_no_verified_weekday_hours"
+      },
+      "ticketUrl": null,
+      "status": "candidate_checked_not_published",
+      "latitude": 53.3303097,
+      "longitude": -6.238731,
+      "sourceMapHref": "https://www.google.com/maps/search/?api=1&query=53.3303097,-6.238731&query_place_id=ChIJixDp780OZ0gRk8McS2Kukh8",
+      "pinEvidence": {
+        "method": "official_municipal_named_venue_embedded_map_marker",
+        "sourceUrl": "https://dublin.ie/whats-on/listings/lore-mexican-irish-folklore/",
+        "localSnapshot": "event-3.html",
+        "checkedAt": "2026-10-28T07:47:04.827703+00:00",
+        "precision": "named venue / campus / complex point, not a verified entrance or indoor room"
+      }
+    }
+  ],
+  "holdsAndExclusions": [
+    {
+      "id": "dub-science-halloween",
+      "title": "Halloween Workshop for Kids",
+      "sourceUrl": "https://www.rediscoverycentre.ie/workshops/halloween-workshop-for-kids/",
+      "status": "held_sold_out",
+      "reason": "Primary says sold out; do not publish as available.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Art Source — 15 November",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/art-source/",
+      "status": "held_conflicting_year",
+      "reason": "Municipal Sunday row says 2025; primary does not independently confirm Sunday hours.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Day Fever",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/day-fever/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "The Helix Panto 2026 – NEVERLAND",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/the-helix-panto-2026-neverland/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Wavelength",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/wavelength/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Gurriers",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/gurriers/",
+      "status": "held_not_publishable",
+      "reason": "Door time is not confirmed performance start; no invented duration.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Meredith",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/meredith/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "RIAM Undergraduate/Postgraduate Open Day",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/riam-open-day/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "The Last Pagans",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/the-last-pagans/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Magical Mystical fun at Dublinia!",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/magical-mystical-fun-at-dublinia/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Vikings beyond the Pale: A Dublinia Lecture",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/vikings-beyond-the-pale-a-dublinia-lecture/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Dublin Gallery Weekend",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/dublin-gallery-weekend/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "The Big Scream Festival",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/the-big-scream/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Ireland Card Show – Winter Edition",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/ireland-card-show/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "The Irish Origins of Halloween Tour",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/ghosts-ghouls-and-goodie-glover-day-the-irish-origins-of-halloween/",
+      "status": "held_not_publishable",
+      "reason": "EPIC primary previously returned 403 and was not retried; full primary verification unavailable.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "A concert for the Faithful Departed – Duruflé Requiem",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/a-concert-for-the-faithful-departed-durufle-requiem/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Beware of Dracula! Halloween Family Tour",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/beware-of-dracula-halloween-family-tour/",
+      "status": "held_not_publishable",
+      "reason": "EPIC primary previously returned 403 and was not retried; full primary verification unavailable.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Wild Lights at Dublin Zoo",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/wild-lights-at-dublin-zoo/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Myra’s Story",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/myras-story-2/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Solve-Along-A-Murder-She-Wrote",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/solve-along-a-murder-she-wrote/",
+      "status": "held_not_publishable",
+      "reason": "Venue outside Dublin City (Pavilion Dún Laoghaire / Draíocht Blanchardstown).",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Dockers & Demons Festival",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/dockers-and-demons-festival/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Samhain Embers",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/samhain-embers/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Romeo & Juliet",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/romeo-juliet/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "By The Light of the Silvery Moon",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/by-the-light-of-the-silvery-moon/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Tales from the Pale",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/tales-from-the-pale/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Dublin Book Festival",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/dublin-book-festival/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Dublin Halloween Festival",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/dublin-halloween-festival/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Music Network presents Cheng² Duo",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/music-network-presents-cheng%c2%b2-duo/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Dublin by Night Fest",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/dublin-by-night-fest/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Other Voices: Home at the Guinness Storehouse",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/other-voices-home-at-the-guinness-storehouse/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "It’s A Wonderful Life",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/its-a-wonderful-life-2/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "The Dead by James Joyce",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/the-dead-by-james-joyce/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "TwinkleTown",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/twinkletown/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Beards",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/beards-2/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Shirley Valentine",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/shirley-valentine/",
+      "status": "held_not_publishable",
+      "reason": "Venue outside Dublin City (Pavilion Dún Laoghaire / Draíocht Blanchardstown).",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "The Choir of Man",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/the-choir-of-man/",
+      "status": "held_not_publishable",
+      "reason": "Explicit performance starts, runtime TBC; no invented end.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Trick-or-Treat Main Street",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/trick-or-treat-main-street/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Beatles Day Dublin",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/dublin-beatles-festival/",
+      "status": "held_not_publishable",
+      "reason": "Full municipal announcement fetched; not promoted: complete date/year/performance interval/eligibility not established in this bounded recovery.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "title": "Professor Brian Cox",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/professor-brian-cox/",
+      "status": "held_not_publishable",
+      "reason": "Door time is not confirmed performance start; no invented duration.",
+      "checkedAt": "2026-10-28T07:53:40.100169+00:00"
+    },
+    {
+      "url": "https://www.dublinia.ie/events_news/magical-mystical-fun-this-halloween/",
+      "name": "primary-2",
+      "status": "held_http_error",
+      "code": 503,
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
+  "dateMatrix": [
+    {
+      "date": "2026-10-28",
+      "datedSessions": 3,
+      "rangeExhibitions": 1
+    },
+    {
+      "date": "2026-10-29",
+      "datedSessions": 3,
+      "rangeExhibitions": 1
+    },
+    {
+      "date": "2026-10-30",
+      "datedSessions": 3,
+      "rangeExhibitions": 1
+    },
+    {
+      "date": "2026-10-31",
+      "datedSessions": 8,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-01",
+      "datedSessions": 3,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-02",
+      "datedSessions": 3,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-03",
+      "datedSessions": 4,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-04",
+      "datedSessions": 2,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-05",
+      "datedSessions": 1,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-06",
+      "datedSessions": 3,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-07",
+      "datedSessions": 4,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-08",
+      "datedSessions": 6,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-09",
+      "datedSessions": 0,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-10",
+      "datedSessions": 0,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-11",
+      "datedSessions": 0,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-12",
+      "datedSessions": 0,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-13",
+      "datedSessions": 3,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-14",
+      "datedSessions": 3,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-15",
+      "datedSessions": 0,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-16",
+      "datedSessions": 0,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-17",
+      "datedSessions": 1,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-18",
+      "datedSessions": 0,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-19",
+      "datedSessions": 0,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-20",
+      "datedSessions": 1,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-21",
+      "datedSessions": 3,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-22",
+      "datedSessions": 0,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-23",
+      "datedSessions": 1,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-24",
+      "datedSessions": 1,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-25",
+      "datedSessions": 1,
+      "rangeExhibitions": 0
+    },
+    {
+      "date": "2026-11-26",
+      "datedSessions": 1,
+      "rangeExhibitions": 0
+    }
+  ],
+  "telegramAudit": {
+    "checkedAt": "2026-10-28T08:12:23Z",
+    "method": "Supported web open of three existing public previews and one chat profile; current retrieval may include cached sources.",
+    "promotedEvents": 0,
+    "announcements": [
+      {
+        "url": "https://t.me/s/dscpforukrainians",
+        "status": "partial_preview_read",
+        "freshness": "cache3weeks; Sept2026 and October notices; undated recurrence",
+        "candidateGaps": [
+          "Yoga starts8Oct Thursdays10:30–12 Goldenbridge32–44EmmetCres D08YWN2; full body lacks reliableyear/dateanchor, keepheld.",
+          "Trinity English Tuesdays18–20 Sep29–Dec1; year and exactroom unconfirmed, keepheld."
+        ]
+      },
+      {
+        "url": "https://t.me/s/UkrainianAction",
+        "status": "partial_preview_read",
+        "freshness": "explicit27Oct2026 news/webinar; webinarpast, jobsdeadline notpublicevent",
+        "limitations": "No complete future physical Dublin announcement found in visible preview."
+      },
+      {
+        "url": "https://t.me/s/trpraveparties",
+        "status": "stale_preview_read",
+        "freshness": "Explicit2023Meetup; other tonight/daymonthwithoutyear notcurrent evidence."
+      }
+    ],
+    "chats": [
+      {
+        "url": "https://t.me/ireland_chatss",
+        "status": "profile_only_no_messages",
+        "description": "Relocation/life chat; advert contact shown, no blanket posting permission implied."
+      }
+    ],
+    "noJoiningOrOutreach": true,
+    "previousCheckedAt": "2026-10-28T08:12:23Z"
+  },
+  "recovery": {
+    "status": "new_bounded_fresh_packet_not_byte_exact_original",
+    "priorExpectedSha256": "bf076c022d8232329102f3f913873df636d806174e63b2408498315820af88ef",
+    "canonicalOriginalMissing": true,
+    "basis": "Surviving 55 municipal URLs and original exact selected primary/reserve URLs; current full public GET snapshots. No reconstructed facts promoted without source re-read.",
+    "differences": [
+      "Sold-out children workshop held rather than ready.",
+      "ClothesCycle general admission begins 11:00; sold-out VIP10:00 excluded.",
+      "New fetchedAt/checkedAt and proof records.",
+      "Historical Telegram status not falsely refreshed."
+    ]
+  },
+  "coverageAudit": {
+    "programmes": 27,
+    "datedSessions": 58,
+    "rangeExhibitions": 1,
+    "uniquePins": 19,
+    "uniqueVenueLabels": 20,
+    "notCompleteCityInventory": true,
+    "noDefaultDurations": true,
+    "unknownPricesRemainNull": true,
+    "outerMunicipalitiesNotPromoted": true,
+    "limitations": [
+      "Partial source selection; no inference that uncovered dates have no events.",
+      "Pins venue/complex/campus-level, not verified entrances.",
+      "Five podcast per-show prices unknown; ClothesCycle currency conflict unresolved.",
+      "Three reserve end times have official tourism rather than primary-prose provenance.",
+      "LORE range not open-now evidence.",
+      "No APK/browser/site/Sheets/Library changes."
+    ],
+    "categories": [
+      "art",
+      "comedy",
+      "conference",
+      "education",
+      "exhibition",
+      "family",
+      "festival",
+      "literature",
+      "market",
+      "museum",
+      "music",
+      "podcast",
+      "science",
+      "talk",
+      "technology",
+      "theatre",
+      "tour",
+      "workshop"
+    ]
+  }
+}

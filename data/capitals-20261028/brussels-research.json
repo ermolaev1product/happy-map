@@ -1,0 +1,2856 @@
+{
+  "city": "Brussels",
+  "country": "Belgium",
+  "timezone": "Europe/Brussels",
+  "horizon": {
+    "from": "2026-10-28",
+    "through": "2026-11-26"
+  },
+  "compiledAt": "2026-10-28T10:56:46.701168+00:00",
+  "publicationStatus": "candidate_checked_not_published",
+  "immutable": true,
+  "assembledFrom": [
+    "draft/canonical-packet-v2-assembled.json",
+    "deepen/neighbourhood-delta-v1.json",
+    "children-museum/canonical-delta.json"
+  ],
+  "programmes": [
+    {
+      "id": "daan",
+      "sourceId": "daan",
+      "title": "Daan Vandewalle",
+      "summaryEn": "A solo piano performance of Rzewski’s variations on The People United Will Never Be Defeated.",
+      "category": "music",
+      "venue": "BOZAR / Centre for Fine Arts",
+      "venueId": "bozar",
+      "address": "Rue Ravenstein 23, 1000 Brussels, Belgium",
+      "addressSourceId": "bozar-access",
+      "verifiedCoordinates": {
+        "latitude": 50.8442559,
+        "longitude": 4.3595536,
+        "precision": "named building; not individual hall entrance",
+        "sourceId": "bozar-access",
+        "evidence": "Official-page Google embed resolved named BOZAR at Rue Ravenstein 23; output named-place coordinates, not input viewport.",
+        "backup": "backup/bozar-access-map.html",
+        "checkedAt": "2026-10-28T10:24:25.756786+00:00",
+        "sourceUrl": "https://www.bozar.be/en/access"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-10-28",
+          "startTime": "20:30",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "bozar",
+          "room": "Hall M",
+          "price": {
+            "currency": "EUR",
+            "standard": 28,
+            "under26": 20,
+            "status": "published",
+            "min": null,
+            "text": "currency: EUR; standard: 28; under26: 20; status: published"
+          },
+          "priceSourceId": "daan",
+          "availability": "not_live_checked",
+          "restrictions": "",
+          "sourceId": "daan",
+          "sourceUrl": "https://www.bozar.be/en/calendar/daan-vandewalle",
+          "ticketUrl": null,
+          "hall": "Hall M",
+          "admission": "French/Dutch introduction at 19:45 in Hall M. No interval. Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "standard": 28,
+        "under26": 20,
+        "status": "published",
+        "min": null,
+        "text": "currency: EUR; standard: 28; under26: 20; status: published"
+      },
+      "restrictions": "French/Dutch introduction at 19:45 in Hall M. No interval.",
+      "accessEn": "Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only.",
+      "accessSourceId": "bozar-accessibility",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "Only schedule-block end clocks observed; conservative endAt null. No inferred ends.",
+      "visitSchedule": [],
+      "sourceUrl": "https://www.bozar.be/en/calendar/daan-vandewalle",
+      "checkedAt": "2026-10-28T10:24:44.560004+00:00",
+      "sourceCheckedAt": "2026-10-28T10:24:44.560004+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "music",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:24:44.560004+00:00"
+    },
+    {
+      "id": "amelio",
+      "sourceId": "amelio",
+      "title": "Amelio Trio — ECHO Rising Star",
+      "summaryEn": "A morning piano-trio concert combining Haydn, a new Helena Winkelman work and Schumann.",
+      "category": "music",
+      "venue": "BOZAR / Centre for Fine Arts",
+      "venueId": "bozar",
+      "address": "Rue Ravenstein 23, 1000 Brussels, Belgium",
+      "addressSourceId": "bozar-access",
+      "verifiedCoordinates": {
+        "latitude": 50.8442559,
+        "longitude": 4.3595536,
+        "precision": "named building; not individual hall entrance",
+        "sourceId": "bozar-access",
+        "evidence": "Official-page Google embed resolved named BOZAR at Rue Ravenstein 23; output named-place coordinates, not input viewport.",
+        "backup": "backup/bozar-access-map.html",
+        "checkedAt": "2026-10-28T10:24:25.756786+00:00",
+        "sourceUrl": "https://www.bozar.be/en/access"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-11-01",
+          "startTime": "11:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "bozar",
+          "room": "Henry Le Boeuf Hall",
+          "price": {
+            "currency": "EUR",
+            "standard": 16,
+            "under26": 11,
+            "status": "published",
+            "min": null,
+            "text": "currency: EUR; standard: 16; under26: 11; status: published"
+          },
+          "priceSourceId": "amelio",
+          "availability": "not_live_checked",
+          "restrictions": "",
+          "sourceId": "amelio",
+          "sourceUrl": "https://www.bozar.be/en/calendar/amelio-trio-echo-rising-star",
+          "ticketUrl": null,
+          "hall": "Henry Le Boeuf Hall",
+          "admission": "All ages; audience asked to remain quiet. No interval. Separate private reception-centre concert excluded. Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "standard": 16,
+        "under26": 11,
+        "status": "published",
+        "min": null,
+        "text": "currency: EUR; standard: 16; under26: 11; status: published"
+      },
+      "restrictions": "All ages; audience asked to remain quiet. No interval. Separate private reception-centre concert excluded.",
+      "accessEn": "Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only.",
+      "accessSourceId": "bozar-accessibility",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "Only schedule-block end clocks observed; conservative endAt null. No inferred ends.",
+      "visitSchedule": [],
+      "sourceUrl": "https://www.bozar.be/en/calendar/amelio-trio-echo-rising-star",
+      "checkedAt": "2026-10-28T10:24:44.561364+00:00",
+      "sourceCheckedAt": "2026-10-28T10:24:44.561364+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "music",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:24:44.561364+00:00"
+    },
+    {
+      "id": "sufi",
+      "sourceId": "sufi",
+      "title": "Sufi Morning: Aqnazar Alovatov & Ensemble Navo",
+      "summaryEn": "Tajik vocal and instrumental traditions performed with rubab and setar.",
+      "category": "music",
+      "venue": "BOZAR / Centre for Fine Arts",
+      "venueId": "bozar",
+      "address": "Rue Ravenstein 23, 1000 Brussels, Belgium",
+      "addressSourceId": "bozar-access",
+      "verifiedCoordinates": {
+        "latitude": 50.8442559,
+        "longitude": 4.3595536,
+        "precision": "named building; not individual hall entrance",
+        "sourceId": "bozar-access",
+        "evidence": "Official-page Google embed resolved named BOZAR at Rue Ravenstein 23; output named-place coordinates, not input viewport.",
+        "backup": "backup/bozar-access-map.html",
+        "checkedAt": "2026-10-28T10:24:25.756786+00:00",
+        "sourceUrl": "https://www.bozar.be/en/access"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-11-01",
+          "startTime": "11:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "bozar",
+          "room": "Hall M",
+          "price": {
+            "currency": "EUR",
+            "standard": 18,
+            "under26": 13,
+            "status": "published",
+            "min": null,
+            "text": "currency: EUR; standard: 18; under26: 13; status: published"
+          },
+          "priceSourceId": "sufi",
+          "availability": "not_live_checked",
+          "restrictions": "",
+          "sourceId": "sufi",
+          "sourceUrl": "https://www.bozar.be/en/calendar/sufi-morning-aqnazar-alovatov-ensemble-navo",
+          "ticketUrl": null,
+          "hall": "Hall M",
+          "admission": "No interval. Published sound level category 2, up to 95 dB. Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "standard": 18,
+        "under26": 13,
+        "status": "published",
+        "min": null,
+        "text": "currency: EUR; standard: 18; under26: 13; status: published"
+      },
+      "restrictions": "No interval. Published sound level category 2, up to 95 dB.",
+      "accessEn": "Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only.",
+      "accessSourceId": "bozar-accessibility",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "Only schedule-block end clocks observed; conservative endAt null. No inferred ends.",
+      "visitSchedule": [],
+      "sourceUrl": "https://www.bozar.be/en/calendar/sufi-morning-aqnazar-alovatov-ensemble-navo",
+      "checkedAt": "2026-10-28T10:24:44.561819+00:00",
+      "sourceCheckedAt": "2026-10-28T10:24:44.561819+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "music",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:24:44.561819+00:00"
+    },
+    {
+      "id": "new-beginnings",
+      "sourceId": "new-beginnings",
+      "title": "New Beginnings — Isabelle Ingold & Vivianne Perelmuter",
+      "summaryEn": "A documentary follows veteran Al Moon through questions of memory, land and environmental responsibility.",
+      "category": "film",
+      "venue": "BOZAR / Centre for Fine Arts",
+      "venueId": "bozar",
+      "address": "Rue Ravenstein 23, 1000 Brussels, Belgium",
+      "addressSourceId": "bozar-access",
+      "verifiedCoordinates": {
+        "latitude": 50.8442559,
+        "longitude": 4.3595536,
+        "precision": "named building; not individual hall entrance",
+        "sourceId": "bozar-access",
+        "evidence": "Official-page Google embed resolved named BOZAR at Rue Ravenstein 23; output named-place coordinates, not input viewport.",
+        "backup": "backup/bozar-access-map.html",
+        "checkedAt": "2026-10-28T10:24:25.756786+00:00",
+        "sourceUrl": "https://www.bozar.be/en/access"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-10-28",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "bozar",
+          "room": "Studio",
+          "price": {
+            "currency": "EUR",
+            "standard": 10,
+            "under26": 7,
+            "status": "published",
+            "min": null,
+            "text": "currency: EUR; standard: 10; under26: 7; status: published"
+          },
+          "priceSourceId": "new-beginnings-2026-10-28",
+          "availability": "not_live_checked",
+          "restrictions": "Directors present.",
+          "sourceId": "new-beginnings",
+          "sourceUrl": "https://www.bozar.be/en/calendar/new-beginnings-isabelle-ingold-vivianne-perelmuter",
+          "ticketUrl": null,
+          "hall": "Studio",
+          "admission": "English dialogue; French subtitles. No interval. Ticket-page generic warnings are not evidence of sold-out status. Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only. Directors present."
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "16:30",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "bozar",
+          "room": "Le 23",
+          "price": {
+            "currency": "EUR",
+            "standard": 8,
+            "under26": 6,
+            "status": "published",
+            "min": null,
+            "text": "currency: EUR; standard: 8; under26: 6; status: published"
+          },
+          "priceSourceId": "new-beginnings-2026-10-31",
+          "availability": "not_live_checked",
+          "restrictions": "English introduction by Luciana Tellez Chavez.",
+          "sourceId": "new-beginnings",
+          "sourceUrl": "https://www.bozar.be/en/calendar/new-beginnings-isabelle-ingold-vivianne-perelmuter",
+          "ticketUrl": null,
+          "hall": "Le 23",
+          "admission": "English dialogue; French subtitles. No interval. Ticket-page generic warnings are not evidence of sold-out status. Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only. English introduction by Luciana Tellez Chavez."
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "bozar",
+          "room": "Le 23",
+          "price": {
+            "currency": "EUR",
+            "standard": 10,
+            "under26": 7,
+            "status": "published",
+            "min": null,
+            "text": "currency: EUR; standard: 10; under26: 7; status: published"
+          },
+          "priceSourceId": "new-beginnings-2026-11-06",
+          "availability": "not_live_checked",
+          "restrictions": "Directors present.",
+          "sourceId": "new-beginnings",
+          "sourceUrl": "https://www.bozar.be/en/calendar/new-beginnings-isabelle-ingold-vivianne-perelmuter",
+          "ticketUrl": null,
+          "hall": "Le 23",
+          "admission": "English dialogue; French subtitles. No interval. Ticket-page generic warnings are not evidence of sold-out status. Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only. Directors present."
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "16:30",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "bozar",
+          "room": "Le 23",
+          "price": {
+            "currency": "EUR",
+            "standard": 8,
+            "under26": 6,
+            "status": "published",
+            "min": null,
+            "text": "currency: EUR; standard: 8; under26: 6; status: published"
+          },
+          "priceSourceId": "new-beginnings-2026-11-08",
+          "availability": "not_live_checked",
+          "restrictions": "Ludo De Brabander and Samuel Legros present.",
+          "sourceId": "new-beginnings",
+          "sourceUrl": "https://www.bozar.be/en/calendar/new-beginnings-isabelle-ingold-vivianne-perelmuter",
+          "ticketUrl": null,
+          "hall": "Le 23",
+          "admission": "English dialogue; French subtitles. No interval. Ticket-page generic warnings are not evidence of sold-out status. Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only. Ludo De Brabander and Samuel Legros present."
+        }
+      ],
+      "price": {
+        "status": "varies by occurrence; see occurrences",
+        "min": null,
+        "text": "status: varies by occurrence; see occurrences"
+      },
+      "restrictions": "English dialogue; French subtitles. No interval. Ticket-page generic warnings are not evidence of sold-out status.",
+      "accessEn": "Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only.",
+      "accessSourceId": "bozar-accessibility",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "Only schedule-block end clocks observed; conservative endAt null. No inferred ends.",
+      "visitSchedule": [],
+      "sourceUrl": "https://www.bozar.be/en/calendar/new-beginnings-isabelle-ingold-vivianne-perelmuter",
+      "checkedAt": "2026-10-28T10:24:44.560715+00:00",
+      "sourceCheckedAt": "2026-10-28T10:24:44.560715+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "film",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:24:44.560715+00:00"
+    },
+    {
+      "id": "ceci",
+      "sourceId": "ceci",
+      "title": "Ceci n’est pas Noire: act II",
+      "summaryEn": "Alesandra Seutin explores mixed heritage, embodiment and identity through performance.",
+      "category": "theatre/dance",
+      "venue": "KVS BOX",
+      "venueId": "kvs-box",
+      "address": "Arduinkaai 9, 1000 Brussels, Belgium",
+      "addressSourceId": "kvs-directions",
+      "verifiedCoordinates": {
+        "latitude": 50.8552302,
+        "longitude": 4.3511771,
+        "precision": "named building; not auditorium entrance",
+        "sourceId": "kvs-directions",
+        "backup": "backup/kvs-directions-map.html",
+        "checkedAt": "2026-10-28T10:24:28.328624+00:00",
+        "sourceUrl": "https://www.kvs.be/en/your-visit/how-to-get-here"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-11-05",
+          "startTime": "20:30",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "kvs-box",
+          "room": "BOX",
+          "price": {
+            "status": "unknown",
+            "min": null,
+            "text": "status: unknown"
+          },
+          "priceSourceId": "ceci",
+          "availability": "last_tickets",
+          "restrictions": "",
+          "sourceId": "ceci",
+          "sourceUrl": "https://www.kvs.be/en/Event/ceci-n-est-pas-noire-act-ii-1",
+          "ticketUrl": null,
+          "hall": "BOX",
+          "admission": "French and English, with Dutch/French/English surtitles. On Nov 6 a discussion begins ten minutes after the performance and lasts at most 30 minutes; no inferred clock times. Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements."
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "20:30",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "kvs-box",
+          "room": "BOX",
+          "price": {
+            "status": "unknown",
+            "min": null,
+            "text": "status: unknown"
+          },
+          "priceSourceId": "ceci",
+          "availability": "last_tickets",
+          "restrictions": "",
+          "sourceId": "ceci",
+          "sourceUrl": "https://www.kvs.be/en/Event/ceci-n-est-pas-noire-act-ii-1",
+          "ticketUrl": null,
+          "hall": "BOX",
+          "admission": "French and English, with Dutch/French/English surtitles. On Nov 6 a discussion begins ten minutes after the performance and lasts at most 30 minutes; no inferred clock times. Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements."
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "18:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "kvs-box",
+          "room": "BOX",
+          "price": {
+            "status": "unknown",
+            "min": null,
+            "text": "status: unknown"
+          },
+          "priceSourceId": "ceci",
+          "availability": "booking_link_published",
+          "restrictions": "",
+          "sourceId": "ceci",
+          "sourceUrl": "https://www.kvs.be/en/Event/ceci-n-est-pas-noire-act-ii-1",
+          "ticketUrl": null,
+          "hall": "BOX",
+          "admission": "French and English, with Dutch/French/English surtitles. On Nov 6 a discussion begins ten minutes after the performance and lasts at most 30 minutes; no inferred clock times. Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements."
+        }
+      ],
+      "price": {
+        "status": "unknown",
+        "min": null,
+        "text": "status: unknown"
+      },
+      "restrictions": "French and English, with Dutch/French/English surtitles. On Nov 6 a discussion begins ten minutes after the performance and lasts at most 30 minutes; no inferred clock times.",
+      "accessEn": "Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements.",
+      "accessSourceId": "kvs-accessibility",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "Only schedule-block end clocks observed; conservative endAt null. No inferred ends.",
+      "visitSchedule": [],
+      "addressCaveat": "Directions prose says 7; venue footer and official embedded named KVS BOX marker both say 9. Number 7 is also the general office address.",
+      "sourceUrl": "https://www.kvs.be/en/Event/ceci-n-est-pas-noire-act-ii-1",
+      "checkedAt": "2026-10-28T10:24:50.534194+00:00",
+      "sourceCheckedAt": "2026-10-28T10:24:50.534194+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "theatre",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:24:50.534194+00:00"
+    },
+    {
+      "id": "mindblowers",
+      "sourceId": "mindblowers",
+      "title": "Mindblowers × Próximamente",
+      "summaryEn": "Belgian and Latin American artists and researchers explore erased memories and personal testimony.",
+      "category": "talk/performance",
+      "venue": "KVS BOL / historical building, also TOP",
+      "venueId": "kvs-bol",
+      "address": "Lakensestraat 146, 1000 Brussels, Belgium",
+      "addressSourceId": null,
+      "verifiedCoordinates": {
+        "latitude": 50.85547,
+        "longitude": 4.35193,
+        "precision": "named building, not entrance or specific room",
+        "sourceId": "kfda-bol",
+        "checkedAt": "2026-10-28T10:26:51.456359+00:00",
+        "evidence": "KVS BOL venue-page map-1298 data-coord=50.85547, 4.35193",
+        "sourceUrl": "https://kfda.be/nl/venues/kvs-bol/"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-11-18",
+          "startTime": "20:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "kvs-bol",
+          "room": "BOL",
+          "price": {
+            "status": "unknown",
+            "min": null,
+            "text": "status: unknown"
+          },
+          "priceSourceId": "mindblowers",
+          "availability": "not_live_checked",
+          "restrictions": "",
+          "sourceId": "mindblowers",
+          "sourceUrl": "https://www.kvs.be/en/Event/mindblowers-proximamente-1",
+          "ticketUrl": null,
+          "hall": "BOL",
+          "admission": "English and Spanish, with English/Spanish surtitles. Reduced-mobility access requires advance arrangements; accessible toilets available. Step-free alternative entrance requires assistance. Obstacles exist between nearby parking and the building."
+        }
+      ],
+      "price": {
+        "status": "unknown",
+        "min": null,
+        "text": "status: unknown"
+      },
+      "restrictions": "English and Spanish, with English/Spanish surtitles.",
+      "accessEn": "Reduced-mobility access requires advance arrangements; accessible toilets available. Step-free alternative entrance requires assistance. Obstacles exist between nearby parking and the building.",
+      "accessSourceId": "kfda-bol",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "Only schedule-block end clocks observed; conservative endAt null. No inferred ends.",
+      "visitSchedule": [],
+      "sourceUrl": "https://www.kvs.be/en/Event/mindblowers-proximamente-1",
+      "checkedAt": "2026-10-28T10:24:50.703288+00:00",
+      "sourceCheckedAt": "2026-10-28T10:24:50.703288+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "talk",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:24:50.703288+00:00"
+    },
+    {
+      "id": "kinolatino",
+      "sourceId": "kinolatino",
+      "title": "Kinolatino Short Films Screening",
+      "summaryEn": "A free programme introduces short films from Latin America and the Caribbean.",
+      "category": "film",
+      "venue": "KVS BOL / historical building, also TOP",
+      "venueId": "kvs-bol",
+      "address": "Lakensestraat 146, 1000 Brussels, Belgium",
+      "addressSourceId": null,
+      "verifiedCoordinates": {
+        "latitude": 50.85547,
+        "longitude": 4.35193,
+        "precision": "named building, not entrance or specific room",
+        "sourceId": "kfda-bol",
+        "checkedAt": "2026-10-28T10:26:51.456359+00:00",
+        "evidence": "KVS BOL venue-page map-1298 data-coord=50.85547, 4.35193",
+        "sourceUrl": "https://kfda.be/nl/venues/kvs-bol/"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-11-17",
+          "startTime": "17:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "kvs-bol",
+          "room": "TOP",
+          "price": {
+            "currency": "EUR",
+            "standard": 0,
+            "under26": null,
+            "status": "published",
+            "min": null,
+            "text": "currency: EUR; standard: 0; status: published"
+          },
+          "priceSourceId": "kinolatino",
+          "availability": "booking_link_published",
+          "restrictions": "",
+          "sourceId": "kinolatino",
+          "sourceUrl": "https://www.kvs.be/en/Event/kinolatino-short-films-screening-1",
+          "ticketUrl": null,
+          "hall": "TOP",
+          "admission": "Spanish with English surtitles; film selection to be announced. Reduced-mobility access requires advance arrangements; accessible toilets available. Step-free alternative entrance requires assistance. Obstacles exist between nearby parking and the building."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "standard": 0,
+        "under26": null,
+        "status": "published",
+        "min": null,
+        "text": "currency: EUR; standard: 0; status: published"
+      },
+      "restrictions": "Spanish with English surtitles; film selection to be announced.",
+      "accessEn": "Reduced-mobility access requires advance arrangements; accessible toilets available. Step-free alternative entrance requires assistance. Obstacles exist between nearby parking and the building.",
+      "accessSourceId": "kfda-bol",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "Only schedule-block end clocks observed; conservative endAt null. No inferred ends.",
+      "visitSchedule": [],
+      "sourceUrl": "https://www.kvs.be/en/Event/kinolatino-short-films-screening-1",
+      "checkedAt": "2026-10-28T10:24:50.724262+00:00",
+      "sourceCheckedAt": "2026-10-28T10:24:50.724262+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "film",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:24:50.724262+00:00"
+    },
+    {
+      "id": "kentridge",
+      "sourceId": "kentridge",
+      "title": "William Kentridge — I am not me, the horse is not mine",
+      "summaryEn": "Drawings, films, installations and stage-related works trace Kentridge’s artistic practice.",
+      "category": "exhibition",
+      "venue": "BOZAR / Centre for Fine Arts",
+      "venueId": "bozar",
+      "address": "Rue Ravenstein 23, 1000 Brussels, Belgium",
+      "addressSourceId": "bozar-access",
+      "verifiedCoordinates": {
+        "latitude": 50.8442559,
+        "longitude": 4.3595536,
+        "precision": "named building; not individual hall entrance",
+        "sourceId": "bozar-access",
+        "evidence": "Official-page Google embed resolved named BOZAR at Rue Ravenstein 23; output named-place coordinates, not input viewport.",
+        "backup": "backup/bozar-access-map.html",
+        "checkedAt": "2026-10-28T10:24:25.756786+00:00",
+        "sourceUrl": "https://www.bozar.be/en/access"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [],
+      "price": {
+        "currency": "EUR",
+        "standard": 20,
+        "under26": 14,
+        "under18": 0,
+        "over65": 18,
+        "wheelchairAndBlind": 0,
+        "companionWheelchairAndBlind": 0,
+        "min": null,
+        "text": "currency: EUR; standard: 20; under26: 14; under18: 0; over65: 18; wheelchairAndBlind: 0; companionWheelchairAndBlind: 0"
+      },
+      "restrictions": "Two exhibition rooms can be difficult for reduced-mobility visitors; advance contact and staff assistance recommended.",
+      "accessEn": "Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only.",
+      "accessSourceId": "bozar-accessibility",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": null,
+      "visitSchedule": [
+        {
+          "date": "2026-10-28",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-11",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-18",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-24",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-25",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "sourceId": "kentridge",
+          "evidenceType": "explicit individual dated visiting window"
+        }
+      ],
+      "startDate": "2026-09-18",
+      "endDate": "2027-03-07",
+      "sourceUrl": "https://www.bozar.be/en/calendar/william-kentridge-0",
+      "checkedAt": "2026-10-28T10:24:44.562407+00:00",
+      "sourceCheckedAt": "2026-10-28T10:24:44.562407+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "art",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:24:44.562407+00:00"
+    },
+    {
+      "id": "muffatti",
+      "sourceId": "muffatti",
+      "title": "Les Muffatti & Anthony Romaniuk",
+      "summaryEn": "Period-instrument music traces Brussels’s eighteenth-century concert life, from late Baroque to early Classical works.",
+      "category": "music",
+      "venue": "BOZAR / Centre for Fine Arts",
+      "venueId": "bozar",
+      "address": "Rue Ravenstein 23, 1000 Brussels, Belgium",
+      "addressSourceId": "bozar-access",
+      "verifiedCoordinates": {
+        "latitude": 50.8442559,
+        "longitude": 4.3595536,
+        "precision": "named building; not individual hall entrance",
+        "sourceId": "bozar-access",
+        "evidence": "Official-page Google embed resolved named BOZAR at Rue Ravenstein 23; output named-place coordinates, not input viewport.",
+        "backup": "backup/bozar-access-map.html",
+        "checkedAt": "2026-10-28T10:24:25.756786+00:00",
+        "sourceUrl": "https://www.bozar.be/en/access"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-10-29",
+          "startTime": "20:30",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "bozar",
+          "room": "Hall M",
+          "price": {
+            "currency": "EUR",
+            "standard": 32,
+            "under26": 22,
+            "min": null,
+            "text": "currency: EUR; standard: 32; under26: 22"
+          },
+          "priceSourceId": "muffatti",
+          "availability": "not_live_checked",
+          "restrictions": "",
+          "sourceId": "muffatti",
+          "sourceUrl": "https://www.bozar.be/en/calendar/les-muffatti-anthony-romaniuk",
+          "ticketUrl": null,
+          "hall": "Hall M",
+          "admission": "French/Dutch introduction at 19:45 in Hall M; no interval. Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "standard": 32,
+        "under26": 22,
+        "min": null,
+        "text": "currency: EUR; standard: 32; under26: 22"
+      },
+      "restrictions": "French/Dutch introduction at 19:45 in Hall M; no interval.",
+      "accessEn": "Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only.",
+      "accessSourceId": "bozar-accessibility",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "21:45 is schedule-block only; endAt null.",
+      "visitSchedule": [],
+      "sourceUrl": "https://www.bozar.be/en/calendar/les-muffatti-anthony-romaniuk",
+      "checkedAt": "2026-10-28T10:28:29.864204+00:00",
+      "sourceCheckedAt": "2026-10-28T10:28:29.864204+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "music",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:28:29.864204+00:00"
+    },
+    {
+      "id": "dao",
+      "sourceId": "dao",
+      "title": "Dao — Alain Gomis",
+      "summaryEn": "A family story connects a French wedding with a commemorative gathering in Guinea-Bissau.",
+      "category": "film",
+      "venue": "BOZAR / Centre for Fine Arts",
+      "venueId": "bozar",
+      "address": "Rue Ravenstein 23, 1000 Brussels, Belgium",
+      "addressSourceId": "bozar-access",
+      "verifiedCoordinates": {
+        "latitude": 50.8442559,
+        "longitude": 4.3595536,
+        "precision": "named building; not individual hall entrance",
+        "sourceId": "bozar-access",
+        "evidence": "Official-page Google embed resolved named BOZAR at Rue Ravenstein 23; output named-place coordinates, not input viewport.",
+        "backup": "backup/bozar-access-map.html",
+        "checkedAt": "2026-10-28T10:24:25.756786+00:00",
+        "sourceUrl": "https://www.bozar.be/en/access"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-10-29",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "bozar",
+          "room": "The 23",
+          "price": {
+            "currency": "EUR",
+            "standard": 8,
+            "under26": 6,
+            "min": null,
+            "text": "currency: EUR; standard: 8; under26: 6"
+          },
+          "priceSourceId": "dao",
+          "availability": "not_live_checked",
+          "restrictions": "",
+          "sourceId": "dao",
+          "sourceUrl": "https://www.bozar.be/en/calendar/dao-alain-gomis",
+          "ticketUrl": null,
+          "hall": "The 23",
+          "admission": "French with English surtitles. The 28 October screening is explicitly cancelled and excluded. Later screenings begin 27 November, outside the requested horizon. Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only."
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "bozar",
+          "room": "The 23",
+          "price": {
+            "currency": "EUR",
+            "standard": 8,
+            "under26": 6,
+            "min": null,
+            "text": "currency: EUR; standard: 8; under26: 6"
+          },
+          "priceSourceId": "dao",
+          "availability": "not_live_checked",
+          "restrictions": "",
+          "sourceId": "dao",
+          "sourceUrl": "https://www.bozar.be/en/calendar/dao-alain-gomis",
+          "ticketUrl": null,
+          "hall": "The 23",
+          "admission": "French with English surtitles. The 28 October screening is explicitly cancelled and excluded. Later screenings begin 27 November, outside the requested horizon. Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "standard": 8,
+        "under26": 6,
+        "min": null,
+        "text": "currency: EUR; standard: 8; under26: 6"
+      },
+      "restrictions": "French with English surtitles. The 28 October screening is explicitly cancelled and excluded. Later screenings begin 27 November, outside the requested horizon.",
+      "accessEn": "Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only.",
+      "accessSourceId": "bozar-accessibility",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "Published end clocks differ between sessions and appear only in schedule blocks; endAt null.",
+      "visitSchedule": [],
+      "sourceUrl": "https://www.bozar.be/en/calendar/dao-alain-gomis",
+      "checkedAt": "2026-10-28T10:28:34.997831+00:00",
+      "sourceCheckedAt": "2026-10-28T10:28:34.997831+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "film",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:28:34.997831+00:00"
+    },
+    {
+      "id": "rincon",
+      "sourceId": "rincon",
+      "title": "El rincón de los muertos",
+      "summaryEn": "A performer from Ayacucho combines personal history and traditional scissor dance to confront recurring violence.",
+      "category": "theatre",
+      "venue": "KVS BOX",
+      "venueId": "kvs-box",
+      "address": "Arduinkaai 9, 1000 Brussels, Belgium",
+      "addressSourceId": "kvs-directions",
+      "verifiedCoordinates": {
+        "latitude": 50.8552302,
+        "longitude": 4.3511771,
+        "precision": "named building; not auditorium entrance",
+        "sourceId": "kvs-directions",
+        "backup": "backup/kvs-directions-map.html",
+        "checkedAt": "2026-10-28T10:24:28.328624+00:00",
+        "sourceUrl": "https://www.kvs.be/en/your-visit/how-to-get-here"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-11-18",
+          "startTime": "20:30",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "kvs-box",
+          "room": "BOX",
+          "price": {
+            "status": "unknown",
+            "min": null,
+            "text": "status: unknown"
+          },
+          "priceSourceId": "rincon",
+          "availability": "booking_link_published",
+          "restrictions": "",
+          "sourceId": "rincon",
+          "sourceUrl": "https://www.kvs.be/en/Event/el-rincon-de-los-muertos-1",
+          "ticketUrl": null,
+          "hall": "BOX",
+          "admission": "Spanish with English surtitles. Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements."
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "20:30",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "kvs-box",
+          "room": "BOX",
+          "price": {
+            "status": "unknown",
+            "min": null,
+            "text": "status: unknown"
+          },
+          "priceSourceId": "rincon",
+          "availability": "booking_link_published",
+          "restrictions": "",
+          "sourceId": "rincon",
+          "sourceUrl": "https://www.kvs.be/en/Event/el-rincon-de-los-muertos-1",
+          "ticketUrl": null,
+          "hall": "BOX",
+          "admission": "Spanish with English surtitles. Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements."
+        }
+      ],
+      "price": {
+        "status": "unknown",
+        "min": null,
+        "text": "status: unknown"
+      },
+      "restrictions": "Spanish with English surtitles.",
+      "accessEn": "Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements.",
+      "accessSourceId": "kvs-accessibility",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "End clock appears only in performance schedule; endAt null.",
+      "visitSchedule": [],
+      "addressCaveat": "Directions prose says 7; venue footer and official embedded named KVS BOX marker both say 9. Number 7 is also the general office address.",
+      "sourceUrl": "https://www.kvs.be/en/Event/el-rincon-de-los-muertos-1",
+      "checkedAt": "2026-10-28T10:28:53.584014+00:00",
+      "sourceCheckedAt": "2026-10-28T10:28:53.584014+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "theatre",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:28:53.584014+00:00"
+    },
+    {
+      "id": "hier",
+      "sourceId": "hier",
+      "title": "Hier, ik als keizerin — Molenstraat 103/bus 5",
+      "summaryEn": "Veerle Baetens and Bo Spaenc create a musical monologue exploring isolation, power and self-expression.",
+      "category": "theatre",
+      "venue": "KVS BOL / historical building, also TOP",
+      "venueId": "kvs-bol",
+      "address": "Lakensestraat 146, 1000 Brussels, Belgium",
+      "addressSourceId": null,
+      "verifiedCoordinates": {
+        "latitude": 50.85547,
+        "longitude": 4.35193,
+        "precision": "named building, not entrance or specific room",
+        "sourceId": "kfda-bol",
+        "checkedAt": "2026-10-28T10:26:51.456359+00:00",
+        "evidence": "KVS BOL venue-page map-1298 data-coord=50.85547, 4.35193",
+        "sourceUrl": "https://kfda.be/nl/venues/kvs-bol/"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-10-28",
+          "startTime": "20:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "kvs-bol",
+          "room": "BOL",
+          "price": {
+            "status": "unknown",
+            "min": null,
+            "text": "status: unknown"
+          },
+          "priceSourceId": "hier",
+          "availability": "last_tickets",
+          "restrictions": "",
+          "sourceId": "hier",
+          "sourceUrl": "https://www.kvs.be/en/Event/hier-ik-als-keizerin-molenstraat-103-bus-5-1",
+          "ticketUrl": null,
+          "hall": "BOL",
+          "admission": "Dutch with French surtitles. The address in the title is fictional narrative context, not the venue. Reduced-mobility access requires advance arrangements; accessible toilets available. Step-free alternative entrance requires assistance. Obstacles exist between nearby parking and the building."
+        }
+      ],
+      "price": {
+        "status": "unknown",
+        "min": null,
+        "text": "status: unknown"
+      },
+      "restrictions": "Dutch with French surtitles. The address in the title is fictional narrative context, not the venue.",
+      "accessEn": "Reduced-mobility access requires advance arrangements; accessible toilets available. Step-free alternative entrance requires assistance. Obstacles exist between nearby parking and the building.",
+      "accessSourceId": "kfda-bol",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "End clock appears only in performance schedule; endAt null.",
+      "visitSchedule": [],
+      "sourceUrl": "https://www.kvs.be/en/Event/hier-ik-als-keizerin-molenstraat-103-bus-5-1",
+      "checkedAt": "2026-10-28T10:28:56.886732+00:00",
+      "sourceCheckedAt": "2026-10-28T10:28:56.886732+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "theatre",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:28:56.886732+00:00"
+    },
+    {
+      "id": "ainda-promoter",
+      "sourceId": "ainda-promoter",
+      "title": "Ainda in Brussels",
+      "summaryEn": "A duo brings intimate songwriting and vocal harmonies to a campus arts venue.",
+      "category": "music",
+      "venue": "Pilar Box",
+      "venueId": "pilar",
+      "address": "Boulevard de la Plaine 2, 1050 Ixelles, Brussels",
+      "addressSourceId": "ainda-city",
+      "verifiedCoordinates": {
+        "latitude": 50.8233537,
+        "longitude": 4.397987,
+        "precision": "named building/campus, not individual room or surveyed entrance",
+        "sourceId": "ainda-promoter",
+        "checkedAt": "2026-10-28T10:45:18.767437+00:00",
+        "evidence": "Promoter page includes named Pilar Google Maps place URL with !3d50.8233537!4d4.397987; NOT viewport50.850213,4.315275. Google target read failed, no retry; pin is hyperlink evidence only.",
+        "sourceUrl": "https://gotobeat.com/gig/ainda-in-brussels-3t/"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-11-02",
+          "startTime": "19:30",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "pilar",
+          "room": "Pilar Box",
+          "price": {
+            "currency": "EUR",
+            "fromAmount": 18,
+            "feesIncluded": true,
+            "min": 18,
+            "text": "currency: EUR; fromAmount: 18; feesIncluded: True; min: 18"
+          },
+          "priceSourceId": "ainda-promoter",
+          "availability": "booking_link_published; live capacity not checked",
+          "restrictions": "",
+          "sourceId": "ainda-promoter",
+          "publishedEventWindow": {
+            "start": "19:30",
+            "end": "23:00",
+            "sourceIds": [
+              "ainda-city",
+              "ainda-promoter"
+            ]
+          },
+          "sourceUrl": "https://gotobeat.com/gig/ainda-in-brussels-3t/",
+          "ticketUrl": null,
+          "hall": "Pilar Box",
+          "admission": "18+. Published tickets from€18 including all fees. Municipal useful-information interval19:30–23:00 corroborated by promoter, but retained as publishedEventWindow rather than exact performance end. Age18+ for this concert. Step-free access not verified."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "fromAmount": 18,
+        "feesIncluded": true,
+        "min": 18,
+        "text": "currency: EUR; fromAmount: 18; feesIncluded: True; min: 18"
+      },
+      "restrictions": "18+. Published tickets from€18 including all fees. Municipal useful-information interval19:30–23:00 corroborated by promoter, but retained as publishedEventWindow rather than exact performance end.",
+      "accessEn": "Age18+ for this concert. Step-free access not verified.",
+      "accessSourceId": "ainda-promoter",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "No prose exact end observed; endAt null.",
+      "visitSchedule": [],
+      "sourceUrl": "https://gotobeat.com/gig/ainda-in-brussels-3t/",
+      "checkedAt": "2026-10-28T10:45:18.767437+00:00",
+      "sourceCheckedAt": "2026-10-28T10:45:18.767437+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "music",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:45:18.767437+00:00"
+    },
+    {
+      "id": "arlo",
+      "sourceId": "arlo",
+      "title": "Arlo Parks — Desire Tour",
+      "summaryEn": "Arlo Parks performs material from Ambiguous Desire, with support from BAIRD.",
+      "category": "music",
+      "venue": "Cirque Royal",
+      "venueId": "cirque-royal",
+      "address": "Rue de l’Enseignement 81, 1000 Brussels",
+      "addressSourceId": "cirque-access",
+      "verifiedCoordinates": {
+        "latitude": 50.848848,
+        "longitude": 4.36603,
+        "precision": "named building/campus, not individual room or surveyed entrance",
+        "sourceId": "cirque-access",
+        "checkedAt": "2026-10-28T10:45:26.525917+00:00",
+        "evidence": "Own map JavaScript myLatlng explicitly assigned to marker titled CIRQUE ROYAL • KONINKLIJK CIRCUS; not parking markers.",
+        "sourceUrl": "https://cirqueroyalbruxelles.be/acces"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-11-03",
+          "startTime": "20:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "cirque-royal",
+          "room": "Main venue",
+          "price": {
+            "status": "unknown",
+            "min": null,
+            "text": "status: unknown"
+          },
+          "priceSourceId": "arlo",
+          "availability": "booking_link_published; live capacity not checked",
+          "restrictions": "",
+          "sourceId": "arlo",
+          "doorsAt": "2026-11-03T19:00:00+01:00",
+          "sourceUrl": "https://cirqueroyalbruxelles.be/evenement/arlo-parks-2026-11-03-2000",
+          "ticketUrl": null,
+          "hall": "Main venue",
+          "admission": "Doors19:00; performance20:00. Ticket price not exposed in the read primary page. Accessible transport information published; wheelchair arrangements not verified."
+        }
+      ],
+      "price": {
+        "status": "unknown",
+        "min": null,
+        "text": "status: unknown"
+      },
+      "restrictions": "Doors19:00; performance20:00. Ticket price not exposed in the read primary page.",
+      "accessEn": "Accessible transport information published; wheelchair arrangements not verified.",
+      "accessSourceId": "cirque-access",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "No prose exact end observed; endAt null.",
+      "visitSchedule": [],
+      "sourceUrl": "https://cirqueroyalbruxelles.be/evenement/arlo-parks-2026-11-03-2000",
+      "checkedAt": "2026-10-28T10:45:24.935879+00:00",
+      "sourceCheckedAt": "2026-10-28T10:45:24.935879+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "music",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:45:24.935879+00:00"
+    },
+    {
+      "id": "botanique-iamddb",
+      "sourceId": "botanique-iamddb",
+      "title": "Les Nuits Weekender — IAMDDB and more",
+      "summaryEn": "A multi-room evening spans jazz, R&B and experimental pop, with IAMDDB, Tasha and other artists.",
+      "category": "festival/music",
+      "venue": "Le Botanique",
+      "venueId": "botanique",
+      "address": "Rue Royale 236, 1210 Saint-Josse-ten-Noode, Brussels",
+      "addressSourceId": "botanique-neca",
+      "verifiedCoordinates": {
+        "latitude": 50.8549,
+        "longitude": 4.36535,
+        "precision": "named building/campus, not individual room or surveyed entrance",
+        "sourceId": "botanique-pin",
+        "checkedAt": "2026-10-28T10:48:02.194912+00:00",
+        "evidence": "Full named arts-centre building page, OSM way240540020; not Botanique metro/tram station.",
+        "sourceUrl": "https://mapcarta.com/W240540020"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-10-30",
+          "startTime": "17:40",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "botanique",
+          "room": "Museum + Rotonde + Witloof Bar",
+          "price": {
+            "currency": "EUR",
+            "standard": 38,
+            "member": 34,
+            "min": null,
+            "text": "currency: EUR; standard: 38; member: 34"
+          },
+          "priceSourceId": "botanique-iamddb",
+          "availability": "booking_link_published; live capacity not checked",
+          "restrictions": "",
+          "sourceId": "botanique-iamddb",
+          "doorsAt": "2026-10-30T17:00:00+01:00",
+          "startAtBasis": "first announced act, not doors",
+          "sourceUrl": "https://botanique.be/en/concert/les-nuits-weekender-iamddb-live-jazz-experience-many-more-2026",
+          "ticketUrl": null,
+          "hall": "Museum + Rotonde + Witloof Bar",
+          "admission": "Doors17:00. First announced act IYAMAH17:40 in Museum; IAMDDB21:00. Parallel sets in Rotonde and Witloof Bar. Standard day ticket€38; member€34; three-day pass€96/member€90. No overall ending inferred from generic mobility advice. Lifting platform at the main entrance; contact staff for assistance. Witloof Bar uses the entrance-hall lift. No dedicated adapted areas inside the halls; arrive early. Generic19:30 advice does not override event-specific doors17:00."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "standard": 38,
+        "member": 34,
+        "min": null,
+        "text": "currency: EUR; standard: 38; member: 34"
+      },
+      "restrictions": "Doors17:00. First announced act IYAMAH17:40 in Museum; IAMDDB21:00. Parallel sets in Rotonde and Witloof Bar. Standard day ticket€38; member€34; three-day pass€96/member€90. No overall ending inferred from generic mobility advice.",
+      "accessEn": "Lifting platform at the main entrance; contact staff for assistance. Witloof Bar uses the entrance-hall lift. No dedicated adapted areas inside the halls; arrive early. Generic19:30 advice does not override event-specific doors17:00.",
+      "accessSourceId": "botanique-access",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "No prose exact end observed; endAt null.",
+      "visitSchedule": [],
+      "sourceUrl": "https://botanique.be/en/concert/les-nuits-weekender-iamddb-live-jazz-experience-many-more-2026",
+      "checkedAt": "2026-10-28T10:45:18.764065+00:00",
+      "sourceCheckedAt": "2026-10-28T10:45:18.764065+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "music",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:45:18.764065+00:00"
+    },
+    {
+      "id": "symfomania",
+      "sourceId": "symfomania",
+      "title": "Symfomania! — Junior7–12",
+      "summaryEn": "Children explore orchestral music in a workshop, then join their parents for the concert.",
+      "category": "family/workshop",
+      "venue": "Flagey",
+      "venueId": "flagey",
+      "address": "Place Sainte-Croix, 1050 Ixelles, Brussels",
+      "addressSourceId": "flagey-evidence-0",
+      "verifiedCoordinates": {
+        "latitude": 50.82667,
+        "longitude": 4.37278,
+        "sourceUrl": "https://en.wikipedia.org/wiki/Flagey_Building",
+        "precision": "named building approximate, rounded DMS; not individual studio or surveyed entrance",
+        "evidence": "Full named-building article explicitly publishes50°49′36″N4°22′22″E /50.82667,4.37278 and identifies main entrance onPlaceSainteCroix. Independently matches primary venue address.",
+        "sourceId": "flagey-evidence-2",
+        "checkedAt": "2026-10-28T10:47:10Z"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-10-30",
+          "startTime": "19:30",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "flagey",
+          "room": "Studio3",
+          "price": {
+            "currency": "EUR",
+            "standard": null,
+            "scope": "child workshop plus concert; adult admission separate",
+            "min": null,
+            "text": "currency: EUR; standard: 15; scope: child workshop plus concert; adult admission separate"
+          },
+          "priceSourceId": "symfomania",
+          "availability": "booking_link_published; live capacity not checked",
+          "restrictions": "",
+          "sourceId": "symfomania",
+          "sourceUrl": "https://www.flagey.be/en/agenda/symfomania-rd37",
+          "ticketUrl": null,
+          "hall": "Studio3",
+          "admission": "For ages7–12; French,Dutch andEnglish. Explicit€15 workshop+concert package differs from adjacent adult concert seat tariffs€31–41: do not substitute those. Studio3 workshop19:30; associated Strauss concert20:15. Booking link published. Concert entrance: Place Sainte-Croix. Studio5 cinema uses the ticket-shop entrance to the right of the main entrance. The Belvédèrestreet27/5 first-floor address is administrative offices, not the public concert entrance. Visitors needing step-free seating should arrange it with the venue beforehand. Late entry or re-entry is restricted to applause or an interval. Food is not allowed inside studios."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "standard": null,
+        "scope": "child workshop plus concert; adult admission separate",
+        "min": null,
+        "text": "currency: EUR; standard: 15; scope: child workshop plus concert; adult admission separate"
+      },
+      "restrictions": "For ages7–12; French,Dutch andEnglish. Explicit€15 workshop+concert package differs from adjacent adult concert seat tariffs€31–41: do not substitute those. Studio3 workshop19:30; associated Strauss concert20:15. Booking link published.",
+      "accessEn": "Concert entrance: Place Sainte-Croix. Studio5 cinema uses the ticket-shop entrance to the right of the main entrance. The Belvédèrestreet27/5 first-floor address is administrative offices, not the public concert entrance. Visitors needing step-free seating should arrange it with the venue beforehand. Late entry or re-entry is restricted to applause or an interval. Food is not allowed inside studios.",
+      "accessSourceId": "flagey-evidence-1",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "No prose exact end observed; endAt null.",
+      "visitSchedule": [],
+      "sourceUrl": "https://www.flagey.be/en/agenda/symfomania-rd37",
+      "checkedAt": "2026-10-28T11:07:50.879487+00:00",
+      "sourceCheckedAt": null,
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "kids",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time not retained; original source audit preserves read window and this timestamp is local evidence review"
+    },
+    {
+      "id": "wiels-portia-talk",
+      "sourceId": "wiels-portia-talk",
+      "title": "Artist Talk: Portia Zvavahera",
+      "summaryEn": "Portia Zvavahera and curator Sofia Dati discuss the making of her WIELS exhibition.",
+      "category": "talk",
+      "venue": "WIELS",
+      "venueId": "wiels",
+      "address": "Avenue Van Volxemlaan 354, 1190 Forest, Brussels",
+      "addressSourceId": "wiels-practical",
+      "verifiedCoordinates": {
+        "latitude": 50.82438,
+        "longitude": 4.32594,
+        "precision": "named building/campus, not individual room or surveyed entrance",
+        "sourceId": "wiels-pin",
+        "checkedAt": "2026-10-28T10:47:15.976719+00:00",
+        "evidence": "Full named WIELS arts-centre page, OSM node12346614316; not neighbouring marsh or tram stop.",
+        "sourceUrl": "https://mapcarta.com/N12346614316"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-10-30",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "wiels",
+          "room": "Room not specified",
+          "price": {
+            "currency": "EUR",
+            "standard": 0,
+            "min": null,
+            "text": "currency: EUR; standard: 0"
+          },
+          "priceSourceId": "wiels-portia-talk",
+          "availability": "booking_link_published; live capacity not checked",
+          "restrictions": "",
+          "sourceId": "wiels-portia-talk",
+          "sourceUrl": "https://wiels.org/en/events/artist-talk-portia-zvavahera",
+          "ticketUrl": null,
+          "hall": "Room not specified",
+          "admission": "English. Free; ticket reservation link provided. Reduced-mobility and pushchair access via rear parking entrance and lifts. A small fourth-floor room is difficult to access; staff assistance available."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "standard": 0,
+        "min": null,
+        "text": "currency: EUR; standard: 0"
+      },
+      "restrictions": "English. Free; ticket reservation link provided.",
+      "accessEn": "Reduced-mobility and pushchair access via rear parking entrance and lifts. A small fourth-floor room is difficult to access; staff assistance available.",
+      "accessSourceId": "wiels-practical",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "Page header gives19:00–20:00; not prose, so exact endAt withheld.",
+      "visitSchedule": [],
+      "sourceUrl": "https://wiels.org/en/events/artist-talk-portia-zvavahera",
+      "checkedAt": "2026-10-28T10:46:36.405828+00:00",
+      "sourceCheckedAt": "2026-10-28T10:46:36.405828+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "talk",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:46:36.405828+00:00"
+    },
+    {
+      "id": "wiels-garb",
+      "sourceId": "wiels-garb",
+      "title": "Tamar Garb on Portia Zvavahera",
+      "summaryEn": "Art historian Tamar Garb traces themes of dreams, faith and personal experience across Zvavahera’s paintings.",
+      "category": "lecture",
+      "venue": "WIELS",
+      "venueId": "wiels",
+      "address": "Avenue Van Volxemlaan 354, 1190 Forest, Brussels",
+      "addressSourceId": "wiels-practical",
+      "verifiedCoordinates": {
+        "latitude": 50.82438,
+        "longitude": 4.32594,
+        "precision": "named building/campus, not individual room or surveyed entrance",
+        "sourceId": "wiels-pin",
+        "checkedAt": "2026-10-28T10:47:15.976719+00:00",
+        "evidence": "Full named WIELS arts-centre page, OSM node12346614316; not neighbouring marsh or tram stop.",
+        "sourceUrl": "https://mapcarta.com/N12346614316"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-11-14",
+          "startTime": "16:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "wiels",
+          "room": "Room not specified",
+          "price": {
+            "currency": "EUR",
+            "standard": 0,
+            "min": null,
+            "text": "currency: EUR; standard: 0"
+          },
+          "priceSourceId": "wiels-garb",
+          "availability": "booking_link_published; live capacity not checked",
+          "restrictions": "",
+          "sourceId": "wiels-garb",
+          "sourceUrl": "https://wiels.org/en/events/lecture-tamar-garb-on-portia-zvavahera",
+          "ticketUrl": null,
+          "hall": "Room not specified",
+          "admission": "English. Free; registration recommended. Reduced-mobility and pushchair access via rear parking entrance and lifts. A small fourth-floor room is difficult to access; staff assistance available."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "standard": 0,
+        "min": null,
+        "text": "currency: EUR; standard: 0"
+      },
+      "restrictions": "English. Free; registration recommended.",
+      "accessEn": "Reduced-mobility and pushchair access via rear parking entrance and lifts. A small fourth-floor room is difficult to access; staff assistance available.",
+      "accessSourceId": "wiels-practical",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "Page header gives16:00–17:30; not prose, so exact endAt withheld.",
+      "visitSchedule": [],
+      "sourceUrl": "https://wiels.org/en/events/lecture-tamar-garb-on-portia-zvavahera",
+      "checkedAt": "2026-10-28T10:46:36.406518+00:00",
+      "sourceCheckedAt": "2026-10-28T10:46:36.406518+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "talk",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:46:36.406518+00:00"
+    },
+    {
+      "id": "wiels-herman",
+      "sourceId": "wiels-herman",
+      "title": "Look Who’s Talking: Laura Herman",
+      "summaryEn": "Curator Laura Herman leads a Dutch-language exploration of Ali Cherri’s Soul Witness.",
+      "category": "guided tour",
+      "venue": "WIELS",
+      "venueId": "wiels",
+      "address": "Avenue Van Volxemlaan 354, 1190 Forest, Brussels",
+      "addressSourceId": "wiels-practical",
+      "verifiedCoordinates": {
+        "latitude": 50.82438,
+        "longitude": 4.32594,
+        "precision": "named building/campus, not individual room or surveyed entrance",
+        "sourceId": "wiels-pin",
+        "checkedAt": "2026-10-28T10:47:15.976719+00:00",
+        "evidence": "Full named WIELS arts-centre page, OSM node12346614316; not neighbouring marsh or tram stop.",
+        "sourceUrl": "https://mapcarta.com/N12346614316"
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [
+        {
+          "date": "2026-11-04",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Brussels",
+          "venueId": "wiels",
+          "room": "Exhibition galleries",
+          "price": {
+            "currency": "EUR",
+            "standard": 0,
+            "scope": "event advertised free; general exhibition admission conditions unresolved",
+            "min": null,
+            "text": "currency: EUR; standard: 0; scope: event advertised free; general exhibition admission conditions unresolved"
+          },
+          "priceSourceId": "wiels-herman",
+          "availability": "booking_link_published; live capacity not checked",
+          "restrictions": "",
+          "sourceId": "wiels-herman",
+          "sourceUrl": "https://wiels.org/en/events/look-whos-talking-laura-herman",
+          "ticketUrl": null,
+          "hall": "Exhibition galleries",
+          "admission": "Dutch. Event page explicitly says free. Generic tour policy requires registration and says tours are included with an entrance ticket; exhibition-admission applicability to this free nocturne event remains unconfirmed. Reduced-mobility and pushchair access via rear parking entrance and lifts. A small fourth-floor room is difficult to access; staff assistance available."
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "standard": 0,
+        "scope": "event advertised free; general exhibition admission conditions unresolved",
+        "min": null,
+        "text": "currency: EUR; standard: 0; scope: event advertised free; general exhibition admission conditions unresolved"
+      },
+      "restrictions": "Dutch. Event page explicitly says free. Generic tour policy requires registration and says tours are included with an entrance ticket; exhibition-admission applicability to this free nocturne event remains unconfirmed.",
+      "accessEn": "Reduced-mobility and pushchair access via rear parking entrance and lifts. A small fourth-floor room is difficult to access; staff assistance available.",
+      "accessSourceId": "wiels-practical",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": "Page header gives19:00–20:00; not prose, so exact endAt withheld.",
+      "visitSchedule": [],
+      "sourceUrl": "https://wiels.org/en/events/look-whos-talking-laura-herman",
+      "checkedAt": "2026-10-28T10:46:36.407270+00:00",
+      "sourceCheckedAt": "2026-10-28T10:46:36.407270+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "city",
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:46:36.407270+00:00"
+    },
+    {
+      "id": "brussels-childrens-museum-ing-posters-2026",
+      "sourceId": "brussels-childrens-museum-ing-posters-2026",
+      "title": "Le Musée des Enfants s’affiche!",
+      "summaryEn": "A temporary family programme uses five ING Collection posters to inspire creative activities in cooking, crafts, theatre, storytelling and construction.",
+      "category": "family/exhibition/workshop",
+      "venue": "Children’s Museum Brussels",
+      "venueId": "children-museum",
+      "address": "Rue du Bourgmestre 15, 1050 Ixelles, Brussels",
+      "addressSourceId": "brussels-childrens-museum-ing-posters-2026",
+      "verifiedCoordinates": {
+        "latitude": 50.8216798,
+        "longitude": 4.3786016,
+        "sourceUrl": "https://www.google.com/maps?q=Mus%C3%A9e%20des%20Enfants%20Rue%20du%20Bourgmestre%2015%20Ixelles&output=embed",
+        "checkedAt": "2026-10-28T10:52:24.940133+00:00",
+        "precision": "named museum building marker, not surveyed entrance",
+        "evidence": "Exact named Children's Museum Brussels + RueBourgmestre15 + ownwebsite inpublicGoogleplace payload0x47c3c4ea0ff6cee3:0xcf054e17175ec41a; notviewport. Address separately primaryconfirmed."
+      },
+      "timezone": "Europe/Brussels",
+      "occurrences": [],
+      "price": {
+        "standard": 14,
+        "currency": "EUR",
+        "text": "EUR14 per entry for1–4people; groups5–7 EUR11.50 each,8–10 EUR10.50; under3free. Ixelles residents and teachers withproof EUR10. Additional checkoutfee unknown.",
+        "min": null
+      },
+      "restrictions": "Ticket includes exhibition and at most two workshops, subject to availability; workshop sign-up onsite at14:30. Reserve ahead, especially winter. Lift currently out of service; prams not admitted. Tickets nonrefundable/nonexchangeable. November2 additionally has a public10:00–12:30window. No public visits asserted on school-only dates.",
+      "accessEn": "Lift currently out of service; prams are not admitted.",
+      "accessSourceId": "brussels-childrens-museum-ing-posters-2026",
+      "publicationStatus": "candidate_checked_not_published",
+      "endEvidence": null,
+      "visitSchedule": [
+        {
+          "date": "2026-10-28",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-02",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        }
+      ],
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-15",
+      "additionalOpeningWindows": [
+        {
+          "date": "2026-11-02",
+          "startTime": "10:00",
+          "endTime": "12:30",
+          "reason": "Yellow annualcalendarcell explicitly publicmorning+afternoon; afternoon is included in normalvisitSchedule."
+        }
+      ],
+      "closedDates": [
+        "2026-11-01",
+        "2026-11-09",
+        "2026-11-11"
+      ],
+      "dateEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:52:16.076239+00:00",
+      "openingHoursSource": "https://www.museedesenfants.be/wp-content/uploads/2026/07/Capture_planning_annuel_MDE.png",
+      "sourceUrl": "https://www.museedesenfants.be/infos-pratiques-2/",
+      "checkedAt": "2026-10-28T10:52:16.076239+00:00",
+      "sourceCheckedAt": "2026-10-28T10:52:16.076239+00:00",
+      "status": "candidate_checked_not_published",
+      "normalizedCategory": "kids"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "daan",
+      "url": "https://www.bozar.be/en/calendar/daan-vandewalle",
+      "checkedAt": "2026-10-28T10:24:44.560004+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/daan.html",
+      "sha256": "64312f504293631ab9599fa6a212937978bf1753687e0a96a4ce8e33629e2558"
+    },
+    {
+      "sourceId": "new-beginnings",
+      "url": "https://www.bozar.be/en/calendar/new-beginnings-isabelle-ingold-vivianne-perelmuter",
+      "checkedAt": "2026-10-28T10:24:44.560715+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/new-beginnings.html",
+      "sha256": "6bf75976a645b55bb28cb804059022729e15a96a9da00e1b9767640cfa26e2a9"
+    },
+    {
+      "sourceId": "amelio",
+      "url": "https://www.bozar.be/en/calendar/amelio-trio-echo-rising-star",
+      "checkedAt": "2026-10-28T10:24:44.561364+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/amelio.html",
+      "sha256": "640599bb2555e9235d4e18014d521fe923f81cd1480ef9813960289f84380df7"
+    },
+    {
+      "sourceId": "sufi",
+      "url": "https://www.bozar.be/en/calendar/sufi-morning-aqnazar-alovatov-ensemble-navo",
+      "checkedAt": "2026-10-28T10:24:44.561819+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/sufi.html",
+      "sha256": "e75d74aa886e9a40d756dae01658d31b71df0b60f01569e1d2887a08001b7489"
+    },
+    {
+      "sourceId": "kentridge",
+      "url": "https://www.bozar.be/en/calendar/william-kentridge-0",
+      "checkedAt": "2026-10-28T10:24:44.562407+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/kentridge.html",
+      "sha256": "f44c10649b241f7968df1ad07c94c94f6e61ebcf83f4fed875cfd29ed3fd71ce"
+    },
+    {
+      "sourceId": "bozar-accessibility",
+      "url": "https://www.bozar.be/en/accessibility",
+      "checkedAt": "2026-10-28T10:24:44.563608+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/bozar-accessibility.html",
+      "sha256": "c49f68725193f3d482bf3f0c31e9949fa97797e5132cc28ff5f98b48d0148dbe"
+    },
+    {
+      "sourceId": "ceci",
+      "url": "https://www.kvs.be/en/Event/ceci-n-est-pas-noire-act-ii-1",
+      "checkedAt": "2026-10-28T10:24:50.534194+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/ceci.html",
+      "sha256": "da6ee9bd09643f4d7bfad4d7afb146d44ebcc3806e716e37becf3f7e4c67e2b6"
+    },
+    {
+      "sourceId": "mindblowers",
+      "url": "https://www.kvs.be/en/Event/mindblowers-proximamente-1",
+      "checkedAt": "2026-10-28T10:24:50.703288+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/mindblowers.html",
+      "sha256": "41704bc82dde46e70a074c1873a77bfddb92e4a857bc14b7e7b61330b18e43aa"
+    },
+    {
+      "sourceId": "kinolatino",
+      "url": "https://www.kvs.be/en/Event/kinolatino-short-films-screening-1",
+      "checkedAt": "2026-10-28T10:24:50.724262+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/kinolatino.html",
+      "sha256": "a36253ed6868a52b70ee5ad36f773c3fdcc6a58fc4f8e478e1634734bcb5de3d"
+    },
+    {
+      "sourceId": "kvs-agenda",
+      "url": "https://www.kvs.be/en/agenda",
+      "checkedAt": "2026-10-28T10:24:50.747793+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/kvs-agenda.html",
+      "sha256": "d705ba269af3fcf4e17394956a44dc79fcca90502c4c7389d7ffca113747b87e"
+    },
+    {
+      "sourceId": "kvs-top",
+      "url": "https://www.kvs.be/en/venue-hire/top",
+      "checkedAt": "2026-10-28T10:24:50.864542+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/kvs-top.html",
+      "sha256": "a45188e2615a6dda71cc5398afcf2dc7f4fa0e328aa7fff95edb16674e819109"
+    },
+    {
+      "sourceId": "kvs-bol",
+      "url": "https://www.kvs.be/en/venue-hire/kvs-bol",
+      "checkedAt": "2026-10-28T10:24:51.035232+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/kvs-bol.html",
+      "sha256": "0894827a1386c1a82a25296ef428b022b1447fe133d89de16ced33bea8bc281f"
+    },
+    {
+      "sourceId": "kvs-accessibility",
+      "url": "https://www.kvs.be/en/your-visit/accessibility",
+      "checkedAt": "2026-10-28T10:24:55.592950+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/kvs-accessibility.html",
+      "sha256": "372ab2ea315f33be2561e0cfd6fd7300486145507af03a38479fdd8647ea244a"
+    },
+    {
+      "sourceId": "bozar-access",
+      "url": "https://www.bozar.be/en/access",
+      "status": "full_body_archived",
+      "checkedAt": "2026-10-28T10:24:05.894473+00:00",
+      "checkedAtBasis": "archive completion timestamp",
+      "backup": "backup/bozar-access.html"
+    },
+    {
+      "sourceId": "kvs-directions",
+      "url": "https://www.kvs.be/en/your-visit/how-to-get-here",
+      "status": "full_body_archived",
+      "checkedAt": "2026-10-28T10:24:12.332377+00:00",
+      "checkedAtBasis": "archive completion timestamp",
+      "backup": "backup/kvs-directions.html"
+    },
+    {
+      "sourceId": "new-beginnings-2026-10-28",
+      "url": "https://tickets.bozar.be/selection/event/seat?perfId=10229848827559&lang=en",
+      "status": "full_web_body_read; generic hidden warnings make live availability ambiguous",
+      "checkedAt": null,
+      "checkedAtBasis": "Exact request timestamp not retained; full web read during 2026-10-28 research session before compilation."
+    },
+    {
+      "sourceId": "new-beginnings-2026-10-31",
+      "url": "https://tickets.bozar.be/selection/event/seat?perfId=10229864243834&lang=en",
+      "status": "full_web_body_read; generic hidden warnings make live availability ambiguous",
+      "checkedAt": null,
+      "checkedAtBasis": "Exact request timestamp not retained; full web read during 2026-10-28 research session before compilation."
+    },
+    {
+      "sourceId": "new-beginnings-2026-11-06",
+      "url": "https://tickets.bozar.be/selection/event/seat?perfId=10229864243835&lang=en",
+      "status": "full_web_body_read; generic hidden warnings make live availability ambiguous",
+      "checkedAt": null,
+      "checkedAtBasis": "Exact request timestamp not retained; full web read during 2026-10-28 research session before compilation."
+    },
+    {
+      "sourceId": "new-beginnings-2026-11-08",
+      "url": "https://tickets.bozar.be/selection/event/seat?perfId=10229864243836&lang=en",
+      "status": "full_web_body_read; generic hidden warnings make live availability ambiguous",
+      "checkedAt": null,
+      "checkedAtBasis": "Exact request timestamp not retained; full web read during 2026-10-28 research session before compilation."
+    },
+    {
+      "sourceId": "kfda-bol",
+      "url": "https://kfda.be/nl/venues/kvs-bol/",
+      "checkedAt": "2026-10-28T10:26:51.456359+00:00",
+      "checkedAtBasis": "full body archive completion",
+      "backup": "backup/kfda-bol.html",
+      "sha256": "1755649c2d2005ef6ccca1a6d81e5fd9623e62fa8325b50e6a177edb56692947",
+      "status": "full primary festival venue page read"
+    },
+    {
+      "sourceId": "muffatti",
+      "url": "https://www.bozar.be/en/calendar/les-muffatti-anthony-romaniuk",
+      "checkedAt": "2026-10-28T10:28:29.864204+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/muffatti.html",
+      "sha256": "9abf9697202352064ae248435af2e6d42178d3203f8edb096287160cb77f60af"
+    },
+    {
+      "sourceId": "dao",
+      "url": "https://www.bozar.be/en/calendar/dao-alain-gomis",
+      "checkedAt": "2026-10-28T10:28:34.997831+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/dao.html",
+      "sha256": "1273672ffcd7121d74a148e9c38be4daae79566df9930b3b43512e2dd257db60"
+    },
+    {
+      "sourceId": "rincon",
+      "url": "https://www.kvs.be/en/Event/el-rincon-de-los-muertos-1",
+      "checkedAt": "2026-10-28T10:28:53.584014+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/rincon.html",
+      "sha256": "06bbe03f2f097d6f21eedbfc0156bb91b2331ba2fe07d6e611af2bb8d3d6ca47"
+    },
+    {
+      "sourceId": "hier",
+      "url": "https://www.kvs.be/en/Event/hier-ik-als-keizerin-molenstraat-103-bus-5-1",
+      "checkedAt": "2026-10-28T10:28:56.886732+00:00",
+      "status": "full_body_archived",
+      "backup": "backup/hier.html",
+      "sha256": "1cfa81b69ec3f27a1429c2f5252f4b1c1f6a5adb10c69c193d444b819c2e1caa"
+    },
+    {
+      "sourceId": "wiels-portia-talk",
+      "url": "https://wiels.org/en/events/artist-talk-portia-zvavahera",
+      "checkedAt": "2026-10-28T10:46:36.405828+00:00",
+      "status": "full_body_archived",
+      "backup": "deepen/backup/wiels-portia-talk.html",
+      "sha256": "9631297269b24370204d71aebcf5af7b1b94ccba338372be1b3fcda60c640981"
+    },
+    {
+      "sourceId": "wiels-garb",
+      "url": "https://wiels.org/en/events/lecture-tamar-garb-on-portia-zvavahera",
+      "checkedAt": "2026-10-28T10:46:36.406518+00:00",
+      "status": "full_body_archived",
+      "backup": "deepen/backup/wiels-garb.html",
+      "sha256": "650cf21c443c5e4c76046d664b7122de244df9c6495aa929661566a7ef7496e0"
+    },
+    {
+      "sourceId": "wiels-herman",
+      "url": "https://wiels.org/en/events/look-whos-talking-laura-herman",
+      "checkedAt": "2026-10-28T10:46:36.407270+00:00",
+      "status": "full_body_archived",
+      "backup": "deepen/backup/wiels-herman.html",
+      "sha256": "cdd3911172f991fec551ded543a9ca6520a82432db3ba31f593aa097977636f0"
+    },
+    {
+      "sourceId": "botanique-mobility",
+      "url": "https://botanique.be/en/basic-page/mobility",
+      "checkedAt": "2026-10-28T10:46:36.407952+00:00",
+      "status": "full_body_archived",
+      "backup": "deepen/backup/botanique-mobility.html",
+      "sha256": "15e3d42f3407bd01ebe9d295ad76c967a3d9cc179bc48237e19305ebbc8ebde3"
+    },
+    {
+      "sourceId": "botanique-home",
+      "url": "https://botanique.be/en",
+      "checkedAt": "2026-10-28T10:46:36.408830+00:00",
+      "status": "full_body_archived",
+      "backup": "deepen/backup/botanique-home.html",
+      "sha256": "f0f7eb0d665c84d3e57805a990e3b203298ed59a4507108d6d61bba4e636ff14"
+    },
+    {
+      "sourceId": "wiels-practical",
+      "url": "https://wiels.org/en/practical-info",
+      "checkedAt": "2026-10-28T10:47:15.976080+00:00",
+      "status": "full_body_archived",
+      "backup": "deepen/backup/wiels-practical.html",
+      "sha256": "59a0aaf3006edfd50ca1ec5bc9046fa621469606a29b6fb7e5f8e490920945ec"
+    },
+    {
+      "sourceId": "wiels-pin",
+      "url": "https://mapcarta.com/N12346614316",
+      "checkedAt": "2026-10-28T10:47:15.976719+00:00",
+      "status": "full_body_archived",
+      "backup": "deepen/backup/wiels-pin.html",
+      "sha256": "4a4b8bbab4f57eff5d6dcfb506c52c36b56aaab5ced4fb4228e6fb1cbcb56004"
+    },
+    {
+      "sourceId": "botanique-access",
+      "url": "https://botanique.be/en/basic-page/people-specific-access-requirement",
+      "checkedAt": "2026-10-28T10:47:15.977356+00:00",
+      "status": "full_body_archived",
+      "backup": "deepen/backup/botanique-access.html",
+      "sha256": "b4f43ef8b25bf59d11ca53762385fcd477460a6ba0fb3f1437b1026301f395e5"
+    },
+    {
+      "sourceId": "botanique-neca",
+      "url": "https://neca.brussels/place/11",
+      "checkedAt": "2026-10-28T10:47:15.977859+00:00",
+      "status": "full_body_archived",
+      "backup": "deepen/backup/botanique-neca.html",
+      "sha256": "cd362e3ca58a57adeb685dfb801fc792c589bdd377e1abbfabee1ec6dac6d881"
+    },
+    {
+      "sourceId": "botanique-pin",
+      "url": "https://mapcarta.com/W240540020",
+      "checkedAt": "2026-10-28T10:48:02.194912+00:00",
+      "status": "full_body_archived",
+      "backup": "deepen/backup/botanique-pin.html",
+      "sha256": "7c3569de312ceaa842f231165a41ef3fbea82c1acef6960fa252e5d37613e19e"
+    },
+    {
+      "sourceId": "flagey-agenda",
+      "url": "https://www.flagey.be/en/agenda",
+      "checkedAt": null,
+      "status": "archive_failed_after_full_web_read",
+      "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+      "webReadStatus": "full body read successfully before archival failure",
+      "checkedAtBasis": "Exact successful web request timestamp not retained; web read between10:44:13 and10:44:35UTC on2026-10-28; archival failure is not a new read."
+    },
+    {
+      "sourceId": "symfomania",
+      "url": "https://www.flagey.be/en/agenda/symfomania-rd37",
+      "checkedAt": null,
+      "status": "archive_failed_after_full_web_read",
+      "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+      "webReadStatus": "full body read successfully before archival failure",
+      "checkedAtBasis": "Exact successful web request timestamp not retained; web read between10:44:13 and10:44:35UTC on2026-10-28; archival failure is not a new read."
+    },
+    {
+      "sourceId": "botanique-iamddb",
+      "url": "https://botanique.be/en/concert/les-nuits-weekender-iamddb-live-jazz-experience-many-more-2026",
+      "checkedAt": "2026-10-28T10:45:18.764065+00:00",
+      "status": "full archived",
+      "backup": "deepen/backup/botanique-iamddb.html",
+      "sha256": "bb3422c5d291f3e0bb954e01c87a9f5619048b0e11f13e25576997884a34f841"
+    },
+    {
+      "sourceId": "ixelles-agenda",
+      "url": "https://culture.ixelles.be/en/eventsearch/",
+      "checkedAt": "2026-10-28T10:45:18.764453+00:00",
+      "status": "full archived",
+      "backup": "deepen/backup/ixelles-agenda.html",
+      "sha256": "c16d8d1d96905ebcd88c9ead6d7bbb2272b77f046d317deb016658c342cbf4b8"
+    },
+    {
+      "sourceId": "ainda-city",
+      "url": "https://culture.ixelles.be/en/events/ainda-2/",
+      "checkedAt": "2026-10-28T10:45:18.765517+00:00",
+      "status": "full archived",
+      "backup": "deepen/backup/ainda-city.html",
+      "sha256": "691040bd7c182031e40a01b4707b616477993543f303aa8be3d6b5a2fbdd0021"
+    },
+    {
+      "sourceId": "ainda-promoter",
+      "url": "https://gotobeat.com/gig/ainda-in-brussels-3t/",
+      "checkedAt": "2026-10-28T10:45:18.767437+00:00",
+      "status": "full archived",
+      "backup": "deepen/backup/ainda-promoter.html",
+      "sha256": "e4c96a985ccddda386188df27313947ae05c2351d038a4a2c9cde457d48649ae"
+    },
+    {
+      "sourceId": "arlo",
+      "url": "https://cirqueroyalbruxelles.be/evenement/arlo-parks-2026-11-03-2000",
+      "checkedAt": "2026-10-28T10:45:24.935879+00:00",
+      "status": "full archived",
+      "backup": "deepen/backup/arlo.html",
+      "sha256": "3505e9c66ed8ee86a4bcd46bc30a031c3dcdcaad3bd02123bf8ba4123112a73d"
+    },
+    {
+      "sourceId": "cirque-access",
+      "url": "https://cirqueroyalbruxelles.be/acces",
+      "checkedAt": "2026-10-28T10:45:26.525917+00:00",
+      "status": "full archived",
+      "backup": "deepen/backup/cirque-access.html",
+      "sha256": "046419f67c21a51f00c4d0c99a393e6ea94c8540fde31e805d14bfdb541c87dc"
+    },
+    {
+      "sourceId": "flagey-evidence-0",
+      "url": "https://www.flagey.be/en/get-to-flagey-1trc",
+      "method": "full web reader",
+      "checkedAt": "2026-10-28T10:46:28Z",
+      "status": "full web reader; collaborator verified",
+      "backup": "flagey-pin/verified.json"
+    },
+    {
+      "sourceId": "flagey-evidence-1",
+      "url": "https://www.flagey.be/en/frequently-asked-questions-qft1",
+      "method": "full web reader",
+      "checkedAt": "2026-10-28T10:46:28Z",
+      "status": "full web reader; collaborator verified",
+      "backup": "flagey-pin/verified.json"
+    },
+    {
+      "sourceId": "flagey-evidence-2",
+      "url": "https://en.wikipedia.org/wiki/Flagey_Building",
+      "method": "full web reader",
+      "checkedAt": "2026-10-28T10:47:10Z",
+      "status": "full web reader; collaborator verified",
+      "backup": "flagey-pin/verified.json"
+    },
+    {
+      "sourceId": "brussels-childrens-museum-ing-posters-2026",
+      "url": "https://www.museedesenfants.be/infos-pratiques-2/",
+      "checkedAt": "2026-10-28T10:52:16.076239+00:00",
+      "status": "full primary pages and visually read annual calendar; collaborator verified",
+      "additionalEvidenceUrls": [
+        "https://www.museedesenfants.be/",
+        "https://www.museedesenfants.be/wp-content/uploads/2026/07/Capture_planning_annuel_MDE.png"
+      ],
+      "backup": "children-museum/canonical-delta.json"
+    }
+  ],
+  "venues": [
+    {
+      "id": "bozar",
+      "name": "BOZAR / Centre for Fine Arts",
+      "address": "Rue Ravenstein 23, 1000 Brussels, Belgium",
+      "addressSourceId": "bozar-access",
+      "pin": {
+        "latitude": 50.8442559,
+        "longitude": 4.3595536,
+        "precision": "named building; not individual hall entrance",
+        "sourceId": "bozar-access",
+        "evidence": "Official-page Google embed resolved named BOZAR at Rue Ravenstein 23; output named-place coordinates, not input viewport.",
+        "backup": "backup/bozar-access-map.html",
+        "checkedAt": "2026-10-28T10:24:25.756786+00:00"
+      },
+      "access": "Advance notice recommended for mobility assistance; wheelchair loan by reservation. Certified assistance dogs only.",
+      "accessSourceId": "bozar-accessibility"
+    },
+    {
+      "id": "kvs-box",
+      "name": "KVS BOX",
+      "address": "Arduinkaai 9, 1000 Brussels, Belgium",
+      "addressSourceId": "kvs-directions",
+      "addressCaveat": "Directions prose says 7; venue footer and official embedded named KVS BOX marker both say 9. Number 7 is also the general office address.",
+      "pin": {
+        "latitude": 50.8552302,
+        "longitude": 4.3511771,
+        "precision": "named building; not auditorium entrance",
+        "sourceId": "kvs-directions",
+        "backup": "backup/kvs-directions-map.html",
+        "checkedAt": "2026-10-28T10:24:28.328624+00:00"
+      },
+      "access": "Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements.",
+      "accessSourceId": "kvs-accessibility"
+    },
+    {
+      "id": "kvs-bol",
+      "name": "KVS BOL / historical building, also TOP",
+      "address": "Lakensestraat 146, 1000 Brussels, Belgium",
+      "pin": {
+        "latitude": 50.85547,
+        "longitude": 4.35193,
+        "precision": "named building, not entrance or specific room",
+        "sourceId": "kfda-bol",
+        "checkedAt": "2026-10-28T10:26:51.456359+00:00",
+        "evidence": "KVS BOL venue-page map-1298 data-coord=50.85547, 4.35193"
+      },
+      "access": "Reduced-mobility access requires advance arrangements; accessible toilets available. Step-free alternative entrance requires assistance. Obstacles exist between nearby parking and the building.",
+      "accessSourceId": "kfda-bol",
+      "topLocationEvidenceSourceId": "kvs-top"
+    },
+    {
+      "id": "pilar",
+      "name": "Pilar Box",
+      "district": "Ixelles — VUB campus",
+      "address": "Boulevard de la Plaine 2, 1050 Ixelles, Brussels",
+      "addressSourceId": "ainda-city",
+      "pin": {
+        "latitude": 50.8233537,
+        "longitude": 4.397987,
+        "precision": "named building/campus, not individual room or surveyed entrance",
+        "sourceId": "ainda-promoter",
+        "checkedAt": "2026-10-28T10:45:18.767437+00:00",
+        "evidence": "Promoter page includes named Pilar Google Maps place URL with !3d50.8233537!4d4.397987; NOT viewport50.850213,4.315275. Google target read failed, no retry; pin is hyperlink evidence only."
+      },
+      "access": "Age18+ for this concert. Step-free access not verified.",
+      "accessSourceId": "ainda-promoter"
+    },
+    {
+      "id": "cirque-royal",
+      "name": "Cirque Royal",
+      "district": "Brussels — Freedom Quarter",
+      "address": "Rue de l’Enseignement 81, 1000 Brussels",
+      "addressSourceId": "cirque-access",
+      "pin": {
+        "latitude": 50.848848,
+        "longitude": 4.36603,
+        "precision": "named building/campus, not individual room or surveyed entrance",
+        "sourceId": "cirque-access",
+        "checkedAt": "2026-10-28T10:45:26.525917+00:00",
+        "evidence": "Own map JavaScript myLatlng explicitly assigned to marker titled CIRQUE ROYAL • KONINKLIJK CIRCUS; not parking markers."
+      },
+      "access": "Accessible transport information published; wheelchair arrangements not verified.",
+      "accessSourceId": "cirque-access"
+    },
+    {
+      "id": "botanique",
+      "name": "Le Botanique",
+      "district": "Saint-Josse-ten-Noode",
+      "address": "Rue Royale 236, 1210 Saint-Josse-ten-Noode, Brussels",
+      "addressSourceId": "botanique-neca",
+      "pin": {
+        "latitude": 50.8549,
+        "longitude": 4.36535,
+        "precision": "named building/campus, not individual room or surveyed entrance",
+        "sourceId": "botanique-pin",
+        "checkedAt": "2026-10-28T10:48:02.194912+00:00",
+        "evidence": "Full named arts-centre building page, OSM way240540020; not Botanique metro/tram station."
+      },
+      "access": "Lifting platform at the main entrance; contact staff for assistance. Witloof Bar uses the entrance-hall lift. No dedicated adapted areas inside the halls; arrive early. Generic19:30 advice does not override event-specific doors17:00.",
+      "accessSourceId": "botanique-access"
+    },
+    {
+      "id": "wiels",
+      "name": "WIELS",
+      "district": "Forest",
+      "address": "Avenue Van Volxemlaan 354, 1190 Forest, Brussels",
+      "addressSourceId": "wiels-practical",
+      "pin": {
+        "latitude": 50.82438,
+        "longitude": 4.32594,
+        "precision": "named building/campus, not individual room or surveyed entrance",
+        "sourceId": "wiels-pin",
+        "checkedAt": "2026-10-28T10:47:15.976719+00:00",
+        "evidence": "Full named WIELS arts-centre page, OSM node12346614316; not neighbouring marsh or tram stop."
+      },
+      "access": "Reduced-mobility and pushchair access via rear parking entrance and lifts. A small fourth-floor room is difficult to access; staff assistance available.",
+      "accessSourceId": "wiels-practical"
+    },
+    {
+      "id": "flagey",
+      "name": "Flagey",
+      "district": "Ixelles — Place Flagey",
+      "address": "Place Sainte-Croix, 1050 Ixelles, Brussels",
+      "addressSourceId": "flagey-evidence-0",
+      "pin": {
+        "latitude": 50.82667,
+        "longitude": 4.37278,
+        "sourceUrl": "https://en.wikipedia.org/wiki/Flagey_Building",
+        "precision": "named building approximate, rounded DMS; not individual studio or surveyed entrance",
+        "evidence": "Full named-building article explicitly publishes50°49′36″N4°22′22″E /50.82667,4.37278 and identifies main entrance onPlaceSainteCroix. Independently matches primary venue address.",
+        "sourceId": "flagey-evidence-2",
+        "checkedAt": "2026-10-28T10:47:10Z"
+      },
+      "access": "Concert entrance: Place Sainte-Croix. Studio5 cinema uses the ticket-shop entrance to the right of the main entrance. The Belvédèrestreet27/5 first-floor address is administrative offices, not the public concert entrance. Visitors needing step-free seating should arrange it with the venue beforehand. Late entry or re-entry is restricted to applause or an interval. Food is not allowed inside studios.",
+      "accessSourceId": "flagey-evidence-1"
+    },
+    {
+      "id": "children-museum",
+      "name": "Children’s Museum Brussels",
+      "district": "Ixelles — Parc Jadot",
+      "address": "Rue du Bourgmestre 15, 1050 Ixelles, Brussels",
+      "addressSourceId": "brussels-childrens-museum-ing-posters-2026",
+      "pin": {
+        "latitude": 50.8216798,
+        "longitude": 4.3786016,
+        "sourceUrl": "https://www.google.com/maps?q=Mus%C3%A9e%20des%20Enfants%20Rue%20du%20Bourgmestre%2015%20Ixelles&output=embed",
+        "checkedAt": "2026-10-28T10:52:24.940133+00:00",
+        "precision": "named museum building marker, not surveyed entrance",
+        "evidence": "Exact named Children's Museum Brussels + RueBourgmestre15 + ownwebsite inpublicGoogleplace payload0x47c3c4ea0ff6cee3:0xcf054e17175ec41a; notviewport. Address separately primaryconfirmed."
+      },
+      "access": "Lift currently out of service; prams are not admitted.",
+      "accessSourceId": "brussels-childrens-museum-ing-posters-2026"
+    }
+  ],
+  "firstSevenDayMatrix": [
+    {
+      "date": "2026-10-28",
+      "timedProgrammeIds": [
+        "daan",
+        "new-beginnings",
+        "hier"
+      ],
+      "timedProgrammeCount": 3,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-10-29",
+      "timedProgrammeIds": [
+        "muffatti",
+        "dao"
+      ],
+      "timedProgrammeCount": 2,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-10-30",
+      "timedProgrammeIds": [
+        "dao",
+        "botanique-iamddb",
+        "symfomania",
+        "wiels-portia-talk"
+      ],
+      "timedProgrammeCount": 4,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-10-31",
+      "timedProgrammeIds": [
+        "new-beginnings"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-01",
+      "timedProgrammeIds": [
+        "amelio",
+        "sufi"
+      ],
+      "timedProgrammeCount": 2,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-02",
+      "timedProgrammeIds": [
+        "ainda-promoter"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-03",
+      "timedProgrammeIds": [
+        "arlo"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    }
+  ],
+  "thirtyDayMatrix": [
+    {
+      "date": "2026-10-28",
+      "timedProgrammeIds": [
+        "daan",
+        "new-beginnings",
+        "hier"
+      ],
+      "timedProgrammeCount": 3,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-10-29",
+      "timedProgrammeIds": [
+        "muffatti",
+        "dao"
+      ],
+      "timedProgrammeCount": 2,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-10-30",
+      "timedProgrammeIds": [
+        "dao",
+        "botanique-iamddb",
+        "symfomania",
+        "wiels-portia-talk"
+      ],
+      "timedProgrammeCount": 4,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-10-31",
+      "timedProgrammeIds": [
+        "new-beginnings"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-01",
+      "timedProgrammeIds": [
+        "amelio",
+        "sufi"
+      ],
+      "timedProgrammeCount": 2,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-02",
+      "timedProgrammeIds": [
+        "ainda-promoter"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-03",
+      "timedProgrammeIds": [
+        "arlo"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-04",
+      "timedProgrammeIds": [
+        "wiels-herman"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-05",
+      "timedProgrammeIds": [
+        "ceci"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-06",
+      "timedProgrammeIds": [
+        "new-beginnings",
+        "ceci"
+      ],
+      "timedProgrammeCount": 2,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-07",
+      "timedProgrammeIds": [
+        "ceci"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-08",
+      "timedProgrammeIds": [
+        "new-beginnings"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-09",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-10",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-11",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-12",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-13",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-14",
+      "timedProgrammeIds": [
+        "wiels-garb"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-15",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [
+        "kentridge",
+        "brussels-childrens-museum-ing-posters-2026"
+      ],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-16",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-17",
+      "timedProgrammeIds": [
+        "kinolatino"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-18",
+      "timedProgrammeIds": [
+        "mindblowers",
+        "rincon"
+      ],
+      "timedProgrammeCount": 2,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-19",
+      "timedProgrammeIds": [
+        "rincon"
+      ],
+      "timedProgrammeCount": 1,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "observed"
+    },
+    {
+      "date": "2026-11-20",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-21",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-22",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-23",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-24",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-25",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    },
+    {
+      "date": "2026-11-26",
+      "timedProgrammeIds": [],
+      "timedProgrammeCount": 0,
+      "visitingProgrammeIds": [
+        "kentridge"
+      ],
+      "timedCoverage": "no timed programme verified; not proof no events"
+    }
+  ],
+  "qa": {
+    "programmeCount": 20,
+    "venueCount": 9,
+    "timedDistinctDates": 16,
+    "firstSevenDaysAllHaveTimedProgrammes": true,
+    "childMuseumAfternoonWindows": 11,
+    "childMuseumAdditionalMorningWindows": 1,
+    "uniqueProgrammeIds": true,
+    "allOccurrenceDatesInHorizon": true,
+    "priceChecks": [
+      "Bozar standards retained separately from under26/member concessions; no lowest concession labelled standard.",
+      "NewBeginnings standard10EUR onOct28/Nov6;8EUR onOct31/Nov8, per-session rooms and ticket URLs retained.",
+      "Flagey15EUR is child7–12 workshop+concert package; not adult standard31–41EUR.",
+      "Ainda18EUR is FROM and includes fees, not asserted fixed standard.",
+      "Botanique38EUR standard dayticket,34EURmember separate; no96EURpass mislabelled as single day.",
+      "WIELS free event labels retained; LauraHerman general exhibition-admission applicability explicitly unresolved.",
+      "ChildrenMuseum14EUR perentry1–4people, conditionalgroup11.50/10.50 andunder3free retained.",
+      "KVS/Arlo unknown prices remain unknown."
+    ],
+    "crossCityCheck": "ArloParks source explicitly CirqueRoyalBrussels Nov3, ownvenue address81RueEnseignement. No Budapest cancellation or another-city restriction imported.",
+    "endPolicy": "All timed endTime null; no end inferred from duration or schedule block. Visiting opening/closing windows are separate.",
+    "pinLimitations": [
+      "Pilar explicit namedGoogleplaceURL3d/4d in promoter body, Googlebodyfailure disclosed.",
+      "Flagey approximate named building from fullWikipedia plus own address, not surveyed entrance.",
+      "WIELS/Botanique namedOSM-basedbuilding pins via fullMapcarta, not transit stops.",
+      "BOXaddress directions7 vs currentfooter+ownmap9 preserved."
+    ]
+  },
+  "holds": [
+    {
+      "title": "XXL family cooking/crafts workshops",
+      "reason": "Ownbookingpage confirmsage6+,EUR15,2hours,max10,reservation; actualdates/starttimes notread fromJSselector, so notimported."
+    },
+    {
+      "title": "Municipal ChildrenMuseum admissioncard",
+      "reason": "FullcarddatesMay23–Aug31 2025, stale; not2026event."
+    }
+  ],
+  "sourceCoverage": {
+    "completeness": "bounded observed programmes; not comprehensive citywide catalogue",
+    "priority": "broad local agendas first, then primary venue details. Telegram unavailable audit inherited, not repeated.",
+    "broadSources": [
+      "Bozar currentcalendar resultcounts37/79, actualdetail subset only; paginationstale/blocked",
+      "KVS fullcurrent firstpage catalogue, selecteddetails only",
+      "MunicipalIxelles/eventsearch fullfirstpage;660resultcount not660verified; archive/events stale",
+      "Flagey full current webcalendar; rawarchive307loop stopped",
+      "Botanique maincalendar fullcurrent; loadmore stale",
+      "WIELSevents indexshell; exhibition relatedlinks yielded fulldated events"
+    ],
+    "auditFiles": [
+      "audit/source-availability.json",
+      "audit/gap-and-expansion-delta.json",
+      "deepen/availability-and-remainder.json",
+      "children-museum/canonical-delta.json"
+    ],
+    "fetchLimitations": {
+      "scope": "Independent primary/public reserves and neighbourhood expansion; no changes to frozen v2.",
+      "availability": [
+        {
+          "url": "https://www.flagey.be/en/agenda",
+          "read": "full current web body; archive redirectloop307, stopped"
+        },
+        {
+          "url": "https://botanique.be/en/concerts",
+          "read": "full current main; load-more page staleOct20, not used for completeness"
+        },
+        {
+          "url": "https://wiels.org/en/events",
+          "read": "shell/no entries; independent exhibition pages full with actual related event links"
+        },
+        {
+          "url": "https://culture.ixelles.be/en/eventsearch/",
+          "read": "full municipal broad catalogue,660resultcount, only firstpage observed; not660verified"
+        },
+        {
+          "url": "https://culture.ixelles.be/en/events/",
+          "read": "stale archiveOct24, not currentbroad evidence"
+        }
+      ],
+      "blockedNoRetry": [
+        "https://www.flagey.be/en/agenda/close-encounter-nk2f (503)",
+        "https://www.muntpunt.be/agenda",
+        "https://www.labellone.be/",
+        "https://botanique.be/en/practical-info",
+        "https://pilar.brussels/en/practical",
+        "https://culture.ixelles.be/en//les-lundis-en-coulisse-2",
+        "https://culture.ixelles.be/en//space-for-arts-and-crafts-2",
+        "https://culture.ixelles.be/en//herbalism-workshop-2",
+        "https://lebrass.be/agenda/",
+        "Google Maps malformed municipal Pilar target and promoter Pilar target; failedbody not retried"
+      ],
+      "knownBlocksNotTouched": [
+        "VisitBrussels406",
+        "TelegramcommonSiteUnavailable"
+      ],
+      "notPromoted": [
+        "TokioHotelForest fullpage observed but not packaged: extra pin/access/price not verified.",
+        "WIELS2exhibitions fullbody observed but not packaged as visiting programmes: related dated events prioritized.",
+        "WIELS soldoutNov2–6childcamp held/excluded.",
+        "Other municipal firstpage discovery-only entries."
+      ],
+      "stopCondition": "This pass establishes five new named venues, genuineNov2/3 dated programmes and free daytime/talk/family categories; unknown fields retained. Await solewriter QA; no citywide completeness claim.",
+      "externalWrites": false
+    },
+    "issues": [
+      "Pilar pin uses promoter-linked explicit named-place coordinates, not successful Google body read; solewriter decides gate.",
+      "Flagey successful full web body but HTML archive failed307redirectloop; no retry.",
+      "All exact ends conservative null.",
+      "WIELS generic navigation said ClosedToday on some cached pages/OpenToday on others: never used as holiday evidence.",
+      "WIELS sold-out Nov2–6 camp excluded, not used to fill gaps."
+    ]
+  },
+  "checkedAt": "2026-10-28T11:07:50.879487+00:00",
+  "held": [
+    {
+      "id": "dao-2026-10-28",
+      "title": "Dao — Alain Gomis",
+      "date": "2026-10-28",
+      "disposition": "excluded_cancelled_occurrence",
+      "reason": "Primary full detail explicitly labels Oct28 screening cancelled; Oct29/30 retained.",
+      "sourceUrl": "https://www.bozar.be/en/calendar/dao-alain-gomis",
+      "evidencePath": "backup/dao.html",
+      "readStatus": "full body archived"
+    },
+    {
+      "id": "wiels-autumn-camp",
+      "title": "Autumn camp: Stop-motion workshop",
+      "dateRange": [
+        "2026-11-02",
+        "2026-11-06"
+      ],
+      "disposition": "held_sold_out_discovery",
+      "reason": "Own SoulWitness exhibition related-events list says sold-out; camp detail not read, not used for Nov2/3 coverage.",
+      "sourceUrl": "https://wiels.org/en/exhibitions/soul-witness",
+      "readStatus": "full parent exhibition body read; detail unread"
+    },
+    {
+      "id": "my-first-time",
+      "title": "My First Time",
+      "date": "2026-11-04",
+      "disposition": "excluded_cancelled_discovery",
+      "reason": "Botanique full own homepage explicitly labels cancelled; concert detail unread.",
+      "sourceUrl": "https://botanique.be/en",
+      "evidencePath": "deepen/backup/botanique-home.html",
+      "readStatus": "full parent body archived; detail unread"
+    },
+    {
+      "id": "spaghetti-western",
+      "title": "Spaghetti Western",
+      "dateRange": [
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "disposition": "held_waiting_list_discovery",
+      "reason": "KVS full agenda marks waiting list; detail not promoted.",
+      "sourceUrl": "https://www.kvs.be/en/agenda",
+      "evidencePath": "backup/kvs-agenda.html",
+      "readStatus": "full agenda archived; detail unread"
+    },
+    {
+      "id": "bozar-exhibitions-unpackaged",
+      "title": "Jean Brusselmans; Edith Dekyndt × Cristóbal Balenciaga; House of Memory",
+      "disposition": "unread_detail_discovery_only",
+      "reason": "Observed current calendar cards; full programme detail not read or packaged.",
+      "sourceUrl": "https://www.bozar.be/en/calendar",
+      "evidencePath": "backup/bozar-calendar.html",
+      "readStatus": "calendar archived only"
+    },
+    {
+      "id": "wiels-exhibitions-unpackaged",
+      "title": "Ali Cherri: Soul Witness; Portia Zvavahera: Kuzviramba Mamuri",
+      "disposition": "read_but_not_packaged",
+      "reason": "Full exhibition details read to discover dated public talks/tours; exhibition visiting schedules not imported.",
+      "sourceUrls": [
+        "https://wiels.org/en/exhibitions/soul-witness",
+        "https://wiels.org/en/exhibitions/portia-zvavahera"
+      ],
+      "readStatus": "full web body read"
+    },
+    {
+      "id": "tokio-hotel-forest",
+      "title": "Tokio Hotel — Forest National",
+      "date": "2026-11-02",
+      "disposition": "held_incomplete_venue_price_evidence",
+      "reason": "Own detail observed, but additional venue pin/access/price not verified; not included.",
+      "sourceUrl": "https://www.vorst-nationaal.be/evenement/tokio-hotel-19c0aad0",
+      "readStatus": "full web body read"
+    },
+    {
+      "id": "flagey-calendar-remainder",
+      "title": "Flagey cinema and concert listings outside selected Symfomania programme",
+      "disposition": "unread_detail_discovery_only",
+      "reason": "Current full calendar read; most independent details not read. Okonski waiting-list label observed; no live capacity inferred for other entries.",
+      "sourceUrl": "https://www.flagey.be/en/agenda",
+      "readStatus": "full web body; raw archive redirectloop failed"
+    },
+    {
+      "id": "ixelles-catalogue-remainder",
+      "title": "Municipal Ixelles catalogue remainder",
+      "disposition": "unread_detail_discovery_only",
+      "reason": "660 is result count; first20cards observed, not660verified. Selected broken-link details failed and were not corrected/retried.",
+      "sourceUrl": "https://culture.ixelles.be/en/eventsearch/",
+      "evidencePath": "deepen/backup/ixelles-agenda.html",
+      "readStatus": "firstpage full archived"
+    },
+    {
+      "id": "kvs-festival-remainder",
+      "title": "Yo Chacarera; Choclo Choclo Pochoclo; El Espacio de Aca; The Origin of the Future; La Rinoceronte; Ruderal; Ojo Salvaje; Metarage; Remix; Closing Party",
+      "disposition": "unread_detail_discovery_only",
+      "reason": "KVS current agenda cards observed, detail bodies not verified; not usable events.",
+      "sourceUrl": "https://www.kvs.be/en/agenda",
+      "evidencePath": "backup/kvs-agenda.html",
+      "readStatus": "agenda archived; individual details unread"
+    },
+    {
+      "id": "children-10",
+      "title": "XXL family cooking/crafts workshops",
+      "disposition": "held",
+      "reason": "Ownbookingpage confirmsage6+,EUR15,2hours,max10,reservation; actualdates/starttimes notread fromJSselector, so notimported.",
+      "evidencePath": "children-museum/canonical-delta.json"
+    },
+    {
+      "id": "children-11",
+      "title": "Municipal ChildrenMuseum admissioncard",
+      "disposition": "held",
+      "reason": "FullcarddatesMay23–Aug31 2025, stale; not2026event.",
+      "evidencePath": "children-museum/canonical-delta.json"
+    }
+  ],
+  "unreadDetailAttempts": []
+}

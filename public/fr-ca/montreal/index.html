@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="fr-CA">
+
+<head>
+
+<title>Quoi faire à Montréal aujourd’hui et cette semaine | Happy Map</title>
+
+<meta name="description" content="Quoi faire à Montréal ce soir et cette fin de semaine : concerts, conférences, théâtre et expositions datés avec lieux et liens directs vers les annonces.">
+
+<link rel="canonical" href="https://happymap.app/fr-ca/montreal/index.html">
+
+<meta property="og:type" content="website"><meta property="og:site_name" content="Happy Map">
+
+<meta property="og:title" content="Happy Map — Montréal : événements et lieux"><meta property="og:description" content="Découvrez des événements vérifiés et des lieux intéressants à Montréal. Choisissez où aller et enregistrez vos plans."><meta property="og:url" content="https://happymap.app/fr-ca/montreal/index.html">
+
+<meta property="og:image" content="https://happymap.app/assets/happy-map-unified-20261015-en.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Happy Map — Events. Places. Plans."><meta property="og:locale" content="fr_CA">
+
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Happy Map — Montréal : événements et lieux"><meta name="twitter:description" content="Découvrez des événements vérifiés et des lieux intéressants à Montréal. Choisissez où aller et enregistrez vos plans."><meta name="twitter:image" content="https://happymap.app/assets/happy-map-unified-20261015-en.png"><meta name="twitter:image:alt" content="Happy Map — Events. Places. Plans.">
+
+  
+
+  <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="theme-color" content="#ffffff">
+  
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;450;500;550;600;650;700;750;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/en/assets/leaflet.css?v=337bfca5cabd"><link rel="stylesheet" href="/en/montreal/style.css?v=0ab72cef3086">
+  
+  <script defer src="/en/assets/leaflet.js?v=db49d009c841"></script><link rel="stylesheet" href="/en/assets/maplibre/maplibre-gl.css?v=43c1d886b5fd"><script defer src="/en/assets/maplibre/maplibre-gl.js?v=1525f971223d"></script><script defer src="/en/assets/maplibre/leaflet-maplibre-gl.js?v=81a92cefb959"></script><script defer src="/fr-ca/map-basemap.js?v=5904be4869c8"></script><script defer src="/fr-ca/montreal/map-layout.js?v=ba7e7e9975c3"></script><script defer src="/en/discovery-model.js?v=b0724918928a"></script><script defer src="/fr-ca/montreal/app.js?v=2cb23a1a2bad"></script><script defer src="/fr-ca/location-control.js?v=aeeb8eb2ffe4"></script>
+
+<script defer src="/fr-ca/montreal/discovery.js?v=8e3dd64de062"></script>
+
+<script defer src="/fr-ca/catalog-modes.js?v=eeb73d42e00a"></script>
+
+<script defer src="/fr-ca/city-state.js?v=986b70b2d26b" data-city="montreal"></script><link rel="stylesheet" href="/en/discovery.css?v=37c6ea1d9ba7"><link rel="stylesheet" href="/en/social.css?v=a4214c9258b0"><script defer src="/fr-ca/social.js?v=9dfe91e35af8"></script><script defer src="/fr-ca/plan-account.js?v=f8e00848e5a9"></script><link rel="stylesheet" href="/en/dialog.css?v=b43e57321f1f">
+
+<link rel="stylesheet" href="/en/assets/download.css?v=71a91a023af2"><script defer src="/fr-ca/assets/app-shell.js?v=61bd1e8a75c2"></script><script defer src="/fr-ca/freshness.js?v=7477084cef9f"></script><script src="/en/locale-policy.js?v=90c843aeccb6"></script><script src="/en/language-switch.js?v=894a3ab5bc80"></script><link rel="stylesheet" href="/en/map-space.css?v=c6a1ae597f81"><link rel="stylesheet" href="/en/assets/controls.css?v=dd95db7a686c"><link rel="stylesheet" href="/en/assets/controls.css?v=dd95db7a686c"><link rel="alternate" hreflang="ru" href="https://happymap.app/montreal/"><link rel="alternate" hreflang="en" href="https://happymap.app/en/montreal/"><link rel="alternate" hreflang="fr-CA" href="https://happymap.app/fr-ca/montreal/index.html"><link rel="alternate" hreflang="x-default" href="https://happymap.app/en/montreal/"><link rel="stylesheet" href="/assets/controls.css?v=dd95db7a686c"></head>
+
+<body data-palette="coral" class="map-first">
+  
+  <header class="header">
+    
+    <a class="wordmark" href="/fr-ca/index.html" aria-label="Happy Map — accueil"><span translate="no" class="notranslate">Happy Map</span><span class="sunmark" aria-hidden="true">✳</span></a>
+    
+    <div class="city city-picker city-context"><span class="current-city">Montréal</span><a class="change-city" href="/fr-ca/cities.html">Changer de ville</a></div>
+    
+    <nav aria-label="Navigation principale"><button class="nav-tab active" id="exploreTab">Carte</button><button class="nav-tab" id="plansTab">Mes plans <span id="planCount" class="nav-count">0</span></button></nav>
+    
+    <a class="app-download" href="/fr-ca/android.html"><span aria-hidden="true">↓</span><span>Télécharger l’application</span></a>
+    
+    <details class="more-menu"><summary aria-label="Menu Happy Map">•••</summary><div><a href="/fr-ca/montreal/sources.html">Toutes les sources ↗</a><button type="button" data-share-city>Partager cette carte · Montréal</button><button id="visitorButton">Mon profil</button><button id="organizerButton">Pour les organisateurs</button><a href="/fr-ca/android.html">Télécharger l’application (Android)</a><a href="/fr-ca/cities.html">Choisir une ville</a><button data-peace class="peace-link">Pour la paix</button></div></details>
+  
+  <button type="button" id="addOwnEvent">＋ Ajouter votre événement · gratuit</button></header>
+
+  
+
+  <main><div class="journey" id="journey" hidden><strong>Étape 3 sur 3 · Faire des plans</strong><span>Ouvrez un événement → vérifiez l’heure et le prix → touchez « Ajouter à mes plans ».</span></div>
+    
+    <section class="intro">
+      
+      <div><div class="eyebrow"><span class="tiny-star">✳</span> QUE SE PASSE-T-IL EN VILLE</div><h1 id="mainTitle">La ville a des plans.<br><span>Vous aussi, maintenant.</span></h1></div>
+      
+      <div class="intro-side"><span class="edition">MONTRÉAL · CA</span><p>D’un café avec de nouvelles personnes<br>à la dernière chanson sur la piste de danse.</p><button id="sourcesButton" class="demo-label"><span></span> Chargement des annonces d’événements…</button></div>
+    
+    </section>
+
+    
+
+    <div class="catalog-status" id="catalogStatus" role="status"></div><div class="layer-tabs" role="group" aria-label="Afficher sur la carte"><button id="eventsLayer" class="active" aria-pressed="true">Événements</button><button id="cityLayer" aria-pressed="false">Toute la ville</button></div><section class="discovery-controls" aria-label="Choisir un jour et des événements">
+      
+      <div class="calendar-row"><div class="month-label">Octobre <span>2026</span><span class="week-caption">Votre semaine à venir</span></div><div id="calendar" class="calendar" role="group" aria-label="Calendrier de sept jours"></div><button class="filter-button week-button" id="wholeWeek">Toute la semaine</button><div class="week-note">Une belle journée<br>commence par une idée <span>↘</span></div></div>
+      
+      <div class="search-row"><label><span>Trouver un événement ou un lieu</span><input id="eventSearch" type="search" placeholder="Jazz, conférences, D&D, nom d’un bar…" autocomplete="off"></label></div><div class="filters-row" id="filtersRow"><div class="category-scroll"><button class="category-arrow" id="categoryPrev" aria-label="Catégories précédentes" aria-controls="categories">‹</button><div class="categories" id="categories" role="group" aria-label="Catégories"></div><button class="category-arrow" id="categoryNext" aria-label="Catégories suivantes" aria-controls="categories">›</button></div><div class="filter-actions"><button id="nearButton" class="filter-button">Près de moi</button><button id="programOnly" class="filter-button" aria-pressed="false">Avec programmation</button><button id="freeFilter" class="filter-button" aria-pressed="false">Gratuit</button><button id="filtersButton" aria-label="Filtres" class="filter-button" aria-expanded="false"><span data-icon="sliders"></span><span class="filters-word">Filtres</span></button></div></div>
+      
+      <div id="extraFilters" class="extra-filters" hidden><label>Quand <select id="timeFilter"><option value="all">N’importe quand</option><option value="day">En journée, avant 18:00</option><option value="evening">En soirée, après 18:00</option></select></label><label>Langue de l’événement <select id="languageFilter"><option value="all">Toutes</option><option value="EN">Anglais</option><option value="RU">Russe</option><option value="FR">Français</option></select></label><label>Distance<select id="radiusFilter"><option value="0">Toute la ville</option><option value="0.5">Dans un rayon de 500 m</option></select></label><button class="text-button" id="resetFilters">Réinitialiser les filtres</button></div>
+    
+    </section>
+
+    
+
+    <p id="discoveryNote" class="discovery-note"></p><section class="workspace" id="workspace">
+      
+      <div class="events-panel">
+        
+        <div class="list-heading"><div><h2 id="listTitle">Dimanche 4 octobre</h2><span id="resultCount" class="muted"></span></div><button class="sort-button" id="sortButton" aria-label="Trier par heure"><span data-icon="sort"></span></button></div>
+        
+        <div id="eventList" class="event-list" aria-live="polite"></div>
+        
+        <div id="planBudget" class="plan-budget" hidden></div>
+        
+        <div class="list-bottom"><span class="tiny-star">✳</span><p>Quelque chose d’intéressant<br>vous attend peut-être au coin de la rue.</p><span class="small-arrow">↗</span></div>
+      
+      </div>
+      
+      <div class="map-shell">
+        
+        <div id="map" aria-label="Carte des événements de Montréal"></div>
+        
+        <div id="mapEmpty" class="map-empty" hidden></div><div class="map-top"><button class="map-label" id="mapResults" aria-haspopup="dialog"><span class="city-dot"></span><span id="mapLabel">Ouvrir la liste des événements →</span></button><button class="map-home" id="mapHome" aria-label="Afficher tous les événements sur la carte"><span data-icon="focus"></span></button></div>
+        
+        <div class="map-feature" id="mapFeature"><span class="feature-kicker">PETITES DÉCOUVERTES</span><h3>Une grande ville.<br>Votre petit plan.</h3><p>Découvrez les lieux sur la carte.<br>La suite viendra.</p><span class="feature-flower" aria-hidden="true">✳</span></div>
+        
+        <button class="map-bottom" id="mapPlanButton" type="button"><span class="map-plan-copy"><span class="plan-icon" data-icon="bookmark"></span><span><strong id="mapPlanTitle">Événements de la semaine</strong><span id="mapPlanSubtitle">Enregistrez les lieux où vous souhaitez aller</span></span></span><span class="map-cta-arrow" data-icon="arrow"></span></button>
+        
+        <div id="mapFallback" class="map-fallback" hidden>La carte est indisponible. Vous pouvez quand même consulter la liste des événements.</div>
+      
+      </div>
+    
+    </section>
+
+    
+
+    <section class="closing-note"><span>ÉVÉNEMENTS ET LIEUX PRÈS DE VOUS</span><p>Découvrez des événements et ajoutez-les à vos plans <span>↗</span></p></section>
+    
+    <footer><a class="data-credit" href="/en/montreal/places.json" download>Répertoire des lieux · sources dans chaque fiche</a><a class="wordmark small" href="/fr-ca/index.html"><span translate="no" class="notranslate">Happy Map</span><span class="sunmark" aria-hidden="true">✳</span></a><a class="text-button" href="/fr-ca/android.html">Télécharger <span translate="no" class="notranslate">Happy Map</span> pour Android ↗</a><div class="design-options" aria-label="Thème de couleurs"><span>Thème</span><button class="swatch coral selected" data-palette="coral" aria-label="Thème corail" aria-pressed="true"></button><button class="swatch cobalt" data-palette="cobalt" aria-label="Thème bleu" aria-pressed="false"></button><button class="swatch olive" data-palette="olive" aria-label="Thème olive" aria-pressed="false"></button></div><button data-peace class="peace-link">Pour la paix</button><!-- city-guide-link --><a class="text-button city-guide-link" href="/guide/en/montreal">Guides d’événements par ville · Montréal</a><!-- /city-guide-link --></footer>
+  
+  </main>
+  
+  <div class="mobile-nav"><button id="mobileExplore" class="active"><span data-icon="map"></span>Carte</button><button id="mobilePlans"><span data-icon="bookmark"></span>Mes plans <span id="mobileCount">0</span></button><button id="mobileList">Événements</button><a class="download-tab" href="/fr-ca/android.html">Télécharger ↓</a></div>
+  
+  <dialog id="eventDialog" class="event-dialog"><div class="dialog-toolbar"><span><span translate="no" class="notranslate">Happy Map</span></span><button type="button" class="close-dialog" aria-label="Fermer les détails" id="closeEvent"><span>Fermer</span><span data-icon="close" aria-hidden="true"></span></button></div><div id="eventDetails"></div></dialog>
+  
+  <dialog id="organizerDialog" class="organizer-dialog"><button class="close-dialog" aria-label="Fermer le formulaire" id="closeOrganizer"><span data-icon="close"></span></button><span class="eyebrow">RASSEMBLEZ LES GENS</span><h2>Que prévoyez-vous<br>organiser?</h2><p class="muted">Essayez d’ajouter un événement. Ce formulaire est une démonstration; rien ne sera publié.</p><form id="organizerForm"><label>Titre de l’événement<input name="title" placeholder="Par exemple, une soirée d’échecs" required maxlength="80"></label><div class="form-row"><label>Jour<select name="day" id="organizerDay"></select></label><label>Heure de début<input type="time" value="19:00" required name="time"></label></div><label>Lieu<input placeholder="Nom de votre bar ou de votre lieu" required name="venue"></label><button class="primary-button" type="submit">Aperçu de l’événement <span>↗</span></button></form><div id="organizerPreview" hidden></div></dialog>
+  
+  <div id="toast" role="status" class="toast"></div>
+
+<script src="/fr-ca/map-space.js?v=e54251eb0125"></script><script defer src="/fr-ca/business-entry.js?v=9842aaa3f77d"></script><a data-traffic-privacy href="/fr-ca/traffic-privacy.html" style="display:block;text-align:center;font-size:12px;padding:12px;color:inherit">Statistiques de fréquentation &amp; confidentialité</a><script src="/en/assets/traffic.js?v=f992ccfcbc04" defer></script></body>
+
+</html>
+

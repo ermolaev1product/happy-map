@@ -1,0 +1,1870 @@
+{
+  "checked_at": "2026-10-14",
+  "source_registry_url": "https://happymap.app/research/bars-2026-10-14/",
+  "scope": "Paris administrative city. Unverified candidates do not become confirmed Paris venues.",
+  "registry_stats": {
+    "paris_labelled_rows": 2339,
+    "missing_addresses": 1510,
+    "explicit_suburban_postcodes": 50,
+    "outside_by_supplied_address_minimum": 52
+  },
+  "verification_stats": {
+    "total_venue_records": 20,
+    "within_paris": 17,
+    "outside_paris": 3,
+    "paris_with_coordinates": 17
+  },
+  "limitations": [
+    "This is a varied verification batch, not full coverage or a complete operating-status audit.",
+    "Current official web listings support operating-as-listed status; no physical visit or telephone confirmation was performed.",
+    "OSM-derived coordinates are location corroboration, not independent evidence of current operation.",
+    "Opening hours are Europe/Paris local time and may change on holidays or event days.",
+    "All price fields stay null: no sufficiently dated menu with currency and serving size was verified.",
+    "No public Telegram source was used in this bounded batch.",
+    "Original JSON was later available from supplied source. All 2,339 candidate positions now have official commune polygon checks in separate audit; within 100m of edge remains review. Do not confuse that with full operating-status verification."
+  ],
+  "duplicate_groups": [
+    {
+      "name": "Rosa Bonheur sur Seine",
+      "candidate_ids": [
+        "osm:way:618752756",
+        "osm:way:1392687175",
+        "osm:way:1392687178"
+      ],
+      "recommended_display_count": 1,
+      "reason": "One official venue with barge and terrace components. Preserve source geometries as aliases rather than treating each as a separate establishment.",
+      "official_source": "https://rosabonheur.fr/lieu/rosa-sur-seine/"
+    }
+  ],
+  "do_not_auto_merge": [
+    {
+      "candidate_ids": [
+        "osm:node:6931175799",
+        "osm:node:11631786407"
+      ],
+      "reason": "CRAVAN has two official Paris locations. Only 16th-arrondissement candidate resolved in this batch."
+    },
+    {
+      "candidate_ids": [
+        "osm:node:5619267600",
+        "osm:node:7099808545"
+      ],
+      "reason": "Liquiderie Cave and Liquiderie Bar are separate official addresses. Cave candidate needs location check."
+    },
+    {
+      "candidate_ids": [
+        "osm:node:3215872979",
+        "osm:node:13227206049"
+      ],
+      "reason": "Both named Bisou. with missing addresses; duplicate status unknown, do not collapse on name alone."
+    }
+  ],
+  "records": [
+    {
+      "candidate_ids": [
+        "osm:node:428040634"
+      ],
+      "name": "Le Baron Rouge",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 12,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "1 Rue Théophile Roussel, 75012 Paris",
+      "country_code": "FR",
+      "category": "wine_bar",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo 17:00-21:00; Tu-Fr 10:00-14:00,17:00-21:00; Sa 10:00-15:00,17:00-21:00; Su 10:00-16:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://lebaronrouge.net/",
+      "coordinates": {
+        "latitude": 48.8494401,
+        "longitude": 2.377381,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/428040634",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.84944,
+          "longitude": 2.37738,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/N428040634",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://lebaronrouge.net/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/N428040634",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/428040634",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Official site warns terrace or venue can close early when overcrowded. Official hours supersede older OSM-derived 22:00 closing."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:428040634",
+        "name": "Le Baron Rouge",
+        "address": "1 Rue Théophile Roussel",
+        "lat": 48.8494401,
+        "lng": 2.377381,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 2736.3,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/428040634"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:5098215159"
+      ],
+      "name": "The Copper Pub",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 14,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "4 Impasse de la Gaîté, 75014 Paris",
+      "country_code": "FR",
+      "category": "pub",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo-Fr 16:00-02:00; Sa-Su 11:00-02:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://thecopperpub.com/contact/",
+      "coordinates": {
+        "latitude": 48.8404358,
+        "longitude": 2.3246595,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/5098215159",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.84044,
+          "longitude": 2.32466,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/N5098215159",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://thecopperpub.com/contact/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/N5098215159",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/5098215159",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:5098215159",
+        "name": "The Copper Pub",
+        "address": "4 Impasse de la Gaîté 75014 Paris",
+        "lat": 48.8404358,
+        "lng": 2.3246595,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 2160.0,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/5098215159"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:2157952434"
+      ],
+      "name": "Paname Brewing Company — Quai de la Loire",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 19,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "41 bis Quai de la Loire, 75019 Paris",
+      "country_code": "FR",
+      "category": "brewpub",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo-Su 11:00-01:00",
+        "kitchen": "Mo-Su until 23:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.panamebrewingcompany.com/contact/",
+      "coordinates": {
+        "latitude": 48.8878312,
+        "longitude": 2.3787631,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/2157952434",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.88783,
+          "longitude": 2.37876,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/fr/N2157952434",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.panamebrewingcompany.com/contact/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/fr/N2157952434",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/2157952434",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Do not merge with Paname sites in Saint-Denis, Bercy or Roissy."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:2157952434",
+        "name": "Paname Brewing Company",
+        "address": "41 bis Quai de la Loire 75019 Paris",
+        "lat": 48.8878312,
+        "lng": 2.3787631,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 1488.4,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/2157952434"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:7099808545"
+      ],
+      "name": "Liquiderie Bar",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 11,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "7 Rue de la Présentation, 75011 Paris",
+      "country_code": "FR",
+      "category": "beer_and_wine_bar",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo-Th 17:00-00:00; Fr 17:00-02:00; Sa 15:00-02:00; Su 15:00-00:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://liquiderie.com/",
+      "coordinates": {
+        "latitude": 48.8709621,
+        "longitude": 2.3767786,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/7099808545",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.87096,
+          "longitude": 2.37678,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/N7099808545",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://liquiderie.com/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/N7099808545",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/7099808545",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Separate business location from Liquiderie Cave, 9 Rue des Trois Bornes. Never merge based on shared brand name alone. Older OSM-derived hours differ from official hours."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:7099808545",
+        "name": "Liquiderie Bar",
+        "address": "7 Rue de la Présentation 75011 Paris",
+        "lat": 48.8709621,
+        "lng": 2.3767786,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 2226.6,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/7099808545"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:3936222238"
+      ],
+      "name": "CopperBay Paris",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 10,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "5 Rue Bouchardon, 75010 Paris",
+      "country_code": "FR",
+      "category": "cocktail_bar",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Su-We 18:00-01:00; Th-Sa 18:00-02:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.copperbay.fr/",
+      "coordinates": {
+        "latitude": 48.8698364,
+        "longitude": 2.3570331,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/3936222238",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.86984,
+          "longitude": 2.35703,
+          "coordinate_system": "WGS84",
+          "source_url": "https://dev.cartes.app/?allez=Copper+Bay%7Cn3936222238%7C2.35703%7C48.86984&favoris=oui&panoramax=da523785-4c58-4756-bf7e-c197dd2c0d98",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.copperbay.fr/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://dev.cartes.app/?allez=Copper+Bay%7Cn3936222238%7C2.35703%7C48.86984&favoris=oui&panoramax=da523785-4c58-4756-bf7e-c197dd2c0d98",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/3936222238",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Official homepage search result was readable; direct fetch returned 502. Official address and schedule differ from older third-party directories."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:3936222238",
+        "name": "Copper Bay",
+        "address": null,
+        "lat": 48.8698364,
+        "lng": 2.3570331,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 3517.3,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/3936222238"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:4319376750"
+      ],
+      "name": "Hoppy Corner",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 2,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "34 Rue des Petits Carreaux, 75002 Paris",
+      "country_code": "FR",
+      "category": "craft_beer_bar",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo 17:00-00:00; Tu-Fr 17:00-02:00; Sa 14:00-02:00; Su 15:00-00:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.hoppycorner.com/contact",
+      "coordinates": {
+        "latitude": 48.8677429,
+        "longitude": 2.3474467,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/4319376750",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.86774,
+          "longitude": 2.34745,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/N4319376750",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hoppycorner.com/contact",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/N4319376750",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/4319376750",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Use official hours. Historical or generic pages with no hours are not proof of permanent closure."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:4319376750",
+        "name": "Hoppy Corner",
+        "address": null,
+        "lat": 48.8677429,
+        "lng": 2.3474467,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 3744.3,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/4319376750"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:6931175799"
+      ],
+      "name": "CRAVAN 16",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 16,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "17 Rue Jean de la Fontaine, 75016 Paris",
+      "country_code": "FR",
+      "category": "cocktail_bar",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Tu-Sa 17:00-00:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.cravanparis.com/fr/maison-saint-germain-des-pres/",
+      "coordinates": {
+        "latitude": 48.8516603,
+        "longitude": 2.2737947,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/6931175799",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.85166,
+          "longitude": 2.2738,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/N6931175799",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.cravanparis.com/fr/maison-saint-germain-des-pres/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/N6931175799",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/6931175799",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Official page separately lists Cravan 6 and Cravan 16; this record is Cravan 16. Official hours supersede older We-Sa 18:00-23:00 source. Unlisted days not explicitly encoded as closed."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:6931175799",
+        "name": "Cravan",
+        "address": "17 Rue Jean de La Fontaine 75016 Paris",
+        "lat": 48.8516603,
+        "lng": 2.2737947,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 1706.0,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/6931175799"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:way:618752756",
+        "osm:way:1392687175",
+        "osm:way:1392687178"
+      ],
+      "name": "Rosa Bonheur sur Seine",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 7,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "2 Port des Invalides, 75007 Paris",
+      "country_code": "FR",
+      "category": "guinguette_bar",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "barge": "We 18:00-00:30; Th-Fr 18:00-01:30; Sa 12:00-01:30; Su 12:00-00:30",
+        "terrace_and_pizza": "We-Fr 17:00-00:00; Sa-Su 12:00-00:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://rosabonheur.fr/lieu/rosa-sur-seine/",
+      "coordinates": {
+        "latitude": 48.8633271,
+        "longitude": 2.3155168,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/way/618752756",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.86333,
+          "longitude": 2.31552,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/fr/W618752756",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://rosabonheur.fr/lieu/rosa-sur-seine/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/fr/W618752756",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/way/618752756",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Three OSM geometries describe one venue complex; retain aliases, display one venue. Coordinate is the houseboat/barge, not separate terrace. Official address replaces candidate 37 Quai d’Orsay. Barge and terrace hours differ. Unlisted days not explicitly encoded as closed."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:way:618752756",
+        "name": "Rosa Bonheur sur Seine",
+        "address": "37 Quai d'Orsay 75007",
+        "lat": 48.8633271,
+        "lng": 2.3155168,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 3108.9,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/way/618752756"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:10824060500"
+      ],
+      "name": "Rosa Bonheur à l’Est",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 12,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "Chalet de la Porte Jaune, Avenue de Nogent, 75012 Paris",
+      "country_code": "FR",
+      "category": "guinguette_bar",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Fr 18:00-01:00; Sa 12:00-01:00; Su 12:00-20:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://rosabonheur.fr/lieu/rosa-bonheur-a-lest/",
+      "coordinates": {
+        "latitude": 48.8384071,
+        "longitude": 2.4593501,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/10824060500",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.83841,
+          "longitude": 2.45935,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/N10824060500",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://rosabonheur.fr/lieu/rosa-bonheur-a-lest/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/N10824060500",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://mairie12.paris.fr/pages/le-bois-de-vincennes-10288",
+          "type": "municipality",
+          "supports": [
+            "within_paris_proper"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/10824060500",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Inside Paris proper: Bois de Vincennes belongs to Paris 12; nearby Fontenay-sous-Bois station does not place this venue outside Paris. Open year-round per official site. Unlisted days not explicitly encoded as closed."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:10824060500",
+        "name": "Rosa Bonheur À L'est",
+        "address": "Avenue de Nogent",
+        "lat": 48.8384071,
+        "lng": 2.4593501,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 511.8,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/10824060500"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:418497769"
+      ],
+      "name": "The Moose",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 6,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "16 Rue des Quatre Vents, 75006 Paris",
+      "country_code": "FR",
+      "category": "sports_bar_pub",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo-Su 12:00-02:00",
+        "kitchen": "Mo-Su until 23:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.mooseparis.com/",
+      "coordinates": {
+        "latitude": 48.8518241,
+        "longitude": 2.3377078,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/418497769",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.85182,
+          "longitude": 2.33771,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/fr/N418497769",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.mooseparis.com/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/fr/N418497769",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/418497769",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:418497769",
+        "name": "The Moose Bar",
+        "address": null,
+        "lat": 48.8518241,
+        "lng": 2.3377078,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 3666.1,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/418497769"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:8139982096"
+      ],
+      "name": "The Bombardier",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 5,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "2 Place du Panthéon, 75005 Paris",
+      "country_code": "FR",
+      "category": "english_pub",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo-Su 11:00-02:00",
+        "kitchen": "Mo-Su 11:00-22:00",
+        "happy_hour": "Mo-Su 16:00-19:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.bombardierpub.fr/fr/",
+      "coordinates": {
+        "latitude": 48.8468643,
+        "longitude": 2.347702,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/8139982096",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.84686,
+          "longitude": 2.3477,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/N8139982096",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.bombardierpub.fr/fr/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/N8139982096",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/8139982096",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Official page supplies hours and official map link includes the address. From-price for pints not imported because a dated menu with explicit serving volume was not verified."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:8139982096",
+        "name": "The Bombardier",
+        "address": "2 Place du Panthéon 75005 Paris",
+        "lat": 48.8468643,
+        "lng": 2.347702,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 3170.5,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/8139982096"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:3054292066"
+      ],
+      "name": "L’Iconique",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 10,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "20 Rue Jean et Marie Moinon, 75010 Paris",
+      "country_code": "FR",
+      "category": "neighborhood_bar",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo closed; Tu-We 17:00-00:00; Th-Sa 17:00-02:00; Su 15:00-22:30"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.liconique.com/",
+      "coordinates": {
+        "latitude": 48.8741836,
+        "longitude": 2.3716044,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/3054292066",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.liconique.com/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/3054292066",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:3054292066",
+        "name": "L'iconique",
+        "address": "20 Rue Jean et Marie Moinon 75010 Paris",
+        "lat": 48.8741836,
+        "lng": 2.3716044,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 2346.5,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/3054292066"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:12817348601"
+      ],
+      "name": "Cavapapa",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 15,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "4 Rue d’Alleray, 75015 Paris",
+      "country_code": "FR",
+      "category": "wine_bar_restaurant",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Tu-Fr 19:00-00:00; Sa 12:00-15:00,19:00-00:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.cavapapa.fr/",
+      "coordinates": {
+        "latitude": 48.8386591,
+        "longitude": 2.3004966,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/12817348601",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.cavapapa.fr/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/12817348601",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://data.geopf.fr/geocodage/search?q=4%20Rue%20Alleray%2075015%20Paris&limit=1",
+          "type": "official_address_geocoder",
+          "supports": [
+            "address_coordinate_consistency"
+          ]
+        }
+      ],
+      "notes": [
+        "IGN/BAN geocoding of official 4 Rue d’Alleray address returned [2.300541,48.838653], 3.3m from candidate point; resolves previously uncertain candidate identity."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:12817348601",
+        "name": "Cavapapa",
+        "address": null,
+        "lat": 48.8386591,
+        "lng": 2.3004966,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 1405.8,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/12817348601"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:3105229883"
+      ],
+      "name": "Candelaria",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 3,
+      "within_paris_proper": true,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "52 Rue de Saintonge, 75003 Paris",
+      "country_code": "FR",
+      "category": "cocktail_bar_taqueria",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "bar": "Mo-Su 18:00-02:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://candelaria-paris.com/",
+      "coordinates": {
+        "latitude": 48.8629856,
+        "longitude": 2.3640177,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/3105229883",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://candelaria-paris.com/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category"
+          ]
+        },
+        {
+          "url": "https://www.visitparisregion.com/fr/candelaria",
+          "type": "official_tourism",
+          "supports": [
+            "opening_hours",
+            "address"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/3105229883",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Official website confirms active taqueria and cocktail bar welcoming guests every day. Bar hours and address corroborated by regional tourism office; separate taqueria hours not assigned."
+      ],
+      "verification_level": "official_venue_plus_official_tourism_hours_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:3105229883",
+        "name": "Candelaria",
+        "address": "52 Rue de Saintonge 75003 Paris",
+        "lat": 48.8629856,
+        "lng": 2.3640177,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 3510.0,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/3105229883"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:way:73118195"
+      ],
+      "name": "Bar Gallia Pantin",
+      "source_city_label": "paris",
+      "city": "Pantin",
+      "arrondissement": null,
+      "within_paris_proper": false,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "35 Rue Méhul, 93500 Pantin",
+      "country_code": "FR",
+      "category": "brewery_taproom",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo closed; Tu-Fr 12:00-14:30,17:00-00:00; Sa 12:00-00:00; Su 15:00-23:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://galliaparis.com/pages/bar",
+      "coordinates": {
+        "latitude": 48.8893497,
+        "longitude": 2.413354,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/way/73118195",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.88935,
+          "longitude": 2.41335,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/fr/W73118195",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://galliaparis.com/pages/bar",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/fr/W73118195",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/way/73118195",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Outside Paris proper. Keep under Pantin or a separately labelled metropolitan layer. Use bar schedule, not separate kitchen schedule."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:way:73118195",
+        "name": "Bar Gallia",
+        "address": "35 Rue Méhul 93500 Pantin",
+        "lat": 48.8893497,
+        "lng": 2.413354,
+        "inside_official_polygon": false,
+        "boundary_distance_metres_approx": 1044.7,
+        "boundaryStatus": "outside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/way/73118195"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:way:1002552880"
+      ],
+      "name": "Metaxu",
+      "source_city_label": "paris",
+      "city": "Pantin",
+      "arrondissement": null,
+      "within_paris_proper": false,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "Place de la Pointe, 93500 Pantin",
+      "country_code": "FR",
+      "category": "cultural_venue_bar",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "October-March": null,
+        "April-September": "Mo-We 17:00-23:30; Th 17:00-00:00; Fr 17:00-00:00 or 02:00 by event; Sa 16:00-00:00 or 02:00 by event; Su 12:00-22:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.metaxu-pantin.fr/infos-pratiques/",
+      "coordinates": {
+        "latitude": 48.8948958,
+        "longitude": 2.4137529,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/way/1002552880",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.89492,
+          "longitude": 2.41401,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/W1002552880",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.metaxu-pantin.fr/infos-pratiques/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/W1002552880",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.metaxu-pantin.fr/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "current_programming"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/way/1002552880",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Outside Paris proper. October-March opens on programmed-event days; do not publish summer regular hours as current October hours. Homepage lists upcoming 16 and 17 October 2026 events."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:way:1002552880",
+        "name": "Metaxu",
+        "address": "Place de la Pointe Pantin",
+        "lat": 48.8948958,
+        "lng": 2.4137529,
+        "inside_official_polygon": false,
+        "boundary_distance_metres_approx": 1161.9,
+        "boundaryStatus": "outside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/way/1002552880"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:441162564"
+      ],
+      "name": "Au Timbre Poste",
+      "source_city_label": "paris",
+      "city": "Malakoff",
+      "arrondissement": null,
+      "within_paris_proper": false,
+      "boundary_basis": "Official venue postal address; administrative city, not a metropolitan catchment.",
+      "address": "1 Rue Rouget de Lisle, 92240 Malakoff",
+      "country_code": "FR",
+      "category": "pub",
+      "operating_status": "official_listing_found_current_operation_not_independently_confirmed",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": null,
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.autimbreposte.com/",
+      "coordinates": {
+        "latitude": 48.8239093,
+        "longitude": 2.3042851,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/441162564",
+        "method": "Original handoff candidate coordinate, tied to exact OSM ID. Matched to official venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors",
+        "secondary_osm_derived_position_check": {
+          "latitude": 48.82391,
+          "longitude": 2.30429,
+          "coordinate_system": "WGS84",
+          "source_url": "https://mapcarta.com/N441162564",
+          "method": "Published venue position, matched to exact OSM ID and official venue address; not a fresh survey.",
+          "attribution": "© OpenStreetMap contributors; ODbL 1.0"
+        }
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.autimbreposte.com/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category"
+          ]
+        },
+        {
+          "url": "https://mapcarta.com/N441162564",
+          "type": "osm_derived_map",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        },
+        {
+          "url": "https://www.malakoff.fr/113-2049/cadre-de-vie/commerces-et-marches/annuaire-des-commerces/ficheAnnu/le-timbre-poste.htm",
+          "type": "municipality",
+          "supports": [
+            "address",
+            "within_paris_proper"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/441162564",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Outside Paris proper. Municipal directory independently confirms address. Current hours not confirmed; OSM-derived daily 09:00-02:00 not promoted to verified."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": true,
+      "boundary_polygon_check": {
+        "id": "osm:node:441162564",
+        "name": "Le Timbre Poste",
+        "address": "1 Rue Rouget de l'Isle 92240",
+        "lat": 48.8239093,
+        "lng": 2.3042851,
+        "inside_official_polygon": false,
+        "boundary_distance_metres_approx": 59.7,
+        "boundaryStatus": "near_boundary_review",
+        "sourceUrl": "https://www.openstreetmap.org/node/441162564"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null
+    },
+    {
+      "candidate_ids": [
+        "osm:node:11850731835"
+      ],
+      "name": "The Cambridge Public House",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 3,
+      "within_paris_proper": true,
+      "boundary_basis": "Official Paris postal address plus official commune polygon membership.",
+      "address": "8 Rue de Poitou, 75003 Paris",
+      "country_code": "FR",
+      "category": "cocktail_pub",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo-Su 15:00-01:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.thecambridge.paris/",
+      "coordinates": {
+        "latitude": 48.8614519,
+        "longitude": 2.3641684,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/11850731835",
+        "method": "Original handoff candidate coordinate tied to exact OSM ID and venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.thecambridge.paris/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/11850731835",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Official current hours close 01:00; replace older candidate 01:30."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:11850731835",
+        "name": "The Cambridge public house",
+        "address": "8 Rue de Poitou 75003",
+        "lat": 48.8614519,
+        "lng": 2.3641684,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 3610.6,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/11850731835"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null,
+      "original_official_check_row": true
+    },
+    {
+      "candidate_ids": [
+        "osm:node:3265513124"
+      ],
+      "name": "Little Red Door",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 3,
+      "within_paris_proper": true,
+      "boundary_basis": "Official Paris postal address plus official commune polygon membership.",
+      "address": "60 Rue Charlot, 75003 Paris",
+      "country_code": "FR",
+      "category": "cocktail_bar",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo-Su 17:00-01:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.lrdparis.com/",
+      "coordinates": {
+        "latitude": 48.8636585,
+        "longitude": 2.3635886,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/3265513124",
+        "method": "Original handoff candidate coordinate tied to exact OSM ID and venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.lrdparis.com/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/3265513124",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Use official website hours; third-party maps may show 02:00."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:3265513124",
+        "name": "Little Red Door",
+        "address": "60 Rue Charlot",
+        "lat": 48.8636585,
+        "lng": 2.3635886,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 3488.5,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/3265513124"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null,
+      "original_official_check_row": true
+    },
+    {
+      "candidate_ids": [
+        "osm:node:251023849"
+      ],
+      "name": "Harry’s New York Bar",
+      "source_city_label": "paris",
+      "city": "Paris",
+      "arrondissement": 2,
+      "within_paris_proper": true,
+      "boundary_basis": "Official Paris postal address plus official commune polygon membership.",
+      "address": "5 Rue Daunou, 75002 Paris",
+      "country_code": "FR",
+      "category": "cocktail_piano_bar",
+      "operating_status": "operating_as_listed_on_official_site",
+      "operating_status_checked_at": "2026-10-14",
+      "opening_hours": {
+        "main": "Mo-Sa 12:00-02:00; Su 17:00-01:00"
+      },
+      "opening_hours_timezone": "Europe/Paris",
+      "official_website": "https://www.harrysbar.com/en/",
+      "coordinates": {
+        "latitude": 48.8692089,
+        "longitude": 2.3321714,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/251023849",
+        "method": "Original handoff candidate coordinate tied to exact OSM ID and venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "prices": null,
+      "menu_date": null,
+      "last_checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.harrysbar.com/en/",
+          "type": "official_venue",
+          "supports": [
+            "operating_status",
+            "address",
+            "category",
+            "opening_hours"
+          ]
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/251023849",
+          "type": "osm_source_in_user_supplied_registry",
+          "supports": [
+            "coordinates",
+            "candidate_id_match"
+          ]
+        }
+      ],
+      "notes": [
+        "Paris branch. Official English page explicitly distinguishes Paris schedule from Cannes."
+      ],
+      "verification_level": "official_venue_and_source_location",
+      "candidate_match_confidence": "high",
+      "requires_review_before_map_publication": false,
+      "boundary_polygon_check": {
+        "id": "osm:node:251023849",
+        "name": "Harry's Bar",
+        "address": null,
+        "lat": 48.8692089,
+        "lng": 2.3321714,
+        "inside_official_polygon": true,
+        "boundary_distance_metres_approx": 3469.0,
+        "boundaryStatus": "inside_paris_polygon",
+        "sourceUrl": "https://www.openstreetmap.org/node/251023849"
+      },
+      "existing_place_matches": [],
+      "recommended_existing_place_id": null,
+      "original_official_check_row": false
+    }
+  ],
+  "source_html_sha256": "c3844b48bd12288a02f7c95472dc3ac64c4a101c512e49a45af028d8e2e9665f",
+  "boundary_audit_summary": {
+    "source": "https://geo.api.gouv.fr/communes/75056?format=geojson&geometry=contour",
+    "documentation": "https://geo.api.gouv.fr/decoupage-administratif/communes",
+    "retrieved_at": "2026-10-14",
+    "boundary_sha256": "f30b942e6775c8e859abafc6ad14dd9aae14308498929688297dbcb42fad9484",
+    "boundary_properties": {
+      "nom": "Paris",
+      "code": "75056",
+      "codeDepartement": "75",
+      "siren": "217500016",
+      "codeEpci": "200054781",
+      "codeRegion": "11",
+      "codesPostaux": [
+        "75001",
+        "75002",
+        "75003",
+        "75004",
+        "75005",
+        "75006",
+        "75007",
+        "75008",
+        "75009",
+        "75010",
+        "75011",
+        "75012",
+        "75013",
+        "75014",
+        "75015",
+        "75016",
+        "75017",
+        "75018",
+        "75019",
+        "75020",
+        "75116"
+      ],
+      "population": 2103778
+    },
+    "method": "WGS84 point-in-polygon, holes supported. Official Geo API Paris commune 75056 contour includes both woods. Points within 100m of the boundary are held for address or finer-boundary review; distance is approximate local equirectangular. For ways this tests supplied representative point, not the entire footprint.",
+    "limits": [
+      "Boundary membership validates location only, not present business operation or bar eligibility.",
+      "Coordinate errors, polygon generalization, and sites straddling borders require review; 100m band is conservative triage, not a claim of stated source precision."
+    ],
+    "candidate_count": 2339,
+    "candidate_polygon_inside": 2041,
+    "candidate_polygon_outside": 298,
+    "candidate_classification_counts": {
+      "inside_paris_polygon": 2037,
+      "near_boundary_review": 30,
+      "outside_paris_polygon": 272
+    },
+    "existing_places_count": 526,
+    "existing_classification_counts": {
+      "inside_paris_polygon": 520,
+      "near_boundary_review": 6
+    }
+  },
+  "source_candidate_json_sha256": "7973c73ec5428661bcaa6ce07e5819c4f93d4d74ca2b5d6da377461f2406c910",
+  "official_check_reconciliation": [
+    {
+      "original_name": "The Cambridge public house",
+      "candidate_id": "osm:node:11850731835",
+      "official_address": "8 Rue de Poitou, 75003 Paris",
+      "official_website": "https://www.thecambridge.paris/",
+      "official_hours": "Mo-Su 15:00-01:00",
+      "coordinates": {
+        "latitude": 48.8614519,
+        "longitude": 2.3641684,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/11850731835",
+        "method": "Original handoff candidate coordinate tied to exact OSM ID and venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "polygon_status": "inside_paris_polygon",
+      "original_official_check_row": true,
+      "status": "matched_and_rechecked",
+      "notes": [
+        "Official current hours close 01:00; replace older candidate 01:30."
+      ]
+    },
+    {
+      "original_name": "Little Red Door",
+      "candidate_id": "osm:node:3265513124",
+      "official_address": "60 Rue Charlot, 75003 Paris",
+      "official_website": "https://www.lrdparis.com/",
+      "official_hours": "Mo-Su 17:00-01:00",
+      "coordinates": {
+        "latitude": 48.8636585,
+        "longitude": 2.3635886,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/3265513124",
+        "method": "Original handoff candidate coordinate tied to exact OSM ID and venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "polygon_status": "inside_paris_polygon",
+      "original_official_check_row": true,
+      "status": "matched_and_rechecked",
+      "notes": [
+        "Use official website hours; third-party maps may show 02:00."
+      ]
+    },
+    {
+      "original_name": "Harry's Bar",
+      "candidate_id": "osm:node:251023849",
+      "official_address": "5 Rue Daunou, 75002 Paris",
+      "official_website": "https://www.harrysbar.com/en/",
+      "official_hours": "Mo-Sa 12:00-02:00; Su 17:00-01:00",
+      "coordinates": {
+        "latitude": 48.8692089,
+        "longitude": 2.3321714,
+        "coordinate_system": "WGS84",
+        "source_url": "https://www.openstreetmap.org/node/251023849",
+        "method": "Original handoff candidate coordinate tied to exact OSM ID and venue identity/address.",
+        "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "polygon_status": "inside_paris_polygon",
+      "original_official_check_row": false,
+      "status": "matched_and_rechecked",
+      "notes": [
+        "Paris branch. Official English page explicitly distinguishes Paris schedule from Cannes."
+      ]
+    }
+  ]
+}

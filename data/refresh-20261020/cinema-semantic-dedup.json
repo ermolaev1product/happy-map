@@ -1,0 +1,50 @@
+{
+  "method": "Same film, date, time, cinema, language and format; combined booking evidence. Distinct language/format screenings preserved.",
+  "removedFromNewBatch": [
+    {
+      "venue": "Cavea City Mall Saburtalo",
+      "venueId": "cinema:5d8fb2ea95616708ef1cd194",
+      "address": "70 Vazha Pshavela Avenue, City Mall, Tbilisi",
+      "lat": 41.7240762,
+      "lng": 44.7370463,
+      "coordinateSource": "https://maps.app.goo.gl/Atzyfrz5LzPCrKcK8",
+      "id": "cinema:ccm_x/21-10-2026/13:00",
+      "title": "Street Fighter",
+      "date": "2026-10-21",
+      "time": "13:00",
+      "startAt": "2026-10-21T13:00:00+04:00",
+      "timezone": "Asia/Tbilisi",
+      "end": null,
+      "category": "film",
+      "language": "KA",
+      "price": 12.0,
+      "currency": "GEL",
+      "min": true,
+      "mandatoryFees": null,
+      "priceNote": "Цена сеанса в расписании. Итоговая стоимость, обязательные сборы и наличие уточняются у кинотеатра.",
+      "description": "Киносеанс · 2D.",
+      "source": "Cavea",
+      "sourceUrl": "https://cavea.ge/booking/ccm_x%2F21-10-2026%2F13%3A00",
+      "sources": [
+        {
+          "name": "Cavea visible dated schedule",
+          "url": "https://cavea.ge/sessions?lang=eng"
+        },
+        {
+          "name": "Film programme",
+          "url": "https://cavea.ge/movie/street-fighter"
+        },
+        {
+          "name": "Cinema",
+          "url": "https://cavea.ge/cinema/cavea-city-mall"
+        }
+      ],
+      "checkedAt": "2026-10-20T05:18:23.061Z",
+      "cinemaSession": true,
+      "format": "2D",
+      "duration": null,
+      "subtitleLanguage": null,
+      "dateEvidence": "Actual booking URL and visible selected-date heading; not inferred from requested URL."
+    }
+  ]
+}

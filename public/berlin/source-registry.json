@@ -1,0 +1,117 @@
+{
+  "city": "Berlin",
+  "checkedAt": "2026-10-15T11:10:00Z",
+  "sources": [
+    {
+      "id": "candidate:e4f74a2b084da1a6",
+      "name": "Kontramarka Berlin",
+      "url": "https://www.kontramarka.de/city/berlin/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_content_retrieved",
+      "count": 46,
+      "note": "Dense Russian-interface concert/theatre/comedy supply; event language requires its own proof. Specific event pages give year and local time.",
+      "type": "major_russian_ticket_aggregator"
+    },
+    {
+      "id": "candidate:0946100ff3ac4090",
+      "name": "Rausgegangen Berlin",
+      "url": "https://rausgegangen.de/en/berlin/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_content_retrieved",
+      "count": 29,
+      "note": "Current city selections and many independent venues. Relative today/tomorrow labels must be anchored to retrieval date; distinguish admission, sold-out, door price and lottery.",
+      "type": "local_editorial_ticket_aggregator"
+    },
+    {
+      "id": "candidate:3519b5bb74676aeb",
+      "name": "Berlin.de events",
+      "url": "https://www.berlin.de/en/events/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_content_retrieved",
+      "accessStatus": "public_content_retrieved",
+      "count": 0,
+      "note": "Monthly dated highlights, festivals, free events and linked tickets. A monthly heading does not establish year for every card: October page also exposed a 2027 trade-show card.",
+      "type": "official_city_calendar"
+    },
+    {
+      "id": "candidate:a0b043e3cc708a10",
+      "name": "visitBerlin calendar",
+      "url": "https://www.visitberlin.de/en/event-calendar-berlin-map",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_content_retrieved",
+      "accessStatus": "public_content_retrieved",
+      "count": 0,
+      "note": "Broad category/district/date filters; exhibitions and multi-year attractions coexist with single performances. Do not turn a displayed search-range boundary into the original event start.",
+      "type": "official_tourism_calendar"
+    },
+    {
+      "id": "candidate:527f62993cdc788b",
+      "name": "Berliner Philharmoniker calendar",
+      "url": "https://www.berliner-philharmoniker.de/en/concerts/calendar/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_page_retrieved",
+      "accessStatus": "public_page_retrieved",
+      "count": 0,
+      "note": "Calendar landing opened; individual in-window performances were not audited. Parent concerts page and official news are readable. Include guest-event and cancellation checks.",
+      "type": "first_party_venue_calendar"
+    },
+    {
+      "id": "candidate:e41268d9fd38b4be",
+      "name": "Jazzfest Berlin 2026",
+      "url": "https://www.berlinerfestspiele.de/jazzfest-berlin/programm/2026/jazzfest-berlin-2026",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "search_index_only_open_timeout",
+      "accessStatus": "search_index_only_open_timeout",
+      "count": 0,
+      "note": "Search index gives 29 Oct–1 Nov 2026; direct open timed out. Berlin.de separately confirms dates. Do not claim direct first-party body retrieval.",
+      "type": "first_party_festival"
+    },
+    {
+      "id": "candidate:8f7de870a828843c",
+      "name": "Berlin Events",
+      "url": "https://t.me/s/berlin_events",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_preview_retrieved",
+      "accessStatus": "public_preview_retrieved",
+      "count": 0,
+      "note": "Preview contains actual Russian-language event text, with older September/October posts. Search mirror was fresher than direct preview. No in-window post permalink promoted to event proof.",
+      "type": "telegram_community"
+    },
+    {
+      "id": "candidate:cb7bbec6c30a8879",
+      "name": "Svoi.Berlin",
+      "url": "https://t.me/svoiberlin",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "profile_shell_only",
+      "accessStatus": "profile_shell_only",
+      "count": 0,
+      "note": "Public group title and description exist; messages were not readable. /s/ preview returned a retrieval error. Do not count profile existence as event coverage.",
+      "type": "telegram_community"
+    },
+    {
+      "id": "candidate:aacb7f212e5b6a09",
+      "name": "Svoi.Berlin Instagram",
+      "url": "https://www.instagram.com/svoi.berlin/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "retrieval_error",
+      "accessStatus": "retrieval_error",
+      "count": 0,
+      "note": "Profile URL is explicitly linked in Svoi.Berlin public Telegram description. Direct Instagram open returned Internal Error; no event post verified.",
+      "type": "instagram"
+    },
+    {
+      "id": "candidate:304ace8af9b72692",
+      "name": "The Strokes Berlin concert discussion",
+      "url": "https://www.reddit.com/r/TheStrokes/comments/1x44sdg/concert_post_the_strokes_in_berlin_germany/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_post_retrieved",
+      "accessStatus": "public_post_retrieved",
+      "count": 0,
+      "note": "Exact dated October 15 concert discussion is readable. Secondary community lead, not organizer authority or ticket availability.",
+      "type": "reddit"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

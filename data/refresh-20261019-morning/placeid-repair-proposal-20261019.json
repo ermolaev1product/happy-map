@@ -1,0 +1,967 @@
+{
+  "asOf": "2026-10-19T05:00:00Z",
+  "commit": "ac215ba40fc91eab21b0b7536cf9a1b4c5458a0f",
+  "method": "Patch proposal only. Existing local source metadata and in-memory connect() simulation; no tracked source modifications, live fetch, or publication.",
+  "change": "Add explicit placeId to matching occurrence rows in both locale event feeds. Preserve every other field including venue, room, coordinates, times and identity. Do not change discovery-model.js.",
+  "proposed": [
+    {
+      "city": "tbilisi",
+      "placeId": "osm:way:59151604",
+      "occurrenceIDs": [
+        "tkt:507414",
+        "tkt:507424",
+        "tkt:507425",
+        "tkt:507426",
+        "tkt:507676",
+        "tkt:507716"
+      ],
+      "ruFile": "public/events.json",
+      "enFile": "public/en/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Тбилисский театр оперы и балета",
+          "placeEN": "Tbilisi Opera and Ballet Theatre",
+          "eventRU": [
+            "Tbilisi Opera and Ballet Theatre"
+          ],
+          "eventEN": [
+            "Tbilisi Opera and Ballet Theatre"
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "Шота Руставели, 25",
+          "placeEN": "Shot of Rusvaleli, 25",
+          "eventRU": [
+            "Shota Rustaveli Ave. 25, Tbilisi"
+          ],
+          "eventEN": [
+            "Shota Rustaveli Ave. 25, Tbilisi"
+          ]
+        },
+        "eventVenueIDs": [
+          "tkt:21"
+        ],
+        "placeSourceURL": "https://www.openstreetmap.org/way/59151604",
+        "eventSourceURLs": [
+          "https://tkt.ge/event/507414",
+          "https://tkt.ge/event/507424",
+          "https://tkt.ge/event/507425",
+          "https://tkt.ge/event/507426",
+          "https://tkt.ge/event/507676",
+          "https://tkt.ge/event/507716"
+        ],
+        "basis": "Exact English venue name in both events and stored English place; same Rustaveli street and house25 across languages; stable event venueId tkt:21. Coordinates are supplementary only."
+      }
+    },
+    {
+      "city": "moscow",
+      "placeId": "msk-place-house-of-music",
+      "occurrenceIDs": [
+        "kudago-msk-226283-1791392400",
+        "kudago-msk-220513-1791475200",
+        "kudago-msk-226732-1791561600",
+        "kudago-msk-222527-1791561600",
+        "kudago-msk-220532-1791561600",
+        "kudago-msk-220555-1791561600",
+        "kudago-msk-211600-1791633600",
+        "kudago-msk-214176-1791648000",
+        "kudago-msk-213823-1791648000",
+        "kudago-msk-226734-1791648000",
+        "kudago-msk-226735-1791648000"
+      ],
+      "ruFile": "public/moscow/events.json",
+      "enFile": "public/en/moscow/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Московский международный Дом музыки",
+          "placeEN": "Moscow International House of Music",
+          "eventRU": [
+            "Московский международный Дом музыки (ММДМ)"
+          ],
+          "eventEN": [
+            "Moscow International Music House (IMAC)"
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "Космодамианская наб., 52, стр. 8",
+          "placeEN": "52 Kosmodamianskaya Embankment, building 8",
+          "eventRU": [
+            "наб. Космодамианская, д. 52, стр. 8"
+          ],
+          "eventEN": [
+            "(Signed) N.N. Cosmodamiane, D. 52, p. 52, 8"
+          ]
+        },
+        "eventVenueIDs": [],
+        "placeSourceURL": "https://www.mmdm.ru/visit/",
+        "eventSourceURLs": [
+          "https://kudago.com/msk/event/spektakl-lyubovnyie-pisma-virtualnyij-roman/",
+          "https://kudago.com/msk/event/kontsert-pesnopeniya-drevnej-vizantii-hor-aksion-estin/",
+          "https://kudago.com/msk/event/kontsert-vladimir-vishnevskij-i-kvartet-imeni-glinki/",
+          "https://kudago.com/msk/event/kontsert-mirovyie-rok-hityi-na-saksofonah/",
+          "https://kudago.com/msk/event/tvorcheskij-vecher-zhizn-na-konchikah-paltsev/",
+          "https://kudago.com/msk/event/shou-flamenco-capriccios/",
+          "https://kudago.com/msk/event/kontsert-nashe-lyubimoe-kino-orkestr-russkaya-filarmoniya/",
+          "https://kudago.com/msk/event/balet-lebedinoe-ozero-fe7upm/",
+          "https://kudago.com/msk/event/kontsert-arfa-v-temnote-ru8ozd/",
+          "https://kudago.com/msk/event/kontsert-gruppyi-nepara/",
+          "https://kudago.com/msk/event/shou-4-strunyi-russkaya-filarmoniya/"
+        ],
+        "basis": "Distinctive Russian institution name plus matching street/building address in the existing curated place and occurrence. Room/floor qualifiers stay on the event; target is the existing parent venue."
+      }
+    },
+    {
+      "city": "moscow",
+      "placeId": "msk-place-grimerka",
+      "occurrenceIDs": [
+        "kudago-msk-222804-1791561600"
+      ],
+      "ruFile": "public/moscow/events.json",
+      "enFile": "public/en/moscow/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Гастро-клуб «Гримёрка»",
+          "placeEN": "Grimerka Gastro Club",
+          "eventRU": [
+            "гастро-клуб «Гримёрка»"
+          ],
+          "eventEN": [
+            "The Grimmer Tour Club"
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "Пушечная ул., 9/6",
+          "placeEN": "9/6 Pushechnaya Street",
+          "eventRU": [
+            "ул. Пушечная, д. 9/6"
+          ],
+          "eventEN": [
+            "Cool. Cannon, d. 9/6"
+          ]
+        },
+        "eventVenueIDs": [],
+        "placeSourceURL": "https://grimerka.art/contacts",
+        "eventSourceURLs": [
+          "https://kudago.com/msk/event/kontsert-madam-boom-aprel-2026/"
+        ],
+        "basis": "Distinctive Russian institution name plus matching street/building address in the existing curated place and occurrence. Room/floor qualifiers stay on the event; target is the existing parent venue."
+      }
+    },
+    {
+      "city": "moscow",
+      "placeId": "msk-place-esse",
+      "occurrenceIDs": [
+        "research-msk-d88721b81c3ca1b6",
+        "research-msk-b7d148bf06f5285f",
+        "research-msk-90e1876647d06fa8",
+        "research-msk-a4936c0793e62177",
+        "research-msk-a1cb36b509b17149",
+        "research-msk-0eec4d7b09e4dcab",
+        "research-msk-7b1e93afb9811377"
+      ],
+      "ruFile": "public/moscow/events.json",
+      "enFile": "public/en/moscow/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Джаз-клуб «Эссе»",
+          "placeEN": "Esse Jazz Club",
+          "eventRU": [
+            "Джаз-клуб «Эссе» — Основной/малый зал",
+            "Джаз-клуб «Эссе» — Первый этаж",
+            "Джаз-клуб «Эссе» — Jazz Lab",
+            "Джаз-клуб «Эссе» — первый этаж"
+          ],
+          "eventEN": [
+            "Essa Jazz Club — Main/small Hall",
+            "Essa Jazz Club - First floor",
+            "Jazz Lab Jazz Club Esse",
+            "Essa Jazz Club — First Floor"
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "Пятницкая ул., 27, стр. 3А",
+          "placeEN": "27 Pyatnitskaya Street, building 3A",
+          "eventRU": [
+            "Москва, ул. Пятницкая, д. 27, стр. 3А",
+            "Москва, ул. Пятницкая, 27, стр. 3А"
+          ],
+          "eventEN": [
+            "Moscow, Cool. Friday, d. 27, p. 26. 3A",
+            "Moscow, Cool. Friday 27 p.m. 3A"
+          ]
+        },
+        "eventVenueIDs": [],
+        "placeSourceURL": "https://www.jazzesse.ru/contact",
+        "eventSourceURLs": [
+          "https://jazzesse.ru/event/index/3620/8495",
+          "https://jazzesse.ru/event/index/1831/9017",
+          "https://jazzesse.ru/event/index/3359/9113",
+          "https://jazzesse.ru/event/index/3688/9087",
+          "https://jazzesse.ru/event/index/3565/8968",
+          "https://jazzesse.ru/event/index/2960/9002",
+          "https://jazzesse.ru/event/index/3408/9081"
+        ],
+        "basis": "Distinctive Russian institution name plus matching street/building address in the existing curated place and occurrence. Room/floor qualifiers stay on the event; target is the existing parent venue."
+      }
+    },
+    {
+      "city": "moscow",
+      "placeId": "msk-place-nekrasovka",
+      "occurrenceIDs": [
+        "research-msk-81e88718d3877b7c",
+        "research-msk-ea77621676f11e64",
+        "research-msk-522ff487feae3b94",
+        "research-msk-42ce7d2c5ca00d91",
+        "research-msk-2fc6a4b47d263f7b",
+        "research-msk-2630556b3f9e9790",
+        "research-msk-9d309dd3e9d502a5",
+        "research-msk-3c105607bea48e88",
+        "research-msk-fe95780f08a126fc",
+        "research-msk-f8bbd78b680a805e"
+      ],
+      "ruFile": "public/moscow/events.json",
+      "enFile": "public/en/moscow/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Библиотека им. Н. А. Некрасова",
+          "placeEN": "N. A. Nekrasov Library",
+          "eventRU": [
+            "Библиотека им. Н.А. Некрасова — Конференц-зал, 5 этаж",
+            "Библиотека им. Н.А. Некрасова — Арт-пространство, 2 этаж",
+            "Библиотека им. Н. А. Некрасова — Арт-пространство, 2 этаж",
+            "Библиотека им. Н.А. Некрасова — Аудитория 503, 5 этаж",
+            "Библиотека им. Н. А. Некрасова — Конференц-зал, 5 этаж",
+            "Библиотека им. Н. А. Некрасова — Аудитория 502, 5 этаж",
+            "Библиотека им. Н. А. Некрасова — Аудитория 503, 5 этаж"
+          ],
+          "eventEN": [
+            "Library N.A. Nekrasova - Conference Room, 5th floor",
+            "Library N.A. Nekrasova — Art Space, 2nd Floor",
+            "Library N. Ah. Nekrasova — Art Space, 2nd Floor",
+            "Library N.A. Nekrasova — Audience 503, 5th Floor",
+            "Library N. Ah. Nekrasova - Conference Room, 5th floor",
+            "Library N. Ah. Nekrasova — Audience 502, 5th Floor",
+            "Library N. Ah. Nekrasova — Audience 503, 5th Floor"
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "Бауманская ул., 58/25, стр. 14",
+          "placeEN": "58/25 Baumanskaya Street, building 14",
+          "eventRU": [
+            "Москва, ул. Бауманская, д. 58/25, стр. 14",
+            "Москва, ул. Бауманская, 58/25, стр. 14"
+          ],
+          "eventEN": [
+            "Moscow, Cool. Baumansky, D. 58/25, p. 52. 14",
+            "58/25 Baumanskaya Street, building 14, Moscow"
+          ]
+        },
+        "eventVenueIDs": [],
+        "placeSourceURL": "https://biblioteka.nekrasovka.ru/addresses",
+        "eventSourceURLs": [
+          "https://nekrasovka.ru/afisha/09-10-2026/8890",
+          "https://nekrasovka.ru/afisha/10-10-2026/9025",
+          "https://nekrasovka.ru/afisha/11-10-2026/8916",
+          "https://nekrasovka.ru/afisha/11-10-2026/9013",
+          "https://nekrasovka.ru/afisha/11-10-2026/8933",
+          "https://nekrasovka.ru/afisha/12-10-2026/8861",
+          "https://nekrasovka.ru/afisha/14-10-2026/9017",
+          "https://nekrasovka.ru/afisha/17-10-2026/8883",
+          "https://nekrasovka.ru/afisha/24-10-2026/9032",
+          "https://nekrasovka.ru/afisha/24-10-2026/9022"
+        ],
+        "basis": "Distinctive Russian institution name plus matching street/building address in the existing curated place and occurrence. Room/floor qualifiers stay on the event; target is the existing parent venue."
+      }
+    },
+    {
+      "city": "moscow",
+      "placeId": "msk-place-paleontological",
+      "occurrenceIDs": [
+        "kudago-msk-208080-1791621000"
+      ],
+      "ruFile": "public/moscow/events.json",
+      "enFile": "public/en/moscow/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Палеонтологический музей им. Ю. А. Орлова",
+          "placeEN": "Yu. A. Orlov Paleontological Museum",
+          "eventRU": [
+            "Палеонтологический музей"
+          ],
+          "eventEN": [
+            "Paleontological Museum"
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "Профсоюзная ул., 123",
+          "placeEN": "123 Profsoyuznaya Street",
+          "eventRU": [
+            "ул. Профсоюзная, д. 123"
+          ],
+          "eventEN": [
+            "Cool. Trade union, etc. 123"
+          ]
+        },
+        "eventVenueIDs": [],
+        "placeSourceURL": "https://www.paleo.ru/museum/",
+        "eventSourceURLs": [
+          "https://kudago.com/msk/event/detyam-ekskursiya-v-gosti-k-dinozavram/"
+        ],
+        "basis": "Distinctive Russian institution name plus matching street/building address in the existing curated place and occurrence. Room/floor qualifiers stay on the event; target is the existing parent venue."
+      }
+    },
+    {
+      "city": "moscow",
+      "placeId": "msk-place-timiryazev",
+      "occurrenceIDs": [
+        "research-msk-4b5fa5d2851c48b4"
+      ],
+      "ruFile": "public/moscow/events.json",
+      "enFile": "public/en/moscow/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Биологический музей им. К. А. Тимирязева",
+          "placeEN": "K. A. Timiryazev Biological Museum",
+          "eventRU": [
+            "Биологический музей им. К. А. Тимирязева — основная экспозиция"
+          ],
+          "eventEN": [
+            "Museum of Biological Science K. Ah. Timirazeva — The Main Exposition"
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "Малая Грузинская ул., 15",
+          "placeEN": "15 Malaya Gruzinskaya Street",
+          "eventRU": [
+            "Москва, ул. Малая Грузинская, 15"
+          ],
+          "eventEN": [
+            "Moscow, Cool. Little Georgian, 15"
+          ]
+        },
+        "eventVenueIDs": [],
+        "placeSourceURL": "https://www.gbmt.ru/ru/contact/",
+        "eventSourceURLs": [
+          "https://www.gbmt.ru/ru/event/vykhodnye/festival-nauka-0-v-biomuzee-i-bioklastere/"
+        ],
+        "basis": "Distinctive Russian institution name plus matching street/building address in the existing curated place and occurrence. Room/floor qualifiers stay on the event; target is the existing parent venue."
+      }
+    },
+    {
+      "city": "moscow",
+      "placeId": "msk-place-cinema-museum",
+      "occurrenceIDs": [
+        "kudago-msk-227088-1791630000",
+        "kudago-msk-227089-1791637200"
+      ],
+      "ruFile": "public/moscow/events.json",
+      "enFile": "public/en/moscow/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Музей кино на ВДНХ",
+          "placeEN": "Cinema Museum at VDNH",
+          "eventRU": [
+            "Музей кино"
+          ],
+          "eventEN": [
+            "Film Museum"
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "проспект Мира, 119, павильон 36",
+          "placeEN": "119 Prospekt Mira, pavilion 36",
+          "eventRU": [
+            "просп. Мира, д. 119, павильон № 36"
+          ],
+          "eventEN": [
+            "Sleep. Mira, D. 119, Pavilion 36"
+          ]
+        },
+        "eventVenueIDs": [],
+        "placeSourceURL": "https://museikino.ru/contacts/",
+        "eventSourceURLs": [
+          "https://kudago.com/msk/event/kinopokaz-zhivite-v-radosti/",
+          "https://kudago.com/msk/event/kinopokaz-smeshnyie-lyudi/"
+        ],
+        "basis": "Distinctive Russian institution name plus matching street/building address in the existing curated place and occurrence. Room/floor qualifiers stay on the event; target is the existing parent venue."
+      }
+    },
+    {
+      "city": "moscow",
+      "placeId": "msk-place-ges2",
+      "occurrenceIDs": [
+        "research-msk-4de96d14fbdb0a23",
+        "research-msk-6ff4849290c3fc13",
+        "research-msk-99db1b2249b256cf",
+        "research-msk-d6108b355e5fba1a",
+        "research-msk-d9607d444312973a",
+        "research-msk-9fafd635bc719901",
+        "research-msk-6080df6f8faaac1a",
+        "research-msk-95dbacfc34adb622",
+        "research-msk-b8306cc75fd90b34",
+        "refresh-msk-d46d6315d6af7fef",
+        "refresh-msk-00f91433e9d3b371",
+        "refresh-msk-6db12f15e954cd4b",
+        "refresh-msk-daa6c4f41290759c",
+        "refresh-msk-3f438da0ff81ef07",
+        "refresh-msk-0fb0363c62c8a75d",
+        "refresh-msk-bef297c51c874830",
+        "refresh-msk-fae698335e70cff6",
+        "refresh-msk-50079b5352e5a4ef",
+        "refresh-msk-bcaf615860132122",
+        "daily-msk-2c84db6300d1a776"
+      ],
+      "ruFile": "public/moscow/events.json",
+      "enFile": "public/en/moscow/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Дом культуры «ГЭС-2»",
+          "placeEN": "GES-2 House of Culture",
+          "eventRU": [
+            "Дом культуры «ГЭС-2» — Малые своды",
+            "Дом культуры «ГЭС-2» — Классы Э6–Э7, 2 этаж",
+            "Дом культуры «ГЭС-2» — «Ниже травы. Игровая»"
+          ],
+          "eventEN": [
+            "HES-2 Culture House - Small Waves",
+            "HES-2 Cultural House - E6-E7 class 2 floor",
+            "The HES-2 Cultural House is \"Lower Herbs. Playing\""
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "Болотная наб., 15",
+          "placeEN": "15 Bolotnaya Embankment",
+          "eventRU": [
+            "Москва, Болотная набережная, 15"
+          ],
+          "eventEN": [
+            "Moscow, Swamp waterfront, 15"
+          ]
+        },
+        "eventVenueIDs": [
+          "msk-place-ges2"
+        ],
+        "placeSourceURL": "https://ges-2.org/how-to-find-us",
+        "eventSourceURLs": [
+          "https://ges-2.org/voice-radiation",
+          "https://ges-2.org/butterfly-effect",
+          "https://ges-2.org/laughter-yoga",
+          "https://ges-2.org/ground-for-thought",
+          "https://ges-2.org/white-cane-day-at-ges-2-2026",
+          "https://ges-2.org/analogue-new-year",
+          "https://ges-2.org/wind-from-the-east"
+        ],
+        "basis": "Distinctive Russian institution name plus matching street/building address in the existing curated place and occurrence. Room/floor qualifiers stay on the event; target is the existing parent venue."
+      }
+    },
+    {
+      "city": "moscow",
+      "placeId": "msk-place-tretyakov-engineering",
+      "occurrenceIDs": [
+        "research-msk-2d5d1edec5ee43d2",
+        "research-msk-6d1d6971fc847173"
+      ],
+      "ruFile": "public/moscow/events.json",
+      "enFile": "public/en/moscow/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Третьяковская галерея — Инженерный корпус",
+          "placeEN": "Tretyakov Gallery — Engineering Building",
+          "eventRU": [
+            "Третьяковская галерея — Инженерный корпус, Лекционный зал"
+          ],
+          "eventEN": [
+            "Third-Korish Gallery — Engineering Corps, Lecture Room"
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "Лаврушинский пер., 12",
+          "placeEN": "12 Lavrushinsky Lane",
+          "eventRU": [
+            "Москва, Лаврушинский переулок, 12; вход с Малого Толмачёвского переулка"
+          ],
+          "eventEN": [
+            "Moscow, Lavrushinian alley, 12; entrance from the Little Tolmachew alley"
+          ]
+        },
+        "eventVenueIDs": [],
+        "placeSourceURL": "https://www.tretyakovgallery.ru/for-visitors/museums/inzhenernyy-korpus/",
+        "eventSourceURLs": [
+          "https://www.tretyakovgallery.ru/events/o/lektsiya-roza-10-2026/",
+          "https://www.tretyakovgallery.ru/events/o/lektsiya-rokoko-10-2026/"
+        ],
+        "basis": "Distinctive Russian institution name plus matching street/building address in the existing curated place and occurrence. Room/floor qualifiers stay on the event; target is the existing parent venue."
+      }
+    },
+    {
+      "city": "moscow",
+      "placeId": "msk-place-new-tretyakov",
+      "occurrenceIDs": [
+        "research-msk-46b41b736944fcdf",
+        "research-msk-0577d983cd039f48",
+        "research-msk-fefd7921860f7261",
+        "research-msk-425f913e88942ec8",
+        "research-msk-83ddfe8f29c7e027",
+        "research-msk-95e347f1df313e03"
+      ],
+      "ruFile": "public/moscow/events.json",
+      "enFile": "public/en/moscow/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Новая Третьяковка",
+          "placeEN": "New Tretyakov Gallery",
+          "eventRU": [
+            "Новая Третьяковка — Малый зал"
+          ],
+          "eventEN": [
+            "New Truck - Small Room"
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "Крымский Вал, 10",
+          "placeEN": "10 Krymsky Val",
+          "eventRU": [
+            "Москва, Крымский Вал, 10"
+          ],
+          "eventEN": [
+            "Moscow, Crimean Val, 10"
+          ]
+        },
+        "eventVenueIDs": [],
+        "placeSourceURL": "https://www.tretyakovgallery.ru/for-visitors/museums/novaya-tretyakovka/",
+        "eventSourceURLs": [
+          "https://www.tretyakovgallery.ru/events/o/lektsiya-dukh-klassiki-vysokoy-obrazy-antichnoy-mifologii-v-zhivopisi-10-2026/",
+          "https://www.tretyakovgallery.ru/events/o/lektsiya-nataliya-goncharova-10-2026/",
+          "https://www.tretyakovgallery.ru/events/o/lektsiya-kazimir-malevich-10-2026/",
+          "https://www.tretyakovgallery.ru/events/o/lektsiya-voyna-i-mir-v-poemakh-gomera-iliada-i-odisseya-2026/",
+          "https://www.tretyakovgallery.ru/events/o/lektsiya-vasiliy-kandinskiy-10-2026/",
+          "https://www.tretyakovgallery.ru/events/o/lektsiya-pavel-filonov-11-2026/"
+        ],
+        "basis": "Distinctive Russian institution name plus matching street/building address in the existing curated place and occurrence. Room/floor qualifiers stay on the event; target is the existing parent venue."
+      }
+    },
+    {
+      "city": "moscow",
+      "placeId": "msk-place-rsl-oriental",
+      "occurrenceIDs": [
+        "official-msk-fc4488f6bef115d4",
+        "official-msk-a7d427027c076c46"
+      ],
+      "ruFile": "public/moscow/events.json",
+      "enFile": "public/en/moscow/events.json",
+      "operation": "set placeId on listed IDs in both locale files",
+      "evidence": {
+        "matchedNames": {
+          "placeRU": "Центр восточной литературы РГБ",
+          "placeEN": "RSL Centre for Oriental Literature",
+          "eventRU": [
+            "Центр восточной литературы РГБ, конференц-зал"
+          ],
+          "eventEN": [
+            "RSL Oriental Literature Centre, conference hall"
+          ]
+        },
+        "matchedAddresses": {
+          "placeRU": "Моховая ул., 6–8",
+          "placeEN": "6–8 Mokhovaya Street",
+          "eventRU": [
+            "Москва, ул. Моховая, 6, 8"
+          ],
+          "eventEN": [
+            "6/8 Mokhovaya Street, Moscow"
+          ]
+        },
+        "eventVenueIDs": [],
+        "placeSourceURL": "https://leninkatour.rsl.ru/kontakty",
+        "eventSourceURLs": [
+          "https://www.rsl.ru/events/ty-dlya-menya-tselyy-mir-2-voskr",
+          "https://www.rsl.ru/events/hlopkovoe-serdce-azii"
+        ],
+        "basis": "Distinctive Russian institution name plus matching street/building address in the existing curated place and occurrence. Room/floor qualifiers stay on the event; target is the existing parent venue."
+      }
+    }
+  ],
+  "heldCandidates": [
+    {
+      "city": "moscow",
+      "placeId": "osm:node/1732706943",
+      "occurrenceIDs": [
+        "kudago-msk-206661-1791478800",
+        "kudago-msk-205603-1791633600",
+        "kudago-msk-212917-1791658800"
+      ],
+      "reason": "Existing OSM place has no address or shared source venue identifier. Name plus proximity alone is not accepted for this conservative repair.",
+      "placeNameRU": "Золберг",
+      "placeNameEN": "Zolberg",
+      "eventVenues": [
+        "бар «Золбергъ»"
+      ],
+      "placeSourceURL": "https://www.openstreetmap.org/node/1732706943",
+      "placeWebsite": "http://zolberg.ru/"
+    },
+    {
+      "city": "moscow",
+      "placeId": "osm:node/13456206713",
+      "occurrenceIDs": [
+        "afisha-msk-a93dcf6f33d9762b",
+        "afisha-msk-41693bfa82d75640",
+        "afisha-msk-4eba9cb822b026c8",
+        "afisha-msk-94c4046378507c6e",
+        "afisha-msk-0cba2d2f5b08182c",
+        "afisha-msk-bb7815cc97517b7c",
+        "afisha-msk-ac7619e03fe07a70",
+        "afisha-msk-fd361c409248edba",
+        "afisha-msk-3ac05c406abe3caa",
+        "afisha-msk-3f95ba6fb813afb7",
+        "afisha-msk-48a3cb143764be0e",
+        "afisha-msk-45060b4d6fb50c90",
+        "afisha-msk-4d1b5e1c5e121aa2",
+        "afisha-msk-0dab5a53af19385b",
+        "afisha-msk-83f5be0cbd385c78",
+        "afisha-msk-bdfd0c9850b49685",
+        "afisha-msk-4991f938691c9bd9",
+        "afisha-msk-9a03870effcd0919",
+        "afisha-msk-4f706b3ac4949074",
+        "afisha-msk-71ce4fc97a324add",
+        "afisha-msk-c82a9aaf10e40ed5",
+        "afisha-msk-efe75d6807eb99ff",
+        "afisha-msk-ca49e01b9cba47e8"
+      ],
+      "reason": "Existing OSM place has no address or shared source venue identifier. Name plus proximity alone is not accepted for this conservative repair.",
+      "placeNameRU": "Kaleidoscope",
+      "placeNameEN": "Kaleidoscope",
+      "eventVenues": [
+        "Калейдоскоп"
+      ],
+      "placeSourceURL": "https://www.openstreetmap.org/node/13456206713",
+      "placeWebsite": "https://kaleidoscope.rest/"
+    },
+    {
+      "city": "belgrade",
+      "reason": "No existing stored Places ID found for the differing auto-derived venues. Event placeId alone cannot create a referenced place, so leave unchanged. A separate evidence-backed canonical Places addition or stable source venueId mapping is needed; do not use coordinate-only merging."
+    },
+    {
+      "city": "saint-petersburg",
+      "reason": "No existing stored Places ID found for the differing auto-derived venues. Event placeId alone cannot create a referenced place, so leave unchanged. A separate evidence-backed canonical Places addition or stable source venueId mapping is needed; do not use coordinate-only merging."
+    },
+    {
+      "city": "almaty",
+      "reason": "No existing stored Places ID found for the differing auto-derived venues. Event placeId alone cannot create a referenced place, so leave unchanged. A separate evidence-backed canonical Places addition or stable source venueId mapping is needed; do not use coordinate-only merging."
+    }
+  ],
+  "simulation": [
+    {
+      "city": "tbilisi",
+      "selectedOccurrences": 6,
+      "localeRoutes": [
+        {
+          "locale": "ru",
+          "beforeCount": 2961,
+          "afterCount": 2960,
+          "removedDerivedPlaceIDs": [
+            "venue:tkt:21:41.7010:44.7960"
+          ],
+          "addedPlaceIDs": [],
+          "eventFieldsExceptPlaceIdUnchanged": true,
+          "allSelectedEventsLinkToExpectedPlace": true
+        },
+        {
+          "locale": "en",
+          "beforeCount": 2960,
+          "afterCount": 2960,
+          "removedDerivedPlaceIDs": [],
+          "addedPlaceIDs": [],
+          "eventFieldsExceptPlaceIdUnchanged": true,
+          "allSelectedEventsLinkToExpectedPlace": true
+        }
+      ],
+      "remainingOnlyRU": [
+        "venue:dzagliбродячаясобака:41.7087:44.7820",
+        "venue:государственныиуниверситетильикорпусgзалg106:41.7124:44.7485",
+        "venue:книжныидомлигамусbookhouseligamus:41.7089:44.7709"
+      ],
+      "remainingOnlyEN": [
+        "venue:dzagliastraydog:41.7087:44.7820",
+        "venue:ligamusbookhousebookhouseligamus:41.7089:44.7709",
+        "venue:stateuniversityofilyacorpsgroomg106:41.7124:44.7485"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "selectedOccurrences": 0,
+      "localeRoutes": [
+        {
+          "locale": "ru",
+          "beforeCount": 3161,
+          "afterCount": 3161,
+          "removedDerivedPlaceIDs": [],
+          "addedPlaceIDs": [],
+          "eventFieldsExceptPlaceIdUnchanged": true,
+          "allSelectedEventsLinkToExpectedPlace": true
+        },
+        {
+          "locale": "en",
+          "beforeCount": 3161,
+          "afterCount": 3161,
+          "removedDerivedPlaceIDs": [],
+          "addedPlaceIDs": [],
+          "eventFieldsExceptPlaceIdUnchanged": true,
+          "allSelectedEventsLinkToExpectedPlace": true
+        }
+      ],
+      "remainingOnlyRU": [
+        "venue:gardijskiparkместосбора:44.8169:20.4618",
+        "venue:башняgenexместосбора:44.8205:20.4042",
+        "venue:башняusceместосбора:44.8166:20.4367",
+        "venue:лавижабац:44.8212:20.4558",
+        "venue:леопольдовыворотаместосбора:44.8251:20.4518",
+        "venue:муралнаrajicevaместосбора:44.8195:20.4537",
+        "venue:нашеместоврачар:44.7943:20.4869"
+      ],
+      "remainingOnlyEN": [
+        "venue:gardijskiparkmeetingpoint:44.8169:20.4618",
+        "venue:genextowermeetingpoint:44.8205:20.4042",
+        "venue:lavizabac:44.8212:20.4558",
+        "venue:leopoldgatemeetingpoint:44.8251:20.4518",
+        "venue:ourplacedoctor:44.7943:20.4869",
+        "venue:rajicevamuralmeetingpoint:44.8195:20.4537",
+        "venue:uscetowermeetingpoint:44.8166:20.4367"
+      ]
+    },
+    {
+      "city": "moscow",
+      "selectedOccurrences": 63,
+      "localeRoutes": [
+        {
+          "locale": "ru",
+          "beforeCount": 3626,
+          "afterCount": 3626,
+          "removedDerivedPlaceIDs": [],
+          "addedPlaceIDs": [],
+          "eventFieldsExceptPlaceIdUnchanged": true,
+          "allSelectedEventsLinkToExpectedPlace": true
+        },
+        {
+          "locale": "en",
+          "beforeCount": 3647,
+          "afterCount": 3626,
+          "removedDerivedPlaceIDs": [
+            "venue:moscowinternationalmusichouseimac:55.7332:37.6466",
+            "venue:thegrimmertourclub:55.7610:37.6244",
+            "venue:essajazzclubmainsmallhall:55.7411:37.6289",
+            "venue:librarynanekrasovaconferenceroom5thfloor:55.7671:37.6787",
+            "venue:essajazzclubfirstfloor:55.7411:37.6289",
+            "venue:paleontologicalmuseum:55.6237:37.5143",
+            "venue:museumofbiologicalsciencekahtimirazevathemainexposition:55.7643:37.5715",
+            "venue:filmmuseum:55.8395:37.6167",
+            "venue:librarynanekrasovaartspace2ndfloor:55.7671:37.6787",
+            "venue:hes2culturehousesmallwaves:55.7428:37.6127",
+            "venue:thirdkorishgalleryengineeringcorpslectureroom:55.7409:37.6211",
+            "venue:newtrucksmallroom:55.7350:37.6057",
+            "venue:librarynahnekrasovaartspace2ndfloor:55.7671:37.6786",
+            "venue:librarynanekrasovaaudience5035thfloor:55.7671:37.6787",
+            "venue:hes2culturalhousee6e7class2floor:55.7428:37.6127",
+            "venue:librarynahnekrasovaconferenceroom5thfloor:55.7671:37.6787",
+            "venue:jazzlabjazzclubesse:55.7411:37.6289",
+            "venue:rslorientalliteraturecentreconferencehall:55.7501:37.6099",
+            "venue:librarynahnekrasovaaudience5025thfloor:55.7671:37.6787",
+            "venue:librarynahnekrasovaaudience5035thfloor:55.7671:37.6786",
+            "venue:thehes2culturalhouseislowerherbsplaying:55.7428:37.6127"
+          ],
+          "addedPlaceIDs": [],
+          "eventFieldsExceptPlaceIdUnchanged": true,
+          "allSelectedEventsLinkToExpectedPlace": true
+        }
+      ],
+      "remainingOnlyRU": [
+        "venue:16тоннарбат:55.7495:37.5910",
+        "venue:afisha-venue-1600115:55.7568:37.6141",
+        "venue:академическиитеатрименимоссовета:55.7683:37.5975",
+        "venue:академияспортадинамо:55.7906:37.5653",
+        "venue:артпространствосияние:55.7875:37.6170",
+        "venue:барбарчук:55.7512:37.6064",
+        "venue:барзолбергъ:55.7274:37.6217",
+        "venue:барсплетни:55.7615:37.6175",
+        "venue:большоидворецмузеизаповедникцарицыно:55.6161:37.6828",
+        "venue:большоитеатр:55.7602:37.6185",
+        "venue:большоитеатрноваясцена:55.7597:37.6167",
+        "venue:городскаяэкскурсиямузеямосквы:55.7591:37.6472",
+        "venue:дворецкультурыименигорбунова:55.7501:37.4971",
+        "venue:евангелическолютеранскиикафедральныисоборсвятыхапостоловпетраипавла:55.7568:37.6410",
+        "venue:историческиимузеи:55.7535:37.6187",
+        "venue:кинотеатриллюзион:55.7475:37.6447",
+        "venue:концертныизалбородинохолл:55.7844:37.6723",
+        "venue:культурныицентрдом:55.7443:37.6300",
+        "venue:мгуфундаментальнаябиблиотекаактовыизал:55.6990:37.5232",
+        "venue:мгушуваловскиикорпус:55.6999:37.5197",
+        "venue:московскаяконсерваториябольшоизал:55.7563:37.6043",
+        "venue:московскаяконсерваториямалыизал:55.7562:37.6048",
+        "venue:московскаяконсерваториярахманиновскиизал:55.7564:37.6057",
+        "venue:московскиидомкомпозиторов:55.7593:37.6089",
+        "venue:московскиитеатролегатабаковаисторическаясцена:55.7642:37.6461",
+        "venue:московскиитеатрюногозрителямтюз:55.7662:37.5999",
+        "venue:музеимихаилабулгаковабольшаясадоваянехорошаяквартира:55.7669:37.5939",
+        "venue:музеимосквыкорпус1этаж2белыизал:55.7364:37.5932",
+        "venue:музеирусскогоимпрессионизма:55.7803:37.5704",
+        "venue:музеисадовоекольцо:55.7751:37.6327",
+        "venue:научнаябиблиотекаимемориальныимузеидомлосева:55.7495:37.5924",
+        "venue:причалнациональныицентрроссияситиэкспоцентр:55.7489:37.5466",
+        "venue:северныиречноивокзал:55.8507:37.4674",
+        "venue:сталинскаявысотканакотельническоинабережнои:55.7475:37.6447",
+        "venue:станцияметротверская:55.7648:37.6061",
+        "venue:театримениевгениявахтангова:55.7499:37.5915",
+        "venue:театркуколимениобразцова:55.7741:37.6143",
+        "venue:театркуколимсвобразцова:55.7742:37.6145",
+        "venue:театрнацииновоепространство:55.7662:37.6087",
+        "venue:третьяковскаягалереякорпуснакадашевскоинабережнои:55.7430:37.6188",
+        "venue:философскиицентридея:55.7429:37.6794",
+        "venue:царицыноатриумхлебногодома:55.6161:37.6844",
+        "venue:царицынобольшоидворец:55.6161:37.6828",
+        "venue:царицыномалыидворец:55.6154:37.6805",
+        "venue:царицынооперныидом:55.6146:37.6806",
+        "venue:царицынохлебныидом:55.6161:37.6844",
+        "venue:цсивинзаводцехбелогоицехкрасного:55.7560:37.6659",
+        "venue:чаинаянакрутицах:55.7284:37.6585",
+        "venue:школатеатрамосквы:55.7635:37.6017",
+        "venue:шоурестораннаблюдатель:55.7206:37.6104"
+      ],
+      "remainingOnlyEN": [
+        "venue:16tonnearbat:55.7495:37.5910",
+        "venue:barchuk:55.7512:37.6064",
+        "venue:bigtheater:55.7602:37.6185",
+        "venue:bordinohallconcerthall:55.7844:37.6723",
+        "venue:csivinnzaplantkehwhiteandzehred:55.7560:37.6659",
+        "venue:domculturalcentre:55.7443:37.6300",
+        "venue:dynamosportsacademy:55.7906:37.5653",
+        "venue:eugeniavachtangowtheatre:55.7499:37.5915",
+        "venue:evangeliclutherancafedralcathedraloftheholyapostlespeterandpaul:55.7568:37.6410",
+        "venue:gardenringmuseum:55.7751:37.6327",
+        "venue:gorbunovpalaceofculture:55.7501:37.4971",
+        "venue:gossipneybar:55.7615:37.6175",
+        "venue:grandpalacetsaritsynomuseumreserve:55.6161:37.6828",
+        "venue:historicalmuseum:55.7535:37.6187",
+        "venue:ideaphilosophycenter:55.7429:37.6794",
+        "venue:illusioncinema:55.7475:37.6447",
+        "venue:lightningartspace:55.7875:37.6170",
+        "venue:mgufundamentallibraryactuarialhall:55.6990:37.5232",
+        "venue:mgushuvalovcorps:55.6999:37.5197",
+        "venue:mikhailbulgakovmuseumbolshayasadovayathebadapartment:55.7669:37.5939",
+        "venue:modeldolltheatre:55.7741:37.6143",
+        "venue:moscowconservatorygreathall:55.7563:37.6043",
+        "venue:moscowconservatoryrakhmaninovhall:55.7564:37.6057",
+        "venue:moscowconservatorysmallhall:55.7562:37.6048",
+        "venue:moscowhouseofcomposers:55.7593:37.6089",
+        "venue:moscowmuseumbuilding1floor2whitehall:55.7364:37.5932",
+        "venue:moscowolegtabakovtheatrehistoricalscene:55.7642:37.6461",
+        "venue:moscowtheaterschool:55.7635:37.6017",
+        "venue:moscowyoungspectatoraposstheatremtso:55.7662:37.5999",
+        "venue:mossovetacademictheatre:55.7683:37.5975",
+        "venue:museumofmoscowcitywalk:55.7591:37.6472",
+        "venue:museumofrussianimpressionism:55.7803:37.5704",
+        "venue:nationalcenterofrussiacityexpotcentre:55.7489:37.5466",
+        "venue:northriverstation:55.8507:37.4674",
+        "venue:observatorshows:55.7206:37.6104",
+        "venue:sciencelibraryandthehouseoflosewamemorialmuseum:55.7495:37.5924",
+        "venue:stalinhighgroundonthecoastalcoast:55.7475:37.6447",
+        "venue:statehistoricalmuseumgrandentrancehall:55.7535:37.6187",
+        "venue:statehistoricalmuseumlecturehall:55.7535:37.6187",
+        "venue:svobraztsovpuppettheatre:55.7742:37.6145",
+        "venue:teaoncools:55.7284:37.6585",
+        "venue:tg-direct-place-nations-new:55.7662:37.6087",
+        "venue:theatreoftheunitednationsnewspace:55.7662:37.6087",
+        "venue:thegreattheatrenewscene:55.7597:37.6167",
+        "venue:tretyakovgallerykadashevskayaembankmentbuilding:55.7430:37.6188",
+        "venue:tsaritsynobreadhouse:55.6161:37.6844",
+        "venue:tsaritsynograndpalace:55.6161:37.6828",
+        "venue:tsaritsynooperahouse:55.6146:37.6806",
+        "venue:tsaritsynosmallpalace:55.6154:37.6805",
+        "venue:tverskametrostation:55.7648:37.6061"
+      ]
+    },
+    {
+      "city": "saint-petersburg",
+      "selectedOccurrences": 0,
+      "localeRoutes": [
+        {
+          "locale": "ru",
+          "beforeCount": 38,
+          "afterCount": 38,
+          "removedDerivedPlaceIDs": [],
+          "addedPlaceIDs": [],
+          "eventFieldsExceptPlaceIdUnchanged": true,
+          "allSelectedEventsLinkToExpectedPlace": true
+        },
+        {
+          "locale": "en",
+          "beforeCount": 38,
+          "afterCount": 38,
+          "removedDerivedPlaceIDs": [],
+          "addedPlaceIDs": [],
+          "eventFieldsExceptPlaceIdUnchanged": true,
+          "allSelectedEventsLinkToExpectedPlace": true
+        }
+      ],
+      "remainingOnlyRU": [
+        "venue:технополисполитехспбпу:60.0067:30.3795",
+        "venue:университетитмо:59.9269:30.3378",
+        "venue:университетитмоаудитория1212:59.9574:30.3079",
+        "venue:университетитмоаудитория2304:59.9574:30.3079"
+      ],
+      "remainingOnlyEN": [
+        "venue:itmouniversity:59.9269:30.3378",
+        "venue:itmouniversityroom1212:59.9574:30.3079",
+        "venue:itmouniversityroom2304:59.9574:30.3079",
+        "venue:technopolispolytechpeterthegreatstpetersburgpolytechnicuniversity:60.0067:30.3795"
+      ]
+    },
+    {
+      "city": "almaty",
+      "selectedOccurrences": 0,
+      "localeRoutes": [
+        {
+          "locale": "ru",
+          "beforeCount": 10,
+          "afterCount": 10,
+          "removedDerivedPlaceIDs": [],
+          "addedPlaceIDs": [],
+          "eventFieldsExceptPlaceIdUnchanged": true,
+          "allSelectedEventsLinkToExpectedPlace": true
+        },
+        {
+          "locale": "en",
+          "beforeCount": 10,
+          "afterCount": 10,
+          "removedDerivedPlaceIDs": [],
+          "addedPlaceIDs": [],
+          "eventFieldsExceptPlaceIdUnchanged": true,
+          "allSelectedEventsLinkToExpectedPlace": true
+        }
+      ],
+      "remainingOnlyRU": [
+        "venue:artишокбольшаясцена:43.2599:76.9545"
+      ],
+      "remainingOnlyEN": [
+        "venue:artishocktheatrelargestage:43.2599:76.9545"
+      ]
+    }
+  ],
+  "summary": {
+    "selectedVenueGroups": 12,
+    "selectedOccurrences": 69,
+    "localeRowsToChange": 138,
+    "fullyResolvesDerivedIDParity": false
+  },
+  "simulationBasis": "Exact git commit ac215ba40fc91eab21b0b7536cf9a1b4c5458a0f, not the concurrently updated working tree.",
+  "applicationSafety": "Merge placeId fields by occurrence ID into current files, never overwrite whole feeds from this baseline. Some other workers are concurrently refreshing London and Almaty. Re-run checks on final combined data before publication."
+}

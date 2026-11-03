@@ -1,0 +1,69 @@
+{
+  "status": "local_QA_passed_not_published",
+  "checkedAt": "2026-10-28T02:51:55.511213+00:00",
+  "baseVersion": 199,
+  "baseCommit": "83ce69fcd51e2c81ffc729c83bce7e3a68e36121",
+  "city": "oslo",
+  "timezone": "Europe/Oslo",
+  "records": 38,
+  "uniqueProgrammes": 27,
+  "venues": 15,
+  "categories": {
+    "city": 9,
+    "sport": 1,
+    "kids": 5,
+    "music": 20,
+    "talk": 3
+  },
+  "localSevenDateDisplayedCounts": [
+    7,
+    2,
+    3,
+    2,
+    3,
+    2,
+    1
+  ],
+  "localSevenDateRadiusCounts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "weekDisplayed": 20,
+  "wholeCityPlaces": 15,
+  "old28CityFeedsByteIdentical": true,
+  "semanticDuplicateKeys": 0,
+  "localeIdParity": true,
+  "browserChecks": [
+    "Norway → Oslo → map",
+    "Remembered Continue in Oslo link",
+    "RU/EN map and list",
+    "Whole city places and actual programme",
+    "All20 citywide list ordered distance despite0nearby",
+    "500m circle label retained",
+    "Lido doors18:30 vs show19:30,age18,physicalID,320/380NOK+unknownfee",
+    "Talks3 filter"
+  ],
+  "automatedChecks": [
+    "country-city-picker29cities",
+    "citywide-event-list826checks",
+    "location679assertions",
+    "catalog-modes-integration2537checks59routes",
+    "expiry-resume",
+    "English/Flensburgbuildpassed"
+  ],
+  "gaps": [
+    "VisitOslo first visible pages only; pagination unavailable, not complete import",
+    "No verified conferences/exhibitions imported; MUNCH real range remains held",
+    "Jordal and Ingensgate coordinate conflicts held; Becco time,Trekanten entrance,Fjord multisite held",
+    "Late-November dates sparse; only16dates in imported sessions",
+    "Telegram public channel no suitable Oslo announcement; chats profile only",
+    "Instagram/Threads not reviewed; no login attempts",
+    "Cloud map backup label warning; APK physical device not tested",
+    "EventsXLSX remains40; Riga/Moscow durable pending in SourcesJSON42; append Oslo separately after liveproof"
+  ]
+}

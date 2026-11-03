@@ -1,0 +1,1909 @@
+{
+  "batchId": "new-discovery-2026-10-11-overnight",
+  "checkedAt": "2026-10-11T01:07:53Z",
+  "reportFile": "public/research-update-overnight-2026-10-11.json",
+  "coverageNote": " Дополнение 11 октября, ночной проход: отдельные проверенные новые анонсы и одно уточнение регистрации; остальные записи в этом проходе не перепроверялись. Карта показывает ближайшие семь дней.",
+  "items": [
+    {
+      "city": "tbilisi",
+      "action": "add",
+      "reason": "Новое отдельное событие: дата, время, площадка и опубликованная стоимость проверены по первичным источникам.",
+      "evidenceUrls": [
+        "https://biletebi.ge/en/concerts/national-tourism-awards",
+        "https://biletebi.ge/en/concerts",
+        "https://www.openstreetmap.org/way/59151604"
+      ],
+      "event": {
+        "city": "Tbilisi",
+        "timezone": "Asia/Tbilisi",
+        "kind": "event",
+        "endDate": null,
+        "endTime": null,
+        "end": null,
+        "checkedAt": "2026-10-11T01:04:38Z",
+        "sourceRetrievedAt": "2026-10-11T01:04:38Z",
+        "availabilityVerified": false,
+        "currency": "GEL",
+        "min": false,
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "language": null,
+        "feesNote": "Дополнительные обязательные сборы в открытых данных не указаны; итог оформления не проверялся. Указана опубликованная базовая цена, не окончательная сумма заказа.",
+        "mandatoryExtras": {
+          "amount": null,
+          "currency": "GEL",
+          "status": "not_disclosed",
+          "note": "Дополнительные обязательные сборы в открытых данных не указаны; итог оформления не проверялся. Указана опубликованная базовая цена, не окончательная сумма заказа."
+        },
+        "verification": "verified_primary_schedule_and_venue",
+        "id": "biletebi:national-tourism-awards:2026-10-28",
+        "title": "National Tourism Awards 2026",
+        "date": "2026-10-28",
+        "time": "18:00",
+        "startAt": "2026-10-28T18:00:00+04:00",
+        "venue": "Tbilisi Opera and Ballet State Theatre",
+        "address": "25 Shota Rustaveli Avenue, Tbilisi",
+        "lat": 41.7011268,
+        "lng": 44.7962925,
+        "coordinateSource": "https://www.openstreetmap.org/way/59151604",
+        "coordinateEvidence": "Точный объект театра повторно использован из проверенного каталога мест v44, osm:way:59151604; не городской центр. Билетная карточка указывает этот театр.",
+        "category": "talk",
+        "price": 195,
+        "priceLabel": "195 GEL — опубликованная цена билета. Возможные сборы не подтверждены.",
+        "priceNote": "195 GEL — опубликованная цена билета. Возможные сборы не подтверждены.",
+        "admission": "Вход по билету. Дресс-код Black Tie. Возрастные ограничения и условия возврата в доступном тексте не указаны.",
+        "registration": "Публичная билетная страница предлагает выбор билета за 195 GEL. Доступность при оформлении не проверялась.",
+        "timeNote": "18:00 — приветственный приём и нетворкинг; церемония с 19:00. Окончание не указано.",
+        "source": "Biletebi.ge / Georgian National Tourism Awards",
+        "sourceUrl": "https://biletebi.ge/en/concerts/national-tourism-awards",
+        "ticketUrl": "https://biletebi.ge/en/concerts/national-tourism-awards",
+        "description": "Церемония премии туристической отрасли Грузии и встреча её участников. Приём с 18:00, церемония с 19:00. Дресс-код Black Tie. Вход по билету за опубликованные 195 GEL; обязательные сборы и наличие мест при оформлении не проверялись.",
+        "dateEvidence": {
+          "sourceUrl": "https://biletebi.ge/en/concerts/national-tourism-awards",
+          "method": "Explicit event date in official ticket-page indexed text; time also corroborated by current official category listing",
+          "date": "2026-10-28",
+          "time": "18:00",
+          "timezoneBasis": "Local venue time in Tbilisi, normalized to Asia/Tbilisi UTC+04:00"
+        },
+        "priceEvidence": {
+          "sourceUrl": "https://biletebi.ge/en/concerts/national-tourism-awards",
+          "basePrice": 195,
+          "currency": "GEL",
+          "method": "Two visible ticket-choice rows each show 195 ₾, matching official category listing",
+          "notFinalCheckoutTotal": true
+        },
+        "evidence": [
+          {
+            "url": "https://biletebi.ge/en/concerts/national-tourism-awards",
+            "excerpt": "28 October 2026; Wed, 28 Oct, 18:00; 195 ₾Choose; Dresscode: Black Tie",
+            "checkedAt": "2026-10-11T01:04:38Z",
+            "access": "Official-page text returned by web search, indexed two days ago; direct open returned cache miss."
+          },
+          {
+            "url": "https://biletebi.ge/en/concerts",
+            "summary": "Current official listing gives National Tourism Awards 2026, 28 Oct at 18:00, Opera and Ballet Theater of Tbilisi, 195 GEL.",
+            "checkedAt": "2026-10-11T01:00:55Z"
+          },
+          {
+            "url": "https://www.openstreetmap.org/way/59151604",
+            "summary": "Previously verified exact Opera venue point reused from v44 places catalog.",
+            "checkedAt": "2026-10-08T04:12:15.396402+00:00"
+          }
+        ],
+        "evidenceUrls": [
+          "https://biletebi.ge/en/concerts/national-tourism-awards",
+          "https://biletebi.ge/en/concerts",
+          "https://www.openstreetmap.org/way/59151604"
+        ],
+        "sourceAccessNote": "The primary ticket-page text is accessible through the web search index (crawl reported two days ago); direct open cache miss. Price is independently shown in the current category listing. No live checkout or inventory claim.",
+        "sources": [
+          {
+            "name": "Biletebi.ge / Georgian National Tourism Awards",
+            "url": "https://biletebi.ge/en/concerts/national-tourism-awards",
+            "price": 195,
+            "min": false,
+            "priceLabel": "195 GEL — опубликованная цена билета. Возможные сборы не подтверждены.",
+            "checkedAt": "2026-10-11T01:04:38Z"
+          }
+        ]
+      }
+    },
+    {
+      "city": "tbilisi",
+      "action": "add",
+      "reason": "Новое отдельное событие: дата, время, площадка и опубликованная стоимость проверены по первичным источникам.",
+      "evidenceUrls": [
+        "https://biletebi.ge/en/concerts/e-commerce-georgia-2026",
+        "https://www.ecag.ge/en",
+        "https://www.marriott.com/en-us/hotels/tbssi-sheraton-grand-tbilisi-metechi-palace/overview/",
+        "https://www.google.com/maps/search/?api=1&gl=US&hl=en&query=41.6887170%2C44.8230830"
+      ],
+      "event": {
+        "city": "Tbilisi",
+        "timezone": "Asia/Tbilisi",
+        "kind": "event",
+        "endDate": null,
+        "endTime": null,
+        "end": null,
+        "checkedAt": "2026-10-11T01:04:38Z",
+        "sourceRetrievedAt": "2026-10-11T01:04:38Z",
+        "availabilityVerified": false,
+        "currency": "GEL",
+        "min": false,
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "language": null,
+        "feesNote": "Дополнительные обязательные сборы в открытых данных не указаны; итог оформления не проверялся. Указана опубликованная базовая цена, не окончательная сумма заказа.",
+        "mandatoryExtras": {
+          "amount": null,
+          "currency": "GEL",
+          "status": "not_disclosed",
+          "note": "Дополнительные обязательные сборы в открытых данных не указаны; итог оформления не проверялся. Указана опубликованная базовая цена, не окончательная сумма заказа."
+        },
+        "verification": "verified_primary_schedule_and_venue",
+        "id": "biletebi:e-commerce-georgia-2026:2026-11-06",
+        "title": "eCommerce Georgia 2026",
+        "date": "2026-11-06",
+        "time": "10:00",
+        "startAt": "2026-11-06T10:00:00+04:00",
+        "venue": "Sheraton Grand Tbilisi Metechi Palace",
+        "address": "20 Telavi Street, Tbilisi 0103",
+        "lat": 41.688717,
+        "lng": 44.823083,
+        "coordinateSource": "https://www.marriott.com/en-us/hotels/tbssi-sheraton-grand-tbilisi-metechi-palace/overview/",
+        "coordinateEvidence": "Координаты из прямой ссылки VIEW MAP на официальном сайте Marriott: query=41.6887170,44.8230830. Это точка, указанная самой гостиницей; страница подтверждает адрес Telavi 20. Открытие Google Maps дало cache miss, но полный target URL раскрыт инструментом.",
+        "category": "talk",
+        "price": 130,
+        "priceLabel": "130 GEL — Standard. Скидка 15% только для SOLO и BOG Business Cards не вычтена. Возможные сборы не подтверждены.",
+        "priceNote": "130 GEL — Standard. Скидка 15% только для SOLO и BOG Business Cards не вычтена. Возможные сборы не подтверждены.",
+        "admission": "Вход по билету Standard. Билеты невозвратные. Возрастные ограничения в карточке не указаны.",
+        "registration": "Публичная билетная страница предлагает Standard за 130 GEL. Отдельная обязательная заявка или профессиональный отбор не указаны; фактическое наличие билетов при оформлении не проверялось.",
+        "timeNote": "Начало по билетной карточке 10:00; отдельное открытие дверей и окончание не указаны.",
+        "source": "Biletebi.ge / E-Commerce Association - Georgia",
+        "sourceUrl": "https://biletebi.ge/en/concerts/e-commerce-georgia-2026",
+        "ticketUrl": "https://biletebi.ge/en/concerts/e-commerce-georgia-2026",
+        "description": "Конференция об электронной коммерции с выступлениями, дискуссиями, мастер-классами и деловыми встречами. 6 ноября 2026 с 10:00 в Sheraton Grand Tbilisi Metechi Palace. Standard 130 GEL; условная банковская скидка не вычтена. Билеты невозвратные. Возможные сборы и наличие мест при оформлении не проверялись.",
+        "dateEvidence": {
+          "sourceUrl": "https://biletebi.ge/en/concerts/e-commerce-georgia-2026",
+          "method": "Explicit 2026 event name/date in official ticket page and organiser homepage, with visible ticket start time",
+          "date": "2026-11-06",
+          "time": "10:00",
+          "yearSourceUrl": "https://www.ecag.ge/en",
+          "timezoneBasis": "Local venue time in Tbilisi, normalized to Asia/Tbilisi UTC+04:00"
+        },
+        "priceEvidence": {
+          "sourceUrl": "https://biletebi.ge/en/concerts/e-commerce-georgia-2026",
+          "basePrice": 130,
+          "currency": "GEL",
+          "ticketType": "Standard",
+          "conditionalDiscount": "15% on SOLO & BOG Business Cards; excluded from standard base price",
+          "notFinalCheckoutTotal": true
+        },
+        "evidence": [
+          {
+            "url": "https://biletebi.ge/en/concerts/e-commerce-georgia-2026",
+            "excerpt": "Standard; 130 ₾Choose; Fri, 6 Nov, 10:00; Tickets on this event are non-refundable",
+            "checkedAt": "2026-10-11T01:04:23Z"
+          },
+          {
+            "url": "https://www.ecag.ge/en",
+            "excerpt": "6 NOVEMBER 2026; SHERATON GRAND TBILISI METEKHI PALACE",
+            "checkedAt": "2026-10-11T01:02:57Z"
+          },
+          {
+            "url": "https://www.marriott.com/en-us/hotels/tbssi-sheraton-grand-tbilisi-metechi-palace/overview/",
+            "excerpt": "20 Telavi Street, Tbilisi, Georgia, 0103",
+            "mapLinkTarget": "https://www.google.com/maps/search/?api=1&gl=US&hl=en&query=41.6887170%2C44.8230830",
+            "checkedAt": "2026-10-11T01:03:05Z"
+          }
+        ],
+        "evidenceUrls": [
+          "https://biletebi.ge/en/concerts/e-commerce-georgia-2026",
+          "https://www.ecag.ge/en",
+          "https://www.marriott.com/en-us/hotels/tbssi-sheraton-grand-tbilisi-metechi-palace/overview/",
+          "https://www.google.com/maps/search/?api=1&gl=US&hl=en&query=41.6887170%2C44.8230830"
+        ],
+        "sources": [
+          {
+            "name": "Biletebi.ge / E-Commerce Association - Georgia",
+            "url": "https://biletebi.ge/en/concerts/e-commerce-georgia-2026",
+            "price": 130,
+            "min": false,
+            "priceLabel": "130 GEL — Standard. Скидка 15% только для SOLO и BOG Business Cards не вычтена. Возможные сборы не подтверждены.",
+            "checkedAt": "2026-10-11T01:04:38Z"
+          }
+        ]
+      }
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-11T01:03:35Z",
+        "sourceRetrievedAt": "2026-10-11T01:03:35Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверены публичные объявления; наличие мест, билетов и успешность регистрации не проверялись.",
+        "language": null,
+        "min": false,
+        "kind": "event",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "timezoneEvidence": "Местные часы физической площадки в Белграде; UTC-смещение рассчитано по IANA Europe/Belgrade для даты события. На 25 октября 2026 приходится переход с UTC+02:00 на UTC+01:00.",
+        "venue": "Palata nauke",
+        "address": "Kralja Milana 11, Beograd",
+        "lat": 44.8082337,
+        "lng": 20.4638175,
+        "addressSource": "https://palatanauke.rs/dogadjaji/",
+        "primaryVenueUrl": "https://palatanauke.rs/dogadjaji/",
+        "coordinateSource": "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+        "coordinateEvidence": "Официальная ссылка «Vidi na karti» из страницы события ведёт на именованную сущность Google Maps «Палата науке»; !3d44.8082337!4d20.4638175 — координаты сущности, не только центр viewport.",
+        "coordinateProvenance": {
+          "method": "official_venue_linked_map_named_entity",
+          "source": "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+          "mapUrl": "https://www.google.com/maps/place/%D0%9F%D0%B0%D0%BB%D0%B0%D1%82%D0%B0+%D0%BD%D0%B0%D1%83%D0%BA%D0%B5/@44.8082337,20.4638175,15z/data=!4m6!3m5!1s0x475a7bf463cffa13:0x8850ce0295f31940!8m2!3d44.8082337!4d20.4638175!16s%2Fg%2F11l63w_d9k?sa=X&ved=1t:2428&ictx=111&entry=tts&g_ep=EgoyMDI0MDcxMC4wKgBIAVAD",
+          "mapEntityId": "0x475a7bf463cffa13:0x8850ce0295f31940",
+          "matchedVenue": "Палата науке",
+          "matchedAddress": "Kralja Milana 11, Beograd",
+          "lat": 44.8082337,
+          "lng": 20.4638175,
+          "precision": "venue",
+          "checkedAt": "2026-10-11T01:00:21Z"
+        },
+        "id": "bg-overnight-palata-kosmodelo-20261014",
+        "title": "KOSMODELO — как менялись космические скафандры",
+        "originalTitle": "KOSMODELO – Priče o razvoju astronautskih odela",
+        "date": "2026-10-14",
+        "time": "17:00",
+        "endTime": null,
+        "end": null,
+        "endDate": null,
+        "category": "talk",
+        "source": "Palata nauke",
+        "sourceUrl": "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+        "price": 0,
+        "priceLabel": "Бесплатно",
+        "priceNote": "Бесплатно",
+        "admission": "Свободный вход; предварительная запись не нужна.",
+        "registration": "Не требуется.",
+        "registrationRequired": false,
+        "ticketUrl": null,
+        "description": "Бранко Симонович рассказывает о развитии скафандров. Зал Reč, 4-й этаж. Вход свободный, запись не нужна.",
+        "verification": "verified_primary_schedule_admission_and_venue",
+        "verificationNote": "Первичный анонс явно указывает день, 2026 год, начало 17:00, зал Reč на 4-м этаже и свободный вход без регистрации.",
+        "startAt": "2026-10-14T17:00:00+02:00",
+        "startDateTime": "2026-10-14T17:00:00+02:00",
+        "endAt": null,
+        "endDateTime": null,
+        "timeNote": "Время начала опубликовано; окончание не указано.",
+        "evidenceUrls": [
+          "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+          "https://palatanauke.rs/dogadjaji/",
+          "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8"
+        ],
+        "feesNote": "Вход свободный; дополнительные обязательные платежи в первичном объявлении не заявлены.",
+        "extraFees": "Вход свободный; дополнительные обязательные платежи в первичном объявлении не заявлены.",
+        "dateEvidence": {
+          "sourceUrl": "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+          "year": 2026,
+          "date": "2026-10-14",
+          "time": "17:00",
+          "endTime": null,
+          "localStart": "2026-10-14T17:00:00+02:00",
+          "method": "Явный 2026 год и дата/время в первичном объявлении; свежий публичный HTML сохранён."
+        },
+        "sources": [
+          {
+            "name": "Palata nauke",
+            "url": "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-11T01:03:35Z"
+          }
+        ],
+        "room": "Sala Reč, četvrti sprat",
+        "priceEvidence": {
+          "sourceUrl": "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+          "meaning": "Свободный вход, предварительная запись не требуется."
+        }
+      },
+      "reason": "Новое отдельное некиношное событие; полный год, местное время, вход, адрес и точка подтверждены.",
+      "evidenceUrls": [
+        "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+        "https://palatanauke.rs/dogadjaji/",
+        "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-11T01:03:35Z",
+        "sourceRetrievedAt": "2026-10-11T01:03:35Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверены публичные объявления; наличие мест, билетов и успешность регистрации не проверялись.",
+        "language": null,
+        "min": false,
+        "kind": "event",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "timezoneEvidence": "Местные часы физической площадки в Белграде; UTC-смещение рассчитано по IANA Europe/Belgrade для даты события. На 25 октября 2026 приходится переход с UTC+02:00 на UTC+01:00.",
+        "venue": "Palata nauke",
+        "address": "Kralja Milana 11, Beograd",
+        "lat": 44.8082337,
+        "lng": 20.4638175,
+        "addressSource": "https://palatanauke.rs/dogadjaji/",
+        "primaryVenueUrl": "https://palatanauke.rs/dogadjaji/",
+        "coordinateSource": "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+        "coordinateEvidence": "Официальная ссылка «Vidi na karti» из страницы события ведёт на именованную сущность Google Maps «Палата науке»; !3d44.8082337!4d20.4638175 — координаты сущности, не только центр viewport.",
+        "coordinateProvenance": {
+          "method": "official_venue_linked_map_named_entity",
+          "source": "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+          "mapUrl": "https://www.google.com/maps/place/%D0%9F%D0%B0%D0%BB%D0%B0%D1%82%D0%B0+%D0%BD%D0%B0%D1%83%D0%BA%D0%B5/@44.8082337,20.4638175,15z/data=!4m6!3m5!1s0x475a7bf463cffa13:0x8850ce0295f31940!8m2!3d44.8082337!4d20.4638175!16s%2Fg%2F11l63w_d9k?sa=X&ved=1t:2428&ictx=111&entry=tts&g_ep=EgoyMDI0MDcxMC4wKgBIAVAD",
+          "mapEntityId": "0x475a7bf463cffa13:0x8850ce0295f31940",
+          "matchedVenue": "Палата науке",
+          "matchedAddress": "Kralja Milana 11, Beograd",
+          "lat": 44.8082337,
+          "lng": 20.4638175,
+          "precision": "venue",
+          "checkedAt": "2026-10-11T01:00:21Z"
+        },
+        "id": "bg-overnight-palata-o-20261021",
+        "title": "Кто переводит наши часы? — лекция Бранко Симоновича",
+        "originalTitle": "O ukazanom vremenu: Ko nam pomera satove?",
+        "date": "2026-10-21",
+        "time": "17:00",
+        "endTime": null,
+        "end": null,
+        "endDate": null,
+        "category": "talk",
+        "source": "Palata nauke",
+        "sourceUrl": "https://palatanauke.rs/dogadjaji/o-ukazanom-vremenu-ko-nam-pomera-satove/",
+        "price": 0,
+        "priceLabel": "Бесплатно",
+        "priceNote": "Бесплатно",
+        "admission": "Свободный вход; предварительная запись не нужна.",
+        "registration": "Не требуется.",
+        "registrationRequired": false,
+        "ticketUrl": null,
+        "description": "История сезонного перевода часов и его влияния на общество. Зал Reč, 4-й этаж. Вход свободный, запись не нужна.",
+        "verification": "verified_primary_schedule_admission_and_venue",
+        "verificationNote": "Первичный анонс явно указывает день, 2026 год, начало 17:00, зал Reč на 4-м этаже и свободный вход без регистрации.",
+        "startAt": "2026-10-21T17:00:00+02:00",
+        "startDateTime": "2026-10-21T17:00:00+02:00",
+        "endAt": null,
+        "endDateTime": null,
+        "timeNote": "Время начала опубликовано; окончание не указано.",
+        "evidenceUrls": [
+          "https://palatanauke.rs/dogadjaji/o-ukazanom-vremenu-ko-nam-pomera-satove/",
+          "https://palatanauke.rs/dogadjaji/",
+          "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8"
+        ],
+        "feesNote": "Вход свободный; дополнительные обязательные платежи в первичном объявлении не заявлены.",
+        "extraFees": "Вход свободный; дополнительные обязательные платежи в первичном объявлении не заявлены.",
+        "dateEvidence": {
+          "sourceUrl": "https://palatanauke.rs/dogadjaji/o-ukazanom-vremenu-ko-nam-pomera-satove/",
+          "year": 2026,
+          "date": "2026-10-21",
+          "time": "17:00",
+          "endTime": null,
+          "localStart": "2026-10-21T17:00:00+02:00",
+          "method": "Явный 2026 год и дата/время в первичном объявлении; свежий публичный HTML сохранён."
+        },
+        "sources": [
+          {
+            "name": "Palata nauke",
+            "url": "https://palatanauke.rs/dogadjaji/o-ukazanom-vremenu-ko-nam-pomera-satove/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-11T01:03:35Z"
+          }
+        ],
+        "room": "Sala Reč, četvrti sprat",
+        "priceEvidence": {
+          "sourceUrl": "https://palatanauke.rs/dogadjaji/o-ukazanom-vremenu-ko-nam-pomera-satove/",
+          "meaning": "Свободный вход, предварительная запись не требуется."
+        }
+      },
+      "reason": "Новое отдельное некиношное событие; полный год, местное время, вход, адрес и точка подтверждены.",
+      "evidenceUrls": [
+        "https://palatanauke.rs/dogadjaji/o-ukazanom-vremenu-ko-nam-pomera-satove/",
+        "https://palatanauke.rs/dogadjaji/",
+        "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-11T01:03:35Z",
+        "sourceRetrievedAt": "2026-10-11T01:03:35Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверены публичные объявления; наличие мест, билетов и успешность регистрации не проверялись.",
+        "language": null,
+        "min": false,
+        "kind": "event",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "timezoneEvidence": "Местные часы физической площадки в Белграде; UTC-смещение рассчитано по IANA Europe/Belgrade для даты события. На 25 октября 2026 приходится переход с UTC+02:00 на UTC+01:00.",
+        "venue": "Palata nauke",
+        "address": "Kralja Milana 11, Beograd",
+        "lat": 44.8082337,
+        "lng": 20.4638175,
+        "addressSource": "https://palatanauke.rs/dogadjaji/",
+        "primaryVenueUrl": "https://palatanauke.rs/dogadjaji/",
+        "coordinateSource": "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+        "coordinateEvidence": "Официальная ссылка «Vidi na karti» из страницы события ведёт на именованную сущность Google Maps «Палата науке»; !3d44.8082337!4d20.4638175 — координаты сущности, не только центр viewport.",
+        "coordinateProvenance": {
+          "method": "official_venue_linked_map_named_entity",
+          "source": "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+          "mapUrl": "https://www.google.com/maps/place/%D0%9F%D0%B0%D0%BB%D0%B0%D1%82%D0%B0+%D0%BD%D0%B0%D1%83%D0%BA%D0%B5/@44.8082337,20.4638175,15z/data=!4m6!3m5!1s0x475a7bf463cffa13:0x8850ce0295f31940!8m2!3d44.8082337!4d20.4638175!16s%2Fg%2F11l63w_d9k?sa=X&ved=1t:2428&ictx=111&entry=tts&g_ep=EgoyMDI0MDcxMC4wKgBIAVAD",
+          "mapEntityId": "0x475a7bf463cffa13:0x8850ce0295f31940",
+          "matchedVenue": "Палата науке",
+          "matchedAddress": "Kralja Milana 11, Beograd",
+          "lat": 44.8082337,
+          "lng": 20.4638175,
+          "precision": "venue",
+          "checkedAt": "2026-10-11T01:00:21Z"
+        },
+        "id": "bg-overnight-palata-pluton-20261028",
+        "title": "Плутон: (де)гуманизация камня — научная лекция",
+        "originalTitle": "Pluton: (de)Humanizacija kamena",
+        "date": "2026-10-28",
+        "time": "17:00",
+        "endTime": null,
+        "end": null,
+        "endDate": null,
+        "category": "talk",
+        "source": "Palata nauke",
+        "sourceUrl": "https://palatanauke.rs/dogadjaji/pluton-dehumanizacija-kamena/",
+        "price": 0,
+        "priceLabel": "Бесплатно",
+        "priceNote": "Бесплатно",
+        "admission": "Свободный вход; предварительная запись не нужна.",
+        "registration": "Не требуется.",
+        "registrationRequired": false,
+        "ticketUrl": null,
+        "description": "Бранко Симонович рассказывает об истории Плутона и о спорах вокруг его классификации. Зал Reč, 4-й этаж. Вход свободный, запись не нужна.",
+        "verification": "verified_primary_schedule_admission_and_venue",
+        "verificationNote": "Первичный анонс явно указывает день, 2026 год, начало 17:00, зал Reč на 4-м этаже и свободный вход без регистрации.",
+        "startAt": "2026-10-28T17:00:00+01:00",
+        "startDateTime": "2026-10-28T17:00:00+01:00",
+        "endAt": null,
+        "endDateTime": null,
+        "timeNote": "Время начала опубликовано; окончание не указано.",
+        "evidenceUrls": [
+          "https://palatanauke.rs/dogadjaji/pluton-dehumanizacija-kamena/",
+          "https://palatanauke.rs/dogadjaji/",
+          "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8"
+        ],
+        "feesNote": "Вход свободный; дополнительные обязательные платежи в первичном объявлении не заявлены.",
+        "extraFees": "Вход свободный; дополнительные обязательные платежи в первичном объявлении не заявлены.",
+        "dateEvidence": {
+          "sourceUrl": "https://palatanauke.rs/dogadjaji/pluton-dehumanizacija-kamena/",
+          "year": 2026,
+          "date": "2026-10-28",
+          "time": "17:00",
+          "endTime": null,
+          "localStart": "2026-10-28T17:00:00+01:00",
+          "method": "Явный 2026 год и дата/время в первичном объявлении; свежий публичный HTML сохранён."
+        },
+        "sources": [
+          {
+            "name": "Palata nauke",
+            "url": "https://palatanauke.rs/dogadjaji/pluton-dehumanizacija-kamena/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-11T01:03:35Z"
+          }
+        ],
+        "room": "Sala Reč, četvrti sprat",
+        "priceEvidence": {
+          "sourceUrl": "https://palatanauke.rs/dogadjaji/pluton-dehumanizacija-kamena/",
+          "meaning": "Свободный вход, предварительная запись не требуется."
+        }
+      },
+      "reason": "Новое отдельное некиношное событие; полный год, местное время, вход, адрес и точка подтверждены.",
+      "evidenceUrls": [
+        "https://palatanauke.rs/dogadjaji/pluton-dehumanizacija-kamena/",
+        "https://palatanauke.rs/dogadjaji/",
+        "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-11T01:03:35Z",
+        "sourceRetrievedAt": "2026-10-11T01:03:35Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверены публичные объявления; наличие мест, билетов и успешность регистрации не проверялись.",
+        "language": null,
+        "min": false,
+        "kind": "event",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "timezoneEvidence": "Местные часы физической площадки в Белграде; UTC-смещение рассчитано по IANA Europe/Belgrade для даты события. На 25 октября 2026 приходится переход с UTC+02:00 на UTC+01:00.",
+        "venue": "Palata nauke",
+        "address": "Kralja Milana 11, Beograd",
+        "lat": 44.8082337,
+        "lng": 20.4638175,
+        "addressSource": "https://palatanauke.rs/dogadjaji/",
+        "primaryVenueUrl": "https://palatanauke.rs/dogadjaji/",
+        "coordinateSource": "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+        "coordinateEvidence": "Официальная ссылка «Vidi na karti» из страницы события ведёт на именованную сущность Google Maps «Палата науке»; !3d44.8082337!4d20.4638175 — координаты сущности, не только центр viewport.",
+        "coordinateProvenance": {
+          "method": "official_venue_linked_map_named_entity",
+          "source": "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+          "mapUrl": "https://www.google.com/maps/place/%D0%9F%D0%B0%D0%BB%D0%B0%D1%82%D0%B0+%D0%BD%D0%B0%D1%83%D0%BA%D0%B5/@44.8082337,20.4638175,15z/data=!4m6!3m5!1s0x475a7bf463cffa13:0x8850ce0295f31940!8m2!3d44.8082337!4d20.4638175!16s%2Fg%2F11l63w_d9k?sa=X&ved=1t:2428&ictx=111&entry=tts&g_ep=EgoyMDI0MDcxMC4wKgBIAVAD",
+          "mapEntityId": "0x475a7bf463cffa13:0x8850ce0295f31940",
+          "matchedVenue": "Палата науке",
+          "matchedAddress": "Kralja Milana 11, Beograd",
+          "lat": 44.8082337,
+          "lng": 20.4638175,
+          "precision": "venue",
+          "checkedAt": "2026-10-11T01:00:21Z"
+        },
+        "id": "bg-overnight-palata-labs-20261015",
+        "title": "Naučni centri UŽIVO! — экскурсия по научным лабораториям",
+        "originalTitle": "Naučni centri UŽIVO!",
+        "date": "2026-10-15",
+        "time": "16:00",
+        "endTime": "17:30",
+        "end": "17:30",
+        "endDate": "2026-10-15",
+        "category": "tour",
+        "source": "Palata nauke",
+        "sourceUrl": "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+        "price": 750,
+        "priceLabel": "750 RSD стандартный билет; 450 RSD льготный",
+        "priceNote": "750 RSD стандартный билет; 450 RSD льготный",
+        "admission": "Нужны билет на постоянную экспозицию именно на день экскурсии и обязательная регистрация. Отдельной платы за экскурсию нет.",
+        "registration": "Обязательная регистрация по форме организатора; мест ограниченное количество.",
+        "registrationRequired": true,
+        "ticketUrl": "https://forms.gle/SnQeeaArY5cxrHLeA",
+        "description": "Нейроморфная фотоника, лазерная техника и голография, робототехника. Сбор в Šalter sala на первом этаже. Экскурсия включена в билет на экспозицию: 750 RSD стандартный, 450 RSD для детей старше 5 лет, школьников, студентов и пенсионеров. Нужна предварительная регистрация.",
+        "verification": "verified_primary_schedule_admission_and_venue",
+        "verificationNote": "Первичный анонс прямо даёт обе даты с 2026 годом, 16:00–17:30, место сбора и условие покупки билета на экспозицию. Официальный тариф — 750/450 RSD; официальный путеводитель подтверждает продажу в кассе.",
+        "startAt": "2026-10-15T16:00:00+02:00",
+        "startDateTime": "2026-10-15T16:00:00+02:00",
+        "endAt": "2026-10-15T17:30:00+02:00",
+        "endDateTime": "2026-10-15T17:30:00+02:00",
+        "timeNote": "Начало и конец прямо опубликованы.",
+        "evidenceUrls": [
+          "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+          "https://palatanauke.rs/dogadjaji/",
+          "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+          "https://palatanauke.rs/ulaznice/",
+          "https://palatanauke.rs/vesti/koliko-mozete-da-otkrijete-za-jedan-dan/",
+          "https://forms.gle/SnQeeaArY5cxrHLeA"
+        ],
+        "feesNote": "750 RSD — официальный стандартный кассовый тариф экспозиции; 450 RSD — льготный. За саму экскурсию доплаты нет. Онлайн-комиссии и доступность регистрации не проверены.",
+        "extraFees": "750 RSD — официальный стандартный кассовый тариф экспозиции; 450 RSD — льготный. За саму экскурсию доплаты нет. Онлайн-комиссии и доступность регистрации не проверены.",
+        "dateEvidence": {
+          "sourceUrl": "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+          "year": 2026,
+          "date": "2026-10-15",
+          "time": "16:00",
+          "endTime": "17:30",
+          "localStart": "2026-10-15T16:00:00+02:00",
+          "method": "Явный 2026 год и дата/время в первичном объявлении; свежий публичный HTML сохранён."
+        },
+        "sources": [
+          {
+            "name": "Palata nauke",
+            "url": "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+            "price": 750,
+            "min": false,
+            "priceLabel": "750 RSD стандартный билет; 450 RSD льготный",
+            "checkedAt": "2026-10-11T01:03:35Z"
+          }
+        ],
+        "room": "Šalter sala, prizemlje — место сбора",
+        "registrationUrl": "https://forms.gle/SnQeeaArY5cxrHLeA",
+        "priceEvidence": {
+          "sourceUrl": "https://palatanauke.rs/ulaznice/",
+          "eventConditionSource": "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+          "boxOfficeSource": "https://palatanauke.rs/vesti/koliko-mozete-da-otkrijete-za-jedan-dan/",
+          "standard": 750,
+          "concession": 450,
+          "currency": "RSD",
+          "meaning": "Экскурсия не требует доплаты, но нужен платный билет на постоянную экспозицию на ту же дату."
+        },
+        "registrationAvailabilityNote": "Официальная форма привязана к конкретной дате. Форма не отправлялась; наличие свободных мест не подтверждено."
+      },
+      "reason": "Новое отдельное некиношное событие; полный год, местное время, вход, адрес и точка подтверждены.",
+      "evidenceUrls": [
+        "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+        "https://palatanauke.rs/dogadjaji/",
+        "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+        "https://palatanauke.rs/ulaznice/",
+        "https://palatanauke.rs/vesti/koliko-mozete-da-otkrijete-za-jedan-dan/",
+        "https://forms.gle/SnQeeaArY5cxrHLeA"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-11T01:03:35Z",
+        "sourceRetrievedAt": "2026-10-11T01:03:35Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверены публичные объявления; наличие мест, билетов и успешность регистрации не проверялись.",
+        "language": null,
+        "min": false,
+        "kind": "event",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "timezoneEvidence": "Местные часы физической площадки в Белграде; UTC-смещение рассчитано по IANA Europe/Belgrade для даты события. На 25 октября 2026 приходится переход с UTC+02:00 на UTC+01:00.",
+        "venue": "Palata nauke",
+        "address": "Kralja Milana 11, Beograd",
+        "lat": 44.8082337,
+        "lng": 20.4638175,
+        "addressSource": "https://palatanauke.rs/dogadjaji/",
+        "primaryVenueUrl": "https://palatanauke.rs/dogadjaji/",
+        "coordinateSource": "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+        "coordinateEvidence": "Официальная ссылка «Vidi na karti» из страницы события ведёт на именованную сущность Google Maps «Палата науке»; !3d44.8082337!4d20.4638175 — координаты сущности, не только центр viewport.",
+        "coordinateProvenance": {
+          "method": "official_venue_linked_map_named_entity",
+          "source": "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+          "mapUrl": "https://www.google.com/maps/place/%D0%9F%D0%B0%D0%BB%D0%B0%D1%82%D0%B0+%D0%BD%D0%B0%D1%83%D0%BA%D0%B5/@44.8082337,20.4638175,15z/data=!4m6!3m5!1s0x475a7bf463cffa13:0x8850ce0295f31940!8m2!3d44.8082337!4d20.4638175!16s%2Fg%2F11l63w_d9k?sa=X&ved=1t:2428&ictx=111&entry=tts&g_ep=EgoyMDI0MDcxMC4wKgBIAVAD",
+          "mapEntityId": "0x475a7bf463cffa13:0x8850ce0295f31940",
+          "matchedVenue": "Палата науке",
+          "matchedAddress": "Kralja Milana 11, Beograd",
+          "lat": 44.8082337,
+          "lng": 20.4638175,
+          "precision": "venue",
+          "checkedAt": "2026-10-11T01:00:21Z"
+        },
+        "id": "bg-overnight-palata-labs-20261029",
+        "title": "Naučni centri UŽIVO! — экскурсия по научным лабораториям",
+        "originalTitle": "Naučni centri UŽIVO!",
+        "date": "2026-10-29",
+        "time": "16:00",
+        "endTime": "17:30",
+        "end": "17:30",
+        "endDate": "2026-10-29",
+        "category": "tour",
+        "source": "Palata nauke",
+        "sourceUrl": "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+        "price": 750,
+        "priceLabel": "750 RSD стандартный билет; 450 RSD льготный",
+        "priceNote": "750 RSD стандартный билет; 450 RSD льготный",
+        "admission": "Нужны билет на постоянную экспозицию именно на день экскурсии и обязательная регистрация. Отдельной платы за экскурсию нет.",
+        "registration": "Обязательная регистрация по форме организатора; мест ограниченное количество.",
+        "registrationRequired": true,
+        "ticketUrl": "https://forms.gle/Y6WRUMxPzCazgcBz9",
+        "description": "Обработка информации интеллектуальных объектов, робототехника, мультимодальная биомедицинская инженерия и применение ИИ. Сбор в Šalter sala на первом этаже. Экскурсия включена в билет на экспозицию: 750 RSD стандартный, 450 RSD для детей старше 5 лет, школьников, студентов и пенсионеров. Нужна предварительная регистрация.",
+        "verification": "verified_primary_schedule_admission_and_venue",
+        "verificationNote": "Первичный анонс прямо даёт обе даты с 2026 годом, 16:00–17:30, место сбора и условие покупки билета на экспозицию. Официальный тариф — 750/450 RSD; официальный путеводитель подтверждает продажу в кассе.",
+        "startAt": "2026-10-29T16:00:00+01:00",
+        "startDateTime": "2026-10-29T16:00:00+01:00",
+        "endAt": "2026-10-29T17:30:00+01:00",
+        "endDateTime": "2026-10-29T17:30:00+01:00",
+        "timeNote": "Начало и конец прямо опубликованы.",
+        "evidenceUrls": [
+          "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+          "https://palatanauke.rs/dogadjaji/",
+          "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+          "https://palatanauke.rs/ulaznice/",
+          "https://palatanauke.rs/vesti/koliko-mozete-da-otkrijete-za-jedan-dan/",
+          "https://forms.gle/Y6WRUMxPzCazgcBz9"
+        ],
+        "feesNote": "750 RSD — официальный стандартный кассовый тариф экспозиции; 450 RSD — льготный. За саму экскурсию доплаты нет. Онлайн-комиссии и доступность регистрации не проверены.",
+        "extraFees": "750 RSD — официальный стандартный кассовый тариф экспозиции; 450 RSD — льготный. За саму экскурсию доплаты нет. Онлайн-комиссии и доступность регистрации не проверены.",
+        "dateEvidence": {
+          "sourceUrl": "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+          "year": 2026,
+          "date": "2026-10-29",
+          "time": "16:00",
+          "endTime": "17:30",
+          "localStart": "2026-10-29T16:00:00+01:00",
+          "method": "Явный 2026 год и дата/время в первичном объявлении; свежий публичный HTML сохранён."
+        },
+        "sources": [
+          {
+            "name": "Palata nauke",
+            "url": "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+            "price": 750,
+            "min": false,
+            "priceLabel": "750 RSD стандартный билет; 450 RSD льготный",
+            "checkedAt": "2026-10-11T01:03:35Z"
+          }
+        ],
+        "room": "Šalter sala, prizemlje — место сбора",
+        "registrationUrl": "https://forms.gle/Y6WRUMxPzCazgcBz9",
+        "priceEvidence": {
+          "sourceUrl": "https://palatanauke.rs/ulaznice/",
+          "eventConditionSource": "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+          "boxOfficeSource": "https://palatanauke.rs/vesti/koliko-mozete-da-otkrijete-za-jedan-dan/",
+          "standard": 750,
+          "concession": 450,
+          "currency": "RSD",
+          "meaning": "Экскурсия не требует доплаты, но нужен платный билет на постоянную экспозицию на ту же дату."
+        },
+        "registrationAvailabilityNote": "Официальная форма привязана к конкретной дате. Форма не отправлялась; наличие свободных мест не подтверждено."
+      },
+      "reason": "Новое отдельное некиношное событие; полный год, местное время, вход, адрес и точка подтверждены.",
+      "evidenceUrls": [
+        "https://palatanauke.rs/dogadjaji/naucni-centri-uzivo-u-oktobru/",
+        "https://palatanauke.rs/dogadjaji/",
+        "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+        "https://palatanauke.rs/ulaznice/",
+        "https://palatanauke.rs/vesti/koliko-mozete-da-otkrijete-za-jedan-dan/",
+        "https://forms.gle/Y6WRUMxPzCazgcBz9"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-11T01:03:35Z",
+        "sourceRetrievedAt": "2026-10-11T01:03:35Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверены публичные объявления; наличие мест, билетов и успешность регистрации не проверялись.",
+        "language": null,
+        "min": false,
+        "kind": "event",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "timezoneEvidence": "Местные часы физической площадки в Белграде; UTC-смещение рассчитано по IANA Europe/Belgrade для даты события. На 25 октября 2026 приходится переход с UTC+02:00 на UTC+01:00.",
+        "venue": "Palata nauke",
+        "address": "Kralja Milana 11, Beograd",
+        "lat": 44.8082337,
+        "lng": 20.4638175,
+        "addressSource": "https://palatanauke.rs/dogadjaji/",
+        "primaryVenueUrl": "https://palatanauke.rs/dogadjaji/",
+        "coordinateSource": "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+        "coordinateEvidence": "Официальная ссылка «Vidi na karti» из страницы события ведёт на именованную сущность Google Maps «Палата науке»; !3d44.8082337!4d20.4638175 — координаты сущности, не только центр viewport.",
+        "coordinateProvenance": {
+          "method": "official_venue_linked_map_named_entity",
+          "source": "https://palatanauke.rs/dogadjaji/kosmodelo-price-o-razvoju-astronautskih-odela/",
+          "mapUrl": "https://www.google.com/maps/place/%D0%9F%D0%B0%D0%BB%D0%B0%D1%82%D0%B0+%D0%BD%D0%B0%D1%83%D0%BA%D0%B5/@44.8082337,20.4638175,15z/data=!4m6!3m5!1s0x475a7bf463cffa13:0x8850ce0295f31940!8m2!3d44.8082337!4d20.4638175!16s%2Fg%2F11l63w_d9k?sa=X&ved=1t:2428&ictx=111&entry=tts&g_ep=EgoyMDI0MDcxMC4wKgBIAVAD",
+          "mapEntityId": "0x475a7bf463cffa13:0x8850ce0295f31940",
+          "matchedVenue": "Палата науке",
+          "matchedAddress": "Kralja Milana 11, Beograd",
+          "lat": 44.8082337,
+          "lng": 20.4638175,
+          "precision": "venue",
+          "checkedAt": "2026-10-11T01:00:21Z"
+        },
+        "id": "bg-overnight-palata-inventions-20261017",
+        "title": "От идеи к изобретению — научная мастерская для детей",
+        "originalTitle": "Od ideje do izuma",
+        "date": "2026-10-17",
+        "time": "12:00",
+        "endTime": "13:30",
+        "end": "13:30",
+        "endDate": "2026-10-17",
+        "category": "workshop",
+        "source": "Palata nauke",
+        "sourceUrl": "https://palatanauke.rs/dogadjaji/od-ideje-do-izuma/",
+        "price": 2000,
+        "priceLabel": "2 000 RSD за ребёнка",
+        "priceNote": "2 000 RSD за ребёнка",
+        "admission": "Для детей 7–14 лет, до 20 участников. Билет покупается на ребёнка; сопровождающий взрослый проходит бесплатно.",
+        "registration": "Нужен билет; отдельная предварительная запись в анонсе не указана.",
+        "registrationRequired": null,
+        "ticketUrl": "https://efinity.rs/event-details/od_ideje_do_izuma_32444",
+        "description": "Дети 7–14 лет исследуют силы, движение, свет, время и звук через эксперименты. Зал Atom, 3-й этаж. 90 минут; до 20 участников. Билет 2 000 RSD за ребёнка, сопровождающий взрослый бесплатно. Наличие мест не проверено.",
+        "verification": "verified_primary_schedule_admission_and_venue",
+        "verificationNote": "Даты 3, 17 и 31 октября 2026 и начало 12:00 опубликованы явно; выбрана ближайшая будущая сессия 17 октября. Окончание 13:30 рассчитано из опубликованной длительности 90 минут. Тариф 2 000 RSD указан в официальном прейскуранте с названием мастерской.",
+        "startAt": "2026-10-17T12:00:00+02:00",
+        "startDateTime": "2026-10-17T12:00:00+02:00",
+        "endAt": "2026-10-17T13:30:00+02:00",
+        "endDateTime": "2026-10-17T13:30:00+02:00",
+        "timeNote": "Начало 12:00; окончание 13:30 рассчитано из явно опубликованной длительности 90 минут.",
+        "evidenceUrls": [
+          "https://palatanauke.rs/dogadjaji/od-ideje-do-izuma/",
+          "https://palatanauke.rs/dogadjaji/",
+          "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+          "https://palatanauke.rs/ulaznice/",
+          "https://palatanauke.rs/vesti/koliko-mozete-da-otkrijete-za-jedan-dan/",
+          "https://efinity.rs/event-details/od_ideje_do_izuma_32444"
+        ],
+        "feesNote": "Используется официальный тариф площадки для покупки в её кассе. Итог онлайн-оформления и возможная комиссия продавца не проверялись и не выдаются за кассовую цену.",
+        "extraFees": "Используется официальный тариф площадки для покупки в её кассе. Итог онлайн-оформления и возможная комиссия продавца не проверялись и не выдаются за кассовую цену.",
+        "dateEvidence": {
+          "sourceUrl": "https://palatanauke.rs/dogadjaji/od-ideje-do-izuma/",
+          "year": 2026,
+          "date": "2026-10-17",
+          "time": "12:00",
+          "endTime": "13:30",
+          "localStart": "2026-10-17T12:00:00+02:00",
+          "method": "Явный 2026 год и дата/время в первичном объявлении; свежий публичный HTML сохранён.",
+          "endMethod": "12:00 + опубликованные 90 минут = 13:30."
+        },
+        "sources": [
+          {
+            "name": "Palata nauke",
+            "url": "https://palatanauke.rs/dogadjaji/od-ideje-do-izuma/",
+            "price": 2000,
+            "min": false,
+            "priceLabel": "2 000 RSD за ребёнка",
+            "checkedAt": "2026-10-11T01:03:35Z"
+          }
+        ],
+        "room": "Sala Atom, treći sprat",
+        "ageMin": 7,
+        "ageMax": 14,
+        "capacity": 20,
+        "priceEvidence": {
+          "sourceUrl": "https://palatanauke.rs/ulaznice/",
+          "boxOfficeSource": "https://palatanauke.rs/vesti/koliko-mozete-da-otkrijete-za-jedan-dan/",
+          "workshopPrice": 2000,
+          "currency": "RSD",
+          "meaning": "Билет покупается на участвующего ребёнка; взрослый сопровождающий проходит бесплатно."
+        }
+      },
+      "reason": "Новое отдельное некиношное событие; полный год, местное время, вход, адрес и точка подтверждены.",
+      "evidenceUrls": [
+        "https://palatanauke.rs/dogadjaji/od-ideje-do-izuma/",
+        "https://palatanauke.rs/dogadjaji/",
+        "https://maps.app.goo.gl/ddEna1yzQKUJWjKJ8",
+        "https://palatanauke.rs/ulaznice/",
+        "https://palatanauke.rs/vesti/koliko-mozete-da-otkrijete-za-jedan-dan/",
+        "https://efinity.rs/event-details/od_ideje_do_izuma_32444"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-11T01:03:35Z",
+        "sourceRetrievedAt": "2026-10-11T01:03:35Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверены публичные объявления; наличие мест, билетов и успешность регистрации не проверялись.",
+        "language": null,
+        "min": false,
+        "kind": "event",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "timezoneEvidence": "Местные часы физической площадки в Белграде; UTC-смещение рассчитано по IANA Europe/Belgrade для даты события. На 25 октября 2026 приходится переход с UTC+02:00 на UTC+01:00.",
+        "venue": "Goethe-Institut Beograd — Biblioteka",
+        "address": "Knez Mihailova 50, Beograd",
+        "lat": 44.819077,
+        "lng": 20.455207,
+        "coordinateSource": "https://www.goethe.de/ins/cs/sr/ueb/kon.html",
+        "coordinateProvenance": {
+          "lat": 44.819077,
+          "lng": 20.455207,
+          "source": "https://www.goethe.de/ins/cs/sr/ueb/kon.html",
+          "dataSource": "https://www.goethe.de/resources/relaunch/js/gi/geo/geoData/goethe.en.geoData.js",
+          "method": "official_named_map_marker",
+          "precision": "venue",
+          "evidence": "Official contact embeds Belgrade gi marker. Its official geoData defines Goethe-Institut Belgrade at these coordinates, Knez Mihailova 50.",
+          "checkedAt": "2026-10-09T14:36:15.038858Z",
+          "reuseCheckedAt": "2026-10-11T01:03:35Z",
+          "reusedFromRecordId": "bg-afternoon-goethe-cafe-20261104"
+        },
+        "addressSource": "https://www.goethe.de/ins/cs/sr/ueb/kon.html",
+        "primaryVenueUrl": "https://www.goethe.de/ins/cs/sr/ueb/kon.html",
+        "coordinateEvidence": "Повторно использована подтверждённая официальная точка той же библиотеки по полному совпадению площадки и адреса из записи bg-afternoon-goethe-cafe-20261104.",
+        "id": "bg-overnight-goethe-swap-20261017",
+        "title": "October Swap — обмен книгами и одеждой",
+        "originalTitle": "October Swap",
+        "date": "2026-10-17",
+        "time": "16:00",
+        "endTime": "19:00",
+        "end": "19:00",
+        "endDate": "2026-10-17",
+        "category": "market",
+        "source": "Goethe-Institut Serbia",
+        "sourceUrl": "https://www.goethe.de/ins/cs/sr/ver.cfm?event_id=27360862",
+        "price": 0,
+        "priceLabel": "Бесплатно",
+        "priceNote": "Бесплатно",
+        "admission": "Вход бесплатный. До 5 предметов в каждой категории; одежда должна быть чистой и в хорошем состоянии. Детская одежда, бельё, носки и купальники не принимаются. Забрать можно столько вещей и книг, сколько принесли.",
+        "registration": "Предварительная регистрация в анонсе не указана.",
+        "registrationRequired": null,
+        "ticketUrl": null,
+        "description": "Обмен книгами и одеждой в библиотеке Goethe-Institut. Бесплатный вход. Можно принести до пяти книг и пяти чистых вещей; забрать столько же, сколько принесли. Детская одежда, бельё, носки и купальники не принимаются.",
+        "verification": "verified_primary_schedule_admission_and_venue",
+        "verificationNote": "Официальная карточка явно подтверждает 17.10.2026, 16:00–19:00, библиотеку в Белграде, бесплатность и правила обмена.",
+        "startAt": "2026-10-17T16:00:00+02:00",
+        "startDateTime": "2026-10-17T16:00:00+02:00",
+        "endAt": "2026-10-17T19:00:00+02:00",
+        "endDateTime": "2026-10-17T19:00:00+02:00",
+        "timeNote": "Начало и конец прямо опубликованы.",
+        "evidenceUrls": [
+          "https://www.goethe.de/ins/cs/sr/ver.cfm?event_id=27360862",
+          "https://www.goethe.de/ins/cs/sr/ueb/kon.html"
+        ],
+        "feesNote": "Вход свободный; дополнительные обязательные платежи в первичном объявлении не заявлены.",
+        "extraFees": "Вход свободный; дополнительные обязательные платежи в первичном объявлении не заявлены.",
+        "dateEvidence": {
+          "sourceUrl": "https://www.goethe.de/ins/cs/sr/ver.cfm?event_id=27360862",
+          "year": 2026,
+          "date": "2026-10-17",
+          "time": "16:00",
+          "endTime": "19:00",
+          "localStart": "2026-10-17T16:00:00+02:00",
+          "method": "Явный 2026 год и дата/время в первичном объявлении; свежий публичный HTML сохранён."
+        },
+        "sources": [
+          {
+            "name": "Goethe-Institut Serbia",
+            "url": "https://www.goethe.de/ins/cs/sr/ver.cfm?event_id=27360862",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-11T01:03:35Z"
+          }
+        ],
+        "priceEvidence": {
+          "sourceUrl": "https://www.goethe.de/ins/cs/sr/ver.cfm?event_id=27360862",
+          "meaning": "Официальная карточка прямо объявляет бесплатный вход."
+        }
+      },
+      "reason": "Новое отдельное некиношное событие; полный год, местное время, вход, адрес и точка подтверждены.",
+      "evidenceUrls": [
+        "https://www.goethe.de/ins/cs/sr/ver.cfm?event_id=27360862",
+        "https://www.goethe.de/ins/cs/sr/ueb/kon.html",
+        "https://www.goethe.de/ins/cs/sr/ueb/kon.html"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-11T01:03:35Z",
+        "sourceRetrievedAt": "2026-10-11T01:03:35Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверены публичные объявления; наличие мест, билетов и успешность регистрации не проверялись.",
+        "language": null,
+        "min": false,
+        "kind": "event",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "timezoneEvidence": "Местные часы физической площадки в Белграде; UTC-смещение рассчитано по IANA Europe/Belgrade для даты события. На 25 октября 2026 приходится переход с UTC+02:00 на UTC+01:00.",
+        "venue": "Narodni muzej Srbije",
+        "address": "Trg Republike 1a, Beograd",
+        "lat": 44.81679,
+        "lng": 20.459645,
+        "coordinateSource": "https://afisha.rs/ru/venues/narodni-muzej-srbije",
+        "coordinateProvenance": {
+          "lat": 44.81679,
+          "lng": 20.459645,
+          "source": "https://afisha.rs/ru/venues/narodni-muzej-srbije",
+          "method": "existing_exact_venue_address_match",
+          "matchedRecordId": "bg-afisha-2089",
+          "matchedVenue": "Narodni muzej Srbije",
+          "matchedAddress": "Trg republike 1a, 11000 Beograd",
+          "precision": "venue",
+          "checkedAt": "2026-10-09T14:36:15.038858Z",
+          "reuseCheckedAt": "2026-10-11T01:03:35Z",
+          "reusedFromRecordId": "bg-discovery-nm-20261010-heritage"
+        },
+        "addressSource": "https://www.narodnimuzej.rs/posetite-nas/",
+        "primaryVenueUrl": "https://www.narodnimuzej.rs/posetite-nas/",
+        "coordinateEvidence": "Повторно использована подтверждённая точка Narodni muzej Srbije по полному совпадению площадки и адреса с bg-discovery-nm-20261010-heritage. Официальная страница посещения заново подтверждает Trg Republike 1a; это не филиал Galerija fresaka.",
+        "id": "bg-overnight-nm-choirs-20261024",
+        "title": "«Хорови међу фрескама» — концерт духовной музыки",
+        "originalTitle": "Концерт Хорови међу фрескама",
+        "date": "2026-10-24",
+        "time": "18:00",
+        "endTime": "19:00",
+        "end": "19:00",
+        "endDate": "2026-10-24",
+        "category": "music",
+        "source": "Narodni muzej Srbije",
+        "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/kontsert-horovi-me-u-freskama-7/",
+        "price": 0,
+        "priceLabel": "Бесплатно",
+        "priceNote": "Бесплатно",
+        "admission": "Вход свободный, предварительная запись не нужна.",
+        "registration": "Не требуется.",
+        "registrationRequired": false,
+        "ticketUrl": null,
+        "description": "Концерт фестиваля православной духовной музыки в Народном музее Сербии. Вход свободный, предварительная запись не нужна.",
+        "verification": "verified_primary_schedule_admission_and_venue",
+        "verificationNote": "Свежий первичный HTML получен напрямую после таймаутов web-чтения. Видимый текст подтверждает 24 октября в 18:00 и свободный вход; JSON-LD явно содержит startDate 2026-10-24T18:00:00+02:00 и endDate 2026-10-24T19:00:00+02:00.",
+        "startAt": "2026-10-24T18:00:00+02:00",
+        "startDateTime": "2026-10-24T18:00:00+02:00",
+        "endAt": "2026-10-24T19:00:00+02:00",
+        "endDateTime": "2026-10-24T19:00:00+02:00",
+        "timeNote": "Начало и конец прямо опубликованы.",
+        "evidenceUrls": [
+          "https://www.narodnimuzej.rs/dogadjaj/kontsert-horovi-me-u-freskama-7/",
+          "https://www.narodnimuzej.rs/posetite-nas/",
+          "https://afisha.rs/ru/venues/narodni-muzej-srbije"
+        ],
+        "feesNote": "Вход свободный; дополнительные обязательные платежи в первичном объявлении не заявлены.",
+        "extraFees": "Вход свободный; дополнительные обязательные платежи в первичном объявлении не заявлены.",
+        "dateEvidence": {
+          "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/kontsert-horovi-me-u-freskama-7/",
+          "year": 2026,
+          "date": "2026-10-24",
+          "time": "18:00",
+          "endTime": "19:00",
+          "localStart": "2026-10-24T18:00:00+02:00",
+          "method": "Явный 2026 год и дата/время в первичном объявлении; свежий публичный HTML сохранён.",
+          "structuredStart": "2026-10-24T18:00:00+02:00",
+          "structuredEnd": "2026-10-24T19:00:00+02:00"
+        },
+        "sources": [
+          {
+            "name": "Narodni muzej Srbije",
+            "url": "https://www.narodnimuzej.rs/dogadjaj/kontsert-horovi-me-u-freskama-7/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-11T01:03:35Z"
+          }
+        ],
+        "priceEvidence": {
+          "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/kontsert-horovi-me-u-freskama-7/",
+          "meaning": "Свободный вход; предварительные заявки не нужны."
+        }
+      },
+      "reason": "Новое отдельное некиношное событие; полный год, местное время, вход, адрес и точка подтверждены.",
+      "evidenceUrls": [
+        "https://www.narodnimuzej.rs/dogadjaj/kontsert-horovi-me-u-freskama-7/",
+        "https://www.narodnimuzej.rs/posetite-nas/",
+        "https://afisha.rs/ru/venues/narodni-muzej-srbije"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "reason": "Новая отдельная программа на сегодня; первичная живая карточка и точная метка карты подтверждены.",
+      "evidenceUrls": [
+        "https://festivalnauki.ru/program/mnogokanalnaya-astronomiya-reshila-zagadku-chernykh-dyr/",
+        "https://msk.festivalnauki.ru/"
+      ],
+      "event": {
+        "id": "research-msk-3566dc4396142f08",
+        "city": "Moscow",
+        "title": "Многоканальная астрономия решила загадку черных дыр",
+        "date": "2026-10-11",
+        "time": "11:00",
+        "end": "12:00",
+        "endTime": "12:00",
+        "endDate": "2026-10-11",
+        "timezone": "Europe/Moscow",
+        "startAt": "2026-10-11T11:00:00+03:00",
+        "endAt": "2026-10-11T12:00:00+03:00",
+        "source": "Международный фестиваль НАУКА 0+ / МГУ",
+        "sourceUrl": "https://festivalnauki.ru/program/mnogokanalnaya-astronomiya-reshila-zagadku-chernykh-dyr/",
+        "checkedAt": "2026-10-11T01:01:13.717862+00:00",
+        "sourceRetrievedAt": "2026-10-11T01:01:13.717862+00:00",
+        "price": 0,
+        "min": false,
+        "currency": "RUB",
+        "priceLabel": "Бесплатно",
+        "priceNote": "Бесплатно",
+        "category": "talk",
+        "kind": "event",
+        "language": null,
+        "languageNote": "Язык отдельно не указан; анонс на русском.",
+        "verification": "verified_primary_schedule_and_venue",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "venue": "МГУ — Фундаментальная библиотека, Актовый зал",
+        "address": "Москва, Ломоносовский проспект, 27",
+        "lat": 55.698939406134,
+        "lng": 37.52330245018,
+        "coordinateSource": "https://festivalnauki.ru/program/mnogokanalnaya-astronomiya-reshila-zagadku-chernykh-dyr/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "Координаты явной именной метки BX_YMapAddPlacemark в живом HTML официальной карточки; использована метка события, а не центр карты.",
+        "timeNote": "11 октября 2026, 11:00–12:00. Обе границы времени опубликованы.",
+        "timezoneEvidence": "Физическое событие в Москве; опубликованные часы трактуются как местные, Europe/Moscow, UTC+03:00. Смещение отдельно в карточке не напечатано.",
+        "ageLimit": null,
+        "ageNote": "Общая маркировка фестиваля 0+; индивидуальная карточка отдельный возрастной порог не устанавливает.",
+        "ticketUrl": null,
+        "priceEvidenceUrl": "https://msk.festivalnauki.ru/",
+        "availabilityVerified": false,
+        "availabilityNote": "Расписание и условия проверены в живом источнике. Наличие свободных мест и фактический допуск не гарантированы.",
+        "evidenceUrls": [
+          "https://festivalnauki.ru/program/mnogokanalnaya-astronomiya-reshila-zagadku-chernykh-dyr/",
+          "https://msk.festivalnauki.ru/"
+        ],
+        "sessionSelectionNote": "Отдельная разовая программа. Не дублирует уже опубликованную лекцию об электроовцах 11 октября в 13:30.",
+        "admission": "Вход бесплатный. Для некоторых мероприятий фестиваля нужна дополнительная регистрация; в индивидуальной карточке этой лекции отдельное требование и ссылка регистрации не опубликованы.",
+        "registration": "В карточке отдельная регистрация не опубликована. Уточните условия и наличие мест у организатора.",
+        "mandatoryExtras": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "extraFees": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "feesNote": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "description": "Анатолий Черепащук расскажет, как астрономические наблюдения помогли доказать существование чёрных дыр. Вход бесплатный. Для некоторых мероприятий фестиваля нужна дополнительная регистрация; в индивидуальной карточке этой лекции отдельное требование и ссылка регистрации не опубликованы. Наличие мест уточните у организатора.",
+        "sourceEvidence": [
+          {
+            "field": "schedule",
+            "url": "https://festivalnauki.ru/program/mnogokanalnaya-astronomiya-reshila-zagadku-chernykh-dyr/",
+            "value": "11 октября 2026; 11:00–12:00; Москва. Год и обе границы времени напечатаны в карточке."
+          },
+          {
+            "field": "venue",
+            "url": "https://festivalnauki.ru/program/mnogokanalnaya-astronomiya-reshila-zagadku-chernykh-dyr/",
+            "value": "Фундаментальная библиотека МГУ, Актовый зал; Ломоносовский проспект, 27."
+          },
+          {
+            "field": "coordinates",
+            "url": "https://festivalnauki.ru/program/mnogokanalnaya-astronomiya-reshila-zagadku-chernykh-dyr/",
+            "value": "Явная метка BX_YMapAddPlacemark: LAT 55.698939406134, LON 37.52330245018, TEXT совпадает с названием события."
+          },
+          {
+            "field": "price_admission",
+            "url": "https://msk.festivalnauki.ru/",
+            "value": "Официальный FAQ сообщает бесплатный вход на все мероприятия фестиваля и возможную регистрацию для отдельных мероприятий."
+          }
+        ],
+        "verificationNote": "Официальная индивидуальная карточка успешно получена прямым HTTP GET (200): подтверждены полный год, дата, начало и конец, зал, адрес и именная метка карты. Бесплатность проверена в FAQ фестиваля, а для закрытия также прямо в карточке.",
+        "sources": [
+          {
+            "name": "Международный фестиваль НАУКА 0+ / МГУ",
+            "url": "https://festivalnauki.ru/program/mnogokanalnaya-astronomiya-reshila-zagadku-chernykh-dyr/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-11T01:01:13.717862+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "reason": "Новая отдельная программа на сегодня; первичная живая карточка и точная метка карты подтверждены.",
+      "evidenceUrls": [
+        "https://festivalnauki.ru/program/eta-elegantnaya-vselennaya/",
+        "https://msk.festivalnauki.ru/"
+      ],
+      "event": {
+        "id": "research-msk-fc3367719f7957cd",
+        "city": "Moscow",
+        "title": "Эта элегантная Вселенная",
+        "date": "2026-10-11",
+        "time": "12:15",
+        "end": "13:15",
+        "endTime": "13:15",
+        "endDate": "2026-10-11",
+        "timezone": "Europe/Moscow",
+        "startAt": "2026-10-11T12:15:00+03:00",
+        "endAt": "2026-10-11T13:15:00+03:00",
+        "source": "Международный фестиваль НАУКА 0+ / МГУ",
+        "sourceUrl": "https://festivalnauki.ru/program/eta-elegantnaya-vselennaya/",
+        "checkedAt": "2026-10-11T01:01:13.720056+00:00",
+        "sourceRetrievedAt": "2026-10-11T01:01:13.720056+00:00",
+        "price": 0,
+        "min": false,
+        "currency": "RUB",
+        "priceLabel": "Бесплатно",
+        "priceNote": "Бесплатно",
+        "category": "talk",
+        "kind": "event",
+        "language": null,
+        "languageNote": "Язык отдельно не указан; анонс на русском.",
+        "verification": "verified_primary_schedule_and_venue",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "venue": "МГУ — Фундаментальная библиотека, Актовый зал",
+        "address": "Москва, Ломоносовский проспект, 27",
+        "lat": 55.698939406134,
+        "lng": 37.52330245018,
+        "coordinateSource": "https://festivalnauki.ru/program/eta-elegantnaya-vselennaya/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "Координаты явной именной метки BX_YMapAddPlacemark в живом HTML официальной карточки; использована метка события, а не центр карты.",
+        "timeNote": "11 октября 2026, 12:15–13:15. Обе границы времени опубликованы.",
+        "timezoneEvidence": "Физическое событие в Москве; опубликованные часы трактуются как местные, Europe/Moscow, UTC+03:00. Смещение отдельно в карточке не напечатано.",
+        "ageLimit": null,
+        "ageNote": "Общая маркировка фестиваля 0+; индивидуальная карточка отдельный возрастной порог не устанавливает.",
+        "ticketUrl": null,
+        "priceEvidenceUrl": "https://msk.festivalnauki.ru/",
+        "availabilityVerified": false,
+        "availabilityNote": "Расписание и условия проверены в живом источнике. Наличие свободных мест и фактический допуск не гарантированы.",
+        "evidenceUrls": [
+          "https://festivalnauki.ru/program/eta-elegantnaya-vselennaya/",
+          "https://msk.festivalnauki.ru/"
+        ],
+        "sessionSelectionNote": "Отдельная разовая программа. Не дублирует уже опубликованную лекцию об электроовцах 11 октября в 13:30.",
+        "admission": "Вход бесплатный. Для некоторых мероприятий фестиваля нужна дополнительная регистрация; в индивидуальной карточке этой лекции отдельное требование и ссылка регистрации не опубликованы.",
+        "registration": "В карточке отдельная регистрация не опубликована. Уточните условия и наличие мест у организатора.",
+        "mandatoryExtras": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "extraFees": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "feesNote": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "description": "Дмитрий Казаков расскажет о частицах, фундаментальных взаимодействиях, тёмной материи и устройстве Вселенной. Вход бесплатный. Для некоторых мероприятий фестиваля нужна дополнительная регистрация; в индивидуальной карточке этой лекции отдельное требование и ссылка регистрации не опубликованы. Наличие мест уточните у организатора.",
+        "sourceEvidence": [
+          {
+            "field": "schedule",
+            "url": "https://festivalnauki.ru/program/eta-elegantnaya-vselennaya/",
+            "value": "11 октября 2026; 12:15–13:15; Москва. Год и обе границы времени напечатаны в карточке."
+          },
+          {
+            "field": "venue",
+            "url": "https://festivalnauki.ru/program/eta-elegantnaya-vselennaya/",
+            "value": "Фундаментальная библиотека МГУ, Актовый зал; Ломоносовский проспект, 27."
+          },
+          {
+            "field": "coordinates",
+            "url": "https://festivalnauki.ru/program/eta-elegantnaya-vselennaya/",
+            "value": "Явная метка BX_YMapAddPlacemark: LAT 55.698939406134, LON 37.52330245018, TEXT совпадает с названием события."
+          },
+          {
+            "field": "price_admission",
+            "url": "https://msk.festivalnauki.ru/",
+            "value": "Официальный FAQ сообщает бесплатный вход на все мероприятия фестиваля и возможную регистрацию для отдельных мероприятий."
+          }
+        ],
+        "verificationNote": "Официальная индивидуальная карточка успешно получена прямым HTTP GET (200): подтверждены полный год, дата, начало и конец, зал, адрес и именная метка карты. Бесплатность проверена в FAQ фестиваля, а для закрытия также прямо в карточке.",
+        "sources": [
+          {
+            "name": "Международный фестиваль НАУКА 0+ / МГУ",
+            "url": "https://festivalnauki.ru/program/eta-elegantnaya-vselennaya/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-11T01:01:13.720056+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "reason": "Новая отдельная программа на сегодня; первичная живая карточка и точная метка карты подтверждены.",
+      "evidenceUrls": [
+        "https://festivalnauki.ru/program/ii-drug-moy-vrag-moy-ili-znanie-i-ponimanie-v-protsesse-obucheniya/",
+        "https://msk.festivalnauki.ru/"
+      ],
+      "event": {
+        "id": "research-msk-d562268dcf9411b3",
+        "city": "Moscow",
+        "title": "ИИ – друг мой, враг мой, или Мозг в процессе обучения",
+        "date": "2026-10-11",
+        "time": "14:45",
+        "end": "15:45",
+        "endTime": "15:45",
+        "endDate": "2026-10-11",
+        "timezone": "Europe/Moscow",
+        "startAt": "2026-10-11T14:45:00+03:00",
+        "endAt": "2026-10-11T15:45:00+03:00",
+        "source": "Международный фестиваль НАУКА 0+ / МГУ",
+        "sourceUrl": "https://festivalnauki.ru/program/ii-drug-moy-vrag-moy-ili-znanie-i-ponimanie-v-protsesse-obucheniya/",
+        "checkedAt": "2026-10-11T01:01:13.720683+00:00",
+        "sourceRetrievedAt": "2026-10-11T01:01:13.720683+00:00",
+        "price": 0,
+        "min": false,
+        "currency": "RUB",
+        "priceLabel": "Бесплатно",
+        "priceNote": "Бесплатно",
+        "category": "talk",
+        "kind": "event",
+        "language": null,
+        "languageNote": "Язык отдельно не указан; анонс на русском.",
+        "verification": "verified_primary_schedule_and_venue",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "venue": "МГУ — Фундаментальная библиотека, Актовый зал",
+        "address": "Москва, Ломоносовский проспект, 27",
+        "lat": 55.698939406134,
+        "lng": 37.52330245018,
+        "coordinateSource": "https://festivalnauki.ru/program/ii-drug-moy-vrag-moy-ili-znanie-i-ponimanie-v-protsesse-obucheniya/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "Координаты явной именной метки BX_YMapAddPlacemark в живом HTML официальной карточки; использована метка события, а не центр карты.",
+        "timeNote": "11 октября 2026, 14:45–15:45. Обе границы времени опубликованы.",
+        "timezoneEvidence": "Физическое событие в Москве; опубликованные часы трактуются как местные, Europe/Moscow, UTC+03:00. Смещение отдельно в карточке не напечатано.",
+        "ageLimit": null,
+        "ageNote": "Общая маркировка фестиваля 0+; индивидуальная карточка отдельный возрастной порог не устанавливает.",
+        "ticketUrl": null,
+        "priceEvidenceUrl": "https://msk.festivalnauki.ru/",
+        "availabilityVerified": false,
+        "availabilityNote": "Расписание и условия проверены в живом источнике. Наличие свободных мест и фактический допуск не гарантированы.",
+        "evidenceUrls": [
+          "https://festivalnauki.ru/program/ii-drug-moy-vrag-moy-ili-znanie-i-ponimanie-v-protsesse-obucheniya/",
+          "https://msk.festivalnauki.ru/"
+        ],
+        "sessionSelectionNote": "Отдельная разовая программа. Не дублирует уже опубликованную лекцию об электроовцах 11 октября в 13:30.",
+        "admission": "Вход бесплатный. Для некоторых мероприятий фестиваля нужна дополнительная регистрация; в индивидуальной карточке этой лекции отдельное требование и ссылка регистрации не опубликованы.",
+        "registration": "В карточке отдельная регистрация не опубликована. Уточните условия и наличие мест у организатора.",
+        "mandatoryExtras": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "extraFees": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "feesNote": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "description": "Ольга Сварник обсудит приобретение знаний, память, эффективное обучение и роль искусственного интеллекта в образовании. Вход бесплатный. Для некоторых мероприятий фестиваля нужна дополнительная регистрация; в индивидуальной карточке этой лекции отдельное требование и ссылка регистрации не опубликованы. Наличие мест уточните у организатора.",
+        "sourceEvidence": [
+          {
+            "field": "schedule",
+            "url": "https://festivalnauki.ru/program/ii-drug-moy-vrag-moy-ili-znanie-i-ponimanie-v-protsesse-obucheniya/",
+            "value": "11 октября 2026; 14:45–15:45; Москва. Год и обе границы времени напечатаны в карточке."
+          },
+          {
+            "field": "venue",
+            "url": "https://festivalnauki.ru/program/ii-drug-moy-vrag-moy-ili-znanie-i-ponimanie-v-protsesse-obucheniya/",
+            "value": "Фундаментальная библиотека МГУ, Актовый зал; Ломоносовский проспект, 27."
+          },
+          {
+            "field": "coordinates",
+            "url": "https://festivalnauki.ru/program/ii-drug-moy-vrag-moy-ili-znanie-i-ponimanie-v-protsesse-obucheniya/",
+            "value": "Явная метка BX_YMapAddPlacemark: LAT 55.698939406134, LON 37.52330245018, TEXT совпадает с названием события."
+          },
+          {
+            "field": "price_admission",
+            "url": "https://msk.festivalnauki.ru/",
+            "value": "Официальный FAQ сообщает бесплатный вход на все мероприятия фестиваля и возможную регистрацию для отдельных мероприятий."
+          }
+        ],
+        "verificationNote": "Официальная индивидуальная карточка успешно получена прямым HTTP GET (200): подтверждены полный год, дата, начало и конец, зал, адрес и именная метка карты. Бесплатность проверена в FAQ фестиваля, а для закрытия также прямо в карточке.",
+        "sources": [
+          {
+            "name": "Международный фестиваль НАУКА 0+ / МГУ",
+            "url": "https://festivalnauki.ru/program/ii-drug-moy-vrag-moy-ili-znanie-i-ponimanie-v-protsesse-obucheniya/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-11T01:01:13.720683+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "reason": "Новая отдельная программа на сегодня; первичная живая карточка и точная метка карты подтверждены.",
+      "evidenceUrls": [
+        "https://festivalnauki.ru/program/tseremoniya-zakrytiya-festivalya-nauki-2026/",
+        "https://msk.festivalnauki.ru/"
+      ],
+      "event": {
+        "id": "research-msk-456f57d250384d3d",
+        "city": "Moscow",
+        "title": "Церемония закрытия и Научное шоу",
+        "date": "2026-10-11",
+        "time": "18:00",
+        "end": "19:30",
+        "endTime": "19:30",
+        "endDate": "2026-10-11",
+        "timezone": "Europe/Moscow",
+        "startAt": "2026-10-11T18:00:00+03:00",
+        "endAt": "2026-10-11T19:30:00+03:00",
+        "source": "Международный фестиваль НАУКА 0+ / МГУ",
+        "sourceUrl": "https://festivalnauki.ru/program/tseremoniya-zakrytiya-festivalya-nauki-2026/",
+        "checkedAt": "2026-10-11T01:01:13.721444+00:00",
+        "sourceRetrievedAt": "2026-10-11T01:01:13.721444+00:00",
+        "price": 0,
+        "min": false,
+        "currency": "RUB",
+        "priceLabel": "Бесплатно",
+        "priceNote": "Бесплатно",
+        "category": "other",
+        "kind": "event",
+        "language": null,
+        "languageNote": "Язык отдельно не указан; анонс на русском.",
+        "verification": "verified_primary_schedule_and_venue",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "venue": "МГУ — Фундаментальная библиотека, Актовый зал",
+        "address": "Москва, Ломоносовский проспект, 27",
+        "lat": 55.698571626238,
+        "lng": 37.523593667213,
+        "coordinateSource": "https://festivalnauki.ru/program/tseremoniya-zakrytiya-festivalya-nauki-2026/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "Координаты явной именной метки BX_YMapAddPlacemark в живом HTML официальной карточки; использована метка события, а не центр карты.",
+        "timeNote": "11 октября 2026, 18:00–19:30. Обе границы времени опубликованы.",
+        "timezoneEvidence": "Физическое событие в Москве; опубликованные часы трактуются как местные, Europe/Moscow, UTC+03:00. Смещение отдельно в карточке не напечатано.",
+        "ageLimit": null,
+        "ageNote": "Общая маркировка фестиваля 0+; индивидуальная карточка отдельный возрастной порог не устанавливает. Организатор предупреждает, что вспышки и шумы на научных шоу могут напугать маленьких детей.",
+        "ticketUrl": null,
+        "priceEvidenceUrl": "https://festivalnauki.ru/program/tseremoniya-zakrytiya-festivalya-nauki-2026/",
+        "availabilityVerified": false,
+        "availabilityNote": "Расписание и условия проверены в живом источнике. Наличие свободных мест и фактический допуск не гарантированы.",
+        "evidenceUrls": [
+          "https://festivalnauki.ru/program/tseremoniya-zakrytiya-festivalya-nauki-2026/",
+          "https://msk.festivalnauki.ru/"
+        ],
+        "sessionSelectionNote": "Отдельная разовая программа. Не дублирует уже опубликованную лекцию об электроовцах 11 октября в 13:30.",
+        "admission": "Организатор прямо объявляет свободный вход на церемонию закрытия для всех желающих.",
+        "registration": "В карточке заявлен свободный вход; отдельная регистрация не указана.",
+        "mandatoryExtras": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "extraFees": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "feesNote": "Обязательные дополнительные платежи не заявлены. Бесплатность подтверждена официальным организатором.",
+        "description": "Закрытие фестиваля НАУКА 0+ с подведением итогов, награждениями и научными экспериментами на сцене. В программе реактивная тяга, газы, цветное пламя и жидкий азот. Организатор прямо объявляет свободный вход на церемонию закрытия для всех желающих. Наличие мест уточните у организатора.",
+        "sourceEvidence": [
+          {
+            "field": "schedule",
+            "url": "https://festivalnauki.ru/program/tseremoniya-zakrytiya-festivalya-nauki-2026/",
+            "value": "11 октября 2026; 18:00–19:30; Москва. Год и обе границы времени напечатаны в карточке."
+          },
+          {
+            "field": "venue",
+            "url": "https://festivalnauki.ru/program/tseremoniya-zakrytiya-festivalya-nauki-2026/",
+            "value": "Фундаментальная библиотека МГУ, Актовый зал; Ломоносовский проспект, 27."
+          },
+          {
+            "field": "coordinates",
+            "url": "https://festivalnauki.ru/program/tseremoniya-zakrytiya-festivalya-nauki-2026/",
+            "value": "Явная метка BX_YMapAddPlacemark: LAT 55.698571626238, LON 37.523593667213, TEXT совпадает с названием события."
+          },
+          {
+            "field": "price_admission",
+            "url": "https://festivalnauki.ru/program/tseremoniya-zakrytiya-festivalya-nauki-2026/",
+            "value": "Вход свободный."
+          }
+        ],
+        "verificationNote": "Официальная индивидуальная карточка успешно получена прямым HTTP GET (200): подтверждены полный год, дата, начало и конец, зал, адрес и именная метка карты. Бесплатность проверена в FAQ фестиваля, а для закрытия также прямо в карточке.",
+        "sources": [
+          {
+            "name": "Международный фестиваль НАУКА 0+ / МГУ",
+            "url": "https://festivalnauki.ru/program/tseremoniya-zakrytiya-festivalya-nauki-2026/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-11T01:01:13.721444+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "city": "tbilisi",
+      "action": "update",
+      "expectedDate": "2026-10-11",
+      "event": {
+        "id": "tkt:497004",
+        "description": "Lisi Trail Festival — 11 октября 2026 у озера Цодорети. Длинные дистанции стартуют в 07:00, дистанции 7, 10 и 20 км — в 13:00. Регистрация закрыта: обе опубликованные даты окончания записи (8 октября, 18:00, и тарифный срок 9 октября 2026) уже прошли. Участие только для зарегистрированных бегунов; возможность записи на месте не заявлена.",
+        "admission": "Участие только для зарегистрированных бегунов. Условия допуска зрителей отдельно не подтверждены.",
+        "registration": "Регистрация закрыта: обе опубликованные даты окончания записи (8 октября, 18:00, и тарифный срок 9 октября 2026) уже прошли. Участие только для зарегистрированных бегунов; возможность записи на месте не заявлена.",
+        "registrationClosed": true,
+        "availabilityVerified": false,
+        "availabilityNote": "Регистрация закрыта: обе опубликованные даты окончания записи (8 октября, 18:00, и тарифный срок 9 октября 2026) уже прошли. Участие только для зарегистрированных бегунов; возможность записи на месте не заявлена.",
+        "priceLabel": "Регистрация закрыта",
+        "priceNote": "Актуальная стоимость нового участия не заявлена: сроки регистрации прошли.",
+        "timeNote": "07:00 — старт длинных дистанций; 13:00 — 7, 10 и 20 км. Местное время Asia/Tbilisi.",
+        "timezone": "Asia/Tbilisi",
+        "source": "TRAILLAB — организатор; TKT.ge",
+        "sourceUrl": "https://www.traillab.ge/lisi/",
+        "checkedAt": "2026-10-11T01:07:53Z",
+        "sourceRetrievedAt": "2026-10-11T01:07:53Z",
+        "researchBatch": "new-discovery-2026-10-11-overnight",
+        "verification": "verified_primary_schedule_registration_closed",
+        "verificationNote": "Организатор явно подтверждает 11.10.2026. На одной странице сроки регистрации расходятся на день, но оба истекли. Никакая отмена самого фестиваля не заявлена. Исправлено устаревшее упоминание 2025 года из карточки продавца.",
+        "evidenceUrls": [
+          "https://www.traillab.ge/lisi/",
+          "https://tkt.ge/event/497004"
+        ],
+        "sources": [
+          {
+            "name": "TRAILLAB — организатор",
+            "url": "https://www.traillab.ge/lisi/",
+            "price": null,
+            "min": false,
+            "priceLabel": "Регистрация закрыта",
+            "checkedAt": "2026-10-11T01:07:53Z"
+          }
+        ]
+      },
+      "reason": "Исправление устаревшего года в описании и явное предупреждение об истёкших сроках регистрации; дата, время, координаты и ID сохраняются.",
+      "evidenceUrls": [
+        "https://www.traillab.ge/lisi/",
+        "https://tkt.ge/event/497004"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "pending",
+      "example": "Дурной Вкус в Тбилиси",
+      "reason": "Организатор сообщил об отмене; событие не опубликовано как доступное.",
+      "evidenceUrls": [
+        "https://durnoyvkustbilisi.ticketforevent.com/"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "pending",
+      "example": "KHIDI Halloween",
+      "reason": "Источники противоречат друг другу по дате или времени; ожидается уточнение организатора.",
+      "evidenceUrls": [
+        "https://khidi.ge/event/301026/"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "pending",
+      "example": "SUNDAY OPEN DECKS",
+      "reason": "Условия посещения или точное место требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://ra.co/events/2555346"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "pending",
+      "example": "Market in Zazerkalie, October 10–11",
+      "reason": "Цена, условия входа или расписание требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://zerkalo.ge/en/market/"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "pending",
+      "example": "Tbilisi Stage Design Biennale — International Symposium",
+      "reason": "Цена, условия входа или расписание требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://www.tbilisibiennale.com/2026/project-agenda/"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "pending",
+      "example": "Luka Tabatadze Trio",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://biletebi.ge/en/concerts/luka-tabatadze-trio"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "pending",
+      "example": "Nika Gabadze Quartet",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://biletebi.ge/en/concerts/Nika-gabadze-quartet"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "pending",
+      "example": "Zuka Simonishvili Quartet",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://biletebi.ge/en/concerts/zuka-simonishvili-quartet"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "pending",
+      "example": "Once Upon a String — Melodies from Animation Films",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://biletebi.ge/en/concerts/once-upon-string"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "pending",
+      "example": "Molekuli prošlosti: Kako fizička hemija otkriva tajne drevnog grnčarstva",
+      "reason": "Цена, условия входа или расписание требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://palatanauke.rs/dogadjaji/molekuli-proslosti-kako-fizicka-hemija-otkriva-tajne-drevnog-grncarstva/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "pending",
+      "example": "Mila Panić: Inside Joke / Unutar šale — открытие и арт-кафе",
+      "reason": "Цена, условия входа или расписание требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://www.goethe.de/ins/cs/sr/ver.cfm?event_id=27358070"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "pending",
+      "example": "Prostor, trag, gest — авторская экскурсия",
+      "reason": "Источники противоречат друг другу по дате или времени; ожидается уточнение организатора.",
+      "evidenceUrls": [
+        "https://www.narodnimuzej.rs/dogadjaj/autorsko-vo-ene-prostor-trag-gest-tsrtezhi-milana-milovanovi-a-koste-milichevi-a-i-malishe-glishi-a-4/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "pending",
+      "example": "Mladi za mlade – Mladi u Parobrodu",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://ukparobrod.rs/aktuelnosti/mesecni-program/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "pending",
+      "example": "Mladi za mlade – Mladi u Parobrodu",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://ukparobrod.rs/aktuelnosti/mesecni-program/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "pending",
+      "example": "Rom-kom ne može da umre: podžanrovi i perspektive",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://ukparobrod.rs/aktuelnosti/mesecni-program/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "pending",
+      "example": "Made in Fabrika Fotografa 13 — открытие",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://ukparobrod.rs/aktuelnosti/mesecni-program/"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "pending",
+      "example": "Мастер-класс по вязанию «Бабушкины квадраты»",
+      "reason": "Регистрация закрыта; событие не опубликовано как доступное.",
+      "evidenceUrls": [
+        "https://nekrasovka.ru/afisha/11-10-2026/8955"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "pending",
+      "example": "Мастерская кикимор",
+      "reason": "Цена, условия входа или расписание требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://ges-2.org/kikimoras-workshop",
+        "https://ges-2.zapomni.ru/events/98ef841c-b73e-47cc-adf6-6bb2a9ad382f?date=2026-10-11"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "pending",
+      "example": "Мозгва — Новички 624, день 3",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://mozgva.com/"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "pending",
+      "example": "Встреча женского дискуссионного клуба «Между нами»",
+      "reason": "Регистрация закрыта; событие не опубликовано как доступное.",
+      "evidenceUrls": [
+        "https://nekrasovka.ru/afisha/12-10-2026/9033"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "pending",
+      "example": "Медитация Heartfulness с профессиональным инструктором",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://nekrasovka.ru/afisha/11-10-2026/8908",
+        "https://calendar.yandex.ru/event/1742927474"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "pending",
+      "example": "Бауманский клуб переговоров",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://nekrasovka.ru/afisha/12-10-2026/8868",
+        "https://calendar.yandex.ru/event/1793481156"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "pending",
+      "example": "Научное шоу «Миссия: Космос»",
+      "reason": "Условия посещения или точное место требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://festivalnauki.ru/program/nauchnoe-shou-missiya-kosmos/",
+        "https://festivalnauki.ru/places/moskovskiy-dvorets-pionerov/",
+        "https://msk.festivalnauki.ru/"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "city": "tbilisi",
+      "title": "Дурной Вкус в Тбилиси",
+      "reason": "Организатор сообщил об отмене; событие не опубликовано как доступное.",
+      "evidenceUrls": [
+        "https://durnoyvkustbilisi.ticketforevent.com/"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "title": "KHIDI Halloween",
+      "reason": "Источники противоречат друг другу по дате или времени; ожидается уточнение организатора.",
+      "evidenceUrls": [
+        "https://khidi.ge/event/301026/"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "title": "SUNDAY OPEN DECKS",
+      "reason": "Условия посещения или точное место требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://ra.co/events/2555346"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "title": "Market in Zazerkalie, October 10–11",
+      "reason": "Цена, условия входа или расписание требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://zerkalo.ge/en/market/"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "title": "Tbilisi Stage Design Biennale — International Symposium",
+      "reason": "Цена, условия входа или расписание требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://www.tbilisibiennale.com/2026/project-agenda/"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "title": "Luka Tabatadze Trio",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://biletebi.ge/en/concerts/luka-tabatadze-trio"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "title": "Nika Gabadze Quartet",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://biletebi.ge/en/concerts/Nika-gabadze-quartet"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "title": "Zuka Simonishvili Quartet",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://biletebi.ge/en/concerts/zuka-simonishvili-quartet"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "title": "Once Upon a String — Melodies from Animation Films",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://biletebi.ge/en/concerts/once-upon-string"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "title": "Molekuli prošlosti: Kako fizička hemija otkriva tajne drevnog grnčarstva",
+      "reason": "Цена, условия входа или расписание требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://palatanauke.rs/dogadjaji/molekuli-proslosti-kako-fizicka-hemija-otkriva-tajne-drevnog-grncarstva/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "title": "Mila Panić: Inside Joke / Unutar šale — открытие и арт-кафе",
+      "reason": "Цена, условия входа или расписание требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://www.goethe.de/ins/cs/sr/ver.cfm?event_id=27358070"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "title": "Prostor, trag, gest — авторская экскурсия",
+      "reason": "Источники противоречат друг другу по дате или времени; ожидается уточнение организатора.",
+      "evidenceUrls": [
+        "https://www.narodnimuzej.rs/dogadjaj/autorsko-vo-ene-prostor-trag-gest-tsrtezhi-milana-milovanovi-a-koste-milichevi-a-i-malishe-glishi-a-4/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "title": "Mladi za mlade – Mladi u Parobrodu",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://ukparobrod.rs/aktuelnosti/mesecni-program/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "title": "Mladi za mlade – Mladi u Parobrodu",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://ukparobrod.rs/aktuelnosti/mesecni-program/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "title": "Rom-kom ne može da umre: podžanrovi i perspektive",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://ukparobrod.rs/aktuelnosti/mesecni-program/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "title": "Made in Fabrika Fotografa 13 — открытие",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://ukparobrod.rs/aktuelnosti/mesecni-program/"
+      ]
+    },
+    {
+      "city": "moscow",
+      "title": "Мастер-класс по вязанию «Бабушкины квадраты»",
+      "reason": "Регистрация закрыта; событие не опубликовано как доступное.",
+      "evidenceUrls": [
+        "https://nekrasovka.ru/afisha/11-10-2026/8955"
+      ]
+    },
+    {
+      "city": "moscow",
+      "title": "Мастерская кикимор",
+      "reason": "Цена, условия входа или расписание требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://ges-2.org/kikimoras-workshop",
+        "https://ges-2.zapomni.ru/events/98ef841c-b73e-47cc-adf6-6bb2a9ad382f?date=2026-10-11"
+      ]
+    },
+    {
+      "city": "moscow",
+      "title": "Мозгва — Новички 624, день 3",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://mozgva.com/"
+      ]
+    },
+    {
+      "city": "moscow",
+      "title": "Встреча женского дискуссионного клуба «Между нами»",
+      "reason": "Регистрация закрыта; событие не опубликовано как доступное.",
+      "evidenceUrls": [
+        "https://nekrasovka.ru/afisha/12-10-2026/9033"
+      ]
+    },
+    {
+      "city": "moscow",
+      "title": "Медитация Heartfulness с профессиональным инструктором",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://nekrasovka.ru/afisha/11-10-2026/8908",
+        "https://calendar.yandex.ru/event/1742927474"
+      ]
+    },
+    {
+      "city": "moscow",
+      "title": "Бауманский клуб переговоров",
+      "reason": "Полный год события не подтверждён в доступном первичном анонсе.",
+      "evidenceUrls": [
+        "https://nekrasovka.ru/afisha/12-10-2026/8868",
+        "https://calendar.yandex.ru/event/1793481156"
+      ]
+    },
+    {
+      "city": "moscow",
+      "title": "Научное шоу «Миссия: Космос»",
+      "reason": "Условия посещения или точное место требуют дополнительного подтверждения.",
+      "evidenceUrls": [
+        "https://festivalnauki.ru/program/nauchnoe-shou-missiya-kosmos/",
+        "https://festivalnauki.ru/places/moskovskiy-dvorets-pionerov/",
+        "https://msk.festivalnauki.ru/"
+      ]
+    }
+  ]
+}

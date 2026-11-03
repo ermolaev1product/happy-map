@@ -1,0 +1,10 @@
+/* Scoped to an actual Telegram SDK context; ordinary web layout stays unchanged. */
+html.telegram-app{--hm-tg-top:0px;--hm-tg-bottom:0px;--hm-tg-left:0px;--hm-tg-right:0px;--hm-tg-height:100dvh;scroll-padding-top:var(--hm-tg-top);scroll-padding-bottom:var(--hm-tg-bottom)}
+html.telegram-app body{box-sizing:border-box;min-height:var(--hm-tg-height);padding-top:max(env(safe-area-inset-top,0px),var(--hm-tg-top));padding-bottom:max(env(safe-area-inset-bottom,0px),var(--hm-tg-bottom));padding-left:max(env(safe-area-inset-left,0px),var(--hm-tg-left));padding-right:max(env(safe-area-inset-right,0px),var(--hm-tg-right))}
+html.telegram-app dialog[open]{max-height:calc(var(--hm-tg-height) - var(--hm-tg-top) - var(--hm-tg-bottom) - 24px);margin-top:max(12px,var(--hm-tg-top));margin-bottom:max(12px,var(--hm-tg-bottom))}
+html.telegram-app .mobile-nav{bottom:0;padding-bottom:calc(4px + max(env(safe-area-inset-bottom,0px),var(--hm-tg-bottom)));left:var(--hm-tg-left);right:var(--hm-tg-right)}
+html.telegram-app .city-menu-list{max-height:calc(var(--hm-tg-height) - var(--hm-tg-top) - var(--hm-tg-bottom) - 130px)}
+html.telegram-app .toast{bottom:calc(85px + var(--hm-tg-bottom))}
+html.telegram-app .map-first .map-shell,html.telegram-app .map-first.nearby-view .map-shell,html.telegram-app .map-first.places-view .map-shell{height:calc(var(--hm-tg-height) - var(--hm-tg-top) - var(--hm-tg-bottom) - 270px)}
+@media(min-width:761px) and (max-width:1300px){html.telegram-app .map-first .map-shell{height:calc(var(--hm-tg-height) - var(--hm-tg-top) - var(--hm-tg-bottom) - 320px)}}
+@media(max-width:760px){html.telegram-app .map-first .map-shell,html.telegram-app .map-first.nearby-view .map-shell,html.telegram-app .map-first.places-view .map-shell{height:calc(var(--hm-tg-height) - var(--hm-tg-top) - var(--hm-tg-bottom) - 300px)}}

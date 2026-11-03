@@ -1,0 +1,35 @@
+{
+  "city": "Flensburg",
+  "checkedAt": "2026-10-14",
+  "method": "German web searches, venue-owned pages and official regional tourism. Bounded corroboration sample for broad OSM import; not a comprehensive list. No coordinates invented. A current website is not a physical operating-status inspection.",
+  "directories": [
+    {"url":"https://www.flensburger-foerde.de/en/culinary/culinary-flensburg","publisher":"Tourismus Agentur Flensburger Förde","type":"official tourism dining guide","scope":"Flensburg and nearby fjord; distinguish outside-city destinations"},
+    {"url":"https://www.sh-tourismus.de/bei-freunden-schmeckts-am-besten/flensburg","publisher":"Schleswig-Holstein tourism","type":"official tourism"},
+    {"url":"https://www.flensburger-foerde.de/fileadmin/content/images/pdf/Altstadtplan_eng_2025__juni.pdf","publisher":"Tourismus Agentur Flensburger Förde","type":"2025 city map and dining directory","note":"Older reference; recheck venue-owned sources for moves and closures"}
+  ],
+  "venues": [
+    {"name":"Café Isa","category":"cafe","address":"Norderstraße 77, 24939 Flensburg","url":"https://cafe-isa.de/","addressConfirmed":true,"notes":"Own site has daily opening hours and June 2026 menu update; do not treat past exhibition text as current event."},
+    {"name":"Lykke Grosse","category":"cafe_restaurant","address":"Große Straße 73, Flensburg","url":"https://www.lykke-flensburg.de/kontakt/","addressConfirmed":true,"notes":"Own site postcode reads 27937, likely typo; omit postcode until separately resolved."},
+    {"name":"Lille Lykke Café & Bar","category":"cafe_bar","address":"Norderstraße 109, 24939 Flensburg","url":"https://www.lykke-flensburg.de/kontakt/","addressConfirmed":true},
+    {"name":"Alte Kaffee-Rösterei","category":"cafe","address":"Rote Straße 16, 24937 Flensburg","url":"https://www.flensburger-kaffee.de/","addressConfirmed":true},
+    {"name":"Roter Hof","category":"cafe_restaurant","address":"Rote Straße 14, 24937 Flensburg","url":"https://roterhof.de/","addressConfirmed":true,"notes":"Venue address on homepage; company legal postal address is elsewhere, do not geocode impressum address."},
+    {"name":"Piet im Fischmarkt","category":"restaurant","address":"Ballastkai 4, 24937 Flensburg","url":"https://piet-im-fischmarkt.de/","addressConfirmed":true,"notes":"Own site states new home and former name Piet Henningsen. Old official site still lists Schiffbrücke 20: stale-location risk, do not import old branch as active without confirmation."},
+    {"name":"Marien-Café","category":"cafe","address":"Westerallee 55, 24941 Flensburg","url":"https://www.marien-cafe-flensburg.de/kontakt/","addressConfirmed":true},
+    {"name":"Willy","category":"restaurant","address":"Schiffbrückstraße 8a, 24937 Flensburg","url":"https://www.willy-flensburg.de/","addressConfirmed":true},
+    {"name":"Café K","category":"cafe","address":"Südermarkt 15, 24937 Flensburg","url":"https://www.cafe-k-flensburg.de/","addressConfirmed":true},
+    {"name":"Hafenküche","category":"restaurant_bar","address":"Schiffbrücke 40, Flensburg","url":"https://www.hafenkueche-flensburg.de/","addressConfirmed":true,"notes":"Own site says NACHFOLGER GESUCHT and still displays dining/reservation information. Not evidence of closure; flag for future status review. Winter hours differ from summer."},
+    {"name":"Weinstube im Krusehof","category":"wine_bar_restaurant","address":"Rote Straße 24, 24937 Flensburg","url":"https://www.weinstube-flensburg.de/","addressConfirmed":true,"notes":"Official footer says 24; third-party directories say 15. Address conflict should be checked against actual entrance/OSM geometry, not silently overwritten."},
+    {"name":"Das Kleine Restaurant","category":"restaurant","address":"Große Straße 67, 24937 Flensburg","url":"https://daskleine.squarespace.com/","addressConfirmed":true},
+    {"name":"Kritz","category":"cafe_bar","address":"Nordermarkt 3, 24937 Flensburg","url":"https://www.kritz.de/","addressConfirmed":true},
+    {"name":"Peter Pane Burgergrill & Bar","category":"restaurant_bar","address":"Nordermarkt 1, 24937 Flensburg","url":"https://peterpane.de/standorte/flensburg/nordermarkt/","addressConfirmed":true},
+    {"name":"onoma kaffee","category":"cafe","address":"Große Straße 16a, 24937 Flensburg","url":"https://onoma.coffee/pages/uber-uns","addressConfirmed":true,"notes":"Own page confirms cafe/roastery in rear courtyard. Separate Rote Straße 22 pop-up in third-party directories not verified as current."},
+    {"name":"Norder Craft Bier Bar & Shop","category":"bar","address":"Norderstraße 20, 24939 Flensburg","url":"https://untappd.com/v/norder-craft-bier-bar-and-shop/11456184","addressConfirmed":true,"sourceType":"verified venue-managed Untappd profile","corroboratingUrl":"https://www.wittorfer-brauerei.de/vertrieb/","notes":"Supplier primary source confirms address; venue-managed drink menu accessible. Instagram handle nordercraft identified, not read."}
+  ],
+  "reviewQueue": [
+    {"name":"Piet Henningsen","address":"Schiffbrücke 20, Flensburg","url":"https://fischrestaurant-flensburg.de/website/index.php","reason":"Old official site conflicts with current operator site announcing move to Ballastkai 4. Exclude stale location pending evidence."},
+    {"name":"Café Central","address":"Große Straße 83, Flensburg","url":"https://cafecentral-flensburg.de/","reason":"Official page failed to open. Tripadvisor listing says CLOSED; other directories have contradictory addresses/hours. Do not mark verified active.","secondaryClosureUrl":"https://www.tripadvisor.com/Restaurant_Review-g187411-d1039360-Reviews-Cafe_Central-Flensburg_Schleswig_Holstein.html"},
+    {"name":"Pizzateca da Tonis","url":"https://pizzatecadatonis.de/","reason":"Official page inaccessible in web tool; do not infer closure."},
+    {"name":"Puri Puri","address":"Angelburger Straße 22, Flensburg","url":"https://www.puripuri-flensburg.de/imprint.html","reason":"Own site mixes Schleswig company address and inconsistent Flensburg postcodes. Street-level corroboration required."}
+  ],
+  "excludedAsOfficialDirectory": [{"url":"https://visitflensburg.de/","reason":"Self-identifies as independent guide; not official municipal/tourism authority."}]
+}

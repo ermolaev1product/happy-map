@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Read-only fresh source verification for sparse Almaty/Dubai dates, 19–26 October 2026, within 30-day horizon. No app source changes or publication performed.",
+  "checkedAt": "2026-10-19T05:05:27Z",
+  "timeNote": "Timestamp taken from clock tool UTC, not local shell file timestamps. Individual fetches occurred 05:03–05:05 UTC on this date.",
+  "publicationReadyEvents": [
+    {
+      "kind": "event",
+      "city": "Almaty",
+      "cityId": "almaty",
+      "category": "music",
+      "timezone": "Asia/Almaty",
+      "currency": "KZT",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "status": "scheduled",
+      "publicationStatus": "verified_editorial",
+      "duplicateStatus": "new_missing_from_city_feed",
+      "endDate": null,
+      "endTime": null,
+      "endAt": null,
+      "source": "almaty-ayenderi.kz",
+      "language": null,
+      "venue": "Дворец Республики",
+      "venueId": "almaty-palace-of-republic",
+      "address": "проспект Достык, 56, Алматы",
+      "lat": 43.24323,
+      "lng": 76.9594,
+      "coordinateSource": "https://mapcarta.com/W53280121",
+      "coordinatePrecision": "building",
+      "coordinateEvidence": "Named Republic Palace building, 56 Dostyk, OpenStreetMap way 53280121; page explicitly lists latitude 43.24323 and longitude 76.9594. Independent architecture-project page gives 43.243245, 76.959347 (about 5 m away). This is a building point, not a map viewport.",
+      "addressSource": "https://almaty-ayenderi.kz/ru/contacts",
+      "id": "almaty-yulduz-usmanova-20261019",
+      "title": "Юлдуз Усманова",
+      "date": "2026-10-19",
+      "time": "20:00",
+      "startAt": "2026-10-19T20:00:00+05:00",
+      "sourceUrl": "https://almaty-ayenderi.kz/ru/event/769",
+      "sourceURLs": [
+        "https://almaty-ayenderi.kz/ru/event/769",
+        "https://almaty-ayenderi.kz/",
+        "https://almaty-ayenderi.kz/ru/contacts",
+        "https://almaty-ayenderi.kz/p/976",
+        "https://zakazbiletov.kz/ru/1-almaty/3-kontserty/uldis-ysmanova-v-almaty/74077"
+      ],
+      "yearEvidence": "Venue’s own event page explicitly gives the date, year 2026 and 20:00. The same session appears under Palace of the Republic concert hall on its official calendar.",
+      "price": null,
+      "priceLabel": "Билеты платные; текущую цену проверьте при выборе места",
+      "priceMinAdvertised": 7000,
+      "priceMaxAdvertised": 50000,
+      "admission": "Билет обязателен. Площадка объявляет диапазон 7 000–50 000 ₸, но просмотренная схема показывает все места за 7 000, 8 000 и 10 000 ₸ занятыми. Не обещайте доступность по минимальной объявленной цене.",
+      "description": "Концерт Юлдуз Усманова в концертном зале Дворца Республики. Начало в 20:00. Время окончания не опубликовано.",
+      "publicationReady": true,
+      "verificationNotes": [
+        "No end time or duration is supplied by the event source; all end fields deliberately remain null.",
+        "No booking, account creation or purchase was performed."
+      ],
+      "priceAvailabilitySource": "https://almaty-ayenderi.kz/p/976",
+      "priceAvailabilityEvidence": "The retrieved venue seat-data response shows all 7,000/8,000/10,000 bands full; the lowest non-full price band is 12,000 KZT. This is a fetched snapshot (crawler labels last week), not a live checkout inventory guarantee.",
+      "priceSnapshotMinNonFull": 12000
+    },
+    {
+      "kind": "event",
+      "city": "Almaty",
+      "cityId": "almaty",
+      "category": "music",
+      "timezone": "Asia/Almaty",
+      "currency": "KZT",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "status": "scheduled",
+      "publicationStatus": "verified_editorial",
+      "duplicateStatus": "new_missing_from_city_feed",
+      "endDate": null,
+      "endTime": null,
+      "endAt": null,
+      "source": "almaty-ayenderi.kz",
+      "language": null,
+      "venue": "Дворец Республики",
+      "venueId": "almaty-palace-of-republic",
+      "address": "проспект Достык, 56, Алматы",
+      "lat": 43.24323,
+      "lng": 76.9594,
+      "coordinateSource": "https://mapcarta.com/W53280121",
+      "coordinatePrecision": "building",
+      "coordinateEvidence": "Named Republic Palace building, 56 Dostyk, OpenStreetMap way 53280121; page explicitly lists latitude 43.24323 and longitude 76.9594. Independent architecture-project page gives 43.243245, 76.959347 (about 5 m away). This is a building point, not a map viewport.",
+      "addressSource": "https://almaty-ayenderi.kz/ru/contacts",
+      "id": "almaty-ernar-amandyq-20261025",
+      "title": "ERNAR AMANDYQ",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "startAt": "2026-10-25T20:00:00+05:00",
+      "sourceUrl": "https://almaty-ayenderi.kz/ru/event/832",
+      "sourceURLs": [
+        "https://almaty-ayenderi.kz/ru/event/832",
+        "https://almaty-ayenderi.kz/",
+        "https://almaty-ayenderi.kz/ru/contacts"
+      ],
+      "yearEvidence": "Venue’s own event page explicitly gives the date, year 2026 and 20:00. The same session appears under Palace of the Republic concert hall on its official calendar.",
+      "price": 5000,
+      "priceLabel": "Объявленный диапазон: 5 000–30 000 ₸",
+      "priceMinAdvertised": 5000,
+      "priceMaxAdvertised": 30000,
+      "admission": "Билет обязателен. Указан объявленный диапазон цен; наличие и стоимость конкретных мест уточняйте на сайте площадки.",
+      "description": "Концерт ERNAR AMANDYQ в концертном зале Дворца Республики. Начало в 20:00. Время окончания не опубликовано.",
+      "publicationReady": true,
+      "verificationNotes": [
+        "No end time or duration is supplied by the event source; all end fields deliberately remain null.",
+        "No booking, account creation or purchase was performed."
+      ]
+    },
+    {
+      "kind": "event",
+      "city": "Almaty",
+      "cityId": "almaty",
+      "category": "music",
+      "timezone": "Asia/Almaty",
+      "currency": "KZT",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "status": "scheduled",
+      "publicationStatus": "verified_editorial",
+      "duplicateStatus": "new_missing_from_city_feed",
+      "endDate": null,
+      "endTime": null,
+      "endAt": null,
+      "source": "almaty-ayenderi.kz",
+      "language": null,
+      "venue": "Дворец Республики",
+      "venueId": "almaty-palace-of-republic",
+      "address": "проспект Достык, 56, Алматы",
+      "lat": 43.24323,
+      "lng": 76.9594,
+      "coordinateSource": "https://mapcarta.com/W53280121",
+      "coordinatePrecision": "building",
+      "coordinateEvidence": "Named Republic Palace building, 56 Dostyk, OpenStreetMap way 53280121; page explicitly lists latitude 43.24323 and longitude 76.9594. Independent architecture-project page gives 43.243245, 76.959347 (about 5 m away). This is a building point, not a map viewport.",
+      "addressSource": "https://almaty-ayenderi.kz/ru/contacts",
+      "id": "almaty-ernar-amandyq-20261026",
+      "title": "ERNAR AMANDYQ",
+      "date": "2026-10-26",
+      "time": "20:00",
+      "startAt": "2026-10-26T20:00:00+05:00",
+      "sourceUrl": "https://almaty-ayenderi.kz/ru/event/814",
+      "sourceURLs": [
+        "https://almaty-ayenderi.kz/ru/event/814",
+        "https://almaty-ayenderi.kz/",
+        "https://almaty-ayenderi.kz/ru/contacts"
+      ],
+      "yearEvidence": "Venue’s own event page explicitly gives the date, year 2026 and 20:00. The same session appears under Palace of the Republic concert hall on its official calendar.",
+      "price": 5000,
+      "priceLabel": "Объявленный диапазон: 5 000–30 000 ₸",
+      "priceMinAdvertised": 5000,
+      "priceMaxAdvertised": 30000,
+      "admission": "Билет обязателен. Указан объявленный диапазон цен; наличие и стоимость конкретных мест уточняйте на сайте площадки.",
+      "description": "Концерт ERNAR AMANDYQ в концертном зале Дворца Республики. Начало в 20:00. Время окончания не опубликовано.",
+      "publicationReady": true,
+      "verificationNotes": [
+        "No end time or duration is supplied by the event source; all end fields deliberately remain null.",
+        "No booking, account creation or purchase was performed."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "dubai-accessabilities-expo-20261019",
+      "kind": "event",
+      "city": "Dubai",
+      "cityId": "dubai",
+      "title": "AccessAbilities Expo 2026",
+      "category": "exhibition",
+      "date": "2026-10-19",
+      "endDate": "2026-10-21",
+      "time": null,
+      "endTime": null,
+      "startAt": null,
+      "endAt": null,
+      "timezone": "Asia/Dubai",
+      "venue": "Dubai World Trade Centre, Za’abeel Halls 4–6",
+      "venueId": "dubai-dwtc",
+      "address": "Dubai World Trade Centre, Sheikh Zayed Road, Dubai",
+      "addressSource": "https://www.dwtc.com/en/getting-here/",
+      "lat": 25.2230544,
+      "lng": 55.2885219,
+      "coordinateSource": "https://www.dwtc.com/en/contact/",
+      "coordinatePrecision": "venue-campus",
+      "coordinateEvidence": "Official DWTC Contact page’s OPEN IN GOOGLE MAP link directly uses query=25.2230544,55.2885219. Campus point only, not a hall entrance; venue name must retain Za’abeel Halls 4–6.",
+      "coordinateLink": "https://www.google.com/maps/search/?api=1&query=25.2230544%2C55.2885219",
+      "source": "dwtc.com",
+      "sourceUrl": "https://www.dwtc.com/en/events/accessabilities-expo-2026/",
+      "sourceURLs": [
+        "https://www.dwtc.com/en/events/accessabilities-expo-2026/",
+        "https://www.dwtc.com/en/contact/",
+        "https://www.dwtc.com/en/getting-here/",
+        "https://www.gilanimobility.ae/accessabilites-expo-2026/"
+      ],
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "yearEvidence": "Official venue event page explicitly states 19–21 Oct 2026. Exhibitor Gilani Mobility independently confirms the dates and halls.",
+      "organizer": "Nadd Al Shiba Public Relations & Event Management",
+      "status": "scheduled",
+      "price": null,
+      "currency": "AED",
+      "admission": "DWTC labels the audience Public. Daily opening hours, entry price and registration requirements were not verified from accessible organizer or venue pages.",
+      "description": "Публичная выставка технологий и решений для доступной среды, реабилитации и людей с инвалидностью. DWTC подтверждает 19–21 октября 2026 года, залы Za’abeel 4–6. Часы работы и условия входа требуют уточнения у организатора.",
+      "publicationReady": false,
+      "publicationStatus": "candidate_missing_primary_hours_and_admission",
+      "duplicateStatus": "new_missing_from_city_feed",
+      "missingVerification": [
+        "Daily exhibition opening and closing time from accessible organizer or venue page.",
+        "Admission price and registration requirement from accessible organizer or venue page."
+      ],
+      "notes": [
+        "The three-day date range is verified, but must not be represented as continuously open or assigned invented start/end times.",
+        "If site policy permits date-only events with explicit unknown hours/admission, core identity, dates, location and campus map point are verified. Otherwise keep unpublished.",
+        "Organizer home and visitor pages returned HTTP 403; no bypass attempted. Search snippets and third-party aggregators were not promoted into verified evidence.",
+        "Third-party listings conflict (10:00–18:00, 10:00–20:00, or no announced hours); an exhibitor LinkedIn snippet says 10:00–18:00 and free registration, but its page did not open, so these remain unverified."
+      ]
+    }
+  ],
+  "excludedVerifiedEvents": [
+    {
+      "id": "almaty-neboslov-aeroglif-20261019",
+      "kind": "event",
+      "city": "Almaty",
+      "cityId": "almaty",
+      "title": "Небослов & Аэроглиф. «Песни о здесь и тогда»",
+      "category": "music",
+      "date": "2026-10-19",
+      "time": "19:00",
+      "endDate": "2026-10-19",
+      "endTime": "21:00",
+      "startAt": "2026-10-19T19:00:00+05:00",
+      "endAt": "2026-10-19T21:00:00+05:00",
+      "endTimeEvidence": "Derived exactly from source start 19:00 plus explicitly published duration 2 hours; not an invented duration.",
+      "timezone": "Asia/Almaty",
+      "venue": "Арт-убежище BUNKER",
+      "venueId": "almaty-bunker",
+      "address": "ул. Досмухамедова, 78А, Алматы",
+      "lat": 43.247579,
+      "lng": 76.925037,
+      "coordinateSource": "https://yandex.kz/maps/ru/162/almaty/house/khalel_dosmukhamedov_koshesi_78a/Y08YfwVlSUYAQFppfX51dnlkbQ%3D%3D/",
+      "coordinatePrecision": "building",
+      "coordinateEvidence": "Yandex building page explicitly lists coordinates 43.247579, 76.925037 and names Art Shelter Bunker among organizations in this building.",
+      "source": "showmarket.kz",
+      "sourceUrl": "https://showmarket.kz/event/neboslov-i-aeroglif",
+      "sourceURLs": [
+        "https://showmarket.kz/event/neboslov-i-aeroglif"
+      ],
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "yearEvidence": "Ticket page explicitly gives 19 October 2026.",
+      "price": 5000,
+      "currency": "KZT",
+      "priceLabel": "Объявлено от 5 000 ₸; билеты распроданы",
+      "status": "sold_out",
+      "admission": "16+. Билеты распроданы согласно странице Showmarket.",
+      "publicationReady": false,
+      "publicationStatus": "verified_sold_out_excluded_from_available_inventory",
+      "duplicateStatus": "new_missing_from_city_feed",
+      "notes": [
+        "The ticket page shows both a buy-ticket link and an explicit sold-out message; retain the explicit sold-out restriction. Do not market as available.",
+        "Can be retained only if HappyMap explicitly displays sold-out events as such; should not count as newly bookable city coverage.",
+        "Official BUNKER contacts page timed out; exact street address is nevertheless verified by the ticket page and named map building."
+      ]
+    }
+  ],
+  "duplicateAudit": {
+    "scope": [
+      "public/almaty/events.json",
+      "public/dubai/events.json"
+    ],
+    "checkedAt": "2026-10-19T05:05:27Z",
+    "cityCounts": {
+      "almaty": 48,
+      "dubai": 69
+    },
+    "matches": [],
+    "finding": "No title/artist/source identity match for Yulduz, ERNAR, Neboslov/Aeroglif or AccessAbilities in the corresponding city feed. Distinct ERNAR dates 25 and 26 Oct are separate official sessions, not duplicates.",
+    "notAClaimOfCompleteCityCoverage": true
+  },
+  "sourceAudit": [
+    {
+      "url": "https://almaty-ayenderi.kz/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_venue_calendar",
+      "findings": "Palace concert-hall section lists Yulduz 19 Oct 2026, ERNAR 25 and 26 Oct 2026, all at 20:00; advertises price ranges.",
+      "notes": "Other horizon leads were visible but not converted into fully checked events in this small packet."
+    },
+    {
+      "url": "https://almaty-ayenderi.kz/ru/event/769",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_venue_event",
+      "findings": "Юлдуз Усманова, 2026-10-19, 20:00; advertised range 7000-50000 KZT."
+    },
+    {
+      "url": "https://almaty-ayenderi.kz/ru/event/832",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_venue_event",
+      "findings": "ERNAR AMANDYQ, 2026-10-25, 20:00; advertised range 5000-30000 KZT."
+    },
+    {
+      "url": "https://almaty-ayenderi.kz/ru/event/814",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_venue_event",
+      "findings": "ERNAR AMANDYQ, 2026-10-26, 20:00; advertised range 5000-30000 KZT."
+    },
+    {
+      "url": "https://almaty-ayenderi.kz/ru/contacts",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_venue_address",
+      "findings": "Dostyk Avenue 56, Almaty; site identifies municipal operator Almaty Auenderi."
+    },
+    {
+      "url": "https://mapcarta.com/W53280121",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "named_map_building",
+      "findings": "Republic Palace, address 56 Dostyk; coordinates 43.24323,76.9594; OSM way 53280121.",
+      "notes": "Geospatial source only, not event-time evidence."
+    },
+    {
+      "url": "https://archi.ru/projects/world/8078/dvorec-respubliki-v-alma-ate-rekonstrukciya",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "coordinate_cross_check",
+      "findings": "Named Palace of Republic project gives 43.243245,76.959347; independently agrees with map building position within roughly 5 m."
+    },
+    {
+      "url": "https://almaty-ayenderi.kz/p/976",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_venue_ticket_inventory_snapshot",
+      "findings": "Yulduz 19 Oct 2026 20:00; non-full 12,000 KZT price band while every 7,000/8,000/10,000 KZT seat is marked busy.",
+      "notes": "Web reports cached crawl from last week. Do not call this guaranteed live availability. No ticket chosen."
+    },
+    {
+      "url": "https://zakazbiletov.kz/ru/1-almaty/3-kontserty/uldis-ysmanova-v-almaty/74077",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "ticket_vendor_corroboration",
+      "findings": "Yulduz Usmanova at Palace of Republic on 19 October 2026 20:00, advertised from 7,000 KZT.",
+      "notes": "Official venue range agrees, but cheap-band availability is contradicted by retrieved venue seating data."
+    },
+    {
+      "url": "https://galaconcert.kz/event/yulduz-usmanova-v-almaty1",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "ticket_vendor_corroboration",
+      "findings": "Same date/time/venue/address; this vendor detail page says from 45,000 KZT.",
+      "notes": "Vendor venue index says 25,000 and Zakazbiletov 7,000. These are inconsistent price presentations, not evidence of a single guaranteed available minimum."
+    },
+    {
+      "url": "https://showmarket.kz/event/neboslov-i-aeroglif",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "ticket_vendor_event",
+      "findings": "19 Oct 2026 19:00, BUNKER at Dosmukhamedova 78A, 2-hour duration, 16+, advertised from 5,000 KZT, explicitly sold out."
+    },
+    {
+      "url": "https://yandex.kz/maps/ru/162/almaty/house/khalel_dosmukhamedov_koshesi_78a/Y08YfwVlSUYAQFppfX51dnlkbQ%3D%3D/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "named_map_building",
+      "findings": "Dosmukhamedova 78A building coordinates 43.247579,76.925037; BUNKER explicitly listed inside."
+    },
+    {
+      "url": "https://bunker.kz/contacts/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "timeout",
+      "role": "official_venue_address",
+      "findings": "Failed with timeout; no page-body evidence used.",
+      "notes": "Search snippet is only a lead; not proof."
+    },
+    {
+      "url": "https://go.2gis.com/io4JT",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "non_retryable_redirect_error",
+      "role": "ticket_vendor_venue_map_link",
+      "findings": "Tool refused redirect as not safe to open.",
+      "notes": "Did not retry or bypass. Redirect m= coordinate was NOT used because it is a map viewport rather than demonstrated named-object geometry."
+    },
+    {
+      "url": "https://www.dwtc.com/en/events/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened_incomplete_listing",
+      "role": "official_venue_index",
+      "findings": "Returned October 2026 with zero events, while direct event page verifies AccessAbilities.",
+      "notes": "Treat as an incomplete dynamic index, not as a cancellation or true no-event result."
+    },
+    {
+      "url": "https://www.dwtc.com/en/events/accessabilities-expo-2026/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_venue_event",
+      "findings": "19–21 Oct 2026; Za’abeel Halls 4–6; public exhibition; organizer Nadd Al Shiba.",
+      "notes": "No daily hours, fee or registration details in returned page."
+    },
+    {
+      "url": "https://www.dwtc.com/en/getting-here/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_venue_location",
+      "findings": "Venue has direct Sheikh Zayed Road access and its dedicated metro station."
+    },
+    {
+      "url": "https://www.dwtc.com/en/contact/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_venue_coordinates",
+      "findings": "Official Our Location link points to Google Maps query 25.2230544,55.2885219.",
+      "notes": "Campus point, not an asserted specific hall/entrance."
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=25.2230544%2C55.2885219",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_venue_link_resolution",
+      "findings": "The exact numeric map query was confirmed by click from DWTC contact page; Maps itself required JavaScript."
+    },
+    {
+      "url": "https://www.gilanimobility.ae/accessabilites-expo-2026/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_exhibitor_corroboration",
+      "findings": "Confirms 19–21 Oct 2026 at DWTC, Za’abeel Halls 4–6, exhibitor stand 5104."
+    },
+    {
+      "url": "https://accessabilitiesexpo.com/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "http_403",
+      "role": "official_organizer",
+      "findings": "Forbidden from web tool; no page-body evidence available.",
+      "notes": "No bypass; search snippets not used as proof."
+    },
+    {
+      "url": "https://accessabilitiesexpo.com/visit/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "http_403",
+      "role": "official_organizer",
+      "findings": "Forbidden from web tool; no page-body evidence available.",
+      "notes": "No bypass; search snippets not used as proof."
+    },
+    {
+      "url": "https://www.dwtc.com/en/contact-us/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "not_accessible",
+      "role": "discovery_attempt",
+      "findings": "Guessed endpoint did not open.",
+      "notes": "Correct /en/contact/ was subsequently found by search and opened."
+    },
+    {
+      "url": "https://uk.linkedin.com/company/abronnfze",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "internal_error",
+      "role": "official_exhibitor_lead",
+      "findings": "Public company-page open did not return content.",
+      "notes": "10:00–18:00 and free-registration search snippets retained only as unverified leads."
+    },
+    {
+      "url": "https://abronn.com/",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "opened",
+      "role": "official_exhibitor_home",
+      "findings": "Public home page accessible but no expo timing evidence in returned page."
+    },
+    {
+      "url": "https://abronn.com/events",
+      "checkedAt": "2026-10-19T05:05:27Z",
+      "outcome": "cache_miss",
+      "role": "official_exhibitor_event_index",
+      "findings": "Linked events page failed to fetch.",
+      "notes": "No source facts taken from failure."
+    }
+  ],
+  "sourceCoverageLimits": [
+    "This packet verifies a small set of named candidates and nearby official sessions; it does not claim an exhaustive 30-day city scan.",
+    "Source crawl freshness varies. checkedAt means fetched/inspected during this pass, not that every provider served a newly generated page.",
+    "Sold-out Neboslov is excluded from available-event coverage.",
+    "AccessAbilities is not marked publication-ready until hours/admission are verified or parent explicitly elects truthful date-only publication with unknown fields."
+  ]
+}

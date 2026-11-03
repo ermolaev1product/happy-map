@@ -1,0 +1,153 @@
+{
+  "batchId": "telegram-review-2026-10-13",
+  "checkedAt": "2026-10-13T03:12:20.375490+00:00",
+  "status": "partial",
+  "countsAsSuccessfulDailyCheck": false,
+  "window": {
+    "from": "2026-10-13",
+    "through": "2026-10-19",
+    "timezones": {
+      "tbilisi": "Asia/Tbilisi",
+      "belgrade": "Europe/Belgrade",
+      "moscow": "Europe/Moscow"
+    }
+  },
+  "addedEvents": 6,
+  "existingSchedulesRechecked": 11,
+  "telegramPostsExtracted": 2597,
+  "telegramPostsEditoriallyReviewed": 16,
+  "telegramPagesRequested": 214,
+  "duplicateAnnouncementsNotAdded": 13,
+  "pending": [
+    {
+      "city": "tbilisi",
+      "url": "https://t.me/auditoria_tbilisi/7585",
+      "reason": "conflicting_date",
+      "note": "Heading says October 17; subscription dates say October 18. Await organizer clarification."
+    },
+    {
+      "city": "tbilisi",
+      "url": "https://t.me/artcinema_ge/4970",
+      "reason": "venue_address_unverified",
+      "note": "October 17 at 19:30, donation; the post does not confirm a street address or map coordinates."
+    },
+    {
+      "city": "belgrade",
+      "url": "https://t.me/quizbelgrade/9029",
+      "reason": "venue_address_unverified",
+      "note": "October 19 at 20:00 and 1000 RSD confirmed on linked QuizHeroes page; exact venue missing."
+    },
+    {
+      "city": "belgrade",
+      "url": "https://t.me/standupbelgrade/91",
+      "reason": "venue_coordinates_unverified",
+      "note": "October 15 at 20:00, Balkanska 30, from 100 RSD; exact venue pin not verified."
+    },
+    {
+      "city": "moscow",
+      "url": "https://kts-pokrovsk.timepad.ru/event/4230175/",
+      "reason": "primary_source_inaccessible",
+      "note": "Potential October 19 cinema lecture discovered through an aggregator; primary page not accessible, not imported."
+    }
+  ],
+  "limitations": [
+    "The full extracted Telegram corpus is not editorially reviewed.",
+    "No claim of complete city coverage or 14 successful daily checks.",
+    "Bar menus and all category-specific sources are not fully reviewed in this partial pass; existing price timestamps remain unchanged.",
+    "No closed chat verified and no bot contacted.",
+    "Moscow October 19 remains a coverage gap, not evidence that the city has no events. Zotov is closed on Mondays. The potential Timepad event and GES-2 date page were inaccessible.",
+    "Tbilisi drop after October 13 is dominated by the end of the existing cinema schedule; no sessions were extrapolated."
+  ],
+  "coverageAfter": {
+    "tbilisi": {
+      "2026-10-13": {
+        "records": 169,
+        "cinemaRecords": 140
+      },
+      "2026-10-14": {
+        "records": 21,
+        "cinemaRecords": 1
+      },
+      "2026-10-15": {
+        "records": 16,
+        "cinemaRecords": 0
+      },
+      "2026-10-16": {
+        "records": 16,
+        "cinemaRecords": 0
+      },
+      "2026-10-17": {
+        "records": 17,
+        "cinemaRecords": 0
+      },
+      "2026-10-18": {
+        "records": 13,
+        "cinemaRecords": 0
+      },
+      "2026-10-19": {
+        "records": 11,
+        "cinemaRecords": 0
+      }
+    },
+    "belgrade": {
+      "2026-10-13": {
+        "records": 25,
+        "cinemaRecords": 3
+      },
+      "2026-10-14": {
+        "records": 11,
+        "cinemaRecords": 2
+      },
+      "2026-10-15": {
+        "records": 11,
+        "cinemaRecords": 0
+      },
+      "2026-10-16": {
+        "records": 6,
+        "cinemaRecords": 0
+      },
+      "2026-10-17": {
+        "records": 12,
+        "cinemaRecords": 0
+      },
+      "2026-10-18": {
+        "records": 11,
+        "cinemaRecords": 0
+      },
+      "2026-10-19": {
+        "records": 5,
+        "cinemaRecords": 0
+      }
+    },
+    "moscow": {
+      "2026-10-13": {
+        "records": 12,
+        "cinemaRecords": 1
+      },
+      "2026-10-14": {
+        "records": 7,
+        "cinemaRecords": 1
+      },
+      "2026-10-15": {
+        "records": 3,
+        "cinemaRecords": 1
+      },
+      "2026-10-16": {
+        "records": 3,
+        "cinemaRecords": 0
+      },
+      "2026-10-17": {
+        "records": 8,
+        "cinemaRecords": 1
+      },
+      "2026-10-18": {
+        "records": 8,
+        "cinemaRecords": 0
+      },
+      "2026-10-19": {
+        "records": 0,
+        "cinemaRecords": 0
+      }
+    }
+  }
+}

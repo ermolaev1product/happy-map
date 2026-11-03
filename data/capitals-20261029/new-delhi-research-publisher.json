@@ -1,0 +1,2442 @@
+{
+  "cityId": "new-delhi",
+  "checkedAt": "2026-10-29T03:28:54.964269+00:00",
+  "window": {
+    "from": "2026-10-29",
+    "to": "2026-11-27",
+    "timezone": "Asia/Kolkata"
+  },
+  "coverage": {
+    "primary": "Delhi2Go fullcurrentNCRmain+selectedvenue/details; VisitDilli fullmain before403; officialIIC2pages20cards+fullselecteddetails;KNMAfullwide+7details;Dastkarownprogrammes;directorganizerpoetry;IAFofficialbanner.",
+    "scope": "DelhiNCT city scope; Gurugram/Noida/Ghaziabad excluded. Not onlyNDMCmunicipality.",
+    "pagination": "IICactual2pages reachedNoNext. BroadDelhi2Go1475/1838displayedcountsNOTfullypaginated/verified and includesoutsideNCT. No fullcitycoverage.",
+    "limitations": [
+      "IICfestival-heavy timedprogramme; lateNovembertimedcoverage weak.",
+      "Fiveverifiedphysicalvenues only; additionalnamedvenuecandidatesheld ratherthanwrongpins.",
+      "Mostendsunknown; calendar/duration/expectedend not actualendAt.",
+      "Telegramprofilesonly,zeroimports;protectedInstagramnotread.",
+      "Unconfirmedholidaywindowswithheld; unknownhoursrangesnotopen-nowclaims."
+    ]
+  },
+  "events": [
+    {
+      "title": "Rukkha, Rakkha, Yakkha: Foundational Evidence for Tree Worship in Indian Art",
+      "titleEn": "Rukkha, Rakkha, Yakkha: Foundational Evidence for Tree Worship in Indian Art",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "talk",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-rukkha-rakkha-yakkha-foundational-evidence-tree-worship",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:13:03.102704+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-29th-october-3rd-november-2026-prakriti-ecology-and"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A public cultural discussion in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: C.D. Deshmukh Auditorium, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-8cb098f20f",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-8cb098f20f-20261029-1830",
+      "date": "2026-10-29",
+      "time": "18:30",
+      "end": null,
+      "startAt": "2026-10-29T18:30:00+05:30"
+    },
+    {
+      "title": "Scent of the Earth",
+      "titleEn": "Scent of the Earth",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "theatre",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-scent-earth",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:13:20.086333+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-scent-earth"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A dance performance in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Fountain Lawns, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-4a2363a043",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-4a2363a043-20261030-1830",
+      "date": "2026-10-30",
+      "time": "18:30",
+      "end": null,
+      "startAt": "2026-10-30T18:30:00+05:30"
+    },
+    {
+      "title": "Exhibition -Living Lightly: Journey with the Pastoralists",
+      "titleEn": "Exhibition -Living Lightly: Journey with the Pastoralists",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "art",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-living-lightly-journey-pastoralists",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:18:56.427991+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-living-lightly-journey-pastoralists"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A temporary exhibition in the IIC Experience festival. One programme interval; date-keyed windows are visiting hours, not daily performances.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Gandhi-King Memorial Plaza, IIC main. Opening-day visit begins no earlier than the announced inauguration 17:30; later dates11:00–19:00.",
+      "programmeId": "new-delhi-delhi-iic-ace0eba4df",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-ace0eba4df-range",
+      "date": "2026-10-30",
+      "time": null,
+      "end": null,
+      "endDate": "2026-11-03",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-10-30": {
+          "start": "17:30",
+          "end": "19:00"
+        },
+        "2026-10-31": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-01": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-02": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-03": {
+          "start": "11:00",
+          "end": "19:00"
+        }
+      },
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingHoursSource": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-living-lightly-journey-pastoralists"
+    },
+    {
+      "title": "EXHIBITIONS -Palms and Parchment: Keralam’s Heritage of Reading and Relics",
+      "titleEn": "EXHIBITIONS -Palms and Parchment: Keralam’s Heritage of Reading and Relics",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "art",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experiencea-festival-arts-exhibitions-palms-and-parchment-keralams-heritage-reading",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:00.506896+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experiencea-festival-arts-exhibitions-palms-and-parchment-keralams-heritage-reading"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A temporary exhibition in the IIC Experience festival. One programme interval; date-keyed windows are visiting hours, not daily performances.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Conference Room I, IIC main. Opening-day visit begins no earlier than the announced inauguration 16:00; later dates11:00–19:00.",
+      "programmeId": "new-delhi-delhi-iic-2d2b9a9cd6",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-2d2b9a9cd6-range",
+      "date": "2026-10-30",
+      "time": null,
+      "end": null,
+      "endDate": "2026-11-03",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-10-30": {
+          "start": "16:00",
+          "end": "19:00"
+        },
+        "2026-10-31": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-01": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-02": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-03": {
+          "start": "11:00",
+          "end": "19:00"
+        }
+      },
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingHoursSource": "https://iicdelhi.in/programmes/iic-experiencea-festival-arts-exhibitions-palms-and-parchment-keralams-heritage-reading"
+    },
+    {
+      "title": "Exhibition- Birds of India: Company Paintings c.1800 and 1835",
+      "titleEn": "Exhibition- Birds of India: Company Paintings c.1800 and 1835",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "art",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-birds-india-company-paintings-c1800-and-1835",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:03.498800+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-birds-india-company-paintings-c1800-and-1835"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A temporary exhibition in the IIC Experience festival. One programme interval; date-keyed windows are visiting hours, not daily performances.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Art Gallery, Kamaladevi Complex, IIC. Opening-day visit begins no earlier than the announced inauguration 11:30; later dates11:00–19:00.",
+      "programmeId": "new-delhi-delhi-iic-acd0676b89",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-acd0676b89-range",
+      "date": "2026-10-31",
+      "time": null,
+      "end": null,
+      "endDate": "2026-11-14",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-10-31": {
+          "start": "11:30",
+          "end": "19:00"
+        },
+        "2026-11-01": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-02": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-03": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-04": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-05": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-06": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-07": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-08": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-09": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-10": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-11": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-12": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-13": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-14": {
+          "start": "11:00",
+          "end": "19:00"
+        }
+      },
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingHoursSource": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-birds-india-company-paintings-c1800-and-1835"
+    },
+    {
+      "title": "Wildlife Conservation in Contemporary India",
+      "titleEn": "Wildlife Conservation in Contemporary India",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "talk",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-wildlife-conservation-contemporary-india",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:06.706955+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-wildlife-conservation-contemporary-india"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A public cultural discussion in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: C.D. Deshmukh Auditorium, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-793788342b",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-793788342b-20261031-1030",
+      "date": "2026-10-31",
+      "time": "10:30",
+      "end": null,
+      "startAt": "2026-10-31T10:30:00+05:30"
+    },
+    {
+      "title": "The World within the Word- Poetry Reading Session on Nature",
+      "titleEn": "The World within the Word- Poetry Reading Session on Nature",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "literature",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-world-within-word-poetry-reading-session-nature",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:09.336886+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-world-within-word-poetry-reading-session-nature"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A literary programme in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Seminar Rooms 1,2,3. ",
+      "programmeId": "new-delhi-delhi-iic-41fe99ff23",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-41fe99ff23-20261031-1230",
+      "date": "2026-10-31",
+      "time": "12:30",
+      "end": null,
+      "startAt": "2026-10-31T12:30:00+05:30"
+    },
+    {
+      "title": "Nirvana Nataka",
+      "titleEn": "Nirvana Nataka",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "music",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-nirvana-nataka",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:12.146811+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-nirvana-nataka"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A live Indian classical or traditional music recital in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Fountain Lawns, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-384080d71d",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-384080d71d-20261031-1830",
+      "date": "2026-10-31",
+      "time": "18:30",
+      "end": null,
+      "startAt": "2026-10-31T18:30:00+05:30"
+    },
+    {
+      "title": "The Written Word and Social Progress: How Kerala Achieved 100% Literacy",
+      "titleEn": "The Written Word and Social Progress: How Kerala Achieved 100% Literacy",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "talk",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-written-word-and-social-progress-how-kerala-achieved-100",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:15.576758+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-written-word-and-social-progress-how-kerala-achieved-100"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A public cultural discussion in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Seminar Rooms 1,2,3. ",
+      "programmeId": "new-delhi-delhi-iic-93f4f69ec1",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-93f4f69ec1-20261031-1530",
+      "date": "2026-10-31",
+      "time": "15:30",
+      "end": null,
+      "startAt": "2026-10-31T15:30:00+05:30"
+    },
+    {
+      "title": "Classical Vocal Recital",
+      "titleEn": "Classical Vocal Recital",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "music",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-classical-vocal-recital",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:18.275627+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-classical-vocal-recital"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A live Indian classical or traditional music recital in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: C.D. Deshmukh Auditorium, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-69f7fa8d03",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-69f7fa8d03-20261101-1100",
+      "date": "2026-11-01",
+      "time": "11:00",
+      "end": null,
+      "startAt": "2026-11-01T11:00:00+05:30"
+    },
+    {
+      "title": "Architecture, Urban Landscapes and the Future of Cities",
+      "titleEn": "Architecture, Urban Landscapes and the Future of Cities",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "talk",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-architecture-urban-landscapes-and-future-cities",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:22.143829+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-architecture-urban-landscapes-and-future-cities"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A public cultural discussion in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Conference Room II, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-0a69b34903",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-0a69b34903-20261101-1600",
+      "date": "2026-11-01",
+      "time": "16:00",
+      "end": null,
+      "startAt": "2026-11-01T16:00:00+05:30"
+    },
+    {
+      "title": "Khon- Classical masked dance drama from Thailand",
+      "titleEn": "Khon- Classical masked dance drama from Thailand",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "theatre",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-khon-classical-masked-dance-drama-thailand",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:24.907659+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-khon-classical-masked-dance-drama-thailand"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A dance performance in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Fountain Lawns, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-2c7c59bf71",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-2c7c59bf71-20261101-1830",
+      "date": "2026-11-01",
+      "time": "18:30",
+      "end": null,
+      "startAt": "2026-11-01T18:30:00+05:30"
+    },
+    {
+      "title": "Guardians of the Grasslands: Pastoralism, Mobility and Ecology",
+      "titleEn": "Guardians of the Grasslands: Pastoralism, Mobility and Ecology",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "talk",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-guardians-grasslands-pastoralism-mobility-and-ecology",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:34.352033+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-guardians-grasslands-pastoralism-mobility-and-ecology"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A public cultural discussion in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Conference Room II, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-2cc10cb016",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-2cc10cb016-20261102-1600",
+      "date": "2026-11-02",
+      "time": "16:00",
+      "end": null,
+      "startAt": "2026-11-02T16:00:00+05:30"
+    },
+    {
+      "title": "RAGA, A knot in the air",
+      "titleEn": "RAGA, A knot in the air",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "music",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-art-raga-knot-air",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:41.155826+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-art-raga-knot-air"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A live Indian classical or traditional music recital in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Fountain Lawns, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-16a7745f12",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-16a7745f12-20261102-1830",
+      "date": "2026-11-02",
+      "time": "18:30",
+      "end": null,
+      "startAt": "2026-11-02T18:30:00+05:30"
+    },
+    {
+      "title": "Release of the IIC Quarterly: Autumn 2026",
+      "titleEn": "Release of the IIC Quarterly: Autumn 2026",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "literature",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-release-iic-quarterly-autumn-2026",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:51.623457+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-release-iic-quarterly-autumn-2026"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A literary programme in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Gandhi-King Memorial Plaza, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-9385fae097",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-9385fae097-20261102-1600",
+      "date": "2026-11-02",
+      "time": "16:00",
+      "end": null,
+      "startAt": "2026-11-02T16:00:00+05:30"
+    },
+    {
+      "title": "The Emotional World of Raga",
+      "titleEn": "The Emotional World of Raga",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "music",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-emotional-world-raga",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:54.310418+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-emotional-world-raga"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A live Indian classical or traditional music recital in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Fountain Lawns, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-6c788fe65d",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-6c788fe65d-20261103-1830",
+      "date": "2026-11-03",
+      "time": "18:30",
+      "end": null,
+      "startAt": "2026-11-03T18:30:00+05:30"
+    },
+    {
+      "title": "Seeds of Resilience: Women, Family Farms, and the Future of Nutritious Food Systems",
+      "titleEn": "Seeds of Resilience: Women, Family Farms, and the Future of Nutritious Food Systems",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "talk",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-seeds-resilience-women-family-farms-and-future-nutritious",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:19:56.847649+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-seeds-resilience-women-family-farms-and-future-nutritious"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A public cultural discussion in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Conference Room II, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-4a0c02e3f9",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-4a0c02e3f9-20261103-1130",
+      "date": "2026-11-03",
+      "time": "11:30",
+      "end": null,
+      "startAt": "2026-11-03T11:30:00+05:30"
+    },
+    {
+      "title": "Ecology at the Crossroads of Climate Change",
+      "titleEn": "Ecology at the Crossroads of Climate Change",
+      "venue": "India International Centre — main campus",
+      "venueId": "new-delhi-venue-iic",
+      "placeId": "new-delhi-venue-iic",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "category": "talk",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-ecology-crossroads-climate-change",
+      "additionalEvidenceUrls": [
+        "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+        "https://iicdelhi.in/programmes"
+      ],
+      "checkedAt": "2026-10-29T03:20:01.070359+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-ecology-crossroads-climate-change"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A public cultural discussion in the IIC Experience festival.",
+      "admission": "IIC states most programmes are public without tickets or invitations; no event-specific paid tariff or registration requirement is published. Check the named room; capacity may be limited. Room: Conference Room II, IIC main. ",
+      "programmeId": "new-delhi-delhi-iic-83e92bd620",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-iic-83e92bd620-20261103-1600",
+      "date": "2026-11-03",
+      "time": "16:00",
+      "end": null,
+      "startAt": "2026-11-03T16:00:00+05:30"
+    },
+    {
+      "title": "In-Rhythm: Bice Lazzari and Nasreen Mohamedi",
+      "titleEn": "In-Rhythm: Bice Lazzari and Nasreen Mohamedi",
+      "venue": "Kiran Nadar Museum of Art — Saket",
+      "venueId": "new-delhi-venue-knma",
+      "placeId": "new-delhi-venue-knma",
+      "address": "145, DLF South Court Mall, Saket, New Delhi 110017",
+      "category": "art",
+      "lat": 28.5285667,
+      "lng": 77.2204946,
+      "coordinateSource": "https://www.knma.org/visit/saket/",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Own GetDirection link contains named Google place !3d28.5285667!4d77.2204946, distinct from viewport28.5285843,77.2020405. Groundfloor SouthCourt; not separate ArtPassage.",
+      "coordinateCheckedAt": "2026-10-29T03:21:18.044046+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.knma.org/whats-on/exhibitions/bice-lazzari-and-nasreen-mohamedi-in-rhythm/",
+      "additionalEvidenceUrls": [
+        "https://www.knma.org/visit/saket/",
+        "https://www.knma.org/visit/saket/"
+      ],
+      "checkedAt": "2026-10-29T03:20:09.840584+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://www.knma.org/whats-on/exhibitions/bice-lazzari-and-nasreen-mohamedi-in-rhythm"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free museum admission; reception registration required.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "An exhibition placing two independent abstract practices in dialogue. One programme interval; date-keyed windows are visiting hours, not daily performances.",
+      "admission": "Free museum admission; register at reception. Tuesday–Sunday11:00–20:00; Monday closed. Security checks; no food/drink or flash photography. Special public-holiday exceptions not confirmed. Nov8/24 visiting windows withheld as holiday-hours unconfirmed, not declared closed.",
+      "programmeId": "new-delhi-delhi-knma-in-rhythm",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-knma-in-rhythm-range",
+      "date": "2026-09-09",
+      "time": null,
+      "end": null,
+      "endDate": "2026-12-22",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-31": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-01": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-03": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-04": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-05": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-07": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-10": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-11": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-12": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-14": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-15": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-17": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-18": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-19": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-21": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-22": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-25": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-26": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "11:00",
+          "end": "20:00"
+        }
+      },
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingHoursSource": "https://www.knma.org/whats-on/exhibitions/bice-lazzari-and-nasreen-mohamedi-in-rhythm/"
+    },
+    {
+      "title": "Inheritors of Earth",
+      "titleEn": "Inheritors of Earth",
+      "venue": "Kiran Nadar Museum of Art — Saket",
+      "venueId": "new-delhi-venue-knma",
+      "placeId": "new-delhi-venue-knma",
+      "address": "145, DLF South Court Mall, Saket, New Delhi 110017",
+      "category": "art",
+      "lat": 28.5285667,
+      "lng": 77.2204946,
+      "coordinateSource": "https://www.knma.org/visit/saket/",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Own GetDirection link contains named Google place !3d28.5285667!4d77.2204946, distinct from viewport28.5285843,77.2020405. Groundfloor SouthCourt; not separate ArtPassage.",
+      "coordinateCheckedAt": "2026-10-29T03:21:18.044046+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.knma.org/whats-on/exhibitions/inheritors-of-earth/",
+      "additionalEvidenceUrls": [
+        "https://www.knma.org/visit/saket/",
+        "https://www.knma.org/visit/saket/"
+      ],
+      "checkedAt": "2026-10-29T03:20:15.824257+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://www.knma.org/whats-on/exhibitions/inheritors-of-earth"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free museum admission; reception registration required.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Contemporary art explores plants, ecological histories and coexistence. One programme interval; date-keyed windows are visiting hours, not daily performances.",
+      "admission": "Free museum admission; register at reception. Tuesday–Sunday11:00–20:00; Monday closed. Security checks; no food/drink or flash photography. Special public-holiday exceptions not confirmed. Nov8/24 visiting windows withheld as holiday-hours unconfirmed, not declared closed.",
+      "programmeId": "new-delhi-delhi-knma-inheritors",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-knma-inheritors-range",
+      "date": "2026-09-09",
+      "time": null,
+      "end": null,
+      "endDate": "2026-12-22",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-31": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-01": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-03": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-04": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-05": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-07": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-10": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-11": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-12": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-14": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-15": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-17": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-18": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-19": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-21": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-22": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-25": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-26": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "11:00",
+          "end": "20:00"
+        }
+      },
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingHoursSource": "https://www.knma.org/whats-on/exhibitions/inheritors-of-earth/"
+    },
+    {
+      "title": "Dots and Lines — Sarita Chouhan",
+      "titleEn": "Dots and Lines — Sarita Chouhan",
+      "venue": "Kiran Nadar Museum of Art — Saket",
+      "venueId": "new-delhi-venue-knma",
+      "placeId": "new-delhi-venue-knma",
+      "address": "145, DLF South Court Mall, Saket, New Delhi 110017",
+      "category": "workshop",
+      "lat": 28.5285667,
+      "lng": 77.2204946,
+      "coordinateSource": "https://www.knma.org/visit/saket/",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Own GetDirection link contains named Google place !3d28.5285667!4d77.2204946, distinct from viewport28.5285843,77.2020405. Groundfloor SouthCourt; not separate ArtPassage.",
+      "coordinateCheckedAt": "2026-10-29T03:21:18.044046+00:00",
+      "source": "Organizer announcement / authorized ticket service",
+      "sourceUrl": "https://www.district.in/events/dots-and-lines-oct31-2026-buy-tickets",
+      "additionalEvidenceUrls": [
+        "https://www.knma.org/visit/saket/",
+        "https://www.knma.org/whats-on/workshops/dots-and-lines"
+      ],
+      "checkedAt": "2026-10-29T03:28:54.964269+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://www.district.in/events/dots-and-lines-oct31-2026-buy-tickets"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": 300,
+      "min": true,
+      "priceNote": "From INR300; mandatory booking fees unknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A drawing workshop exploring rhythm, movement and abstraction; no prior drawing experience required.",
+      "admission": "Age16+; ticket required. Advertised11:00–16:00 workshop window; actual end not inferred from calendar alone. Mandatory booking fees not confirmed.",
+      "programmeId": "new-delhi-delhi-knma-dots",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-knma-dots-20261031-1100",
+      "date": "2026-10-31",
+      "time": "11:00",
+      "end": null,
+      "startAt": "2026-10-31T11:00:00+05:30"
+    },
+    {
+      "title": "Skipping Time — Murari Jha",
+      "titleEn": "Skipping Time — Murari Jha",
+      "venue": "Kiran Nadar Museum of Art — Saket",
+      "venueId": "new-delhi-venue-knma",
+      "placeId": "new-delhi-venue-knma",
+      "address": "145, DLF South Court Mall, Saket, New Delhi 110017",
+      "category": "art",
+      "lat": 28.5285667,
+      "lng": 77.2204946,
+      "coordinateSource": "https://www.knma.org/visit/saket/",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Own GetDirection link contains named Google place !3d28.5285667!4d77.2204946, distinct from viewport28.5285843,77.2020405. Groundfloor SouthCourt; not separate ArtPassage.",
+      "coordinateCheckedAt": "2026-10-29T03:21:18.044046+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.knma.org/whats-on/events/skipping-time/",
+      "additionalEvidenceUrls": [
+        "https://www.knma.org/visit/saket/"
+      ],
+      "checkedAt": "2026-10-29T03:20:41.419940+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://www.knma.org/whats-on/events/skipping-time"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A durational performance responding to labour, migration and the plant-world themes of Inheritors of Earth.",
+      "admission": "Programme advertises17:00–20:00, but exact actual end is not established independently of calendar. Museum is generally free; special-event fee or reservation not published.",
+      "programmeId": "new-delhi-delhi-knma-skipping",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-knma-skipping-20261113-1700",
+      "date": "2026-11-13",
+      "time": "17:00",
+      "end": null,
+      "startAt": "2026-11-13T17:00:00+05:30"
+    },
+    {
+      "title": "Dastkar Festival of Lights",
+      "titleEn": "Dastkar Festival of Lights",
+      "venue": "Dastkar Nature Bazaar",
+      "venueId": "new-delhi-venue-dastkar",
+      "placeId": "new-delhi-venue-dastkar",
+      "address": "Nature Bazaar, Andheria Modh, Anuvrat Marg, New Delhi 110074",
+      "category": "festival",
+      "lat": 28.50884819,
+      "lng": 77.17855072,
+      "coordinateSource": "https://www.waze.com/live-map/directions/dastkar%2C-chattarpur-new-delhi?to=place.w.50594077.505809699.13441699",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Full named Waze destination marker, not viewport; matches programme named venue and street address.",
+      "coordinateCheckedAt": "2026-10-29T03:20:28.836007+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.dastkar.org/event-details/festival-of-lights-22nd-oct-to-3rd-nov-2026",
+      "additionalEvidenceUrls": [
+        "https://www.waze.com/live-map/directions/dastkar%2C-chattarpur-new-delhi?to=place.w.50594077.505809699.13441699",
+        "https://static.wixstatic.com/media/dfbfa8_244122e3a0014666961209cc535bbe74~mv2.jpeg"
+      ],
+      "checkedAt": "2026-10-29T03:18:05.950255+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://www.dastkar.org/event-details/festival-of-lights-22nd-oct-to-3rd-nov-2026"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": 50,
+      "min": false,
+      "priceNote": "INR50 at venue; additional activity charges not confirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A craft bazaar featuring textiles, handmade objects, artisan stalls and food. One programme interval; date-keyed windows are visiting hours, not daily performances.",
+      "admission": "Tickets available at venue. Official poster11:00–19:30, weekendsuntil22:00; Friday extension not explicit so not assumed. Pets on leash welcome. Do not confuse officehours with fairhours.",
+      "programmeId": "new-delhi-delhi-dastkar-lights",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [
+        {
+          "resolution": "Own official poster19:30 normal close overrides generic calendar19:00; Sat/Sun22:00 only explicitweekends. Specific performance claims fromsecondary remainunverified."
+        }
+      ],
+      "id": "new-delhi-delhi-dastkar-lights-range",
+      "date": "2026-10-22",
+      "time": null,
+      "end": null,
+      "endDate": "2026-11-03",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "11:00",
+          "end": "19:30"
+        },
+        "2026-10-30": {
+          "start": "11:00",
+          "end": "19:30"
+        },
+        "2026-10-31": {
+          "start": "11:00",
+          "end": "22:00"
+        },
+        "2026-11-01": {
+          "start": "11:00",
+          "end": "22:00"
+        },
+        "2026-11-02": {
+          "start": "11:00",
+          "end": "19:30"
+        },
+        "2026-11-03": {
+          "start": "11:00",
+          "end": "19:30"
+        }
+      },
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingHoursSource": "https://www.dastkar.org/event-details/festival-of-lights-22nd-oct-to-3rd-nov-2026"
+    },
+    {
+      "title": "Dastkar Grand Handloom Fair",
+      "titleEn": "Dastkar Grand Handloom Fair",
+      "venue": "Dastkar Nature Bazaar",
+      "venueId": "new-delhi-venue-dastkar",
+      "placeId": "new-delhi-venue-dastkar",
+      "address": "Nature Bazaar, Andheria Modh, Anuvrat Marg, New Delhi 110074",
+      "category": "festival",
+      "lat": 28.50884819,
+      "lng": 77.17855072,
+      "coordinateSource": "https://www.waze.com/live-map/directions/dastkar%2C-chattarpur-new-delhi?to=place.w.50594077.505809699.13441699",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Full named Waze destination marker, not viewport; matches programme named venue and street address.",
+      "coordinateCheckedAt": "2026-10-29T03:20:28.836007+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.dastkar.org/event-details/the-grand-handloom-fair-14th-to-23rd-nov-2026",
+      "additionalEvidenceUrls": [
+        "https://www.waze.com/live-map/directions/dastkar%2C-chattarpur-new-delhi?to=place.w.50594077.505809699.13441699"
+      ],
+      "checkedAt": "2026-10-29T03:18:10.812210+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://www.dastkar.org/event-details/the-grand-handloom-fair-14th-to-23rd-nov-2026"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A bazaar presenting handwoven textiles and regional weaving traditions. One programme interval; date-keyed windows are visiting hours, not daily performances.",
+      "admission": "Tickets only at venue. Calendar first11:00/last19:00 does not establish daily visiting hours; hours and entry fee unconfirmed.",
+      "programmeId": "new-delhi-delhi-dastkar-handloom",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-dastkar-handloom-range",
+      "date": "2026-11-14",
+      "time": null,
+      "end": null,
+      "endDate": "2026-11-23",
+      "dateType": "published_interval",
+      "visitSchedule": {},
+      "openingHoursKnown": false,
+      "openingHoursUnknown": true,
+      "openingHoursSource": "https://www.dastkar.org/event-details/the-grand-handloom-fair-14th-to-23rd-nov-2026"
+    },
+    {
+      "title": "Jashn-e-Waseem Barelvi Mushairah & Kavi Sammelan",
+      "titleEn": "Jashn-e-Waseem Barelvi Mushairah & Kavi Sammelan",
+      "venue": "Gandhi Peace Foundation",
+      "venueId": "new-delhi-venue-gandhi",
+      "placeId": "new-delhi-venue-gandhi",
+      "address": "221–223 Pandit Deendayal Upadhyay Marg, New Delhi 110002",
+      "category": "literature",
+      "lat": 28.6296739,
+      "lng": 77.2368443,
+      "coordinateSource": "https://www.waze.com/live-map/directions/in/dl/new-delhi/gandhi-peace-foundation?to=place.ChIJ_4eZsiv9DDkRHCrGMQ5XuFI",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Full named Waze destination marker, not viewport; matches programme named venue and street address.",
+      "coordinateCheckedAt": "2026-10-29T03:23:54.591946+00:00",
+      "source": "Organizer announcement / authorized ticket service",
+      "sourceUrl": "https://allevents.in/new-delhi/jashn-e-waseem-barelvi-mushairah-and-kavi-sammelan/100002003402331303",
+      "additionalEvidenceUrls": [
+        "https://www.waze.com/live-map/directions/in/dl/new-delhi/gandhi-peace-foundation?to=place.ChIJ_4eZsiv9DDkRHCrGMQ5XuFI"
+      ],
+      "checkedAt": "2026-10-29T03:21:57.928549+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme date / explicit dated organizer index and source detail",
+        "url": "https://delhi2go.in/go/jashn-e-waseem-barelvi-mushaira-kavi-sammelan-20261031-7be863"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free general-admission registration.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A poetry gathering honouring Waseem Barelvi, with Urdu poets and kavi sammelan participants.",
+      "admission": "Free registration ticket available. Doors18:30; programme19:00. Expected finish by22:30 is approximate, not verified actual end.",
+      "programmeId": "new-delhi-delhi-jashn-barelvi",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [
+        {
+          "resolution": "Primary full prose19:00 programme overrides calendar/secondary18:30 doors."
+        }
+      ],
+      "id": "new-delhi-delhi-jashn-barelvi-20261031-1900",
+      "date": "2026-10-31",
+      "time": "19:00",
+      "end": null,
+      "startAt": "2026-10-31T19:00:00+05:30"
+    },
+    {
+      "title": "India Art Festival — New Delhi",
+      "titleEn": "India Art Festival — New Delhi",
+      "venue": "Constitution Club of India",
+      "venueId": "new-delhi-venue-constitution",
+      "placeId": "new-delhi-venue-constitution",
+      "address": "Rafi Marg, Sansad Marg Area, New Delhi 110001",
+      "category": "art",
+      "lat": 28.6196139,
+      "lng": 77.21332819999999,
+      "coordinateSource": "https://www.waze.com/live-map/directions/in/dl/new-delhi/constitution-club-of-india?to=place.ChIJX0VLh7TiDDkRBDpM7KIID8s",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Full named Waze destination marker, not viewport; matches programme named venue and street address.",
+      "coordinateCheckedAt": "2026-10-29T03:28:51.628142+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://indiaartfestival.com/",
+      "additionalEvidenceUrls": [
+        "https://www.waze.com/live-map/directions/in/dl/new-delhi/constitution-club-of-india?to=place.ChIJX0VLh7TiDDkRBDpM7KIID8s",
+        "https://indiaartfestival.com/wp-content/uploads/2020/12/01-IAF-website-TOP-Banner-950X113-Aug-2026-scaled.jpg"
+      ],
+      "checkedAt": "2026-10-29T03:23:49.775574+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full official2026 programme banner visually inspected and retained.",
+        "url": "https://indiaartfestival.com/"
+      },
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "An art fair bringing together galleries and independent artists. One programme interval; date-keyed windows are visiting hours, not daily performances.",
+      "admission": "Official banner confirms20–22November2026 at ConstitutionClub. Public opening hours, entry tiers and mandatory fees not confirmed; no opening window inferred from venuehours.",
+      "programmeId": "new-delhi-delhi-india-art-festival",
+      "endEvidence": "No actual end inferred from calendar-only end, duration or expected end.",
+      "correctionHistory": [],
+      "id": "new-delhi-delhi-india-art-festival-range",
+      "date": "2026-11-20",
+      "time": null,
+      "end": null,
+      "endDate": "2026-11-22",
+      "dateType": "published_interval",
+      "visitSchedule": {},
+      "openingHoursKnown": false,
+      "openingHoursUnknown": true,
+      "openingHoursSource": "https://indiaartfestival.com/"
+    }
+  ],
+  "places": [
+    {
+      "id": "new-delhi-venue-iic",
+      "title": "India International Centre — main campus",
+      "address": "40 Max Mueller Marg / K. K. Birla Lane, New Delhi 110003",
+      "lat": 28.5935312375,
+      "lng": 77.222719775,
+      "coordinateSource": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Named arts_centre campus boundary way1355894099, address40 and name verified in XML. Boundary mean approximate campus marker, not Annexe and not hall entrance. Own venue page confirms named main-campus rooms.",
+      "coordinateCheckedAt": "2026-10-29T03:25:25.076448+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-rukkha-rakkha-yakkha-foundational-evidence-tree-worship",
+      "checkedAt": "2026-10-29T03:13:03.102704+00:00",
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "category": "city",
+      "openingNote": "Named programme venue; consult each programme for opening windows and admission."
+    },
+    {
+      "id": "new-delhi-venue-knma",
+      "title": "Kiran Nadar Museum of Art — Saket",
+      "address": "145, DLF South Court Mall, Saket, New Delhi 110017",
+      "lat": 28.5285667,
+      "lng": 77.2204946,
+      "coordinateSource": "https://www.knma.org/visit/saket/",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Own GetDirection link contains named Google place !3d28.5285667!4d77.2204946, distinct from viewport28.5285843,77.2020405. Groundfloor SouthCourt; not separate ArtPassage.",
+      "coordinateCheckedAt": "2026-10-29T03:21:18.044046+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.knma.org/whats-on/exhibitions/bice-lazzari-and-nasreen-mohamedi-in-rhythm/",
+      "checkedAt": "2026-10-29T03:20:09.840584+00:00",
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "category": "city",
+      "openingNote": "Named programme venue; consult each programme for opening windows and admission."
+    },
+    {
+      "id": "new-delhi-venue-dastkar",
+      "title": "Dastkar Nature Bazaar",
+      "address": "Nature Bazaar, Andheria Modh, Anuvrat Marg, New Delhi 110074",
+      "lat": 28.50884819,
+      "lng": 77.17855072,
+      "coordinateSource": "https://www.waze.com/live-map/directions/dastkar%2C-chattarpur-new-delhi?to=place.w.50594077.505809699.13441699",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Full named Waze destination marker, not viewport; matches programme named venue and street address.",
+      "coordinateCheckedAt": "2026-10-29T03:20:28.836007+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.dastkar.org/event-details/festival-of-lights-22nd-oct-to-3rd-nov-2026",
+      "checkedAt": "2026-10-29T03:18:05.950255+00:00",
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "category": "city",
+      "openingNote": "Named programme venue; consult each programme for opening windows and admission."
+    },
+    {
+      "id": "new-delhi-venue-gandhi",
+      "title": "Gandhi Peace Foundation",
+      "address": "221–223 Pandit Deendayal Upadhyay Marg, New Delhi 110002",
+      "lat": 28.6296739,
+      "lng": 77.2368443,
+      "coordinateSource": "https://www.waze.com/live-map/directions/in/dl/new-delhi/gandhi-peace-foundation?to=place.ChIJ_4eZsiv9DDkRHCrGMQ5XuFI",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Full named Waze destination marker, not viewport; matches programme named venue and street address.",
+      "coordinateCheckedAt": "2026-10-29T03:23:54.591946+00:00",
+      "source": "Organizer announcement / authorized ticket service",
+      "sourceUrl": "https://allevents.in/new-delhi/jashn-e-waseem-barelvi-mushairah-and-kavi-sammelan/100002003402331303",
+      "checkedAt": "2026-10-29T03:21:57.928549+00:00",
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "category": "city",
+      "openingNote": "Named programme venue; consult each programme for opening windows and admission."
+    },
+    {
+      "id": "new-delhi-venue-constitution",
+      "title": "Constitution Club of India",
+      "address": "Rafi Marg, Sansad Marg Area, New Delhi 110001",
+      "lat": 28.6196139,
+      "lng": 77.21332819999999,
+      "coordinateSource": "https://www.waze.com/live-map/directions/in/dl/new-delhi/constitution-club-of-india?to=place.ChIJX0VLh7TiDDkRBDpM7KIID8s",
+      "coordinatePrecision": "named venue/building or campus approximate; not room entrance",
+      "coordinateEvidence": "Full named Waze destination marker, not viewport; matches programme named venue and street address.",
+      "coordinateCheckedAt": "2026-10-29T03:28:51.628142+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://indiaartfestival.com/",
+      "checkedAt": "2026-10-29T03:23:49.775574+00:00",
+      "currency": "INR",
+      "timezone": "Asia/Kolkata",
+      "category": "city",
+      "openingNote": "Named programme venue; consult each programme for opening windows and admission."
+    }
+  ],
+  "sources": [
+    {
+      "id": "new-delhi-source-3d2aecfa411eaa",
+      "name": "New Delhi source",
+      "url": "https://www.visitdilli.com/events",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:15:54.721638+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "new-delhi-source-d7802aa317b599",
+      "name": "Things to Do in Delhi Today & This Weekend — Events in Delhi NCR",
+      "url": "https://delhi2go.in/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:10:48.881026+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-7064aff68aca97",
+      "name": "New Delhi source",
+      "url": "https://indiahabitat.org/Programmes",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:10:54.963762+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 406"
+    },
+    {
+      "id": "new-delhi-source-cc958a05dd9599",
+      "name": "New Delhi source",
+      "url": "https://indiahabitat.org/Exhibitions_Details",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:10:58.977561+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 406"
+    },
+    {
+      "id": "new-delhi-source-66dc9b85576e8e",
+      "name": "home page | India International Centre",
+      "url": "https://iicdelhi.in/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:11:01.562547+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-f45c47085c980a",
+      "name": "Cultural Events in Delhi | Theatre, Art, Music & Public Programmes",
+      "url": "https://newdelhipulse.in/events/cultural-events-delhi/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:11:05.542483+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-40afa267155311",
+      "name": "Current Programmes | India International Centre",
+      "url": "https://iicdelhi.in/programmes/current",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:12:47.501608+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-8cb098f20fce86",
+      "name": "THE IIC EXPERIENCE: A FESTIVAL OF THE ARTS: Rukkha, Rakkha, Yakkha: Foundational Evidence for Tree Worship in Indian Art | India International Centre",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-29th-october-3rd-november-2026-prakriti-ecology-and",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:13:03.102704+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-e96700aadc09b4",
+      "name": "THE IIC EXPERIENCE: A FESTIVAL OF THE ARTS -EXHIBITION -FESTIVAL CURTAIN RAISER | India International Centre",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-festival-curtain-raiser",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:13:11.469180+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-c7074f036cf79e",
+      "name": "THE IIC EXPERIENCE: A FESTIVAL OF THE ARTS: Rukkha, Rakkha, Yakkha: Foundational Evidence for Tree Worship in Indian Art | India International Centre",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-rukkha-rakkha-yakkha-foundational-evidence-tree-worship",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:13:14.133744+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-84d71c7bd350d6",
+      "name": "THE IIC EXPERIENCE: A FESTIVAL OF THE ARTS- Film Festival | India International Centre",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-film-festival",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:13:17.061821+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-4a2363a043864c",
+      "name": "THE IIC EXPERIENCE: A FESTIVAL OF THE ARTS – Scent of the Earth | India International Centre",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-scent-earth",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:13:20.086333+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-8f4afe4c4e6016",
+      "name": "New Delhi source",
+      "url": "https://delhi-fun-dos.com/events/",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:15:59.383471+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "new-delhi-source-2222db6b1243c3",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/current?page=1",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:17:55.791080+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-4f041a8fdcdcaf",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:18:01.308174+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-c92ad6a5ebc647",
+      "name": "New Delhi source",
+      "url": "https://www.dastkar.org/event-details/festival-of-lights-22nd-oct-to-3rd-nov-2026",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:18:05.950255+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-87f9544de63cc6",
+      "name": "New Delhi source",
+      "url": "https://www.dastkar.org/event-details/the-grand-handloom-fair-14th-to-23rd-nov-2026",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:18:10.812210+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-ace0eba4df9217",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-living-lightly-journey-pastoralists",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:18:56.427991+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-2d2b9a9cd6179a",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experiencea-festival-arts-exhibitions-palms-and-parchment-keralams-heritage-reading",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:00.506896+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-acd0676b890bdd",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-birds-india-company-paintings-c1800-and-1835",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:03.498800+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-793788342b433a",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-wildlife-conservation-contemporary-india",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:06.706955+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-41fe99ff23ad6f",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-world-within-word-poetry-reading-session-nature",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:09.336886+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-384080d71d47d9",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-nirvana-nataka",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:12.146811+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-93f4f69ec12f59",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-written-word-and-social-progress-how-kerala-achieved-100",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:15.576758+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-69f7fa8d032ec3",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-classical-vocal-recital",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:18.275627+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-0a69b34903846b",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-architecture-urban-landscapes-and-future-cities",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:22.143829+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-253ab806ad1ef5",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/venue/piano-man-jazz-club",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:24.599588+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-2884e03cb2196f",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/event/jashn-e-waseem-barelvi-mushaira-kavi-sammelan-20261031-7be863",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:28.471263+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-2c7c59bf71716b",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-khon-classical-masked-dance-drama-thailand",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:24.907659+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-5e885300a80a99",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/event/extinction-delhi-launch-with-aanchal-malhotra-and-mandira-na-20261029-df1ce0",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:33.779119+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-2cc10cb01628bf",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-guardians-grasslands-pastoralism-mobility-and-ecology",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:34.352033+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-517b853dfb73a8",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/event/moteraam-ka-satyagrah-theatre-show-by-triveni-theatre-studen-20261029-3ccc83",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:37.058906+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-16a7745f12cc5b",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-art-raga-knot-air",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:41.155826+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-9385fae097915a",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-release-iic-quarterly-autumn-2026",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:51.623457+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-6c788fe65dd22a",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-emotional-world-raga",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:54.310418+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-4a0c02e3f9691e",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-seeds-resilience-women-family-farms-and-future-nutritious",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:19:56.847649+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-83e92bd620ba51",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-ecology-crossroads-climate-change",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:20:01.070359+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-f355175bc705f1",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/visit/saket/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:21:18.044046+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-163029b6ef7e72",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/exhibitions/bice-lazzari-and-nasreen-mohamedi-in-rhythm",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:20:09.840584+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-71ad3f3886cad8",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/exhibitions/inheritors-of-earth",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:20:15.824257+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-88946930abb7b9",
+      "name": "New Delhi source",
+      "url": "https://www.thepianoman.in/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:20:23.235529+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-10b441634ac1cc",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/exhibitions/pata-dekhabo",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:20:21.758070+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-3605977862f10e",
+      "name": "New Delhi source",
+      "url": "https://www.waze.com/live-map/directions/dastkar%2C-chattarpur-new-delhi?to=place.w.50594077.505809699.13441699",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:20:28.836007+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-94bceda1309e24",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/workshops/dots-and-lines",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:20:30.451550+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-0f7ff33990d241",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:20:44.316516+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-09e4b1d57d20bc",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/venues",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:20:47.478279+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-0c858ce2dc8b30",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/events/skipping-time",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:20:41.419940+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-04afe0952ed7ad",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/guided-tours/knma-curator-led-walkthrough",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:20:51.373620+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-6bc7a97c8fb5fd",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/go/jashn-e-waseem-barelvi-mushaira-kavi-sammelan-20261031-7be863",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:21:57.928549+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-65d538938ee551",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/go/extinction-delhi-launch-with-aanchal-malhotra-and-mandira-na-20261029-df1ce0",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:22:32.329655+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-96492273c53936",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/go/moteraam-ka-satyagrah-theatre-show-by-triveni-theatre-studen-20261029-3ccc83",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:23:01.586565+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-1bae6ff5300092",
+      "name": "New Delhi source",
+      "url": "https://itpo.gov.in/iitf",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:23:21.392864+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-92546f8f82deb9",
+      "name": "New Delhi source",
+      "url": "https://www.waze.com/live-map/directions/triveni-kala-sangam-tansen-marg-new-delhi?to=place.w.50594078.506137391.9236212",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:23:47.601228+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-127e2a089c868d",
+      "name": "New Delhi source",
+      "url": "https://indiaartfestival.com/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:23:49.775574+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-07497fbfe2d15a",
+      "name": "New Delhi source",
+      "url": "https://www.waze.com/live-map/directions/in/dl/new-delhi/gandhi-peace-foundation?to=place.ChIJ_4eZsiv9DDkRHCrGMQ5XuFI",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:23:54.591946+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-6801674ca1fcb6",
+      "name": "New Delhi source",
+      "url": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:25:25.076448+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-b77d771d296290",
+      "name": "New Delhi source",
+      "url": "https://in.near-place.com/art-gallery-iic-annexe-11-lodhi-gardens-lodhi-estate-new-delhi/da",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:26:51.724005+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "new-delhi-source-f585085796629d",
+      "name": "New Delhi source",
+      "url": "https://tsdsi.in/venue/lecture-room-1-india-international-centre-annexe-k-k-birla-lane-near-iic-main-building-40-max-mueller-marg-new-delhi-110003-2/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:26:54.023527+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-cd0bc773b57f2c",
+      "name": "New Delhi source",
+      "url": "https://www.waze.com/live-map/directions/in/dl/new-delhi/constitution-club-of-india?to=place.ChIJX0VLh7TiDDkRBDpM7KIID8s",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:28:51.628142+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-83aad72039e7b3",
+      "name": "New Delhi source",
+      "url": "https://www.district.in/events/dots-and-lines-oct31-2026-buy-tickets",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:28:54.964269+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-0417c0aea36cea",
+      "name": "New Delhi source",
+      "url": "https://www.google.com/maps/search/?api=1&query=India%20International%20Centre%20Annexe%2C%20Delhi",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:29:02.875339+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    }
+  ],
+  "pending": [
+    {
+      "id": "delhi-iic-annexe-prakriti",
+      "title": "EXHIBITION -FESTIVAL CURTAIN RAISER",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-festival-curtain-raiser",
+      "checkedAt": "2026-10-29T03:13:11.469180+00:00",
+      "status": "held_for_recheck",
+      "reason": "Separate Annexe point unresolved; do not borrow main-campus marker. Actual Oct29–Nov6 range11–19 verified."
+    },
+    {
+      "id": "delhi-iic-film",
+      "title": "Film Festival",
+      "sourceUrl": "https://iicdelhi.in/programmes/iic-experience-festival-arts-film-festival",
+      "checkedAt": "2026-10-29T03:13:17.061821+00:00",
+      "status": "held_for_recheck",
+      "reason": "Festival spanOct30–Nov3 calendar alone does not establish individual screening schedule/public-film eligibility."
+    },
+    {
+      "id": "delhi-extinction",
+      "title": "Extinction — Leeya Mehta",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://allevents.in/new-delhi/extinction-delhi-launch-with-aanchal-malhotra-and-mandira-nayar/200030890072837",
+      "checkedAt": "2026-10-29T03:22:32.329655+00:00",
+      "reason": "Primary actualstartOct29 18:30 versus18:00tea resolved, but Annexe venuepin wrongly maincampus in eventAPI; independent exactAnnexe unavailable."
+    },
+    {
+      "id": "delhi-pata",
+      "title": "Pata Dekhabo?",
+      "sourceUrl": "https://www.knma.org/whats-on/exhibitions/pata-dekhabo",
+      "checkedAt": "2026-10-29T03:20:21.758070+00:00",
+      "status": "held_for_recheck",
+      "reason": "Primary saysArtPassage nextAppleStore NexusSelectCitywalk, notSouthCourt museum; secondaryincorrectlyborrowsmuseumaddress. Exactpassagepin/dayclosure unresolved."
+    },
+    {
+      "id": "delhi-knma-tours",
+      "title": "KNMA Curator-Led Walkthrough",
+      "sourceUrl": "https://www.knma.org/whats-on/guided-tours/knma-curator-led-walkthrough",
+      "status": "held_for_recheck",
+      "reason": "September26–December19 interval not sufficient actualtourdates; do not repeatdaily."
+    },
+    {
+      "id": "delhi-piano",
+      "title": "The Piano Man shows",
+      "sourceUrl": "https://www.thepianoman.in/",
+      "checkedAt": "2026-10-29T03:20:23.235529+00:00",
+      "status": "held_for_recheck",
+      "reason": "Fullownmain calls clock SEATING TIME; show starts at managementdiscretion.51secondaryvenuecardsmixGurugram/Delhi; no inferredstart orimport."
+    },
+    {
+      "id": "delhi-triveni",
+      "title": "Moteraam Ka Satyagrah",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.trivenikalasangam.org/events/da5fd5d3-37b8-4d3e-8e6d-f345137ea5fa",
+      "reason": "Observedprimaryredirect200challengequarantined; secondaryfull29Oct17–19retained but notverifiedprimary."
+    },
+    {
+      "id": "delhi-iitf",
+      "title": "India International Trade Fair",
+      "sourceUrl": "https://itpo.gov.in/iitf",
+      "status": "held_for_recheck",
+      "reason": "OwnURLredirectshomeJavascriptshell; publicNov18–27vsbusiness13–17 needsfullprimaryticketdetails, noimport."
+    },
+    {
+      "id": "delhi-ncr-exclusions",
+      "status": "excluded",
+      "reason": "Gurugram/Noida/GreaterNoida/Ghaziabad/Faridabad outsideDelhiNCT excluded; broadNCRcounts not citycoverage."
+    },
+    {
+      "id": "delhi-indiahabitat",
+      "status": "held_for_recheck",
+      "reason": "406STOP; secondqueuedrequestquarantined. No postdenialdetails used."
+    },
+    {
+      "id": "delhi-dastkar-performances",
+      "status": "held_for_recheck",
+      "reason": "Qutbi/Dhrii/Gidda and workshops onlysecondarycurrentclaims, officialretainedposter no specific dates/clock; no dailyperformanceinference."
+    },
+    {
+      "id": "delhi-holidays",
+      "status": "held_for_recheck",
+      "reason": "KNMA publicholidays exceptions not currentownvisitpage; Nov8Diwali/Nov24GuruNanak possibleexceptions mustverify. No open-nowguarantee."
+    }
+  ],
+  "counts": {
+    "programmes": 26,
+    "records": 26,
+    "sessions": 18,
+    "ranges": 8,
+    "venues": 5,
+    "sources": 63,
+    "held": 12
+  },
+  "matrix": [
+    {
+      "date": "2026-10-29",
+      "sessions": 1,
+      "rangeVisits": 3,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-10-30",
+      "sessions": 1,
+      "rangeVisits": 5,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-10-31",
+      "sessions": 6,
+      "rangeVisits": 6,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-01",
+      "sessions": 3,
+      "rangeVisits": 6,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-02",
+      "sessions": 3,
+      "rangeVisits": 4,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-03",
+      "sessions": 3,
+      "rangeVisits": 6,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-04",
+      "sessions": 0,
+      "rangeVisits": 3,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-05",
+      "sessions": 0,
+      "rangeVisits": 3,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-06",
+      "sessions": 0,
+      "rangeVisits": 3,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-07",
+      "sessions": 0,
+      "rangeVisits": 3,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-08",
+      "sessions": 0,
+      "rangeVisits": 1,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-09",
+      "sessions": 0,
+      "rangeVisits": 1,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-10",
+      "sessions": 0,
+      "rangeVisits": 3,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-11",
+      "sessions": 0,
+      "rangeVisits": 3,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-12",
+      "sessions": 0,
+      "rangeVisits": 3,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-13",
+      "sessions": 1,
+      "rangeVisits": 3,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-14",
+      "sessions": 0,
+      "rangeVisits": 3,
+      "unknownHoursRanges": 1
+    },
+    {
+      "date": "2026-11-15",
+      "sessions": 0,
+      "rangeVisits": 2,
+      "unknownHoursRanges": 1
+    },
+    {
+      "date": "2026-11-16",
+      "sessions": 0,
+      "rangeVisits": 0,
+      "unknownHoursRanges": 1
+    },
+    {
+      "date": "2026-11-17",
+      "sessions": 0,
+      "rangeVisits": 2,
+      "unknownHoursRanges": 1
+    },
+    {
+      "date": "2026-11-18",
+      "sessions": 0,
+      "rangeVisits": 2,
+      "unknownHoursRanges": 1
+    },
+    {
+      "date": "2026-11-19",
+      "sessions": 0,
+      "rangeVisits": 2,
+      "unknownHoursRanges": 1
+    },
+    {
+      "date": "2026-11-20",
+      "sessions": 0,
+      "rangeVisits": 2,
+      "unknownHoursRanges": 2
+    },
+    {
+      "date": "2026-11-21",
+      "sessions": 0,
+      "rangeVisits": 2,
+      "unknownHoursRanges": 2
+    },
+    {
+      "date": "2026-11-22",
+      "sessions": 0,
+      "rangeVisits": 2,
+      "unknownHoursRanges": 2
+    },
+    {
+      "date": "2026-11-23",
+      "sessions": 0,
+      "rangeVisits": 0,
+      "unknownHoursRanges": 1
+    },
+    {
+      "date": "2026-11-24",
+      "sessions": 0,
+      "rangeVisits": 0,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-25",
+      "sessions": 0,
+      "rangeVisits": 2,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-26",
+      "sessions": 0,
+      "rangeVisits": 2,
+      "unknownHoursRanges": 0
+    },
+    {
+      "date": "2026-11-27",
+      "sessions": 0,
+      "rangeVisits": 2,
+      "unknownHoursRanges": 0
+    }
+  ]
+}

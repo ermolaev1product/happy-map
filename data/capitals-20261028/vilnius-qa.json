@@ -1,0 +1,60 @@
+{
+  "city": "vilnius",
+  "checkedAt": "2026-10-28T06:46:33.884432+00:00",
+  "baseCommit": "643357418da6fa879f5596af50652c1921ef8e31",
+  "events": 48,
+  "sessions": 45,
+  "exhibitions": 3,
+  "programmes": 38,
+  "places": 20,
+  "sources": 42,
+  "held": 23,
+  "sevenDates": [
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+  ],
+  "previewCounts": [
+    10,
+    8,
+    11,
+    9,
+    1,
+    2,
+    5
+  ],
+  "previewNear500m": [
+    4,
+    3,
+    3,
+    3,
+    0,
+    0,
+    3
+  ],
+  "weekRows": 34,
+  "wholeCityRows": 20,
+  "countryCityMap": true,
+  "rememberedReturn": true,
+  "oldFeedFilesByteIdentical": 164,
+  "limitations": [
+    "Main calendar pagination incomplete; no full coverage claim",
+    "HTTP403 detail requests respected; selected full web reads retained",
+    "Two events without trustworthy pins held",
+    "Telegram sources partial/profile only; no events imported",
+    "Map fallback labels warning; physical APK not tested"
+  ],
+  "priceCorrections": [
+    "Grand Prix35EUR not free",
+    "CAC from6EUR not standard tariff",
+    "Four MusicMagic lower-bound tariffs marked from"
+  ],
+  "coordinateCorrections": [
+    "Marriott own exact property marker replaces search-only approximation"
+  ],
+  "holidays": "Museum Nov1/2 closures reflected in actual-date visiting schedule"
+}

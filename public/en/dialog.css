@@ -1,0 +1,10 @@
+/* Shared by every city. The toolbar never scrolls with the card body. */
+.event-dialog[open]{display:flex;flex-direction:column;overflow:hidden;max-height:calc(100dvh - 30px)}
+.event-dialog .dialog-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex:0 0 auto;min-height:64px;padding:8px 12px 8px 20px;border-bottom:1px solid #e5e6df;background:#fff;position:relative;z-index:20}
+.dialog-toolbar>span{font-size:14px;font-weight:600;color:#596354}
+.event-dialog .dialog-toolbar .close-dialog{position:static;display:inline-flex;align-items:center;justify-content:center;gap:8px;width:auto;min-width:112px;height:44px;padding:0 14px;border:1px solid #d3d8cf;border-radius:12px;background:#fff;color:#242b24;font-size:14px;font-weight:600;line-height:1;cursor:pointer}
+.dialog-toolbar .close-dialog .icon{width:18px;height:18px;flex:none}
+.dialog-toolbar .close-dialog:hover{background:#f1f3ed}
+.dialog-toolbar .close-dialog:focus-visible{outline:3px solid #4669ed;outline-offset:2px}
+.event-dialog #eventDetails{min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+@media(max-width:760px){.event-dialog[open]{max-height:calc(100dvh - max(16px,env(safe-area-inset-top)) - max(16px,env(safe-area-inset-bottom)))}.event-dialog .dialog-toolbar{min-height:64px;padding-left:16px}}

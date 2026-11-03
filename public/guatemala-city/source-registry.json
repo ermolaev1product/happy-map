@@ -1,0 +1,397 @@
+{
+  "city": "Guatemala City",
+  "checkedAt": "2026-10-29T03:58:02.570325+00:00",
+  "sources": [
+    {
+      "id": "guatemala-city-source-43ccf3a923acec",
+      "name": "noticias.mcd.gob.gt",
+      "url": "https://noticias.mcd.gob.gt/agenda-cultural/",
+      "checkedAt": "2026-10-29T03:55:49.821293+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-60e166e5a9c944",
+      "name": "eventos.guatemala.com",
+      "url": "https://eventos.guatemala.com/2026/10/29",
+      "checkedAt": "2026-10-29T03:55:56.129322+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-6ad46bc3f51cf8",
+      "name": "eventos.guatemala.com",
+      "url": "https://eventos.guatemala.com/2026/10",
+      "checkedAt": "2026-10-29T03:56:07.130613+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 404"
+    },
+    {
+      "id": "guatemala-city-source-a7b063f4161517",
+      "name": "teatroenguatemala.gt",
+      "url": "https://teatroenguatemala.gt/cultura/",
+      "checkedAt": "2026-10-29T03:56:16.259465+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "guatemala-city-source-d5574c99412506",
+      "name": "guatemalacvb.com",
+      "url": "https://guatemalacvb.com/eventos/mes/2026-11/",
+      "checkedAt": "2026-10-29T03:56:19.185619+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "guatemala-city-source-be6d4c67ff6291",
+      "name": "noticias.mcd.gob.gt",
+      "url": "https://noticias.mcd.gob.gt/actividad/foro-miguel-angel-asturias-su-legado-historico-y-la-importancia-del-retorno-de-sus-restos/",
+      "checkedAt": "2026-10-29T03:56:24.378097+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-c09ad9eb0ebf2d",
+      "name": "noticias.mcd.gob.gt",
+      "url": "https://noticias.mcd.gob.gt/actividad/recorrido-noche-de-leyendas/",
+      "checkedAt": "2026-10-29T03:56:35.529914+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-3648afd4382fcb",
+      "name": "noticias.mcd.gob.gt",
+      "url": "https://noticias.mcd.gob.gt/actividad/la-tumba-del-gran-lengua-3/",
+      "checkedAt": "2026-10-29T03:56:40.984814+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-8cb170ce5846cf",
+      "name": "noticias.mcd.gob.gt",
+      "url": "https://noticias.mcd.gob.gt/actividad/homenaje-en-universidad-popular/",
+      "checkedAt": "2026-10-29T03:56:45.041473+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-7b15a043412f0d",
+      "name": "noticias.mcd.gob.gt",
+      "url": "https://noticias.mcd.gob.gt/actividad/misa-conmemorativa-y-velacion/",
+      "checkedAt": "2026-10-29T03:56:48.168234+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-fb99df89f7aa07",
+      "name": "noticias.mcd.gob.gt",
+      "url": "https://noticias.mcd.gob.gt/actividad/exposicion-de-la-revolucion-al-arte/",
+      "checkedAt": "2026-10-29T03:56:51.551550+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-5f0a00378fd2e8",
+      "name": "cceguatemala.aecid.es",
+      "url": "https://cceguatemala.aecid.es/?p=1677",
+      "checkedAt": "2026-10-29T03:56:52.098402+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-9782b07563370d",
+      "name": "fundacionpaiz.org.gt",
+      "url": "https://fundacionpaiz.org.gt/",
+      "checkedAt": "2026-10-29T03:56:58.591223+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-13526878ea565a",
+      "name": "eventos.guatemala.com",
+      "url": "https://eventos.guatemala.com/culturales/criptoarte-territorios-latentes-exposicion-de-arte-digital-ciudad-guatemala-2026.html",
+      "checkedAt": "2026-10-29T03:56:54.721483+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-dbd6af38593364",
+      "name": "noticias.mcd.gob.gt",
+      "url": "https://noticias.mcd.gob.gt/2026/10/27/festival-nacional-de-musica-camara-presenta-noches-de-rapsodia-con-el-quinteto-xocomil-y-el-pianista-jr-medina/",
+      "checkedAt": "2026-10-29T03:57:04.056988+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-31927e8f6d0d75",
+      "name": "eventos.guatemala.com",
+      "url": "https://eventos.guatemala.com/musica-conciertos/hot-latin-fest.html",
+      "checkedAt": "2026-10-29T03:57:04.267588+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-762f1c510f92bb",
+      "name": "eventos.guatemala.com",
+      "url": "https://eventos.guatemala.com/musica-conciertos/resonancias-de-guatemala.html",
+      "checkedAt": "2026-10-29T03:57:13.204516+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-7a11cecca68831",
+      "name": "eventos.guatemala.com",
+      "url": "https://eventos.guatemala.com/musica-conciertos/concierto-timo-guatemala-2026.html",
+      "checkedAt": "2026-10-29T03:57:19.456052+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-6bd5e0fc33edab",
+      "name": "cceguatemala.org",
+      "url": "https://cceguatemala.org/",
+      "checkedAt": "2026-10-29T03:57:27.118520+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-05fe7825a95681",
+      "name": "fundacionpaiz.org.gt",
+      "url": "https://fundacionpaiz.org.gt/exposicion-criptoarte-territorios-latentes/",
+      "checkedAt": "2026-10-29T03:57:36.877317+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-4a9205fdfa5ff8",
+      "name": "cceguatemala.aecid.es",
+      "url": "https://cceguatemala.aecid.es/w/inauguracion_de_la_exposicion_con_ojos_propios",
+      "checkedAt": "2026-10-29T03:57:38.305501+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-3a1c7026f31978",
+      "name": "fundacionpaiz.org.gt",
+      "url": "https://fundacionpaiz.org.gt/workshop-digital-art-from-creation-to-circulation/",
+      "checkedAt": "2026-10-29T03:57:44.564152+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-68b58b86faf76b",
+      "name": "cceguatemala.aecid.es",
+      "url": "https://cceguatemala.aecid.es/w/inauguracion_del_mural_hilos_que_hablan",
+      "checkedAt": "2026-10-29T03:57:48.424239+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-46f60e1f2ed97f",
+      "name": "cceguatemala.aecid.es",
+      "url": "https://cceguatemala.aecid.es/w/josefinos",
+      "checkedAt": "2026-10-29T03:57:51.708939+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-cad328ec083ff5",
+      "name": "fundacionpaiz.org.gt",
+      "url": "https://fundacionpaiz.org.gt/programa-educativo/",
+      "checkedAt": "2026-10-29T03:57:50.457371+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 5,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-1a05ce6ed9d17b",
+      "name": "cceguatemala.aecid.es",
+      "url": "https://cceguatemala.aecid.es/w/rutinas_domesticas_para_habitar_evitar_el_cuerpo",
+      "checkedAt": "2026-10-29T03:57:55.231970+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-531ae50dc55ff8",
+      "name": "cceguatemala.aecid.es",
+      "url": "https://cceguatemala.aecid.es/w/t%C3%ADteres-cuentos-de-casi-miedo",
+      "checkedAt": "2026-10-29T03:57:59.426970+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-96781b62929963",
+      "name": "cceguatemala.aecid.es",
+      "url": "https://cceguatemala.aecid.es/w/presentacion_el_canto_de_las_flores",
+      "checkedAt": "2026-10-29T03:58:02.570325+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-f277d2e292a369",
+      "name": "cceguatemala.aecid.es",
+      "url": "https://cceguatemala.aecid.es/w/compa%C3%B1%C3%ADa-nacional-de-teatro-cl%C3%A1sico-versos-a-viva-voz-2",
+      "checkedAt": "2026-10-29T03:58:07.868463+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-fea29b9b28ad9b",
+      "name": "www.waze.com",
+      "url": "https://www.waze.com/live-map/directions/gt/guatemala/guate/centro-cultural-de-espana-en-guatemala?to=place.ChIJ1xyfCBeiiYURq_qPwrB6qoE",
+      "checkedAt": "2026-10-29T03:58:48.459226+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-0b0f588c84c155",
+      "name": "cceguatemala.aecid.es",
+      "url": "https://cceguatemala.aecid.es/eventos/buscador-de-eventos",
+      "checkedAt": "2026-10-29T03:58:49.875743+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-147b1a7326b234",
+      "name": "www.waze.com",
+      "url": "https://www.waze.com/es/live-map/directions/fundacion-paiz-11-avenida-zona-5%2C-guatemala?to=place.w.176619666.1766131126.5053772",
+      "checkedAt": "2026-10-29T03:58:54.222967+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-1b3fc4b9c3c0ac",
+      "name": "cceguatemala.aecid.es",
+      "url": "https://cceguatemala.aecid.es/w/ciclo_de_talento_espa%C3%B1ol_2026",
+      "checkedAt": "2026-10-29T03:58:57.033931+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-92398bca057921",
+      "name": "maps.app.goo.gl",
+      "url": "https://maps.app.goo.gl/6UoRGMHVGMK9FcZZA",
+      "checkedAt": "2026-10-29T03:58:58.224401+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-8bc4889098ae09",
+      "name": "hotlatinfest.com",
+      "url": "https://hotlatinfest.com/",
+      "checkedAt": "2026-10-29T03:59:07.712468+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-388fc533d9cbf0",
+      "name": "www.eticket.gt",
+      "url": "https://www.eticket.gt/masinformacion.aspx?idevento=8738",
+      "checkedAt": "2026-10-29T03:59:11.308441+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "guatemala-city-source-3f615efbed0047",
+      "name": "proticket.store",
+      "url": "https://proticket.store/event/resonancias-de-guatemala-maestro-joaquin-orellana-4ddk/",
+      "checkedAt": "2026-10-29T03:59:14.066632+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "guatemala-city-source-7c199a66015292",
+      "name": "mcd.gob.gt",
+      "url": "https://mcd.gob.gt/convocatoria-ccmaa/",
+      "checkedAt": "2026-10-29T04:05:32.948511+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "guatemala-city-source-105f2b1b18d872",
+      "name": "guatemala.gob.gt",
+      "url": "https://guatemala.gob.gt/palacio-nacional-de-la-cultura-ofrece-recorridos-guiados/",
+      "checkedAt": "2026-10-29T04:05:45.113388+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

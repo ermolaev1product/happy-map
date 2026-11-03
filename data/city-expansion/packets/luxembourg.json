@@ -1,0 +1,2129 @@
+{
+  "cityId": "luxembourg",
+  "checkedAt": "2026-10-29T21:02:32.635573+00:00",
+  "window": {
+    "startDate": "2026-10-29",
+    "endDate": "2026-11-27"
+  },
+  "coverage": "Bounded municipal discovery plus five independent cultural operators;17cards14programmes5physicalpoints.12timedrecords5realranges, no daily-card multiplication. MuseumNov1closed; no complete-city/source-pagination/booking/liveQA claim. No Telegram imports.",
+  "events": [
+    {
+      "id": "luxembourg-casino-hearth-room-2026-range",
+      "kind": "event",
+      "title": "The Hearth Room",
+      "titleEn": "The Hearth Room",
+      "venue": "Casino Luxembourg – Forum d’art contemporain",
+      "venueId": "luxembourg-casino",
+      "address": "41, rue Notre-Dame, L-2240 Luxembourg",
+      "description": "An evolving installation by Christoph Meier and Ute Müller explores clay, collective making and the conditions of artistic production. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+      "descriptionEn": "An evolving installation by Christoph Meier and Ute Müller explores clay, collective making and the conditions of artistic production. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+      "date": "2026-09-11",
+      "time": null,
+      "end": null,
+      "endDate": "2027-01-10",
+      "endAt": null,
+      "ongoing": true,
+      "scheduleType": "daily_opening_hours",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "2026-10-30": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-31": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-01": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-02": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-04": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-05": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "2026-11-06": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-07": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-08": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-09": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-11": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-12": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "2026-11-13": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-14": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-15": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-16": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-18": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-19": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "2026-11-20": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-21": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-22": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-23": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-25": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-26": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "2026-11-27": {
+          "start": "11:00",
+          "end": "19:00"
+        }
+      },
+      "closedDates": [],
+      "category": "art",
+      "lat": 49.60978,
+      "lng": 6.12717,
+      "coordinateSource": "https://casino-luxembourg.lu/en/practical-info/contact-access",
+      "coordinatePrecision": "named_venue_building",
+      "coordinateEvidence": "Own named Organization/EventVenue JSON-LD, paired exact address; not a viewport.",
+      "source": "casino-luxembourg.lu",
+      "sourceUrl": "https://casino-luxembourg.lu/en/agenda/hearth-room",
+      "sourceURLs": [
+        "https://casino-luxembourg.lu/en/agenda/hearth-room",
+        "https://casino-luxembourg.lu/en/practical-info/contact-access"
+      ],
+      "checkedAt": "2026-10-29T16:43:14.339380+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 0,
+      "priceNote": "Own visitor page explicitly free admission.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": null,
+      "status": "scheduled",
+      "admission": "First exhibition floor stairs only; accessible entrance at 7 boulevard Roosevelt; guide/assistance dogs welcome.",
+      "provenance": {
+        "programmeId": "luxembourg-casino-hearth-room-2026",
+        "visitingHoursSources": [
+          {
+            "sourceUrl": "https://casino-luxembourg.lu/en/practical-info/contact-access",
+            "checkedAt": "2026-10-29T16:43:20.449698+00:00",
+            "bodySHA256": "5e15b50df835c1de38d3413ec048a437841841756504973160f134a720b5dde2",
+            "rawPath": "/workspace/scratch/59f6a13c9f12/resume-20261029/research/luxembourg/own/casino-contact/844ea5a171d57c50.raw"
+          }
+        ]
+      },
+      "openingHoursSource": "https://casino-luxembourg.lu/en/practical-info/contact-access",
+      "visitScheduleSource": "https://casino-luxembourg.lu/en/practical-info/contact-access",
+      "dateType": "published_interval",
+      "min": false,
+      "openingHoursKnown": true,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "casino-luxembourg.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "openingHoursUnknown": false,
+      "timeOfDayEligible": true
+    },
+    {
+      "id": "luxembourg-neimenster-marx-2026-range",
+      "kind": "event",
+      "title": "Claude Marx : D’un Monde à l’autre",
+      "titleEn": "Claude Marx : D’un Monde à l’autre",
+      "venue": "neimënster – Abbaye de Neumünster",
+      "venueId": "luxembourg-neimenster-chapelle",
+      "address": "28, rue Münster, L-2160 Luxembourg",
+      "description": "Claude Marx presents photography spanning seventy-five years of travel, personal history and social observation. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+      "descriptionEn": "Claude Marx presents photography spanning seventy-five years of travel, personal history and social observation. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+      "date": "2026-09-17",
+      "time": null,
+      "end": null,
+      "endDate": "2026-11-22",
+      "endAt": null,
+      "ongoing": true,
+      "scheduleType": "daily_opening_hours",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-02": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-09": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-16": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "closedDates": [],
+      "category": "art",
+      "lat": 49.61069,
+      "lng": 6.13654,
+      "coordinateSource": "https://luxembourgartweek.lu/en/places/neumunster-abbey-cultural-exchange-center",
+      "coordinatePrecision": "named cultural complex; individual room/entrance not surveyed",
+      "coordinateEvidence": "Independent Luxembourg Art Week selected:true named venue map object, exact matching own address. Own embed viewport was rejected.",
+      "source": "www.neimenster.lu",
+      "sourceUrl": "https://www.neimenster.lu/evenements/dun-monde-a-lautre/",
+      "sourceURLs": [
+        "https://www.neimenster.lu/evenements/dun-monde-a-lautre/",
+        "https://www.vdl.lu/en/whats-on/dun-monde-a-lautre",
+        "https://www.neimenster.lu/faq-fr/",
+        "https://www.neimenster.lu/",
+        "https://luxembourgartweek.lu/en/places/neumunster-abbey-cultural-exchange-center"
+      ],
+      "checkedAt": "2026-10-29T16:44:41.817625+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 0,
+      "priceNote": "Own programme explicitly states free admission.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": null,
+      "status": "scheduled",
+      "admission": "",
+      "provenance": {
+        "programmeId": "luxembourg-neimenster-marx-2026",
+        "visitingHoursSources": [
+          {
+            "sourceUrl": "https://www.neimenster.lu/faq-fr/",
+            "checkedAt": "2026-10-29T20:48:14.879743+00:00",
+            "bodySHA256": "6891d441b5741ce5495123d8def788ff823d228d16ddd46f8d9db581145ffa7f",
+            "rawPath": "/workspace/scratch/59f6a13c9f12/resume-20261029/research/luxembourg/resumed/neimenster-faq/8ec244a470e54251.raw"
+          },
+          {
+            "sourceUrl": "https://www.neimenster.lu/",
+            "checkedAt": "2026-10-29T20:52:13.572494+00:00",
+            "bodySHA256": "6f1fb9fe602ce765fc497699bbc30392bba4d7f82c465876caaf10c35a6d90b2",
+            "rawPath": "/workspace/scratch/59f6a13c9f12/resume-20261029/research/luxembourg/resumed/neimenster-home/0ed67b9ca165deda.raw"
+          }
+        ]
+      },
+      "openingHoursSource": "https://www.neimenster.lu/faq-fr/",
+      "visitScheduleSource": "https://www.neimenster.lu/faq-fr/",
+      "dateType": "published_interval",
+      "min": false,
+      "openingHoursKnown": true,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "www.neimenster.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "openingHoursUnknown": false,
+      "timeOfDayEligible": true
+    },
+    {
+      "id": "luxembourg-grandtheatre-lafete-20261029-20261030-1930",
+      "kind": "event",
+      "title": "La Fête",
+      "titleEn": "La Fête",
+      "venue": "Grand Théâtre de la Ville de Luxembourg",
+      "venueId": "luxembourg-grand-theatre",
+      "address": "1, rond-point Schuman, L-2525 Luxembourg",
+      "description": "Anne-Cécile Vandalem and Joëlle Sambi explore privilege and accountability through a fictional meeting between two families following a student’s death.",
+      "descriptionEn": "Anne-Cécile Vandalem and Joëlle Sambi explore privilege and accountability through a fictional meeting between two families following a student’s death.",
+      "date": "2026-10-30",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-10-30T19:30:00+01:00",
+      "endAt": null,
+      "category": "theatre",
+      "lat": 49.61768,
+      "lng": 6.12743,
+      "coordinateSource": "https://www.visitluxembourg.com/place/grand-theatre",
+      "coordinatePrecision": "named theatre building; entrance and metre accuracy unverified",
+      "coordinateEvidence": "National tourism own Place JSON-LD names Grand Théâtre and1 rond-point Schuman. Own theatre access page corroborates name/address; its explicit entity point is nearby. A separate coarse own marker differs; all retained, none averaged.",
+      "source": "theatres.lu",
+      "sourceUrl": "https://theatres.lu/lafete",
+      "sourceURLs": [
+        "https://theatres.lu/lafete",
+        "https://theatres.lu/tickets",
+        "https://www.visitluxembourg.com/place/grand-theatre"
+      ],
+      "checkedAt": "2026-10-29T20:46:18.360689+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 15,
+      "priceLabel": "From EUR 15; Adult tiers €25/20/15; youth €8. Mandatory extra fees not stated; no checkout performed.",
+      "priceNote": "Adult tiers €25/20/15; youth €8. Mandatory extra fees not stated; no checkout performed.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": "French and Dutch; French/English surtitles",
+      "status": "scheduled",
+      "admission": "Introduction in French 30 min before; not event start. Doors close at start; late admission only if performance allows. Recommended age: 15+.",
+      "provenance": {
+        "programmeId": "luxembourg-grandtheatre-lafete-20261029"
+      },
+      "min": true,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "theatres.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA."
+    },
+    {
+      "id": "luxembourg-science-slam-2026-20261030-1930",
+      "kind": "event",
+      "title": "Luxembourg’s Science Slam",
+      "titleEn": "Luxembourg’s Science Slam",
+      "venue": "neimënster – Abbaye de Neumünster",
+      "venueId": "luxembourg-neimenster-chapelle",
+      "address": "28, rue Münster, L-2160 Luxembourg",
+      "description": "Six researchers explain their work in ten-minute performances; the audience chooses the winner.",
+      "descriptionEn": "Six researchers explain their work in ten-minute performances; the audience chooses the winner.",
+      "date": "2026-10-30",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-10-30T19:30:00+01:00",
+      "endAt": null,
+      "category": "talk",
+      "lat": 49.61069,
+      "lng": 6.13654,
+      "coordinateSource": "https://luxembourgartweek.lu/en/places/neumunster-abbey-cultural-exchange-center",
+      "coordinatePrecision": "named cultural complex; individual room/entrance not surveyed",
+      "coordinateEvidence": "Independent Luxembourg Art Week selected:true named venue map object, exact matching own address. Own embed viewport was rejected.",
+      "source": "www.neimenster.lu",
+      "sourceUrl": "https://www.neimenster.lu/evenements/luxembourgs-science-slam/",
+      "sourceURLs": [
+        "https://www.neimenster.lu/evenements/luxembourgs-science-slam/",
+        "https://www.neimenster.lu/acces/",
+        "https://luxembourgartweek.lu/en/places/neumunster-abbey-cultural-exchange-center"
+      ],
+      "checkedAt": "2026-10-29T20:46:44.648073+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 5,
+      "priceNote": "Standard €5; Kulturpass €1.50. Any mandatory booking fees not stated.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": "English",
+      "status": "scheduled",
+      "admission": "All ages per organizer. Doors 19:00, show 19:30.",
+      "provenance": {
+        "programmeId": "luxembourg-science-slam-2026"
+      },
+      "min": false,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "www.neimenster.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA."
+    },
+    {
+      "id": "luxembourg-shapes-guide-lude-2026-20261031-1500",
+      "kind": "event",
+      "title": "SHAPES guided tour (LU/DE)",
+      "titleEn": "SHAPES guided tour (LU/DE)",
+      "venue": "Cercle Cité – Ratskeller",
+      "venueId": "luxembourg-cercle-ratskeller",
+      "address": "Place d’Armes, Luxembourg; exhibition entrance rue du Curé",
+      "description": "A mediator-led introduction to geometry, art and science in the SHAPES exhibition.",
+      "descriptionEn": "A mediator-led introduction to geometry, art and science in the SHAPES exhibition.",
+      "date": "2026-10-31",
+      "time": "15:00",
+      "end": "16:00",
+      "startAt": "2026-10-31T15:00:00+01:00",
+      "endAt": null,
+      "category": "city",
+      "lat": 49.6113399,
+      "lng": 6.1300038,
+      "coordinateSource": "https://cerclecite.lu/en/infos",
+      "coordinatePrecision": "named_venue_building",
+      "coordinateEvidence": "Own directions page explicit google.maps.Marker position; Google service not fetched or executed.",
+      "source": "cerclecite.lu",
+      "sourceUrl": "https://cerclecite.lu/en/event/visites-guidees-de-lexposition-shapes-beyond-geometry-lude",
+      "sourceURLs": [
+        "https://cerclecite.lu/en/event/visites-guidees-de-lexposition-shapes-beyond-geometry-lude"
+      ],
+      "checkedAt": "2026-10-29T20:47:24.935492+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 0,
+      "priceNote": "Free entry, no registration required.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": "Luxembourgish/German",
+      "status": "scheduled",
+      "admission": "",
+      "provenance": {
+        "programmeId": "luxembourg-shapes-guide-lude-2026"
+      },
+      "min": false,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "cerclecite.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA."
+    },
+    {
+      "id": "luxembourg-pocket-sculptures-2026-20261114-1400",
+      "kind": "event",
+      "title": "Pocket sculptures",
+      "titleEn": "Pocket sculptures",
+      "venue": "Cercle Cité – Ratskeller",
+      "venueId": "luxembourg-cercle-ratskeller",
+      "address": "Place d’Armes, Luxembourg; exhibition entrance rue du Curé",
+      "description": "Make folding paper sculptures inspired by Bruno Munari; materials supplied.",
+      "descriptionEn": "Make folding paper sculptures inspired by Bruno Munari; materials supplied.",
+      "date": "2026-11-14",
+      "time": "14:00",
+      "end": "16:00",
+      "startAt": "2026-11-14T14:00:00+01:00",
+      "endAt": null,
+      "category": "workshop",
+      "lat": 49.6113399,
+      "lng": 6.1300038,
+      "coordinateSource": "https://cerclecite.lu/en/infos",
+      "coordinatePrecision": "named_venue_building",
+      "coordinateEvidence": "Own directions page explicit google.maps.Marker position; Google service not fetched or executed.",
+      "source": "cerclecite.lu",
+      "sourceUrl": "https://cerclecite.lu/en/event/sculptures-de-poche",
+      "sourceURLs": [
+        "https://cerclecite.lu/en/event/sculptures-de-poche"
+      ],
+      "checkedAt": "2026-10-29T20:47:28.232766+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 0,
+      "priceNote": "Free admission with registration; accompanying adults must also register.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": "French",
+      "status": "scheduled",
+      "admission": "Ages 4+; children must be accompanied by an adult. Registration required for all participants including adults; no booking submitted.",
+      "provenance": {
+        "programmeId": "luxembourg-pocket-sculptures-2026"
+      },
+      "min": false,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "cerclecite.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA."
+    },
+    {
+      "id": "luxembourg-cecil-safouane-2026-range",
+      "kind": "event",
+      "title": "CeCiL’s Box: A Puzzle of Words and Thoughts",
+      "titleEn": "CeCiL’s Box: A Puzzle of Words and Thoughts",
+      "venue": "Cercle Cité — exterior CeCiL’s Box",
+      "venueId": "luxembourg-cercle-ratskeller",
+      "address": "Rue du Curé, Cercle Cité building, Luxembourg",
+      "description": "Safouane Ben Slama’s evolving photographic installation in the street-facing showcase on rue du Curé. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+      "descriptionEn": "Safouane Ben Slama’s evolving photographic installation in the street-facing showcase on rue du Curé. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+      "date": "2026-09-17",
+      "time": null,
+      "end": null,
+      "endDate": "2026-12-06",
+      "endAt": null,
+      "scheduleType": "date_range",
+      "visitSchedule": {
+        "2026-09-17": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-18": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-19": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-20": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-21": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-22": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-23": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-24": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-25": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-26": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-27": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-28": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-29": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-09-30": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-01": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-02": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-03": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-04": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-05": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-06": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-07": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-08": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-09": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-10": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-11": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-12": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-13": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-14": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-15": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-16": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-17": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-18": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-19": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-20": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-21": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-22": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-23": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-24": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-25": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-26": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-27": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-28": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-29": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-30": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-10-31": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-01": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-02": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-03": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-04": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-05": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-06": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-07": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-08": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-09": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-10": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-11": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-12": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-13": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-14": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-15": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-16": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-17": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-18": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-19": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-20": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-21": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-22": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-23": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-24": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-25": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-26": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-27": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-28": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-29": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-11-30": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-12-01": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-12-02": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-12-03": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-12-04": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-12-05": {
+          "start": "00:00",
+          "end": "00:00"
+        },
+        "2026-12-06": {
+          "start": "00:00",
+          "end": "00:00"
+        }
+      },
+      "category": "art",
+      "lat": 49.6113399,
+      "lng": 6.1300038,
+      "coordinateSource": "https://cerclecite.lu/en/infos",
+      "coordinatePrecision": "named_venue_building",
+      "coordinateEvidence": "Own directions page explicit google.maps.Marker position; Google service not fetched or executed.",
+      "source": "cerclecite.lu",
+      "sourceUrl": "https://cerclecite.lu/en/event/cecils-box-by-safouane-ben-slama",
+      "sourceURLs": [
+        "https://cerclecite.lu/en/event/cecils-box-by-safouane-ben-slama"
+      ],
+      "checkedAt": "2026-10-29T20:48:47.862896+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 0,
+      "priceNote": "Free street-side viewing, explicitly 24 h/day and 7 days/week; not indoor museum admission.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": null,
+      "status": "scheduled",
+      "admission": "Opening ceremony 17 Sep is past and not imported. Cercle building point used; individual window not separately surveyed. Outdoor display viewable 24 hours; 00:00–00:00 denotes the full local day, not museum opening hours.",
+      "provenance": {
+        "programmeId": "luxembourg-cecil-safouane-2026"
+      },
+      "openingHoursSource": "https://cerclecite.lu/en/event/cecils-box-by-safouane-ben-slama",
+      "hall": "Street-facing showcase on rue du Curé",
+      "dateType": "published_interval",
+      "min": false,
+      "openingHoursKnown": true,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "cerclecite.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "openingHoursUnknown": false,
+      "timeOfDayEligible": true
+    },
+    {
+      "id": "luxembourg-fundatio-2026-range",
+      "kind": "event",
+      "title": "Fundatio",
+      "titleEn": "Fundatio",
+      "venue": "Lëtzebuerg City Museum",
+      "venueId": "luxembourg-city-museum",
+      "address": "14, rue du Saint-Esprit, L-1475 Luxembourg",
+      "description": "An exhibition explores the origins of the County of Luxembourg through a 1123 charter and objects from European collections. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+      "descriptionEn": "An exhibition explores the origins of the County of Luxembourg through a 1123 charter and objects from European collections. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+      "date": "2026-10-09",
+      "time": null,
+      "end": null,
+      "endDate": "2027-07-11",
+      "endAt": null,
+      "ongoing": true,
+      "scheduleType": "daily_opening_hours",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-24": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-25": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-26": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "closedDates": [
+        "2026-11-01"
+      ],
+      "category": "art",
+      "lat": 49.6100605,
+      "lng": 6.1336546,
+      "coordinateSource": "https://citymuseum.lu/de/besuchen/",
+      "coordinatePrecision": "named museum building; entrance and metre accuracy unverified",
+      "coordinateEvidence": "Own location link explicitly names museum and14 rue du Saint-Esprit with destination !2m2!1d6.1336546!2d49.6100605. Rejected @49.6101103,6.0967471 viewport. No Google request.",
+      "source": "citymuseum.lu",
+      "sourceUrl": "https://citymuseum.lu/de/exhibition/fundatio/",
+      "sourceURLs": [
+        "https://citymuseum.lu/de/exhibition/fundatio/",
+        "https://citymuseum.lu/de/expositions/",
+        "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+        "https://citymuseum.lu/de/besuchen/"
+      ],
+      "checkedAt": "2026-10-29T20:51:43.806637+00:00",
+      "yearEvidence": "Full own exhibitions index explicitly states both years; detail supplies programme body.",
+      "price": 5,
+      "priceNote": "Adult museum admission €5; under 21 free; students under 26 with ID free; eligible reduced €3; Thursday 18–20 free; Kulturpass €1.50. Single admission covers museum, not charged separately per exhibition.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": null,
+      "status": "scheduled",
+      "admission": "Closed 1 November and Mondays. €5 is museum admission covering both exhibitions, not €5 per exhibition.",
+      "provenance": {
+        "programmeId": "luxembourg-fundatio-2026",
+        "visitingHoursSources": [
+          {
+            "sourceUrl": "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+            "checkedAt": "2026-10-29T20:54:58.885819+00:00",
+            "bodySHA256": "7ec6894fabb6059c599bb0b0f561b1ba3cd4d8cbac42c3ee6bad132474ac6b82",
+            "rawPath": "/workspace/scratch/59f6a13c9f12/resume-20261029/research/luxembourg/resumed/citymuseum-info/64fe0d0a77f5fe57.raw"
+          }
+        ]
+      },
+      "openingHoursSource": "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+      "visitScheduleSource": "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+      "dateType": "published_interval",
+      "min": false,
+      "openingHoursKnown": true,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "citymuseum.lu",
+      "yearEvidenceEn": "Full own exhibitions index explicitly states both years; detail supplies programme body.",
+      "openingHoursUnknown": false,
+      "timeOfDayEligible": true
+    },
+    {
+      "id": "luxembourg-city-visions-2025-range",
+      "kind": "event",
+      "title": "City Visions",
+      "titleEn": "City Visions",
+      "venue": "Lëtzebuerg City Museum",
+      "venueId": "luxembourg-city-museum",
+      "address": "14, rue du Saint-Esprit, L-1475 Luxembourg",
+      "description": "Historical and contemporary views of Luxembourg, with interactive activities for children and adults. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+      "descriptionEn": "Historical and contemporary views of Luxembourg, with interactive activities for children and adults. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+      "date": "2025-05-09",
+      "time": null,
+      "end": null,
+      "endDate": "2027-01-17",
+      "endAt": null,
+      "ongoing": true,
+      "scheduleType": "daily_opening_hours",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-24": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-25": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-26": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "closedDates": [
+        "2026-11-01"
+      ],
+      "category": "art",
+      "lat": 49.6100605,
+      "lng": 6.1336546,
+      "coordinateSource": "https://citymuseum.lu/de/besuchen/",
+      "coordinatePrecision": "named museum building; entrance and metre accuracy unverified",
+      "coordinateEvidence": "Own location link explicitly names museum and14 rue du Saint-Esprit with destination !2m2!1d6.1336546!2d49.6100605. Rejected @49.6101103,6.0967471 viewport. No Google request.",
+      "source": "citymuseum.lu",
+      "sourceUrl": "https://citymuseum.lu/de/exhibition/city-visions/",
+      "sourceURLs": [
+        "https://citymuseum.lu/de/exhibition/city-visions/",
+        "https://citymuseum.lu/de/expositions/",
+        "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+        "https://citymuseum.lu/de/besuchen/"
+      ],
+      "checkedAt": "2026-10-29T20:51:53.739231+00:00",
+      "yearEvidence": "Full own exhibitions index explicitly states both years; detail supplies programme body.",
+      "price": 5,
+      "priceNote": "Adult museum admission €5; under 21 free; students under 26 with ID free; eligible reduced €3; Thursday 18–20 free; Kulturpass €1.50. Single admission covers museum, not charged separately per exhibition.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": null,
+      "status": "scheduled",
+      "admission": "Closed 1 November and Mondays. €5 is museum admission covering both exhibitions, not €5 per exhibition.",
+      "provenance": {
+        "programmeId": "luxembourg-city-visions-2025",
+        "visitingHoursSources": [
+          {
+            "sourceUrl": "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+            "checkedAt": "2026-10-29T20:54:58.885819+00:00",
+            "bodySHA256": "7ec6894fabb6059c599bb0b0f561b1ba3cd4d8cbac42c3ee6bad132474ac6b82",
+            "rawPath": "/workspace/scratch/59f6a13c9f12/resume-20261029/research/luxembourg/resumed/citymuseum-info/64fe0d0a77f5fe57.raw"
+          }
+        ]
+      },
+      "openingHoursSource": "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+      "visitScheduleSource": "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+      "dateType": "published_interval",
+      "min": false,
+      "openingHoursKnown": true,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "citymuseum.lu",
+      "yearEvidenceEn": "Full own exhibitions index explicitly states both years; detail supplies programme body.",
+      "openingHoursUnknown": false,
+      "timeOfDayEligible": true
+    },
+    {
+      "id": "luxembourg-iphigenie-2026-20261127-1930",
+      "kind": "event",
+      "title": "Iphigénie en Tauride",
+      "titleEn": "Iphigénie en Tauride",
+      "venue": "Grand Théâtre de la Ville de Luxembourg",
+      "venueId": "luxembourg-grand-theatre",
+      "address": "1, rond-point Schuman, L-2525 Luxembourg",
+      "description": "Gluck’s opera with a prologue by director Wajdi Mouawad, performed by Le Consort and Les éléments.",
+      "descriptionEn": "Gluck’s opera with a prologue by director Wajdi Mouawad, performed by Le Consort and Les éléments.",
+      "date": "2026-11-27",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-27T19:30:00+01:00",
+      "endAt": null,
+      "category": "music",
+      "lat": 49.61768,
+      "lng": 6.12743,
+      "coordinateSource": "https://www.visitluxembourg.com/place/grand-theatre",
+      "coordinatePrecision": "named theatre building; entrance and metre accuracy unverified",
+      "coordinateEvidence": "National tourism own Place JSON-LD names Grand Théâtre and1 rond-point Schuman. Own theatre access page corroborates name/address; its explicit entity point is nearby. A separate coarse own marker differs; all retained, none averaged.",
+      "source": "theatres.lu",
+      "sourceUrl": "https://theatres.lu/iphigenieentauride",
+      "sourceURLs": [
+        "https://theatres.lu/iphigenieentauride",
+        "https://theatres.lu/tickets",
+        "https://www.visitluxembourg.com/place/grand-theatre"
+      ],
+      "checkedAt": "2026-10-29T20:52:19.592655+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 25,
+      "priceLabel": "From EUR 25; Adult tiers €65/40/25; youth €8. Mandatory fees unstated.",
+      "priceNote": "Adult tiers €65/40/25; youth €8. Mandatory fees unstated.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": "French; French/German surtitles. English tablet surtitles27Nov require reservation.",
+      "status": "scheduled",
+      "admission": "Nudity advisory. Recommended age: 12+. 29 Nov 17:00 separately stated but outside current 30-day horizon; not imported.",
+      "provenance": {
+        "programmeId": "luxembourg-iphigenie-2026"
+      },
+      "min": true,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "theatres.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA."
+    },
+    {
+      "id": "luxembourg-neimenster-propulsion-2026-20261108-1100",
+      "kind": "event",
+      "title": "Anaïs Foux Trio + Poplar Water 4tet",
+      "titleEn": "Anaïs Foux Trio + Poplar Water 4tet",
+      "venue": "neimënster – Abbaye de Neumünster",
+      "venueId": "luxembourg-neimenster-chapelle",
+      "address": "28, rue Münster, L-2160 Luxembourg",
+      "description": "Emerging jazz groups from Luxembourg and France play consecutive 40-minute showcases in the PAUSE series.",
+      "descriptionEn": "Emerging jazz groups from Luxembourg and France play consecutive 40-minute showcases in the PAUSE series.",
+      "date": "2026-11-08",
+      "time": "11:00",
+      "end": null,
+      "startAt": "2026-11-08T11:00:00+01:00",
+      "endAt": null,
+      "category": "music",
+      "lat": 49.61069,
+      "lng": 6.13654,
+      "coordinateSource": "https://luxembourgartweek.lu/en/places/neumunster-abbey-cultural-exchange-center",
+      "coordinatePrecision": "named cultural complex; individual room/entrance not surveyed",
+      "coordinateEvidence": "Independent Luxembourg Art Week selected:true named venue map object, exact matching own address. Own embed viewport was rejected.",
+      "source": "www.neimenster.lu",
+      "sourceUrl": "https://www.neimenster.lu/evenements/anais-foux-trio-lu-poplar-water-4tet-fr/",
+      "sourceURLs": [
+        "https://www.neimenster.lu/evenements/anais-foux-trio-lu-poplar-water-4tet-fr/",
+        "https://luxembourgartweek.lu/en/places/neumunster-abbey-cultural-exchange-center"
+      ],
+      "checkedAt": "2026-10-29T20:55:05.104501+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 9,
+      "priceNote": "Standard €9; reduced €6; Kulturpass €1.50. Mandatory booking fees unstated.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": null,
+      "status": "scheduled",
+      "admission": "All ages per organizer.",
+      "provenance": {
+        "programmeId": "luxembourg-neimenster-propulsion-2026"
+      },
+      "min": false,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "www.neimenster.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA."
+    },
+    {
+      "id": "luxembourg-botis-seva-2026-20261110-1930",
+      "kind": "event",
+      "title": "Botis Seva / Far From The Norm: Sing Child Sing",
+      "titleEn": "Botis Seva / Far From The Norm: Sing Child Sing",
+      "venue": "Grand Théâtre de la Ville de Luxembourg",
+      "venueId": "luxembourg-grand-theatre",
+      "address": "1, rond-point Schuman, L-2525 Luxembourg",
+      "description": "A hip-hop and contemporary dance solo explores memory, inherited patterns and physical transformation.",
+      "descriptionEn": "A hip-hop and contemporary dance solo explores memory, inherited patterns and physical transformation.",
+      "date": "2026-11-10",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-10T19:30:00+01:00",
+      "endAt": null,
+      "category": "theatre",
+      "lat": 49.61768,
+      "lng": 6.12743,
+      "coordinateSource": "https://www.visitluxembourg.com/place/grand-theatre",
+      "coordinatePrecision": "named theatre building; entrance and metre accuracy unverified",
+      "coordinateEvidence": "National tourism own Place JSON-LD names Grand Théâtre and1 rond-point Schuman. Own theatre access page corroborates name/address; its explicit entity point is nearby. A separate coarse own marker differs; all retained, none averaged.",
+      "source": "theatres.lu",
+      "sourceUrl": "https://theatres.lu/botissevasingchildsing",
+      "sourceURLs": [
+        "https://theatres.lu/botissevasingchildsing",
+        "https://theatres.lu/tickets",
+        "https://www.visitluxembourg.com/place/grand-theatre"
+      ],
+      "checkedAt": "2026-10-29T20:55:29.063002+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 20,
+      "priceNote": "Adults €20; youth €8; mandatory fees unstated.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": null,
+      "status": "scheduled",
+      "admission": "Source advisories: nudity, insults/violence, smoke; vibrating belt option mentioned. Recommended age: 14+.",
+      "provenance": {
+        "programmeId": "luxembourg-botis-seva-2026"
+      },
+      "min": false,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "theatres.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA."
+    },
+    {
+      "id": "luxembourg-botis-seva-2026-20261111-1930",
+      "kind": "event",
+      "title": "Botis Seva / Far From The Norm: Sing Child Sing",
+      "titleEn": "Botis Seva / Far From The Norm: Sing Child Sing",
+      "venue": "Grand Théâtre de la Ville de Luxembourg",
+      "venueId": "luxembourg-grand-theatre",
+      "address": "1, rond-point Schuman, L-2525 Luxembourg",
+      "description": "A hip-hop and contemporary dance solo explores memory, inherited patterns and physical transformation.",
+      "descriptionEn": "A hip-hop and contemporary dance solo explores memory, inherited patterns and physical transformation.",
+      "date": "2026-11-11",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-11T19:30:00+01:00",
+      "endAt": null,
+      "category": "theatre",
+      "lat": 49.61768,
+      "lng": 6.12743,
+      "coordinateSource": "https://www.visitluxembourg.com/place/grand-theatre",
+      "coordinatePrecision": "named theatre building; entrance and metre accuracy unverified",
+      "coordinateEvidence": "National tourism own Place JSON-LD names Grand Théâtre and1 rond-point Schuman. Own theatre access page corroborates name/address; its explicit entity point is nearby. A separate coarse own marker differs; all retained, none averaged.",
+      "source": "theatres.lu",
+      "sourceUrl": "https://theatres.lu/botissevasingchildsing",
+      "sourceURLs": [
+        "https://theatres.lu/botissevasingchildsing",
+        "https://theatres.lu/tickets",
+        "https://www.visitluxembourg.com/place/grand-theatre"
+      ],
+      "checkedAt": "2026-10-29T20:55:29.063002+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 20,
+      "priceNote": "Adults €20; youth €8; mandatory fees unstated.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": null,
+      "status": "scheduled",
+      "admission": "Source advisories: nudity, insults/violence, smoke; vibrating belt option mentioned. Recommended age: 14+.",
+      "provenance": {
+        "programmeId": "luxembourg-botis-seva-2026"
+      },
+      "min": false,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "theatres.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA."
+    },
+    {
+      "id": "luxembourg-far-from-norm-workshop-2026-20261103-1000",
+      "kind": "event",
+      "title": "Open workshop with Far From The Norm",
+      "titleEn": "Open workshop with Far From The Norm",
+      "venue": "Grand Théâtre de la Ville de Luxembourg",
+      "venueId": "luxembourg-grand-theatre",
+      "address": "1, rond-point Schuman, L-2525 Luxembourg",
+      "description": "Jordan Douglas introduces the company’s training methods, street-dance foundations and collaborative practice.",
+      "descriptionEn": "Jordan Douglas introduces the company’s training methods, street-dance foundations and collaborative practice.",
+      "date": "2026-11-03",
+      "time": "10:00",
+      "end": null,
+      "startAt": "2026-11-03T10:00:00+01:00",
+      "endAt": null,
+      "category": "workshop",
+      "lat": 49.61768,
+      "lng": 6.12743,
+      "coordinateSource": "https://www.visitluxembourg.com/place/grand-theatre",
+      "coordinatePrecision": "named theatre building; entrance and metre accuracy unverified",
+      "coordinateEvidence": "National tourism own Place JSON-LD names Grand Théâtre and1 rond-point Schuman. Own theatre access page corroborates name/address; its explicit entity point is nearby. A separate coarse own marker differs; all retained, none averaged.",
+      "source": "theatres.lu",
+      "sourceUrl": "https://theatres.lu/openworkshopfarfromthenorm",
+      "sourceURLs": [
+        "https://theatres.lu/openworkshopfarfromthenorm",
+        "https://theatres.lu/tickets",
+        "https://www.visitluxembourg.com/place/grand-theatre"
+      ],
+      "checkedAt": "2026-10-29T20:48:37.648583+00:00",
+      "yearEvidence": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+      "price": 20,
+      "priceNote": "Adults €20; youth €8; mandatory fees unstated.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": "English",
+      "status": "scheduled",
+      "admission": "Comfortable clothes, dancing socks and water recommended; notebook; knee pads optional. No numeric age or skill prerequisite established; not labelled free.",
+      "provenance": {
+        "programmeId": "luxembourg-far-from-norm-workshop-2026"
+      },
+      "min": false,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "theatres.lu",
+      "yearEvidenceEn": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA."
+    },
+    {
+      "id": "luxembourg-city-of-dreams-2026-20261103-1400",
+      "kind": "event",
+      "title": "City of Dreams",
+      "titleEn": "City of Dreams",
+      "venue": "Lëtzebuerg City Museum",
+      "venueId": "luxembourg-city-museum",
+      "address": "14, rue du Saint-Esprit, L-1475 Luxembourg",
+      "description": "Explore City Visions with a magnifier, then create an imagined city using mixed media and screen printing.",
+      "descriptionEn": "Explore City Visions with a magnifier, then create an imagined city using mixed media and screen printing.",
+      "date": "2026-11-03",
+      "time": "14:00",
+      "end": null,
+      "startAt": "2026-11-03T14:00:00+01:00",
+      "endAt": null,
+      "category": "kids",
+      "lat": 49.6100605,
+      "lng": 6.1336546,
+      "coordinateSource": "https://citymuseum.lu/de/besuchen/",
+      "coordinatePrecision": "named museum building; entrance and metre accuracy unverified",
+      "coordinateEvidence": "Own location link explicitly names museum and14 rue du Saint-Esprit with destination !2m2!1d6.1336546!2d49.6100605. Rejected @49.6101103,6.0967471 viewport. No Google request.",
+      "source": "citymuseum.lu",
+      "sourceUrl": "https://citymuseum.lu/de/event/city-of-dreams-2/?date=1793714400",
+      "sourceURLs": [
+        "https://citymuseum.lu/de/event/city-of-dreams-2/?date=1793714400",
+        "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+        "https://citymuseum.lu/de/besuchen/"
+      ],
+      "checkedAt": "2026-10-29T20:55:18.269008+00:00",
+      "yearEvidence": "Exact observed own querydate1793714400 resolves to calendar year2026; visible body3November14h00 and explicit additional5/6November. Epoch time not treated as timezone-correct start.",
+      "price": null,
+      "priceNote": "Children free; accompanying adults pay museum admission (standard€5); Kulturpass free. Not universally free family admission.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": "German/Luxembourgish",
+      "status": "scheduled",
+      "admission": "Families with children aged 6+; maximum 15 participants. Reservation required by phone/email/own workshop form; none submitted.",
+      "provenance": {
+        "programmeId": "luxembourg-city-of-dreams-2026"
+      },
+      "min": false,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "citymuseum.lu",
+      "yearEvidenceEn": "Exact observed own querydate1793714400 resolves to calendar year2026; visible body3November14h00 and explicit additional5/6November. Epoch time not treated as timezone-correct start."
+    },
+    {
+      "id": "luxembourg-city-of-dreams-2026-20261105-1400",
+      "kind": "event",
+      "title": "City of Dreams",
+      "titleEn": "City of Dreams",
+      "venue": "Lëtzebuerg City Museum",
+      "venueId": "luxembourg-city-museum",
+      "address": "14, rue du Saint-Esprit, L-1475 Luxembourg",
+      "description": "Explore City Visions with a magnifier, then create an imagined city using mixed media and screen printing.",
+      "descriptionEn": "Explore City Visions with a magnifier, then create an imagined city using mixed media and screen printing.",
+      "date": "2026-11-05",
+      "time": "14:00",
+      "end": null,
+      "startAt": "2026-11-05T14:00:00+01:00",
+      "endAt": null,
+      "category": "kids",
+      "lat": 49.6100605,
+      "lng": 6.1336546,
+      "coordinateSource": "https://citymuseum.lu/de/besuchen/",
+      "coordinatePrecision": "named museum building; entrance and metre accuracy unverified",
+      "coordinateEvidence": "Own location link explicitly names museum and14 rue du Saint-Esprit with destination !2m2!1d6.1336546!2d49.6100605. Rejected @49.6101103,6.0967471 viewport. No Google request.",
+      "source": "citymuseum.lu",
+      "sourceUrl": "https://citymuseum.lu/de/event/city-of-dreams-2/?date=1793714400",
+      "sourceURLs": [
+        "https://citymuseum.lu/de/event/city-of-dreams-2/?date=1793714400",
+        "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+        "https://citymuseum.lu/de/besuchen/"
+      ],
+      "checkedAt": "2026-10-29T20:55:18.269008+00:00",
+      "yearEvidence": "Exact observed own querydate1793714400 resolves to calendar year2026; visible body3November14h00 and explicit additional5/6November. Epoch time not treated as timezone-correct start.",
+      "price": null,
+      "priceNote": "Children free; accompanying adults pay museum admission (standard€5); Kulturpass free. Not universally free family admission.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": "English",
+      "status": "scheduled",
+      "admission": "Families with children aged 6+; maximum 15 participants. Reservation required by phone/email/own workshop form; none submitted.",
+      "provenance": {
+        "programmeId": "luxembourg-city-of-dreams-2026"
+      },
+      "min": false,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "citymuseum.lu",
+      "yearEvidenceEn": "Exact observed own querydate1793714400 resolves to calendar year2026; visible body3November14h00 and explicit additional5/6November. Epoch time not treated as timezone-correct start."
+    },
+    {
+      "id": "luxembourg-city-of-dreams-2026-20261106-1400",
+      "kind": "event",
+      "title": "City of Dreams",
+      "titleEn": "City of Dreams",
+      "venue": "Lëtzebuerg City Museum",
+      "venueId": "luxembourg-city-museum",
+      "address": "14, rue du Saint-Esprit, L-1475 Luxembourg",
+      "description": "Explore City Visions with a magnifier, then create an imagined city using mixed media and screen printing.",
+      "descriptionEn": "Explore City Visions with a magnifier, then create an imagined city using mixed media and screen printing.",
+      "date": "2026-11-06",
+      "time": "14:00",
+      "end": null,
+      "startAt": "2026-11-06T14:00:00+01:00",
+      "endAt": null,
+      "category": "kids",
+      "lat": 49.6100605,
+      "lng": 6.1336546,
+      "coordinateSource": "https://citymuseum.lu/de/besuchen/",
+      "coordinatePrecision": "named museum building; entrance and metre accuracy unverified",
+      "coordinateEvidence": "Own location link explicitly names museum and14 rue du Saint-Esprit with destination !2m2!1d6.1336546!2d49.6100605. Rejected @49.6101103,6.0967471 viewport. No Google request.",
+      "source": "citymuseum.lu",
+      "sourceUrl": "https://citymuseum.lu/de/event/city-of-dreams-2/?date=1793714400",
+      "sourceURLs": [
+        "https://citymuseum.lu/de/event/city-of-dreams-2/?date=1793714400",
+        "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+        "https://citymuseum.lu/de/besuchen/"
+      ],
+      "checkedAt": "2026-10-29T20:55:18.269008+00:00",
+      "yearEvidence": "Exact observed own querydate1793714400 resolves to calendar year2026; visible body3November14h00 and explicit additional5/6November. Epoch time not treated as timezone-correct start.",
+      "price": null,
+      "priceNote": "Children free; accompanying adults pay museum admission (standard€5); Kulturpass free. Not universally free family admission.",
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "language": "French",
+      "status": "scheduled",
+      "admission": "Families with children aged 6+; maximum 15 participants. Reservation required by phone/email/own workshop form; none submitted.",
+      "provenance": {
+        "programmeId": "luxembourg-city-of-dreams-2026"
+      },
+      "min": false,
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "citymuseum.lu",
+      "yearEvidenceEn": "Exact observed own querydate1793714400 resolves to calendar year2026; visible body3November14h00 and explicit additional5/6November. Epoch time not treated as timezone-correct start."
+    }
+  ],
+  "places": [
+    {
+      "id": "luxembourg-casino",
+      "title": "Casino Luxembourg – Forum d’art contemporain",
+      "venueId": "luxembourg-casino",
+      "address": "41, rue Notre-Dame, L-2240 Luxembourg",
+      "description": "Named building or cultural complex; individual programme access and opening hours apply.",
+      "category": "city",
+      "lat": 49.60978,
+      "lng": 6.12717,
+      "coordinateSource": "https://casino-luxembourg.lu/en/practical-info/contact-access",
+      "coordinatePrecision": "named_venue_building",
+      "source": "Named venue public evidence",
+      "sourceUrl": "https://casino-luxembourg.lu/en/practical-info/contact-access",
+      "checkedAt": "2026-10-29T16:43:20.449698+00:00",
+      "price": null,
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "kind": "place",
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "Named venue public evidence"
+    },
+    {
+      "id": "luxembourg-cercle-ratskeller",
+      "title": "Cercle Cité – Ratskeller",
+      "venueId": "luxembourg-cercle-ratskeller",
+      "address": "Place d’Armes, Luxembourg; exhibition entrance rue du Curé",
+      "description": "Named building or cultural complex; individual programme access and opening hours apply.",
+      "category": "city",
+      "lat": 49.6113399,
+      "lng": 6.1300038,
+      "coordinateSource": "https://cerclecite.lu/en/infos",
+      "coordinatePrecision": "named_venue_building",
+      "source": "Named venue public evidence",
+      "sourceUrl": "https://cerclecite.lu/en/infos",
+      "checkedAt": "2026-10-29T16:43:23.060790+00:00",
+      "price": null,
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "kind": "place",
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "Named venue public evidence"
+    },
+    {
+      "id": "luxembourg-neimenster-chapelle",
+      "title": "neimënster – Abbaye de Neumünster",
+      "venueId": "luxembourg-neimenster-chapelle",
+      "address": "28, rue Münster, L-2160 Luxembourg",
+      "description": "Named building or cultural complex; individual programme access and opening hours apply.",
+      "category": "city",
+      "lat": 49.61069,
+      "lng": 6.13654,
+      "coordinateSource": "https://luxembourgartweek.lu/en/places/neumunster-abbey-cultural-exchange-center",
+      "coordinatePrecision": "named cultural complex; individual room/entrance not surveyed",
+      "source": "Named venue public evidence",
+      "sourceUrl": "https://luxembourgartweek.lu/en/places/neumunster-abbey-cultural-exchange-center",
+      "checkedAt": "2026-10-29T20:52:07.995566+00:00",
+      "price": null,
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "kind": "place",
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "Named venue public evidence"
+    },
+    {
+      "id": "luxembourg-grand-theatre",
+      "title": "Grand Théâtre de la Ville de Luxembourg",
+      "venueId": "luxembourg-grand-theatre",
+      "address": "1, rond-point Schuman, L-2525 Luxembourg",
+      "description": "Named building or cultural complex; individual programme access and opening hours apply.",
+      "category": "city",
+      "lat": 49.61768,
+      "lng": 6.12743,
+      "coordinateSource": "https://www.visitluxembourg.com/place/grand-theatre",
+      "coordinatePrecision": "named theatre building; entrance and metre accuracy unverified",
+      "source": "Named venue public evidence",
+      "sourceUrl": "https://www.visitluxembourg.com/place/grand-theatre",
+      "checkedAt": "2026-10-29T20:53:50.085478+00:00",
+      "price": null,
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "kind": "place",
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "Named venue public evidence"
+    },
+    {
+      "id": "luxembourg-city-museum",
+      "title": "Lëtzebuerg City Museum",
+      "venueId": "luxembourg-city-museum",
+      "address": "14, rue du Saint-Esprit, L-1475 Luxembourg",
+      "description": "Named building or cultural complex; individual programme access and opening hours apply.",
+      "category": "city",
+      "lat": 49.6100605,
+      "lng": 6.1336546,
+      "coordinateSource": "https://citymuseum.lu/de/besuchen/",
+      "coordinatePrecision": "named museum building; entrance and metre accuracy unverified",
+      "source": "Named venue public evidence",
+      "sourceUrl": "https://citymuseum.lu/de/besuchen/",
+      "checkedAt": "2026-10-29T20:52:02.980915+00:00",
+      "price": null,
+      "currency": "EUR",
+      "timezone": "Europe/Luxembourg",
+      "admission": {
+        "currency": "EUR",
+        "standard": 5,
+        "mandatoryFees": null,
+        "note": "Adult museum admission €5; under21 free; students under26 with ID free; eligible reduced €3; Thursday18–20 free; Kulturpass€1.50. Single admission covers museum, not charged separately per exhibition.",
+        "reduced": 3,
+        "kulturpass": 1.5
+      },
+      "kind": "place",
+      "city": "Luxembourg",
+      "cityId": "luxembourg",
+      "sourceEn": "Named venue public evidence"
+    }
+  ],
+  "sources": [
+    {
+      "id": "luxembourg-source-0",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://cerclecite.lu/en/event/cecils-box-by-safouane-ben-slama",
+      "checkedAt": "2026-10-29T20:48:47.862896+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-1",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://cerclecite.lu/en/expositions",
+      "checkedAt": "2026-10-29T20:47:17.852748+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-2",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://cerclecite.lu/en/event/visites-guidees-de-lexposition-shapes-beyond-geometry-lude",
+      "checkedAt": "2026-10-29T20:47:24.935492+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-3",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://cerclecite.lu/en/event/sculptures-de-poche",
+      "checkedAt": "2026-10-29T20:47:28.232766+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-4",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://citymuseum.lu/de/event/city-of-dreams-2/?date=1793714400",
+      "checkedAt": "2026-10-29T20:55:18.269008+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 3,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-5",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://citymuseum.lu/de/expositions/",
+      "checkedAt": "2026-10-29T20:48:24.578853+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-6",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://citymuseum.lu/de/exhibition/fundatio/",
+      "checkedAt": "2026-10-29T20:51:43.806637+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-7",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://citymuseum.lu/de/das-museum/allgemeine-informationen/",
+      "checkedAt": "2026-10-29T20:54:58.885819+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-8",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://citymuseum.lu/de/exhibition/city-visions/",
+      "checkedAt": "2026-10-29T20:51:53.739231+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-9",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://citymuseum.lu/de/besuchen/",
+      "checkedAt": "2026-10-29T20:52:02.980915+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-10",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://www.visitluxembourg.com/place/grand-theatre",
+      "checkedAt": "2026-10-29T20:53:50.085478+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-11",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://www.neimenster.lu/acces/",
+      "checkedAt": "2026-10-29T20:46:40.413226+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-12",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://luxembourgartweek.lu/en/places/neumunster-abbey-cultural-exchange-center",
+      "checkedAt": "2026-10-29T20:52:07.995566+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-13",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://www.neimenster.lu/faq-fr/",
+      "checkedAt": "2026-10-29T20:48:14.879743+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-14",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://www.neimenster.lu/",
+      "checkedAt": "2026-10-29T20:52:13.572494+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-15",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://www.neimenster.lu/evenements/anais-foux-trio-lu-poplar-water-4tet-fr/",
+      "checkedAt": "2026-10-29T20:55:05.104501+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-16",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://www.neimenster.lu/salles/salle-robert-krieps/",
+      "checkedAt": "2026-10-29T20:48:19.775395+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-17",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://www.neimenster.lu/evenements/luxembourgs-science-slam/",
+      "checkedAt": "2026-10-29T20:46:44.648073+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-18",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://theatres.lu/acces",
+      "checkedAt": "2026-10-29T20:46:26.424561+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-19",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://theatres.lu/botissevasingchildsing",
+      "checkedAt": "2026-10-29T20:55:29.063002+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 2,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-20",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://theatres.lu/lafete",
+      "checkedAt": "2026-10-29T20:46:18.360689+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-21",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://theatres.lu/iphigenieentauride",
+      "checkedAt": "2026-10-29T20:52:19.592655+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-22",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://theatres.lu/tickets",
+      "checkedAt": "2026-10-29T20:48:41.083576+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-23",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://theatres.lu/openworkshopfarfromthenorm",
+      "checkedAt": "2026-10-29T20:48:37.648583+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-24",
+      "name": "Luxembourg retained public source",
+      "nameEn": "Luxembourg retained public source",
+      "url": "https://theatres.lu/programmation?newseason=1",
+      "checkedAt": "2026-10-29T20:46:54.155592+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Exact source read timestamp retained; no fresh external request during normalization."
+    },
+    {
+      "id": "luxembourg-source-25",
+      "name": "Retained direct programme/venue evidence",
+      "nameEn": "Retained direct programme/venue evidence",
+      "url": "https://casino-luxembourg.lu/en/agenda/hearth-room",
+      "checkedAt": "2026-10-29T16:43:14.339380+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Retained original checkedAt/raw SHA; not re-fetched during normalization."
+    },
+    {
+      "id": "luxembourg-source-26",
+      "name": "Retained direct programme/venue evidence",
+      "nameEn": "Retained direct programme/venue evidence",
+      "url": "https://casino-luxembourg.lu/en/practical-info/contact-access",
+      "checkedAt": "2026-10-29T16:43:20.449698+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Retained original checkedAt/raw SHA; not re-fetched during normalization."
+    },
+    {
+      "id": "luxembourg-source-27",
+      "name": "Retained direct programme/venue evidence",
+      "nameEn": "Retained direct programme/venue evidence",
+      "url": "https://www.neimenster.lu/evenements/dun-monde-a-lautre/",
+      "checkedAt": "2026-10-29T16:44:41.817625+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 1,
+      "note": "Retained original checkedAt/raw SHA; not re-fetched during normalization."
+    },
+    {
+      "id": "luxembourg-source-28",
+      "name": "Retained direct programme/venue evidence",
+      "nameEn": "Retained direct programme/venue evidence",
+      "url": "https://www.vdl.lu/en/whats-on/dun-monde-a-lautre",
+      "checkedAt": "2026-10-29T16:43:31.156825+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Retained original checkedAt/raw SHA; not re-fetched during normalization."
+    }
+  ],
+  "pending": [
+    {
+      "title": "The Day of the Mantis",
+      "reason": "Wrong country for Luxembourg despite municipal Casino venue and generic own Casino JSON-LD/footer. Actual full organizer body explicitly GwangjuMuseumofArt,Gwangju,SouthKorea.",
+      "sourceProof": [
+        {
+          "sourceUrl": "https://casino-luxembourg.lu/en/agenda/day-mantis",
+          "checkedAt": "2026-10-29T16:41:50.010913+00:00",
+          "bodySHA256": "649e58213fdf49fd8d7948f88024bb0636785d081f5502efc27e9d0703f86bc4",
+          "rawPath": "/workspace/scratch/59f6a13c9f12/resume-20261029/research/luxembourg/own/casino-mantis/7adbb01cf72ed80a.raw"
+        }
+      ],
+      "lines": [
+        422,
+        445,
+        446
+      ]
+    },
+    {
+      "title": "Iphigénie en Tauride",
+      "reason": "Municipal teaser malformedyear0206; end29November2026 outside inclusive29Oct–27Nov horizon. Never corrected by guessing; full programme not opened.",
+      "resumedResolution": "Malformed municipal teaser remains excluded. Separately read own full programme explicitly supports27Nov2026 19:30;29Nov outside horizon excluded. See new direct-source candidate, not guessed correction."
+    },
+    {
+      "title": "Roméo et Juliette",
+      "reason": "philharmonie.lu fullread403; search discovery snippet not evidence, no cached-body/alternatepage retry.",
+      "sourceAuditKey": "own/philharmonie-romeo"
+    },
+    {
+      "title": "29October morning/afternoon classes",
+      "reason": "Ended or already started before current17:46local asOf. No unknown finishing time invented to keep them live."
+    }
+  ],
+  "translations": {
+    "Named venue public evidence": "Named venue public evidence",
+    "The Hearth Room": "The Hearth Room",
+    "An evolving installation by Christoph Meier and Ute Müller explores clay, collective making and the conditions of artistic production. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.": "An evolving installation by Christoph Meier and Ute Müller explores clay, collective making and the conditions of artistic production. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+    "casino-luxembourg.lu": "casino-luxembourg.lu",
+    "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.": "Full retained direct programme/date evidence; see programme sourceProof and independent offline QA.",
+    "Claude Marx : D’un Monde à l’autre": "Claude Marx : D’un Monde à l’autre",
+    "Claude Marx presents photography spanning seventy-five years of travel, personal history and social observation. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.": "Claude Marx presents photography spanning seventy-five years of travel, personal history and social observation. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+    "www.neimenster.lu": "www.neimenster.lu",
+    "La Fête": "La Fête",
+    "Anne-Cécile Vandalem and Joëlle Sambi explore privilege and accountability through a fictional meeting between two families following a student’s death.": "Anne-Cécile Vandalem and Joëlle Sambi explore privilege and accountability through a fictional meeting between two families following a student’s death.",
+    "theatres.lu": "theatres.lu",
+    "Luxembourg’s Science Slam": "Luxembourg’s Science Slam",
+    "Six researchers explain their work in ten-minute performances; the audience chooses the winner.": "Six researchers explain their work in ten-minute performances; the audience chooses the winner.",
+    "SHAPES guided tour (LU/DE)": "SHAPES guided tour (LU/DE)",
+    "A mediator-led introduction to geometry, art and science in the SHAPES exhibition.": "A mediator-led introduction to geometry, art and science in the SHAPES exhibition.",
+    "cerclecite.lu": "cerclecite.lu",
+    "Pocket sculptures": "Pocket sculptures",
+    "Make folding paper sculptures inspired by Bruno Munari; materials supplied.": "Make folding paper sculptures inspired by Bruno Munari; materials supplied.",
+    "CeCiL’s Box: A Puzzle of Words and Thoughts": "CeCiL’s Box: A Puzzle of Words and Thoughts",
+    "Safouane Ben Slama’s evolving photographic installation in the street-facing showcase on rue du Curé. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.": "Safouane Ben Slama’s evolving photographic installation in the street-facing showcase on rue du Curé. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+    "Fundatio": "Fundatio",
+    "An exhibition explores the origins of the County of Luxembourg through a 1123 charter and objects from European collections. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.": "An exhibition explores the origins of the County of Luxembourg through a 1123 charter and objects from European collections. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+    "citymuseum.lu": "citymuseum.lu",
+    "Full own exhibitions index explicitly states both years; detail supplies programme body.": "Full own exhibitions index explicitly states both years; detail supplies programme body.",
+    "City Visions": "City Visions",
+    "Historical and contemporary views of Luxembourg, with interactive activities for children and adults. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.": "Historical and contemporary views of Luxembourg, with interactive activities for children and adults. This is a published exhibition date range. Displayed daily hours are venue visiting hours, not separate event sessions.",
+    "Iphigénie en Tauride": "Iphigénie en Tauride",
+    "Gluck’s opera with a prologue by director Wajdi Mouawad, performed by Le Consort and Les éléments.": "Gluck’s opera with a prologue by director Wajdi Mouawad, performed by Le Consort and Les éléments.",
+    "Anaïs Foux Trio + Poplar Water 4tet": "Anaïs Foux Trio + Poplar Water 4tet",
+    "Emerging jazz groups from Luxembourg and France play consecutive 40-minute showcases in the PAUSE series.": "Emerging jazz groups from Luxembourg and France play consecutive 40-minute showcases in the PAUSE series.",
+    "Botis Seva / Far From The Norm: Sing Child Sing": "Botis Seva / Far From The Norm: Sing Child Sing",
+    "A hip-hop and contemporary dance solo explores memory, inherited patterns and physical transformation.": "A hip-hop and contemporary dance solo explores memory, inherited patterns and physical transformation.",
+    "Open workshop with Far From The Norm": "Open workshop with Far From The Norm",
+    "Jordan Douglas introduces the company’s training methods, street-dance foundations and collaborative practice.": "Jordan Douglas introduces the company’s training methods, street-dance foundations and collaborative practice.",
+    "City of Dreams": "City of Dreams",
+    "Explore City Visions with a magnifier, then create an imagined city using mixed media and screen printing.": "Explore City Visions with a magnifier, then create an imagined city using mixed media and screen printing.",
+    "Exact observed own querydate1793714400 resolves to calendar year2026; visible body3November14h00 and explicit additional5/6November. Epoch time not treated as timezone-correct start.": "Exact observed own querydate1793714400 resolves to calendar year2026; visible body3November14h00 and explicit additional5/6November. Epoch time not treated as timezone-correct start.",
+    "Luxembourg retained public source": "Luxembourg retained public source",
+    "Retained direct programme/venue evidence": "Retained direct programme/venue evidence"
+  }
+}

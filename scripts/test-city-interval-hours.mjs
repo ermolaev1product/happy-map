@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import {normalizePacket} from './city-expansion/normalize-packet.mjs';
+import {readModel} from './city-expansion/validate-packet.mjs';
+import {hasRemainingOccurrence} from './city-expansion/publication-filter.mjs';
+const config={id:'fixture',canonicalCity:'Test city',currency:'RUB',ianaTimezone:'Europe/Moscow'};
+const row={id:'fixture',date:'2026-10-01',endDate:'2026-10-20',time:null,dateType:'published_interval',lat:59.9,lng:30.3,coordinateSource:'https://example.org/location',openingHoursKnown:true,openingHoursSource:'https://example.org/hours',openingHours:{mon:['11:00','23:00'],tue:null,wed:['11:00','23:00'],thu:['11:00','23:00'],fri:['11:00','23:00'],sat:['11:00','23:00'],sun:['11:00','23:00']}};
+const packet=normalizePacket({events:[row],places:[],sources:[]},config),event=packet.events[0],model=readModel();
+assert.equal(packet.events.length,1,'Never expand interval into manufactured events');
+assert.equal(event.date,row.date);assert.equal(event.endDate,row.endDate);assert.equal(event.time,null);assert.equal(event.endAt,undefined);
+assert.equal(event.openingHoursUnknown,false);assert.equal(event.visitSchedule['2026-10-20'],undefined);
+assert.deepEqual(event.visitSchedule['2026-10-19'],{start:'11:00',end:'23:00'});
+assert(!model.availableOnDate(event,'2026-10-20',Date.parse('2026-10-15T11:00:00Z'),config.ianaTimezone));
+assert(hasRemainingOccurrence(event,Date.parse('2026-10-15T11:00:00Z'),config.ianaTimezone,model));
+assert(!hasRemainingOccurrence(event,Date.parse('2026-10-19T20:00:00Z'),config.ianaTimezone,model));
+const unknown=normalizePacket({events:[{...row,openingHoursKnown:false,openingHoursSource:null}],places:[],sources:[]},config).events[0];
+assert.equal(unknown.openingHoursUnknown,true);assert.equal(unknown.visitSchedule,undefined);assert.equal(unknown.timeOfDayEligible,false);
+console.log('PASS: sourced visit hours respect closed weekdays; original interval and null event start/end preserved; unknown schedules remain ineligible for time filters.');
+
+const weekdays={Monday:['10:00','18:00'],Tuesday:['10:00','21:00'],Wednesday:['10:00','18:00'],Thursday:['10:00','21:00'],Friday:['10:00','14:00'],Saturday:['10:00','18:00'],Sunday:null};
+const museum=normalizePacket({events:[{...row,openingHours:undefined,openingHoursSource:undefined,visitSchedule:weekdays,visitScheduleSource:'https://example.org/hours'}],places:[],sources:[]},config).events[0];
+assert.equal(museum.openingHoursKnown,true);assert.equal(museum.visitSchedule['2026-10-18'],undefined);assert.equal(museum.visitSchedule['2026-10-19'].end,'18:00');assert(!model.availableOnDate(museum,'2026-10-18',Date.parse('2026-10-15T11:00:00Z'),config.ianaTimezone));

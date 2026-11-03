@@ -1,0 +1,139 @@
+{
+  "city": "Buenos Aires",
+  "checkedAt": "2026-10-28T03:17:00Z",
+  "sources": [
+    {
+      "id": "buenos-aires-source-2ec4b5473d0d00",
+      "name": "Buenos Aires Tourism events",
+      "url": "https://turismo.buenosaires.gob.ar/es/eventos",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "partial_review",
+      "accessStatus": "partial_review",
+      "count": 0,
+      "note": "Broad official event index reviewed; archives and completed events excluded.",
+      "type": "official_city_calendar"
+    },
+    {
+      "id": "buenos-aires-source-89ab2a30415731",
+      "name": "LINDA Buenos Aires official agenda",
+      "url": "https://linda.buenosaires.gob.ar/agenda",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "imported",
+      "accessStatus": "full_returned_api_set_screened",
+      "count": 311,
+      "note": "Public official API returned245programmes; page1/page2 repeated identical IDs, not distinct pages. Content and dates screened; uncertain records held; no claim of complete internet coverage.",
+      "type": "official_city_calendar"
+    },
+    {
+      "id": "buenos-aires-source-13312a3ac5c58f",
+      "name": "Teatro Colón official programme",
+      "url": "https://teatrocolon.org.ar/",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 9,
+      "note": "Selected organizer details crosschecked; no full venue calendar claim.",
+      "type": "official_organizer"
+    },
+    {
+      "id": "buenos-aires-source-e15f7a85146472",
+      "name": "Museo Moderno",
+      "url": "https://museomoderno.org/",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "partial_detail_review",
+      "accessStatus": "partial_detail_review",
+      "count": 0,
+      "note": "Admission/real exhibition range reviewed; month-only ranges held.",
+      "type": "official_organizer"
+    },
+    {
+      "id": "buenos-aires-source-a4d9bad492622f",
+      "name": "Buenos Aires Telegram AfishaBA?q=%23club",
+      "url": "https://t.me/s/AfishaBA?q=%23club",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "read_archival_announcements",
+      "accessStatus": "read_archival_announcements",
+      "count": 0,
+      "note": "Accessible preview contains old announcements, including August 2025; no verified event in requested window.",
+      "type": "telegram"
+    },
+    {
+      "id": "buenos-aires-source-7f1b09e99adae2",
+      "name": "Buenos Aires Telegram buenosaires_afisha?before=28",
+      "url": "https://t.me/s/buenosaires_afisha?before=28",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "read_archival_announcements",
+      "accessStatus": "read_archival_announcements",
+      "count": 0,
+      "note": "Read messages explicitly dated February–March 2024. Excluded from October–November 2026 window.",
+      "type": "telegram"
+    },
+    {
+      "id": "buenos-aires-source-27799592166ece",
+      "name": "Buenos Aires Telegram AfishaBA",
+      "url": "https://t.me/s/AfishaBA",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "tool_unavailable",
+      "accessStatus": "tool_unavailable",
+      "count": 0,
+      "note": "Current root preview could not be fetched by web tool.",
+      "type": "telegram"
+    },
+    {
+      "id": "buenos-aires-source-e8b30669d4cdc4",
+      "name": "Buenos Aires Telegram buenosaires_afisha",
+      "url": "https://t.me/s/buenosaires_afisha",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "tool_unavailable",
+      "accessStatus": "tool_unavailable",
+      "count": 0,
+      "note": "Current root preview could not be fetched by web tool.",
+      "type": "telegram"
+    },
+    {
+      "id": "buenos-aires-source-cd3494e8ffe4ab",
+      "name": "Buenos Aires Telegram AfishaBAchat",
+      "url": "https://t.me/AfishaBAchat",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "tool_unavailable",
+      "accessStatus": "tool_unavailable",
+      "count": 0,
+      "note": "Public conversation preview unavailable.",
+      "type": "telegram_chat"
+    },
+    {
+      "id": "buenos-aires-source-50638e3fa625b0",
+      "name": "Buenos Aires Telegram AfishaBAchat",
+      "url": "https://t.me/s/AfishaBAchat",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "tool_unavailable",
+      "accessStatus": "tool_unavailable",
+      "count": 0,
+      "note": "Public conversation preview unavailable.",
+      "type": "telegram_chat"
+    },
+    {
+      "id": "buenos-aires-source-f156c961e013b0",
+      "name": "Buenos Aires Telegram buenosaires_chatik",
+      "url": "https://t.me/buenosaires_chatik",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "profile_only",
+      "accessStatus": "profile_only",
+      "count": 0,
+      "note": "Public profile visible; messages not read. Not treated as an announcement source.",
+      "type": "telegram_chat"
+    },
+    {
+      "id": "buenos-aires-source-1a89e29f197ee0",
+      "name": "Buenos Aires Telegram buenosaires_chatik",
+      "url": "https://t.me/s/buenosaires_chatik",
+      "checkedAt": "2026-10-28T03:17:00Z",
+      "status": "tool_unavailable",
+      "accessStatus": "tool_unavailable",
+      "count": 0,
+      "note": "Public conversation preview unavailable.",
+      "type": "telegram_chat"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

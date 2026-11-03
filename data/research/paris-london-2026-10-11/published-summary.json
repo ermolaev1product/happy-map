@@ -1,0 +1,68 @@
+{
+  "paris": {
+    "generatedAt": "2026-10-11T00:11:12.971289+00:00",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-17",
+    "datedListings": 1137,
+    "distinctPrograms": 830,
+    "permanentPlaces": 526,
+    "sourceAccessPoints": 45,
+    "knownPrices": 827,
+    "mapped": 1137,
+    "coordinatePrecision": {
+      "official-calendar": 1134,
+      "venue-complex": 3
+    },
+    "categoryCounts": {
+      "art": 186,
+      "other": 246,
+      "music": 149,
+      "sport": 107,
+      "lecture": 150,
+      "theatre": 244,
+      "film": 22,
+      "city": 13,
+      "games": 20
+    },
+    "sourceCounts": {
+      "Que Faire à Paris · Ville de Paris": 1114,
+      "Collège de France": 20,
+      "Philharmonie de Paris": 3
+    },
+    "telegramAccessPoints": 13,
+    "note": "Manual bounded collection. No continuous Telegram or daily automatic import. Profiles and links are not current programmes."
+  },
+  "london": {
+    "generatedAt": "2026-10-11T00:16:24.988973+00:00",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-17",
+    "datedListings": 138,
+    "distinctPrograms": 130,
+    "permanentPlaces": 40,
+    "sourceAccessPoints": 124,
+    "knownPrices": 107,
+    "mapped": 129,
+    "coordinatePrecision": {
+      "postcode-centroid": 108,
+      "unknown": 9,
+      "official-venue": 21
+    },
+    "categoryCounts": {
+      "meetup": 88,
+      "art": 12,
+      "music": 15,
+      "lecture": 16,
+      "theatre": 5,
+      "market": 2
+    },
+    "sourceCounts": {
+      "IanVisits": 91,
+      "Southbank Centre": 21,
+      "Wigmore Hall": 10,
+      "Telegram / Afisha London": 7,
+      "LSE Public Events": 9
+    },
+    "telegramAccessPoints": 15,
+    "note": "Manual bounded collection. No continuous Telegram or daily automatic import. Profiles and links are not current programmes."
+  }
+}

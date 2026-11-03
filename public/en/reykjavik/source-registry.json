@@ -1,0 +1,77 @@
+{
+  "city": "Reykjavík",
+  "checkedAt": "2026-10-29T20:59:30Z",
+  "sources": [
+    {
+      "id": "reykjavik-source-0",
+      "name": "Venue own public information",
+      "url": "https://borgarbokasafn.is/en/library/ulfarsardalur-city-library",
+      "checkedAt": "2026-10-29T16:43:27.769999+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Retained full public response; source read timestamp is separate from later semantic review."
+    },
+    {
+      "id": "reykjavik-source-1",
+      "name": "Venue own public information",
+      "url": "https://borgarbokasafn.is/en/library/grofin-city-library",
+      "checkedAt": "2026-10-29T20:48:05.941234+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Retained full public response; source read timestamp is separate from later semantic review."
+    },
+    {
+      "id": "reykjavik-source-2",
+      "name": "Venue own public information",
+      "url": "https://borgarbokasafn.is/en/library/spongin-city-library",
+      "checkedAt": "2026-10-29T20:48:31.094183+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Retained full public response; source read timestamp is separate from later semantic review."
+    },
+    {
+      "id": "reykjavik-source-3",
+      "name": "Venue own public information",
+      "url": "https://borgarbokasafn.is/en/library/arbaer-city-library",
+      "checkedAt": "2026-10-29T16:45:21.643747+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Retained full public response; source read timestamp is separate from later semantic review."
+    },
+    {
+      "id": "reykjavik-source-4",
+      "name": "Venue own public information",
+      "url": "https://borgarsogusafn.is/arbaejarsafn",
+      "checkedAt": "2026-10-29T20:50:06.857679+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Retained full public response; source read timestamp is separate from later semantic review."
+    },
+    {
+      "id": "reykjavik-source-5",
+      "name": "Tix authorized ticket seller",
+      "url": "https://tix.is/en/event/22017/vespers-e-rachmaninoff-kyrja-yrkja-naeturvaka-fyrir-fornarlomb-strids-i-hallgrimskirkju",
+      "checkedAt": "2026-10-29T20:54:11.324329+00:00",
+      "status": "full_read",
+      "accessStatus": "full_read",
+      "count": 0,
+      "note": "Retained full public response; source read timestamp is separate from later semantic review."
+    },
+    {
+      "id": "reykjavik-municipal-calendar-20261029",
+      "name": "Reykjavík municipal calendar",
+      "url": "https://reykjavik.is/api-proxy/hvirfill-api?_api_proxy_uri=find%3Fsort%3Dstart%26offset%3D0%26limit%3D600%26f%3D2026-10-29%26t%3D2026-12-28",
+      "checkedAt": "2026-10-29T16:41:15.532192+00:00",
+      "status": "imported",
+      "accessStatus": "full_read",
+      "count": 67,
+      "note": "Retained full public response; source read timestamp is separate from later semantic review."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

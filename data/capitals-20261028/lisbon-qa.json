@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-10-28T04:31:37.460Z",
+  "cityId": "lisbon",
+  "counts": {
+    "events": 171,
+    "sessions": 154,
+    "ranges": 17,
+    "programmes": 83,
+    "venueRecords": 40,
+    "pending": 36
+  },
+  "previewDays": [
+    {
+      "date": "Wednesday 28 October",
+      "rows": 23,
+      "summary": "23 on map · 0 nearby"
+    },
+    {
+      "date": "Thursday 29 October",
+      "rows": 22,
+      "summary": "22 on map · 1 nearby"
+    },
+    {
+      "date": "Friday 30 October",
+      "rows": 23,
+      "summary": "23 on map · 0 nearby"
+    },
+    {
+      "date": "Saturday 31 October",
+      "rows": 26,
+      "summary": "26 on map · 1 nearby"
+    },
+    {
+      "date": "Sunday 1 November",
+      "rows": 19,
+      "summary": "19 on map · 0 nearby"
+    },
+    {
+      "date": "Monday 2 November",
+      "rows": 12,
+      "summary": "12 on map · 0 nearby"
+    },
+    {
+      "date": "Tuesday 3 November",
+      "rows": 10,
+      "summary": "10 on map · 0 nearby"
+    }
+  ],
+  "mainflow": {
+    "countryCityMap": true,
+    "returnToSelectedCity": true,
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "weekRows": 59,
+    "weekNearby": 2,
+    "wholeCityPlaces": 40,
+    "distanceOrder": true
+  },
+  "regressions": {
+    "oldFeedsChecked": 156,
+    "oldFeedsChanged": 0,
+    "countryPicker34": true,
+    "citywide69Routes966Checks": true,
+    "locationControl": true,
+    "liveExpiryResume": true,
+    "intervalHours": true,
+    "english301Pages35AppMetadata": true,
+    "build": true
+  },
+  "corrections": [
+    "Arpad1Nov closure uses explicit dates without weekly-hours override",
+    "film normalized to cinema",
+    "Gulbenkian conditional cancellation templates verified hidden in rendered public UI",
+    "LifeIsGame unverified booking slots held; Banksy permanent attraction not event"
+  ],
+  "limitations": [
+    "Source coverage partial; several held venue points and programmes",
+    "Preview account unavailable; unchanged account code",
+    "Backup map labels warning",
+    "APK not physically tested",
+    "Daily old-city source review not part of this city launch"
+  ]
+}

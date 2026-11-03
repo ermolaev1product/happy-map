@@ -1,0 +1,888 @@
+[
+  {
+    "city": "tbilisi",
+    "stored": 2629,
+    "checkedAt": "2026-10-15T05:58:02.277Z",
+    "dates": [
+      {
+        "date": "2026-10-15",
+        "total": 204,
+        "cinema": 150,
+        "noncinema": 54,
+        "withCoordinates": 204,
+        "venues": 48,
+        "categories": {
+          "art": 18,
+          "music": 3,
+          "games": 5,
+          "talk": 3,
+          "film": 156,
+          "theatre": 7,
+          "nightlife": 2,
+          "sport": 1,
+          "workshop": 6,
+          "city": 1,
+          "kids": 2
+        }
+      },
+      {
+        "date": "2026-10-16",
+        "total": 210,
+        "cinema": 148,
+        "noncinema": 62,
+        "withCoordinates": 210,
+        "venues": 57,
+        "categories": {
+          "art": 17,
+          "nightlife": 5,
+          "talk": 3,
+          "theatre": 7,
+          "workshop": 6,
+          "games": 4,
+          "film": 152,
+          "music": 14,
+          "kids": 2
+        }
+      },
+      {
+        "date": "2026-10-17",
+        "total": 237,
+        "cinema": 150,
+        "noncinema": 87,
+        "withCoordinates": 237,
+        "venues": 65,
+        "categories": {
+          "art": 16,
+          "nightlife": 6,
+          "music": 17,
+          "sport": 3,
+          "talk": 2,
+          "workshop": 8,
+          "games": 8,
+          "film": 158,
+          "theatre": 12,
+          "food": 1,
+          "kids": 6
+        }
+      },
+      {
+        "date": "2026-10-18",
+        "total": 209,
+        "cinema": 150,
+        "noncinema": 59,
+        "withCoordinates": 209,
+        "venues": 47,
+        "categories": {
+          "workshop": 3,
+          "art": 13,
+          "music": 12,
+          "talk": 1,
+          "film": 157,
+          "games": 4,
+          "nightlife": 3,
+          "theatre": 9,
+          "sport": 3,
+          "kids": 4
+        }
+      },
+      {
+        "date": "2026-10-19",
+        "total": 169,
+        "cinema": 150,
+        "noncinema": 19,
+        "withCoordinates": 169,
+        "venues": 20,
+        "categories": {
+          "art": 7,
+          "games": 2,
+          "talk": 2,
+          "film": 150,
+          "theatre": 2,
+          "kids": 5,
+          "music": 1
+        }
+      },
+      {
+        "date": "2026-10-20",
+        "total": 174,
+        "cinema": 150,
+        "noncinema": 24,
+        "withCoordinates": 174,
+        "venues": 23,
+        "categories": {
+          "art": 12,
+          "film": 150,
+          "music": 2,
+          "theatre": 5,
+          "kids": 1,
+          "games": 4
+        }
+      },
+      {
+        "date": "2026-10-21",
+        "total": 18,
+        "cinema": 0,
+        "noncinema": 18,
+        "withCoordinates": 18,
+        "venues": 13,
+        "categories": {
+          "art": 11,
+          "music": 2,
+          "theatre": 3,
+          "workshop": 1,
+          "kids": 1
+        }
+      }
+    ]
+  },
+  {
+    "city": "belgrade",
+    "stored": 566,
+    "checkedAt": "2026-10-15T05:58:02.277Z",
+    "dates": [
+      {
+        "date": "2026-10-15",
+        "total": 56,
+        "cinema": 2,
+        "noncinema": 54,
+        "withCoordinates": 56,
+        "venues": 49,
+        "categories": {
+          "theatre": 11,
+          "workshop": 1,
+          "games": 4,
+          "music": 5,
+          "talk": 3,
+          "tour": 1,
+          "film": 4,
+          "art": 24,
+          "sport": 1,
+          "lecture": 1,
+          "practice": 1
+        }
+      },
+      {
+        "date": "2026-10-16",
+        "total": 47,
+        "cinema": 2,
+        "noncinema": 45,
+        "withCoordinates": 47,
+        "venues": 39,
+        "categories": {
+          "art": 24,
+          "talk": 3,
+          "theatre": 8,
+          "games": 2,
+          "kids": 1,
+          "music": 5,
+          "film": 4
+        }
+      },
+      {
+        "date": "2026-10-17",
+        "total": 50,
+        "cinema": 2,
+        "noncinema": 48,
+        "withCoordinates": 50,
+        "venues": 40,
+        "categories": {
+          "workshop": 4,
+          "music": 5,
+          "theatre": 7,
+          "talk": 1,
+          "market": 1,
+          "tour": 1,
+          "film": 5,
+          "kids": 1,
+          "sport": 1,
+          "art": 22,
+          "games": 2
+        }
+      },
+      {
+        "date": "2026-10-18",
+        "total": 37,
+        "cinema": 2,
+        "noncinema": 35,
+        "withCoordinates": 37,
+        "venues": 27,
+        "categories": {
+          "workshop": 2,
+          "city": 1,
+          "music": 4,
+          "theatre": 6,
+          "games": 6,
+          "film": 3,
+          "art": 13,
+          "walk": 1,
+          "talk": 1
+        }
+      },
+      {
+        "date": "2026-10-19",
+        "total": 26,
+        "cinema": 2,
+        "noncinema": 24,
+        "withCoordinates": 26,
+        "venues": 21,
+        "categories": {
+          "theatre": 6,
+          "music": 3,
+          "talk": 2,
+          "film": 2,
+          "art": 11,
+          "lecture": 1,
+          "games": 1
+        }
+      },
+      {
+        "date": "2026-10-20",
+        "total": 32,
+        "cinema": 2,
+        "noncinema": 30,
+        "withCoordinates": 32,
+        "venues": 26,
+        "categories": {
+          "workshop": 3,
+          "theatre": 6,
+          "tour": 1,
+          "film": 2,
+          "art": 17,
+          "music": 1,
+          "talk": 2
+        }
+      },
+      {
+        "date": "2026-10-21",
+        "total": 27,
+        "cinema": 2,
+        "noncinema": 25,
+        "withCoordinates": 27,
+        "venues": 22,
+        "categories": {
+          "music": 2,
+          "talk": 2,
+          "theatre": 3,
+          "film": 2,
+          "art": 18
+        }
+      }
+    ]
+  },
+  {
+    "city": "moscow",
+    "stored": 3653,
+    "checkedAt": "2026-10-15T05:58:02.277Z",
+    "dates": [
+      {
+        "date": "2026-10-15",
+        "total": 337,
+        "cinema": 263,
+        "noncinema": 74,
+        "withCoordinates": 337,
+        "venues": 72,
+        "categories": {
+          "art": 21,
+          "film": 264,
+          "city": 5,
+          "theatre": 29,
+          "music": 2,
+          "talk": 13,
+          "workshop": 2,
+          "games": 1
+        }
+      },
+      {
+        "date": "2026-10-16",
+        "total": 355,
+        "cinema": 273,
+        "noncinema": 82,
+        "withCoordinates": 355,
+        "venues": 76,
+        "categories": {
+          "art": 23,
+          "film": 274,
+          "theatre": 38,
+          "city": 2,
+          "talk": 10,
+          "games": 2,
+          "music": 6
+        }
+      },
+      {
+        "date": "2026-10-17",
+        "total": 381,
+        "cinema": 276,
+        "noncinema": 105,
+        "withCoordinates": 381,
+        "venues": 83,
+        "categories": {
+          "art": 22,
+          "games": 1,
+          "film": 276,
+          "city": 11,
+          "theatre": 50,
+          "music": 6,
+          "talk": 12,
+          "workshop": 3
+        }
+      },
+      {
+        "date": "2026-10-18",
+        "total": 356,
+        "cinema": 267,
+        "noncinema": 89,
+        "withCoordinates": 356,
+        "venues": 74,
+        "categories": {
+          "art": 20,
+          "film": 268,
+          "games": 2,
+          "theatre": 40,
+          "talk": 8,
+          "city": 9,
+          "music": 5,
+          "workshop": 4
+        }
+      },
+      {
+        "date": "2026-10-19",
+        "total": 298,
+        "cinema": 254,
+        "noncinema": 44,
+        "withCoordinates": 298,
+        "venues": 55,
+        "categories": {
+          "art": 2,
+          "film": 254,
+          "talk": 4,
+          "workshop": 2,
+          "music": 4,
+          "games": 2,
+          "theatre": 30
+        }
+      },
+      {
+        "date": "2026-10-20",
+        "total": 317,
+        "cinema": 253,
+        "noncinema": 64,
+        "withCoordinates": 317,
+        "venues": 66,
+        "categories": {
+          "art": 20,
+          "film": 253,
+          "city": 2,
+          "music": 3,
+          "workshop": 2,
+          "talk": 6,
+          "theatre": 31
+        }
+      },
+      {
+        "date": "2026-10-21",
+        "total": 291,
+        "cinema": 248,
+        "noncinema": 43,
+        "withCoordinates": 291,
+        "venues": 48,
+        "categories": {
+          "art": 20,
+          "film": 249,
+          "workshop": 2,
+          "music": 2,
+          "city": 2,
+          "talk": 5,
+          "theatre": 11
+        }
+      }
+    ]
+  },
+  {
+    "city": "palo-alto",
+    "zone": "America/Los_Angeles",
+    "stored": 624,
+    "checkedAt": "2026-10-15T05:58:02.277Z",
+    "dates": [
+      {
+        "date": "2026-10-14",
+        "total": 4,
+        "cinema": 0,
+        "noncinema": 4,
+        "withCoordinates": 4,
+        "venues": 4,
+        "categories": {
+          "art": 3,
+          "lecture": 1
+        }
+      },
+      {
+        "date": "2026-10-15",
+        "total": 58,
+        "cinema": 0,
+        "noncinema": 58,
+        "withCoordinates": 55,
+        "venues": 42,
+        "categories": {
+          "art": 20,
+          "lecture": 11,
+          "city": 3,
+          "other": 12,
+          "kids": 4,
+          "talk": 5,
+          "workshop": 2,
+          "film": 1
+        }
+      },
+      {
+        "date": "2026-10-16",
+        "total": 60,
+        "cinema": 3,
+        "noncinema": 57,
+        "withCoordinates": 59,
+        "venues": 39,
+        "categories": {
+          "art": 21,
+          "other": 14,
+          "kids": 2,
+          "lecture": 8,
+          "talk": 2,
+          "workshop": 1,
+          "games": 1,
+          "film": 6,
+          "music": 4,
+          "city": 1
+        }
+      },
+      {
+        "date": "2026-10-17",
+        "total": 56,
+        "cinema": 4,
+        "noncinema": 52,
+        "withCoordinates": 56,
+        "venues": 34,
+        "categories": {
+          "art": 12,
+          "lecture": 2,
+          "workshop": 3,
+          "other": 10,
+          "talk": 4,
+          "kids": 2,
+          "city": 1,
+          "music": 8,
+          "film": 8,
+          "games": 2,
+          "sport": 2,
+          "theatre": 2
+        }
+      },
+      {
+        "date": "2026-10-18",
+        "total": 34,
+        "cinema": 4,
+        "noncinema": 30,
+        "withCoordinates": 33,
+        "venues": 20,
+        "categories": {
+          "art": 12,
+          "talk": 4,
+          "kids": 2,
+          "other": 5,
+          "film": 8,
+          "theatre": 1,
+          "workshop": 1,
+          "city": 1
+        }
+      },
+      {
+        "date": "2026-10-19",
+        "total": 21,
+        "cinema": 2,
+        "noncinema": 19,
+        "withCoordinates": 21,
+        "venues": 18,
+        "categories": {
+          "art": 2,
+          "kids": 1,
+          "talk": 13,
+          "film": 2,
+          "other": 1,
+          "city": 1,
+          "workshop": 1
+        }
+      },
+      {
+        "date": "2026-10-20",
+        "total": 22,
+        "cinema": 2,
+        "noncinema": 20,
+        "withCoordinates": 22,
+        "venues": 17,
+        "categories": {
+          "art": 5,
+          "talk": 9,
+          "kids": 3,
+          "other": 1,
+          "film": 2,
+          "workshop": 2
+        }
+      }
+    ]
+  },
+  {
+    "city": "paris",
+    "zone": "Europe/Paris",
+    "stored": 1506,
+    "checkedAt": "2026-10-15T05:58:02.277Z",
+    "dates": [
+      {
+        "date": "2026-10-15",
+        "total": 248,
+        "cinema": 0,
+        "noncinema": 248,
+        "withCoordinates": 248,
+        "venues": 191,
+        "categories": {
+          "art": 113,
+          "other": 21,
+          "lecture": 34,
+          "sport": 13,
+          "film": 3,
+          "city": 1,
+          "music": 26,
+          "games": 3,
+          "theatre": 34
+        }
+      },
+      {
+        "date": "2026-10-16",
+        "total": 230,
+        "cinema": 0,
+        "noncinema": 230,
+        "withCoordinates": 230,
+        "venues": 175,
+        "categories": {
+          "art": 111,
+          "music": 22,
+          "other": 20,
+          "lecture": 21,
+          "theatre": 36,
+          "sport": 11,
+          "film": 3,
+          "city": 4,
+          "games": 2
+        }
+      },
+      {
+        "date": "2026-10-17",
+        "total": 377,
+        "cinema": 0,
+        "noncinema": 377,
+        "withCoordinates": 377,
+        "venues": 275,
+        "categories": {
+          "art": 115,
+          "theatre": 65,
+          "music": 29,
+          "other": 100,
+          "lecture": 36,
+          "sport": 13,
+          "city": 8,
+          "film": 5,
+          "games": 6
+        }
+      },
+      {
+        "date": "2026-10-18",
+        "total": 193,
+        "cinema": 0,
+        "noncinema": 193,
+        "withCoordinates": 193,
+        "venues": 144,
+        "categories": {
+          "art": 91,
+          "music": 23,
+          "sport": 13,
+          "other": 15,
+          "talk": 6,
+          "film": 5,
+          "theatre": 34,
+          "city": 3,
+          "food": 1,
+          "games": 2
+        }
+      },
+      {
+        "date": "2026-10-19",
+        "total": 128,
+        "cinema": 0,
+        "noncinema": 128,
+        "withCoordinates": 128,
+        "venues": 98,
+        "categories": {
+          "art": 46,
+          "music": 11,
+          "other": 29,
+          "film": 8,
+          "theatre": 21,
+          "sport": 5,
+          "talk": 6,
+          "games": 2
+        }
+      },
+      {
+        "date": "2026-10-20",
+        "total": 206,
+        "cinema": 0,
+        "noncinema": 206,
+        "withCoordinates": 206,
+        "venues": 147,
+        "categories": {
+          "art": 89,
+          "music": 11,
+          "other": 46,
+          "film": 6,
+          "theatre": 36,
+          "sport": 9,
+          "talk": 7,
+          "games": 2
+        }
+      },
+      {
+        "date": "2026-10-21",
+        "total": 103,
+        "cinema": 0,
+        "noncinema": 103,
+        "withCoordinates": 103,
+        "venues": 78,
+        "categories": {
+          "art": 98,
+          "theatre": 2,
+          "music": 1,
+          "city": 2
+        }
+      }
+    ]
+  },
+  {
+    "city": "london",
+    "zone": "Europe/London",
+    "stored": 180,
+    "checkedAt": "2026-10-15T05:58:02.277Z",
+    "dates": [
+      {
+        "date": "2026-10-15",
+        "total": 28,
+        "cinema": 0,
+        "noncinema": 28,
+        "withCoordinates": 26,
+        "venues": 24,
+        "categories": {
+          "meetup": 14,
+          "art": 5,
+          "music": 3,
+          "lecture": 5,
+          "theatre": 1
+        }
+      },
+      {
+        "date": "2026-10-16",
+        "total": 29,
+        "cinema": 0,
+        "noncinema": 29,
+        "withCoordinates": 28,
+        "venues": 26,
+        "categories": {
+          "meetup": 18,
+          "art": 5,
+          "lecture": 3,
+          "theatre": 1,
+          "music": 2
+        }
+      },
+      {
+        "date": "2026-10-17",
+        "total": 43,
+        "cinema": 0,
+        "noncinema": 43,
+        "withCoordinates": 42,
+        "venues": 36,
+        "categories": {
+          "meetup": 29,
+          "art": 5,
+          "market": 2,
+          "theatre": 1,
+          "food": 2,
+          "music": 3,
+          "lecture": 1
+        }
+      },
+      {
+        "date": "2026-10-18",
+        "total": 1,
+        "cinema": 0,
+        "noncinema": 1,
+        "withCoordinates": 1,
+        "venues": 1,
+        "categories": {
+          "music": 1
+        }
+      },
+      {
+        "date": "2026-10-19",
+        "total": 2,
+        "cinema": 0,
+        "noncinema": 2,
+        "withCoordinates": 2,
+        "venues": 2,
+        "categories": {
+          "talk": 1,
+          "music": 1
+        }
+      },
+      {
+        "date": "2026-10-20",
+        "total": 3,
+        "cinema": 0,
+        "noncinema": 3,
+        "withCoordinates": 3,
+        "venues": 3,
+        "categories": {
+          "talk": 2,
+          "music": 1
+        }
+      },
+      {
+        "date": "2026-10-21",
+        "total": 2,
+        "cinema": 0,
+        "noncinema": 2,
+        "withCoordinates": 2,
+        "venues": 2,
+        "categories": {
+          "music": 1,
+          "talk": 1
+        }
+      }
+    ]
+  },
+  {
+    "city": "flensburg",
+    "zone": "Europe/Berlin",
+    "stored": 208,
+    "checkedAt": "2026-10-15T05:58:02.277Z",
+    "dates": [
+      {
+        "date": "2026-10-15",
+        "total": 16,
+        "cinema": 2,
+        "noncinema": 14,
+        "withCoordinates": 16,
+        "venues": 12,
+        "categories": {
+          "art": 4,
+          "kids": 5,
+          "space": 1,
+          "film": 3,
+          "theatre": 3
+        }
+      },
+      {
+        "date": "2026-10-16",
+        "total": 13,
+        "cinema": 3,
+        "noncinema": 10,
+        "withCoordinates": 13,
+        "venues": 11,
+        "categories": {
+          "art": 4,
+          "film": 3,
+          "theatre": 3,
+          "music": 3
+        }
+      },
+      {
+        "date": "2026-10-17",
+        "total": 19,
+        "cinema": 4,
+        "noncinema": 15,
+        "withCoordinates": 19,
+        "venues": 14,
+        "categories": {
+          "art": 4,
+          "kids": 1,
+          "film": 4,
+          "theatre": 3,
+          "talk": 1,
+          "music": 3,
+          "games": 1,
+          "workshop": 1,
+          "market": 1
+        }
+      },
+      {
+        "date": "2026-10-18",
+        "total": 17,
+        "cinema": 4,
+        "noncinema": 13,
+        "withCoordinates": 17,
+        "venues": 12,
+        "categories": {
+          "art": 3,
+          "music": 1,
+          "workshop": 3,
+          "city": 1,
+          "film": 4,
+          "theatre": 2,
+          "sport": 1,
+          "talk": 1,
+          "market": 1
+        }
+      },
+      {
+        "date": "2026-10-19",
+        "total": 5,
+        "cinema": 2,
+        "noncinema": 3,
+        "withCoordinates": 5,
+        "venues": 4,
+        "categories": {
+          "art": 1,
+          "workshop": 1,
+          "film": 2,
+          "kids": 1
+        }
+      },
+      {
+        "date": "2026-10-20",
+        "total": 15,
+        "cinema": 2,
+        "noncinema": 13,
+        "withCoordinates": 15,
+        "venues": 9,
+        "categories": {
+          "art": 5,
+          "talk": 4,
+          "kids": 3,
+          "film": 2,
+          "space": 1
+        }
+      },
+      {
+        "date": "2026-10-21",
+        "total": 10,
+        "cinema": 2,
+        "noncinema": 8,
+        "withCoordinates": 10,
+        "venues": 8,
+        "categories": {
+          "art": 4,
+          "film": 3,
+          "theatre": 1,
+          "nightlife": 1,
+          "workshop": 1
+        }
+      }
+    ]
+  }
+]

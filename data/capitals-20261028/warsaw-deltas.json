@@ -1,0 +1,118 @@
+[
+  {
+    "file": "qa-delta-0406.json",
+    "data": {
+      "checkedAt": "2026-10-28T04:06:44.003214+00:00",
+      "frozenSha256": "e9e1aa7b485c3cdab6ca30966a89880694beaf58e512efc87e4ec20407852a03",
+      "corrections": [
+        {
+          "candidateIndex": 11,
+          "title": "Bernardyni, reformaci, franciszkanie, kapucyni, bracia mniejsi – franciszkańskie gałęzie czy odłamy?",
+          "field": "coordinates.sourceUrl",
+          "old": "https://www.kupbilecic.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej",
+          "new": "https://www.kupbilecik.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej"
+        },
+        {
+          "candidateIndex": 12,
+          "title": "Św. Franciszek Jacka Malczewskiego — obraz religijny czy modernistyczna autokreacja?",
+          "field": "coordinates.sourceUrl",
+          "old": "https://www.kupbilecic.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej",
+          "new": "https://www.kupbilecik.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej"
+        },
+        {
+          "candidateIndex": 13,
+          "title": "Myśl, pamięć i obraz — jak świętowano franciszkański jubileusz w1926r.",
+          "field": "coordinates.sourceUrl",
+          "old": "https://www.kupbilecic.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej",
+          "new": "https://www.kupbilecik.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej"
+        },
+        {
+          "candidateIndex": 14,
+          "title": "Stygmatyzacja i ekstaza św. Franciszka",
+          "field": "coordinates.sourceUrl",
+          "old": "https://www.kupbilecic.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej",
+          "new": "https://www.kupbilecik.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej"
+        },
+        {
+          "candidateIndex": 18,
+          "title": "Temat Rzeka — prawie akustycznie",
+          "field": "coordinates.sourceUrl",
+          "old": "https://www.kupbilecic.pl/pl/place/4341/klubokawiarnia-kicia-kocia",
+          "new": "https://www.kupbilecik.pl/pl/place/4341/klubokawiarnia-kicia-kocia"
+        },
+        {
+          "candidateIndex": 19,
+          "title": "Temat Rzeka — prawie akustycznie",
+          "field": "coordinates.sourceUrl",
+          "old": "https://www.kupbilecic.pl/pl/place/4341/klubokawiarnia-kicia-kocia",
+          "new": "https://www.kupbilecik.pl/pl/place/4341/klubokawiarnia-kicia-kocia"
+        }
+      ],
+      "radioAddress": {
+        "current": "ul. Zygmunta Modzelewskiego 59, Warszawa",
+        "former": "ul. Jacka Kaczmarskiego 59",
+        "source": "https://sklep.polskieradio.pl/pl/i/FAQ/6",
+        "pinStatus": "held_for_recheck"
+      }
+    }
+  },
+  {
+    "file": "conference-delta-0408.json",
+    "data": {
+      "checkedAt": "2026-10-28T04:08:53.171599+00:00",
+      "frozenSnapshotUnchanged": true,
+      "newCandidates": [
+        {
+          "title": "Bielik Summit 2026",
+          "city": "Warsaw",
+          "timezone": "Europe/Warsaw",
+          "localDate": "2026-11-26",
+          "startLocalTime": "10:00",
+          "endLocalTime": "17:00",
+          "venue": "Muzeum Wojska Polskiego — Pawilon Południowy",
+          "address": "ul. Gwardii 4, Warszawa",
+          "category": "conference",
+          "price": 1299,
+          "currency": "PLN",
+          "priceNote": "Organizer gross ticket price; mandatory additional ticketing fees unknown; no checkout performed",
+          "sourceUrl": "https://bieliksummit.ai/",
+          "ticketUrl": "https://tobilet.pl/bielik-summit-2026.html",
+          "checkedAt": "2026-10-28T04:08:53.171599+00:00",
+          "yearEvidence": {
+            "url": "https://bieliksummit.ai/agenda/",
+            "text": "26 listopada 2026 · Warszawa; opening10:00,closing16:40–17:00"
+          },
+          "coordinates": {
+            "lat": 52.264167,
+            "lon": 21.000278,
+            "accuracy": "museum building approximation, not entrance or city centroid",
+            "sourceUrl": "https://pl.wikipedia.org/wiki/Muzeum_Wojska_Polskiego_w_Warszawie",
+            "checkedAt": "2026-10-28T04:08:53.171599+00:00"
+          },
+          "addressSource": "https://muzeumwp.pl/kontakt/",
+          "restrictions": "Paid public in-person conference; no online stream. Audience business leaders, technical practitioners, startups; no affiliation restriction observed. Registration/ticket required.",
+          "language": null,
+          "status": "candidate_checked_pending_integration",
+          "coordinateAudit": "Current Gwardii4 SouthPavilion/Citadel matched officialmuseum and organizer; not former Jerozolimskie3 or MuseumHistoriiPolski adjacent building."
+        }
+      ],
+      "corrections": [
+        {
+          "candidateIndex": 9,
+          "field": "holidayHoursNote",
+          "value": "1Nov and11Nov opening hours unconfirmed. Official AKAMA fullpage states Tue–Sun12–18 but no explicit holiday exception; do not claim confirmed open on holidays."
+        }
+      ],
+      "sourceAudit": [
+        {
+          "url": "https://www.zpaf.pl/aktualnosci/gt-Akama-GO-zpaf/",
+          "status": "full_read_no_holiday_exception"
+        },
+        {
+          "query": "site:zpaf.pl 1 listopada 2026",
+          "status": "searched_no_specific_Warsaw_gallery_closure_found_not_proof_open"
+        }
+      ]
+    }
+  }
+]

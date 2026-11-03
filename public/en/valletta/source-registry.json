@@ -1,0 +1,897 @@
+{
+  "city": "Valletta",
+  "checkedAt": "2026-10-29T02:23:14.363888+00:00",
+  "sources": [
+    {
+      "id": "valletta-source-202aaaa2d243a8",
+      "name": "booking-7181",
+      "url": "https://booking.teatrumanoel.mt/eng/event/7181/the_grand_tour_of_teatru_manoel?theatreAreaID=1004#section-shows",
+      "checkedAt": "2026-10-28T12:36:03.809513+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-96a38b52711080",
+      "name": "booking-7335",
+      "url": "https://booking.teatrumanoel.mt/event/7335/collar?theatreAreaID=1004&fromLang=1257",
+      "checkedAt": "2026-10-28T12:36:14.933615+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-1d74ce94e3b4c3",
+      "name": "booking-7344",
+      "url": "https://booking.teatrumanoel.mt/event/7344/richard_strauss_salom%C3%A9?theatreAreaID=1004",
+      "checkedAt": "2026-10-28T12:36:10.330790+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-6b22df51f736f2",
+      "name": "booking-7346",
+      "url": "https://booking.teatrumanoel.mt/event/7346/variations?theatreAreaID=1004",
+      "checkedAt": "2026-10-28T12:36:19.009209+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-e56dc989f455b1",
+      "name": "booking-7360",
+      "url": "https://booking.teatrumanoel.mt/event/7360/toddler_bop?theatreAreaID=1004&fromLang=1257",
+      "checkedAt": "2026-10-28T12:36:28.585958+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-1cbdefa9017115",
+      "name": "booking-7367",
+      "url": "https://booking.teatrumanoel.mt/event/7367/a_voice_of_velvet?theatreAreaID=1004",
+      "checkedAt": "2026-10-28T12:36:23.464556+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-0373f0f4b9e57d",
+      "name": "booking-7374",
+      "url": "https://booking.teatrumanoel.mt/event/7374/beethoven200_piano_concerto_4?theatreAreaID=1004",
+      "checkedAt": "2026-10-28T12:36:34.339476+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-5829941e86ffce",
+      "name": "heritage-guardia",
+      "url": "https://heritagemalta.mt/whats-on/in-guardia-fort-st-elmo-and-the-national-war-museum-2/",
+      "checkedAt": "2026-10-28T12:32:59.746657+00:00",
+      "status": "403",
+      "accessStatus": "403",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-5d53800e9eb845",
+      "name": "heritage-polykosmik",
+      "url": "https://projects.heritagemalta.mt/project-news/the-upcoming-impulse-exhibition-polykosmik-materiality-and-memory-in-the-digital-world-comes-to-muza/",
+      "checkedAt": "2026-10-28T12:33:03.859437+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-f3050cc4e32009",
+      "name": "kuncett-named-map",
+      "url": "https://mindtrip.ai/restaurant/valletta-malta/kuncett/re-UooOKlEO",
+      "checkedAt": "2026-10-28T12:40:31.272323+00:00",
+      "status": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "accessStatus": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-9c3d1ee8caaadc",
+      "name": "kuncett-own",
+      "url": "https://www.kuncett.com",
+      "checkedAt": "2026-10-28T12:38:17.129564+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-11b78540947eff",
+      "name": "manoel-1732-a-tour-of-teatru-manoel",
+      "url": "https://teatrumanoel.mt/event/1732-a-tour-of-teatru-manoel/",
+      "checkedAt": "2026-10-28T12:33:16.109151+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 4,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-da7da0293f3bb4",
+      "name": "manoel-1732_-_a_tour_of_teatru_manoel?theatreAreaID=1004",
+      "url": "https://booking.teatrumanoel.mt/event/7257/1732_-_a_tour_of_teatru_manoel?theatreAreaID=1004",
+      "checkedAt": "2026-10-28T12:33:20.475722+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-948a6361b4a877",
+      "name": "manoel-a-voice-of-velvet",
+      "url": "https://teatrumanoel.mt/event/a-voice-of-velvet/",
+      "checkedAt": "2026-10-28T12:34:50.101487+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-1f67c4fa05185c",
+      "name": "manoel-about",
+      "url": "https://teatrumanoel.mt/about-us/",
+      "checkedAt": "2026-10-28T12:40:00.075296+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-8ffcaedd4c7e78",
+      "name": "manoel-beethoven4",
+      "url": "https://teatrumanoel.mt/event/beethoven200-piano-concerto-4/",
+      "checkedAt": "2026-10-28T12:02:32.590995+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-555da4e2d3de00",
+      "name": "manoel-club-bop",
+      "url": "https://teatrumanoel.mt/event/club-bop/",
+      "checkedAt": "2026-10-28T12:33:53.128940+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-5d6f23f90dd50d",
+      "name": "manoel-club_bop?theatreAreaID=1004&fromLang=1257",
+      "url": "https://booking.teatrumanoel.mt/event/7363/club_bop?theatreAreaID=1004&fromLang=1257",
+      "checkedAt": "2026-10-28T12:33:57.238657+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-32e015a8af1f38",
+      "name": "manoel-collar",
+      "url": "https://teatrumanoel.mt/event/collar/",
+      "checkedAt": "2026-10-28T12:34:41.828443+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-7dc13c1495cd65",
+      "name": "manoel-contact",
+      "url": "https://teatrumanoel.mt/contact-us/",
+      "checkedAt": "2026-10-28T12:34:03.374836+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-89df39d7e5239a",
+      "name": "manoel-g%C4%A7adna_zg%C4%A7ar?theatreAreaID=1004",
+      "url": "https://booking.teatrumanoel.mt/event/7333/g%C4%A7adna_zg%C4%A7ar?theatreAreaID=1004",
+      "checkedAt": "2026-10-28T12:33:33.352772+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-fb79a1828c601c",
+      "name": "manoel-home",
+      "url": "https://teatrumanoel.mt/",
+      "checkedAt": "2026-10-28T12:00:13.207820+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-3a5d151a55fa4b",
+      "name": "manoel-little-shop",
+      "url": "https://teatrumanoel.mt/event/little-shop-of-horrors/",
+      "checkedAt": "2026-10-28T12:02:28.634496+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 4,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-b1846d1054b7dd",
+      "name": "manoel-little_shop_of_horrors?theatreAreaID=1004",
+      "url": "https://booking.teatrumanoel.mt/event/7349/little_shop_of_horrors?theatreAreaID=1004",
+      "checkedAt": "2026-10-28T12:33:25.930509+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-e7ab25bfa38128",
+      "name": "manoel-map",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.014263929697!2d14.509263115616035!3d35.8976663256782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e452c0fde2943%3A0xb83a9ca36bbc8b8d!2sTeatru%20Manoel!5e0!3m2!1sen!2sph!4v1659009781912!5m2!1sen!2sph",
+      "checkedAt": "2026-10-28T12:35:59.683212+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-0a162f7826213d",
+      "name": "manoel-price-sample",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140913",
+      "checkedAt": "2026-10-28T12:38:32.977851+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-36d67cb3e01671",
+      "name": "manoel-richard-strauss-salome",
+      "url": "https://teatrumanoel.mt/event/richard-strauss-salome/",
+      "checkedAt": "2026-10-28T12:34:20.985011+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-b5da00c910bac9",
+      "name": "manoel-salom%C3%A9_by_oscar_wilde?theatreAreaID=1004",
+      "url": "https://booking.teatrumanoel.mt/event/7343/salom%C3%A9_by_oscar_wilde?theatreAreaID=1004",
+      "checkedAt": "2026-10-28T12:33:49.219251+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-d2cf23d19f96f8",
+      "name": "manoel-salome-by-oscar-wilde",
+      "url": "https://teatrumanoel.mt/event/salome-by-oscar-wilde/",
+      "checkedAt": "2026-10-28T12:33:45.679989+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 6,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-55f33f9343a53f",
+      "name": "manoel-stand-up-comedy-nights",
+      "url": "https://teatrumanoel.mt/event/stand-up-comedy-nights/",
+      "checkedAt": "2026-10-28T12:33:37.627322+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-eda2f41578627f",
+      "name": "manoel-stand-up_comedy_nights?theatreAreaID=1004",
+      "url": "https://booking.teatrumanoel.mt/event/7372/stand-up_comedy_nights?theatreAreaID=1004",
+      "checkedAt": "2026-10-28T12:33:41.470106+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-f8eba676473b90",
+      "name": "manoel-the-grand-tour-of-teatru-manoel",
+      "url": "https://teatrumanoel.mt/event/the-grand-tour-of-teatru-manoel/",
+      "checkedAt": "2026-10-28T12:33:06.197875+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 8,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-175b8b7aa4142e",
+      "name": "manoel-tmyt-ghadna-zghar",
+      "url": "https://teatrumanoel.mt/event/tmyt-ghadna-zghar/",
+      "checkedAt": "2026-10-28T12:33:29.255842+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-2b0edf327eedbc",
+      "name": "manoel-toddler-bop",
+      "url": "https://teatrumanoel.mt/event/toddler-bop/",
+      "checkedAt": "2026-10-28T12:34:54.341180+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-c3b208570a2b42",
+      "name": "manoel-variations",
+      "url": "https://teatrumanoel.mt/event/variations/",
+      "checkedAt": "2026-10-28T12:34:46.340131+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-48b07d13dce9a8",
+      "name": "manoel-visit",
+      "url": "https://teatrumanoel.mt/visit/",
+      "checkedAt": "2026-10-28T12:34:16.032294+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-e3f5728884874d",
+      "name": "mcc-november",
+      "url": "https://mcc.com.mt/events/month/2026-11/?hide_subsequent_recurrences=1",
+      "checkedAt": "2026-10-28T12:32:52.471555+00:00",
+      "status": "403",
+      "accessStatus": "403",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-4a03f7192d28fb",
+      "name": "mosaic-university",
+      "url": "https://www.um.edu.mt/newspoint/upcomingevents/2026/mosaicworldmyjourneyii.html",
+      "checkedAt": "2026-10-28T12:34:52.884119+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-0e70c380ceb5a2",
+      "name": "msa-ghadajjar-ghajnejja-ebbs-and-flows-an-exhibition-by-miriam-galea",
+      "url": "https://artsmalta.org/event/ghadajjar-ghajnejja-ebbs-and-flows-an-exhibition-by-miriam-galea/",
+      "checkedAt": "2026-10-28T12:35:28.638352+00:00",
+      "status": "403",
+      "accessStatus": "403",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-069da7dc7b0ae4",
+      "name": "msa-home",
+      "url": "https://artsmalta.org/",
+      "checkedAt": "2026-10-28T12:34:38.042976+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-6c1da0102adee5",
+      "name": "price-140605",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140605",
+      "checkedAt": "2026-10-28T12:39:29.904844+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-b8116fa4de8fda",
+      "name": "price-140608",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140608",
+      "checkedAt": "2026-10-28T12:40:01.553431+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-c9b83b39b7a9e7",
+      "name": "price-140625",
+      "url": "https://booking.teatrumanoel.mt/eng/websales/show/140625",
+      "checkedAt": "2026-10-28T12:39:16.149322+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-380084dbc898d3",
+      "name": "price-140627",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140627",
+      "checkedAt": "2026-10-28T12:39:47.185600+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-856f1cb0586102",
+      "name": "price-140628",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140628",
+      "checkedAt": "2026-10-28T12:39:43.851436+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-2b30ba0f4794b0",
+      "name": "price-140721",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140721",
+      "checkedAt": "2026-10-28T12:39:58.320100+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-638c475817c22c",
+      "name": "price-140723",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140723",
+      "checkedAt": "2026-10-28T12:39:37.028880+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-7c6c300f5a5c04",
+      "name": "price-140735",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140735",
+      "checkedAt": "2026-10-28T12:39:40.180755+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-c934f84b22ed64",
+      "name": "price-140737",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140737",
+      "checkedAt": "2026-10-28T12:39:50.410034+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-5af42abbc384b9",
+      "name": "price-140847",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140847",
+      "checkedAt": "2026-10-28T12:39:26.636794+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-6420540876ff23",
+      "name": "price-140897",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140897",
+      "checkedAt": "2026-10-28T12:39:21.047736+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-b1f60224ff279b",
+      "name": "price-140910",
+      "url": "https://booking.teatrumanoel.mt/websales/show/140910",
+      "checkedAt": "2026-10-28T12:39:33.393925+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-b434995136f3c4",
+      "name": "spazju-home",
+      "url": "https://kreattivita.org/",
+      "checkedAt": "2026-10-28T12:00:10.218696+00:00",
+      "status": "403",
+      "accessStatus": "403",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-5f07a114d286cb",
+      "name": "vc-contact",
+      "url": "https://www.vallettacontemporary.com/contact",
+      "checkedAt": "2026-10-28T12:38:27.593771+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-30e038eff04e7c",
+      "name": "vc-earth",
+      "url": "https://www.vallettacontemporary.com/earth-will-swallow",
+      "checkedAt": "2026-10-28T12:35:49.403431+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-4d2ac9f236dd4f",
+      "name": "vc-exhibitions",
+      "url": "https://www.vallettacontemporary.com/exhibitions",
+      "checkedAt": "2026-10-28T12:34:17.830550+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-2b8146bbab8e59",
+      "name": "vc-find",
+      "url": "https://www.vallettacontemporary.com/find-us",
+      "checkedAt": "2026-10-28T12:36:38.744826+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-f16e68538ea5c6",
+      "name": "vc-named-coordinates",
+      "url": "https://archiexplore.com/projets/valletta-contemporary-la-valette",
+      "checkedAt": "2026-10-28T12:40:16.527592+00:00",
+      "status": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "accessStatus": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-f0aac855e9d82f",
+      "name": "vc-own-map-page-data",
+      "url": "https://pages.parastorage.com/pages/0d56e1_b726b0447a4f0dc0027998746eb705b0_5999.json",
+      "checkedAt": "2026-10-28T12:42:31.132586+00:00",
+      "status": "403",
+      "accessStatus": "403",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-8d3b944c8a0899",
+      "name": "vca-vdc",
+      "url": "https://www.vca.gov.mt/en/valletta-design-cluster/",
+      "checkedAt": "2026-10-28T12:37:54.365859+00:00",
+      "status": "403",
+      "accessStatus": "403",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-ca69da53531436",
+      "name": "vdc-event-6889596",
+      "url": "https://vallettadesigncluster.wildapricot.org/event-6889596",
+      "checkedAt": "2026-10-28T12:36:33.926168+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-6d7a248eadc327",
+      "name": "vdc-events",
+      "url": "https://vallettadesigncluster.wildapricot.org/whats-happening",
+      "checkedAt": "2026-10-28T12:34:43.790261+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-919ada0ba6c3e3",
+      "name": "vdc-waze",
+      "url": "https://www.waze.com/live-map/directions/mt/re%C4%A1jun-port/il-belt-valletta/valletta-design-cluster?to=place.ChIJ9Rgpk4VFDhMRk-H1RhMEXpk",
+      "checkedAt": "2026-10-28T12:37:59.986718+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-fc0a8463d67f46",
+      "name": "visitmalta-calendar",
+      "url": "https://www.visitmalta.com/en/events-in-malta-and-gozo/",
+      "checkedAt": "2026-10-28T12:00:06.648876+00:00",
+      "status": "403",
+      "accessStatus": "403",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-0a25192e395598",
+      "name": "www.maltapostalmuseum.com",
+      "url": "https://www.maltapostalmuseum.com/index.php/our-venue/exhibitions-and-events/",
+      "checkedAt": "2026-10-29T02:04:09.056478+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-fc2f317d23fd5d",
+      "name": "www.showshappening.com",
+      "url": "https://www.showshappening.com/mcc/ROCKY-HORROR-SHOW",
+      "checkedAt": "2026-10-29T02:03:58.038182+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 3,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-5f0c8f92751870",
+      "name": "www.festivals.mt",
+      "url": "https://www.festivals.mt/event-details/ora-singers-golden-ages",
+      "checkedAt": "2026-10-29T02:05:01.115943+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-451b147268aea7",
+      "name": "scienceinthecity.org.mt",
+      "url": "https://scienceinthecity.org.mt/event/peer-reviewed-punchline/",
+      "checkedAt": "2026-10-29T02:04:02.879137+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-ef91d3383e20d3",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/17475220",
+      "checkedAt": "2026-10-29T02:11:59.240864+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-fdcdcc53bb1dac",
+      "name": "www.festivals.mt",
+      "url": "https://www.festivals.mt/event-details/postcards-from-malta-jazz-timpana",
+      "checkedAt": "2026-10-29T02:05:29.299770+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-45cfd3e5d44936",
+      "name": "www.festivals.mt",
+      "url": "https://www.festivals.mt/event-details/soft-weapons-an-interdisciplinary-multisensory-encounter-18-6-00pm-2026-10-31-18-00",
+      "checkedAt": "2026-10-29T02:05:13.640314+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 3,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-67108c80b5cac0",
+      "name": "manicmalta.com",
+      "url": "https://manicmalta.com/events/town/valletta/",
+      "checkedAt": "2026-10-29T02:03:38.593408+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-4cf02c64912a0f",
+      "name": "www.yellow.com.mt",
+      "url": "https://www.yellow.com.mt/valletta-contemporary_art-galleries-dealers-consultants%2Bvalletta/",
+      "checkedAt": "2026-10-29T02:04:20.095013+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-4954fbe626f60e",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/W33808115",
+      "checkedAt": "2026-10-29T02:12:03.436844+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-bfe6ea7e05b39e",
+      "name": "www.festivals.mt",
+      "url": "https://www.festivals.mt/events/today",
+      "checkedAt": "2026-10-29T02:04:54.087494+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-18baebd43c3d69",
+      "name": "www.festivals.mt",
+      "url": "https://www.festivals.mt/event-details/hrejjef-maltese-folktales",
+      "checkedAt": "2026-10-29T02:05:19.301323+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-41a1ca5482a54d",
+      "name": "www.festivals.mt",
+      "url": "https://www.festivals.mt/event-details/giuseppe-cali-creative-genius-and-compelling-narratives-a-public-lecture-by-dr-mark-sagona-ph-d",
+      "checkedAt": "2026-10-29T02:05:05.621281+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-c32f07b5acfdd4",
+      "name": "www.festivals.mt",
+      "url": "https://www.festivals.mt/event-details/and-other-stories-toy-piano-corner-for-5-toy-pianos-histoire-du-tango",
+      "checkedAt": "2026-10-29T02:05:08.763917+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-3d2c6b177759dc",
+      "name": "spotlightmalta.com",
+      "url": "https://spotlightmalta.com/events/valletta",
+      "checkedAt": "2026-10-29T02:03:26.497412+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-d3a141f0a5d994",
+      "name": "concreteplayground.com",
+      "url": "https://concreteplayground.com/malta/things-to-do/valletta-contemporary",
+      "checkedAt": "2026-10-29T02:05:36.411045+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-2aaf4b2712ea1d",
+      "name": "spotlightmalta.com",
+      "url": "https://spotlightmalta.com/events/valletta?page=2",
+      "checkedAt": "2026-10-29T02:03:34.363483+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-304586a5705184",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/de/W15684588",
+      "checkedAt": "2026-10-29T02:12:10.518691+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-5ad243edd98618",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/17472944",
+      "checkedAt": "2026-10-29T02:12:07.022949+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-d78ce908aee3c4",
+      "name": "www.festivals.mt",
+      "url": "https://www.festivals.mt/event-details/la-monica-the-night-she-left",
+      "checkedAt": "2026-10-29T02:05:23.792828+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-de6f56e3e53955",
+      "name": "tickets.trackagescheme.com",
+      "url": "https://tickets.trackagescheme.com/events/the-three-palaces-festival-2026-alice-invites-you-to-tea-a-mad-hatter-s-tea-party",
+      "checkedAt": "2026-10-29T02:06:07.095819+00:00",
+      "status": "HTTP Error 403: Forbidden",
+      "accessStatus": "HTTP Error 403: Forbidden",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-331c70b6cc4b74",
+      "name": "www.festivals.mt",
+      "url": "https://www.festivals.mt/",
+      "checkedAt": "2026-10-29T02:04:13.379823+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-7e564b66bfddd5",
+      "name": "gustizzja.gov.mt",
+      "url": "https://gustizzja.gov.mt/ikkuntattjana/",
+      "checkedAt": "2026-10-29T02:12:21.706163+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-ec3271169d7c98",
+      "name": "mt.near-place.com",
+      "url": "https://mt.near-place.com/palazzo-de-la-salle-219-republic-street-valletta",
+      "checkedAt": "2026-10-29T02:12:16.930794+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-source-168380dd15c628",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/28376552",
+      "checkedAt": "2026-10-29T02:12:13.692064+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

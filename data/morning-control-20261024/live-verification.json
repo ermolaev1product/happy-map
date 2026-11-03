@@ -1,0 +1,546 @@
+{
+  "method": "Independent cloud browser DOM text of published JSON feeds",
+  "version": 169,
+  "routes": [
+    {
+      "city": "tbilisi",
+      "locale": "ru",
+      "path": "events.json",
+      "checkedAt": "2026-10-24T06:03:24.736Z",
+      "expectedCount": 3681,
+      "count": 3681,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "tbilisi",
+      "locale": "en/",
+      "path": "en/events.json",
+      "checkedAt": "2026-10-24T06:03:38.761Z",
+      "expectedCount": 3681,
+      "count": 3681,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "belgrade",
+      "locale": "ru",
+      "path": "belgrade/events.json",
+      "checkedAt": "2026-10-24T06:03:44.255Z",
+      "expectedCount": 626,
+      "count": 626,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "belgrade",
+      "locale": "en/",
+      "path": "en/belgrade/events.json",
+      "checkedAt": "2026-10-24T06:03:45.082Z",
+      "expectedCount": 626,
+      "count": 626,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "moscow",
+      "locale": "ru",
+      "path": "moscow/events.json",
+      "checkedAt": "2026-10-24T06:03:57.953Z",
+      "expectedCount": 3768,
+      "count": 3768,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "moscow",
+      "locale": "en/",
+      "path": "en/moscow/events.json",
+      "checkedAt": "2026-10-24T06:03:59.655Z",
+      "expectedCount": 3768,
+      "count": 3768,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "palo-alto",
+      "locale": "ru",
+      "path": "palo-alto/events.json",
+      "checkedAt": "2026-10-24T06:04:00.462Z",
+      "expectedCount": 656,
+      "count": 656,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "palo-alto",
+      "locale": "en/",
+      "path": "en/palo-alto/events.json",
+      "checkedAt": "2026-10-24T06:04:01.386Z",
+      "expectedCount": 656,
+      "count": 656,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "paris",
+      "locale": "ru",
+      "path": "paris/events.json",
+      "checkedAt": "2026-10-24T06:04:03.568Z",
+      "expectedCount": 1543,
+      "count": 1543,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "paris",
+      "locale": "en/",
+      "path": "en/paris/events.json",
+      "checkedAt": "2026-10-24T06:04:04.688Z",
+      "expectedCount": 1543,
+      "count": 1543,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "london",
+      "locale": "ru",
+      "path": "london/events.json",
+      "checkedAt": "2026-10-24T06:04:05.209Z",
+      "expectedCount": 247,
+      "count": 247,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "london",
+      "locale": "en/",
+      "path": "en/london/events.json",
+      "checkedAt": "2026-10-24T06:04:32.575Z",
+      "expectedCount": 247,
+      "count": 247,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "yerevan",
+      "locale": "ru",
+      "path": "yerevan/events.json",
+      "checkedAt": "2026-10-24T06:04:33.349Z",
+      "expectedCount": 652,
+      "count": 652,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "yerevan",
+      "locale": "en/",
+      "path": "en/yerevan/events.json",
+      "checkedAt": "2026-10-24T06:04:34.903Z",
+      "expectedCount": 652,
+      "count": 652,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "flensburg",
+      "locale": "ru",
+      "path": "flensburg/events.json",
+      "checkedAt": "2026-10-24T06:04:35.318Z",
+      "expectedCount": 229,
+      "count": 229,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "flensburg",
+      "locale": "en/",
+      "path": "en/flensburg/events.json",
+      "checkedAt": "2026-10-24T06:04:35.706Z",
+      "expectedCount": 229,
+      "count": 229,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "vienna",
+      "locale": "ru",
+      "path": "vienna/events.json",
+      "checkedAt": "2026-10-24T06:04:36.100Z",
+      "expectedCount": 259,
+      "count": 259,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "vienna",
+      "locale": "en/",
+      "path": "en/vienna/events.json",
+      "checkedAt": "2026-10-24T06:04:36.485Z",
+      "expectedCount": 259,
+      "count": 259,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "saint-petersburg",
+      "locale": "ru",
+      "path": "saint-petersburg/events.json",
+      "checkedAt": "2026-10-24T06:04:37.396Z",
+      "expectedCount": 497,
+      "count": 497,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "saint-petersburg",
+      "locale": "en/",
+      "path": "en/saint-petersburg/events.json",
+      "checkedAt": "2026-10-24T06:04:37.853Z",
+      "expectedCount": 497,
+      "count": 497,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "new-york",
+      "locale": "ru",
+      "path": "new-york/events.json",
+      "checkedAt": "2026-10-24T06:04:38.234Z",
+      "expectedCount": 130,
+      "count": 130,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "new-york",
+      "locale": "en/",
+      "path": "en/new-york/events.json",
+      "checkedAt": "2026-10-24T06:04:38.910Z",
+      "expectedCount": 130,
+      "count": 130,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "dubai",
+      "locale": "ru",
+      "path": "dubai/events.json",
+      "checkedAt": "2026-10-24T06:04:39.348Z",
+      "expectedCount": 88,
+      "count": 88,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "dubai",
+      "locale": "en/",
+      "path": "en/dubai/events.json",
+      "checkedAt": "2026-10-24T06:04:40.893Z",
+      "expectedCount": 88,
+      "count": 88,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "prague",
+      "locale": "ru",
+      "path": "prague/events.json",
+      "checkedAt": "2026-10-24T06:04:41.350Z",
+      "expectedCount": 402,
+      "count": 402,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "prague",
+      "locale": "en/",
+      "path": "en/prague/events.json",
+      "checkedAt": "2026-10-24T06:04:41.779Z",
+      "expectedCount": 402,
+      "count": 402,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "batumi",
+      "locale": "ru",
+      "path": "batumi/events.json",
+      "checkedAt": "2026-10-24T06:04:42.144Z",
+      "expectedCount": 180,
+      "count": 180,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "batumi",
+      "locale": "en/",
+      "path": "en/batumi/events.json",
+      "checkedAt": "2026-10-24T06:04:43.206Z",
+      "expectedCount": 180,
+      "count": 180,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "berlin",
+      "locale": "ru",
+      "path": "berlin/events.json",
+      "checkedAt": "2026-10-24T06:04:43.543Z",
+      "expectedCount": 124,
+      "count": 124,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "berlin",
+      "locale": "en/",
+      "path": "en/berlin/events.json",
+      "checkedAt": "2026-10-24T06:04:43.809Z",
+      "expectedCount": 124,
+      "count": 124,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "limassol",
+      "locale": "ru",
+      "path": "limassol/events.json",
+      "checkedAt": "2026-10-24T06:04:44.039Z",
+      "expectedCount": 74,
+      "count": 74,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "limassol",
+      "locale": "en/",
+      "path": "en/limassol/events.json",
+      "checkedAt": "2026-10-24T06:04:44.340Z",
+      "expectedCount": 74,
+      "count": 74,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "antalya",
+      "locale": "ru",
+      "path": "antalya/events.json",
+      "checkedAt": "2026-10-24T06:04:44.656Z",
+      "expectedCount": 102,
+      "count": 102,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "antalya",
+      "locale": "en/",
+      "path": "en/antalya/events.json",
+      "checkedAt": "2026-10-24T06:04:45.104Z",
+      "expectedCount": 102,
+      "count": 102,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "tel-aviv",
+      "locale": "ru",
+      "path": "tel-aviv/events.json",
+      "checkedAt": "2026-10-24T06:04:45.526Z",
+      "expectedCount": 106,
+      "count": 106,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "tel-aviv",
+      "locale": "en/",
+      "path": "en/tel-aviv/events.json",
+      "checkedAt": "2026-10-24T06:04:45.957Z",
+      "expectedCount": 106,
+      "count": 106,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "almaty",
+      "locale": "ru",
+      "path": "almaty/events.json",
+      "checkedAt": "2026-10-24T06:04:47.470Z",
+      "expectedCount": 58,
+      "count": 58,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "almaty",
+      "locale": "en/",
+      "path": "en/almaty/events.json",
+      "checkedAt": "2026-10-24T06:04:47.702Z",
+      "expectedCount": 58,
+      "count": 58,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "istanbul",
+      "locale": "ru",
+      "path": "istanbul/events.json",
+      "checkedAt": "2026-10-24T06:04:48.374Z",
+      "expectedCount": 279,
+      "count": 279,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "istanbul",
+      "locale": "en/",
+      "path": "en/istanbul/events.json",
+      "checkedAt": "2026-10-24T06:04:48.764Z",
+      "expectedCount": 279,
+      "count": 279,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "barcelona",
+      "locale": "ru",
+      "path": "barcelona/events.json",
+      "checkedAt": "2026-10-24T06:04:49.066Z",
+      "expectedCount": 72,
+      "count": 72,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "barcelona",
+      "locale": "en/",
+      "path": "en/barcelona/events.json",
+      "checkedAt": "2026-10-24T06:04:49.306Z",
+      "expectedCount": 72,
+      "count": 72,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "madrid",
+      "locale": "ru",
+      "path": "madrid/events.json",
+      "checkedAt": "2026-10-24T06:04:49.672Z",
+      "expectedCount": 292,
+      "count": 292,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "madrid",
+      "locale": "en/",
+      "path": "en/madrid/events.json",
+      "checkedAt": "2026-10-24T06:04:50.040Z",
+      "expectedCount": 292,
+      "count": 292,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "minsk",
+      "locale": "ru",
+      "path": "minsk/events.json",
+      "checkedAt": "2026-10-24T06:05:00.023Z",
+      "expectedCount": 164,
+      "count": 164,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "minsk",
+      "locale": "en/",
+      "path": "en/minsk/events.json",
+      "checkedAt": "2026-10-24T06:05:01.319Z",
+      "expectedCount": 164,
+      "count": 164,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "baku",
+      "locale": "ru",
+      "path": "baku/events.json",
+      "checkedAt": "2026-10-24T06:05:01.536Z",
+      "expectedCount": 66,
+      "count": 66,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "baku",
+      "locale": "en/",
+      "path": "en/baku/events.json",
+      "checkedAt": "2026-10-24T06:05:01.776Z",
+      "expectedCount": 66,
+      "count": 66,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "tashkent",
+      "locale": "ru",
+      "path": "tashkent/events.json",
+      "checkedAt": "2026-10-24T06:05:02.137Z",
+      "expectedCount": 98,
+      "count": 98,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "tashkent",
+      "locale": "en/",
+      "path": "en/tashkent/events.json",
+      "checkedAt": "2026-10-24T06:05:02.442Z",
+      "expectedCount": 98,
+      "count": 98,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "astana",
+      "locale": "ru",
+      "path": "astana/events.json",
+      "checkedAt": "2026-10-24T06:05:02.774Z",
+      "expectedCount": 23,
+      "count": 23,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "astana",
+      "locale": "en/",
+      "path": "en/astana/events.json",
+      "checkedAt": "2026-10-24T06:05:03.058Z",
+      "expectedCount": 23,
+      "count": 23,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "bishkek",
+      "locale": "ru",
+      "path": "bishkek/events.json",
+      "checkedAt": "2026-10-24T06:05:03.295Z",
+      "expectedCount": 68,
+      "count": 68,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "city": "bishkek",
+      "locale": "en/",
+      "path": "en/bishkek/events.json",
+      "checkedAt": "2026-10-24T06:05:04.711Z",
+      "expectedCount": 68,
+      "count": 68,
+      "mismatched": [],
+      "missing": []
+    }
+  ]
+}

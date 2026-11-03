@@ -1,0 +1,1074 @@
+{
+  "title": "Palo Alto-labelled Happy Map bar candidate verification",
+  "checked_date": "2026-10-14",
+  "source_registry": "https://happymap.app/research/bars-2026-10-14/",
+  "method": "Registry HTML extracted read-only; public web searches and official venue pages checked. No protected JSON access attempted. City assignments use official addresses / municipal or county records; no polygon-based boundary test performed. Fresh transferred v84 JSON reconciled by exact OSM source URLs with read-only source; original coordinates retained with explicit source. Existing catalog/published map inspected for exact IDs, normalized names/address and spatially nearby candidates; no current venue duplicates.",
+  "hours_format": "Local America/Los_Angeles; +1 means closes on following calendar day; [] means explicitly closed; null means unknown/not applicable.",
+  "counts": {
+    "registry_candidates": 14,
+    "inside_palo_alto_operating_official": 4,
+    "known_outside_palo_alto": 8,
+    "permanently_closed_total": 3,
+    "unresolved_identity": 1,
+    "temporary_closures_confirmed": 0,
+    "within_registry_duplicates": 0,
+    "existing_map_dedup": "complete; zero current catalog or published-place matches"
+  },
+  "confirmed_palo_alto": [
+    "Bar Underdog",
+    "The Wine Room",
+    "Scotty's",
+    "Rose and Crown"
+  ],
+  "outside_boundary": [
+    "Fred's Place",
+    "Loretta",
+    "Amandine",
+    "Green Room",
+    "Barebottle Brewing Company",
+    "Murdoch's Bar",
+    "O'Malley's Sports Pub",
+    "Steins Beer Garden"
+  ],
+  "permanently_closed": [
+    "Murdoch's Bar",
+    "Salvaje",
+    "Sliderbar"
+  ],
+  "temporarily_closed": [],
+  "unresolved": [
+    "Green Room"
+  ],
+  "duplicate_matches": [],
+  "records": [
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Fred's Place",
+      "registry_address": "2534 Old Middlefield Way 94043 Mountain View",
+      "registry_type": "bar",
+      "osm_url": "https://www.openstreetmap.org/node/1133499766",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Mountain View",
+      "boundary_status": "outside_palo_alto",
+      "operating_status": "operating",
+      "verified_address": "2534 Old Middlefield Way, Mountain View, CA 94043",
+      "official_website": "https://www.fredsplace.bar/",
+      "weekly_hours": {
+        "mon": [
+          "12:00-02:00+1"
+        ],
+        "tue": [
+          "12:00-02:00+1"
+        ],
+        "wed": [
+          "12:00-02:00+1"
+        ],
+        "thu": [
+          "12:00-02:00+1"
+        ],
+        "fri": [
+          "12:00-02:00+1"
+        ],
+        "sat": [
+          "10:00-02:00+1"
+        ],
+        "sun": [
+          "10:00-02:00+1"
+        ]
+      },
+      "hours_source": "https://www.fredsplace.bar/",
+      "hours_evidence_quality": "official",
+      "evidence": [
+        {
+          "url": "https://www.fredsplace.bar/",
+          "role": "official_address_hours_status"
+        },
+        {
+          "url": "https://eservices.sccgov.org/FacilityInspection/Home/ShowDetail/PR0300786",
+          "role": "county_address"
+        }
+      ],
+      "notes": [],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "exclude_outside_city",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Fred's Place",
+        "category": "bar",
+        "address": "2534 Old Middlefield Way 94043 Mountain View",
+        "lat": 37.4156034,
+        "lng": -122.1011086,
+        "website": "https://fredsplace.tv/",
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/node/1133499766",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": null,
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:node:1133499766",
+      "lat": 37.4156034,
+      "lng": -122.1011086,
+      "coordinate_source": "https://www.openstreetmap.org/node/1133499766",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Loretta",
+      "registry_address": "639 Santa Cruz Avenue 94025 Menlo Park",
+      "registry_type": "bar",
+      "osm_url": "https://www.openstreetmap.org/node/2628201870",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Menlo Park",
+      "boundary_status": "outside_palo_alto",
+      "operating_status": "operating",
+      "verified_address": "639 Santa Cruz Avenue, Menlo Park, CA 94025",
+      "official_website": null,
+      "weekly_hours": {
+        "mon": [
+          "16:00-21:00"
+        ],
+        "tue": [
+          "16:00-22:00"
+        ],
+        "wed": [
+          "16:00-22:00"
+        ],
+        "thu": [
+          "16:00-22:00"
+        ],
+        "fri": [
+          "16:00-23:00"
+        ],
+        "sat": [
+          "16:00-23:00"
+        ],
+        "sun": []
+      },
+      "hours_source": "https://www.restaurantji.com/ca/menlo-park/bar-loretta-/",
+      "hours_evidence_quality": "secondary_only",
+      "evidence": [
+        {
+          "url": "https://www.menlopark.gov/files/sharedassets/public/v/1/agendas-and-minutes/special-event-notices/2025/20251023-special-event-notice-state-of-the-city.pdf",
+          "role": "municipal_address"
+        },
+        {
+          "url": "https://www.restaurantji.com/ca/menlo-park/bar-loretta-/",
+          "role": "secondary_hours_status",
+          "note": "Listing updated 2026-09-10; includes August 2026 review."
+        },
+        {
+          "url": "https://inmenlo.com/2025/02/04/loretta-a-bar-in-downtown-menlo-park-is-now-open/",
+          "role": "opening_and_owner"
+        },
+        {
+          "url": "https://www.opentable.com/r/vida-bar-loretta-menlo-park",
+          "role": "related_business"
+        }
+      ],
+      "notes": [
+        "Official operator website www.bistro-vida.com identified by OpenTable but not retrievable; do not confuse with barloretta.com in San Antonio. Do not use Bistro Vida meal-service hours as Loretta bar hours."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "exclude_outside_city",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Loretta",
+        "category": "bar",
+        "address": "639 Santa Cruz Avenue 94025 Menlo Park",
+        "lat": 37.452601,
+        "lng": -122.183546,
+        "website": null,
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/node/2628201870",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": null,
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:node:2628201870",
+      "lat": 37.452601,
+      "lng": -122.183546,
+      "coordinate_source": "https://www.openstreetmap.org/node/2628201870",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Bar Underdog",
+      "registry_address": "299, #110 South California Avenue",
+      "registry_type": "bar",
+      "osm_url": "https://www.openstreetmap.org/node/4559150502",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Palo Alto",
+      "boundary_status": "inside_palo_alto",
+      "operating_status": "operating",
+      "verified_address": "299 S California Avenue #110, Palo Alto, CA 94306",
+      "official_website": "https://barunderdogpa.com/",
+      "weekly_hours": {
+        "mon": [],
+        "tue": [
+          "16:00-23:00"
+        ],
+        "wed": [
+          "16:00-23:00"
+        ],
+        "thu": [
+          "16:00-23:00"
+        ],
+        "fri": [
+          "16:00-00:00+1"
+        ],
+        "sat": [
+          "16:00-00:00+1"
+        ],
+        "sun": []
+      },
+      "hours_source": "https://barunderdogpa.com/",
+      "hours_evidence_quality": "official",
+      "evidence": [
+        {
+          "url": "https://barunderdogpa.com/",
+          "role": "official_address_hours_status"
+        },
+        {
+          "url": "https://eservices.sccgov.org/FacilityInspection/Home/ShowDetail/PR0420571",
+          "role": "county_address_status",
+          "note": "2026-01-15 routine inspection; county uses S California Avenue."
+        },
+        {
+          "url": "https://www.almanacnews.com/food/2025/09/22/the-team-behind-palo-altos-michelin-starred-protege-debuts-bar-underdog-along-california-avenue/",
+          "role": "owner_interview_predecessor_relationship"
+        }
+      ],
+      "notes": [
+        "Bar Underdog succeeded closed Calave at its existing premises. Current owner and county both use #110; historical Toast #115 should remain as historical conflict, not override current address. No current Calave map match."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "publish_new_confirmed_palo_alto",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Bar Underdog",
+        "category": "bar",
+        "address": "299, #110 South California Avenue",
+        "lat": 37.4273997,
+        "lng": -122.1437192,
+        "website": null,
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/node/4559150502",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": null,
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:node:4559150502",
+      "lat": 37.4273997,
+      "lng": -122.1437192,
+      "coordinate_source": "https://www.openstreetmap.org/node/4559150502",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected",
+      "predecessor": {
+        "name": "Calave",
+        "status": "closed_2024",
+        "historical_address": "299 S California Ave #115",
+        "relationship": "different business successor at same premises, not a concurrent alias"
+      }
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Amandine",
+      "registry_address": "235 1st Street 94022 Los Altos",
+      "registry_type": "bar",
+      "osm_url": "https://www.openstreetmap.org/node/9057648524",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Los Altos",
+      "boundary_status": "outside_palo_alto",
+      "operating_status": "operating_secondary_evidence",
+      "verified_address": "235 1st Street, Los Altos, CA 94022",
+      "official_website": "https://amandineproject.com/",
+      "weekly_hours": {
+        "mon": [
+          "16:00-00:00+1"
+        ],
+        "tue": [
+          "16:00-00:00+1"
+        ],
+        "wed": [
+          "16:00-00:00+1"
+        ],
+        "thu": [
+          "16:00-00:00+1"
+        ],
+        "fri": [
+          "16:00-02:00+1"
+        ],
+        "sat": [
+          "16:00-02:00+1"
+        ],
+        "sun": []
+      },
+      "hours_source": "https://www.restaurantji.com/ca/los-altos/amandineproject-/",
+      "hours_evidence_quality": "secondary_only",
+      "evidence": [
+        {
+          "url": "https://stgencep.sccgov.org/sccdineout/INSPECTIONREPORT_DAZLOFDCW.pdf",
+          "role": "county_address"
+        },
+        {
+          "url": "https://www.restaurantji.com/ca/los-altos/amandineproject-/",
+          "role": "secondary_hours_status",
+          "note": "Listing updated 2026-08-06; April 2026 reviews."
+        },
+        {
+          "url": "https://usarestaurants.info/explore/united-states/california/santa-clara-county/los-altos/amandine-lounge-650-204-9222.htm",
+          "role": "website_identity"
+        }
+      ],
+      "notes": [
+        "Aliases Amandine Lounge, Amandine Project. Official domain was not accessible with web tool. Hours not owner-verified; secondary listings conflict, so keep as provisional."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "exclude_outside_city",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Amandine",
+        "category": "bar",
+        "address": "235 1st Street 94022 Los Altos",
+        "lat": 37.3784425,
+        "lng": -122.118087,
+        "website": "https://amandineproject.com/",
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/node/9057648524",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": null,
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:node:9057648524",
+      "lat": 37.3784425,
+      "lng": -122.118087,
+      "coordinate_source": "https://www.openstreetmap.org/node/9057648524",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Green Room",
+      "registry_address": "—",
+      "registry_type": "bar",
+      "osm_url": "https://www.openstreetmap.org/node/9795743048",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Mountain View",
+      "boundary_status": "outside_palo_alto",
+      "operating_status": "unresolved_current_identity_and_access",
+      "verified_address": null,
+      "official_website": null,
+      "weekly_hours": null,
+      "hours_source": null,
+      "hours_evidence_quality": null,
+      "evidence": [
+        {
+          "url": "https://www.openstreetmap.org/node/9795743048",
+          "role": "registry_identity"
+        },
+        {
+          "url": "https://california-streets.openalfa.com/streets/bill-graham-parkway-mountain-view-city-ca-94043",
+          "role": "osm_derived_location",
+          "note": "Lists Green Room on Bill Graham Parkway adjacent to Shoreline Amphitheatre."
+        },
+        {
+          "url": "https://www.behance.net/gallery/5199329/Heineken-Green-Room-Shoreline-Amphitheatre",
+          "role": "historical_primary_designer",
+          "note": "Designer portfolio explicitly names Heineken Green Room at Shoreline Amphitheatre (2012), not current operation proof."
+        },
+        {
+          "url": "https://www.shorelineamphitheatre.com/visit",
+          "role": "official_parent_venue_address"
+        },
+        {
+          "url": "https://specialevents.livenation.com/venues/shoreline-amphitheatre",
+          "role": "official_current_parent_venue",
+          "note": "Current venue lists The Hideaway, Lucky’s Place and VIP Terrace, not Green Room; no alias inferred."
+        }
+      ],
+      "notes": [
+        "OSM coordinates match Shoreline Amphitheatre concession/bar area; excluded from Palo Alto. Historical identity corroborated by designer portfolio, but current name/status, public access, and hours remain unresolved. Do not assume Green Room is a synonym for The Hideaway or copy weekly hours from parent venue."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "exclude_outside_city_and_unverified",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Green Room",
+        "category": "bar",
+        "address": "",
+        "lat": 37.4262508,
+        "lng": -122.0800743,
+        "website": null,
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/node/9795743048",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": null,
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:node:9795743048",
+      "lat": 37.4262508,
+      "lng": -122.0800743,
+      "coordinate_source": "https://www.openstreetmap.org/node/9795743048",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected",
+      "parent_venue": {
+        "name": "Shoreline Amphitheatre",
+        "address": "1 Amphitheatre Parkway, Mountain View, CA 94043",
+        "official_website": "https://www.shorelineamphitheatre.com/visit"
+      }
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Barebottle Brewing Company",
+      "registry_address": "550 Oak Grove Avenue",
+      "registry_type": "pub",
+      "osm_url": "https://www.openstreetmap.org/node/11069822277",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Menlo Park",
+      "boundary_status": "outside_palo_alto",
+      "operating_status": "operating",
+      "verified_address": "550 B Oak Grove Avenue, Menlo Park, CA 94025",
+      "official_website": "https://www.barebottle.com/",
+      "weekly_hours": {
+        "mon": [
+          "14:00-21:00"
+        ],
+        "tue": [
+          "12:00-23:00"
+        ],
+        "wed": [
+          "12:00-23:00"
+        ],
+        "thu": [
+          "12:00-23:00"
+        ],
+        "fri": [
+          "12:00-23:00"
+        ],
+        "sat": [
+          "12:00-23:00"
+        ],
+        "sun": [
+          "13:00-21:00"
+        ]
+      },
+      "hours_source": "https://www.barebottle.com/",
+      "hours_evidence_quality": "official",
+      "evidence": [
+        {
+          "url": "https://www.barebottle.com/",
+          "role": "official_address_hours_status"
+        }
+      ],
+      "notes": [
+        "This is Menlo Park Taproom & Beer Garden. Distinct from same-brand beer truck at 1300 El Camino Real and other city branches."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "exclude_outside_city",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Barebottle Brewing Company",
+        "category": "pub",
+        "address": "550 Oak Grove Avenue",
+        "lat": 37.4549526,
+        "lng": -122.1841372,
+        "website": null,
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/node/11069822277",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": "Tu-Sa 12:00-23:00, Su-Mo 12:00-21:00",
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:node:11069822277",
+      "lat": 37.4549526,
+      "lng": -122.1841372,
+      "coordinate_source": "https://www.openstreetmap.org/node/11069822277",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Murdoch's Bar",
+      "registry_address": "—",
+      "registry_type": "bar",
+      "osm_url": "https://www.openstreetmap.org/node/11363994837",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Los Altos",
+      "boundary_status": "outside_palo_alto",
+      "operating_status": "permanently_closed_replaced",
+      "verified_address": "170 State Street, Los Altos, CA 94022",
+      "official_website": null,
+      "weekly_hours": null,
+      "hours_source": null,
+      "hours_evidence_quality": null,
+      "evidence": [
+        {
+          "url": "https://www.almanacnews.com/santa-clara-county/2026/05/12/laughing-monk-brewing-los-altos-state-street-market-campbell-the-pruneyard/",
+          "role": "closure_replacement",
+          "note": "Laughing Monk took over Murdoch’s premises in March 2026."
+        },
+        {
+          "url": "https://www.statestreetmarket.com/menu/laughing-monk-brewing/",
+          "role": "official_successor"
+        },
+        {
+          "url": "https://www.statestreetmarket.com/location/state-street-market/",
+          "role": "official_address"
+        }
+      ],
+      "notes": [
+        "Do not use archived Murdoch’s menu hours; current market operator is Laughing Monk. Do not automatically create successor as Palo Alto."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "exclude_closed",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Murdoch's Bar",
+        "category": "bar",
+        "address": "",
+        "lat": 37.3799847,
+        "lng": -122.1161123,
+        "website": "https://www.statestreetmarket.com/menu/murdochs-bar/",
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/node/11363994837",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": "Su-Th 11:00-20:00; Fr,Sa 11:30-22:00",
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:node:11363994837",
+      "lat": 37.3799847,
+      "lng": -122.1161123,
+      "coordinate_source": "https://www.openstreetmap.org/node/11363994837",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "The Wine Room",
+      "registry_address": "520 Ramona Street",
+      "registry_type": "bar",
+      "osm_url": "https://www.openstreetmap.org/node/11412826374",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Palo Alto",
+      "boundary_status": "inside_palo_alto",
+      "operating_status": "operating",
+      "verified_address": "520 Ramona Street, Palo Alto, CA 94301",
+      "official_website": "https://thepawineroom.com/",
+      "weekly_hours": {
+        "mon": [
+          "16:00-00:00+1"
+        ],
+        "tue": [
+          "16:00-00:00+1"
+        ],
+        "wed": [
+          "16:00-00:00+1"
+        ],
+        "thu": [
+          "16:00-00:00+1"
+        ],
+        "fri": [
+          "16:00-00:00+1"
+        ],
+        "sat": [
+          "16:00-00:00+1"
+        ],
+        "sun": [
+          "16:00-00:00+1"
+        ]
+      },
+      "hours_source": "https://thepawineroom.com/",
+      "hours_evidence_quality": "official",
+      "evidence": [
+        {
+          "url": "https://thepawineroom.com/",
+          "role": "official_address_hours_status"
+        }
+      ],
+      "notes": [
+        "Official website says closed on major holidays; ordinary weekly hours do not imply holiday opening."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "publish_new_confirmed_palo_alto",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "The Wine Room",
+        "category": "bar",
+        "address": "520 Ramona Street",
+        "lat": 37.4449344,
+        "lng": -122.1618576,
+        "website": null,
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/node/11412826374",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": null,
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:node:11412826374",
+      "lat": 37.4449344,
+      "lng": -122.1618576,
+      "coordinate_source": "https://www.openstreetmap.org/node/11412826374",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Salvaje",
+      "registry_address": "369 Lytton Avenue 94301 Palo Alto",
+      "registry_type": "bar",
+      "osm_url": "https://www.openstreetmap.org/way/120086525",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Palo Alto",
+      "boundary_status": "inside_palo_alto",
+      "operating_status": "permanently_closed",
+      "verified_address": "369 Lytton Avenue, Palo Alto, CA 94301",
+      "official_website": null,
+      "weekly_hours": null,
+      "hours_source": null,
+      "hours_evidence_quality": null,
+      "evidence": [
+        {
+          "url": "https://www.mv-voice.com/express-newsletter-content/2024/01/23/recent-food-and-drink-closures-along-the-peninsula-from-a-35-year-old-deli-to-a-bar-under-a-year-old/",
+          "role": "owner_confirmed_closure",
+          "note": "Owner confirmed permanent closure after final service Friday 2024-01-26 because lease could not be renewed."
+        },
+        {
+          "url": "https://www.restaurantji.com/ca/palo-alto/salvaje-/",
+          "role": "secondary_closed_address"
+        },
+        {
+          "url": "https://www.almanacnews.com/ae/2019/06/20/summer-restaurant-openings-abound/",
+          "role": "historical_address"
+        }
+      ],
+      "notes": [
+        "Do not retain stale Waze/older article opening hours. Feast and Floral relocation is separate from Salvaje closure."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "exclude_closed",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Salvaje",
+        "category": "bar",
+        "address": "369 Lytton Avenue 94301 Palo Alto",
+        "lat": 37.447682,
+        "lng": -122.1621813,
+        "website": "https://www.drinksalvaje.com/",
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/way/120086525",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": null,
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:way:120086525",
+      "lat": 37.447682,
+      "lng": -122.1621813,
+      "coordinate_source": "https://www.openstreetmap.org/way/120086525",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "O'Malley's Sports Pub",
+      "registry_address": "—",
+      "registry_type": "pub",
+      "osm_url": "https://www.openstreetmap.org/way/124835515",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Mountain View",
+      "boundary_status": "outside_palo_alto",
+      "operating_status": "operating_secondary_and_county_evidence",
+      "verified_address": "2135 Old Middlefield Way, Mountain View, CA 94043",
+      "official_website": null,
+      "weekly_hours": {
+        "mon": [
+          "11:00-00:00+1"
+        ],
+        "tue": [
+          "11:00-00:00+1"
+        ],
+        "wed": [
+          "11:00-00:00+1"
+        ],
+        "thu": [
+          "11:00-00:00+1"
+        ],
+        "fri": [
+          "11:00-02:00+1"
+        ],
+        "sat": [
+          "11:00-02:00+1"
+        ],
+        "sun": [
+          "11:00-00:00+1"
+        ]
+      },
+      "hours_source": "https://www.waze.com/live-map/directions/omalleys-sports-pub-old-middlefield-way-2135-mountain-view?to=place.w.155910518.1559170717.1880562",
+      "hours_evidence_quality": "secondary_only",
+      "evidence": [
+        {
+          "url": "https://eservices.sccgov.org/FacilityInspection/Home/ShowHistory?id=PR0303378",
+          "role": "county_address_status",
+          "note": "Routine inspection and change of ownership 2026-05-12."
+        },
+        {
+          "url": "https://www.waze.com/live-map/directions/omalleys-sports-pub-old-middlefield-way-2135-mountain-view?to=place.w.155910518.1559170717.1880562",
+          "role": "secondary_hours"
+        },
+        {
+          "url": "https://restaurantguru.com/OMalleys-Sports-Pub-Mountain-View-3",
+          "role": "secondary_hours_website_pointer"
+        }
+      ],
+      "notes": [
+        "Official website not independently located. Secondary source points to Instagram @omalleyssportspub. Hours provisional, not owner-verified."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "exclude_outside_city",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "O'Malley's Sports Pub",
+        "category": "pub",
+        "address": "",
+        "lat": 37.4142286,
+        "lng": -122.0936002,
+        "website": null,
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/way/124835515",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": null,
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:way:124835515",
+      "lat": 37.4142286,
+      "lng": -122.0936002,
+      "coordinate_source": "https://www.openstreetmap.org/way/124835515",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Scotty's",
+      "registry_address": "548 Emerson Street",
+      "registry_type": "pub",
+      "osm_url": "https://www.openstreetmap.org/way/132182085",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Palo Alto",
+      "boundary_status": "inside_palo_alto",
+      "operating_status": "operating",
+      "verified_address": "548 Emerson Street, Palo Alto, CA 94301",
+      "official_website": "https://www.scottysbarpa.com/",
+      "weekly_hours": {
+        "mon": [
+          "16:30-22:00"
+        ],
+        "tue": [
+          "16:00-00:00+1"
+        ],
+        "wed": [
+          "16:00-00:00+1"
+        ],
+        "thu": [
+          "16:00-00:00+1"
+        ],
+        "fri": [
+          "16:00-01:00+1"
+        ],
+        "sat": [
+          "14:00-01:00+1"
+        ],
+        "sun": []
+      },
+      "hours_source": "https://www.scottysbarpa.com/",
+      "hours_evidence_quality": "official",
+      "evidence": [
+        {
+          "url": "https://www.scottysbarpa.com/",
+          "role": "official_address_hours_status"
+        }
+      ],
+      "notes": [
+        "Canonical trading name Scotty’s Bar & Grill. Prefer owner hours over conflicting secondary directories."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "publish_new_confirmed_palo_alto",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Scotty's",
+        "category": "pub",
+        "address": "548 Emerson Street",
+        "lat": 37.4439756,
+        "lng": -122.1620077,
+        "website": null,
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/way/132182085",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": null,
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:way:132182085",
+      "lat": 37.4439756,
+      "lng": -122.1620077,
+      "coordinate_source": "https://www.openstreetmap.org/way/132182085",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Rose and Crown",
+      "registry_address": "547",
+      "registry_type": "pub",
+      "osm_url": "https://www.openstreetmap.org/way/133116331",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Palo Alto",
+      "boundary_status": "inside_palo_alto",
+      "operating_status": "operating",
+      "verified_address": "547 Emerson Street, Palo Alto, CA 94301",
+      "official_website": "https://www.therosepa.com/",
+      "weekly_hours": {
+        "mon": [
+          "14:00-23:00"
+        ],
+        "tue": [
+          "14:00-23:00"
+        ],
+        "wed": [
+          "14:00-23:00"
+        ],
+        "thu": [
+          "14:00-00:00+1"
+        ],
+        "fri": [
+          "14:00-01:00+1"
+        ],
+        "sat": [
+          "13:00-01:00+1"
+        ],
+        "sun": [
+          "13:00-23:00"
+        ]
+      },
+      "hours_source": "https://www.therosepa.com/contact",
+      "hours_evidence_quality": "official",
+      "evidence": [
+        {
+          "url": "https://www.therosepa.com/contact",
+          "role": "official_address_hours_status"
+        }
+      ],
+      "notes": [
+        "Recovered incomplete registry address 547 from official source. Alias The Rose & Crown. Source advertises special World Cup kickoff hours; store ordinary weekly schedule and do not infer unlisted event hours. Parent indicates existing map entry may already exist; update rather than duplicate after matching name/address.",
+        "No matching venue in v84 current map. Historical source registry contains rejected roseandcrownpa.com domain, which has unrelated content; use verified therosepa.com."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "publish_new_confirmed_palo_alto",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Rose and Crown",
+        "category": "pub",
+        "address": "547",
+        "lat": 37.4444127,
+        "lng": -122.1617312,
+        "website": null,
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/way/133116331",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": null,
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:way:133116331",
+      "lat": 37.4444127,
+      "lng": -122.1617312,
+      "coordinate_source": "https://www.openstreetmap.org/way/133116331",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Sliderbar",
+      "registry_address": "324 University Avenue 94301 Palo Alto",
+      "registry_type": "bar",
+      "osm_url": "https://www.openstreetmap.org/way/133116335",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Palo Alto",
+      "boundary_status": "inside_palo_alto",
+      "operating_status": "permanently_closed_replaced",
+      "verified_address": "324 University Avenue, Palo Alto, CA 94301",
+      "official_website": null,
+      "weekly_hours": null,
+      "hours_source": null,
+      "hours_evidence_quality": null,
+      "evidence": [
+        {
+          "url": "https://www.almanacnews.com/palo-alto/2026/04/21/these-8-new-eateries-are-coming-to-downtown-palo-alto/",
+          "role": "closure_replacement",
+          "note": "Former SliderBar location replaced by La Corneta."
+        },
+        {
+          "url": "https://lacorneta.com/palo-alto",
+          "role": "official_successor_address"
+        },
+        {
+          "url": "https://www.corner.inc/place/63544",
+          "role": "secondary_permanently_closed"
+        }
+      ],
+      "notes": [
+        "Do not retain stale SliderBar hours. La Corneta is a distinct successor restaurant, not an alias."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "exclude_closed",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Sliderbar",
+        "category": "bar",
+        "address": "324 University Avenue 94301 Palo Alto",
+        "lat": 37.4461609,
+        "lng": -122.160996,
+        "website": null,
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/way/133116335",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": null,
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:way:133116335",
+      "lat": 37.4461609,
+      "lng": -122.160996,
+      "coordinate_source": "https://www.openstreetmap.org/way/133116335",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    },
+    {
+      "registry_city": "palo-alto",
+      "registry_name": "Steins Beer Garden",
+      "registry_address": "895 Villa Street Mountain View",
+      "registry_type": "biergarten",
+      "osm_url": "https://www.openstreetmap.org/way/205809028",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "resolved_city": "Mountain View",
+      "boundary_status": "outside_palo_alto",
+      "operating_status": "operating",
+      "verified_address": "895 Villa Street, Mountain View, CA 94041",
+      "official_website": "https://steinsbeergarden.com/",
+      "weekly_hours": {
+        "mon": [
+          "11:30-21:00"
+        ],
+        "tue": [
+          "11:30-21:00"
+        ],
+        "wed": [
+          "11:30-21:00"
+        ],
+        "thu": [
+          "11:30-21:00"
+        ],
+        "fri": [
+          "11:30-21:00"
+        ],
+        "sat": [
+          "11:30-21:00"
+        ],
+        "sun": [
+          "11:30-21:00"
+        ]
+      },
+      "hours_source": "https://steinsbeergarden.com/",
+      "hours_evidence_quality": "official",
+      "evidence": [
+        {
+          "url": "https://steinsbeergarden.com/",
+          "role": "official_address_hours_status"
+        },
+        {
+          "url": "https://www.almanacnews.com/mountain-view/2025/03/26/steins-is-saved-mountain-view-beer-garden-gets-new-owner-in-the-nick-of-time/",
+          "role": "closure_reversed",
+          "note": "Planned March 2025 closure was cancelled after new owner purchased business."
+        }
+      ],
+      "notes": [
+        "Do not classify closed based on superseded February 2025 announcement. Owner website hours differ from secondary listings; use official current weekly hours."
+      ],
+      "duplicate_status": "no_existing_map_match",
+      "recommended_action": "exclude_outside_city",
+      "source_record": {
+        "city": "palo-alto",
+        "name": "Steins Beer Garden",
+        "category": "biergarten",
+        "address": "895 Villa Street Mountain View",
+        "lat": 37.3938953,
+        "lng": -122.0799724,
+        "website": "https://www.steinsbeergarden.com/",
+        "instagram": null,
+        "sourceUrl": "https://www.openstreetmap.org/way/205809028",
+        "status": "catalogue_candidate",
+        "boundaryStatus": "bounding_box_requires_city_boundary_check",
+        "openingHours": "11:30-21:00",
+        "license": "ODbL-1.0 / © OpenStreetMap contributors"
+      },
+      "osm_id": "osm:way:205809028",
+      "lat": 37.3938953,
+      "lng": -122.0799724,
+      "coordinate_source": "https://www.openstreetmap.org/way/205809028",
+      "coordinate_confidence": "original_osm_candidate_not_independent_rooftop_geocode",
+      "existing_map_matches": [],
+      "checked_catalog": "v84 lib/place-catalog.json and public/palo-alto/places.json; exact IDs, normalized names, addresses and nearby coordinates inspected"
+    }
+  ],
+  "research_queue_duplicate_matches": [
+    {
+      "candidate": "The Wine Room",
+      "duplicate_of": "OSM node/11412826374",
+      "where": "additional-candidates.json",
+      "action": "merge research evidence, do not create second place"
+    },
+    {
+      "candidate": "Scotty’s Bar & Grill",
+      "duplicate_of": "OSM way/132182085",
+      "where": "official-checks.json",
+      "action": "merge research evidence, do not create second place"
+    }
+  ]
+}

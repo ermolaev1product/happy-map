@@ -1,0 +1,889 @@
+{
+  "documentation": "https://servicios.usig.buenosaires.gob.ar/normalizar/",
+  "method": "Public municipality exact-address/intersection geocoding, WGS84, not named surveyed venue entrance",
+  "rows": [
+    {
+      "query": "Junín 1930",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Jun%C3%ADn+1930%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:02:43.914721+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 1930,
+            "cod_calle": 10015,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.391578",
+              "y": "-34.586496"
+            },
+            "direccion": "JUNIN 1930, CABA",
+            "nombre_calle": "JUNIN",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Corrientes 1530",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+1530%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:02:48.838550+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 1530,
+            "cod_calle": 3174,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.388642",
+              "y": "-34.604241"
+            },
+            "direccion": "CORRIENTES AV. 1530, CABA",
+            "nombre_calle": "CORRIENTES AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Agustín R. Caffarena 1",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Agust%C3%ADn+R.+Caffarena+1%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:02:53.515175+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 1,
+            "cod_calle": 3016,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.356101",
+              "y": "-34.628692"
+            },
+            "direccion": "CAFFARENA, AGUSTIN R. 1, CABA",
+            "nombre_calle": "CAFFARENA, AGUSTIN R.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. San Juan 350",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+San+Juan+350%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:02:57.415265+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 350,
+            "cod_calle": 20040,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.370727",
+              "y": "-34.621892"
+            },
+            "direccion": "SAN JUAN AV. 350, CABA",
+            "nombre_calle": "SAN JUAN AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Humboldt 450",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Humboldt+450%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:01.231947+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 450,
+            "cod_calle": 8036,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.447789",
+              "y": "-34.594737"
+            },
+            "direccion": "HUMBOLDT 450, CABA",
+            "nombre_calle": "HUMBOLDT",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Tucumán 1171",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Tucum%C3%A1n+1171%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:05.444128+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "query": "Av. de Mayo 575",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+de+Mayo+575%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:10.404015+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 575,
+            "cod_calle": 4064,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.374405",
+              "y": "-34.608487"
+            },
+            "direccion": "DE MAYO AV. 575, CABA",
+            "nombre_calle": "DE MAYO AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Triunvirato 4444",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Triunvirato+4444%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:15.616632+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 4444,
+            "cod_calle": 21057,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.483568",
+              "y": "-34.576177"
+            },
+            "direccion": "TRIUNVIRATO AV. 4444, CABA",
+            "nombre_calle": "TRIUNVIRATO AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Figueroa Alcorta 3415",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Figueroa+Alcorta+3415%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:19.535972+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "query": "Av. Juramento 2291",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Juramento+2291%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:24.620588+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 2291,
+            "cod_calle": 10017,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.455265",
+              "y": "-34.561129"
+            },
+            "direccion": "JURAMENTO AV. 2291, CABA",
+            "nombre_calle": "JURAMENTO AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Infanta Isabel 555",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Infanta+Isabel+555%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:29.728568+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 555,
+            "cod_calle": 9022,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.421165",
+              "y": "-34.570719"
+            },
+            "direccion": "ISABEL, INFANTA AV. 555, CABA",
+            "nombre_calle": "ISABEL, INFANTA AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Juan Bautista Alberdi 5765",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Juan+Bautista+Alberdi+5765%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:36.116739+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 5765,
+            "cod_calle": 1033,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.501873",
+              "y": "-34.650904"
+            },
+            "direccion": "ALBERDI, JUAN BAUTISTA AV. 5765, CABA",
+            "nombre_calle": "ALBERDI, JUAN BAUTISTA AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Corrientes 6271",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+6271%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:41.388329+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "query": "Av. Córdoba 6056",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+C%C3%B3rdoba+6056%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:46.452781+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 6056,
+            "cod_calle": 3165,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.445789",
+              "y": "-34.584184"
+            },
+            "direccion": "CORDOBA AV. 6056, CABA",
+            "nombre_calle": "CORDOBA AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Asamblea 1200",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Asamblea+1200%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:51.399026+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 1200,
+            "cod_calle": 1128,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.441732",
+              "y": "-34.635920"
+            },
+            "direccion": "ASAMBLEA AV. 1200, CABA",
+            "nombre_calle": "ASAMBLEA AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Gutenberg 350",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Gutenberg+350%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:03:55.980407+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 350,
+            "cod_calle": 7109,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.471803",
+              "y": "-34.592463"
+            },
+            "direccion": "GUTENBERG 350, CABA",
+            "nombre_calle": "GUTENBERG",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Leopoldo Marechal 832",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Leopoldo+Marechal+832%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:00.108038+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 832,
+            "cod_calle": 3040,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.437469",
+              "y": "-34.608251"
+            },
+            "direccion": "MARECHAL, LEOPOLDO 832, CABA",
+            "nombre_calle": "MARECHAL, LEOPOLDO",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Moreno 550",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Moreno+550%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:03.473187+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 550,
+            "cod_calle": 13126,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.374128",
+              "y": "-34.611463"
+            },
+            "direccion": "MORENO 550, CABA",
+            "nombre_calle": "MORENO",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          },
+          {
+            "altura": 550,
+            "cod_calle": 4108,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.413978",
+              "y": "-34.649590"
+            },
+            "direccion": "MORENO, PERITO AV. 550, CABA",
+            "nombre_calle": "MORENO, PERITO AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          },
+          {
+            "altura": 550,
+            "cod_calle": 13128,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.434316",
+              "y": "-34.625289"
+            },
+            "direccion": "MORENO, JOSE MARIA AV. 550, CABA",
+            "nombre_calle": "MORENO, JOSE MARIA AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Cnel. Niceto Vega 5510",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Cnel.+Niceto+Vega+5510%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:08.020645+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 5510,
+            "cod_calle": 23021,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.438732",
+              "y": "-34.587241"
+            },
+            "direccion": "VEGA, NICETO, CNEL. AV. 5510, CABA",
+            "nombre_calle": "VEGA, NICETO, CNEL. AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Corrientes 860",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+860%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:14.549300+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 860,
+            "cod_calle": 3174,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.378947",
+              "y": "-34.603628"
+            },
+            "direccion": "CORRIENTES AV. 860, CABA",
+            "nombre_calle": "CORRIENTES AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Coronel Roca 4099",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Coronel+Roca+4099%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:19.556263+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 4099,
+            "cod_calle": 19057,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.447049",
+              "y": "-34.674476"
+            },
+            "direccion": "ROCA, CNEL. AV. 4099, CABA",
+            "nombre_calle": "ROCA, CNEL. AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Bernardo de Irigoyen 740",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Bernardo+de+Irigoyen+740%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:23.645929+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 740,
+            "cod_calle": 9019,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.380247",
+              "y": "-34.616934"
+            },
+            "direccion": "IRIGOYEN, BERNARDO DE 740, CABA",
+            "nombre_calle": "IRIGOYEN, BERNARDO DE",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Córdoba 946",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+C%C3%B3rdoba+946%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:29.909431+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 946,
+            "cod_calle": 3165,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.380367",
+              "y": "-34.599076"
+            },
+            "direccion": "CORDOBA AV. 946, CABA",
+            "nombre_calle": "CORDOBA AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Vedia 3892",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Vedia+3892%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:34.795353+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 3892,
+            "cod_calle": 23016,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.490759",
+              "y": "-34.546707"
+            },
+            "direccion": "VEDIA 3892, CABA",
+            "nombre_calle": "VEDIA",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          },
+          {
+            "altura": 3892,
+            "cod_calle": 23017,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.418220",
+              "y": "-34.659294"
+            },
+            "direccion": "VEDIA, AGUSTIN DE 3892, CABA",
+            "nombre_calle": "VEDIA, AGUSTIN DE",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Figueroa Alcorta 2099",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Figueroa+Alcorta+2099%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:39.519162+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 2099,
+            "cod_calle": 6025,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.390278",
+              "y": "-34.584318"
+            },
+            "direccion": "FIGUEROA ALCORTA, PRES. AV. 2099, CABA",
+            "nombre_calle": "FIGUEROA ALCORTA, PRES. AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Lincoln 4300",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Lincoln+4300%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:43.368141+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 4300,
+            "cod_calle": 12113,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.515179",
+              "y": "-34.599066"
+            },
+            "direccion": "LINCOLN AV. 4300, CABA",
+            "nombre_calle": "LINCOLN AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Marcelo T. de Alvear 1125",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Marcelo+T.+de+Alvear+1125%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:51.412876+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 1125,
+            "cod_calle": 1062,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.383259",
+              "y": "-34.596797"
+            },
+            "direccion": "ALVEAR, MARCELO T. DE 1125, CABA",
+            "nombre_calle": "ALVEAR, MARCELO T. DE",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Defensa 535",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Defensa+535%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:04:58.876583+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 535,
+            "cod_calle": 4016,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.371871",
+              "y": "-34.614147"
+            },
+            "direccion": "DEFENSA 535, CABA",
+            "nombre_calle": "DEFENSA",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "García del Río y Pinto",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Garc%C3%ADa+del+R%C3%ADo+y+Pinto%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:05:02.635072+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": null,
+            "cod_calle": 7028,
+            "cod_calle_cruce": 17087,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.477042",
+              "y": "-34.550251"
+            },
+            "direccion": "GARCIA DEL RIO y PINTO, CABA",
+            "nombre_calle": "GARCIA DEL RIO",
+            "nombre_calle_cruce": "PINTO",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_y_calle"
+          },
+          {
+            "altura": null,
+            "cod_calle": 7028,
+            "cod_calle_cruce": 17087,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.477042",
+              "y": "-34.550251"
+            },
+            "direccion": "GARCIA DEL RIO AV. y PINTO, CABA",
+            "nombre_calle": "GARCIA DEL RIO AV.",
+            "nombre_calle_cruce": "PINTO",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_y_calle"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Corrientes 1155",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+1155%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:05:09.052589+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 1155,
+            "cod_calle": 3174,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.383174",
+              "y": "-34.603712"
+            },
+            "direccion": "CORRIENTES AV. 1155, CABA",
+            "nombre_calle": "CORRIENTES AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Juramento y Conde",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Juramento+y+Conde%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:05:16.757321+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": null,
+            "cod_calle": 10017,
+            "cod_calle_cruce": 3153,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.465509",
+              "y": "-34.567258"
+            },
+            "direccion": "JURAMENTO y CONDE, CABA",
+            "nombre_calle": "JURAMENTO",
+            "nombre_calle_cruce": "CONDE",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_y_calle"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Corrientes y Jorge Newbery",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Corrientes+y+Jorge+Newbery%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:05:28.335181+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": null,
+            "cod_calle": 3174,
+            "cod_calle_cruce": 14019,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.450769",
+              "y": "-34.588690"
+            },
+            "direccion": "CORRIENTES AV. y NEWBERY, JORGE, CABA",
+            "nombre_calle": "CORRIENTES AV.",
+            "nombre_calle_cruce": "NEWBERY, JORGE",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_y_calle"
+          },
+          {
+            "altura": null,
+            "cod_calle": 3174,
+            "cod_calle_cruce": 14019,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.450769",
+              "y": "-34.588690"
+            },
+            "direccion": "CORRIENTES AV. y NEWBERY, JORGE AV., CABA",
+            "nombre_calle": "CORRIENTES AV.",
+            "nombre_calle_cruce": "NEWBERY, JORGE AV.",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_y_calle"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Sarmiento y Belisario Roldán",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Sarmiento+y+Belisario+Rold%C3%A1n%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:05:41.211970+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": null,
+            "cod_calle": 20075,
+            "cod_calle_cruce": 19078,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.411547",
+              "y": "-34.571105"
+            },
+            "direccion": "SARMIENTO AV. y ROLDAN, BELISARIO AV., CABA",
+            "nombre_calle": "SARMIENTO AV.",
+            "nombre_calle_cruce": "ROLDAN, BELISARIO AV.",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_y_calle"
+          }
+        ]
+      }
+    }
+  ]
+}

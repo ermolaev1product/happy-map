@@ -1,0 +1,52 @@
+{
+  "type": "coordinate_only_delta",
+  "frozenAt": "2026-10-16T17:38:00Z",
+  "noNewEvents": true,
+  "factScope": "Reuse of exact existing catalogue venue coordinates and their recorded evidence; no new external research or geocoding. Apply only coordinate fields, retaining current dates, titles, prices and admissions.",
+  "patches": [
+    {
+      "cityId": "almaty",
+      "candidateId": "almaty-museums-future-20261020",
+      "existingId": "almaty-museums-future-20261020:2026-10-20",
+      "existingVenueId": "almaty-museum-arts",
+      "baselineEvidenceRecordId": "almaty-museum-arts",
+      "baselineEvidenceKind": "place",
+      "baselineEvidenceCheckedAt": "2026-10-15T11:15:00Z",
+      "fields": {
+        "lat": 43.227187,
+        "lng": 76.949094,
+        "coordinateSource": "https://yandex.com/maps/162/almaty/house/al_farabi_dangghyly_28/Y08YfwNpSUwDQFppfX5zdn1rYg%3D%3D/",
+        "coordinatePrecision": "venue",
+        "coordinateEvidence": "Exact existing Almaty Museum of Arts place record, same venue and Al-Farabi 28 address as the official conference page. Numeric coordinates are reused from the catalogue’s Yandex named-venue provenance; the official museum visit page supports the venue/address. This is not a new geocoding lookup."
+      },
+      "sourceUrl": "https://www.almaty.art/ru/visit-and-tickets",
+      "coordinateSource": "https://yandex.com/maps/162/almaty/house/al_farabi_dangghyly_28/Y08YfwNpSUwDQFppfX5zdn1rYg%3D%3D/",
+      "officialProgrammeSource": "https://www.almaty.art/ru/events/museums-and-cities-of-the-future",
+      "baselineVenueName": "Almaty Museum of Arts",
+      "baselineVenueAddress": "пр. Аль-Фараби, 28",
+      "evidence": "Exact existing Almaty Museum of Arts place record, same venue and Al-Farabi 28 address as the official conference page. Numeric coordinates are reused from the catalogue’s Yandex named-venue provenance; the official museum visit page supports the venue/address. This is not a new geocoding lookup."
+    },
+    {
+      "cityId": "moscow",
+      "candidateId": "moscow-demis-conf-20261020",
+      "existingId": "moscow-demis-conf-20261020:2026-10-20",
+      "existingVenueId": null,
+      "baselineEvidenceRecordId": "official-msk-08446409fb7728a7",
+      "baselineEvidenceKind": "event",
+      "baselineEvidenceCheckedAt": "2026-10-14T11:40:00Z",
+      "fields": {
+        "lat": 55.616111111,
+        "lng": 37.682777778,
+        "coordinateSource": "https://ru.wikipedia.org/wiki/Большой_Царицынский_дворец",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "Exact existing Tsaritsyno Great Palace building coordinate, not the separate Opera House or Bread House. The official Demis.Conf page names the Great Palace at Dolskaya 1, building 6. Reuse the existing palace building point with its recorded source; not a hall entrance or a city centre."
+      },
+      "sourceUrl": "https://tsaritsyno-museum.ru/events/exhibitions/p/svoboda-i-glush/",
+      "coordinateSource": "https://ru.wikipedia.org/wiki/Большой_Царицынский_дворец",
+      "officialProgrammeSource": "https://demisconf.ru/",
+      "baselineVenueName": "Царицыно, Большой дворец",
+      "baselineVenueAddress": "Москва, ул. Дольская, 1",
+      "evidence": "Exact existing Tsaritsyno Great Palace building coordinate, not the separate Opera House or Bread House. The official Demis.Conf page names the Great Palace at Dolskaya 1, building 6. Reuse the existing palace building point with its recorded source; not a hall entrance or a city centre."
+    }
+  ]
+}

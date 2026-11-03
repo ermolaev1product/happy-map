@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-10-25T05:17:52Z",
+  "frozenOriginal": "remaining.json",
+  "corrections": [
+    {
+      "id": "pa-stanford-54161879664326",
+      "action": "extend_exhibition_period_with_visitor_restrictions",
+      "exhibitionStart": "2026-10-05",
+      "exhibitionEnd": "2026-11-01",
+      "endDate": "2026-11-01",
+      "timezone": "America/Los_Angeles",
+      "hours": null,
+      "noOpenNowClaim": true,
+      "sourceUrls": [
+        "https://events.stanford.edu/event/book-spells",
+        "https://library.stanford.edu/libraries/cubberley-education-library",
+        "https://library.stanford.edu/about-stanford-libraries/visitor-access"
+      ],
+      "evidence": "Fresh library official page expressly lists Book spells October 5-November 1,2026 and address485LasuenMall; event page room101 and dates throughNov1. Visitor policy allows public events via day passes. Cubberley is a Stanford library, not excluded coordinate library.",
+      "access": "Public event; visitors without Stanford ID need applicable library visitor access. Day passes limited to 7 days/year (14 for alumni), obtained in person at Green, Bowes Art & Architecture, East Asia or Music Library. Bring valid original physical government photo ID; photo taken for pass and visitor terms apply. Minors under18 accompanied by adult/legal guardian. After-hours study access requires Stanford ID. Check library visiting hours before travel; exhibition hours not independently confirmed.",
+      "coordinateEvidence": {
+        "lat": 37.426318,
+        "lng": -122.168289,
+        "precision": "building",
+        "sourceUrl": "https://events.stanford.edu/event/book-spells",
+        "evidence": "Fresh event map embed link supplies center coords and named Education(CubberleyBldg),485LasuenMall; Google target cachemiss. No Google page inspected."
+      }
+    },
+    {
+      "id": "istanbul-bubilet-289864",
+      "action": "held_for_recheck",
+      "reason": "Current exact sessionURL redirects to generic announcement stating no sessions found in selectedcity. Stale indexed session described LütfiKırdarAnadoluAuditorium, notHarbiyeCemilTopuzlu. Secondary site calls Oct30cancelled but official cancellation not established. Preserve ID/history; do not label definitively cancelled.",
+      "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/jekyll-hyde/seans/289864",
+      "finalUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/jekyll-hyde",
+      "primaryText": "Seçtiğiniz şehirde seans bulunamadı."
+    }
+  ],
+  "newEventConflictResolution": {
+    "sessionId": "281817",
+    "name": "Mahsun Kırmızıgül",
+    "date": "2026-10-30",
+    "time": "21:00",
+    "venue": "Harbiye Cemil Topuzlu Açıkhava Tiyatrosu",
+    "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/mahsun-kirmizigul-/seans/281817",
+    "result": "fresh full exact session confirms 2026,date/time,venue and active seat categories from1675TRY discounted; can add independently of heldJekyll record"
+  },
+  "coordinateCorroboration": [
+    {
+      "venue": "Harbiye Cemil Topuzlu Açıkhava Tiyatrosu",
+      "lat": 41.04613,
+      "lng": 28.99005,
+      "precision": "building",
+      "sourceUrl": "https://mapcarta.com/29389036",
+      "evidence": "Fresh namedbuilding page lists bothcoords; OSMway1039501845 theatre. Explicitly distinguishes LütfiKırdarConventionCenter150mnorth."
+    },
+    {
+      "venue": "DasDas - Ataşehir",
+      "lat": 40.99414046,
+      "lng": 29.12533372,
+      "precision": "venue_link",
+      "sourceUrl": "https://www.bubilet.com.tr/mekan/dasdas",
+      "evidence": "Fresh named venue page gives AtaşehirAtatürk,AtaşehirBlv.,34758Ataşehir/Istanbul and its directionslink destination40.99414046,29.12533372. Google targetcachemiss; coords read from seller link, not Googlepage."
+    }
+  ]
+}

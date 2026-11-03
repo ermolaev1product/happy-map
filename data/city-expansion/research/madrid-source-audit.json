@@ -1,0 +1,747 @@
+{
+  "checkedAt": "2026-10-17T19:54:03Z",
+  "cityId": "madrid",
+  "coverage": {
+    "status": "verified_launch_batch_not_exhaustive",
+    "primaryWindow": {
+      "startDate": "2026-10-18",
+      "endDate": "2026-10-24"
+    },
+    "horizon": {
+      "startDate": "2026-10-18",
+      "endDate": "2026-11-16"
+    },
+    "eventRecords": 73,
+    "distinctProgrammes": 28,
+    "firstSevenDayRecords": 37,
+    "places": 25,
+    "sources": 71,
+    "categories": [
+      "art",
+      "cinema",
+      "circus",
+      "conference",
+      "dance",
+      "family",
+      "music",
+      "talk",
+      "theatre",
+      "workshop"
+    ],
+    "method": "Spanish queries and official agendas first; individual full announcements and venue maps checked. Actual Spanish Google browser discovery was performed by the coordinated search worker. Public Telegram/Russian media and Reddit checked for leads; inaccessible Instagram was not retried.",
+    "limits": [
+      "Not an exhaustive city calendar.",
+      "Session records are not separate programme counts.",
+      "Ticket purchase, seat availability and reservations were not performed.",
+      "Russian-language announcement does not imply Russian-language performance.",
+      "Instagram coverage is unavailable, not verified.",
+      "Conference selection excludes sold-out in-person events and online-only sessions."
+    ]
+  },
+  "sources": [
+    {
+      "id": "mad-source-empaque",
+      "name": "21 DISTRITOS · empaque",
+      "url": "https://21distritos.es/evento/empaque/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-compromisos-del-no-ver-2",
+      "name": "21 DISTRITOS · compromisos del no ver 2",
+      "url": "https://21distritos.es/evento/compromisos-del-no-ver-2/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-encuentros-con-altura-vega-olivares-duo-2",
+      "name": "21 DISTRITOS · encuentros con altura vega olivares duo 2",
+      "url": "https://21distritos.es/evento/encuentros-con-altura-vega-olivares-duo-2/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-nera-viaje-a-isla-madre",
+      "name": "21 DISTRITOS · nera viaje a isla madre",
+      "url": "https://21distritos.es/evento/nera-viaje-a-isla-madre/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-mahmud-y-no-solo-mahmud-2",
+      "name": "21 DISTRITOS · mahmud y no solo mahmud 2",
+      "url": "https://21distritos.es/evento/mahmud-y-no-solo-mahmud-2/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-corazon-de-agua-2",
+      "name": "21 DISTRITOS · corazon de agua 2",
+      "url": "https://21distritos.es/evento/corazon-de-agua-2/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-guerrero-2",
+      "name": "21 DISTRITOS · guerrero 2",
+      "url": "https://21distritos.es/evento/guerrero-2/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-o-kwarteto-2",
+      "name": "21 DISTRITOS · o kwarteto 2",
+      "url": "https://21distritos.es/evento/o-kwarteto-2/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-imaginar-con-maquinas-2",
+      "name": "21 DISTRITOS · imaginar con maquinas 2",
+      "url": "https://21distritos.es/evento/imaginar-con-maquinas-2/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-antonashpiano-2",
+      "name": "21 DISTRITOS · antonashpiano 2",
+      "url": "https://21distritos.es/evento/antonashpiano-2/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-mind-in-progress",
+      "name": "21 DISTRITOS · mind in progress",
+      "url": "https://21distritos.es/evento/mind-in-progress/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-cba-venue",
+      "name": "cba venue",
+      "url": "https://www.esmadrid.com/informacion-turistica/circulo-de-bellas-artes",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-centrocentro-venue",
+      "name": "centrocentro venue",
+      "url": "https://www.esmadrid.com/informacion-turistica/centrocentro",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-panoptico",
+      "name": "panoptico",
+      "url": "https://diario.madrid.es/blog/notas-de-prensa/una-nueva-edicion-de-madrid-es-paisaje-explora-el-poder-del-arte-para-transformar-la-mirada-sobre-la-ciudad/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-fg-venue",
+      "name": "fg venue",
+      "url": "https://www.esmadrid.com/informacion-turistica/teatro-fernan-gomez-centro-cultural-de-la-villa",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-dali",
+      "name": "dali",
+      "url": "https://www.esmadrid.com/agenda/universo-freudiano-dali-museo-nacional-thyssen-bornemisza",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-altar",
+      "name": "altar",
+      "url": "https://www.esmadrid.com/agenda/altar-talleres-dia-muertos-fernan-gomez-centro-cultural-villa",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-electricity",
+      "name": "electricity",
+      "url": "https://www.esmadrid.com/agenda/viaje-electrizante-experiencia-inmersiva-iberdrola-galeria-cristal-palacio-cibeles",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-deep-purple",
+      "name": "deep purple",
+      "url": "https://www.esmadrid.com/agenda/deep-purple-movistar-arena",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-fontaines",
+      "name": "fontaines",
+      "url": "https://www.esmadrid.com/agenda/fontaines-dc-movistar-arena",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-lorca",
+      "name": "lorca",
+      "url": "https://www.esmadrid.com/agenda/llamame-lorca-teatros-canal",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-aion",
+      "name": "aion",
+      "url": "https://www.esmadrid.com/agenda/aion-cnd-teatro-zarzuela",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-alvin",
+      "name": "alvin",
+      "url": "https://www.esmadrid.com/agenda/alvin-ailey-american-dance-theater-teatro-real",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-verborrea",
+      "name": "verborrea",
+      "url": "https://www.esmadrid.com/agenda/verborrea-nave-10-matadero",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-skill-swap",
+      "name": "skill swap",
+      "url": "https://luma.com/fzffnudg",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed_via_web_reader",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "mad-source-charlas",
+      "name": "charlas",
+      "url": "https://fomomad.com/charlas",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "fetch_failed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "mad-source-conferences",
+      "name": "conferences",
+      "url": "https://ateneodemadrid.com/eventos/categoria/conferencias/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-movistar-venue",
+      "name": "movistar venue",
+      "url": "https://www.esmadrid.com/informacion-turistica/movistar-arena",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "fetch_failed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "mad-source-moscu",
+      "name": "moscu",
+      "url": "https://www.teatrofernangomez.es/actividades/moscu-no-existe",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "fetch_failed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "mad-source-lorca-primary",
+      "name": "lorca primary",
+      "url": "https://www.teatroscanal.com/espectaculo/manuel-linan-llamame-lorca/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-aion-primary",
+      "name": "aion primary",
+      "url": "https://teatrodelazarzuela.inaem.gob.es/es/temporada/danza-2026-2027/aion",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-alvin-primary",
+      "name": "alvin primary",
+      "url": "https://www.teatroreal.es/es/espectaculo/alvin-ailey-american-dance-theater",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-altar-primary",
+      "name": "altar primary",
+      "url": "https://www.teatrofernangomez.es/actividades/altar-dia-de-muertos-2026",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "fetch_failed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "mad-source-dali-primary",
+      "name": "dali primary",
+      "url": "https://www.museothyssen.org/exposiciones/universo-freudiano-dali",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-phone-talk",
+      "name": "phone talk",
+      "url": "https://espacio.fundaciontelefonica.com/evento/tech-society-nick-srnicek/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-phone-venue",
+      "name": "phone venue",
+      "url": "https://www.esmadrid.com/informacion-turistica/espacio-fundacion-telefonica",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-planetario-venue",
+      "name": "planetario venue",
+      "url": "https://www.esmadrid.com/informacion-turistica/planetario-de-madrid",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "fetch_failed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "mad-source-sanisidro-venue",
+      "name": "sanisidro venue",
+      "url": "https://www.esmadrid.com/informacion-turistica/museo-de-san-isidro",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "fetch_failed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "mad-source-madridru-telegram",
+      "name": "madridru telegram",
+      "url": "https://t.me/s/madridru",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "partial_public_preview_or_unavailable",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-movistar-venue-canonical",
+      "name": "movistar venue canonical",
+      "url": "https://www.esmadrid.com/informacion-turistica/movistar-arena-madrid",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-sanisidro-venue-canonical",
+      "name": "sanisidro venue canonical",
+      "url": "https://www.esmadrid.com/informacion-turistica/museo-de-san-isidro-los-origenes-de-madrid",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-ateneo-venue",
+      "name": "ateneo venue",
+      "url": "https://www.esmadrid.com/informacion-turistica/ateneo-cientifico-literario-y-artistico-de-madrid",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-lanave-venue",
+      "name": "lanave venue",
+      "url": "https://www.esmadrid.com/informacion-turistica/nave-antigua-fabrica-boetticher",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-planetario",
+      "name": "planetario",
+      "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Buscador/Ciclo-de-conferencias-de-otono-2026-Singularities/?vgnextchannel=7db8fc12aa936610VgnVCM1000008a4a900aRCRD&vgnextfmt=default&vgnextoid=ae88b889d51f5610VgnVCM2000001f4a900aRCRD",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-planetario-venue-madrid",
+      "name": "planetario venue madrid",
+      "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Buscador/Planetario-de-Madrid/?vgnextchannel=7db8fc12aa936610VgnVCM1000008a4a900aRCRD&vgnextfmt=default&vgnextoid=c9c5b069a541f010VgnVCM1000000b205a0aRCRD",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-lilo-stitch",
+      "name": "lilo stitch",
+      "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Infancia-y-familia/Actividades-y-eventos/Lilo-y-Stitch/?vgnextchannel=dd61b7dd3f7fe410VgnVCM1000000b205a0aRCRD&vgnextfmt=default&vgnextoid=9fc8de0d36cf0a10VgnVCM200000f921e388RCRD",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-ateneo-altamira",
+      "name": "ateneo altamira",
+      "url": "https://ateneodemadrid.com/evento/rafael-altamira-historiador-jurista-e-internacionalista/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-moscu-esmadrid",
+      "name": "moscu esmadrid",
+      "url": "https://www.esmadrid.com/agenda/moscu-no-existe-fernan-gomez-centro-cultural-villa",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-inspirational",
+      "name": "inspirational",
+      "url": "https://inspirational.es/inspirational-iab-2026-entradas/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed_via_web_reader",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "mad-source-anese",
+      "name": "anese",
+      "url": "https://www.congreso.anese.es/event/entradas-symposium-congreso-anese/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-paco-seco",
+      "name": "paco seco",
+      "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Moncloa-Aravaca/Programacion-Cultural-Moncloa-Aravaca/Programa-cultural-21-Distritos-Moncloa-Aravaca/Concierto-de-Paco-Seco-Musica-para-Guitarra-Andaluza-XXXX-Festival-Internacional-Andres-Segovia/?vgnextchannel=a6f50b58e4919910VgnVCM200000f921e388RCRD&vgnextfmt=default&vgnextoid=6253c7b4ab8c0a10VgnVCM100000891ecb1aRCRD",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-faro-venue",
+      "name": "faro venue",
+      "url": "https://www.esmadrid.com/informacion-turistica/faro-de-moncloa",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-nicolas-address",
+      "name": "nicolas address",
+      "url": "https://diario.madrid.es/chamartin/2026/06/09/mas-de-100-actividades-diferentes-para-aprender-en-chamartin-el-curso-que-viene/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-mario-venue",
+      "name": "mario venue",
+      "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Madrid-en-imagenes/Edificios-Publicos/Biblioteca-Publica-Municipal-Mario-Vargas-Llosa-Centro-/?vgnextchannel=e01e1a6795ff9010VgnVCM100000d90ca8c0RCRD&vgnextfmt=default&vgnextoid=6c4dbc2658739410VgnVCM2000000c205a0aRCRD",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-electricity-primary",
+      "name": "electricity primary",
+      "url": "https://www.125.iberdrola.com/evento/experiencia-inmersiva-iberdrola-un-viaje-electrizante/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed_via_web_reader",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "mad-source-verborrea-primary",
+      "name": "verborrea primary",
+      "url": "https://www.nave10matadero.es/actividades/verborrea",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "fetch_failed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "mad-source-faro-venue-madrid",
+      "name": "faro venue madrid",
+      "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Cultura-ocio-y-deporte/Cultura-y-ocio/Direcciones-y-telefonos/Faro-de-la-Moncloa/?vgnextfmt=default&vgnextoid=ee4f13db5b71c010VgnVCM1000000b205a0aRCRD&vgnextchannel=76f3efff228fe410VgnVCM2000000c205a0aRCRD",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public HTTP fetch and/or web reader; no login",
+      "accessNote": null
+    },
+    {
+      "id": "mad-source-calendar",
+      "name": "esMadrid official cultural calendar",
+      "url": "https://www.esmadrid.com/calendario-eventos-madrid",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "reviewed_discovery",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "Official city agenda was the first discovery layer."
+    },
+    {
+      "id": "mad-source-district-agenda",
+      "name": "21 DISTRITOS official programme",
+      "url": "https://21distritos.es/programacion/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "reviewed_discovery",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "Discovered through actual Spanish Google browser query by the coordinated search worker; individual announcements verified in this packet."
+    },
+    {
+      "id": "mad-source-vida-madrid",
+      "name": "Vida de Madrid · October 2026 agenda",
+      "url": "https://www.vidademadrid.com/es/61764/que-hacer-en-octubre-2026-en-madrid-agenda-de-planes-y-eventos-del-mes/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "reviewed_discovery",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "Read through actual Google by coordinated search worker; primary confirmations used for imported records."
+    },
+    {
+      "id": "mad-source-inspirational-ticket",
+      "name": "Inspirational official ticket seller",
+      "url": "https://inspirational.tufabricadeventos.com/presencial_798761978_120097.html",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "€25 in-person + online pass including IVA; no checkout or booking performed."
+    },
+    {
+      "id": "mad-source-trg",
+      "name": "TRG26 official programme",
+      "url": "https://www.trgcon.com/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "22–24 October 2026, La Nave. Excluded because official in-person ticket page is sold out."
+    },
+    {
+      "id": "mad-source-trg-ticket",
+      "name": "TRG26 official tickets",
+      "url": "https://www.trgcon.com/entradas/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed_sold_out",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "All three published ticket tiers sold out. Not represented as available."
+    },
+    {
+      "id": "mad-source-madridru",
+      "name": "MadridRU Russian local media",
+      "url": "https://madridru.es/news/ru-moskvy-ne-sushhestvuet-v-madride-predstavjat-spektakl-po-motivam-chetyrjoh-pes-chehova/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "full_page_reviewed_discovery",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "Russian-language discovery of Chekhov-inspired theatre; imported facts use municipal agenda. Performance language not inferred from this source."
+    },
+    {
+      "id": "mad-source-tech-telegram",
+      "name": "HackerDreams community public Telegram",
+      "url": "https://t.me/s/hackerdreamsdcomm",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "reviewed_no_confirmed_in_window",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "Public feed exposed older posts and CFPs, not enough verified announcements in the requested horizon."
+    },
+    {
+      "id": "mad-source-embassy-telegram",
+      "name": "Russian embassy public Telegram preview",
+      "url": "https://t.me/s/EmbajadaRusaRu?before=1887",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "reviewed_excluded",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "18 October youth forum lead: registration deadline 8 October had passed; no verified exact venue/time."
+    },
+    {
+      "id": "mad-source-reddit-weekly",
+      "name": "r/Madrid weekly community thread",
+      "url": "https://www.reddit.com/r/Madrid/comments/1wywhzq/the_weekly_post_el_post_semanal_0610_al_1210/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "reviewed_discovery",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "FoundHer skills-swap lead linked to Luma. Kept pending because exact-year and coordinate checks were incomplete."
+    },
+    {
+      "id": "mad-source-reddit-gigs",
+      "name": "r/Madrid live music community thread",
+      "url": "https://www.reddit.com/r/Madrid/comments/1x5xvss/conciertos_gigs/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "search_only_full_page_failed",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "Cinerean 18 October lead; full thread read failed and no official ticket confirmation was established."
+    },
+    {
+      "id": "mad-source-instagram-foundhermadrid",
+      "name": "Instagram · foundhermadrid",
+      "url": "https://www.instagram.com/foundhermadrid/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "unavailable_no_retry",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "One public web read failed. No login, account, CAPTCHA, or repeated access attempts."
+    },
+    {
+      "id": "mad-source-instagram-manuellinan",
+      "name": "Instagram · manuellinan",
+      "url": "https://www.instagram.com/manuellinan/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "unavailable_no_retry",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "One public web read failed. No login, account, CAPTCHA, or repeated access attempts."
+    },
+    {
+      "id": "mad-source-instagram-vidademadrid",
+      "name": "Instagram · vidademadrid",
+      "url": "https://www.instagram.com/vidademadrid/",
+      "checkedAt": "2026-10-17T19:54:03Z",
+      "status": "unavailable_no_retry",
+      "method": "public web search/reader, unless noted",
+      "accessNote": "One public web read failed. No login, account, CAPTCHA, or repeated access attempts."
+    }
+  ],
+  "pending": [
+    {
+      "id": "mad-pending-trg26",
+      "title": "TRG26",
+      "sourceUrl": "https://www.trgcon.com/entradas/",
+      "status": "excluded_sold_out",
+      "reason": "Official ticket page marks all in-person tiers sold out. No available public registration claimed."
+    },
+    {
+      "id": "mad-pending-anese",
+      "title": "ANESE conference",
+      "sourceUrl": "https://www.congreso.anese.es/event/entradas-symposium-congreso-anese/",
+      "status": "excluded_sold_out",
+      "reason": "All in-person registration categories sold out; online/cocktail alternatives are not mapped as conference availability."
+    },
+    {
+      "id": "mad-pending-foundher",
+      "title": "FoundHer Skill Swap",
+      "sourceUrl": "https://luma.com/fzffnudg",
+      "status": "pending_year_and_coordinates",
+      "reason": "Organizer page read shows Thursday 22 October 20:00–23:00, espaciO, Marqués de Toca 6; returned page omits explicit year and pin was not verified. Price unknown."
+    },
+    {
+      "id": "mad-pending-cinerean",
+      "title": "Cinerean at Independance Club",
+      "sourceUrl": "https://www.reddit.com/r/Madrid/comments/1x5xvss/conciertos_gigs/",
+      "status": "pending_full_announcement",
+      "reason": "Only indexed community lead read; full page failed. No imported event."
+    },
+    {
+      "id": "mad-pending-trashumancia",
+      "title": "Fiesta de la Trashumancia",
+      "sourceUrl": "https://www.esmadrid.com/calendario-eventos-madrid",
+      "status": "pending_primary_route_time",
+      "reason": "Google discovery had conflicting 24 versus 24–25 October dates. No AI overview date used; full procession route/time not verified."
+    },
+    {
+      "id": "mad-pending-repin",
+      "title": "Vadim Repin and Nikolai Lugansky",
+      "sourceUrl": "https://www.vidademadrid.com/es/61764/que-hacer-en-octubre-2026-en-madrid-agenda-de-planes-y-eventos-del-mes/",
+      "status": "pending_primary_date",
+      "reason": "Secondary October 20 lead conflicts with another artist/label date; not imported without venue-level confirmation."
+    },
+    {
+      "id": "mad-pending-russian-forum",
+      "title": "Единство без границ",
+      "sourceUrl": "https://t.me/s/EmbajadaRusaRu?before=1887",
+      "status": "excluded_registration_closed",
+      "reason": "Registration deadline 8 October had passed. Time and specific address incomplete."
+    }
+  ],
+  "corrections": [
+    "Dalí: museum primary source says Monday closed; conflicting municipal Monday hours not used. Saturday free 21:00–23:00 is conditional, not universally free.",
+    "Deep Purple: municipal event pin differs from canonical Movistar Arena venue; canonical venue pin used.",
+    "Faro de Moncloa: district-event pin conflicts with canonical venues. Prefer municipal address-directory point if verified; otherwise leave concert pending.",
+    "Iberdrola: organizer ends 20 October; ticket wrapper showed 22 October/00:00. Wrapper date not treated as a session. Last entry 20:45 is not closing time.",
+    "Multi-venue 21 DISTRITOS JSON-LD sometimes contains only first/past venue; venue-specific visible sections and map links used.",
+    "Inspirational: €25 is in-person plus online pass, not €10 online-only ticket. Afternoon sessions excluded from map.",
+    "All day/time values use Europe/Madrid; zoneinfo generates +02:00 before 25 October and +01:00 afterwards. JSON-LD midnight date placeholders were not imported as real times."
+  ],
+  "googleQueries": [
+    "Madrid eventos agenda 18 24 octubre 2026",
+    "Madrid agenda cultural \"20\" \"24\" \"octubre 2026\""
+  ],
+  "noExternalStateChanges": true
+}

@@ -1,0 +1,368 @@
+{
+  "type": "coordinate_only_delta",
+  "frozenAt": "2026-10-16T18:14:00Z",
+  "auditedPublishedSourceCommit": "20da45e6e199d66cb27bed67f642e100fa566781",
+  "noNewEvents": true,
+  "doNotDelayStartupRelease": true,
+  "publicationStatus": "Prepared research only. Not imported or published; engineering and parent may evaluate a separate narrow follow-up.",
+  "auditedRows": 15,
+  "verifiedCorrections": 11,
+  "heldRows": 4,
+  "deliberatelyPrivateOrUndisclosedRows": 0,
+  "patches": [
+    {
+      "cityId": "vienna",
+      "existingId": "vienna-univie-green-20261021:2026-10-21",
+      "programmeId": "vienna-univie-green-2026",
+      "venue": "Rathaus Wien, Volkshalle",
+      "address": "Rathausplatz 1, 1010 Wien",
+      "privateOrUndisclosed": false,
+      "fields": {
+        "lat": 48.21074755940426,
+        "lng": 16.357214343130952,
+        "coordinateSource": "https://www.wien.info/en/now-on/events/city-hall-1134656",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "Official Vienna tourism page has a data-js-location object explicitly titled Vienna City Hall (Wiener Rathaus), with lat 48.21074755940426 and long 16.357214343130952. This is the Rathaus building point, not a claimed Volkshalle door. The event address remains Rathausplatz 1; the tourism source describes the separate guided-tour entrance on Friedrich-Schmidt-Platz. Do not replace the event address or promise access through the tour entrance."
+      },
+      "sourceURL": "https://www.wien.info/en/now-on/events/city-hall-1134656",
+      "supportingURLs": [
+        "https://www.wien.gv.at/rathaus/online-fuehrung-volkshalle"
+      ],
+      "officialProgrammeSource": "https://www.b2match.com/e/univie-connect-green-innovations-2026",
+      "evidence": "Official Vienna tourism page has a data-js-location object explicitly titled Vienna City Hall (Wiener Rathaus), with lat 48.21074755940426 and long 16.357214343130952. This is the Rathaus building point, not a claimed Volkshalle door. The event address remains Rathausplatz 1; the tourism source describes the separate guided-tour entrance on Friedrich-Schmidt-Platz. Do not replace the event address or promise access through the tour entrance.",
+      "checkedAt": "2026-10-16T18:14:00Z",
+      "rawEvidenceFiles": [
+        "rathaus-tourism.html",
+        "rathaus.html"
+      ],
+      "preserveAdmission": true
+    },
+    {
+      "cityId": "vienna",
+      "existingId": "vienna-ai-solution-day-20261020:2026-10-20",
+      "programmeId": "vienna-ai-solution-day-2026",
+      "venue": "weXelerate",
+      "address": "Praterstraße 1, Wien",
+      "privateOrUndisclosed": false,
+      "fields": {
+        "lat": 48.2131378,
+        "lng": 16.3796897,
+        "coordinateSource": "https://wexelerate.com/en/contact/",
+        "coordinatePrecision": "venue",
+        "coordinateEvidence": "Official venue contact page links its embedded Google map. The map response contains the named weXelerate place tuple at Praterstraße 1 with [48.2131378,16.3796897], place ID 0x476d07a097138105:0xb580b47168686686. Extracted the place marker, not the viewport center. Closed application status is unchanged."
+      },
+      "sourceURL": "https://wexelerate.com/en/contact/",
+      "supportingURLs": [
+        "https://www.google.com/maps?q=weXelerate%2C+Praterstra%C3%9Fe+1,+1020+Wien,+Austria&z=15&output=embed"
+      ],
+      "officialProgrammeSource": "https://www.aisolutionday.at/",
+      "evidence": "Official venue contact page links its embedded Google map. The map response contains the named weXelerate place tuple at Praterstraße 1 with [48.2131378,16.3796897], place ID 0x476d07a097138105:0xb580b47168686686. Extracted the place marker, not the viewport center. Closed application status is unchanged.",
+      "checkedAt": "2026-10-16T18:14:00Z",
+      "rawEvidenceFiles": [
+        "wexelerate.html",
+        "wexelerate-embed.html"
+      ],
+      "preserveAdmission": true
+    },
+    {
+      "cityId": "prague",
+      "existingId": "prague-make-waves-main-20261020:2026-10-20",
+      "programmeId": "make-waves-2026",
+      "venue": "Cubex Centrum Praha",
+      "address": "Na Strži 2097/63, 140 00 Praha 4-Nusle",
+      "privateOrUndisclosed": false,
+      "fields": {
+        "lat": 50.0497116,
+        "lng": 14.4399328,
+        "coordinateSource": "https://www.cubexcentrum.cz/en/for-visitors/",
+        "coordinatePrecision": "venue",
+        "coordinateEvidence": "Venue official visitor page embeds public Google My Maps document 1VI18MQm3pt9coNNbM_ezpo6RW_kQCeM. Its KML has a named Point placemark Cubex Centrum Praha spol. s r. o. with coordinates 14.4399328,50.0497116,0 (longitude, latitude). This is the venue placemark, not map center."
+      },
+      "sourceURL": "https://www.cubexcentrum.cz/en/for-visitors/",
+      "supportingURLs": [
+        "https://www.google.com/maps/d/kml?mid=1VI18MQm3pt9coNNbM_ezpo6RW_kQCeM&forcekml=1"
+      ],
+      "officialProgrammeSource": "https://waves.make.com/",
+      "evidence": "Venue official visitor page embeds public Google My Maps document 1VI18MQm3pt9coNNbM_ezpo6RW_kQCeM. Its KML has a named Point placemark Cubex Centrum Praha spol. s r. o. with coordinates 14.4399328,50.0497116,0 (longitude, latitude). This is the venue placemark, not map center.",
+      "checkedAt": "2026-10-16T18:14:00Z",
+      "rawEvidenceFiles": [
+        "cubex-visitor.html",
+        "cubex.kml"
+      ],
+      "preserveAdmission": true
+    },
+    {
+      "cityId": "prague",
+      "existingId": "prague-make-current-20261019:2026-10-19",
+      "programmeId": "make-waves-2026",
+      "venue": "Cubex Centrum Praha",
+      "address": "Na Strži 2097/63, 140 00 Praha 4-Nusle",
+      "privateOrUndisclosed": false,
+      "fields": {
+        "lat": 50.0497116,
+        "lng": 14.4399328,
+        "coordinateSource": "https://www.cubexcentrum.cz/en/for-visitors/",
+        "coordinatePrecision": "venue",
+        "coordinateEvidence": "Venue official visitor page embeds public Google My Maps document 1VI18MQm3pt9coNNbM_ezpo6RW_kQCeM. Its KML has a named Point placemark Cubex Centrum Praha spol. s r. o. with coordinates 14.4399328,50.0497116,0 (longitude, latitude). This is the venue placemark, not map center."
+      },
+      "sourceURL": "https://www.cubexcentrum.cz/en/for-visitors/",
+      "supportingURLs": [
+        "https://www.google.com/maps/d/kml?mid=1VI18MQm3pt9coNNbM_ezpo6RW_kQCeM&forcekml=1"
+      ],
+      "officialProgrammeSource": "https://waves.make.com/faq",
+      "evidence": "Venue official visitor page embeds public Google My Maps document 1VI18MQm3pt9coNNbM_ezpo6RW_kQCeM. Its KML has a named Point placemark Cubex Centrum Praha spol. s r. o. with coordinates 14.4399328,50.0497116,0 (longitude, latitude). This is the venue placemark, not map center.",
+      "checkedAt": "2026-10-16T18:14:00Z",
+      "rawEvidenceFiles": [
+        "cubex-visitor.html",
+        "cubex.kml"
+      ],
+      "preserveAdmission": true
+    },
+    {
+      "cityId": "prague",
+      "existingId": "prague-ai-culture-20261019:2026-10-19",
+      "programmeId": "prague-ai-culture-2026",
+      "venue": "mesic.ai",
+      "address": "Rohanské nábřeží 19, 186 00 Praha 8-Karlín",
+      "privateOrUndisclosed": false,
+      "fields": {
+        "lat": 50.094693899999996,
+        "lng": 14.449755199999998,
+        "coordinateSource": "https://luma.com/esk-thph",
+        "coordinatePrecision": "venue",
+        "coordinateEvidence": "Organizer Luma page includes structured Place geo coordinates and place_coordinate for mesic.ai at Rohanské nábřeží 19. Both latitude and longitude agree, and geo_address_visibility is public. This is the event venue, not the viewer location also present elsewhere in the page."
+      },
+      "sourceURL": "https://luma.com/esk-thph",
+      "supportingURLs": [
+        "https://www.google.com/maps/search/?api=1&query=50.094693899999996%2C14.449755199999998&query_place_id=ChIJeYOak-GVC0cR68RhOafobnM"
+      ],
+      "officialProgrammeSource": "https://luma.com/esk-thph",
+      "evidence": "Organizer Luma page includes structured Place geo coordinates and place_coordinate for mesic.ai at Rohanské nábřeží 19. Both latitude and longitude agree, and geo_address_visibility is public. This is the event venue, not the viewer location also present elsewhere in the page.",
+      "checkedAt": "2026-10-16T18:14:00Z",
+      "rawEvidenceFiles": [
+        "mesic.html"
+      ],
+      "preserveAdmission": true
+    },
+    {
+      "cityId": "prague",
+      "existingId": "prague-venture-pitch-20261020:2026-10-20",
+      "programmeId": "prague-venture-pitch-2026",
+      "venue": "Endorfin",
+      "address": "Petrohradská 216/3, Praha 10-Vršovice",
+      "privateOrUndisclosed": false,
+      "fields": {
+        "lat": 50.06380081176758,
+        "lng": 14.452699661254883,
+        "coordinateSource": "https://goout.net/cs/endorfin-world/vzlald/",
+        "coordinatePrecision": "venue",
+        "coordinateEvidence": "GoOut ticketing venue page identifies Endorfin World, Petrohradská 216/3, and publishes matching latitude/longitude in Place structured data and venue state. The official Endorfin contact page confirms the same address and says entry is through the courtyard from Petrohradská. Official HTML direct fetch returned 466 but the page was readable via web extraction."
+      },
+      "sourceURL": "https://goout.net/cs/endorfin-world/vzlald/",
+      "supportingURLs": [
+        "https://endorfin.cz/kontakt/"
+      ],
+      "officialProgrammeSource": "https://pitchnight.ventureclub.cz/",
+      "evidence": "GoOut ticketing venue page identifies Endorfin World, Petrohradská 216/3, and publishes matching latitude/longitude in Place structured data and venue state. The official Endorfin contact page confirms the same address and says entry is through the courtyard from Petrohradská. Official HTML direct fetch returned 466 but the page was readable via web extraction.",
+      "checkedAt": "2026-10-16T18:14:00Z",
+      "rawEvidenceFiles": [
+        "endorfin-goout.html"
+      ],
+      "preserveAdmission": true
+    },
+    {
+      "cityId": "saint-petersburg",
+      "existingId": "spb-npt-forum-20261021:2026-10-21",
+      "programmeId": "spb-npt-forum-2026",
+      "venue": "Технополис Политех, СПбПУ",
+      "address": "Санкт-Петербург, Политехническая улица, 29, литера АФ",
+      "privateOrUndisclosed": false,
+      "fields": {
+        "lat": 60.00674111071065,
+        "lng": 30.379537301634336,
+        "coordinateSource": "https://www.spbstu.ru/campus-map/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "University official campus page embeds public Yandex map CCUMF8SFsC. Its labelled placemark 45. Научно-исследовательский корпус (НИК), Политехническая ул., 29 has coordinates [30.379537301634336,60.00674111071065] in longitude/latitude order. University text identifies this research building as Технополис Политех at 29, letter АФ. This is the specific research building, not the generic campus center or main building."
+      },
+      "sourceURL": "https://www.spbstu.ru/campus-map/",
+      "supportingURLs": [
+        "https://yandex.ru/map-widget/v1/-/CCUMF8SFsC",
+        "https://www.spbstu.ru/media/announcements/archive/competitions_grants/otkrytyy-chempionat-goroda-po-3d-tekhnologiyam/"
+      ],
+      "officialProgrammeSource": "https://npt-forum.ru/",
+      "evidence": "University official campus page embeds public Yandex map CCUMF8SFsC. Its labelled placemark 45. Научно-исследовательский корпус (НИК), Политехническая ул., 29 has coordinates [30.379537301634336,60.00674111071065] in longitude/latitude order. University text identifies this research building as Технополис Политех at 29, letter АФ. This is the specific research building, not the generic campus center or main building.",
+      "checkedAt": "2026-10-16T18:14:00Z",
+      "rawEvidenceFiles": [
+        "polytech.html",
+        "polytech-yandex.html",
+        "npt.html"
+      ],
+      "preserveAdmission": true
+    },
+    {
+      "cityId": "saint-petersburg",
+      "existingId": "spb-itmo-young-opening-20261019:2026-10-19",
+      "programmeId": "itmo-young-professionals-2026",
+      "venue": "Университет ИТМО",
+      "address": "Санкт-Петербург, улица Ломоносова, 9",
+      "privateOrUndisclosed": false,
+      "fields": {
+        "lat": 59.9269,
+        "lng": 30.3378,
+        "coordinateSource": "https://itmo.ru/ru/map/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "ITMO official campus map defines a ymaps.Placemark([59.9269,30.3378]) with the explicit balloon label Ломоносова улица д.9. Use this labelled campus building point for the opening at Lomonosova 9, not the other ITMO campus. Listener registration and external-access uncertainty remain unchanged."
+      },
+      "sourceURL": "https://itmo.ru/ru/map/",
+      "supportingURLs": [],
+      "officialProgrammeSource": "https://studnauka.itmo.ru/molodie-professionaly",
+      "evidence": "ITMO official campus map defines a ymaps.Placemark([59.9269,30.3378]) with the explicit balloon label Ломоносова улица д.9. Use this labelled campus building point for the opening at Lomonosova 9, not the other ITMO campus. Listener registration and external-access uncertainty remain unchanged.",
+      "checkedAt": "2026-10-16T18:14:00Z",
+      "rawEvidenceFiles": [
+        "itmo-map.html"
+      ],
+      "preserveAdmission": true
+    },
+    {
+      "cityId": "saint-petersburg",
+      "existingId": "spb-itmo-applied-ai-20261020:2026-10-20",
+      "programmeId": "itmo-young-professionals-2026",
+      "venue": "Университет ИТМО, аудитория 2304",
+      "address": "Санкт-Петербург, Кронверкский проспект, 49, литера А",
+      "privateOrUndisclosed": false,
+      "fields": {
+        "lat": 59.9574,
+        "lng": 30.3079,
+        "coordinateSource": "https://itmo.ru/ru/map/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "ITMO official campus map defines a ymaps.Placemark([59.9574,30.3079]) explicitly labelled Главный корпус. Кронверкский проспект, д.49. The dedicated English university map page repeats this point. Building point only, not room 2304 or room 1212 coordinates. Registration and external-access restrictions remain unchanged."
+      },
+      "sourceURL": "https://itmo.ru/ru/map/",
+      "supportingURLs": [
+        "https://en.itmo.ru/en/map/1/Kronverksky_Pr._49.htm"
+      ],
+      "officialProgrammeSource": "https://studnauka.itmo.ru/molodie-professionaly",
+      "evidence": "ITMO official campus map defines a ymaps.Placemark([59.9574,30.3079]) explicitly labelled Главный корпус. Кронверкский проспект, д.49. The dedicated English university map page repeats this point. Building point only, not room 2304 or room 1212 coordinates. Registration and external-access restrictions remain unchanged.",
+      "checkedAt": "2026-10-16T18:14:00Z",
+      "rawEvidenceFiles": [
+        "itmo-map.html",
+        "itmo-kron.html"
+      ],
+      "preserveAdmission": true
+    },
+    {
+      "cityId": "saint-petersburg",
+      "existingId": "spb-itmo-foresight-20261022:2026-10-22",
+      "programmeId": "itmo-young-professionals-2026",
+      "venue": "Университет ИТМО, аудитория 1212",
+      "address": "Санкт-Петербург, Кронверкский проспект, 49, литера А",
+      "privateOrUndisclosed": false,
+      "fields": {
+        "lat": 59.9574,
+        "lng": 30.3079,
+        "coordinateSource": "https://itmo.ru/ru/map/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "ITMO official campus map defines a ymaps.Placemark([59.9574,30.3079]) explicitly labelled Главный корпус. Кронверкский проспект, д.49. The dedicated English university map page repeats this point. Building point only, not room 2304 or room 1212 coordinates. Registration and external-access restrictions remain unchanged."
+      },
+      "sourceURL": "https://itmo.ru/ru/map/",
+      "supportingURLs": [
+        "https://en.itmo.ru/en/map/1/Kronverksky_Pr._49.htm"
+      ],
+      "officialProgrammeSource": "https://studnauka.itmo.ru/molodie-professionaly",
+      "evidence": "ITMO official campus map defines a ymaps.Placemark([59.9574,30.3079]) explicitly labelled Главный корпус. Кронверкский проспект, д.49. The dedicated English university map page repeats this point. Building point only, not room 2304 or room 1212 coordinates. Registration and external-access restrictions remain unchanged.",
+      "checkedAt": "2026-10-16T18:14:00Z",
+      "rawEvidenceFiles": [
+        "itmo-map.html",
+        "itmo-kron.html"
+      ],
+      "preserveAdmission": true
+    },
+    {
+      "cityId": "istanbul",
+      "existingId": "istanbul-developer-summit-20261017:2026-10-17",
+      "programmeId": "istanbul-developer-summit-2026",
+      "venue": "Elite World Grand İstanbul Küçükyalı",
+      "address": "Aydınevler Mah., İnönü Caddesi No.22, 34854 Maltepe, İstanbul",
+      "privateOrUndisclosed": false,
+      "fields": {
+        "lat": 40.95593119999999,
+        "lng": 29.1160031,
+        "coordinateSource": "https://www.eliteworldhotels.com.tr/en/contact",
+        "coordinatePrecision": "venue",
+        "coordinateEvidence": "Official hotel contact page has a Küçükyalı section at İnönü Caddesi 22 and its embedded Google map. The map response names Elite World Grand İstanbul Küçükyalı with the matching address and exact marker [40.95593119999999,29.1160031], place ID 0x14cac7408a6eab81:0x5182fec8c51c7787. This marker differs from the iframe viewport center; only the named marker is used. Sales-deadline warning remains unchanged."
+      },
+      "sourceURL": "https://www.eliteworldhotels.com.tr/en/contact",
+      "supportingURLs": [],
+      "officialProgrammeSource": "https://summit.devnot.com/",
+      "evidence": "Official hotel contact page has a Küçükyalı section at İnönü Caddesi 22 and its embedded Google map. The map response names Elite World Grand İstanbul Küçükyalı with the matching address and exact marker [40.95593119999999,29.1160031], place ID 0x14cac7408a6eab81:0x5182fec8c51c7787. This marker differs from the iframe viewport center; only the named marker is used. Sales-deadline warning remains unchanged.",
+      "checkedAt": "2026-10-16T18:14:00Z",
+      "rawEvidenceFiles": [
+        "elite2.html",
+        "elite2-embed.html"
+      ],
+      "preserveAdmission": true
+    }
+  ],
+  "holds": [
+    {
+      "existingId": "istanbul-ai-cyber-expo-20261020:2026-10-20",
+      "cityId": "istanbul",
+      "venue": "İTÜ Süleyman Demirel Kültür Merkezi (SDKM)",
+      "address": "İTÜ Ayazağa Kampüsü, Maslak, Sarıyer, İstanbul",
+      "privateOrUndisclosed": false,
+      "status": "named_venue_conflicting_map_target",
+      "reason": "Official SDKM venue page confirms the specific cultural center in Ayazağa. However its embedded Google map resolves to İTÜ External Relations and Protocol Directorate at [41.1067052,29.0212816], not a marker named SDKM. An OSM-derived source locates SDKM roughly 160 metres away at 41.10707,29.02307. Do not silently choose between a department point and the auditorium. Keep unknown pending an unambiguous venue marker.",
+      "sources": [
+        "https://sdkm.itu.edu.tr/",
+        "https://disiliskiler.itu.edu.tr/merkez-salonlar/sdkm",
+        "https://mapcarta.com/fr/W145346163"
+      ]
+    },
+    {
+      "existingId": "istanbul-ai-cyber-expo-20261020:2026-10-21",
+      "cityId": "istanbul",
+      "venue": "İTÜ Süleyman Demirel Kültür Merkezi (SDKM)",
+      "address": "İTÜ Ayazağa Kampüsü, Maslak, Sarıyer, İstanbul",
+      "privateOrUndisclosed": false,
+      "status": "named_venue_conflicting_map_target",
+      "reason": "Official SDKM venue page confirms the specific cultural center in Ayazağa. However its embedded Google map resolves to İTÜ External Relations and Protocol Directorate at [41.1067052,29.0212816], not a marker named SDKM. An OSM-derived source locates SDKM roughly 160 metres away at 41.10707,29.02307. Do not silently choose between a department point and the auditorium. Keep unknown pending an unambiguous venue marker.",
+      "sources": [
+        "https://sdkm.itu.edu.tr/",
+        "https://disiliskiler.itu.edu.tr/merkez-salonlar/sdkm",
+        "https://mapcarta.com/fr/W145346163"
+      ]
+    },
+    {
+      "existingId": "istanbul-ied-brand-design-20261017:2026-10-17",
+      "cityId": "istanbul",
+      "venue": "KMK Sanat",
+      "address": "Erenköy, Kazım Karabekirpaşa Sokak No.8, 34738 Kadıköy, İstanbul",
+      "privateOrUndisclosed": false,
+      "status": "named_venue_map_data_not_retrieved",
+      "reason": "Official KMK Sanat contact page confirms Kazım Karabekirpaşa Sokak 8 in Erenköy. Its Google map is dynamically rendered and an exact marker was not recovered in the bounded pass. Do not substitute the nearby Kazım Karabekir Museum, a district center, or an unverified map-directory point.",
+      "sources": [
+        "https://www.kmksanat.com/contact",
+        "https://www.ied.edu/events/your-ideas-your-design-identity"
+      ]
+    },
+    {
+      "existingId": "moscow-ai-driver-recsys-20261017:2026-10-17",
+      "cityId": "moscow",
+      "venue": "Офис Сбера, Большой конференц-зал",
+      "address": "Москва, Кутузовский проспект, 32",
+      "privateOrUndisclosed": false,
+      "status": "named_venue_exact_building_unresolved",
+      "reason": "Event publishes the Sber office at Kutuzovsky Avenue 32 but no exact pin or corpus. Map results distinguish several buildings (32, 32k1, 32k2, 32k3). A different Sber conference explicitly names corpus 1, which does not establish that this event uses the same building. No campus-center or other-event pin substituted. Registration closed does not itself prevent map display.",
+      "sources": [
+        "https://developers.sber.ru/kak-v-sbere/events/ai_driver_october_2026",
+        "https://developers.sber.ru/kak-v-sbere/events/sberconf_november_2025"
+      ]
+    }
+  ],
+  "notes": [
+    "Apply only coordinate fields to exact existing IDs. Do not change dates, titles, prices, admission, registration, or availability.",
+    "Coordinates were extracted from named markers or structured venue coordinates, not map viewport centers.",
+    "Rathaus uses a building-level official tourism point, not an assertion about the Volkshalle entrance.",
+    "SDKM was deliberately held because the university footer map points to a differently named department; map availability does not resolve that conflict."
+  ]
+}

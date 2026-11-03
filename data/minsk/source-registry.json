@@ -1,0 +1,85 @@
+{
+  "sources": [
+    {
+      "name": "minsk_region",
+      "url": "https://t.me/s/minsk_region",
+      "status": "checked-public-history",
+      "checkedAt": "2026-10-19T08:02:25.895560+00:00",
+      "type": "telegram"
+    },
+    {
+      "name": "minsk_kudago",
+      "url": "https://t.me/s/minsk_kudago",
+      "status": "checked-public-history",
+      "checkedAt": "2026-10-19T08:02:26.255702+00:00",
+      "type": "telegram"
+    },
+    {
+      "name": "minsk_kuda",
+      "url": "https://t.me/s/minsk_kuda",
+      "status": "checked-public-history",
+      "checkedAt": "2026-10-19T08:02:26.131232+00:00",
+      "type": "telegram"
+    },
+    {
+      "name": "philharmonic.by",
+      "url": "https://philharmonic.by/ru",
+      "type": "web",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:09:33.678528+00:00"
+    },
+    {
+      "name": "minsk.theatrehd.ru",
+      "url": "https://minsk.theatrehd.ru/ru/whats-on",
+      "type": "web",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:09:33.678528+00:00"
+    },
+    {
+      "name": "hubl.by",
+      "url": "https://hubl.by/minsk/teatr",
+      "type": "web",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:09:33.678528+00:00"
+    },
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/relation/59195",
+      "checkedAt": "2026-10-19T08:06:18.717895+00:00",
+      "status": "directory_snapshot",
+      "note": "3823 named place records after boundary filtering and deduplication; operating status not individually verified. ODbL source export: /downloads/city-directories-20261019/minsk-osm.json.gz"
+    },
+    {
+      "id": "ticketpro-minsk",
+      "name": "TicketPro Belarus",
+      "url": "https://www.ticketpro.by/",
+      "checkedAt": "2026-10-19T11:06:57.310950+00:00",
+      "status": "checked",
+      "notes": "Homepage, four week-filtered theatre pages, linked event and venue pages. Recommended cards deduplicated. Exact event pages validated."
+    },
+    {
+      "id": "relax-minsk",
+      "name": "Relax Minsk",
+      "url": "https://afisha.relax.by/theatre/minsk/",
+      "checkedAt": "2026-10-19T11:06:57.310950+00:00",
+      "status": "partial",
+      "notes": "Theatre catalogue and two detail pages read; conflicting venue for chamber performance queued."
+    },
+    {
+      "id": "bycard-minsk",
+      "name": "Bycard",
+      "url": "https://bycard.by/",
+      "checkedAt": "2026-10-19T11:06:57.310950+00:00",
+      "status": "access-error",
+      "notes": "Web fetch timed out; no events imported."
+    },
+    {
+      "id": "kvitki-minsk",
+      "name": "Kvitki",
+      "url": "https://www.kvitki.by/",
+      "checkedAt": "2026-10-19T11:06:57.310950+00:00",
+      "status": "access-error",
+      "notes": "Web fetch returned 502; no events imported."
+    }
+  ]
+}

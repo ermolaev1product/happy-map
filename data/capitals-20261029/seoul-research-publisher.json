@@ -1,0 +1,3579 @@
+{
+  "cityId": "seoul",
+  "checkedAt": "2026-10-29T02:45:58.739653+00:00",
+  "window": {
+    "startDate": "2026-10-29",
+    "endDate": "2026-11-27"
+  },
+  "coverage": "Selected verified public cultural programmes, not complete city coverage. Programme ranges are distinct from confirmed daily visiting windows. Actual source retrieval timestamps retained; Telegram unavailable under existing host stop. See original coverage matrix and access audit.",
+  "events": [
+    {
+      "title": "《오윤》",
+      "titleEn": "《오윤》",
+      "venue": "Art Archives, Seoul Museum of Art — Moeum Building",
+      "venueId": "seoul-venue-c29893e27eb275",
+      "placeId": "seoul-venue-c29893e27eb275",
+      "address": "101 Pyeongchangmunhwa-ro, Jongno-gu, Seoul",
+      "category": "art",
+      "lat": 37.6078,
+      "lng": 126.9719,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_004&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum page links named municipal POI with matching street address; not viewport/city centroid.",
+      "coordinateCheckedAt": "2026-10-29T02:39:29.661865+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1576838",
+      "checkedAt": "2026-10-29T02:27:33.602040+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1576838",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free exhibition admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Oh Yoon: prints, sculpture and archival materials tracing the artist’s work.",
+      "admission": "Mondays closed; last admission1hour before closing. Weekend hours shorten from November. These are visiting windows, not performance sessions.",
+      "programmeId": "seoul-sema-1576838",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_004&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free exhibition admission."
+      },
+      "id": "seoul-sema-1576838-range",
+      "date": "2026-08-27",
+      "endDate": "2027-02-14",
+      "dateType": "published_interval",
+      "time": null,
+      "end": null,
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingNote": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-24": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-25": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-26": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "20:00"
+        }
+      },
+      "openingHoursSource": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1576838"
+    },
+    {
+      "title": "《조숙진: 지나가는 자리》",
+      "titleEn": "《조숙진: 지나가는 자리》",
+      "venue": "Nam-Seoul Museum of Art",
+      "venueId": "seoul-venue-578dc884b9dff1",
+      "placeId": "seoul-venue-578dc884b9dff1",
+      "address": "2076 Nambusunhwan-ro, Gwanak-gu, Seoul",
+      "category": "art",
+      "lat": 37.47607,
+      "lng": 126.97949,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_003&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum page links named municipal POI with matching street address; not viewport/city centroid.",
+      "coordinateCheckedAt": "2026-10-29T02:39:18.551456+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1556711",
+      "checkedAt": "2026-10-29T02:27:46.650612+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1556711",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free exhibition admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Sook Jin Jo: sculpture, installation and archival work at Nam-Seoul Museum.",
+      "admission": "Mondays closed; last admission1hour before closing. Weekend hours shorten from November. These are visiting windows, not performance sessions.",
+      "programmeId": "seoul-sema-1556711",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_003&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free exhibition admission."
+      },
+      "id": "seoul-sema-1556711-range",
+      "date": "2026-07-29",
+      "endDate": "2026-11-15",
+      "dateType": "published_interval",
+      "time": null,
+      "end": null,
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingNote": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "openingHoursSource": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1556711"
+    },
+    {
+      "title": "《보편타당한 당신 ― 심이다은》",
+      "titleEn": "《보편타당한 당신 ― 심이다은》",
+      "venue": "Buk-Seoul Museum of Art",
+      "venueId": "seoul-venue-02861c0100a787",
+      "placeId": "seoul-venue-02861c0100a787",
+      "address": "1238 Dongil-ro, Nowon-gu, Seoul",
+      "category": "art",
+      "lat": 37.64096,
+      "lng": 127.06679,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_002&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum page links named municipal POI with matching street address; not viewport/city centroid.",
+      "coordinateCheckedAt": "2026-10-29T02:39:14.914684+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1549929",
+      "checkedAt": "2026-10-29T02:27:53.035405+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1549929",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free exhibition admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Shim Idaeun: sound, video, installation and performance-related work.",
+      "admission": "Mondays closed; last admission1hour before closing. Weekend hours shorten from November. These are visiting windows, not performance sessions. Until5November: Lounge3 closed, works partly relocated to Lounge2; Field Tracker unavailable.",
+      "programmeId": "seoul-sema-1549929",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_002&lang=ko",
+        "https://sema.seoul.go.kr/kr/bbs/610221/getBbsDetail?bbsNo=1600186"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free exhibition admission."
+      },
+      "id": "seoul-sema-1549929-range",
+      "date": "2026-06-25",
+      "endDate": "2027-04-11",
+      "dateType": "published_interval",
+      "time": null,
+      "end": null,
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingNote": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-24": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-25": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-26": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "21:00"
+        }
+      },
+      "openingHoursSource": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1549929"
+    },
+    {
+      "title": "《권병준: 내 마음속에 너는》",
+      "titleEn": "《권병준: 내 마음속에 너는》",
+      "venue": "Buk-Seoul Museum of Art",
+      "venueId": "seoul-venue-02861c0100a787",
+      "placeId": "seoul-venue-02861c0100a787",
+      "address": "1238 Dongil-ro, Nowon-gu, Seoul",
+      "category": "art",
+      "lat": 37.64096,
+      "lng": 127.06679,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_002&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum page links named municipal POI with matching street address; not viewport/city centroid.",
+      "coordinateCheckedAt": "2026-10-29T02:39:14.914684+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1538201",
+      "checkedAt": "2026-10-29T02:27:57.941650+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1538201",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free exhibition admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Kwon Byungjun: media art and sound installations.",
+      "admission": "Mondays closed; last admission1hour before closing. Weekend hours shorten from November. These are visiting windows, not performance sessions. Until5November: Gallery6 closed, Gallery5 remains open; Nature and Neural Network Resonance unavailable.",
+      "programmeId": "seoul-sema-1538201",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_002&lang=ko",
+        "https://sema.seoul.go.kr/kr/bbs/610221/getBbsDetail?bbsNo=1600186"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free exhibition admission."
+      },
+      "id": "seoul-sema-1538201-range",
+      "date": "2026-06-11",
+      "endDate": "2027-05-16",
+      "dateType": "published_interval",
+      "time": null,
+      "end": null,
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingNote": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-24": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-25": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-26": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "21:00"
+        }
+      },
+      "openingHoursSource": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1538201"
+    },
+    {
+      "title": "《기술의 저변: 경계에 선 장면들》",
+      "titleEn": "《기술의 저변: 경계에 선 장면들》",
+      "venue": "Seoul Museum of Art — Seosomun",
+      "venueId": "seoul-venue-1e8982e0b472ca",
+      "placeId": "seoul-venue-1e8982e0b472ca",
+      "address": "61 Deoksugung-gil, Jung-gu, Seoul",
+      "category": "art",
+      "lat": 37.564085176,
+      "lng": 126.973820715,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_001&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum page links named municipal POI with matching street address; not viewport/city centroid.",
+      "coordinateCheckedAt": "2026-10-29T02:39:10.040628+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1509709",
+      "checkedAt": "2026-10-29T02:28:04.328379+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1509709",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free exhibition admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Gana Art Collection: artists examine technology, industrial change and everyday life.",
+      "admission": "Mondays closed; last admission1hour before closing. Weekend hours shorten from November. These are visiting windows, not performance sessions.",
+      "programmeId": "seoul-sema-1509709",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_001&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free exhibition admission."
+      },
+      "id": "seoul-sema-1509709-range",
+      "date": "2026-04-16",
+      "endDate": "2026-11-22",
+      "dateType": "published_interval",
+      "time": null,
+      "end": null,
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingNote": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "openingHoursSource": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1509709"
+    },
+    {
+      "title": "《몸을 위한 간주곡 ― 소목장세미》",
+      "titleEn": "《몸을 위한 간주곡 ― 소목장세미》",
+      "venue": "Buk-Seoul Museum of Art",
+      "venueId": "seoul-venue-02861c0100a787",
+      "placeId": "seoul-venue-02861c0100a787",
+      "address": "1238 Dongil-ro, Nowon-gu, Seoul",
+      "category": "art",
+      "lat": 37.64096,
+      "lng": 127.06679,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_002&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum page links named municipal POI with matching street address; not viewport/city centroid.",
+      "coordinateCheckedAt": "2026-10-29T02:39:14.914684+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1512457",
+      "checkedAt": "2026-10-29T02:28:09.008123+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1512457",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free exhibition admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Somokjang Semi: wooden sculpture and participatory installations exploring the body and shared senses.",
+      "admission": "Mondays closed; last admission1hour before closing. Weekend hours shorten from November. These are visiting windows, not performance sessions.",
+      "programmeId": "seoul-sema-1512457",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_002&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free exhibition admission."
+      },
+      "id": "seoul-sema-1512457-range",
+      "date": "2026-04-02",
+      "endDate": "2027-05-30",
+      "dateType": "published_interval",
+      "time": null,
+      "end": null,
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingNote": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-24": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-25": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-26": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "21:00"
+        }
+      },
+      "openingHoursSource": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1512457"
+    },
+    {
+      "title": "오윤 전시 연계 강연: 김종길",
+      "titleEn": "오윤 전시 연계 강연: 김종길",
+      "venue": "Art Archives, Seoul Museum of Art — Nanum Building, 2F",
+      "venueId": "seoul-venue-33ac5918d3ded0",
+      "placeId": "seoul-venue-33ac5918d3ded0",
+      "address": "100 Pyeongchangmunhwa-ro, Jongno-gu, Seoul",
+      "category": "talk",
+      "lat": 37.607207,
+      "lng": 126.972144,
+      "coordinateSource": "https://dokdokinfo.kr/theaterspecific/fc004433/",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme. Nanum is across road at100, not main archive101.",
+      "coordinateCheckedAt": "2026-10-29T02:41:20.098576+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/event/detail?evtNo=1582983",
+      "checkedAt": "2026-10-29T02:26:17.456935+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/event/detail?evtNo=1582983",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": null,
+      "min": false,
+      "priceNote": "Lecture price not explicitly stated.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Kim Jonggil discusses Oh Yoon and Korean traditional thought.",
+      "admission": "Adults; nonmembers eligible;30–50 places, first-come preregistration via organizer form. Registration opens two weeks before each lecture; Nov25 registration scheduled to openNov11. No booking performed. Main museum101address is not Nanum100.",
+      "programmeId": "seoul-ohyoon-10-31",
+      "additionalEvidenceUrls": [
+        "https://dokdokinfo.kr/theaterspecific/fc004433/"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": null,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Lecture price not explicitly stated."
+      },
+      "id": "seoul-ohyoon-10-31-20261031-1400",
+      "date": "2026-10-31",
+      "time": "14:00",
+      "end": "16:00",
+      "startAt": "2026-10-31T14:00:00+09:00",
+      "endAt": "2026-10-31T16:00:00+09:00"
+    },
+    {
+      "title": "오윤 전시 연계 강연: 천정환",
+      "titleEn": "오윤 전시 연계 강연: 천정환",
+      "venue": "Art Archives, Seoul Museum of Art — Nanum Building, 2F",
+      "venueId": "seoul-venue-33ac5918d3ded0",
+      "placeId": "seoul-venue-33ac5918d3ded0",
+      "address": "100 Pyeongchangmunhwa-ro, Jongno-gu, Seoul",
+      "category": "talk",
+      "lat": 37.607207,
+      "lng": 126.972144,
+      "coordinateSource": "https://dokdokinfo.kr/theaterspecific/fc004433/",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme. Nanum is across road at100, not main archive101.",
+      "coordinateCheckedAt": "2026-10-29T02:41:20.098576+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/event/detail?evtNo=1582983",
+      "checkedAt": "2026-10-29T02:26:17.456935+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/event/detail?evtNo=1582983",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": null,
+      "min": false,
+      "priceNote": "Lecture price not explicitly stated.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Cheon Jeonghwan discusses Korean literature of the1970s–1980s.",
+      "admission": "Adults; nonmembers eligible;30–50 places, first-come preregistration via organizer form. Registration opens two weeks before each lecture; Nov25 registration scheduled to openNov11. No booking performed. Main museum101address is not Nanum100.",
+      "programmeId": "seoul-ohyoon-11-11",
+      "additionalEvidenceUrls": [
+        "https://dokdokinfo.kr/theaterspecific/fc004433/"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": null,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Lecture price not explicitly stated."
+      },
+      "id": "seoul-ohyoon-11-11-20261111-1400",
+      "date": "2026-11-11",
+      "time": "14:00",
+      "end": "16:00",
+      "startAt": "2026-11-11T14:00:00+09:00",
+      "endAt": "2026-11-11T16:00:00+09:00"
+    },
+    {
+      "title": "오윤 전시 연계 강연: 박상은",
+      "titleEn": "오윤 전시 연계 강연: 박상은",
+      "venue": "Art Archives, Seoul Museum of Art — Nanum Building, 2F",
+      "venueId": "seoul-venue-33ac5918d3ded0",
+      "placeId": "seoul-venue-33ac5918d3ded0",
+      "address": "100 Pyeongchangmunhwa-ro, Jongno-gu, Seoul",
+      "category": "talk",
+      "lat": 37.607207,
+      "lng": 126.972144,
+      "coordinateSource": "https://dokdokinfo.kr/theaterspecific/fc004433/",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme. Nanum is across road at100, not main archive101.",
+      "coordinateCheckedAt": "2026-10-29T02:41:20.098576+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/event/detail?evtNo=1582983",
+      "checkedAt": "2026-10-29T02:26:17.456935+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/event/detail?evtNo=1582983",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": null,
+      "min": false,
+      "priceNote": "Lecture price not explicitly stated.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Park Sangeun discusses traditional performance and cultural change1960s–1980s.",
+      "admission": "Adults; nonmembers eligible;30–50 places, first-come preregistration via organizer form. Registration opens two weeks before each lecture; Nov25 registration scheduled to openNov11. No booking performed. Main museum101address is not Nanum100.",
+      "programmeId": "seoul-ohyoon-11-25",
+      "additionalEvidenceUrls": [
+        "https://dokdokinfo.kr/theaterspecific/fc004433/"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": null,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Lecture price not explicitly stated."
+      },
+      "id": "seoul-ohyoon-11-25-20261125-1400",
+      "date": "2026-11-25",
+      "time": "14:00",
+      "end": "16:00",
+      "startAt": "2026-11-25T14:00:00+09:00",
+      "endAt": "2026-11-25T16:00:00+09:00"
+    },
+    {
+      "title": "2026 난지 오픈스튜디오 《런타임 Runtime》",
+      "titleEn": "2026 난지 오픈스튜디오 《런타임 Runtime》",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "art",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Three-day open studio with works in progress, archives and installations.",
+      "admission": "Open13:00–19:00 Nov6–8 only. StudioA2F lacks elevator/wheelchair access; A1F,StudioB and exhibition rooms accessible by ramps. Special programmes may require separate registration.",
+      "programmeId": "seoul-nanji-runtime",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free admission."
+      },
+      "id": "seoul-nanji-runtime-range",
+      "date": "2026-11-06",
+      "endDate": "2026-11-08",
+      "dateType": "published_interval",
+      "time": null,
+      "end": null,
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingNote": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "visitSchedule": {
+        "2026-11-06": {
+          "start": "13:00",
+          "end": "19:00"
+        },
+        "2026-11-07": {
+          "start": "13:00",
+          "end": "19:00"
+        },
+        "2026-11-08": {
+          "start": "13:00",
+          "end": "19:00"
+        }
+      },
+      "openingHoursSource": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104"
+    },
+    {
+      "title": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "titleEn": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "A small tea-format performance combining personal history and imagined time travel.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. StudioA17;4participants;preregistration opensOct30at17:00. Tea contains caffeine; no entry during performance.",
+      "programmeId": "seoul-nanji-suite",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-suite-20261106-1300",
+      "date": "2026-11-06",
+      "time": "13:00",
+      "end": "13:40",
+      "startAt": "2026-11-06T13:00:00+09:00",
+      "durationMinutes": 40,
+      "endAt": "2026-11-06T13:40:00+09:00"
+    },
+    {
+      "title": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "titleEn": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "A small tea-format performance combining personal history and imagined time travel.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. StudioA17;4participants;preregistration opensOct30at17:00. Tea contains caffeine; no entry during performance.",
+      "programmeId": "seoul-nanji-suite",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-suite-20261106-1600",
+      "date": "2026-11-06",
+      "time": "16:00",
+      "end": "16:40",
+      "startAt": "2026-11-06T16:00:00+09:00",
+      "durationMinutes": 40,
+      "endAt": "2026-11-06T16:40:00+09:00"
+    },
+    {
+      "title": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "titleEn": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "A small tea-format performance combining personal history and imagined time travel.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. StudioA17;4participants;preregistration opensOct30at17:00. Tea contains caffeine; no entry during performance.",
+      "programmeId": "seoul-nanji-suite",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-suite-20261107-1300",
+      "date": "2026-11-07",
+      "time": "13:00",
+      "end": "13:40",
+      "startAt": "2026-11-07T13:00:00+09:00",
+      "durationMinutes": 40,
+      "endAt": "2026-11-07T13:40:00+09:00"
+    },
+    {
+      "title": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "titleEn": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "A small tea-format performance combining personal history and imagined time travel.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. StudioA17;4participants;preregistration opensOct30at17:00. Tea contains caffeine; no entry during performance.",
+      "programmeId": "seoul-nanji-suite",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-suite-20261107-1700",
+      "date": "2026-11-07",
+      "time": "17:00",
+      "end": "17:40",
+      "startAt": "2026-11-07T17:00:00+09:00",
+      "durationMinutes": 40,
+      "endAt": "2026-11-07T17:40:00+09:00"
+    },
+    {
+      "title": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "titleEn": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "A small tea-format performance combining personal history and imagined time travel.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. StudioA17;4participants;preregistration opensOct30at17:00. Tea contains caffeine; no entry during performance.",
+      "programmeId": "seoul-nanji-suite",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-suite-20261108-1300",
+      "date": "2026-11-08",
+      "time": "13:00",
+      "end": "13:40",
+      "startAt": "2026-11-08T13:00:00+09:00",
+      "durationMinutes": 40,
+      "endAt": "2026-11-08T13:40:00+09:00"
+    },
+    {
+      "title": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "titleEn": "팽취끽 스위트 — The Day Before I Was: Suite",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "A small tea-format performance combining personal history and imagined time travel.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. StudioA17;4participants;preregistration opensOct30at17:00. Tea contains caffeine; no entry during performance.",
+      "programmeId": "seoul-nanji-suite",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-suite-20261108-1700",
+      "date": "2026-11-08",
+      "time": "17:00",
+      "end": "17:40",
+      "startAt": "2026-11-08T17:00:00+09:00",
+      "durationMinutes": 40,
+      "endAt": "2026-11-08T17:40:00+09:00"
+    },
+    {
+      "title": "스파게티와 라면 — Spaghetti and Ramen",
+      "titleEn": "스파게티와 라면 — Spaghetti and Ramen",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "A science-object performance translating light into sound and visual language.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. ExhibitionRoom2; onsite registration.",
+      "programmeId": "seoul-nanji-spaghetti",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-spaghetti-20261106-1400",
+      "date": "2026-11-06",
+      "time": "14:00",
+      "end": "14:30",
+      "startAt": "2026-11-06T14:00:00+09:00",
+      "endAt": "2026-11-06T14:30:00+09:00"
+    },
+    {
+      "title": "스파게티와 라면 — Spaghetti and Ramen",
+      "titleEn": "스파게티와 라면 — Spaghetti and Ramen",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "A science-object performance translating light into sound and visual language.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. ExhibitionRoom2; onsite registration.",
+      "programmeId": "seoul-nanji-spaghetti",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-spaghetti-20261106-1630",
+      "date": "2026-11-06",
+      "time": "16:30",
+      "end": "17:00",
+      "startAt": "2026-11-06T16:30:00+09:00",
+      "endAt": "2026-11-06T17:00:00+09:00"
+    },
+    {
+      "title": "밤걸음 & 아티스트 토크 — Night Walk & Artist Talk",
+      "titleEn": "밤걸음 & 아티스트 토크 — Night Walk & Artist Talk",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Performance and artist conversation exploring gender, movement and theatrical traditions.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. ExhibitionRoom2; preregistration opensOct30at17:00; second session includes curator conversation.",
+      "programmeId": "seoul-nanji-nightwalk",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-nightwalk-20261107-1400",
+      "date": "2026-11-07",
+      "time": "14:00",
+      "end": "14:30",
+      "startAt": "2026-11-07T14:00:00+09:00",
+      "endAt": "2026-11-07T14:30:00+09:00"
+    },
+    {
+      "title": "밤걸음 & 아티스트 토크 — Night Walk & Artist Talk",
+      "titleEn": "밤걸음 & 아티스트 토크 — Night Walk & Artist Talk",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Performance and artist conversation exploring gender, movement and theatrical traditions.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. ExhibitionRoom2; preregistration opensOct30at17:00; second session includes curator conversation.",
+      "programmeId": "seoul-nanji-nightwalk",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-nightwalk-20261107-1730",
+      "date": "2026-11-07",
+      "time": "17:30",
+      "end": "18:30",
+      "startAt": "2026-11-07T17:30:00+09:00",
+      "endAt": "2026-11-07T18:30:00+09:00"
+    },
+    {
+      "title": "(무빙이미지) 불러오기 — Import (MovingImage)",
+      "titleEn": "(무빙이미지) 불러오기 — Import (MovingImage)",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "talk",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Artist moving-image screenings followed by discussion.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. ExhibitionRoom2; photography/video restricted during screenings.",
+      "programmeId": "seoul-nanji-import",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-import-20261108-1400",
+      "date": "2026-11-08",
+      "time": "14:00",
+      "end": "16:00",
+      "startAt": "2026-11-08T14:00:00+09:00",
+      "endAt": "2026-11-08T16:00:00+09:00"
+    },
+    {
+      "title": "(무빙이미지) 불러오기 — Import (MovingImage)",
+      "titleEn": "(무빙이미지) 불러오기 — Import (MovingImage)",
+      "venue": "SeMA Nanji Residency",
+      "venueId": "seoul-venue-19d6bf69bbe28a",
+      "placeId": "seoul-venue-19d6bf69bbe28a",
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "category": "talk",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free programme admission.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Artist moving-image screenings followed by discussion.",
+      "admission": "Part of free Nanji Runtime open studio. StudioA2F inaccessible to wheelchairs; other stated ground-level spaces have ramps. ExhibitionRoom2; photography/video restricted during screenings.",
+      "programmeId": "seoul-nanji-import",
+      "additionalEvidenceUrls": [
+        "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "Free programme admission."
+      },
+      "id": "seoul-nanji-import-20261108-1630",
+      "date": "2026-11-08",
+      "time": "16:30",
+      "end": "18:30",
+      "startAt": "2026-11-08T16:30:00+09:00",
+      "endAt": "2026-11-08T18:30:00+09:00"
+    },
+    {
+      "title": "제1회 차세대 클래식 아티스트 콘서트",
+      "titleEn": "제1회 차세대 클래식 아티스트 콘서트",
+      "venue": "Dream Forest Arts Center — Concert Hall",
+      "venueId": "seoul-venue-3fcb29d9848f30",
+      "placeId": "seoul-venue-3fcb29d9848f30",
+      "address": "173 Wolgye-ro, Gangbuk-gu, Seoul",
+      "category": "music",
+      "lat": 37.62154,
+      "lng": 127.03848,
+      "coordinateSource": "https://mapcarta.com/W261331648",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:30:14.341718+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?menuNo=200320&performIdx=37787",
+      "checkedAt": "2026-10-29T02:28:22.945524+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?menuNo=200320&performIdx=37787",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 20000,
+      "min": false,
+      "priceNote": "All seats KRW20000. Fees not established.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Next-generation classical artists in recital.",
+      "admission": "Age7+ (born2019or earlier); ticket required, subject to availability. Published running time is not verified actual end.",
+      "programmeId": "seoul-sejong-37787",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/W261331648"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 20000,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "All seats KRW20000. Fees not established."
+      },
+      "id": "seoul-sejong-37787-20261029-1900",
+      "date": "2026-10-29",
+      "time": "19:00",
+      "end": null,
+      "startAt": "2026-10-29T19:00:00+09:00",
+      "durationMinutes": 130
+    },
+    {
+      "title": "서울리코더앙상블 제33회 정기연주회",
+      "titleEn": "서울리코더앙상블 제33회 정기연주회",
+      "venue": "Dream Forest Arts Center — Concert Hall",
+      "venueId": "seoul-venue-3fcb29d9848f30",
+      "placeId": "seoul-venue-3fcb29d9848f30",
+      "address": "173 Wolgye-ro, Gangbuk-gu, Seoul",
+      "category": "music",
+      "lat": 37.62154,
+      "lng": 127.03848,
+      "coordinateSource": "https://mapcarta.com/W261331648",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:30:14.341718+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?menuNo=1200007&performIdx=37736",
+      "checkedAt": "2026-10-29T02:28:29.048130+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?menuNo=1200007&performIdx=37736",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 0,
+      "min": false,
+      "priceNote": "All seats KRW0. Fees not established.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Seoul Recorder Ensemble33rd regular concert.",
+      "admission": "Age7+ (born2019or earlier); ticket required, subject to availability. Published running time is not verified actual end.",
+      "programmeId": "seoul-sejong-37736",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/W261331648"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 0,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "All seats KRW0. Fees not established."
+      },
+      "id": "seoul-sejong-37736-20261104-1930",
+      "date": "2026-11-04",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-04T19:30:00+09:00",
+      "durationMinutes": 90
+    },
+    {
+      "title": "클로리스피아노트리오 제10회 정기연주회",
+      "titleEn": "클로리스피아노트리오 제10회 정기연주회",
+      "venue": "Sejong Chamber Hall",
+      "venueId": "seoul-venue-0a958fef751253",
+      "placeId": "seoul-venue-0a958fef751253",
+      "address": "175 Sejong-daero, Jongno-gu, Seoul",
+      "category": "music",
+      "lat": 37.57196,
+      "lng": 126.97574,
+      "coordinateSource": "https://mapcarta.com/W223158439",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:39:59.475800+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?menuNo=200320&performIdx=37673",
+      "checkedAt": "2026-10-29T02:28:33.351326+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?menuNo=200320&performIdx=37673",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 30000,
+      "min": false,
+      "priceNote": "All seats KRW30000. Fees not established.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Chloris Piano Trio performs its BeethovenIV programme.",
+      "admission": "Age7+ (born2019or earlier); ticket required, subject to availability. Published running time is not verified actual end.",
+      "programmeId": "seoul-sejong-37673",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/W223158439"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 30000,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "All seats KRW30000. Fees not established."
+      },
+      "id": "seoul-sejong-37673-20261104-1930",
+      "date": "2026-11-04",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-04T19:30:00+09:00",
+      "durationMinutes": 90
+    },
+    {
+      "title": "Soriul Ensemble42nd: City MemoryII",
+      "titleEn": "Soriul Ensemble42nd: City MemoryII",
+      "venue": "Sejong Chamber Hall",
+      "venueId": "seoul-venue-0a958fef751253",
+      "placeId": "seoul-venue-0a958fef751253",
+      "address": "175 Sejong-daero, Jongno-gu, Seoul",
+      "category": "music",
+      "lat": 37.57196,
+      "lng": 126.97574,
+      "coordinateSource": "https://mapcarta.com/W223158439",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:39:59.475800+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.sejongpac.or.kr/eng/performance/engperformance/performTicket.do?menuNo=700007&performIdx=37652",
+      "checkedAt": "2026-10-29T02:28:38.577469+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://www.sejongpac.or.kr/eng/performance/engperformance/performTicket.do?menuNo=700007&performIdx=37652",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 30000,
+      "min": false,
+      "priceNote": "All seats KRW30000. Fees not established.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Cross-genre chamber music exploring urban objects and memory.",
+      "admission": "Age7+ (born2019or earlier); ticket required, subject to availability. Published running time is not verified actual end.",
+      "programmeId": "seoul-sejong-37652",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/W223158439"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 30000,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "All seats KRW30000. Fees not established."
+      },
+      "id": "seoul-sejong-37652-20261029-1930",
+      "date": "2026-10-29",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-10-29T19:30:00+09:00",
+      "durationMinutes": 120
+    },
+    {
+      "title": "라 보엠 — La Bohème",
+      "titleEn": "라 보엠 — La Bohème",
+      "venue": "Sejong Grand Theater",
+      "venueId": "seoul-venue-0961e750d97abc",
+      "placeId": "seoul-venue-0961e750d97abc",
+      "address": "175 Sejong-daero, Jongno-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.57232,
+      "lng": 126.9756,
+      "coordinateSource": "https://mapcarta.com/W543729863",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:40:03.145466+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?edate=2026-11-05&menuNo=200320&pageIndex=1&performIdx=36791&sdate=2026-11-05&searchCnd=1&searchPackage=&searchPlaceCdStr=&searchSort=1&searchWrd=",
+      "checkedAt": "2026-10-29T02:28:43.332811+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?edate=2026-11-05&menuNo=200320&pageIndex=1&performIdx=36791&sdate=2026-11-05&searchCnd=1&searchPackage=&searchPlaceCdStr=&searchSort=1&searchWrd=",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 50000,
+      "min": true,
+      "priceNote": "VIP150000/R120000/S100000/A80000/B50000KRW; fees unknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Seoul Metropolitan Opera stages Puccini’s La Bohème.",
+      "admission": "Age7+ (born2019or earlier); ticket required, subject to availability. Published running time is not verified actual end.",
+      "programmeId": "seoul-sejong-36791",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/W543729863"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": null,
+        "min": 50000,
+        "max": 150000,
+        "currency": "KRW",
+        "text": "VIP150000/R120000/S100000/A80000/B50000KRW; fees unknown."
+      },
+      "id": "seoul-sejong-36791-20261105-1930",
+      "date": "2026-11-05",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-05T19:30:00+09:00",
+      "durationMinutes": 150
+    },
+    {
+      "title": "라 보엠 — La Bohème",
+      "titleEn": "라 보엠 — La Bohème",
+      "venue": "Sejong Grand Theater",
+      "venueId": "seoul-venue-0961e750d97abc",
+      "placeId": "seoul-venue-0961e750d97abc",
+      "address": "175 Sejong-daero, Jongno-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.57232,
+      "lng": 126.9756,
+      "coordinateSource": "https://mapcarta.com/W543729863",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:40:03.145466+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?edate=2026-11-05&menuNo=200320&pageIndex=1&performIdx=36791&sdate=2026-11-05&searchCnd=1&searchPackage=&searchPlaceCdStr=&searchSort=1&searchWrd=",
+      "checkedAt": "2026-10-29T02:28:43.332811+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?edate=2026-11-05&menuNo=200320&pageIndex=1&performIdx=36791&sdate=2026-11-05&searchCnd=1&searchPackage=&searchPlaceCdStr=&searchSort=1&searchWrd=",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 50000,
+      "min": true,
+      "priceNote": "VIP150000/R120000/S100000/A80000/B50000KRW; fees unknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Seoul Metropolitan Opera stages Puccini’s La Bohème.",
+      "admission": "Age7+ (born2019or earlier); ticket required, subject to availability. Published running time is not verified actual end.",
+      "programmeId": "seoul-sejong-36791",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/W543729863"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": null,
+        "min": 50000,
+        "max": 150000,
+        "currency": "KRW",
+        "text": "VIP150000/R120000/S100000/A80000/B50000KRW; fees unknown."
+      },
+      "id": "seoul-sejong-36791-20261106-1930",
+      "date": "2026-11-06",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-06T19:30:00+09:00",
+      "durationMinutes": 150
+    },
+    {
+      "title": "라 보엠 — La Bohème",
+      "titleEn": "라 보엠 — La Bohème",
+      "venue": "Sejong Grand Theater",
+      "venueId": "seoul-venue-0961e750d97abc",
+      "placeId": "seoul-venue-0961e750d97abc",
+      "address": "175 Sejong-daero, Jongno-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.57232,
+      "lng": 126.9756,
+      "coordinateSource": "https://mapcarta.com/W543729863",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:40:03.145466+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?edate=2026-11-05&menuNo=200320&pageIndex=1&performIdx=36791&sdate=2026-11-05&searchCnd=1&searchPackage=&searchPlaceCdStr=&searchSort=1&searchWrd=",
+      "checkedAt": "2026-10-29T02:28:43.332811+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?edate=2026-11-05&menuNo=200320&pageIndex=1&performIdx=36791&sdate=2026-11-05&searchCnd=1&searchPackage=&searchPlaceCdStr=&searchSort=1&searchWrd=",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 50000,
+      "min": true,
+      "priceNote": "VIP150000/R120000/S100000/A80000/B50000KRW; fees unknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Seoul Metropolitan Opera stages Puccini’s La Bohème.",
+      "admission": "Age7+ (born2019or earlier); ticket required, subject to availability. Published running time is not verified actual end.",
+      "programmeId": "seoul-sejong-36791",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/W543729863"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": null,
+        "min": 50000,
+        "max": 150000,
+        "currency": "KRW",
+        "text": "VIP150000/R120000/S100000/A80000/B50000KRW; fees unknown."
+      },
+      "id": "seoul-sejong-36791-20261107-1700",
+      "date": "2026-11-07",
+      "time": "17:00",
+      "end": null,
+      "startAt": "2026-11-07T17:00:00+09:00",
+      "durationMinutes": 150
+    },
+    {
+      "title": "라 보엠 — La Bohème",
+      "titleEn": "라 보엠 — La Bohème",
+      "venue": "Sejong Grand Theater",
+      "venueId": "seoul-venue-0961e750d97abc",
+      "placeId": "seoul-venue-0961e750d97abc",
+      "address": "175 Sejong-daero, Jongno-gu, Seoul",
+      "category": "theatre",
+      "lat": 37.57232,
+      "lng": 126.9756,
+      "coordinateSource": "https://mapcarta.com/W543729863",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:40:03.145466+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?edate=2026-11-05&menuNo=200320&pageIndex=1&performIdx=36791&sdate=2026-11-05&searchCnd=1&searchPackage=&searchPlaceCdStr=&searchSort=1&searchWrd=",
+      "checkedAt": "2026-10-29T02:28:43.332811+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?edate=2026-11-05&menuNo=200320&pageIndex=1&performIdx=36791&sdate=2026-11-05&searchCnd=1&searchPackage=&searchPlaceCdStr=&searchSort=1&searchWrd=",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 50000,
+      "min": true,
+      "priceNote": "VIP150000/R120000/S100000/A80000/B50000KRW; fees unknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Seoul Metropolitan Opera stages Puccini’s La Bohème.",
+      "admission": "Age7+ (born2019or earlier); ticket required, subject to availability. Published running time is not verified actual end.",
+      "programmeId": "seoul-sejong-36791",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/W543729863"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": null,
+        "min": 50000,
+        "max": 150000,
+        "currency": "KRW",
+        "text": "VIP150000/R120000/S100000/A80000/B50000KRW; fees unknown."
+      },
+      "id": "seoul-sejong-36791-20261108-1700",
+      "date": "2026-11-08",
+      "time": "17:00",
+      "end": null,
+      "startAt": "2026-11-08T17:00:00+09:00",
+      "durationMinutes": 150
+    },
+    {
+      "title": "서울대학교 개교80주년 SNU Symphony Orchestra",
+      "titleEn": "서울대학교 개교80주년 SNU Symphony Orchestra",
+      "venue": "LOTTE Concert Hall",
+      "venueId": "seoul-venue-2bc7e7a875628c",
+      "placeId": "seoul-venue-2bc7e7a875628c",
+      "address": "8F Lotte World Mall,300 Olympic-ro,Songpa-gu,Seoul",
+      "category": "music",
+      "lat": 37.51354,
+      "lng": 127.10369,
+      "coordinateSource": "https://mapcarta.com/N5204439633",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:40:07.651509+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://nol.yanolja.com/ticket/products/26013612",
+      "checkedAt": "2026-10-29T02:37:45.035825+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26013612",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 30000,
+      "min": true,
+      "priceNote": "R70000/S50000/A30000KRW; mandatory booking fee amount unknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "SNU Symphony Orchestra performs Mahler’s Resurrection symphony.",
+      "admission": "Elementary-school age and older; age proof may be requested. Ticket booking closes2hours before start. Some safety rails obstruct views.",
+      "programmeId": "seoul-snu-80",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/N5204439633"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": null,
+        "min": 30000,
+        "max": 70000,
+        "currency": "KRW",
+        "text": "R70000/S50000/A30000KRW; mandatory booking fee amount unknown."
+      },
+      "id": "seoul-snu-80-20261102-1930",
+      "date": "2026-11-02",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-02T19:30:00+09:00",
+      "durationMinutes": 90
+    },
+    {
+      "title": "한양 윈드오케스트라 정기연주회",
+      "titleEn": "한양 윈드오케스트라 정기연주회",
+      "venue": "LOTTE Concert Hall",
+      "venueId": "seoul-venue-2bc7e7a875628c",
+      "placeId": "seoul-venue-2bc7e7a875628c",
+      "address": "8F Lotte World Mall,300 Olympic-ro,Songpa-gu,Seoul",
+      "category": "music",
+      "lat": 37.51354,
+      "lng": 127.10369,
+      "coordinateSource": "https://mapcarta.com/N5204439633",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:40:07.651509+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.mcst.go.kr/site/s_culture/culture/cultureView.jsp?pRo=514&pSeq=76108",
+      "checkedAt": "2026-10-29T02:37:36.651538+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://www.mcst.go.kr/site/s_culture/culture/cultureView.jsp?pRo=514&pSeq=76108",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 20000,
+      "min": false,
+      "priceNote": "General seats20000KRW; restricted-view seats14000KRW; fees unknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Hanyang Wind Orchestra regular concert.",
+      "admission": "Ticket and age restrictions not established in the ministry announcement.",
+      "programmeId": "seoul-hanyang-wind",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/N5204439633"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 20000,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "General seats20000KRW; restricted-view seats14000KRW; fees unknown."
+      },
+      "id": "seoul-hanyang-wind-20261103-1930",
+      "date": "2026-11-03",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-03T19:30:00+09:00"
+    },
+    {
+      "title": "소리 : 성덕대왕신종",
+      "titleEn": "소리 : 성덕대왕신종",
+      "venue": "Theater Yong — National Museum of Korea",
+      "venueId": "seoul-venue-e0488c24feb187",
+      "placeId": "seoul-venue-e0488c24feb187",
+      "address": "137 Seobinggo-ro,Yongsan-gu,Seoul",
+      "category": "music",
+      "lat": 37.52393,
+      "lng": 126.98037,
+      "coordinateSource": "https://mapcarta.com/W168364800",
+      "coordinatePrecision": "museum campus, not theatre entrance",
+      "coordinateEvidence": "National museum campus supported by named map and own programme; Theatre Yong within campus.",
+      "coordinateCheckedAt": "2026-10-29T02:41:49.205306+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.museum.go.kr/MUSEUM/contents/M0402020000.do?cp=2&schM=view&showId=3781985&type=type1&typeCode=culture",
+      "checkedAt": "2026-10-29T02:26:34.950596+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://www.museum.go.kr/MUSEUM/contents/M0402020000.do?cp=2&schM=view&showId=3781985&type=type1&typeCode=culture",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 40000,
+      "min": true,
+      "priceNote": "VIP70000/R60000/S40000KRW; fees unknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Contemporary Korean music inspired by the Sacred Bell of King Seongdeok.",
+      "admission": "Elementary-school age and older;80minutes with no intermission. Pin identifies museum campus, not theatre entrance.",
+      "programmeId": "seoul-bell-seongdeok",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/W168364800"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": null,
+        "min": 40000,
+        "max": 70000,
+        "currency": "KRW",
+        "text": "VIP70000/R60000/S40000KRW; fees unknown."
+      },
+      "id": "seoul-bell-seongdeok-20261031-1500",
+      "date": "2026-10-31",
+      "time": "15:00",
+      "end": null,
+      "startAt": "2026-10-31T15:00:00+09:00",
+      "durationMinutes": 80
+    },
+    {
+      "title": "소리 : 성덕대왕신종",
+      "titleEn": "소리 : 성덕대왕신종",
+      "venue": "Theater Yong — National Museum of Korea",
+      "venueId": "seoul-venue-e0488c24feb187",
+      "placeId": "seoul-venue-e0488c24feb187",
+      "address": "137 Seobinggo-ro,Yongsan-gu,Seoul",
+      "category": "music",
+      "lat": 37.52393,
+      "lng": 126.98037,
+      "coordinateSource": "https://mapcarta.com/W168364800",
+      "coordinatePrecision": "museum campus, not theatre entrance",
+      "coordinateEvidence": "National museum campus supported by named map and own programme; Theatre Yong within campus.",
+      "coordinateCheckedAt": "2026-10-29T02:41:49.205306+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.museum.go.kr/MUSEUM/contents/M0402020000.do?cp=2&schM=view&showId=3781985&type=type1&typeCode=culture",
+      "checkedAt": "2026-10-29T02:26:34.950596+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://www.museum.go.kr/MUSEUM/contents/M0402020000.do?cp=2&schM=view&showId=3781985&type=type1&typeCode=culture",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 40000,
+      "min": true,
+      "priceNote": "VIP70000/R60000/S40000KRW; fees unknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Contemporary Korean music inspired by the Sacred Bell of King Seongdeok.",
+      "admission": "Elementary-school age and older;80minutes with no intermission. Pin identifies museum campus, not theatre entrance.",
+      "programmeId": "seoul-bell-seongdeok",
+      "additionalEvidenceUrls": [
+        "https://mapcarta.com/W168364800"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": null,
+        "min": 40000,
+        "max": 70000,
+        "currency": "KRW",
+        "text": "VIP70000/R60000/S40000KRW; fees unknown."
+      },
+      "id": "seoul-bell-seongdeok-20261101-1500",
+      "date": "2026-11-01",
+      "time": "15:00",
+      "end": null,
+      "startAt": "2026-11-01T15:00:00+09:00",
+      "durationMinutes": 80
+    },
+    {
+      "title": "피아노 병창 최준2026 수궁가",
+      "titleEn": "피아노 병창 최준2026 수궁가",
+      "venue": "Seoul Namsan Gugakdang — Crown Haitai Hall",
+      "venueId": "seoul-venue-d91fce81a9afcd",
+      "placeId": "seoul-venue-d91fce81a9afcd",
+      "address": "28 Toegye-ro34-gil,Jung-gu,Seoul",
+      "category": "music",
+      "lat": 37.55837283140702,
+      "lng": 126.99401515881358,
+      "coordinateSource": "https://english.visitseoul.net/attractions/SeoulNamsanGugakdang/ENP001278",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:41:31.758566+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://culture.go.kr/portal/cltInfo/oneCltInfo/oneCltInfoView.do?menuNo=200010&pblprfrSn=402899",
+      "checkedAt": "2026-10-29T02:40:24.798775+00:00",
+      "yearEvidence": {
+        "sourceUrl": "https://culture.go.kr/portal/cltInfo/oneCltInfo/oneCltInfoView.do?menuNo=200010&pblprfrSn=402899",
+        "year": 2026,
+        "basis": "Explicit full primary programme dates/year, not footer or snippet."
+      },
+      "currency": "KRW",
+      "timezone": "Asia/Seoul",
+      "price": 20000,
+      "min": false,
+      "priceNote": "All seats20000KRW; mandatory fees unknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed",
+      "status": "scheduled",
+      "description": "Choi Jun combines piano and pansori in Sugungga.",
+      "admission": "Age6+;100minute published duration, actual end unknown.",
+      "programmeId": "seoul-choijun-sugungga",
+      "additionalEvidenceUrls": [
+        "https://english.visitseoul.net/attractions/SeoulNamsanGugakdang/ENP001278"
+      ],
+      "endEvidence": "Explicit prose programme time interval where endTime set; otherwise unknown end, duration retained separately.",
+      "notes": null,
+      "priceEvidence": {
+        "standard": 20000,
+        "min": null,
+        "max": null,
+        "currency": "KRW",
+        "text": "All seats20000KRW; mandatory fees unknown."
+      },
+      "id": "seoul-choijun-sugungga-20261103-1930",
+      "date": "2026-11-03",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-03T19:30:00+09:00",
+      "durationMinutes": 100
+    }
+  ],
+  "places": [
+    {
+      "address": "101 Pyeongchangmunhwa-ro, Jongno-gu, Seoul",
+      "lat": 37.6078,
+      "lng": 126.9719,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_004&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum page links named municipal POI with matching street address; not viewport/city centroid.",
+      "coordinateCheckedAt": "2026-10-29T02:39:29.661865+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1576838",
+      "checkedAt": "2026-10-29T02:27:33.602040+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-c29893e27eb275",
+      "title": "Art Archives, Seoul Museum of Art — Moeum Building",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    },
+    {
+      "address": "2076 Nambusunhwan-ro, Gwanak-gu, Seoul",
+      "lat": 37.47607,
+      "lng": 126.97949,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_003&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum page links named municipal POI with matching street address; not viewport/city centroid.",
+      "coordinateCheckedAt": "2026-10-29T02:39:18.551456+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1556711",
+      "checkedAt": "2026-10-29T02:27:46.650612+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-578dc884b9dff1",
+      "title": "Nam-Seoul Museum of Art",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    },
+    {
+      "address": "1238 Dongil-ro, Nowon-gu, Seoul",
+      "lat": 37.64096,
+      "lng": 127.06679,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_002&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum page links named municipal POI with matching street address; not viewport/city centroid.",
+      "coordinateCheckedAt": "2026-10-29T02:39:14.914684+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1549929",
+      "checkedAt": "2026-10-29T02:27:53.035405+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-02861c0100a787",
+      "title": "Buk-Seoul Museum of Art",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    },
+    {
+      "address": "61 Deoksugung-gil, Jung-gu, Seoul",
+      "lat": 37.564085176,
+      "lng": 126.973820715,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_001&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum page links named municipal POI with matching street address; not viewport/city centroid.",
+      "coordinateCheckedAt": "2026-10-29T02:39:10.040628+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1509709",
+      "checkedAt": "2026-10-29T02:28:04.328379+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-1e8982e0b472ca",
+      "title": "Seoul Museum of Art — Seosomun",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    },
+    {
+      "address": "100 Pyeongchangmunhwa-ro, Jongno-gu, Seoul",
+      "lat": 37.607207,
+      "lng": 126.972144,
+      "coordinateSource": "https://dokdokinfo.kr/theaterspecific/fc004433/",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme. Nanum is across road at100, not main archive101.",
+      "coordinateCheckedAt": "2026-10-29T02:41:20.098576+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/event/detail?evtNo=1582983",
+      "checkedAt": "2026-10-29T02:26:17.456935+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-33ac5918d3ded0",
+      "title": "Art Archives, Seoul Museum of Art — Nanum Building, 2F",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    },
+    {
+      "address": "108-1 Haneulgongwon-ro, Mapo-gu, Seoul",
+      "lat": 37.568934764,
+      "lng": 126.87862845,
+      "coordinateSource": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_005&lang=ko",
+      "coordinatePrecision": "official named campus marker",
+      "coordinateEvidence": "Own museum visit page links this named municipal POI; matching institution. Nanji current own address108-1 prevails over municipal stored86; campus marker not room/entrance.",
+      "coordinateCheckedAt": "2026-10-29T02:40:24.521256+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-19d6bf69bbe28a",
+      "title": "SeMA Nanji Residency",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    },
+    {
+      "address": "173 Wolgye-ro, Gangbuk-gu, Seoul",
+      "lat": 37.62154,
+      "lng": 127.03848,
+      "coordinateSource": "https://mapcarta.com/W261331648",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:30:14.341718+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?menuNo=200320&performIdx=37787",
+      "checkedAt": "2026-10-29T02:28:22.945524+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-3fcb29d9848f30",
+      "title": "Dream Forest Arts Center — Concert Hall",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    },
+    {
+      "address": "175 Sejong-daero, Jongno-gu, Seoul",
+      "lat": 37.57196,
+      "lng": 126.97574,
+      "coordinateSource": "https://mapcarta.com/W223158439",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:39:59.475800+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?menuNo=200320&performIdx=37673",
+      "checkedAt": "2026-10-29T02:28:33.351326+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-0a958fef751253",
+      "title": "Sejong Chamber Hall",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    },
+    {
+      "address": "175 Sejong-daero, Jongno-gu, Seoul",
+      "lat": 37.57232,
+      "lng": 126.9756,
+      "coordinateSource": "https://mapcarta.com/W543729863",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:40:03.145466+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?edate=2026-11-05&menuNo=200320&pageIndex=1&performIdx=36791&sdate=2026-11-05&searchCnd=1&searchPackage=&searchPlaceCdStr=&searchSort=1&searchWrd=",
+      "checkedAt": "2026-10-29T02:28:43.332811+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-0961e750d97abc",
+      "title": "Sejong Grand Theater",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    },
+    {
+      "address": "8F Lotte World Mall,300 Olympic-ro,Songpa-gu,Seoul",
+      "lat": 37.51354,
+      "lng": 127.10369,
+      "coordinateSource": "https://mapcarta.com/N5204439633",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:40:07.651509+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://nol.yanolja.com/ticket/products/26013612",
+      "checkedAt": "2026-10-29T02:37:45.035825+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-2bc7e7a875628c",
+      "title": "LOTTE Concert Hall",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    },
+    {
+      "address": "137 Seobinggo-ro,Yongsan-gu,Seoul",
+      "lat": 37.52393,
+      "lng": 126.98037,
+      "coordinateSource": "https://mapcarta.com/W168364800",
+      "coordinatePrecision": "museum campus, not theatre entrance",
+      "coordinateEvidence": "National museum campus supported by named map and own programme; Theatre Yong within campus.",
+      "coordinateCheckedAt": "2026-10-29T02:41:49.205306+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://www.museum.go.kr/MUSEUM/contents/M0402020000.do?cp=2&schM=view&showId=3781985&type=type1&typeCode=culture",
+      "checkedAt": "2026-10-29T02:26:34.950596+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-e0488c24feb187",
+      "title": "Theater Yong — National Museum of Korea",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    },
+    {
+      "address": "28 Toegye-ro34-gil,Jung-gu,Seoul",
+      "lat": 37.55837283140702,
+      "lng": 126.99401515881358,
+      "coordinateSource": "https://english.visitseoul.net/attractions/SeoulNamsanGugakdang/ENP001278",
+      "coordinatePrecision": "named venue/building marker",
+      "coordinateEvidence": "Full named map/municipal tourism source matched with programme.",
+      "coordinateCheckedAt": "2026-10-29T02:41:31.758566+00:00",
+      "source": "Seoul official venue / cultural organizer",
+      "sourceUrl": "https://culture.go.kr/portal/cltInfo/oneCltInfo/oneCltInfoView.do?menuNo=200010&pblprfrSn=402899",
+      "checkedAt": "2026-10-29T02:40:24.798775+00:00",
+      "timezone": "Asia/Seoul",
+      "currency": "KRW",
+      "id": "seoul-venue-d91fce81a9afcd",
+      "title": "Seoul Namsan Gugakdang — Crown Haitai Hall",
+      "category": "city",
+      "openingNote": "Venue-level point, not necessarily room entrance. Programme-specific hours and access restrictions apply."
+    }
+  ],
+  "sources": [
+    {
+      "id": "seoul-source-92ede93298bbf9",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1538201",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:27:57.941650+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-7e5f66e9e3c7d9",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1556711",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:27:46.650612+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-d54037e67a2a63",
+      "name": "www.letsgoseoul.kr",
+      "url": "https://www.letsgoseoul.kr/kr/festival",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:26:01.528440+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-bcb73e065d9b0f",
+      "name": "www.sejongpac.or.kr",
+      "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?edate=2026-11-05&menuNo=200320&pageIndex=1&performIdx=36791&sdate=2026-11-05&searchCnd=1&searchPackage=&searchPlaceCdStr=&searchSort=1&searchWrd=",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:43.332811+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-b50af16d9c0161",
+      "name": "www.sejongpac.or.kr",
+      "url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:48.750953+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-b40c07003a856e",
+      "name": "culture.go.kr",
+      "url": "https://culture.go.kr/portal/cltInfo/oneCltInfo/oneCltInfoView.do?menuNo=200010&pblprfrSn=402899",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:40:24.798775+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-fb5327b204b86d",
+      "name": "world.seoul.go.kr",
+      "url": "https://world.seoul.go.kr/october-2026-cultural-events/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:25:17.072915+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-3395546842e685",
+      "name": "map.seoul.go.kr",
+      "url": "https://map.seoul.go.kr/smgis/short2.jsp?p=6O7Vg",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:45.208140+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-4954a311b91b9e",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/W543729863",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:40:03.145466+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-c2c62f357ac85a",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/bbs/610221/getBbsDetail?bbsNo=1600186",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:26:31.267259+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-05d01b33dd4d12",
+      "name": "www.sejongpac.or.kr",
+      "url": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?menuNo=1200007&performIdx=37736",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:29.048130+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-37a2918b022b7a",
+      "name": "map.seoul.go.kr",
+      "url": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_006&lang=ko",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:29:24.459627+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-0bf4218d824a3f",
+      "name": "www.sejongpac.or.kr",
+      "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?menuNo=200320&performIdx=37673",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:33.351326+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-5899a7bd58850c",
+      "name": "map.seoul.go.kr",
+      "url": "https://map.seoul.go.kr/smgis/short2.jsp?p=6O7CU",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:29:46.696506+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-c0fcb4a8b30a47",
+      "name": "english.seoul.go.kr",
+      "url": "https://english.seoul.go.kr/monthly-event-calendar/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:25:36.306850+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-b31a7131003110",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:26:10.714174+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-760f5f441ea99c",
+      "name": "www.nmf.or.kr",
+      "url": "https://www.nmf.or.kr/enguser/sub/20181203184746590100_contents.do",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:40:17.238566+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-fd8db793ad8b2e",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1593888",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:26:26.832443+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-3db73864715d3b",
+      "name": "dokdokinfo.kr",
+      "url": "https://dokdokinfo.kr/theaterspecific/fc004433/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:41:20.098576+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-cba0972c796bfd",
+      "name": "culture.seoul.go.kr",
+      "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157645&menuNo=200013",
+      "status": "HTTP Error 503: Service Unavailable",
+      "checkedAt": "2026-10-29T02:41:46.749710+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-4e034b4d5a5030",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/W168364800",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:41:49.205306+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-352d322e8d10a2",
+      "name": "map.seoul.go.kr",
+      "url": "https://map.seoul.go.kr/smgis/short2.jsp?p=6O7DB",
+      "status": "HTTP Error 503: Service Unavailable",
+      "checkedAt": "2026-10-29T02:29:29.184169+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-b50b07f6ec5f8b",
+      "name": "map.seoul.go.kr",
+      "url": "https://map.seoul.go.kr/smgis/short2.jsp?p=6O7Nz",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:29:16.555967+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-a514a15479f5f2",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1565012",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:27:42.157778+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-cb3f6abb6113f4",
+      "name": "map.seoul.go.kr",
+      "url": "https://map.seoul.go.kr/smgis/short2.jsp?p=6O7OP",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:29:39.028882+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-e5377d4e2505b2",
+      "name": "www.sejongpac.or.kr",
+      "url": "https://www.sejongpac.or.kr/eng/performance/engperformance/performTicket.do?menuNo=700007&performIdx=37652",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:38.577469+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-6e65e536fdce0c",
+      "name": "news.seoul.go.kr",
+      "url": "https://news.seoul.go.kr/culture/archives/534601",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:26:05.518515+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-5900b5bac2481e",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1512457",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:09.008123+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-85f114b87d471d",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/W223158439",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:39:59.475800+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-91460f78276193",
+      "name": "www.museum.go.kr",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0402020000.do?cp=2&schM=view&showId=3781985&type=type1&typeCode=culture",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:26:34.950596+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-97c97d52042bd5",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/N3128848729",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:40:12.234329+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-c331ef60daad20",
+      "name": "www.sejongpac.or.kr",
+      "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?menuNo=200320&performIdx=37787",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:22.945524+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-4b7aa8d17336a7",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1509709",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:04.328379+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-e41399f933948a",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/whatson/event/detail?evtNo=1582983",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:26:17.456935+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-8585b1dcf46a5e",
+      "name": "api.sgtt.kr",
+      "url": "https://api.sgtt.kr/program/detail/7289",
+      "status": "HTTP Error 503: Service Unavailable",
+      "checkedAt": "2026-10-29T02:37:29.408060+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-681d7ce33c6c72",
+      "name": "culture.seoul.go.kr",
+      "url": "https://culture.seoul.go.kr/culture/culture/cultureCalendar/list.do?menuNo=200122",
+      "status": "HTTP Error 503: Service Unavailable",
+      "checkedAt": "2026-10-29T02:25:23.322202+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-3f0f5b35a5a81d",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1602104",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:26:22.795320+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-f97a1733694297",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/visit/art_archive",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:13.301686+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-9c807486b68b87",
+      "name": "map.seoul.go.kr",
+      "url": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_008&lang=ko",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:30:10.184326+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-39891744e87624",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1576838",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:27:33.602040+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-ed6385dd7f30ca",
+      "name": "english.visitseoul.net",
+      "url": "https://english.visitseoul.net/attractions/SeoulNamsanGugakdang/ENP001278",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:41:31.758566+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-6eb25bb8e79a0e",
+      "name": "www.mcst.go.kr",
+      "url": "https://www.mcst.go.kr/site/s_culture/culture/cultureView.jsp?pRo=514&pSeq=76108",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:37:36.651538+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-7fc7d4b8eda002",
+      "name": "nol.yanolja.com",
+      "url": "https://nol.yanolja.com/ticket/products/26013612",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:37:45.035825+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-7e4014d733dd5e",
+      "name": "www.nmf.or.kr",
+      "url": "https://www.nmf.or.kr/enguser/sub/20181203183850422100_contents.do",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:41:42.265412+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-4d06fa0f808b0c",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/W261331648",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:30:14.341718+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-d4e4653bc85425",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1549929",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:27:53.035405+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-4a9b128e4ae65f",
+      "name": "map.seoul.go.kr",
+      "url": "https://map.seoul.go.kr/smgis2/poiViewMap?ti=100021&pi=art_si_007&lang=ko",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:30:03.324047+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-e4a46758ee7471",
+      "name": "sema.seoul.go.kr",
+      "url": "https://sema.seoul.go.kr/kr/visit/nanji_residency",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:18.194314+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-22bc75dfa69f4e",
+      "name": "map.seoul.go.kr",
+      "url": "https://map.seoul.go.kr/smgis/short2.jsp?p=6O7OQ",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:29:08.259471+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-c2fcf8a2c4eb47",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/N5204439633",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:40:07.651509+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-35a6af3b219bcf",
+      "name": "map.seoul.go.kr",
+      "url": "https://map.seoul.go.kr/smgis/short2.jsp?p=6O7Rp",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:28:58.113561+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "seoul-source-c5eb36bcd66cdc",
+      "name": "www.nmf.or.kr",
+      "url": "https://www.nmf.or.kr/enguser/sub/20181203183916407100_contents.do",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T02:41:37.738444+00:00",
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    }
+  ],
+  "pending": [
+    {
+      "sourceId": "sema-1565012",
+      "reason": "Own Seo-Seoul museum address differs from municipal POI address; independent exact-building validation incomplete."
+    },
+    {
+      "sourceId": "sema-1593888",
+      "reason": "Nowon Art Museum named pin not independently verified; full dated primary retained."
+    },
+    {
+      "sourceId": "seoul-broad-unread",
+      "reason": "Municipal broad calendar503; Sejong list dynamic pagination not fully traversed. This is a selected cultural subset, not comprehensive city coverage."
+    }
+  ],
+  "researchCoverage": {
+    "horizon": [
+      "2026-10-29",
+      "2026-11-27"
+    ],
+    "matrix30": [
+      {
+        "date": "2026-10-29",
+        "timedSessions": 2,
+        "timedProgrammeIds": [
+          "seoul-sejong-37652",
+          "seoul-sejong-37787"
+        ],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-10-30",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-10-31",
+        "timedSessions": 2,
+        "timedProgrammeIds": [
+          "seoul-bell-seongdeok",
+          "seoul-ohyoon-10-31"
+        ],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-01",
+        "timedSessions": 1,
+        "timedProgrammeIds": [
+          "seoul-bell-seongdeok"
+        ],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "timedSessions": 1,
+        "timedProgrammeIds": [
+          "seoul-snu-80"
+        ],
+        "visitingRanges": 0,
+        "rangeProgrammeIds": []
+      },
+      {
+        "date": "2026-11-03",
+        "timedSessions": 2,
+        "timedProgrammeIds": [
+          "seoul-choijun-sugungga",
+          "seoul-hanyang-wind"
+        ],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-04",
+        "timedSessions": 2,
+        "timedProgrammeIds": [
+          "seoul-sejong-37673",
+          "seoul-sejong-37736"
+        ],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-05",
+        "timedSessions": 1,
+        "timedProgrammeIds": [
+          "seoul-sejong-36791"
+        ],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-06",
+        "timedSessions": 5,
+        "timedProgrammeIds": [
+          "seoul-nanji-spaghetti",
+          "seoul-nanji-suite",
+          "seoul-sejong-36791"
+        ],
+        "visitingRanges": 7,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457",
+          "seoul-nanji-runtime"
+        ]
+      },
+      {
+        "date": "2026-11-07",
+        "timedSessions": 5,
+        "timedProgrammeIds": [
+          "seoul-nanji-nightwalk",
+          "seoul-nanji-suite",
+          "seoul-sejong-36791"
+        ],
+        "visitingRanges": 7,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457",
+          "seoul-nanji-runtime"
+        ]
+      },
+      {
+        "date": "2026-11-08",
+        "timedSessions": 5,
+        "timedProgrammeIds": [
+          "seoul-nanji-import",
+          "seoul-nanji-suite",
+          "seoul-sejong-36791"
+        ],
+        "visitingRanges": 7,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457",
+          "seoul-nanji-runtime"
+        ]
+      },
+      {
+        "date": "2026-11-09",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 0,
+        "rangeProgrammeIds": []
+      },
+      {
+        "date": "2026-11-10",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-11",
+        "timedSessions": 1,
+        "timedProgrammeIds": [
+          "seoul-ohyoon-11-11"
+        ],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-12",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-13",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-14",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-15",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 6,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1556711",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 0,
+        "rangeProgrammeIds": []
+      },
+      {
+        "date": "2026-11-17",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 5,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 5,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 5,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-20",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 5,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-21",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 5,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-22",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 5,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1509709",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-23",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 0,
+        "rangeProgrammeIds": []
+      },
+      {
+        "date": "2026-11-24",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 4,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-25",
+        "timedSessions": 1,
+        "timedProgrammeIds": [
+          "seoul-ohyoon-11-25"
+        ],
+        "visitingRanges": 4,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-26",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 4,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1512457"
+        ]
+      },
+      {
+        "date": "2026-11-27",
+        "timedSessions": 0,
+        "timedProgrammeIds": [],
+        "visitingRanges": 4,
+        "rangeProgrammeIds": [
+          "seoul-sema-1576838",
+          "seoul-sema-1549929",
+          "seoul-sema-1538201",
+          "seoul-sema-1512457"
+        ]
+      }
+    ],
+    "cataloguePagination": "Not fully traversed; municipalcalendar503; selected full primary programmes across independent institutions.",
+    "telegramAnnouncements": "Not read: inherited t.me access STOP;0imports.",
+    "telegramDiscussionChats": "Not read: inherited t.me access STOP;0imports.",
+    "googleYandexPages": 0,
+    "limits": [
+      "Late-November timed programme gaps; galleries do not substitute performances.",
+      "Times Asia/Seoul UTC+09 no DST.",
+      "Ranges keep full true exhibition dates; only actual visiting windows within horizon expanded.",
+      "No accounts, booking, forms or outreach performed."
+    ],
+    "first7TimedCounts": [
+      2,
+      0,
+      2,
+      1,
+      1,
+      2,
+      2
+    ],
+    "timedGapDates": [
+      "2026-10-30",
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-26",
+      "2026-11-27"
+    ],
+    "counts": {
+      "programmes": 23,
+      "sessions": 28,
+      "ranges": 7,
+      "physicalPlaces": 12,
+      "sourceReadAttempts": 52
+    }
+  }
+}

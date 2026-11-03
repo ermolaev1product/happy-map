@@ -1,0 +1,397 @@
+{
+  "city": "Tunis",
+  "checkedAt": "2026-10-29T04:34:34.540199+00:00",
+  "sources": [
+    {
+      "id": "tunis-source-0d9e952c9802fd",
+      "name": "Tunis source",
+      "url": "https://tunis.events/city/tunis",
+      "checkedAt": "2026-10-29T04:28:04.520825+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "tunis-source-901b0b31c3661c",
+      "name": "Tunis source",
+      "url": "https://www.tunisianopera.tn/fr/programme/tribute_to_mickael_jackson",
+      "checkedAt": "2026-10-29T04:28:12.166887+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 412"
+    },
+    {
+      "id": "tunis-source-653613803f7fbf",
+      "name": "Tunis source",
+      "url": "https://jaou.tunis.events/",
+      "checkedAt": "2026-10-29T04:28:16.330025+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "tunis-source-fcd54397af5500",
+      "name": "Tunis source",
+      "url": "https://oazis.app/sorties/tunis/octobre-2026",
+      "checkedAt": "2026-10-29T04:29:04.185898+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "tunis-source-57afb69e468e0d",
+      "name": "Tunis source",
+      "url": "https://jaou.tn/program/2026",
+      "checkedAt": "2026-10-29T04:29:12.407278+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 12,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-348f416b5eeb96",
+      "name": "Tunis source",
+      "url": "https://jaou.tn/map?lieu=8",
+      "checkedAt": "2026-10-29T04:31:16.483319+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-bcd3891c74a98f",
+      "name": "Tunis source",
+      "url": "https://jaou.tn/map?lieu=29",
+      "checkedAt": "2026-10-29T04:31:24.452849+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-2065efed864118",
+      "name": "Tunis source",
+      "url": "https://jaou.tn/map?lieu=1",
+      "checkedAt": "2026-10-29T04:31:30.198846+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-3a91116e386cfa",
+      "name": "Tunis source",
+      "url": "https://www.institutfrancais-tunisie.com/",
+      "checkedAt": "2026-10-29T04:31:28.447125+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-4d94f419ae1131",
+      "name": "Tunis source",
+      "url": "https://jaou.tn/map?lieu=44",
+      "checkedAt": "2026-10-29T04:31:33.776587+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-e24708afdca63b",
+      "name": "Tunis source",
+      "url": "https://www.openstreetmap.org/api/0.6/node/4908181336",
+      "checkedAt": "2026-10-29T04:31:35.950196+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-a73d8471896a03",
+      "name": "Tunis source",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfX6ShEWsMXIOhbpWpY6E6mElhuUGjL9uDt_di0qhYR5h2fuw/viewform",
+      "checkedAt": "2026-10-29T04:31:36.933019+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-b26313dc9965e0",
+      "name": "Tunis source",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdsKQUpsXayaiGcKJnC28nslPiBUWvSXAmzBJMSrbQdeoMfaA/viewform",
+      "checkedAt": "2026-10-29T04:31:41.890367+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-e09fee5774eea3",
+      "name": "Tunis source",
+      "url": "https://www.waze.com/live-map/directions/tn/tunis/tunis/le-4eme-art?to=place.ChIJV6Dz43E0_RIRmVMR3PHBb-E",
+      "checkedAt": "2026-10-29T04:31:40.447844+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-fce2c1f1160d67",
+      "name": "Tunis source",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdtBqC1KQc_YOaUxr6oeRbDJTkKqNZWOVAfI9QHOyVwsjIx5A/viewform",
+      "checkedAt": "2026-10-29T04:31:45.409251+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-7e3467fb8a110c",
+      "name": "Tunis source",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSffrSpFA0BroWU5uknS9bxcWi-kwe_kCRgeSBxtzeyaUpExxA/viewform",
+      "checkedAt": "2026-10-29T04:31:49.485484+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-19dc6b85bfab11",
+      "name": "Tunis source",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSds1uZaf_6xai6rpp9HJJKzoKPzr5UcPc7454BkBeo9Vhhzqw/viewform",
+      "checkedAt": "2026-10-29T04:31:53.678944+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-33cbfaaaaa9443",
+      "name": "Tunis source",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScKcKfN59N9YEgNtBWPeADHAt8_kTbc-b_tH-So-LQwz_7AVw/viewform",
+      "checkedAt": "2026-10-29T04:31:56.885426+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-3e4adb2ce41b18",
+      "name": "Tunis source",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfc5iwgKcOc3GZNxo9NjGQTndX8muWOGkF6yiIZm8KtVRjpJg/viewform",
+      "checkedAt": "2026-10-29T04:31:59.791099+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-46c44034a52714",
+      "name": "Tunis source",
+      "url": "https://www.institutfrancais-tunisie.com/list-agenda",
+      "checkedAt": "2026-10-29T04:32:00.613212+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 503"
+    },
+    {
+      "id": "tunis-source-8abd389aadf14d",
+      "name": "Tunis source",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSczq9KJWD3ShsTOevyfHI7vFWW0Enm3jGoyS-eBn3HpqS7pig/viewform",
+      "checkedAt": "2026-10-29T04:32:05.357050+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-079d150f8532a6",
+      "name": "Tunis source",
+      "url": "https://www.institutfrancais-tunisie.com/contact",
+      "checkedAt": "2026-10-29T04:32:05.791265+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-cdbe0eb7d71358",
+      "name": "Tunis source",
+      "url": "https://www.institutfrancais-tunisie.com/details-agenda/?eventId=6489",
+      "checkedAt": "2026-10-29T04:32:43.552413+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-10755fd085ee0a",
+      "name": "Tunis source",
+      "url": "https://www.institutfrancais-tunisie.com/details-agenda/?eventId=6502",
+      "checkedAt": "2026-10-29T04:32:48.987845+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-437004dd1be3d0",
+      "name": "Tunis source",
+      "url": "https://www.institutfrancais-tunisie.com/details-agenda/?eventId=6500",
+      "checkedAt": "2026-10-29T04:32:56.416033+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-11ee63c8cf9a97",
+      "name": "Tunis source",
+      "url": "https://www.institutfrancais-tunisie.com/details-agenda/?eventId=6492",
+      "checkedAt": "2026-10-29T04:33:01.525536+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-621b94fa752e93",
+      "name": "Tunis source",
+      "url": "https://www.institutfrancais-tunisie.com/details-agenda/?eventId=6478",
+      "checkedAt": "2026-10-29T04:33:06.365396+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-ca0d8abae447cb",
+      "name": "Tunis source",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.6942093693638!2d10.178234576097195!3d36.801881472246635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd3471faeb744b%3A0x7c071d082a2b8676!2sInstitut%20fran%C3%A7ais%20de%20Tunisie!5e0!3m2!1sfr!2stn!4v1742202101127!5m2!1sfr!2stn",
+      "checkedAt": "2026-10-29T04:33:13.712360+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-1616ae021ef1e1",
+      "name": "Tunis source",
+      "url": "https://www.waze.com/ar/live-map/directions/cite-de-la-culture-avenue-mohamed-v-tunis%2C-twns?to=place.w.6685040.66784865.13157729",
+      "checkedAt": "2026-10-29T04:33:18.005566+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-54b5b707dde222",
+      "name": "Tunis source",
+      "url": "https://www.kharjet.tn/food-drink/habibi-downtown-le-jamaica/",
+      "checkedAt": "2026-10-29T04:33:25.949035+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-f3a4c764f222fe",
+      "name": "Tunis source",
+      "url": "https://www.kamellazaarfoundation.org/node/2024",
+      "checkedAt": "2026-10-29T04:33:30.847032+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-3f4f9a16f86da0",
+      "name": "Tunis source",
+      "url": "https://elteatrotunisie.com/programme-de-la-saison/",
+      "checkedAt": "2026-10-29T04:34:34.540199+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 5,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-9c1a1c6693ef34",
+      "name": "Tunis source",
+      "url": "https://teskerti.tn/evenement/lotfi-bouchnek",
+      "checkedAt": "2026-10-29T04:34:45.454862+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "tunis-source-5c449ca9de6876",
+      "name": "Tunis source",
+      "url": "https://linstant-m.tn/single-article/ar10882_agenda-des-evenements-et-sorties-culturelles-votre-programme-du-22-octobre-au-2-novembre",
+      "checkedAt": "2026-10-29T04:34:48.910725+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "tunis-source-c100e3fbd3633c",
+      "name": "Tunis source",
+      "url": "https://elteatrotunisie.com/contact-elteatro/",
+      "checkedAt": "2026-10-29T04:35:37.233501+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-ec2360745c5733",
+      "name": "Tunis source",
+      "url": "https://billetterie.elteatrotunis.com/fr/programme/le_fou",
+      "checkedAt": "2026-10-29T04:35:43.940908+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 412"
+    },
+    {
+      "id": "tunis-source-20071c4f222feb",
+      "name": "Tunis source",
+      "url": "https://www.openstreetmap.org/api/0.6/node/1262139476",
+      "checkedAt": "2026-10-29T04:35:47.055779+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-e16b8b47af41c4",
+      "name": "Tunis source",
+      "url": "https://api.openstreetmap.org/api/0.6/way/379620913/full",
+      "checkedAt": "2026-10-29T04:31:31.948701+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "tunis-source-5dfc410dddf132",
+      "name": "Tunis source",
+      "url": "https://jaou.tn/map?lieu=39",
+      "checkedAt": "2026-10-29T04:31:43.070134+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

@@ -1,0 +1,2542 @@
+{
+  "batchId": "barcelona-launch-research-2026-10-17",
+  "city": "barcelona",
+  "checkedAt": "2026-10-17T19:50:07Z",
+  "timezone": "Europe/Madrid",
+  "sevenDayWindow": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "thirtyDayWindow": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "coverageNote": "Selective, diversified primary-source launch research, not a complete city refresh. Future and ongoing dated events only. No permanent attractions masquerade as events. No application changes or publication performed. Europe/Madrid switches from UTC+2 to UTC+1 on 25 October; use IANA zone rather than fixed offset.",
+  "method": "Spanish and Catalan web-search queries led to complete official event pages; organizer/ticket pages were preferred over aggregators. Russian/English Telegram was read publicly. Instagram and Reddit availability was tested without login or CAPTCHA workarounds. Actual Google browser research was performed separately by the coordinated browser worker, whose results should be appended rather than falsely attributed to this web search. Coordinated Google ES browser searches actually read four first-results pages, not five paginated pages: Barcelona eventos agenda 18 24 octubre 2026; Barcelona conciertos \"22 de octubre de 2026\"; site:sala-apolo.com \"octubre\" \"2026\" concierto; Barcelona agenda cultural \"18\" \"24\" \"octubre 2026\". Google results were used for discovery, not final event verification.",
+  "events": [
+    {
+      "id": "barcelona-20261017-book-fair-1018",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Ярмарка старых и подержанных книг",
+      "titleEn": "Antiquarian and second-hand book fair",
+      "date": "2026-10-18",
+      "time": "11:00",
+      "end": "20:30",
+      "endDate": null,
+      "category": "festival",
+      "price": 0,
+      "min": false,
+      "currency": "EUR",
+      "description": "Книжная ярмарка с 29 стендами: редкие издания и книги разных эпох. Здесь указано проверенное воскресное расписание.",
+      "descriptionEn": "A 29-stall fair for antiquarian and second-hand books. This record represents the verified Sunday session.",
+      "source": "Official organizer / Barcelona City Council",
+      "sourceUrl": "https://guia.barcelona.cat/es/detall/75a-fira-del-llibre-d-ocasio-antic-i-modern_99400016214.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://guia.barcelona.cat/es/detall/75a-fira-del-llibre-d-ocasio-antic-i-modern_99400016214.html"
+      },
+      "evidenceUrls": [
+        "https://guia.barcelona.cat/es/detall/75a-fira-del-llibre-d-ocasio-antic-i-modern_99400016214.html",
+        "https://guia.barcelona.cat/es/detall/75a-fira-del-llibre-d-ocasio-antic-i-modern_99400016214.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Passeig de Gràcia",
+      "address": "Passeig de Gràcia, 17; fair between Gran Via and Consell de Cent, Barcelona",
+      "lat": 41.38978096572471,
+      "lng": 2.1673321215641086,
+      "coordinateSource": "https://guia.barcelona.cat/es/detall/75a-fira-del-llibre-d-ocasio-antic-i-modern_99400016214.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "originalDateRange": [
+        "2026-10-16",
+        "2026-11-01"
+      ],
+      "scheduleNote": "The full fair runs 16 October–1 November. Municipal page lists Saturday 10:00–20:30 and Sunday 11:00–20:30 only. No weekday hours were inferred.",
+      "priceNote": "Municipal event page explicitly lists free admission. Books are not free.",
+      "originalTitle": "75a Fira del Llibre d’Ocasió Antic i Modern",
+      "originalTitleLanguage": "ca",
+      "titleCa": "75a Fira del Llibre d’Ocasió Antic i Modern",
+      "coordinatePrecision": "official-event-map-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "sourceURLs": [
+        "https://guia.barcelona.cat/es/detall/75a-fira-del-llibre-d-ocasio-antic-i-modern_99400016214.html"
+      ],
+      "priceNoteEn": "Municipal event page explicitly lists free admission. Books are not free.",
+      "priceEvidence": "Municipal event page explicitly lists free admission. Books are not free.",
+      "priceLabel": "Бесплатный вход",
+      "priceLabelEn": "Free admission",
+      "timeNoteEn": "The full fair runs 16 October–1 November. Municipal page lists Saturday 10:00–20:30 and Sunday 11:00–20:30 only. No weekday hours were inferred.",
+      "timeNote": "The full fair runs 16 October–1 November. Municipal page lists Saturday 10:00–20:30 and Sunday 11:00–20:30 only. No weekday hours were inferred.",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-mercat-de-mercats-1018",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Mercat de Mercats — гастрономическая ярмарка",
+      "titleEn": "Mercat de Mercats food fair",
+      "date": "2026-10-18",
+      "time": "11:00",
+      "end": "21:00",
+      "endDate": null,
+      "category": "festival",
+      "price": 0,
+      "min": false,
+      "currency": "EUR",
+      "description": "Последний день городской ярмарки: продукты рынков, кулинарные показы и музыка. Вход бесплатный; еда и напитки оплачиваются отдельно.",
+      "descriptionEn": "Final day of the municipal market fair, with food stalls, cooking demonstrations and music. Admission is free; food and drinks cost extra.",
+      "source": "Official organizer / Barcelona City Council",
+      "sourceUrl": "https://guia.barcelona.cat/es/detall/feria-mercat-de-mercats_99400637212.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://guia.barcelona.cat/es/detall/feria-mercat-de-mercats_99400637212.html"
+      },
+      "evidenceUrls": [
+        "https://guia.barcelona.cat/es/detall/feria-mercat-de-mercats_99400637212.html",
+        "https://guia.barcelona.cat/es/detall/feria-mercat-de-mercats_99400637212.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Plaça de les Glòries",
+      "address": "Plaça de Josep Antoni Coderch, Barcelona",
+      "lat": 41.402165184145446,
+      "lng": 2.1878120320578445,
+      "coordinateSource": "https://guia.barcelona.cat/es/detall/feria-mercat-de-mercats_99400637212.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "priceNote": "Municipal event page explicitly lists free admission. Food and drink are sold separately.",
+      "originalDateRange": [
+        "2026-10-16",
+        "2026-10-18"
+      ],
+      "originalTitle": "Mercat de Mercats",
+      "originalTitleLanguage": "ca",
+      "titleCa": "Mercat de Mercats",
+      "coordinatePrecision": "official-event-map-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "sourceURLs": [
+        "https://guia.barcelona.cat/es/detall/feria-mercat-de-mercats_99400637212.html"
+      ],
+      "priceNoteEn": "Municipal event page explicitly lists free admission. Food and drink are sold separately.",
+      "priceEvidence": "Municipal event page explicitly lists free admission. Food and drink are sold separately.",
+      "priceLabel": "Бесплатный вход",
+      "priceLabelEn": "Free admission",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-fabra-guided-1018",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Экскурсия по Fabra i Coats",
+      "titleEn": "Guided visit to Fabra i Coats",
+      "date": "2026-10-18",
+      "time": "12:00",
+      "end": null,
+      "endDate": null,
+      "category": "tour",
+      "price": 0,
+      "min": false,
+      "currency": "EUR",
+      "description": "Экскурсия о текстильном прошлом фабрики и её современной жизни как центра творчества. Встреча во внутреннем вестибюле; нужна регистрация.",
+      "descriptionEn": "A guided visit exploring the textile factory’s history and its present role as a creative centre. Meet in the interior lobby; advance registration is required.",
+      "source": "Official organizer / Barcelona City Council",
+      "sourceUrl": "https://guia.barcelona.cat/ca/detall/visita-guiada-a-fabra-i-coats-fabrica-de-creacio_99400785088.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://guia.barcelona.cat/ca/detall/visita-guiada-a-fabra-i-coats-fabrica-de-creacio_99400785088.html"
+      },
+      "evidenceUrls": [
+        "https://guia.barcelona.cat/ca/detall/visita-guiada-a-fabra-i-coats-fabrica-de-creacio_99400785088.html",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Fabra i Coats — Fàbrica de Creació",
+      "address": "Carrer de Sant Adrià, 20, Barcelona",
+      "lat": 41.433793974354174,
+      "lng": 2.1908326284827284,
+      "coordinateSource": "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "registrationRequired": true,
+      "ticketUrl": "https://www.barcelona.cat/fabraicoats/ca/visites-guiades",
+      "originalTitle": "Visita guiada a Fabra i Coats: Fàbrica de Creació",
+      "originalTitleLanguage": "ca",
+      "titleCa": "Visita guiada a Fabra i Coats: Fàbrica de Creació",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "sourceURLs": [
+        "https://guia.barcelona.cat/ca/detall/visita-guiada-a-fabra-i-coats-fabrica-de-creacio_99400785088.html",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "priceNoteEn": "Municipal guided-visit announcement lists free admission with advance registration.",
+      "priceEvidence": "Municipal guided-visit announcement lists free admission with advance registration.",
+      "priceNote": "Municipal guided-visit announcement lists free admission with advance registration.",
+      "priceLabel": "Бесплатный вход",
+      "priceLabelEn": "Free admission",
+      "admission": "Нужна предварительная регистрация или билет.",
+      "admissionEn": "Advance registration or a ticket is required.",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-magic-pablo-1018",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Màgic Pablo — El Gran Desafío",
+      "titleEn": "Màgic Pablo — El Gran Desafío",
+      "date": "2026-10-18",
+      "time": "12:00",
+      "end": null,
+      "endDate": null,
+      "category": "theatre",
+      "price": 10,
+      "min": true,
+      "currency": "EUR",
+      "description": "Семейное представление с фокусами, танцем и театром на каталанском и испанском языках. Рекомендовано от 3 лет; длительность 75 минут.",
+      "descriptionEn": "Family magic, dance and theatre in Catalan and Spanish. Recommended for ages 3 and up; 75 minutes.",
+      "source": "Teatre Poliorama",
+      "sourceUrl": "https://www.teatrepoliorama.com/es/programacion/c/908-magia-kids-el-gran-repte.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": "Catalan and Spanish",
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://www.teatrepoliorama.com/es/programacion/c/908-magia-kids-el-gran-repte.html"
+      },
+      "evidenceUrls": [
+        "https://www.teatrepoliorama.com/es/programacion/c/908-magia-kids-el-gran-repte.html",
+        "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "Official date page shows a buy link. Ticket endpoint did not render in the research tool; seat stock is unverified.",
+      "venue": "Teatre Poliorama",
+      "address": "La Rambla, 115, Barcelona",
+      "lat": 41.38417592716741,
+      "lng": 2.1707408640195456,
+      "coordinateSource": "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "durationMinutes": 75,
+      "ageRecommendation": "3+",
+      "priceNote": "Advertised from €10. Theatre says booking fees are additional.",
+      "ticketUrl": "https://teatrepoliorama.koobin.com/es/magic-pablo-el-gran-repte-20261018-1200",
+      "originalTitle": "Màgic Pablo: El Gran Desafío",
+      "originalTitleLanguage": "es",
+      "titleEs": "Màgic Pablo: El Gran Desafío",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "sourceURLs": [
+        "https://www.teatrepoliorama.com/es/programacion/c/908-magia-kids-el-gran-repte.html",
+        "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html"
+      ],
+      "priceNoteEn": "Advertised from €10. Theatre says booking fees are additional.",
+      "priceLabel": "от €10",
+      "priceLabelEn": "from €10",
+      "ageRating": "3+",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "Official date page shows a buy link. Ticket endpoint did not render in the research tool; seat stock is unverified.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-musica-reservata-1018",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Musica Reservata de Barcelona",
+      "titleEn": "Musica Reservata de Barcelona",
+      "date": "2026-10-18",
+      "time": "12:00",
+      "end": null,
+      "endDate": null,
+      "category": "concert",
+      "price": 18,
+      "min": false,
+      "currency": "EUR",
+      "description": "Хоровая программа из произведений Лотти, Палестрины, Монтеверди, Аллегри и Скарлатти. Продолжительность около 65 минут.",
+      "descriptionEn": "Choral music by Lotti, Palestrina, Monteverdi, Allegri and Scarlatti. Approximately 65 minutes without an interval.",
+      "source": "Palau de la Música Catalana",
+      "sourceUrl": "https://www.palaumusica.cat/ca/musica-reservata-de-barcelona_1623831",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://www.palaumusica.cat/ca/musica-reservata-de-barcelona_1623831"
+      },
+      "evidenceUrls": [
+        "https://www.palaumusica.cat/ca/musica-reservata-de-barcelona_1623831",
+        "https://www.palaumusica.cat/ca/com-arribar-hi_1180820"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Petit Palau — Palau de la Música Catalana",
+      "address": "Carrer del Palau de la Música, 4–6, Barcelona",
+      "lat": 41.3875752,
+      "lng": 2.1753128,
+      "coordinateSource": "https://www.palaumusica.cat/ca/com-arribar-hi_1180820",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "durationMinutesApprox": 65,
+      "ticketUrl": "https://entrades.palaumusica.cat/selection/event/date?lang=ca&productId=10229777427238",
+      "originalTitle": "Musica Reservata de Barcelona",
+      "originalTitleLanguage": "ca",
+      "titleCa": "Musica Reservata de Barcelona",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "sourceURLs": [
+        "https://www.palaumusica.cat/ca/musica-reservata-de-barcelona_1623831",
+        "https://www.palaumusica.cat/ca/com-arribar-hi_1180820"
+      ],
+      "priceNoteEn": "",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-ciudad-nocturna-1018",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Мариана Энрикес и Валери Майлз: ночной город",
+      "titleEn": "Mariana Enriquez and Valerie Miles: the nocturnal city",
+      "date": "2026-10-18",
+      "time": "18:00",
+      "end": "19:00",
+      "endDate": null,
+      "category": "talk",
+      "price": 0,
+      "min": false,
+      "currency": "EUR",
+      "description": "Разговор о ночном городе, памяти и литературе на испанском языке. Важное обновление: организатор перенёс встречу в Hall CCCB.",
+      "descriptionEn": "A conversation in Spanish about the city at night, memory and literature. Important update: the organizer moved the event to the CCCB Hall.",
+      "source": "CCCB",
+      "sourceUrl": "https://www.cccb.org/es/w/actividades/mariana-enriquez-y-valerie-miles",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": "Spanish",
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://www.cccb.org/es/w/actividades/mariana-enriquez-y-valerie-miles"
+      },
+      "evidenceUrls": [
+        "https://www.cccb.org/es/w/actividades/mariana-enriquez-y-valerie-miles",
+        "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "Free admission with limited capacity. Venue organizer confirms Hall; the older city listing still says Pati de les Dones.",
+      "venue": "CCCB — Hall",
+      "address": "Carrer de Montalegre, 5, Barcelona",
+      "lat": 41.38391450226559,
+      "lng": 2.1668129104163323,
+      "coordinateSource": "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "conflictResolution": "Use the current CCCB event detail for room: Hall, not Pati de les Dones.",
+      "originalTitle": "Mariana Enriquez y Valerie Miles: Ciudad nocturna",
+      "originalTitleLanguage": "es",
+      "titleEs": "Mariana Enriquez y Valerie Miles: Ciudad nocturna",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-18.",
+      "sourceURLs": [
+        "https://www.cccb.org/es/w/actividades/mariana-enriquez-y-valerie-miles",
+        "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html"
+      ],
+      "priceNoteEn": "CCCB practical information explicitly lists free admission.",
+      "priceEvidence": "CCCB practical information explicitly lists free admission.",
+      "priceNote": "CCCB practical information explicitly lists free admission.",
+      "priceLabel": "Бесплатный вход",
+      "priceLabelEn": "Free admission",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "Free admission with limited capacity. Venue organizer confirms Hall; the older city listing still says Pati de les Dones.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-don-mendo-1020",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "La venganza de Don Mendo",
+      "titleEn": "La venganza de Don Mendo",
+      "date": "2026-10-20",
+      "time": "20:00",
+      "end": null,
+      "endDate": null,
+      "category": "theatre",
+      "price": 12,
+      "min": true,
+      "currency": "EUR",
+      "description": "Пако Мир ставит сатирическую пьесу Педро Муньоса Секи. Спектакль на испанском, 95 минут; рекомендовано от 14 лет.",
+      "descriptionEn": "Paco Mir directs Pedro Muñoz Seca’s comic verse play. In Spanish, 95 minutes; recommended for ages 14 and up.",
+      "source": "Teatre Poliorama",
+      "sourceUrl": "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": "Spanish",
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html"
+      },
+      "evidenceUrls": [
+        "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html",
+        "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Teatre Poliorama",
+      "address": "La Rambla, 115, Barcelona",
+      "lat": 41.38417592716741,
+      "lng": 2.1707408640195456,
+      "coordinateSource": "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "durationMinutes": 95,
+      "ageRecommendation": "14+",
+      "priceNote": "Advertised from €12; theatre booking fees are additional.",
+      "seriesId": "barcelona-don-mendo-202610",
+      "ticketUrl": "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html",
+      "originalTitle": "La venganza de Don Mendo",
+      "originalTitleLanguage": "es",
+      "titleEs": "La venganza de Don Mendo",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-20.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-20.",
+      "sourceURLs": [
+        "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html",
+        "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html"
+      ],
+      "priceNoteEn": "Advertised from €12; theatre booking fees are additional.",
+      "priceLabel": "от €12",
+      "priceLabelEn": "from €12",
+      "ageRating": "14+",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-don-mendo-1021",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "La venganza de Don Mendo",
+      "titleEn": "La venganza de Don Mendo",
+      "date": "2026-10-21",
+      "time": "20:00",
+      "end": null,
+      "endDate": null,
+      "category": "theatre",
+      "price": 12,
+      "min": true,
+      "currency": "EUR",
+      "description": "Пако Мир ставит сатирическую пьесу Педро Муньоса Секи. Спектакль на испанском, 95 минут; рекомендовано от 14 лет.",
+      "descriptionEn": "Paco Mir directs Pedro Muñoz Seca’s comic verse play. In Spanish, 95 minutes; recommended for ages 14 and up.",
+      "source": "Teatre Poliorama",
+      "sourceUrl": "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": "Spanish",
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html"
+      },
+      "evidenceUrls": [
+        "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html",
+        "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Teatre Poliorama",
+      "address": "La Rambla, 115, Barcelona",
+      "lat": 41.38417592716741,
+      "lng": 2.1707408640195456,
+      "coordinateSource": "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "durationMinutes": 95,
+      "ageRecommendation": "14+",
+      "priceNote": "Advertised from €12; theatre booking fees are additional.",
+      "seriesId": "barcelona-don-mendo-202610",
+      "ticketUrl": "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html",
+      "originalTitle": "La venganza de Don Mendo",
+      "originalTitleLanguage": "es",
+      "titleEs": "La venganza de Don Mendo",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-21.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-21.",
+      "sourceURLs": [
+        "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html",
+        "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html"
+      ],
+      "priceNoteEn": "Advertised from €12; theatre booking fees are additional.",
+      "priceLabel": "от €12",
+      "priceLabelEn": "from €12",
+      "ageRating": "14+",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-band-of-horses-1021",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Band of Horses — 20 Years of Everything All the Time",
+      "titleEn": "Band of Horses — 20 Years of Everything All the Time",
+      "date": "2026-10-21",
+      "time": "20:30",
+      "end": null,
+      "endDate": null,
+      "category": "concert",
+      "price": 56,
+      "min": false,
+      "currency": "EUR",
+      "description": "Инди-рок-группа отмечает 20-летие дебютного альбома. Начало концерта в 20:30.",
+      "descriptionEn": "The indie-rock band celebrates 20 years of its debut album. Show starts at 20:30.",
+      "source": "Sala Razzmatazz",
+      "sourceUrl": "https://www.salarazzmatazz.com/agenda/21-10-2026-band-of-horses/",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://www.salarazzmatazz.com/agenda/21-10-2026-band-of-horses/"
+      },
+      "evidenceUrls": [
+        "https://www.salarazzmatazz.com/agenda/21-10-2026-band-of-horses/",
+        "https://www.salarazzmatazz.com/agenda/21-10-2026-band-of-horses/"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "Venue and promoter confirm event and start time. Live Nation parsed page says “On sale soon”, so current sale status is unresolved; do not promise tickets are available.",
+      "venue": "Razzmatazz — Sala 1",
+      "address": "Carrer dels Almogàvers, 122, Barcelona",
+      "lat": 41.3977323,
+      "lng": 2.1911108,
+      "coordinateSource": "https://www.salarazzmatazz.com/agenda/21-10-2026-band-of-horses/",
+      "coordinateEvidence": "Destination coordinates from the official venue directions link redirect: Google Maps !3d41.3977323!4d2.1911108; not the viewport coordinates.",
+      "priceNote": "Venue advertises advance tickets at €56 including fees.",
+      "ticketUrl": "https://www.livenation.es/en/event/an-evening-with-band-of-horses-celebrating-20-years-of-everything-all-the-time-barcelona-tickets-edp1649683",
+      "originalTitle": "Band of Horses",
+      "originalTitleLanguage": "en",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-21.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-21.",
+      "sourceURLs": [
+        "https://www.salarazzmatazz.com/agenda/21-10-2026-band-of-horses/"
+      ],
+      "priceNoteEn": "Venue advertises advance tickets at €56 including fees.",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "Venue and promoter confirm event and start time. Live Nation parsed page says “On sale soon”, so current sale status is unresolved; do not promise tickets are available.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      },
+      "admission": "Наличие билетов требует проверки: продавец показывает «скоро в продаже».",
+      "admissionEn": "Ticket availability requires checking: the promoter page currently says “On sale soon”."
+    },
+    {
+      "id": "barcelona-20261017-ecoss-1022",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "ECOSS — цифровое искусство и перформанс",
+      "titleEn": "ECOSS — digital and live arts",
+      "date": "2026-10-22",
+      "time": "19:00",
+      "end": "22:00",
+      "endDate": null,
+      "category": "festival",
+      "price": 0,
+      "min": false,
+      "currency": "EUR",
+      "description": "Инсталляции и перформансы на пересечении искусства, технологий, экологии и тела. Вход свободный.",
+      "descriptionEn": "Installations and performances exploring art, technology, ecology and the body. Free admission.",
+      "source": "Official organizer / Barcelona City Council",
+      "sourceUrl": "https://guia.barcelona.cat/es/detall/festival-internacional-darts-en-viu-i-cultura-digital-ecoss_99400720791.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://guia.barcelona.cat/es/detall/festival-internacional-darts-en-viu-i-cultura-digital-ecoss_99400720791.html"
+      },
+      "evidenceUrls": [
+        "https://guia.barcelona.cat/es/detall/festival-internacional-darts-en-viu-i-cultura-digital-ecoss_99400720791.html",
+        "https://ecoss.barcelona/2026_tardor/",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Fabra i Coats — Fàbrica de Creació",
+      "address": "Carrer de Sant Adrià, 20, Barcelona",
+      "lat": 41.433793974354174,
+      "lng": 2.1908326284827284,
+      "coordinateSource": "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "seriesId": "barcelona-ecoss-fabra-2026",
+      "originalTitle": "ECOSS",
+      "originalTitleLanguage": "ca",
+      "titleCa": "ECOSS",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-22.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-22.",
+      "sourceURLs": [
+        "https://guia.barcelona.cat/es/detall/festival-internacional-darts-en-viu-i-cultura-digital-ecoss_99400720791.html",
+        "https://ecoss.barcelona/2026_tardor/",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "priceNoteEn": "Municipal programme and festival organizer state that admission is free.",
+      "priceEvidence": "Municipal programme and festival organizer state that admission is free.",
+      "priceNote": "Municipal programme and festival organizer state that admission is free.",
+      "priceLabel": "Бесплатный вход",
+      "priceLabelEn": "Free admission",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-miniput-1023",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "MINIPUT 2026 — международный телеэкран",
+      "titleEn": "MINIPUT 2026 — international television showcase",
+      "date": "2026-10-23",
+      "time": "10:00",
+      "end": "22:00",
+      "endDate": null,
+      "category": "film",
+      "price": 0,
+      "min": false,
+      "currency": "EUR",
+      "description": "День показов и обсуждений необычных телевизионных проектов со всего мира. Оригинальные языки, преимущественно английские субтитры; бесплатная регистрация рекомендована.",
+      "descriptionEn": "A day of screenings and discussions of international television. Original languages, mostly English subtitles; free advance registration is recommended.",
+      "source": "MINIPUT",
+      "sourceUrl": "https://miniput.cat/Edicio-2026",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": "Original languages; English subtitles, some Catalan subtitles",
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://miniput.cat/Edicio-2026"
+      },
+      "evidenceUrls": [
+        "https://miniput.cat/Edicio-2026",
+        "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "CCCB — Teatre",
+      "address": "Carrer de Montalegre, 5, Barcelona",
+      "lat": 41.38391450226559,
+      "lng": 2.1668129104163323,
+      "coordinateSource": "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "registrationRequired": false,
+      "registrationRecommended": true,
+      "ticketUrl": "https://miniput.cat/Inscripcions",
+      "scheduleNote": "Use organizer programme over the city copy for individual sessions: organizer lists the vertical-format discussion at 10:40, while city copy says 10:20. The overall 10:00–22:00 day agrees.",
+      "originalTitle": "MINIPUT 2026",
+      "originalTitleLanguage": "ca",
+      "titleCa": "MINIPUT 2026",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-23.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-23.",
+      "sourceURLs": [
+        "https://miniput.cat/Edicio-2026",
+        "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html"
+      ],
+      "priceNoteEn": "Organizer registration page states admission is free; registration is recommended, not compulsory.",
+      "priceEvidence": "Organizer registration page states admission is free; registration is recommended, not compulsory.",
+      "priceNote": "Organizer registration page states admission is free; registration is recommended, not compulsory.",
+      "priceLabel": "Бесплатный вход",
+      "priceLabelEn": "Free admission",
+      "admission": "Бесплатная регистрация рекомендована.",
+      "admissionEn": "Free advance registration is recommended.",
+      "timeNoteEn": "Use organizer programme over the city copy for individual sessions: organizer lists the vertical-format discussion at 10:40, while city copy says 10:20. The overall 10:00–22:00 day agrees.",
+      "timeNote": "Use organizer programme over the city copy for individual sessions: organizer lists the vertical-format discussion at 10:40, while city copy says 10:20. The overall 10:00–22:00 day agrees.",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-ecoss-1023",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "ECOSS — цифровое искусство и перформанс",
+      "titleEn": "ECOSS — digital and live arts",
+      "date": "2026-10-23",
+      "time": "19:00",
+      "end": "22:00",
+      "endDate": null,
+      "category": "festival",
+      "price": 0,
+      "min": false,
+      "currency": "EUR",
+      "description": "Инсталляции и перформансы на пересечении искусства, технологий, экологии и тела. Вход свободный.",
+      "descriptionEn": "Installations and performances exploring art, technology, ecology and the body. Free admission.",
+      "source": "Official organizer / Barcelona City Council",
+      "sourceUrl": "https://guia.barcelona.cat/es/detall/festival-internacional-darts-en-viu-i-cultura-digital-ecoss_99400720791.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://guia.barcelona.cat/es/detall/festival-internacional-darts-en-viu-i-cultura-digital-ecoss_99400720791.html"
+      },
+      "evidenceUrls": [
+        "https://guia.barcelona.cat/es/detall/festival-internacional-darts-en-viu-i-cultura-digital-ecoss_99400720791.html",
+        "https://ecoss.barcelona/2026_tardor/",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Fabra i Coats — Fàbrica de Creació",
+      "address": "Carrer de Sant Adrià, 20, Barcelona",
+      "lat": 41.433793974354174,
+      "lng": 2.1908326284827284,
+      "coordinateSource": "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "seriesId": "barcelona-ecoss-fabra-2026",
+      "originalTitle": "ECOSS",
+      "originalTitleLanguage": "ca",
+      "titleCa": "ECOSS",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-23.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-23.",
+      "sourceURLs": [
+        "https://guia.barcelona.cat/es/detall/festival-internacional-darts-en-viu-i-cultura-digital-ecoss_99400720791.html",
+        "https://ecoss.barcelona/2026_tardor/",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "priceNoteEn": "Municipal programme and festival organizer state that admission is free.",
+      "priceEvidence": "Municipal programme and festival organizer state that admission is free.",
+      "priceNote": "Municipal programme and festival organizer state that admission is free.",
+      "priceLabel": "Бесплатный вход",
+      "priceLabelEn": "Free admission",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-community-day-1024",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Barcelona International Community Day",
+      "titleEn": "Barcelona International Community Day",
+      "date": "2026-10-24",
+      "time": "10:00",
+      "end": "19:00",
+      "endDate": null,
+      "category": "talk",
+      "price": 0,
+      "min": false,
+      "currency": "EUR",
+      "description": "Городская встреча международного сообщества с лекциями, мастерскими и организациями, помогающими жить и работать в Барселоне. Бесплатно по предварительной регистрации.",
+      "descriptionEn": "The city’s international-community gathering, with talks, workshops and organizations supporting life and work in Barcelona. Free with advance registration.",
+      "source": "Official organizer / Barcelona City Council",
+      "sourceUrl": "https://guia.barcelona.cat/es/detall/barcelona-international-community-day-2026_99400677646.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://guia.barcelona.cat/es/detall/barcelona-international-community-day-2026_99400677646.html"
+      },
+      "evidenceUrls": [
+        "https://guia.barcelona.cat/es/detall/barcelona-international-community-day-2026_99400677646.html",
+        "https://guia.barcelona.cat/detall/museu-maritim-de-barcelona_92086000438.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Museu Marítim de Barcelona",
+      "address": "Avinguda de les Drassanes, 1, Barcelona",
+      "lat": 41.37598140054483,
+      "lng": 2.176059209800324,
+      "coordinateSource": "https://guia.barcelona.cat/detall/museu-maritim-de-barcelona_92086000438.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "registrationRequired": true,
+      "ticketUrl": "https://www.barcelona.cat/internationalwelcome/ca/barcelona-international-community-day-2026",
+      "originalTitle": "Barcelona International Community Day 2026",
+      "originalTitleLanguage": "en",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-24.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-24.",
+      "sourceURLs": [
+        "https://guia.barcelona.cat/es/detall/barcelona-international-community-day-2026_99400677646.html",
+        "https://guia.barcelona.cat/detall/museu-maritim-de-barcelona_92086000438.html"
+      ],
+      "priceNoteEn": "Municipal event announcement states free admission with advance registration.",
+      "priceEvidence": "Municipal event announcement states free admission with advance registration.",
+      "priceNote": "Municipal event announcement states free admission with advance registration.",
+      "priceLabel": "Бесплатный вход",
+      "priceLabelEn": "Free admission",
+      "admission": "Нужна предварительная регистрация или билет.",
+      "admissionEn": "Advance registration or a ticket is required.",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-apologia-ma-house-1024",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Apologia × Ma House",
+      "titleEn": "Apologia × Ma House",
+      "date": "2026-10-24",
+      "time": "18:30",
+      "end": "23:59",
+      "endDate": null,
+      "category": "party",
+      "price": 0,
+      "min": false,
+      "currency": "EUR",
+      "description": "Бесплатный вечер электронной музыки: Charlins, MARA BRAVO, Drunk At Vogue, Mats и DJ Tortuga. Только для совершеннолетних.",
+      "descriptionEn": "A free electronic-music evening with Charlins, MARA BRAVO, Drunk At Vogue, Mats and DJ Tortuga. Ages 18 and up.",
+      "source": "Sala Apolo",
+      "sourceUrl": "https://sala-apolo.com/es/evento/apologia-x-ma-house-charlins-mara-bravo-drunk-at-vogue-mats-dj-tortuga-20261024-7656",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://sala-apolo.com/es/evento/apologia-x-ma-house-charlins-mara-bravo-drunk-at-vogue-mats-dj-tortuga-20261024-7656"
+      },
+      "evidenceUrls": [
+        "https://sala-apolo.com/es/evento/apologia-x-ma-house-charlins-mara-bravo-drunk-at-vogue-mats-dj-tortuga-20261024-7656",
+        "https://guia.barcelona.cat/detall/la-cinc_99400765395.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "La Cinc — Sala Apolo",
+      "address": "Carrer Nou de la Rambla, 111, Barcelona",
+      "lat": 41.37437345529078,
+      "lng": 2.1695075348590223,
+      "coordinateSource": "https://guia.barcelona.cat/detall/la-cinc_99400765395.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "ageRestriction": "18+",
+      "originalTitle": "Apologia x Ma House",
+      "originalTitleLanguage": "en",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-24.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-24.",
+      "sourceURLs": [
+        "https://sala-apolo.com/es/evento/apologia-x-ma-house-charlins-mara-bravo-drunk-at-vogue-mats-dj-tortuga-20261024-7656",
+        "https://guia.barcelona.cat/detall/la-cinc_99400765395.html"
+      ],
+      "priceNoteEn": "Official Sala Apolo event page lists free admission; ages 18 and over.",
+      "priceEvidence": "Official Sala Apolo event page lists free admission; ages 18 and over.",
+      "priceNote": "Official Sala Apolo event page lists free admission; ages 18 and over.",
+      "priceLabel": "Бесплатный вход",
+      "priceLabelEn": "Free admission",
+      "ageRating": "18+",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-manu-guix-1024",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Manu Guix — Empremtes 2026",
+      "titleEn": "Manu Guix — Empremtes 2026",
+      "date": "2026-10-24",
+      "time": "20:30",
+      "end": null,
+      "endDate": null,
+      "category": "concert",
+      "price": 22,
+      "min": true,
+      "currency": "EUR",
+      "description": "Концерт барселонского пианиста и автора песен. Двери открываются в 19:30, сам концерт начинается в 20:30.",
+      "descriptionEn": "A concert by Barcelona pianist and songwriter Manu Guix. Doors open at 19:30; the show starts at 20:30.",
+      "source": "Sala Apolo",
+      "sourceUrl": "https://sala-apolo.com/es/evento/empremtes-2026-manu-guix-7017",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://sala-apolo.com/es/evento/empremtes-2026-manu-guix-7017"
+      },
+      "evidenceUrls": [
+        "https://sala-apolo.com/es/evento/empremtes-2026-manu-guix-7017",
+        "https://guia.barcelona.cat/detall/sala-apolo_92086009087.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Sala Apolo",
+      "address": "Carrer Nou de la Rambla, 111–115, Barcelona",
+      "lat": 41.37437331043133,
+      "lng": 2.1695059889638286,
+      "coordinateSource": "https://guia.barcelona.cat/detall/sala-apolo_92086009087.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "doorsTime": "19:30",
+      "priceNote": "€22 advance plus booking fees; venue lists €26 at the door. Total checkout price not checked.",
+      "ticketUrl": "https://sala-apolo.com/es/evento/empremtes-2026-manu-guix-7017",
+      "originalTitle": "Manu Guix",
+      "originalTitleLanguage": "ca",
+      "titleCa": "Manu Guix",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-10-24.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-10-24.",
+      "sourceURLs": [
+        "https://sala-apolo.com/es/evento/empremtes-2026-manu-guix-7017",
+        "https://guia.barcelona.cat/detall/sala-apolo_92086009087.html"
+      ],
+      "priceNoteEn": "€22 advance plus booking fees; venue lists €26 at the door. Total checkout price not checked.",
+      "priceLabel": "от €22",
+      "priceLabelEn": "from €22",
+      "timeNote": "Двери в 19:30, концерт в 20:30.",
+      "timeNoteEn": "Doors at 19:30; concert at 20:30.",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      }
+    },
+    {
+      "id": "barcelona-20261017-mozfest-1028",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Mozilla Festival 2026",
+      "titleEn": "Mozilla Festival 2026",
+      "date": "2026-10-28",
+      "time": "10:00",
+      "end": null,
+      "endDate": null,
+      "category": "talk",
+      "price": null,
+      "min": false,
+      "currency": "EUR",
+      "description": "Трёхдневный фестиваль о технологиях, цифровой культуре и правах: дискуссии, лаборатории и мастерские. Нужен подходящий пропуск; цена зависит от категории.",
+      "descriptionEn": "A three-day festival about technology, digital culture and rights, with discussions, labs and workshops. An appropriate pass is required; prices vary by category.",
+      "source": "Mozilla Foundation",
+      "sourceUrl": "https://www.mozillafoundation.org/ca/festival/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://www.mozillafoundation.org/ca/festival/"
+      },
+      "evidenceUrls": [
+        "https://www.mozillafoundation.org/ca/festival/",
+        "https://guia.barcelona.cat/ca/detall/mozilla-festival_99400788669.html",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Fabra i Coats — Fàbrica de Creació",
+      "address": "Carrer de Sant Adrià, 20, Barcelona",
+      "lat": 41.433793974354174,
+      "lng": 2.1908326284827284,
+      "coordinateSource": "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "registrationRequired": true,
+      "scheduleNote": "City agenda says from 10:00 each day; organizer confirms 28–30 October 2026 and Fabra i Coats. No daily finish times inferred.",
+      "priceNote": "City listing gives a broad €5.25–€419 plus tax range. Because eligibility and pass scope were not checked, price remains null rather than implying a €5.25 general pass.",
+      "ticketUrl": "https://events.mozillafoundation.org/e/u/checkout/mozilla-festival-2026/tickets/order",
+      "originalTitle": "Mozilla Festival 2026",
+      "originalTitleLanguage": "en",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Organizer and municipal announcement explicitly list 28–30 October 2026; the municipal timetable states starts from 10:00 on Wednesday, Thursday and Friday.",
+      "yearEvidenceEn": "Organizer and municipal announcement explicitly list 28–30 October 2026; the municipal timetable states starts from 10:00 on Wednesday, Thursday and Friday.",
+      "sourceURLs": [
+        "https://www.mozillafoundation.org/ca/festival/",
+        "https://guia.barcelona.cat/ca/detall/mozilla-festival_99400788669.html",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "priceNoteEn": "City listing gives a broad €5.25–€419 plus tax range. Because eligibility and pass scope were not checked, price remains null rather than implying a €5.25 general pass.",
+      "admission": "Нужна предварительная регистрация или билет.",
+      "admissionEn": "Advance registration or a ticket is required.",
+      "timeNoteEn": "Starts from 10:00 according to the city agenda; closing time is unverified.",
+      "timeNote": "Начало с 10:00 по городской афише; время окончания неизвестно.",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      },
+      "seriesId": "barcelona-mozfest-2026",
+      "originalDateRange": [
+        "2026-10-28",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": "barcelona-20261017-mozfest-1029",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Mozilla Festival 2026",
+      "titleEn": "Mozilla Festival 2026",
+      "date": "2026-10-29",
+      "time": "10:00",
+      "end": null,
+      "endDate": null,
+      "category": "talk",
+      "price": null,
+      "min": false,
+      "currency": "EUR",
+      "description": "Трёхдневный фестиваль о технологиях, цифровой культуре и правах: дискуссии, лаборатории и мастерские. Нужен подходящий пропуск; цена зависит от категории.",
+      "descriptionEn": "A three-day festival about technology, digital culture and rights, with discussions, labs and workshops. An appropriate pass is required; prices vary by category.",
+      "source": "Mozilla Foundation",
+      "sourceUrl": "https://www.mozillafoundation.org/ca/festival/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://www.mozillafoundation.org/ca/festival/"
+      },
+      "evidenceUrls": [
+        "https://www.mozillafoundation.org/ca/festival/",
+        "https://guia.barcelona.cat/ca/detall/mozilla-festival_99400788669.html",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Fabra i Coats — Fàbrica de Creació",
+      "address": "Carrer de Sant Adrià, 20, Barcelona",
+      "lat": 41.433793974354174,
+      "lng": 2.1908326284827284,
+      "coordinateSource": "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "registrationRequired": true,
+      "scheduleNote": "City agenda says from 10:00 each day; organizer confirms 28–30 October 2026 and Fabra i Coats. No daily finish times inferred.",
+      "priceNote": "City listing gives a broad €5.25–€419 plus tax range. Because eligibility and pass scope were not checked, price remains null rather than implying a €5.25 general pass.",
+      "ticketUrl": "https://events.mozillafoundation.org/e/u/checkout/mozilla-festival-2026/tickets/order",
+      "originalTitle": "Mozilla Festival 2026",
+      "originalTitleLanguage": "en",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Organizer and municipal announcement explicitly list 28–30 October 2026; the municipal timetable states starts from 10:00 on Wednesday, Thursday and Friday.",
+      "yearEvidenceEn": "Organizer and municipal announcement explicitly list 28–30 October 2026; the municipal timetable states starts from 10:00 on Wednesday, Thursday and Friday.",
+      "sourceURLs": [
+        "https://www.mozillafoundation.org/ca/festival/",
+        "https://guia.barcelona.cat/ca/detall/mozilla-festival_99400788669.html",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "priceNoteEn": "City listing gives a broad €5.25–€419 plus tax range. Because eligibility and pass scope were not checked, price remains null rather than implying a €5.25 general pass.",
+      "admission": "Нужна предварительная регистрация или билет.",
+      "admissionEn": "Advance registration or a ticket is required.",
+      "timeNoteEn": "Starts from 10:00 according to the city agenda; closing time is unverified.",
+      "timeNote": "Начало с 10:00 по городской афише; время окончания неизвестно.",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      },
+      "seriesId": "barcelona-mozfest-2026",
+      "originalDateRange": [
+        "2026-10-28",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": "barcelona-20261017-mozfest-1030",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "Mozilla Festival 2026",
+      "titleEn": "Mozilla Festival 2026",
+      "date": "2026-10-30",
+      "time": "10:00",
+      "end": null,
+      "endDate": null,
+      "category": "talk",
+      "price": null,
+      "min": false,
+      "currency": "EUR",
+      "description": "Трёхдневный фестиваль о технологиях, цифровой культуре и правах: дискуссии, лаборатории и мастерские. Нужен подходящий пропуск; цена зависит от категории.",
+      "descriptionEn": "A three-day festival about technology, digital culture and rights, with discussions, labs and workshops. An appropriate pass is required; prices vary by category.",
+      "source": "Mozilla Foundation",
+      "sourceUrl": "https://www.mozillafoundation.org/ca/festival/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://www.mozillafoundation.org/ca/festival/"
+      },
+      "evidenceUrls": [
+        "https://www.mozillafoundation.org/ca/festival/",
+        "https://guia.barcelona.cat/ca/detall/mozilla-festival_99400788669.html",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "Fabra i Coats — Fàbrica de Creació",
+      "address": "Carrer de Sant Adrià, 20, Barcelona",
+      "lat": 41.433793974354174,
+      "lng": 2.1908326284827284,
+      "coordinateSource": "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "registrationRequired": true,
+      "scheduleNote": "City agenda says from 10:00 each day; organizer confirms 28–30 October 2026 and Fabra i Coats. No daily finish times inferred.",
+      "priceNote": "City listing gives a broad €5.25–€419 plus tax range. Because eligibility and pass scope were not checked, price remains null rather than implying a €5.25 general pass.",
+      "ticketUrl": "https://events.mozillafoundation.org/e/u/checkout/mozilla-festival-2026/tickets/order",
+      "originalTitle": "Mozilla Festival 2026",
+      "originalTitleLanguage": "en",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Organizer and municipal announcement explicitly list 28–30 October 2026; the municipal timetable states starts from 10:00 on Wednesday, Thursday and Friday.",
+      "yearEvidenceEn": "Organizer and municipal announcement explicitly list 28–30 October 2026; the municipal timetable states starts from 10:00 on Wednesday, Thursday and Friday.",
+      "sourceURLs": [
+        "https://www.mozillafoundation.org/ca/festival/",
+        "https://guia.barcelona.cat/ca/detall/mozilla-festival_99400788669.html",
+        "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html"
+      ],
+      "priceNoteEn": "City listing gives a broad €5.25–€419 plus tax range. Because eligibility and pass scope were not checked, price remains null rather than implying a €5.25 general pass.",
+      "admission": "Нужна предварительная регистрация или билет.",
+      "admissionEn": "Advance registration or a ticket is required.",
+      "timeNoteEn": "Starts from 10:00 according to the city agenda; closing time is unverified.",
+      "timeNote": "Начало с 10:00 по городской афише; время окончания неизвестно.",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      },
+      "seriesId": "barcelona-mozfest-2026",
+      "originalDateRange": [
+        "2026-10-28",
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": "barcelona-20261017-world-press-photo-2026",
+      "kind": "event",
+      "city": "barcelona",
+      "title": "World Press Photo 2026",
+      "titleEn": "World Press Photo 2026",
+      "date": "2026-11-06",
+      "time": null,
+      "end": null,
+      "endDate": "2026-12-13",
+      "category": "exhibition",
+      "price": 9,
+      "min": true,
+      "currency": "EUR",
+      "description": "Выставка победителей международного конкурса фотожурналистики. Билет онлайн €9, в кассе €10; по воскресеньям с 15:00 бесплатно с предварительной бронью.",
+      "descriptionEn": "An exhibition of the international photojournalism competition’s winners. Online tickets €9, box office €10; Sundays from 15:00 are free with advance booking.",
+      "source": "CCCB",
+      "sourceUrl": "https://www.cccb.org/es/w/exposiciones/world-press-photo-2026",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "sourceRetrievedAt": "2026-10-17T19:46:18Z",
+      "availabilityVerified": false,
+      "language": null,
+      "timezone": "Europe/Madrid",
+      "researchBatch": "barcelona-launch-research-2026-10-17",
+      "dateEvidence": {
+        "year": 2026,
+        "method": "full_dated_primary_announcement",
+        "sourceUrl": "https://www.cccb.org/es/w/exposiciones/world-press-photo-2026"
+      },
+      "evidenceUrls": [
+        "https://www.cccb.org/es/w/exposiciones/world-press-photo-2026",
+        "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html"
+      ],
+      "status": "verified_announcement",
+      "publicationStatus": "ready_with_caveats",
+      "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+      "venue": "CCCB — exhibition galleries",
+      "address": "Carrer de Montalegre, 5, Barcelona",
+      "lat": 41.38391450226559,
+      "lng": 2.1668129104163323,
+      "coordinateSource": "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "schedule": [
+        {
+          "days": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "start": "11:00",
+          "end": "20:00"
+        },
+        {
+          "days": [
+            "Friday"
+          ],
+          "start": "11:00",
+          "end": "21:00"
+        },
+        {
+          "days": [
+            "Saturday"
+          ],
+          "start": "10:00",
+          "end": "21:00"
+        },
+        {
+          "days": [
+            "Sunday"
+          ],
+          "start": "10:00",
+          "end": "20:00"
+        }
+      ],
+      "scheduleNote": "Closed non-holiday Mondays. Do not model as open continuously. Primary source has an irrelevant typo about “7 September” in Monday note; November hours above are explicit.",
+      "priceNote": "General €9 online including fees / €10 box office; reduced €7. Sunday 15:00–20:00 free by reservation, released preceding Wednesday at 10:00, max two per person.",
+      "ticketUrl": "https://www.cccb.org/es/w/exposiciones/world-press-photo-2026",
+      "originalTitle": "World Press Photo 2026",
+      "originalTitleLanguage": "en",
+      "coordinatePrecision": "official-venue-pin",
+      "yearEvidence": "Full primary announcement explicitly dates this event in 2026: 2026-11-06 to 2026-12-13.",
+      "yearEvidenceEn": "Full primary announcement explicitly dates this event in 2026: 2026-11-06 to 2026-12-13.",
+      "sourceURLs": [
+        "https://www.cccb.org/es/w/exposiciones/world-press-photo-2026",
+        "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html"
+      ],
+      "priceNoteEn": "General €9 online including fees / €10 box office; reduced €7. Sunday 15:00–20:00 free by reservation, released preceding Wednesday at 10:00, max two per person.",
+      "priceLabel": "от €9",
+      "priceLabelEn": "from €9",
+      "timeNoteEn": "Closed non-holiday Mondays. Do not model as open continuously. Primary source has an irrelevant typo about “7 September” in Monday note; November hours above are explicit.",
+      "timeNote": "Closed non-holiday Mondays. Do not model as open continuously. Primary source has an irrelevant typo about “7 September” in Monday note; November hours above are explicit.",
+      "provenance": {
+        "announcementVerified": true,
+        "availabilityVerified": false,
+        "availabilityNote": "The announcement was checked; ticket stock or admission is not guaranteed.",
+        "researchBatch": "barcelona-launch-research-2026-10-17"
+      },
+      "dateType": "published_interval",
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "timeOfDayEligible": true,
+      "openingHoursSource": "https://www.cccb.org/es/w/exposiciones/world-press-photo-2026",
+      "visitScheduleSource": "https://www.cccb.org/es/w/exposiciones/world-press-photo-2026",
+      "closedWeekdays": [
+        1
+      ],
+      "visitSchedule": {
+        "2026-11-06": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-10": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-11": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-12": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-17": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-18": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-19": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-24": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-25": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-26": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "2026-11-28": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-11-29": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-12-01": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-12-02": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-12-03": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-12-04": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "2026-12-05": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-12-06": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-12-08": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-12-09": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-12-10": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-12-11": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "2026-12-12": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "2026-12-13": {
+          "start": "10:00",
+          "end": "20:00"
+        }
+      },
+      "validDates": [
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29",
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-05",
+        "2026-12-06",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-12",
+        "2026-12-13"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "bcn-pending-lhaine",
+      "title": "L’haine",
+      "date": "2026-10-23",
+      "time": null,
+      "sourceUrl": "https://www.sala-apolo.com/es/evento/lhaine-20261023-7437",
+      "status": "held_for_recheck",
+      "reason": "Official banner says 19:00 but detailed doors/start times are TBC. Do not publish 19:00 as a confirmed performance time.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-decidim",
+      "title": "Decidim Fest 2026",
+      "date": "2026-10-28",
+      "endDate": "2026-10-30",
+      "sourceUrl": "https://comunitat.canodrom.barcelona/assemblies/comunitat/f/1651/meetings/3207",
+      "status": "held_for_recheck",
+      "reason": "Date confirmed, but city timetable weekdays conflict with 2026 dates. Canòdrom and Fabra i Coats both involved; session-level venue and hours needed.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-microbiota",
+      "title": "MICROBIOTA public performances",
+      "date": "2026-11-07",
+      "endDate": "2026-11-08",
+      "sourceUrl": "https://fundacionepica.org/project/workshop-23-microbiota/",
+      "discoverySourceUrl": "https://t.me/s/barcelona_event",
+      "status": "held_for_recheck",
+      "reason": "Public shows at El Born identified, but start times and public admission price not verified. Workshop application deadline has passed; €150 workshop fee is not a public ticket price.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-design-week",
+      "title": "Barcelona Design Week 2026",
+      "sourceUrl": "https://guia.barcelona.cat/es/detall/barcelona-design-week-2026_99400192731.html",
+      "status": "held_for_recheck",
+      "reason": "Multiple venues; date-end conflict 25 versus 26 October. Select and verify individual public sessions rather than a city-centre festival pin.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-ecoss-other-sessions",
+      "title": "ECOSS additional venues",
+      "sourceUrl": "https://ecoss.barcelona/2026_tardor/",
+      "status": "held_for_recheck",
+      "reason": "Other dates: 30 October Convent de Sant Agustí; 3–5 November Goethe-Institut; 6 November Golferichs. Exact session times/coordinates need individual checks. 24 November is outside this horizon.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-timeout-leads",
+      "title": "Additional weekly cultural leads",
+      "sourceUrl": "https://www.timeout.es/barcelona/es/que-hacer/10-cosas-para-hacer-esta-semana",
+      "status": "discovery_only",
+      "reason": "Primary checks still needed: Serielizados Fest (19–28 Oct), Escena Poblenou (22–25 Oct), Asian Film Festival (22 Oct–1 Nov), 080 Fashion Open Area (20–23 Oct), Ciutat Flamenco (16–25 Oct), Sâlmon (14 Oct–3 Nov), La Zona (23 Oct). These are not publishable from the secondary digest alone.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-nebulossa",
+      "title": "Nebulossa",
+      "date": "2026-10-22",
+      "sourceUrl": "https://www.sala-apolo.com/",
+      "status": "held_for_cancellation_check",
+      "reason": "Actual Google search surfaced an explicit cancelled indication from Songkick and an AI summary. Neither is sufficient primary evidence. Excluded unless an official live event detail resolves cancellation.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    }
+  ],
+  "sourceAudit": [
+    {
+      "id": "bcn-source-b9f4324bed88",
+      "name": "Official organizer / Barcelona City Council — 75a Fira del Llibre d’Ocasió Antic i Modern",
+      "nameEn": "Official organizer / Barcelona City Council — 75a Fira del Llibre d’Ocasió Antic i Modern",
+      "url": "https://guia.barcelona.cat/es/detall/75a-fira-del-llibre-d-ocasio-antic-i-modern_99400016214.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-d674741fc04d",
+      "name": "Official organizer / Barcelona City Council — Mercat de Mercats",
+      "nameEn": "Official organizer / Barcelona City Council — Mercat de Mercats",
+      "url": "https://guia.barcelona.cat/es/detall/feria-mercat-de-mercats_99400637212.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-64757b461848",
+      "name": "Official organizer / Barcelona City Council — Visita guiada a Fabra i Coats: Fàbrica de Creació",
+      "nameEn": "Official organizer / Barcelona City Council — Visita guiada a Fabra i Coats: Fàbrica de Creació",
+      "url": "https://guia.barcelona.cat/ca/detall/visita-guiada-a-fabra-i-coats-fabrica-de-creacio_99400785088.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-caef3bb21ea4",
+      "name": "Official venue/map reference — Fabra i Coats — Fàbrica de Creació",
+      "nameEn": "Official venue/map reference — Fabra i Coats — Fàbrica de Creació",
+      "url": "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-ec4ab908c285",
+      "name": "Teatre Poliorama — Màgic Pablo: El Gran Desafío",
+      "nameEn": "Teatre Poliorama — Màgic Pablo: El Gran Desafío",
+      "url": "https://www.teatrepoliorama.com/es/programacion/c/908-magia-kids-el-gran-repte.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-d6e0dfdf106a",
+      "name": "Official venue/map reference — Teatre Poliorama",
+      "nameEn": "Official venue/map reference — Teatre Poliorama",
+      "url": "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-2e000f114d09",
+      "name": "Palau de la Música Catalana — Musica Reservata de Barcelona",
+      "nameEn": "Palau de la Música Catalana — Musica Reservata de Barcelona",
+      "url": "https://www.palaumusica.cat/ca/musica-reservata-de-barcelona_1623831",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-f11386895a63",
+      "name": "Official venue/map reference — Petit Palau — Palau de la Música Catalana",
+      "nameEn": "Official venue/map reference — Petit Palau — Palau de la Música Catalana",
+      "url": "https://www.palaumusica.cat/ca/com-arribar-hi_1180820",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-c6297ac6ca31",
+      "name": "CCCB — Mariana Enriquez y Valerie Miles: Ciudad nocturna",
+      "nameEn": "CCCB — Mariana Enriquez y Valerie Miles: Ciudad nocturna",
+      "url": "https://www.cccb.org/es/w/actividades/mariana-enriquez-y-valerie-miles",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-eb3a601859ea",
+      "name": "Official venue/map reference — CCCB — Hall",
+      "nameEn": "Official venue/map reference — CCCB — Hall",
+      "url": "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-0e3d4b96eb20",
+      "name": "Teatre Poliorama — La venganza de Don Mendo",
+      "nameEn": "Teatre Poliorama — La venganza de Don Mendo",
+      "url": "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-a6fb3279bce4",
+      "name": "Sala Razzmatazz — Band of Horses",
+      "nameEn": "Sala Razzmatazz — Band of Horses",
+      "url": "https://www.salarazzmatazz.com/agenda/21-10-2026-band-of-horses/",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-d72f6c6a8644",
+      "name": "Official organizer / Barcelona City Council — ECOSS",
+      "nameEn": "Official organizer / Barcelona City Council — ECOSS",
+      "url": "https://guia.barcelona.cat/es/detall/festival-internacional-darts-en-viu-i-cultura-digital-ecoss_99400720791.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-d9dd2be06e6a",
+      "name": "MINIPUT — MINIPUT 2026",
+      "nameEn": "MINIPUT — MINIPUT 2026",
+      "url": "https://miniput.cat/Edicio-2026",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-21d703b910ee",
+      "name": "Official organizer / Barcelona City Council — Barcelona International Community Day 2026",
+      "nameEn": "Official organizer / Barcelona City Council — Barcelona International Community Day 2026",
+      "url": "https://guia.barcelona.cat/es/detall/barcelona-international-community-day-2026_99400677646.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-b9b7b32e76a2",
+      "name": "Official venue/map reference — Museu Marítim de Barcelona",
+      "nameEn": "Official venue/map reference — Museu Marítim de Barcelona",
+      "url": "https://guia.barcelona.cat/detall/museu-maritim-de-barcelona_92086000438.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-7b8833dfd6e8",
+      "name": "Sala Apolo — Apologia x Ma House",
+      "nameEn": "Sala Apolo — Apologia x Ma House",
+      "url": "https://sala-apolo.com/es/evento/apologia-x-ma-house-charlins-mara-bravo-drunk-at-vogue-mats-dj-tortuga-20261024-7656",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-c1de25dc9736",
+      "name": "Official venue/map reference — La Cinc — Sala Apolo",
+      "nameEn": "Official venue/map reference — La Cinc — Sala Apolo",
+      "url": "https://guia.barcelona.cat/detall/la-cinc_99400765395.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-b50cf17ee0e9",
+      "name": "Sala Apolo — Manu Guix",
+      "nameEn": "Sala Apolo — Manu Guix",
+      "url": "https://sala-apolo.com/es/evento/empremtes-2026-manu-guix-7017",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-770b5d5d3b42",
+      "name": "Official venue/map reference — Sala Apolo",
+      "nameEn": "Official venue/map reference — Sala Apolo",
+      "url": "https://guia.barcelona.cat/detall/sala-apolo_92086009087.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-bcd91d672673",
+      "name": "Mozilla Foundation — Mozilla Festival 2026",
+      "nameEn": "Mozilla Foundation — Mozilla Festival 2026",
+      "url": "https://www.mozillafoundation.org/ca/festival/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-4d0ab1dc4728",
+      "name": "CCCB — World Press Photo 2026",
+      "nameEn": "CCCB — World Press Photo 2026",
+      "url": "https://www.cccb.org/es/w/exposiciones/world-press-photo-2026",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-f32a6693f186",
+      "name": "ECOSS 2026 organizer",
+      "nameEn": "ECOSS 2026 organizer",
+      "url": "https://ecoss.barcelona/2026_tardor/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Organizer corroborates the festival dates and free admission. Other sites/dates remain pending without session-level details."
+    },
+    {
+      "id": "bcn-source-314f839a9399",
+      "name": "MozFest 2026 municipal timetable",
+      "nameEn": "MozFest 2026 municipal timetable",
+      "url": "https://guia.barcelona.cat/ca/detall/mozilla-festival_99400788669.html",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Explicit 28–30 October 2026; starts from 10:00 each day; public price range has unverified pass eligibility."
+    },
+    {
+      "id": "bcn-source-9e536d6f15ba",
+      "name": "MINIPUT registration",
+      "nameEn": "MINIPUT registration",
+      "url": "https://miniput.cat/Inscripcions",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Free entry; registration recommended rather than required."
+    },
+    {
+      "id": "bcn-source-394185eb2151",
+      "name": "Band of Horses promoter",
+      "nameEn": "Band of Horses promoter",
+      "url": "https://www.livenation.es/en/event/an-evening-with-band-of-horses-celebrating-20-years-of-everything-all-the-time-barcelona-tickets-edp1649683",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Date and 20:30 start agree with venue; parsed sales section says On sale soon, so ticket inventory unresolved."
+    },
+    {
+      "id": "bcn-source-f78c04b91df5",
+      "name": "Poliorama La Truita",
+      "nameEn": "Poliorama La Truita",
+      "url": "https://www.teatrepoliorama.com/es/programacion/c/899-la-truita.html",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Selected 18, 22 and 23 October sessions explicitly sold out; excluded from recommendations."
+    },
+    {
+      "id": "bcn-source-89e9f55210ff",
+      "name": "Decidim Fest organizer",
+      "nameEn": "Decidim Fest organizer",
+      "url": "https://comunitat.canodrom.barcelona/assemblies/comunitat/f/1651/meetings/3207",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "28–30 October 2026 confirmed, but multi-venue per-day details unresolved; not mapped as one fixed-venue event."
+    },
+    {
+      "id": "bcn-source-e02fc2a5bf32",
+      "name": "Decidim Fest city listing",
+      "nameEn": "Decidim Fest city listing",
+      "url": "https://guia.barcelona.cat/es/detall/jornades-decidim-fest-2026-democracia-i-tecnologia-en-un-mon-multipolar_99400697933.html",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Conflict: displayed weekday timetable does not match Wednesday–Friday 28–30 October 2026."
+    },
+    {
+      "id": "bcn-source-3f8d373c7cff",
+      "name": "Barcelona Design Week city listing",
+      "nameEn": "Barcelona Design Week city listing",
+      "url": "https://guia.barcelona.cat/es/detall/barcelona-design-week-2026_99400192731.html",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Multi-venue festival. Date field ends 25 October while prose ends 26 October; individual activities need checking."
+    },
+    {
+      "id": "bcn-source-1577b14e6f62",
+      "name": "Fundació Èpica — MICROBIOTA",
+      "nameEn": "Fundació Èpica — MICROBIOTA",
+      "url": "https://fundacionepica.org/project/workshop-23-microbiota/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Public shows 7–8 November identified; times/public ticket terms unverified. €150 concerns workshop participants, not public admission."
+    },
+    {
+      "id": "bcn-source-339a77b8d0a1",
+      "name": "Barcelona Culture Telegram (Russian)",
+      "nameEn": "Barcelona Culture Telegram (Russian)",
+      "url": "https://t.me/s/barcelona_event",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "public_feed_read",
+      "type": "telegram",
+      "note": "MICROBIOTA was followed to its primary organizer; no publishable additional event. Several visible AIGEL/SWAB posts were already expired. INTUS/Senda is only a future exhibition lead."
+    },
+    {
+      "id": "bcn-source-8b84f56ccb15",
+      "name": "BCN Startup Club (Russian/English)",
+      "nameEn": "BCN Startup Club (Russian/English)",
+      "url": "https://t.me/s/startups",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "public_feed_read",
+      "type": "telegram",
+      "note": "Read 12–18 October digest. Its concrete event listings ended by 17 October; no next-week dates were fabricated from older digests."
+    },
+    {
+      "id": "bcn-source-f9841ee32242",
+      "name": "Hoy Barcelona Telegram",
+      "nameEn": "Hoy Barcelona Telegram",
+      "url": "https://t.me/s/HoyBarcelona",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "public_feed_read_limited_freshness",
+      "type": "telegram",
+      "note": "Public feed accessible; rendered snapshot appeared stale. Escena Poblenou search lead not treated as verified event."
+    },
+    {
+      "id": "bcn-source-3cfe2bfa563c",
+      "name": "Fira del Llibre Instagram",
+      "nameEn": "Fira del Llibre Instagram",
+      "url": "https://www.instagram.com/firadelllibreocasioanticmodern/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "inaccessible_no_login_retry",
+      "type": "instagram",
+      "note": "One public-page open returned Internal Error. No login attempt, retries or bypass. Municipal official page was used instead."
+    },
+    {
+      "id": "bcn-source-8fbf4d3e8f29",
+      "name": "Reddit Barcelona cultural lead",
+      "nameEn": "Reddit Barcelona cultural lead",
+      "url": "https://www.reddit.com/r/SlowTravelEurope/comments/1wxik6j/how_can_i_experience_the_real_spanishcatalan/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "render_failed",
+      "type": "reddit",
+      "note": "Targeted r/Barcelona and r/AskBarcelona searches did not produce a dated verifiable launch-window event; this contextual result failed to render."
+    },
+    {
+      "id": "bcn-source-6e84d6510353",
+      "name": "Time Out Barcelona weekly agenda",
+      "nameEn": "Time Out Barcelona weekly agenda",
+      "url": "https://www.timeout.es/barcelona/es/que-hacer/10-cosas-para-hacer-esta-semana",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_secondary_page_read",
+      "type": "local_press",
+      "note": "Actual Google browser worker read the page dated 16 October, covering 19–25 October; useful leads but not primary verification."
+    },
+    {
+      "id": "bcn-source-4c49da061e93",
+      "name": "Sala Apolo L’haine",
+      "nameEn": "Sala Apolo L’haine",
+      "url": "https://www.sala-apolo.com/es/evento/lhaine-20261023-7437",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_browser_page_read_time_conflict",
+      "type": "official",
+      "note": "Actual Google browser worker read 23 October 2026. Top banner 19:00 conflicts with detailed doors/start TBC; held pending."
+    },
+    {
+      "id": "bcn-source-d408b289b4b5",
+      "name": "Municipal Bofirax result",
+      "nameEn": "Municipal Bofirax result",
+      "url": "https://agenda500.barcelona.cat/es/detall/concierto-bofirax_99400784450.html",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "not_found",
+      "type": "official",
+      "note": "Actual Google browser worker followed the result and saw Página no encontrada; excluded."
+    }
+  ],
+  "exclusions": [
+    {
+      "title": "La Truita",
+      "dates": [
+        "2026-10-18",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "reason": "Selected sessions marked sold out on full official event page.",
+      "sourceUrl": "https://www.teatrepoliorama.com/es/programacion/c/899-la-truita.html",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "title": "Bofirax municipal result",
+      "reason": "Followed Google result returned page not found.",
+      "sourceUrl": "https://agenda500.barcelona.cat/es/detall/concierto-bofirax_99400784450.html",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "title": "Expired Telegram event posts",
+      "reason": "AIGEL/SWAB/other pre-18 October dates were not recycled into launch window.",
+      "sourceUrl": "https://t.me/s/barcelona_event",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    }
+  ],
+  "cityId": "barcelona",
+  "window": {
+    "startDate": "2026-10-18",
+    "endDate": "2026-11-16"
+  },
+  "coverage": "Initial primary-source selection: six sessions for 18 October and a diversified 18–24 October programme, with selected events through 16 November. Not a comprehensive city refresh. Telegram, Instagram and Reddit checks did not yet yield additional independently verified publishable events.",
+  "places": [
+    {
+      "address": "Carrer de Sant Adrià, 20, Barcelona",
+      "lat": 41.433793974354174,
+      "lng": 2.1908326284827284,
+      "coordinateSource": "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html",
+      "coordinatePrecision": "official-venue-pin",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "timezone": "Europe/Madrid",
+      "currency": "EUR",
+      "id": "barcelona-venue-fabra-guided",
+      "kind": "place",
+      "title": "Fabra i Coats — Фабрика творчества",
+      "titleEn": "Fabra i Coats — Fàbrica de Creació",
+      "description": "Бывшая текстильная фабрика и городской центр творчества. Посещение отдельных событий по их собственным условиям.",
+      "descriptionEn": "Former textile factory and municipal creative centre. Individual events have their own admission conditions.",
+      "category": "space",
+      "source": "Ajuntament de Barcelona — GuiaBCN",
+      "sourceUrl": "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "price": null,
+      "operatingStatusVerified": true,
+      "openingHours": null,
+      "openingNote": "Часы работы не проверены; ориентируйтесь на выбранное событие.",
+      "openingNoteEn": "General opening hours were not verified; refer to the selected event."
+    },
+    {
+      "address": "La Rambla, 115, Barcelona",
+      "lat": 41.38417592716741,
+      "lng": 2.1707408640195456,
+      "coordinateSource": "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html",
+      "coordinatePrecision": "official-venue-pin",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "timezone": "Europe/Madrid",
+      "currency": "EUR",
+      "id": "barcelona-venue-don-mendo",
+      "kind": "place",
+      "title": "Teatre Poliorama",
+      "titleEn": "Teatre Poliorama",
+      "description": "Театр на Ла-Рамбле. Программа и условия посещения зависят от спектакля.",
+      "descriptionEn": "Theatre on La Rambla. Programme and admission conditions depend on the performance.",
+      "category": "theatre",
+      "source": "Ajuntament de Barcelona — GuiaBCN",
+      "sourceUrl": "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "price": null,
+      "operatingStatusVerified": true,
+      "openingHours": null,
+      "openingNote": "Часы работы не проверены; ориентируйтесь на выбранное событие.",
+      "openingNoteEn": "General opening hours were not verified; refer to the selected event."
+    },
+    {
+      "address": "Carrer Nou de la Rambla, 111–115, Barcelona",
+      "lat": 41.37437331043133,
+      "lng": 2.1695059889638286,
+      "coordinateSource": "https://guia.barcelona.cat/detall/sala-apolo_92086009087.html",
+      "coordinatePrecision": "official-venue-pin",
+      "coordinateEvidence": "Coordinates are the destination pin exposed by the official venue or municipal directions link, not inferred from a city centre.",
+      "timezone": "Europe/Madrid",
+      "currency": "EUR",
+      "id": "barcelona-venue-manu-guix",
+      "kind": "place",
+      "title": "Sala Apolo",
+      "titleEn": "Sala Apolo",
+      "description": "Концертный зал на Carrer Nou de la Rambla. Проверяйте возрастные ограничения и билеты выбранного события.",
+      "descriptionEn": "Concert venue on Carrer Nou de la Rambla. Check each event’s tickets and age restrictions.",
+      "category": "concert_venue",
+      "source": "Ajuntament de Barcelona — GuiaBCN",
+      "sourceUrl": "https://guia.barcelona.cat/detall/sala-apolo_92086009087.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "price": null,
+      "operatingStatusVerified": true,
+      "openingHours": null,
+      "openingNote": "Часы работы не проверены; ориентируйтесь на выбранное событие.",
+      "openingNoteEn": "General opening hours were not verified; refer to the selected event."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bcn-source-b9f4324bed88",
+      "name": "Official organizer / Barcelona City Council — 75a Fira del Llibre d’Ocasió Antic i Modern",
+      "nameEn": "Official organizer / Barcelona City Council — 75a Fira del Llibre d’Ocasió Antic i Modern",
+      "url": "https://guia.barcelona.cat/es/detall/75a-fira-del-llibre-d-ocasio-antic-i-modern_99400016214.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-d674741fc04d",
+      "name": "Official organizer / Barcelona City Council — Mercat de Mercats",
+      "nameEn": "Official organizer / Barcelona City Council — Mercat de Mercats",
+      "url": "https://guia.barcelona.cat/es/detall/feria-mercat-de-mercats_99400637212.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-64757b461848",
+      "name": "Official organizer / Barcelona City Council — Visita guiada a Fabra i Coats: Fàbrica de Creació",
+      "nameEn": "Official organizer / Barcelona City Council — Visita guiada a Fabra i Coats: Fàbrica de Creació",
+      "url": "https://guia.barcelona.cat/ca/detall/visita-guiada-a-fabra-i-coats-fabrica-de-creacio_99400785088.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-caef3bb21ea4",
+      "name": "Official venue/map reference — Fabra i Coats — Fàbrica de Creació",
+      "nameEn": "Official venue/map reference — Fabra i Coats — Fàbrica de Creació",
+      "url": "https://guia.barcelona.cat/detall/fabra-i-coats-fabrica-de-creacio_99400193035.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-ec4ab908c285",
+      "name": "Teatre Poliorama — Màgic Pablo: El Gran Desafío",
+      "nameEn": "Teatre Poliorama — Màgic Pablo: El Gran Desafío",
+      "url": "https://www.teatrepoliorama.com/es/programacion/c/908-magia-kids-el-gran-repte.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-d6e0dfdf106a",
+      "name": "Official venue/map reference — Teatre Poliorama",
+      "nameEn": "Official venue/map reference — Teatre Poliorama",
+      "url": "https://guia.barcelona.cat/detall/teatre-poliorama_97239174457.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-2e000f114d09",
+      "name": "Palau de la Música Catalana — Musica Reservata de Barcelona",
+      "nameEn": "Palau de la Música Catalana — Musica Reservata de Barcelona",
+      "url": "https://www.palaumusica.cat/ca/musica-reservata-de-barcelona_1623831",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-f11386895a63",
+      "name": "Official venue/map reference — Petit Palau — Palau de la Música Catalana",
+      "nameEn": "Official venue/map reference — Petit Palau — Palau de la Música Catalana",
+      "url": "https://www.palaumusica.cat/ca/com-arribar-hi_1180820",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-c6297ac6ca31",
+      "name": "CCCB — Mariana Enriquez y Valerie Miles: Ciudad nocturna",
+      "nameEn": "CCCB — Mariana Enriquez y Valerie Miles: Ciudad nocturna",
+      "url": "https://www.cccb.org/es/w/actividades/mariana-enriquez-y-valerie-miles",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-eb3a601859ea",
+      "name": "Official venue/map reference — CCCB — Hall",
+      "nameEn": "Official venue/map reference — CCCB — Hall",
+      "url": "https://guia.barcelona.cat/es/detall/conversa-ciutat-nocturna_99400741846.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-0e3d4b96eb20",
+      "name": "Teatre Poliorama — La venganza de Don Mendo",
+      "nameEn": "Teatre Poliorama — La venganza de Don Mendo",
+      "url": "https://www.teatrepoliorama.com/es/programacion/c/917-la-venganza-de-don-mendo.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-a6fb3279bce4",
+      "name": "Sala Razzmatazz — Band of Horses",
+      "nameEn": "Sala Razzmatazz — Band of Horses",
+      "url": "https://www.salarazzmatazz.com/agenda/21-10-2026-band-of-horses/",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-d72f6c6a8644",
+      "name": "Official organizer / Barcelona City Council — ECOSS",
+      "nameEn": "Official organizer / Barcelona City Council — ECOSS",
+      "url": "https://guia.barcelona.cat/es/detall/festival-internacional-darts-en-viu-i-cultura-digital-ecoss_99400720791.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-d9dd2be06e6a",
+      "name": "MINIPUT — MINIPUT 2026",
+      "nameEn": "MINIPUT — MINIPUT 2026",
+      "url": "https://miniput.cat/Edicio-2026",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-21d703b910ee",
+      "name": "Official organizer / Barcelona City Council — Barcelona International Community Day 2026",
+      "nameEn": "Official organizer / Barcelona City Council — Barcelona International Community Day 2026",
+      "url": "https://guia.barcelona.cat/es/detall/barcelona-international-community-day-2026_99400677646.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-b9b7b32e76a2",
+      "name": "Official venue/map reference — Museu Marítim de Barcelona",
+      "nameEn": "Official venue/map reference — Museu Marítim de Barcelona",
+      "url": "https://guia.barcelona.cat/detall/museu-maritim-de-barcelona_92086000438.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-7b8833dfd6e8",
+      "name": "Sala Apolo — Apologia x Ma House",
+      "nameEn": "Sala Apolo — Apologia x Ma House",
+      "url": "https://sala-apolo.com/es/evento/apologia-x-ma-house-charlins-mara-bravo-drunk-at-vogue-mats-dj-tortuga-20261024-7656",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-c1de25dc9736",
+      "name": "Official venue/map reference — La Cinc — Sala Apolo",
+      "nameEn": "Official venue/map reference — La Cinc — Sala Apolo",
+      "url": "https://guia.barcelona.cat/detall/la-cinc_99400765395.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-b50cf17ee0e9",
+      "name": "Sala Apolo — Manu Guix",
+      "nameEn": "Sala Apolo — Manu Guix",
+      "url": "https://sala-apolo.com/es/evento/empremtes-2026-manu-guix-7017",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-770b5d5d3b42",
+      "name": "Official venue/map reference — Sala Apolo",
+      "nameEn": "Official venue/map reference — Sala Apolo",
+      "url": "https://guia.barcelona.cat/detall/sala-apolo_92086009087.html",
+      "checkedAt": "2026-10-17T19:46:18Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Official address and destination-coordinate link checked; coordinate precision is a venue/event pin, not a city centre."
+    },
+    {
+      "id": "bcn-source-bcd91d672673",
+      "name": "Mozilla Foundation — Mozilla Festival 2026",
+      "nameEn": "Mozilla Foundation — Mozilla Festival 2026",
+      "url": "https://www.mozillafoundation.org/ca/festival/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-4d0ab1dc4728",
+      "name": "CCCB — World Press Photo 2026",
+      "nameEn": "CCCB — World Press Photo 2026",
+      "url": "https://www.cccb.org/es/w/exposiciones/world-press-photo-2026",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Full announcement read; explicit date and year verified. Ticket inventory is not guaranteed."
+    },
+    {
+      "id": "bcn-source-f32a6693f186",
+      "name": "ECOSS 2026 organizer",
+      "nameEn": "ECOSS 2026 organizer",
+      "url": "https://ecoss.barcelona/2026_tardor/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Organizer corroborates the festival dates and free admission. Other sites/dates remain pending without session-level details."
+    },
+    {
+      "id": "bcn-source-314f839a9399",
+      "name": "MozFest 2026 municipal timetable",
+      "nameEn": "MozFest 2026 municipal timetable",
+      "url": "https://guia.barcelona.cat/ca/detall/mozilla-festival_99400788669.html",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Explicit 28–30 October 2026; starts from 10:00 each day; public price range has unverified pass eligibility."
+    },
+    {
+      "id": "bcn-source-9e536d6f15ba",
+      "name": "MINIPUT registration",
+      "nameEn": "MINIPUT registration",
+      "url": "https://miniput.cat/Inscripcions",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Free entry; registration recommended rather than required."
+    },
+    {
+      "id": "bcn-source-394185eb2151",
+      "name": "Band of Horses promoter",
+      "nameEn": "Band of Horses promoter",
+      "url": "https://www.livenation.es/en/event/an-evening-with-band-of-horses-celebrating-20-years-of-everything-all-the-time-barcelona-tickets-edp1649683",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Date and 20:30 start agree with venue; parsed sales section says On sale soon, so ticket inventory unresolved."
+    },
+    {
+      "id": "bcn-source-f78c04b91df5",
+      "name": "Poliorama La Truita",
+      "nameEn": "Poliorama La Truita",
+      "url": "https://www.teatrepoliorama.com/es/programacion/c/899-la-truita.html",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Selected 18, 22 and 23 October sessions explicitly sold out; excluded from recommendations."
+    },
+    {
+      "id": "bcn-source-89e9f55210ff",
+      "name": "Decidim Fest organizer",
+      "nameEn": "Decidim Fest organizer",
+      "url": "https://comunitat.canodrom.barcelona/assemblies/comunitat/f/1651/meetings/3207",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "28–30 October 2026 confirmed, but multi-venue per-day details unresolved; not mapped as one fixed-venue event."
+    },
+    {
+      "id": "bcn-source-e02fc2a5bf32",
+      "name": "Decidim Fest city listing",
+      "nameEn": "Decidim Fest city listing",
+      "url": "https://guia.barcelona.cat/es/detall/jornades-decidim-fest-2026-democracia-i-tecnologia-en-un-mon-multipolar_99400697933.html",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Conflict: displayed weekday timetable does not match Wednesday–Friday 28–30 October 2026."
+    },
+    {
+      "id": "bcn-source-3f8d373c7cff",
+      "name": "Barcelona Design Week city listing",
+      "nameEn": "Barcelona Design Week city listing",
+      "url": "https://guia.barcelona.cat/es/detall/barcelona-design-week-2026_99400192731.html",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Multi-venue festival. Date field ends 25 October while prose ends 26 October; individual activities need checking."
+    },
+    {
+      "id": "bcn-source-1577b14e6f62",
+      "name": "Fundació Èpica — MICROBIOTA",
+      "nameEn": "Fundació Èpica — MICROBIOTA",
+      "url": "https://fundacionepica.org/project/workshop-23-microbiota/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_page_verified",
+      "type": "official",
+      "note": "Public shows 7–8 November identified; times/public ticket terms unverified. €150 concerns workshop participants, not public admission."
+    },
+    {
+      "id": "bcn-source-339a77b8d0a1",
+      "name": "Barcelona Culture Telegram (Russian)",
+      "nameEn": "Barcelona Culture Telegram (Russian)",
+      "url": "https://t.me/s/barcelona_event",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "public_feed_read",
+      "type": "telegram",
+      "note": "MICROBIOTA was followed to its primary organizer; no publishable additional event. Several visible AIGEL/SWAB posts were already expired. INTUS/Senda is only a future exhibition lead."
+    },
+    {
+      "id": "bcn-source-8b84f56ccb15",
+      "name": "BCN Startup Club (Russian/English)",
+      "nameEn": "BCN Startup Club (Russian/English)",
+      "url": "https://t.me/s/startups",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "public_feed_read",
+      "type": "telegram",
+      "note": "Read 12–18 October digest. Its concrete event listings ended by 17 October; no next-week dates were fabricated from older digests."
+    },
+    {
+      "id": "bcn-source-f9841ee32242",
+      "name": "Hoy Barcelona Telegram",
+      "nameEn": "Hoy Barcelona Telegram",
+      "url": "https://t.me/s/HoyBarcelona",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "public_feed_read_limited_freshness",
+      "type": "telegram",
+      "note": "Public feed accessible; rendered snapshot appeared stale. Escena Poblenou search lead not treated as verified event."
+    },
+    {
+      "id": "bcn-source-3cfe2bfa563c",
+      "name": "Fira del Llibre Instagram",
+      "nameEn": "Fira del Llibre Instagram",
+      "url": "https://www.instagram.com/firadelllibreocasioanticmodern/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "inaccessible_no_login_retry",
+      "type": "instagram",
+      "note": "One public-page open returned Internal Error. No login attempt, retries or bypass. Municipal official page was used instead."
+    },
+    {
+      "id": "bcn-source-8fbf4d3e8f29",
+      "name": "Reddit Barcelona cultural lead",
+      "nameEn": "Reddit Barcelona cultural lead",
+      "url": "https://www.reddit.com/r/SlowTravelEurope/comments/1wxik6j/how_can_i_experience_the_real_spanishcatalan/",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "render_failed",
+      "type": "reddit",
+      "note": "Targeted r/Barcelona and r/AskBarcelona searches did not produce a dated verifiable launch-window event; this contextual result failed to render."
+    },
+    {
+      "id": "bcn-source-6e84d6510353",
+      "name": "Time Out Barcelona weekly agenda",
+      "nameEn": "Time Out Barcelona weekly agenda",
+      "url": "https://www.timeout.es/barcelona/es/que-hacer/10-cosas-para-hacer-esta-semana",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_secondary_page_read",
+      "type": "local_press",
+      "note": "Actual Google browser worker read the page dated 16 October, covering 19–25 October; useful leads but not primary verification."
+    },
+    {
+      "id": "bcn-source-4c49da061e93",
+      "name": "Sala Apolo L’haine",
+      "nameEn": "Sala Apolo L’haine",
+      "url": "https://www.sala-apolo.com/es/evento/lhaine-20261023-7437",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "full_browser_page_read_time_conflict",
+      "type": "official",
+      "note": "Actual Google browser worker read 23 October 2026. Top banner 19:00 conflicts with detailed doors/start TBC; held pending."
+    },
+    {
+      "id": "bcn-source-d408b289b4b5",
+      "name": "Municipal Bofirax result",
+      "nameEn": "Municipal Bofirax result",
+      "url": "https://agenda500.barcelona.cat/es/detall/concierto-bofirax_99400784450.html",
+      "checkedAt": "2026-10-17T19:50:07Z",
+      "status": "not_found",
+      "type": "official",
+      "note": "Actual Google browser worker followed the result and saw Página no encontrada; excluded."
+    }
+  ],
+  "pending": [
+    {
+      "id": "bcn-pending-lhaine",
+      "title": "L’haine",
+      "date": "2026-10-23",
+      "time": null,
+      "sourceUrl": "https://www.sala-apolo.com/es/evento/lhaine-20261023-7437",
+      "status": "held_for_recheck",
+      "reason": "Official banner says 19:00 but detailed doors/start times are TBC. Do not publish 19:00 as a confirmed performance time.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-decidim",
+      "title": "Decidim Fest 2026",
+      "date": "2026-10-28",
+      "endDate": "2026-10-30",
+      "sourceUrl": "https://comunitat.canodrom.barcelona/assemblies/comunitat/f/1651/meetings/3207",
+      "status": "held_for_recheck",
+      "reason": "Date confirmed, but city timetable weekdays conflict with 2026 dates. Canòdrom and Fabra i Coats both involved; session-level venue and hours needed.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-microbiota",
+      "title": "MICROBIOTA public performances",
+      "date": "2026-11-07",
+      "endDate": "2026-11-08",
+      "sourceUrl": "https://fundacionepica.org/project/workshop-23-microbiota/",
+      "discoverySourceUrl": "https://t.me/s/barcelona_event",
+      "status": "held_for_recheck",
+      "reason": "Public shows at El Born identified, but start times and public admission price not verified. Workshop application deadline has passed; €150 workshop fee is not a public ticket price.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-design-week",
+      "title": "Barcelona Design Week 2026",
+      "sourceUrl": "https://guia.barcelona.cat/es/detall/barcelona-design-week-2026_99400192731.html",
+      "status": "held_for_recheck",
+      "reason": "Multiple venues; date-end conflict 25 versus 26 October. Select and verify individual public sessions rather than a city-centre festival pin.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-ecoss-other-sessions",
+      "title": "ECOSS additional venues",
+      "sourceUrl": "https://ecoss.barcelona/2026_tardor/",
+      "status": "held_for_recheck",
+      "reason": "Other dates: 30 October Convent de Sant Agustí; 3–5 November Goethe-Institut; 6 November Golferichs. Exact session times/coordinates need individual checks. 24 November is outside this horizon.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-timeout-leads",
+      "title": "Additional weekly cultural leads",
+      "sourceUrl": "https://www.timeout.es/barcelona/es/que-hacer/10-cosas-para-hacer-esta-semana",
+      "status": "discovery_only",
+      "reason": "Primary checks still needed: Serielizados Fest (19–28 Oct), Escena Poblenou (22–25 Oct), Asian Film Festival (22 Oct–1 Nov), 080 Fashion Open Area (20–23 Oct), Ciutat Flamenco (16–25 Oct), Sâlmon (14 Oct–3 Nov), La Zona (23 Oct). These are not publishable from the secondary digest alone.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    },
+    {
+      "id": "bcn-pending-nebulossa",
+      "title": "Nebulossa",
+      "date": "2026-10-22",
+      "sourceUrl": "https://www.sala-apolo.com/",
+      "status": "held_for_cancellation_check",
+      "reason": "Actual Google search surfaced an explicit cancelled indication from Songkick and an AI summary. Neither is sufficient primary evidence. Excluded unless an official live event detail resolves cancellation.",
+      "checkedAt": "2026-10-17T19:50:07Z"
+    }
+  ]
+}

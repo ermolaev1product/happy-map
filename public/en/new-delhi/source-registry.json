@@ -1,0 +1,617 @@
+{
+  "city": "New Delhi",
+  "checkedAt": "2026-10-29T03:28:54.964269+00:00",
+  "sources": [
+    {
+      "id": "new-delhi-source-3d2aecfa411eaa",
+      "name": "New Delhi source",
+      "url": "https://www.visitdilli.com/events",
+      "checkedAt": "2026-10-29T03:15:54.721638+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "new-delhi-source-d7802aa317b599",
+      "name": "Things to Do in Delhi Today & This Weekend — Events in Delhi NCR",
+      "url": "https://delhi2go.in/",
+      "checkedAt": "2026-10-29T03:10:48.881026+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-7064aff68aca97",
+      "name": "New Delhi source",
+      "url": "https://indiahabitat.org/Programmes",
+      "checkedAt": "2026-10-29T03:10:54.963762+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 406"
+    },
+    {
+      "id": "new-delhi-source-cc958a05dd9599",
+      "name": "New Delhi source",
+      "url": "https://indiahabitat.org/Exhibitions_Details",
+      "checkedAt": "2026-10-29T03:10:58.977561+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 406"
+    },
+    {
+      "id": "new-delhi-source-66dc9b85576e8e",
+      "name": "home page | India International Centre",
+      "url": "https://iicdelhi.in/",
+      "checkedAt": "2026-10-29T03:11:01.562547+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-f45c47085c980a",
+      "name": "Cultural Events in Delhi | Theatre, Art, Music & Public Programmes",
+      "url": "https://newdelhipulse.in/events/cultural-events-delhi/",
+      "checkedAt": "2026-10-29T03:11:05.542483+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-40afa267155311",
+      "name": "Current Programmes | India International Centre",
+      "url": "https://iicdelhi.in/programmes/current",
+      "checkedAt": "2026-10-29T03:12:47.501608+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-8cb098f20fce86",
+      "name": "THE IIC EXPERIENCE: A FESTIVAL OF THE ARTS: Rukkha, Rakkha, Yakkha: Foundational Evidence for Tree Worship in Indian Art | India International Centre",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-29th-october-3rd-november-2026-prakriti-ecology-and",
+      "checkedAt": "2026-10-29T03:13:03.102704+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-e96700aadc09b4",
+      "name": "THE IIC EXPERIENCE: A FESTIVAL OF THE ARTS -EXHIBITION -FESTIVAL CURTAIN RAISER | India International Centre",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-festival-curtain-raiser",
+      "checkedAt": "2026-10-29T03:13:11.469180+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-c7074f036cf79e",
+      "name": "THE IIC EXPERIENCE: A FESTIVAL OF THE ARTS: Rukkha, Rakkha, Yakkha: Foundational Evidence for Tree Worship in Indian Art | India International Centre",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-rukkha-rakkha-yakkha-foundational-evidence-tree-worship",
+      "checkedAt": "2026-10-29T03:13:14.133744+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-84d71c7bd350d6",
+      "name": "THE IIC EXPERIENCE: A FESTIVAL OF THE ARTS- Film Festival | India International Centre",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-film-festival",
+      "checkedAt": "2026-10-29T03:13:17.061821+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-4a2363a043864c",
+      "name": "THE IIC EXPERIENCE: A FESTIVAL OF THE ARTS – Scent of the Earth | India International Centre",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-scent-earth",
+      "checkedAt": "2026-10-29T03:13:20.086333+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-8f4afe4c4e6016",
+      "name": "New Delhi source",
+      "url": "https://delhi-fun-dos.com/events/",
+      "checkedAt": "2026-10-29T03:15:59.383471+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "new-delhi-source-2222db6b1243c3",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/current?page=1",
+      "checkedAt": "2026-10-29T03:17:55.791080+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-4f041a8fdcdcaf",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/",
+      "checkedAt": "2026-10-29T03:18:01.308174+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-c92ad6a5ebc647",
+      "name": "New Delhi source",
+      "url": "https://www.dastkar.org/event-details/festival-of-lights-22nd-oct-to-3rd-nov-2026",
+      "checkedAt": "2026-10-29T03:18:05.950255+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-87f9544de63cc6",
+      "name": "New Delhi source",
+      "url": "https://www.dastkar.org/event-details/the-grand-handloom-fair-14th-to-23rd-nov-2026",
+      "checkedAt": "2026-10-29T03:18:10.812210+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-ace0eba4df9217",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-living-lightly-journey-pastoralists",
+      "checkedAt": "2026-10-29T03:18:56.427991+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-2d2b9a9cd6179a",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experiencea-festival-arts-exhibitions-palms-and-parchment-keralams-heritage-reading",
+      "checkedAt": "2026-10-29T03:19:00.506896+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-acd0676b890bdd",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-exhibition-birds-india-company-paintings-c1800-and-1835",
+      "checkedAt": "2026-10-29T03:19:03.498800+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-793788342b433a",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-wildlife-conservation-contemporary-india",
+      "checkedAt": "2026-10-29T03:19:06.706955+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-41fe99ff23ad6f",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-world-within-word-poetry-reading-session-nature",
+      "checkedAt": "2026-10-29T03:19:09.336886+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-384080d71d47d9",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-nirvana-nataka",
+      "checkedAt": "2026-10-29T03:19:12.146811+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-93f4f69ec12f59",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-written-word-and-social-progress-how-kerala-achieved-100",
+      "checkedAt": "2026-10-29T03:19:15.576758+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-69f7fa8d032ec3",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-classical-vocal-recital",
+      "checkedAt": "2026-10-29T03:19:18.275627+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-0a69b34903846b",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-architecture-urban-landscapes-and-future-cities",
+      "checkedAt": "2026-10-29T03:19:22.143829+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-253ab806ad1ef5",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/venue/piano-man-jazz-club",
+      "checkedAt": "2026-10-29T03:19:24.599588+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-2884e03cb2196f",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/event/jashn-e-waseem-barelvi-mushaira-kavi-sammelan-20261031-7be863",
+      "checkedAt": "2026-10-29T03:19:28.471263+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-2c7c59bf71716b",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-khon-classical-masked-dance-drama-thailand",
+      "checkedAt": "2026-10-29T03:19:24.907659+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-5e885300a80a99",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/event/extinction-delhi-launch-with-aanchal-malhotra-and-mandira-na-20261029-df1ce0",
+      "checkedAt": "2026-10-29T03:19:33.779119+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-2cc10cb01628bf",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-guardians-grasslands-pastoralism-mobility-and-ecology",
+      "checkedAt": "2026-10-29T03:19:34.352033+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-517b853dfb73a8",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/event/moteraam-ka-satyagrah-theatre-show-by-triveni-theatre-studen-20261029-3ccc83",
+      "checkedAt": "2026-10-29T03:19:37.058906+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-16a7745f12cc5b",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-art-raga-knot-air",
+      "checkedAt": "2026-10-29T03:19:41.155826+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-9385fae097915a",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-release-iic-quarterly-autumn-2026",
+      "checkedAt": "2026-10-29T03:19:51.623457+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-6c788fe65dd22a",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-emotional-world-raga",
+      "checkedAt": "2026-10-29T03:19:54.310418+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-4a0c02e3f9691e",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-seeds-resilience-women-family-farms-and-future-nutritious",
+      "checkedAt": "2026-10-29T03:19:56.847649+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-83e92bd620ba51",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes/iic-experience-festival-arts-ecology-crossroads-climate-change",
+      "checkedAt": "2026-10-29T03:20:01.070359+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-f355175bc705f1",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/visit/saket/",
+      "checkedAt": "2026-10-29T03:21:18.044046+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-163029b6ef7e72",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/exhibitions/bice-lazzari-and-nasreen-mohamedi-in-rhythm",
+      "checkedAt": "2026-10-29T03:20:09.840584+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-71ad3f3886cad8",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/exhibitions/inheritors-of-earth",
+      "checkedAt": "2026-10-29T03:20:15.824257+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-88946930abb7b9",
+      "name": "New Delhi source",
+      "url": "https://www.thepianoman.in/",
+      "checkedAt": "2026-10-29T03:20:23.235529+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-10b441634ac1cc",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/exhibitions/pata-dekhabo",
+      "checkedAt": "2026-10-29T03:20:21.758070+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-3605977862f10e",
+      "name": "New Delhi source",
+      "url": "https://www.waze.com/live-map/directions/dastkar%2C-chattarpur-new-delhi?to=place.w.50594077.505809699.13441699",
+      "checkedAt": "2026-10-29T03:20:28.836007+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-94bceda1309e24",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/workshops/dots-and-lines",
+      "checkedAt": "2026-10-29T03:20:30.451550+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-0f7ff33990d241",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/programmes",
+      "checkedAt": "2026-10-29T03:20:44.316516+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-09e4b1d57d20bc",
+      "name": "New Delhi source",
+      "url": "https://iicdelhi.in/venues",
+      "checkedAt": "2026-10-29T03:20:47.478279+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-0c858ce2dc8b30",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/events/skipping-time",
+      "checkedAt": "2026-10-29T03:20:41.419940+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-04afe0952ed7ad",
+      "name": "New Delhi source",
+      "url": "https://www.knma.org/whats-on/guided-tours/knma-curator-led-walkthrough",
+      "checkedAt": "2026-10-29T03:20:51.373620+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-6bc7a97c8fb5fd",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/go/jashn-e-waseem-barelvi-mushaira-kavi-sammelan-20261031-7be863",
+      "checkedAt": "2026-10-29T03:21:57.928549+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-65d538938ee551",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/go/extinction-delhi-launch-with-aanchal-malhotra-and-mandira-na-20261029-df1ce0",
+      "checkedAt": "2026-10-29T03:22:32.329655+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-96492273c53936",
+      "name": "New Delhi source",
+      "url": "https://delhi2go.in/go/moteraam-ka-satyagrah-theatre-show-by-triveni-theatre-studen-20261029-3ccc83",
+      "checkedAt": "2026-10-29T03:23:01.586565+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-1bae6ff5300092",
+      "name": "New Delhi source",
+      "url": "https://itpo.gov.in/iitf",
+      "checkedAt": "2026-10-29T03:23:21.392864+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-92546f8f82deb9",
+      "name": "New Delhi source",
+      "url": "https://www.waze.com/live-map/directions/triveni-kala-sangam-tansen-marg-new-delhi?to=place.w.50594078.506137391.9236212",
+      "checkedAt": "2026-10-29T03:23:47.601228+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-127e2a089c868d",
+      "name": "New Delhi source",
+      "url": "https://indiaartfestival.com/",
+      "checkedAt": "2026-10-29T03:23:49.775574+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-07497fbfe2d15a",
+      "name": "New Delhi source",
+      "url": "https://www.waze.com/live-map/directions/in/dl/new-delhi/gandhi-peace-foundation?to=place.ChIJ_4eZsiv9DDkRHCrGMQ5XuFI",
+      "checkedAt": "2026-10-29T03:23:54.591946+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-6801674ca1fcb6",
+      "name": "New Delhi source",
+      "url": "https://api.openstreetmap.org/api/0.6/way/1355894099/full",
+      "checkedAt": "2026-10-29T03:25:25.076448+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-b77d771d296290",
+      "name": "New Delhi source",
+      "url": "https://in.near-place.com/art-gallery-iic-annexe-11-lodhi-gardens-lodhi-estate-new-delhi/da",
+      "checkedAt": "2026-10-29T03:26:51.724005+00:00",
+      "status": "blocked_or_unread",
+      "accessStatus": "blocked_or_unread",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "new-delhi-source-f585085796629d",
+      "name": "New Delhi source",
+      "url": "https://tsdsi.in/venue/lecture-room-1-india-international-centre-annexe-k-k-birla-lane-near-iic-main-building-40-max-mueller-marg-new-delhi-110003-2/",
+      "checkedAt": "2026-10-29T03:26:54.023527+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-cd0bc773b57f2c",
+      "name": "New Delhi source",
+      "url": "https://www.waze.com/live-map/directions/in/dl/new-delhi/constitution-club-of-india?to=place.ChIJX0VLh7TiDDkRBDpM7KIID8s",
+      "checkedAt": "2026-10-29T03:28:51.628142+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-83aad72039e7b3",
+      "name": "New Delhi source",
+      "url": "https://www.district.in/events/dots-and-lines-oct31-2026-buy-tickets",
+      "checkedAt": "2026-10-29T03:28:54.964269+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "new-delhi-source-0417c0aea36cea",
+      "name": "New Delhi source",
+      "url": "https://www.google.com/maps/search/?api=1&query=India%20International%20Centre%20Annexe%2C%20Delhi",
+      "checkedAt": "2026-10-29T03:29:02.875339+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

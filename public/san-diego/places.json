@@ -1,0 +1,91 @@
+{
+  "city": "San Diego",
+  "cityId": "san-diego",
+  "timezone": "America/Los_Angeles",
+  "currency": "USD",
+  "generatedAt": "2026-11-02T10:42:31Z",
+  "checkedAt": "2026-11-02T10:42:31Z",
+  "coverage": "Limited initial cultural selection across SDMA and MOPA in Balboa Park, and MCASD in La Jolla within San Diego city. 16 timed sessions and10 real temporary exhibition ranges, not fabricated daily shows. Wednesdays Nov4 have a genuine gap in this selection because all three museums close that day; not a claim the city has no events. Theatre and music sources remain incomplete; municipalcalendar andtourismreviewpartial. Public library source HTTP403 retainedSTOP. No cinema padding; no complete thirty-day coverage claim.",
+  "operatingStatusVerified": false,
+  "description": "Sourced venue selection. A directory entry does not confirm opening today; check the venue before visiting.",
+  "places": [
+    {
+      "id": "san-diego-place-sdma",
+      "title": "The San Diego Museum of Art",
+      "address": "1450 El Prado, San Diego, CA",
+      "description": "Museum with separately dated temporary exhibitions and public programmes. Hours are not daily events.",
+      "category": "art",
+      "lat": 32.732119,
+      "lng": -117.1504179,
+      "coordinateSource": "https://www.sandiego.org/members/san-diego-museum-of-art/391",
+      "coordinatePrecision": "building_approximate",
+      "coordinateEvidence": {
+        "officialAddressUrl": "https://www.sdmart.org/visit-sdma/",
+        "checkedAt": "2026-11-02T10:42:00Z",
+        "proofFile": "sdma-pin-proof.json",
+        "method": "City tourism rendered Get Directions numeric destination, without requesting map target. Exactaddressmatchescurrentmuseumofficialpage. Tourismprogrammes/hoursnotusedbecauseoutdated."
+      },
+      "source": "Official museum",
+      "sourceUrl": "https://www.sdmart.org/visit-sdma/",
+      "checkedAt": "2026-11-02T10:42:00Z",
+      "kind": "place",
+      "city": "San Diego",
+      "cityId": "san-diego",
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "sourceCategory": "museum"
+    },
+    {
+      "id": "san-diego-place-mopa",
+      "title": "Museum of Photographic Arts at SDMA",
+      "address": "1649 El Prado, San Diego, CA",
+      "description": "Museum with separately dated temporary exhibitions and public programmes. Hours are not daily events.",
+      "category": "art",
+      "lat": 32.7311102,
+      "lng": -117.148621,
+      "coordinateSource": "https://www.sandiego.org/members/museum-of-photographic-arts/192",
+      "coordinatePrecision": "building_approximate",
+      "coordinateEvidence": {
+        "officialAddressUrl": "https://www.sdmart.org/visit-mopa-at-sdma/",
+        "checkedAt": "2026-11-02T10:42:00Z",
+        "proofFile": "san-diego-extra-pin-proof.json",
+        "method": "City tourism rendered Get Directions numeric destination, without requesting map target. Exactaddressmatchescurrentmuseumofficialpage. Tourismprogrammes/hoursnotusedbecauseoutdated."
+      },
+      "source": "Official museum",
+      "sourceUrl": "https://www.sdmart.org/visit-mopa-at-sdma/",
+      "checkedAt": "2026-11-02T10:42:00Z",
+      "kind": "place",
+      "city": "San Diego",
+      "cityId": "san-diego",
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "sourceCategory": "museum"
+    },
+    {
+      "id": "san-diego-place-mcasd",
+      "title": "Museum of Contemporary Art San Diego",
+      "address": "700 Prospect Street, La Jolla, San Diego, CA 92037",
+      "description": "Museum with separately dated temporary exhibitions and public programmes. Hours are not daily events.",
+      "category": "art",
+      "lat": 32.8444382,
+      "lng": -117.277655,
+      "coordinateSource": "https://www.sandiego.org/es/node/77506",
+      "coordinatePrecision": "building_approximate",
+      "coordinateEvidence": {
+        "officialAddressUrl": "https://mcasd.org/visit/mcasd",
+        "checkedAt": "2026-11-02T10:42:00Z",
+        "proofFile": "san-diego-extra-pin-proof.json",
+        "method": "City tourism rendered Get Directions numeric destination, without requesting map target. Exactaddressmatchescurrentmuseumofficialpage. Tourismprogrammes/hoursnotusedbecauseoutdated."
+      },
+      "source": "Official museum",
+      "sourceUrl": "https://mcasd.org/visit/mcasd",
+      "checkedAt": "2026-11-02T10:42:00Z",
+      "kind": "place",
+      "city": "San Diego",
+      "cityId": "san-diego",
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "sourceCategory": "museum"
+    }
+  ]
+}

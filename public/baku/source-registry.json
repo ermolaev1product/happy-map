@@ -1,0 +1,168 @@
+{
+  "city": "Baku",
+  "checkedAt": "2026-10-19T08:09:33.678528+00:00",
+  "sources": [
+    {
+      "id": "source-484bf83a11b7",
+      "name": "iticketofficial",
+      "url": "https://t.me/s/iticketofficial",
+      "checkedAt": "2026-10-19T08:02:26.320089+00:00",
+      "status": "imported",
+      "accessStatus": "checked-public-history",
+      "count": 1,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-3a6c5885bbfe",
+      "name": "quizplease_baku",
+      "url": "https://t.me/s/quizplease_baku",
+      "checkedAt": "2026-10-19T08:02:26.309979+00:00",
+      "status": "checked-public-history",
+      "accessStatus": "checked-public-history",
+      "count": 0,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-753c1dfba2cb",
+      "name": "urcellardoor",
+      "url": "https://t.me/s/urcellardoor",
+      "checkedAt": "2026-10-19T08:02:26.043307+00:00",
+      "status": "checked-public-history",
+      "accessStatus": "checked-public-history",
+      "count": 0,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-7508da8a0251",
+      "name": "iticket.az",
+      "url": "https://iticket.az/en",
+      "checkedAt": "2026-10-19T08:09:33.678528+00:00",
+      "status": "imported",
+      "accessStatus": "checked",
+      "count": 9,
+      "note": "",
+      "type": "web"
+    },
+    {
+      "id": "source-7d36f7c5f40f",
+      "name": "kapellhaus.az",
+      "url": "https://kapellhaus.az/az/elaqe",
+      "checkedAt": "2026-10-19T08:09:33.678528+00:00",
+      "status": "checked",
+      "accessStatus": "checked",
+      "count": 0,
+      "note": "",
+      "type": "web"
+    },
+    {
+      "id": "source-d732a7832253",
+      "name": "www.paulaner-brauhaus-baku.com",
+      "url": "https://www.paulaner-brauhaus-baku.com/en/contact/",
+      "checkedAt": "2026-10-19T08:09:33.678528+00:00",
+      "status": "checked",
+      "accessStatus": "checked",
+      "count": 0,
+      "note": "",
+      "type": "web"
+    },
+    {
+      "id": "source-18f1ce2e164c",
+      "name": "event.gun.az",
+      "url": "https://event.gun.az/",
+      "checkedAt": "2026-10-19T08:09:33.678528+00:00",
+      "status": "checked",
+      "accessStatus": "checked",
+      "count": 0,
+      "note": "",
+      "type": "web"
+    },
+    {
+      "id": "source-44d89e54104f",
+      "name": "azerbaijan.travel",
+      "url": "https://azerbaijan.travel/events/special-events/top-events-for-this-autumn",
+      "checkedAt": "2026-10-19T08:09:33.678528+00:00",
+      "status": "checked",
+      "accessStatus": "checked",
+      "count": 0,
+      "note": "",
+      "type": "web"
+    },
+    {
+      "id": "source-b9ecfd39008c",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/relation/2415335",
+      "checkedAt": "2026-10-19T08:06:29.092156+00:00",
+      "status": "directory_snapshot",
+      "accessStatus": "directory_snapshot",
+      "count": 0,
+      "note": "2488 named place records after boundary filtering and deduplication; operating status not individually verified. ODbL source export: /downloads/city-directories-20261019/baku-osm.json.gz"
+    },
+    {
+      "id": "overnight29-source-67cb0352864d7568",
+      "name": "iTicket.AZ official ticket seller",
+      "url": "https://iticket.az/events/concerts/mugham-evening9637894",
+      "checkedAt": "2026-10-29T01:35:43Z",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Selected dated programme facts checked; not full venue or city coverage. Unknown fees/end times remain unknown.",
+      "sourceReadAt": null,
+      "sourceReadWindow": {
+        "from": "2026-10-29T01:28:00Z",
+        "to": "2026-10-29T01:34:18Z",
+        "note": "Bounded by current execution history; exact source-fetch seconds not retained."
+      },
+      "checkedAtPrecision": "Evidence review of full source responses retained in current run; not a new fetch."
+    },
+    {
+      "id": "overnight29-source-506ee486024abb7a",
+      "name": "iTicket.AZ official ticket seller",
+      "url": "https://iticket.az/events/biaf/rezo-gabriadze-marionette-theatre-or-alfred-and-violetta",
+      "checkedAt": "2026-10-29T01:35:43Z",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 4,
+      "note": "Selected dated programme facts checked; not full venue or city coverage. Unknown fees/end times remain unknown.",
+      "sourceReadAt": null,
+      "sourceReadWindow": {
+        "from": "2026-10-29T01:28:00Z",
+        "to": "2026-10-29T01:34:18Z",
+        "note": "Bounded by current execution history; exact source-fetch seconds not retained."
+      },
+      "checkedAtPrecision": "Evidence review of full source responses retained in current run; not a new fetch."
+    },
+    {
+      "id": "overnight29-source-1d58766bf8f9a73e",
+      "name": "iTicket.AZ official ticket seller",
+      "url": "https://iticket.az/events/biaf/david-garrett-or-crossover-programme-millennium-symphony",
+      "checkedAt": "2026-10-29T01:35:43Z",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Selected dated programme facts checked; not full venue or city coverage. Unknown fees/end times remain unknown.",
+      "sourceReadAt": null,
+      "sourceReadWindow": {
+        "from": "2026-10-29T01:28:00Z",
+        "to": "2026-10-29T01:34:18Z",
+        "note": "Bounded by current execution history; exact source-fetch seconds not retained."
+      },
+      "checkedAtPrecision": "Evidence review of full source responses retained in current run; not a new fetch."
+    },
+    {
+      "id": "source-5b5b927ceb87",
+      "name": "iTicket.AZ — Shahar Binyamini event detail",
+      "url": "https://iticket.az/en/events/biaf/shahar-binyamini-or-new-earth-bolero-x/245764",
+      "type": "web",
+      "checkedAt": "2026-10-29T23:56:56.414198+00:00",
+      "status": "imported",
+      "accessStatus": "checked-full-public-body",
+      "count": 2,
+      "note": "One programme, two independently dated starts; not a multi-day range. Existing theatre reused. Unknown fees/end retained."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
+  "editorialUpdatedAt": "2026-10-29T01:36:34.306269+00:00"
+}

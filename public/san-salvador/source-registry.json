@@ -1,0 +1,297 @@
+{
+  "city": "San Salvador",
+  "checkedAt": "2026-10-29T04:11:47.834888+00:00",
+  "sources": [
+    {
+      "id": "san-salvador-source-a05595bc93e0bd",
+      "name": "elsalvador.travel",
+      "url": "https://elsalvador.travel/esp/agenda/",
+      "checkedAt": "2026-10-29T04:02:45.177801+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-9f705d9c386675",
+      "name": "tienda.cultura.gob.sv",
+      "url": "https://tienda.cultura.gob.sv/events",
+      "checkedAt": "2026-10-29T04:02:51.705701+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-18c8d10ee75667",
+      "name": "museomarte.org",
+      "url": "https://museomarte.org/agenda/",
+      "checkedAt": "2026-10-29T04:02:54.073494+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-1fbf936464096e",
+      "name": "sansalvador.gob.sv",
+      "url": "https://sansalvador.gob.sv/dia-de-los-difuntos-cementerios-municipales-listos-para-recibir-a-mas-de-70-mil-visitantes/",
+      "checkedAt": "2026-10-29T04:02:58.043802+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 22,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-0f7e55c8ec34db",
+      "name": "www.contrapunto.com.sv",
+      "url": "https://www.contrapunto.com.sv/cultura/eventos-cultura/",
+      "checkedAt": "2026-10-29T04:03:01.555739+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-c58c24d8062162",
+      "name": "www.simpletix.com",
+      "url": "https://www.simpletix.com/e/avenida-q-tickets-248349",
+      "checkedAt": "2026-10-29T04:03:04.566932+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 9,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-b4036dbd91d8aa",
+      "name": "todaentrada.com",
+      "url": "https://todaentrada.com/elsalvador/ciudad/san-salvador/",
+      "checkedAt": "2026-10-29T04:03:07.994697+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-f5f5769e87c20d",
+      "name": "museomarte.org",
+      "url": "https://museomarte.org/agenda/proyeccion-de-cortos-delirium-tapes/",
+      "checkedAt": "2026-10-29T04:03:30.991663+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-301e20c6912424",
+      "name": "museomarte.org",
+      "url": "https://museomarte.org/agenda/charlas-culturales-2026-origen-y-memoria/",
+      "checkedAt": "2026-10-29T04:03:34.400212+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-caa90b1f997182",
+      "name": "museomarte.org",
+      "url": "https://museomarte.org/exposiciones-presenciales/",
+      "checkedAt": "2026-10-29T04:03:37.775958+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-95b40970682c2b",
+      "name": "museomarte.org",
+      "url": "https://museomarte.org/visitanos/",
+      "checkedAt": "2026-10-29T04:03:41.836205+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-e2ae46a00020a0",
+      "name": "ccesv.aecid.es",
+      "url": "https://ccesv.aecid.es/",
+      "checkedAt": "2026-10-29T04:03:46.823064+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-0878f5f8d16101",
+      "name": "ccesv.aecid.es",
+      "url": "https://ccesv.aecid.es/cce/contacta-con-el-cce",
+      "checkedAt": "2026-10-29T04:04:32.840810+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-2f85c68e74c945",
+      "name": "ccesv.aecid.es",
+      "url": "https://ccesv.aecid.es/w/la-escuela-generosa-2026-mujeres-con-discapacidad-historia-derechos-y-ciudadania-en-el-salvador",
+      "checkedAt": "2026-10-29T04:04:36.933797+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-6023535d5e737c",
+      "name": "ccesv.aecid.es",
+      "url": "https://ccesv.aecid.es/w/a2bandas-morelu-dias-de-octubre",
+      "checkedAt": "2026-10-29T04:04:40.593079+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-05ef90954bc77c",
+      "name": "ccesv.aecid.es",
+      "url": "https://ccesv.aecid.es/w/exposicion-cooperacion-es-cultura",
+      "checkedAt": "2026-10-29T04:04:44.464710+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 4,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-309917b6b4e8d5",
+      "name": "ccesv.aecid.es",
+      "url": "https://ccesv.aecid.es/w/exposicion-sculpture-shipping",
+      "checkedAt": "2026-10-29T04:04:47.753055+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-492e0058063a73",
+      "name": "ccesv.aecid.es",
+      "url": "https://ccesv.aecid.es/w/taller-de-pequenos-reporteros-2026-periodismo-performatico",
+      "checkedAt": "2026-10-29T04:04:51.019194+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-a4acb27b9f40f8",
+      "name": "ccesv.aecid.es",
+      "url": "https://ccesv.aecid.es/w/yo-lucia-con-teatro-al-viento",
+      "checkedAt": "2026-10-29T04:04:54.553994+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-4f4a6c99520407",
+      "name": "ccesv.aecid.es",
+      "url": "https://ccesv.aecid.es/w/taller-infantil-fotobordado-la-naturaleza-que-habita-en-mi",
+      "checkedAt": "2026-10-29T04:04:57.981019+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-f5f1272d6423c6",
+      "name": "museomarte.org",
+      "url": "https://museomarte.org/exposiciones/sumarte-2026/",
+      "checkedAt": "2026-10-29T04:04:55.828979+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-159a85f12928d3",
+      "name": "museomarte.org",
+      "url": "https://museomarte.org/exposiciones/indulgencia-premeditada-chocolate-en-los-izalcos/",
+      "checkedAt": "2026-10-29T04:05:02.753501+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-1cce373a46d26c",
+      "name": "www.waze.com",
+      "url": "https://www.waze.com/es/live-map/directions/sv/san-salvador-department/san-salvador/cementerio-los-ilustres?to=place.ChIJAeHd4-8wY48RVOUXZxZpf1Y",
+      "checkedAt": "2026-10-29T04:05:03.506615+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-d194e9ac1553c0",
+      "name": "museomarte.org",
+      "url": "https://museomarte.org/exposiciones/palmeras-cansadas/",
+      "checkedAt": "2026-10-29T04:05:06.999301+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-20eb9e982efa35",
+      "name": "museomarte.org",
+      "url": "https://museomarte.org/exposiciones/memorable-ii-edicion/",
+      "checkedAt": "2026-10-29T04:05:11.160720+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-105658a0f118de",
+      "name": "centrohistorico.gob.sv",
+      "url": "https://centrohistorico.gob.sv/rutas-turisticas/ruta-en-plazas/",
+      "checkedAt": "2026-10-29T04:05:08.713236+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-c93d3fcd696a44",
+      "name": "www.waze.com",
+      "url": "https://www.waze.com/live-map/directions/el-salvador/san-salvador-department/san-salvador/escenario-millennium-by-black-coyote?to=place.ChIJwXDwbwAxY48R4vatohR-Tgo",
+      "checkedAt": "2026-10-29T04:08:38.506624+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-bba51b684e839d",
+      "name": "www.waze.com",
+      "url": "https://www.waze.com/el/live-map/directions/centro-cultural-de-espana-en-el-salvador-calle-la-reforma-166-colonia-san-benito%2C-san-salvador?to=place.w.177471625.1774519641.1634154",
+      "checkedAt": "2026-10-29T04:09:33.207773+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "san-salvador-source-496ac67006a5a2",
+      "name": "www.waze.com",
+      "url": "https://www.waze.com/es-419/live-map/directions/museo-nacional-de-antropologia-dr.-david-j.-guzman-av.-la-revolucion-san-salvador?to=place.w.177471625.1774454105.331838",
+      "checkedAt": "2026-10-29T04:09:38.066002+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

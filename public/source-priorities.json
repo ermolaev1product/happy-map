@@ -1,0 +1,446 @@
+{
+  "reviewedAt": "2026-10-08",
+  "method": "Счётчик событий использует основной sourceUrl; ссылки мест — sourceUrl, sourceURLs, сайт и источник цены. Счётчики мест у разных источников могут пересекаться. Ноль не означает отсутствие мероприятий у источника.",
+  "sources": [
+    {
+      "city": "tbilisi",
+      "name": "TKT.ge",
+      "url": "https://tkt.ge/en",
+      "type": "Билеты",
+      "scope": "Концерты, театр, опера, фестивали",
+      "note": "Есть импорт; проверять отмены, цену от и адрес конкретного зала.",
+      "priority": "1",
+      "match": "https://tkt.ge/"
+    },
+    {
+      "city": "tbilisi",
+      "name": "Biletebi.ge",
+      "url": "https://biletebi.ge/en",
+      "type": "Билеты",
+      "scope": "Крупные события и небольшие концерты",
+      "note": "8 октября перепроверены три карточки: они уже были в базе.",
+      "priority": "1",
+      "match": "https://biletebi.ge/"
+    },
+    {
+      "city": "tbilisi",
+      "name": "Kinoafisha",
+      "url": "https://kinoafisha.ge/sessions?lang=eng",
+      "type": "Кино",
+      "scope": "Сеансы, время, кинотеатр",
+      "note": "Главный источник количества записей. Сеансы одного кинотеатра — не разные места.",
+      "priority": "1",
+      "match": "https://kinoafisha.ge/"
+    },
+    {
+      "city": "tbilisi",
+      "name": "Яндекс Карты",
+      "url": "https://yandex.com/maps/org/graal_bar/226967249800/",
+      "type": "Места и цены",
+      "scope": "Адрес, часы, цена бокала там, где она опубликована",
+      "note": "Карточка Graal прочитана 8 октября: 5–12 GEL, объём не указан. Массового импорта Яндекса нет; часть карточек ограничивает чтение.",
+      "priority": "1",
+      "match": "yandex"
+    },
+    {
+      "city": "tbilisi",
+      "name": "Меню самих заведений",
+      "url": "https://poddonbar.ru/tbilisi/PODDON.pdf",
+      "type": "Меню",
+      "scope": "Напиток, объём и цена в заведении",
+      "note": "Ссылка на меню найдена. Эту версию PDF ещё нужно проверить; найденная ссылка не подтверждает сегодняшние цены.",
+      "priority": "2",
+      "match": "https://poddonbar.ru/tbilisi/PODDON.pdf"
+    },
+    {
+      "city": "tbilisi",
+      "name": "MESTO",
+      "url": "https://t.me/mesto_info",
+      "type": "Telegram",
+      "scope": "Лекции, встречи и небольшие вечера",
+      "note": "Есть выборочные анонсы. При обновлении нужна дата конкретного сообщения.",
+      "priority": "1",
+      "match": "https://t.me/mesto_info"
+    },
+    {
+      "city": "tbilisi",
+      "name": "Auditoria",
+      "url": "https://t.me/auditoria_tbilisi",
+      "type": "Telegram",
+      "scope": "Лекции, дискуссии, культурные встречи",
+      "note": "Проверять программу площадки, а не только описание канала.",
+      "priority": "1",
+      "match": "https://t.me/auditoria_tbilisi"
+    },
+    {
+      "city": "tbilisi",
+      "name": "Art Cinema",
+      "url": "https://t.me/artcinema_ge",
+      "type": "Telegram",
+      "scope": "Независимое кино и обсуждения",
+      "note": "Есть сохранённые сеансы. Повторное чтение превью 8 октября инструменту недоступно; старые данные не считаем свежими.",
+      "priority": "1",
+      "match": "https://t.me/artcinema_ge"
+    },
+    {
+      "city": "tbilisi",
+      "name": "FOMO",
+      "url": "https://t.me/fomocinema",
+      "type": "Telegram",
+      "scope": "Кинопоказы",
+      "note": "Импорт выборочный; проверять дату, адрес и язык сеанса.",
+      "priority": "1",
+      "match": "https://t.me/fomocinema"
+    },
+    {
+      "city": "tbilisi",
+      "name": "Odradek / Tiflis Books",
+      "url": "https://t.me/tiflis_books",
+      "type": "Telegram",
+      "scope": "Книжные встречи и киноклуб",
+      "note": "Полезен для небольших событий, которых нет у билетных операторов.",
+      "priority": "1",
+      "match": "https://t.me/tiflis_books"
+    },
+    {
+      "city": "tbilisi",
+      "name": "Квизы Тбилиси",
+      "url": "https://t.me/quiz_tbi",
+      "type": "Telegram",
+      "scope": "Игры и квизы",
+      "note": "Указывать условия команды и регистрацию, когда они опубликованы.",
+      "priority": "1",
+      "match": "https://t.me/quiz_tbi"
+    },
+    {
+      "city": "tbilisi",
+      "name": "Fabrika",
+      "url": "https://fabrikatbilisi.com/",
+      "type": "Площадка",
+      "scope": "Маркеты, мастерские, игры, бары",
+      "note": "Справочник резидентов помогает заполнить места; наличие резидента не подтверждает событие сегодня.",
+      "priority": "2",
+      "match": "https://fabrikatbilisi.com/"
+    },
+    {
+      "city": "tbilisi",
+      "name": "Dedaena",
+      "url": "https://dedaenabar.ge/",
+      "type": "Площадка",
+      "scope": "Музыкальная программа",
+      "note": "Нужен отдельный разбор датированных афиш, не переносить прошлые вечеринки.",
+      "priority": "2",
+      "match": "https://dedaenabar.ge/"
+    },
+    {
+      "city": "tbilisi",
+      "name": "Georgia Travel · Dry Bridge",
+      "url": "https://georgia.travel/flea-markets/dry-bridge-flea-market",
+      "type": "Места",
+      "scope": "Блошиный рынок и старые вещи",
+      "note": "Официальный туристический источник для карточки места. Рынок не превращается в ежедневное событие.",
+      "priority": "2",
+      "match": "https://georgia.travel/flea-markets/dry-bridge-flea-market"
+    },
+    {
+      "city": "tbilisi",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/",
+      "type": "Места",
+      "scope": "Координаты, категории, адреса и часы",
+      "note": "Основа большого каталога мест. Запись в карте не гарантирует, что заведение ещё работает.",
+      "priority": "1",
+      "match": "https://www.openstreetmap.org/"
+    },
+    {
+      "city": "belgrade",
+      "name": "Afisha.rs",
+      "url": "https://afisha.rs/ru",
+      "type": "Афиша",
+      "scope": "Разные категории событий",
+      "note": "Главный агрегатор текущей подборки; дубли сверять с организатором.",
+      "priority": "1",
+      "match": "https://afisha.rs/"
+    },
+    {
+      "city": "belgrade",
+      "name": "Tickets.rs",
+      "url": "https://tickets.rs/",
+      "type": "Билеты",
+      "scope": "Концерты, театр, платные события",
+      "note": "Есть импорт. Дополнительная ссылка на билет не считается отдельным событием.",
+      "priority": "1",
+      "match": "https://tickets.rs/"
+    },
+    {
+      "city": "belgrade",
+      "name": "eFinity",
+      "url": "https://efinity.rs/",
+      "type": "Билеты",
+      "scope": "Концерты и крупные площадки",
+      "note": "Приоритет расширения: часть событий ведёт сюда за билетом, полного прямого импорта нет.",
+      "priority": "1",
+      "match": "https://efinity.rs/"
+    },
+    {
+      "city": "belgrade",
+      "name": "Gigstix",
+      "url": "https://new.gigstix.com/location/beograd/?post_type=event",
+      "type": "Билеты",
+      "scope": "Концерты, Drugstore и Karmakoma",
+      "note": "Программа найдена ранее; нужен устойчивый импорт всех релевантных карточек.",
+      "priority": "1",
+      "match": "https://new.gigstix.com/"
+    },
+    {
+      "city": "belgrade",
+      "name": "Культурный центр Белграда",
+      "url": "https://www.kcb.org.rs/",
+      "type": "Кино и искусство",
+      "scope": "Киносеансы, выставки и программы",
+      "note": "Есть импорт FEST; не считать его полным репертуаром кинотеатров.",
+      "priority": "1",
+      "match": "https://www.kcb.org.rs/"
+    },
+    {
+      "city": "belgrade",
+      "name": "Jugoslovenska kinoteka",
+      "url": "https://www.kinoteka.org.rs/repertoar-programi/",
+      "type": "Кино",
+      "scope": "Классическое кино и специальные программы",
+      "note": "8 октября добавлены 10 показов и открытие выставки в зале Узун Миркова, 1. Другой зал проверяется отдельно.",
+      "priority": "1",
+      "match": "https://www.kinoteka.org.rs/"
+    },
+    {
+      "city": "belgrade",
+      "name": "KC Grad",
+      "url": "https://www.kcgrad.rs/calendar/",
+      "type": "Площадка",
+      "scope": "Концерты, вечеринки, встречи",
+      "note": "8 октября добавлены два вечера из официального календаря; цены пока неизвестны.",
+      "priority": "1",
+      "match": "https://www.kcgrad.rs/"
+    },
+    {
+      "city": "belgrade",
+      "name": "Changeover",
+      "url": "https://changeoverfestival.com/",
+      "type": "Фестиваль",
+      "scope": "Выступления по отдельным площадкам",
+      "note": "Есть импорт расписания фестиваля. Это временное наполнение; после фестиваля нужен другой источник.",
+      "priority": "1",
+      "match": "https://changeoverfestival.com/"
+    },
+    {
+      "city": "belgrade",
+      "name": "BUPBAP",
+      "url": "https://bupbap.com/program/",
+      "type": "Площадка",
+      "scope": "Камерные события и встречи",
+      "note": "Есть выборочная программа.",
+      "priority": "1",
+      "match": "https://bupbap.com/"
+    },
+    {
+      "city": "belgrade",
+      "name": "Narodno pozorište",
+      "url": "https://www.narodnopozoriste.rs/lat",
+      "type": "Театр",
+      "scope": "Опера, балет и драма",
+      "note": "Часть событий найдена через агрегатор; прямой репертуар — приоритет для полноты.",
+      "priority": "1",
+      "match": "https://www.narodnopozoriste.rs/"
+    },
+    {
+      "city": "belgrade",
+      "name": "Beogradske pijace",
+      "url": "https://www.bgpijace.rs/?page_id=178&lang=en",
+      "type": "Рынки",
+      "scope": "Рынки, ярмарки, ночные маркеты",
+      "note": "Проверен официальный справочник. Постоянный рынок и ярмарка на конкретную дату — разные записи.",
+      "priority": "1",
+      "match": "https://www.bgpijace.rs/"
+    },
+    {
+      "city": "belgrade",
+      "name": "PoštoPiće",
+      "url": "https://postopice.rs/en/price/pivo/beograd",
+      "type": "Меню",
+      "scope": "Цена напитка, порция, месяц меню",
+      "note": "Добавлена цена Docker: 350 RSD за 0,33 л, 420 за 0,5 л; меню 09.2026. Это справочник меню, не прямая связь с кассой.",
+      "priority": "1",
+      "match": "https://postopice.rs/"
+    },
+    {
+      "city": "belgrade",
+      "name": "АФИША Белграда · Telegram",
+      "url": "https://t.me/afisha_rs",
+      "type": "Telegram",
+      "scope": "Небольшие встречи, занятия и мастер-классы",
+      "note": "Превью прочитано 8 октября. Не все публикации относятся к текущей неделе; отдельного полного импорта нет.",
+      "priority": "1",
+      "match": "https://t.me/afisha_rs"
+    },
+    {
+      "city": "belgrade",
+      "name": "Вранин Таван",
+      "url": "https://t.me/vranin_tavan",
+      "type": "Telegram",
+      "scope": "Камерные выступления и встречи",
+      "note": "Есть выборочные анонсы в базе, нужна ежедневная проверка новых публикаций.",
+      "priority": "1",
+      "match": "https://t.me/vranin_tavan"
+    },
+    {
+      "city": "belgrade",
+      "name": "Black Cat",
+      "url": "https://t.me/blackcat_beograd",
+      "type": "Telegram",
+      "scope": "Настолки, киноклубы, встречи",
+      "note": "Нужны даты конкретных встреч; общая возможность поиграть относится к месту.",
+      "priority": "1",
+      "match": "https://t.me/blackcat_beograd"
+    },
+    {
+      "city": "belgrade",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/",
+      "type": "Места",
+      "scope": "Координаты и обычные места",
+      "note": "Каталог смещён в сторону баров. Нужны дополнительные музеи, винтаж, рынки и районные площадки.",
+      "priority": "1",
+      "match": "https://www.openstreetmap.org/"
+    },
+    {
+      "city": "moscow",
+      "name": "Афиша",
+      "url": "https://www.afisha.ru/msk/events/",
+      "type": "Афиша",
+      "scope": "Кино, театр, концерты, выставки",
+      "note": "Есть выборочный импорт; сегодняшняя главная страница доступна. Полной московской афиши в базе нет.",
+      "priority": "1",
+      "match": "https://www.afisha.ru/"
+    },
+    {
+      "city": "moscow",
+      "name": "KudaGo",
+      "url": "https://kudago.com/msk/",
+      "type": "Афиша",
+      "scope": "События и бесплатный досуг",
+      "note": "Сохранённые записи есть; повторное чтение сайта 8 октября не удалось. Данные не удаляем и не помечаем как перепроверенные.",
+      "priority": "1",
+      "match": "https://kudago.com/msk/"
+    },
+    {
+      "city": "moscow",
+      "name": "Мос.ру · Афиша",
+      "url": "https://www.mos.ru/afisha/",
+      "type": "Город",
+      "scope": "Городские и районные события",
+      "note": "Кандидат для расширения: чтение сейчас не удалось, прямой импорт не подтверждён.",
+      "priority": "2",
+      "match": "https://www.mos.ru/afisha/"
+    },
+    {
+      "city": "moscow",
+      "name": "Культура.РФ",
+      "url": "https://www.culture.ru/afisha/moskva",
+      "type": "Культура",
+      "scope": "Музеи, библиотеки, культурные учреждения",
+      "note": "Кандидат для охвата районов. Проверка страницы завершилась тайм-аутом; импорт не настроен.",
+      "priority": "2",
+      "match": "https://www.culture.ru/"
+    },
+    {
+      "city": "moscow",
+      "name": "16 Тонн",
+      "url": "https://www.16tons.ru/",
+      "type": "Площадка",
+      "scope": "Концерты",
+      "note": "Есть конкретные записи с официального сайта; проверять дату, зал и билеты.",
+      "priority": "1",
+      "match": "https://www.16tons.ru/"
+    },
+    {
+      "city": "moscow",
+      "name": "Центр «Зотов»",
+      "url": "https://centrezotov.ru/",
+      "type": "Площадка",
+      "scope": "Кино, выставки и лекции",
+      "note": "Есть выборочные записи; бесплатность не выводим из наличия кнопки регистрации.",
+      "priority": "1",
+      "match": "https://centrezotov.ru/"
+    },
+    {
+      "city": "moscow",
+      "name": "Винзавод",
+      "url": "https://www.winzavod.ru/",
+      "type": "Площадка",
+      "scope": "Выставки и арт-маркеты",
+      "note": "Есть импорт. Хороший источник для расширения за пределы баров.",
+      "priority": "1",
+      "match": "https://www.winzavod.ru/"
+    },
+    {
+      "city": "moscow",
+      "name": "Хлебозавод №9",
+      "url": "https://hlebozavod9.ru/",
+      "type": "Площадка",
+      "scope": "Пространство, магазины, маркеты",
+      "note": "Карточка места есть; старая программа не переносится на сегодня.",
+      "priority": "1",
+      "match": "https://hlebozavod9.ru/"
+    },
+    {
+      "city": "moscow",
+      "name": "Яндекс Карты",
+      "url": "https://yandex.com/maps/org/papa_s_bar/32063149164/?lang=ru",
+      "type": "Места и цены",
+      "scope": "Адреса, часы и цены бокала",
+      "note": "Papa’s Bar: в карточке 450–650 ₽ за бокал; объём не указан. Проверено 8 октября, в каталог мест пока не внесено.",
+      "priority": "1",
+      "match": "yandex"
+    },
+    {
+      "city": "moscow",
+      "name": "Привет, не хочешь сходить?",
+      "url": "https://t.me/privetpoidem",
+      "type": "Telegram",
+      "scope": "Необычные и небольшие события",
+      "note": "Использовался для обнаружения анонсов, затем проверка у организатора; это не полный поток сообщений.",
+      "priority": "1",
+      "match": "https://t.me/privetpoidem"
+    },
+    {
+      "city": "moscow",
+      "name": "Бесплатная Москва",
+      "url": "https://t.me/moscowafishi",
+      "type": "Telegram",
+      "scope": "Бесплатные события",
+      "note": "Канал есть в реестре; неполные анонсы не выдаём за подтверждённую программу.",
+      "priority": "1",
+      "match": "https://t.me/moscowafishi"
+    },
+    {
+      "city": "moscow",
+      "name": "Noor Family",
+      "url": "https://t.me/noorbarlive",
+      "type": "Telegram",
+      "scope": "Музыка и программа бара",
+      "note": "Публичный канал площадки. Карточка бара есть, свежие события требуют отдельной проверки.",
+      "priority": "1",
+      "match": "https://t.me/noorbarlive"
+    },
+    {
+      "city": "moscow",
+      "name": "Ровесник",
+      "url": "https://t.me/rovesnikbar",
+      "type": "Telegram",
+      "scope": "Программа бара и встречи",
+      "note": "Карточка места есть. Наличие профиля не означает импорт всех анонсов.",
+      "priority": "1",
+      "match": "https://t.me/rovesnikbar"
+    }
+  ]
+}

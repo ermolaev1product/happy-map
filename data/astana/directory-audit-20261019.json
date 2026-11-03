@@ -1,0 +1,47 @@
+{
+  "rawElements": 1066,
+  "publishedPlaces": 901,
+  "excluded": {
+    "unnamed_or_unselected": 158,
+    "closed_or_private": 2
+  },
+  "duplicates": [
+    {
+      "retained": "osm:node:1198117093",
+      "excluded": "osm:node:1198118007"
+    },
+    {
+      "retained": "osm:node:12049030099",
+      "excluded": "osm:node:12049030108"
+    },
+    {
+      "retained": "osm:node:12896623405",
+      "excluded": "osm:node:12917084210"
+    },
+    {
+      "retained": "osm:node:12973394495",
+      "excluded": "osm:node:12990081601"
+    },
+    {
+      "retained": "osm:node:5130027840",
+      "excluded": "osm:way:166197368"
+    }
+  ],
+  "categories": {
+    "food": 642,
+    "bar": 106,
+    "sport": 35,
+    "theatre": 9,
+    "film": 10,
+    "city": 29,
+    "books": 15,
+    "art": 15,
+    "club": 3,
+    "games": 1,
+    "park": 36
+  },
+  "missingAddresses": 763,
+  "boundarySource": "https://www.openstreetmap.org/relation/3087156",
+  "operatingStatusVerified": false,
+  "scope": "Selected public leisure, cultural and food venues inside OSM administrative boundary. Not an exhaustive or individually rechecked business directory."
+}

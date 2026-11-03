@@ -1,0 +1,433 @@
+{
+  "city": "Oslo",
+  "windowStart": "2026-10-28",
+  "windowEnd": "2026-11-26",
+  "checkedAt": "2026-10-28T02:31:20Z",
+  "complete": false,
+  "coverageAudit": {
+    "complete": false,
+    "mainAgenda": "Read first visible12items of VisitOslo broad calendar, which reported3326events and278pages. Pagination Next and numbers render without link targets in available web output. No claim that pages2–278 were read.",
+    "categoryCalendarsRead": [
+      "https://www.visitoslo.com/whats-on/festivals/festival-calendar",
+      "https://www.visitoslo.com/whats-on/events/childrens-calendar",
+      "https://www.visitoslo.com/whats-on/events/exhibitions",
+      "https://www.visitoslo.com/whats-on/events/markets",
+      "https://www.visitoslo.com/whats-on/events/sporting-events",
+      "https://www.visitoslo.com/whats-on/events/concerts",
+      "https://www.visitoslo.com/whats-on/events/theatre"
+    ],
+    "strategy": "Read full visible date headings and open selected event details; join year only to explicit2026calendar or organizer. Hidden extra dates not invented. NMH and OsloWorld organizer programmes supersede conflicting tourist prose.",
+    "boundary": "Window28Oct–26Nov2026 inclusive. LateNovember gaps are real research gaps, not assertion of no events.",
+    "paginationBlocker": {
+      "action": "Read next broad-calendar result page",
+      "target": "https://www.visitoslo.com/whats-on/events",
+      "reason": "Rendered next/page controls expose no URLs through allowed web reader; browser interaction excluded by task.",
+      "status": "partial_source_coverage"
+    },
+    "coordinatePolicy": "Only named map payload coordinates accepted; most coordinates left null for launch QA.",
+    "prices": "Unknown null; no invented free admission; ticket inventory not checked by purchase.",
+    "firstSevenDatesCovered": true,
+    "coveredDates": [
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-25"
+    ],
+    "gapDates": [
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-26"
+    ],
+    "dateMatrixPolicy": "Counts exclude explicit holds, even if dated.",
+    "additionalFetchFailures": [
+      "NMH coffee3/4 details timedout twice; fullprogramme read",
+      "Watercolor workshop detail cachemiss",
+      "Children jazz21Nov detail+ticket inaccessible",
+      "Josefine18Nov ticket cachemiss"
+    ],
+    "theatreLimitation": "Read first12items; cached page starts25Oct and ends27Oct2026, outside requested horizon; next has no link target. No theatre occurrence imported from it."
+  },
+  "reserveCoverageAudit": {
+    "sourceRead": "Current non-paginated Oslo World festival programme and ten event details plus seven official festival venue pages.",
+    "coveredDates": [
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01"
+    ],
+    "festivalDates": [
+      "2026-10-27",
+      "2026-11-01"
+    ],
+    "notCovered": "Reserve festival only; no claim to cover Oslo city agenda or dates 2–26 November. Other current programme items exist and are not fully enumerated here.",
+    "ticketInventory": "No transactional checkout verification; few-tickets status is the organizer announcement, not a live guarantee.",
+    "unknownFields": "Null means not stated/verified, including age/access/cancelled/sold-out unless an explicit statement is reported.",
+    "maps": "Becco, Riksscenen and Dansens Hus map links resolve to an unrendered address template, not venue coordinates. No map viewport used as a pin. Remaining venue map targets not validated; launch worker must resolve coordinates.",
+    "telegram": "Not part of this reserve pass; parent handles after main agenda."
+  },
+  "telegramAudit": {
+    "announcementChannels": {
+      "status": "No relevant dated Oslo cultural announcement established",
+      "checked": [
+        "https://t.me/s/hei_norway"
+      ],
+      "result": "Public posts readable, channel about Trondheim/Norway life; no event in target window confirmed. Other search hits outside geography/date excluded."
+    },
+    "conversationalChats": [
+      {
+        "url": "https://t.me/norway_oslo_chat",
+        "status": "profile_only",
+        "historyUrl": "https://t.me/s/norway_oslo_chat",
+        "historyResult": "not accessible via web tool"
+      },
+      {
+        "url": "https://t.me/oslochat",
+        "status": "profile_only"
+      }
+    ],
+    "actions": "Read public web pages only. No joining, login, posting, or bypass. No Telegram event imported."
+  },
+  "dateMatrix": [
+    {
+      "date": "2026-10-28",
+      "programmes": [
+        "Halloween Frøyas Have Oslo 2026",
+        "Halloween tour: Night at the museum",
+        "Free lunch organ concert at Slottskirken",
+        "Edvard Munch: Connect the lines",
+        "Samtale: Gamelan med Ismet Ruchimat",
+        "Salvador Sobral",
+        "Dubioza Kolektiv"
+      ],
+      "count": 7,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-10-29",
+      "programmes": [
+        "Vålerenga – Ringerike",
+        "Halloween Frøyas Have Oslo 2026",
+        "Kunstnersamtale: Lia Rodrigues"
+      ],
+      "count": 3,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-10-30",
+      "programmes": [
+        "Halloween Frøyas Have Oslo 2026",
+        "Lido Pimienta",
+        "Elida Almeida"
+      ],
+      "count": 3,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-10-31",
+      "programmes": [
+        "Vestkanttorvet antique and second-hand market",
+        "Halloween Frøyas Have Oslo 2026"
+      ],
+      "count": 2,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-01",
+      "programmes": [
+        "Farmers market Hasle",
+        "Sunday market in Ingens gate",
+        "Fabler og legender: indonesisk dans og gamelanorkester!",
+        "Jovanotti"
+      ],
+      "count": 4,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-02",
+      "programmes": [
+        "Coffee Schmoffee #1",
+        "Kammermusikkveka: Kvifor spele samtidsmusikk? — paneldebatt"
+      ],
+      "count": 2,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-03",
+      "programmes": [
+        "Coffee Schmoffee #2"
+      ],
+      "count": 1,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-04",
+      "programmes": [
+        "Coffee Schmoffee #3",
+        "Kammermusikkveka: Harpekonsert"
+      ],
+      "count": 2,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-05",
+      "programmes": [
+        "Ledlenser Nightrun Oslo",
+        "Kammermusikkveka: Vokalkonsert",
+        "Kammermusikkveka: Chamber Brass",
+        "Coffee Schmoffee #4"
+      ],
+      "count": 4,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-06",
+      "programmes": [
+        "Farmers market Majorstuen",
+        "Kammermusikkveka: Pianorama",
+        "Kammermusikkveka: Gitarkonsert",
+        "Kammermusikkveka: Musikkhøgskolens kammerorkester"
+      ],
+      "count": 4,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-07",
+      "programmes": [
+        "Vestkanttorvet antique and second-hand market",
+        "Kammermusikkveka: NMH slagverksensemble"
+      ],
+      "count": 2,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-08",
+      "programmes": [
+        "Sunday market in Ingens gate"
+      ],
+      "count": 1,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-09",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    },
+    {
+      "date": "2026-11-10",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    },
+    {
+      "date": "2026-11-11",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    },
+    {
+      "date": "2026-11-12",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    },
+    {
+      "date": "2026-11-13",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    },
+    {
+      "date": "2026-11-14",
+      "programmes": [
+        "Vestkanttorvet antique and second-hand market"
+      ],
+      "count": 1,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-15",
+      "programmes": [
+        "Sunday market in Ingens gate"
+      ],
+      "count": 1,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-16",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    },
+    {
+      "date": "2026-11-17",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    },
+    {
+      "date": "2026-11-18",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    },
+    {
+      "date": "2026-11-19",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    },
+    {
+      "date": "2026-11-20",
+      "programmes": [
+        "Mike Andersen Band — All Out of Love Tour 2026"
+      ],
+      "count": 1,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-21",
+      "programmes": [
+        "Vestkanttorvet antique and second-hand market",
+        "Farmers market Majorstuen"
+      ],
+      "count": 2,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-22",
+      "programmes": [
+        "Sunday market in Ingens gate",
+        "Vålerenga – Stjernen",
+        "Engegårdkvartetten & Olli Mustonen: Beethoven, Brahms & Mustonen"
+      ],
+      "count": 3,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-23",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    },
+    {
+      "date": "2026-11-24",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    },
+    {
+      "date": "2026-11-25",
+      "programmes": [
+        "Free lunch organ concert at Slottskirken"
+      ],
+      "count": 1,
+      "status": "verified_candidates"
+    },
+    {
+      "date": "2026-11-26",
+      "programmes": [],
+      "count": 0,
+      "status": "research_gap"
+    }
+  ],
+  "holdsAndExclusions": [
+    {
+      "title": "MATATA",
+      "sourceUrl": "https://osloworld.no/festival/arrangement/matata-poverty-slaps-but-we-slap-back-harder",
+      "reason": "HOLD: main detail 30 October–1 November 2026 with 19:00 header; lower occurrences 19:30; programme lists 29 October 19:00."
+    },
+    {
+      "title": "Borda",
+      "sourceUrl": "https://osloworld.no/festival/arrangement/lia-rodrigues-companhia-de-dancas-borda",
+      "reason": "HOLD: detail 29–29 October 2026 versus multiple dates in programme/venue listing; price 165–395 vs165–365."
+    },
+    {
+      "title": "Samtale: Urfolksspråk m/ Renata Flores",
+      "sourceUrl": "https://osloworld.no/festival/arrangement/samtale-urfolkssprak-m-renata-flores",
+      "reason": "HOLD separate event: 31 October 14:00 header/programme conflicts with15:00 prose/venue list. Included record-market programme starts14:00; do not promise separate talk time."
+    },
+    {
+      "title": "Mazaher",
+      "date": "2026-10-29",
+      "sourceUrl": "https://osloworld.no/festival/program",
+      "reason": "Cancelled"
+    },
+    {
+      "title": "Sanam Marvi",
+      "date": "2026-10-28",
+      "sourceUrl": "https://osloworld.no/spillested/cosmopolite",
+      "reason": "Cancelled"
+    },
+    {
+      "title": "Melt-Banana",
+      "dates": [
+        "2026-10-30",
+        "2026-10-31"
+      ],
+      "sourceUrl": "https://osloworld.no/festival/program",
+      "reason": "Sold out, including extra concert"
+    },
+    {
+      "title": "Dirty Three",
+      "date": "2026-10-30",
+      "sourceUrl": "https://osloworld.no/festival/program",
+      "reason": "Sold out"
+    },
+    {
+      "title": "BCUC",
+      "date": "2026-10-29",
+      "time": "21:30",
+      "sourceUrl": "https://osloworld.no/festival/program",
+      "reason": "Sold out; do not conflate with separate18:00 extra concert"
+    },
+    {
+      "title": "Imarhan",
+      "sourceUrl": "https://osloworld.no/spillested/cosmopolite",
+      "reason": "Organizer lists30 October22:00; reported VisitOslo21:00 conflict requires resolution before merging"
+    },
+    {
+      "title": "Beverly Glenn-Copeland",
+      "sourceUrl": "https://osloworld.no/spillested/cosmopolite",
+      "reason": "Organizer lists31 October18:00; reported VisitOslo17:00 conflict requires resolution before merging"
+    },
+    {
+      "title": "Smelteverket / Mathallen events",
+      "reason": "Known venue/address conflict; hold, not published."
+    },
+    {
+      "title": "Birkelunden market",
+      "sourceUrl": "https://www.visitoslo.com/event/birkelunden-market",
+      "reason": "Structured12–19 contradicts winter prose closes at dusk; not included."
+    },
+    {
+      "title": "Kammersamtid 3 November",
+      "sourceUrl": "https://nmh.no/festivaler/kammermusikkveka-2026-kva-er-samtidsmusikk",
+      "reason": "Official programme explicitly cancelled."
+    }
+  ]
+}

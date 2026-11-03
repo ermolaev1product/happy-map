@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-24T05:43:30Z",
+  "baseCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+  "events": [
+    {
+      "venueId": "fl-venue-4ef5d3c5ade1",
+      "address": "Mühlendamm 25, 24937 Flensburg",
+      "lat": 54.77455,
+      "lng": 9.44076,
+      "coordinateSource": "https://kulturbytes.de/de/veranstaltung/019eb675-fd88-7444-9d44-f550d54a9ad8/202610172100",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "fl-82fc58aef23abfb4",
+      "cityId": "flensburg",
+      "title": "Maskenball der Tiere",
+      "date": "2026-11-15",
+      "time": "16:00",
+      "venue": "Kulturwerkstatt Kühlhaus",
+      "sourceUrl": "https://foerdekompass.sh/kalender/maskenball-der-tiere/",
+      "category": "theatre",
+      "price": 4,
+      "currency": "EUR",
+      "timezone": "Europe/Berlin",
+      "checkedAt": "2026-10-24T05:43:30Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "doors": "15:00",
+      "end": "16:45",
+      "admission": "Forchildren4–10;45minutes.",
+      "priceNote": "Advance4EUR/person,door5EUR/person;feesunknown.",
+      "id": "flensburg-afisha24-c71b39371952",
+      "programmeId": "flensburg-afisha24-c71b39371952",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    }
+  ],
+  "held": [],
+  "sourceChecks": [
+    {
+      "city": "flensburg",
+      "url": "https://foerdekompass.sh/kalender/",
+      "status": "partial",
+      "checkedAt": "2026-10-24T05:43:30Z",
+      "scope": "9furtherfulldetailsattempted:Maskenballread;8cachemiss(YogazwischenZeilen,AdiosBuenosAires,JugendSocialMedia,Schalalala3,Crown,Abschlach,Friedhofsgeflüster,SüdamerikanischeKüche)."
+    }
+  ],
+  "conflicts": []
+}

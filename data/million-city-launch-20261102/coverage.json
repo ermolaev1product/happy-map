@@ -1,0 +1,676 @@
+{
+  "asOf": "2026-11-02T10:28:52.612Z",
+  "method": "Actual source visibility functions with mocked DOM; browser proofs separate",
+  "sourceState": "prepared_unpublished",
+  "cityCount": 95,
+  "rows": [
+    {
+      "city": "hamburg",
+      "locale": "ru",
+      "stored": 50,
+      "places": 5,
+      "timezone": "Europe/Berlin",
+      "week": {
+        "records": 31,
+        "titleVenueGroups": 23,
+        "cinema": 0,
+        "venues": 5,
+        "categories": {
+          "art": 4,
+          "music": 10,
+          "kids": 6,
+          "theatre": 7,
+          "workshop": 2,
+          "city": 2
+        },
+        "ids": [
+          "hamburg-11edd90f00e06a",
+          "hamburg-1bd0bfee0f1593",
+          "hamburg-1fb179b694e7e0",
+          "hamburg-22645137dd907e",
+          "hamburg-22fd344834081c",
+          "hamburg-32b671c41f75d4",
+          "hamburg-3a8ac42a640c8e",
+          "hamburg-434bbe58bac716",
+          "hamburg-54b17dd32309bd",
+          "hamburg-5cea5420c1714f",
+          "hamburg-6a64e4e52300be",
+          "hamburg-72f9afc430aab1",
+          "hamburg-7ef8d0b8590840",
+          "hamburg-8e4b29103f6919",
+          "hamburg-922ffcfcc753af",
+          "hamburg-a322b7f8421f46",
+          "hamburg-a5722f241253ac",
+          "hamburg-b4dfbb5b54b2b4",
+          "hamburg-ba9a42df5e3cfd",
+          "hamburg-be2f7237b35efa",
+          "hamburg-d3d53289ac5655",
+          "hamburg-d3f45d03ffed68",
+          "hamburg-d4cfdb750a8aa2",
+          "hamburg-dacd88795a0d5b",
+          "hamburg-db44d5854dc1f8",
+          "hamburg-e0ca7509f6a4d4",
+          "hamburg-e1ec9f1dca949c",
+          "hamburg-e36a268b8121fe",
+          "hamburg-e4a076025e6a09",
+          "hamburg-f2a713a0a42483",
+          "hamburg-f87d73ce4b5d30"
+        ]
+      },
+      "days": [
+        {
+          "date": "2026-11-02",
+          "records": 6,
+          "titleVenueGroups": 6,
+          "cinema": 0,
+          "venues": 3,
+          "categories": {
+            "music": 2,
+            "workshop": 2,
+            "art": 2
+          },
+          "ids": [
+            "hamburg-434bbe58bac716",
+            "hamburg-a322b7f8421f46",
+            "hamburg-a5722f241253ac",
+            "hamburg-dacd88795a0d5b",
+            "hamburg-e36a268b8121fe",
+            "hamburg-e4a076025e6a09"
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "records": 3,
+          "titleVenueGroups": 3,
+          "cinema": 0,
+          "venues": 2,
+          "categories": {
+            "art": 2,
+            "music": 1
+          },
+          "ids": [
+            "hamburg-1bd0bfee0f1593",
+            "hamburg-32b671c41f75d4",
+            "hamburg-d4cfdb750a8aa2"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "records": 5,
+          "titleVenueGroups": 5,
+          "cinema": 0,
+          "venues": 3,
+          "categories": {
+            "art": 4,
+            "music": 1
+          },
+          "ids": [
+            "hamburg-1bd0bfee0f1593",
+            "hamburg-a5722f241253ac",
+            "hamburg-d4cfdb750a8aa2",
+            "hamburg-e1ec9f1dca949c",
+            "hamburg-e4a076025e6a09"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "records": 6,
+          "titleVenueGroups": 6,
+          "cinema": 0,
+          "venues": 4,
+          "categories": {
+            "art": 4,
+            "music": 1,
+            "theatre": 1
+          },
+          "ids": [
+            "hamburg-1bd0bfee0f1593",
+            "hamburg-a5722f241253ac",
+            "hamburg-d3f45d03ffed68",
+            "hamburg-d4cfdb750a8aa2",
+            "hamburg-db44d5854dc1f8",
+            "hamburg-e4a076025e6a09"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "records": 8,
+          "titleVenueGroups": 8,
+          "cinema": 0,
+          "venues": 4,
+          "categories": {
+            "art": 4,
+            "music": 2,
+            "theatre": 2
+          },
+          "ids": [
+            "hamburg-1bd0bfee0f1593",
+            "hamburg-22645137dd907e",
+            "hamburg-22fd344834081c",
+            "hamburg-72f9afc430aab1",
+            "hamburg-7ef8d0b8590840",
+            "hamburg-a5722f241253ac",
+            "hamburg-d4cfdb750a8aa2",
+            "hamburg-e4a076025e6a09"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "records": 10,
+          "titleVenueGroups": 9,
+          "cinema": 0,
+          "venues": 4,
+          "categories": {
+            "art": 4,
+            "kids": 4,
+            "theatre": 2
+          },
+          "ids": [
+            "hamburg-11edd90f00e06a",
+            "hamburg-1bd0bfee0f1593",
+            "hamburg-5cea5420c1714f",
+            "hamburg-8e4b29103f6919",
+            "hamburg-a5722f241253ac",
+            "hamburg-be2f7237b35efa",
+            "hamburg-d3d53289ac5655",
+            "hamburg-d4cfdb750a8aa2",
+            "hamburg-e0ca7509f6a4d4",
+            "hamburg-e4a076025e6a09"
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "records": 13,
+          "titleVenueGroups": 12,
+          "cinema": 0,
+          "venues": 5,
+          "categories": {
+            "art": 4,
+            "music": 3,
+            "kids": 2,
+            "theatre": 2,
+            "city": 2
+          },
+          "ids": [
+            "hamburg-1bd0bfee0f1593",
+            "hamburg-1fb179b694e7e0",
+            "hamburg-3a8ac42a640c8e",
+            "hamburg-54b17dd32309bd",
+            "hamburg-6a64e4e52300be",
+            "hamburg-922ffcfcc753af",
+            "hamburg-a5722f241253ac",
+            "hamburg-b4dfbb5b54b2b4",
+            "hamburg-ba9a42df5e3cfd",
+            "hamburg-d4cfdb750a8aa2",
+            "hamburg-e4a076025e6a09",
+            "hamburg-f2a713a0a42483",
+            "hamburg-f87d73ce4b5d30"
+          ]
+        }
+      ],
+      "feedSha256": "91532387d102e73a80ae6225127ff098f185f6688fe4bf13047a94a1f26918f4",
+      "englishParity": true
+    },
+    {
+      "city": "munich",
+      "locale": "ru",
+      "stored": 52,
+      "places": 4,
+      "timezone": "Europe/Berlin",
+      "week": {
+        "records": 19,
+        "titleVenueGroups": 17,
+        "cinema": 0,
+        "venues": 4,
+        "categories": {
+          "theatre": 7,
+          "city": 1,
+          "art": 1,
+          "music": 6,
+          "talk": 4
+        },
+        "ids": [
+          "munich-abschied-20261107-1930",
+          "munich-aurum-20261009",
+          "munich-bernarda-albas-haus-20261104-1930",
+          "munich-bersetzer-innen-im-gespr-ch-sonja-finck-frank-weigand-20261108-1600",
+          "munich-brso-mahler-20261107-1900",
+          "munich-brso-takemitsu-britten-rachmaninow-20261105-2000",
+          "munich-brso-takemitsu-britten-rachmaninow-20261106-2000",
+          "munich-bye-bye-lolita-20261103-1930",
+          "munich-carmina-burana-m-nchner-symphoniker-20261104-1930",
+          "munich-dan-the-stranger-the-man-20261103-1930",
+          "munich-faust-i-20261106-1900",
+          "munich-faust-i-20261108-1800",
+          "munich-luxembourg-philharmonic-alice-sara-ott-20261108-1600",
+          "munich-muri-darida-king-cobra-20261108-1400",
+          "munich-prima-facie-20261102-1930",
+          "munich-queere-lyrik-alexander-schnickmann-anna-julian-mendlik-20261108-1800",
+          "munich-raffaele-casarano-bazar-live-20261105-1930",
+          "munich-tash-aw-der-s-den-20261107-2000",
+          "munich-theaterf-hrung-20261107-1500"
+        ]
+      },
+      "days": [
+        {
+          "date": "2026-11-02",
+          "records": 2,
+          "titleVenueGroups": 2,
+          "cinema": 0,
+          "venues": 2,
+          "categories": {
+            "theatre": 1,
+            "art": 1
+          },
+          "ids": [
+            "munich-aurum-20261009",
+            "munich-prima-facie-20261102-1930"
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "records": 3,
+          "titleVenueGroups": 3,
+          "cinema": 0,
+          "venues": 3,
+          "categories": {
+            "theatre": 2,
+            "art": 1
+          },
+          "ids": [
+            "munich-aurum-20261009",
+            "munich-bye-bye-lolita-20261103-1930",
+            "munich-dan-the-stranger-the-man-20261103-1930"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "records": 3,
+          "titleVenueGroups": 3,
+          "cinema": 0,
+          "venues": 2,
+          "categories": {
+            "theatre": 1,
+            "music": 1,
+            "art": 1
+          },
+          "ids": [
+            "munich-aurum-20261009",
+            "munich-bernarda-albas-haus-20261104-1930",
+            "munich-carmina-burana-m-nchner-symphoniker-20261104-1930"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "records": 3,
+          "titleVenueGroups": 3,
+          "cinema": 0,
+          "venues": 1,
+          "categories": {
+            "music": 2,
+            "art": 1
+          },
+          "ids": [
+            "munich-aurum-20261009",
+            "munich-brso-takemitsu-britten-rachmaninow-20261105-2000",
+            "munich-raffaele-casarano-bazar-live-20261105-1930"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "records": 3,
+          "titleVenueGroups": 3,
+          "cinema": 0,
+          "venues": 2,
+          "categories": {
+            "theatre": 1,
+            "music": 1,
+            "art": 1
+          },
+          "ids": [
+            "munich-aurum-20261009",
+            "munich-brso-takemitsu-britten-rachmaninow-20261106-2000",
+            "munich-faust-i-20261106-1900"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "records": 5,
+          "titleVenueGroups": 5,
+          "cinema": 0,
+          "venues": 2,
+          "categories": {
+            "city": 1,
+            "theatre": 1,
+            "music": 1,
+            "talk": 1,
+            "art": 1
+          },
+          "ids": [
+            "munich-abschied-20261107-1930",
+            "munich-aurum-20261009",
+            "munich-brso-mahler-20261107-1900",
+            "munich-tash-aw-der-s-den-20261107-2000",
+            "munich-theaterf-hrung-20261107-1500"
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "records": 6,
+          "titleVenueGroups": 6,
+          "cinema": 0,
+          "venues": 2,
+          "categories": {
+            "theatre": 1,
+            "talk": 3,
+            "music": 1,
+            "art": 1
+          },
+          "ids": [
+            "munich-aurum-20261009",
+            "munich-bersetzer-innen-im-gespr-ch-sonja-finck-frank-weigand-20261108-1600",
+            "munich-faust-i-20261108-1800",
+            "munich-luxembourg-philharmonic-alice-sara-ott-20261108-1600",
+            "munich-muri-darida-king-cobra-20261108-1400",
+            "munich-queere-lyrik-alexander-schnickmann-anna-julian-mendlik-20261108-1800"
+          ]
+        }
+      ],
+      "feedSha256": "c84e7bdbd3ecf598670e49a3775aee1d1912bfcbdf69a9848381f6faa953117c",
+      "englishParity": true
+    },
+    {
+      "city": "toronto",
+      "locale": "ru",
+      "stored": 41,
+      "places": 3,
+      "timezone": "America/Toronto",
+      "week": {
+        "records": 7,
+        "titleVenueGroups": 7,
+        "cinema": 0,
+        "venues": 3,
+        "categories": {
+          "art": 3,
+          "workshop": 3,
+          "music": 1
+        },
+        "ids": [
+          "toronto-art-crochet-and-jazz-legin-knits-20261106-1800",
+          "toronto-floral-embroidery-20261104-1300",
+          "toronto-holiday-ornament-20261105-1830",
+          "toronto-international-inuit-day-celebration-20261107-1400",
+          "toronto-open-door-indigenous-highlights-20261104-1300",
+          "toronto-psychedelics-art-culture-science-20260606",
+          "toronto-wildlife-photographer-year-2026-20261107"
+        ]
+      },
+      "days": [
+        {
+          "date": "2026-11-02",
+          "records": 0,
+          "titleVenueGroups": 0,
+          "cinema": 0,
+          "venues": 0,
+          "categories": {},
+          "ids": []
+        },
+        {
+          "date": "2026-11-03",
+          "records": 1,
+          "titleVenueGroups": 1,
+          "cinema": 0,
+          "venues": 1,
+          "categories": {
+            "art": 1
+          },
+          "ids": [
+            "toronto-psychedelics-art-culture-science-20260606"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "records": 3,
+          "titleVenueGroups": 3,
+          "cinema": 0,
+          "venues": 3,
+          "categories": {
+            "art": 2,
+            "workshop": 1
+          },
+          "ids": [
+            "toronto-floral-embroidery-20261104-1300",
+            "toronto-open-door-indigenous-highlights-20261104-1300",
+            "toronto-psychedelics-art-culture-science-20260606"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "records": 2,
+          "titleVenueGroups": 2,
+          "cinema": 0,
+          "venues": 2,
+          "categories": {
+            "art": 1,
+            "workshop": 1
+          },
+          "ids": [
+            "toronto-holiday-ornament-20261105-1830",
+            "toronto-psychedelics-art-culture-science-20260606"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "records": 2,
+          "titleVenueGroups": 2,
+          "cinema": 0,
+          "venues": 2,
+          "categories": {
+            "workshop": 1,
+            "art": 1
+          },
+          "ids": [
+            "toronto-art-crochet-and-jazz-legin-knits-20261106-1800",
+            "toronto-psychedelics-art-culture-science-20260606"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "records": 3,
+          "titleVenueGroups": 3,
+          "cinema": 0,
+          "venues": 2,
+          "categories": {
+            "music": 1,
+            "art": 2
+          },
+          "ids": [
+            "toronto-international-inuit-day-celebration-20261107-1400",
+            "toronto-psychedelics-art-culture-science-20260606",
+            "toronto-wildlife-photographer-year-2026-20261107"
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "records": 2,
+          "titleVenueGroups": 2,
+          "cinema": 0,
+          "venues": 1,
+          "categories": {
+            "art": 2
+          },
+          "ids": [
+            "toronto-psychedelics-art-culture-science-20260606",
+            "toronto-wildlife-photographer-year-2026-20261107"
+          ]
+        }
+      ],
+      "feedSha256": "217bc4379e8fe80b184c99b3ad2472da555d61dcf13c424920dd8f1694178614",
+      "englishParity": true
+    },
+    {
+      "city": "montreal",
+      "locale": "ru",
+      "stored": 47,
+      "places": 4,
+      "timezone": "America/Toronto",
+      "week": {
+        "records": 16,
+        "titleVenueGroups": 7,
+        "cinema": 0,
+        "venues": 3,
+        "categories": {
+          "theatre": 11,
+          "art": 3,
+          "kids": 2
+        },
+        "ids": [
+          "montreal-carrie-allison-20260930",
+          "montreal-entre-chiens-et-louves-20261104-2000",
+          "montreal-entre-chiens-et-louves-20261105-2000",
+          "montreal-entre-chiens-et-louves-20261106-2000",
+          "montreal-entre-chiens-et-louves-20261107-2000",
+          "montreal-entre-chiens-et-louves-20261108-1400",
+          "montreal-le-fantome-dans-la-machine-20261104-1930",
+          "montreal-le-fantome-dans-la-machine-20261105-2000",
+          "montreal-le-fantome-dans-la-machine-20261106-2000",
+          "montreal-le-fantome-dans-la-machine-20261107-1500",
+          "montreal-le-fantome-dans-la-machine-20261107-2000",
+          "montreal-le-fantome-dans-la-machine-20261108-1500",
+          "montreal-mbam-13638-20261009",
+          "montreal-mbam-chiharu-shiota-les-fremissements-de-lame-20260926",
+          "montreal-ogilvy-indoor-20261106",
+          "montreal-ogilvy-outdoor-20261106"
+        ]
+      },
+      "days": [
+        {
+          "date": "2026-11-02",
+          "records": 0,
+          "titleVenueGroups": 0,
+          "cinema": 0,
+          "venues": 0,
+          "categories": {},
+          "ids": []
+        },
+        {
+          "date": "2026-11-03",
+          "records": 3,
+          "titleVenueGroups": 3,
+          "cinema": 0,
+          "venues": 2,
+          "categories": {
+            "art": 3
+          },
+          "ids": [
+            "montreal-carrie-allison-20260930",
+            "montreal-mbam-13638-20261009",
+            "montreal-mbam-chiharu-shiota-les-fremissements-de-lame-20260926"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "records": 5,
+          "titleVenueGroups": 5,
+          "cinema": 0,
+          "venues": 3,
+          "categories": {
+            "theatre": 2,
+            "art": 3
+          },
+          "ids": [
+            "montreal-carrie-allison-20260930",
+            "montreal-entre-chiens-et-louves-20261104-2000",
+            "montreal-le-fantome-dans-la-machine-20261104-1930",
+            "montreal-mbam-13638-20261009",
+            "montreal-mbam-chiharu-shiota-les-fremissements-de-lame-20260926"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "records": 5,
+          "titleVenueGroups": 5,
+          "cinema": 0,
+          "venues": 3,
+          "categories": {
+            "theatre": 2,
+            "art": 3
+          },
+          "ids": [
+            "montreal-carrie-allison-20260930",
+            "montreal-entre-chiens-et-louves-20261105-2000",
+            "montreal-le-fantome-dans-la-machine-20261105-2000",
+            "montreal-mbam-13638-20261009",
+            "montreal-mbam-chiharu-shiota-les-fremissements-de-lame-20260926"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "records": 7,
+          "titleVenueGroups": 7,
+          "cinema": 0,
+          "venues": 3,
+          "categories": {
+            "theatre": 2,
+            "art": 3,
+            "kids": 2
+          },
+          "ids": [
+            "montreal-carrie-allison-20260930",
+            "montreal-entre-chiens-et-louves-20261106-2000",
+            "montreal-le-fantome-dans-la-machine-20261106-2000",
+            "montreal-mbam-13638-20261009",
+            "montreal-mbam-chiharu-shiota-les-fremissements-de-lame-20260926",
+            "montreal-ogilvy-indoor-20261106",
+            "montreal-ogilvy-outdoor-20261106"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "records": 8,
+          "titleVenueGroups": 7,
+          "cinema": 0,
+          "venues": 3,
+          "categories": {
+            "theatre": 3,
+            "art": 3,
+            "kids": 2
+          },
+          "ids": [
+            "montreal-carrie-allison-20260930",
+            "montreal-entre-chiens-et-louves-20261107-2000",
+            "montreal-le-fantome-dans-la-machine-20261107-1500",
+            "montreal-le-fantome-dans-la-machine-20261107-2000",
+            "montreal-mbam-13638-20261009",
+            "montreal-mbam-chiharu-shiota-les-fremissements-de-lame-20260926",
+            "montreal-ogilvy-indoor-20261106",
+            "montreal-ogilvy-outdoor-20261106"
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "records": 7,
+          "titleVenueGroups": 7,
+          "cinema": 0,
+          "venues": 3,
+          "categories": {
+            "theatre": 2,
+            "art": 3,
+            "kids": 2
+          },
+          "ids": [
+            "montreal-carrie-allison-20260930",
+            "montreal-entre-chiens-et-louves-20261108-1400",
+            "montreal-le-fantome-dans-la-machine-20261108-1500",
+            "montreal-mbam-13638-20261009",
+            "montreal-mbam-chiharu-shiota-les-fremissements-de-lame-20260926",
+            "montreal-ogilvy-indoor-20261106",
+            "montreal-ogilvy-outdoor-20261106"
+          ]
+        }
+      ],
+      "feedSha256": "284fdbaf8f2b7e2533fa299dd0324744909b20c89f78fc5364d08fab60c65895",
+      "englishParity": true
+    }
+  ]
+}

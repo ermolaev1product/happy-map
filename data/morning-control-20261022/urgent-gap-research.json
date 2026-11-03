@@ -1,0 +1,274 @@
+{
+  "checkedAt": "2026-10-22T05:18:40Z",
+  "baseline": "v164 local current parent checkout",
+  "ready": [
+    {
+      "cityId": "baku",
+      "title": "BIAF — концерт открытия: посвящение Дмитрию Шостаковичу",
+      "titleEn": "BIAF Festival Opening Concert: Tribute to Dmitri Shostakovich",
+      "date": "2026-10-28",
+      "time": "20:00",
+      "venue": "Азербайджанская государственная академическая филармония имени Муслима Магомаева",
+      "address": "Istiglaliyyat Street 10, Baku",
+      "lat": 40.364072,
+      "lng": 49.8315811,
+      "category": "music",
+      "price": 20,
+      "maxPrice": 100,
+      "currency": "AZN",
+      "sourceUrl": "https://biaf.az/2026-program/festival-opening-concert",
+      "evidenceUrls": [
+        "https://iticket.az/en/events/biaf/opening-concert-or-a-tribute-to-dmitri-shostakovich"
+      ],
+      "coordinateSource": "https://iticket.az/en/events/biaf/opening-concert-or-a-tribute-to-dmitri-shostakovich",
+      "durationMinutes": 135,
+      "durationNote": "Organizer explicitly2h15includinginterval; seller calendarend21:30 conflicts with ownbody2h15. Prefer organizer programme duration; do not use21:30.",
+      "restrictions": "6+; paid ticket. QR requires iTicketapp login; physicalboxoffice option.",
+      "timezone": "Asia/Baku",
+      "fees": null,
+      "checkedAt": "2026-10-22T05:17:35Z",
+      "match": "absent-current-v164-feed",
+      "coordinateAccuracy": "Primaryticketvenue map coordinates tied to explicitstreetaddress; building,notentrance"
+    },
+    {
+      "cityId": "baku",
+      "title": "Back to the Future — джазовый концерт Тофика Джаббарова",
+      "titleEn": "Back to the Future — Jazz Concert",
+      "date": "2026-10-28",
+      "time": "19:30",
+      "venue": "Концертный зал Оперной студии Бакинской музыкальной академии",
+      "address": "Shamsi Badalbayli 98, Baku",
+      "lat": 40.3775769,
+      "lng": 49.8430793,
+      "category": "music",
+      "price": 30,
+      "maxPrice": 70,
+      "currency": "AZN",
+      "sourceUrl": "https://iticket.az/en/events/concerts/back-to-the-future-2026/246285",
+      "coordinateSource": "https://events.az/en/event/viktor-tsoi-and-kino-tribute-show",
+      "coordinateAccuracy": "Existing same-address building point v164; independently readable primary venuepage confirmsaddress",
+      "language": "AZ",
+      "endTime": null,
+      "restrictions": "6+; paid ticket. Seller calendar21:30 is notverified actualend.",
+      "timezone": "Asia/Baku",
+      "fees": null,
+      "checkedAt": "2026-10-22T05:17:35Z",
+      "match": "absent-current-v164-feed"
+    }
+  ],
+  "held": [
+    {
+      "cityId": "baku",
+      "title": "The Legacy of Dmitri Shostakovich — Public Talk",
+      "date": "2026-10-29",
+      "venue": "Baku Book Center",
+      "address": "5 Uzeyir Hajibeyli Street, Sabail District",
+      "sourceUrl": "https://biaf.az/2026-program/public-talk-the-legacy-of-dmitri-shostakovich",
+      "evidenceUrls": [
+        "https://iticket.az/en/events/biaf/the-legacy-of-dmitri-shostakovich-public-talk"
+      ],
+      "reason": "START CONFLICT: organizer15:00 vs official ticket12:00. Hold entirecandidate, no guessedstart. Price0AZN; organizerduration45–60min conflicts seller75min."
+    },
+    {
+      "cityId": "astana",
+      "title": "«Өліара» — JAN театр",
+      "date": "2026-10-29",
+      "time": "20:30",
+      "durationMinutes": 80,
+      "timezone": "Asia/Almaty",
+      "venue": "Жастар театры",
+      "address": "ул.Илияса Есенберлина10,Астана",
+      "sourceUrl": "https://sxodim.com/astana/event/liara-spektakli",
+      "price": 3000,
+      "currency": "KZT",
+      "language": "KK",
+      "restrictions": "12+",
+      "yearEvidence": "October2026 monthlysource heading plus primary publication06Aug2026/06Sep2026",
+      "coordinateCandidate": {
+        "lat": 51.190609,
+        "lng": 71.405761,
+        "sourceUrl": "https://zhastar-theatre.kz/ru/contacts",
+        "reason": "Official venue embeds Yandex org110684154618 centered here; mapiframecachemiss, no independent exactpoint visible. Address independently confirmed Yandex org and VisitAstana."
+      },
+      "reason": "Programme ready but precisevenuepoint not verified; officialmapcenter suppliedonly asapproximatecandidate, not claimedexact."
+    },
+    {
+      "cityId": "astana",
+      "title": "«Мама!» — JAN театр",
+      "date": "2026-10-29",
+      "time": "18:00",
+      "durationMinutes": 90,
+      "timezone": "Asia/Almaty",
+      "venue": "Жастар театры",
+      "address": "ул.Илияса Есенберлина10,Астана",
+      "sourceUrl": "https://sxodim.com/astana/event/mama-spektakli",
+      "price": 3000,
+      "currency": "KZT",
+      "language": "KK",
+      "restrictions": "12+",
+      "yearEvidence": "October2026 monthlysource heading plus primary publication06Aug2026/06Sep2026",
+      "coordinateCandidate": {
+        "lat": 51.190609,
+        "lng": 71.405761,
+        "sourceUrl": "https://zhastar-theatre.kz/ru/contacts",
+        "reason": "Official venue embeds Yandex org110684154618 centered here; mapiframecachemiss, no independent exactpoint visible. Address independently confirmed Yandex org and VisitAstana."
+      },
+      "reason": "Programme ready but precisevenuepoint not verified; officialmapcenter suppliedonly asapproximatecandidate, not claimedexact."
+    },
+    {
+      "cityId": "almaty",
+      "title": "Марк Шагал. Сотворение света",
+      "date": "2026-10-16",
+      "endDate": "2026-12-01",
+      "venue": "Oylau Space",
+      "address": "ул.Гоголя15,Алматы",
+      "price": 2500,
+      "currency": "KZT",
+      "timezone": "Asia/Almaty",
+      "sourceUrl": "https://sxodim.com/almaty/event/vystavka-mark-shagal-sotvorenie-sveta-v-almaty",
+      "evidenceUrls": [
+        "https://sxodim.com/almaty/search-events?date_from=01.10.2026&date_to=31.10.2026&page=9"
+      ],
+      "hours": "11:00–20:00 shown on repeatedticketrows; dates hiddeninselect",
+      "reason": "Month2026 datedrange on sellerindex and primarydetailpublication29Sep2026. No precisevenuecoords; closedweekdays/individualdateselect unverified. Keepcandidate, do not fabricate dailyoccurrences."
+    },
+    {
+      "cityId": "baku",
+      "title": "Jazz Mugham Concert",
+      "sourceUrl": "https://iticket.az/ru/events/concerts/jazz-mugham-concert/237545",
+      "reason": "Searchsnippet saysOct27 2026 but openedprimarydetail saysSep8 2026. Dateconflict; notimported."
+    },
+    {
+      "cityId": "baku",
+      "title": "Лев Додин: «Чайка» — Малый драматический театр",
+      "titleEn": "Lev Dodin: The Seagull — Maly Drama Theatre",
+      "date": "2026-10-29",
+      "time": "19:30",
+      "venue": "Азербайджанский государственный академический музыкальный театр",
+      "address": "Zarifa Aliyeva Street 8, Baku",
+      "lat": 40.3686438,
+      "lng": 49.8400248,
+      "category": "theatre",
+      "price": 25,
+      "maxPrice": 600,
+      "currency": "AZN",
+      "sourceUrl": "https://biaf.az/2026-program/the-seagull",
+      "evidenceUrls": [
+        "https://iticket.az/ru/events/biaf/lev-dodin-or-the-seagull-maly-drama-theatre-theatre-of-europe-st-petersburg-russia"
+      ],
+      "coordinateSource": "https://iticket.az/ru/events/biaf/lev-dodin-or-the-seagull-maly-drama-theatre-theatre-of-europe-st-petersburg-russia",
+      "language": "RU",
+      "endTime": null,
+      "durationMinutes": null,
+      "durationNote": "Organizer2h30; sellerbody2h10 andcalendar21:40. Actualend/duration leftunknown pending reconciliation.",
+      "restrictions": "18+;16+ with parent or guardian. Russian with English and Azerbaijani surtitles. Paid ticket.",
+      "timezone": "Asia/Baku",
+      "fees": null,
+      "checkedAt": "2026-10-22T05:17:35Z",
+      "match": "absent-current-v164-feed",
+      "coordinateAccuracy": "Primaryticketvenue map coordinates tied to explicitstreetaddress; building,notentrance",
+      "publicationStatus": "held_for_recheck",
+      "reason": "Duration conflict between organizer and seller; held under strict unresolved-conflict policy."
+    },
+    {
+      "cityId": "baku",
+      "title": "Лев Додин: «Чайка» — Малый драматический театр",
+      "titleEn": "Lev Dodin: The Seagull — Maly Drama Theatre",
+      "date": "2026-10-30",
+      "time": "19:30",
+      "venue": "Азербайджанский государственный академический музыкальный театр",
+      "address": "Zarifa Aliyeva Street 8, Baku",
+      "lat": 40.3686438,
+      "lng": 49.8400248,
+      "category": "theatre",
+      "price": 25,
+      "maxPrice": 600,
+      "currency": "AZN",
+      "sourceUrl": "https://biaf.az/2026-program/the-seagull",
+      "evidenceUrls": [
+        "https://iticket.az/ru/events/biaf/lev-dodin-or-the-seagull-maly-drama-theatre-theatre-of-europe-st-petersburg-russia"
+      ],
+      "coordinateSource": "https://iticket.az/ru/events/biaf/lev-dodin-or-the-seagull-maly-drama-theatre-theatre-of-europe-st-petersburg-russia",
+      "language": "RU",
+      "endTime": null,
+      "durationMinutes": null,
+      "durationNote": "Organizer2h30; sellerbody2h10 andcalendar21:40. Actualend/duration leftunknown pending reconciliation.",
+      "restrictions": "18+;16+ with parent or guardian. Russian with English and Azerbaijani surtitles. Paid ticket.",
+      "timezone": "Asia/Baku",
+      "fees": null,
+      "checkedAt": "2026-10-22T05:17:35Z",
+      "match": "absent-current-v164-feed",
+      "coordinateAccuracy": "Primaryticketvenue map coordinates tied to explicitstreetaddress; building,notentrance",
+      "publicationStatus": "held_for_recheck",
+      "reason": "Duration conflict between organizer and seller; held under strict unresolved-conflict policy."
+    }
+  ],
+  "sources": [
+    {
+      "cityId": "tbilisi",
+      "url": "https://kinoafisha.ge/sessions?date=27-10-2026&lang=eng",
+      "status": "unavailable_cache_miss"
+    },
+    {
+      "cityId": "tbilisi",
+      "url": "https://kinoafisha.ge/sessions?date=28-10-2026&lang=eng",
+      "status": "unavailable"
+    },
+    {
+      "cityId": "tbilisi",
+      "url": "https://kinoafisha.ge/sessions?date=29-10-2026&lang=eng",
+      "status": "unavailable"
+    },
+    {
+      "cityId": "tbilisi",
+      "url": "https://tkt.ge/en/movies",
+      "status": "partial_shell_only",
+      "note": "ReadableFAQ but no datedsessioninventory; notzero"
+    },
+    {
+      "cityId": "astana",
+      "url": "https://sxodim.com/astana/search-events?date_from=01.10.2026&date_to=31.10.2026",
+      "status": "partial",
+      "note": "2fullOct29details read; otherdaysnotfullypaginated; staleTodayOct17 label"
+    },
+    {
+      "cityId": "baku",
+      "url": "https://biaf.az/2026-program/",
+      "status": "partial",
+      "note": "Festival3fullprogrammes+matched3sellercards; publictalkhelddueexplicitstartconflict"
+    },
+    {
+      "cityId": "batumi",
+      "url": "https://www.batumitheatre.ge/",
+      "status": "unavailable_timeout",
+      "note": "Official rootrequesttimeout. GeorgiansearchsnippetOct28HouseinClouds alreadyexistingIDbatumi-sakhli-ghrublebshi-10-28; no newverifiedprogramme."
+    },
+    {
+      "cityId": "almaty",
+      "url": "https://sxodim.com/almaty/search-events?date_from=01.10.2026&date_to=31.10.2026&page=9",
+      "status": "partial",
+      "note": "Oneactualcalendarpage read, sourcecacheheaderOct18; mostrowsundatedtours. Chagalexhibitioncandidate detailread, notpublished."
+    },
+    {
+      "cityId": "almaty",
+      "url": "https://sxodim.com/almaty/event/vystavka-mark-shagal-sotvorenie-sveta-v-almaty",
+      "status": "partial_detail",
+      "note": "Repeatedtimes11–20 andaddress, but dates hiddeninselect; closedays unknown."
+    },
+    {
+      "cityId": "baku",
+      "url": "https://iticket.az/ru/events/concerts/jazz-mugham-concert/237545",
+      "status": "date_conflict",
+      "note": "OpeneddateSep8 conflictssearchOct27. Do notmapsearchdateonto cachedpage."
+    }
+  ],
+  "notChecked": [],
+  "scope": "Sourceonlyincremental urgentgaps. No imports or sitewrites; destructivelegacyimport notrun. No conclusionofzerocinema fromreadfailure.",
+  "searchQueries": [
+    "Батуми \"27 октября 2026\" концерт",
+    "Батуми \"28 октября 2026\" театр",
+    "site:sxodim.com/almaty \"28 октября\" \"2026\" концерт",
+    "Oylau Space Шагал 16 октября 1 декабря 2026 Гоголя 15",
+    "ბათუმი თეატრი 27 ოქტომბერი 2026 აფიშა"
+  ]
+}

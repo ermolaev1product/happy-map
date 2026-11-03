@@ -1,0 +1,94 @@
+{
+  "city": "Bishkek",
+  "checkedAt": "2026-10-19T08:09:02.651228+00:00",
+  "sources": [
+    {
+      "id": "source-b84c8f433146",
+      "name": "ticket.kg",
+      "url": "https://ticket.kg/events",
+      "checkedAt": "2026-10-19T08:09:02.651228+00:00",
+      "status": "imported",
+      "accessStatus": "reviewed_event_details",
+      "count": 37,
+      "note": "",
+      "type": "ticketing"
+    },
+    {
+      "id": "source-3a2717031cd1",
+      "name": "bishkek_events_kg",
+      "url": "https://t.me/bishkek_events_kg",
+      "checkedAt": "2026-10-19T08:02:56.004604+00:00",
+      "status": "no_public_posts_returned",
+      "accessStatus": "no_public_posts_returned",
+      "count": 0,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-6c493b45b713",
+      "name": "shodim_kg",
+      "url": "https://t.me/shodim_kg",
+      "checkedAt": "2026-10-19T08:03:52.793283+00:00",
+      "status": "public_history_fetched_selected_review_pending",
+      "accessStatus": "public_history_fetched_selected_review_pending",
+      "count": 0,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-895cdcbf70a8",
+      "name": "volna_bishkek",
+      "url": "https://t.me/volna_bishkek",
+      "checkedAt": "2026-10-19T08:03:53.032736+00:00",
+      "status": "public_history_fetched_selected_review_pending",
+      "accessStatus": "public_history_fetched_selected_review_pending",
+      "count": 0,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-8608e6d014b2",
+      "name": "BishDvizh",
+      "url": "https://t.me/BishDvizh",
+      "checkedAt": "2026-10-19T08:03:52.815909+00:00",
+      "status": "public_history_fetched_selected_review_pending",
+      "accessStatus": "public_history_fetched_selected_review_pending",
+      "count": 0,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-696e6f9a607c",
+      "name": "posterbishkek",
+      "url": "https://t.me/posterbishkek",
+      "checkedAt": "2026-10-19T08:03:51.211762+00:00",
+      "status": "no_public_posts_returned",
+      "accessStatus": "no_public_posts_returned",
+      "count": 0,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-33543a94282a",
+      "name": "others_art_space",
+      "url": "https://t.me/others_art_space",
+      "checkedAt": "2026-10-19T08:06:55.596459+00:00",
+      "status": "public_history_fetched_selected_review_pending",
+      "accessStatus": "public_history_fetched_selected_review_pending",
+      "count": 0,
+      "note": "",
+      "type": "telegram"
+    },
+    {
+      "id": "source-e7db258da29c",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/relation/8493930",
+      "checkedAt": "2026-10-19T08:05:30.394586+00:00",
+      "status": "directory_snapshot",
+      "accessStatus": "directory_snapshot",
+      "count": 0,
+      "note": "1419 named place records after boundary filtering and deduplication; operating status not individually verified. ODbL source export: /downloads/city-directories-20261019/bishkek-osm.json.gz"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

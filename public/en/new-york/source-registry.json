@@ -1,0 +1,282 @@
+{
+  "city": "New York",
+  "checkedAt": "2026-10-15T11:12:00Z",
+  "sources": [
+    {
+      "id": "nyc-white-rabbit",
+      "name": "White Rabbit’s Books calendar",
+      "url": "https://whiterabbitsbooks.com/events/",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "imported",
+      "accessStatus": "public_calendar",
+      "count": 12,
+      "note": "Calendar pages 1 and 2 and individual pages read; explicit October and November 2026. Some direct event pages had web-cache failures; calendar remains the evidence.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-eventcartel",
+      "name": "EventCartel New York",
+      "url": "https://eventcartel.com/new-york-tickets",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "imported",
+      "accessStatus": "public_partially_read",
+      "count": 3,
+      "note": "City filter includes New Jersey and other municipalities. Root and event detail search-index text checked; several direct pages return dynamic/empty content.",
+      "type": "ticketing"
+    },
+    {
+      "id": "nyc-kvartira",
+      "name": "Kvartira Books calendar",
+      "url": "https://kvartirabooks.org/events/",
+      "checkedAt": "2026-10-15T11:12:00Z",
+      "status": "imported",
+      "accessStatus": "public_calendar_via_search_index",
+      "count": 24,
+      "note": "Current calendar and individual event pages verified via indexed primary content. Direct calendar fetch403; multiple individual pages readable. Explicit dated class occurrences preserved; stale duplicate URLs and conflicting music/Pajitnov times not promoted.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-sable",
+      "name": "Sable Gallery events",
+      "url": "https://sablegallery.com/events/",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "imported",
+      "accessStatus": "public_read",
+      "count": 5,
+      "note": "Official calendar and full Gordiets exhibition page read in cloud browser.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-lincoln-center",
+      "name": "Lincoln Center Presents",
+      "url": "https://www.lincolncenter.org/series/lincoln-center-presents/v/calendar",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "imported",
+      "accessStatus": "public_index_read",
+      "count": 4,
+      "note": "Large calendar direct web response exceeded tool size; current official indexed individual event text used.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-moving-body",
+      "name": "Moving Body Moving Image",
+      "url": "https://www.movingbodymovingimage.com/home",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "imported",
+      "accessStatus": "public_read",
+      "count": 1,
+      "note": "Organizer festival programme, explicit 2026; corroborated by creator Gabri Christa page.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-bbp",
+      "name": "Brooklyn Bridge Park events",
+      "url": "https://brooklynbridgepark.org/events/",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "imported",
+      "accessStatus": "public_read",
+      "count": 1,
+      "note": "Official Harvest Festival detail fully read.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-nyc-parks",
+      "name": "NYC Parks events",
+      "url": "https://www.nycgovparks.org/events",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "imported",
+      "accessStatus": "public_index_partial",
+      "count": 3,
+      "note": "Official date/category indexed pages contain 2026 events; direct web fetch returned 405. Exact entries and coordinates remain pending.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-eventbrite",
+      "name": "Eventbrite New York",
+      "url": "https://www.eventbrite.com/d/ny--new-york/events/",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "imported",
+      "accessStatus": "public_detail_read",
+      "count": 1,
+      "note": "Michelle Grace free event detail read; broader category/calendar coverage unfinished.",
+      "type": "ticketing"
+    },
+    {
+      "id": "nyc-ticketmaster",
+      "name": "Ticketmaster New York",
+      "url": "https://www.ticketmaster.com/discover/new-york",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "candidate_partial",
+      "accessStatus": "candidate_partial",
+      "count": 0,
+      "note": "Claire Tow Theater October 2026 venue results checked, individual production verification pending.",
+      "type": "ticketing"
+    },
+    {
+      "id": "nyc-telegram-afisha",
+      "name": "Afisha New York Telegram",
+      "url": "https://t.me/afisha_in_newyork",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "fetch_failed",
+      "accessStatus": "fetch_failed",
+      "count": 0,
+      "note": "Original public preview fetch failed. Directory search index claims October14,2026 post for Raevsky at SheenCenter but body names another speaker; originalpost/ticketpage unresolved. Held.",
+      "type": "telegram"
+    },
+    {
+      "id": "nyc-reddit-nycbwt",
+      "name": "NYCbitcheswithtaste community",
+      "url": "https://www.reddit.com/r/NYCbitcheswithtaste/",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "public_partial",
+      "accessStatus": "public_partial",
+      "count": 0,
+      "note": "Week of October 12 2026 meetup discussion discovered. Restricted/screened audience and private signups prevent treating it as general open admission.",
+      "type": "reddit"
+    },
+    {
+      "id": "nyc-instagram-sable",
+      "name": "Sable Gallery Instagram",
+      "url": "https://www.instagram.com/sablegallery/",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "fetch_failed",
+      "accessStatus": "fetch_failed",
+      "count": 0,
+      "note": "Official website-linked Instagram account; public profile web fetch failed. No original post verified.",
+      "type": "instagram"
+    },
+    {
+      "id": "nyc-instagram-white-rabbit",
+      "name": "White Rabbit’s Books Instagram",
+      "url": "https://www.instagram.com/whiterabbitsbooks/",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "discovered_not_read",
+      "accessStatus": "discovered_not_read",
+      "count": 0,
+      "note": "Account discovered; individual public posts not yet read.",
+      "type": "instagram"
+    },
+    {
+      "id": "nyc-nyc-com",
+      "name": "NYC.com events",
+      "url": "https://www.nyc.com/events/",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "candidate_partial",
+      "accessStatus": "candidate_partial",
+      "count": 0,
+      "note": "Current dated search-index calendar found; full pass pending.",
+      "type": "aggregator"
+    },
+    {
+      "id": "nyc-eventworld",
+      "name": "Eventworld New York",
+      "url": "https://www.eventworld.com/ru/new-york/concerts/october/",
+      "checkedAt": "2026-10-15T10:40:19.687955Z",
+      "status": "discovery_only",
+      "accessStatus": "discovery_only",
+      "count": 0,
+      "note": "Includes outside-NYC venues and resale prices; not accepted as admission evidence.",
+      "type": "aggregator"
+    },
+    {
+      "id": "nyc-snug-harbor",
+      "name": "Snug Harbor Cultural Center & Botanical Garden",
+      "url": "https://snug-harbor.org/events/",
+      "checkedAt": "2026-10-15T10:47:04.207904Z",
+      "status": "imported",
+      "accessStatus": "public_read",
+      "count": 13,
+      "note": "PROXIMITY primary exhibition page and opening reception verified, with explicit individual occurrences through the full horizon.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-queens-farm",
+      "name": "Queens County Farm Museum calendar",
+      "url": "https://www.queensfarm.org/events-calendar/list/",
+      "checkedAt": "2026-10-15T10:47:04.207904Z",
+      "status": "imported",
+      "accessStatus": "public_read",
+      "count": 16,
+      "note": "List pages1 and2 and individual events verified through November13; neighborhood Floral Park is in Queens, not the separate Nassau village.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-queens-library",
+      "name": "Queens Public Library calendar",
+      "url": "https://www.queenslibrary.org/calendar",
+      "checkedAt": "2026-10-15T10:47:04.207904Z",
+      "status": "access_blocked_partial",
+      "accessStatus": "access_blocked_partial",
+      "count": 0,
+      "note": "October15 Afro-Caribbean Dance and Drum at Jackson Heights discovered via neighborhood calendar, including exact primary URL. Official detail rejected by website in web and cloud browser; not promoted as primary-verified event.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-reddit-meetups",
+      "name": "NYC Reddit Meetups",
+      "url": "https://www.reddit.com/r/nycmeetups/new/",
+      "checkedAt": "2026-10-15T10:47:04.207904Z",
+      "status": "public_partial_read",
+      "accessStatus": "public_partial_read",
+      "count": 0,
+      "note": "Public New-sort listing and October28 Mysterious Book Club post read. Cached listing mostly earlyOctober. Candidate has no explicit year and invite-by-DM attendance; held.",
+      "type": "reddit"
+    },
+    {
+      "id": "nyc-yu-and-me",
+      "name": "Yu & Me Books events",
+      "url": "https://yuandmebooks.com/pages/events-at-yu-me-books",
+      "checkedAt": "2026-10-15T10:47:04.207904Z",
+      "status": "public_read_partial",
+      "accessStatus": "public_read_partial",
+      "count": 0,
+      "note": "Current October2026 calendar and Needlemouth detail read. FREE RSVP variant and sold-out interface conflict require clarification; coordinates pending.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-bronx-museum",
+      "name": "Bronx Museum events",
+      "url": "https://bronxmuseum.org/events/",
+      "checkedAt": "2026-10-15T11:12:00Z",
+      "status": "imported",
+      "accessStatus": "public_read",
+      "count": 1,
+      "note": "Current October24,2026 event verified. End-time conflict preserved; start and free admission agree.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-met-museum",
+      "name": "Metropolitan Museum of Art calendar",
+      "url": "https://www.metmuseum.org/events/calendar",
+      "checkedAt": "2026-10-15T11:12:00Z",
+      "status": "public_partial_read",
+      "accessStatus": "public_partial_read",
+      "count": 0,
+      "note": "First20 of239 calendar entries read, October15–19. Individual-detail access and explicit event year need verification; paid museum admission must not be mislabeled free.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-nypl",
+      "name": "New York Public Library events",
+      "url": "https://www.nypl.org/events/calendar",
+      "checkedAt": "2026-10-15T11:12:00Z",
+      "status": "fetch_failed",
+      "accessStatus": "fetch_failed",
+      "count": 0,
+      "note": "Direct public calendar fetch failed. No branch event promoted as verified.",
+      "type": "web"
+    },
+    {
+      "id": "nyc-threads-search",
+      "name": "Threads public NYC discovery",
+      "url": "https://www.threads.com/",
+      "checkedAt": "2026-10-15T11:12:00Z",
+      "status": "search_no_indexed_matches",
+      "accessStatus": "search_no_indexed_matches",
+      "count": 0,
+      "note": "Targeted public search produced no usable October2026 event evidence. This does not show that no events exist.",
+      "type": "threads"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

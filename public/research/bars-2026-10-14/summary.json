@@ -1,0 +1,22 @@
+{
+  "createdOn": "2026-10-14",
+  "counts": {
+    "palo-alto": 14,
+    "london": 4348,
+    "paris": 2339
+  },
+  "completeCityCoverage": false,
+  "notFetched": [],
+  "telegramPostsRetrieved": 271,
+  "googleDepth": "Search queries run; NOT 20–30 Google result pages. Search tool does not expose numbered Google pagination.",
+  "threads": "Targeted web searches returned no verified bar profiles. No invented accounts.",
+  "publication": "Research only; not imported or scheduled.",
+  "delivery": "Awaiting exact MyDot / ChatGPT Dots destination.",
+  "knownIssues": [
+    "Palo Alto and Paris bounding boxes include neighbouring areas; verify city boundary before import.",
+    "OSM categories omit some restaurant and hotel bars.",
+    "OSM current opening status is unverified.",
+    "Possible near-duplicates need review; exact name/rounded-coordinate duplicates removed.",
+    "VisitLondon direct directory requests did not yield usable listing content."
+  ]
+}

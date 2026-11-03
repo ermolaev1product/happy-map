@@ -1,0 +1,696 @@
+{
+  "checkedAt": "2026-10-22T05:05:00Z",
+  "scope": "Partial source intake for London/Dubai/Yerevan/Batumi/Almaty, October22–29; not complete source or city coverage",
+  "baseReadPath": "/workspace/scratch/59f6a13c9f12/happymap-refresh-20261022/public",
+  "readyCandidates": [
+    {
+      "venue": "Old Theatre, Old Building, LSE",
+      "venueId": "ldn-lse-old-building",
+      "address": "Old Building, Houghton Street, London WC2A 2AE",
+      "lat": 51.51381,
+      "lng": -0.1167,
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:LSE_Old_Building_Entrance,_Houghton_Street.jpg",
+      "coordinatePrecision": "approximate-entrance",
+      "coordinateNote": "Photographer-supplied object location for the Old Building entrance on Houghton Street; not a theatre or library room point.",
+      "timezone": "Europe/London",
+      "currency": "GBP",
+      "id": "london-lse-women-scholarship-20261022",
+      "kind": "event",
+      "cityId": "london",
+      "city": "London",
+      "title": "Celebrating Hilde Himmelweit: women, scholarship, and LSE’s intellectual history",
+      "date": "2026-10-22",
+      "time": "18:30",
+      "end": "20:00",
+      "category": "lecture",
+      "sourceUrl": "https://www.lse.ac.uk/events/women-scholarship",
+      "sourceURLs": [
+        "https://www.lse.ac.uk/events/women-scholarship"
+      ],
+      "checkedAt": "2026-10-22T05:05:00Z",
+      "status": "scheduled",
+      "language": null,
+      "price": null,
+      "priceStatus": "not_published",
+      "mandatoryFees": null,
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current admission and availability with the organizer.",
+      "coordinateReuseFromId": "london-lse-ai-20261021",
+      "coordinateEvidence": "Coordinates reused without increasing precision from the existing record for this same named venue; announcement venue independently matched.",
+      "registrationStatus": "check_organizer",
+      "source": "LSE Public Events",
+      "startAt": "2026-10-22T18:30:00+01:00",
+      "endDate": "2026-10-22",
+      "endAt": "2026-10-22T20:00:00+01:00",
+      "description": "Public panel reflecting on Hilde Himmelweit’s scholarship and the contribution of women to LSE’s intellectual history.",
+      "accessNote": "Official individual announcement explicitly identifies an in-person and online public event. It invites campus attendance; check entry and seating arrangements. Online registration is separate.",
+      "priceNote": "Individual announcement has no explicit price; no free-admission inference made from the general LSE programme.",
+      "priceEvidenceUrl": "https://www.lse.ac.uk/events/women-scholarship",
+      "addressSource": "https://www.lse.ac.uk/lse-information/assets/documents/24-0378-accessibility-map-V2.pdf"
+    },
+    {
+      "venue": "Sheikh Zayed Theatre, Cheng Kin Ku Building, LSE",
+      "venueId": "ldn-venue-e12c73e0b8d9ca3f",
+      "address": "54 Lincoln’s Inn Fields, London WC2A 3LJ",
+      "lat": 51.5153005,
+      "lng": -0.1182906,
+      "coordinateSource": "https://www.openstreetmap.org/way/23613987",
+      "coordinatePrecision": "osm-building-bounds-midpoint",
+      "coordinateNote": "Midpoint of verified OpenStreetMap building bounds, matched to the official venue address. Not an entrance or theatre-room point.",
+      "timezone": "Europe/London",
+      "currency": "GBP",
+      "id": "london-lse-women-of-the-world-20261026",
+      "kind": "event",
+      "cityId": "london",
+      "city": "London",
+      "title": "Women of the world unite: the UN Decade for Women and transnational feminisms 1975 to now",
+      "date": "2026-10-26",
+      "time": "18:30",
+      "end": "20:00",
+      "category": "lecture",
+      "sourceUrl": "https://www.lse.ac.uk/events/women-of-the-world",
+      "sourceURLs": [
+        "https://www.lse.ac.uk/events/women-of-the-world"
+      ],
+      "checkedAt": "2026-10-22T05:05:00Z",
+      "status": "scheduled",
+      "language": null,
+      "price": null,
+      "priceStatus": "not_published",
+      "mandatoryFees": null,
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current admission and availability with the organizer.",
+      "coordinateReuseFromId": "london-lse-budget-20261022",
+      "coordinateEvidence": "Coordinates reused without increasing precision from the existing record for this same named venue; announcement venue independently matched.",
+      "registrationStatus": "check_organizer",
+      "source": "LSE Public Events",
+      "startAt": "2026-10-26T18:30:00+00:00",
+      "endDate": "2026-10-26",
+      "endAt": "2026-10-26T20:00:00+00:00",
+      "description": "Public interdisciplinary roundtable on transnational feminisms and the legacy of the UN Decade for Women.",
+      "accessNote": "Official individual announcement explicitly identifies an in-person and online public event. It invites campus attendance; check entry and seating arrangements. Online registration is separate.",
+      "priceNote": "Individual announcement has no explicit price; no free-admission inference made from the general LSE programme.",
+      "priceEvidenceUrl": "https://www.lse.ac.uk/events/women-of-the-world",
+      "addressSource": "https://www.lse.ac.uk/lse-information/assets/documents/24-0378-accessibility-map-V2.pdf"
+    },
+    {
+      "venue": "Sheikh Zayed Theatre, Cheng Kin Ku Building, LSE",
+      "venueId": "ldn-venue-e12c73e0b8d9ca3f",
+      "address": "54 Lincoln’s Inn Fields, London WC2A 3LJ",
+      "lat": 51.5153005,
+      "lng": -0.1182906,
+      "coordinateSource": "https://www.openstreetmap.org/way/23613987",
+      "coordinatePrecision": "osm-building-bounds-midpoint",
+      "coordinateNote": "Midpoint of verified OpenStreetMap building bounds, matched to the official venue address. Not an entrance or theatre-room point.",
+      "timezone": "Europe/London",
+      "currency": "GBP",
+      "id": "london-lse-study-of-international-relations-20261029",
+      "kind": "event",
+      "cityId": "london",
+      "city": "London",
+      "title": "The big picture as an approach to the study of international relations",
+      "date": "2026-10-29",
+      "time": "18:30",
+      "end": "20:00",
+      "category": "lecture",
+      "sourceUrl": "https://www.lse.ac.uk/events/study-of-international-relations",
+      "sourceURLs": [
+        "https://www.lse.ac.uk/events/study-of-international-relations"
+      ],
+      "checkedAt": "2026-10-22T05:05:00Z",
+      "status": "scheduled",
+      "language": null,
+      "price": null,
+      "priceStatus": "not_published",
+      "mandatoryFees": null,
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current admission and availability with the organizer.",
+      "coordinateReuseFromId": "london-lse-budget-20261022",
+      "coordinateEvidence": "Coordinates reused without increasing precision from the existing record for this same named venue; announcement venue independently matched.",
+      "registrationStatus": "check_organizer",
+      "source": "LSE Public Events",
+      "startAt": "2026-10-29T18:30:00+00:00",
+      "endDate": "2026-10-29",
+      "endAt": "2026-10-29T20:00:00+00:00",
+      "description": "Public panel with Barry Buzan and fellow scholars on broad historical approaches to international relations.",
+      "accessNote": "Official individual announcement explicitly identifies an in-person and online public event. It invites campus attendance; check entry and seating arrangements. Online registration is separate.",
+      "priceNote": "Individual announcement has no explicit price; no free-admission inference made from the general LSE programme.",
+      "priceEvidenceUrl": "https://www.lse.ac.uk/events/study-of-international-relations",
+      "addressSource": "https://www.lse.ac.uk/lse-information/assets/documents/24-0378-accessibility-map-V2.pdf"
+    },
+    {
+      "venue": "Aram Khachaturian Concert Hall",
+      "venueId": "yv-eventix:aram-khachaturian-concert-hall",
+      "address": "46 Mesrop Mashtots Ave, Yerevan",
+      "lat": 40.1863288,
+      "lng": 44.5151222,
+      "coordinateSource": "https://www.google.com/maps?output=embed&q=Aram%20Khachaturian%20Concert%20Hall%2046%20Mesrop%20Mashtots%20Ave%2C%20Yerevan",
+      "coordinatePrecision": "venue",
+      "timezone": "Asia/Yerevan",
+      "currency": "AMD",
+      "id": "yerevan-symphonic-europe-alice-sara-ott-20261024",
+      "kind": "event",
+      "cityId": "yerevan",
+      "city": "Yerevan",
+      "title": "Symphonic Europe · Alice Sara Ott and Armenian State Symphony Orchestra",
+      "date": "2026-10-24",
+      "time": "19:30",
+      "end": null,
+      "category": "music",
+      "sourceUrl": "https://www.tkt.am/hy/symphonic-europe-alice-sara-ott-armenian-state-symphony-orchestra-24-oct-2026/eid/5055",
+      "sourceURLs": [
+        "https://www.tkt.am/hy/symphonic-europe-alice-sara-ott-armenian-state-symphony-orchestra-24-oct-2026/eid/5055"
+      ],
+      "checkedAt": "2026-10-22T05:05:00Z",
+      "status": "scheduled",
+      "language": null,
+      "price": 3000,
+      "priceStatus": "advertised_range",
+      "mandatoryFees": null,
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current admission and availability with the organizer.",
+      "coordinateReuseFromId": "yv-eventix-cf745540-d0f8-44cc-8a05-628e43f25884-2026-10-15-1930",
+      "coordinateEvidence": "Coordinates reused without increasing precision from the existing record for this same named venue; announcement venue independently matched.",
+      "registrationStatus": "ticket_required",
+      "source": "TKT Armenia",
+      "startAt": "2026-10-24T19:30:00+04:00",
+      "priceMax": 15000,
+      "priceLabel": "3,000–15,000 AMD",
+      "priceEvidenceUrl": "https://www.tkt.am/hy/symphonic-europe-alice-sara-ott-armenian-state-symphony-orchestra-24-oct-2026/eid/5055",
+      "priceNote": "Advertised ticket range; mandatory additional fees not confirmed.",
+      "ageRestriction": "6+",
+      "bookingUrl": "https://www.tkt.am/hy/symphonic-europe-alice-sara-ott-armenian-state-symphony-orchestra-24-oct-2026/eid/5055",
+      "description": "Alice Sara Ott joins the Armenian State Symphony Orchestra under Sergey Smbatyan. Programme includes Beethoven, Verdi and Debussy. An interval is listed; final finishing time is not published.",
+      "addressSource": "https://apo.am/ru/контакты/",
+      "accessNote": "Public ticketed concert; ages 6+. Remaining seats not independently checked."
+    },
+    {
+      "venue": "Dubai World Trade Centre, Za’abeel Halls 5–6",
+      "venueId": "dubai-dwtc",
+      "address": "Dubai World Trade Centre, Sheikh Zayed Road, Dubai",
+      "lat": 25.2230544,
+      "lng": 55.2885219,
+      "coordinateSource": "https://www.dwtc.com/en/contact/",
+      "coordinatePrecision": "venue-campus",
+      "timezone": "Asia/Dubai",
+      "currency": "AED",
+      "id": "dubai-najah-20261025",
+      "kind": "event",
+      "cityId": "dubai",
+      "city": "Dubai",
+      "title": "Najah Dubai 2026",
+      "date": "2026-10-25",
+      "time": null,
+      "end": null,
+      "category": "exhibition",
+      "sourceUrl": "https://www.dwtc.com/en/events/najah-exhibition-2026/",
+      "sourceURLs": [
+        "https://www.dwtc.com/en/events/najah-exhibition-2026/",
+        "https://informaconnect.com/najahexpo/"
+      ],
+      "checkedAt": "2026-10-22T05:05:00Z",
+      "status": "scheduled",
+      "language": null,
+      "price": 0,
+      "priceStatus": "free_registration",
+      "mandatoryFees": null,
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current admission and availability with the organizer.",
+      "coordinateReuseFromId": "dubai-accessabilities-expo-20261019",
+      "coordinateEvidence": "Coordinates reused without increasing precision from the existing record for this same named venue; announcement venue independently matched.",
+      "registrationStatus": "registration_required",
+      "source": "DWTC / Informa Connect",
+      "endDate": "2026-10-27",
+      "validDates": [
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "visitSchedule": {
+        "2026-10-25": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-10-26": {
+          "start": "08:30",
+          "end": "20:30",
+          "intervals": [
+            {
+              "start": "08:30",
+              "end": "13:30"
+            },
+            {
+              "start": "16:30",
+              "end": "20:30"
+            }
+          ]
+        },
+        "2026-10-27": {
+          "start": "08:30",
+          "end": "13:30"
+        }
+      },
+      "openingHoursNote": "25 October 10:00–19:00; 26 October 08:30–13:30 and 16:30–20:30 (closed between sessions); 27 October 08:30–13:30.",
+      "priceLabel": "Free pass; registration required",
+      "priceEvidenceUrl": "https://informaconnect.com/najahexpo/",
+      "bookingUrl": "https://informaconnect.com/najahexpo/",
+      "description": "Public higher-education exhibition for students, families and educators. Free pass registration is required. Monday has separate morning and evening opening periods.",
+      "accessNote": "Public event with registered free pass; verify pass arrangements with organizer.",
+      "coordinateNote": "Existing venue-campus marker for DWTC, not a surveyed entrance to individual Za’abeel halls.",
+      "verificationNotes": [
+        "Current individual DWTC detail names Halls 5–6; older indexed calendar names Halls 4–6. Retained current individual source.",
+        "Opening schedule must preserve the Monday 13:30–16:30 closure. Do not show continuous opening or create fabricated sessions."
+      ]
+    }
+  ],
+  "heldCandidates": [
+    {
+      "venue": "Dubai World Trade Centre",
+      "venueId": "dubai-dwtc",
+      "address": "Dubai World Trade Centre, Sheikh Zayed Road, Dubai",
+      "lat": 25.2230544,
+      "lng": 55.2885219,
+      "coordinateSource": "https://www.dwtc.com/en/contact/",
+      "coordinatePrecision": "venue-campus",
+      "timezone": "Asia/Dubai",
+      "currency": "USD",
+      "id": "dubai-ai-festival-20261026",
+      "kind": "event",
+      "cityId": "dubai",
+      "city": "Dubai",
+      "title": "Dubai AI Festival 2026",
+      "date": "2026-10-26",
+      "time": null,
+      "end": null,
+      "category": "conference",
+      "sourceUrl": "https://www.dwtc.com/en/events/dubai-ai-festival-2026/",
+      "sourceURLs": [
+        "https://www.dwtc.com/en/events/dubai-ai-festival-2026/",
+        "https://dubaiaifestival.com/register/"
+      ],
+      "checkedAt": "2026-10-22T05:05:00Z",
+      "status": "held_for_recheck",
+      "language": null,
+      "price": 50,
+      "priceStatus": "advertised_fixed",
+      "mandatoryFees": null,
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current admission and availability with the organizer.",
+      "coordinateReuseFromId": "dubai-accessabilities-expo-20261019",
+      "coordinateEvidence": "Coordinates reused without increasing precision from the existing record for this same named venue; announcement venue independently matched.",
+      "registrationStatus": "check_organizer",
+      "source": "Official organizer",
+      "endDate": "2026-10-27",
+      "validDates": [
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "priceLabel": "Event Pass USD 50",
+      "priceEvidenceUrl": "https://dubaiaifestival.com/register/",
+      "holdReason": "Current full DWTC page names Halls 4–7 and Al Multaqua Ballroom; indexed older page names Hall 1 and Za’abeel 3. Exact hall assignment unresolved. Existing venue-campus coordinate retained only as non-public candidate.",
+      "accessNote": "Public Event Pass includes exhibition floor and conference sessions. Guest and Investor passes are restricted/approval-based. Additional fees unknown.",
+      "nextAction": "Resolve hall change with organizer source, or editorially use explicitly approximate complex-level marker only without disputed hall details.",
+      "description": "Public AI industry exhibition and conference sessions. Exact daily hours were not found."
+    },
+    {
+      "venue": "Batumi Puppet and Youth Theatre",
+      "venueId": "batumi-puppet-youth-theatre",
+      "placeId": "batumi-puppet-youth-theatre",
+      "address": "49 Memed Abashidze Street, Batumi",
+      "lat": 41.6492483,
+      "lng": 41.6333516,
+      "coordinateSource": "https://maps.app.goo.gl/UdhrDsYGpp3wu5xV9",
+      "coordinatePrecision": "named_venue_point",
+      "timezone": "Asia/Tbilisi",
+      "currency": "GEL",
+      "id": "batumi-love-is-20261028",
+      "kind": "event",
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "LOVE is…",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "end": null,
+      "category": "theatre",
+      "sourceUrl": "https://biletebi.ge/theatres/love-is",
+      "sourceURLs": [
+        "https://biletebi.ge/theatres/love-is",
+        "https://www.infobatumi.ge/events/love-is/"
+      ],
+      "checkedAt": "2026-10-22T05:05:00Z",
+      "status": "held_for_recheck",
+      "language": null,
+      "price": 10,
+      "priceStatus": "advertised_fixed",
+      "mandatoryFees": null,
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current admission and availability with the organizer.",
+      "coordinateReuseFromId": "batumi-terrible-happiness-20261020",
+      "coordinateEvidence": "Coordinates reused without increasing precision from the existing record for this same named venue; announcement venue independently matched.",
+      "registrationStatus": "ticket_required",
+      "source": "Biletebi",
+      "startAt": "2026-10-28T18:00:00+04:00",
+      "priceLabel": "10 GEL",
+      "priceEvidenceUrl": "https://biletebi.ge/theatres/love-is",
+      "ageRestriction": "16+",
+      "durationMinutes": 75,
+      "description": "Musical inspired by West Side Story, directed by Salome Jijavadze. Advertised duration 75 minutes.",
+      "holdReason": "Ticket page names Batumi Puppet Theatre and links a map, but that link could not be read. InfoBatumi full event has conflicting address 32–34 versus venue-card49 Memed Abashidze. Existing verified same-named venue49 is available but does not resolve a possible event-location conflict.",
+      "nextAction": "Resolve present performance venue using organizer/map. Do not blindly transfer old theatre address despite same organizer.",
+      "yearEvidence": "InfoBatumi individual full announcement explicitly supplies 2026; Biletebi corroborates October28/29 at18:00."
+    },
+    {
+      "venue": "Batumi Puppet and Youth Theatre",
+      "venueId": "batumi-puppet-youth-theatre",
+      "placeId": "batumi-puppet-youth-theatre",
+      "address": "49 Memed Abashidze Street, Batumi",
+      "lat": 41.6492483,
+      "lng": 41.6333516,
+      "coordinateSource": "https://maps.app.goo.gl/UdhrDsYGpp3wu5xV9",
+      "coordinatePrecision": "named_venue_point",
+      "timezone": "Asia/Tbilisi",
+      "currency": "GEL",
+      "id": "batumi-love-is-20261029",
+      "kind": "event",
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "LOVE is…",
+      "date": "2026-10-29",
+      "time": "18:00",
+      "end": null,
+      "category": "theatre",
+      "sourceUrl": "https://biletebi.ge/theatres/love-is",
+      "sourceURLs": [
+        "https://biletebi.ge/theatres/love-is",
+        "https://www.infobatumi.ge/events/love-is/"
+      ],
+      "checkedAt": "2026-10-22T05:05:00Z",
+      "status": "held_for_recheck",
+      "language": null,
+      "price": 10,
+      "priceStatus": "advertised_fixed",
+      "mandatoryFees": null,
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current admission and availability with the organizer.",
+      "coordinateReuseFromId": "batumi-terrible-happiness-20261020",
+      "coordinateEvidence": "Coordinates reused without increasing precision from the existing record for this same named venue; announcement venue independently matched.",
+      "registrationStatus": "ticket_required",
+      "source": "Biletebi",
+      "startAt": "2026-10-29T18:00:00+04:00",
+      "priceLabel": "10 GEL",
+      "priceEvidenceUrl": "https://biletebi.ge/theatres/love-is",
+      "ageRestriction": "16+",
+      "durationMinutes": 75,
+      "description": "Musical inspired by West Side Story, directed by Salome Jijavadze. Advertised duration 75 minutes.",
+      "holdReason": "Ticket page names Batumi Puppet Theatre and links a map, but that link could not be read. InfoBatumi full event has conflicting address 32–34 versus venue-card49 Memed Abashidze. Existing verified same-named venue49 is available but does not resolve a possible event-location conflict.",
+      "nextAction": "Resolve present performance venue using organizer/map. Do not blindly transfer old theatre address despite same organizer.",
+      "yearEvidence": "InfoBatumi individual full announcement explicitly supplies 2026; Biletebi corroborates October28/29 at18:00."
+    }
+  ],
+  "directUrlDedup": [
+    {
+      "id": "london-lse-women-scholarship-20261022",
+      "sourceUrl": "https://www.lse.ac.uk/events/women-scholarship",
+      "existingMatches": [],
+      "method": "Exact direct URL across all URL-named fields in fresh city events.json"
+    },
+    {
+      "id": "london-lse-women-of-the-world-20261026",
+      "sourceUrl": "https://www.lse.ac.uk/events/women-of-the-world",
+      "existingMatches": [],
+      "method": "Exact direct URL across all URL-named fields in fresh city events.json"
+    },
+    {
+      "id": "london-lse-study-of-international-relations-20261029",
+      "sourceUrl": "https://www.lse.ac.uk/events/study-of-international-relations",
+      "existingMatches": [],
+      "method": "Exact direct URL across all URL-named fields in fresh city events.json"
+    },
+    {
+      "id": "yerevan-symphonic-europe-alice-sara-ott-20261024",
+      "sourceUrl": "https://www.tkt.am/hy/symphonic-europe-alice-sara-ott-armenian-state-symphony-orchestra-24-oct-2026/eid/5055",
+      "existingMatches": [],
+      "method": "Exact direct URL across all URL-named fields in fresh city events.json"
+    },
+    {
+      "id": "dubai-najah-20261025",
+      "sourceUrl": "https://www.dwtc.com/en/events/najah-exhibition-2026/",
+      "existingMatches": [],
+      "method": "Exact direct URL across all URL-named fields in fresh city events.json"
+    },
+    {
+      "id": "dubai-ai-festival-20261026",
+      "sourceUrl": "https://www.dwtc.com/en/events/dubai-ai-festival-2026/",
+      "existingMatches": [],
+      "method": "Exact direct URL across all URL-named fields in fresh city events.json"
+    },
+    {
+      "id": "batumi-love-is-20261028",
+      "sourceUrl": "https://biletebi.ge/theatres/love-is",
+      "existingMatches": [],
+      "method": "Exact direct URL across all URL-named fields in fresh city events.json"
+    },
+    {
+      "id": "batumi-love-is-20261029",
+      "sourceUrl": "https://biletebi.ge/theatres/love-is",
+      "existingMatches": [],
+      "method": "Exact direct URL across all URL-named fields in fresh city events.json"
+    }
+  ],
+  "sourceAudit": [
+    {
+      "url": "https://www.lse.ac.uk/events/women-scholarship",
+      "status": "read_full",
+      "note": "",
+      "cityId": "london",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.lse.ac.uk/events/women-of-the-world",
+      "status": "read_full",
+      "note": "",
+      "cityId": "london",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.lse.ac.uk/events/study-of-international-relations",
+      "status": "read_full",
+      "note": "",
+      "cityId": "london",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.tkt.am/hy/symphonic-europe-alice-sara-ott-armenian-state-symphony-orchestra-24-oct-2026/eid/5055",
+      "status": "read_full",
+      "note": "",
+      "cityId": "yerevan",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.dwtc.com/en/events/najah-exhibition-2026/",
+      "status": "read_full",
+      "note": "",
+      "cityId": "dubai",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.dwtc.com/en/events/dubai-ai-festival-2026/",
+      "status": "read_full",
+      "note": "",
+      "cityId": "dubai",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://biletebi.ge/theatres/love-is",
+      "status": "read_full",
+      "note": "",
+      "cityId": "batumi",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://biletebi.ge/theatres/love-is",
+      "status": "read_full",
+      "note": "",
+      "cityId": "batumi",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.lse.ac.uk/events",
+      "status": "read_partial_calendar",
+      "note": "Public events calendar read; not all pagination or 7-day source coverage.",
+      "cityId": "london",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.lse.ac.uk/lse-information/assets/documents/24-0378-accessibility-map-V2.pdf",
+      "status": "read_full",
+      "note": "Official one-page building map confirms CKK54Lincoln’sInnFields; Old Building on HoughtonStreet.",
+      "cityId": "london",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.lse.ac.uk/lse-information/campus-map",
+      "status": "read_full",
+      "note": "Individual Old Theatre location viewed.",
+      "cityId": "london",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.lse.ac.uk/events/climate-change-growth",
+      "status": "read_full_held",
+      "note": "Oct28 18:30–20 venue campus TBC to ticket holders; no exact venue, not proposed as mapped event.",
+      "cityId": "london",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.lse.ac.uk/events/arts-and-music/lse-chill/lse-chill-20261023",
+      "status": "read_full_restricted",
+      "note": "Oct23 18–20. Body explicitly staff/students only despite public header. Excluded unrestricted public intake.",
+      "cityId": "london",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.dwtc.com/en/events/",
+      "status": "shell_only",
+      "note": "Live page returned zero-event dynamic shell; no inference of empty actual calendar. Search-index hall assignments conflict with individual details.",
+      "cityId": "dubai",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://informaconnect.com/najahexpo/",
+      "status": "read_full",
+      "note": "2026 dates, opening periods and free registered pass.",
+      "cityId": "dubai",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://dubaiaifestival.com/register/",
+      "status": "read_full",
+      "note": "26–27Oct2026; USD50 public Event Pass. Premium pricing internally varies, not used.",
+      "cityId": "dubai",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.dwtc.com/en/getting-here/",
+      "status": "read_full",
+      "note": "Venue complex access from SheikhZayedRoad; not hall coordinates.",
+      "cityId": "dubai",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://apo.am/ru/контакты/",
+      "status": "read_full",
+      "note": "AramKhachaturian ConcertHall46Mashtots; not HouseMuseum3Zarobyan.",
+      "cityId": "yerevan",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://ica.am/",
+      "status": "read_partial_calendar",
+      "note": "New Oct24/27 titles but no complete linked announcement.",
+      "cityId": "yerevan",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://ica.am/միջոցառումներ/",
+      "status": "read_partial_calendar",
+      "note": "Index served older programme, no full current details.",
+      "cityId": "yerevan",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.tomsarkgh.am/",
+      "status": "unavailable",
+      "note": "Tool failed/timeout; not interpreted as zero events.",
+      "cityId": "yerevan",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.tkt.am/",
+      "status": "read_partial_calendar",
+      "note": "Home calendar body readable alongside queue overlay; no bypass.",
+      "cityId": "yerevan",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.infobatumi.ge/ru/events/?lang=ru&sort_by=",
+      "status": "read_partial_calendar",
+      "note": "Individual Georgian detail URLs readable; some RU details failed.",
+      "cityId": "batumi",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.infobatumi.ge/events/love-is/",
+      "status": "read_full_conflict",
+      "note": "Year2026 explicit; address top32–34 versus venue49 conflict.",
+      "cityId": "batumi",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://www.infobatumi.ge/events/ikebana/",
+      "status": "read_full_candidate",
+      "note": "Oct24 2026 17:00, Beeasy, SeverianAchareli55/24 entranceII floor3apt22,50GEL; no reliable coordinates. GE/EN explicitly. Not merged.",
+      "cityId": "batumi",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://tkt.ge/show/35533/ikebana-iaponuri-tradiciuli-yvavilebis-khelovneba",
+      "status": "shell_only",
+      "note": "Linked official ticket page exposes navigation not announcement.",
+      "cityId": "batumi",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://maps.app.goo.gl/PiNvJwDXzrdNoEAS8",
+      "status": "unavailable",
+      "note": "Biletebi LoveIs map link failed cache retrieval; no exact target location obtained.",
+      "cityId": "batumi",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://bpt.ge",
+      "status": "unavailable",
+      "note": "Official theatre domain unavailable in web tool.",
+      "cityId": "batumi",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://topbilet.kz/ru/afisha/almaty/concerts",
+      "status": "read_partial_calendar",
+      "note": "NinoKatamadze24Oct2026 andKino25Oct listed; no complete current individual detail.",
+      "cityId": "almaty",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://topbilet.kz/en/venue/concordia",
+      "status": "read_stale",
+      "note": "Opened venue page served2025 material unlike indexed current result; not fresh confirmation.",
+      "cityId": "almaty",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    },
+    {
+      "url": "https://ticketon.kz/en/concerts/event/tckt2-nino-katamadze-v-almaty",
+      "status": "blocked_403",
+      "note": "Search excerpt detailedOct24 2026 19:30Concordia; directfull403, not import-ready.",
+      "cityId": "almaty",
+      "checkedAt": "2026-10-22T05:05:00Z"
+    }
+  ],
+  "unverifiedBlocks": [
+    "Instagram",
+    "Telegram",
+    "Reddit"
+  ],
+  "notes": [
+    "No Site or Library writes performed. Parent must preserve validDates/split opening periods in model before merging.",
+    "Known existing venue-coordinate precision is preserved, not promoted to new precise geocoding."
+  ]
+}

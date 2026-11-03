@@ -1,0 +1,25 @@
+import assert from 'node:assert/strict';
+import {readModel} from './city-expansion/validate-packet.mjs';
+import {filterForPublication,hasRemainingOccurrence,readPublishedFeed} from './city-expansion/publication-filter.mjs';
+const model=readModel(),now=Date.parse('2026-10-15T11:00:00Z'),config={ianaTimezone:'Europe/Moscow'};
+const source={id:'test-source',url:'https://example.org/calendar',status:'imported',accessStatus:'reviewed'};
+const base={kind:'event',date:'2026-10-15',time:'10:00',sourceUrl:source.url};
+const old={...base,id:'previous',title:'Previously published historical title'};
+const packet={events:[{...base,id:'new-elapsed'},{...old,title:'Do not rewrite published history'},{...base,id:'future',time:'18:00'}],sources:[source],pending:[]};
+const result=filterForPublication(packet,config,{now,model,publishedFeed:{events:[old,{...old,id:'missing-history'}]}});
+assert.deepEqual(result.packet.events.map(e=>e.id),['previous','future','missing-history']);
+assert.deepEqual(result.packet.events[0],old);
+assert.deepEqual(result.publication.excludedNewElapsedIds,['new-elapsed']);
+assert.equal(result.packet.sources[0].count,3);
+assert.equal(result.packet.pending[0].id,'new-elapsed');
+assert.equal(packet.events.length,3);
+// Last date is Tuesday (closed), but Monday remains a real visit date.
+const range={...base,date:'2026-10-01',endDate:'2026-10-20',time:null,visitingHours:{start:'11:00',end:'23:00',weekdays:[0,1,3,4,5,6]},closedWeekdays:[2]};
+assert(hasRemainingOccurrence(range,now,config.ianaTimezone,model));
+assert(!hasRemainingOccurrence(range,Date.parse('2026-10-19T20:00:00Z'),config.ianaTimezone,model));
+assert(hasRemainingOccurrence({...base,time:'13:30'},now,config.ianaTimezone,model),'unknown end remains inside the one-hour arrival window');
+assert(!hasRemainingOccurrence({...base,time:'12:30'},now,config.ianaTimezone,model),'unknown end hides after one hour, per user Oct28 correction');
+assert(!hasRemainingOccurrence({...base,time:'12:30',end:'13:00'},now,config.ianaTimezone,model),'published end wins');
+assert(!hasRemainingOccurrence({...base,time:'23:00',end:'03:00',date:'2026-10-14'},Date.parse('2026-10-14T23:00:00Z'),config.ianaTimezone,model),'overnight single session still respects one-hour arrival cutoff');
+const empty=readPublishedFeed(process.cwd(),'nonexistent-fixture');assert.equal(empty.feed,null);assert.match(empty.commit,/^[a-f0-9]{40}$/);
+console.log('PASS: new elapsed rows audited but unpublished, unchanged published history retained, source counts recalculated, closed interval days, known ends, grace, overnight and committed baseline.');

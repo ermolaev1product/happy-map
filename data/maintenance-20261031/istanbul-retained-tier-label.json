@@ -1,0 +1,349 @@
+{
+  "baseline": "620e82592f549558a99960d4f54dd58e06ecde94",
+  "scope": "One existing Istanbul record four-field price-label clarification only, RU/EN; numeric price and all other facts unchanged. Recovery-based correction, not fresh source validation.",
+  "evidencePolicy": "Recovered exact Oct30 structuredsource and independentpeer; fullraw unavailable. No freshGET or currenttieravailability guarantee. Only exactIstanbulID; Dubaihold/othercities untouched.",
+  "sourceEvidence": {
+    "source": {
+      "sha256": "ec79e6cd9828a8a95fc7821ea1ab9483e651c7ed8994bfe408981b7d4afe9b3f",
+      "packet": {
+        "reviewedAt": "2026-10-30T06:42:25.588477+00:00",
+        "scope": "Two authorized exact URLs, sequential shared guard requests; no extra links/assets/APIs",
+        "networkAttempts": 2,
+        "fullPrimaryReads": 1,
+        "denials": 1,
+        "checkoutWrites": 0,
+        "results": [
+          {
+            "cityId": "istanbul",
+            "eventId": "m24-istanbul-07cd75462c6151",
+            "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/zeynep-bastik--/seans/296876",
+            "attemptedAt": "2026-10-30T06:41:29.474953+00:00",
+            "httpStatus": 200,
+            "metadataPath": "resume-20261029/maintenance/dubai-istanbul-pricing-20261030/raw/ecfeb5512034096c.json",
+            "metadataSHA256": "a14578ad7930c55964264ef796f9696d89134d733a7d731bacb3d9e11fcea0e0",
+            "historicalRecord": {
+              "venue": "Zorlu PSM — TURKCELL SAHNESİ",
+              "address": "Zorlu Center, Levazım Mah. Vadi Cad. No:2/PSM/70, Zincirlikuyu, Beşiktaş",
+              "lat": 41.0672,
+              "lng": 29.0172,
+              "coordinateSource": "https://www.e-sehir.com/turkiye-haritasi/zorlu-center-psm-nerede-nasil-gidilir.html",
+              "coordinatePrecision": "venue_complex",
+              "cityId": "istanbul",
+              "title": "Zeynep Bastık",
+              "date": "2026-10-31",
+              "time": "21:00",
+              "timezone": "Europe/Istanbul",
+              "price": 1387,
+              "currency": "TRY",
+              "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/zeynep-bastik--/seans/296876",
+              "checkedAt": "2026-10-24T05:45:00Z",
+              "category": "music",
+              "restrictions": "18+; doors20:00, performance21:00. Early-bird from-price.",
+              "evidence": "Full event and exact2026 session read; Zorlu Turkcell venue matching baseline verified complex pin, not claimed exact hall entrance.",
+              "id": "m24-istanbul-07cd75462c6151",
+              "programmeId": "programme-1494590e63abdcc8",
+              "sourceCategory": "music",
+              "kind": "event",
+              "status": "scheduled",
+              "publicationStatus": "verified",
+              "availabilityVerified": false,
+              "sourceURLs": [
+                "https://www.bubilet.com.tr/istanbul/etkinlik/zeynep-bastik--/seans/296876"
+              ],
+              "source": "www.bubilet.com.tr",
+              "placeId": "venue-9e485a2dbab7127e",
+              "venueId": "venue-9e485a2dbab7127e",
+              "language": null,
+              "startAt": "2026-10-31T21:00:00+03:00",
+              "accessNote": "18+; doors20:00, performance21:00. Early-bird from-price.",
+              "priceLabel": "1387 TRY"
+            },
+            "decision": "Qualified ticket-type display proposal; no evidence early-bird expired. Existing date/start/price/admission are supported.",
+            "rawPath": "resume-20261029/maintenance/dubai-istanbul-pricing-20261030/raw/ecfeb5512034096c.raw",
+            "rawSHA256": "a59a2dab093dff05e9716a5c1e6e46bac069d5b05436606e3d5036c3093a3db0",
+            "sourceReadAt": "2026-10-30T06:41:29.474953+00:00",
+            "quotes": {
+              "date": "31 Ekim 2026, 21:00",
+              "venue": "Zorlu PSM - Turkcell Sahnesi",
+              "schedule": "Etkinlik kapı açılış saati 20.00, etkinlik başlangıç saati 21.00’dır.",
+              "price": "Genel Giriş / Early Bird — 1387 ₺ — Satın Al",
+              "age": "Etkinlik 18 yaş ve üstü katılımcılar için uygundur. 18 yaş altı seyirciler etkinliğe katılamaz."
+            },
+            "facts": {
+              "date": "2026-10-31",
+              "doors": "20:00",
+              "showStart": "21:00",
+              "actualEnd": null,
+              "venueIdentityMatches": true,
+              "price": 1387,
+              "currency": "TRY",
+              "tier": "General admission / Early Bird",
+              "mandatoryFees": null,
+              "minimumAge": 18,
+              "inventoryVerified": false
+            },
+            "soldOutInterpretation": "Tükenenler(1) is a showSoldOut checkbox/collapsed sold-out-category count. The displayed General Admission/Early Bird row has a Buy link. Neither event-wide sold-out nor checkout inventory is inferred.",
+            "proposal": {
+              "price": 1387,
+              "priceLabelRu": "Ранний тариф: 1387 TRY",
+              "priceLabelEn": "Early-bird ticket: TRY 1,387",
+              "priceNoteRu": "На странице показан билет «Genel Giriş / Early Bird» за 1387 TRY с кнопкой покупки. Наличие билетов и обязательные дополнительные сборы не проверены.",
+              "priceNoteEn": "The page displays General Admission / Early Bird at TRY 1,387 with a purchase link. Remaining inventory and mandatory additional fees are unverified.",
+              "priceCheckedAt": "2026-10-30T06:41:29.474953+00:00",
+              "sourceReadAt": "2026-10-30T06:41:29.474953+00:00"
+            },
+            "preserve": [
+              "numeric price",
+              "existing min field (absent), no inferred from-price guarantee",
+              "date/time/startAt",
+              "endAt unknown",
+              "IDs",
+              "venue/pins/historical geo clocks",
+              "historical checkedAt/evidence",
+              "18+"
+            ],
+            "limitations": [
+              "No ticket link followed or booking attempted.",
+              "No regular-tier amount or early-bird deadline established.",
+              "Venue name matches retained named point; fresh geocoding not performed.",
+              "One-hour-early arrival is a recommendation to avoid parking delays, not a new mandatory start."
+            ]
+          },
+          {
+            "cityId": "dubai",
+            "eventId": "m24b-dubai-f6fba392a8d331",
+            "sourceUrl": "https://dubai.platinumlist.net/event-tickets/109089/new-covent-garden-presents-the-laughter-lounge-by-callback-comedys-crypt-of-comedy",
+            "attemptedAt": "2026-10-30T06:41:20.394881+00:00",
+            "httpStatus": 403,
+            "metadataPath": "resume-20261029/maintenance/dubai-istanbul-pricing-20261030/raw/98d32b95f0d2be39.json",
+            "metadataSHA256": "f68d6dfaaa3660ca6101515487ffc9fccf92748cc5c6d3d6185e637439dccf5a",
+            "historicalRecord": {
+              "cityId": "dubai",
+              "timezone": "Asia/Dubai",
+              "currency": "AED",
+              "checkedAt": "2026-10-24T06:10:29Z",
+              "category": "theatre",
+              "title": "Laughter Lounge — Callback Crypt of Comedy",
+              "date": "2026-10-31",
+              "time": "20:30",
+              "price": 120,
+              "sourceUrl": "https://dubai.platinumlist.net/event-tickets/109089/new-covent-garden-presents-the-laughter-lounge-by-callback-comedys-crypt-of-comedy",
+              "venue": "Playhouse Studio, New Covent Garden Theatre",
+              "address": "Mall of the Emirates,Level2,Al Barsha First,Sheikh Zayed Road,Dubai",
+              "lat": 25.11813888888889,
+              "lng": 55.20052777777778,
+              "coordinateSource": "https://newcoventgardentheatre.com/pages/contact",
+              "coordinatePrecision": "existing verified named venue pin; Playhouse uses theatre-building pin",
+              "restrictions": "Doors20:00;earlybird120AED/general150. Entrance parkingLevel2A5/A6. Event recorded; guests may appear in later adverts. Age and language not stated. Extra mandatory fees not stated.",
+              "evidence": "Full seller announcement and venue/policy text read.2026 source title; exact start schedule, doors separate.",
+              "id": "m24b-dubai-f6fba392a8d331",
+              "programmeId": "programme-92bbd2339fd90f44",
+              "sourceCategory": "theatre",
+              "kind": "event",
+              "status": "scheduled",
+              "publicationStatus": "verified",
+              "availabilityVerified": false,
+              "sourceURLs": [
+                "https://dubai.platinumlist.net/event-tickets/109089/new-covent-garden-presents-the-laughter-lounge-by-callback-comedys-crypt-of-comedy"
+              ],
+              "source": "dubai.platinumlist.net",
+              "placeId": "venue-e795733321c98435",
+              "venueId": "venue-e795733321c98435",
+              "language": null,
+              "startAt": "2026-10-31T20:30:00+04:00",
+              "accessNote": "Doors20:00;earlybird120AED/general150. Entrance parkingLevel2A5/A6. Event recorded; guests may appear in later adverts. Age and language not stated. Extra mandatory fees not stated.",
+              "priceLabel": "120 AED"
+            },
+            "decision": "HOLD fresh verification: HTTP403, host stopped. No new pricing/schedule facts established.",
+            "bodyRetained": false,
+            "sourceReadAt": null,
+            "proposedCorrection": null,
+            "preserveHistoricalClock": true,
+            "noAlternativesOrRetries": true
+          }
+        ]
+      }
+    },
+    "peer": {
+      "sha256": "3e2683e0d4b4def1d94fe533113f42aa3ce10e03e59fe93726f7d93f0f5c695e",
+      "packet": {
+        "reviewedAt": "2026-10-30T06:43:34.469843+00:00",
+        "verdict": "PASS_ISTANBUL_LABEL_ONLY_DUBAI_HOLD",
+        "networkRequests": 0,
+        "checkoutWrites": 0,
+        "inputSHA256": "ec79e6cd9828a8a95fc7821ea1ab9483e651c7ed8994bfe408981b7d4afe9b3f",
+        "id": "m24-istanbul-07cd75462c6151",
+        "rawPath": "resume-20261029/maintenance/dubai-istanbul-pricing-20261030/raw/ecfeb5512034096c.raw",
+        "rawSHA256": "a59a2dab093dff05e9716a5c1e6e46bac069d5b05436606e3d5036c3093a3db0",
+        "sourceReadAt": "2026-10-30T06:41:29.474953+00:00",
+        "currentRecordExactMatch": true,
+        "confirmed": {
+          "title": "Zeynep Bastık",
+          "date": "2026-10-31",
+          "show": "21:00",
+          "doors": "20:00",
+          "minimumAge": 18,
+          "venue": "Zorlu PSM - Turkcell Sahnesi",
+          "tier": "Genel Giriş / Early Bird",
+          "price": 1387,
+          "currency": "TRY"
+        },
+        "decision": "Exact source session identity/date/venue and displayed earlybird row independently read from retained fullHTML. Qualify displayed label and note only; keep numeric1387, absentmin, date/time/point/historicalcheckedAt unchanged.",
+        "soldOutEvidence": "Literal HTML label for showSoldOut checkbox beside Tükenenler(1); same earlybird row has SatınAl. Not wholeevent soldout, not confirmed checkoutstock.",
+        "unknowns": [
+          "Tier expiry",
+          "Regular-tier price",
+          "Mandatoryfees",
+          "Checkoutinventory",
+          "Actualend"
+        ],
+        "timezonePin": "Europe/Istanbul+03:00 and namedcomplex point retained; nofresh geocode.",
+        "priceLabelRu": "Ранний тариф: 1387 TRY",
+        "priceLabelEn": "Early-bird ticket: TRY 1,387",
+        "fieldSpecificClocks": [
+          "sourceReadAt",
+          "priceCheckedAt"
+        ],
+        "dubai": {
+          "decision": "HOLD unchanged",
+          "newReadByPeer": false,
+          "historicalClockPreserved": true,
+          "guardDecision": {
+            "allowed": false,
+            "reason": "recorded stop",
+            "matches": [
+              {
+                "host": "dubai.platinumlist.net",
+                "evidence": {
+                  "reason": "transport_hold",
+                  "status": 403,
+                  "checkedAt": "2026-10-30T06:41:23.943225+00:00"
+                },
+                "ledger": "safety/new-stops.json"
+              }
+            ],
+            "ledgerHashes": {
+              "audit/historical-shared-stops.json": "2373a2f58374a0f189259e5979fe64d28ec98c9bb47e2d5583695605d46b5c11",
+              "audit/access-stop-additions.json": "5115bc78e898de858f8dbab7821ffe0af6a49377f7b002a51a9b01b4c2308203",
+              "maintenance/stops.json": "b8db437de87636ab76fcf96e50379f6e650faaea3a33206419032bbabde1ff09",
+              "preparation-research/stops.json": "9e2ea2b074831d52fdf6eef43b3e1d72287910b9799b6705d42ddb6cac782fd7",
+              "research/stops.json": "aa689d3392b84cc1e9ca3dc28113f033df729749bbd69d85b0dd47bcd7cc9dc4",
+              "safety/new-stops.json": "ed0ff274893366ff97af3d3627f3823b5c897c6603f6cc1279fdcb96381a4dcf",
+              "safety/historical-source-stops.json": "af0ef2c93423106865716bb14842e636b9606f0f0c562fbe81077334d2465f3d"
+            }
+          },
+          "noDenialBodyRead": true
+        },
+        "risks": [
+          "Do not infermintrue from earlybird wording or promote numeric1387 to guaranteed regular-price/stock.",
+          "Student-ticket general rules do not establish an offered student tier for this session.",
+          "Onehour-earlier arrival recommendation is not actual showtime or mandatorydeadline.",
+          "No code/browser/render verification in source peer."
+        ]
+      }
+    }
+  },
+  "originalRecords": {
+    "public/istanbul/events.json": {
+      "m24-istanbul-07cd75462c6151": {
+        "venue": "Zorlu PSM — TURKCELL SAHNESİ",
+        "address": "Zorlu Center, Levazım Mah. Vadi Cad. No:2/PSM/70, Zincirlikuyu, Beşiktaş",
+        "lat": 41.0672,
+        "lng": 29.0172,
+        "coordinateSource": "https://www.e-sehir.com/turkiye-haritasi/zorlu-center-psm-nerede-nasil-gidilir.html",
+        "coordinatePrecision": "venue_complex",
+        "cityId": "istanbul",
+        "title": "Zeynep Bastık",
+        "date": "2026-10-31",
+        "time": "21:00",
+        "timezone": "Europe/Istanbul",
+        "price": 1387,
+        "currency": "TRY",
+        "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/zeynep-bastik--/seans/296876",
+        "checkedAt": "2026-10-24T05:45:00Z",
+        "category": "music",
+        "restrictions": "18+; doors20:00, performance21:00. Early-bird from-price.",
+        "evidence": "Full event and exact2026 session read; Zorlu Turkcell venue matching baseline verified complex pin, not claimed exact hall entrance.",
+        "id": "m24-istanbul-07cd75462c6151",
+        "programmeId": "programme-1494590e63abdcc8",
+        "sourceCategory": "music",
+        "kind": "event",
+        "status": "scheduled",
+        "publicationStatus": "verified",
+        "availabilityVerified": false,
+        "sourceURLs": [
+          "https://www.bubilet.com.tr/istanbul/etkinlik/zeynep-bastik--/seans/296876"
+        ],
+        "source": "www.bubilet.com.tr",
+        "placeId": "venue-9e485a2dbab7127e",
+        "venueId": "venue-9e485a2dbab7127e",
+        "language": null,
+        "startAt": "2026-10-31T21:00:00+03:00",
+        "accessNote": "18+; doors20:00, performance21:00. Early-bird from-price.",
+        "priceLabel": "1387 TRY"
+      }
+    },
+    "public/en/istanbul/events.json": {
+      "m24-istanbul-07cd75462c6151": {
+        "venue": "Zorlu PSM — Turkcell Stage",
+        "address": "Zorlu Center, Levazım neighbourhood, 2/PSM/70 Vadi Street, Zincirlikuyu, Beşiktaş, Istanbul",
+        "lat": 41.0672,
+        "lng": 29.0172,
+        "coordinateSource": "https://www.e-sehir.com/turkiye-haritasi/zorlu-center-psm-nerede-nasil-gidilir.html",
+        "coordinatePrecision": "venue_complex",
+        "cityId": "istanbul",
+        "title": "Zeynep Bastık",
+        "date": "2026-10-31",
+        "time": "21:00",
+        "timezone": "Europe/Istanbul",
+        "price": 1387,
+        "currency": "TRY",
+        "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/zeynep-bastik--/seans/296876",
+        "checkedAt": "2026-10-24T05:45:00Z",
+        "category": "music",
+        "restrictions": "18+; doors20:00, performance21:00. Early-bird from-price.",
+        "evidence": "Full event and exact2026 session read; Zorlu Turkcell venue matching baseline verified complex pin, not claimed exact hall entrance.",
+        "id": "m24-istanbul-07cd75462c6151",
+        "programmeId": "programme-1494590e63abdcc8",
+        "sourceCategory": "music",
+        "kind": "event",
+        "status": "scheduled",
+        "publicationStatus": "verified",
+        "availabilityVerified": false,
+        "sourceURLs": [
+          "https://www.bubilet.com.tr/istanbul/etkinlik/zeynep-bastik--/seans/296876"
+        ],
+        "source": "www.bubilet.com.tr",
+        "placeId": "venue-9e485a2dbab7127e",
+        "venueId": "venue-9e485a2dbab7127e",
+        "language": null,
+        "startAt": "2026-10-31T21:00:00+03:00",
+        "accessNote": "18+; doors20:00, performance21:00. Early-bird from-price.",
+        "priceLabel": "1387 TRY"
+      }
+    }
+  },
+  "patches": {
+    "public/istanbul/events.json": {
+      "m24-istanbul-07cd75462c6151": {
+        "priceLabel": "Ранний тариф: 1387 TRY",
+        "priceNote": "При чтении источника 30 октября был указан билет «Genel Giriş / Early Bird» за 1387 TRY с кнопкой покупки. Текущее наличие билетов, срок действия тарифа и обязательные дополнительные сборы не проверены.",
+        "sourceReadAt": "2026-10-30T06:41:29.474953+00:00",
+        "priceCheckedAt": "2026-10-30T06:41:29.474953+00:00"
+      }
+    },
+    "public/en/istanbul/events.json": {
+      "m24-istanbul-07cd75462c6151": {
+        "priceLabel": "Early-bird ticket: TRY 1,387",
+        "priceNote": "The source read on 30 October listed General Admission / Early Bird at TRY 1,387 with a purchase link. Current inventory, tier expiry and mandatory additional fees are unverified.",
+        "sourceReadAt": "2026-10-30T06:41:29.474953+00:00",
+        "priceCheckedAt": "2026-10-30T06:41:29.474953+00:00"
+      }
+    }
+  },
+  "missingEvidence": [
+    "Original full raw HTML/public-richtext files",
+    "Historical implementation/applied peer files"
+  ],
+  "sourceClockPolicy": "Actual retained Oct30 sourceReadAt/priceCheckedAt copied unchanged. Original checkedAt and pin evidence remain historical. No new network read or current stock verification."
+}

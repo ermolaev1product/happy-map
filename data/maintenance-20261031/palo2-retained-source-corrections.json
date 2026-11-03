@@ -1,0 +1,665 @@
+{
+  "baseline": "526ca7406e6697337534eba753c8af9baef9d250",
+  "scope": "Two existing Palo Alto records only, RU/EN; no later candidates. Recovery-based correction, not fresh source validation.",
+  "evidencePolicy": "Recovered exact historical Oct30 source packet and contemporaneous peer. Full raw bodies unavailable; no fresh GET, no recovered full STOP ledger. Only two IDs; all later candidates excluded.",
+  "sourceEvidence": {
+    "correction-delta.json": {
+      "sha256": "fdaca3686e83633c0f11f545be48099f3a4350f835f4f857bcca310dfb3a0a31",
+      "packet": {
+        "reviewedAt": "2026-10-30T04:52:45.500806+00:00",
+        "requests": 2,
+        "scope": "Two programmes, one seating each; second Ray seating NOT read, no facts propagated",
+        "sourceFeedSHA256": "3a4a7958517873f14e76acf0e3ba6b7dfaea3f6a9058d4813758d85344c9e3d0",
+        "records": [
+          {
+            "id": "pa-meyhouse-20261114-1700",
+            "decision": "READY_FOR_INDEPENDENT_PRIMARY_PEER",
+            "originalRecord": {
+              "kind": "event",
+              "city": "Palo Alto",
+              "locality": "Palo Alto",
+              "municipality": "Palo Alto",
+              "mapRegion": "Palo Alto / Stanford",
+              "venue": "Meyhouse Jazz Palo Alto Stage",
+              "address": "640 Emerson St, Palo Alto, CA 94301, USA",
+              "lat": 37.4432991,
+              "lng": -122.1609897,
+              "coordinatePrecision": "organizer-published-venue-point",
+              "id": "pa-meyhouse-20261114-1700",
+              "cityId": "palo-alto",
+              "venueId": "pa-meyhouse",
+              "title": "Ray Obiedo’s Latin Jazz Ensemble — first seating",
+              "date": "2026-11-14",
+              "time": "17:00",
+              "startAt": "2026-11-14T17:00:00-08:00",
+              "timezone": "America/Los_Angeles",
+              "source": "Meyhouse Jazz",
+              "sourceUrl": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-5-pm",
+              "sourceURLs": [
+                "https://www.meyhousejazz.com/paloalto"
+              ],
+              "checkedAt": "2026-10-23T05:12:45Z",
+              "currency": "USD",
+              "price": 38,
+              "fees": 0.95,
+              "min": true,
+              "priceNote": "Early bird38+.95fee and general48+1.20fee both listed.",
+              "category": "music",
+              "description": "Reserved seating and live music at Meyhouse Palo Alto.",
+              "language": "EN",
+              "isInPerson": true,
+              "status": "scheduled",
+              "registrationStatus": "tickets_listed",
+              "availabilityVerified": true,
+              "doorsTime": "17:00",
+              "showStartTime": "18:30",
+              "timeNote": "Start time is the booked seating/arrival time; the concert starts at 18:30. Actual performance ending is unpublished; ticket calendar range is not treated as actual duration.",
+              "admission": "Reserved seating at 17:00; concert begins 18:30. Ticket covers performance; food and beverages cost extra.",
+              "coordinateSource": "https://www.meyhousejazz.com/paloalto",
+              "coordinateEvidence": "Existing pa-meyhouse point reused after full official event page confirmed640EmersonSt,PaloAlto94301.",
+              "yearEvidence": "Full organizer detail and current calendar explicitly publishNovember2026; US Pacific offset correctly-08 afterNovember1 DST end.",
+              "evidence": {
+                "url": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-5-pm",
+                "checkedAt": "2026-10-23T05:12:45Z",
+                "method": "Full official detail read plus current calendar",
+                "facts": {
+                  "date": "2026-11-14",
+                  "time": "17:00",
+                  "end": "20:00",
+                  "showStartTime": "18:30",
+                  "availablePrice": 38,
+                  "fee": 0.95
+                },
+                "availabilityNote": "Public ticket form lists available tier; no checkout performed."
+              },
+              "programmeId": "pa-ray-obiedo-20261114"
+            },
+            "sourceUrl": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-5-pm",
+            "sourceReadAt": "2026-10-30T04:51:03.468643+00:00",
+            "httpStatus": 200,
+            "rawPath": "resume-20261029/maintenance/palo-alto-seating-20261030/raw/52c641b2fab5d19d.raw",
+            "rawSHA256": "2c3a2c3f4e42dfaccfb3b0aac59f3c50a3584e542d8f4aab0a8bad9c7198ee79",
+            "publicRichTextPath": "resume-20261029/maintenance/palo-alto-seating-20261030/raw/52c641b2fab5d19d.public-richtext.txt",
+            "publicRichTextSHA256": "78fe12fb4ef0eacaf3838396e41dae4d9fd159a00d2a6895ba57665246d50802",
+            "decodeMethod": "Static textData.text JSON string extraction from the same public HTML; no JavaScript execution, API, image or additional request. Visible prose also supplies show start.",
+            "exactScheduleQuotes": [
+              "Doors open: 5:00 PM",
+              "Show: 6:30 PM"
+            ],
+            "priceSection": "Tickets Ticket type Early Bird General Admission More info Limited quantity tickets for customers who buy early Price $38.00 +$0.95 ticket service fee Quantity 0 Ticket type General Admission Price $48.00 +$1.20 ticket service fee Quantity 0 Total $0.00 Checkout ",
+            "dateYearVenueEvidence": "Time & Location Nov 14, 2026, 5:00 PM – 8:00 PM Meyhouse Jazz Palo Alto Stage, 640 Emerson St, Palo Alto, CA 94301, USA ",
+            "venueIdentity": "Same640EmersonSt,PaloAlto94301 confirmed; existing named point retained, not freshly geocoded.",
+            "timezoneEvidence": "Own JSON-LD dates carry-08:00; America/Los_Angeles after Nov1 DST transition. Show time joined to same explicit2026 date.",
+            "patch": {
+              "time": "18:30",
+              "startAt": "2026-11-14T18:30:00-08:00",
+              "showStartTime": "18:30",
+              "doorsTime": "17:00",
+              "sourceReadAt": "2026-10-30T04:51:03.468643+00:00",
+              "scheduleCheckedAt": "2026-10-30T04:51:03.468643+00:00",
+              "priceCheckedAt": "2026-10-30T04:51:03.468643+00:00",
+              "end": null,
+              "endAt": null,
+              "availabilityVerified": false,
+              "availabilityNote": "Public organizer ticket selectors displayed at the recorded read time; no checkout or stock reservation performed. Quantity 0 is the current selection, not proof of sold out.",
+              "timeNote": "Doors17:00; actual show18:30 explicitly in organizer prose. Actual performance ending unknown; calendar block17:00–20:00 is not treated as duration.",
+              "admission": "Doors open17:00; show18:30. Public ticket selectors list early bird38 USD +0.95 USD ticket service fee and general admission48 USD +1.20 USD fee. No mandatory17:00 arrival deadline found. Checkout and live stock not independently tested.",
+              "priceNote": "Displayed early bird38 USD +0.95 USD mandatory ticket service fee (38.95 USD) and general admission48 USD +1.20 USD fee (49.20 USD). Selectors visible; no completed checkout or stock reservation, other charges not verified."
+            },
+            "preserve": [
+              "stable ID (suffix remains historical original seating time)",
+              "programmeId",
+              "date",
+              "timezone",
+              "venue/address/point",
+              "historical checkedAt and old evidence as history",
+              "base price/fees/min (currently consistent with displayed eligible tiers)"
+            ],
+            "negativeEvidenceLimit": "No mandatory arrival statement found is not a guarantee of late admission; display doors/seating prominently. No cancellation notice seen does not guarantee stock."
+          },
+          {
+            "id": "pa-meyhouse-20261115-1700",
+            "decision": "READY_FOR_INDEPENDENT_PRIMARY_PEER",
+            "originalRecord": {
+              "kind": "event",
+              "city": "Palo Alto",
+              "locality": "Palo Alto",
+              "municipality": "Palo Alto",
+              "mapRegion": "Palo Alto / Stanford",
+              "venue": "Meyhouse Jazz Palo Alto Stage",
+              "address": "640 Emerson St, Palo Alto, CA 94301, USA",
+              "lat": 37.4432991,
+              "lng": -122.1609897,
+              "coordinatePrecision": "organizer-published-venue-point",
+              "id": "pa-meyhouse-20261115-1700",
+              "cityId": "palo-alto",
+              "venueId": "pa-meyhouse",
+              "title": "Classical Sunday: Rhapsody & Romance — Calliope Smith × Kim Lee",
+              "date": "2026-11-15",
+              "time": "17:00",
+              "startAt": "2026-11-15T17:00:00-08:00",
+              "timezone": "America/Los_Angeles",
+              "source": "Meyhouse Jazz",
+              "sourceUrl": "https://www.meyhousejazz.com/event-details/classical-sunday-rhapsody-romance-calliope-smith-kim-lee-sun-11-15",
+              "sourceURLs": [
+                "https://www.meyhousejazz.com/paloalto"
+              ],
+              "checkedAt": "2026-10-23T05:12:45Z",
+              "currency": "USD",
+              "price": 65,
+              "fees": 1.63,
+              "min": false,
+              "priceNote": "Early bird55+1.38fee is sold out; general admission65+1.63fee listed.",
+              "category": "music",
+              "description": "Reserved seating and live music at Meyhouse Palo Alto.",
+              "language": "EN",
+              "isInPerson": true,
+              "status": "scheduled",
+              "registrationStatus": "tickets_listed",
+              "availabilityVerified": true,
+              "doorsTime": "17:00",
+              "showStartTime": "19:00",
+              "timeNote": "Start time is the booked seating/arrival time; the concert starts at 19:00. Actual performance ending is unpublished; ticket calendar range is not treated as actual duration.",
+              "admission": "Reserved seating at 17:00; concert begins 19:00. Ticket covers performance; food and beverages cost extra. Dinner service ends at19:00; no food or beverage service during the concert.",
+              "coordinateSource": "https://www.meyhousejazz.com/paloalto",
+              "coordinateEvidence": "Existing pa-meyhouse point reused after full official event page confirmed640EmersonSt,PaloAlto94301.",
+              "yearEvidence": "Full organizer detail and current calendar explicitly publishNovember2026; US Pacific offset correctly-08 afterNovember1 DST end.",
+              "evidence": {
+                "url": "https://www.meyhousejazz.com/event-details/classical-sunday-rhapsody-romance-calliope-smith-kim-lee-sun-11-15",
+                "checkedAt": "2026-10-23T05:12:45Z",
+                "method": "Full official detail read plus current calendar",
+                "facts": {
+                  "date": "2026-11-15",
+                  "time": "17:00",
+                  "end": "21:00",
+                  "showStartTime": "19:00",
+                  "availablePrice": 65,
+                  "fee": 1.63
+                },
+                "availabilityNote": "Public ticket form lists available tier; no checkout performed."
+              }
+            },
+            "sourceUrl": "https://www.meyhousejazz.com/event-details/classical-sunday-rhapsody-romance-calliope-smith-kim-lee-sun-11-15",
+            "sourceReadAt": "2026-10-30T04:51:25.377207+00:00",
+            "httpStatus": 200,
+            "rawPath": "resume-20261029/maintenance/palo-alto-seating-20261030/raw/acf4d7b6e085c592.raw",
+            "rawSHA256": "8b645ee41175aab39ad6350bb2fe86547f66458ceeab1d9eb7ab98b2950e348e",
+            "publicRichTextPath": "resume-20261029/maintenance/palo-alto-seating-20261030/raw/acf4d7b6e085c592.public-richtext.txt",
+            "publicRichTextSHA256": "50dbe04d2491f167920ce99af961ef0af1697e305d2e1ffb61d603fac776a7c2",
+            "decodeMethod": "Static textData.text JSON string extraction from the same public HTML; no JavaScript execution, API, image or additional request. Visible prose also supplies show start.",
+            "exactScheduleQuotes": [
+              "Seating: 5:00 PM",
+              "Concert Begins: 5:30 PM",
+              "Doors open at 5:00 PM, and guests are welcome to order drinks from 5:00 PM to 5:30 PM.",
+              "The musical performance runs from 5:30 PM to 7:15 PM, presented in two parts with a short intermission."
+            ],
+            "priceSection": "Tickets Ticket type Early Bird Ticket Price $55.00 +$1.38 ticket service fee Sold Out Ticket type General Admission Price $65.00 +$1.63 ticket service fee Quantity 0 Total $0.00 Checkout ",
+            "dateYearVenueEvidence": "Time & Location Nov 15, 2026, 5:00 PM – 9:00 PM Palo Alto, 640 Emerson St, Palo Alto, CA 94301, USA ",
+            "venueIdentity": "Same640EmersonSt,PaloAlto94301 confirmed; existing named point retained, not freshly geocoded.",
+            "timezoneEvidence": "Own JSON-LD dates carry-08:00; America/Los_Angeles after Nov1 DST transition. Show time joined to same explicit2026 date.",
+            "patch": {
+              "time": "17:30",
+              "startAt": "2026-11-15T17:30:00-08:00",
+              "showStartTime": "17:30",
+              "doorsTime": "17:00",
+              "sourceReadAt": "2026-10-30T04:51:25.377207+00:00",
+              "scheduleCheckedAt": "2026-10-30T04:51:25.377207+00:00",
+              "priceCheckedAt": "2026-10-30T04:51:25.377207+00:00",
+              "end": "19:15",
+              "endAt": "2026-11-15T19:15:00-08:00",
+              "availabilityVerified": false,
+              "availabilityNote": "Public organizer ticket selectors displayed at the recorded read time; no checkout or stock reservation performed. Quantity 0 is the current selection, not proof of sold out.",
+              "timeNote": "Seating/doors17:00; actual concert17:30–19:15 with a short intermission, explicitly in organizer Evening Format. Calendar block17:00–21:00 is not the performance interval.",
+              "admission": "Seating/doors17:00; drinks may be ordered until17:30. Concert17:30–19:15 with a short intermission; food and beverage service pauses during the performance and dinner resumes afterward. Food and beverages cost extra. General admission65 USD plus1.63 USD ticket service fee; early bird55 USD plus1.38 USD fee marked Sold Out. No mandatory latest-arrival condition found; age rules not established.",
+              "priceNote": "General admission65 USD +1.63 USD stated ticket service fee (66.63 USD before any undisclosed extra charges). Early bird55 USD +1.38 USD explicitly Sold Out; do not use it as available minimum."
+            },
+            "preserve": [
+              "stable ID (suffix remains historical original seating time)",
+              "programmeId",
+              "date",
+              "timezone",
+              "venue/address/point",
+              "historical checkedAt and old evidence as history",
+              "base price/fees/min (currently consistent with displayed eligible tiers)"
+            ],
+            "negativeEvidenceLimit": "No mandatory arrival statement found is not a guarantee of late admission; display doors/seating prominently. No cancellation notice seen does not guarantee stock.",
+            "explicitEndRawEvidence": {
+              "byteOffset": 1339072,
+              "matchLength": 52,
+              "rawUTF8Context": "ARAGRAPH\",\"id\":\"kq9to4534\",\"nodes\":[{\"type\":\"TEXT\",\"id\":\"\",\"nodes\":[],\"textData\":{\"text\":\"The musical performance runs from 5:30 PM to 7:15 PM, presented in two parts with a short intermission. To preserve the intimacy of the music, no food or beverage service will be available during the performance.\",\"decorations\":[]}},{\"type\":\"TEXT\",\"id\":\"\",\"nodes\":[],\"textData\":{\"text\":\"\\n\",\"decorations\":[]}}],\"style\":{},\"paragraphData\":{\"textStyle\":{\"textAlignment\":\"AUTO\"}}},{\"type\":\"PARAGRAPH\",\"i",
+              "samePageBinding": "Same response title Classical Sunday…Sun11/15 and Time & LocationNov15,2026,640Emerson; embedded public richtext Evening Format of this page, not related-event calendar."
+            }
+          }
+        ],
+        "excludedIDs": [
+          "pa-meyhouse-20261114-2000"
+        ],
+        "mutations": "Only separate audit/delta files; no checkout/Library/Sites",
+        "clockPolicy": "Source-specific fresh clocks separate from preserved historical point/source evidence; no blanket geo refresh.",
+        "endPolicy": "Ray actual end unknown. Classical explicit prose19:15 overrides calendar21:00; not inferred from duration.",
+        "nextStep": "Independent full source peer before any application."
+      }
+    },
+    "independent-primary-peer.json": {
+      "sha256": "c01d1796406aec8cbc42ecd43b0bb7c5407ab0516d09497091582ac8079313f8",
+      "packet": {
+        "reviewedAt": "2026-10-30T04:54:22.382351+00:00",
+        "verdict": "PASS_WITH_PRICE_LABEL_AND_HISTORY_CAVEATS",
+        "networkRequests": 0,
+        "checkoutWrites": 0,
+        "inputSHA256": "fdaca3686e83633c0f11f545be48099f3a4350f835f4f857bcca310dfb3a0a31",
+        "records": [
+          {
+            "id": "pa-meyhouse-20261114-1700",
+            "actualChangedFields": [
+              "time",
+              "startAt",
+              "sourceReadAt",
+              "scheduleCheckedAt",
+              "priceCheckedAt",
+              "end",
+              "endAt",
+              "availabilityVerified",
+              "availabilityNote",
+              "timeNote",
+              "admission",
+              "priceNote"
+            ],
+            "sourceReadAt": "2026-10-30T04:51:03.468643+00:00",
+            "rawPath": "resume-20261029/maintenance/palo-alto-seating-20261030/raw/52c641b2fab5d19d.raw",
+            "rawSHA256": "2c3a2c3f4e42dfaccfb3b0aac59f3c50a3584e542d8f4aab0a8bad9c7198ee79",
+            "verdict": "PASS"
+          },
+          {
+            "id": "pa-meyhouse-20261115-1700",
+            "actualChangedFields": [
+              "time",
+              "startAt",
+              "showStartTime",
+              "sourceReadAt",
+              "scheduleCheckedAt",
+              "priceCheckedAt",
+              "end",
+              "endAt",
+              "availabilityVerified",
+              "availabilityNote",
+              "timeNote",
+              "admission",
+              "priceNote"
+            ],
+            "sourceReadAt": "2026-10-30T04:51:25.377207+00:00",
+            "rawPath": "resume-20261029/maintenance/palo-alto-seating-20261030/raw/acf4d7b6e085c592.raw",
+            "rawSHA256": "8b645ee41175aab39ad6350bb2fe86547f66458ceeab1d9eb7ab98b2950e348e",
+            "verdict": "PASS"
+          }
+        ],
+        "findings": {
+          "ray": "Nov14 2026 own visible doors17/show18:30; same640Emerson venue. Actual end unknown: calendar20 is not end evidence. No mandatory arrival deadline found, not a promise of late admission.",
+          "classical": "Nov15 2026 visible seating17/concert17:30; embedded static public About-event richtext Evening Format explicitly17:30–19:15 with intermission, service pauses and dinner after. Same Calliope/Kim programme context, not related event. Calendar21 not used. Old19concert start and dinner-end19 prose must be replaced.",
+          "yearTimezone": "Explicit2026 Time&Location and own JSONLD-08:00 match America/Los_Angeles. Existing named point/address retained, not newly geocoded.",
+          "age": "Calliope age14 is performer biography, not admission restriction.",
+          "stock": "Ray both ticket selectors display Quantity0, not soldout. Classical earlybird explicitlySoldOut only; general65 selectorQuantity0 notsoldout. No cancellation notice seen, but checkout stock not verified. availabilityVerified=false appropriate."
+        },
+        "numericPriceDecision": {
+          "ray": {
+            "acceptableExistingDisplayedMinimum": {
+              "price": 38,
+              "fees": 0.95,
+              "min": true
+            },
+            "basis": "Explicit early-bird selector currently displayed without soldout marker; limited-quantity early-purchase condition must remain visible. This is listed tier, not guaranteed stock or standard price.",
+            "standardAlternative": {
+              "price": 48,
+              "fees": 1.2,
+              "min": false
+            },
+            "instruction": "Do not label38 as standard/general unrestricted price. No necessary numeric change if displayed-min semantics and conditions survive rendering. Known fee separate;38.95 minimum listed total,49.20 standard listed total; other charges unknown."
+          },
+          "classical": {
+            "price": 65,
+            "fees": 1.63,
+            "min": false,
+            "basis": "Standard general admission displayed;55earlybird explicitlysoldout excluded from minimum.66.63 listed base+service fee, other charges unknown."
+          }
+        },
+        "preserve": [
+          "stableIDs even historical1700suffix",
+          "dates/timezone/pins/address",
+          "old sourcecheckedAt as historical only",
+          "secondRay pa-meyhouse-20261114-2000 untouched/unread"
+        ],
+        "risks": [
+          "Historical nested evidence.facts retains obsolete17start/19show/calendarend and old availablePrice. Preserve as historical evidence only; renderer/normalizer must prefer patched current fields and not resurrect obsolete schedule or stock claims.",
+          "Full Evening Format is retained in static same-page richtext payload, not fully expanded initial HTML text; no JavaScript execution or separate request used.",
+          "Explicit end/source clock should remain attached to classical correction; do not propagate to Ray or second seating.",
+          "Only source semantic peer here; converter/UI behavior still requires publisher QA."
+        ],
+        "shortEvidence": [
+          "Doors open: 5:00 PM; Show: 6:30 PM",
+          "Seating:5:00PM;Concert Begins:5:30PM",
+          "Explicit musical performance17:30–19:15 in same-page Evening Format"
+        ],
+        "noLongRawCopiedExternally": true
+      }
+    }
+  },
+  "originalRecords": {
+    "public/palo-alto/events.json": {
+      "pa-meyhouse-20261114-1700": {
+        "kind": "event",
+        "city": "Palo Alto",
+        "locality": "Palo Alto",
+        "municipality": "Palo Alto",
+        "mapRegion": "Palo Alto / Stanford",
+        "venue": "Meyhouse Jazz Palo Alto Stage",
+        "address": "640 Emerson St, Palo Alto, CA 94301, USA",
+        "lat": 37.4432991,
+        "lng": -122.1609897,
+        "coordinatePrecision": "organizer-published-venue-point",
+        "id": "pa-meyhouse-20261114-1700",
+        "cityId": "palo-alto",
+        "venueId": "pa-meyhouse",
+        "title": "Ray Obiedo’s Latin Jazz Ensemble — first seating",
+        "date": "2026-11-14",
+        "time": "17:00",
+        "startAt": "2026-11-14T17:00:00-08:00",
+        "timezone": "America/Los_Angeles",
+        "source": "Meyhouse Jazz",
+        "sourceUrl": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-5-pm",
+        "sourceURLs": [
+          "https://www.meyhousejazz.com/paloalto"
+        ],
+        "checkedAt": "2026-10-23T05:12:45Z",
+        "currency": "USD",
+        "price": 38,
+        "fees": 0.95,
+        "min": true,
+        "priceNote": "Early bird38+.95fee and general48+1.20fee both listed.",
+        "category": "music",
+        "description": "Reserved seating and live music at Meyhouse Palo Alto.",
+        "language": "EN",
+        "isInPerson": true,
+        "status": "scheduled",
+        "registrationStatus": "tickets_listed",
+        "availabilityVerified": true,
+        "doorsTime": "17:00",
+        "showStartTime": "18:30",
+        "timeNote": "Start time is the booked seating/arrival time; the concert starts at 18:30. Actual performance ending is unpublished; ticket calendar range is not treated as actual duration.",
+        "admission": "Reserved seating at 17:00; concert begins 18:30. Ticket covers performance; food and beverages cost extra.",
+        "coordinateSource": "https://www.meyhousejazz.com/paloalto",
+        "coordinateEvidence": "Existing pa-meyhouse point reused after full official event page confirmed640EmersonSt,PaloAlto94301.",
+        "yearEvidence": "Full organizer detail and current calendar explicitly publishNovember2026; US Pacific offset correctly-08 afterNovember1 DST end.",
+        "evidence": {
+          "url": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-5-pm",
+          "checkedAt": "2026-10-23T05:12:45Z",
+          "method": "Full official detail read plus current calendar",
+          "facts": {
+            "date": "2026-11-14",
+            "time": "17:00",
+            "end": "20:00",
+            "showStartTime": "18:30",
+            "availablePrice": 38,
+            "fee": 0.95
+          },
+          "availabilityNote": "Public ticket form lists available tier; no checkout performed."
+        },
+        "programmeId": "pa-ray-obiedo-20261114"
+      },
+      "pa-meyhouse-20261115-1700": {
+        "kind": "event",
+        "city": "Palo Alto",
+        "locality": "Palo Alto",
+        "municipality": "Palo Alto",
+        "mapRegion": "Palo Alto / Stanford",
+        "venue": "Meyhouse Jazz Palo Alto Stage",
+        "address": "640 Emerson St, Palo Alto, CA 94301, USA",
+        "lat": 37.4432991,
+        "lng": -122.1609897,
+        "coordinatePrecision": "organizer-published-venue-point",
+        "id": "pa-meyhouse-20261115-1700",
+        "cityId": "palo-alto",
+        "venueId": "pa-meyhouse",
+        "title": "Classical Sunday: Rhapsody & Romance — Calliope Smith × Kim Lee",
+        "date": "2026-11-15",
+        "time": "17:00",
+        "startAt": "2026-11-15T17:00:00-08:00",
+        "timezone": "America/Los_Angeles",
+        "source": "Meyhouse Jazz",
+        "sourceUrl": "https://www.meyhousejazz.com/event-details/classical-sunday-rhapsody-romance-calliope-smith-kim-lee-sun-11-15",
+        "sourceURLs": [
+          "https://www.meyhousejazz.com/paloalto"
+        ],
+        "checkedAt": "2026-10-23T05:12:45Z",
+        "currency": "USD",
+        "price": 65,
+        "fees": 1.63,
+        "min": false,
+        "priceNote": "Early bird55+1.38fee is sold out; general admission65+1.63fee listed.",
+        "category": "music",
+        "description": "Reserved seating and live music at Meyhouse Palo Alto.",
+        "language": "EN",
+        "isInPerson": true,
+        "status": "scheduled",
+        "registrationStatus": "tickets_listed",
+        "availabilityVerified": true,
+        "doorsTime": "17:00",
+        "showStartTime": "19:00",
+        "timeNote": "Start time is the booked seating/arrival time; the concert starts at 19:00. Actual performance ending is unpublished; ticket calendar range is not treated as actual duration.",
+        "admission": "Reserved seating at 17:00; concert begins 19:00. Ticket covers performance; food and beverages cost extra. Dinner service ends at19:00; no food or beverage service during the concert.",
+        "coordinateSource": "https://www.meyhousejazz.com/paloalto",
+        "coordinateEvidence": "Existing pa-meyhouse point reused after full official event page confirmed640EmersonSt,PaloAlto94301.",
+        "yearEvidence": "Full organizer detail and current calendar explicitly publishNovember2026; US Pacific offset correctly-08 afterNovember1 DST end.",
+        "evidence": {
+          "url": "https://www.meyhousejazz.com/event-details/classical-sunday-rhapsody-romance-calliope-smith-kim-lee-sun-11-15",
+          "checkedAt": "2026-10-23T05:12:45Z",
+          "method": "Full official detail read plus current calendar",
+          "facts": {
+            "date": "2026-11-15",
+            "time": "17:00",
+            "end": "21:00",
+            "showStartTime": "19:00",
+            "availablePrice": 65,
+            "fee": 1.63
+          },
+          "availabilityNote": "Public ticket form lists available tier; no checkout performed."
+        }
+      }
+    },
+    "public/en/palo-alto/events.json": {
+      "pa-meyhouse-20261114-1700": {
+        "kind": "event",
+        "city": "Palo Alto",
+        "locality": "Palo Alto",
+        "municipality": "Palo Alto",
+        "mapRegion": "Palo Alto / Stanford",
+        "venue": "Meyhouse Jazz Palo Alto Stage",
+        "address": "640 Emerson St, Palo Alto, CA 94301, USA",
+        "lat": 37.4432991,
+        "lng": -122.1609897,
+        "coordinatePrecision": "organizer-published-venue-point",
+        "id": "pa-meyhouse-20261114-1700",
+        "cityId": "palo-alto",
+        "venueId": "pa-meyhouse",
+        "title": "Ray Obiedo’s Latin Jazz Ensemble — first seating",
+        "date": "2026-11-14",
+        "time": "17:00",
+        "startAt": "2026-11-14T17:00:00-08:00",
+        "timezone": "America/Los_Angeles",
+        "source": "Meyhouse Jazz",
+        "sourceUrl": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-5-pm",
+        "sourceURLs": [
+          "https://www.meyhousejazz.com/paloalto"
+        ],
+        "checkedAt": "2026-10-23T05:12:45Z",
+        "currency": "USD",
+        "price": 38,
+        "fees": 0.95,
+        "min": true,
+        "priceNote": "Early bird38+.95fee and general48+1.20fee both listed.",
+        "category": "music",
+        "description": "Reserved seating and live music at Meyhouse Palo Alto.",
+        "language": "EN",
+        "isInPerson": true,
+        "status": "scheduled",
+        "registrationStatus": "tickets_listed",
+        "availabilityVerified": true,
+        "doorsTime": "17:00",
+        "showStartTime": "18:30",
+        "timeNote": "Start time is the booked seating/arrival time; the concert starts at 18:30. Actual performance ending is unpublished; ticket calendar range is not treated as actual duration.",
+        "admission": "Reserved seating at 17:00; concert begins 18:30. Ticket covers performance; food and beverages cost extra.",
+        "coordinateSource": "https://www.meyhousejazz.com/paloalto",
+        "coordinateEvidence": "Existing pa-meyhouse point reused after full official event page confirmed640EmersonSt,PaloAlto94301.",
+        "yearEvidence": "Full organizer detail and current calendar explicitly publishNovember2026; US Pacific offset correctly-08 afterNovember1 DST end.",
+        "evidence": {
+          "url": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-5-pm",
+          "checkedAt": "2026-10-23T05:12:45Z",
+          "method": "Full official detail read plus current calendar",
+          "facts": {
+            "date": "2026-11-14",
+            "time": "17:00",
+            "end": "20:00",
+            "showStartTime": "18:30",
+            "availablePrice": 38,
+            "fee": 0.95
+          },
+          "availabilityNote": "Public ticket form lists available tier; no checkout performed."
+        },
+        "programmeId": "pa-ray-obiedo-20261114"
+      },
+      "pa-meyhouse-20261115-1700": {
+        "kind": "event",
+        "city": "Palo Alto",
+        "locality": "Palo Alto",
+        "municipality": "Palo Alto",
+        "mapRegion": "Palo Alto / Stanford",
+        "venue": "Meyhouse Jazz Palo Alto Stage",
+        "address": "640 Emerson St, Palo Alto, CA 94301, USA",
+        "lat": 37.4432991,
+        "lng": -122.1609897,
+        "coordinatePrecision": "organizer-published-venue-point",
+        "id": "pa-meyhouse-20261115-1700",
+        "cityId": "palo-alto",
+        "venueId": "pa-meyhouse",
+        "title": "Classical Sunday: Rhapsody & Romance — Calliope Smith × Kim Lee",
+        "date": "2026-11-15",
+        "time": "17:00",
+        "startAt": "2026-11-15T17:00:00-08:00",
+        "timezone": "America/Los_Angeles",
+        "source": "Meyhouse Jazz",
+        "sourceUrl": "https://www.meyhousejazz.com/event-details/classical-sunday-rhapsody-romance-calliope-smith-kim-lee-sun-11-15",
+        "sourceURLs": [
+          "https://www.meyhousejazz.com/paloalto"
+        ],
+        "checkedAt": "2026-10-23T05:12:45Z",
+        "currency": "USD",
+        "price": 65,
+        "fees": 1.63,
+        "min": false,
+        "priceNote": "Early bird55+1.38fee is sold out; general admission65+1.63fee listed.",
+        "category": "music",
+        "description": "Reserved seating and live music at Meyhouse Palo Alto.",
+        "language": "EN",
+        "isInPerson": true,
+        "status": "scheduled",
+        "registrationStatus": "tickets_listed",
+        "availabilityVerified": true,
+        "doorsTime": "17:00",
+        "showStartTime": "19:00",
+        "timeNote": "Start time is the booked seating/arrival time; the concert starts at 19:00. Actual performance ending is unpublished; ticket calendar range is not treated as actual duration.",
+        "admission": "Reserved seating at 17:00; concert begins 19:00. Ticket covers performance; food and beverages cost extra. Dinner service ends at19:00; no food or beverage service during the concert.",
+        "coordinateSource": "https://www.meyhousejazz.com/paloalto",
+        "coordinateEvidence": "Existing pa-meyhouse point reused after full official event page confirmed640EmersonSt,PaloAlto94301.",
+        "yearEvidence": "Full organizer detail and current calendar explicitly publishNovember2026; US Pacific offset correctly-08 afterNovember1 DST end.",
+        "evidence": {
+          "url": "https://www.meyhousejazz.com/event-details/classical-sunday-rhapsody-romance-calliope-smith-kim-lee-sun-11-15",
+          "checkedAt": "2026-10-23T05:12:45Z",
+          "method": "Full official detail read plus current calendar",
+          "facts": {
+            "date": "2026-11-15",
+            "time": "17:00",
+            "end": "21:00",
+            "showStartTime": "19:00",
+            "availablePrice": 65,
+            "fee": 1.63
+          },
+          "availabilityNote": "Public ticket form lists available tier; no checkout performed."
+        }
+      }
+    }
+  },
+  "patches": {
+    "public/palo-alto/events.json": {
+      "pa-meyhouse-20261114-1700": {
+        "time": "18:30",
+        "startAt": "2026-11-14T18:30:00-08:00",
+        "showStartTime": "18:30",
+        "doorsTime": "17:00",
+        "sourceReadAt": "2026-10-30T04:51:03.468643+00:00",
+        "scheduleCheckedAt": "2026-10-30T04:51:03.468643+00:00",
+        "priceCheckedAt": "2026-10-30T04:51:03.468643+00:00",
+        "end": null,
+        "endAt": null,
+        "availabilityVerified": false,
+        "availabilityNote": "При чтении источника 30 октября 2026 года отображались варианты билетов; покупка и остаток мест не проверялись. Quantity 0 — выбранное количество, а не признак распродажи.",
+        "timeNote": "Двери открываются в 17:00; выступление в 18:30. Фактическое окончание неизвестно; календарный интервал 17:00–20:00 не принят за длительность выступления.",
+        "admission": "Двери открываются в 17:00; выступление в 18:30. Обязательное прибытие именно к 17:00 не установлено; условия входа уточняйте у площадки. Покупка и остаток билетов не проверялись. Еда и напитки оплачиваются отдельно.",
+        "priceNote": "Указанный ограниченный ранний тариф: 38 USD плюс сервисный сбор 0,95 USD (38,95 USD); обычный билет: 48 USD плюс сбор 1,20 USD (49,20 USD), по чтению источника 30 октября. Другие доплаты и текущая доступность тарифов не проверены."
+      },
+      "pa-meyhouse-20261115-1700": {
+        "time": "17:30",
+        "startAt": "2026-11-15T17:30:00-08:00",
+        "showStartTime": "17:30",
+        "doorsTime": "17:00",
+        "sourceReadAt": "2026-10-30T04:51:25.377207+00:00",
+        "scheduleCheckedAt": "2026-10-30T04:51:25.377207+00:00",
+        "priceCheckedAt": "2026-10-30T04:51:25.377207+00:00",
+        "end": "19:15",
+        "endAt": "2026-11-15T19:15:00-08:00",
+        "availabilityVerified": false,
+        "availabilityNote": "При чтении источника 30 октября 2026 года отображались варианты билетов; покупка и остаток мест не проверялись. Quantity 0 — выбранное количество, а не признак распродажи.",
+        "timeNote": "Посадка и открытие дверей в 17:00; концерт 17:30–19:15 с коротким антрактом, прямо указанным в программе. Календарный интервал 17:00–21:00 не является временем выступления.",
+        "admission": "Двери открываются в 17:00; напитки можно заказать до 17:30. Во время концерта обслуживание приостанавливается; после выступления возобновляется подача ужина. Еда и напитки оплачиваются отдельно. Обязательное предельное время прибытия не установлено; возрастные ограничения не подтверждены.",
+        "priceNote": "Обычный билет: 65 USD плюс сервисный сбор 1,63 USD (66,63 USD без возможных неуказанных доплат). Ранний тариф 55 USD плюс сбор 1,38 USD при чтении 30 октября был явно отмечен как распроданный. Текущее наличие не проверено."
+      }
+    },
+    "public/en/palo-alto/events.json": {
+      "pa-meyhouse-20261114-1700": {
+        "time": "18:30",
+        "startAt": "2026-11-14T18:30:00-08:00",
+        "showStartTime": "18:30",
+        "doorsTime": "17:00",
+        "sourceReadAt": "2026-10-30T04:51:03.468643+00:00",
+        "scheduleCheckedAt": "2026-10-30T04:51:03.468643+00:00",
+        "priceCheckedAt": "2026-10-30T04:51:03.468643+00:00",
+        "end": null,
+        "endAt": null,
+        "availabilityVerified": false,
+        "availabilityNote": "Ticket options were displayed in the organizer source read on 30 October 2026; checkout and remaining stock were not verified. Quantity 0 is the selected quantity, not a sold-out indication.",
+        "timeNote": "Doors at 17:00; show at 18:30. Actual ending unknown; the 17:00–20:00 calendar block is not performance duration.",
+        "admission": "Doors at 17:00; show at 18:30. No mandatory 17:00 arrival deadline was established; confirm admission conditions with the venue. Checkout and remaining stock were not verified. Food and drinks cost extra.",
+        "priceNote": "Displayed limited-quantity early bird: USD 38 plus USD 0.95 ticket service fee (USD 38.95); general admission: USD 48 plus USD 1.20 fee (USD 49.20), in the source read on 30 October. Other charges and current tier availability are unverified."
+      },
+      "pa-meyhouse-20261115-1700": {
+        "time": "17:30",
+        "startAt": "2026-11-15T17:30:00-08:00",
+        "showStartTime": "17:30",
+        "doorsTime": "17:00",
+        "sourceReadAt": "2026-10-30T04:51:25.377207+00:00",
+        "scheduleCheckedAt": "2026-10-30T04:51:25.377207+00:00",
+        "priceCheckedAt": "2026-10-30T04:51:25.377207+00:00",
+        "end": "19:15",
+        "endAt": "2026-11-15T19:15:00-08:00",
+        "availabilityVerified": false,
+        "availabilityNote": "Ticket options were displayed in the organizer source read on 30 October 2026; checkout and remaining stock were not verified. Quantity 0 is the selected quantity, not a sold-out indication.",
+        "timeNote": "Seating and doors at 17:00; concert 17:30–19:15 with a short intermission, explicitly stated in the programme. The 17:00–21:00 calendar block is not the performance interval.",
+        "admission": "Doors at 17:00; drinks may be ordered until 17:30. Food and beverage service pauses during the concert; dinner service resumes afterward. Food and drinks cost extra. No mandatory latest-arrival deadline was established; age restrictions are unconfirmed.",
+        "priceNote": "General admission: USD 65 plus USD 1.63 ticket service fee (USD 66.63 before any undisclosed extras). Early bird USD 55 plus USD 1.38 fee was explicitly marked sold out in the source read on 30 October. Current availability is unverified."
+      }
+    }
+  },
+  "missingEvidence": [
+    "Original full raw HTML/public-richtext files",
+    "Historical implementation/applied peer files"
+  ],
+  "sourceClockPolicy": "Actual retained Oct30 sourceReadAt/scheduleCheckedAt/priceCheckedAt copied unchanged. Original checkedAt and pin evidence remain historical. No new network read or current stock verification."
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "prague-osm:node:2101901711",
+    "city": "prague",
+    "title": "Farmářské tržiště Jiřák",
+    "sourceUrl": "https://www.openstreetmap.org/node/2101901711",
+    "retainedReference": "prague-3dc975def30e",
+    "reason": "Jiřák farmers market, localized name; 119.47 m polygon/market reference separation",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:node:3751377586",
+    "city": "prague",
+    "title": "Farmářské trhy na Kulaťáku",
+    "sourceUrl": "https://www.openstreetmap.org/node/3751377586",
+    "retainedReference": "prague-a9458d14ab5a",
+    "reason": "Kulaťák farmers market, localized name; 12.24 m separation",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:way:119016167",
+    "city": "prague",
+    "title": "Charles Bridge",
+    "sourceUrl": "https://www.openstreetmap.org/way/119016167",
+    "retainedReference": "prague-a5523f7ec90a",
+    "reason": "Charles Bridge exact identity; 121.60 m linear-feature reference separation",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "berlin-osm:way:1065864180",
+    "city": "berlin",
+    "title": "House of the Cultures of the World",
+    "sourceUrl": "https://www.openstreetmap.org/way/1065864180",
+    "retainedReference": "berlin-5bba3d2c5fb145",
+    "reason": "HKW German alternate name and English title refer to same venue; 24.27 m separation",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "limassol-osm:node:4500648289",
+    "city": "limassol",
+    "title": "Rialto",
+    "sourceUrl": "https://www.openstreetmap.org/node/4500648289",
+    "retainedReference": "limassol-rialto",
+    "reason": "Exact shared OSM source node through existing Mapcarta reference; 0.28 m separation",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "berlin-osm:way:15976892",
+    "city": "berlin",
+    "title": "Berlin State Opera",
+    "sourceUrl": "https://www.openstreetmap.org/way/15976892",
+    "retainedReference": "berlin-staatsoper-unter-den-linden",
+    "reason": "Cultural packet Staatsoper matches original German name and address; 15.1 m separation",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "berlin-osm:relation:3626485",
+    "city": "berlin",
+    "title": "Philharmonie",
+    "sourceUrl": "https://www.openstreetmap.org/relation/3626485",
+    "retainedReference": "berlin-philharmonie",
+    "reason": "Cultural packet Philharmonie matches venue, address, website; 97.6 m polygon reference separation",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "berlin-osm:way:258756195",
+    "city": "berlin",
+    "title": "Tipi am Kanzleramt",
+    "sourceUrl": "https://www.openstreetmap.org/way/258756195",
+    "retainedReference": "berlin-tipi-am-kanzleramt",
+    "reason": "Cultural packet TIPI same OSM way source; 31.6 m separation",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "berlin-osm:way:422928025",
+    "city": "berlin",
+    "title": "Berliner Ensemble",
+    "sourceUrl": "https://www.openstreetmap.org/way/422928025",
+    "retainedReference": "berlin-berliner-ensemble",
+    "reason": "Cultural packet Berliner Ensemble same OSM way source; 12.5 m separation",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "berlin-osm:node:4549000360",
+    "city": "berlin",
+    "title": "Westhafen Event & Convention Center",
+    "sourceUrl": "https://www.openstreetmap.org/node/4549000360",
+    "retainedReference": "berlin-neulandpro-connect-20261017",
+    "reason": "Event-linked WECC venue; 0.26 m separation. Preserve event-generated venue instead of adding another directory identity.",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "berlin-osm:way:26477642",
+    "city": "berlin",
+    "title": "STATION Berlin",
+    "sourceUrl": "https://www.openstreetmap.org/way/26477642",
+    "retainedReference": "berlin-nvidia-gtc-20261021",
+    "reason": "Event-linked STATION Berlin; same OSM way source and normalized name. Exact runtime match would also be safe, but held conservatively to preserve event-linked identity.",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "berlin-osm:node:1871854816",
+    "city": "berlin",
+    "title": "Tempodrom",
+    "sourceUrl": "https://www.openstreetmap.org/node/1871854816",
+    "retainedReference": "berlin-nvidia-gtc-keynote-20261021",
+    "reason": "Event-linked Tempodrom; same OSM node source and exact name. Exact runtime match would also be safe, but held conservatively to preserve event-linked identity.",
+    "confidence": "high_identity_match",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:way:651254371",
+    "city": "prague",
+    "title": "Pekarna Kabát",
+    "sourceUrl": "https://www.openstreetmap.org/way/651254371",
+    "retainedReference": "prague-osm:way:651217537",
+    "reason": "Same accent-normalized bakery name 73.43 m apart; distinct nearby branches remain possible.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:node:9714368201",
+    "city": "prague",
+    "title": "Trdelník",
+    "sourceUrl": "https://www.openstreetmap.org/node/9714368201",
+    "retainedReference": "prague-osm:node:9714329382",
+    "reason": "Generic Trdelník name 53.50 m apart, different food/cafe tags; identity ambiguous.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:node:3250030744",
+    "city": "prague",
+    "title": "Rodinne centrum Honzik",
+    "sourceUrl": "https://www.openstreetmap.org/node/3250030744",
+    "retainedReference": "prague-osm:node:2529439234",
+    "reason": "Same community-centre name 23.70 m apart, different categories/websites; identity ambiguous.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:node:12465609501",
+    "city": "prague",
+    "title": "Creme de la Creme",
+    "sourceUrl": "https://www.openstreetmap.org/node/12465609501",
+    "retainedReference": "prague-osm:node:12488137501",
+    "reason": "Crème de la Crème 2.49 m apart, same address/hours; keep record with venue-specific official website.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:way:300042533",
+    "city": "prague",
+    "title": "Na Bašte",
+    "sourceUrl": "https://www.openstreetmap.org/way/300042533",
+    "retainedReference": "prague-osm:node:315507159",
+    "reason": "Na Baště 8.87 m apart, food node and biergarten polygon may be the same venue or distinct subfacility.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:node:2737439872",
+    "city": "prague",
+    "title": "La Boheme Cafe",
+    "sourceUrl": "https://www.openstreetmap.org/node/2737439872",
+    "retainedReference": "prague-osm:node:3343247200",
+    "reason": "La Bohème Café 3.67 m apart; keep record with address, official website and hours.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:node:6971010785",
+    "city": "prague",
+    "title": "Trdelnik",
+    "sourceUrl": "https://www.openstreetmap.org/node/6971010785",
+    "retainedReference": "prague-osm:node:9621153505",
+    "reason": "Generic Trdelník name 81.03 m apart, different food/cafe tags; identity ambiguous.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:way:740682444",
+    "city": "prague",
+    "title": "Kbelský pivovar",
+    "sourceUrl": "https://www.openstreetmap.org/way/740682444",
+    "retainedReference": "prague-osm:node:6516177085",
+    "reason": "Kbelský pivovar 17.92 m apart; restaurant and biergarten may be same venue or subfacility. Keep addressed restaurant.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:node:10994351416",
+    "city": "prague",
+    "title": "Hudebni divadlo Karlín",
+    "sourceUrl": "https://www.openstreetmap.org/node/10994351416",
+    "retainedReference": "prague-osm:node:354692393",
+    "reason": "Hudební divadlo Karlín 16.92 m apart; cafe may be a distinct theatre subfacility. Keep source-backed theatre.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:node:5899709285",
+    "city": "prague",
+    "title": "Certovka",
+    "sourceUrl": "https://www.openstreetmap.org/node/5899709285",
+    "retainedReference": "prague-osm:node:1931940326",
+    "reason": "Čertovka 7.57 m apart; attraction and restaurant names could refer to distinct features. Keep addressed sourced restaurant.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "prague-osm:node:6644519816",
+    "city": "prague",
+    "title": "Art Café",
+    "sourceUrl": "https://www.openstreetmap.org/node/6644519816",
+    "retainedReference": "prague-osm:node:3620123109",
+    "reason": "Art Café 39.68 m apart, cafe/restaurant tags; identity ambiguous. Keep addressed candidate.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "berlin-osm:node:2335130703",
+    "city": "berlin",
+    "title": "Carik Kuruyemis",
+    "sourceUrl": "https://www.openstreetmap.org/node/2335130703",
+    "retainedReference": "berlin-osm:node:1963089238",
+    "reason": "Çarik Kuruyemiş 10.01 m apart, same street/hours, deli/cafe tags; keep complete house-number record.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "berlin-osm:node:2970154860",
+    "city": "berlin",
+    "title": "Rosencafe",
+    "sourceUrl": "https://www.openstreetmap.org/node/2970154860",
+    "retainedReference": "berlin-osm:node:472375118",
+    "reason": "Rosencafé 14.04 m apart, conflicting street names but same pub/name; manual identity/address review needed.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "limassol-osm:node:11405162179",
+    "city": "limassol",
+    "title": "Phò Dào Béo",
+    "sourceUrl": "https://www.openstreetmap.org/node/11405162179",
+    "retainedReference": "limassol-osm:node:3878784917",
+    "reason": "Phò Dào Béo 10.25 m apart, same category, neither has address; likely duplicate but unverified.",
+    "confidence": "conservative_ambiguous_pair",
+    "action": "hold_candidate_only_preserve_reference"
+  },
+  {
+    "id": "berlin-osm:relation:21360019",
+    "city": "berlin",
+    "title": "CineStar",
+    "sourceUrl": "https://www.openstreetmap.org/relation/21360019",
+    "retainedReference": null,
+    "reason": "CineStar rounded representative point is inside an inner ring (hole), so advertised interior-point precision fails independent Path and ray-cast tests. Do not guess or shift coordinates.",
+    "confidence": "confirmed_geometry_failure",
+    "action": "hold_candidate_only_preserve_reference"
+  }
+]

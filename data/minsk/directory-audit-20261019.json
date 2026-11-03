@@ -1,0 +1,111 @@
+{
+  "rawElements": 4223,
+  "publishedPlaces": 3823,
+  "excluded": {
+    "unnamed_or_unselected": 376,
+    "closed_or_private": 3,
+    "outside_boundary_or_missing_pin": 1
+  },
+  "duplicates": [
+    {
+      "retained": "osm:node:4815755022",
+      "excluded": "osm:node:4850041923"
+    },
+    {
+      "retained": "osm:node:4521551537",
+      "excluded": "osm:node:5369196630"
+    },
+    {
+      "retained": "osm:node:3732554125",
+      "excluded": "osm:node:6083151336"
+    },
+    {
+      "retained": "osm:node:1602183917",
+      "excluded": "osm:node:6083784286"
+    },
+    {
+      "retained": "osm:node:6868035296",
+      "excluded": "osm:node:6914530306"
+    },
+    {
+      "retained": "osm:node:2575690242",
+      "excluded": "osm:node:8193436472"
+    },
+    {
+      "retained": "osm:node:8193475341",
+      "excluded": "osm:node:8193475342"
+    },
+    {
+      "retained": "osm:node:5475794280",
+      "excluded": "osm:node:9350581617"
+    },
+    {
+      "retained": "osm:node:1126565832",
+      "excluded": "osm:node:9507217903"
+    },
+    {
+      "retained": "osm:node:9663247217",
+      "excluded": "osm:node:9779027019"
+    },
+    {
+      "retained": "osm:node:10961374819",
+      "excluded": "osm:node:10980190505"
+    },
+    {
+      "retained": "osm:node:10824714011",
+      "excluded": "osm:node:11010064640"
+    },
+    {
+      "retained": "osm:node:3662696996",
+      "excluded": "osm:node:13283256701"
+    },
+    {
+      "retained": "osm:node:3184406868",
+      "excluded": "osm:way:285136634"
+    },
+    {
+      "retained": "osm:way:66835874",
+      "excluded": "osm:way:359202168"
+    },
+    {
+      "retained": "osm:way:388813269",
+      "excluded": "osm:way:388813305"
+    },
+    {
+      "retained": "osm:node:9037951956",
+      "excluded": "osm:way:391059845"
+    },
+    {
+      "retained": "osm:node:6347910719",
+      "excluded": "osm:way:677946261"
+    },
+    {
+      "retained": "osm:node:4110226693",
+      "excluded": "osm:way:773612343"
+    },
+    {
+      "retained": "osm:way:777584565",
+      "excluded": "osm:way:777588484"
+    }
+  ],
+  "categories": {
+    "market": 67,
+    "food": 2318,
+    "film": 37,
+    "city": 281,
+    "sport": 392,
+    "art": 113,
+    "theatre": 25,
+    "books": 144,
+    "bar": 257,
+    "club": 25,
+    "workshop": 23,
+    "music": 10,
+    "games": 10,
+    "park": 121
+  },
+  "missingAddresses": 2281,
+  "boundarySource": "https://www.openstreetmap.org/relation/59195",
+  "operatingStatusVerified": false,
+  "scope": "Selected public leisure, cultural and food venues inside OSM administrative boundary. Not an exhaustive or individually rechecked business directory."
+}

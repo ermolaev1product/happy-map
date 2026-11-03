@@ -1,0 +1,2635 @@
+{
+  "batchId": "morning-2026-10-17",
+  "checkedAt": "2026-10-17T03:02:43.660139+00:00",
+  "window": [
+    "2026-10-17",
+    "2026-10-23"
+  ],
+  "fullDailyCheckSucceeded": false,
+  "reason": "Selective manual review; all-source and menus coverage not established. Do not count this run toward fourteen complete daily checks.",
+  "cities": {
+    "tbilisi": {
+      "city": "Tbilisi",
+      "window": [
+        "2026-10-17",
+        "2026-10-23"
+      ],
+      "checkedAt": "2026-10-17T03:00:01.741834+00:00",
+      "pending": [
+        {
+          "url": "https://t.me/auditoria_tbilisi/7585",
+          "title": "ARGUMENT",
+          "reason": "Date conflict: headingOct17; subscription paragraphOct18. Do not add."
+        },
+        {
+          "url": "https://t.me/cinemaholics_tbilisi/2303",
+          "title": "Amelie",
+          "reason": "FromOct16, but no specificOct17–23 sessions; Friday timetable cannot be repeated."
+        }
+      ],
+      "telegramAudit": [
+        {
+          "channel": "auditoria_tbilisi",
+          "pages": [
+            {
+              "url": "https://t.me/s/auditoria_tbilisi",
+              "posts": 11
+            },
+            {
+              "url": "https://t.me/s/auditoria_tbilisi?before=7586",
+              "posts": 14
+            }
+          ],
+          "fetchedPosts": 25,
+          "fullyReadPosts": 7,
+          "fullyReadUrls": [
+            "https://t.me/auditoria_tbilisi/7595",
+            "https://t.me/auditoria_tbilisi/7600",
+            "https://t.me/auditoria_tbilisi/7601",
+            "https://t.me/auditoria_tbilisi/7605",
+            "https://t.me/auditoria_tbilisi/7607",
+            "https://t.me/auditoria_tbilisi/7582",
+            "https://t.me/auditoria_tbilisi/7585"
+          ]
+        },
+        {
+          "channel": "mesto_info",
+          "pages": [
+            {
+              "url": "https://t.me/s/mesto_info",
+              "posts": 17
+            },
+            {
+              "url": "https://t.me/s/mesto_info?before=2879",
+              "posts": 16
+            }
+          ],
+          "fetchedPosts": 33,
+          "fullyReadPosts": 12,
+          "fullyReadUrls": [
+            "https://t.me/mesto_info/2891",
+            "https://t.me/mesto_info/2893",
+            "https://t.me/mesto_info/2894",
+            "https://t.me/mesto_info/2895",
+            "https://t.me/mesto_info/2896",
+            "https://t.me/mesto_info/2897",
+            "https://t.me/mesto_info/2898",
+            "https://t.me/mesto_info/2899",
+            "https://t.me/mesto_info/2900",
+            "https://t.me/mesto_info/2901",
+            "https://t.me/mesto_info/2903",
+            "https://t.me/mesto_info/2904"
+          ]
+        },
+        {
+          "channel": "artcinema_ge",
+          "pages": [
+            {
+              "url": "https://t.me/s/artcinema_ge",
+              "posts": 15
+            },
+            {
+              "url": "https://t.me/s/artcinema_ge?before=4976",
+              "posts": 18
+            }
+          ],
+          "fetchedPosts": 33,
+          "fullyReadPosts": 11,
+          "fullyReadUrls": [
+            "https://t.me/artcinema_ge/4980",
+            "https://t.me/artcinema_ge/4981",
+            "https://t.me/artcinema_ge/4987",
+            "https://t.me/artcinema_ge/4988",
+            "https://t.me/artcinema_ge/4989",
+            "https://t.me/artcinema_ge/4990",
+            "https://t.me/artcinema_ge/4991",
+            "https://t.me/artcinema_ge/4992",
+            "https://t.me/artcinema_ge/4993",
+            "https://t.me/artcinema_ge/4994",
+            "https://t.me/artcinema_ge/4995"
+          ]
+        },
+        {
+          "channel": "cinemaholics_tbilisi",
+          "pages": [
+            {
+              "url": "https://t.me/s/cinemaholics_tbilisi",
+              "posts": 4
+            },
+            {
+              "url": "https://t.me/s/cinemaholics_tbilisi?before=2274",
+              "posts": 5
+            }
+          ],
+          "fetchedPosts": 9,
+          "fullyReadPosts": 2,
+          "fullyReadUrls": [
+            "https://t.me/cinemaholics_tbilisi/2303",
+            "https://t.me/cinemaholics_tbilisi/2310"
+          ]
+        },
+        {
+          "channel": "charityeventstbilisi",
+          "pages": [
+            {
+              "url": "https://t.me/s/charityeventstbilisi",
+              "posts": 16
+            },
+            {
+              "url": "https://t.me/s/charityeventstbilisi?before=11048",
+              "posts": 8
+            }
+          ],
+          "fetchedPosts": 24,
+          "fullyReadPosts": 1,
+          "fullyReadUrls": [
+            "https://t.me/charityeventstbilisi/11063"
+          ]
+        },
+        {
+          "channel": "tiflis_books",
+          "pages": [
+            {
+              "url": "https://t.me/s/tiflis_books",
+              "posts": 18
+            },
+            {
+              "url": "https://t.me/s/tiflis_books?before=6571",
+              "posts": 15
+            }
+          ],
+          "fetchedPosts": 33,
+          "fullyReadPosts": 1,
+          "fullyReadUrls": [
+            "https://t.me/tiflis_books/6570"
+          ]
+        },
+        {
+          "channel": "quiz_tbi",
+          "pages": [
+            {
+              "url": "https://t.me/s/quiz_tbi",
+              "posts": 19
+            },
+            {
+              "url": "https://t.me/s/quiz_tbi?before=743",
+              "posts": 19
+            }
+          ],
+          "fetchedPosts": 38,
+          "fullyReadPosts": 3,
+          "fullyReadUrls": [
+            "https://t.me/quiz_tbi/757",
+            "https://t.me/quiz_tbi/758",
+            "https://t.me/quiz_tbi/763"
+          ]
+        }
+      ],
+      "officialAudit": [
+        {
+          "url": "https://fabrikatbilisi.com/events/",
+          "status": "Read: archive2025 only"
+        },
+        {
+          "url": "https://www.hostelfabrika.com/whats-on",
+          "status": "Read: MayJune2026 datedcards; recurring offers not extrapolated toOct17–23"
+        },
+        {
+          "url": "https://www.goethe.de/ins/ge/de/ver.cfm",
+          "status": "Read system-error template; no reliable calendarcontent"
+        },
+        {
+          "url": "https://events.tbiliseli.com/?lang=en&month=10&year=2026",
+          "status": "Read: underconstruction; extractedOct15feature"
+        }
+      ],
+      "duplicateNote": "SixArtCinema sessions andMESTOweek,Detectit,Sheyker,Chukotka already imported; no duplicate additions.",
+      "menus": {
+        "status": "not_checked",
+        "note": "No completecurrent menu withvolume,date verified; existing menuvalues unchanged."
+      },
+      "coverageNote": "Boundedsubset. Not complete city daily refresh. fetchedPosts are not fullyReadPosts.",
+      "evidenceFile": "/tmp/tbs-telegram.json",
+      "accessErrors": [
+        {
+          "url": "https://t.me/s/auditoria_tbilisi",
+          "method": "web open",
+          "status": "Inaccessible in web tool; recovered through direct public HTTPS"
+        },
+        {
+          "url": "https://t.me/s/mesto_info",
+          "method": "web open",
+          "status": "Inaccessible in web tool; recovered through direct public HTTPS"
+        },
+        {
+          "url": "https://t.me/s/artcinema_ge",
+          "method": "web open",
+          "status": "Inaccessible in web tool; recovered through direct public HTTPS"
+        }
+      ],
+      "addedIds": [
+        "tg:auditoria_tbilisi:7605:2026-10-20",
+        "tg:auditoria_tbilisi:7607:2026-10-23"
+      ],
+      "updatedIds": [
+        "tg:artcinema_ge:4970:2026-10-17",
+        "tg-week-390fc5f1c908d1",
+        "tg-week-dba8193289bc1e",
+        "tg:mesto_info:2891:2026-10-19:1930:game-of-the-week"
+      ],
+      "duplicateImportSkips": [],
+      "totalBefore": 2632,
+      "totalAfter": 2634,
+      "datedCountsBefore": {
+        "2026-10-17": 217,
+        "2026-10-18": 194,
+        "2026-10-19": 164,
+        "2026-10-20": 162,
+        "2026-10-21": 7,
+        "2026-10-22": 16,
+        "2026-10-23": 20
+      },
+      "datedCountsAfter": {
+        "2026-10-17": 217,
+        "2026-10-18": 194,
+        "2026-10-19": 164,
+        "2026-10-20": 163,
+        "2026-10-21": 7,
+        "2026-10-22": 16,
+        "2026-10-23": 21
+      },
+      "countNote": "Dated catalogue records, including cinema sessions; not unique city events or live filtered counts.",
+      "coverageDropExplanation": "Most of the drop after Oct20 is 150 imported Kinoafisha cinema sessions on Oct20 and no imported sessions for Oct21+. Existing movie schedule horizon is incomplete; no evidence city events stop. Original data retained."
+    },
+    "belgrade": {
+      "city": "Belgrade",
+      "checkedAt": "2026-10-17T02:59:47.330514+00:00",
+      "window": [
+        "2026-10-17",
+        "2026-10-23"
+      ],
+      "pending": [
+        {
+          "url": "https://t.me/Vranin_Tavan/1018",
+          "reason": "Date by agreement; no calendar date. Do not put on map."
+        },
+        {
+          "url": "https://t.me/Vranin_Tavan/1014",
+          "reason": "Recurring Fridays, no specific confirmed October 23 session; not auto-expanded."
+        },
+        {
+          "url": "https://t.me/obitaniya_sreda/2285",
+          "reason": "Friendship group starts next Wednesday; linked original announcement/date/time and admission interview not fully checked."
+        },
+        {
+          "url": "https://t.me/triptix_belgrade/1581",
+          "reason": "Blue Train October17 noon identified in history; exact visitor meeting point/pin not verified in this pass."
+        },
+        {
+          "url": "https://www.beograd.rs/lat/zivot-u-beogradu/manifestacije/a116192/Vikend-u-Beogradu.html",
+          "reason": "Ivica i Marica October17 noon free at Teatar Zmaj; branch address/pin not checked. Other weekend exhibition summaries not expanded without full runs/hours."
+        }
+      ],
+      "audit": {
+        "telegram": [
+          {
+            "channel": "scena_improv",
+            "pages": [
+              {
+                "url": "https://t.me/s/scena_improv",
+                "posts": 8
+              },
+              {
+                "url": "https://t.me/s/scena_improv?before=656",
+                "posts": 19
+              },
+              {
+                "url": "https://t.me/s/scena_improv?before=636",
+                "posts": 14
+              }
+            ],
+            "postsFetched": 38,
+            "fullPostsRead": 4,
+            "earliestFetched": "2026-08-17T15:56:28+00:00",
+            "latestFetched": "2026-10-16T10:17:07+00:00"
+          },
+          {
+            "channel": "triptix_belgrade",
+            "pages": [
+              {
+                "url": "https://t.me/s/triptix_belgrade",
+                "posts": 16
+              },
+              {
+                "url": "https://t.me/s/triptix_belgrade?before=1562",
+                "posts": 17
+              },
+              {
+                "url": "https://t.me/s/triptix_belgrade?before=1538",
+                "posts": 17
+              }
+            ],
+            "postsFetched": 50,
+            "fullPostsRead": 2,
+            "earliestFetched": "2026-06-16T13:00:59+00:00",
+            "latestFetched": "2026-10-16T14:16:43+00:00"
+          },
+          {
+            "channel": "quizpleasebeg",
+            "pages": [
+              {
+                "url": "https://t.me/s/quizpleasebeg",
+                "posts": 19
+              },
+              {
+                "url": "https://t.me/s/quizpleasebeg?before=814",
+                "posts": 20
+              },
+              {
+                "url": "https://t.me/s/quizpleasebeg?before=794",
+                "posts": 18
+              }
+            ],
+            "postsFetched": 56,
+            "fullPostsRead": 3,
+            "earliestFetched": "2026-07-30T08:37:22+00:00",
+            "latestFetched": "2026-10-16T12:59:48+00:00"
+          },
+          {
+            "channel": "avangarda_bar",
+            "pages": [
+              {
+                "url": "https://t.me/s/avangarda_bar",
+                "posts": 20
+              },
+              {
+                "url": "https://t.me/s/avangarda_bar?before=253",
+                "posts": 20
+              },
+              {
+                "url": "https://t.me/s/avangarda_bar?before=233",
+                "posts": 20
+              }
+            ],
+            "postsFetched": 60,
+            "fullPostsRead": 3,
+            "earliestFetched": "2026-05-11T16:38:07+00:00",
+            "latestFetched": "2026-10-16T09:21:33+00:00"
+          },
+          {
+            "channel": "obitaniya_sreda",
+            "pages": [
+              {
+                "url": "https://t.me/s/obitaniya_sreda",
+                "posts": 19
+              },
+              {
+                "url": "https://t.me/s/obitaniya_sreda?before=2267",
+                "posts": 20
+              },
+              {
+                "url": "https://t.me/s/obitaniya_sreda?before=2247",
+                "posts": 17
+              }
+            ],
+            "postsFetched": 56,
+            "fullPostsRead": 5,
+            "earliestFetched": "2026-08-12T09:07:01+00:00",
+            "latestFetched": "2026-10-16T16:54:01+00:00"
+          },
+          {
+            "channel": "auditoria_belgrade",
+            "pages": [
+              {
+                "url": "https://t.me/s/auditoria_belgrade",
+                "posts": 17
+              },
+              {
+                "url": "https://t.me/s/auditoria_belgrade?before=1773",
+                "posts": 12
+              },
+              {
+                "url": "https://t.me/s/auditoria_belgrade?before=1752",
+                "posts": 17
+              }
+            ],
+            "postsFetched": 46,
+            "fullPostsRead": 8,
+            "earliestFetched": "2026-09-28T18:42:31+00:00",
+            "latestFetched": "2026-10-16T18:21:41+00:00"
+          },
+          {
+            "channel": "TIGHT_FIVE_COMEDY",
+            "pages": [
+              {
+                "url": "https://t.me/s/TIGHT_FIVE_COMEDY",
+                "posts": 20
+              },
+              {
+                "url": "https://t.me/s/TIGHT_FIVE_COMEDY?before=712",
+                "posts": 19
+              },
+              {
+                "url": "https://t.me/s/TIGHT_FIVE_COMEDY?before=688",
+                "posts": 20
+              }
+            ],
+            "postsFetched": 59,
+            "fullPostsRead": 0,
+            "earliestFetched": "2026-03-31T16:05:23+00:00",
+            "latestFetched": "2026-10-10T08:31:13+00:00"
+          },
+          {
+            "channel": "blackcat_beograd",
+            "pages": [
+              {
+                "url": "https://t.me/s/blackcat_beograd",
+                "posts": 20
+              },
+              {
+                "url": "https://t.me/s/blackcat_beograd?before=1479",
+                "posts": 20
+              },
+              {
+                "url": "https://t.me/s/blackcat_beograd?before=1459",
+                "posts": 20
+              }
+            ],
+            "postsFetched": 60,
+            "fullPostsRead": 5,
+            "earliestFetched": "2026-08-26T15:52:59+00:00",
+            "latestFetched": "2026-10-15T18:41:25+00:00"
+          },
+          {
+            "channel": "vranin_tavan",
+            "pages": [
+              {
+                "url": "https://t.me/s/vranin_tavan",
+                "posts": 20
+              },
+              {
+                "url": "https://t.me/s/vranin_tavan?before=997",
+                "posts": 20
+              },
+              {
+                "url": "https://t.me/s/vranin_tavan?before=974",
+                "posts": 20
+              }
+            ],
+            "postsFetched": 60,
+            "fullPostsRead": 7,
+            "earliestFetched": "2026-07-31T12:16:45+00:00",
+            "latestFetched": "2026-10-15T15:56:04+00:00"
+          },
+          {
+            "channel": "belgrad_afisha",
+            "pages": [
+              {
+                "url": "https://t.me/s/belgrad_afisha",
+                "posts": 14
+              },
+              {
+                "url": "https://t.me/s/belgrad_afisha?before=84",
+                "posts": 11
+              },
+              {
+                "url": "https://t.me/s/belgrad_afisha?before=61",
+                "posts": 6
+              }
+            ],
+            "postsFetched": 31,
+            "fullPostsRead": 0,
+            "earliestFetched": "2025-01-15T11:00:28+00:00",
+            "latestFetched": "2026-10-14T11:00:27+00:00"
+          }
+        ],
+        "pagesFetched": 30,
+        "postsFetched": 516,
+        "fullPostsRead": 37,
+        "fullPostUrls": [
+          "https://t.me/auditoria_belgrade/1782",
+          "https://t.me/auditoria_belgrade/1783",
+          "https://t.me/auditoria_belgrade/1784",
+          "https://t.me/auditoria_belgrade/1785",
+          "https://t.me/auditoria_belgrade/1786",
+          "https://t.me/auditoria_belgrade/1787",
+          "https://t.me/auditoria_belgrade/1788",
+          "https://t.me/auditoria_belgrade/1793",
+          "https://t.me/triptix_belgrade/1585",
+          "https://t.me/triptix_belgrade/1586",
+          "https://t.me/quizpleasebeg/831",
+          "https://t.me/quizpleasebeg/832",
+          "https://t.me/quizpleasebeg/833",
+          "https://t.me/blackcat_beograd/1495",
+          "https://t.me/blackcat_beograd/1496",
+          "https://t.me/blackcat_beograd/1497",
+          "https://t.me/blackcat_beograd/1498",
+          "https://t.me/blackcat_beograd/1499",
+          "https://t.me/obitaniya_sreda/2282",
+          "https://t.me/obitaniya_sreda/2283",
+          "https://t.me/obitaniya_sreda/2284",
+          "https://t.me/obitaniya_sreda/2285",
+          "https://t.me/obitaniya_sreda/2286",
+          "https://t.me/Vranin_Tavan/1012",
+          "https://t.me/Vranin_Tavan/1013",
+          "https://t.me/Vranin_Tavan/1014",
+          "https://t.me/Vranin_Tavan/1015",
+          "https://t.me/Vranin_Tavan/1016",
+          "https://t.me/Vranin_Tavan/1017",
+          "https://t.me/Vranin_Tavan/1018",
+          "https://t.me/avangarda_bar/271",
+          "https://t.me/avangarda_bar/273",
+          "https://t.me/avangarda_bar/274",
+          "https://t.me/scena_improv/669",
+          "https://t.me/scena_improv/671",
+          "https://t.me/scena_improv/673",
+          "https://t.me/scena_improv/674"
+        ],
+        "limitations": "Older history pages fetched and excerpts screened, not all posts fully read. Image-only Telegram flyers not decoded. No private groups entered, bots not messaged. No fresh bar-menu verification. No claim of complete city refresh.",
+        "officialPagesRead": [
+          "https://www.beograd.rs/lat",
+          "https://www.beograd.rs/lat/zivot-u-beogradu/manifestacije/a116192/Vikend-u-Beogradu.html",
+          "https://www.beograd.rs/lat/zivot-u-beogradu/filmski-i-pozorisni-program/a116167/Pedeset-izvodjenja-predstave-Sjaja-zvezda-na-plafonu.html",
+          "https://www.kcb.org.rs/2026/10/medicinske-pustinje/"
+        ],
+        "duplicatesSkipped": [
+          "auditoria_belgrade/1782 = existing Karaoke October17 20:30",
+          "auditoria_belgrade/1783 French club October20",
+          "auditoria_belgrade/1785 food discussion October21",
+          "Vranin_Tavan/1012 October19",
+          "Vranin_Tavan/1013 October18",
+          "Medicinske pustinje KCB run already present"
+        ],
+        "accessFailures": [
+          "Initial sandbox DNS denied t.me; escalated public read succeeded. No upstream errors in 30 Telegram history page requests."
+        ],
+        "baselineByStartDate": {
+          "2026-10-20": 15,
+          "2026-10-21": 9,
+          "2026-10-22": 9,
+          "2026-10-23": 9,
+          "2026-10-17": 28,
+          "2026-10-19": 16,
+          "2026-10-18": 21
+        }
+      },
+      "addedIds": [
+        "bg-refresh-20261017-1",
+        "bg-refresh-20261017-2",
+        "bg-refresh-20261017-3",
+        "bg-refresh-20261017-4",
+        "bg-refresh-20261017-5",
+        "bg-refresh-20261017-6",
+        "bg-refresh-20261017-7",
+        "bg-refresh-20261017-8",
+        "bg-refresh-20261017-9",
+        "bg-refresh-20261017-10",
+        "bg-refresh-20261017-11",
+        "bg-refresh-20261017-12"
+      ],
+      "updatedIds": [],
+      "duplicateImportSkips": [],
+      "totalBefore": 567,
+      "totalAfter": 579,
+      "datedCountsBefore": {
+        "2026-10-17": 28,
+        "2026-10-18": 21,
+        "2026-10-19": 16,
+        "2026-10-20": 15,
+        "2026-10-21": 9,
+        "2026-10-22": 9,
+        "2026-10-23": 9
+      },
+      "datedCountsAfter": {
+        "2026-10-17": 31,
+        "2026-10-18": 25,
+        "2026-10-19": 16,
+        "2026-10-20": 17,
+        "2026-10-21": 9,
+        "2026-10-22": 11,
+        "2026-10-23": 10
+      },
+      "countNote": "Dated catalogue records, including cinema sessions; not unique city events or live filtered counts.",
+      "placePriceUpdates": [
+        {
+          "id": "osm:node:6832907888",
+          "previous": 400,
+          "amount": 420,
+          "currency": "RSD",
+          "volume": "0.33 l",
+          "menuDate": "2026-09",
+          "sourceUrl": "https://postopice.rs/en/venue/dogma-brewery-central",
+          "qualification": "Dated third-party menu; not confirmation of today’s in-venue price."
+        }
+      ]
+    },
+    "moscow": {
+      "city": "moscow",
+      "checkedAt": "2026-10-17T03:00:02.986368+00:00",
+      "window": [
+        "2026-10-17",
+        "2026-10-23"
+      ],
+      "pending": [
+        {
+          "sourceUrl": "https://t.me/moscowafishi/17537",
+          "reason": "Exact cultural centre branch address and pin need primary confirmation",
+          "publicationDate": "2026-10-16T08:35:47+00:00"
+        },
+        {
+          "sourceUrl": "https://t.me/moscowafishi/17539",
+          "reason": "Exact monument location/pin needs verification",
+          "publicationDate": "2026-10-16T10:50:22+00:00"
+        },
+        {
+          "sourceUrl": "https://t.me/moscowafishi/17542",
+          "reason": "Primary organizer verification and exact address pin missing",
+          "publicationDate": "2026-10-16T17:56:42+00:00"
+        },
+        {
+          "sourceUrl": "https://t.me/moscowafishi/17483",
+          "reason": "Fili Hall branch address/pin need verification",
+          "publicationDate": "2026-10-12T08:40:22+00:00"
+        },
+        {
+          "sourceUrl": "https://t.me/privetpoidem/28097",
+          "reason": "Exhibition start date, opening hours, year and pin need primary verification",
+          "publicationDate": "2026-10-16T16:18:17+00:00"
+        },
+        {
+          "sourceUrl": "https://t.me/Hlebozavod9/5298",
+          "reason": "Text lacks individual event dates/time; image programme not transcribed",
+          "publicationDate": "2026-10-16T11:06:20+00:00"
+        },
+        {
+          "sourceUrl": "https://t.me/privetpoidem/28078",
+          "reason": "Organizer event postponed; old Oct16 date must not be repeated",
+          "publicationDate": "2026-10-14T13:11:02+00:00"
+        }
+      ],
+      "sources": [
+        {
+          "channel": "centrezotov",
+          "pages": [
+            "https://t.me/s/centrezotov",
+            "https://t.me/s/centrezotov?before=10129",
+            "https://t.me/s/centrezotov?before=10107"
+          ],
+          "fetchedPosts": 33,
+          "fullTextReadPostIds": [
+            "centrezotov/10129",
+            "centrezotov/10131",
+            "centrezotov/10133",
+            "centrezotov/10135",
+            "centrezotov/10137",
+            "centrezotov/10138",
+            "centrezotov/10148",
+            "centrezotov/10107",
+            "centrezotov/10114",
+            "centrezotov/10116",
+            "centrezotov/10117",
+            "centrezotov/10119",
+            "centrezotov/10126",
+            "centrezotov/10127",
+            "centrezotov/10085",
+            "centrezotov/10088",
+            "centrezotov/10090",
+            "centrezotov/10100"
+          ],
+          "fullTextReadCount": 18,
+          "publicationDateMin": "2026-10-08T11:13:09+00:00",
+          "publicationDateMax": "2026-10-16T15:09:56+00:00",
+          "note": "Fetched posts are not all fully read. Discovery excerpts inspected separately. No bot messages or registration."
+        },
+        {
+          "channel": "privetpoidem",
+          "pages": [
+            "https://t.me/s/privetpoidem",
+            "https://t.me/s/privetpoidem?before=28080",
+            "https://t.me/s/privetpoidem?before=28048"
+          ],
+          "fetchedPosts": 21,
+          "fullTextReadPostIds": [
+            "privetpoidem/28080",
+            "privetpoidem/28089",
+            "privetpoidem/28090",
+            "privetpoidem/28096",
+            "privetpoidem/28097",
+            "privetpoidem/28078"
+          ],
+          "fullTextReadCount": 6,
+          "publicationDateMin": "2026-10-08T13:03:01+00:00",
+          "publicationDateMax": "2026-10-16T16:18:17+00:00",
+          "note": "Fetched posts are not all fully read. Discovery excerpts inspected separately. No bot messages or registration."
+        },
+        {
+          "channel": "moscowafishi",
+          "pages": [
+            "https://t.me/s/moscowafishi",
+            "https://t.me/s/moscowafishi?before=17522",
+            "https://t.me/s/moscowafishi?before=17497"
+          ],
+          "fetchedPosts": 40,
+          "fullTextReadPostIds": [
+            "moscowafishi/17537",
+            "moscowafishi/17539",
+            "moscowafishi/17542",
+            "moscowafishi/17483"
+          ],
+          "fullTextReadCount": 4,
+          "publicationDateMin": "2026-10-11T06:03:19+00:00",
+          "publicationDateMax": "2026-10-16T17:56:42+00:00",
+          "note": "Fetched posts are not all fully read. Discovery excerpts inspected separately. No bot messages or registration."
+        },
+        {
+          "channel": "Hlebozavod9",
+          "pages": [
+            "https://t.me/s/Hlebozavod9",
+            "https://t.me/s/Hlebozavod9?before=5280",
+            "https://t.me/s/Hlebozavod9?before=5256"
+          ],
+          "fetchedPosts": 15,
+          "fullTextReadPostIds": [
+            "Hlebozavod9/5298"
+          ],
+          "fullTextReadCount": 1,
+          "publicationDateMin": "2026-09-24T08:56:03+00:00",
+          "publicationDateMax": "2026-10-16T11:06:20+00:00",
+          "note": "Fetched posts are not all fully read. Discovery excerpts inspected separately. No bot messages or registration."
+        },
+        {
+          "channel": "noorbarlive",
+          "pages": [
+            "https://t.me/s/noorbarlive",
+            "https://t.me/s/noorbarlive?before=643",
+            "https://t.me/s/noorbarlive?before=622"
+          ],
+          "fetchedPosts": 34,
+          "fullTextReadPostIds": [],
+          "fullTextReadCount": 0,
+          "publicationDateMin": "2025-08-02T16:54:35+00:00",
+          "publicationDateMax": "2026-10-13T07:46:46+00:00",
+          "note": "Fetched posts are not all fully read. Discovery excerpts inspected separately. No bot messages or registration."
+        },
+        {
+          "channel": "rovesnikbar",
+          "pages": [
+            "https://t.me/s/rovesnikbar",
+            "https://t.me/s/rovesnikbar?before=22273",
+            "https://t.me/s/rovesnikbar?before=22252"
+          ],
+          "fetchedPosts": 46,
+          "fullTextReadPostIds": [
+            "rovesnikbar/22254",
+            "rovesnikbar/22257",
+            "rovesnikbar/22238",
+            "rovesnikbar/22249",
+            "rovesnikbar/22272"
+          ],
+          "fullTextReadCount": 5,
+          "publicationDateMin": "2026-10-10T21:50:20+00:00",
+          "publicationDateMax": "2026-10-16T23:24:22+00:00",
+          "note": "Fetched posts are not all fully read. Discovery excerpts inspected separately. No bot messages or registration."
+        }
+      ],
+      "materialNotices": [
+        {
+          "sourceUrl": "https://ges-2.org/",
+          "notice": "GES-2 and Svody closed October20–21 for technical reasons. No overlapping ongoing GES records found in current event file; preserve notice for place hours."
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://v-a-c.org/ges-2",
+          "error": "web internal error; current official ges-2.org succeeds"
+        },
+        {
+          "url": "https://www.mos-razvitie.ru/afisha",
+          "error": "web cache miss after homepage discovery"
+        },
+        {
+          "url": "https://synchronize.timepad.ru/events/",
+          "error": "web inaccessible"
+        },
+        {
+          "url": "https://mestobyt.timepad.ru/events/",
+          "error": "web inaccessible"
+        }
+      ],
+      "alreadyPresent": [
+        "daily-msk-rovesnik-debate-20261017",
+        "verified-msk-zotov-pizza-2026-10-17",
+        "verified-msk-zotov-baking-2026-10-17",
+        "tg-msk-021-20261014",
+        "verified-msk-zotov-brunch-2026-10-18",
+        "verified-msk-zotov-heritage-2026-10-18",
+        "verified-msk-zotov-ceramic-2026-10-18",
+        "daily-msk-zotov-nine-days-20261018",
+        "refresh-20261013-zotov-follow-rain"
+      ],
+      "limitations": "Bounded pass, not complete city/source refresh. No changes to existing checkedAt. No bar-menu prices imported: no dated serving-volume evidence. English/local source discovery remains incomplete. Source HTML or Telegram evidence under /tmp.",
+      "addedIds": [
+        "daily-msk-425837a4e904c51f",
+        "daily-msk-282a90708b5da0c7",
+        "daily-msk-2ad73148008e7203",
+        "daily-msk-8ad0167cae9850c3",
+        "daily-msk-a9d20e7491845841",
+        "daily-msk-2c84db6300d1a776",
+        "daily-msk-beb1a3578096ef62"
+      ],
+      "updatedIds": [],
+      "duplicateImportSkips": [],
+      "totalBefore": 3720,
+      "totalAfter": 3727,
+      "datedCountsBefore": {
+        "2026-10-17": 379,
+        "2026-10-18": 356,
+        "2026-10-19": 299,
+        "2026-10-20": 299,
+        "2026-10-21": 271,
+        "2026-10-22": 177,
+        "2026-10-23": 116
+      },
+      "datedCountsAfter": {
+        "2026-10-17": 381,
+        "2026-10-18": 356,
+        "2026-10-19": 299,
+        "2026-10-20": 300,
+        "2026-10-21": 272,
+        "2026-10-22": 178,
+        "2026-10-23": 118
+      },
+      "countNote": "Dated catalogue records, including cinema sessions; not unique city events or live filtered counts."
+    },
+    "yerevan": {
+      "city": "yerevan",
+      "checkedAt": "2026-10-17T03:01:55.016143+00:00",
+      "window": [
+        "2026-10-17",
+        "2026-10-23"
+      ],
+      "pending": [
+        {
+          "url": "https://t.me/ErevanRus/7406",
+          "reason": "Cleanup Oct17 Charents1/3: verify primaryorganizer and exactmeetingpoint coordinates."
+        },
+        {
+          "url": "https://t.me/ErevanRus/7410",
+          "reason": "Secret Sunshine Oct17 19:00, Pul Saryan2/2: primaryorganizer andcoordinates unverified."
+        },
+        {
+          "url": "https://t.me/easygoing_yerevan/11804",
+          "reason": "AFC Zone Oct18: primaryticket/festival schedule and entryrules requireverification."
+        },
+        {
+          "url": "https://t.me/uptown_yerevan/7167",
+          "reason": "Dinners Oct17/22: venuechosenprivately aftersignup; no publicexactaddress."
+        },
+        {
+          "title": "Anna Ezhova - Ezhovy Rukavitsy",
+          "sourceUrl": "https://t.me/erukavicy/197",
+          "date": "2026-10-18",
+          "time": "19:00",
+          "venue": "Shtab",
+          "address": "Sevana 5, Yerevan",
+          "reason": "Fully read artist post published2026-09-30, exactdate/time/address, donations suggested4000AMD (notfixedprice),16+,reservationrequired. Organizer directions telegra.ph inaccessible; venue coordinate not verified. Do not map until pin confirmed."
+        },
+        {
+          "sourceUrl": "https://ulikhanyanclub.com/arm/buy-ticket/3131",
+          "reason": "Event day/month/weekday and20:30 read. No explicit event year in accessible HTML; copyright2026 alone insufficient. Official /arm/contact returns403; /en/contact200 emptycontactdetails. OSM Ulikhanyan node9168344355 atSayatNova7 exists but fresh address confirmation unresolved. Do not import yet."
+        },
+        {
+          "sourceUrl": "https://ulikhanyanclub.com/arm/buy-ticket/3132",
+          "reason": "Event day/month/weekday and20:30 read. No explicit event year in accessible HTML; copyright2026 alone insufficient. Official /arm/contact returns403; /en/contact200 emptycontactdetails. OSM Ulikhanyan node9168344355 atSayatNova7 exists but fresh address confirmation unresolved. Do not import yet."
+        },
+        {
+          "sourceUrl": "https://ulikhanyanclub.com/arm/buy-ticket/3133",
+          "reason": "Event day/month/weekday and20:30 read. No explicit event year in accessible HTML; copyright2026 alone insufficient. Official /arm/contact returns403; /en/contact200 emptycontactdetails. OSM Ulikhanyan node9168344355 atSayatNova7 exists but fresh address confirmation unresolved. Do not import yet."
+        },
+        {
+          "sourceUrl": "https://ulikhanyanclub.com/arm/buy-ticket/3134",
+          "reason": "Event day/month/weekday and20:30 read. No explicit event year in accessible HTML; copyright2026 alone insufficient. Official /arm/contact returns403; /en/contact200 emptycontactdetails. OSM Ulikhanyan node9168344355 atSayatNova7 exists but fresh address confirmation unresolved. Do not import yet."
+        },
+        {
+          "sourceUrl": "https://ulikhanyanclub.com/arm/buy-ticket/3135",
+          "reason": "Event day/month/weekday and20:30 read. No explicit event year in accessible HTML; copyright2026 alone insufficient. Official /arm/contact returns403; /en/contact200 emptycontactdetails. OSM Ulikhanyan node9168344355 atSayatNova7 exists but fresh address confirmation unresolved. Do not import yet."
+        }
+      ],
+      "telegramAudit": [
+        {
+          "channel": "ErevanRus",
+          "pages": [
+            "https://t.me/s/ErevanRus",
+            "https://t.me/s/ErevanRus?before=7394",
+            "https://t.me/s/ErevanRus?before=7373"
+          ],
+          "fetched": 51,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:11.155513+00:00",
+          "fullyReadPostUrls": [
+            "https://t.me/ErevanRus/7395",
+            "https://t.me/ErevanRus/7403",
+            "https://t.me/ErevanRus/7406",
+            "https://t.me/ErevanRus/7407",
+            "https://t.me/ErevanRus/7410",
+            "https://t.me/ErevanRus/7412",
+            "https://t.me/ErevanRus/7378"
+          ],
+          "oldestPublication": "2026-10-04T08:05:08+00:00",
+          "latestPublication": "2026-10-16T15:05:23+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "easygoing_yerevan",
+          "pages": [
+            "https://t.me/s/easygoing_yerevan",
+            "https://t.me/s/easygoing_yerevan?before=11783",
+            "https://t.me/s/easygoing_yerevan?before=11762"
+          ],
+          "fetched": 46,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:11.121168+00:00",
+          "fullyReadPostUrls": [
+            "https://t.me/easygoing_yerevan/11785",
+            "https://t.me/easygoing_yerevan/11794",
+            "https://t.me/easygoing_yerevan/11804",
+            "https://t.me/easygoing_yerevan/11762",
+            "https://t.me/easygoing_yerevan/11768",
+            "https://t.me/easygoing_yerevan/11761"
+          ],
+          "oldestPublication": "2026-10-11T12:20:36+00:00",
+          "latestPublication": "2026-10-16T11:07:54+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "uptown_yerevan",
+          "pages": [
+            "https://t.me/s/uptown_yerevan",
+            "https://t.me/s/uptown_yerevan?before=7184",
+            "https://t.me/s/uptown_yerevan?before=7159"
+          ],
+          "fetched": 23,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:07.847596+00:00",
+          "fullyReadPostUrls": [
+            "https://t.me/uptown_yerevan/7167",
+            "https://t.me/uptown_yerevan/7169"
+          ],
+          "oldestPublication": "2026-10-08T17:59:40+00:00",
+          "latestPublication": "2026-10-16T16:02:26+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "guideyerevan",
+          "pages": [
+            "https://t.me/s/guideyerevan",
+            "https://t.me/s/guideyerevan?before=1541",
+            "https://t.me/s/guideyerevan?before=1520"
+          ],
+          "fetched": 52,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:12.348621+00:00",
+          "fullyReadPostUrls": [
+            "https://t.me/guideyerevan/1555",
+            "https://t.me/guideyerevan/1561"
+          ],
+          "oldestPublication": "2026-07-15T13:22:38+00:00",
+          "latestPublication": "2026-10-15T12:06:01+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "yerevanafisha",
+          "pages": [
+            "https://t.me/s/yerevanafisha",
+            "https://t.me/s/yerevanafisha?before=1356",
+            "https://t.me/s/yerevanafisha?before=1336"
+          ],
+          "fetched": 60,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:13.149335+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2025-12-09T09:22:20+00:00",
+          "latestPublication": "2026-02-27T09:00:56+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "relokant",
+          "pages": [
+            "https://t.me/s/relokant",
+            "https://t.me/s/relokant?before=2795",
+            "https://t.me/s/relokant?before=2766"
+          ],
+          "fetched": 59,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:11.144301+00:00",
+          "fullyReadPostUrls": [
+            "https://t.me/relokant/2811",
+            "https://t.me/relokant/2817",
+            "https://t.me/relokant/2818"
+          ],
+          "oldestPublication": "2026-08-24T08:02:57+00:00",
+          "latestPublication": "2026-10-12T15:14:13+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "gargoyle_pub",
+          "pages": [
+            "https://t.me/s/gargoyle_pub",
+            "https://t.me/s/gargoyle_pub?before=954",
+            "https://t.me/s/gargoyle_pub?before=933"
+          ],
+          "fetched": 53,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:15.888140+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-07-26T17:58:48+00:00",
+          "latestPublication": "2026-10-16T18:22:34+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "LAN_YVN",
+          "pages": [
+            "https://t.me/s/LAN_YVN"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:14.274529+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "reaktiv_quiz",
+          "pages": [
+            "https://t.me/s/reaktiv_quiz",
+            "https://t.me/s/reaktiv_quiz?before=209",
+            "https://t.me/s/reaktiv_quiz?before=189"
+          ],
+          "fetched": 60,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:16.820876+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2025-11-26T05:59:22+00:00",
+          "latestPublication": "2026-10-12T11:26:00+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "quiz_yerevan",
+          "pages": [
+            "https://t.me/s/quiz_yerevan"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:14.286169+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "wowquiz_evn",
+          "pages": [
+            "https://t.me/s/wowquiz_evn",
+            "https://t.me/s/wowquiz_evn?before=1553",
+            "https://t.me/s/wowquiz_evn?before=1533"
+          ],
+          "fetched": 42,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:16.874334+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-07-21T16:10:40+00:00",
+          "latestPublication": "2026-10-14T10:38:28+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "kruzhokww",
+          "pages": [
+            "https://t.me/s/kruzhokww",
+            "https://t.me/s/kruzhokww?before=639",
+            "https://t.me/s/kruzhokww?before=619"
+          ],
+          "fetched": 52,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:16.885007+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-08-23T13:48:10+00:00",
+          "latestPublication": "2026-10-16T17:37:57+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "commonground_yerevan",
+          "pages": [
+            "https://t.me/s/commonground_yerevan",
+            "https://t.me/s/commonground_yerevan?before=829",
+            "https://t.me/s/commonground_yerevan?before=809"
+          ],
+          "fetched": 42,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:17.511795+00:00",
+          "fullyReadPostUrls": [
+            "https://t.me/commonground_yerevan/838",
+            "https://t.me/commonground_yerevan/839"
+          ],
+          "oldestPublication": "2026-02-25T10:21:47+00:00",
+          "latestPublication": "2026-10-16T15:49:17+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "YerevanJH",
+          "pages": [
+            "https://t.me/s/YerevanJH",
+            "https://t.me/s/YerevanJH?before=723",
+            "https://t.me/s/YerevanJH?before=703"
+          ],
+          "fetched": 40,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:17.168096+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-09-14T14:59:54+00:00",
+          "latestPublication": "2026-10-15T19:08:08+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "highfest_official",
+          "pages": [
+            "https://t.me/s/highfest_official"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:16.895359+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "moychay_armenia",
+          "pages": [
+            "https://t.me/s/moychay_armenia"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:17.495633+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "selfbox_am",
+          "pages": [
+            "https://t.me/s/selfbox_am"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:17.561316+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "hikeam",
+          "pages": [
+            "https://t.me/s/hikeam",
+            "https://t.me/s/hikeam?before=7025",
+            "https://t.me/s/hikeam?before=6994"
+          ],
+          "fetched": 17,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:18.796851+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-10-06T11:01:10+00:00",
+          "latestPublication": "2026-10-16T11:19:43+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "hex_and_hack",
+          "pages": [
+            "https://t.me/s/hex_and_hack"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:17.562583+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "gooyq_magazine",
+          "pages": [
+            "https://t.me/s/gooyq_magazine",
+            "https://t.me/s/gooyq_magazine?before=46",
+            "https://t.me/s/gooyq_magazine?before=23"
+          ],
+          "fetched": 59,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:19.266745+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-05-21T08:43:02+00:00",
+          "latestPublication": "2026-10-15T09:26:04+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "martiroswine",
+          "pages": [
+            "https://t.me/s/martiroswine"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:18.152277+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "mixer_project",
+          "pages": [
+            "https://t.me/s/mixer_project",
+            "https://t.me/s/mixer_project?before=70",
+            "https://t.me/s/mixer_project?before=49"
+          ],
+          "fetched": 40,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:19.489844+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-03-31T16:33:22+00:00",
+          "latestPublication": "2026-10-16T15:40:05+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "breakingbreaddd",
+          "pages": [
+            "https://t.me/s/breakingbreaddd",
+            "https://t.me/s/breakingbreaddd?before=2377",
+            "https://t.me/s/breakingbreaddd?before=2357"
+          ],
+          "fetched": 58,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:19.589790+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-10-01T17:03:17+00:00",
+          "latestPublication": "2026-10-16T13:55:33+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "cabaretbeats",
+          "pages": [
+            "https://t.me/s/cabaretbeats",
+            "https://t.me/s/cabaretbeats?before=284",
+            "https://t.me/s/cabaretbeats?before=261"
+          ],
+          "fetched": 43,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:19.760252+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-05-22T13:20:54+00:00",
+          "latestPublication": "2026-10-16T18:01:39+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "maximumoxygen",
+          "pages": [
+            "https://t.me/s/maximumoxygen",
+            "https://t.me/s/maximumoxygen?before=1"
+          ],
+          "fetched": 18,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:19.119102+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-09-01T10:07:00+00:00",
+          "latestPublication": "2026-10-09T10:27:57+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "poligrafevn",
+          "pages": [
+            "https://t.me/s/poligrafevn",
+            "https://t.me/s/poligrafevn?before=1174",
+            "https://t.me/s/poligrafevn?before=1144"
+          ],
+          "fetched": 48,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:21.080492+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2023-11-01T11:21:05+00:00",
+          "latestPublication": "2024-01-27T16:07:21+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "YerevanTechno",
+          "pages": [
+            "https://t.me/s/YerevanTechno",
+            "https://t.me/s/YerevanTechno?before=91",
+            "https://t.me/s/YerevanTechno?before=71"
+          ],
+          "fetched": 60,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:21.255939+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2020-01-14T14:57:44+00:00",
+          "latestPublication": "2021-11-20T06:56:14+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "eventsYerevan",
+          "pages": [
+            "https://t.me/s/eventsYerevan",
+            "https://t.me/s/eventsYerevan?before=928",
+            "https://t.me/s/eventsYerevan?before=900"
+          ],
+          "fetched": 59,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:21.368605+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2023-02-21T06:07:28+00:00",
+          "latestPublication": "2026-05-15T07:48:12+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "liveYerevan",
+          "pages": [
+            "https://t.me/s/liveYerevan",
+            "https://t.me/s/liveYerevan?before=26643",
+            "https://t.me/s/liveYerevan?before=26623"
+          ],
+          "fetched": 60,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:21.394134+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-10-13T12:49:00+00:00",
+          "latestPublication": "2026-10-16T14:49:18+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "standupvyerevane",
+          "pages": [
+            "https://t.me/s/standupvyerevane",
+            "https://t.me/s/standupvyerevane?before=1"
+          ],
+          "fetched": 16,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:20.671514+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2022-04-03T09:03:16+00:00",
+          "latestPublication": "2022-11-29T08:47:07+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "aristandup",
+          "pages": [
+            "https://t.me/s/aristandup",
+            "https://t.me/s/aristandup?before=145",
+            "https://t.me/s/aristandup?before=124"
+          ],
+          "fetched": 59,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:21.753615+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2022-11-12T16:02:50+00:00",
+          "latestPublication": "2024-02-05T14:14:00+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "voskey_yerevan",
+          "pages": [
+            "https://t.me/s/voskey_yerevan",
+            "https://t.me/s/voskey_yerevan?before=5605",
+            "https://t.me/s/voskey_yerevan?before=5583"
+          ],
+          "fetched": 22,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:22.669245+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-09-25T19:38:40+00:00",
+          "latestPublication": "2026-10-16T15:02:56+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "malkhasjazzclub",
+          "pages": [
+            "https://t.me/s/malkhasjazzclub",
+            "https://t.me/s/malkhasjazzclub?before=1681",
+            "https://t.me/s/malkhasjazzclub?before=1661"
+          ],
+          "fetched": 55,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:23.321931+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-08-13T18:30:28+00:00",
+          "latestPublication": "2026-10-15T13:07:02+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "yerevanmunicipality",
+          "pages": [
+            "https://t.me/s/yerevanmunicipality",
+            "https://t.me/s/yerevanmunicipality?before=4581",
+            "https://t.me/s/yerevanmunicipality?before=4561"
+          ],
+          "fetched": 54,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:23.289392+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-10-07T14:35:00+00:00",
+          "latestPublication": "2026-10-16T16:01:30+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "yerevannevents",
+          "pages": [
+            "https://t.me/s/yerevannevents",
+            "https://t.me/s/yerevannevents?before=8",
+            "https://t.me/s/yerevannevents?before=1"
+          ],
+          "fetched": 19,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:23.062798+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2023-01-25T08:15:50+00:00",
+          "latestPublication": "2026-10-14T15:35:01+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "tomsarkgham",
+          "pages": [
+            "https://t.me/s/tomsarkgham",
+            "https://t.me/s/tomsarkgham?before=1341",
+            "https://t.me/s/tomsarkgham?before=1321"
+          ],
+          "fetched": 15,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:23.300514+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-10-05T06:44:52+00:00",
+          "latestPublication": "2026-10-16T04:33:27+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "bookclubyerevan",
+          "pages": [
+            "https://t.me/s/bookclubyerevan"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:22.443450+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "musthaveyerevan",
+          "pages": [
+            "https://t.me/s/musthaveyerevan",
+            "https://t.me/s/musthaveyerevan?before=1382",
+            "https://t.me/s/musthaveyerevan?before=1362"
+          ],
+          "fetched": 37,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:24.706605+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2025-08-27T11:06:09+00:00",
+          "latestPublication": "2026-08-11T11:02:19+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "freedoc_am",
+          "pages": [
+            "https://t.me/s/freedoc_am",
+            "https://t.me/s/freedoc_am?before=592",
+            "https://t.me/s/freedoc_am?before=572"
+          ],
+          "fetched": 24,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:24.746748+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-04-18T14:13:09+00:00",
+          "latestPublication": "2026-10-15T08:42:29+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "couchsurfing_armenia",
+          "pages": [
+            "https://t.me/s/couchsurfing_armenia"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:23.705714+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "kinoakumb",
+          "pages": [
+            "https://t.me/s/kinoakumb",
+            "https://t.me/s/kinoakumb?before=1"
+          ],
+          "fetched": 1,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:24.114941+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2022-11-05T19:39:37+00:00",
+          "latestPublication": "2022-11-05T19:39:37+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "Ave_Cinema",
+          "pages": [
+            "https://t.me/s/Ave_Cinema",
+            "https://t.me/s/Ave_Cinema?before=58",
+            "https://t.me/s/Ave_Cinema?before=1"
+          ],
+          "fetched": 19,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:24.892466+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2023-02-16T17:48:31+00:00",
+          "latestPublication": "2023-04-28T12:23:32+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "greenroomyerevan",
+          "pages": [
+            "https://t.me/s/greenroomyerevan",
+            "https://t.me/s/greenroomyerevan?before=1265",
+            "https://t.me/s/greenroomyerevan?before=1242"
+          ],
+          "fetched": 59,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:25.255021+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-09-10T15:43:02+00:00",
+          "latestPublication": "2026-10-16T14:53:17+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "artpevko",
+          "pages": [
+            "https://t.me/s/artpevko",
+            "https://t.me/s/artpevko?before=1176",
+            "https://t.me/s/artpevko?before=1151"
+          ],
+          "fetched": 32,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:25.998076+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-01-24T09:23:58+00:00",
+          "latestPublication": "2026-06-07T15:57:31+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "mamajanyvn",
+          "pages": [
+            "https://t.me/s/mamajanyvn",
+            "https://t.me/s/mamajanyvn?before=3232",
+            "https://t.me/s/mamajanyvn?before=3209"
+          ],
+          "fetched": 45,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:26.373768+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-04-15T16:32:55+00:00",
+          "latestPublication": "2026-09-12T05:40:36+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "TriClubEVN",
+          "pages": [
+            "https://t.me/s/TriClubEVN",
+            "https://t.me/s/TriClubEVN?before=766",
+            "https://t.me/s/TriClubEVN?before=745"
+          ],
+          "fetched": 53,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:26.797610+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-06-26T16:16:28+00:00",
+          "latestPublication": "2026-10-13T04:14:16+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "Afisha_artstudioananas",
+          "pages": [
+            "https://t.me/s/Afisha_artstudioananas",
+            "https://t.me/s/Afisha_artstudioananas?before=1801",
+            "https://t.me/s/Afisha_artstudioananas?before=1776"
+          ],
+          "fetched": 13,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:26.543447+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-09-28T05:24:28+00:00",
+          "latestPublication": "2026-10-16T09:09:10+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "YerevanRunNews",
+          "pages": [
+            "https://t.me/s/YerevanRunNews",
+            "https://t.me/s/YerevanRunNews?before=2520",
+            "https://t.me/s/YerevanRunNews?before=2499"
+          ],
+          "fetched": 54,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:27.009259+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-09-24T05:02:38+00:00",
+          "latestPublication": "2026-10-16T12:33:23+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "muhabaryerevan",
+          "pages": [
+            "https://t.me/s/muhabaryerevan",
+            "https://t.me/s/muhabaryerevan?before=2322",
+            "https://t.me/s/muhabaryerevan?before=2290"
+          ],
+          "fetched": 55,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:27.353863+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-09-18T12:03:11+00:00",
+          "latestPublication": "2026-10-16T05:23:49+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "Yerevan_historical_dances",
+          "pages": [
+            "https://t.me/s/Yerevan_historical_dances",
+            "https://t.me/s/Yerevan_historical_dances?before=49",
+            "https://t.me/s/Yerevan_historical_dances?before=26"
+          ],
+          "fetched": 53,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:28.314812+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2025-04-28T23:56:32+00:00",
+          "latestPublication": "2026-07-10T11:16:53+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "goveganarmenia",
+          "pages": [
+            "https://t.me/s/goveganarmenia"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:27.084017+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "lan_yerevan",
+          "pages": [
+            "https://t.me/s/lan_yerevan"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:27.182086+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "na_ploshchadi_centra_mira",
+          "pages": [
+            "https://t.me/s/na_ploshchadi_centra_mira",
+            "https://t.me/s/na_ploshchadi_centra_mira?before=809",
+            "https://t.me/s/na_ploshchadi_centra_mira?before=778"
+          ],
+          "fetched": 44,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:29.033072+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2025-12-01T12:36:58+00:00",
+          "latestPublication": "2026-10-14T12:27:53+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "slova_vne_sebja",
+          "pages": [
+            "https://t.me/s/slova_vne_sebja",
+            "https://t.me/s/slova_vne_sebja?before=3683",
+            "https://t.me/s/slova_vne_sebja?before=3658"
+          ],
+          "fetched": 48,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:29.012388+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-10-05T10:35:09+00:00",
+          "latestPublication": "2026-10-16T13:15:56+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "sunset_evn",
+          "pages": [
+            "https://t.me/s/sunset_evn",
+            "https://t.me/s/sunset_evn?before=195",
+            "https://t.me/s/sunset_evn?before=169"
+          ],
+          "fetched": 51,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:29.609015+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2025-09-18T08:05:07+00:00",
+          "latestPublication": "2026-07-29T10:58:21+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "jaunty_yerevan",
+          "pages": [
+            "https://t.me/s/jaunty_yerevan"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:27.861843+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "masterskayaArtLav",
+          "pages": [
+            "https://t.me/s/masterskayaArtLav",
+            "https://t.me/s/masterskayaArtLav?before=2449",
+            "https://t.me/s/masterskayaArtLav?before=2409"
+          ],
+          "fetched": 11,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:29.301424+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-09-29T12:26:06+00:00",
+          "latestPublication": "2026-10-15T16:01:37+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "diletantinarmenia",
+          "pages": [
+            "https://t.me/s/diletantinarmenia"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:28.527886+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "hoqipublictalk",
+          "pages": [
+            "https://t.me/s/hoqipublictalk",
+            "https://t.me/s/hoqipublictalk?before=40",
+            "https://t.me/s/hoqipublictalk?before=17"
+          ],
+          "fetched": 54,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:30.562944+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-01-12T14:09:19+00:00",
+          "latestPublication": "2026-07-05T14:09:00+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "speakingevn",
+          "pages": [
+            "https://t.me/s/speakingevn",
+            "https://t.me/s/speakingevn?before=92",
+            "https://t.me/s/speakingevn?before=67"
+          ],
+          "fetched": 60,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:30.672324+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2024-11-11T13:13:37+00:00",
+          "latestPublication": "2026-09-10T18:04:42+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "improv_yerevan",
+          "pages": [
+            "https://t.me/s/improv_yerevan",
+            "https://t.me/s/improv_yerevan?before=173",
+            "https://t.me/s/improv_yerevan?before=149"
+          ],
+          "fetched": 28,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:31.124773+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2025-12-22T07:00:43+00:00",
+          "latestPublication": "2026-09-14T09:35:31+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "yerevan_cabaret",
+          "pages": [
+            "https://t.me/s/yerevan_cabaret"
+          ],
+          "fetched": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:29.728545+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": null,
+          "latestPublication": null,
+          "status": "no_public_history"
+        },
+        {
+          "channel": "funevn",
+          "pages": [
+            "https://t.me/s/funevn",
+            "https://t.me/s/funevn?before=722",
+            "https://t.me/s/funevn?before=702"
+          ],
+          "fetched": 56,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:31.397288+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2021-04-02T10:46:11+00:00",
+          "latestPublication": "2026-01-21T10:38:16+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "newsarmenia",
+          "pages": [
+            "https://t.me/s/newsarmenia",
+            "https://t.me/s/newsarmenia?before=71458",
+            "https://t.me/s/newsarmenia?before=71438"
+          ],
+          "fetched": 58,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:31.561295+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-10-14T12:22:49+00:00",
+          "latestPublication": "2026-10-16T18:52:14+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "dommoskvyerevan",
+          "pages": [
+            "https://t.me/s/dommoskvyerevan",
+            "https://t.me/s/dommoskvyerevan?before=8336",
+            "https://t.me/s/dommoskvyerevan?before=8311"
+          ],
+          "fetched": 15,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:31.685355+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-10-02T20:23:39+00:00",
+          "latestPublication": "2026-10-16T16:24:20+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "rsgovarmenia",
+          "pages": [
+            "https://t.me/s/rsgovarmenia",
+            "https://t.me/s/rsgovarmenia?before=28954",
+            "https://t.me/s/rsgovarmenia?before=28931"
+          ],
+          "fetched": 22,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:32.590721+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-10-11T08:18:13+00:00",
+          "latestPublication": "2026-10-16T13:35:19+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "yerevankino",
+          "pages": [
+            "https://t.me/s/yerevankino",
+            "https://t.me/s/yerevankino?before=618",
+            "https://t.me/s/yerevankino?before=597"
+          ],
+          "fetched": 46,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:32.950877+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2025-12-31T14:04:53+00:00",
+          "latestPublication": "2026-10-16T04:58:08+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "yerevancommunity",
+          "pages": [
+            "https://t.me/s/yerevancommunity",
+            "https://t.me/s/yerevancommunity?before=3181",
+            "https://t.me/s/yerevancommunity?before=3160"
+          ],
+          "fetched": 41,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:33.183597+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2026-10-08T13:58:29+00:00",
+          "latestPublication": "2026-10-16T17:48:50+00:00",
+          "status": "history_fetched_selectively_read"
+        },
+        {
+          "channel": "triglinkiyerevan",
+          "pages": [
+            "https://t.me/s/triglinkiyerevan",
+            "https://t.me/s/triglinkiyerevan?before=426",
+            "https://t.me/s/triglinkiyerevan?before=397"
+          ],
+          "fetched": 47,
+          "error": null,
+          "checkedAt": "2026-10-17T02:58:33.663791+00:00",
+          "fullyReadPostUrls": [],
+          "oldestPublication": "2024-05-31T12:59:15+00:00",
+          "latestPublication": "2026-09-14T09:51:32+00:00",
+          "status": "history_fetched_selectively_read"
+        }
+      ],
+      "webAudit": [
+        {
+          "url": "https://www.visityerevan.am/browse/culture-museums-and-galleries/en/",
+          "final": "https://www.visityerevan.am/browse/culture-museums-and-galleries/en/",
+          "status": 200,
+          "file": "0.txt",
+          "title": [
+            "\n        Visit Yerevan\n        \n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:46.264945+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.visityerevan.am/browse/events/en/",
+          "final": "https://www.visityerevan.am/browse/events/en/",
+          "status": 200,
+          "file": "1.txt",
+          "title": [
+            "\n        Visit Yerevan\n        \n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:46.225628+00:00",
+          "reviewStatus": "page_text_read"
+        },
+        {
+          "url": "https://www.visityerevan.am/",
+          "final": "https://www.visityerevan.am/en/",
+          "status": 200,
+          "file": "2.txt",
+          "title": [
+            "\n        Visit Yerevan\n        \n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:46.565971+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://eventix.am/",
+          "final": "https://eventix.am/",
+          "status": 200,
+          "file": "3.txt",
+          "title": [
+            "Միջոցառումներ Երևանում 2026՝ համերգներ և տոմսեր | Eventix"
+          ],
+          "checkedAt": "2026-10-17T02:58:51.084937+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://ticketon.am/hy/search-results?place=Yerevan",
+          "final": "https://ticketon.am/hy/search-results?place=Yerevan",
+          "status": 200,
+          "file": "4.txt",
+          "title": [
+            " Որոնման արդյունքները  - TicketOn"
+          ],
+          "checkedAt": "2026-10-17T02:58:46.468253+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://tick.am/",
+          "final": "https://tick.am/",
+          "status": 200,
+          "file": "5.txt",
+          "title": [
+            "What&#39;s on in Yerevan: concerts, theatre and tickets"
+          ],
+          "checkedAt": "2026-10-17T02:58:45.855784+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://ticketland.am/",
+          "final": "https://ticketland.am/",
+          "status": 200,
+          "file": "6.txt",
+          "title": [
+            "Ticketland.am - Cinema, Events and Tickets in Armenia"
+          ],
+          "checkedAt": "2026-10-17T02:58:48.574181+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://eventhub.am/hy",
+          "error": "HTTP Error 308: Permanent Redirect",
+          "checkedAt": "2026-10-17T02:58:46.651786+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.ticketsystem.am/public/hy/discover/city/yerevan",
+          "final": "https://www.ticketsystem.am/public/hy/discover/city/yerevan",
+          "status": 200,
+          "file": "8.txt",
+          "title": [
+            "Yerevan — Ticketsystem.am"
+          ],
+          "checkedAt": "2026-10-17T02:58:47.098710+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://yerevanevents.am/",
+          "final": "https://yerevanevents.am/",
+          "status": 200,
+          "file": "9.txt",
+          "title": [
+            "Երևանյան Բոլոր Միջոցառումները |"
+          ],
+          "checkedAt": "2026-10-17T02:58:47.291845+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://linkup.am/contact?lang=ru",
+          "final": "https://linkup.am/contact?lang=ru",
+          "status": 200,
+          "file": "10.txt",
+          "title": [
+            "About LinkUp: Yerevan and Belgrade events in one app"
+          ],
+          "checkedAt": "2026-10-17T02:58:47.111729+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://jaunty.am/",
+          "final": "https://www.jaunty.am/",
+          "status": 200,
+          "file": "11.txt",
+          "title": [
+            "JAUNTY - Yerevan Guide"
+          ],
+          "checkedAt": "2026-10-17T02:58:54.094804+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.cmf.am/en/exhibitions",
+          "final": "https://www.cmf.am/en/exhibitions",
+          "status": 200,
+          "file": "12.txt",
+          "title": [
+            "Exhibitions – Cafesjian Center for the Arts"
+          ],
+          "checkedAt": "2026-10-17T02:58:47.685613+00:00",
+          "reviewStatus": "page_text_read"
+        },
+        {
+          "url": "https://www.cmf.am/en",
+          "final": "https://www.cmf.am/en",
+          "status": 200,
+          "file": "13.txt",
+          "title": [
+            "Cafesjian Center for the Arts – Cafesjian Center for the Arts"
+          ],
+          "checkedAt": "2026-10-17T02:58:47.874811+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://nla.am/arm/explore",
+          "final": "https://nla.am/arm/explore",
+          "status": 200,
+          "file": "14.txt",
+          "title": [
+            "Իրադարձութուններ"
+          ],
+          "checkedAt": "2026-10-17T02:58:48.751760+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://newsroom.aua.am/events/",
+          "final": "https://newsroom.aua.am/events/",
+          "status": 200,
+          "file": "15.txt",
+          "title": [
+            "Events from January 14, 2013 &#8211; March 5, 2013 &#8211; AUA Newsroom"
+          ],
+          "checkedAt": "2026-10-17T02:58:48.950464+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://commonground.am/",
+          "final": "https://commonground.am/",
+          "status": 200,
+          "file": "16.txt",
+          "title": [
+            "Common Ground Books &amp; Spirits (@commonground) | AllMyLinks"
+          ],
+          "checkedAt": "2026-10-17T02:58:49.100052+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://relocantbar.tilda.ws",
+          "final": "https://relocantbar.tilda.ws",
+          "status": 200,
+          "file": "17.txt",
+          "title": [
+            "RELOCANT BAR"
+          ],
+          "checkedAt": "2026-10-17T02:58:49.197784+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.ulikhanyanclub.com/",
+          "final": "http://ulikhanyanclub.com/",
+          "status": 200,
+          "file": "18.txt",
+          "title": [
+            "Ջազ ակումբ ՈՒլիխանյան"
+          ],
+          "checkedAt": "2026-10-17T02:58:50.203564+00:00",
+          "reviewStatus": "page_text_read"
+        },
+        {
+          "url": "https://www.visityerevan.am/browse/culture-theatres/en/",
+          "final": "https://www.visityerevan.am/browse/culture-theatres/en/",
+          "status": 200,
+          "file": "19.txt",
+          "title": [
+            "\n        Visit Yerevan\n        \n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:49.461299+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.visityerevan.am/browse/culture-squares-and-parks/en/",
+          "final": "https://www.visityerevan.am/browse/culture-squares-and-parks/en/",
+          "status": 200,
+          "file": "20.txt",
+          "title": [
+            "\n        Visit Yerevan\n        \n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:49.698329+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.visityerevan.am/browse/entertainment-bars-pubs-clubs/en/",
+          "final": "https://www.visityerevan.am/browse/entertainment-bars-pubs-clubs/en/",
+          "status": 200,
+          "file": "21.txt",
+          "title": [
+            "\n        Visit Yerevan\n        \n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:49.950275+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.visityerevan.am/browse/entertainment-cinemas/en/",
+          "final": "https://www.visityerevan.am/browse/entertainment-cinemas/en/",
+          "status": 200,
+          "file": "22.txt",
+          "title": [
+            "\n        Visit Yerevan\n        \n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:49.919735+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.visityerevan.am/browse/entertainment-restaurants/en/",
+          "final": "https://www.visityerevan.am/browse/entertainment-restaurants/en/",
+          "status": 200,
+          "file": "23.txt",
+          "title": [
+            "\n        Visit Yerevan\n        \n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:51.130582+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.visityerevan.am/browse/entertainment-shopping--souvenirs-bookstores/en/",
+          "final": "https://www.visityerevan.am/browse/entertainment-shopping--souvenirs-bookstores/en/",
+          "status": 200,
+          "file": "24.txt",
+          "title": [
+            "\n        Visit Yerevan\n        \n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:50.590912+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.visityerevan.am/browse/entertainment-health-wellness-sport/en/",
+          "final": "https://www.visityerevan.am/browse/entertainment-health-wellness-sport/en/",
+          "status": 200,
+          "file": "25.txt",
+          "title": [
+            "\n        Visit Yerevan\n        \n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:50.764422+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.visityerevan.am/browse/entertainment-entertainment/en/",
+          "final": "https://www.visityerevan.am/browse/entertainment-entertainment/en/",
+          "status": 200,
+          "file": "26.txt",
+          "title": [
+            "\n        Visit Yerevan\n        \n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:50.779448+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://newsroom.aua.am/events/?ical=1",
+          "final": "https://newsroom.aua.am/events/?ical=1",
+          "status": 200,
+          "file": "27.txt",
+          "title": [],
+          "checkedAt": "2026-10-17T02:58:51.184499+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://newsroom.aua.am/events/feed/",
+          "final": "https://newsroom.aua.am/events/?tribe_redirected=1",
+          "status": 200,
+          "file": "28.txt",
+          "title": [
+            "Events from January 14, 2013 &#8211; March 5, 2013 &#8211; AUA Newsroom"
+          ],
+          "checkedAt": "2026-10-17T02:58:52.231734+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.cmf.am/en/programs-and-events/calendar",
+          "final": "https://www.cmf.am/en/programs-and-events/calendar",
+          "status": 200,
+          "file": "29.txt",
+          "title": [
+            "Programs &amp; Events – Cafesjian Center for the Arts"
+          ],
+          "checkedAt": "2026-10-17T02:58:51.140148+00:00",
+          "reviewStatus": "page_text_read"
+        },
+        {
+          "url": "https://nla.am/arm/blog/events",
+          "final": "https://nla.am/arm/blog/events",
+          "status": 200,
+          "file": "30.txt",
+          "title": [
+            "Միջոցառումներ"
+          ],
+          "checkedAt": "2026-10-17T02:58:54.637812+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://nla.am/arm/blog/exhibitions",
+          "final": "https://nla.am/arm/blog/exhibitions",
+          "status": 200,
+          "file": "31.txt",
+          "title": [
+            "Ցուցահանդէսներ"
+          ],
+          "checkedAt": "2026-10-17T02:58:54.141666+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://ica.am/en/",
+          "error": "HTTP Error 403: Forbidden",
+          "checkedAt": "2026-10-17T02:58:51.320837+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://kinopark.am/en?lang=eng",
+          "final": "https://kinopark.am/en?lang=eng",
+          "status": 200,
+          "file": "33.txt",
+          "title": [
+            "KinoPark | New generation movie theatre"
+          ],
+          "checkedAt": "2026-10-17T02:58:53.518316+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://cinemastar.am/en/contacts",
+          "final": "https://cinemastar.am/en/contacts",
+          "status": 200,
+          "file": "34.txt",
+          "title": [
+            " Սինեմա Սթար"
+          ],
+          "checkedAt": "2026-10-17T02:58:52.062816+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.moscowcinema.com/",
+          "final": "https://www.moscowcinema.com/am",
+          "status": 200,
+          "file": "35.txt",
+          "title": [
+            "Կինոմոսկվա"
+          ],
+          "checkedAt": "2026-10-17T02:58:54.106288+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://poligraf.am/",
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+          "checkedAt": "2026-10-17T02:58:52.467834+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.yerevan.am/en/festivals-of-yerevan/",
+          "final": "https://www.yerevan.am/en/festivals-of-yerevan/",
+          "status": 200,
+          "file": "37.txt",
+          "title": [
+            "yerevan.am |\n            Festivals of Yerevan\n    "
+          ],
+          "checkedAt": "2026-10-17T02:58:54.078754+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://gdeyerevan.ru/",
+          "final": "https://gdeyerevan.ru/",
+          "status": 200,
+          "file": "38.txt",
+          "title": [
+            "GdeYerevan - Russian-language events in Yerevan: films, stand-up and concerts"
+          ],
+          "checkedAt": "2026-10-17T02:58:55.942205+00:00",
+          "reviewStatus": "page_text_read"
+        },
+        {
+          "url": "https://afishamira.com/city/armenia/",
+          "final": "https://afishamira.com/city/armenia/",
+          "status": 200,
+          "file": "39.txt",
+          "title": [
+            "Armenia concerts 2026-2027 | Concerts, theatre and talks | Afisha Mira"
+          ],
+          "checkedAt": "2026-10-17T02:58:54.300933+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://newsarmenia.am/news/culture/",
+          "final": "https://newsarmenia.am/news/culture/",
+          "status": 200,
+          "file": "40.txt",
+          "title": [
+            "All culture news "
+          ],
+          "checkedAt": "2026-10-17T02:58:54.822808+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://bravo.am/",
+          "final": "https://bravo.am/",
+          "status": 200,
+          "file": "41.txt",
+          "title": [
+            "Bravo.am :: Armenian Celebrities &amp; Entertainment Guide - Bravo.am"
+          ],
+          "checkedAt": "2026-10-17T02:58:55.077924+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://armenpress.am/hy",
+          "error": "HTTP Error 403: Forbidden",
+          "checkedAt": "2026-10-17T02:58:54.309689+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://evnreport.com/tag/arts-digest/",
+          "final": "https://evnreport.com/tag/arts-digest/",
+          "status": 200,
+          "file": "43.txt",
+          "title": [
+            "arts digest - EVN Report"
+          ],
+          "checkedAt": "2026-10-17T02:58:54.790931+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://aristandupclub.am/",
+          "final": "https://aristandupclub.am/",
+          "status": 200,
+          "file": "44.txt",
+          "title": [
+            "ARI STANDUP — Երևանի սթենդ-ափ ակումբը — կենդանի ելույթներ ամեն շաբաթ"
+          ],
+          "checkedAt": "2026-10-17T02:58:55.013912+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.tomsarkgh.am/",
+          "final": "https://www.tomsarkgh.am/",
+          "status": 200,
+          "file": "45.txt",
+          "title": [
+            "Երևանի բոլոր իրադարձությունները"
+          ],
+          "checkedAt": "2026-10-17T02:58:57.830073+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.instagram.com/commonground_yerevan/",
+          "final": "https://www.instagram.com/commonground_yerevan/",
+          "status": 200,
+          "file": "46.txt",
+          "title": [
+            "Common Ground Books &amp; Spirits (&#064;commonground_yerevan) • Instagram photos and videos"
+          ],
+          "checkedAt": "2026-10-17T02:58:55.475268+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.instagram.com/aua_insta/",
+          "final": "https://www.instagram.com/aua_insta/",
+          "status": 200,
+          "file": "47.txt",
+          "title": [
+            "American University of Armenia (&#064;aua_insta) • Instagram photos and videos"
+          ],
+          "checkedAt": "2026-10-17T02:58:55.499432+00:00",
+          "reviewStatus": "access_check_only"
+        },
+        {
+          "url": "https://www.instagram.com/ari_standup/",
+          "final": "https://www.instagram.com/ari_standup/",
+          "status": 200,
+          "file": "48.txt",
+          "title": [
+            "Instagram"
+          ],
+          "checkedAt": "2026-10-17T02:58:55.607297+00:00",
+          "reviewStatus": "access_check_only"
+        }
+      ],
+      "fullyReadPosts": 22,
+      "coverageNote": "69 channels requested,176 historypages,2308 fetched posts. Only explicitly listed posts fully read; others mechanically retrieved or snippets inspected. Fullsourcecoverage not achieved. Instagram3profiles accessattempted, not confirmed readable feeds. Strong Oct23 drop is mainly missingcinema schedules afterOct22 and incompleteofficial/Telegram coverage, not evidence of noevents.",
+      "duplicates": [
+        "ArtLav garage sale",
+        "LAN programme",
+        "Relocant Oct17/18",
+        "CommonGround SapoGi",
+        "1984 musical"
+      ],
+      "placesChanged": 0,
+      "extraAudit": {
+        "telegramFullPostsRead": [
+          "https://t.me/greengreen_ch/1906",
+          "https://t.me/erukavicy/197"
+        ],
+        "telegramLocationEvidence": "https://t.me/greengreen_ch/1898",
+        "officialRead": [
+          "https://greengreen.am/ru/event/322",
+          "https://ulikhanyanclub.com/arm/buy-ticket/3131",
+          "https://ulikhanyanclub.com/arm/buy-ticket/3132",
+          "https://ulikhanyanclub.com/arm/buy-ticket/3133",
+          "https://ulikhanyanclub.com/arm/buy-ticket/3134",
+          "https://ulikhanyanclub.com/arm/buy-ticket/3135"
+        ],
+        "accessFailures": [
+          "https://ulikhanyanclub.com/arm/contact HTTP403",
+          "https://greengreen.am/ru/recycle/ecocenter HTTP403",
+          "https://telegra.ph/Kak-projti-v-prostranstvo-SHtab-v-Erevane-09-08 inaccessible"
+        ],
+        "notes": "Read parent-fetched primary detail evidence; added fresh organizer Telegram and linked Google place coordinate validation. No booking/cart/login performed. Existing catalog compared, no same sourceURL/title match."
+      },
+      "addedIds": [
+        "yv-ticketon-nezlobin-20261023",
+        "yv-refresh-20261017-greengreen-322"
+      ],
+      "updatedIds": [],
+      "duplicateImportSkips": [],
+      "totalBefore": 367,
+      "totalAfter": 369,
+      "datedCountsBefore": {
+        "2026-10-17": 70,
+        "2026-10-18": 60,
+        "2026-10-19": 33,
+        "2026-10-20": 35,
+        "2026-10-21": 39,
+        "2026-10-22": 38,
+        "2026-10-23": 1
+      },
+      "datedCountsAfter": {
+        "2026-10-17": 71,
+        "2026-10-18": 60,
+        "2026-10-19": 33,
+        "2026-10-20": 35,
+        "2026-10-21": 39,
+        "2026-10-22": 38,
+        "2026-10-23": 2
+      },
+      "countNote": "Dated catalogue records, including cinema sessions; not unique city events or live filtered counts.",
+      "coverageDropExplanation": "29 Moscow Cinema sessions on Oct22 and none imported for Oct23. Other sources also incomplete; added verified Oct23 TicketOn show, no inference that city has few events."
+    }
+  },
+  "menuAudit": {
+    "checkedDate": "2026-10-17",
+    "scope": "Bounded menu accessibility and evidence audit. No project files changed; no purchases.",
+    "audits": [
+      {
+        "city": "Tbilisi",
+        "venue": "SMA Craft Beer Bar",
+        "address": "48 Lado Asatiani Street",
+        "registry": "public/places.json, osm:node:6040938764",
+        "url": "https://smabar.ge/",
+        "status": "read_partial_evidence",
+        "read": "Official HTML menu, draught section and currency note. Lager Premium Lidskae 6.5 GEL; IPA Seahorse 8.5 GEL; Stout Seahorse 10 GEL. Website explicitly says prices in Georgian lari.",
+        "example": {
+          "item": "Lager Premium Lidskae",
+          "amount": 6.5,
+          "currency": "GEL",
+          "servingVolume": null,
+          "menuDate": null
+        },
+        "limitations": "No serving volume or menu publication date printed. Existing catalogue minimum 6.5 GEL is consistent, but full current-price verification is incomplete. Do not infer 0.5 litres."
+      },
+      {
+        "city": "Belgrade",
+        "venue": "Dogma Brewery Central",
+        "address": "Makedonska 7",
+        "registry": "public/belgrade/places.json, osm:node:6832907888",
+        "url": "https://postopice.rs/en/venue/dogma-brewery-central",
+        "status": "read_dated_third_party_menu",
+        "read": "Published drink menu: Prices from 9/26. Dogma Svetionik Pale Ale and New Pils on the Block draft both 420 RSD for 0.33 l and 520 RSD for 0.5 l. Page identifies Makedonska 7.",
+        "example": {
+          "item": "Dogma Svetionik Pale Ale draft",
+          "amount": 420,
+          "currency": "RSD",
+          "servingVolume": "0.33 l",
+          "menuDate": "2026-09"
+        },
+        "limitations": "PoštoPiće is a third-party menu transcription, not confirmation of today's in-venue price. Existing catalogue says 400 RSD, June 2026; newer dated evidence differs. Official beer menu URL timed out.",
+        "additionalAttempt": {
+          "url": "https://dogmabrewery.com/lokacije/dogma-central/karta-piva/",
+          "result": "Timeout fetching via web tool"
+        }
+      },
+      {
+        "city": "Moscow",
+        "venue": "PIVBAR Mayakovskaya",
+        "address": "1st Tverskaya-Yamskaya 2, building 1",
+        "registry": "public/moscow/places.json, website pivbar.moscow",
+        "url": "https://pivbar.moscow/tap-list/",
+        "imageUrl": "https://pivbar.moscow/wp-content/uploads/2026/07/IMG_6456.jpg",
+        "status": "read_menu_image_partial_evidence",
+        "read": "Official tap-list page and first image visually inspected. Image headed PIVBAR Mayakovka. Pistone Lager Wolf's Brew 390, APA Stamm Brew 500, Helles Brewlok 450. These are printed numeric prices, no currency or serving volume printed on inspected image.",
+        "example": {
+          "item": "Pistone Lager Wolf's Brew",
+          "printedAmount": 390,
+          "currency": null,
+          "servingVolume": null,
+          "menuDate": null
+        },
+        "limitations": "Do not assume RUB or 0.5 litres from location. July 2026 in upload URL is not verified menu date. Website says tap list changes weekly, so image currency/volume/date evidence insufficient for import.",
+        "evidenceFile": "/tmp/pivbar-menu.jpg"
+      },
+      {
+        "city": "Yerevan",
+        "venue": "The Beatles Pub",
+        "address": "60 Pushkin Street",
+        "registry": "public/yerevan/places.json, website beatles.am",
+        "url": "https://beatles.am/menu/",
+        "imageUrl": "https://beatles.am/menu/1.png",
+        "status": "read_food_menu_image_partial_evidence",
+        "read": "Official food menu page and first page visually inspected. English breakfast 2800, avocado toast 2800, orange juice 1500. Breakfast composition includes two fried eggs and two sausages; currency, beverage volume and menu date absent on inspected page.",
+        "example": {
+          "item": "Orange juice",
+          "printedAmount": 1500,
+          "currency": null,
+          "servingVolume": null,
+          "menuDate": null
+        },
+        "limitations": "Only first of 11 food menu images inspected. No beer price confirmed. Cannot infer AMD or juice volume. Other registered sites attempted: Dargett inaccessible, Black Angus renders images and describes delivery, 379beer returned empty extracted content. No delivery price imported.",
+        "additionalAttempts": [
+          {
+            "url": "https://dargett.com/",
+            "result": "Inaccessible via web tool"
+          },
+          {
+            "url": "https://www.blackangus.am/",
+            "result": "Images only, no readable menu; delivery-oriented title"
+          },
+          {
+            "url": "https://www.379beer.am/",
+            "result": "Zero extracted lines"
+          }
+        ],
+        "evidenceFile": "/tmp/beatles-menu.png"
+      }
+    ],
+    "summary": {
+      "citiesAttempted": 4,
+      "venuesWithReadMenu": 4,
+      "fullyDatedPriceCurrencyVolumeRecords": 1,
+      "officialFullyDatedRecords": 0,
+      "projectUpdates": 1
+    }
+  }
+}

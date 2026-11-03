@@ -1,0 +1,3468 @@
+{
+  "cityId": "santiago",
+  "checkedAt": "2026-10-29T03:46:40.674783+00:00",
+  "window": {
+    "from": "2026-10-29",
+    "to": "2026-11-27",
+    "timezone": "America/Santiago"
+  },
+  "coverage": {
+    "scope": "Santiago metro, explicitly SantiagoCentro/Providencia/LasCondes; no silent RegiónMetropolitana-wide import.",
+    "primary": "OfficialregionalDisfrutaSantiago currentOct29programme+JaranaX artOctober/theatreNovember fullmain;selectedownGAM,SerpatMNBA,CasaFrei,Portaldisc,Evently.",
+    "pagination": "JaranaX14artOct+72theatreNovlisted;notwhole1400citycatalogue. GAMactualcategoriesselecteddetails; regionalcalendarpartial.",
+    "limits": "GAM-concentrated starter; 6venues, many blockedprimaryhosts, no fullcity/30daycoverage. Nov2/3timedgaps honest. Unknownhoursranges notopen-now.",
+    "telegram": "Discoveryonly; zero imported.",
+    "access": "Hostdenials persisted, queuedrequests skipped; GoogleMapsJSshell notverification.",
+    "year": "Explicit2026fullbody; priorseasons/footersnotyearproof.",
+    "concentration": "12 of 19 programmes use GAM; six physical venues. Regional and independent agendas reviewed, but many primary ticket hosts blocked."
+  },
+  "events": [
+    {
+      "title": "La Veta",
+      "titleEn": "La Veta",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "art",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/la-veta/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:24.670537+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/la-veta/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A temporary exhibition exploring Chilean ceramics, memory and artistic creation. One programme interval; visiting hours are not separate daily performances.",
+      "admission": "Sala MAPA, building B, level −1. Closed Mondays; Tuesday, Wednesday and Sunday 10:00–19:00, Thursday–Saturday 10:00–20:00. Admission price is not explicitly published.",
+      "programmeId": "santiago-scl-la-veta",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-la-veta-range",
+      "date": "2026-06-25",
+      "time": null,
+      "end": null,
+      "endDate": "2026-12-06",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-24": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-25": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-11-26": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "20:00"
+        }
+      },
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingHoursSource": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/la-veta/"
+    },
+    {
+      "title": "Del León a la Bestia: 100 años de animación en Chile",
+      "titleEn": "Del León a la Bestia: 100 años de animación en Chile",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "art",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/del-leon-a-la-bestia-100-anos-de-animacion-en-chile/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:32.231545+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/del-leon-a-la-bestia-100-anos-de-animacion-en-chile/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A display tracing a century of Chilean animation through 174 works. One programme interval; visiting hours are not separate daily performances.",
+      "admission": "BiblioGAM, building A, floor 3. Tuesday–Saturday 10:00–18:00. Admission price is not explicitly published.",
+      "programmeId": "santiago-scl-chilemonos",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-chilemonos-range",
+      "date": "2026-10-20",
+      "time": null,
+      "end": null,
+      "endDate": "2026-10-31",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingHoursSource": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/del-leon-a-la-bestia-100-anos-de-animacion-en-chile/"
+    },
+    {
+      "title": "Salvataje",
+      "titleEn": "Salvataje",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "art",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/exposicion-salvataje/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:42.082540+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/exposicion-salvataje/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "An ephemeral installation responding to wind, light and its surroundings. One programme interval; visiting hours are not separate daily performances.",
+      "admission": "Pasillo José Ramón. Free. Visiting hours are not published; the date range does not mean the installation is open now.",
+      "programmeId": "santiago-scl-salvataje",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-salvataje-range",
+      "date": "2026-10-20",
+      "time": null,
+      "end": null,
+      "endDate": "2026-12-30",
+      "dateType": "published_interval",
+      "openingHoursKnown": false,
+      "openingHoursUnknown": true,
+      "openingHoursSource": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/exposicion-salvataje/"
+    },
+    {
+      "title": "SUBREALISTAS — exhibition",
+      "titleEn": "SUBREALISTAS — exhibition",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "art",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/subrealistas/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:45.249593+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/subrealistas/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A sound-poetry exhibition accompanying a new compilation release. One programme interval; visiting hours are not separate daily performances.",
+      "admission": "Sala de Artes Visuales, building B, level −1. Free exhibition; visiting hours are not published. The separate concert requires registration.",
+      "programmeId": "santiago-scl-subrealistas-range",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-subrealistas-range-range",
+      "date": "2026-10-28",
+      "time": null,
+      "end": null,
+      "endDate": "2026-10-31",
+      "dateType": "published_interval",
+      "openingHoursKnown": false,
+      "openingHoursUnknown": true,
+      "openingHoursSource": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/subrealistas/"
+    },
+    {
+      "title": "SUBREALISTAS — live sound poetry",
+      "titleEn": "SUBREALISTAS — live sound poetry",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "music",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/subrealistas/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:45.249593+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/subrealistas/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free with registration.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Live sound-poetry performances by Felipe Cussen, Martín Gubbins and Konantü.",
+      "admission": "Sala de Artes Visuales, building B, level −1. Free with advance registration; capacity is limited.",
+      "programmeId": "santiago-scl-subrealistas-live",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-subrealistas-live-20261030-1830",
+      "date": "2026-10-30",
+      "time": "18:30",
+      "end": null,
+      "startAt": "2026-10-30T18:30:00-03:00"
+    },
+    {
+      "title": "Pepo: antes y después de Condorito",
+      "titleEn": "Pepo: antes y después de Condorito",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "art",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/mundo-pepo/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:48.435065+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/mundo-pepo/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": null,
+      "min": false,
+      "priceNote": "Price not published.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Original archives and interactive material explore the creator of Condorito. One programme interval; visiting hours are not separate daily performances.",
+      "admission": "Sala de Artes Visuales, building B, level −1. Tuesday–Saturday 10:00–20:00; Sunday 10:00–19:00; closed Mondays. Admission price is not published.",
+      "programmeId": "santiago-scl-pepo",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-pepo-range",
+      "date": "2026-11-25",
+      "time": null,
+      "end": null,
+      "endDate": "2027-03-28",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-11-25": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-26": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "20:00"
+        }
+      },
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingHoursSource": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/mundo-pepo/"
+    },
+    {
+      "title": "Doña Rosita [anotada]",
+      "titleEn": "Doña Rosita [anotada]",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 7800,
+      "min": false,
+      "priceNote": "SalaN1 buildingB floor2;14+. Duration60min, not fixedend. Fridaygeneral7800,concessions8400; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A contemporary adaptation of García Lorca directed by Francisco Albornoz.",
+      "admission": "Sala N1, building B, floor 2. Ages 14+. Published duration: 60 minutes, not a fixed finishing time. General CLP12,000, Friday general CLP7,800; eligible concessions CLP8,400. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-rosita",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [
+        "OwnGAM Thu–Sun schedule supersedes regionalcalendar Fri–Sun; no Thursday before actualOct30 start."
+      ],
+      "id": "santiago-scl-rosita-20261030-2000",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "end": null,
+      "startAt": "2026-10-30T20:00:00-03:00"
+    },
+    {
+      "title": "Doña Rosita [anotada]",
+      "titleEn": "Doña Rosita [anotada]",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaN1 buildingB floor2;14+. Duration60min, not fixedend. Fridaygeneral7800,concessions8400; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A contemporary adaptation of García Lorca directed by Francisco Albornoz.",
+      "admission": "Sala N1, building B, floor 2. Ages 14+. Published duration: 60 minutes, not a fixed finishing time. General CLP12,000, Friday general CLP7,800; eligible concessions CLP8,400. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-rosita",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [
+        "OwnGAM Thu–Sun schedule supersedes regionalcalendar Fri–Sun; no Thursday before actualOct30 start."
+      ],
+      "id": "santiago-scl-rosita-20261031-2000",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "end": null,
+      "startAt": "2026-10-31T20:00:00-03:00"
+    },
+    {
+      "title": "Doña Rosita [anotada]",
+      "titleEn": "Doña Rosita [anotada]",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaN1 buildingB floor2;14+. Duration60min, not fixedend. Fridaygeneral7800,concessions8400; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A contemporary adaptation of García Lorca directed by Francisco Albornoz.",
+      "admission": "Sala N1, building B, floor 2. Ages 14+. Published duration: 60 minutes, not a fixed finishing time. General CLP12,000, Friday general CLP7,800; eligible concessions CLP8,400. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-rosita",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [
+        "OwnGAM Thu–Sun schedule supersedes regionalcalendar Fri–Sun; no Thursday before actualOct30 start."
+      ],
+      "id": "santiago-scl-rosita-20261101-1900",
+      "date": "2026-11-01",
+      "time": "19:00",
+      "end": null,
+      "startAt": "2026-11-01T19:00:00-03:00"
+    },
+    {
+      "title": "Doña Rosita [anotada]",
+      "titleEn": "Doña Rosita [anotada]",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaN1 buildingB floor2;14+. Duration60min, not fixedend. Fridaygeneral7800,concessions8400; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A contemporary adaptation of García Lorca directed by Francisco Albornoz.",
+      "admission": "Sala N1, building B, floor 2. Ages 14+. Published duration: 60 minutes, not a fixed finishing time. General CLP12,000, Friday general CLP7,800; eligible concessions CLP8,400. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-rosita",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [
+        "OwnGAM Thu–Sun schedule supersedes regionalcalendar Fri–Sun; no Thursday before actualOct30 start."
+      ],
+      "id": "santiago-scl-rosita-20261105-2000",
+      "date": "2026-11-05",
+      "time": "20:00",
+      "end": null,
+      "startAt": "2026-11-05T20:00:00-03:00"
+    },
+    {
+      "title": "Doña Rosita [anotada]",
+      "titleEn": "Doña Rosita [anotada]",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 7800,
+      "min": false,
+      "priceNote": "SalaN1 buildingB floor2;14+. Duration60min, not fixedend. Fridaygeneral7800,concessions8400; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A contemporary adaptation of García Lorca directed by Francisco Albornoz.",
+      "admission": "Sala N1, building B, floor 2. Ages 14+. Published duration: 60 minutes, not a fixed finishing time. General CLP12,000, Friday general CLP7,800; eligible concessions CLP8,400. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-rosita",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [
+        "OwnGAM Thu–Sun schedule supersedes regionalcalendar Fri–Sun; no Thursday before actualOct30 start."
+      ],
+      "id": "santiago-scl-rosita-20261106-2000",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "end": null,
+      "startAt": "2026-11-06T20:00:00-03:00"
+    },
+    {
+      "title": "Doña Rosita [anotada]",
+      "titleEn": "Doña Rosita [anotada]",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaN1 buildingB floor2;14+. Duration60min, not fixedend. Fridaygeneral7800,concessions8400; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A contemporary adaptation of García Lorca directed by Francisco Albornoz.",
+      "admission": "Sala N1, building B, floor 2. Ages 14+. Published duration: 60 minutes, not a fixed finishing time. General CLP12,000, Friday general CLP7,800; eligible concessions CLP8,400. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-rosita",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [
+        "OwnGAM Thu–Sun schedule supersedes regionalcalendar Fri–Sun; no Thursday before actualOct30 start."
+      ],
+      "id": "santiago-scl-rosita-20261107-2000",
+      "date": "2026-11-07",
+      "time": "20:00",
+      "end": null,
+      "startAt": "2026-11-07T20:00:00-03:00"
+    },
+    {
+      "title": "Doña Rosita [anotada]",
+      "titleEn": "Doña Rosita [anotada]",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaN1 buildingB floor2;14+. Duration60min, not fixedend. Fridaygeneral7800,concessions8400; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A contemporary adaptation of García Lorca directed by Francisco Albornoz.",
+      "admission": "Sala N1, building B, floor 2. Ages 14+. Published duration: 60 minutes, not a fixed finishing time. General CLP12,000, Friday general CLP7,800; eligible concessions CLP8,400. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-rosita",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [
+        "OwnGAM Thu–Sun schedule supersedes regionalcalendar Fri–Sun; no Thursday before actualOct30 start."
+      ],
+      "id": "santiago-scl-rosita-20261108-1900",
+      "date": "2026-11-08",
+      "time": "19:00",
+      "end": null,
+      "startAt": "2026-11-08T19:00:00-03:00"
+    },
+    {
+      "title": "Doña Rosita [anotada]",
+      "titleEn": "Doña Rosita [anotada]",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaN1 buildingB floor2;14+. Duration60min, not fixedend. Fridaygeneral7800,concessions8400; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A contemporary adaptation of García Lorca directed by Francisco Albornoz.",
+      "admission": "Sala N1, building B, floor 2. Ages 14+. Published duration: 60 minutes, not a fixed finishing time. General CLP12,000, Friday general CLP7,800; eligible concessions CLP8,400. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-rosita",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [
+        "OwnGAM Thu–Sun schedule supersedes regionalcalendar Fri–Sun; no Thursday before actualOct30 start."
+      ],
+      "id": "santiago-scl-rosita-20261112-2000",
+      "date": "2026-11-12",
+      "time": "20:00",
+      "end": null,
+      "startAt": "2026-11-12T20:00:00-03:00"
+    },
+    {
+      "title": "Doña Rosita [anotada]",
+      "titleEn": "Doña Rosita [anotada]",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 7800,
+      "min": false,
+      "priceNote": "SalaN1 buildingB floor2;14+. Duration60min, not fixedend. Fridaygeneral7800,concessions8400; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A contemporary adaptation of García Lorca directed by Francisco Albornoz.",
+      "admission": "Sala N1, building B, floor 2. Ages 14+. Published duration: 60 minutes, not a fixed finishing time. General CLP12,000, Friday general CLP7,800; eligible concessions CLP8,400. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-rosita",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [
+        "OwnGAM Thu–Sun schedule supersedes regionalcalendar Fri–Sun; no Thursday before actualOct30 start."
+      ],
+      "id": "santiago-scl-rosita-20261113-2000",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "end": null,
+      "startAt": "2026-11-13T20:00:00-03:00"
+    },
+    {
+      "title": "Doña Rosita [anotada]",
+      "titleEn": "Doña Rosita [anotada]",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaN1 buildingB floor2;14+. Duration60min, not fixedend. Fridaygeneral7800,concessions8400; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A contemporary adaptation of García Lorca directed by Francisco Albornoz.",
+      "admission": "Sala N1, building B, floor 2. Ages 14+. Published duration: 60 minutes, not a fixed finishing time. General CLP12,000, Friday general CLP7,800; eligible concessions CLP8,400. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-rosita",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [
+        "OwnGAM Thu–Sun schedule supersedes regionalcalendar Fri–Sun; no Thursday before actualOct30 start."
+      ],
+      "id": "santiago-scl-rosita-20261114-2000",
+      "date": "2026-11-14",
+      "time": "20:00",
+      "end": null,
+      "startAt": "2026-11-14T20:00:00-03:00"
+    },
+    {
+      "title": "Doña Rosita [anotada]",
+      "titleEn": "Doña Rosita [anotada]",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaN1 buildingB floor2;14+. Duration60min, not fixedend. Fridaygeneral7800,concessions8400; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A contemporary adaptation of García Lorca directed by Francisco Albornoz.",
+      "admission": "Sala N1, building B, floor 2. Ages 14+. Published duration: 60 minutes, not a fixed finishing time. General CLP12,000, Friday general CLP7,800; eligible concessions CLP8,400. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-rosita",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [
+        "OwnGAM Thu–Sun schedule supersedes regionalcalendar Fri–Sun; no Thursday before actualOct30 start."
+      ],
+      "id": "santiago-scl-rosita-20261115-1900",
+      "date": "2026-11-15",
+      "time": "19:00",
+      "end": null,
+      "startAt": "2026-11-15T19:00:00-03:00"
+    },
+    {
+      "title": "Los días felices",
+      "titleEn": "Los días felices",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:55.946277+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;14+. Duration75min, not fixedend. Concessions10500; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Samuel Beckett’s play staged by Álvaro Viguera with María Izquierdo and Rodrigo Lisboa.",
+      "admission": "Sala A2, building A, floor 1. Ages 14+. Published duration: 75 minutes, not a fixed finishing time. General CLP15,000; eligible concessions CLP10,500. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-felices",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-felices-20261029-1930",
+      "date": "2026-10-29",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-10-29T19:30:00-03:00"
+    },
+    {
+      "title": "Los días felices",
+      "titleEn": "Los días felices",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:55.946277+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;14+. Duration75min, not fixedend. Concessions10500; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Samuel Beckett’s play staged by Álvaro Viguera with María Izquierdo and Rodrigo Lisboa.",
+      "admission": "Sala A2, building A, floor 1. Ages 14+. Published duration: 75 minutes, not a fixed finishing time. General CLP15,000; eligible concessions CLP10,500. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-felices",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-felices-20261030-1930",
+      "date": "2026-10-30",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-10-30T19:30:00-03:00"
+    },
+    {
+      "title": "Los días felices",
+      "titleEn": "Los días felices",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:55.946277+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;14+. Duration75min, not fixedend. Concessions10500; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Samuel Beckett’s play staged by Álvaro Viguera with María Izquierdo and Rodrigo Lisboa.",
+      "admission": "Sala A2, building A, floor 1. Ages 14+. Published duration: 75 minutes, not a fixed finishing time. General CLP15,000; eligible concessions CLP10,500. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-felices",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-felices-20261031-1930",
+      "date": "2026-10-31",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-10-31T19:30:00-03:00"
+    },
+    {
+      "title": "Los días felices",
+      "titleEn": "Los días felices",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:55.946277+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;14+. Duration75min, not fixedend. Concessions10500; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Samuel Beckett’s play staged by Álvaro Viguera with María Izquierdo and Rodrigo Lisboa.",
+      "admission": "Sala A2, building A, floor 1. Ages 14+. Published duration: 75 minutes, not a fixed finishing time. General CLP15,000; eligible concessions CLP10,500. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-felices",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-felices-20261101-1830",
+      "date": "2026-11-01",
+      "time": "18:30",
+      "end": null,
+      "startAt": "2026-11-01T18:30:00-03:00"
+    },
+    {
+      "title": "Los días felices",
+      "titleEn": "Los días felices",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:55.946277+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;14+. Duration75min, not fixedend. Concessions10500; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Samuel Beckett’s play staged by Álvaro Viguera with María Izquierdo and Rodrigo Lisboa.",
+      "admission": "Sala A2, building A, floor 1. Ages 14+. Published duration: 75 minutes, not a fixed finishing time. General CLP15,000; eligible concessions CLP10,500. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-felices",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-felices-20261105-1930",
+      "date": "2026-11-05",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-05T19:30:00-03:00"
+    },
+    {
+      "title": "Los días felices",
+      "titleEn": "Los días felices",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:55.946277+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;14+. Duration75min, not fixedend. Concessions10500; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Samuel Beckett’s play staged by Álvaro Viguera with María Izquierdo and Rodrigo Lisboa.",
+      "admission": "Sala A2, building A, floor 1. Ages 14+. Published duration: 75 minutes, not a fixed finishing time. General CLP15,000; eligible concessions CLP10,500. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-felices",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-felices-20261106-1930",
+      "date": "2026-11-06",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-06T19:30:00-03:00"
+    },
+    {
+      "title": "Los días felices",
+      "titleEn": "Los días felices",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:55.946277+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;14+. Duration75min, not fixedend. Concessions10500; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Samuel Beckett’s play staged by Álvaro Viguera with María Izquierdo and Rodrigo Lisboa.",
+      "admission": "Sala A2, building A, floor 1. Ages 14+. Published duration: 75 minutes, not a fixed finishing time. General CLP15,000; eligible concessions CLP10,500. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-felices",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-felices-20261107-1930",
+      "date": "2026-11-07",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-07T19:30:00-03:00"
+    },
+    {
+      "title": "Los días felices",
+      "titleEn": "Los días felices",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:55.946277+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;14+. Duration75min, not fixedend. Concessions10500; mandatoryservicecharge amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Samuel Beckett’s play staged by Álvaro Viguera with María Izquierdo and Rodrigo Lisboa.",
+      "admission": "Sala A2, building A, floor 1. Ages 14+. Published duration: 75 minutes, not a fixed finishing time. General CLP15,000; eligible concessions CLP10,500. A mandatory service charge applies, amount unconfirmed.",
+      "programmeId": "santiago-scl-felices",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-felices-20261108-1830",
+      "date": "2026-11-08",
+      "time": "18:30",
+      "end": null,
+      "startAt": "2026-11-08T18:30:00-03:00"
+    },
+    {
+      "title": "Quiero ser una chica Almodóvar",
+      "titleEn": "Quiero ser una chica Almodóvar",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:45:02.351585+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;12+. Duration75min. Loudsounds in someparts. General15000FriSat/12000ThuSun,concessions10500/8400. Mandatoryfees notconfirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A musical theatre production inspired by Pedro Almodóvar’s cinematic world.",
+      "admission": "Sala A2, building A, floor 1. Ages 12+. Published duration: 75 minutes. Some loud sounds. General CLP15,000 Friday/Saturday and CLP12,000 Thursday/Sunday; eligible concessions CLP10,500 or CLP8,400 respectively. Mandatory fees are not confirmed.",
+      "programmeId": "santiago-scl-almodovar",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-almodovar-20261112-1930",
+      "date": "2026-11-12",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-12T19:30:00-03:00"
+    },
+    {
+      "title": "Quiero ser una chica Almodóvar",
+      "titleEn": "Quiero ser una chica Almodóvar",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:45:02.351585+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;12+. Duration75min. Loudsounds in someparts. General15000FriSat/12000ThuSun,concessions10500/8400. Mandatoryfees notconfirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A musical theatre production inspired by Pedro Almodóvar’s cinematic world.",
+      "admission": "Sala A2, building A, floor 1. Ages 12+. Published duration: 75 minutes. Some loud sounds. General CLP15,000 Friday/Saturday and CLP12,000 Thursday/Sunday; eligible concessions CLP10,500 or CLP8,400 respectively. Mandatory fees are not confirmed.",
+      "programmeId": "santiago-scl-almodovar",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-almodovar-20261113-1930",
+      "date": "2026-11-13",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-13T19:30:00-03:00"
+    },
+    {
+      "title": "Quiero ser una chica Almodóvar",
+      "titleEn": "Quiero ser una chica Almodóvar",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:45:02.351585+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;12+. Duration75min. Loudsounds in someparts. General15000FriSat/12000ThuSun,concessions10500/8400. Mandatoryfees notconfirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A musical theatre production inspired by Pedro Almodóvar’s cinematic world.",
+      "admission": "Sala A2, building A, floor 1. Ages 12+. Published duration: 75 minutes. Some loud sounds. General CLP15,000 Friday/Saturday and CLP12,000 Thursday/Sunday; eligible concessions CLP10,500 or CLP8,400 respectively. Mandatory fees are not confirmed.",
+      "programmeId": "santiago-scl-almodovar",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-almodovar-20261114-1930",
+      "date": "2026-11-14",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-14T19:30:00-03:00"
+    },
+    {
+      "title": "Quiero ser una chica Almodóvar",
+      "titleEn": "Quiero ser una chica Almodóvar",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:45:02.351585+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;12+. Duration75min. Loudsounds in someparts. General15000FriSat/12000ThuSun,concessions10500/8400. Mandatoryfees notconfirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A musical theatre production inspired by Pedro Almodóvar’s cinematic world.",
+      "admission": "Sala A2, building A, floor 1. Ages 12+. Published duration: 75 minutes. Some loud sounds. General CLP15,000 Friday/Saturday and CLP12,000 Thursday/Sunday; eligible concessions CLP10,500 or CLP8,400 respectively. Mandatory fees are not confirmed.",
+      "programmeId": "santiago-scl-almodovar",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-almodovar-20261115-1830",
+      "date": "2026-11-15",
+      "time": "18:30",
+      "end": null,
+      "startAt": "2026-11-15T18:30:00-03:00"
+    },
+    {
+      "title": "Quiero ser una chica Almodóvar",
+      "titleEn": "Quiero ser una chica Almodóvar",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:45:02.351585+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;12+. Duration75min. Loudsounds in someparts. General15000FriSat/12000ThuSun,concessions10500/8400. Mandatoryfees notconfirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A musical theatre production inspired by Pedro Almodóvar’s cinematic world.",
+      "admission": "Sala A2, building A, floor 1. Ages 12+. Published duration: 75 minutes. Some loud sounds. General CLP15,000 Friday/Saturday and CLP12,000 Thursday/Sunday; eligible concessions CLP10,500 or CLP8,400 respectively. Mandatory fees are not confirmed.",
+      "programmeId": "santiago-scl-almodovar",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-almodovar-20261119-1930",
+      "date": "2026-11-19",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-19T19:30:00-03:00"
+    },
+    {
+      "title": "Quiero ser una chica Almodóvar",
+      "titleEn": "Quiero ser una chica Almodóvar",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:45:02.351585+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;12+. Duration75min. Loudsounds in someparts. General15000FriSat/12000ThuSun,concessions10500/8400. Mandatoryfees notconfirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A musical theatre production inspired by Pedro Almodóvar’s cinematic world.",
+      "admission": "Sala A2, building A, floor 1. Ages 12+. Published duration: 75 minutes. Some loud sounds. General CLP15,000 Friday/Saturday and CLP12,000 Thursday/Sunday; eligible concessions CLP10,500 or CLP8,400 respectively. Mandatory fees are not confirmed.",
+      "programmeId": "santiago-scl-almodovar",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-almodovar-20261120-1930",
+      "date": "2026-11-20",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-20T19:30:00-03:00"
+    },
+    {
+      "title": "Quiero ser una chica Almodóvar",
+      "titleEn": "Quiero ser una chica Almodóvar",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:45:02.351585+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;12+. Duration75min. Loudsounds in someparts. General15000FriSat/12000ThuSun,concessions10500/8400. Mandatoryfees notconfirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A musical theatre production inspired by Pedro Almodóvar’s cinematic world.",
+      "admission": "Sala A2, building A, floor 1. Ages 12+. Published duration: 75 minutes. Some loud sounds. General CLP15,000 Friday/Saturday and CLP12,000 Thursday/Sunday; eligible concessions CLP10,500 or CLP8,400 respectively. Mandatory fees are not confirmed.",
+      "programmeId": "santiago-scl-almodovar",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-almodovar-20261121-1930",
+      "date": "2026-11-21",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-21T19:30:00-03:00"
+    },
+    {
+      "title": "Quiero ser una chica Almodóvar",
+      "titleEn": "Quiero ser una chica Almodóvar",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:45:02.351585+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;12+. Duration75min. Loudsounds in someparts. General15000FriSat/12000ThuSun,concessions10500/8400. Mandatoryfees notconfirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A musical theatre production inspired by Pedro Almodóvar’s cinematic world.",
+      "admission": "Sala A2, building A, floor 1. Ages 12+. Published duration: 75 minutes. Some loud sounds. General CLP15,000 Friday/Saturday and CLP12,000 Thursday/Sunday; eligible concessions CLP10,500 or CLP8,400 respectively. Mandatory fees are not confirmed.",
+      "programmeId": "santiago-scl-almodovar",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-almodovar-20261122-1830",
+      "date": "2026-11-22",
+      "time": "18:30",
+      "end": null,
+      "startAt": "2026-11-22T18:30:00-03:00"
+    },
+    {
+      "title": "La muerte del padre",
+      "titleEn": "La muerte del padre",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/la-muerte-del-padre/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:45:12.149425+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/la-muerte-del-padre/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 15000,
+      "min": false,
+      "priceNote": "SalaA2 buildingA floor1;14+. Concessions10500; mandatoryservicecharge amountunknown. Duration notpublished.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "The Ibarra Roa brothers stage a story of family, inheritance and reconciliation.",
+      "admission": "Sala A2, building A, floor 1. Ages 14+. General CLP15,000; eligible concessions CLP10,500. A mandatory service charge applies, amount unconfirmed. Duration is not published.",
+      "programmeId": "santiago-scl-muerte",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-muerte-20261127-1930",
+      "date": "2026-11-27",
+      "time": "19:30",
+      "end": null,
+      "startAt": "2026-11-27T19:30:00-03:00"
+    },
+    {
+      "title": "Viaje al corazón de la Madre Tierra",
+      "titleEn": "Viaje al corazón de la Madre Tierra",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/viaje-al-corazon-de-la-madre-tierra/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:45:07.455744+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/viaje-al-corazon-de-la-madre-tierra/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free with registration.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Outdoor puppet and physical theatre from Bolivia about care for the environment.",
+      "admission": "Plaza Zócalo, outdoors. Free with advance registration; capacity is limited. Published duration: 36 minutes, not a fixed finishing time.",
+      "programmeId": "santiago-scl-madre",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-madre-20261101-1700",
+      "date": "2026-11-01",
+      "time": "17:00",
+      "end": null,
+      "startAt": "2026-11-01T17:00:00-03:00"
+    },
+    {
+      "title": "Tardes de plaza: Carro Nómade",
+      "titleEn": "Tardes de plaza: Carro Nómade",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/tardes-de-plaza-carro-nomade/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:59.081455+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/tardes-de-plaza-carro-nomade/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 6000,
+      "min": false,
+      "priceNote": "General CLP6000; fees notconfirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A family theatre programme with small-scale performances and participatory workshops.",
+      "admission": "Plaza Oriente. Ages 5+. The combined programme starts at 16:00; individual miniature-show times are not specified. Strobe lighting, smoke and airborne dust warning. Assisted wheelchair ramp with two reserved spaces per performance. Published experience duration: 60 minutes, not a fixed finishing time.",
+      "programmeId": "santiago-scl-carro",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-carro-20261121-1600",
+      "date": "2026-11-21",
+      "time": "16:00",
+      "end": null,
+      "startAt": "2026-11-21T16:00:00-03:00"
+    },
+    {
+      "title": "Tardes de plaza: Carro Nómade",
+      "titleEn": "Tardes de plaza: Carro Nómade",
+      "venue": "Centro Gabriela Mistral",
+      "venueId": "santiago-venue-gam",
+      "placeId": "santiago-venue-gam",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "category": "theatre",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/teatro/tardes-de-plaza-carro-nomade/",
+      "additionalEvidenceUrls": [
+        "https://gam.cl/es/experiencia/como-llegar/"
+      ],
+      "checkedAt": "2026-10-29T03:44:59.081455+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://gam.cl/es/que-hacer-en-gam/teatro/tardes-de-plaza-carro-nomade/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 6000,
+      "min": false,
+      "priceNote": "General CLP6000; fees notconfirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A family theatre programme with small-scale performances and participatory workshops.",
+      "admission": "Plaza Oriente. Ages 5+. The combined programme starts at 16:00; individual miniature-show times are not specified. Strobe lighting, smoke and airborne dust warning. Assisted wheelchair ramp with two reserved spaces per performance. Published experience duration: 60 minutes, not a fixed finishing time.",
+      "programmeId": "santiago-scl-carro",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-carro-20261122-1600",
+      "date": "2026-11-22",
+      "time": "16:00",
+      "end": null,
+      "startAt": "2026-11-22T16:00:00-03:00"
+    },
+    {
+      "title": "Enrique Ramírez: Te creo paisaje",
+      "titleEn": "Enrique Ramírez: Te creo paisaje",
+      "venue": "Museo Nacional de Bellas Artes",
+      "venueId": "santiago-venue-mnba",
+      "placeId": "santiago-venue-mnba",
+      "address": "José Miguel de la Barra 650, Santiago",
+      "category": "art",
+      "lat": -33.4353128,
+      "lng": -70.6430315,
+      "coordinateSource": "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje",
+      "coordinatePrecision": "own-linked exact street-address entity at museum building, not surveyed door",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:44:01.355758+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje",
+      "additionalEvidenceUrls": [
+        "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje",
+        "https://www.mnba.gob.cl/planifica-tu-visita"
+      ],
+      "checkedAt": "2026-10-29T03:44:01.355758+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Video, photography and installations explore landscape, memory and migration. One programme interval; visiting hours are not separate daily performances.",
+      "admission": "South wing, first floor. Free. Tuesday–Sunday 10:00–18:30, last entry 18:20; closed Mondays. The museum’s published holiday-closure list does not include 1 November.",
+      "programmeId": "santiago-scl-ramirez",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-ramirez-range",
+      "date": "2026-10-08",
+      "time": null,
+      "end": null,
+      "endDate": "2027-02-28",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-24": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-25": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-26": {
+          "start": "10:00",
+          "end": "18:30"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "18:30"
+        }
+      },
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingHoursSource": "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje"
+    },
+    {
+      "title": "Enrique Ramírez y Mathias Puech — concierto",
+      "titleEn": "Enrique Ramírez y Mathias Puech — concierto",
+      "venue": "Museo Nacional de Bellas Artes",
+      "venueId": "santiago-venue-mnba",
+      "placeId": "santiago-venue-mnba",
+      "address": "José Miguel de la Barra 650, Santiago",
+      "category": "music",
+      "lat": -33.4353128,
+      "lng": -70.6430315,
+      "coordinateSource": "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje",
+      "coordinatePrecision": "own-linked exact street-address entity at museum building, not surveyed door",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:44:01.355758+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje",
+      "additionalEvidenceUrls": [
+        "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje",
+        "https://www.mnba.gob.cl/planifica-tu-visita"
+      ],
+      "checkedAt": "2026-10-29T03:44:01.355758+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free museum public programme.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A concert accompanying the Te creo paisaje exhibition.",
+      "admission": "Salón Blanco. Public programme with limited capacity; museum admission is free.",
+      "programmeId": "santiago-scl-ramirez-live",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-ramirez-live-20261108-1200",
+      "date": "2026-11-08",
+      "time": "12:00",
+      "end": null,
+      "startAt": "2026-11-08T12:00:00-03:00"
+    },
+    {
+      "title": "Fragmentos de una memoria que todavía nos pertenece",
+      "titleEn": "Fragmentos de una memoria que todavía nos pertenece",
+      "venue": "Casa Museo Eduardo Frei Montalva",
+      "venueId": "santiago-venue-casa",
+      "placeId": "santiago-venue-casa",
+      "address": "Hindenburg 683, Providencia, Santiago",
+      "category": "art",
+      "lat": -33.44389053,
+      "lng": -70.62236322,
+      "coordinateSource": "https://www.openstreetmap.org/api/0.6/way/587531988/full",
+      "coordinatePrecision": "named venue/building approximate; not specific room entrance",
+      "coordinateEvidence": "Independent named OSM museum building way587531988; tags name/address683Hindenburg match own contact. Mean building boundary, not own embed viewport.",
+      "coordinateCheckedAt": "2026-10-29T03:46:41.219163+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.casamuseoeduardofrei.cl/casa-museo-efm-presenta-muestra-fotografica-fragmentos-de-una-memoria-que-todavia-nos-pertenece/",
+      "additionalEvidenceUrls": [
+        "https://www.openstreetmap.org/api/0.6/way/587531988/full",
+        "https://www.casamuseoeduardofrei.cl/"
+      ],
+      "checkedAt": "2026-10-29T03:46:40.674783+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://www.casamuseoeduardofrei.cl/casa-museo-efm-presenta-muestra-fotografica-fragmentos-de-una-memoria-que-todavia-nos-pertenece/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 0,
+      "min": false,
+      "priceNote": "Temporaryexhibitionfree.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Gabriel Pérez Mardones presents photographs of Chilean cultural and public life. One programme interval; visiting hours are not separate daily performances.",
+      "admission": "This temporary exhibition is free, unlike the separately priced regular house tour. Tuesday–Sunday 10:00–18:00; closed Mondays. The museum closes on compulsory holidays, but no closure is announced for 1 November.",
+      "programmeId": "santiago-scl-fragmentos",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-fragmentos-range",
+      "date": "2026-10-24",
+      "time": null,
+      "end": null,
+      "endDate": "2026-11-29",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-24": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-25": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-26": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "openingHoursSource": "https://www.casamuseoeduardofrei.cl/casa-museo-efm-presenta-muestra-fotografica-fragmentos-de-una-memoria-que-todavia-nos-pertenece/"
+    },
+    {
+      "title": "Conversatorio abierto para adultos mayores",
+      "titleEn": "Conversatorio abierto para adultos mayores",
+      "venue": "Casa Museo Eduardo Frei Montalva",
+      "venueId": "santiago-venue-casa",
+      "placeId": "santiago-venue-casa",
+      "address": "Hindenburg 683, Providencia, Santiago",
+      "category": "talk",
+      "lat": -33.44389053,
+      "lng": -70.62236322,
+      "coordinateSource": "https://www.openstreetmap.org/api/0.6/way/587531988/full",
+      "coordinatePrecision": "named venue/building approximate; not specific room entrance",
+      "coordinateEvidence": "Independent named OSM museum building way587531988; tags name/address683Hindenburg match own contact. Mean building boundary, not own embed viewport.",
+      "coordinateCheckedAt": "2026-10-29T03:46:41.219163+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.casamuseoeduardofrei.cl/conversatorio-gratuito-y-abierto-de-adulto-mayores/",
+      "additionalEvidenceUrls": [
+        "https://www.openstreetmap.org/api/0.6/way/587531988/full"
+      ],
+      "checkedAt": "2026-10-29T03:46:28.053719+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://www.casamuseoeduardofrei.cl/conversatorio-gratuito-y-abierto-de-adulto-mayores/"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free public programme.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A public conversation about ageing, community participation and care.",
+      "admission": "Conference room. Open to older adults, families, carers, community representatives, students, professionals and other interested visitors. A free guided house visit is offered.",
+      "programmeId": "santiago-scl-adultos",
+      "endEvidence": "Ownfullbody explicitly activity10:30–13:00.",
+      "correctionHistory": [],
+      "id": "santiago-scl-adultos-20261107-1030",
+      "date": "2026-11-07",
+      "time": "10:30",
+      "end": "13:00",
+      "startAt": "2026-11-07T10:30:00-03:00",
+      "endAt": "2026-11-07T13:00:00-03:00"
+    },
+    {
+      "title": "Kantar — Jorge Campos: book launch and music",
+      "titleEn": "Kantar — Jorge Campos: book launch and music",
+      "venue": "Bar Liguria — Lastarria",
+      "venueId": "santiago-venue-liguria",
+      "placeId": "santiago-venue-liguria",
+      "address": "Merced 298, Santiago Centro",
+      "category": "literature",
+      "lat": -33.4372168,
+      "lng": -70.6408512,
+      "coordinateSource": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/lanzamiento-de-libro-kantar-jorge-campos-6331",
+      "coordinatePrecision": "approximate named agenda venuepoint, address-corroborated, not surveyed entrance",
+      "coordinateEvidence": "Named agenda venuepoint paired with Merced298 in the Lastarria neighborhood, distinct from citycentre. Same specificaddress independently confirmed by organizerPortaldisc and districtassociationBarri oLastarria. GoogleMapsJSshell not verification.",
+      "coordinateCheckedAt": "2026-10-29T03:39:11.494335+00:00",
+      "source": "Organizer announcement / authorized ticket service",
+      "sourceUrl": "https://portaldisc.com/evento/kantarjorgecampos",
+      "additionalEvidenceUrls": [
+        "https://www.jaranax.com/evento/region-metropolitana-de-santiago/lanzamiento-de-libro-kantar-jorge-campos-6331",
+        "https://barriolastarria.cl/socios/bar-liguria/"
+      ],
+      "checkedAt": "2026-10-29T03:44:18.668557+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://portaldisc.com/evento/kantarjorgecampos"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 12000,
+      "min": false,
+      "priceNote": "General CLP12000 + mandatory servicecharge, amountunknown.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "Jorge Campos presents his book with a reading, live music and book signing.",
+      "admission": "For visitors over 14; capacity is limited. General CLP12,000 plus a mandatory service charge of unconfirmed amount. The aggregator total CLP13,200 is not treated as a verified fee breakdown.",
+      "programmeId": "santiago-scl-kantar",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-kantar-20261030-2100",
+      "date": "2026-10-30",
+      "time": "21:00",
+      "end": null,
+      "startAt": "2026-10-30T21:00:00-03:00"
+    },
+    {
+      "title": "Stay Groovy 2026",
+      "titleEn": "Stay Groovy 2026",
+      "venue": "Galería Trinidad",
+      "venueId": "santiago-venue-trinidad",
+      "placeId": "santiago-venue-trinidad",
+      "address": "Av. Libertador Bernardo O’Higgins 169, Santiago",
+      "category": "festival",
+      "lat": -33.4378877,
+      "lng": -70.6380715,
+      "coordinateSource": "https://rhymshot.evently.cl/Stay-Groovy-2026-31-10-2026",
+      "coordinatePrecision": "named venue/building approximate; not specific room entrance",
+      "coordinateEvidence": "Organizer exactnamed event venue and streetaddress map query_place_id ChIJ_8g-7pvFYpYRAzAl1_3-0Ok with coordinate. GoogleMapsJSshell was NOT independent verification. Approximate organizer venuepoint, not surveyed door.",
+      "coordinateCheckedAt": "2026-10-29T03:44:21.765699+00:00",
+      "source": "Organizer announcement / authorized ticket service",
+      "sourceUrl": "https://rhymshot.evently.cl/Stay-Groovy-2026-31-10-2026",
+      "additionalEvidenceUrls": [
+        "https://rhymshot.evently.cl/Stay-Groovy-2026-31-10-2026"
+      ],
+      "checkedAt": "2026-10-29T03:44:21.765699+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://rhymshot.evently.cl/Stay-Groovy-2026-31-10-2026"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 3000,
+      "min": true,
+      "priceNote": "From CLP3000; servicecharges unconfirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A hip-hop programme with freestyle battles, an international workshop, dance showcases and an art display.",
+      "admission": "Organizer-confirmed start 12:00. The 21:00 calendar end is not independently supported by programme prose and is not stored as an actual finish. Tickets from CLP3,000; mandatory fees are not confirmed.",
+      "programmeId": "santiago-scl-staygroovy",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-staygroovy-20261031-1200",
+      "date": "2026-10-31",
+      "time": "12:00",
+      "end": null,
+      "startAt": "2026-10-31T12:00:00-03:00"
+    },
+    {
+      "title": "Tiempo de sombreros, 1920–1960",
+      "titleEn": "Tiempo de sombreros, 1920–1960",
+      "venue": "Mercado Urbano Tobalaba — La Estación level -3",
+      "venueId": "santiago-venue-mut",
+      "placeId": "santiago-venue-mut",
+      "address": "Avenida Apoquindo 2730–2750, Las Condes, Santiago",
+      "category": "art",
+      "lat": -33.4174142,
+      "lng": -70.6009653,
+      "coordinateSource": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/clases-abiertas-de-ballet-primavera-en-mut-4853",
+      "coordinatePrecision": "approximate named agenda complex point, address-block corroborated",
+      "coordinateEvidence": "Named agenda venuepoint lies in the MUT block between Apoquindo,Encomenderos,Roger de Flor andElBosque, independently described by OHStgo. Different streetnumbers refer to complex entrances; not specific level-3 door.",
+      "coordinateCheckedAt": "2026-10-29T03:52:32.839821+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.mhn.gob.cl/cartelera/apertura-exposicion-tiempo-de-sombreros-1920-1960-coleccion-museo-historico-nacional",
+      "additionalEvidenceUrls": [
+        "https://www.jaranax.com/evento/region-metropolitana-de-santiago/clases-abiertas-de-ballet-primavera-en-mut-4853",
+        "https://disfrutasantiago.cl/events/exposicion-tiempo-de-sombreros-las-condes/",
+        "https://ohstgo.cl/espacios/2024-mut/"
+      ],
+      "checkedAt": "2026-10-29T03:43:54.991685+00:00",
+      "yearEvidence": {
+        "year": 2026,
+        "kind": "Full primary programme body and explicitly dated programme season",
+        "url": "https://www.mhn.gob.cl/cartelera/apertura-exposicion-tiempo-de-sombreros-1920-1960-coleccion-museo-historico-nacional"
+      },
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "price": 0,
+      "min": false,
+      "priceNote": "Free according to regional tourism fullprogramme.",
+      "mandatoryFees": null,
+      "feeStatus": "Not confirmed unless explicitly free",
+      "language": null,
+      "status": "scheduled",
+      "description": "A temporary display of women’s hats from the Museo Histórico Nacional collection. One programme interval; visiting hours are not separate daily performances.",
+      "admission": "La Estación, level −3, MUT in Las Condes. Public exhibition. The 08:00–22:00 calendar block may refer to opening day; daily visiting hours remain unconfirmed.",
+      "programmeId": "santiago-scl-sombreros",
+      "endEvidence": "No actual end inferred from duration or calendar-only event block.",
+      "correctionHistory": [],
+      "id": "santiago-scl-sombreros-range",
+      "date": "2026-10-03",
+      "time": null,
+      "end": null,
+      "endDate": "2026-11-29",
+      "dateType": "published_interval",
+      "openingHoursKnown": false,
+      "openingHoursUnknown": true,
+      "openingHoursSource": "https://www.mhn.gob.cl/cartelera/apertura-exposicion-tiempo-de-sombreros-1920-1960-coleccion-museo-historico-nacional"
+    }
+  ],
+  "places": [
+    {
+      "id": "santiago-venue-gam",
+      "title": "Centro Gabriela Mistral",
+      "address": "Av. Libertador Bernardo O’Higgins 227, Santiago",
+      "lat": -33.4392484,
+      "lng": -70.6397805,
+      "coordinateSource": "https://gam.cl/es/experiencia/como-llegar/",
+      "coordinatePrecision": "named venue building complex marker, not specific auditorium entrance",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:39:56.423340+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/la-veta/",
+      "checkedAt": "2026-10-29T03:44:24.670537+00:00",
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "category": "city",
+      "openingNote": "Named programme venue; consult each programme for opening windows and admission."
+    },
+    {
+      "id": "santiago-venue-mnba",
+      "title": "Museo Nacional de Bellas Artes",
+      "address": "José Miguel de la Barra 650, Santiago",
+      "lat": -33.4353128,
+      "lng": -70.6430315,
+      "coordinateSource": "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje",
+      "coordinatePrecision": "own-linked exact street-address entity at museum building, not surveyed door",
+      "coordinateEvidence": "Own primary full page links exact named entity map coordinate, corroborated by own Waze coordinate for GAM. Selected entity coordinate, NOT viewport @ or initial map center. MNBA address marker matches own stated650 museum address.",
+      "coordinateCheckedAt": "2026-10-29T03:44:01.355758+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje",
+      "checkedAt": "2026-10-29T03:44:01.355758+00:00",
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "category": "city",
+      "openingNote": "Named programme venue; consult each programme for opening windows and admission."
+    },
+    {
+      "id": "santiago-venue-casa",
+      "title": "Casa Museo Eduardo Frei Montalva",
+      "address": "Hindenburg 683, Providencia, Santiago",
+      "lat": -33.44389053,
+      "lng": -70.62236322,
+      "coordinateSource": "https://www.openstreetmap.org/api/0.6/way/587531988/full",
+      "coordinatePrecision": "named venue/building approximate; not specific room entrance",
+      "coordinateEvidence": "Independent named OSM museum building way587531988; tags name/address683Hindenburg match own contact. Mean building boundary, not own embed viewport.",
+      "coordinateCheckedAt": "2026-10-29T03:46:41.219163+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.casamuseoeduardofrei.cl/casa-museo-efm-presenta-muestra-fotografica-fragmentos-de-una-memoria-que-todavia-nos-pertenece/",
+      "checkedAt": "2026-10-29T03:46:40.674783+00:00",
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "category": "city",
+      "openingNote": "Named programme venue; consult each programme for opening windows and admission."
+    },
+    {
+      "id": "santiago-venue-liguria",
+      "title": "Bar Liguria — Lastarria",
+      "address": "Merced 298, Santiago Centro",
+      "lat": -33.4372168,
+      "lng": -70.6408512,
+      "coordinateSource": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/lanzamiento-de-libro-kantar-jorge-campos-6331",
+      "coordinatePrecision": "approximate named agenda venuepoint, address-corroborated, not surveyed entrance",
+      "coordinateEvidence": "Named agenda venuepoint paired with Merced298 in the Lastarria neighborhood, distinct from citycentre. Same specificaddress independently confirmed by organizerPortaldisc and districtassociationBarri oLastarria. GoogleMapsJSshell not verification.",
+      "coordinateCheckedAt": "2026-10-29T03:39:11.494335+00:00",
+      "source": "Organizer announcement / authorized ticket service",
+      "sourceUrl": "https://portaldisc.com/evento/kantarjorgecampos",
+      "checkedAt": "2026-10-29T03:44:18.668557+00:00",
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "category": "city",
+      "openingNote": "Named programme venue; consult each programme for opening windows and admission."
+    },
+    {
+      "id": "santiago-venue-trinidad",
+      "title": "Galería Trinidad",
+      "address": "Av. Libertador Bernardo O’Higgins 169, Santiago",
+      "lat": -33.4378877,
+      "lng": -70.6380715,
+      "coordinateSource": "https://rhymshot.evently.cl/Stay-Groovy-2026-31-10-2026",
+      "coordinatePrecision": "named venue/building approximate; not specific room entrance",
+      "coordinateEvidence": "Organizer exactnamed event venue and streetaddress map query_place_id ChIJ_8g-7pvFYpYRAzAl1_3-0Ok with coordinate. GoogleMapsJSshell was NOT independent verification. Approximate organizer venuepoint, not surveyed door.",
+      "coordinateCheckedAt": "2026-10-29T03:44:21.765699+00:00",
+      "source": "Organizer announcement / authorized ticket service",
+      "sourceUrl": "https://rhymshot.evently.cl/Stay-Groovy-2026-31-10-2026",
+      "checkedAt": "2026-10-29T03:44:21.765699+00:00",
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "category": "city",
+      "openingNote": "Named programme venue; consult each programme for opening windows and admission."
+    },
+    {
+      "id": "santiago-venue-mut",
+      "title": "Mercado Urbano Tobalaba — La Estación level -3",
+      "address": "Avenida Apoquindo 2730–2750, Las Condes, Santiago",
+      "lat": -33.4174142,
+      "lng": -70.6009653,
+      "coordinateSource": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/clases-abiertas-de-ballet-primavera-en-mut-4853",
+      "coordinatePrecision": "approximate named agenda complex point, address-block corroborated",
+      "coordinateEvidence": "Named agenda venuepoint lies in the MUT block between Apoquindo,Encomenderos,Roger de Flor andElBosque, independently described by OHStgo. Different streetnumbers refer to complex entrances; not specific level-3 door.",
+      "coordinateCheckedAt": "2026-10-29T03:52:32.839821+00:00",
+      "source": "Official venue / organizer programme",
+      "sourceUrl": "https://www.mhn.gob.cl/cartelera/apertura-exposicion-tiempo-de-sombreros-1920-1960-coleccion-museo-historico-nacional",
+      "checkedAt": "2026-10-29T03:43:54.991685+00:00",
+      "currency": "CLP",
+      "timezone": "America/Santiago",
+      "category": "city",
+      "openingNote": "Named programme venue; consult each programme for opening windows and admission."
+    }
+  ],
+  "sources": [
+    {
+      "id": "santiago-source-40361a72ac372b",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:37:06.934444+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-080fd24ce3fc1f",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/eventos/region-metropolitana-de-santiago/arte-y-cultura-octubre-2026",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:37:14.992777+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-089adda23b0065",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/eventos/region-metropolitana-de-santiago/teatro-noviembre-2026",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:37:22.824442+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-1fed371a2aedbb",
+      "name": "Santiago source",
+      "url": "https://gam.cl/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:37:28.142354+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-916cb6be49d1f9",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/exposicion-tiempo-de-sombreros-las-condes/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:38:40.613544+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-e6a55eab134dc6",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/te-creo-paisaje-enrique-ramirez-mnba/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:38:47.631759+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-b63fce355e4cb6",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/casa-museo-efm-presenta-muestra-fotografica-fragmentos-de-una-memoria-que-todavia-nos-pertenece/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:38:52.755132+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-bc85bc5c0bf6ae",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/bio-la-ultima-funcion-penalolen/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:38:56.403779+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-01e10be13ce272",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/dona-rosita-anotada-gam/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:38:59.934920+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-2ca890732c79de",
+      "name": "Santiago source",
+      "url": "https://disfrutasantiago.cl/events/festival-del-dia-de-los-muertos-llega-al-persa-victor-manuel/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:39:03.694444+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-008d31487e6a25",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/3seminario-patrimonio-en-llamas-6546",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:39:07.919954+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-3dfb5ff829fffc",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/lanzamiento-de-libro-kantar-jorge-campos-6331",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:39:11.494335+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-3f13c34045882e",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/stay-groovy-2026-2709",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:39:14.670613+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-dfc9933a0803bf",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/el-sol-nuestra-estrella-viviente-353",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:39:17.347789+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-050ca867e2ee10",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/mas-que-un-verso-canto-guitarra-piano-y-poesia-2806",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:39:20.554901+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-4bfa129286bbcc",
+      "name": "Santiago source",
+      "url": "https://gam.cl/calendario/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:39:23.554551+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-50d15bccdc132d",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:39:42.773365+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-ef044e1dea4489",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:39:52.003026+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-fe70979e6f5b49",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/experiencia/como-llegar/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:39:56.423340+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-8b11ff745b4663",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/encore-ensemble-coreografico-de-chile-desde-mi-4774",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:43:30.108068+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-ce4ca7b43672cb",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/hombres-daga-1993",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:43:33.714419+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-16c44ebeb46485",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/retrospectiva-tryo-teatro-banda-pedro-de-valdivia-737",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:43:38.569181+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-27ed405d0b7928",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/freire-la-epopeya-de-las-provincias-2302",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:43:41.493435+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-17398ab9c43be3",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/solo-nos-queda-cantar-3052",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:43:46.184728+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-865d4f4c716b1f",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/yeguas-sueltas-cia-teatro-sur-6283",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:43:49.179754+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-4f9b8525183533",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/retrospectiva-tryo-teatro-banda-carrera-813",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:43:51.809776+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-96d1f5b2d75fda",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/la-muerte-del-padre-919",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:43:54.497424+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-f6090781aab54c",
+      "name": "Santiago source",
+      "url": "https://www.mhn.gob.cl/cartelera/apertura-exposicion-tiempo-de-sombreros-1920-1960-coleccion-museo-historico-nacional",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:43:54.991685+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-ddc9b12a00a92c",
+      "name": "Santiago source",
+      "url": "https://www.mnba.gob.cl/cartelera/enrique-ramirez-te-creo-paisaje",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:01.355758+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-3f19f11c5ecb8f",
+      "name": "Santiago source",
+      "url": "https://teatrocamino.cl",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:44:05.695281+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 406"
+    },
+    {
+      "id": "santiago-source-505b84b57c6f96",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/dona-rosita-anotada/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:09.787099+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-3bddf979664fde",
+      "name": "Santiago source",
+      "url": "https://welcu.com/comtec/3seminario-patrimonio-en-llamas",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:44:15.672678+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-5880aa3e065735",
+      "name": "Santiago source",
+      "url": "https://portaldisc.com/evento/kantarjorgecampos",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:18.668557+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-c5fa705bbeadaa",
+      "name": "Santiago source",
+      "url": "https://rhymshot.evently.cl/Stay-Groovy-2026-31-10-2026",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:21.765699+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-d4e1c9c9e39999",
+      "name": "Santiago source",
+      "url": "https://ticketplus.cl/events/el-sol-nuestra-estrella-viviente-the-sun-our-living-star",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:44:26.642636+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-e5e42075a7f9d3",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/la-veta/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:24.670537+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-fab402dc8db46e",
+      "name": "Santiago source",
+      "url": "https://portaldisc.com/evento/masqueunverso2",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:30.874026+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-eaf150b07f5eed",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/del-leon-a-la-bestia-100-anos-de-animacion-en-chile/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:32.231545+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-86d839a620ef49",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/exposicion-salvataje/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:42.082540+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-9d0b70312dd0ec",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/subrealistas/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:45.249593+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-cbb1092741a47f",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/mundo-pepo/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:48.435065+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-df8328946bf50d",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/exposicion-el-valle-de-los-moomin/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:51.801740+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-f6e3e98095dc27",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/los-dias-felices/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:55.946277+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-9f5210737ad43b",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/tardes-de-plaza-carro-nomade/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:59.081455+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-b78b1d35abed7d",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/quiero-ser-una-chica-almodovar/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:45:02.351585+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-b8727c91e6b128",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/viaje-al-corazon-de-la-madre-tierra/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:45:07.455744+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-e9ffda61451a0f",
+      "name": "Santiago source",
+      "url": "https://www.casamuseoeduardofrei.cl/contacto/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:45:08.434441+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-f717afa2ab06a5",
+      "name": "Santiago source",
+      "url": "https://gam.cl/es/que-hacer-en-gam/teatro/la-muerte-del-padre/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:45:12.149425+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-977d543f321edc",
+      "name": "Santiago source",
+      "url": "https://www.casamuseoeduardofrei.cl/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:45:15.031319+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-abc521c9d84297",
+      "name": "Santiago source",
+      "url": "https://www.santiagoturismo.cl/es/sala-antonio-varas-teatro-nacional-chileno/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:45:19.226566+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-06f639ddcc26bb",
+      "name": "Santiago source",
+      "url": "https://www.uc.cl/agenda/actividad/conoce-el-teatro-uc",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:45:25.038398+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-844596507595ca",
+      "name": "Santiago source",
+      "url": "https://teatrouc.uc.cl/evento/freire-la-epopeya-de-las-provincias/",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:45:26.620564+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-0628f08feb1df4",
+      "name": "Santiago source",
+      "url": "https://tnch.uchile.cl/",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:45:32.453576+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-d9d6cc96cbe99c",
+      "name": "Santiago source",
+      "url": "https://www.casamuseoeduardofrei.cl/conversatorio-gratuito-y-abierto-de-adulto-mayores/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:46:28.053719+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-e88c45e9320642",
+      "name": "Santiago source",
+      "url": "https://www.casamuseoeduardofrei.cl/casa-museo-efm-presenta-muestra-fotografica-fragmentos-de-una-memoria-que-todavia-nos-pertenece/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:46:40.674783+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-b93f494471329f",
+      "name": "Santiago source",
+      "url": "https://www.openstreetmap.org/api/0.6/way/587531988/full",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:46:41.219163+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-6a6513e93fce49",
+      "name": "Santiago source",
+      "url": "https://mut.cl/es/",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:46:46.714385+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-123254d0da7230",
+      "name": "Santiago source",
+      "url": "https://barriolastarria.cl/socios/bar-liguria/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:46:49.511650+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-d49469fca48094",
+      "name": "Santiago source",
+      "url": "https://www.google.com/maps/search/?api=1&query=Bar+Liguria+-+Lastarria,+Merced+298,+Santiago+Centro",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:48:02.174767+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-d38f2fdd7852a3",
+      "name": "Santiago source",
+      "url": "https://www.google.com/maps/search/?api=1&query=-33.4378877,-70.6380715&query_place_id=ChIJ_8g-7pvFYpYRAzAl1_3-0Ok",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:48:09.208032+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-8cf2bba5be7b5a",
+      "name": "Santiago source",
+      "url": "https://ohstgo.cl/espacios/2024-mut/",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:48:13.154109+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-e2aeed3eb5a6eb",
+      "name": "Santiago source",
+      "url": "https://www.liguria.cl/locales/",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:48:55.848813+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-f5cf6c529aaa10",
+      "name": "Santiago source",
+      "url": "https://roavina.com/pt/chile/santiago/mercado-urbano-tobalaba",
+      "status": "blocked_or_unread",
+      "checkedAt": "2026-10-29T03:49:00.928383+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 403"
+    },
+    {
+      "id": "santiago-source-6f7473fcff15a9",
+      "name": "Santiago source",
+      "url": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/clases-abiertas-de-ballet-primavera-en-mut-4853",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:52:32.839821+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    },
+    {
+      "id": "santiago-source-46df39bb7bef14",
+      "name": "Santiago source",
+      "url": "https://www.mnba.gob.cl/planifica-tu-visita",
+      "status": "read_full_source",
+      "checkedAt": "2026-10-29T03:44:56.841053+00:00",
+      "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
+    }
+  ],
+  "pending": [
+    {
+      "id": "scl-held-bio",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://disfrutasantiago.cl/events/bio-la-ultima-funcion-penalolen/",
+      "checkedAt": "2026-10-29T03:38:56.403779+00:00",
+      "reason": "Exactperformance start unresolved; ownTeatroCamino406stopped."
+    },
+    {
+      "id": "scl-held-muertos",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://disfrutasantiago.cl/events/festival-del-dia-de-los-muertos-llega-al-persa-victor-manuel/",
+      "checkedAt": "2026-10-29T03:39:03.694444+00:00",
+      "reason": "Precisevenueaddress,pin and actualprogrammehours unverified; regionalfooter is tourismoffice notvenue."
+    },
+    {
+      "id": "scl-held-ballet",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/clases-abiertas-de-ballet-primavera-en-mut-4853",
+      "checkedAt": "2026-10-29T03:52:32.839821+00:00",
+      "reason": "Welcuprimary403;09:00isaccreditation,not10:00class;no fabricatedtheatreseance."
+    },
+    {
+      "id": "scl-held-poesia",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://portaldisc.com/evento/masqueunverso2",
+      "checkedAt": "2026-10-29T03:44:30.874026+00:00",
+      "reason": "Primarybody conflictingoldApril25Casonaaddress versusOct31JuntaVecinos; holduntilresolved."
+    },
+    {
+      "id": "scl-held-seminario",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/3seminario-patrimonio-en-llamas-6546",
+      "checkedAt": "2026-10-29T03:39:07.919954+00:00",
+      "reason": "AuthorizedWelcu403;completeprimarycontent/accessnotread."
+    },
+    {
+      "id": "scl-held-planetario",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/el-sol-nuestra-estrella-viviente-353",
+      "checkedAt": "2026-10-29T03:39:17.347789+00:00",
+      "reason": "TicketPlus403; distinctplanetariolocation notindependentlychecked."
+    },
+    {
+      "id": "scl-held-encore",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/encore-ensemble-coreografico-de-chile-desde-mi-4774",
+      "checkedAt": "2026-10-29T03:43:30.108068+00:00",
+      "reason": "Calendar17:55 conflictswithbody90minduration;primaryblocked;pricesnotfullyverified."
+    },
+    {
+      "id": "scl-held-hombres",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/hombres-daga-1993",
+      "checkedAt": "2026-10-29T03:43:33.714419+00:00",
+      "reason": "Primaryblocked,currentfullprogrammeschedule/accessnotchecked."
+    },
+    {
+      "id": "scl-held-valdivia",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/retrospectiva-tryo-teatro-banda-pedro-de-valdivia-737",
+      "checkedAt": "2026-10-29T03:43:38.569181+00:00",
+      "reason": "Ticketprimaryblocked; noaliasbypass;selectedafishafullretained."
+    },
+    {
+      "id": "scl-held-carrera",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/retrospectiva-tryo-teatro-banda-carrera-813",
+      "checkedAt": "2026-10-29T03:43:51.809776+00:00",
+      "reason": "Title/sourcelink mismatch;primaryblocked."
+    },
+    {
+      "id": "scl-held-freire",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/freire-la-epopeya-de-las-provincias-2302",
+      "checkedAt": "2026-10-29T03:43:41.493435+00:00",
+      "reason": "Ownfullweb predenial confirms20:00Nov4–7 but ticketURL20:30;sourcepin/fees unresolved; hold."
+    },
+    {
+      "id": "scl-held-solo",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/solo-nos-queda-cantar-3052",
+      "checkedAt": "2026-10-29T03:43:46.184728+00:00",
+      "reason": "Primaryblocked;partialdatesnotexpanded."
+    },
+    {
+      "id": "scl-held-yeguas",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/yeguas-sueltas-cia-teatro-sur-6283",
+      "checkedAt": "2026-10-29T03:43:49.179754+00:00",
+      "reason": "Primaryblocked;selectedafishabody only."
+    },
+    {
+      "id": "scl-held-muerte-old",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://www.jaranax.com/evento/region-metropolitana-de-santiago/la-muerte-del-padre-919",
+      "checkedAt": "2026-10-29T03:43:54.497424+00:00",
+      "reason": "AfishaNov26 versuscurrentGAMNov27;ownNov27retained,Nov26held."
+    },
+    {
+      "id": "scl-held-moomin",
+      "status": "held_for_recheck",
+      "sourceUrl": "https://gam.cl/es/que-hacer-en-gam/artesvisuales/exposicion-el-valle-de-los-moomin/",
+      "checkedAt": "2026-10-29T03:44:51.801740+00:00",
+      "reason": "Dec23startoutside30daywindow."
+    },
+    {
+      "id": "scl-block-3f19f11c",
+      "status": "blocked",
+      "sourceUrl": "https://teatrocamino.cl",
+      "checkedAt": "2026-10-29T03:44:05.695281+00:00",
+      "reason": "Actualaccessdenial; hoststopped; noalternatetransport/aliasretry."
+    },
+    {
+      "id": "scl-block-3bddf979",
+      "status": "blocked",
+      "sourceUrl": "https://welcu.com/comtec/3seminario-patrimonio-en-llamas",
+      "checkedAt": "2026-10-29T03:44:15.672678+00:00",
+      "reason": "Actualaccessdenial; hoststopped; noalternatetransport/aliasretry."
+    },
+    {
+      "id": "scl-block-d4e1c9c9",
+      "status": "blocked",
+      "sourceUrl": "https://ticketplus.cl/events/el-sol-nuestra-estrella-viviente-the-sun-our-living-star",
+      "checkedAt": "2026-10-29T03:44:26.642636+00:00",
+      "reason": "Actualaccessdenial; hoststopped; noalternatetransport/aliasretry."
+    },
+    {
+      "id": "scl-block-84459650",
+      "status": "blocked",
+      "sourceUrl": "https://teatrouc.uc.cl/evento/freire-la-epopeya-de-las-provincias/",
+      "checkedAt": "2026-10-29T03:45:26.620564+00:00",
+      "reason": "Actualaccessdenial; hoststopped; noalternatetransport/aliasretry."
+    },
+    {
+      "id": "scl-block-0628f08f",
+      "status": "blocked",
+      "sourceUrl": "https://tnch.uchile.cl/",
+      "checkedAt": "2026-10-29T03:45:32.453576+00:00",
+      "reason": "Actualaccessdenial; hoststopped; noalternatetransport/aliasretry."
+    },
+    {
+      "id": "scl-block-6a6513e9",
+      "status": "blocked",
+      "sourceUrl": "https://mut.cl/es/",
+      "checkedAt": "2026-10-29T03:46:46.714385+00:00",
+      "reason": "Actualaccessdenial; hoststopped; noalternatetransport/aliasretry."
+    },
+    {
+      "id": "scl-block-e2aeed3e",
+      "status": "blocked",
+      "sourceUrl": "https://www.liguria.cl/locales/",
+      "checkedAt": "2026-10-29T03:48:55.848813+00:00",
+      "reason": "Actualaccessdenial; hoststopped; noalternatetransport/aliasretry."
+    },
+    {
+      "id": "scl-block-f5cf6c52",
+      "status": "blocked",
+      "sourceUrl": "https://roavina.com/pt/chile/santiago/mercado-urbano-tobalaba",
+      "checkedAt": "2026-10-29T03:49:00.928383+00:00",
+      "reason": "Actualaccessdenial; hoststopped; noalternatetransport/aliasretry."
+    }
+  ],
+  "counts": {
+    "programmes": 19,
+    "sessions": 36,
+    "ranges": 8,
+    "places": 6,
+    "sourceAuditRows": 65,
+    "held": 23,
+    "records": 44
+  },
+  "matrix": [
+    {
+      "date": "2026-10-29",
+      "timedSessions": 1,
+      "rangeVisitingProgrammes": 4,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "timedSessions": 4,
+      "rangeVisitingProgrammes": 4,
+      "categories": [
+        "art",
+        "literature",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "timedSessions": 3,
+      "rangeVisitingProgrammes": 4,
+      "categories": [
+        "art",
+        "festival",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "timedSessions": 3,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 0,
+      "categories": []
+    },
+    {
+      "date": "2026-11-03",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "timedSessions": 2,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "timedSessions": 2,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "timedSessions": 3,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "talk",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "timedSessions": 3,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 0,
+      "categories": []
+    },
+    {
+      "date": "2026-11-10",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "timedSessions": 2,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "timedSessions": 2,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "timedSessions": 2,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "timedSessions": 2,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 0,
+      "categories": []
+    },
+    {
+      "date": "2026-11-17",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "timedSessions": 1,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "timedSessions": 1,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "timedSessions": 2,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "timedSessions": 2,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 0,
+      "categories": []
+    },
+    {
+      "date": "2026-11-24",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 3,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 4,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "timedSessions": 0,
+      "rangeVisitingProgrammes": 4,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "timedSessions": 1,
+      "rangeVisitingProgrammes": 4,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    }
+  ]
+}

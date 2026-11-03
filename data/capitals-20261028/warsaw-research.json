@@ -1,0 +1,1251 @@
+{
+  "audit": {
+    "checkedAt": "2026-10-28T03:58:54.966288+00:00",
+    "city": "Warsaw",
+    "status": "preparation_not_published",
+    "horizon": [
+      "2026-10-28",
+      "2026-11-26"
+    ],
+    "sources": [
+      {
+        "url": "https://pik.warszawa.pl/",
+        "status": "read",
+        "scope": "music/theatre pages1–3;exhibitions pages1–4;meeting page1;selecteddetails",
+        "limitations": "Theatrepage3 Marchsnapshot;musicpage3 overlaps2;exhibitionpages2–4 dominatedpastMay/spring;fullpagination NOTcompleted."
+      },
+      {
+        "url": "https://kulturalnie.waw.pl/kalendarz/2026/10/28/",
+        "status": "partial",
+        "scope": "28–31Oct heads/details;not full1019line listings",
+        "limitations": "Nov1–3URLs inaccessible;duplicateCiechowskicards;linked officialCiechowskiURLwrongprogramme"
+      },
+      {
+        "url": "https://warszawa19115.pl/szukasz-informacji/kultura-turystyka-sport/wydarzenia-kulturalne",
+        "status": "partial",
+        "scope": "page1;pages2–4cachemiss"
+      },
+      {
+        "url": "https://go2warsaw.pl/en/events/",
+        "status": "unavailable_timeout"
+      },
+      {
+        "url": "https://terminalkultury.pl/",
+        "status": "read",
+        "scope": "Homepage plus 7 forthcoming detail pages read; month agenda October partial; November breadth still incomplete"
+      },
+      {
+        "url": "https://www.zpaf.pl/",
+        "status": "read",
+        "scope": "Fullhome and AKAMA/Topniejaca details, exactgallerycorrected; no imagecopies"
+      }
+    ],
+    "holds": [
+      {
+        "title": "Obiecuję obiecuję ci",
+        "reason": "index29Oct2026 vsdetail30July2026",
+        "url": "https://pik.warszawa.pl/teatr/obiecuje-obiecuje-ci-bajka-spektakl-warszawa/"
+      },
+      {
+        "title": "Orfeusz",
+        "reason": "index31Oct17:00 vsdetail14Feb19:00",
+        "url": "https://pik.warszawa.pl/teatr/orfeusz-spektakl-warszawa/"
+      },
+      {
+        "title": "Ciechowski.Wlustrze",
+        "reason": "Two semanticduplicatecards, linkedprimarywrongprogrammeGrupaMoCartaOct23. Ticket650578needsverification",
+        "url": "https://kulturalnie.waw.pl/wydarzenia/ciechowski-w-lustrze-spektakl-muzyczny/"
+      },
+      {
+        "title": "Pod Dachami Paryża",
+        "reason": "Warsawindex contains Wrocław title;not imported"
+      },
+      {
+        "title": "Czapski lecture5Nov",
+        "reason": "Officialdate5Nov2026 isThursday buttextWednesday;detailunreadable,hold"
+      }
+    ],
+    "telegram": [
+      {
+        "url": "https://t.me/s/afishawawa",
+        "status": "partial_public_posts_read",
+        "scope": "first153/266lines; October dates lack reliable year; no imports"
+      },
+      {
+        "url": "https://t.me/s/tandemwarsawinternational",
+        "status": "read_archival",
+        "scope": "144lines, Feb12 2026 past; no confirmed future"
+      },
+      {
+        "url": "https://t.me/s/varshava_afisha",
+        "status": "unavailable"
+      },
+      {
+        "url": "https://t.me/s/warsawafisha",
+        "status": "unavailable"
+      },
+      {
+        "url": "https://t.me/joinchat/AAAAAExB8afULFrmFtYWCw",
+        "status": "public_profile_only",
+        "scope": "The Warsaw chat, no messages read/no join"
+      },
+      {
+        "url": "https://t.me/warsawinternational",
+        "status": "unavailable"
+      }
+    ],
+    "social": "IG/Threads not checked",
+    "counts": {
+      "candidateRows": 36,
+      "withCoordinateSource": 35,
+      "statuses": {
+        "candidate_time_resolution_secondary_only": 1,
+        "candidate_checked_pending_integration": 33,
+        "held_start_unknown_sold_out": 1,
+        "held_for_recheck": 1
+      }
+    },
+    "notes": "Research only, not published. Candidate counts do not equal ready import. Broad agenda partial; full 30-day coverage not achieved. Dates from local timezoneEurope/Warsaw; DST already switchedUTC+1. IG/Threads not checked.",
+    "sevenLocalDates": [
+      {
+        "localDate": "2026-10-28",
+        "scheduledSessions": 4,
+        "rangeProgrammesKnownVisitingHours": 1,
+        "rangeProgrammesUnknownHours": 0,
+        "sessionIDs": [
+          "warsaw-hvmble-20261028",
+          "warsaw-lunch-organ-20261028",
+          "warsaw-croatian-evening-20261028",
+          "warsaw-shataqs-20261028"
+        ],
+        "rangeIDs": [
+          "warsaw-museum-90-90"
+        ],
+        "unknownHoursIDs": []
+      },
+      {
+        "localDate": "2026-10-29",
+        "scheduledSessions": 6,
+        "rangeProgrammesKnownVisitingHours": 3,
+        "rangeProgrammesUnknownHours": 1,
+        "sessionIDs": [
+          "warsaw-fado-20261029",
+          "warsaw-temat-rzeka-20261029-1800",
+          "warsaw-temat-rzeka-20261029-2000",
+          "warsaw-shataqs-20261029",
+          "warsaw-topniejaca-opening-20261029",
+          "warsaw-akama-opening-20261029"
+        ],
+        "rangeIDs": [
+          "warsaw-akama-20261029",
+          "warsaw-museum-90-90",
+          "warsaw-wieloznaczna-20261029"
+        ],
+        "unknownHoursIDs": [
+          "warsaw-topniejaca-20261029"
+        ]
+      },
+      {
+        "localDate": "2026-10-30",
+        "scheduledSessions": 2,
+        "rangeProgrammesKnownVisitingHours": 3,
+        "rangeProgrammesUnknownHours": 1,
+        "sessionIDs": [
+          "warsaw-charakteryzacja-20261030",
+          "warsaw-nosferatu-live-20261030"
+        ],
+        "rangeIDs": [
+          "warsaw-akama-20261029",
+          "warsaw-museum-90-90",
+          "warsaw-wieloznaczna-20261029"
+        ],
+        "unknownHoursIDs": [
+          "warsaw-topniejaca-20261029"
+        ]
+      },
+      {
+        "localDate": "2026-10-31",
+        "scheduledSessions": 2,
+        "rangeProgrammesKnownVisitingHours": 3,
+        "rangeProgrammesUnknownHours": 1,
+        "sessionIDs": [
+          "warsaw-slavic-halloween-20261031",
+          "warsaw-bocianem-20261031"
+        ],
+        "rangeIDs": [
+          "warsaw-akama-20261029",
+          "warsaw-museum-90-90",
+          "warsaw-wieloznaczna-20261029"
+        ],
+        "unknownHoursIDs": [
+          "warsaw-topniejaca-20261029"
+        ]
+      },
+      {
+        "localDate": "2026-11-01",
+        "scheduledSessions": 1,
+        "rangeProgrammesKnownVisitingHours": 1,
+        "rangeProgrammesUnknownHours": 1,
+        "sessionIDs": [
+          "warsaw-urbaniak-tribute-20261101"
+        ],
+        "rangeIDs": [
+          "warsaw-akama-20261029"
+        ],
+        "unknownHoursIDs": [
+          "warsaw-topniejaca-20261029"
+        ]
+      },
+      {
+        "localDate": "2026-11-02",
+        "scheduledSessions": 1,
+        "rangeProgrammesKnownVisitingHours": 0,
+        "rangeProgrammesUnknownHours": 1,
+        "sessionIDs": [
+          "warsaw-zakopower-20261102"
+        ],
+        "rangeIDs": [],
+        "unknownHoursIDs": [
+          "warsaw-topniejaca-20261029"
+        ]
+      },
+      {
+        "localDate": "2026-11-03",
+        "scheduledSessions": 2,
+        "rangeProgrammesKnownVisitingHours": 3,
+        "rangeProgrammesUnknownHours": 1,
+        "sessionIDs": [
+          "warsaw-maw-20261103",
+          "warsaw-jablko-mars-20261103"
+        ],
+        "rangeIDs": [
+          "warsaw-akama-20261029",
+          "warsaw-museum-90-90",
+          "warsaw-wieloznaczna-20261029"
+        ],
+        "unknownHoursIDs": [
+          "warsaw-topniejaca-20261029"
+        ]
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "id": "warsaw-hvmble-20261028",
+      "title": "hvmble. — uncontained_",
+      "localDate": "2026-10-28",
+      "localTime": "20:30",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Klub SPATiF",
+      "address": "al. Ujazdowskie 45, Warszawa",
+      "sourceUrl": "https://pik.warszawa.pl/muzyka/hvmble-koncert-warszawa/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 65.99,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "concert",
+      "coordinates": {
+        "lat": 52.2267949,
+        "lon": 21.023077,
+        "sourceUrl": "https://pl.near-place.com/klub-spatif-aleje-ujazdowskie-45-warszawa",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_time_resolution_secondary_only",
+      "yearEvidence": "Full dated event detail or official programme explicitly names 2026",
+      "priceQualifier": "from; fees not independently checked",
+      "notes": "Free jam session afterwards; its time not announced, not separate session.",
+      "doorsTime": "20:00",
+      "timeEvidence": {
+        "url": "https://www.loudspot.pl/wydarzenia/hvmble-warszawa-2026/",
+        "fullBody": "explicit doors20:00/start20:30; PIK20:00 corrected as doors; primaryGoing JavaScript shell",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      }
+    },
+    {
+      "id": "warsaw-fado-20261029",
+      "title": "Marta Pereira da Costa & Friends — Gala Fado",
+      "localDate": "2026-10-29",
+      "localTime": "19:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Scena Relax",
+      "address": "ul. Złota 8, Warszawa",
+      "sourceUrl": "https://pik.warszawa.pl/muzyka/marta-pereira-da-costa-koncert-warszawa/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 188.67,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "concert",
+      "coordinates": {
+        "lat": 52.23313,
+        "lon": 21.01103,
+        "sourceUrl": "https://mapcarta.com/W463022488",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full dated event detail or official programme explicitly names 2026",
+      "priceQualifier": "from; fees unknown"
+    },
+    {
+      "id": "warsaw-kaz-balagane-20261030",
+      "title": "Kaz Bałagane",
+      "localDate": "2026-10-30",
+      "localTime": null,
+      "timeZone": "Europe/Warsaw",
+      "venue": "Klub Stodoła",
+      "address": "ul. Batorego 10, Warszawa",
+      "sourceUrl": "https://www.stodola.pl/koncerty/kaz-balagane-fish-tits-warszawa-137113.html",
+      "checkedAt": "2026-10-28T03:56:49.768578+00:00",
+      "price": null,
+      "currency": null,
+      "mandatoryFees": null,
+      "category": "concert",
+      "coordinates": {
+        "lat": 52.2116,
+        "lon": 21.010186,
+        "sourceUrl": "https://www.kupbilecik.pl/pl/place/784/klub-stodola",
+        "accuracy": "venue approximate; exact address matched official",
+        "checkedAt": "2026-10-28T03:56:49.768578+00:00"
+      },
+      "status": "held_start_unknown_sold_out",
+      "yearEvidence": "Official full30Oct2026;19:00 explicitly doors, no performance start",
+      "priceQualifier": "from; time may be admission, venue crosscheck pending",
+      "restrictions": "16+ with guardian consent; under16 accompanied by ticket-holding guardian",
+      "doorsTime": "19:00",
+      "soldOut": true,
+      "admission": "16+ with parental consent; official SOLD OUT"
+    },
+    {
+      "id": "warsaw-slavic-halloween-20261031",
+      "title": "Słowiańskie Halloween",
+      "localDate": "2026-10-31",
+      "localTime": "13:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Terminal Kultury Gocław",
+      "address": "ul. Jana Nowaka-Jeziorańskiego 24, Warszawa",
+      "sourceUrl": "https://terminalkultury.pl/wydarzenie/slowianskie-halloween/",
+      "checkedAt": "2026-10-28T03:55:55.521985+00:00",
+      "price": 11,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "family",
+      "coordinates": {
+        "lat": 52.2315624,
+        "lon": 21.0933124258032,
+        "sourceUrl": "https://www.kupbilecik.pl/pl/place/4196/terminal-kultury-goclaw",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official details2026-10-31",
+      "notes": "Dance/creative activities/shadow theatre, not a cinema session; fees unknown.",
+      "priceQualifier": "venue listed price; mandatory fees not specified",
+      "history": [
+        {
+          "previousPrice": 6,
+          "source": "https://pik.warszawa.pl/muzyka/halloween-w-terminal-kultury-goclaw/",
+          "resolution": "Primary venue explicit11PLN takes precedence",
+          "checkedAt": "2026-10-28T03:55:55.521985+00:00"
+        }
+      ]
+    },
+    {
+      "id": "warsaw-urbaniak-tribute-20261101",
+      "title": "Michał Urbaniak — zaduszki jazzowe (tribute)",
+      "localDate": "2026-11-01",
+      "localTime": "19:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "BARdzo Bardzo",
+      "address": "ul. Nowogrodzka 11, Warszawa",
+      "sourceUrl": "https://pik.warszawa.pl/muzyka/michal-urbaniak-koncert-warszawa/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 65.99,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "concert",
+      "coordinates": {
+        "lat": 52.2298,
+        "lon": 21.01767,
+        "sourceUrl": "https://www.kupbilecik.pl/pl/place/2538/bardzo-bardzo",
+        "accuracy": "building/address point, club interior/entrance not independently distinguished",
+        "checkedAt": "2026-10-28T04:01:10.502607+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full dated event detail or official programme explicitly names 2026",
+      "notes": "Tribute by Patrycja Zarychta and musicians, NOT a performance by Urbaniak."
+    },
+    {
+      "id": "warsaw-zakopower-20261102",
+      "title": "Zakopower xx Miuosh",
+      "localDate": "2026-11-02",
+      "localTime": "20:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Teatr Muzyczny Roma",
+      "address": "ul. Nowogrodzka 49, Warszawa",
+      "sourceUrl": "https://pik.warszawa.pl/muzyka/zakopower-koncert-warszawa/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 191.9,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "concert",
+      "coordinates": {
+        "lat": 52.22741,
+        "lon": 21.00781,
+        "sourceUrl": "https://mapcarta.com/N264588401",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full dated event detail or official programme explicitly names 2026"
+    },
+    {
+      "id": "warsaw-astor-20261103",
+      "title": "ASTOR — Krzysztof Meisinger / Cavatina Philharmonic Orchestra",
+      "localDate": "2026-11-03",
+      "localTime": "19:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Studio Koncertowe Polskiego Radia",
+      "address": "ul. Jacka Kaczmarskiego 59, Warszawa",
+      "sourceUrl": "https://pik.warszawa.pl/muzyka/krzysztof-meisinger-koncert-warszawa/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 105,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "concert",
+      "coordinates": null,
+      "status": "held_for_recheck",
+      "yearEvidence": "Full dated event detail or official programme explicitly names 2026",
+      "coordinateConflict": "KupBilecik52.175870/21.013900 ~1.3km from current Kaczmarskiego59; Woronicza17 address refers radio complex; exact studio entrance needs verification. Do not use ticket pin."
+    },
+    {
+      "id": "warsaw-lunch-organ-20261028",
+      "title": "Organowe Lunch Time Concerts — Michał Adamczyk",
+      "localDate": "2026-10-28",
+      "localTime": "12:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Kościół Świętej Trójcy",
+      "address": "plac Małachowskiego 1, Warszawa",
+      "sourceUrl": "https://www.trojca.waw.pl/aktualnosci/lunch-time-concerts-pazdziernik-2026/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 0,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "concert",
+      "coordinates": {
+        "lat": 52.23859,
+        "lon": 21.01147,
+        "sourceUrl": "https://mapcarta.com/W30064566",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full dated event detail or official programme explicitly names 2026",
+      "restrictions": "No admission after concert starts; lift available east risalit",
+      "mandatoryFeeEvidence": "Official free admission",
+      "notes": "Only28Oct future confirmed;7/14Oct explicitly cancelled,21Oct past. Do not extrapolate Wednesdays."
+    },
+    {
+      "id": "warsaw-croatian-evening-20261028",
+      "title": "Wieczór chorwacki",
+      "localDate": "2026-10-28",
+      "localTime": "18:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Bielański Ośrodek Kultury",
+      "address": "ul. Carla Goldoniego 1, Warszawa",
+      "sourceUrl": "https://bielanski.waw.pl/wieczor-chorwacki/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 50,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "meetup",
+      "coordinates": {
+        "lat": 52.285042,
+        "lon": 20.935786,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Bielany_Cultural_Centre_in_Warsaw",
+        "accuracy": "building approximation, local Commons object coordinate; not entrance",
+        "checkedAt": "2026-10-28T03:56:49.768578+00:00",
+        "corroboration": "https://sprawdzadres.pl/mazowieckie/warszawa/carla-goldoniego/1",
+        "conflictResolution": "Local object coordinate agreesGoldoniego1address52.2850,20.9356; conflictingWikidata20.9330444 discarded."
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "2026 full dated aggregator corroborates official28OctWednesday18:00; https://kulturalnie.waw.pl/wydarzenia/wieczor-chorwacki/",
+      "notes": "Duo Croatico concert, travel lecture, quiz, tasting; one programme."
+    },
+    {
+      "id": "warsaw-akama-20261029",
+      "title": "W świecie z dwoma księżycami śni się inaczej…",
+      "localDate": "2026-10-29",
+      "localTime": null,
+      "timeZone": "Europe/Warsaw",
+      "venue": "Galeria Obok ZPAF",
+      "address": "Plac Zamkowy 8, Warszawa",
+      "sourceUrl": "https://www.zpaf.pl/aktualnosci/gt-Akama-GO-zpaf/",
+      "checkedAt": "2026-10-28T03:57:51.514910+00:00",
+      "price": null,
+      "currency": null,
+      "mandatoryFees": null,
+      "category": "exhibition",
+      "coordinates": {
+        "lat": 52.248806,
+        "lon": 21.014472,
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Galeria_Obok_ZPAF",
+        "accuracy": "sharedbuildingpoint; galleries distinct rooms, not exact entrance",
+        "addressSource": "https://www.zpaf.pl/kontakt/",
+        "checkedAt": "2026-10-28T04:00:01.665514+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official full announcement opening29OctThu;until28Nov2026; joined2026PIKstart",
+      "recordType": "date_range",
+      "openingHours": {
+        "Tue-Sun": "12:00–18:00"
+      },
+      "closedWeekdays": [
+        "Monday"
+      ],
+      "notes": "Firstday opening18:00 overrides ordinary12–18; do not mark exhibition open before vernissage.",
+      "history": [
+        {
+          "field": "venue",
+          "old": "Stara Galeria ZPAF",
+          "new": "Galeria Obok ZPAF",
+          "reason": "Official organiser distinguishes two galleries at sameaddress",
+          "checkedAt": "2026-10-28T03:57:51.514910+00:00"
+        }
+      ],
+      "openingTime": "18:00",
+      "endDate": "2026-11-28"
+    },
+    {
+      "id": "warsaw-museum-90-90",
+      "title": "90/90. Dookoła muzeum",
+      "localDate": "2026-06-19",
+      "localTime": null,
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Warszawy — siedziba główna",
+      "address": "Rynek Starego Miasta 42, Warszawa",
+      "sourceUrl": "https://muzeumwarszawy.pl/wystawa/90-90-dookola-muzeum/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 25,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "exhibition",
+      "coordinates": {
+        "lat": 52.24997,
+        "lon": 21.01139,
+        "sourceUrl": "https://mapcarta.com/36022060",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full dated event detail or official programme explicitly names 2026",
+      "recordType": "date_range",
+      "openingHours": {
+        "Tue,Wed,Fri": "09:00–17:00",
+        "Thu": "09:00–19:00",
+        "Sat,Sun": "11:00–18:00"
+      },
+      "closedWeekdays": [
+        "Monday"
+      ],
+      "closedDates": [
+        "2026-11-01",
+        "2026-11-11"
+      ],
+      "hoursSource": "https://muzeumwarszawy.pl/wizyta/",
+      "restrictions": "Last admission1h beforeclosing; concession18PLN;Thursdayfree. Range notdailyperformances; branch programme should not share thispin.",
+      "endDate": "2027-02-01"
+    },
+    {
+      "id": "warsaw-maw-20261103",
+      "title": "Bernardyni, reformaci, franciszkanie, kapucyni, bracia mniejsi – franciszkańskie gałęzie czy odłamy?",
+      "localDate": "2026-11-03",
+      "localTime": "17:30",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Archidiecezji Warszawskiej",
+      "address": "ul. Dziekania 1, Warszawa",
+      "sourceUrl": "https://maw.art.pl/edukacja/wyklady/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 25,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "lecture",
+      "coordinates": {
+        "lat": 52.2488153462186,
+        "lon": 21.0140346972853,
+        "sourceUrl": "https://www.kupbilecic.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full dated event detail or official programme explicitly names 2026",
+      "notes": "Official full programme explicit2026. Venue address/pin pending. Calendar18:30 end not treated as realend;annualpassholders10PLN.",
+      "addressSource": "https://maw.art.pl/kontakt/"
+    },
+    {
+      "id": "warsaw-maw-20261117",
+      "title": "Św. Franciszek Jacka Malczewskiego — obraz religijny czy modernistyczna autokreacja?",
+      "localDate": "2026-11-17",
+      "localTime": "17:30",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Archidiecezji Warszawskiej",
+      "address": "ul. Dziekania 1, Warszawa",
+      "sourceUrl": "https://maw.art.pl/edukacja/wyklady/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 25,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "lecture",
+      "coordinates": {
+        "lat": 52.2488153462186,
+        "lon": 21.0140346972853,
+        "sourceUrl": "https://www.kupbilecic.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full dated event detail or official programme explicitly names 2026",
+      "notes": "Official full programme explicit2026. Venue address/pin pending. Calendar18:30 end not treated as realend;annualpassholders10PLN.",
+      "addressSource": "https://maw.art.pl/kontakt/"
+    },
+    {
+      "id": "warsaw-maw-20261124",
+      "title": "Myśl, pamięć i obraz — jak świętowano franciszkański jubileusz w1926r.",
+      "localDate": "2026-11-24",
+      "localTime": "17:30",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Archidiecezji Warszawskiej",
+      "address": "ul. Dziekania 1, Warszawa",
+      "sourceUrl": "https://maw.art.pl/edukacja/wyklady/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 25,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "lecture",
+      "coordinates": {
+        "lat": 52.2488153462186,
+        "lon": 21.0140346972853,
+        "sourceUrl": "https://www.kupbilecic.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full dated event detail or official programme explicitly names 2026",
+      "notes": "Official full programme explicit2026. Venue address/pin pending. Calendar18:30 end not treated as realend;annualpassholders10PLN.",
+      "addressSource": "https://maw.art.pl/kontakt/"
+    },
+    {
+      "id": "warsaw-maw-20261126",
+      "title": "Stygmatyzacja i ekstaza św. Franciszka",
+      "localDate": "2026-11-26",
+      "localTime": "17:30",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Archidiecezji Warszawskiej",
+      "address": "ul. Dziekania 1, Warszawa",
+      "sourceUrl": "https://maw.art.pl/edukacja/wyklady/",
+      "checkedAt": "2026-10-28T03:44:24.564873+00:00",
+      "price": 25,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "category": "lecture",
+      "coordinates": {
+        "lat": 52.2488153462186,
+        "lon": 21.0140346972853,
+        "sourceUrl": "https://www.kupbilecic.pl/pl/place/8826/muzeum-archidiecezji-warszawskiej",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full dated event detail or official programme explicitly names 2026",
+      "notes": "Official full programme explicit2026. Venue address/pin pending. Calendar18:30 end not treated as realend;annualpassholders10PLN.",
+      "addressSource": "https://maw.art.pl/kontakt/"
+    },
+    {
+      "id": "warsaw-fenomeny-meeting-20261105",
+      "title": "Miasto moje — spotkanie z twórcami wystawy",
+      "localDate": "2026-11-05",
+      "localTime": "18:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Kino Syrena — Muzeum Warszawy",
+      "address": "Rynek Starego Miasta 42, Warszawa",
+      "sourceUrl": "https://muzeumwarszawy.pl/wieloznaczna-wydarzenia-towarzyszace-wystawie/",
+      "checkedAt": "2026-10-28T03:54:55.213328+00:00",
+      "category": "talk",
+      "price": 0,
+      "currency": "PLN",
+      "mandatoryFees": 0,
+      "coordinates": {
+        "lat": 52.24997,
+        "lon": 21.01139,
+        "sourceUrl": "https://mapcarta.com/36022060",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full 22.10.2026 official article with November programme and exhibition 29.10.2026–25.04.2027",
+      "addressSource": "https://muzeumwarszawy.pl/wp-content/uploads/2025/05/Katalog_wynajem_powierzchni_Muzeum_Warszawy.pdf",
+      "notes": "Event hours override ordinary library/museum hours; admission free, reservation not specified; building pin, not interior room."
+    },
+    {
+      "id": "warsaw-participation-debate-20261119",
+      "title": "Czy partycypacja w instytucjach kultury jest możliwa?",
+      "localDate": "2026-11-19",
+      "localTime": "18:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Kino Syrena — Muzeum Warszawy",
+      "address": "Rynek Starego Miasta 42, Warszawa",
+      "sourceUrl": "https://muzeumwarszawy.pl/wieloznaczna-wydarzenia-towarzyszace-wystawie/",
+      "checkedAt": "2026-10-28T03:54:55.213328+00:00",
+      "category": "talk",
+      "price": 0,
+      "currency": "PLN",
+      "mandatoryFees": 0,
+      "coordinates": {
+        "lat": 52.24997,
+        "lon": 21.01139,
+        "sourceUrl": "https://mapcarta.com/36022060",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full 22.10.2026 official article with November programme and exhibition 29.10.2026–25.04.2027",
+      "addressSource": "https://muzeumwarszawy.pl/wp-content/uploads/2025/05/Katalog_wynajem_powierzchni_Muzeum_Warszawy.pdf",
+      "notes": "Event hours override ordinary library/museum hours; admission free, reservation not specified; building pin, not interior room."
+    },
+    {
+      "id": "warsaw-transport-lecture-20261126",
+      "title": "Historia warszawskiego transportu — wykład",
+      "localDate": "2026-11-26",
+      "localTime": "18:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Biblioteka Muzeum Warszawy",
+      "address": "Rynek Starego Miasta 42, Warszawa",
+      "sourceUrl": "https://muzeumwarszawy.pl/wieloznaczna-wydarzenia-towarzyszace-wystawie/",
+      "checkedAt": "2026-10-28T03:54:55.213328+00:00",
+      "category": "talk",
+      "price": 0,
+      "currency": "PLN",
+      "mandatoryFees": 0,
+      "coordinates": {
+        "lat": 52.24997,
+        "lon": 21.01139,
+        "sourceUrl": "https://mapcarta.com/36022060",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full 22.10.2026 official article with November programme and exhibition 29.10.2026–25.04.2027",
+      "addressSource": "https://muzeumwarszawy.pl/biblioteka/",
+      "notes": "Event hours override ordinary library/museum hours; admission free, reservation not specified; building pin, not interior room."
+    },
+    {
+      "id": "warsaw-temat-rzeka-20261029-1800",
+      "title": "Temat Rzeka — prawie akustycznie",
+      "localDate": "2026-10-29",
+      "localTime": "18:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Klubokawiarnia Kicia Kocia",
+      "address": "al. Stanów Zjednoczonych 68, Warszawa",
+      "sourceUrl": "https://kulturalnie.waw.pl/wydarzenia/temat-rzeka-zagra-prawie-akustycznie-w-warszawskiej-kici-koci-29102026/",
+      "checkedAt": "2026-10-28T03:54:55.213328+00:00",
+      "category": "concert",
+      "price": 0,
+      "currency": "PLN",
+      "mandatoryFees": 0,
+      "coordinates": {
+        "lat": 52.2418037903722,
+        "lon": 21.0838100423277,
+        "sourceUrl": "https://www.kupbilecic.pl/pl/place/4341/klubokawiarnia-kicia-kocia",
+        "accuracy": "venue approximation, address matched",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full dated 29.10.2026 listing and body explicitly two performances18and20; doors16:30 not performance",
+      "notes": "Two distinct announced performances, no invented end; calendar block21:00 not proven ending."
+    },
+    {
+      "id": "warsaw-temat-rzeka-20261029-2000",
+      "title": "Temat Rzeka — prawie akustycznie",
+      "localDate": "2026-10-29",
+      "localTime": "20:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Klubokawiarnia Kicia Kocia",
+      "address": "al. Stanów Zjednoczonych 68, Warszawa",
+      "sourceUrl": "https://kulturalnie.waw.pl/wydarzenia/temat-rzeka-zagra-prawie-akustycznie-w-warszawskiej-kici-koci-29102026/",
+      "checkedAt": "2026-10-28T03:54:55.213328+00:00",
+      "category": "concert",
+      "price": 0,
+      "currency": "PLN",
+      "mandatoryFees": 0,
+      "coordinates": {
+        "lat": 52.2418037903722,
+        "lon": 21.0838100423277,
+        "sourceUrl": "https://www.kupbilecic.pl/pl/place/4341/klubokawiarnia-kicia-kocia",
+        "accuracy": "venue approximation, address matched",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Full dated 29.10.2026 listing and body explicitly two performances18and20; doors16:30 not performance",
+      "notes": "Two distinct announced performances, no invented end; calendar block21:00 not proven ending."
+    },
+    {
+      "id": "warsaw-shataqs-20261028",
+      "title": "ShataQS — Królestwo",
+      "localDate": "2026-10-28",
+      "localTime": "19:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Terminal Kultury Gocław",
+      "address": "ul. Jana Nowaka-Jeziorańskiego 24, Warszawa",
+      "sourceUrl": "https://terminalkultury.pl/wydarzenie/shataqs-krolestwo/",
+      "checkedAt": "2026-10-28T03:55:55.521985+00:00",
+      "category": "concert",
+      "price": 137.02,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.2315624,
+        "lon": 21.0933124258032,
+        "sourceUrl": "https://www.kupbilecik.pl/pl/place/4196/terminal-kultury-goclaw",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official event details explicit full2026 date",
+      "priceQualifier": "venue listed amount; extra fees unknown",
+      "doorsTime": "18:00"
+    },
+    {
+      "id": "warsaw-shataqs-20261029",
+      "title": "ShataQS — Królestwo",
+      "localDate": "2026-10-29",
+      "localTime": "19:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Terminal Kultury Gocław",
+      "address": "ul. Jana Nowaka-Jeziorańskiego 24, Warszawa",
+      "sourceUrl": "https://terminalkultury.pl/wydarzenie/shataqs-krolestwo-2/",
+      "checkedAt": "2026-10-28T03:55:55.521985+00:00",
+      "category": "concert",
+      "price": 137.02,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.2315624,
+        "lon": 21.0933124258032,
+        "sourceUrl": "https://www.kupbilecik.pl/pl/place/4196/terminal-kultury-goclaw",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official event details explicit full2026 date",
+      "priceQualifier": "venue listed amount; extra fees unknown",
+      "doorsTime": "18:00"
+    },
+    {
+      "id": "warsaw-bocianem-20261031",
+      "title": "Chciałbym być bocianem",
+      "localDate": "2026-10-31",
+      "localTime": "18:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Terminal Kultury Gocław",
+      "address": "ul. Jana Nowaka-Jeziorańskiego 24, Warszawa",
+      "sourceUrl": "https://terminalkultury.pl/wydarzenie/chcialbym-byc-bocianem-spektakl-scena-12/",
+      "checkedAt": "2026-10-28T03:55:55.521985+00:00",
+      "category": "theatre",
+      "price": null,
+      "currency": null,
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.2315624,
+        "lon": 21.0933124258032,
+        "sourceUrl": "https://www.kupbilecik.pl/pl/place/4196/terminal-kultury-goclaw",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official event details explicit full2026 date",
+      "priceQualifier": null,
+      "notes": "Public youth-theatre performance; price and duration unspecified."
+    },
+    {
+      "id": "warsaw-jablko-mars-20261103",
+      "title": "Ile waży jabłko na Marsie",
+      "localDate": "2026-11-03",
+      "localTime": "17:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Terminal Kultury Gocław",
+      "address": "ul. Jana Nowaka-Jeziorańskiego 24, Warszawa",
+      "sourceUrl": "https://terminalkultury.pl/wydarzenie/ile-wazy-jablko-na-marsie/",
+      "checkedAt": "2026-10-28T03:55:55.521985+00:00",
+      "category": "theatre",
+      "price": 0,
+      "currency": "PLN",
+      "mandatoryFees": 0,
+      "coordinates": {
+        "lat": 52.2315624,
+        "lon": 21.0933124258032,
+        "sourceUrl": "https://www.kupbilecik.pl/pl/place/4196/terminal-kultury-goclaw",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official event details explicit full2026 date",
+      "priceQualifier": null,
+      "durationMinutes": 60,
+      "localEndTime": "18:00",
+      "admission": "Free tickets must be collected at venue box office from20Oct2026; availability unconfirmed. Ages7+; smoke/strobe."
+    },
+    {
+      "id": "warsaw-charakteryzacja-20261030",
+      "title": "Strasznie pięknie wyglądasz — film make-up workshop",
+      "localDate": "2026-10-30",
+      "localTime": "17:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Terminal Kultury Gocław",
+      "address": "ul. Jana Nowaka-Jeziorańskiego 24, Warszawa",
+      "sourceUrl": "https://terminalkultury.pl/wydarzenie/strasznie-pieknie-wygladasz-warsztaty-charakteryzacji-filmowej/",
+      "checkedAt": "2026-10-28T03:55:55.521985+00:00",
+      "category": "workshop",
+      "price": 20,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.2315624,
+        "lon": 21.0933124258032,
+        "sourceUrl": "https://www.kupbilecik.pl/pl/place/4196/terminal-kultury-goclaw",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official event details explicit full2026 date",
+      "priceQualifier": "venue listed amount; extra fees unknown",
+      "durationRangeMinutes": [
+        90,
+        105
+      ],
+      "admission": "Workshop ticket includes19:00Nosferatu screening; do not count as separate purchase requirement."
+    },
+    {
+      "id": "warsaw-nosferatu-live-20261030",
+      "title": "Nosferatu — screening with Fisherboyz live score",
+      "localDate": "2026-10-30",
+      "localTime": "19:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Terminal Kultury Gocław",
+      "address": "ul. Jana Nowaka-Jeziorańskiego 24, Warszawa",
+      "sourceUrl": "https://terminalkultury.pl/wydarzenie/nosferatu-symfonia-grozy-film-z-muzyka-na-zywo/",
+      "checkedAt": "2026-10-28T03:55:55.521985+00:00",
+      "category": "cinema",
+      "price": 16,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.2315624,
+        "lon": 21.0933124258032,
+        "sourceUrl": "https://www.kupbilecik.pl/pl/place/4196/terminal-kultury-goclaw",
+        "accuracy": "venue/building approximation, not verified entrance",
+        "checkedAt": "2026-10-28T03:54:55.213328+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official event details explicit full2026 date",
+      "priceQualifier": "venue listed amount; extra fees unknown",
+      "admission": "Included with20PLN workshop ticket; standalone16PLN. This is cinema/live score, not ordinary concert."
+    },
+    {
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Warszawy — wystawa czasowa",
+      "address": "Rynek Starego Miasta 32, Warszawa",
+      "checkedAt": "2026-10-28T03:58:54.966288+00:00",
+      "price": 20,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.250277777777775,
+        "lon": 21.011708333333335,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Kamienica_Baryczków",
+        "addressSource": "https://zabytek.pl/pl/obiekty/g-225385",
+        "accuracy": "building point, not entrance; explicit building32 matched officialexhibition",
+        "checkedAt": "2026-10-28T03:59:30.490702+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official exhibition29Oct2026–25Apr2027; accompanying programme22Oct2026 explicitlydatesNov",
+      "notes": "Different entrance/address from museum42; do not copy42pin blindly. Concession15PLN; Thursday1PLN.",
+      "id": "warsaw-wieloznaczna-20261029",
+      "title": "Wieloznaczna. Fenomeny Warszawy",
+      "localDate": "2026-10-29",
+      "localTime": null,
+      "endDate": "2027-04-25",
+      "category": "exhibition",
+      "recordType": "date_range",
+      "sourceUrl": "https://muzeumwarszawy.pl/wystawa/wieloznaczna-fenomeny-warszawy/",
+      "openingHours": {
+        "tue": "11:00-19:00",
+        "wed": "11:00-19:00",
+        "thu": "11:00-20:00",
+        "fri": "11:00-19:00",
+        "sat": "11:00-19:00",
+        "sun": "11:00-18:00",
+        "mon": "closed"
+      },
+      "closedDates": [
+        "2026-11-01",
+        "2026-11-11"
+      ],
+      "closedDatesSource": "https://muzeumwarszawy.pl/wizyta/"
+    },
+    {
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Warszawy — wystawa czasowa",
+      "address": "Rynek Starego Miasta 32, Warszawa",
+      "checkedAt": "2026-10-28T03:58:54.966288+00:00",
+      "price": 20,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.250277777777775,
+        "lon": 21.011708333333335,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Kamienica_Baryczków",
+        "addressSource": "https://zabytek.pl/pl/obiekty/g-225385",
+        "accuracy": "building point, not entrance; explicit building32 matched officialexhibition",
+        "checkedAt": "2026-10-28T03:59:30.490702+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official exhibition29Oct2026–25Apr2027; accompanying programme22Oct2026 explicitlydatesNov",
+      "notes": "Different entrance/address from museum42; do not copy42pin blindly. Concession15PLN; Thursday1PLN.",
+      "id": "warsaw-wieloznaczna-curators-20261108",
+      "title": "Wieloznaczna — curators tour",
+      "localDate": "2026-11-08",
+      "localTime": "16:00",
+      "category": "tour",
+      "sourceUrl": "https://muzeumwarszawy.pl/wieloznaczna-wydarzenia-towarzyszace-wystawie/",
+      "admission": "Included in exhibition ticket; registration not specified"
+    },
+    {
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Warszawy — wystawa czasowa",
+      "address": "Rynek Starego Miasta 32, Warszawa",
+      "checkedAt": "2026-10-28T03:58:54.966288+00:00",
+      "price": 20,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.250277777777775,
+        "lon": 21.011708333333335,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Kamienica_Baryczków",
+        "addressSource": "https://zabytek.pl/pl/obiekty/g-225385",
+        "accuracy": "building point, not entrance; explicit building32 matched officialexhibition",
+        "checkedAt": "2026-10-28T03:59:30.490702+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official exhibition29Oct2026–25Apr2027; accompanying programme22Oct2026 explicitlydatesNov",
+      "notes": "Different entrance/address from museum42; do not copy42pin blindly. Concession15PLN; Thursday1PLN.",
+      "id": "warsaw-wieloznaczna-identity-20261115",
+      "title": "Wieloznaczna — Tożsamość curator tour",
+      "localDate": "2026-11-15",
+      "localTime": "16:00",
+      "category": "tour",
+      "sourceUrl": "https://muzeumwarszawy.pl/wieloznaczna-wydarzenia-towarzyszace-wystawie/",
+      "admission": "Included in exhibition ticket; registration not specified"
+    },
+    {
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Warszawy — wystawa czasowa",
+      "address": "Rynek Starego Miasta 32, Warszawa",
+      "checkedAt": "2026-10-28T03:58:54.966288+00:00",
+      "price": 20,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.250277777777775,
+        "lon": 21.011708333333335,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Kamienica_Baryczków",
+        "addressSource": "https://zabytek.pl/pl/obiekty/g-225385",
+        "accuracy": "building point, not entrance; explicit building32 matched officialexhibition",
+        "checkedAt": "2026-10-28T03:59:30.490702+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official exhibition29Oct2026–25Apr2027; accompanying programme22Oct2026 explicitlydatesNov",
+      "notes": "Different entrance/address from museum42; do not copy42pin blindly. Concession15PLN; Thursday1PLN.",
+      "id": "warsaw-wieloznaczna-spoiwa-20261122",
+      "title": "Wieloznaczna — Spoiwa curator tour",
+      "localDate": "2026-11-22",
+      "localTime": "16:00",
+      "category": "tour",
+      "sourceUrl": "https://muzeumwarszawy.pl/wieloznaczna-wydarzenia-towarzyszace-wystawie/",
+      "admission": "Included in exhibition ticket; registration not specified"
+    },
+    {
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Warszawy — wystawa czasowa",
+      "address": "Rynek Starego Miasta 32, Warszawa",
+      "checkedAt": "2026-10-28T03:58:54.966288+00:00",
+      "price": 20,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.250277777777775,
+        "lon": 21.011708333333335,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Kamienica_Baryczków",
+        "addressSource": "https://zabytek.pl/pl/obiekty/g-225385",
+        "accuracy": "building point, not entrance; explicit building32 matched officialexhibition",
+        "checkedAt": "2026-10-28T03:59:30.490702+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official exhibition29Oct2026–25Apr2027; accompanying programme22Oct2026 explicitlydatesNov",
+      "notes": "Different entrance/address from museum42; do not copy42pin blindly. Concession15PLN; Thursday1PLN.",
+      "id": "warsaw-wieloznaczna-english-20261115",
+      "title": "Wieloznaczna — English curator tour",
+      "localDate": "2026-11-15",
+      "localTime": "14:00",
+      "category": "tour",
+      "sourceUrl": "https://muzeumwarszawy.pl/wieloznaczna-wydarzenia-towarzyszace-wystawie/",
+      "admission": "Included in exhibition ticket; registration not specified",
+      "eventLanguage": "en"
+    },
+    {
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Warszawy — wystawa czasowa",
+      "address": "Rynek Starego Miasta 32, Warszawa",
+      "checkedAt": "2026-10-28T03:58:54.966288+00:00",
+      "price": 20,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.250277777777775,
+        "lon": 21.011708333333335,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Kamienica_Baryczków",
+        "addressSource": "https://zabytek.pl/pl/obiekty/g-225385",
+        "accuracy": "building point, not entrance; explicit building32 matched officialexhibition",
+        "checkedAt": "2026-10-28T03:59:30.490702+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official exhibition29Oct2026–25Apr2027; accompanying programme22Oct2026 explicitlydatesNov",
+      "notes": "Different entrance/address from museum42; do not copy42pin blindly. Concession15PLN; Thursday1PLN.",
+      "id": "warsaw-wieloznaczna-improvised-20261121",
+      "title": "Wieloznaczna — improvised guided tour",
+      "localDate": "2026-11-21",
+      "localTime": "12:00",
+      "category": "tour",
+      "sourceUrl": "https://muzeumwarszawy.pl/wieloznaczna-wydarzenia-towarzyszace-wystawie/",
+      "admission": "Included in exhibition ticket; registration not specified"
+    },
+    {
+      "timeZone": "Europe/Warsaw",
+      "venue": "Muzeum Warszawy — wystawa czasowa",
+      "address": "Rynek Starego Miasta 32, Warszawa",
+      "checkedAt": "2026-10-28T03:58:54.966288+00:00",
+      "price": 20,
+      "currency": "PLN",
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.250277777777775,
+        "lon": 21.011708333333335,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Kamienica_Baryczków",
+        "addressSource": "https://zabytek.pl/pl/obiekty/g-225385",
+        "accuracy": "building point, not entrance; explicit building32 matched officialexhibition",
+        "checkedAt": "2026-10-28T03:59:30.490702+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official exhibition29Oct2026–25Apr2027; accompanying programme22Oct2026 explicitlydatesNov",
+      "notes": "Different entrance/address from museum42; do not copy42pin blindly. Concession15PLN; Thursday1PLN.",
+      "id": "warsaw-wieloznaczna-parents-20261120",
+      "title": "Wieloznaczna — tour for parents with babies",
+      "localDate": "2026-11-20",
+      "localTime": "12:00",
+      "category": "tour",
+      "sourceUrl": "https://muzeumwarszawy.pl/wieloznaczna-wydarzenia-towarzyszace-wystawie/",
+      "admission": "Included in exhibition ticket; registration not specified"
+    },
+    {
+      "timeZone": "Europe/Warsaw",
+      "venue": "Stara Galeria ZPAF",
+      "address": "Plac Zamkowy 8, Warszawa",
+      "checkedAt": "2026-10-28T03:58:54.966288+00:00",
+      "price": null,
+      "currency": null,
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.248806,
+        "lon": 21.014472,
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Galeria_Obok_ZPAF",
+        "accuracy": "sharedbuildingpoint; galleries distinct rooms, not exact entrance",
+        "addressSource": "https://www.zpaf.pl/kontakt/",
+        "checkedAt": "2026-10-28T04:00:01.665514+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "sourceUrl": "https://www.zpaf.pl/aktualnosci/topniejaca-rzeczywistosc-asp-sg/",
+      "yearEvidence": "Official dated opening29OctThursday, end3Jan2027 and currentorganiserindex2026; startyearjoin",
+      "id": "warsaw-topniejaca-20261029",
+      "title": "Topniejąca rzeczywistość",
+      "localDate": "2026-10-29",
+      "localTime": null,
+      "endDate": "2027-01-03",
+      "category": "exhibition",
+      "recordType": "date_range",
+      "openingHours": null,
+      "openingTime": "19:00",
+      "notes": "Real range; routine opening hours not yetverified. Do not mark open now; firstday vernissage19. Different gallery fromAKAMA."
+    },
+    {
+      "timeZone": "Europe/Warsaw",
+      "venue": "Stara Galeria ZPAF",
+      "address": "Plac Zamkowy 8, Warszawa",
+      "checkedAt": "2026-10-28T03:58:54.966288+00:00",
+      "price": null,
+      "currency": null,
+      "mandatoryFees": null,
+      "coordinates": {
+        "lat": 52.248806,
+        "lon": 21.014472,
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Galeria_Obok_ZPAF",
+        "accuracy": "sharedbuildingpoint; galleries distinct rooms, not exact entrance",
+        "addressSource": "https://www.zpaf.pl/kontakt/",
+        "checkedAt": "2026-10-28T04:00:01.665514+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "sourceUrl": "https://www.zpaf.pl/aktualnosci/topniejaca-rzeczywistosc-asp-sg/",
+      "yearEvidence": "Official dated opening29OctThursday, end3Jan2027 and currentorganiserindex2026; startyearjoin",
+      "id": "warsaw-topniejaca-opening-20261029",
+      "title": "Topniejąca rzeczywistość — opening",
+      "localDate": "2026-10-29",
+      "localTime": "19:00",
+      "category": "exhibition",
+      "recordType": "session"
+    },
+    {
+      "id": "warsaw-akama-opening-20261029",
+      "title": "AKAMA — opening",
+      "localDate": "2026-10-29",
+      "localTime": "18:00",
+      "timeZone": "Europe/Warsaw",
+      "venue": "Galeria Obok ZPAF",
+      "address": "Plac Zamkowy 8, Warszawa",
+      "sourceUrl": "https://www.zpaf.pl/aktualnosci/gt-Akama-GO-zpaf/",
+      "checkedAt": "2026-10-28T03:57:51.514910+00:00",
+      "price": null,
+      "currency": null,
+      "mandatoryFees": null,
+      "category": "exhibition",
+      "coordinates": {
+        "lat": 52.248806,
+        "lon": 21.014472,
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Galeria_Obok_ZPAF",
+        "accuracy": "sharedbuildingpoint; galleries distinct rooms, not exact entrance",
+        "addressSource": "https://www.zpaf.pl/kontakt/",
+        "checkedAt": "2026-10-28T04:00:01.665514+00:00"
+      },
+      "status": "candidate_checked_pending_integration",
+      "yearEvidence": "Official full announcement opening29OctThu;until28Nov2026; joined2026PIKstart",
+      "recordType": "session",
+      "notes": "Firstday opening18:00 overrides ordinary12–18; do not mark exhibition open before vernissage.",
+      "history": [
+        {
+          "field": "venue",
+          "old": "Stara Galeria ZPAF",
+          "new": "Galeria Obok ZPAF",
+          "reason": "Official organiser distinguishes two galleries at sameaddress",
+          "checkedAt": "2026-10-28T03:57:51.514910+00:00"
+        }
+      ]
+    }
+  ]
+}

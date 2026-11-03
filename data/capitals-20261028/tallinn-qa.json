@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-28T03:52:27Z",
+  "city": "tallinn",
+  "timezone": "Europe/Tallinn",
+  "events": 110,
+  "sessions": 94,
+  "ranges": 16,
+  "programmes": 74,
+  "places": 30,
+  "categories": {
+    "art": 15,
+    "music": 26,
+    "city": 17,
+    "kids": 11,
+    "sport": 4,
+    "food": 3,
+    "talk": 4,
+    "workshop": 12,
+    "theatre": 18
+  },
+  "localDates": [
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+  ],
+  "visibleCounts": [
+    17,
+    18,
+    19,
+    20,
+    22,
+    8,
+    12
+  ],
+  "nearbyCounts": [
+    6,
+    7,
+    9,
+    10,
+    11,
+    4,
+    3
+  ],
+  "weekUnique": 42,
+  "weekListRows": 42,
+  "weekNearby": 29,
+  "mainflow": [
+    "Estonia > Tallinn > map",
+    "saved city return",
+    "RU/EN first seven dates",
+    "wholecity30venues",
+    "distance sorted120m to3.5km list beyondradius"
+  ],
+  "all148ExistingTrackedFeedFilesByteIdentical": true,
+  "tests": [
+    "country32",
+    "citywide65routes910assertions",
+    "location694assertions40routes",
+    "expiryresume",
+    "catalog65routes2795assertions",
+    "english285pages33appmetadata"
+  ],
+  "limitations": [
+    "Backup basemap warning",
+    "APK not physically checked",
+    "Not complete city coverage",
+    "No fresh Telegram import",
+    "Some late-November dates no timed candidate"
+  ],
+  "sourceURLBrowserCheck": {
+    "url": "https://www.visittallinn.ee/eng/visitor/see-do/events/events/15139/the-van-gogh-experience-exhibition",
+    "checkedAt": "2026-10-28T03:56:32Z",
+    "status": "full dated announcement visible after client render, actual18Jun2026-10Jan2027; initial text-reader shell not treated as404"
+  },
+  "finalReserveAccessQA": {
+    "checkedAt": "2026-10-28T03:56:40Z",
+    "groupRestrictionsPreserved": true,
+    "cultureLab": "Ages11–15 advanced programme registration, limited places, team notdropin; subsequentstudio dates partofsameprogramme",
+    "doorsNotStarts": true,
+    "exactEndsOnly": true
+  },
+  "finalContentDelta": "tallinn-final-content-qa-delta.json",
+  "finalContentCheckedAt": "2026-10-28T03:57:13.586642+00:00",
+  "sourceSlugsCorrected": 5,
+  "liveDeploymentVerified": false
+}

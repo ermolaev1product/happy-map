@@ -1,0 +1,65 @@
+[
+  {
+    "original_name": "The Cambridge public house",
+    "candidate_id": "osm:node:11850731835",
+    "official_address": "8 Rue de Poitou, 75003 Paris",
+    "official_website": "https://www.thecambridge.paris/",
+    "official_hours": "Mo-Su 15:00-01:00",
+    "coordinates": {
+      "latitude": 48.8614519,
+      "longitude": 2.3641684,
+      "coordinate_system": "WGS84",
+      "source_url": "https://www.openstreetmap.org/node/11850731835",
+      "method": "Original handoff candidate coordinate tied to exact OSM ID and venue identity/address.",
+      "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "polygon_status": "inside_paris_polygon",
+    "original_official_check_row": true,
+    "status": "matched_and_rechecked",
+    "notes": [
+      "Official current hours close 01:00; replace older candidate 01:30."
+    ]
+  },
+  {
+    "original_name": "Little Red Door",
+    "candidate_id": "osm:node:3265513124",
+    "official_address": "60 Rue Charlot, 75003 Paris",
+    "official_website": "https://www.lrdparis.com/",
+    "official_hours": "Mo-Su 17:00-01:00",
+    "coordinates": {
+      "latitude": 48.8636585,
+      "longitude": 2.3635886,
+      "coordinate_system": "WGS84",
+      "source_url": "https://www.openstreetmap.org/node/3265513124",
+      "method": "Original handoff candidate coordinate tied to exact OSM ID and venue identity/address.",
+      "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "polygon_status": "inside_paris_polygon",
+    "original_official_check_row": true,
+    "status": "matched_and_rechecked",
+    "notes": [
+      "Use official website hours; third-party maps may show 02:00."
+    ]
+  },
+  {
+    "original_name": "Harry's Bar",
+    "candidate_id": "osm:node:251023849",
+    "official_address": "5 Rue Daunou, 75002 Paris",
+    "official_website": "https://www.harrysbar.com/en/",
+    "official_hours": "Mo-Sa 12:00-02:00; Su 17:00-01:00",
+    "coordinates": {
+      "latitude": 48.8692089,
+      "longitude": 2.3321714,
+      "coordinate_system": "WGS84",
+      "source_url": "https://www.openstreetmap.org/node/251023849",
+      "method": "Original handoff candidate coordinate tied to exact OSM ID and venue identity/address.",
+      "attribution": "ODbL-1.0 / © OpenStreetMap contributors"
+    },
+    "polygon_status": "inside_paris_polygon",
+    "original_official_check_row": false,
+    "status": "matched_and_rechecked",
+    "notes": [
+      "Paris branch. Official English page explicitly distinguishes Paris schedule from Cannes."
+    ]
+  }
+]

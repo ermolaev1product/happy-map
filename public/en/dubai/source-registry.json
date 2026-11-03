@@ -1,0 +1,150 @@
+{
+  "city": "Dubai",
+  "checkedAt": "2026-10-15T11:50:00Z",
+  "sources": [
+    {
+      "id": "candidate:f5a4c26421660dc0",
+      "name": "Dubai Opera",
+      "url": "https://www.dubaiopera.com/en/events",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 11,
+      "note": "Read all in-window event pages. Multi-date/time mapping for John Achkar and Titizé unresolved.",
+      "type": "first_party_calendar"
+    },
+    {
+      "id": "candidate:3c95414c13b1ea0a",
+      "name": "Ticketmaster UAE, Coca-Cola Arena",
+      "url": "https://www.ticketmaster.ae/venue/coca-cola-arena-dubai-tickets/cca/805",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 3,
+      "note": "Current 2026 events read with exact local start times.",
+      "type": "ticket_calendar"
+    },
+    {
+      "id": "candidate:69681f66e80a49d8",
+      "name": "Platinumlist Dubai concerts",
+      "url": "https://dubai.platinumlist.net/concert",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 7,
+      "note": "Read live calendar and event pages. Recommendations include other emirates/countries; exclude these.",
+      "type": "aggregator"
+    },
+    {
+      "id": "candidate:d354da4002c00f71",
+      "name": "Platinumlist Russian artists",
+      "url": "https://dubai.platinumlist.net/artist/russian",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Read category and inspected artist event links; category alone does not prove current event coverage.",
+      "type": "aggregator"
+    },
+    {
+      "id": "candidate:32476202e7092810",
+      "name": "Alserkal Avenue",
+      "url": "https://alserkal.online/events",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 24,
+      "note": "Calendar plus 34 detail-page attempts. Detailed workshop/lecture intake; warehouse coordinates largely missing. Several schedule/content conflicts quarantined. Official page links Instagram, but linked content fetch failed; public Instagram posts unverified, login state untested.",
+      "type": "first_party_calendar"
+    },
+    {
+      "id": "candidate:545da3ef271ef23a",
+      "name": "Dubai Afisha",
+      "url": "https://t.me/dubai_afisha",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Read public preview. Latest extracted announcements end in early October; no verified in-window yield. Profile not counted as content.",
+      "type": "telegram"
+    },
+    {
+      "id": "candidate:6da83339337f61fd",
+      "name": "r/UAEAnimeCommunity events",
+      "url": "https://www.reddit.com/r/UAEAnimeCommunity/comments/1whqlvj/upcoming_events_october_december_2026/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Read dated Oct–Dec community discussion. Tabletop.me Nov 6–8 corroborated on organizer ticket site; exact start unresolved.",
+      "type": "reddit"
+    },
+    {
+      "id": "candidate:58e831b3a7e3b96f",
+      "name": "The Agenda",
+      "url": "https://www.theagenda.com/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "search_index_read",
+      "accessStatus": "search_index_read",
+      "count": 0,
+      "note": "Official venue schedule conflicts with Platinumlist performance start times for Meladze/Vanya. Hold until resolved.",
+      "type": "first_party_calendar"
+    },
+    {
+      "id": "candidate:7cb0b43d57fad409",
+      "name": "Tabletop.me",
+      "url": "https://tabletop-me.platinumlist.net/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "6–8 November 2026 and venue confirmed. Day/tournament tickets distinguished; exact daily opening times pending.",
+      "type": "organizer_ticketing"
+    },
+    {
+      "id": "candidate:4c73ae4d42c43841",
+      "name": "Visit Dubai official events calendar",
+      "url": "https://www.visitdubai.com/en/festivals-and-events/dubai-events-calendar",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Official tourism event calendar. Exact 2026 Alexander Merkul event independently cross-checked with ticket schedule.",
+      "type": "website"
+    },
+    {
+      "id": "candidate:7759f8c5fc7f37ed",
+      "name": "Pepperoni Comedy Club",
+      "url": "https://pepperonicomedyclub.ae/comedy-club/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 1,
+      "note": "Official calendar plus event details. Multi-day calendar cells are not individual session times; specific festival ticket schedules and event age rules take precedence. Public Instagram link discovered, content/login not verified.",
+      "type": "website"
+    },
+    {
+      "id": "candidate:98b8e54333822c4f",
+      "name": "Tick’it",
+      "url": "https://tickit.co/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_indexed_event_read_direct_fetch_blocked",
+      "count": 1,
+      "note": "Public indexed Mina Selim event with explicit UTC start/end, admission and venue. Direct HTTP fetch returned403; no login or bypass attempted.",
+      "type": "ticketing"
+    },
+    {
+      "id": "candidate:61cd063769313556",
+      "name": "magpie arts agenda",
+      "url": "https://magpie.ae/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Public arts and local comedy agenda. Named venue pin verified; event starts cross-checked because doors and Sunday showcase schedule conflict with primary ticket seller.",
+      "type": "website"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

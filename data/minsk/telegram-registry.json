@@ -1,0 +1,81 @@
+{
+  "sources": [
+    {
+      "name": "minsk_region",
+      "url": "https://t.me/s/minsk_region",
+      "status": "checked-public-history",
+      "checkedAt": "2026-10-19T08:02:25.895560+00:00",
+      "type": "telegram"
+    },
+    {
+      "name": "minsk_kudago",
+      "url": "https://t.me/s/minsk_kudago",
+      "status": "checked-public-history",
+      "checkedAt": "2026-10-19T08:02:26.255702+00:00",
+      "type": "telegram"
+    },
+    {
+      "name": "minsk_kuda",
+      "url": "https://t.me/s/minsk_kuda",
+      "status": "checked-public-history",
+      "checkedAt": "2026-10-19T08:02:26.131232+00:00",
+      "type": "telegram"
+    }
+  ],
+  "audit": [
+    {
+      "channel": "minsk_region",
+      "url": "https://t.me/s/minsk_region",
+      "pages": [
+        "https://t.me/s/minsk_region",
+        "https://t.me/s/minsk_region?before=459",
+        "https://t.me/s/minsk_region?before=434"
+      ],
+      "fetchedPosts": 35,
+      "fullyReadPosts": 3,
+      "publicationRange": [
+        "2025-11-13T11:27:19+00:00",
+        "2026-09-19T17:23:58+00:00"
+      ],
+      "checkedAt": "2026-10-19T08:02:25.895560+00:00",
+      "status": "checked-public-history",
+      "notes": "Fetched count is not fully-read count. Older announcements excluded."
+    },
+    {
+      "channel": "minsk_kudago",
+      "url": "https://t.me/s/minsk_kudago",
+      "pages": [
+        "https://t.me/s/minsk_kudago",
+        "https://t.me/s/minsk_kudago?before=2844",
+        "https://t.me/s/minsk_kudago?before=2820"
+      ],
+      "fetchedPosts": 40,
+      "fullyReadPosts": 3,
+      "publicationRange": [
+        "2026-08-13T14:01:01+00:00",
+        "2026-10-14T14:00:34+00:00"
+      ],
+      "checkedAt": "2026-10-19T08:02:26.255702+00:00",
+      "status": "checked-public-history",
+      "notes": "Fetched count is not fully-read count. Older announcements excluded."
+    },
+    {
+      "channel": "minsk_kuda",
+      "url": "https://t.me/s/minsk_kuda",
+      "pages": [
+        "https://t.me/s/minsk_kuda",
+        "https://t.me/s/minsk_kuda?before=1098",
+        "https://t.me/s/minsk_kuda?before=1077"
+      ],
+      "fetchedPosts": 49,
+      "fullyReadPosts": 2,
+      "publicationRange": [
+        "2026-08-10T07:40:20+00:00",
+        "2026-10-19T07:40:19+00:00"
+      ],
+      "checkedAt": "2026-10-19T08:02:26.131232+00:00",
+      "status": "checked-public-history",
+      "notes": "Fetched count is not fully-read count. Older announcements excluded."
+    }
+  ]
+}

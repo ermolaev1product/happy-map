@@ -1,0 +1,812 @@
+{
+  "sourceDocumentation": "https://www.kartverket.no/api-og-data/eiendomsdata/brukarrettleiing-adresse-api",
+  "precisionNote": "Official exact street address representative point EPSG4258, not city/postcode centroid. stedfestingverifisert=false where indicated; do not claim survey-verified entrance. Match event official address and municipality Oslo before use.",
+  "rows": [
+    {
+      "query": "Bøkkerveien 4 Oslo",
+      "url": "https://api.kartverket.no/adresser/v1/sok?sok=B%C3%B8kkerveien+4+Oslo&treffPerSide=5",
+      "checkedAt": "2026-10-28T02:32:19.511514+00:00",
+      "response": {
+        "metadata": {
+          "treffPerSide": 5,
+          "side": 0,
+          "totaltAntallTreff": 1,
+          "viserFra": 0,
+          "viserTil": 5,
+          "sokeStreng": "sok=B%C3%B8kkerveien+4+Oslo&treffPerSide=5",
+          "asciiKompatibel": true
+        },
+        "adresser": [
+          {
+            "adressenavn": "Bøkkerveien",
+            "adressetekst": "Bøkkerveien 4",
+            "adressetilleggsnavn": null,
+            "adressekode": 21645,
+            "nummer": 4,
+            "bokstav": "",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 124,
+            "bruksnummer": 235,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [
+              "H0101",
+              "H0102",
+              "H0103",
+              "H0104",
+              "H0105",
+              "H0106",
+              "H0107",
+              "H0108",
+              "H0109",
+              "H0110",
+              "H0111"
+            ],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0579",
+            "adressetekstutenadressetilleggsnavn": "Bøkkerveien 4",
+            "stedfestingverifisert": true,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.92697999876442,
+              "lon": 10.793997529872943
+            },
+            "oppdateringsdato": "2020-06-15T18:04:52"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Kirkeveien 59 Oslo",
+      "url": "https://api.kartverket.no/adresser/v1/sok?sok=Kirkeveien+59+Oslo&treffPerSide=5",
+      "checkedAt": "2026-10-28T02:32:28.275991+00:00",
+      "response": {
+        "metadata": {
+          "treffPerSide": 5,
+          "side": 0,
+          "totaltAntallTreff": 5,
+          "viserFra": 0,
+          "viserTil": 5,
+          "sokeStreng": "sok=Kirkeveien+59+Oslo&treffPerSide=5",
+          "asciiKompatibel": true
+        },
+        "adresser": [
+          {
+            "adressenavn": "Kirkeveien",
+            "adressetekst": "Kirkeveien 59",
+            "adressetilleggsnavn": null,
+            "adressekode": 13729,
+            "nummer": 59,
+            "bokstav": "",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 215,
+            "bruksnummer": 376,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0364",
+            "adressetekstutenadressetilleggsnavn": "Kirkeveien 59",
+            "stedfestingverifisert": true,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.92898071557618,
+              "lon": 10.716221214320008
+            },
+            "oppdateringsdato": "2020-06-15T18:04:52"
+          },
+          {
+            "adressenavn": "Kirkeveien",
+            "adressetekst": "Kirkeveien 114B",
+            "adressetilleggsnavn": null,
+            "adressekode": 13729,
+            "nummer": 114,
+            "bokstav": "B",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 46,
+            "bruksnummer": 59,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0361",
+            "adressetekstutenadressetilleggsnavn": "Kirkeveien 114B",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.93445348587783,
+              "lon": 10.72781308747661
+            },
+            "oppdateringsdato": "2024-10-18T09:53:21"
+          },
+          {
+            "adressenavn": "Kirkeveien",
+            "adressetekst": "Kirkeveien 114C",
+            "adressetilleggsnavn": null,
+            "adressekode": 13729,
+            "nummer": 114,
+            "bokstav": "C",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 46,
+            "bruksnummer": 59,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [
+              "H0101",
+              "H0201",
+              "H0202",
+              "H0203",
+              "H0204"
+            ],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0361",
+            "adressetekstutenadressetilleggsnavn": "Kirkeveien 114C",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.934511410450824,
+              "lon": 10.727916324123598
+            },
+            "oppdateringsdato": "2024-10-18T09:53:45"
+          },
+          {
+            "adressenavn": "Kirkeveien",
+            "adressetekst": "Kirkeveien 114D",
+            "adressetilleggsnavn": null,
+            "adressekode": 13729,
+            "nummer": 114,
+            "bokstav": "D",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 46,
+            "bruksnummer": 59,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0361",
+            "adressetekstutenadressetilleggsnavn": "Kirkeveien 114D",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.934537459814116,
+              "lon": 10.728121705509976
+            },
+            "oppdateringsdato": "2024-10-18T09:54:25"
+          },
+          {
+            "adressenavn": "Kirkeveien",
+            "adressetekst": "Kirkeveien 114E",
+            "adressetilleggsnavn": null,
+            "adressekode": 13729,
+            "nummer": 114,
+            "bokstav": "E",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 46,
+            "bruksnummer": 59,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0361",
+            "adressetekstutenadressetilleggsnavn": "Kirkeveien 114E",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.93464704913828,
+              "lon": 10.728326065332768
+            },
+            "oppdateringsdato": "2024-10-18T09:55:07"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Jordalgata 12 Oslo",
+      "url": "https://api.kartverket.no/adresser/v1/sok?sok=Jordalgata+12+Oslo&treffPerSide=5",
+      "checkedAt": "2026-10-28T02:32:33.975496+00:00",
+      "response": {
+        "metadata": {
+          "treffPerSide": 5,
+          "side": 0,
+          "totaltAntallTreff": 4,
+          "viserFra": 0,
+          "viserTil": 5,
+          "sokeStreng": "sok=Jordalgata+12+Oslo&treffPerSide=5",
+          "asciiKompatibel": true
+        },
+        "adresser": [
+          {
+            "adressenavn": "Jordalgata",
+            "adressetekst": "Jordalgata 12A",
+            "adressetilleggsnavn": null,
+            "adressekode": 13531,
+            "nummer": 12,
+            "bokstav": "A",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 232,
+            "bruksnummer": 498,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0657",
+            "adressetekstutenadressetilleggsnavn": "Jordalgata 12A",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.90923633114337,
+              "lon": 10.78185730579506
+            },
+            "oppdateringsdato": "2024-03-08T09:39:50"
+          },
+          {
+            "adressenavn": "Jordalgata",
+            "adressetekst": "Jordalgata 12B",
+            "adressetilleggsnavn": null,
+            "adressekode": 13531,
+            "nummer": 12,
+            "bokstav": "B",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 232,
+            "bruksnummer": 486,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0657",
+            "adressetekstutenadressetilleggsnavn": "Jordalgata 12B",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.90968482138341,
+              "lon": 10.782432167588732
+            },
+            "oppdateringsdato": "2024-03-08T09:41:11"
+          },
+          {
+            "adressenavn": "Jordalgata",
+            "adressetekst": "Jordalgata 12C",
+            "adressetilleggsnavn": null,
+            "adressekode": 13531,
+            "nummer": 12,
+            "bokstav": "C",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 232,
+            "bruksnummer": 497,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0657",
+            "adressetekstutenadressetilleggsnavn": "Jordalgata 12C",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.91007495547729,
+              "lon": 10.782673059114373
+            },
+            "oppdateringsdato": "2024-03-08T09:47:49"
+          },
+          {
+            "adressenavn": "Jordalgata",
+            "adressetekst": "Jordalgata 12D",
+            "adressetilleggsnavn": null,
+            "adressekode": 13531,
+            "nummer": 12,
+            "bokstav": "D",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 232,
+            "bruksnummer": 496,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0657",
+            "adressetekstutenadressetilleggsnavn": "Jordalgata 12D",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.91061762853348,
+              "lon": 10.783190403302209
+            },
+            "oppdateringsdato": "2024-03-08T09:50:30"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Sognsveien 220 Oslo",
+      "url": "https://api.kartverket.no/adresser/v1/sok?sok=Sognsveien+220+Oslo&treffPerSide=5",
+      "checkedAt": "2026-10-28T02:32:37.110280+00:00",
+      "response": {
+        "metadata": {
+          "treffPerSide": 5,
+          "side": 0,
+          "totaltAntallTreff": 7,
+          "viserFra": 0,
+          "viserTil": 5,
+          "sokeStreng": "sok=Sognsveien+220+Oslo&treffPerSide=5",
+          "asciiKompatibel": true
+        },
+        "adresser": [
+          {
+            "adressenavn": "Sognsveien",
+            "adressetekst": "Sognsveien 220",
+            "adressetilleggsnavn": null,
+            "adressekode": 16762,
+            "nummer": 220,
+            "bokstav": "",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 51,
+            "bruksnummer": 14,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0863",
+            "adressetekstutenadressetilleggsnavn": "Sognsveien 220",
+            "stedfestingverifisert": true,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.96674574302014,
+              "lon": 10.73221610569738
+            },
+            "oppdateringsdato": "2020-06-15T18:06:08"
+          },
+          {
+            "adressenavn": "Sognsveien",
+            "adressetekst": "Sognsveien 2",
+            "adressetilleggsnavn": null,
+            "adressekode": 16762,
+            "nummer": 2,
+            "bokstav": "",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 220,
+            "bruksnummer": 85,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [
+              "H0101",
+              "H0102",
+              "H0103",
+              "H0104",
+              "H0105",
+              "H0106",
+              "H0201",
+              "H0202",
+              "H0203",
+              "H0204",
+              "H0205",
+              "H0206",
+              "H0207",
+              "H0208",
+              "H0301",
+              "H0302",
+              "H0303",
+              "H0304",
+              "H0305",
+              "H0306",
+              "H0307",
+              "H0308",
+              "H0401",
+              "H0402",
+              "H0403",
+              "H0404",
+              "H0405",
+              "H0406",
+              "H0407",
+              "H0408",
+              "H0501",
+              "H0502",
+              "H0503",
+              "H0504",
+              "H0505",
+              "H0506",
+              "H0507",
+              "H0508"
+            ],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0451",
+            "adressetekstutenadressetilleggsnavn": "Sognsveien 2",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.93324471061785,
+              "lon": 10.734645671147929
+            },
+            "oppdateringsdato": "2020-06-15T18:06:08"
+          },
+          {
+            "adressenavn": "Sognsveien",
+            "adressetekst": "Sognsveien 220B",
+            "adressetilleggsnavn": null,
+            "adressekode": 16762,
+            "nummer": 220,
+            "bokstav": "B",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 51,
+            "bruksnummer": 14,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0863",
+            "adressetekstutenadressetilleggsnavn": "Sognsveien 220B",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.965734900251995,
+              "lon": 10.73088068495398
+            },
+            "oppdateringsdato": "2020-06-15T18:06:53"
+          },
+          {
+            "adressenavn": "Sognsveien",
+            "adressetekst": "Sognsveien 220C",
+            "adressetilleggsnavn": null,
+            "adressekode": 16762,
+            "nummer": 220,
+            "bokstav": "C",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 51,
+            "bruksnummer": 14,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0863",
+            "adressetekstutenadressetilleggsnavn": "Sognsveien 220C",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.9657984311227,
+              "lon": 10.730830258275912
+            },
+            "oppdateringsdato": "2020-06-15T18:06:53"
+          },
+          {
+            "adressenavn": "Sognsveien",
+            "adressetekst": "Sognsveien 220D",
+            "adressetilleggsnavn": null,
+            "adressekode": 16762,
+            "nummer": 220,
+            "bokstav": "D",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 51,
+            "bruksnummer": 14,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0863",
+            "adressetekstutenadressetilleggsnavn": "Sognsveien 220D",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.965861961974404,
+              "lon": 10.730779831406485
+            },
+            "oppdateringsdato": "2020-06-15T18:06:53"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Edvard Munchs plass 1 Oslo",
+      "url": "https://api.kartverket.no/adresser/v1/sok?sok=Edvard+Munchs+plass+1+Oslo&treffPerSide=5",
+      "checkedAt": "2026-10-28T02:32:40.043863+00:00",
+      "response": {
+        "metadata": {
+          "treffPerSide": 5,
+          "side": 0,
+          "totaltAntallTreff": 1,
+          "viserFra": 0,
+          "viserTil": 5,
+          "sokeStreng": "sok=Edvard+Munchs+plass+1+Oslo&treffPerSide=5",
+          "asciiKompatibel": true
+        },
+        "adresser": [
+          {
+            "adressenavn": "Edvard Munchs plass",
+            "adressetekst": "Edvard Munchs plass 1",
+            "adressetilleggsnavn": null,
+            "adressekode": 21680,
+            "nummer": 1,
+            "bokstav": "",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 234,
+            "bruksnummer": 132,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0194",
+            "adressetekstutenadressetilleggsnavn": "Edvard Munchs plass 1",
+            "stedfestingverifisert": true,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.90610628585983,
+              "lon": 10.755349504799668
+            },
+            "oppdateringsdato": "2024-02-13T17:40:42"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Drammensveien 89 Oslo",
+      "url": "https://api.kartverket.no/adresser/v1/sok?sok=Drammensveien+89+Oslo&treffPerSide=5",
+      "checkedAt": "2026-10-28T02:32:42.725292+00:00",
+      "response": {
+        "metadata": {
+          "treffPerSide": 5,
+          "side": 0,
+          "totaltAntallTreff": 2,
+          "viserFra": 0,
+          "viserTil": 5,
+          "sokeStreng": "sok=Drammensveien+89+Oslo&treffPerSide=5",
+          "asciiKompatibel": true
+        },
+        "adresser": [
+          {
+            "adressenavn": "Drammensveien",
+            "adressetekst": "Drammensveien 89",
+            "adressetilleggsnavn": null,
+            "adressekode": 11290,
+            "nummer": 89,
+            "bokstav": "",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 212,
+            "bruksnummer": 125,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [
+              "H0101",
+              "H0201"
+            ],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0271",
+            "adressetekstutenadressetilleggsnavn": "Drammensveien 89",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.91559672435585,
+              "lon": 10.70152836657947
+            },
+            "oppdateringsdato": "2023-03-01T18:43:14"
+          },
+          {
+            "adressenavn": "Drammensveien",
+            "adressetekst": "Drammensveien 89B",
+            "adressetilleggsnavn": null,
+            "adressekode": 11290,
+            "nummer": 89,
+            "bokstav": "B",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 212,
+            "bruksnummer": 126,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [
+              "H0101",
+              "H0102",
+              "H0201",
+              "H0301",
+              "H0302",
+              "H0401",
+              "H0402",
+              "H0501"
+            ],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0271",
+            "adressetekstutenadressetilleggsnavn": "Drammensveien 89B",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.91522665581753,
+              "lon": 10.701670401212171
+            },
+            "oppdateringsdato": "2023-03-01T18:43:14"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Henrik Ibsens gate 26 Oslo",
+      "url": "https://api.kartverket.no/adresser/v1/sok?sok=Henrik+Ibsens+gate+26+Oslo&treffPerSide=5",
+      "checkedAt": "2026-10-28T02:32:46.662004+00:00",
+      "response": {
+        "metadata": {
+          "treffPerSide": 5,
+          "side": 0,
+          "totaltAntallTreff": 2,
+          "viserFra": 0,
+          "viserTil": 5,
+          "sokeStreng": "sok=Henrik+Ibsens+gate+26+Oslo&treffPerSide=5",
+          "asciiKompatibel": true
+        },
+        "adresser": [
+          {
+            "adressenavn": "Henrik Ibsens gate",
+            "adressetekst": "Henrik Ibsens gate 26",
+            "adressetilleggsnavn": null,
+            "adressekode": 21471,
+            "nummer": 26,
+            "bokstav": "",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 209,
+            "bruksnummer": 1,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [
+              "H0101",
+              "H0102"
+            ],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0255",
+            "adressetekstutenadressetilleggsnavn": "Henrik Ibsens gate 26",
+            "stedfestingverifisert": true,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.91515705554605,
+              "lon": 10.726845706511865
+            },
+            "oppdateringsdato": "2023-03-01T18:43:14"
+          },
+          {
+            "adressenavn": "Henrik Ibsens gate",
+            "adressetekst": "Henrik Ibsens gate 4",
+            "adressetilleggsnavn": null,
+            "adressekode": 21471,
+            "nummer": 4,
+            "bokstav": "",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 209,
+            "bruksnummer": 26,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0255",
+            "adressetekstutenadressetilleggsnavn": "Henrik Ibsens gate 4",
+            "stedfestingverifisert": true,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.915108079689254,
+              "lon": 10.728458319035061
+            },
+            "oppdateringsdato": "2020-06-15T18:07:30"
+          }
+        ]
+      }
+    },
+    {
+      "query": "C. J. Hambros plass 5 Oslo",
+      "url": "https://api.kartverket.no/adresser/v1/sok?sok=C.+J.+Hambros+plass+5+Oslo&treffPerSide=5",
+      "checkedAt": "2026-10-28T02:34:23.117272+00:00",
+      "response": {
+        "metadata": {
+          "treffPerSide": 5,
+          "side": 0,
+          "totaltAntallTreff": 1,
+          "viserFra": 0,
+          "viserTil": 5,
+          "sokeStreng": "sok=C.+J.+Hambros+plass+5+Oslo&treffPerSide=5",
+          "asciiKompatibel": true
+        },
+        "adresser": [
+          {
+            "adressenavn": "C. J. Hambros plass",
+            "adressetekst": "C. J. Hambros plass 5",
+            "adressetilleggsnavn": null,
+            "adressekode": 11017,
+            "nummer": 5,
+            "bokstav": "",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 207,
+            "bruksnummer": 207,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0164",
+            "adressetekstutenadressetilleggsnavn": "C. J. Hambros plass 5",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.91540665264817,
+              "lon": 10.740851482974401
+            },
+            "oppdateringsdato": "2020-06-15T18:02:11"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Karl Johans gate 47 Oslo",
+      "url": "https://api.kartverket.no/adresser/v1/sok?sok=Karl+Johans+gate+47+Oslo&treffPerSide=5",
+      "checkedAt": "2026-10-28T02:34:26.272517+00:00",
+      "response": {
+        "metadata": {
+          "treffPerSide": 5,
+          "side": 0,
+          "totaltAntallTreff": 1,
+          "viserFra": 0,
+          "viserTil": 5,
+          "sokeStreng": "sok=Karl+Johans+gate+47+Oslo&treffPerSide=5",
+          "asciiKompatibel": true
+        },
+        "adresser": [
+          {
+            "adressenavn": "Karl Johans gate",
+            "adressetekst": "Karl Johans gate 47",
+            "adressetilleggsnavn": null,
+            "adressekode": 13630,
+            "nummer": 47,
+            "bokstav": "",
+            "kommunenummer": "0301",
+            "kommunenavn": "OSLO",
+            "gardsnummer": 209,
+            "bruksnummer": 142,
+            "festenummer": 0,
+            "undernummer": null,
+            "bruksenhetsnummer": [],
+            "objtype": "Vegadresse",
+            "poststed": "OSLO",
+            "postnummer": "0162",
+            "adressetekstutenadressetilleggsnavn": "Karl Johans gate 47",
+            "stedfestingverifisert": false,
+            "representasjonspunkt": {
+              "epsg": "EPSG:4258",
+              "lat": 59.91535570075229,
+              "lon": 10.735178715248589
+            },
+            "oppdateringsdato": "2020-06-15T18:04:06"
+          }
+        ]
+      }
+    }
+  ]
+}

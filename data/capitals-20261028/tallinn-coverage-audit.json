@@ -1,0 +1,235 @@
+{
+  "apiRows": 103,
+  "uniqueProgrammeIds": 91,
+  "overlappingWindowUniqueProgrammeIds": 51,
+  "pagination": "Public shipped JavaScript fetches one complete /api/v1/event list and filters locally by event/time IDs. No page controls/endpoints observed; no invented page traversal. Entire103-row response screened, 51 unique programmes overlap window.",
+  "sourceApiUrl": "https://www.visittallinn.ee/api/v1/event?lang=eng&prefix=eng",
+  "rawFile": "/workspace/shared/tallinn-research/events-api.json",
+  "coordinatePolicy": "Do not trust raw venue coordinates blindly: Salme Cultural Centre point is wrong-city. Canonical latitude/longitude null until independent venue QA.",
+  "checkedAt": "2026-10-28T03:42:42.297695+00:00",
+  "complete": false,
+  "programmeCount": 74,
+  "scheduledOccurrences": 94,
+  "exhibitions": 16,
+  "categories": {
+    "art": 15,
+    "music": 22,
+    "city": 6,
+    "kids": 8,
+    "sport": 3,
+    "food": 2,
+    "talk": 3,
+    "workshop": 6,
+    "theatre": 9
+  },
+  "sourceOrder": [
+    "VisitTallinn full public agenda response and full organiser/venue detail pages",
+    "Official opera public programme and full details; organizer Fienta/Piletilevi reserves",
+    "Public Telegram announcement previews",
+    "Public conversational chat landing/preview attempt"
+  ],
+  "dateMatrix": [
+    {
+      "date": "2026-10-28",
+      "scheduledOccurrences": 2,
+      "openExhibitions": 15
+    },
+    {
+      "date": "2026-10-29",
+      "scheduledOccurrences": 3,
+      "openExhibitions": 15
+    },
+    {
+      "date": "2026-10-30",
+      "scheduledOccurrences": 4,
+      "openExhibitions": 15
+    },
+    {
+      "date": "2026-10-31",
+      "scheduledOccurrences": 5,
+      "openExhibitions": 15
+    },
+    {
+      "date": "2026-11-01",
+      "scheduledOccurrences": 9,
+      "openExhibitions": 13
+    },
+    {
+      "date": "2026-11-02",
+      "scheduledOccurrences": 3,
+      "openExhibitions": 5
+    },
+    {
+      "date": "2026-11-03",
+      "scheduledOccurrences": 1,
+      "openExhibitions": 11
+    },
+    {
+      "date": "2026-11-04",
+      "scheduledOccurrences": 3,
+      "openExhibitions": 12
+    },
+    {
+      "date": "2026-11-05",
+      "scheduledOccurrences": 2,
+      "openExhibitions": 12
+    },
+    {
+      "date": "2026-11-06",
+      "scheduledOccurrences": 3,
+      "openExhibitions": 13
+    },
+    {
+      "date": "2026-11-07",
+      "scheduledOccurrences": 8,
+      "openExhibitions": 13
+    },
+    {
+      "date": "2026-11-08",
+      "scheduledOccurrences": 3,
+      "openExhibitions": 12
+    },
+    {
+      "date": "2026-11-09",
+      "scheduledOccurrences": 1,
+      "openExhibitions": 5
+    },
+    {
+      "date": "2026-11-10",
+      "scheduledOccurrences": 0,
+      "openExhibitions": 12
+    },
+    {
+      "date": "2026-11-11",
+      "scheduledOccurrences": 1,
+      "openExhibitions": 13
+    },
+    {
+      "date": "2026-11-12",
+      "scheduledOccurrences": 3,
+      "openExhibitions": 13
+    },
+    {
+      "date": "2026-11-13",
+      "scheduledOccurrences": 4,
+      "openExhibitions": 13
+    },
+    {
+      "date": "2026-11-14",
+      "scheduledOccurrences": 4,
+      "openExhibitions": 13
+    },
+    {
+      "date": "2026-11-15",
+      "scheduledOccurrences": 5,
+      "openExhibitions": 12
+    },
+    {
+      "date": "2026-11-16",
+      "scheduledOccurrences": 4,
+      "openExhibitions": 5
+    },
+    {
+      "date": "2026-11-17",
+      "scheduledOccurrences": 3,
+      "openExhibitions": 11
+    },
+    {
+      "date": "2026-11-18",
+      "scheduledOccurrences": 0,
+      "openExhibitions": 12
+    },
+    {
+      "date": "2026-11-19",
+      "scheduledOccurrences": 3,
+      "openExhibitions": 12
+    },
+    {
+      "date": "2026-11-20",
+      "scheduledOccurrences": 7,
+      "openExhibitions": 12
+    },
+    {
+      "date": "2026-11-21",
+      "scheduledOccurrences": 5,
+      "openExhibitions": 12
+    },
+    {
+      "date": "2026-11-22",
+      "scheduledOccurrences": 2,
+      "openExhibitions": 11
+    },
+    {
+      "date": "2026-11-23",
+      "scheduledOccurrences": 2,
+      "openExhibitions": 5
+    },
+    {
+      "date": "2026-11-24",
+      "scheduledOccurrences": 3,
+      "openExhibitions": 10
+    },
+    {
+      "date": "2026-11-25",
+      "scheduledOccurrences": 0,
+      "openExhibitions": 11
+    },
+    {
+      "date": "2026-11-26",
+      "scheduledOccurrences": 1,
+      "openExhibitions": 11
+    }
+  ],
+  "telegram": [
+    {
+      "sourceUrl": "https://t.me/s/AfishaMiraTallinn",
+      "status": "read_public_announcement_preview",
+      "result": "Visible announcement bodies mostly spring/summer or December, no complete verified 2026 horizon candidate."
+    },
+    {
+      "sourceUrl": "https://t.me/s/AfishaMiraTallinn?before=119",
+      "status": "read_public_announcement_preview",
+      "result": "November announcements visible, but year absent and nearby material explicitly references 2024. Not imported as 2026; no guessed year."
+    },
+    {
+      "sourceUrl": "https://t.me/Estoniyachat",
+      "status": "profile_only",
+      "result": "Public conversational Estonia chat landing page visible; no conversation bodies. /s/Estoniyachat inaccessible via reader; stopped, no join/login."
+    },
+    {
+      "sourceUrl": "https://t.me/s/tallinnas",
+      "status": "read_public_channel_preview_not_chat",
+      "result": "Old city-life material including explicit 2020 context; no current eligible announcements. Not claimed conversational chat coverage."
+    }
+  ],
+  "blockers": [
+    {
+      "action": "Read official exhibition page",
+      "target": "https://vabamu.ee/",
+      "status": "HTTP403 on exhibition detail",
+      "reason": "Denied public fetch; no bypass or authenticated access attempted; candidate held."
+    },
+    {
+      "action": "Read official exhibition page",
+      "target": "https://loodusmuuseum.ee/",
+      "status": "HTTP503 on exhibition detail",
+      "reason": "Public fetch unavailable; candidate held without invented visiting hours."
+    },
+    {
+      "action": "Read public conversational messages",
+      "target": "https://t.me/s/Estoniyachat",
+      "status": "Reader inaccessible / landing profile only",
+      "reason": "Messages unavailable without joining or application access; no join, login or posting."
+    }
+  ],
+  "limits": [
+    "Not a complete Tallinn census. Main103-row response fully screened,51 unique overlapping programmes; selected detailed venue reserves expand it.",
+    "No invented pagination: city frontend fetches a single full list. Opera API62 rows returned next:null, audited separately.",
+    "Multi-venue PÖFF/TAB/restaurantweek/citywide museum Sunday held rather than pinning a city-office or fabricating daily sessions.",
+    "Regular exhibition visiting windows retained as ranges and opening hours, not converted to fabricated performances.",
+    "Generic weekly Kumu family card held; only explicitly dated Nov15 child programme imported.",
+    "Unknown prices, end times, cancellations and sold-out states remain null; available snapshots are not a stock guarantee.",
+    "City API boolean free:false not interpreted as admission charged where prose says free.",
+    "Raw Salme pin is wrong-city; no raw API coordinates promoted without separate independent venue QA."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "happymap-moscow-social-expansion-v1",
+  "batch": "moscow-social-expansion-20261014-afternoon",
+  "checkedAt": "2026-10-14T13:24:00Z",
+  "windowStart": "2026-10-14",
+  "windowEnd": "2026-11-13",
+  "baselineVersion": 99,
+  "baselineCommit": "35d4ab682371931d73295977f3a46ae9b1cd7062",
+  "eventsBefore": 2773,
+  "eventsAfter": 2799,
+  "newUniqueEvents": 26,
+  "newIds": [
+    "social-msk-cdd1fa935e0c0c08",
+    "social-msk-02b18aa00b74b81e",
+    "social-msk-488b884804e46bcc",
+    "social-msk-7ef8d3601ec2eef5",
+    "social-msk-55a6670acdff49fb",
+    "social-msk-3807cd68527b7728",
+    "social-msk-f02cff0ab7e869b6",
+    "social-msk-f71c71cf0cf3653a",
+    "social-msk-181f86155620333f",
+    "social-msk-f64abffd6d546c7a",
+    "social-msk-547755f34e57abfa",
+    "social-msk-07b8537ff540b0e1",
+    "social-msk-7055e02700d36b61",
+    "social-msk-41bb954bd6cef3f0",
+    "social-msk-dd0089248d89656d",
+    "social-msk-0817297351cf8884",
+    "social-msk-e7d646889f1431e0",
+    "social-msk-98f8ff80a4d5c106",
+    "social-msk-f13b9fd7d583c591",
+    "social-msk-360987277e64008d",
+    "social-msk-b798c05cd37de74f",
+    "social-msk-10efdcbcb2b92548",
+    "social-msk-a6b7754e47113ed6",
+    "social-msk-89c5b0b1098f67ce",
+    "social-msk-ba27d898c5bbbf7a",
+    "social-msk-3050a888db3baef8"
+  ],
+  "summary": {
+    "newEventRows": 26,
+    "oneOffEvents": 24,
+    "exhibitionRuns": 2,
+    "cinemaSessions": 0,
+    "distinctVenuePins": 7,
+    "freeAdmissionRows": 13,
+    "unknownPriceRows": 7,
+    "unknownEndRows": 11
+  },
+  "permanentPlacesAdded": 0,
+  "sourceAccessPointsReviewed": 13,
+  "sourceCounts": {
+    "reviewedAccessPoints": 13,
+    "official": 6,
+    "aggregator": 3,
+    "telegram": 4
+  },
+  "limitations": [
+    "Partial editorial research, not complete Moscow coverage or a continuous parser.",
+    "Some public Telegram profiles verified, but their complete message feeds were not readable; no event imported solely from an inaccessible feed.",
+    "Timepad registration pages returned 403; no login, CAPTCHA solving, registration or ticket purchase attempted.",
+    "Capacity and payment fees are unverified. Unknown prices and end times remain null.",
+    "Long-running exhibitions retain full dates and visiting schedules; closed weekdays are excluded.",
+    "Does not change the user’s 500 m setting.",
+    "Source evidence HTML is in the sibling evidence directory; publisher must set final publication status and IDs after deployment.",
+    "The seven venue stubs are event-map pins only, not seven new permanent-place records."
+  ],
+  "publication": {
+    "status": "release_payload"
+  }
+}

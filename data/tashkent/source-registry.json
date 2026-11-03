@@ -1,0 +1,644 @@
+{
+  "sources": [
+    {
+      "name": "teatrplus.uz",
+      "url": "https://teatrplus.uz/",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:07:59.831471+00:00"
+    },
+    {
+      "name": "ilkhom.com",
+      "url": "https://ilkhom.com/",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:07:59.831471+00:00"
+    },
+    {
+      "name": "www.acdflibrary.uz",
+      "url": "https://www.acdflibrary.uz/ru/events/clubs-10-26/program",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:07:59.831471+00:00"
+    },
+    {
+      "name": "ichkari.com",
+      "url": "https://ichkari.com/sawt-chor-minor",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:07:59.831471+00:00"
+    },
+    {
+      "name": "bravomusic.uz",
+      "url": "https://bravomusic.uz/",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:07:59.831471+00:00"
+    },
+    {
+      "name": "showgo.uz",
+      "url": "https://showgo.uz/en",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:07:59.831471+00:00"
+    },
+    {
+      "name": "sellers.uzum.market",
+      "url": "https://sellers.uzum.market/",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:07:59.831471+00:00"
+    },
+    {
+      "name": "www.afisha.uz",
+      "url": "https://www.afisha.uz/ru/concerts",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:07:59.831471+00:00"
+    },
+    {
+      "name": "mfest.uz",
+      "url": "https://mfest.uz",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:07:59.831471+00:00"
+    },
+    {
+      "name": "kudapoytiuz",
+      "url": "https://t.me/s/kudapoytiuz",
+      "status": "partial-read",
+      "checkedAt": "2026-10-19T08:02:57.972597+00:00"
+    },
+    {
+      "name": "afishauz",
+      "url": "https://t.me/s/afishauz",
+      "status": "partial-read",
+      "checkedAt": "2026-10-19T08:02:57.622765+00:00"
+    },
+    {
+      "name": "afishauzb",
+      "url": "https://t.me/s/afishauzb",
+      "status": "partial-read",
+      "checkedAt": "2026-10-19T08:02:57.637165+00:00"
+    },
+    {
+      "name": "bravo_orchestra",
+      "url": "https://t.me/s/bravo_orchestra",
+      "status": "partial-read",
+      "checkedAt": "2026-10-19T08:02:57.959371+00:00"
+    },
+    {
+      "name": "afisha_uzdk",
+      "url": "https://t.me/s/afisha_uzdk",
+      "status": "partial-read",
+      "checkedAt": "2026-10-19T08:02:57.688766+00:00"
+    },
+    {
+      "name": "gabtuzb",
+      "url": "https://t.me/s/gabtuzb",
+      "status": "partial-read",
+      "checkedAt": "2026-10-19T08:05:42.955875+00:00"
+    },
+    {
+      "name": "acdflibrary_official",
+      "url": "https://t.me/s/acdflibrary_official",
+      "status": "partial-read",
+      "checkedAt": "2026-10-19T08:05:43.141460+00:00"
+    },
+    {
+      "name": "orkestr_xor_uz",
+      "url": "https://t.me/s/orkestr_xor_uz",
+      "status": "partial-read",
+      "checkedAt": "2026-10-19T08:05:43.091701+00:00"
+    },
+    {
+      "name": "iTicket",
+      "url": "https://iticket.uz/",
+      "status": "partial",
+      "note": "Fresh direct fetch returned HTML shell; no event facts confirmed by this recheck.",
+      "checkedAt": "2026-10-19T08:12:56.266081+00:00",
+      "lastAttempt": {
+        "at": "2026-10-19T08:12:56.266081+00:00",
+        "httpStatus": 200,
+        "bytes": 7014
+      }
+    },
+    {
+      "name": "Ticketon",
+      "url": "https://ticketon.uz/",
+      "status": "access-error",
+      "note": "HTTP403 on direct open; search snippet not counted as verified source.",
+      "checkedAt": "2026-10-19T08:12:56.411269+00:00",
+      "lastAttempt": {
+        "at": "2026-10-19T08:12:56.411269+00:00",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "name": "GABT website",
+      "url": "https://gabt.uz",
+      "status": "access-error",
+      "note": "TLS hostname mismatch; official Telegram used.",
+      "checkedAt": "2026-10-19T08:12:56.650497+00:00",
+      "lastAttempt": {
+        "at": "2026-10-19T08:12:56.650497+00:00",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'gabt.uz'. (_ssl.c:1129)>"
+      }
+    },
+    {
+      "name": "ICHKARI programme",
+      "url": "https://ichkari.com/events",
+      "status": "checked",
+      "checkedAt": "2026-10-19T08:07:59.831471+00:00"
+    },
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/relation/2216724",
+      "checkedAt": "2026-10-19T08:05:34.403320+00:00",
+      "status": "directory_snapshot",
+      "note": "3091 named place records after boundary filtering and deduplication; operating status not individually verified. ODbL source export: /downloads/city-directories-20261019/tashkent-osm.json.gz"
+    },
+    {
+      "id": "afisha-ne-boysya-millat",
+      "name": "Afisha.uz — ne-boysya-millat",
+      "url": "https://www.afisha.uz/ru/theatres/2026/08/28/ne-boysya-millat",
+      "checkedAt": "2026-10-19T11:03:03.635991+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-shaddod-2010",
+      "name": "Afisha.uz — shaddod-2010",
+      "url": "https://www.afisha.uz/ru/theatres/2026/10/13/shaddod-2010",
+      "checkedAt": "2026-10-19T11:03:03.703220+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-ochiq-dars",
+      "name": "Afisha.uz — ochiq-dars",
+      "url": "https://www.afisha.uz/ru/theatres/2026/10/12/ochiq-dars",
+      "checkedAt": "2026-10-19T11:03:03.628239+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-pushkin",
+      "name": "Afisha.uz — pushkin",
+      "url": "https://www.afisha.uz/ru/theatres/2026/09/21/pushkin",
+      "checkedAt": "2026-10-19T11:03:04.606059+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-in-the-mahalla",
+      "name": "Afisha.uz — in-the-mahalla",
+      "url": "https://www.afisha.uz/ru/theatres/2026/08/11/in-the-mahalla",
+      "checkedAt": "2026-10-19T11:03:04.949693+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-poteryan-23",
+      "name": "Afisha.uz — poteryan-23",
+      "url": "https://www.afisha.uz/ru/theatres/2026/10/12/poteryan-23",
+      "checkedAt": "2026-10-19T11:03:04.962062+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-baby",
+      "name": "Afisha.uz — baby",
+      "url": "https://www.afisha.uz/ru/theatres/2026/09/22/baby",
+      "checkedAt": "2026-10-19T11:03:04.956720+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-piano-concert",
+      "name": "Afisha.uz — piano-concert",
+      "url": "https://www.afisha.uz/ru/concerts/2026/10/08/piano-concert",
+      "checkedAt": "2026-10-19T11:03:10.866021+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-shoua-nepara",
+      "name": "Afisha.uz — shoua-nepara",
+      "url": "https://www.afisha.uz/ru/concerts/2026/09/27/shoua-nepara",
+      "checkedAt": "2026-10-19T11:03:11.093933+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-shohjahon-jo-rayev",
+      "name": "Afisha.uz — shohjahon-jo-rayev",
+      "url": "https://www.afisha.uz/ru/concerts/2026/07/13/shohjahon-jo-rayev",
+      "checkedAt": "2026-10-19T11:03:11.387772+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-scallymilano",
+      "name": "Afisha.uz — scallymilano",
+      "url": "https://www.afisha.uz/ru/concerts/2026/09/27/scallymilano",
+      "checkedAt": "2026-10-19T11:03:11.409312+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-outlandish",
+      "name": "Afisha.uz — outlandish",
+      "url": "https://www.afisha.uz/ru/restaurants/2026/09/17/outlandish",
+      "checkedAt": "2026-10-19T11:03:11.537346+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-silver-age",
+      "name": "Afisha.uz — silver-age",
+      "url": "https://www.afisha.uz/ru/concerts/2026/08/12/silver-age",
+      "checkedAt": "2026-10-19T11:03:11.759568+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-einaudi",
+      "name": "Afisha.uz — einaudi",
+      "url": "https://www.afisha.uz/ru/concerts/2026/09/10/einaudi",
+      "checkedAt": "2026-10-19T11:03:12.033765+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-mot",
+      "name": "Afisha.uz — mot",
+      "url": "https://www.afisha.uz/ru/concerts/2026/06/17/mot",
+      "checkedAt": "2026-10-19T11:03:11.972906+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-uzenergyexpo-2026",
+      "name": "Afisha.uz — uzenergyexpo-2026",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/05/25/uzenergyexpo-2026",
+      "checkedAt": "2026-10-19T11:03:14.865880+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-uzstroy",
+      "name": "Afisha.uz — uzstroy",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/09/10/uzstroy",
+      "checkedAt": "2026-10-19T11:03:15.118223+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-vystavka-automechanika-tashkent-2026",
+      "name": "Afisha.uz — vystavka-automechanika-tashkent-2026",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/08/03/vystavka-automechanika-tashkent-2026",
+      "checkedAt": "2026-10-19T11:03:15.146436+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-vystavka-eurasian-construction-technology-2026",
+      "name": "Afisha.uz — vystavka-eurasian-construction-technology-2026",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/08/03/vystavka-eurasian-construction-technology-2026",
+      "checkedAt": "2026-10-19T11:03:15.279784+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-vystavka-comtrux-tashkent-2026",
+      "name": "Afisha.uz — vystavka-comtrux-tashkent-2026",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/08/03/vystavka-comtrux-tashkent-2026",
+      "checkedAt": "2026-10-19T11:03:15.336530+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-benchellal-vystavka",
+      "name": "Afisha.uz — benchellal-vystavka",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/08/25/benchellal-vystavka",
+      "checkedAt": "2026-10-19T11:03:15.455885+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-hikmah",
+      "name": "Afisha.uz — hikmah",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/08/17/hikmah",
+      "checkedAt": "2026-10-19T11:03:15.777152+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-interflows",
+      "name": "Afisha.uz — interflows",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/09/28/interflows",
+      "checkedAt": "2026-10-19T11:03:16.141735+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-vystavka-cereteli",
+      "name": "Afisha.uz — vystavka-cereteli",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/08/13/vystavka-cereteli",
+      "checkedAt": "2026-10-19T11:03:16.080072+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-sanatup-gi",
+      "name": "Afisha.uz — sanatup-gi",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/10/01/sanatup-gi",
+      "checkedAt": "2026-10-19T11:03:16.266950+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-yaltyult",
+      "name": "Afisha.uz — yaltyult",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/09/17/yaltyult",
+      "checkedAt": "2026-10-19T11:03:16.369409+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-nazhimov",
+      "name": "Afisha.uz — nazhimov",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/10/06/nazhimov",
+      "checkedAt": "2026-10-19T11:03:16.462723+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-shou-mylnyh-puzyrej-v-jungle-family-club-2026",
+      "name": "Afisha.uz — shou-mylnyh-puzyrej-v-jungle-family-club-2026",
+      "url": "https://www.afisha.uz/ru/children/2026/08/10/shou-mylnyh-puzyrej-v-jungle-family-club-2026",
+      "checkedAt": "2026-10-19T11:03:18.943803+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-chemshow",
+      "name": "Afisha.uz — chemshow",
+      "url": "https://www.afisha.uz/ru/children/2026/10/05/chemshow",
+      "checkedAt": "2026-10-19T11:03:19.111440+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-picca-master-klass-jungle-family-club",
+      "name": "Afisha.uz — picca-master-klass-jungle-family-club",
+      "url": "https://www.afisha.uz/ru/children/2026/08/06/picca-master-klass-jungle-family-club",
+      "checkedAt": "2026-10-19T11:03:19.288488+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-astro-days",
+      "name": "Afisha.uz — astro-days",
+      "url": "https://www.afisha.uz/ru/children/2026/10/07/astro-days",
+      "checkedAt": "2026-10-19T11:03:19.469477+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-bento-jungle",
+      "name": "Afisha.uz — bento-jungle",
+      "url": "https://www.afisha.uz/ru/children/2026/10/16/bento-jungle",
+      "checkedAt": "2026-10-19T11:03:19.564489+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-magic-jungle",
+      "name": "Afisha.uz — magic-jungle",
+      "url": "https://www.afisha.uz/ru/children/2026/10/14/magic-jungle",
+      "checkedAt": "2026-10-19T11:03:19.537639+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-mcraft-show",
+      "name": "Afisha.uz — mcraft-show",
+      "url": "https://www.afisha.uz/ru/children/2026/10/14/mcraft-show",
+      "checkedAt": "2026-10-19T11:03:20.007634+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-buratino",
+      "name": "Afisha.uz — buratino",
+      "url": "https://www.afisha.uz/ru/theatres/2026/09/22/buratino",
+      "checkedAt": "2026-10-19T11:03:20.271976+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-dino-party",
+      "name": "Afisha.uz — dino-party",
+      "url": "https://www.afisha.uz/ru/children/2026/10/14/dino-party",
+      "checkedAt": "2026-10-19T11:03:20.292740+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-motorfest2",
+      "name": "Afisha.uz — motorfest2",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/27/motorfest2",
+      "checkedAt": "2026-10-19T11:03:20.967327+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-teni-doma",
+      "name": "Afisha.uz — teni-doma",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/23/teni-doma",
+      "checkedAt": "2026-10-19T11:03:23.704850+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-eurofilm-26",
+      "name": "Afisha.uz — eurofilm-26",
+      "url": "https://www.afisha.uz/ru/cinema/2026/10/12/eurofilm-26",
+      "checkedAt": "2026-10-19T11:03:23.879203+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-ichkari-kur",
+      "name": "Afisha.uz — ichkari-kur",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/12/ichkari-kur",
+      "checkedAt": "2026-10-19T11:03:23.383734+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-feyerverk-shou-tashkent-city",
+      "name": "Afisha.uz — feyerverk-shou-tashkent-city",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/17/feyerverk-shou-tashkent-city",
+      "checkedAt": "2026-10-19T11:03:23.694211+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-openmic",
+      "name": "Afisha.uz — openmic",
+      "url": "https://www.afisha.uz/ru/standup/2026/10/05/openmic",
+      "checkedAt": "2026-10-19T11:03:24.791923+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-bekzod-2210",
+      "name": "Afisha.uz — bekzod-2210",
+      "url": "https://www.afisha.uz/ru/standup/2026/10/13/bekzod-2210",
+      "checkedAt": "2026-10-19T11:03:24.926528+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-houston-okt",
+      "name": "Afisha.uz — houston-okt",
+      "url": "https://www.afisha.uz/ru/standup/2026/09/23/houston-okt",
+      "checkedAt": "2026-10-19T11:03:25.148040+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-botirov-2310",
+      "name": "Afisha.uz — botirov-2310",
+      "url": "https://www.afisha.uz/ru/standup/2026/10/13/botirov-2310",
+      "checkedAt": "2026-10-19T11:03:25.697056+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-weekend-stand-up",
+      "name": "Afisha.uz — weekend-stand-up",
+      "url": "https://www.afisha.uz/ru/standup/2026/10/19/weekend-stand-up",
+      "checkedAt": "2026-10-19T11:03:25.772913+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-subject-closed",
+      "name": "Afisha.uz — subject-closed",
+      "url": "https://www.afisha.uz/ru/standup/2026/10/19/subject-closed",
+      "checkedAt": "2026-10-19T11:03:25.899467+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-improv-2410",
+      "name": "Afisha.uz — improv-2410",
+      "url": "https://www.afisha.uz/ru/standup/2026/10/19/improv-2410",
+      "checkedAt": "2026-10-19T11:03:25.997870+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-prozharka24",
+      "name": "Afisha.uz — prozharka24",
+      "url": "https://www.afisha.uz/ru/standup/2026/10/19/prozharka24",
+      "checkedAt": "2026-10-19T11:03:26.015187+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-timur",
+      "name": "Afisha.uz — timur",
+      "url": "https://www.afisha.uz/ru/standup/2026/09/22/timur",
+      "checkedAt": "2026-10-19T11:03:26.166211+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "afisha-gold-wheel",
+      "name": "Afisha.uz — gold-wheel",
+      "url": "https://www.afisha.uz/ru/standup/2026/10/14/gold-wheel",
+      "checkedAt": "2026-10-19T11:03:26.724243+00:00",
+      "status": "checked",
+      "type": "city-agenda",
+      "note": "Visible announcement and schedule reviewed; publisher venue JSON-LD read."
+    },
+    {
+      "id": "tashkent-showgo-recheck",
+      "name": "ShowGo.uz",
+      "url": "https://showgo.uz/ru",
+      "checkedAt": "2026-10-19T11:06:27.836177+00:00",
+      "status": "checked",
+      "note": "Main public catalogue reviewed. Additional concert requires venue verification."
+    },
+    {
+      "id": "tashkent-bolshoi-solnyi-kontsert-islama-itlyasheva-25-okt",
+      "name": "ANONS.uz — Islam Itlyashev",
+      "url": "https://anons.uz/ru/concerts/bolshoi-solnyi-kontsert-islama-itlyasheva-25-okt",
+      "checkedAt": "2026-10-19T11:08:58.210232+00:00",
+      "status": "checked",
+      "type": "city-agenda"
+    },
+    {
+      "id": "tashkent-master-klassy-v-your-time-your-life-25",
+      "name": "ANONS.uz — Your Time Your Life",
+      "url": "https://anons.uz/ru/events/master-klassy-v-your-time-your-life-25",
+      "checkedAt": "2026-10-19T11:08:58.210232+00:00",
+      "status": "checked",
+      "type": "city-agenda"
+    },
+    {
+      "id": "tashkent-vystavka-puteshestvie-v-andakulova-gallery",
+      "name": "ANONS.uz — Journey exhibition",
+      "url": "https://anons.uz/ru/events/vystavka-puteshestvie-v-andakulova-gallery",
+      "checkedAt": "2026-10-19T11:08:58.210232+00:00",
+      "status": "checked",
+      "type": "city-agenda"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-24T05:44:30Z",
+  "baseCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+  "events": [
+    {
+      "venueId": "prague-32572096a75c",
+      "address": "Malostranské náměstí258/13,11800 Praha1",
+      "lat": 50.088143182636,
+      "lng": 14.402139705523,
+      "coordinateSource": "https://prague.eu/en/akce/nikolay-medvedev-fusions/",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "prague-d61c0ddaafb892ff",
+      "cityId": "prague",
+      "title": "Atlántida Chamber Orchestra — Titan: Mahler’s First Symphony",
+      "date": "2026-10-29",
+      "time": "19:00",
+      "venue": "Liechtenstein Palace — Bohuslav Martinů Hall",
+      "sourceUrl": "https://prague.eu/en/akce/atlantida-chamber-orchestra/",
+      "category": "music",
+      "price": 490,
+      "currency": "CZK",
+      "timezone": "Europe/Prague",
+      "checkedAt": "2026-10-24T05:44:30Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "priceNote": "490–790CZK,feesunknown.",
+      "sourceURLs": [
+        "https://prague.eu/en/akce/atlantida-chamber-orchestra/",
+        "https://colosseumticket.cz/en/event/L0xc2oExRpOaVLzgJ_2-dw-titan-mahlers-1st-symphony-in-prague"
+      ],
+      "statedDurationMinutes": 110,
+      "durationPrecision": "programme-stated",
+      "admission": "Boxofficefromonehourbeforeconcert; ManuelTévar conductor,MarioPrisuelos piano.",
+      "id": "prague-afisha24-5645afb84883",
+      "programmeId": "prague-afisha24-5645afb84883",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    }
+  ],
+  "held": [],
+  "sourceChecks": [
+    {
+      "city": "prague",
+      "url": "https://prague.eu/en/akce-kategorie/events/",
+      "checkedAt": "2026-10-24T05:44:30Z",
+      "status": "partial",
+      "scope": "9morefullprimarydetails read forOct24–31;8existingnotnewincludingDonTolivercorrection. Atlasnew. Calendar385programmes includesrangesnotdailyseances; remainingdetailsnotallread."
+    }
+  ],
+  "conflicts": [],
+  "existingCorrections": [
+    {
+      "cityId": "prague",
+      "id": "prague-fece855b0bc7455f",
+      "updates": {
+        "venueId": "prague-a1bf6043fa9f",
+        "address": "Českomoravská 2345/17a, 190 00, Libeň, Praha 9",
+        "lat": 50.104880928515,
+        "lng": 14.493588676335,
+        "coordinateSource": "https://prague.eu/en/akce/tipsport-extraliga-hc-sparta-praha-matches-in-o2-arena/",
+        "coordinatePrecision": "venue",
+        "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+        "baselineVenueRecordId": "prague-5e91aada6f099285",
+        "venue": "O2 arena",
+        "doors": "18:30",
+        "price": 1948,
+        "currency": "CZK",
+        "priceNote": "1948–3010CZK; mandatoryfeesunknown.",
+        "checkedAt": "2026-10-24T05:44:30Z"
+      },
+      "reason": "PrimarysidebarincorrectO2universum; officialO2arenaconfirmsarenaOct30,2026at20:00. Preserve originalID/history, updatepin/venue notnewsession.",
+      "evidence": [
+        {
+          "url": "https://www.o2arena.cz/en/events/don-toliver-nitrous-octane-world-tour-leg-en/?lang=en",
+          "checkedAt": "2026-10-24T05:44:30Z",
+          "status": "full_official_read"
+        },
+        {
+          "url": "https://prague.eu/en/akce/tipsport-extraliga-hc-sparta-praha-matches-in-o2-arena/",
+          "checkedAt": "2026-10-24T05:44:30Z",
+          "status": "reused_baseline_named_venue_pin"
+        }
+      ]
+    }
+  ]
+}

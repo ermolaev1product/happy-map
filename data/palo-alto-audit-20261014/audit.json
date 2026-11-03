@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-14T18:19:02.790191+00:00",
+  "existingRecords": 606,
+  "thursdayRecords": 57,
+  "thursdayWithCoordinates": 52,
+  "newEvents": 2,
+  "coordinatePatches": 2,
+  "finding": "57 city events versus 7 nearby, per parent browser validation. Marker cluster numerals and nearby counts are not city totals. Source coverage remains partial; no evidence for177.",
+  "checkedSources": [
+    "Stanford Events Calendar",
+    "Palo Alto Elks Lodge",
+    "Parents Nursery School",
+    "Environmental Volunteers",
+    "UC Master Gardeners",
+    "Palo Alto city Fall Family Day"
+  ],
+  "duplicatesNotAdded": [
+    "UNAFF opening session",
+    "Andy Z Fall Harvest Jam",
+    "PADG Open Garden October17",
+    "2026 Fall Family Day"
+  ],
+  "pending": [
+    {
+      "title": "Parents Nursery School Fall Fun Fest",
+      "date": "2026-10-18",
+      "time": "10:30",
+      "end": "14:00",
+      "address": "2328 Louis Road, Palo Alto, CA94303",
+      "sourceUrl": "https://www.parentsnurseryschool.org/support-pns/carnival",
+      "reason": "Coordinates not verified; public event, children2–10 $10, adults/under2free."
+    },
+    {
+      "title": "Foothills Family Nature Walk",
+      "sourceUrl": "https://www.environmentalvolunteers.org/event/family_nature_walk_oct-17th/",
+      "reason": "Official page header/calendar Oct17,2026 but body says March28. Conflicting date; do not import until event-ticket page confirms."
+    }
+  ],
+  "accessErrors": [
+    "Stanford calendar/4 webopen429; officialvenue HTML readable. Elks webopen inaccessible but officialHTML successfully fetched with embedded event JSON-LD. ClimateHealthNow page cachemiss."
+  ]
+}

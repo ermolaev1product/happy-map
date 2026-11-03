@@ -1,0 +1,4382 @@
+{
+  "city": "Sarajevo",
+  "country": "Bosnia and Herzegovina",
+  "timeZone": "Europe/Sarajevo",
+  "publicationStatus": "preparation_not_published",
+  "compiledAt": "2026-10-29T01:41:01.596146+00:00",
+  "horizon": {
+    "start": "2026-10-29",
+    "end": "2026-11-27"
+  },
+  "programmes": [
+    {
+      "id": "snowwhite",
+      "sourceId": "snowwhite",
+      "title": "Snjeguljica i sedam patuljaka",
+      "summaryEn": "A ballet adaptation of Snow White and the Seven Dwarfs.",
+      "category": "theatre",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "note": null,
+        "feeStatus": "Not confirmed",
+        "standard": null,
+        "text": null
+      },
+      "restrictions": "Price, age restrictions and step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-10-29",
+          "time": "19:30",
+          "startTime": "19:30",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": 70,
+          "price": {
+            "amount": null,
+            "currency": "BAM",
+            "unit": "person",
+            "note": null,
+            "feeStatus": "Not confirmed"
+          },
+          "sourceUrl": "https://nps.ba/repertoar/snjeguljica-i-sedam-patuljaka/998",
+          "checkedAt": "2026-10-29T01:26:56.617032+00:00",
+          "durationEvidence": "Explicit duration in full programme body; not a fabricated endAt."
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "sourceUrl": "https://nps.ba/repertoar/snjeguljica-i-sedam-patuljaka/998",
+      "checkedAt": "2026-10-29T01:26:56.617032+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "theatre",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://nps.ba/repertoar/snjeguljica-i-sedam-patuljaka/998",
+        "checkedAt": "2026-10-29T01:26:56.617032+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "halloween",
+      "sourceId": "halloween",
+      "title": "Halloween Symphonic",
+      "summaryEn": "Sarajevo Philharmonic performs Berlioz’s Symphonie fantastique.",
+      "category": "music",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "note": null,
+        "feeStatus": "Not confirmed",
+        "standard": null,
+        "text": null
+      },
+      "restrictions": "Price, age restrictions and step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-10-31",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": null,
+            "currency": "BAM",
+            "unit": "person",
+            "note": null,
+            "feeStatus": "Not confirmed"
+          },
+          "sourceUrl": "https://nps.ba/repertoar/halloween-symphonic/1052",
+          "checkedAt": "2026-10-29T01:27:02.933437+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "sourceUrl": "https://nps.ba/repertoar/halloween-symphonic/1052",
+      "checkedAt": "2026-10-29T01:27:02.933437+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://nps.ba/repertoar/halloween-symphonic/1052",
+        "checkedAt": "2026-10-29T01:27:02.933437+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "opera-gala",
+      "sourceId": "opera-gala",
+      "title": "80 Years of NPS Opera — Gala",
+      "summaryEn": "Opera soloists, choir and orchestra celebrate the company’s anniversary.",
+      "category": "music",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "note": null,
+        "feeStatus": "Not confirmed",
+        "standard": null,
+        "text": null
+      },
+      "restrictions": "Price, age restrictions and step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-19",
+          "time": "19:30",
+          "startTime": "19:30",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": null,
+            "currency": "BAM",
+            "unit": "person",
+            "note": null,
+            "feeStatus": "Not confirmed"
+          },
+          "sourceUrl": "https://nps.ba/repertoar/gala-koncert-povodom-80-godina-opere-nps/1005",
+          "checkedAt": "2026-10-29T01:27:09.055760+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "sourceUrl": "https://nps.ba/repertoar/gala-koncert-povodom-80-godina-opere-nps/1005",
+      "checkedAt": "2026-10-29T01:27:09.055760+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://nps.ba/repertoar/gala-koncert-povodom-80-godina-opere-nps/1005",
+        "checkedAt": "2026-10-29T01:27:09.055760+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "gogolj",
+      "sourceId": "gogolj",
+      "title": "Gogolj iz pepela",
+      "summaryEn": "An ensemble theatre work inspired by Gogol’s Dead Souls.",
+      "category": "theatre",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "note": null,
+        "feeStatus": "Not confirmed",
+        "standard": null,
+        "text": null
+      },
+      "restrictions": "Price, age restrictions and step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-21",
+          "time": "19:30",
+          "startTime": "19:30",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": 105,
+          "price": {
+            "amount": null,
+            "currency": "BAM",
+            "unit": "person",
+            "note": null,
+            "feeStatus": "Not confirmed"
+          },
+          "sourceUrl": "https://nps.ba/repertoar/gogolj-iz-pepela/1007",
+          "checkedAt": "2026-10-29T01:27:12.947381+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/gogolj-iz-pepela-2026-11-21"
+          ],
+          "durationEvidence": "Explicit duration in full programme body; not a fabricated endAt."
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "sourceUrl": "https://nps.ba/repertoar/gogolj-iz-pepela/1007",
+      "checkedAt": "2026-10-29T01:27:12.947381+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "theatre",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://nps.ba/repertoar/gogolj-iz-pepela/1007",
+        "checkedAt": "2026-10-29T01:27:12.947381+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "jazz-macedonian",
+      "sourceId": "jazz-macedonian",
+      "title": "Makedonski nacionalni jazz orkestar",
+      "summaryEn": "A live concert in the 2026 Jazz Fest Sarajevo programme.",
+      "category": "music",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": 50,
+        "currency": "BAM",
+        "unit": "person",
+        "note": "50 BAM or 55 BAM by seating category.",
+        "feeStatus": "Organizer explicitly states no additional costs or commission",
+        "standard": null,
+        "text": "50 BAM or 55 BAM by seating category.",
+        "min": 50,
+        "isMinimum": true
+      },
+      "restrictions": "Physical ticket collection required; no online sales on concert day. Venue sales start 30 minutes before the concert, subject to availability. Youth Theatre seating is unnumbered. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-04",
+          "time": "20:30",
+          "startTime": "20:30",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": 50,
+            "currency": "BAM",
+            "unit": "person",
+            "note": "50 BAM or 55 BAM by seating category.",
+            "feeStatus": "Organizer explicitly states no additional costs or commission"
+          },
+          "sourceUrl": "https://jazzfest.ba/kupovina/",
+          "checkedAt": "2026-10-29T01:27:22.203475+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "accessSourceId": "jazz-access",
+      "sourceUrl": "https://jazzfest.ba/kupovina/",
+      "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://jazzfest.ba/kupovina/",
+        "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "jazz-damir",
+      "sourceId": "jazz-damir",
+      "title": "Damir Imamović Group",
+      "summaryEn": "A live concert in the 2026 Jazz Fest Sarajevo programme.",
+      "category": "music",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": 45,
+        "currency": "BAM",
+        "unit": "person",
+        "note": "45 BAM or 50 BAM by seating category.",
+        "feeStatus": "Organizer explicitly states no additional costs or commission",
+        "standard": null,
+        "text": "45 BAM or 50 BAM by seating category.",
+        "min": 45,
+        "isMinimum": true
+      },
+      "restrictions": "Physical ticket collection required; no online sales on concert day. Venue sales start 30 minutes before the concert, subject to availability. Youth Theatre seating is unnumbered. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-05",
+          "time": "19:00",
+          "startTime": "19:00",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": 45,
+            "currency": "BAM",
+            "unit": "person",
+            "note": "45 BAM or 50 BAM by seating category.",
+            "feeStatus": "Organizer explicitly states no additional costs or commission"
+          },
+          "sourceUrl": "https://jazzfest.ba/kupovina/",
+          "checkedAt": "2026-10-29T01:27:22.203475+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "accessSourceId": "jazz-access",
+      "sourceUrl": "https://jazzfest.ba/kupovina/",
+      "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://jazzfest.ba/kupovina/",
+        "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "jazz-alfredo",
+      "sourceId": "jazz-alfredo",
+      "title": "Alfredo Rodríguez Band feat. Pedrito Martínez",
+      "summaryEn": "A live concert in the 2026 Jazz Fest Sarajevo programme.",
+      "category": "music",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": 55,
+        "currency": "BAM",
+        "unit": "person",
+        "note": "55 BAM or 65 BAM by seating category.",
+        "feeStatus": "Organizer explicitly states no additional costs or commission",
+        "standard": null,
+        "text": "55 BAM or 65 BAM by seating category.",
+        "min": 55,
+        "isMinimum": true
+      },
+      "restrictions": "Physical ticket collection required; no online sales on concert day. Venue sales start 30 minutes before the concert, subject to availability. Youth Theatre seating is unnumbered. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-05",
+          "time": "22:00",
+          "startTime": "22:00",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": 55,
+            "currency": "BAM",
+            "unit": "person",
+            "note": "55 BAM or 65 BAM by seating category.",
+            "feeStatus": "Organizer explicitly states no additional costs or commission"
+          },
+          "sourceUrl": "https://jazzfest.ba/kupovina/",
+          "checkedAt": "2026-10-29T01:27:22.203475+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "accessSourceId": "jazz-access",
+      "sourceUrl": "https://jazzfest.ba/kupovina/",
+      "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://jazzfest.ba/kupovina/",
+        "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "jazz-patricia",
+      "sourceId": "jazz-patricia",
+      "title": "Patricia Brennan Septet",
+      "summaryEn": "A live concert in the 2026 Jazz Fest Sarajevo programme.",
+      "category": "music",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": 45,
+        "currency": "BAM",
+        "unit": "person",
+        "note": "45 BAM or 50 BAM by seating category.",
+        "feeStatus": "Organizer explicitly states no additional costs or commission",
+        "standard": null,
+        "text": "45 BAM or 50 BAM by seating category.",
+        "min": 45,
+        "isMinimum": true
+      },
+      "restrictions": "Physical ticket collection required; no online sales on concert day. Venue sales start 30 minutes before the concert, subject to availability. Youth Theatre seating is unnumbered. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-06",
+          "time": "19:00",
+          "startTime": "19:00",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": 45,
+            "currency": "BAM",
+            "unit": "person",
+            "note": "45 BAM or 50 BAM by seating category.",
+            "feeStatus": "Organizer explicitly states no additional costs or commission"
+          },
+          "sourceUrl": "https://jazzfest.ba/kupovina/",
+          "checkedAt": "2026-10-29T01:27:22.203475+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "accessSourceId": "jazz-access",
+      "sourceUrl": "https://jazzfest.ba/kupovina/",
+      "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://jazzfest.ba/kupovina/",
+        "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "jazz-dobrila",
+      "sourceId": "jazz-dobrila",
+      "title": "Dobrila & Dorian",
+      "summaryEn": "A live concert in the 2026 Jazz Fest Sarajevo programme.",
+      "category": "music",
+      "venueId": "youth",
+      "venue": "Pozorište mladih Sarajevo",
+      "address": "Kulovića 8, Sarajevo",
+      "addressSourceId": "youth-address",
+      "verifiedCoordinates": {
+        "latitude": 43.85803,
+        "longitude": 18.42096,
+        "sourceId": "youth-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:03.502146+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_Youth_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": 35,
+        "currency": "BAM",
+        "unit": "person",
+        "note": "35 BAM.",
+        "feeStatus": "Organizer explicitly states no additional costs or commission",
+        "standard": 35,
+        "text": "35 BAM."
+      },
+      "restrictions": "Physical ticket collection required; no online sales on concert day. Venue sales start 30 minutes before the concert, subject to availability. Youth Theatre seating is unnumbered. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-06",
+          "time": "20:30",
+          "startTime": "20:30",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": 35,
+            "currency": "BAM",
+            "unit": "person",
+            "note": "35 BAM.",
+            "feeStatus": "Organizer explicitly states no additional costs or commission"
+          },
+          "sourceUrl": "https://jazzfest.ba/kupovina/",
+          "checkedAt": "2026-10-29T01:27:22.203475+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "accessSourceId": "jazz-access",
+      "sourceUrl": "https://jazzfest.ba/kupovina/",
+      "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://jazzfest.ba/kupovina/",
+        "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "jazz-moses",
+      "sourceId": "jazz-moses",
+      "title": "Moses Yoofee Trio",
+      "summaryEn": "A live concert in the 2026 Jazz Fest Sarajevo programme.",
+      "category": "music",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": 55,
+        "currency": "BAM",
+        "unit": "person",
+        "note": "55 BAM or 65 BAM by seating category.",
+        "feeStatus": "Organizer explicitly states no additional costs or commission",
+        "standard": null,
+        "text": "55 BAM or 65 BAM by seating category.",
+        "min": 55,
+        "isMinimum": true
+      },
+      "restrictions": "Physical ticket collection required; no online sales on concert day. Venue sales start 30 minutes before the concert, subject to availability. Youth Theatre seating is unnumbered. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-06",
+          "time": "22:00",
+          "startTime": "22:00",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": 55,
+            "currency": "BAM",
+            "unit": "person",
+            "note": "55 BAM or 65 BAM by seating category.",
+            "feeStatus": "Organizer explicitly states no additional costs or commission"
+          },
+          "sourceUrl": "https://jazzfest.ba/kupovina/",
+          "checkedAt": "2026-10-29T01:27:22.203475+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "accessSourceId": "jazz-access",
+      "sourceUrl": "https://jazzfest.ba/kupovina/",
+      "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://jazzfest.ba/kupovina/",
+        "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "jazz-harold",
+      "sourceId": "jazz-harold",
+      "title": "Harold López-Nussa Trio",
+      "summaryEn": "A live concert in the 2026 Jazz Fest Sarajevo programme.",
+      "category": "music",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": 45,
+        "currency": "BAM",
+        "unit": "person",
+        "note": "45 BAM or 50 BAM by seating category.",
+        "feeStatus": "Organizer explicitly states no additional costs or commission",
+        "standard": null,
+        "text": "45 BAM or 50 BAM by seating category.",
+        "min": 45,
+        "isMinimum": true
+      },
+      "restrictions": "Physical ticket collection required; no online sales on concert day. Venue sales start 30 minutes before the concert, subject to availability. Youth Theatre seating is unnumbered. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-07",
+          "time": "19:00",
+          "startTime": "19:00",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": 45,
+            "currency": "BAM",
+            "unit": "person",
+            "note": "45 BAM or 50 BAM by seating category.",
+            "feeStatus": "Organizer explicitly states no additional costs or commission"
+          },
+          "sourceUrl": "https://jazzfest.ba/kupovina/",
+          "checkedAt": "2026-10-29T01:27:22.203475+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "accessSourceId": "jazz-access",
+      "sourceUrl": "https://jazzfest.ba/kupovina/",
+      "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://jazzfest.ba/kupovina/",
+        "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "jazz-obradovic",
+      "sourceId": "jazz-obradovic",
+      "title": "Obradović-Tixier Duo",
+      "summaryEn": "A live concert in the 2026 Jazz Fest Sarajevo programme.",
+      "category": "music",
+      "venueId": "youth",
+      "venue": "Pozorište mladih Sarajevo",
+      "address": "Kulovića 8, Sarajevo",
+      "addressSourceId": "youth-address",
+      "verifiedCoordinates": {
+        "latitude": 43.85803,
+        "longitude": 18.42096,
+        "sourceId": "youth-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:03.502146+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_Youth_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": 35,
+        "currency": "BAM",
+        "unit": "person",
+        "note": "35 BAM.",
+        "feeStatus": "Organizer explicitly states no additional costs or commission",
+        "standard": 35,
+        "text": "35 BAM."
+      },
+      "restrictions": "Physical ticket collection required; no online sales on concert day. Venue sales start 30 minutes before the concert, subject to availability. Youth Theatre seating is unnumbered. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-07",
+          "time": "20:30",
+          "startTime": "20:30",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": 35,
+            "currency": "BAM",
+            "unit": "person",
+            "note": "35 BAM.",
+            "feeStatus": "Organizer explicitly states no additional costs or commission"
+          },
+          "sourceUrl": "https://jazzfest.ba/kupovina/",
+          "checkedAt": "2026-10-29T01:27:22.203475+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "accessSourceId": "jazz-access",
+      "sourceUrl": "https://jazzfest.ba/kupovina/",
+      "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://jazzfest.ba/kupovina/",
+        "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "jazz-faraj",
+      "sourceId": "jazz-faraj",
+      "title": "Faraj Suleiman Trio",
+      "summaryEn": "A live concert in the 2026 Jazz Fest Sarajevo programme.",
+      "category": "music",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": 55,
+        "currency": "BAM",
+        "unit": "person",
+        "note": "55 BAM or 65 BAM by seating category.",
+        "feeStatus": "Organizer explicitly states no additional costs or commission",
+        "standard": null,
+        "text": "55 BAM or 65 BAM by seating category.",
+        "min": 55,
+        "isMinimum": true
+      },
+      "restrictions": "Physical ticket collection required; no online sales on concert day. Venue sales start 30 minutes before the concert, subject to availability. Youth Theatre seating is unnumbered. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-07",
+          "time": "22:00",
+          "startTime": "22:00",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": 55,
+            "currency": "BAM",
+            "unit": "person",
+            "note": "55 BAM or 65 BAM by seating category.",
+            "feeStatus": "Organizer explicitly states no additional costs or commission"
+          },
+          "sourceUrl": "https://jazzfest.ba/kupovina/",
+          "checkedAt": "2026-10-29T01:27:22.203475+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "accessSourceId": "jazz-access",
+      "sourceUrl": "https://jazzfest.ba/kupovina/",
+      "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://jazzfest.ba/kupovina/",
+        "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "sloga40",
+      "sourceId": "sloga40",
+      "title": "40+ Žurka u Slogi",
+      "summaryEn": "An evening party at Cinemas Sloga.",
+      "category": "music",
+      "venueId": "sloga",
+      "venue": "Cinemas Sloga",
+      "address": "Mehmeda Spahe 20, Sarajevo",
+      "addressSourceId": "sloga-pin",
+      "verifiedCoordinates": {
+        "latitude": 43.859706,
+        "longitude": 18.418777,
+        "sourceId": "sloga-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:24.479319+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/ba/place/74",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": 12,
+        "amount": 12,
+        "currency": "BAM",
+        "unit": "person",
+        "text": "10 BAM ticket + mandatory 2 BAM Entrio fee. Age 35+ until 23:30, despite generic 18+ badge.",
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "Event-specific rule restricts entry to ages 35+ until 23:30; general event rule is 18+. Reservations via venue profile. Additional booking fee applies; amount unknown.",
+      "occurrences": [
+        {
+          "date": "2026-10-30",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "standard": 12,
+            "amount": 12,
+            "currency": "BAM",
+            "unit": "person",
+            "text": "10 BAM ticket + mandatory 2 BAM Entrio fee. Age 35+ until 23:30, despite generic 18+ badge.",
+            "feeStatus": "Unknown unless explicitly stated in text"
+          },
+          "sourceUrl": "https://www.entrio.ba/en/event/40-zurka-u-slogi-35540",
+          "checkedAt": "2026-10-29T01:27:28.001404+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "sourceUrl": "https://www.entrio.ba/en/event/40-zurka-u-slogi-35540",
+      "checkedAt": "2026-10-29T01:27:28.001404+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.entrio.ba/en/event/40-zurka-u-slogi-35540",
+        "checkedAt": "2026-10-29T01:27:28.001404+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "enis",
+      "sourceId": "enis",
+      "title": "Enis Bešlagić — Da sam ja neko",
+      "summaryEn": "A one-man performance by Enis Bešlagić.",
+      "category": "theatre",
+      "venueId": "bkc",
+      "venue": "Bosanski kulturni centar",
+      "address": "Branilaca Sarajeva 24, Sarajevo",
+      "addressSourceId": "bkc-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.857511,
+        "longitude": 18.422034,
+        "sourceId": "bkc-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:29.879911+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19404",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "note": null,
+        "feeStatus": "Not confirmed",
+        "standard": null,
+        "text": null
+      },
+      "restrictions": "Ticket purchase requires login; no login performed. Price and additional fees not readable. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-03",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": null,
+            "currency": "BAM",
+            "unit": "person",
+            "note": null,
+            "feeStatus": "Not confirmed"
+          },
+          "sourceUrl": "https://www.kupikartu.ba/karte/zona/7797/enis-belagi-da-sam-ja-neko-sarajevo",
+          "checkedAt": "2026-10-29T01:27:32.147446+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "sourceUrl": "https://www.kupikartu.ba/karte/zona/7797/enis-belagi-da-sam-ja-neko-sarajevo",
+      "checkedAt": "2026-10-29T01:27:32.147446+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "theatre",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.kupikartu.ba/karte/zona/7797/enis-belagi-da-sam-ja-neko-sarajevo",
+        "checkedAt": "2026-10-29T01:27:32.147446+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      },
+      "correctionHistory": [
+        {
+          "field": "address",
+          "sourceConflict": "Some Entrio pages show Branilaca Sarajeva 4",
+          "resolvedValue": "Branilaca Sarajeva 24",
+          "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19404",
+          "reason": "Named venue and independent directory address/pin match BKC; do not relocate to erroneous ticket street number."
+        }
+      ]
+    },
+    {
+      "id": "amira",
+      "sourceId": "amira",
+      "title": "Amira Medunjanin",
+      "summaryEn": "A concert by Amira Medunjanin at BKC.",
+      "category": "music",
+      "venueId": "bkc",
+      "venue": "Bosanski kulturni centar",
+      "address": "Branilaca Sarajeva 24, Sarajevo",
+      "addressSourceId": "bkc-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.857511,
+        "longitude": 18.422034,
+        "sourceId": "bkc-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:29.879911+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19404",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "note": null,
+        "feeStatus": "Not confirmed",
+        "standard": null,
+        "text": null
+      },
+      "restrictions": "Price is not exposed in the readable seat-selection page. Additional booking fee applies; amount unknown. Own venue address 24 replaces ticket-page number 4.",
+      "occurrences": [
+        {
+          "date": "2026-11-22",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "endEvidence": null,
+          "durationMinutes": null,
+          "price": {
+            "amount": null,
+            "currency": "BAM",
+            "unit": "person",
+            "note": null,
+            "feeStatus": "Not confirmed"
+          },
+          "sourceUrl": "https://www.entrio.ba/en/event/amira-medunjanin-bkc-sarajevo-34620",
+          "checkedAt": "2026-10-29T01:27:36.824398+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/amira-medunjanin-2026-11-22"
+          ]
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "sourceUrl": "https://www.entrio.ba/en/event/amira-medunjanin-bkc-sarajevo-34620",
+      "checkedAt": "2026-10-29T01:27:36.824398+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "music",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.entrio.ba/en/event/amira-medunjanin-bkc-sarajevo-34620",
+        "checkedAt": "2026-10-29T01:27:36.824398+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      },
+      "correctionHistory": [
+        {
+          "field": "address",
+          "sourceConflict": "Some Entrio pages show Branilaca Sarajeva 4",
+          "resolvedValue": "Branilaca Sarajeva 24",
+          "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19404",
+          "reason": "Named venue and independent directory address/pin match BKC; do not relocate to erroneous ticket street number."
+        }
+      ]
+    },
+    {
+      "id": "immersive",
+      "sourceId": "immersive",
+      "title": "Immersive Realities: TRANSmedia Futurism",
+      "summaryEn": "Rikardo Druškić combines visual art, animation, film, sound and virtual reality.",
+      "category": "art",
+      "venueId": "museum",
+      "venue": "Historical Museum of Bosnia and Herzegovina",
+      "address": "Zmaja od Bosne 5, Sarajevo",
+      "addressSourceId": "immersive",
+      "verifiedCoordinates": {
+        "latitude": 43.854887,
+        "longitude": 18.400975,
+        "sourceId": "museum-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:36.424265+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19527",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "amount": 15,
+        "currency": "BAM",
+        "unit": "person",
+        "note": null,
+        "feeStatus": "Not confirmed",
+        "standard": 15,
+        "text": null
+      },
+      "restrictions": "Maximum 10 visitors inside. Tickets via Fiesta. Visiting hours, holiday exceptions and step-free access not confirmed.",
+      "occurrences": [],
+      "publicationStatus": "verified_candidate_not_published",
+      "dateRange": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-11-15"
+      },
+      "visitSchedule": [],
+      "doNotInferOpenNow": true,
+      "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19527",
+      "checkedAt": "2026-10-29T01:26:36.424265+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "art",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-15",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19527",
+        "checkedAt": "2026-10-29T01:26:36.424265+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "spuzva",
+      "sourceId": "spuzva-local",
+      "title": "Spužva Bob",
+      "summaryEn": "A children’s stage show at Dom mladih.",
+      "category": "kids",
+      "venueId": "dom",
+      "venue": "Dom mladih Skenderija",
+      "address": "Terezija bb, Sarajevo",
+      "addressSourceId": "orea-primary",
+      "verifiedCoordinates": {
+        "latitude": 43.855417,
+        "longitude": 18.4145944,
+        "sourceId": "dom-pin",
+        "precision": "named building/campus; not entrance or amphitheatre",
+        "checkedAt": "2026-10-29T01:27:42.284770+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Youth_Centre_Skenderija",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "occurrences": [
+        {
+          "date": "2026-11-01",
+          "time": "15:00",
+          "startTime": "15:00",
+          "endTime": null,
+          "endEvidence": null,
+          "price": {
+            "amount": null,
+            "currency": "BAM",
+            "unit": "person",
+            "feeStatus": "Not confirmed"
+          },
+          "sourceUrl": "https://www.entrio.ba/event/spuza-bob-predstava-34968",
+          "checkedAt": "2026-10-29T01:32:49.547083+00:00"
+        }
+      ],
+      "price": {
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "feeStatus": "Not confirmed",
+        "standard": null,
+        "text": null
+      },
+      "restrictions": "Ticketed family performance; exact age policy and seat-dependent prices not confirmed.",
+      "publicationStatus": "verified_candidate_not_published",
+      "corroboratingSourceIds": [
+        "skenderija-primary"
+      ],
+      "qualityNote": "Primary dated venue listing plus full independent local dated announcement; exact time not freshly re-fetched from inaccessible ticket page.",
+      "sourceUrl": "https://www.entrio.ba/event/spuza-bob-predstava-34968",
+      "checkedAt": "2026-10-29T01:32:49.547083+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "kids",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.entrio.ba/event/spuza-bob-predstava-34968",
+        "checkedAt": "2026-10-29T01:32:49.547083+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "boccia-opening",
+      "sourceId": "boccia",
+      "title": "Sarajevo 1992–1996 — The Longest Siege: opening",
+      "summaryEn": "Opening of Mario Boccia’s photography exhibition about daily life during the siege of Sarajevo.",
+      "category": "art",
+      "venueId": "museum",
+      "venue": "Historical Museum of Bosnia and Herzegovina",
+      "address": "Zmaja od Bosne 5, Sarajevo",
+      "addressSourceId": "immersive",
+      "verifiedCoordinates": {
+        "latitude": 43.854887,
+        "longitude": 18.400975,
+        "sourceId": "museum-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:36.424265+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19527",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "timeZone": "Europe/Sarajevo",
+      "occurrences": [
+        {
+          "date": "2026-11-02",
+          "time": "18:00",
+          "startTime": "18:00",
+          "endTime": null,
+          "endEvidence": null,
+          "price": {
+            "standard": null,
+            "amount": null,
+            "currency": "BAM",
+            "unit": "person",
+            "text": null,
+            "feeStatus": "Unknown unless explicitly stated in text"
+          },
+          "sourceUrl": "https://www.balcanicaucaso.org/event/a-sarajevo-la-mostra-fotografica-di-mario-boccia-sullassedio/",
+          "checkedAt": "2026-10-29T01:28:15.090016+00:00"
+        }
+      ],
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "Opening at 18:00; calendar end 19:00 is not proof of actual ending. Admission price not stated.",
+      "publicationStatus": "verified_candidate_not_published",
+      "sourceUrl": "https://www.balcanicaucaso.org/event/a-sarajevo-la-mostra-fotografica-di-mario-boccia-sullassedio/",
+      "checkedAt": "2026-10-29T01:28:15.090016+00:00",
+      "yearEvidence": "Fresh full dated announcement explicitly gives 2026.",
+      "normalizedCategory": "art",
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.balcanicaucaso.org/event/a-sarajevo-la-mostra-fotografica-di-mario-boccia-sullassedio/",
+        "checkedAt": "2026-10-29T01:28:15.090016+00:00",
+        "yearEvidence": "Fresh full dated announcement explicitly gives 2026."
+      }
+    },
+    {
+      "id": "sarajevo-07adcf612c",
+      "sourceId": "sarajevo-07adcf612c",
+      "title": "Za život cijeli",
+      "summaryEn": "A stage production about memory and shared life.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "sartr",
+      "venue": "Sarajevski ratni teatar SARTR",
+      "address": "Gabelina 16, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.86355,
+        "longitude": 18.41521,
+        "sourceUrl": "https://mapcarta.com/W290822211",
+        "precision": "named building point; not entrance",
+        "checkedAt": "2026-10-29T01:24:20.330183+00:00",
+        "evidence": "Full named location page with matching venue address."
+      },
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/za-zivot-cijeli-2026-11-01",
+      "checkedAt": "2026-10-29T01:28:39.842256+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": " Full local afisha announcement read; organizer-level availability and fees not independently confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-01",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/za-zivot-cijeli-2026-11-01",
+          "checkedAt": "2026-10-29T01:28:39.842256+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/za-zivot-cijeli-2026-11-01"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 12.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 12.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/za-zivot-cijeli-2026-11-02",
+          "checkedAt": "2026-10-29T01:28:48.344431+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/za-zivot-cijeli-2026-11-02"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 12.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 12.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/za-zivot-cijeli-2026-11-01",
+        "https://howdidimissthat.com/sarajevo/event/za-zivot-cijeli-2026-11-02"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://howdidimissthat.com/sarajevo/event/za-zivot-cijeli-2026-11-01",
+        "checkedAt": "2026-10-29T01:28:39.842256+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-c9a143cf5d",
+      "sourceId": "sarajevo-c9a143cf5d",
+      "title": "Kaliopi",
+      "summaryEn": "A concert by singer Kaliopi.",
+      "category": "music",
+      "normalizedCategory": "music",
+      "venueId": "bkc",
+      "venue": "Bosanski kulturni centar",
+      "address": "Branilaca Sarajeva 24, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.857511,
+        "longitude": 18.422034,
+        "sourceId": "bkc-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:29.879911+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19404",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "sourceUrl": "https://www.entrio.ba/event/sarajevo-kaliopi-33216",
+      "checkedAt": "2026-10-29T01:32:55.376954+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": " Entrio address number 4 conflicts with named BKC venue directory number 24; venue identity and mapped building use independently checked 24.",
+      "occurrences": [
+        {
+          "date": "2026-11-05",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://www.entrio.ba/event/sarajevo-kaliopi-33216",
+          "checkedAt": "2026-10-29T01:32:55.376954+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/kaliopi-2026-11-05"
+          ]
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/kaliopi-2026-11-05"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.entrio.ba/event/sarajevo-kaliopi-33216",
+        "checkedAt": "2026-10-29T01:32:55.376954+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      },
+      "correctionHistory": [
+        {
+          "field": "address",
+          "sourceConflict": "Some Entrio pages show Branilaca Sarajeva 4",
+          "resolvedValue": "Branilaca Sarajeva 24",
+          "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19404",
+          "reason": "Named venue and independent directory address/pin match BKC; do not relocate to erroneous ticket street number."
+        }
+      ]
+    },
+    {
+      "id": "sarajevo-519233a321",
+      "sourceId": "sarajevo-519233a321",
+      "title": "Ena Rajić: Satirično-poetski show \"Bez dlake na jeziku\"",
+      "summaryEn": "Ena Rajić presents a satirical poetry performance.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "dom",
+      "venue": "Dom mladih Skenderija",
+      "address": "Terezija bb, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.855417,
+        "longitude": 18.4145944,
+        "sourceId": "dom-pin",
+        "precision": "named building/campus; not entrance or amphitheatre",
+        "checkedAt": "2026-10-29T01:27:42.284770+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Youth_Centre_Skenderija",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "sourceUrl": "https://www.entrio.ba/event/ena-rajic-satiricno-poetski-show-bez-dlake-na-jeziku-34965",
+      "checkedAt": "2026-10-29T01:33:23.276079+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": 30,
+        "amount": 30,
+        "currency": "BAM",
+        "unit": "person",
+        "text": "Advance 28 BAM + mandatory 2 BAM Entrio fee. Day-of-show ticket 32 BAM plus Entrio fee.",
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "Doors 19:00; performance 19:30. Unreserved seating.",
+      "occurrences": [
+        {
+          "date": "2026-11-06",
+          "startTime": "19:30",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://www.entrio.ba/event/ena-rajic-satiricno-poetski-show-bez-dlake-na-jeziku-34965",
+          "checkedAt": "2026-10-29T01:33:23.276079+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/ena-rajic-satiricno-poetski-show-bez-dlake-na-jeziku-2026-11-06"
+          ]
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/ena-rajic-satiricno-poetski-show-bez-dlake-na-jeziku-2026-11-06"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.entrio.ba/event/ena-rajic-satiricno-poetski-show-bez-dlake-na-jeziku-34965",
+        "checkedAt": "2026-10-29T01:33:23.276079+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-d7cf285485",
+      "sourceId": "sarajevo-d7cf285485",
+      "title": "Metal Heart feat. Chris Dale",
+      "summaryEn": "Metal Heart perform with Chris Dale.",
+      "category": "music",
+      "normalizedCategory": "music",
+      "venueId": "sloga",
+      "venue": "Cinemas Sloga",
+      "address": "Mehmeda Spahe 20, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.859706,
+        "longitude": 18.418777,
+        "sourceId": "sloga-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:24.479319+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/ba/place/74",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "sourceUrl": "https://www.entrio.ba/event/metal-heart-feat-chris-dale-06nov-sloga-35364",
+      "checkedAt": "2026-10-29T01:33:41.749574+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": 22,
+        "amount": 22,
+        "currency": "BAM",
+        "unit": "person",
+        "text": "20 BAM + mandatory 2 BAM Entrio fee.",
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "",
+      "occurrences": [
+        {
+          "date": "2026-11-06",
+          "startTime": "19:30",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://www.entrio.ba/event/metal-heart-feat-chris-dale-06nov-sloga-35364",
+          "checkedAt": "2026-10-29T01:33:41.749574+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/metal-heart-feat-chris-dale-2026-11-06"
+          ]
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/metal-heart-feat-chris-dale-2026-11-06"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.entrio.ba/event/metal-heart-feat-chris-dale-06nov-sloga-35364",
+        "checkedAt": "2026-10-29T01:33:41.749574+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-9c7fa67e06",
+      "sourceId": "sarajevo-9c7fa67e06",
+      "title": "Dva sa dva",
+      "summaryEn": "A chamber comedy about relationships.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "czks",
+      "venue": "CZKS",
+      "address": "Sime Milutinovića Sarajlije 2/II, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.8575,
+        "longitude": 18.427,
+        "sourceUrl": "https://www.glartent.com/BA/Sarajevo/353824184474437/CZKS",
+        "precision": "rounded named venue point; approximately 30m; not entrance",
+        "checkedAt": "2026-10-29T01:30:25.487970+00:00",
+        "evidence": "Full named location page with matching venue address."
+      },
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-06",
+      "checkedAt": "2026-10-29T01:29:16.533729+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": " Full local afisha announcement read; organizer-level availability and fees not independently confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-06",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-06",
+          "checkedAt": "2026-10-29T01:29:16.533729+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-06"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 30.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 30.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-07",
+          "checkedAt": "2026-10-29T01:29:25.713915+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-07"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 20.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 20.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-08",
+          "checkedAt": "2026-10-29T01:29:29.648825+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-08"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 20.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 20.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-06",
+        "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-07",
+        "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-08"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-06",
+        "checkedAt": "2026-10-29T01:29:16.533729+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-10e86151a0",
+      "sourceId": "sarajevo-10e86151a0",
+      "title": "Smrtni ishod atletskih povreda",
+      "summaryEn": "A stage production of Smrtni ishod atletskih povreda.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "kamerni",
+      "venue": "Kamerni teatar 55",
+      "address": "Maršala Tita 56/II, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.85856806046851,
+        "longitude": 18.42118184670428,
+        "sourceUrl": "https://www.kamerniteatar55.ba/kontakt-2",
+        "precision": "own named embedded map centre, approximately building-level; not entrance",
+        "checkedAt": "2026-10-29T01:24:13.091149+00:00",
+        "evidence": "Full named location page with matching venue address."
+      },
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/smrtni-ishod-atletskih-povreda-2026-11-09",
+      "checkedAt": "2026-10-29T01:29:37.744087+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": " Full local afisha announcement read; organizer-level availability and fees not independently confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-09",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/smrtni-ishod-atletskih-povreda-2026-11-09",
+          "checkedAt": "2026-10-29T01:29:37.744087+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/smrtni-ishod-atletskih-povreda-2026-11-09"
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/smrtni-ishod-atletskih-povreda-2026-11-10",
+          "checkedAt": "2026-10-29T01:29:44.983793+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/smrtni-ishod-atletskih-povreda-2026-11-10"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 25.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 25.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/smrtni-ishod-atletskih-povreda-2026-11-09",
+        "https://howdidimissthat.com/sarajevo/event/smrtni-ishod-atletskih-povreda-2026-11-10"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://howdidimissthat.com/sarajevo/event/smrtni-ishod-atletskih-povreda-2026-11-09",
+        "checkedAt": "2026-10-29T01:29:37.744087+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-58d4fe1f27",
+      "sourceId": "sarajevo-58d4fe1f27",
+      "title": "With Love from Bosnia",
+      "summaryEn": "A dance performance exploring Bosnian identity and memory.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "sartr",
+      "venue": "Sarajevski ratni teatar SARTR",
+      "address": "Gabelina 16, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.86355,
+        "longitude": 18.41521,
+        "sourceUrl": "https://mapcarta.com/W290822211",
+        "precision": "named building point; not entrance",
+        "checkedAt": "2026-10-29T01:24:20.330183+00:00",
+        "evidence": "Full named location page with matching venue address."
+      },
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/with-love-from-bosnia-2026-11-09",
+      "checkedAt": "2026-10-29T01:29:41.175489+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": " Full local afisha announcement read; organizer-level availability and fees not independently confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-09",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/with-love-from-bosnia-2026-11-09",
+          "checkedAt": "2026-10-29T01:29:41.175489+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/with-love-from-bosnia-2026-11-09"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 12.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 12.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/with-love-from-bosnia-2026-11-10",
+          "checkedAt": "2026-10-29T01:29:48.458243+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/with-love-from-bosnia-2026-11-10"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 12.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 12.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/with-love-from-bosnia-2026-11-09",
+        "https://howdidimissthat.com/sarajevo/event/with-love-from-bosnia-2026-11-10"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://howdidimissthat.com/sarajevo/event/with-love-from-bosnia-2026-11-09",
+        "checkedAt": "2026-10-29T01:29:41.175489+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-457c1b4aa5",
+      "sourceId": "sarajevo-457c1b4aa5",
+      "title": "Hamlet u selu Mrduša Donja ili Hamlet zna što narod ne zna",
+      "summaryEn": "A satirical stage production placing Hamlet in a village setting.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "sourceUrl": "https://nps.ba/repertoar/hamlet-u-selu-mrdusa-donja-ili-hamlet-zna-sto-narod-ne-zna/1002",
+      "checkedAt": "2026-10-29T01:30:23.712323+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "",
+      "occurrences": [
+        {
+          "date": "2026-11-11",
+          "startTime": "19:30",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": 100,
+          "endEvidence": null,
+          "sourceUrl": "https://nps.ba/repertoar/hamlet-u-selu-mrdusa-donja-ili-hamlet-zna-sto-narod-ne-zna/1002",
+          "checkedAt": "2026-10-29T01:30:23.712323+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/hamlet-u-selu-mrdusa-donja-ili-hamlet-zna-sto-narod-ne-zna-2026-11-11"
+          ],
+          "durationEvidence": "Explicit duration in full programme body; not a fabricated endAt."
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/hamlet-u-selu-mrdusa-donja-ili-hamlet-zna-sto-narod-ne-zna-2026-11-11"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://nps.ba/repertoar/hamlet-u-selu-mrdusa-donja-ili-hamlet-zna-sto-narod-ne-zna/1002",
+        "checkedAt": "2026-10-29T01:30:23.712323+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-1d02ccf3c3",
+      "sourceId": "sarajevo-1d02ccf3c3",
+      "title": "UP and DOWN",
+      "summaryEn": "A physical theatre production titled UP and DOWN.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "sartr",
+      "venue": "Sarajevski ratni teatar SARTR",
+      "address": "Gabelina 16, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.86355,
+        "longitude": 18.41521,
+        "sourceUrl": "https://mapcarta.com/W290822211",
+        "precision": "named building point; not entrance",
+        "checkedAt": "2026-10-29T01:24:20.330183+00:00",
+        "evidence": "Full named location page with matching venue address."
+      },
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/up-and-down-2026-11-11",
+      "checkedAt": "2026-10-29T01:29:59.682409+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": " Full local afisha announcement read; organizer-level availability and fees not independently confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-11",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/up-and-down-2026-11-11",
+          "checkedAt": "2026-10-29T01:29:59.682409+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/up-and-down-2026-11-11"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 12.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 12.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/up-and-down-2026-11-11"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://howdidimissthat.com/sarajevo/event/up-and-down-2026-11-11",
+        "checkedAt": "2026-10-29T01:29:59.682409+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-28e630e924",
+      "sourceId": "sarajevo-28e630e924",
+      "title": "Imagine",
+      "summaryEn": "An orchestral programme featuring Prokofiev and Mussorgsky.",
+      "category": "music",
+      "normalizedCategory": "music",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "sourceUrl": "https://nps.ba/repertoar/imagine/1042",
+      "checkedAt": "2026-10-29T01:30:28.061619+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "",
+      "occurrences": [
+        {
+          "date": "2026-11-13",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://nps.ba/repertoar/imagine/1042",
+          "checkedAt": "2026-10-29T01:30:28.061619+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/imagine-2026-11-13"
+          ]
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/imagine-2026-11-13"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://nps.ba/repertoar/imagine/1042",
+        "checkedAt": "2026-10-29T01:30:28.061619+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-9bc773f931",
+      "sourceId": "sarajevo-9bc773f931",
+      "title": "Oslobođenje Sarajeva",
+      "summaryEn": "A stage production about Sarajevo.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "sartr",
+      "venue": "Sarajevski ratni teatar SARTR",
+      "address": "Gabelina 16, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.86355,
+        "longitude": 18.41521,
+        "sourceUrl": "https://mapcarta.com/W290822211",
+        "precision": "named building point; not entrance",
+        "checkedAt": "2026-10-29T01:24:20.330183+00:00",
+        "evidence": "Full named location page with matching venue address."
+      },
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/oslobodenje-sarajeva-2026-11-13",
+      "checkedAt": "2026-10-29T01:30:25.018570+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": " Full local afisha announcement read; organizer-level availability and fees not independently confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-13",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/oslobodenje-sarajeva-2026-11-13",
+          "checkedAt": "2026-10-29T01:30:25.018570+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/oslobodenje-sarajeva-2026-11-13"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 12.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 12.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/oslobodenje-sarajeva-2026-11-13"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://howdidimissthat.com/sarajevo/event/oslobodenje-sarajeva-2026-11-13",
+        "checkedAt": "2026-10-29T01:30:25.018570+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-f771ccda1c",
+      "sourceId": "sarajevo-f771ccda1c",
+      "title": "Mišolovka",
+      "summaryEn": "A production of Agatha Christie’s murder mystery.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "sourceUrl": "https://nps.ba/repertoar/misolovka/1003",
+      "checkedAt": "2026-10-29T01:30:31.999224+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "",
+      "occurrences": [
+        {
+          "date": "2026-11-14",
+          "startTime": "19:30",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": 130,
+          "endEvidence": null,
+          "sourceUrl": "https://nps.ba/repertoar/misolovka/1003",
+          "checkedAt": "2026-10-29T01:30:31.999224+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/misolovka-2026-11-14"
+          ],
+          "durationEvidence": "Explicit duration in full programme body; not a fabricated endAt."
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/misolovka-2026-11-14"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://nps.ba/repertoar/misolovka/1003",
+        "checkedAt": "2026-10-29T01:30:31.999224+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-0afeb77728",
+      "sourceId": "sarajevo-0afeb77728",
+      "title": "Posljednja noć; Šeherzada",
+      "summaryEn": "A ballet programme featuring Posljednja noć and Šeherzada.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "sourceUrl": "https://nps.ba/repertoar/posljednja-noc-seherzada/1004",
+      "checkedAt": "2026-10-29T01:29:43.492007+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "",
+      "occurrences": [
+        {
+          "date": "2026-11-17",
+          "startTime": "19:30",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": 75,
+          "endEvidence": null,
+          "sourceUrl": "https://nps.ba/repertoar/posljednja-noc-seherzada/1004",
+          "checkedAt": "2026-10-29T01:29:43.492007+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/posljednja-noc-seherzada-2026-11-17"
+          ],
+          "durationEvidence": "Explicit duration in full programme body; not a fabricated endAt."
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "19:30",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": 75,
+          "endEvidence": null,
+          "sourceUrl": "https://nps.ba/repertoar/posljednja-noc-seherzada/1004",
+          "checkedAt": "2026-10-29T01:29:43.492007+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/posljednja-noc-seherzada-2026-11-20"
+          ],
+          "durationEvidence": "Explicit duration in full programme body; not a fabricated endAt."
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/posljednja-noc-seherzada-2026-11-17",
+        "https://nps.ba/repertoar/posljednja-noc-seherzada/1006"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://nps.ba/repertoar/posljednja-noc-seherzada/1004",
+        "checkedAt": "2026-10-29T01:29:43.492007+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-db6d3563f3",
+      "sourceId": "sarajevo-db6d3563f3",
+      "title": "Balkanski špijun u Sarajevu",
+      "summaryEn": "A production of Dušan Kovačević’s political comedy.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "sourceUrl": "https://nps.ba/repertoar/balkanski-spijun-u-sarajevu/1008",
+      "checkedAt": "2026-10-29T01:29:50.473305+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "",
+      "occurrences": [
+        {
+          "date": "2026-11-23",
+          "startTime": "19:30",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": 105,
+          "endEvidence": null,
+          "sourceUrl": "https://nps.ba/repertoar/balkanski-spijun-u-sarajevu/1008",
+          "checkedAt": "2026-10-29T01:29:50.473305+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/balkanski-spijun-u-sarajevu-2026-11-23"
+          ],
+          "durationEvidence": "Explicit duration in full programme body; not a fabricated endAt."
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/balkanski-spijun-u-sarajevu-2026-11-23"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://nps.ba/repertoar/balkanski-spijun-u-sarajevu/1008",
+        "checkedAt": "2026-10-29T01:29:50.473305+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-6cfd38ece6",
+      "sourceId": "sarajevo-6cfd38ece6",
+      "title": "Puls",
+      "summaryEn": "A performance titled Puls.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "sartr",
+      "venue": "Sarajevski ratni teatar SARTR",
+      "address": "Gabelina 16, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.86355,
+        "longitude": 18.41521,
+        "sourceUrl": "https://mapcarta.com/W290822211",
+        "precision": "named building point; not entrance",
+        "checkedAt": "2026-10-29T01:24:20.330183+00:00",
+        "evidence": "Full named location page with matching venue address."
+      },
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/puls-2026-11-24",
+      "checkedAt": "2026-10-29T01:31:29.102603+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": " Full local afisha announcement read; organizer-level availability and fees not independently confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-24",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/puls-2026-11-24",
+          "checkedAt": "2026-10-29T01:31:29.102603+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/puls-2026-11-24"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 12.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 12.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/puls-2026-11-24"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://howdidimissthat.com/sarajevo/event/puls-2026-11-24",
+        "checkedAt": "2026-10-29T01:31:29.102603+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-5e683c61f7",
+      "sourceId": "sarajevo-5e683c61f7",
+      "title": "PREDSTAVA \"CELO TELO Tu me boli\"",
+      "summaryEn": "A comedy performance titled Celo telo, tu me boli.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "bkc",
+      "venue": "Bosanski kulturni centar",
+      "address": "Branilaca Sarajeva 24, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.857511,
+        "longitude": 18.422034,
+        "sourceId": "bkc-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:29.879911+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19404",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "sourceUrl": "https://www.entrio.ba/event/predstava-celo-telo-tu-me-boli-sarajevo-34487",
+      "checkedAt": "2026-10-29T01:33:59.094691+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": " Entrio address number 4 conflicts with named BKC venue directory number 24; venue identity and mapped building use independently checked 24.",
+      "occurrences": [
+        {
+          "date": "2026-11-26",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://www.entrio.ba/event/predstava-celo-telo-tu-me-boli-sarajevo-34487",
+          "checkedAt": "2026-10-29T01:33:59.094691+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/predstava-celo-telo-tu-me-boli-2026-11-26"
+          ]
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/predstava-celo-telo-tu-me-boli-2026-11-26"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.entrio.ba/event/predstava-celo-telo-tu-me-boli-sarajevo-34487",
+        "checkedAt": "2026-10-29T01:33:59.094691+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      },
+      "correctionHistory": [
+        {
+          "field": "address",
+          "sourceConflict": "Some Entrio pages show Branilaca Sarajeva 4",
+          "resolvedValue": "Branilaca Sarajeva 24",
+          "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19404",
+          "reason": "Named venue and independent directory address/pin match BKC; do not relocate to erroneous ticket street number."
+        }
+      ]
+    },
+    {
+      "id": "sarajevo-1af78ad900",
+      "sourceId": "sarajevo-1af78ad900",
+      "title": "Mokre mačke",
+      "summaryEn": "A stage production titled Mokre mačke.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "kamerni",
+      "venue": "Kamerni teatar 55",
+      "address": "Maršala Tita 56/II, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.85856806046851,
+        "longitude": 18.42118184670428,
+        "sourceUrl": "https://www.kamerniteatar55.ba/kontakt-2",
+        "precision": "own named embedded map centre, approximately building-level; not entrance",
+        "checkedAt": "2026-10-29T01:24:13.091149+00:00",
+        "evidence": "Full named location page with matching venue address."
+      },
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/mokre-macke-2026-11-27",
+      "checkedAt": "2026-10-29T01:31:40.472511+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": " Full local afisha announcement read; organizer-level availability and fees not independently confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-27",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://howdidimissthat.com/sarajevo/event/mokre-macke-2026-11-27",
+          "checkedAt": "2026-10-29T01:31:40.472511+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/mokre-macke-2026-11-27"
+          ],
+          "price": {
+            "standard": null,
+            "amount": null,
+            "min": 20.0,
+            "currency": "BAM",
+            "isMinimum": true,
+            "text": "Local agenda advertises 20.00 BAM; mandatory booking fees and tier applicability not independently verified.",
+            "feeStatus": "Unknown"
+          }
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/mokre-macke-2026-11-27"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://howdidimissthat.com/sarajevo/event/mokre-macke-2026-11-27",
+        "checkedAt": "2026-10-29T01:31:40.472511+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sarajevo-6f608aaa9b",
+      "sourceId": "sarajevo-6f608aaa9b",
+      "title": "Linkin Park Tribute by Piknik Park (HU)",
+      "summaryEn": "Piknik Park perform a tribute to Linkin Park.",
+      "category": "music",
+      "normalizedCategory": "music",
+      "venueId": "sloga",
+      "venue": "Cinemas Sloga",
+      "address": "Mehmeda Spahe 20, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.859706,
+        "longitude": 18.418777,
+        "sourceId": "sloga-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:24.479319+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/ba/place/74",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "sourceUrl": "https://www.entrio.ba/event/linkin-park-tribute-by-piknik-park-hu-27nov-sloga-34579",
+      "checkedAt": "2026-10-29T01:34:02.647861+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": 27,
+        "amount": 27,
+        "currency": "BAM",
+        "unit": "person",
+        "text": "25 BAM + mandatory 2 BAM Entrio fee.",
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "",
+      "occurrences": [
+        {
+          "date": "2026-11-27",
+          "startTime": "21:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://www.entrio.ba/event/linkin-park-tribute-by-piknik-park-hu-27nov-sloga-34579",
+          "checkedAt": "2026-10-29T01:34:02.647861+00:00",
+          "additionalEvidenceUrls": [
+            "https://howdidimissthat.com/sarajevo/event/linkin-park-tribute-by-piknik-park-hu-2026-11-27"
+          ]
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://howdidimissthat.com/sarajevo/event/linkin-park-tribute-by-piknik-park-hu-2026-11-27"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.entrio.ba/event/linkin-park-tribute-by-piknik-park-hu-27nov-sloga-34579",
+        "checkedAt": "2026-10-29T01:34:02.647861+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "sartr-njih-vise-nema",
+      "sourceId": "sartr-njih-vise-nema",
+      "title": "Njih više nema",
+      "summaryEn": "A SARTR stage production about absence and remembrance.",
+      "category": "theatre",
+      "normalizedCategory": "theatre",
+      "venueId": "sartr",
+      "venue": "Sarajevski ratni teatar SARTR",
+      "address": "Gabelina 16, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.86355,
+        "longitude": 18.41521,
+        "sourceUrl": "https://mapcarta.com/W290822211",
+        "precision": "named building point; not entrance",
+        "checkedAt": "2026-10-29T01:24:20.330183+00:00",
+        "evidence": "Full named location page with matching venue address."
+      },
+      "sourceUrl": "https://sartr.ba/",
+      "checkedAt": "2026-10-29T01:23:40.380512+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "Price and admission restrictions unknown. Calendar duration on secondary page not used as actual end.",
+      "occurrences": [
+        {
+          "date": "2026-10-29",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://sartr.ba/",
+          "checkedAt": "2026-10-29T01:23:40.380512+00:00"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "20:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://sartr.ba/",
+          "checkedAt": "2026-10-29T01:23:40.380512+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Own October 2026 programme image explicitly lists 28,29,30 October at 20:00; 28 October excluded as elapsed.",
+      "visitSchedule": [],
+      "additionalEvidenceUrls": [
+        "https://sartr.ba/wp-content/uploads/2026/09/822276551_1078040375093478_5878736775484973822_n.jpg",
+        "https://sarajevski.ba/desavanja/predstava-njih-vise-nema-4"
+      ],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://sartr.ba/",
+        "checkedAt": "2026-10-29T01:23:40.380512+00:00",
+        "yearEvidence": "Own October 2026 programme image explicitly lists 28,29,30 October at 20:00; 28 October excluded as elapsed."
+      }
+    },
+    {
+      "id": "atlas-europia",
+      "sourceId": "atlas-europia",
+      "title": "ATLAS EUROPIA",
+      "summaryEn": "Stefano De Luigi’s photographs explore European memory and identity.",
+      "category": "art",
+      "normalizedCategory": "art",
+      "venueId": "europe",
+      "venue": "Europe House Sarajevo",
+      "address": "Maršala Tita 62, Sarajevo 71000",
+      "verifiedCoordinates": {
+        "latitude": 43.8588001,
+        "longitude": 18.4219339,
+        "sourceUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.8564494574625!2d18.41935897659848!3d43.858803939108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c8cf8c67e761%3A0x509a4f3412d51e2c!2sMar%C5%A1ala%20Tita%2062%2C%20Sarajevo%2071000!5e0!3m2!1shr!2sba!4v1700739088792!5m2!1shr!2sba",
+        "precision": "address-building point, not verified entrance",
+        "checkedAt": "2026-10-29T01:33:30Z",
+        "evidence": "Public Sarajevo library branch17 explicitly identifies Europe House at Tita62. Its own embedded Google map response HTTP200 contains named address feature Maršala Tita62 and lat/lng43.8588001,18.4219339. Distinguish viewport18.41935897659848: NOT used. Independent festival full page confirms same street number."
+      },
+      "sourceUrl": "https://www.goethe.de/ins/ba/bs/ver.cfm?event_id=27366747",
+      "checkedAt": "2026-10-29T01:25:36.814314+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": 0,
+        "amount": 0,
+        "currency": "BAM",
+        "unit": "person",
+        "text": "Organizer lists free admission.",
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "Visiting hours and closed dates unknown; do not infer open now. October14 opening and October15 discussion are elapsed, not daily sessions.",
+      "occurrences": [],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "startDate": "2026-10-14",
+      "endDate": "2026-11-04",
+      "dateRange": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-11-04"
+      },
+      "doNotInferOpenNow": true,
+      "isFree": true,
+      "dateEvidence": {
+        "sourceUrl": "https://www.goethe.de/ins/ba/bs/ver.cfm?event_id=27366747",
+        "checkedAt": "2026-10-29T01:25:36.814314+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "diaspona",
+      "sourceId": "diaspona",
+      "title": "Sarajevska škola arhitekture — DIASPONA",
+      "summaryEn": "An architectural exhibition in Sarajevo railway station.",
+      "category": "art",
+      "normalizedCategory": "art",
+      "venueId": "railway",
+      "venue": "Željeznička stanica Sarajevo",
+      "address": "Halida Kajtaza / Put života 2, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.86025,
+        "longitude": 18.39907,
+        "sourceUrl": "https://ba.geoview.info/zeljeznicka_stanica_sarajevo%2C19758632r",
+        "precision": "named railway-station building centre; not entrance or exhibition room",
+        "checkedAt": "2026-10-29T01:26:35.049925+00:00",
+        "evidence": "Full named location page with matching venue address."
+      },
+      "sourceUrl": "https://www.zfbh.ba/en/arhitektonska-izlozba-diaspona-otvorena-u-auli-zeljeznicke-stanice-sarajevo/",
+      "checkedAt": "2026-10-29T01:26:23.387465+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "Exhibition is in the station hall. Public visiting hours and admission price unknown; not continuously open by assumption.",
+      "occurrences": [],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "startDate": "2026-10-08",
+      "endDate": "2026-11-25",
+      "dateRange": {
+        "startDate": "2026-10-08",
+        "endDate": "2026-11-25"
+      },
+      "doNotInferOpenNow": true,
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.zfbh.ba/en/arhitektonska-izlozba-diaspona-otvorena-u-auli-zeljeznicke-stanice-sarajevo/",
+        "checkedAt": "2026-10-29T01:26:23.387465+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "forgotten-chimneys",
+      "sourceId": "forgotten-chimneys",
+      "title": "Zaboravljeni dimnjaci grada",
+      "summaryEn": "A public presentation of Maja Pličanić’s book on Sarajevo industrial heritage.",
+      "category": "talk",
+      "normalizedCategory": "talk",
+      "venueId": "railway",
+      "venue": "Željeznička stanica Sarajevo",
+      "address": "Halida Kajtaza / Put života 2, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.86025,
+        "longitude": 18.39907,
+        "sourceUrl": "https://ba.geoview.info/zeljeznicka_stanica_sarajevo%2C19758632r",
+        "precision": "named railway-station building centre; not entrance or exhibition room",
+        "checkedAt": "2026-10-29T01:26:35.049925+00:00",
+        "evidence": "Full named location page with matching venue address."
+      },
+      "sourceUrl": "https://af.unsa.ba/promocija-knjige-zaboravljeni-dimnjaci-grada/",
+      "checkedAt": "2026-10-29T01:26:28.595453+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "University public invitation; price and exact end not stated. Event is at railway station, not university footer address.",
+      "occurrences": [
+        {
+          "date": "2026-10-29",
+          "startTime": "19:00",
+          "endTime": null,
+          "endDate": null,
+          "durationMinutes": null,
+          "endEvidence": null,
+          "sourceUrl": "https://af.unsa.ba/promocija-knjige-zaboravljeni-dimnjaci-grada/",
+          "checkedAt": "2026-10-29T01:26:28.595453+00:00"
+        }
+      ],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://af.unsa.ba/promocija-knjige-zaboravljeni-dimnjaci-grada/",
+        "checkedAt": "2026-10-29T01:26:28.595453+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    },
+    {
+      "id": "boccia-exhibition",
+      "sourceId": "boccia-exhibition",
+      "title": "Sarajevo 1992–1996 — The Longest Siege",
+      "summaryEn": "Mario Boccia’s photographs document everyday life during the siege of Sarajevo.",
+      "category": "art",
+      "normalizedCategory": "art",
+      "venueId": "museum",
+      "venue": "Historical Museum of Bosnia and Herzegovina",
+      "address": "Zmaja od Bosne 5, Sarajevo",
+      "verifiedCoordinates": {
+        "latitude": 43.854887,
+        "longitude": 18.400975,
+        "sourceId": "museum-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:36.424265+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19527",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "sourceUrl": "https://www.balcanicaucaso.org/event/a-sarajevo-la-mostra-fotografica-di-mario-boccia-sullassedio/",
+      "checkedAt": "2026-10-29T01:28:15.090016+00:00",
+      "timeZone": "Europe/Sarajevo",
+      "price": {
+        "standard": null,
+        "amount": null,
+        "currency": "BAM",
+        "unit": "person",
+        "text": null,
+        "feeStatus": "Unknown unless explicitly stated in text"
+      },
+      "restrictions": "Organizer says the exhibition remains throughout November. Visiting hours and admission unknown; opening separately listed at 18:00 on November2.",
+      "occurrences": [],
+      "publicationStatus": "verified_candidate_not_published",
+      "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer.",
+      "visitSchedule": [],
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-30",
+      "dateRange": {
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-30"
+      },
+      "doNotInferOpenNow": true,
+      "isFree": false,
+      "dateEvidence": {
+        "sourceUrl": "https://www.balcanicaucaso.org/event/a-sarajevo-la-mostra-fotografica-di-mario-boccia-sullassedio/",
+        "checkedAt": "2026-10-29T01:28:15.090016+00:00",
+        "yearEvidence": "Full dated source body/card explicitly states 2026; source date is not inferred from footer."
+      }
+    }
+  ],
+  "venues": [
+    {
+      "id": "nps",
+      "venue": "Narodno pozorište Sarajevo",
+      "address": "Obala Kulina bana 9, Sarajevo",
+      "addressSourceId": "nps-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.8569,
+        "longitude": 18.4208,
+        "sourceId": "nps-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "addressSourceUrl": "https://nps.ba/"
+    },
+    {
+      "id": "youth",
+      "venue": "Pozorište mladih Sarajevo",
+      "address": "Kulovića 8, Sarajevo",
+      "addressSourceId": "youth-address",
+      "verifiedCoordinates": {
+        "latitude": 43.85803,
+        "longitude": 18.42096,
+        "sourceId": "youth-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:03.502146+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sarajevo_Youth_Theatre",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "addressSourceUrl": "https://mks.ks.gov.ba/node/4694"
+    },
+    {
+      "id": "sloga",
+      "venue": "Cinemas Sloga",
+      "address": "Mehmeda Spahe 20, Sarajevo",
+      "addressSourceId": "sloga-pin",
+      "verifiedCoordinates": {
+        "latitude": 43.859706,
+        "longitude": 18.418777,
+        "sourceId": "sloga-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:24.479319+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/ba/place/74",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "addressSourceUrl": "https://www.sarajevonavigator.ba/ba/place/74"
+    },
+    {
+      "id": "bkc",
+      "venue": "Bosanski kulturni centar",
+      "address": "Branilaca Sarajeva 24, Sarajevo",
+      "addressSourceId": "bkc-contact",
+      "verifiedCoordinates": {
+        "latitude": 43.857511,
+        "longitude": 18.422034,
+        "sourceId": "bkc-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:29.879911+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19404",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "addressSourceUrl": "https://bkc.ba/kontakt/"
+    },
+    {
+      "id": "museum",
+      "venue": "Historical Museum of Bosnia and Herzegovina",
+      "address": "Zmaja od Bosne 5, Sarajevo",
+      "addressSourceId": "immersive",
+      "verifiedCoordinates": {
+        "latitude": 43.854887,
+        "longitude": 18.400975,
+        "sourceId": "museum-pin",
+        "precision": "named building/venue map centre; not entrance",
+        "checkedAt": "2026-10-29T01:26:36.424265+00:00",
+        "sourceUrl": "https://www.sarajevonavigator.ba/en/event/19527",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "addressSourceUrl": "https://www.sarajevonavigator.ba/en/event/19527"
+    },
+    {
+      "id": "dom",
+      "venue": "Dom mladih Skenderija",
+      "address": "Terezija bb, Sarajevo",
+      "addressSourceId": "orea-primary",
+      "verifiedCoordinates": {
+        "latitude": 43.855417,
+        "longitude": 18.4145944,
+        "sourceId": "dom-pin",
+        "precision": "named building/campus; not entrance or amphitheatre",
+        "checkedAt": "2026-10-29T01:27:42.284770+00:00",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Youth_Centre_Skenderija",
+        "evidence": "Fresh full named venue page, address checked against event location; building/campus precision, not entrance."
+      },
+      "addressSourceUrl": "https://artmarket.orea.ba/"
+    },
+    {
+      "id": "sartr",
+      "venue": "Sarajevski ratni teatar SARTR",
+      "address": "Gabelina 16, Sarajevo",
+      "addressSourceUrl": "https://mapcarta.com/W290822211",
+      "verifiedCoordinates": {
+        "latitude": 43.86355,
+        "longitude": 18.41521,
+        "sourceUrl": "https://mapcarta.com/W290822211",
+        "precision": "named building point; not entrance",
+        "checkedAt": "2026-10-29T01:24:20.330183+00:00",
+        "evidence": "Full named location page with matching venue address."
+      }
+    },
+    {
+      "id": "kamerni",
+      "venue": "Kamerni teatar 55",
+      "address": "Maršala Tita 56/II, Sarajevo",
+      "addressSourceUrl": "https://www.kamerniteatar55.ba/kontakt-2",
+      "verifiedCoordinates": {
+        "latitude": 43.85856806046851,
+        "longitude": 18.42118184670428,
+        "sourceUrl": "https://www.kamerniteatar55.ba/kontakt-2",
+        "precision": "own named embedded map centre, approximately building-level; not entrance",
+        "checkedAt": "2026-10-29T01:24:13.091149+00:00",
+        "evidence": "Full named location page with matching venue address."
+      }
+    },
+    {
+      "id": "czks",
+      "venue": "CZKS",
+      "address": "Sime Milutinovića Sarajlije 2/II, Sarajevo",
+      "addressSourceUrl": "https://www.glartent.com/BA/Sarajevo/353824184474437/CZKS",
+      "verifiedCoordinates": {
+        "latitude": 43.8575,
+        "longitude": 18.427,
+        "sourceUrl": "https://www.glartent.com/BA/Sarajevo/353824184474437/CZKS",
+        "precision": "rounded named venue point; approximately 30m; not entrance",
+        "checkedAt": "2026-10-29T01:30:25.487970+00:00",
+        "evidence": "Full named location page with matching venue address."
+      }
+    },
+    {
+      "id": "railway",
+      "venue": "Željeznička stanica Sarajevo",
+      "address": "Halida Kajtaza / Put života 2, Sarajevo",
+      "addressSourceUrl": "https://ba.geoview.info/zeljeznicka_stanica_sarajevo%2C19758632r",
+      "verifiedCoordinates": {
+        "latitude": 43.86025,
+        "longitude": 18.39907,
+        "sourceUrl": "https://ba.geoview.info/zeljeznicka_stanica_sarajevo%2C19758632r",
+        "precision": "named railway-station building centre; not entrance or exhibition room",
+        "checkedAt": "2026-10-29T01:26:35.049925+00:00",
+        "evidence": "Full named location page with matching venue address."
+      }
+    },
+    {
+      "id": "europe",
+      "venue": "Europe House Sarajevo",
+      "address": "Maršala Tita 62, Sarajevo 71000",
+      "addressSourceUrl": "https://www.bgs.ba/odjeljenje-17-marsala-tita-62/",
+      "verifiedCoordinates": {
+        "latitude": 43.8588001,
+        "longitude": 18.4219339,
+        "sourceUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.8564494574625!2d18.41935897659848!3d43.858803939108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c8cf8c67e761%3A0x509a4f3412d51e2c!2sMar%C5%A1ala%20Tita%2062%2C%20Sarajevo%2071000!5e0!3m2!1shr!2sba!4v1700739088792!5m2!1shr!2sba",
+        "precision": "address-building point, not verified entrance",
+        "checkedAt": "2026-10-29T01:33:30Z",
+        "evidence": "Public Sarajevo library branch17 explicitly identifies Europe House at Tita62. Its own embedded Google map response HTTP200 contains named address feature Maršala Tita62 and lat/lng43.8588001,18.4219339. Distinguish viewport18.41935897659848: NOT used. Independent festival full page confirms same street number."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://nps.ba/repertoar/snjeguljica-i-sedam-patuljaka/998",
+      "sourceId": "snowwhite",
+      "checkedAt": "2026-10-29T01:26:56.617032+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/2575fbf1c703b5f5.html",
+      "bytes": 80084
+    },
+    {
+      "url": "https://nps.ba/repertoar/misolovka/1003",
+      "finalUrl": "https://nps.ba/repertoar/misolovka/1003",
+      "checkedAt": "2026-10-29T01:30:31.999224+00:00",
+      "status": 200,
+      "bytes": 83555,
+      "path": "overnight-20261029/preparation/sarajevo/raw/2da2cac04f4cffae.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-06",
+      "checkedAt": "2026-10-29T01:29:16.533729+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/b70bbae6c076ab8c.html",
+      "bytes": 39302
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sarajevo_Youth_Theatre",
+      "sourceId": "youth-pin",
+      "checkedAt": "2026-10-29T01:26:03.502146+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/bae72f38c1b668af.html",
+      "bytes": 149012
+    },
+    {
+      "url": "https://en.everybodywiki.com/Europe_House_Sarajevo",
+      "finalUrl": "https://en.everybodywiki.com/Europe_House_Sarajevo",
+      "checkedAt": "2026-10-29T01:30:09.319502+00:00",
+      "status": 200,
+      "bytes": 81643,
+      "path": "overnight-20261029/preparation/sarajevo/raw/b0e028e368778ee2.html"
+    },
+    {
+      "url": "https://nps.ba/repertoar/jezeva-kuca/1001",
+      "finalUrl": "https://nps.ba/repertoar/jezeva-kuca/1001",
+      "checkedAt": "2026-10-29T01:30:16.248187+00:00",
+      "status": 200,
+      "bytes": 73836,
+      "path": "overnight-20261029/preparation/sarajevo/raw/980f17e1326a4ec3.html"
+    },
+    {
+      "url": "https://sarajevski.ba/desavanja/predstava-up-and-down",
+      "finalUrl": "https://sarajevski.ba/desavanja/predstava-up-and-down",
+      "checkedAt": "2026-10-29T01:29:12.899934+00:00",
+      "status": 200,
+      "bytes": 72145,
+      "path": "overnight-20261029/preparation/sarajevo/raw/16312137a0252597.html"
+    },
+    {
+      "url": "https://sartr.ba/kontakt/",
+      "finalUrl": "https://sartr.ba/kontakt/",
+      "checkedAt": "2026-10-29T01:24:08.911854+00:00",
+      "status": 200,
+      "bytes": 176632,
+      "path": "overnight-20261029/preparation/sarajevo/raw/a2b3c59754c4e5dd.html"
+    },
+    {
+      "url": "https://www.glartent.com/BA/Sarajevo/353824184474437/CZKS",
+      "finalUrl": "https://www.glartent.com/BA/Sarajevo/353824184474437/CZKS",
+      "checkedAt": "2026-10-29T01:30:25.487970+00:00",
+      "status": 200,
+      "bytes": 165909,
+      "path": "overnight-20261029/preparation/sarajevo/raw/250bf5d2428a74cd.html"
+    },
+    {
+      "url": "https://www.goethe.de/ins/ba/bs/ver.cfm?event_id=27366747",
+      "finalUrl": "https://www.goethe.de/ins/ba/bs/ver.cfm?event_id=27366747",
+      "checkedAt": "2026-10-29T01:25:36.814314+00:00",
+      "status": 200,
+      "bytes": 146275,
+      "path": "overnight-20261029/preparation/sarajevo/raw/19f496478f4c6692.html"
+    },
+    {
+      "url": "https://fiestalama.com/bs/event/588",
+      "sourceId": "orea-price",
+      "checkedAt": "2026-10-29T01:28:02.166191+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/162553c1d7b4e4ff.html",
+      "bytes": 111727
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/ena-rajic-satiricno-poetski-show-bez-dlake-na-jeziku-2026-11-06",
+      "checkedAt": "2026-10-29T01:29:05.507778+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/c2ee8ac6a9ff8177.html",
+      "bytes": 41498
+    },
+    {
+      "url": "https://nps.ba/repertoar/balkanski-spijun-u-sarajevu/1008",
+      "finalUrl": "https://nps.ba/repertoar/balkanski-spijun-u-sarajevu/1008",
+      "checkedAt": "2026-10-29T01:29:50.473305+00:00",
+      "status": 200,
+      "bytes": 73277,
+      "path": "overnight-20261029/preparation/sarajevo/raw/e007314e37481d54.html"
+    },
+    {
+      "url": "https://ba.geoview.info/zeljeznicka_stanica_sarajevo%2C19758632r",
+      "finalUrl": "https://ba.geoview.info/zeljeznicka_stanica_sarajevo%2C19758632r",
+      "checkedAt": "2026-10-29T01:26:35.049925+00:00",
+      "status": 200,
+      "bytes": 109977,
+      "path": "overnight-20261029/preparation/sarajevo/raw/8976098ac136eacd.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/balkanski-spijun-u-sarajevu-2026-11-23",
+      "checkedAt": "2026-10-29T01:31:25.592156+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/1edf53173affc951.html",
+      "bytes": 39826
+    },
+    {
+      "url": "https://www.kamerniteatar55.ba/kontakt-2",
+      "finalUrl": "https://www.kamerniteatar55.ba/kontakt-2",
+      "checkedAt": "2026-10-29T01:24:13.091149+00:00",
+      "status": 200,
+      "bytes": 66550,
+      "path": "overnight-20261029/preparation/sarajevo/raw/42f1fae9be2b159b.html"
+    },
+    {
+      "url": "https://nps.ba/repertoar/gala-koncert-povodom-80-godina-opere-nps/1005",
+      "sourceId": "opera-gala",
+      "checkedAt": "2026-10-29T01:27:09.055760+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/fd7e318811e7d1d0.html",
+      "bytes": 47166
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/up-and-down-2026-11-11",
+      "checkedAt": "2026-10-29T01:29:59.682409+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/7f83840075982d6f.html",
+      "bytes": 39200
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/2soma-u-slogi-2026-11-05",
+      "checkedAt": "2026-10-29T01:29:01.261191+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/1c3f3d79b4bff4fe.html",
+      "bytes": 38721
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/gala-koncert-2026-11-19",
+      "checkedAt": "2026-10-29T01:30:54.231851+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/199c881bfc45abbd.html",
+      "bytes": 39270
+    },
+    {
+      "url": "https://sarajevski.ba/desavanja/predstava-with-love-from-bosnia",
+      "finalUrl": "https://sarajevski.ba/desavanja/predstava-with-love-from-bosnia",
+      "checkedAt": "2026-10-29T01:28:59.975461+00:00",
+      "status": 200,
+      "bytes": 72468,
+      "path": "overnight-20261029/preparation/sarajevo/raw/9708e5626fc30df6.html"
+    },
+    {
+      "url": "https://sarajevski.ba/desavanja/predstava-mokre-macke",
+      "finalUrl": "https://sarajevski.ba/desavanja/predstava-mokre-macke",
+      "checkedAt": "2026-10-29T01:29:19.339772+00:00",
+      "status": 200,
+      "bytes": 70098,
+      "path": "overnight-20261029/preparation/sarajevo/raw/e82bc0c13c9b9a02.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/amira-medunjanin-2026-11-22",
+      "checkedAt": "2026-10-29T01:31:16.278069+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/25f75594885b2458.html",
+      "bytes": 40129
+    },
+    {
+      "url": "https://api.karter.ba/api/v1/events/occurrences/4c82c0f2-a59e-4c7b-be20-a896f03c44b1",
+      "checkedAt": "2026-10-29T01:25:04.383495+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/premijera-nove-monokomedije-ne-d-o-bog-nikome-2026-11-19",
+      "checkedAt": "2026-10-29T01:30:58.001303+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/b697dd983bf8e30e.html",
+      "bytes": 40778
+    },
+    {
+      "url": "https://nps.ba/repertoar/posljednja-noc-seherzada/1006",
+      "finalUrl": "https://nps.ba/repertoar/posljednja-noc-seherzada/1006",
+      "checkedAt": "2026-10-29T01:30:36.279469+00:00",
+      "status": 200,
+      "bytes": 79723,
+      "path": "overnight-20261029/preparation/sarajevo/raw/0cd6d5f78086dab9.html"
+    },
+    {
+      "url": "https://www.sarajevonavigator.ba/ba/place/74",
+      "sourceId": "sloga-pin",
+      "checkedAt": "2026-10-29T01:26:24.479319+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/c91c4b117c55adc2.html",
+      "bytes": 332828
+    },
+    {
+      "url": "https://artmarket.orea.ba/",
+      "sourceId": "orea-primary",
+      "checkedAt": "2026-10-29T01:27:57.900635+00:00",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/kaliopi-2026-11-05",
+      "checkedAt": "2026-10-29T01:28:57.799323+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/1c5d3d0f4c31b783.html",
+      "bytes": 39039
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/imagine-2026-11-13",
+      "checkedAt": "2026-10-29T01:30:19.892307+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/5e22a7f3acf62a0e.html",
+      "bytes": 38563
+    },
+    {
+      "url": "https://jazzfest.ba/kupovina/",
+      "sourceId": "jazz-macedonian",
+      "checkedAt": "2026-10-29T01:27:22.203475+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/ccd5bc61275a7789.html",
+      "bytes": 110108
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/tommy-emmanuel-sarajevo-2026-11-06",
+      "checkedAt": "2026-10-29T01:29:21.340197+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/b8f573f292a70275.html",
+      "bytes": 39221
+    },
+    {
+      "url": "https://nps.ba/repertoar/uhvati-zeca/1030",
+      "sourceId": "uhvati",
+      "checkedAt": "2026-10-29T01:26:51.412420+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://sarajevski.ba/desavanja/predstava-njih-vise-nema-4",
+      "finalUrl": "https://sarajevski.ba/desavanja/predstava-njih-vise-nema-4",
+      "checkedAt": "2026-10-29T01:24:36.957639+00:00",
+      "status": 200,
+      "bytes": 72966,
+      "path": "overnight-20261029/preparation/sarajevo/raw/016b2680aeb27a7e.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/with-love-from-bosnia-2026-11-10",
+      "checkedAt": "2026-10-29T01:29:48.458243+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/56083af19bb94021.html",
+      "bytes": 39767
+    },
+    {
+      "url": "https://www.gdjecemo.ba/dogadjaji/spuzva-bob-dom-mladih-2026-11-01",
+      "sourceId": "spuzva-local",
+      "checkedAt": "2026-10-29T01:27:54.232722+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/a4928fd389e3be72.html",
+      "bytes": 195
+    },
+    {
+      "url": "https://sartr.ba/wp-content/uploads/2026/09/822276551_1078040375093478_5878736775484973822_n.jpg",
+      "finalUrl": "https://sartr.ba/wp-content/uploads/2026/09/822276551_1078040375093478_5878736775484973822_n.jpg",
+      "checkedAt": "2026-10-29T01:24:04.793832+00:00",
+      "status": 200,
+      "bytes": 215873,
+      "path": "overnight-20261029/preparation/sarajevo/raw/8c00e06ac7293e04.html"
+    },
+    {
+      "url": "https://www.zfbh.ba/en/arhitektonska-izlozba-diaspona-otvorena-u-auli-zeljeznicke-stanice-sarajevo/",
+      "finalUrl": "https://www.zfbh.ba/en/arhitektonska-izlozba-diaspona-otvorena-u-auli-zeljeznicke-stanice-sarajevo/",
+      "checkedAt": "2026-10-29T01:26:23.387465+00:00",
+      "status": 200,
+      "bytes": 63409,
+      "path": "overnight-20261029/preparation/sarajevo/raw/ea3a6a4177eda6f1.html"
+    },
+    {
+      "url": "https://nps.ba/repertoar/hamlet-u-selu-mrdusa-donja-ili-hamlet-zna-sto-narod-ne-zna/1002",
+      "finalUrl": "https://nps.ba/repertoar/hamlet-u-selu-mrdusa-donja-ili-hamlet-zna-sto-narod-ne-zna/1002",
+      "checkedAt": "2026-10-29T01:30:23.712323+00:00",
+      "status": 200,
+      "bytes": 59489,
+      "path": "overnight-20261029/preparation/sarajevo/raw/eaeb3e33065dd127.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/predstavljanje-knjige-zeljka-bockovca-zimsko-planinarenje-ledenjacke-tehnike-i-visoka-gorja-2026-11-03",
+      "checkedAt": "2026-10-29T01:28:53.222176+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/444a8a07715f699f.html",
+      "bytes": 42316
+    },
+    {
+      "url": "https://skenderija.ba/",
+      "sourceId": "skenderija-primary",
+      "checkedAt": "2026-10-29T01:27:45.940602+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/34cf6d8a798ffffb.html",
+      "bytes": 273826
+    },
+    {
+      "url": "https://bkc.ba/kontakt/",
+      "sourceId": "bkc-contact",
+      "checkedAt": "2026-10-29T01:26:43.780451+00:00",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://nps.ba/repertoar/balkanski-spijun-u-sarajevu/999",
+      "finalUrl": "https://nps.ba/repertoar/balkanski-spijun-u-sarajevu/999",
+      "checkedAt": "2026-10-29T01:29:56.510372+00:00",
+      "status": 200,
+      "bytes": 73029,
+      "path": "overnight-20261029/preparation/sarajevo/raw/22ef2030ac07f3c5.html"
+    },
+    {
+      "url": "https://www.entrio.ba/event/ena-rajic-satiricno-poetski-show-bez-dlake-na-jeziku-34965",
+      "finalUrl": "https://www.entrio.ba/event/ena-rajic-satiricno-poetski-show-bez-dlake-na-jeziku-34965",
+      "checkedAt": "2026-10-29T01:33:23.276079+00:00",
+      "status": 200,
+      "bytes": 135623,
+      "path": "overnight-20261029/preparation/sarajevo/raw/b9c4fb93c6bedb8c.html"
+    },
+    {
+      "url": "https://www.kupikartu.ba/karte/zona/7797/enis-belagi-da-sam-ja-neko-sarajevo",
+      "sourceId": "enis",
+      "checkedAt": "2026-10-29T01:27:32.147446+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/93c267307bf6daa8.html",
+      "bytes": 19635
+    },
+    {
+      "url": "https://www.sarajevonavigator.ba/en/event/19527",
+      "sourceId": "museum-pin",
+      "checkedAt": "2026-10-29T01:26:36.424265+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/1f301b6392b1aaa2.html",
+      "bytes": 232601
+    },
+    {
+      "url": "https://nps.ba/repertoar/halloween-symphonic/1052",
+      "sourceId": "halloween",
+      "checkedAt": "2026-10-29T01:27:02.933437+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/0774f221592a9cf2.html",
+      "bytes": 56700
+    },
+    {
+      "url": "https://www.entrio.ba/event/sarajevo-kaliopi-33216",
+      "finalUrl": "https://www.entrio.ba/event/sarajevo-kaliopi-33216",
+      "checkedAt": "2026-10-29T01:32:55.376954+00:00",
+      "status": 200,
+      "bytes": 128754,
+      "path": "overnight-20261029/preparation/sarajevo/raw/34f0b12727e52e01.html"
+    },
+    {
+      "url": "https://n1info.ba/kultura/sta-kada-dom-prestane-biti-utociste-predstava-dva-sa-dva-premijerno-u-sarajevu/",
+      "finalUrl": "https://n1info.ba/kultura/sta-kada-dom-prestane-biti-utociste-predstava-dva-sa-dva-premijerno-u-sarajevu/",
+      "checkedAt": "2026-10-29T01:30:15.596082+00:00",
+      "status": 200,
+      "bytes": 457143,
+      "path": "overnight-20261029/preparation/sarajevo/raw/eaa743d145791189.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/the-red-hot-experience-brazil-u-sarajevu-22-nov-sloga-2026-11-22",
+      "checkedAt": "2026-10-29T01:31:21.876148+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/aafe26a5fad1229e.html",
+      "bytes": 40021
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-07",
+      "checkedAt": "2026-10-29T01:29:25.713915+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/26431a37b9951856.html",
+      "bytes": 39306
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/sarajevo-matinee-presents-the-haunted-warehouse-iii-2026-10-31",
+      "checkedAt": "2026-10-29T01:28:28.207046+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/024db01fc2b3c082.html",
+      "bytes": 40246
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/mahalokalipsa-2026-11-11",
+      "checkedAt": "2026-10-29T01:29:55.892858+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/df78ac9d37e4641a.html",
+      "bytes": 39382
+    },
+    {
+      "url": "https://sartr.ba/",
+      "finalUrl": "https://sartr.ba/",
+      "checkedAt": "2026-10-29T01:23:40.380512+00:00",
+      "status": 200,
+      "bytes": 620064,
+      "path": "overnight-20261029/preparation/sarajevo/raw/b8a1d9b07e951ff9.html"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sarajevo_National_Theatre",
+      "sourceId": "nps-pin",
+      "checkedAt": "2026-10-29T01:25:57.061550+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/8e7ecab2e306f63b.html",
+      "bytes": 172742
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/ena-rajic-satiricno-poetski-show-bez-dlake-na-jeziku-2026-11-06-2",
+      "checkedAt": "2026-10-29T01:29:09.392788+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/a79b2c64c21961bf.html",
+      "bytes": 40174
+    },
+    {
+      "url": "https://www.entrio.ba/event/darko-rundek-ekipa-u-sarajevu-29818",
+      "finalUrl": "https://www.entrio.ba/event/darko-rundek-ekipa-u-sarajevu-29818",
+      "checkedAt": "2026-10-29T01:33:45.482416+00:00",
+      "status": 200,
+      "bytes": 125341,
+      "path": "overnight-20261029/preparation/sarajevo/raw/d15e568355603f0f.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/karius-i-baktus-2026-11-12",
+      "checkedAt": "2026-10-29T01:30:09.986165+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/40930fa87f776fd3.html",
+      "bytes": 39461
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/metal-heart-feat-chris-dale-2026-11-06",
+      "checkedAt": "2026-10-29T01:29:12.812717+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/fee507c665afd01f.html",
+      "bytes": 41069
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/dva-sa-dva-2026-11-08",
+      "checkedAt": "2026-10-29T01:29:29.648825+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/d214368708768b1d.html",
+      "bytes": 39430
+    },
+    {
+      "url": "https://nps.ba/repertoar/posljednja-noc-seherzada/1004",
+      "finalUrl": "https://nps.ba/repertoar/posljednja-noc-seherzada/1004",
+      "checkedAt": "2026-10-29T01:29:43.492007+00:00",
+      "status": 200,
+      "bytes": 79893,
+      "path": "overnight-20261029/preparation/sarajevo/raw/5f104c5a6bafb922.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/smrtni-ishod-atletskih-povreda-2026-11-09",
+      "checkedAt": "2026-10-29T01:29:37.744087+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/404005ffec92c405.html",
+      "bytes": 39734
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/misolovka-2026-11-14",
+      "checkedAt": "2026-10-29T01:30:34.519532+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/bbb8863b450d0da7.html",
+      "bytes": 39276
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/mokre-macke-2026-11-26",
+      "checkedAt": "2026-10-29T01:31:32.886609+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/66c2457c4f0cdba9.html",
+      "bytes": 39283
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/hamlet-u-selu-mrdusa-donja-ili-hamlet-zna-sto-narod-ne-zna-2026-11-11",
+      "checkedAt": "2026-10-29T01:29:52.120407+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/5b37968e2b6a75b2.html",
+      "bytes": 41007
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/posljednja-noc-seherzada-2026-11-20",
+      "checkedAt": "2026-10-29T01:31:01.642785+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/0fa6a4bd5583ff50.html",
+      "bytes": 39763
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/oslobodenje-sarajeva-2026-11-13",
+      "checkedAt": "2026-10-29T01:30:25.018570+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/9793071b38aa8488.html",
+      "bytes": 39533
+    },
+    {
+      "url": "https://karter.ba/e/za-zivot-cijeli?occurrenceId=4c82c0f2-a59e-4c7b-be20-a896f03c44b1",
+      "finalUrl": "https://karter.ba/e/za-zivot-cijeli?occurrenceId=4c82c0f2-a59e-4c7b-be20-a896f03c44b1",
+      "checkedAt": "2026-10-29T01:23:46.897515+00:00",
+      "status": 200,
+      "bytes": 51342,
+      "path": "overnight-20261029/preparation/sarajevo/raw/19feccf7a8691f16.html"
+    },
+    {
+      "url": "https://czech-transport.com/index.php?id=19367",
+      "finalUrl": "https://czech-transport.com/index.php?id=19367",
+      "checkedAt": "2026-10-29T01:26:43.576751+00:00",
+      "status": 200,
+      "bytes": 27045,
+      "path": "overnight-20261029/preparation/sarajevo/raw/5cd1ec5cddc92d7e.html"
+    },
+    {
+      "url": "https://atelier-madoka.com/bs/",
+      "finalUrl": "https://atelier-madoka.com/bs/",
+      "checkedAt": "2026-10-29T01:25:47.967784+00:00",
+      "status": 200,
+      "bytes": 74303,
+      "path": "overnight-20261029/preparation/sarajevo/raw/18d5a7d8e4a6d6ba.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/jezeva-kuca-2026-11-02",
+      "checkedAt": "2026-10-29T01:28:43.242306+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/4f5182162fb2dfe2.html",
+      "bytes": 39495
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/zoran-kesic-priredba-price-i-pjesme-2026-11-20",
+      "checkedAt": "2026-10-29T01:31:05.162406+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/59a31a2a75240ad6.html",
+      "bytes": 39578
+    },
+    {
+      "url": "https://www.balcanicaucaso.org/event/a-sarajevo-la-mostra-fotografica-di-mario-boccia-sullassedio/",
+      "sourceId": "boccia",
+      "checkedAt": "2026-10-29T01:28:15.090016+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/dd69259e22be00b8.html",
+      "bytes": 429649
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/linkin-park-tribute-by-piknik-park-hu-2026-11-27",
+      "checkedAt": "2026-10-29T01:31:48.087486+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/5a2e8bf03b726b26.html",
+      "bytes": 40779
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/za-zivot-cijeli-2026-11-01",
+      "checkedAt": "2026-10-29T01:28:39.842256+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/2a8cca5e17e23b0f.html",
+      "bytes": 39461
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/predstava-celo-telo-tu-me-boli-2026-11-26",
+      "checkedAt": "2026-10-29T01:31:36.521733+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/af425244e8efce47.html",
+      "bytes": 40098
+    },
+    {
+      "url": "https://www.entrio.ba/event/linkin-park-tribute-by-piknik-park-hu-27nov-sloga-34579",
+      "finalUrl": "https://www.entrio.ba/event/linkin-park-tribute-by-piknik-park-hu-27nov-sloga-34579",
+      "checkedAt": "2026-10-29T01:34:02.647861+00:00",
+      "status": 200,
+      "bytes": 124347,
+      "path": "overnight-20261029/preparation/sarajevo/raw/2a31fdcf05419c21.html"
+    },
+    {
+      "url": "https://mks.ks.gov.ba/node/4694",
+      "sourceId": "youth-address",
+      "checkedAt": "2026-10-29T01:26:11.743390+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/with-love-from-bosnia-2026-11-09",
+      "checkedAt": "2026-10-29T01:29:41.175489+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/92b4cc7d7b162162.html",
+      "bytes": 39688
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/muhamed-fazlagic-fazla-12-nov-sloga-2026-11-12",
+      "checkedAt": "2026-10-29T01:30:15.090720+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/c57329ab65f2ef24.html",
+      "bytes": 39678
+    },
+    {
+      "url": "https://www.entrio.ba/event/spuza-bob-predstava-34968",
+      "finalUrl": "https://www.entrio.ba/event/spuza-bob-predstava-34968",
+      "checkedAt": "2026-10-29T01:32:49.547083+00:00",
+      "status": 200,
+      "bytes": 130691,
+      "path": "overnight-20261029/preparation/sarajevo/raw/2b4d01e847aa8ecf.html"
+    },
+    {
+      "url": "https://www.sarajevonavigator.ba/en/event/19404",
+      "sourceId": "bkc-pin",
+      "checkedAt": "2026-10-29T01:26:29.879911+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/2184d43a4bef479e.html",
+      "bytes": 225079
+    },
+    {
+      "url": "https://www.entrio.ba/event/predstava-celo-telo-tu-me-boli-sarajevo-34487",
+      "finalUrl": "https://www.entrio.ba/event/predstava-celo-telo-tu-me-boli-sarajevo-34487",
+      "checkedAt": "2026-10-29T01:33:59.094691+00:00",
+      "status": 200,
+      "bytes": 135848,
+      "path": "overnight-20261029/preparation/sarajevo/raw/3b7ee2cda97f9c6f.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/mile-kekin-13-nov-sloga-2026-11-13",
+      "checkedAt": "2026-10-29T01:30:28.569898+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/cb9a2045f3e4847d.html",
+      "bytes": 38985
+    },
+    {
+      "url": "https://jazzfest.ba/ulaznice/",
+      "sourceId": "jazz-access",
+      "checkedAt": "2026-10-29T01:27:17.404696+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/84152145c2c6ce3c.html",
+      "bytes": 53240
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/novembar-2026",
+      "finalUrl": "https://howdidimissthat.com/sarajevo/novembar-2026",
+      "checkedAt": "2026-10-29T01:23:55.750009+00:00",
+      "status": 200,
+      "bytes": 164065,
+      "path": "overnight-20261029/preparation/sarajevo/raw/59110e12258a4d9f.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/darko-rundek-ekipa-2026-11-21",
+      "checkedAt": "2026-10-29T01:31:12.557641+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/a58c0f956710d8e6.html",
+      "bytes": 40162
+    },
+    {
+      "url": "https://nps.ba/repertoar/gogolj-iz-pepela/1007",
+      "sourceId": "gogolj",
+      "checkedAt": "2026-10-29T01:27:12.947381+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/918d816a03dab950.html",
+      "bytes": 64191
+    },
+    {
+      "url": "https://www.entrio.ba/en/event/amira-medunjanin-bkc-sarajevo-34620",
+      "sourceId": "amira",
+      "checkedAt": "2026-10-29T01:27:36.824398+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/4c53c8bc47af4fc3.html",
+      "bytes": 138575
+    },
+    {
+      "url": "https://diaspona.ba/agenda/",
+      "checkedAt": "2026-10-29T01:25:32.581274+00:00",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://www.kalendart.com/event/europe-house-atlas-europia-autora-stefana-de-luigija-free/",
+      "checkedAt": "2026-10-29T01:28:46.708418+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://europehouse.ba/",
+      "checkedAt": "2026-10-29T01:26:17.207264+00:00",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://sarajevski.ba/desavanja/predstava-za-zivot-cijeli",
+      "finalUrl": "https://sarajevski.ba/desavanja/predstava-za-zivot-cijeli",
+      "checkedAt": "2026-10-29T01:28:55.460218+00:00",
+      "status": 200,
+      "bytes": 73201,
+      "path": "overnight-20261029/preparation/sarajevo/raw/2c0ba1d90725d21e.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/gogolj-iz-pepela-2026-11-21",
+      "checkedAt": "2026-10-29T01:31:08.557470+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/0ae8162ac08cf51d.html",
+      "bytes": 39394
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/za-zivot-cijeli-2026-11-02",
+      "checkedAt": "2026-10-29T01:28:48.344431+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/68109015cb01aad4.html",
+      "bytes": 39467
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/mokre-macke-2026-11-27",
+      "checkedAt": "2026-10-29T01:31:40.472511+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/52aa8fbc5d046d3d.html",
+      "bytes": 39273
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/spuzva-bob-predstava-2026-11-01",
+      "checkedAt": "2026-10-29T01:28:36.384673+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/8f67bf9f4e07e766.html",
+      "bytes": 39641
+    },
+    {
+      "url": "https://karter.ba/main.39ce24fc8c2d723d.js",
+      "finalUrl": "https://karter.ba/main.39ce24fc8c2d723d.js",
+      "checkedAt": "2026-10-29T01:24:32.546107+00:00",
+      "status": 200,
+      "bytes": 2111448,
+      "path": "overnight-20261029/preparation/sarajevo/raw/99fe413c1a5b9490.html"
+    },
+    {
+      "url": "https://fmks.gov.ba/sarajevo-na-setnici-kulture-u-cetvrtak-29-10-2026-godine-u-1630-sati-2/",
+      "finalUrl": "https://fmks.gov.ba/sarajevo-na-setnici-kulture-u-cetvrtak-29-10-2026-godine-u-1630-sati-2/",
+      "checkedAt": "2026-10-29T01:25:42.804278+00:00",
+      "status": 200,
+      "bytes": 193073,
+      "path": "overnight-20261029/preparation/sarajevo/raw/cb671e966b51e937.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/patricija-crnkovic-cije-oci-2026-11-09",
+      "checkedAt": "2026-10-29T01:29:34.199835+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/80a672945ae49030.html",
+      "bytes": 39349
+    },
+    {
+      "url": "https://www.entrio.ba/en/event/40-zurka-u-slogi-35540",
+      "sourceId": "sloga40",
+      "checkedAt": "2026-10-29T01:27:28.001404+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/8464e1c4c91f5659.html",
+      "bytes": 123822
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/zivinice-sve-mi-diraj-ocevinu-ne-30-godina-kasnije-2026-11-27",
+      "checkedAt": "2026-10-29T01:31:44.202835+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/e26254f344ebbb7e.html",
+      "bytes": 40129
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/puls-2026-11-24",
+      "checkedAt": "2026-10-29T01:31:29.102603+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/868614ac38b74550.html",
+      "bytes": 38957
+    },
+    {
+      "url": "https://mapcarta.com/W290822211",
+      "finalUrl": "https://mapcarta.com/W290822211",
+      "checkedAt": "2026-10-29T01:24:20.330183+00:00",
+      "status": 200,
+      "bytes": 43260,
+      "path": "overnight-20261029/preparation/sarajevo/raw/5044bea1dceee8c0.html"
+    },
+    {
+      "url": "https://nps.ba/",
+      "sourceId": "nps-contact",
+      "checkedAt": "2026-10-29T01:26:07.325812+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/5f3a12566b888c75.html",
+      "bytes": 140350
+    },
+    {
+      "url": "https://nps.ba/repertoar/imagine/1042",
+      "finalUrl": "https://nps.ba/repertoar/imagine/1042",
+      "checkedAt": "2026-10-29T01:30:28.061619+00:00",
+      "status": 200,
+      "bytes": 44760,
+      "path": "overnight-20261029/preparation/sarajevo/raw/61ae2fc25689dde0.html"
+    },
+    {
+      "url": "https://nps.ba/repertoar/balkanski-spijun-u-sarajevu/1000",
+      "finalUrl": "https://nps.ba/repertoar/balkanski-spijun-u-sarajevu/1000",
+      "checkedAt": "2026-10-29T01:30:04.954747+00:00",
+      "status": 200,
+      "bytes": 73030,
+      "path": "overnight-20261029/preparation/sarajevo/raw/e33493ab9ed8bbfa.html"
+    },
+    {
+      "url": "https://sarajevski.ba/desavanja/predstava-puls",
+      "finalUrl": "https://sarajevski.ba/desavanja/predstava-puls",
+      "checkedAt": "2026-10-29T01:29:06.447684+00:00",
+      "status": 200,
+      "bytes": 71436,
+      "path": "overnight-20261029/preparation/sarajevo/raw/cbe4d96bf4c93553.html"
+    },
+    {
+      "url": "https://www.entrio.ba/event/metal-heart-feat-chris-dale-06nov-sloga-35364",
+      "finalUrl": "https://www.entrio.ba/event/metal-heart-feat-chris-dale-06nov-sloga-35364",
+      "checkedAt": "2026-10-29T01:33:41.749574+00:00",
+      "status": 200,
+      "bytes": 122551,
+      "path": "overnight-20261029/preparation/sarajevo/raw/090a9a0dae9658f6.html"
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/lijevo-desno-glumac-2026-11-14",
+      "checkedAt": "2026-10-29T01:30:38.088541+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/fb5f5a7f649c8f8c.html",
+      "bytes": 39720
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/smrtni-ishod-atletskih-povreda-2026-11-10",
+      "checkedAt": "2026-10-29T01:29:44.983793+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/0f21817b106d14de.html",
+      "bytes": 39892
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Youth_Centre_Skenderija",
+      "sourceId": "dom-pin",
+      "checkedAt": "2026-10-29T01:27:42.284770+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/2c81fd8719054a71.html",
+      "bytes": 140270
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/sarajevo-predstava-zenomrzac-2026-11-18",
+      "checkedAt": "2026-10-29T01:30:47.358937+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/87b95dcbd9e9c324.html",
+      "bytes": 39177
+    },
+    {
+      "url": "https://howdidimissthat.com/sarajevo/event/posljednja-noc-seherzada-2026-11-17",
+      "checkedAt": "2026-10-29T01:30:43.449353+00:00",
+      "status": 200,
+      "path": "/workspace/scratch/59f6a13c9f12/overnight-20261029/preparation/sarajevo/raw/ed75f4ec083ed353.html",
+      "bytes": 39872
+    },
+    {
+      "url": "https://af.unsa.ba/promocija-knjige-zaboravljeni-dimnjaci-grada/",
+      "finalUrl": "https://af.unsa.ba/promocija-knjige-zaboravljeni-dimnjaci-grada/",
+      "checkedAt": "2026-10-29T01:26:28.595453+00:00",
+      "status": 200,
+      "bytes": 97263,
+      "path": "overnight-20261029/preparation/sarajevo/raw/9a6387b6420c9ac5.html"
+    }
+  ],
+  "holds": [
+    {
+      "title": "Ježeva kuća Nov2 14:00",
+      "reason": "Full primary dated page read, but no dated ticket link; public vs organized school access not settled. Duration60min is not exact end."
+    },
+    {
+      "title": "Balkanski špijun Oct29/30",
+      "reason": "NPS announced Zagreb tour; exclude from Sarajevo."
+    },
+    {
+      "title": "Hamlet Nov11",
+      "reason": "Detail cache miss, stopped."
+    },
+    {
+      "title": "Haunted Warehouse Oct31",
+      "reason": "Full dated ticket page read; named hangar pin unresolved."
+    },
+    {
+      "title": "BKC coordinate conflict",
+      "reason": "Wikipedia43.85778,18.42444 conflicts event-specificNavigator43.857511,18.422034 and matchingWorldPlaces43.85718,18.42193. Use approximate named event map only, not Wikipedia pin."
+    },
+    {
+      "title": "Kids Fair Nov7–8",
+      "reason": "Own event and venue confirm dates/hall; precise public windows and hall-specific pin not yet checked."
+    },
+    {
+      "title": "Mini Halloween BAZA Oct31/Nov1 and terrariumOct30",
+      "reason": "Local full dated pages read; direct organizer Instagram cache misses, no retries; new venue pins not validated."
+    },
+    {
+      "title": "Nahla knitting course",
+      "reason": "Own page only November2026, no specific public session dates or fees."
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/sarajevo-matinee-presents-the-haunted-warehouse-iii-2026-10-31",
+      "title": "Sarajevo Matinée presents: THE HAUNTED WAREHOUSE III",
+      "date": "2026-10-31T19:00:00+01:00",
+      "checkedAt": "2026-10-29T01:28:28.207046+00:00",
+      "status": "held_for_recheck",
+      "reason": "Venue pin not independently checked"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/jezeva-kuca-2026-11-02",
+      "title": "Ježeva kuća",
+      "date": "2026-11-02T14:00:00+01:00",
+      "checkedAt": "2026-10-29T01:28:43.242306+00:00",
+      "status": "held_for_recheck",
+      "reason": "Sold out in current agenda; no open availability established"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/predstavljanje-knjige-zeljka-bockovca-zimsko-planinarenje-ledenjacke-tehnike-i-visoka-gorja-2026-11-03",
+      "title": "Predstavljanje knjige Željka Bockovca „Zimsko planinarenje, ledenjačke tehnike i visoka gorja”",
+      "date": "2026-11-03",
+      "checkedAt": "2026-10-29T01:28:53.222176+00:00",
+      "status": "held_for_recheck",
+      "reason": "Start time not confirmed"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/2soma-u-slogi-2026-11-05",
+      "title": "2Soma u Slogi",
+      "date": "2026-11-05T21:00:00+01:00",
+      "checkedAt": "2026-10-29T01:29:01.261191+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/ena-rajic-satiricno-poetski-show-bez-dlake-na-jeziku-2026-11-06-2",
+      "title": "Ena Rajić: Satirično-poetski show \"Bez dlake na jeziku\"",
+      "date": "2026-11-06T19:30:00+01:00",
+      "checkedAt": "2026-10-29T01:29:09.392788+00:00",
+      "status": "held_for_recheck",
+      "reason": "Semantic duplicate of Ena Rajić at same Dom mladih room/date/time"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/tommy-emmanuel-sarajevo-2026-11-06",
+      "title": "TOMMY EMMANUEL @ SARAJEVO",
+      "date": "2026-11-06T20:00:00+01:00",
+      "checkedAt": "2026-10-29T01:29:21.340197+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/patricija-crnkovic-cije-oci-2026-11-09",
+      "title": "Patricija Crnkovič: Čije oči?",
+      "date": "2026-11-09T19:30:00+01:00",
+      "checkedAt": "2026-10-29T01:29:34.199835+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/mahalokalipsa-2026-11-11",
+      "title": "Mahalokalipsa",
+      "date": "2026-11-11T20:00:00+01:00",
+      "checkedAt": "2026-10-29T01:29:55.892858+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/karius-i-baktus-2026-11-12",
+      "title": "Karius i Baktus",
+      "date": "2026-11-12T18:00:00+01:00",
+      "checkedAt": "2026-10-29T01:30:09.986165+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/muhamed-fazlagic-fazla-12-nov-sloga-2026-11-12",
+      "title": "MUHAMED FAZLAGIĆ FAZLA // 12.NOV // SLOGA",
+      "date": "2026-11-12T21:00:00+01:00",
+      "checkedAt": "2026-10-29T01:30:15.090720+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/mile-kekin-13-nov-sloga-2026-11-13",
+      "title": "MILE KEKIN // 13.NOV // SLOGA",
+      "date": "2026-11-13T21:00:00+01:00",
+      "checkedAt": "2026-10-29T01:30:28.569898+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/lijevo-desno-glumac-2026-11-14",
+      "title": "Lijevo desno glumac",
+      "date": "2026-11-14T20:00:00+01:00",
+      "checkedAt": "2026-10-29T01:30:38.088541+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/sarajevo-predstava-zenomrzac-2026-11-18",
+      "title": "SARAJEVO - PREDSTAVA ŽENOMRZAC",
+      "date": "2026-11-18T20:00:00+01:00",
+      "checkedAt": "2026-10-29T01:30:47.358937+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/premijera-nove-monokomedije-ne-d-o-bog-nikome-2026-11-19",
+      "title": "Premijera nove monokomedije \"Ne d'o Bog nikome\"",
+      "date": "2026-11-19T20:00:00+01:00",
+      "checkedAt": "2026-10-29T01:30:58.001303+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/zoran-kesic-priredba-price-i-pjesme-2026-11-20",
+      "title": "ZORAN KESIĆ - PRIREDBA PRIČE I PJESME",
+      "date": "2026-11-20T20:00:00+01:00",
+      "checkedAt": "2026-10-29T01:31:05.162406+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/darko-rundek-ekipa-2026-11-21",
+      "title": "Darko Rundek & Ekipa",
+      "date": "2026-11-21T20:00:00+01:00",
+      "checkedAt": "2026-10-29T01:31:12.557641+00:00",
+      "status": "held_for_recheck",
+      "reason": "Primary ticket category explicitly sold out; 30+3BAM price not availability"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/the-red-hot-experience-brazil-u-sarajevu-22-nov-sloga-2026-11-22",
+      "title": "The Red Hot Experience (Brazil) u Sarajevu // 22.NOV // SLOGA",
+      "date": "2026-11-22T20:00:00+01:00",
+      "checkedAt": "2026-10-29T01:31:21.876148+00:00",
+      "status": "held_for_recheck",
+      "reason": "Read full broad agenda; organizer-level programme/admission not checked in this bounded pass"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/mokre-macke-2026-11-26",
+      "title": "Mokre mačke",
+      "date": "2026-11-26T20:00:00+01:00",
+      "checkedAt": "2026-10-29T01:31:32.886609+00:00",
+      "status": "held_for_recheck",
+      "reason": "Second November26 date not independently corroborated by primary programme"
+    },
+    {
+      "sourceUrl": "https://howdidimissthat.com/sarajevo/event/zivinice-sve-mi-diraj-ocevinu-ne-30-godina-kasnije-2026-11-27",
+      "title": "ŽIVINICE - SVE MI DIRAJ, OČEVINU NE  – 30 GODINA KASNIJE",
+      "date": "2026-11-27T20:00:00+01:00",
+      "checkedAt": "2026-10-29T01:31:44.202835+00:00",
+      "status": "held_for_recheck",
+      "reason": "Title explicitly Živinice; Sarajevo venue assignment conflicts"
+    },
+    {
+      "id": "orea",
+      "status": "held_for_recheck",
+      "reason": "Own host406 stopped; fresh Fiesta full HTML only ticket-access shell, no complete dated announcement"
+    },
+    {
+      "id": "uhvati",
+      "status": "elapsed_excluded",
+      "reason": "October28 session elapsed; source now404"
+    }
+  ],
+  "firstSevenDayMatrix": [
+    {
+      "date": "2026-10-29",
+      "timedSessions": 3,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "talk",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "timedSessions": 2,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "timedSessions": 1,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "music"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "timedSessions": 2,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "kids",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "timedSessions": 2,
+      "realRanges": 4,
+      "rangesOpenNowNotEstablished": 4,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "timedSessions": 1,
+      "realRanges": 4,
+      "rangesOpenNowNotEstablished": 4,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "timedSessions": 1,
+      "realRanges": 4,
+      "rangesOpenNowNotEstablished": 4,
+      "categories": [
+        "art",
+        "music"
+      ]
+    }
+  ],
+  "thirtyDayMatrix": [
+    {
+      "date": "2026-10-29",
+      "timedSessions": 3,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "talk",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "timedSessions": 2,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "timedSessions": 1,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "music"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "timedSessions": 2,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "kids",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "timedSessions": 2,
+      "realRanges": 4,
+      "rangesOpenNowNotEstablished": 4,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "timedSessions": 1,
+      "realRanges": 4,
+      "rangesOpenNowNotEstablished": 4,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "timedSessions": 1,
+      "realRanges": 4,
+      "rangesOpenNowNotEstablished": 4,
+      "categories": [
+        "art",
+        "music"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "timedSessions": 3,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "music"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "timedSessions": 6,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "timedSessions": 4,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "timedSessions": 1,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "timedSessions": 2,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "timedSessions": 2,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "timedSessions": 2,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "timedSessions": 0,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "timedSessions": 2,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "music",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "timedSessions": 1,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "timedSessions": 0,
+      "realRanges": 3,
+      "rangesOpenNowNotEstablished": 3,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "timedSessions": 0,
+      "realRanges": 2,
+      "rangesOpenNowNotEstablished": 2,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "timedSessions": 1,
+      "realRanges": 2,
+      "rangesOpenNowNotEstablished": 2,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "timedSessions": 0,
+      "realRanges": 2,
+      "rangesOpenNowNotEstablished": 2,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "timedSessions": 1,
+      "realRanges": 2,
+      "rangesOpenNowNotEstablished": 2,
+      "categories": [
+        "art",
+        "music"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "timedSessions": 1,
+      "realRanges": 2,
+      "rangesOpenNowNotEstablished": 2,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "timedSessions": 1,
+      "realRanges": 2,
+      "rangesOpenNowNotEstablished": 2,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "timedSessions": 1,
+      "realRanges": 2,
+      "rangesOpenNowNotEstablished": 2,
+      "categories": [
+        "art",
+        "music"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "timedSessions": 1,
+      "realRanges": 2,
+      "rangesOpenNowNotEstablished": 2,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "timedSessions": 1,
+      "realRanges": 2,
+      "rangesOpenNowNotEstablished": 2,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "timedSessions": 0,
+      "realRanges": 2,
+      "rangesOpenNowNotEstablished": 2,
+      "categories": [
+        "art"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "timedSessions": 1,
+      "realRanges": 1,
+      "rangesOpenNowNotEstablished": 1,
+      "categories": [
+        "art",
+        "theatre"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "timedSessions": 2,
+      "realRanges": 1,
+      "rangesOpenNowNotEstablished": 1,
+      "categories": [
+        "art",
+        "music",
+        "theatre"
+      ]
+    }
+  ],
+  "sourceCoverage": {
+    "broadAgenda": "HowDidIMissThat full November overview58 observed URLs;47 full detail pages read in bounded selection, not full city coverage",
+    "primaries": "NPS, SARTR, JazzFest, Entrio, Goethe, railway, ArchitectureFaculty and exhibition organizer",
+    "telegram": "Search discovery only this run. Shared t.me access block observed by colleague; no retry, no imported announcements; previous chat/profile evidence historical only.",
+    "limitations": [
+      "Unknown exhibition hours not daily sessions or open-now",
+      "Several late-November dates remain empty",
+      "No Instagram protected login; no messaging/joining",
+      "No full 5–6 SERP pagination claim"
+    ],
+    "searchQueries": [
+      "site:t.me Sarajevo афиша октябрь ноябрь 2026",
+      "site:t.me Sarajevo events chat expats",
+      "site:t.me Сараево чат Босния"
+    ],
+    "telegramDiscoveryOnly": [
+      "https://t.me/bosnialife1",
+      "https://t.me/bosniya_gercegovina",
+      "https://t.me/bosnia_sarajevo",
+      "https://t.me/%2BNYwLZJm0yPpkMDc0"
+    ]
+  },
+  "stopHosts": [
+    "api.karter.ba",
+    "rolify.com",
+    "diaspona.ba",
+    "europehouse.ba",
+    "bkc.ba",
+    "artmarket.orea.ba",
+    "t.me",
+    "nominatim.openstreetmap.org"
+  ],
+  "QA": {
+    "semanticDedupe": "Merged repeated programme dates; same EnaRajić session at Dom/Amfiteatar only once; opera gala only once",
+    "elapsedExcluded": "Uhvati zeca Oct28 and SARTR Oct28",
+    "crossCityExcluded": "Balkanski špijun Oct29/30 primary Scenoteka Zagreb; Živinice title wrongly tagged Sarajevo",
+    "soldOutExcluded": "DarkoRundekNov21 and JeževaKućaNov2",
+    "unknownHoursRanges": 4,
+    "noInferredEndAt": true,
+    "independentPublisherReviewRequired": true
+  }
+}

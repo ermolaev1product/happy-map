@@ -1,0 +1,22 @@
+{
+  "authoritativeDelta": "delta.json",
+  "authoritativeCandidatePackets": [
+    "hm27-own.json",
+    "hm27-eurasia.json",
+    "hm27-europe.json",
+    "hm27-global.json",
+    "hm27-gap-followup.json"
+  ],
+  "supersededPreliminaryEvidence": [
+    "hm27-cinema.json",
+    "hm27-georgia-kazakhstan.json",
+    "hm27-yerevan-baku.json",
+    "hm27-tashkent-minsk-bishkek.json"
+  ],
+  "retention": "Preliminary evidence retained for audit, not an import queue. Only final delta added[] establishes prepared publication entries. Earlier121cinema packet includes10subsequentlyheldhall-key conflicts; earlierGeorgia packet includes7subsequentlyheldyearproof cases. Neither packet may be imported independently.",
+  "publicationStatus": "prepared_not_yet_published",
+  "supplementalSourceAudit": "hm27-gap-followup-audit.json",
+  "newRecords": 425,
+  "heldRecords": 167,
+  "newPlaces": 0
+}

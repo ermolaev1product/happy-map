@@ -1,0 +1,131 @@
+{
+  "added": [
+    {
+      "id": "skopje-sergej-second-20261101-2000",
+      "programmeId": "skopje-sergej-second-20261101",
+      "city": "Skopje",
+      "cityId": "skopje",
+      "title": "Сергеј Четковиќ — Live Tour 2026 5.0, втор концерт",
+      "titleEn": "Sergej Ćetković — Live Tour 2026 5.0, second Skopje concert",
+      "description": "Sergej Ćetković performs with his band at the Macedonian Philharmonic; this is the second Skopje concert.",
+      "venue": "Macedonian Philharmonic",
+      "venueId": "skopje-venue-01bbc45d7dd9686f",
+      "placeId": "skopje-venue-01bbc45d7dd9686f",
+      "address": "Bulevar Goce Delchev 2, Skopje",
+      "category": "music",
+      "lat": 41.99757,
+      "lng": 21.43593,
+      "coordinateSource": "https://mapcarta.com/35927472",
+      "coordinatePrecision": "venue_approximate",
+      "coordinateEvidence": "Named venue coordinates, not a city centre, map viewport centre, indoor room or surveyed entrance.; named_OSM_building_way_230982226_not_entrance Existing published venue reused; no new request to stopped Mapcarta.",
+      "coordinateCheckedAt": "2026-10-28T12:05:46.091022+00:00",
+      "coordinateReadIsHistorical": true,
+      "source": "Eventum promoter / directly linked e-ticket service",
+      "sourceUrl": "https://eventum.mk/event/%f0%9f%8e%a4-%d0%b2%d1%82%d0%be%d1%80-%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d1%80%d1%82-%d1%81%d0%b5%d1%80%d0%b3%d0%b5%d1%98-%d1%87%d0%b5%d1%82%d0%ba%d0%be%d0%b2%d0%b8%d1%9c-live-tour-2026-5-0/",
+      "sourceURLs": [
+        "https://e-ticket.mk/events/sergej-skopje-2",
+        "https://eventum.mk/",
+        "https://e-ticket.mk/"
+      ],
+      "checkedAt": "2026-10-29T03:58:09.976347+00:00",
+      "yearEvidence": "Full promoter body explicitly01.11.2026 /20:00/MacedonianPhilharmonic; directly linkedticketprimary confirms exactdate/year/start. SearchsnippetartistNov1Belgrade association notfullproof; artist403/406stopped, notused.",
+      "date": "2026-11-01",
+      "time": "20:00",
+      "end": null,
+      "startAt": "2026-11-01T20:00:00+01:00",
+      "endAt": null,
+      "price": 1300,
+      "min": true,
+      "priceNote": "From MKD1300 per person. Mandatory booking fees are not stated and remain unverified.",
+      "currency": "MKD",
+      "timezone": "Europe/Skopje",
+      "mandatoryFees": null,
+      "feeStatus": "Unknown",
+      "admission": "Public ticketed concert. First31Octconcert is sold out; this separate1Novticketpage still offers purchase, not a guarantee of remaining inventory. No booking performed.",
+      "status": "scheduled",
+      "soldOut": false,
+      "endEvidence": "No actual finish/duration stated; no endAt fabricated.",
+      "kind": "event"
+    }
+  ],
+  "newPlaces": [],
+  "sourceAudit": [
+    {
+      "url": "https://eventum.mk/",
+      "finalUrl": "https://eventum.mk/",
+      "checkedAt": "2026-10-29T03:57:05.530183+00:00",
+      "status": 200,
+      "bytes": 164848,
+      "path": "overnight-20261029/quality-gap-fresh/skopje/4200cc6ef0e49cef.html",
+      "accessClassification": "no_explicit_access_block_detected",
+      "cityId": "skopje",
+      "id": "skopje-source-4200cc6ef0e49c",
+      "name": "Eventum / e-ticket full programme",
+      "count": 0,
+      "accessStatus": "read_full_source"
+    },
+    {
+      "url": "https://e-ticket.mk/events/sergej-skopje-2",
+      "finalUrl": "https://e-ticket.mk/events/sergej-skopje-2",
+      "checkedAt": "2026-10-29T03:58:09.976347+00:00",
+      "status": 200,
+      "bytes": 209495,
+      "path": "overnight-20261029/quality-gap-fresh/skopje/a5ad184547f074b8.html",
+      "accessClassification": "no_explicit_access_block_detected",
+      "cityId": "skopje",
+      "id": "skopje-source-a5ad184547f074",
+      "name": "Eventum / e-ticket full programme",
+      "count": 0,
+      "accessStatus": "read_full_source"
+    },
+    {
+      "url": "https://sergejcetkovic.me/tour/",
+      "checkedAt": "2026-10-29T03:56:13.167948+00:00",
+      "status": 406,
+      "error": "HTTP Error 406: Not Acceptable",
+      "accessClassification": "access_status_406",
+      "cityId": "skopje",
+      "id": "skopje-source-cac7ac4b062b67",
+      "name": "Artist tour unavailable",
+      "count": 0,
+      "accessStatus": "access_blocked_stop"
+    },
+    {
+      "url": "https://e-ticket.mk/",
+      "finalUrl": "https://e-ticket.mk/",
+      "checkedAt": "2026-10-29T03:57:12.817329+00:00",
+      "status": 200,
+      "bytes": 179198,
+      "path": "overnight-20261029/quality-gap-fresh/skopje/2625e9c286a93e6a.html",
+      "accessClassification": "no_explicit_access_block_detected",
+      "cityId": "skopje",
+      "id": "skopje-source-2625e9c286a93e",
+      "name": "Eventum / e-ticket full programme",
+      "count": 0,
+      "accessStatus": "read_full_source"
+    },
+    {
+      "url": "https://eventum.mk/event/%f0%9f%8e%a4-%d0%b2%d1%82%d0%be%d1%80-%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d1%80%d1%82-%d1%81%d0%b5%d1%80%d0%b3%d0%b5%d1%98-%d1%87%d0%b5%d1%82%d0%ba%d0%be%d0%b2%d0%b8%d1%9c-live-tour-2026-5-0/",
+      "finalUrl": "https://eventum.mk/event/%f0%9f%8e%a4-%d0%b2%d1%82%d0%be%d1%80-%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d1%80%d1%82-%d1%81%d0%b5%d1%80%d0%b3%d0%b5%d1%98-%d1%87%d0%b5%d1%82%d0%ba%d0%be%d0%b2%d0%b8%d1%9c-live-tour-2026-5-0/",
+      "checkedAt": "2026-10-29T03:58:00.803523+00:00",
+      "status": 200,
+      "bytes": 58892,
+      "path": "overnight-20261029/quality-gap-fresh/skopje/9633ff467fe6cb3e.html",
+      "accessClassification": "no_explicit_access_block_detected",
+      "cityId": "skopje",
+      "id": "skopje-source-9633ff467fe6cb",
+      "name": "Eventum / e-ticket full programme",
+      "count": 1,
+      "accessStatus": "read_full_source"
+    }
+  ],
+  "held": [
+    {
+      "url": "https://sergejcetkovic.me/tour/",
+      "status": "blocked_stop",
+      "reason": "40603:56:13; no retry, notusedascontent",
+      "cityId": "skopje",
+      "id": "skopje-artist-tour-blocked-20261029"
+    }
+  ]
+}

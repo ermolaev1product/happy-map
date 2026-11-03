@@ -1,0 +1,56 @@
+{
+  "source": "https://geo.api.gouv.fr/communes/75056?format=geojson&geometry=contour",
+  "documentation": "https://geo.api.gouv.fr/decoupage-administratif/communes",
+  "retrieved_at": "2026-10-14",
+  "boundary_sha256": "f30b942e6775c8e859abafc6ad14dd9aae14308498929688297dbcb42fad9484",
+  "boundary_properties": {
+    "nom": "Paris",
+    "code": "75056",
+    "codeDepartement": "75",
+    "siren": "217500016",
+    "codeEpci": "200054781",
+    "codeRegion": "11",
+    "codesPostaux": [
+      "75001",
+      "75002",
+      "75003",
+      "75004",
+      "75005",
+      "75006",
+      "75007",
+      "75008",
+      "75009",
+      "75010",
+      "75011",
+      "75012",
+      "75013",
+      "75014",
+      "75015",
+      "75016",
+      "75017",
+      "75018",
+      "75019",
+      "75020",
+      "75116"
+    ],
+    "population": 2103778
+  },
+  "method": "WGS84 point-in-polygon, holes supported. Official Geo API Paris commune 75056 contour includes both woods. Points within 100m of the boundary are held for address or finer-boundary review; distance is approximate local equirectangular. For ways this tests supplied representative point, not the entire footprint.",
+  "limits": [
+    "Boundary membership validates location only, not present business operation or bar eligibility.",
+    "Coordinate errors, polygon generalization, and sites straddling borders require review; 100m band is conservative triage, not a claim of stated source precision."
+  ],
+  "candidate_count": 2339,
+  "candidate_polygon_inside": 2041,
+  "candidate_polygon_outside": 298,
+  "candidate_classification_counts": {
+    "inside_paris_polygon": 2037,
+    "near_boundary_review": 30,
+    "outside_paris_polygon": 272
+  },
+  "existing_places_count": 526,
+  "existing_classification_counts": {
+    "inside_paris_polygon": 520,
+    "near_boundary_review": 6
+  }
+}

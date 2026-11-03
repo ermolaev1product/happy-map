@@ -1,0 +1,593 @@
+{
+  "batchId": "telegram-review-2026-10-13",
+  "checkedAt": "2026-10-13T03:12:20.375490+00:00",
+  "reportFile": "data/refresh-2026-10-13-import.json",
+  "coverageNote": " Partial editorial update on October 13: selected Telegram announcements checked against organizer pages. This is not a full refresh of every event or source.",
+  "items": [
+    {
+      "city": "tbilisi",
+      "action": "add",
+      "event": {
+        "venue": "Auditoria",
+        "address": "22–26 Simon Janashia Street, Tbilisi",
+        "lat": 41.7058354,
+        "lng": 44.7814223,
+        "coordinateSource": "https://pochill.site/en/venues/8757-auditoria",
+        "id": "refresh-20261013-auditoria-debate",
+        "kind": "event",
+        "title": "Клуб дебатов — Auditoria × RockTheDebate",
+        "titleEn": "Debate Club — Auditoria × RockTheDebate",
+        "date": "2026-10-14",
+        "time": "19:30",
+        "end": null,
+        "endDate": null,
+        "category": "talk",
+        "price": 25,
+        "min": false,
+        "currency": "GEL",
+        "description": "Знакомство со спортивными дебатами: объяснение правил, пробный раунд и разбор. Опыт не нужен. Запись через бота организатора.",
+        "descriptionEn": "An introduction to debating, with a practice round and feedback. No experience required. Register through the organizer’s bot.",
+        "source": "Auditoria Tbilisi",
+        "sourceUrl": "https://t.me/auditoria_tbilisi/7586",
+        "checkedAt": "2026-10-13T03:12:20.375490+00:00",
+        "sourceRetrievedAt": "2026-10-13T03:03:12.253505+00:00",
+        "availabilityVerified": false,
+        "language": null,
+        "timezone": "Asia/Tbilisi",
+        "researchBatch": "telegram-review-2026-10-13",
+        "coordinateEvidence": "Reused the existing verified venue pin; no new geocoding claimed.",
+        "dateEvidence": {
+          "year": 2026,
+          "method": "current_2026_organizer_post_and_matching_weekday",
+          "publishedAt": "2026-10-12T18:25:22+00:00",
+          "sourceUrl": "https://t.me/auditoria_tbilisi/7586"
+        },
+        "evidenceUrls": [
+          "https://t.me/auditoria_tbilisi/7586"
+        ],
+        "sources": [
+          {
+            "name": "Auditoria Tbilisi",
+            "url": "https://t.me/auditoria_tbilisi/7586",
+            "price": 25,
+            "min": false,
+            "currency": "GEL",
+            "checkedAt": "2026-10-13T03:12:20.375490+00:00"
+          }
+        ],
+        "ticketUrl": "https://t.me/rock_the_debate_bot",
+        "registrationRequired": true,
+        "availabilityNote": "Announcement checked; remaining seats and successful booking are not guaranteed."
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_tbilisi/7586"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "venue": "Центр «Зотов»",
+        "address": "Ходынская ул., 2, стр. 1",
+        "lat": 55.770331040485075,
+        "lng": 37.5646587871239,
+        "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+        "id": "refresh-20261013-zotov-bread-art",
+        "kind": "event",
+        "title": "Хлеба́. Хле́бы. Хлеб",
+        "titleEn": "Bread in Russian and Soviet Art",
+        "date": "2026-10-14",
+        "time": "19:30",
+        "end": null,
+        "endDate": null,
+        "category": "talk",
+        "price": null,
+        "min": false,
+        "currency": "RUB",
+        "description": "Елена Желудкова расскажет, как менялся образ хлеба в искусстве XX века. Лекторий, 4-й этаж; 16+.",
+        "descriptionEn": "Elena Zheludkova explores bread in twentieth-century art. Lecture hall, fourth floor; ages 16+.",
+        "source": "Zotov Centre",
+        "sourceUrl": "https://t.me/centrezotov/10075",
+        "checkedAt": "2026-10-13T03:12:20.375490+00:00",
+        "sourceRetrievedAt": "2026-10-13T03:03:20.905293+00:00",
+        "availabilityVerified": false,
+        "language": null,
+        "timezone": "Europe/Moscow",
+        "researchBatch": "telegram-review-2026-10-13",
+        "coordinateEvidence": "Reused the existing verified venue pin; no new geocoding claimed.",
+        "dateEvidence": {
+          "year": 2026,
+          "method": "explicit_date_in_official_event_page",
+          "publishedAt": "2026-10-06T11:01:47+00:00",
+          "sourceUrl": "https://centrezotov.ru/events/hleb/hleba-hleby-hleb/"
+        },
+        "evidenceUrls": [
+          "https://t.me/centrezotov/10075",
+          "https://centrezotov.ru/events/hleb/hleba-hleby-hleb/"
+        ],
+        "sources": [
+          {
+            "name": "Zotov Centre",
+            "url": "https://t.me/centrezotov/10075",
+            "price": null,
+            "min": false,
+            "currency": "RUB",
+            "checkedAt": "2026-10-13T03:12:20.375490+00:00"
+          }
+        ],
+        "ticketUrl": "https://centrezotov.ru/events/hleb/hleba-hleby-hleb/",
+        "priceNote": "Price was not stated in the checked announcement; registration does not imply free entry.",
+        "registrationRequired": true,
+        "availabilityNote": "Announcement checked; remaining seats and successful booking are not guaranteed."
+      },
+      "evidenceUrls": [
+        "https://t.me/centrezotov/10075",
+        "https://centrezotov.ru/events/hleb/hleba-hleby-hleb/"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "venue": "Центр «Зотов»",
+        "address": "Ходынская ул., 2, стр. 1",
+        "lat": 55.770331040485075,
+        "lng": 37.5646587871239,
+        "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+        "id": "refresh-20261013-zotov-bread-world",
+        "kind": "event",
+        "title": "Хлеб на карте мира: вкус как след культуры",
+        "titleEn": "Bread Around the World: Taste as a Cultural Trace",
+        "date": "2026-10-15",
+        "time": "19:30",
+        "end": null,
+        "endDate": null,
+        "category": "talk",
+        "price": null,
+        "min": false,
+        "currency": "RUB",
+        "description": "Анна Кукулина о связи хлеба с климатом и культурными традициями. Лекторий, 4-й этаж; 12+.",
+        "descriptionEn": "Anna Kukulina discusses how climate and cultural traditions shape bread. Lecture hall, fourth floor; ages 12+.",
+        "source": "Zotov Centre",
+        "sourceUrl": "https://t.me/centrezotov/10078",
+        "checkedAt": "2026-10-13T03:12:20.375490+00:00",
+        "sourceRetrievedAt": "2026-10-13T03:03:20.905293+00:00",
+        "availabilityVerified": false,
+        "language": null,
+        "timezone": "Europe/Moscow",
+        "researchBatch": "telegram-review-2026-10-13",
+        "coordinateEvidence": "Reused the existing verified venue pin; no new geocoding claimed.",
+        "dateEvidence": {
+          "year": 2026,
+          "method": "explicit_date_in_official_event_page",
+          "publishedAt": "2026-10-07T09:29:30+00:00",
+          "sourceUrl": "https://centrezotov.ru/events/hlebnyj-god-v-czentre-zotov/zakvaska-2/hleb-na-karte-mira-vkus-kak-sled-kultury/"
+        },
+        "evidenceUrls": [
+          "https://t.me/centrezotov/10078",
+          "https://centrezotov.ru/events/hlebnyj-god-v-czentre-zotov/zakvaska-2/hleb-na-karte-mira-vkus-kak-sled-kultury/"
+        ],
+        "sources": [
+          {
+            "name": "Zotov Centre",
+            "url": "https://t.me/centrezotov/10078",
+            "price": null,
+            "min": false,
+            "currency": "RUB",
+            "checkedAt": "2026-10-13T03:12:20.375490+00:00"
+          }
+        ],
+        "ticketUrl": "https://centrezotov.ru/events/hlebnyj-god-v-czentre-zotov/zakvaska-2/hleb-na-karte-mira-vkus-kak-sled-kultury/",
+        "priceNote": "Price was not stated in the checked announcement; registration does not imply free entry.",
+        "registrationRequired": true,
+        "availabilityNote": "Announcement checked; remaining seats and successful booking are not guaranteed."
+      },
+      "evidenceUrls": [
+        "https://t.me/centrezotov/10078",
+        "https://centrezotov.ru/events/hlebnyj-god-v-czentre-zotov/zakvaska-2/hleb-na-karte-mira-vkus-kak-sled-kultury/"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "venue": "Центр «Зотов»",
+        "address": "Ходынская ул., 2, стр. 1",
+        "lat": 55.770331040485075,
+        "lng": 37.5646587871239,
+        "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+        "id": "refresh-20261013-zotov-mechanical-piano",
+        "kind": "event",
+        "title": "Неоконченная пьеса для механического пианино — спецпоказ",
+        "titleEn": "An Unfinished Piece for Mechanical Piano — Special Screening",
+        "date": "2026-10-14",
+        "time": "20:30",
+        "end": null,
+        "endDate": null,
+        "category": "film",
+        "price": null,
+        "min": false,
+        "currency": "RUB",
+        "description": "Фильм Никиты Михалкова в программе «Застолья». Чёрный зал; 12+.",
+        "descriptionEn": "Nikita Mikhalkov’s film in the Feasts programme. Black Hall; ages 12+.",
+        "source": "Zotov Centre",
+        "sourceUrl": "https://t.me/centrezotov/10099",
+        "checkedAt": "2026-10-13T03:12:20.375490+00:00",
+        "sourceRetrievedAt": "2026-10-13T03:03:20.905293+00:00",
+        "availabilityVerified": false,
+        "language": null,
+        "timezone": "Europe/Moscow",
+        "researchBatch": "telegram-review-2026-10-13",
+        "coordinateEvidence": "Reused the existing verified venue pin; no new geocoding claimed.",
+        "dateEvidence": {
+          "year": 2026,
+          "method": "explicit_date_in_official_event_page",
+          "publishedAt": "2026-10-09T15:10:27+00:00",
+          "sourceUrl": "https://centrezotov.ru/events/zastolya/neokonchennaya-pesa-dlya-mehanicheskogo-pianino/"
+        },
+        "evidenceUrls": [
+          "https://t.me/centrezotov/10099",
+          "https://centrezotov.ru/events/zastolya/neokonchennaya-pesa-dlya-mehanicheskogo-pianino/"
+        ],
+        "sources": [
+          {
+            "name": "Zotov Centre",
+            "url": "https://t.me/centrezotov/10099",
+            "price": null,
+            "min": false,
+            "currency": "RUB",
+            "checkedAt": "2026-10-13T03:12:20.375490+00:00"
+          }
+        ],
+        "ticketUrl": "https://centrezotov.ru/events/zastolya/neokonchennaya-pesa-dlya-mehanicheskogo-pianino/",
+        "priceNote": "Price was not stated in the checked announcement; registration does not imply free entry.",
+        "eventFormat": "special_screening",
+        "cinemaSession": true,
+        "registrationRequired": true,
+        "availabilityNote": "Announcement checked; remaining seats and successful booking are not guaranteed."
+      },
+      "evidenceUrls": [
+        "https://t.me/centrezotov/10099",
+        "https://centrezotov.ru/events/zastolya/neokonchennaya-pesa-dlya-mehanicheskogo-pianino/"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "venue": "Центр «Зотов»",
+        "address": "Ходынская ул., 2, стр. 1",
+        "lat": 55.770331040485075,
+        "lng": 37.5646587871239,
+        "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+        "id": "refresh-20261013-zotov-beloved",
+        "kind": "event",
+        "title": "Любовь моя / El ser querido — спецпоказ",
+        "titleEn": "El ser querido — Special Screening",
+        "date": "2026-10-15",
+        "time": "19:30",
+        "end": null,
+        "endDate": null,
+        "category": "film",
+        "price": null,
+        "min": false,
+        "currency": "RUB",
+        "description": "Показ с последующим обсуждением с Ириной Букиной. Красный и Чёрный залы; оригинал с субтитрами; 18+.",
+        "descriptionEn": "Screening followed by a discussion with Irina Bukina. Red and Black Halls; original version with subtitles; ages 18+.",
+        "source": "Zotov Centre",
+        "sourceUrl": "https://t.me/centrezotov/10083",
+        "checkedAt": "2026-10-13T03:12:20.375490+00:00",
+        "sourceRetrievedAt": "2026-10-13T03:03:20.905293+00:00",
+        "availabilityVerified": false,
+        "language": null,
+        "timezone": "Europe/Moscow",
+        "researchBatch": "telegram-review-2026-10-13",
+        "coordinateEvidence": "Reused the existing verified venue pin; no new geocoding claimed.",
+        "dateEvidence": {
+          "year": 2026,
+          "method": "explicit_date_in_official_event_page",
+          "publishedAt": "2026-10-07T15:08:48+00:00",
+          "sourceUrl": "https://centrezotov.ru/events/speczialnyj-pokaz-lyubov-moya-el-ser-querido/"
+        },
+        "evidenceUrls": [
+          "https://t.me/centrezotov/10083",
+          "https://centrezotov.ru/events/speczialnyj-pokaz-lyubov-moya-el-ser-querido/"
+        ],
+        "sources": [
+          {
+            "name": "Zotov Centre",
+            "url": "https://t.me/centrezotov/10083",
+            "price": null,
+            "min": false,
+            "currency": "RUB",
+            "checkedAt": "2026-10-13T03:12:20.375490+00:00"
+          }
+        ],
+        "ticketUrl": "https://centrezotov.ru/events/speczialnyj-pokaz-lyubov-moya-el-ser-querido/",
+        "priceNote": "Price was not stated in the checked announcement; registration does not imply free entry.",
+        "eventFormat": "special_screening",
+        "cinemaSession": true,
+        "registrationRequired": true,
+        "availabilityNote": "Announcement checked; remaining seats and successful booking are not guaranteed."
+      },
+      "evidenceUrls": [
+        "https://t.me/centrezotov/10083",
+        "https://centrezotov.ru/events/speczialnyj-pokaz-lyubov-moya-el-ser-querido/"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "event": {
+        "venue": "Центр «Зотов»",
+        "address": "Ходынская ул., 2, стр. 1",
+        "lat": 55.770331040485075,
+        "lng": 37.5646587871239,
+        "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+        "id": "refresh-20261013-zotov-follow-rain",
+        "kind": "event",
+        "title": "Следуй за дождём / Follow the Rain",
+        "titleEn": "Follow the Rain — Screening and Discussion",
+        "date": "2026-10-17",
+        "time": "18:00",
+        "end": null,
+        "endDate": null,
+        "category": "film",
+        "price": null,
+        "min": false,
+        "currency": "RUB",
+        "description": "Документальный фильм о грибах и природе Австралии, затем обсуждение. Английский язык с русскими субтитрами; 12+.",
+        "descriptionEn": "A documentary about fungi and Australian wildlife, followed by a discussion. English with Russian subtitles; ages 12+.",
+        "source": "Zotov Centre",
+        "sourceUrl": "https://t.me/centrezotov/10085",
+        "checkedAt": "2026-10-13T03:12:20.375490+00:00",
+        "sourceRetrievedAt": "2026-10-13T03:03:20.905293+00:00",
+        "availabilityVerified": false,
+        "language": null,
+        "timezone": "Europe/Moscow",
+        "researchBatch": "telegram-review-2026-10-13",
+        "coordinateEvidence": "Reused the existing verified venue pin; no new geocoding claimed.",
+        "dateEvidence": {
+          "year": 2026,
+          "method": "explicit_date_in_official_event_page",
+          "publishedAt": "2026-10-08T11:13:09+00:00",
+          "sourceUrl": "https://centrezotov.ru/events/sleduj-za-dozhdem-follow-the-rain/"
+        },
+        "evidenceUrls": [
+          "https://t.me/centrezotov/10085",
+          "https://centrezotov.ru/events/sleduj-za-dozhdem-follow-the-rain/"
+        ],
+        "sources": [
+          {
+            "name": "Zotov Centre",
+            "url": "https://t.me/centrezotov/10085",
+            "price": null,
+            "min": false,
+            "currency": "RUB",
+            "checkedAt": "2026-10-13T03:12:20.375490+00:00"
+          }
+        ],
+        "ticketUrl": "https://centrezotov.ru/events/sleduj-za-dozhdem-follow-the-rain/",
+        "priceNote": "Price was not stated in the checked announcement; registration does not imply free entry.",
+        "eventFormat": "special_screening",
+        "cinemaSession": true,
+        "registrationRequired": true,
+        "availabilityNote": "Announcement checked; remaining seats and successful booking are not guaranteed."
+      },
+      "evidenceUrls": [
+        "https://t.me/centrezotov/10085",
+        "https://centrezotov.ru/events/sleduj-za-dozhdem-follow-the-rain/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "update",
+      "expectedDate": "2026-10-13",
+      "event": {
+        "id": "bg-tg-auditoria-film-20261013",
+        "date": "2026-10-13",
+        "scheduleCheckedAt": "2026-10-13T03:03:25.583313+00:00",
+        "scheduleEvidenceUrl": "https://t.me/auditoria_belgrade/1776"
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_belgrade/1776"
+      ],
+      "reason": "Already present in version 59; organizer weekly schedule matches. Ticket inventory and old coordinate checks are not refreshed."
+    },
+    {
+      "city": "belgrade",
+      "action": "update",
+      "expectedDate": "2026-10-14",
+      "event": {
+        "id": "bg-tg-auditoria-drawing-20261014",
+        "date": "2026-10-14",
+        "scheduleCheckedAt": "2026-10-13T03:03:25.583313+00:00",
+        "scheduleEvidenceUrl": "https://t.me/auditoria_belgrade/1776"
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_belgrade/1776"
+      ],
+      "reason": "Already present in version 59; organizer weekly schedule matches. Ticket inventory and old coordinate checks are not refreshed."
+    },
+    {
+      "city": "belgrade",
+      "action": "update",
+      "expectedDate": "2026-10-15",
+      "event": {
+        "id": "bg-tg-auditoria-maizuls-20261015",
+        "date": "2026-10-15",
+        "scheduleCheckedAt": "2026-10-13T03:03:25.583313+00:00",
+        "scheduleEvidenceUrl": "https://t.me/auditoria_belgrade/1776"
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_belgrade/1776"
+      ],
+      "reason": "Already present in version 59; organizer weekly schedule matches. Ticket inventory and old coordinate checks are not refreshed."
+    },
+    {
+      "city": "belgrade",
+      "action": "update",
+      "expectedDate": "2026-10-16",
+      "event": {
+        "id": "bg-tg-auditoria-melamed-talk-20261016",
+        "date": "2026-10-16",
+        "scheduleCheckedAt": "2026-10-13T03:03:25.583313+00:00",
+        "scheduleEvidenceUrl": "https://t.me/auditoria_belgrade/1776"
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_belgrade/1776"
+      ],
+      "reason": "Already present in version 59; organizer weekly schedule matches. Ticket inventory and old coordinate checks are not refreshed."
+    },
+    {
+      "city": "belgrade",
+      "action": "update",
+      "expectedDate": "2026-10-17",
+      "event": {
+        "id": "bg-tg-auditoria-melamed-workshop-20261017",
+        "date": "2026-10-17",
+        "scheduleCheckedAt": "2026-10-13T03:03:25.583313+00:00",
+        "scheduleEvidenceUrl": "https://t.me/auditoria_belgrade/1776"
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_belgrade/1776"
+      ],
+      "reason": "Already present in version 59; organizer weekly schedule matches. Ticket inventory and old coordinate checks are not refreshed."
+    },
+    {
+      "city": "belgrade",
+      "action": "update",
+      "expectedDate": "2026-10-17",
+      "event": {
+        "id": "bg-tg-auditoria-choir-20261017",
+        "date": "2026-10-17",
+        "scheduleCheckedAt": "2026-10-13T03:03:25.583313+00:00",
+        "scheduleEvidenceUrl": "https://t.me/auditoria_belgrade/1776"
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_belgrade/1776"
+      ],
+      "reason": "Already present in version 59; organizer weekly schedule matches. Ticket inventory and old coordinate checks are not refreshed."
+    },
+    {
+      "city": "belgrade",
+      "action": "update",
+      "expectedDate": "2026-10-17",
+      "event": {
+        "id": "bg-tg-auditoria-karaoke-20261017",
+        "date": "2026-10-17",
+        "scheduleCheckedAt": "2026-10-13T03:03:25.583313+00:00",
+        "scheduleEvidenceUrl": "https://t.me/auditoria_belgrade/1776"
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_belgrade/1776"
+      ],
+      "reason": "Already present in version 59; organizer weekly schedule matches. Ticket inventory and old coordinate checks are not refreshed."
+    },
+    {
+      "city": "belgrade",
+      "action": "update",
+      "expectedDate": "2026-10-18",
+      "event": {
+        "id": "bg-tg-auditoria-chess-20261018",
+        "date": "2026-10-18",
+        "scheduleCheckedAt": "2026-10-13T03:03:25.583313+00:00",
+        "scheduleEvidenceUrl": "https://t.me/auditoria_belgrade/1776"
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_belgrade/1776"
+      ],
+      "reason": "Already present in version 59; organizer weekly schedule matches. Ticket inventory and old coordinate checks are not refreshed."
+    },
+    {
+      "city": "belgrade",
+      "action": "update",
+      "expectedDate": "2026-10-18",
+      "event": {
+        "id": "bg-tg-auditoria-improv-20261018",
+        "date": "2026-10-18",
+        "scheduleCheckedAt": "2026-10-13T03:03:25.583313+00:00",
+        "scheduleEvidenceUrl": "https://t.me/auditoria_belgrade/1776"
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_belgrade/1776"
+      ],
+      "reason": "Already present in version 59; organizer weekly schedule matches. Ticket inventory and old coordinate checks are not refreshed."
+    },
+    {
+      "city": "belgrade",
+      "action": "update",
+      "expectedDate": "2026-10-18",
+      "event": {
+        "id": "bg-tg-auditoria-friends-20261018",
+        "date": "2026-10-18",
+        "scheduleCheckedAt": "2026-10-13T03:03:25.583313+00:00",
+        "scheduleEvidenceUrl": "https://t.me/auditoria_belgrade/1776"
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_belgrade/1776"
+      ],
+      "reason": "Already present in version 59; organizer weekly schedule matches. Ticket inventory and old coordinate checks are not refreshed."
+    },
+    {
+      "city": "belgrade",
+      "action": "update",
+      "expectedDate": "2026-10-18",
+      "event": {
+        "id": "bg-tg-auditoria-music-games-20261018",
+        "date": "2026-10-18",
+        "scheduleCheckedAt": "2026-10-13T03:03:25.583313+00:00",
+        "scheduleEvidenceUrl": "https://t.me/auditoria_belgrade/1776"
+      },
+      "evidenceUrls": [
+        "https://t.me/auditoria_belgrade/1776"
+      ],
+      "reason": "Already present in version 59; organizer weekly schedule matches. Ticket inventory and old coordinate checks are not refreshed."
+    },
+    {
+      "city": "tbilisi",
+      "action": "pending",
+      "reason": "conflicting_date",
+      "example": "Heading says October 17; subscription dates say October 18. Await organizer clarification.",
+      "evidenceUrls": [
+        "https://t.me/auditoria_tbilisi/7585"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "pending",
+      "reason": "venue_address_unverified",
+      "example": "October 17 at 19:30, donation; the post does not confirm a street address or map coordinates.",
+      "evidenceUrls": [
+        "https://t.me/artcinema_ge/4970"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "pending",
+      "reason": "venue_address_unverified",
+      "example": "October 19 at 20:00 and 1000 RSD confirmed on linked QuizHeroes page; exact venue missing.",
+      "evidenceUrls": [
+        "https://t.me/quizbelgrade/9029"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "pending",
+      "reason": "venue_coordinates_unverified",
+      "example": "October 15 at 20:00, Balkanska 30, from 100 RSD; exact venue pin not verified.",
+      "evidenceUrls": [
+        "https://t.me/standupbelgrade/91"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "pending",
+      "reason": "primary_source_inaccessible",
+      "example": "Potential October 19 cinema lecture discovered through an aggregator; primary page not accessible, not imported.",
+      "evidenceUrls": [
+        "https://kts-pokrovsk.timepad.ru/event/4230175/"
+      ]
+    }
+  ]
+}

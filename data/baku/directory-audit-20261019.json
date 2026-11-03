@@ -1,0 +1,65 @@
+{
+  "rawElements": 3208,
+  "publishedPlaces": 2488,
+  "excluded": {
+    "unnamed_or_unselected": 708,
+    "outside_boundary_or_missing_pin": 3
+  },
+  "duplicates": [
+    {
+      "retained": "osm:node:4419185189",
+      "excluded": "osm:node:4423457491"
+    },
+    {
+      "retained": "osm:node:4647046389",
+      "excluded": "osm:node:4647046489"
+    },
+    {
+      "retained": "osm:node:4589642393",
+      "excluded": "osm:node:5995925787"
+    },
+    {
+      "retained": "osm:node:6774513147",
+      "excluded": "osm:node:7042949985"
+    },
+    {
+      "retained": "osm:node:11879170189",
+      "excluded": "osm:node:11879170238"
+    },
+    {
+      "retained": "osm:node:4575923590",
+      "excluded": "osm:way:376080618"
+    },
+    {
+      "retained": "osm:node:4252255301",
+      "excluded": "osm:way:383798621"
+    },
+    {
+      "retained": "osm:node:6016007585",
+      "excluded": "osm:way:515869105"
+    },
+    {
+      "retained": "osm:node:4658649390",
+      "excluded": "osm:way:1566777069"
+    }
+  ],
+  "categories": {
+    "food": 1743,
+    "bar": 184,
+    "books": 46,
+    "film": 19,
+    "club": 22,
+    "art": 80,
+    "theatre": 20,
+    "music": 2,
+    "sport": 117,
+    "city": 138,
+    "park": 106,
+    "games": 7,
+    "market": 4
+  },
+  "missingAddresses": 1600,
+  "boundarySource": "https://www.openstreetmap.org/relation/2415335",
+  "operatingStatusVerified": false,
+  "scope": "Selected public leisure, cultural and food venues inside OSM administrative boundary. Not an exhaustive or individually rechecked business directory."
+}

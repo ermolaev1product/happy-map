@@ -1,0 +1,48 @@
+{
+  "cityId": "new-delhi",
+  "checkedAt": "2026-10-29T03:28:54.964269+00:00",
+  "publication": {
+    "at": "2026-10-29T03:45:56.497Z",
+    "publishedCommit": "5ea44a79f353cce3092722d94e92dd8227f76c15",
+    "excludedNewElapsedIds": [],
+    "retainedHistoricalIds": []
+  },
+  "templateRoot": "/workspace/scratch/59f6a13c9f12/overnight-20261029/site",
+  "templateSHA256": "2f3e35230059b0c44c5b315128a6b7932754199adaa4c5fc9d9fa34844ed87de",
+  "center": [
+    28.5935312375,
+    77.2204946
+  ],
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "events": 26,
+    "places": 5,
+    "sources": 61,
+    "mappedEvents": 26,
+    "liveEvents": 26,
+    "liveMappedEvents": 26,
+    "expiredEvents": 0,
+    "dates": [
+      "2026-09-09",
+      "2026-10-22",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-20"
+    ],
+    "venues": [
+      "new-delhi-venue-iic",
+      "new-delhi-venue-knma",
+      "new-delhi-venue-dastkar",
+      "new-delhi-venue-gandhi",
+      "new-delhi-venue-constitution"
+    ]
+  }
+}

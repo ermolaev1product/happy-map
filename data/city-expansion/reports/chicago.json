@@ -1,0 +1,54 @@
+{
+  "cityId": "chicago",
+  "checkedAt": "2026-11-02T10:36:41Z",
+  "publication": {
+    "at": "2026-11-02T10:56:39.917Z",
+    "publishedCommit": "d9ce4d85aaded392bb30e94b7d43e916afa969ee",
+    "excludedNewElapsedIds": [],
+    "retainedHistoricalIds": []
+  },
+  "templateRoot": "/workspace/shared/hm-quality/source",
+  "templateSHA256": "fe7d4d460ae5dee1c63d04e76ef237453655ac66890b5e816114c423b8b8e5d8",
+  "center": [
+    41.894161,
+    -87.626669
+  ],
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "events": 25,
+    "places": 3,
+    "sources": 19,
+    "mappedEvents": 25,
+    "liveEvents": 25,
+    "liveMappedEvents": 25,
+    "expiredEvents": 0,
+    "dates": [
+      "2026-09-02",
+      "2026-09-12",
+      "2026-10-09",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-07",
+      "2026-11-08",
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-01"
+    ],
+    "venues": [
+      "chicago-mca",
+      "chicago-driehaus",
+      "chicago-harold-washington-library"
+    ]
+  }
+}

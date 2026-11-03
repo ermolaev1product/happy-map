@@ -1,0 +1,86 @@
+{
+  "checkedAt": "2026-10-28T08:13:00Z",
+  "scope": "Independent selective QA of frozen Dublin recovery; not exhaustive review of all source pages",
+  "snapshotUnchanged": true,
+  "corrections": [
+    {
+      "id": "dub-martin-angolo-nov-2026",
+      "field": "priceTotal",
+      "value": 24.4,
+      "currency": "EUR",
+      "base": 23.4,
+      "mandatoryFee": 1,
+      "source": "https://www.whelanslive.com/event/martin-angolo/",
+      "evidence": "Full primary ticket prose; independently reopened08:12UTC; unknown actual end remains null"
+    },
+    {
+      "id": "dub-bed-nov-2026",
+      "field": "priceTotal",
+      "value": 18.5,
+      "currency": "EUR",
+      "base": 18,
+      "mandatoryFee": 0.5,
+      "source": "https://www.whelanslive.com/event/bed/",
+      "evidence": "Full primary ticket prose; independently reopened08:12UTC; later silent disco does not establish precise gig end"
+    }
+  ],
+  "contentChecks": [
+    {
+      "id": "dub-71",
+      "result": "Full saved primary confirms20Nov–12Dec2026 weekdays19:00 Saturday19:30 noSunday,170minute published duration; six inwindow sessions correct."
+    },
+    {
+      "id": "dub-37",
+      "result": "Primary confirmsNov1, GA11:00 while VIP10:00 soldout; currency conflict retained, whole event not soldout."
+    },
+    {
+      "id": "dub-ai",
+      "result": "Full saved ticket primary confirmsNov17 2026, registration08:30/start09:30, eventwindowends14:00, general250EUR, conditional99/49 and validticket/ID required."
+    },
+    {
+      "id": "dub-3",
+      "result": "Fresh municipal body confirms public17–30Oct2026 and16Octinvitationonly. Saved organizerprimary confirms09–13 and14:30–17, lastentry16:45, noappointment, address19RaglanRoad. Weekdays/closed-day applicability not explicit; retain exact hours in details without claiming every calendar day open."
+    }
+  ],
+  "pinAudit": {
+    "all27ProgrammeCoordinatesPresentInAttributedRawSource": true,
+    "uniqueVenueCount": 19,
+    "precision": "Named venue / campus / complex only, not entrance",
+    "limitations": "This is source traceability and address plausibility review, not independent survey of every coordinate."
+  },
+  "telegram": {
+    "checkedAt": "2026-10-28T08:12:23Z",
+    "method": "Supported web open of three existing public previews and one chat profile; current retrieval may include cached sources.",
+    "promotedEvents": 0,
+    "announcements": [
+      {
+        "url": "https://t.me/s/dscpforukrainians",
+        "status": "partial_preview_read",
+        "freshness": "cache3weeks; Sept2026 and October notices; undated recurrence",
+        "candidateGaps": [
+          "Yoga starts8Oct Thursdays10:30–12 Goldenbridge32–44EmmetCres D08YWN2; full body lacks reliableyear/dateanchor, keepheld.",
+          "Trinity English Tuesdays18–20 Sep29–Dec1; year and exactroom unconfirmed, keepheld."
+        ]
+      },
+      {
+        "url": "https://t.me/s/UkrainianAction",
+        "status": "partial_preview_read",
+        "freshness": "explicit27Oct2026 news/webinar; webinarpast, jobsdeadline notpublicevent",
+        "limitations": "No complete future physical Dublin announcement found in visible preview."
+      },
+      {
+        "url": "https://t.me/s/trpraveparties",
+        "status": "stale_preview_read",
+        "freshness": "Explicit2023Meetup; other tonight/daymonthwithoutyear notcurrent evidence."
+      }
+    ],
+    "chats": [
+      {
+        "url": "https://t.me/ireland_chatss",
+        "status": "profile_only_no_messages",
+        "description": "Relocation/life chat; advert contact shown, no blanket posting permission implied."
+      }
+    ],
+    "noJoiningOrOutreach": true
+  }
+}

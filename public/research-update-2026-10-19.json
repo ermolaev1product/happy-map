@@ -1,0 +1,432 @@
+{
+  "status": "partial_audit",
+  "fullDailyCheckSucceeded": false,
+  "summary": {
+    "tbilisi": {
+      "addedRecords": 12,
+      "addedTimedNonFilm": 8,
+      "addedFilmSessions": 4,
+      "addedExhibitions": 0,
+      "addedByDay": {
+        "2026-10-20": 3,
+        "2026-10-25": 2,
+        "2026-10-21": 2,
+        "2026-10-22": 4,
+        "2026-10-23": 1
+      },
+      "addedByCategory": {
+        "film": 4,
+        "talk": 4,
+        "workshop": 1,
+        "games": 3
+      },
+      "duplicates": [],
+      "importedIds": [
+        "tg:artcinema_ge:5001:2026-10-20:1830",
+        "tg:artcinema_ge:5003:2026-10-20:2100",
+        "tg:artcinema_ge:5002:2026-10-20:2000",
+        "tg:auditoria_tbilisi:7608:2026-10-25:2000",
+        "tg:mesto_info:2905:2026-10-21:1900",
+        "tg:mesto_info:2905:2026-10-22:1900",
+        "tg:mesto_info:2905:2026-10-22:2000",
+        "tg:mesto_info:2905:2026-10-23:1930",
+        "tg:tiflis_books:6598:2026-10-21:2000",
+        "tg:tiflis_books:6543:2026-10-22:1900",
+        "tg:tiflis_books:6543:2026-10-25:1900",
+        "tg:the_big_o_club:32:2026-10-22:2000"
+      ],
+      "catalogueByDay": {
+        "2026-10-19": {
+          "timedNonFilm": 13,
+          "filmSessions": 163,
+          "exhibitionIntervals": 7
+        },
+        "2026-10-20": {
+          "timedNonFilm": 15,
+          "filmSessions": 161,
+          "exhibitionIntervals": 11
+        },
+        "2026-10-21": {
+          "timedNonFilm": 10,
+          "filmSessions": 1,
+          "exhibitionIntervals": 10
+        },
+        "2026-10-22": {
+          "timedNonFilm": 20,
+          "filmSessions": 1,
+          "exhibitionIntervals": 10
+        },
+        "2026-10-23": {
+          "timedNonFilm": 23,
+          "filmSessions": 0,
+          "exhibitionIntervals": 10
+        },
+        "2026-10-24": {
+          "timedNonFilm": 41,
+          "filmSessions": 0,
+          "exhibitionIntervals": 10
+        },
+        "2026-10-25": {
+          "timedNonFilm": 25,
+          "filmSessions": 1,
+          "exhibitionIntervals": 10
+        }
+      },
+      "newPlaces": 0
+    },
+    "belgrade": {
+      "addedRecords": 9,
+      "addedTimedNonFilm": 9,
+      "addedFilmSessions": 0,
+      "addedExhibitions": 0,
+      "addedByDay": {
+        "2026-10-21": 1,
+        "2026-10-24": 4,
+        "2026-10-25": 2,
+        "2026-10-19": 1,
+        "2026-10-22": 1
+      },
+      "addedByCategory": {
+        "workshop": 1,
+        "games": 3,
+        "talk": 4,
+        "music": 1
+      },
+      "duplicates": [],
+      "importedIds": [
+        "bg-refresh-20261019-auditoria-drawing",
+        "bg-refresh-20261019-auditoria-improv",
+        "bg-refresh-20261019-auditoria-electronic",
+        "bg-refresh-20261019-auditoria-porcelain",
+        "bg-refresh-20261019-auditoria-choir",
+        "bg-refresh-20261019-auditoria-improv-en",
+        "bg-refresh-20261019-auditoria-lektira",
+        "bg-refresh-20261019-blackcat_beograd-1500",
+        "bg-refresh-20261019-vranin_tavan-1019"
+      ],
+      "catalogueByDay": {
+        "2026-10-19": {
+          "timedNonFilm": 23,
+          "filmSessions": 2,
+          "exhibitionIntervals": 3
+        },
+        "2026-10-20": {
+          "timedNonFilm": 30,
+          "filmSessions": 2,
+          "exhibitionIntervals": 2
+        },
+        "2026-10-21": {
+          "timedNonFilm": 24,
+          "filmSessions": 2,
+          "exhibitionIntervals": 2
+        },
+        "2026-10-22": {
+          "timedNonFilm": 27,
+          "filmSessions": 0,
+          "exhibitionIntervals": 4
+        },
+        "2026-10-23": {
+          "timedNonFilm": 27,
+          "filmSessions": 0,
+          "exhibitionIntervals": 3
+        },
+        "2026-10-24": {
+          "timedNonFilm": 28,
+          "filmSessions": 0,
+          "exhibitionIntervals": 3
+        },
+        "2026-10-25": {
+          "timedNonFilm": 14,
+          "filmSessions": 0,
+          "exhibitionIntervals": 1
+        }
+      },
+      "newPlaces": 0
+    },
+    "yerevan": {
+      "addedRecords": 8,
+      "addedTimedNonFilm": 6,
+      "addedFilmSessions": 0,
+      "addedExhibitions": 2,
+      "addedByDay": {
+        "2026-10-20": 2,
+        "2026-10-21": 2,
+        "2026-10-22": 2
+      },
+      "addedByCategory": {
+        "theatre": 3,
+        "games": 3,
+        "art": 2
+      },
+      "duplicates": [],
+      "importedIds": [
+        "yv-greenroom-1286-20261020",
+        "yv-greenroom-1287-20261020",
+        "yv-greenroom-1288-20261021",
+        "yv-greenroom-1289-20261021",
+        "yv-greenroom-1290-20261022",
+        "yv-greenroom-1291-20261022",
+        "yv-cmf-qarpet",
+        "yv-cmf-gagik-ghazanchyan-unfamiliar-city"
+      ],
+      "catalogueByDay": {
+        "2026-10-19": {
+          "timedNonFilm": 3,
+          "filmSessions": 30,
+          "exhibitionIntervals": 0
+        },
+        "2026-10-20": {
+          "timedNonFilm": 7,
+          "filmSessions": 30,
+          "exhibitionIntervals": 0
+        },
+        "2026-10-21": {
+          "timedNonFilm": 11,
+          "filmSessions": 30,
+          "exhibitionIntervals": 0
+        },
+        "2026-10-22": {
+          "timedNonFilm": 11,
+          "filmSessions": 29,
+          "exhibitionIntervals": 0
+        },
+        "2026-10-23": {
+          "timedNonFilm": 3,
+          "filmSessions": 0,
+          "exhibitionIntervals": 2
+        },
+        "2026-10-24": {
+          "timedNonFilm": 1,
+          "filmSessions": 0,
+          "exhibitionIntervals": 2
+        },
+        "2026-10-25": {
+          "timedNonFilm": 1,
+          "filmSessions": 0,
+          "exhibitionIntervals": 2
+        }
+      },
+      "newPlaces": 0
+    },
+    "moscow": {
+      "addedRecords": 1,
+      "addedTimedNonFilm": 0,
+      "addedFilmSessions": 1,
+      "addedExhibitions": 0,
+      "addedByDay": {
+        "2026-10-25": 1
+      },
+      "addedByCategory": {
+        "film": 1
+      },
+      "duplicates": [],
+      "importedIds": [
+        "daily-msk-here-and-elsewhere-20261025"
+      ],
+      "catalogueByDay": {
+        "2026-10-19": {
+          "timedNonFilm": 45,
+          "filmSessions": 254,
+          "exhibitionIntervals": 1
+        },
+        "2026-10-20": {
+          "timedNonFilm": 46,
+          "filmSessions": 254,
+          "exhibitionIntervals": 20
+        },
+        "2026-10-21": {
+          "timedNonFilm": 22,
+          "filmSessions": 250,
+          "exhibitionIntervals": 20
+        },
+        "2026-10-22": {
+          "timedNonFilm": 35,
+          "filmSessions": 142,
+          "exhibitionIntervals": 21
+        },
+        "2026-10-23": {
+          "timedNonFilm": 37,
+          "filmSessions": 81,
+          "exhibitionIntervals": 21
+        },
+        "2026-10-24": {
+          "timedNonFilm": 52,
+          "filmSessions": 47,
+          "exhibitionIntervals": 21
+        },
+        "2026-10-25": {
+          "timedNonFilm": 55,
+          "filmSessions": 51,
+          "exhibitionIntervals": 19
+        }
+      },
+      "newPlaces": 0
+    },
+    "barcelona": {
+      "addedRecords": 6,
+      "addedTimedNonFilm": 5,
+      "addedFilmSessions": 0,
+      "addedExhibitions": 1,
+      "addedByDay": {
+        "2026-10-23": 1,
+        "2026-10-24": 2,
+        "2026-10-25": 2
+      },
+      "addedByCategory": {
+        "music": 3,
+        "art": 3
+      },
+      "duplicates": [],
+      "importedIds": [
+        "bcn-meam-1458-20261023",
+        "bcn-meam-1502-20261024",
+        "bcn-meam-1482-20261024",
+        "bcn-meam-1503-20261025",
+        "bcn-jazz-tast-vermut-20261025",
+        "bcn-meam-lorca-sand-house-2026"
+      ],
+      "catalogueByDay": {
+        "2026-10-19": {
+          "timedNonFilm": 2,
+          "filmSessions": 0,
+          "exhibitionIntervals": 0
+        },
+        "2026-10-20": {
+          "timedNonFilm": 2,
+          "filmSessions": 0,
+          "exhibitionIntervals": 1
+        },
+        "2026-10-21": {
+          "timedNonFilm": 3,
+          "filmSessions": 0,
+          "exhibitionIntervals": 1
+        },
+        "2026-10-22": {
+          "timedNonFilm": 2,
+          "filmSessions": 0,
+          "exhibitionIntervals": 1
+        },
+        "2026-10-23": {
+          "timedNonFilm": 5,
+          "filmSessions": 1,
+          "exhibitionIntervals": 1
+        },
+        "2026-10-24": {
+          "timedNonFilm": 8,
+          "filmSessions": 0,
+          "exhibitionIntervals": 1
+        },
+        "2026-10-25": {
+          "timedNonFilm": 2,
+          "filmSessions": 0,
+          "exhibitionIntervals": 1
+        }
+      },
+      "newPlaces": 0
+    },
+    "madrid": {
+      "addedRecords": 40,
+      "addedTimedNonFilm": 34,
+      "addedFilmSessions": 6,
+      "addedExhibitions": 0,
+      "addedByDay": {
+        "2026-10-25": 34,
+        "2026-10-24": 4,
+        "2026-10-22": 1,
+        "2026-10-19": 1
+      },
+      "addedByCategory": {
+        "sport": 2,
+        "kids": 16,
+        "games": 2,
+        "music": 5,
+        "film": 6,
+        "talk": 3,
+        "city": 3,
+        "theatre": 3
+      },
+      "duplicates": [],
+      "importedIds": [
+        "madrid-city-50437918",
+        "madrid-city-50248531",
+        "madrid-city-50421591",
+        "madrid-city-50430868",
+        "madrid-city-50433611",
+        "madrid-city-50447002",
+        "madrid-city-50441626",
+        "madrid-city-50426151",
+        "madrid-city-50429626",
+        "madrid-city-50421041",
+        "madrid-city-50440432",
+        "madrid-city-50441009",
+        "madrid-city-50434323",
+        "madrid-city-50322790",
+        "madrid-city-50448879",
+        "madrid-city-50429007",
+        "madrid-city-50449830",
+        "madrid-city-50430875",
+        "madrid-city-50434156",
+        "madrid-city-50421583",
+        "madrid-city-50449051",
+        "madrid-city-50428922",
+        "madrid-city-50427219",
+        "madrid-city-50408112",
+        "madrid-city-50322881",
+        "madrid-city-50440323",
+        "madrid-city-50434182",
+        "madrid-city-50431477",
+        "madrid-city-50430598",
+        "madrid-city-50433827",
+        "madrid-city-50421045",
+        "madrid-city-50421043",
+        "madrid-city-50439397",
+        "madrid-city-50421037",
+        "madrid-city-50431684",
+        "madrid-city-50423842",
+        "madrid-city-50434576",
+        "madrid-city-50434501",
+        "madrid-city-50429490",
+        "mad-fienta-kvartirnik-20261019"
+      ],
+      "catalogueByDay": {
+        "2026-10-19": {
+          "timedNonFilm": 7,
+          "filmSessions": 0,
+          "exhibitionIntervals": 2
+        },
+        "2026-10-20": {
+          "timedNonFilm": 11,
+          "filmSessions": 2,
+          "exhibitionIntervals": 6
+        },
+        "2026-10-21": {
+          "timedNonFilm": 11,
+          "filmSessions": 0,
+          "exhibitionIntervals": 5
+        },
+        "2026-10-22": {
+          "timedNonFilm": 17,
+          "filmSessions": 1,
+          "exhibitionIntervals": 5
+        },
+        "2026-10-23": {
+          "timedNonFilm": 26,
+          "filmSessions": 0,
+          "exhibitionIntervals": 5
+        },
+        "2026-10-24": {
+          "timedNonFilm": 48,
+          "filmSessions": 0,
+          "exhibitionIntervals": 5
+        },
+        "2026-10-25": {
+          "timedNonFilm": 31,
+          "filmSessions": 6,
+          "exhibitionIntervals": 4
+        }
+      },
+      "newPlaces": 0
+    }
+  },
+  "sourceAudit": "/research/spain-2026-10-19/spain-audit.json"
+}

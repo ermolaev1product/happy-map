@@ -1,0 +1,1015 @@
+{
+  "checkedAt": "2026-10-28T05:13:35.012717+00:00",
+  "baselineVersion": 205,
+  "baselineRoot": "/workspace/scratch/59f6a13c9f12/happymap-capitals/public",
+  "scope": "Nine assigned cities, read-only public research. Writer is parent agent. No full-city completeness claim.",
+  "sourceCheckAudit": [
+    {
+      "cityId": "palo-alto",
+      "checkedAt": "2026-10-28T05:00:10.375185+00:00",
+      "timezone": "America/Los_Angeles",
+      "todayLocal": "2026-10-27",
+      "tomorrowLocal": "2026-10-28",
+      "nextSevenLocalDates": [
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02"
+      ],
+      "thirtyDayWindowEnd": "2026-11-26",
+      "urls": [
+        "https://www.paloalto.gov/Events-Directory"
+      ],
+      "result": "City events directory HTTP 403; stopped. Targeted discovery found dated Mayor Q&A October 28 but not yet a new candidate.",
+      "paginationAndLimits": "Directory pagination unavailable because blocked.",
+      "status": "bounded audit complete; partial pagination and source gaps remain",
+      "socialStatus": "Bounded public announcements → city-chat discovery/preview attempted; barriers and stale results recorded.",
+      "completeCityCoverage": false,
+      "baselineEventCount": 657,
+      "socialAudit": {
+        "announcementUrls": [
+          "https://t.me/s/anton_dolin?before=685",
+          "https://t.me/s/AxlflopsAnnouncement?q=%23Axlflops"
+        ],
+        "chatUrls": [],
+        "result": "Targeted public discovery returned old tour/AI summit recaps, not current Oct/Nov 2026 dated announcements. Palo Alto Research Lab-labelled Miami/China groups are not Palo Alto city events. No relevant city chat with readable dated content located in this bounded search.",
+        "limit": "Search discovery only for these stale channels; no current thread pagination established.",
+        "checkedAt": "2026-10-28T05:13:35.012717+00:00"
+      },
+      "followupUrls": [
+        "https://aimi.stanford.edu/events",
+        "https://law.stanford.edu/ai-initiative/events-ai/",
+        "https://computationalmedicine.stanford.edu/seminars-and-training/colloquium/"
+      ],
+      "finalizedAt": "2026-10-28T05:13:35.012717+00:00",
+      "instagramPolicy": "Existing Instagram sources untouched. No Instagram login, joining, messaging or profile-as-announcement use.",
+      "finalFinding": "City directory 403 and Mayor detail cache miss; Stanford Law detail403 prevents public-access verification. AIMI/medicine lists readable but speaker room/access not established. No current import from this pass; not evidence city has no events."
+    },
+    {
+      "cityId": "new-york",
+      "checkedAt": "2026-10-28T05:00:10.375185+00:00",
+      "timezone": "America/New_York",
+      "todayLocal": "2026-10-28",
+      "tomorrowLocal": "2026-10-29",
+      "nextSevenLocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "thirtyDayWindowEnd": "2026-11-27",
+      "urls": [
+        "https://www.timeout.com/newyork/events-calendar/october-events-calendar",
+        "https://www.timeout.com/newyork/events-calendar/november-events-calendar"
+      ],
+      "result": "Both monthly curated afishas accessible. November article explicitly 2026, updated October 15; includes October 30–November 9 Canstruction and November programmes.",
+      "paginationAndLimits": "Single curated pages, not exhaustive event inventory; links require individual primary checks.",
+      "status": "bounded audit complete; partial pagination and source gaps remain",
+      "socialStatus": "Bounded public announcements → city-chat discovery/preview attempted; barriers and stale results recorded.",
+      "completeCityCoverage": false,
+      "baselineEventCount": 133,
+      "socialAudit": {
+        "announcementUrls": [
+          "https://t.me/s/afisha_in_newyork"
+        ],
+        "chatUrls": [
+          "https://t.me/new_york_citychat",
+          "https://t.me/s/new_york_citychat"
+        ],
+        "result": "Announcement preview and city-chat message preview inaccessible. Chat profile found, but profile not treated as event evidence.",
+        "limit": "No message chronology/pagination readable; no join or login.",
+        "checkedAt": "2026-10-28T05:13:35.012717+00:00"
+      },
+      "followupUrls": [
+        "https://hudsonriverpark.org/visit/events/category/family/"
+      ],
+      "finalizedAt": "2026-10-28T05:13:35.012717+00:00",
+      "instagramPolicy": "Existing Instagram sources untouched. No Instagram login, joining, messaging or profile-as-announcement use.",
+      "finalFinding": "TimeOut curated monthly list, not all-city pagination. Canstruction held stale primary year. Hudson River Park first family page and three exact 2026 event pages verified; no Nov3 session found in that bounded page."
+    },
+    {
+      "cityId": "dubai",
+      "checkedAt": "2026-10-28T05:00:10.375185+00:00",
+      "timezone": "Asia/Dubai",
+      "todayLocal": "2026-10-28",
+      "tomorrowLocal": "2026-10-29",
+      "nextSevenLocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "thirtyDayWindowEnd": "2026-11-27",
+      "urls": [
+        "https://dubai.platinumlist.net/"
+      ],
+      "result": "Full homepage accessible; today/tomorrow/weekend/month and event-category links exposed. Dates cover October 28 onward through 2027; no November 3 dated session verified yet.",
+      "paginationAndLimits": "Promotional homepage with category Show All links; not full pagination. Abu Dhabi promotions excluded from Dubai.",
+      "status": "bounded audit complete; partial pagination and source gaps remain",
+      "socialStatus": "Bounded public announcements → city-chat discovery/preview attempted; barriers and stale results recorded.",
+      "completeCityCoverage": false,
+      "baselineEventCount": 143,
+      "socialAudit": {
+        "announcementUrls": [
+          "https://t.me/s/dubai_afisha"
+        ],
+        "chatUrls": [
+          "https://t.me/Dubai_Chat_Russkie",
+          "https://t.me/s/Dubai_Chat_Russkie"
+        ],
+        "result": "Public announcement preview showed April/May posts; no fresh Nov3 announcement verified. City chat profile discovered, message preview inaccessible.",
+        "limit": "Only exposed preview checked; no claim to current-channel completeness.",
+        "checkedAt": "2026-10-28T05:13:35.012717+00:00"
+      },
+      "followupUrls": [
+        "https://dubai.platinumlist.net/calendar/today",
+        "https://dubai.platinumlist.net/calendar/tomorrow",
+        "https://www.dubaidesignweek.ae/visit/",
+        "https://www.dubaidesignweek.ae/programme/2026/",
+        "https://landing.irisceramicagroup.com/landing/dubai-design-week-2026/"
+      ],
+      "finalizedAt": "2026-10-28T05:13:35.012717+00:00",
+      "instagramPolicy": "Existing Instagram sources untouched. No Instagram login, joining, messaging or profile-as-announcement use.",
+      "finalFinding": "Platinumlist today/tomorrow pages readable but promotional repetition limits filtered coverage. DubaiDesignWeek first12programme cards and visitor page examined; generic festival opening end times conflicted. ICG daytime programme independently confirmed and mapped, fills Nov3 without importing conflicting evening conversation."
+    },
+    {
+      "cityId": "tel-aviv",
+      "checkedAt": "2026-10-28T05:00:10.375185+00:00",
+      "timezone": "Asia/Jerusalem",
+      "todayLocal": "2026-10-28",
+      "tomorrowLocal": "2026-10-29",
+      "nextSevenLocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "thirtyDayWindowEnd": "2026-11-27",
+      "urls": [
+        "https://www.secrettelaviv.com/tickets/",
+        "https://www.secrettelaviv.com/tickets/page/2",
+        "https://www.tzavta.co.il/"
+      ],
+      "result": "Secret Tel Aviv main unexpected status, page 2 inaccessible. Tzavta primary homepage accessible with October/November calendar links; known Strings Festival entries are baseline duplicates.",
+      "paginationAndLimits": "Secret Tel Aviv pagination could not be read; Tzavta calendar detail follow-up pending.",
+      "status": "bounded audit complete; partial pagination and source gaps remain",
+      "socialStatus": "Bounded public announcements → city-chat discovery/preview attempted; barriers and stale results recorded.",
+      "completeCityCoverage": false,
+      "baselineEventCount": 123,
+      "socialAudit": {
+        "announcementUrls": [
+          "https://t.me/s/israelaf"
+        ],
+        "chatUrls": [
+          "https://t.me/TelAvivChat",
+          "https://t.me/s/TelAvivChat"
+        ],
+        "result": "Announcement/message previews inaccessible; chat profile not an announcement.",
+        "limit": "No content pagination or login/join.",
+        "checkedAt": "2026-10-28T05:13:35.012717+00:00"
+      },
+      "followupUrls": [
+        "https://www.tzavta.co.il/shows/11"
+      ],
+      "finalizedAt": "2026-10-28T05:13:35.012717+00:00",
+      "instagramPolicy": "Existing Instagram sources untouched. No Instagram login, joining, messaging or profile-as-announcement use.",
+      "finalFinding": "Tzavta November calendar readable; Strings firstweek duplicates; exact Nov5 Michal Libdinsky verified. SecretTelAviv main/page2 remain inaccessible. Calendar not exhaustively followed through month."
+    },
+    {
+      "cityId": "limassol",
+      "checkedAt": "2026-10-28T05:00:10.375185+00:00",
+      "timezone": "Asia/Nicosia",
+      "todayLocal": "2026-10-28",
+      "tomorrowLocal": "2026-10-29",
+      "nextSevenLocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "thirtyDayWindowEnd": "2026-11-27",
+      "urls": [
+        "https://www.checkincyprus.com/city/lemesos/",
+        "https://www.checkincyprus.com/",
+        "https://wgolimassol.com/en/events"
+      ],
+      "result": "CheckIn city path inaccessible; site homepage accessible with current October/November listings. WGO Events page readable but visibly dated October 25 and only three recent features.",
+      "paginationAndLimits": "No complete city pagination. District towns outside Limassol not included.",
+      "status": "bounded audit complete; partial pagination and source gaps remain",
+      "socialStatus": "Bounded public announcements → city-chat discovery/preview attempted; barriers and stale results recorded.",
+      "completeCityCoverage": false,
+      "baselineEventCount": 75,
+      "socialAudit": {
+        "announcementUrls": [
+          "https://t.me/s/cyprusjournalmusic"
+        ],
+        "chatUrls": [
+          "https://t.me/cjmusic_cy",
+          "https://t.me/s/cjmusic_cy",
+          "https://t.me/Limassol_Go",
+          "https://t.me/s/Limassol_Go"
+        ],
+        "result": "Public music preview readable, with past Manapart Oct8 and LINDA Nov18 lead lacking verified local venue/time. Linked music chat and city-chat previews inaccessible.",
+        "limit": "Only exposed preview read; LINDA lead held, not imported.",
+        "checkedAt": "2026-10-28T05:13:35.012717+00:00"
+      },
+      "followupUrls": [
+        "https://wgolimassol.com/en/calendar",
+        "https://www.rialto.com.cy/programme"
+      ],
+      "finalizedAt": "2026-10-28T05:13:35.012717+00:00",
+      "instagramPolicy": "Existing Instagram sources untouched. No Instagram login, joining, messaging or profile-as-announcement use.",
+      "finalFinding": "WGO calendar exposes October2026 grid with counts for28/29 but date selection does not expose detail links through reader; seasonal November text is explicitly ideas, not event evidence. Rialto /programme inaccessible. No new Nov3 event verified in exact checked sources, not cityempty."
+    },
+    {
+      "cityId": "antalya",
+      "checkedAt": "2026-10-28T05:00:10.375185+00:00",
+      "timezone": "Europe/Istanbul",
+      "todayLocal": "2026-10-28",
+      "tomorrowLocal": "2026-10-29",
+      "nextSevenLocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "thirtyDayWindowEnd": "2026-11-27",
+      "urls": [
+        "https://www.bubilet.com.tr/antalya"
+      ],
+      "result": "Current main seller page read; first featured cards include October 28–November 26 and date/category filters. Several already present events; Antalya province list also contains Alanya/Manavgat, excluded.",
+      "paginationAndLimits": "Featured first page only; date filter UI does not expose a linked date URL in text.",
+      "status": "bounded audit complete; partial pagination and source gaps remain",
+      "socialStatus": "Bounded public announcements → city-chat discovery/preview attempted; barriers and stale results recorded.",
+      "completeCityCoverage": false,
+      "baselineEventCount": 123,
+      "socialAudit": {
+        "announcementUrls": [
+          "https://t.me/s/antalyadaa"
+        ],
+        "chatUrls": [
+          "https://t.me/s/Antalya_da_chat"
+        ],
+        "result": "Public channel readable, recent SUP CUP KEMER Oct28–Nov1 excluded because Kemer is not Antalya city. Linked chat message preview inaccessible.",
+        "limit": "Only exposed preview read; no exhaustive pagination.",
+        "checkedAt": "2026-10-28T05:13:35.012717+00:00"
+      },
+      "followupUrls": [
+        "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi",
+        "https://www.bubilet.com.tr/antalya/etkinlik/ben-mi-yapmisim"
+      ],
+      "finalizedAt": "2026-10-28T05:13:35.012717+00:00",
+      "instagramPolicy": "Existing Instagram sources untouched. No Instagram login, joining, messaging or profile-as-announcement use.",
+      "finalFinding": "Bubilet first visible homepage cards and nine combined Turkey details read. Antalya-boundary sessions only. Alanya/Manavgat/Kemer excluded. December music sessions outside30days. Main date/category controls not paginated exhaustively."
+    },
+    {
+      "cityId": "istanbul",
+      "checkedAt": "2026-10-28T05:00:10.375185+00:00",
+      "timezone": "Europe/Istanbul",
+      "todayLocal": "2026-10-28",
+      "tomorrowLocal": "2026-10-29",
+      "nextSevenLocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "thirtyDayWindowEnd": "2026-11-27",
+      "urls": [
+        "https://www.bubilet.com.tr/istanbul"
+      ],
+      "result": "Current main seller page read; today October 28 entries and dates through January visible. Concert/theatre/stand-up categories and today/tomorrow/week UI present.",
+      "paginationAndLimits": "Featured first page only; no claim of exhaustive categories/pagination.",
+      "status": "bounded audit complete; partial pagination and source gaps remain",
+      "socialStatus": "Bounded public announcements → city-chat discovery/preview attempted; barriers and stale results recorded.",
+      "completeCityCoverage": false,
+      "baselineEventCount": 287,
+      "socialAudit": {
+        "announcementUrls": [
+          "https://t.me/s/events_istanbul",
+          "https://t.me/s/stambul_afisha"
+        ],
+        "chatUrls": [
+          "https://t.me/s/stambul_chat"
+        ],
+        "result": "events_istanbul public preview readable: past October notices and Wabi Sabi exhibition lead without freshly verified full 2026 schedule. Other announcement/chat previews inaccessible.",
+        "limit": "Only exposed preview read; profile/forwarded identity not used as announcement evidence.",
+        "checkedAt": "2026-10-28T05:13:35.012717+00:00"
+      },
+      "followupUrls": [
+        "https://www.bubilet.com.tr/istanbul/etkinlik/anadolu-efes-sk",
+        "https://www.bubilet.com.tr/istanbul/etkinlik/ebru-gundes",
+        "https://www.bubilet.com.tr/istanbul/etkinlik/7-kocali-hurmuz-",
+        "https://www.bubilet.com.tr/istanbul/etkinlik/one-more"
+      ],
+      "finalizedAt": "2026-10-28T05:13:35.012717+00:00",
+      "instagramPolicy": "Existing Instagram sources untouched. No Instagram login, joining, messaging or profile-as-announcement use.",
+      "finalFinding": "Bubilet first visible homepage cards and selected details read. ONE MORE Nov15 duplicate; Nov16 sold out. Sports sessions require further ticket-category/admission reconciliation and not imported. December/January promotional events excluded horizon."
+    },
+    {
+      "cityId": "buenos-aires",
+      "checkedAt": "2026-10-28T05:00:10.375185+00:00",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "todayLocal": "2026-10-28",
+      "tomorrowLocal": "2026-10-29",
+      "nextSevenLocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "thirtyDayWindowEnd": "2026-11-27",
+      "urls": [
+        "https://linda.buenosaires.gob.ar/"
+      ],
+      "result": "Official homepage read; Tecweek October 20–31 and Halloween sections present, but event results are client-rendered loading placeholders. Existing 320 baseline entries are overnight additions, not new work.",
+      "paginationAndLimits": "Public event detail links from baseline can be checked; homepage text does not expose loaded pagination.",
+      "status": "bounded audit complete; partial pagination and source gaps remain",
+      "socialStatus": "Bounded public announcements → city-chat discovery/preview attempted; barriers and stale results recorded.",
+      "completeCityCoverage": false,
+      "baselineEventCount": 320,
+      "socialAudit": {
+        "announcementUrls": [
+          "https://t.me/s/buenosaires_afisha"
+        ],
+        "chatUrls": [
+          "https://t.me/buenosairos_ruchat",
+          "https://t.me/s/buenosairos_ruchat"
+        ],
+        "result": "City afisha and message preview inaccessible. Public chat profile found but not used as dated event evidence; private invite-only group discovery was not joined.",
+        "limit": "No public message chronology/pagination established.",
+        "checkedAt": "2026-10-28T05:13:35.012717+00:00"
+      },
+      "followupUrls": [
+        "https://linda.buenosaires.gob.ar/agenda?cuando=hoy"
+      ],
+      "finalizedAt": "2026-10-28T05:13:35.012717+00:00",
+      "instagramPolicy": "Existing Instagram sources untouched. No Instagram login, joining, messaging or profile-as-announcement use.",
+      "finalFinding": "Linda home and Today link resolve to loading shells in text reader. Existing320 not recounted. No complete detail pagination or new source-backed candidate in this bounded pass."
+    },
+    {
+      "cityId": "brasilia",
+      "checkedAt": "2026-10-28T05:00:10.375185+00:00",
+      "timezone": "America/Sao_Paulo",
+      "todayLocal": "2026-10-28",
+      "tomorrowLocal": "2026-10-29",
+      "nextSevenLocalDates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "thirtyDayWindowEnd": "2026-11-27",
+      "urls": [
+        "https://agenda.bsb.br/",
+        "https://ccbb.com.br/brasilia/programacao/",
+        "https://clubedochoro.com.br/"
+      ],
+      "result": "Agenda BSB explicitly dated October 28, 2026; CCBB and Choro programmes accessible. Choro confirms October 28/29/31 and November events; existing 47 baseline rows not counted as new.",
+      "paginationAndLimits": "Three main programme pages, not full city coverage; per-event verification/dedup next.",
+      "status": "bounded audit complete; partial pagination and source gaps remain",
+      "socialStatus": "Bounded public announcements → city-chat discovery/preview attempted; barriers and stale results recorded.",
+      "completeCityCoverage": false,
+      "baselineEventCount": 47,
+      "socialAudit": {
+        "announcementUrls": [
+          "https://t.me/s/grupofredelboni"
+        ],
+        "chatUrls": [],
+        "result": "Artist public preview readable but weekday/date combination (Wednesday October16) is stale, not 2026; December Brasília lead outside 30day scope and year unverified. Targeted Brasília city-chat discovery yielded unrelated timezone references/old Ingress invite, no usable local chat messages.",
+        "limit": "No credible readable city chat found in bounded search; no group join.",
+        "checkedAt": "2026-10-28T05:13:35.012717+00:00"
+      },
+      "followupUrls": [
+        "https://agenda.bsb.br/event/movido-a-musica-destaca-artistas-indigenas-em-encontro-gratuito-no-df/",
+        "https://www.sympla.com.br/evento/movido-a-musica-2-edicao-povos-originarios/3612259",
+        "https://clubedochoro.com.br/31-10-feijoada-com-samba/"
+      ],
+      "finalizedAt": "2026-10-28T05:13:35.012717+00:00",
+      "instagramPolicy": "Existing Instagram sources untouched. No Instagram login, joining, messaging or profile-as-announcement use.",
+      "finalFinding": "Agenda/CCBB/Choro first pages read; Movido primary verified but existing baseline duplicate. Mamutes detail inaccessible/HTTP403; Choro Oct31 explicit date but time missing and normal HTTP406. Tom/Vinicius is pastOct11. Existing47 overnight additions not counted as new."
+    }
+  ],
+  "candidates": [
+    {
+      "cityId": "antalya",
+      "title": "Düş Payı",
+      "titleEN": "Düş Payı",
+      "date": "2026-11-25",
+      "time": "20:00",
+      "startAt": "2026-11-25T20:00:00+03:00",
+      "timezone": "Europe/Istanbul",
+      "category": "theatre",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "venueEN": "Türkan Şoray Kültür Merkezi - Antalya",
+      "address": "Yeşilbahçe, 1455. Sk. No:8, 07160 Muratpaşa/Antalya",
+      "lat": 36.87052798,
+      "lng": 30.72480588,
+      "coordinateSource": "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Ticket seller primary JSON-LD location.geo identifies this named venue; not a viewport or city centre.",
+      "price": null,
+      "currency": "TRY",
+      "min": false,
+      "admission": "Ages 12+. Ticket required; student-discount tickets require valid student ID. No admission after the performance begins. Ordinary adult ticket price not separately verified.",
+      "accessNote": "Ages 12+. Ticket required; student-discount tickets require valid student ID. No admission after the performance begins. Ordinary adult ticket price not separately verified.",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi",
+      "ticketUrl": "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi/seans/298697",
+      "sourceURLs": [
+        "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi",
+        "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi/seans/298697"
+      ],
+      "source": "Bubilet",
+      "status": "scheduled",
+      "soldOut": false,
+      "yearEvidence": "Primary subEvent.startDate explicitly 2026; UTC schema converted to Europe/Istanbul +03:00 and visible local session time checked.",
+      "endTime": null,
+      "endEvidence": "Templated schema 90-minute duration deliberately not used.",
+      "evidenceFile": "/workspace/shared/hm28-global-evidence/antalya-dus-payi.html.json",
+      "placeId": "antalya-turkan",
+      "venueId": "antalya-turkan",
+      "checkedAt": "2026-10-28T05:10:11.758978+00:00",
+      "kind": "event",
+      "publicationStatus": "verified",
+      "availabilityVerified": false
+    },
+    {
+      "cityId": "antalya",
+      "title": "Düş Payı",
+      "titleEN": "Düş Payı",
+      "date": "2026-11-26",
+      "time": "20:00",
+      "startAt": "2026-11-26T20:00:00+03:00",
+      "timezone": "Europe/Istanbul",
+      "category": "theatre",
+      "venue": "Konyaaltı Belediyesi Nazım Hikmet Fuar ve Kongre Merkezi",
+      "venueEN": "Konyaaltı Belediyesi Nazım Hikmet Fuar ve Kongre Merkezi",
+      "address": "Pınarbaşı Mahallesi, 734. Sk. No:36, 07070 KONYAALTI / Antalya",
+      "lat": 36.88479487,
+      "lng": 30.65056514,
+      "coordinateSource": "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Ticket seller primary JSON-LD location.geo identifies this named venue; not a viewport or city centre.",
+      "price": null,
+      "currency": "TRY",
+      "min": false,
+      "admission": "Ages 12+. Ticket required; student-discount tickets require valid student ID. No admission after the performance begins. Ordinary adult ticket price not separately verified.",
+      "accessNote": "Ages 12+. Ticket required; student-discount tickets require valid student ID. No admission after the performance begins. Ordinary adult ticket price not separately verified.",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi",
+      "ticketUrl": "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi/seans/298705",
+      "sourceURLs": [
+        "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi",
+        "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi/seans/298705"
+      ],
+      "source": "Bubilet",
+      "status": "scheduled",
+      "soldOut": false,
+      "yearEvidence": "Primary subEvent.startDate explicitly 2026; UTC schema converted to Europe/Istanbul +03:00 and visible local session time checked.",
+      "endTime": null,
+      "endEvidence": "Templated schema 90-minute duration deliberately not used.",
+      "evidenceFile": "/workspace/shared/hm28-global-evidence/antalya-dus-payi.html.json",
+      "placeId": "antalya-nazim",
+      "venueId": "antalya-nazim",
+      "checkedAt": "2026-10-28T05:10:11.758978+00:00",
+      "kind": "event",
+      "publicationStatus": "verified",
+      "availabilityVerified": false
+    },
+    {
+      "cityId": "antalya",
+      "title": "Ersin Korkut - Ben mi Yapmışım?",
+      "titleEN": "Ersin Korkut — Did I Do That?",
+      "date": "2026-11-01",
+      "time": "20:00",
+      "startAt": "2026-11-01T20:00:00+03:00",
+      "timezone": "Europe/Istanbul",
+      "category": "theatre",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "venueEN": "Türkan Şoray Kültür Merkezi - Antalya",
+      "address": "Yeşilbahçe, 1455. Sk. No:8, 07160 Muratpaşa/Antalya",
+      "lat": 36.87052798,
+      "lng": 30.72480588,
+      "coordinateSource": "https://www.bubilet.com.tr/antalya/etkinlik/ben-mi-yapmisim",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Ticket seller primary JSON-LD location.geo identifies this named venue; not a viewport or city centre.",
+      "price": 630,
+      "currency": "TRY",
+      "min": true,
+      "admission": "Ages 13+. Each attendee needs a ticket and must carry ID. Arrive one hour before the show; no late admission. Limited promotional tickets advertised.",
+      "accessNote": "Ages 13+. Each attendee needs a ticket and must carry ID. Arrive one hour before the show; no late admission. Limited promotional tickets advertised.",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/ben-mi-yapmisim",
+      "ticketUrl": "https://www.bubilet.com.tr/antalya/etkinlik/ben-mi-yapmisim/seans/291281",
+      "sourceURLs": [
+        "https://www.bubilet.com.tr/antalya/etkinlik/ben-mi-yapmisim",
+        "https://www.bubilet.com.tr/antalya/etkinlik/ben-mi-yapmisim/seans/291281"
+      ],
+      "source": "Bubilet",
+      "status": "scheduled",
+      "soldOut": false,
+      "yearEvidence": "Primary subEvent.startDate explicitly 2026; UTC schema converted to Europe/Istanbul +03:00 and visible local session time checked.",
+      "endTime": null,
+      "endEvidence": "Templated schema 90-minute duration deliberately not used.",
+      "evidenceFile": "/workspace/shared/hm28-global-evidence/antalya-ben-mi-yapmisim.html.json",
+      "placeId": "antalya-turkan",
+      "venueId": "antalya-turkan",
+      "checkedAt": "2026-10-28T05:10:11.758978+00:00",
+      "kind": "event",
+      "publicationStatus": "verified",
+      "availabilityVerified": false
+    },
+    {
+      "cityId": "istanbul",
+      "title": "Ebru Gündeş “Beraber Söylüyoruz”",
+      "titleEN": "Ebru Gündeş — Singing Together",
+      "date": "2026-11-20",
+      "time": "21:00",
+      "startAt": "2026-11-20T21:00:00+03:00",
+      "timezone": "Europe/Istanbul",
+      "category": "music",
+      "venue": "Volkswagen Arena",
+      "venueEN": "Volkswagen Arena",
+      "address": "Huzur Mh., Maslak Ayazağa Cd. 4/A, 34396 Sarıyer/İstanbul",
+      "lat": 41.10954924,
+      "lng": 29.00723113,
+      "coordinateSource": "https://www.bubilet.com.tr/istanbul/etkinlik/ebru-gundes",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Ticket seller primary JSON-LD location.geo identifies this named venue; not a viewport or city centre.",
+      "price": 6000,
+      "currency": "TRY",
+      "min": true,
+      "admission": "Ages 12+. Attendees aged 12–18 must enter with a parent. Doors 19:00; show 21:00. Every attendee requires a ticket. The accessible-ticket allocation for these dates is full.",
+      "accessNote": "Ages 12+. Attendees aged 12–18 must enter with a parent. Doors 19:00; show 21:00. Every attendee requires a ticket. The accessible-ticket allocation for these dates is full.",
+      "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/ebru-gundes",
+      "ticketUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/ebru-gundes/seans/289460",
+      "sourceURLs": [
+        "https://www.bubilet.com.tr/istanbul/etkinlik/ebru-gundes",
+        "https://www.bubilet.com.tr/istanbul/etkinlik/ebru-gundes/seans/289460"
+      ],
+      "source": "Bubilet",
+      "status": "scheduled",
+      "soldOut": false,
+      "yearEvidence": "Primary subEvent.startDate explicitly 2026; UTC schema converted to Europe/Istanbul +03:00 and visible local session time checked.",
+      "endTime": null,
+      "endEvidence": "Templated schema 90-minute duration deliberately not used.",
+      "evidenceFile": "/workspace/shared/hm28-global-evidence/istanbul-ebru-gundes.html.json",
+      "checkedAt": "2026-10-28T05:10:11.758978+00:00",
+      "kind": "event",
+      "publicationStatus": "verified",
+      "availabilityVerified": false
+    },
+    {
+      "cityId": "istanbul",
+      "title": "Ebru Gündeş “Beraber Söylüyoruz”",
+      "titleEN": "Ebru Gündeş — Singing Together",
+      "date": "2026-11-21",
+      "time": "21:00",
+      "startAt": "2026-11-21T21:00:00+03:00",
+      "timezone": "Europe/Istanbul",
+      "category": "music",
+      "venue": "Volkswagen Arena",
+      "venueEN": "Volkswagen Arena",
+      "address": "Huzur Mh., Maslak Ayazağa Cd. 4/A, 34396 Sarıyer/İstanbul",
+      "lat": 41.10954924,
+      "lng": 29.00723113,
+      "coordinateSource": "https://www.bubilet.com.tr/istanbul/etkinlik/ebru-gundes",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Ticket seller primary JSON-LD location.geo identifies this named venue; not a viewport or city centre.",
+      "price": 6000,
+      "currency": "TRY",
+      "min": true,
+      "admission": "Ages 12+. Attendees aged 12–18 must enter with a parent. Doors 19:00; show 21:00. Every attendee requires a ticket. The accessible-ticket allocation for these dates is full.",
+      "accessNote": "Ages 12+. Attendees aged 12–18 must enter with a parent. Doors 19:00; show 21:00. Every attendee requires a ticket. The accessible-ticket allocation for these dates is full.",
+      "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/ebru-gundes",
+      "ticketUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/ebru-gundes/seans/289932",
+      "sourceURLs": [
+        "https://www.bubilet.com.tr/istanbul/etkinlik/ebru-gundes",
+        "https://www.bubilet.com.tr/istanbul/etkinlik/ebru-gundes/seans/289932"
+      ],
+      "source": "Bubilet",
+      "status": "scheduled",
+      "soldOut": false,
+      "yearEvidence": "Primary subEvent.startDate explicitly 2026; UTC schema converted to Europe/Istanbul +03:00 and visible local session time checked.",
+      "endTime": null,
+      "endEvidence": "Templated schema 90-minute duration deliberately not used.",
+      "evidenceFile": "/workspace/shared/hm28-global-evidence/istanbul-ebru-gundes.html.json",
+      "checkedAt": "2026-10-28T05:10:11.758978+00:00",
+      "kind": "event",
+      "publicationStatus": "verified",
+      "availabilityVerified": false
+    },
+    {
+      "cityId": "istanbul",
+      "title": "7 Kocalı Hürmüz Müzikali",
+      "titleEN": "Hürmüz with Seven Husbands — Musical",
+      "date": "2026-11-22",
+      "time": "21:00",
+      "startAt": "2026-11-22T21:00:00+03:00",
+      "timezone": "Europe/Istanbul",
+      "category": "theatre",
+      "venue": "Zorlu PSM - Turkcell Sahnesi",
+      "venueEN": "Zorlu PSM - Turkcell Sahnesi",
+      "address": "Zorlu Center, 34340,\nBEŞİKTAŞ / İstanbul",
+      "lat": 41.06797622,
+      "lng": 29.0173605,
+      "coordinateSource": "https://www.bubilet.com.tr/istanbul/etkinlik/7-kocali-hurmuz-",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Ticket seller primary JSON-LD location.geo identifies this named venue; not a viewport or city centre.",
+      "price": 1850,
+      "currency": "TRY",
+      "min": true,
+      "admission": "Ages 13+. Ticket required. Arrive at least 30 minutes early; no admission after the show starts.",
+      "accessNote": "Ages 13+. Ticket required. Arrive at least 30 minutes early; no admission after the show starts.",
+      "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/7-kocali-hurmuz-",
+      "ticketUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/7-kocali-hurmuz-/seans/305020",
+      "sourceURLs": [
+        "https://www.bubilet.com.tr/istanbul/etkinlik/7-kocali-hurmuz-",
+        "https://www.bubilet.com.tr/istanbul/etkinlik/7-kocali-hurmuz-/seans/305020"
+      ],
+      "source": "Bubilet",
+      "status": "scheduled",
+      "soldOut": false,
+      "yearEvidence": "Primary subEvent.startDate explicitly 2026; UTC schema converted to Europe/Istanbul +03:00 and visible local session time checked.",
+      "endTime": null,
+      "endEvidence": "Templated schema 90-minute duration deliberately not used.",
+      "evidenceFile": "/workspace/shared/hm28-global-evidence/istanbul-7-kocali-hurmuz-.html.json",
+      "placeId": "istanbul-zorlu-turkcell",
+      "venueId": "istanbul-zorlu-turkcell",
+      "checkedAt": "2026-10-28T05:10:11.758978+00:00",
+      "kind": "event",
+      "publicationStatus": "verified",
+      "availabilityVerified": false
+    },
+    {
+      "cityId": "tel-aviv",
+      "title": "גיל ה - FUCK IT !",
+      "titleEN": "The Fuck-It Age — Michal Libdinsky",
+      "date": "2026-11-05",
+      "time": "21:00",
+      "timezone": "Asia/Jerusalem",
+      "startAt": "2026-11-05T21:00:00+02:00",
+      "category": "theatre",
+      "venue": "Tzavta, Hall 1",
+      "venueEN": "Tzavta, Hall 1",
+      "address": "30 Ibn Gabirol, Tel Aviv-Yafo",
+      "addressEN": "30 Ibn Gabirol, Tel Aviv-Yafo",
+      "lat": 32.07524,
+      "lng": 34.78227,
+      "coordinateSource": "https://mapcarta.com/N12101869647",
+      "coordinatePrecision": "building",
+      "coordinateEvidence": "Named Tzavta theatre POI at 30 Ibn Gabirol, numeric coordinates shown on full Mapcarta page; shared building pin, not Hall 1 entrance.",
+      "price": null,
+      "currency": "ILS",
+      "admission": "Recommended for ages 18+. Ticketed; price and live inventory not verified. Published running time: 80 minutes.",
+      "sourceUrl": "https://www.tzavta.co.il/event/5027",
+      "sourceURLs": [
+        "https://www.tzavta.co.il/event/5027",
+        "https://www.tzavta.co.il/shows/11"
+      ],
+      "source": "Tzavta",
+      "yearEvidence": "Full primary event page explicitly 05.11.2026 at 21:00, Tzavta 1.",
+      "description": "Michal Libdinsky presents an anti-aging stand-up show.",
+      "checkedAt": "2026-10-28T05:13:35.012717+00:00",
+      "kind": "event",
+      "publicationStatus": "verified",
+      "status": "scheduled",
+      "soldOut": null,
+      "availabilityVerified": false
+    },
+    {
+      "cityId": "new-york",
+      "title": "Release of the Fishes",
+      "titleEN": "Release of the Fishes",
+      "date": "2026-10-28",
+      "time": "15:00",
+      "endTime": "18:00",
+      "startAt": "2026-10-28T15:00:00-04:00",
+      "endAt": "2026-10-28T18:00:00-04:00",
+      "venue": "River Project Wetlab, Pier 40 South Walkway",
+      "address": "Pier 40 South Walkway, Hudson River Park, New York",
+      "lat": 40.72846,
+      "lng": -74.01353,
+      "coordinateSource": "https://mapcarta.com/N4685779445",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Exact named River Project Wetlab POI, not Pier 40 sports-field centre.",
+      "category": "kids",
+      "price": null,
+      "admission": "Public event for all ages. Join fish release, crafts and activities; price not explicitly stated on primary event page.",
+      "sourceUrl": "https://hudsonriverpark.org/visit/events/event/release-of-the-fishes-2026/",
+      "description": "Season-end celebration with the River Project team, returning aquarium wildlife to the Hudson River.",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "source": "Hudson River Park",
+      "sourceURLs": [
+        "https://hudsonriverpark.org/visit/events/event/release-of-the-fishes-2026/",
+        "https://hudsonriverpark.org/visit/events/category/family/"
+      ],
+      "yearEvidence": "Primary event-specific 2026 URL and official October 2026 calendar agree with full dated session page; New York offset changes from -04 to -05 on November 1.",
+      "checkedAt": "2026-10-28T05:13:35.012717+00:00",
+      "kind": "event",
+      "publicationStatus": "verified",
+      "status": "scheduled",
+      "soldOut": null,
+      "availabilityVerified": false
+    },
+    {
+      "cityId": "new-york",
+      "title": "Discovery Tank Guided Gallery",
+      "titleEN": "Discovery Tank Guided Gallery",
+      "date": "2026-10-29",
+      "time": "15:00",
+      "endTime": "18:00",
+      "startAt": "2026-10-29T15:00:00-04:00",
+      "endAt": "2026-10-29T18:00:00-04:00",
+      "venue": "Discovery Tank, Pier 57",
+      "address": "Pier 57, Hudson River Park, West 15th Street at Eleventh Avenue, New York",
+      "lat": 40.74371,
+      "lng": -74.0107,
+      "coordinateSource": "https://mapcarta.com/22608084",
+      "coordinatePrecision": "pier_building",
+      "coordinateEvidence": "Named Manhattan Pier 57 building/GeoNames point, confirmed by park venue page; not the internal classroom entrance.",
+      "category": "kids",
+      "price": 0,
+      "admission": "Free public gallery and guided activities for all ages.",
+      "sourceUrl": "https://hudsonriverpark.org/visit/events/event/guided-gallery-october-29-2026/",
+      "description": "Guided hands-on exploration of Hudson River wildlife. October theme: trees and foliage.",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "source": "Hudson River Park",
+      "sourceURLs": [
+        "https://hudsonriverpark.org/visit/events/event/guided-gallery-october-29-2026/",
+        "https://hudsonriverpark.org/visit/events/category/family/"
+      ],
+      "yearEvidence": "Primary event-specific 2026 URL and official October 2026 calendar agree with full dated session page; New York offset changes from -04 to -05 on November 1.",
+      "checkedAt": "2026-10-28T05:13:35.012717+00:00",
+      "kind": "event",
+      "publicationStatus": "verified",
+      "status": "scheduled",
+      "soldOut": null,
+      "availabilityVerified": false
+    },
+    {
+      "cityId": "new-york",
+      "title": "Pumpkin Smash",
+      "titleEN": "Pumpkin Smash",
+      "date": "2026-11-07",
+      "time": "11:00",
+      "endTime": "15:00",
+      "startAt": "2026-11-07T11:00:00-05:00",
+      "endAt": "2026-11-07T15:00:00-05:00",
+      "venue": "Pier 84, Hudson River Park",
+      "address": "Pier 84, Hudson River Park, Manhattan, New York",
+      "lat": 40.76376,
+      "lng": -74.00139,
+      "coordinateSource": "https://mapcarta.com/W118116798",
+      "coordinatePrecision": "venue_area",
+      "coordinateEvidence": "Named Pier 84 park OSM way 118116798; pier event-area reference, not nearby dog park, water-quality station or exact activity stall.",
+      "category": "kids",
+      "price": null,
+      "admission": "Bring your own post-Halloween pumpkin. Equipment supplied; activity lasts about 15 minutes. Primary event page does not explicitly state a price.",
+      "sourceUrl": "https://hudsonriverpark.org/visit/events/event/pumpkin-smash-2026/",
+      "description": "Smash pumpkins into compost and learn about the park’s compost programme.",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "source": "Hudson River Park",
+      "sourceURLs": [
+        "https://hudsonriverpark.org/visit/events/event/pumpkin-smash-2026/",
+        "https://hudsonriverpark.org/visit/events/category/family/"
+      ],
+      "yearEvidence": "Primary event-specific 2026 URL and official October 2026 calendar agree with full dated session page; New York offset changes from -04 to -05 on November 1.",
+      "checkedAt": "2026-10-28T05:13:35.012717+00:00",
+      "kind": "event",
+      "publicationStatus": "verified",
+      "status": "scheduled",
+      "soldOut": null,
+      "availabilityVerified": false
+    },
+    {
+      "cityId": "dubai",
+      "title": "Designing the Invisible — Atmospheres Lab & Open Doors",
+      "titleEN": "Designing the Invisible — Atmospheres Lab & Open Doors",
+      "date": "2026-11-03",
+      "time": "10:00",
+      "endTime": "18:00",
+      "startAt": "2026-11-03T10:00:00+04:00",
+      "endAt": "2026-11-07T18:00:00+04:00",
+      "timezone": "Asia/Dubai",
+      "category": "art",
+      "venue": "ICG Gallery Dubai",
+      "venueEN": "ICG Gallery Dubai",
+      "address": "Building 6, Suite B101, Dubai Design District, Dubai",
+      "addressEN": "Building 6, Suite B101, Dubai Design District, Dubai",
+      "lat": 25.189156,
+      "lng": 55.296959,
+      "coordinateSource": "https://yandex.com/maps/org/building_6_dubai_design_district/186626048112/",
+      "coordinatePrecision": "building",
+      "coordinateEvidence": "Yandex Building 6 POI id 186626048112 names the exact Design District building and publishes data-coordinates 55.296959,25.189156; building reference, not Suite B101 entrance. Raw public page saved d3-building6.html.",
+      "price": null,
+      "currency": "AED",
+      "admission": "Open-door gallery programme aimed at the design and architecture community. Atmospheres Lab requires no reservation. General gallery registration is promoted; price not stated. The 3 November evening conversation is not included because primary sources disagree about public access.",
+      "sourceUrl": "https://landing.irisceramicagroup.com/landing/dubai-design-week-2026/",
+      "sourceURLs": [
+        "https://landing.irisceramicagroup.com/landing/dubai-design-week-2026/",
+        "https://www.irisceramicagroup.com/en/media/designing-the-invisible-at-the-new-icg-gallery-dubai/"
+      ],
+      "source": "Iris Ceramica Group",
+      "yearEvidence": "Primary landing page explicitly says 3–7 November 2026; open doors 3–6 November 10:00–20:00 and 7 November 10:00–18:00.",
+      "status": "scheduled",
+      "soldOut": null,
+      "description": "Sensory design exhibition and hands-on Atmospheres Lab exploring surfaces, sound and scent.",
+      "checkedAt": "2026-10-28T05:10:11.758978+00:00",
+      "kind": "event",
+      "publicationStatus": "verified",
+      "availabilityVerified": false,
+      "endDate": "2026-11-07",
+      "dateType": "published_interval",
+      "visitSchedule": {
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "visitScheduleSource": "https://landing.irisceramicagroup.com/landing/dubai-design-week-2026/",
+      "openingHoursSource": "https://landing.irisceramicagroup.com/landing/dubai-design-week-2026/",
+      "openingHoursKnown": true,
+      "openingHoursUnknown": false,
+      "timeOfDayEligible": true,
+      "openingHours": "3–6 November 2026:10:00–20:00;7 November:10:00–18:00"
+    }
+  ],
+  "held": [
+    {
+      "cityId": "istanbul",
+      "title": "ONE MORE",
+      "date": "2026-11-16",
+      "time": "21:00",
+      "venue": "Zorlu PSM - Turkcell Sahnesi",
+      "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/one-more/seans/267758",
+      "reason": "Seller marks this session sold out; not offered as available."
+    },
+    {
+      "cityId": "dubai",
+      "title": "Neuroarchitecture conversation at ICG Gallery",
+      "date": "2026-11-03",
+      "time": "17:30",
+      "sourceURLs": [
+        "https://landing.irisceramicagroup.com/landing/dubai-design-week-2026/",
+        "https://www.irisceramicagroup.com/en/media/designing-the-invisible-at-the-new-icg-gallery-dubai/"
+      ],
+      "reason": "Primary landing calls it OPEN TALK; corporate announcement calls it Private Conversation for professionals. Evening session excluded until access conflict resolved."
+    },
+    {
+      "cityId": "new-york",
+      "title": "Canstruction",
+      "sourceURLs": [
+        "https://www.timeout.com/newyork/events-calendar/november-events-calendar",
+        "https://www.bfplny.com/events/canstruction/"
+      ],
+      "reason": "TimeOut labels 2026 but primary Brookfield page weekday/date alignment is 2025, with no fresh 2026 confirmation. Held stale-year conflict."
+    },
+    {
+      "cityId": "palo-alto",
+      "title": "Q&A with the Mayor",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.paloalto.gov/Events-Directory/City-Manager/QA-with-the-Mayor",
+      "reason": "Search discovery has exact date/time but primary detail cache miss; city directory 403. Not imported from snippet."
+    },
+    {
+      "cityId": "palo-alto",
+      "title": "Manage the Machine / Investing in AI",
+      "date": "2026-10-29",
+      "sourceURLs": [
+        "https://law.stanford.edu/event/ai-initiative-speaker-series-8/",
+        "https://law.stanford.edu/event/big-laws-biggest-ai-bet-a-talk-with-kirkland-ellis-partner-ari-levi/"
+      ],
+      "reason": "Official calendar lists sessions but both primary details 403; Stanford affiliation/ID admission unverified. Stopped without bypass."
+    },
+    {
+      "cityId": "palo-alto",
+      "title": "Choosing Insight Over Overload in the Age of AI",
+      "date": "2026-10-29",
+      "sourceUrl": "https://computationalmedicine.stanford.edu/choosing-insight-over-overload-in-the-age-of-ai/",
+      "reason": "Series calendar confirms noon–13:00 but detail page only title, no physical room/public access. Held venue/access unknown."
+    },
+    {
+      "cityId": "limassol",
+      "title": "LINDA",
+      "date": "2026-11-18",
+      "sourceUrl": "https://t.me/s/cyprusjournalmusic",
+      "reason": "Public preview lead only; exact city venue/time not independently verified."
+    },
+    {
+      "cityId": "brasilia",
+      "title": "Feijoada com Samba",
+      "date": "2026-10-31",
+      "sourceUrl": "https://clubedochoro.com.br/31-10-feijoada-com-samba/",
+      "reason": "Primary date explicit, time absent in readable text; normal HTTP406, no retry/bypass."
+    },
+    {
+      "cityId": "istanbul",
+      "title": "Anadolu Efes home games",
+      "dates": [
+        "2026-10-30",
+        "2026-11-05",
+        "2026-11-13",
+        "2026-11-20"
+      ],
+      "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/anadolu-efes-sk",
+      "reason": "Exact sessions/venue available, but generic schema also contains season pass; starting price may be student category. Turkish/English away-fan admission differ. Excluded from candidate import pending ticket-category/access resolution."
+    }
+  ],
+  "excluded": [
+    {
+      "cityId": "antalya",
+      "title": "Ersin Korkut - Ben mi Yapmışım?",
+      "date": "2026-11-02",
+      "venue": "Alanya Kültür Merkezi - B Salonu",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/ben-mi-yapmisim/seans/291285",
+      "reason": "Outside Antalya city: provincial town."
+    },
+    {
+      "cityId": "antalya",
+      "title": "Ersin Korkut - Ben mi Yapmışım?",
+      "date": "2026-11-03",
+      "venue": "Manavgat Atatürk Kültür Merkezi",
+      "sourceUrl": "https://www.bubilet.com.tr/antalya/etkinlik/ben-mi-yapmisim/seans/291283",
+      "reason": "Outside Antalya city: provincial town."
+    },
+    {
+      "cityId": "antalya",
+      "title": "SUP CUP KEMER 2026",
+      "date": "2026-10-28",
+      "sourceUrl": "https://t.me/s/antalyadaa",
+      "reason": "Kemer outside Antalya city."
+    },
+    {
+      "cityId": "brasilia",
+      "title": "Tom e Vinicius at Eixão Norte",
+      "date": "2026-10-11",
+      "sourceUrl": "https://agenda.bsb.br/event/projeto-tom-e-vinicius-encerra-temporada-com-apresentacao-gratuita-no-eixao-norte/",
+      "reason": "Past event, despite prominent current homepage placement."
+    }
+  ],
+  "duplicates": [
+    {
+      "cityId": "istanbul",
+      "title": "ONE MORE",
+      "date": "2026-11-15",
+      "baselineId": "m24-istanbul-0401b4687c9ae0",
+      "sourceUrl": "https://www.bubilet.com.tr/istanbul/etkinlik/one-more"
+    },
+    {
+      "cityId": "brasilia",
+      "title": "Movido à Música — 2ª Edição — Povos Originários",
+      "date": "2026-10-31",
+      "baselineId": "brasilia-94bf77ade9ff13",
+      "sourceUrl": "https://www.sympla.com.br/evento/movido-a-musica-2-edicao-povos-originarios/3612259"
+    }
+  ],
+  "phase": "Final bounded research packet. No live registry, Library, browser, login, membership or message mutations. All nine main-afisha and social checks recorded; partial coverage explicit.",
+  "candidateCount": 15,
+  "sourceAuditCount": 9,
+  "normalizationNote": "Five gallery opening-day rows consolidated to one true3–7Nov exhibition range with exact visitSchedule; not five separate sessions."
+}

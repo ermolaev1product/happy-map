@@ -1,0 +1,1569 @@
+{
+  "checkedAt": "2026-10-27T05:30:59.964890+00:00",
+  "scope": "78 linkage patches maximum, including74newrows (1cancelledBrendon skipped),2coordinate-corrected YouthTheatre rows,2explicitlyoptional oldTradeUnionsPalace aliases. No newplaces needed; noMoscow/modelchanges. Simulated bothlocaleexactsourcefunctions withallfourcitycount/linkparity restored. No feedmutations by research.",
+  "patches": [
+    {
+      "cityId": "antalya",
+      "id": "hm27-global-1498f0d9b056d1",
+      "patch": {
+        "placeId": "antalya-turkan"
+      },
+      "reason": "Same unique named cultural centre and exact1455SkNo8streetaddress in publishedBubilet event and storedofficialvenue; differingpoints~75m. Identitylink only; keep sourceeventcoordinates."
+    },
+    {
+      "cityId": "baku",
+      "id": "m27v-baku-8318412faa59a5",
+      "patch": {
+        "placeId": "osm:way:152191003"
+      },
+      "reason": "Same unique InternationalMughamCenter; OSMnamedbuilding and icm.azwebsite, sourceeventpoint in samebuilding. StoredRUnametranslated differently; never merge otherMughamrestaurants."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-ef71d7e61a9b",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-17c46e33f22a",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-d303ba988149",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-0fbdae41169b",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-a0519ceefc4f",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-3b162bbe2ea5",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-03fe32dca197",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-6fa26fa58b73",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-a7df6b366fa0",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-9f6d270430eb",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-517cd993f283",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-ca10d18df97c",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-ff948fd20def",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-0359ea3dbc97",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-7d24e8b9266c",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-645001789023",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-1b0b453f4582",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-be64fa37357a",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-d213f986ff98",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-9389009df8ae",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-303c87fa7ecc",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-7d1105126a24",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-71480b91188e",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-4a93065174ca",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-29f7e3e33db2",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-490e7b914632",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-098898e0f2c3",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-9aa9870961c2",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-e5bcf1e8808a",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-872123fbcb12",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-fcc90a5bbe46",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-bdc581a38443",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-f8d0770c9367",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-ca027d0dcd7e",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-f3b8bb847396",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-6d10b1215be0",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-7e965da79243",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-8702b9812a3c",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-27689b3aee87",
+      "patch": {
+        "placeId": "osm:way:144714783"
+      },
+      "reason": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-1191418a7913",
+      "patch": {
+        "placeId": "osm:way:95513981"
+      },
+      "reason": "UniqueStateConservatoryofUzbekistan; sourceOlmazor1 and storedBotirZokirov1 are sameconservatorybuilding with~50mpoints and officialkonservatoriya.uzidentity. Existingbaselineconcerts alreadylinkhere; notdifferenthall."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-fedf8d76c557",
+      "patch": {
+        "placeId": "osm:way:95513981"
+      },
+      "reason": "UniqueStateConservatoryofUzbekistan; sourceOlmazor1 and storedBotirZokirov1 are sameconservatorybuilding with~50mpoints and officialkonservatoriya.uzidentity. Existingbaselineconcerts alreadylinkhere; notdifferenthall."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-f002c9984e68",
+      "patch": {
+        "placeId": "osm:node:1502769151"
+      },
+      "reason": "UniqueStateOperettaTheatre; samefullRussianname/sourceaddressChoponOtaChilanzarC and OSMnamedtheatrepoint~14m, officialtheatrewebsite. Nohallseparation asserted."
+    },
+    {
+      "cityId": "tashkent",
+      "id": "tashkent-research27-e8c449984602",
+      "patch": {
+        "placeId": "osm:node:1502769151"
+      },
+      "reason": "UniqueStateOperettaTheatre; samefullRussianname/sourceaddressChoponOtaChilanzarC and OSMnamedtheatrepoint~14m, officialtheatrewebsite. Nohallseparation asserted."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-3b7ae0985060",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-1d4343098fc3",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-c4a83ee7c30d",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-43e82652eda7",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-2c5adb7f4c60",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-ee18981fd0cd",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-055a5a8fe252",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-e8cda965378b",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-f5344e2766fc",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-6eeb60218708",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-3cd6342e1d6c",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-c02a0701f786",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-6970c945b7e7",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-0046cff1c99c",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-4575bd21606a",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-9c49924d5503",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-79517421cd8d",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-6b6786e1c44d",
+      "patch": {
+        "placeId": "osm:node:306065148"
+      },
+      "reason": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-0a88f00aeb0e",
+      "patch": {
+        "placeId": "osm:way:391059844"
+      },
+      "reason": "UniquePrimeHall atPobediteley65; Ticketprovenuepage freshlyconfirmsname/address and listsKosta/ProstoLera2026sessions. OSMstorednamedPrimeHallwithinmall samevenue. PreserveeventTicketpropoint; notPrimeBar."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-4dd7729d495d",
+      "patch": {
+        "placeId": "osm:way:391059844"
+      },
+      "reason": "UniquePrimeHall atPobediteley65; Ticketprovenuepage freshlyconfirmsname/address and listsKosta/ProstoLera2026sessions. OSMstorednamedPrimeHallwithinmall samevenue. PreserveeventTicketpropoint; notPrimeBar."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-be0d83f60608",
+      "patch": {
+        "placeId": "osm:way:391059844"
+      },
+      "reason": "UniquePrimeHall atPobediteley65; Ticketprovenuepage freshlyconfirmsname/address and listsKosta/ProstoLera2026sessions. OSMstorednamedPrimeHallwithinmall samevenue. PreserveeventTicketpropoint; notPrimeBar."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-47d99b1f6cf3",
+      "patch": {
+        "placeId": "osm:way:25326786"
+      },
+      "reason": "ExistingstoredMinskConcertHallbuilding. Eventhallremainsinvenue/halltext; placeIdisbuilding-levelcatalogueidentity only, noevent/hallmerge."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-b8ca55b7b19b",
+      "patch": {
+        "placeId": "osm:way:25326786"
+      },
+      "reason": "ExistingstoredMinskConcertHallbuilding. Eventhallremainsinvenue/halltext; placeIdisbuilding-levelcatalogueidentity only, noevent/hallmerge."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-7acef3d0b981",
+      "patch": {
+        "placeId": "osm:way:25326786"
+      },
+      "reason": "ExistingstoredMinskConcertHallbuilding. Eventhallremainsinvenue/halltext; placeIdisbuilding-levelcatalogueidentity only, noevent/hallmerge."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-e0959e873cb3",
+      "patch": {
+        "placeId": "osm:way:25326786"
+      },
+      "reason": "ExistingstoredMinskConcertHallbuilding. Eventhallremainsinvenue/halltext; placeIdisbuilding-levelcatalogueidentity only, noevent/hallmerge."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-2eb93c3bdd38",
+      "patch": {
+        "placeId": "osm:way:25326786"
+      },
+      "reason": "ExistingstoredMinskConcertHallbuilding. Eventhallremainsinvenue/halltext; placeIdisbuilding-levelcatalogueidentity only, noevent/hallmerge."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-fa6baf01aa19",
+      "patch": {
+        "placeId": "osm:way:25326786"
+      },
+      "reason": "ExistingstoredMinskConcertHallbuilding. Eventhallremainsinvenue/halltext; placeIdisbuilding-levelcatalogueidentity only, noevent/hallmerge."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-631813d93c98",
+      "patch": {
+        "placeId": "osm:relation:5579041"
+      },
+      "reason": "SamePalaceofCultureofTradeUnionsbuilding; exactexistingOSMcoordinate/source match eventIndependence25. Placeidentity only."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-oct24-0542a1c8f654",
+      "patch": {
+        "placeId": "osm:way:25324614"
+      },
+      "reason": "CorrectedrecordsКозлова17matchstoredBelarusianStateYouthTheatreКазлова17andTicketprofreshvenueproof. StableplaceId neededaftercoordinatecorrection; notVarietyTheatreМосковская18а. Keepallhalltext."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-oct24-628a30ac9abb",
+      "patch": {
+        "placeId": "osm:way:25324614"
+      },
+      "reason": "CorrectedrecordsКозлова17matchstoredBelarusianStateYouthTheatreКазлова17andTicketprofreshvenueproof. StableplaceId neededaftercoordinatecorrection; notVarietyTheatreМосковская18а. Keepallhalltext."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-2a43e60015cd",
+      "patch": {
+        "placeId": "minsk-f7bf3a0cdd12",
+        "venueId": "minsk-f7bf3a0cdd12"
+      },
+      "reason": "FreshTicketprovenuepageexplicitCentralHouseofOfficersКрасноармейская3andmapdata53.902509,27.564291; existingoldvenueIdalreadyminsk-f7bf3a0cdd12. Addcanonicalnamedvenue ratherthanbinddistinctArmyTheatreatsameaddress. UseexistingstablevenueId alreadyindexedfrombaselineevents; no newstoredplace needed. Thisavoidsunrelatedoldpartitionchanges."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-oct24-ee94c3c1cd4e",
+      "patch": {
+        "placeId": "osm:relation:5579041"
+      },
+      "reason": "Same TradeUnionsPalace building, explicitIndependence25 in existingevent and publishedvenueevidence; nohall distinction. Resolves residual preexisting localeidentitypartition exposedbycorrectedYouthTheatre. Optional beyondnewrows."
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-tp-be0bbde8c18c",
+      "patch": {
+        "placeId": "osm:relation:5579041"
+      },
+      "reason": "Same TradeUnionsPalace building, explicitIndependence25 in existingevent and publishedvenueevidence; nohall distinction. Resolves residual preexisting localeidentitypartition exposedbycorrectedYouthTheatre. Optional beyondnewrows."
+    }
+  ],
+  "groups": [
+    {
+      "cityId": "antalya",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "placeId": "antalya-turkan",
+      "eventIds": [
+        "hm27-global-1498f0d9b056d1"
+      ],
+      "evidence": "Same unique named cultural centre and exact1455SkNo8streetaddress in publishedBubilet event and storedofficialvenue; differingpoints~75m. Identitylink only; keep sourceeventcoordinates."
+    },
+    {
+      "cityId": "baku",
+      "venue": "International Mugham Center",
+      "placeId": "osm:way:152191003",
+      "eventIds": [
+        "m27v-baku-8318412faa59a5"
+      ],
+      "evidence": "Same unique InternationalMughamCenter; OSMnamedbuilding and icm.azwebsite, sourceeventpoint in samebuilding. StoredRUnametranslated differently; never merge otherMughamrestaurants."
+    },
+    {
+      "cityId": "tashkent",
+      "venue": "Планетарий",
+      "placeId": "osm:way:144714783",
+      "eventIds": [
+        "tashkent-research27-ef71d7e61a9b",
+        "tashkent-research27-17c46e33f22a",
+        "tashkent-research27-d303ba988149",
+        "tashkent-research27-0fbdae41169b",
+        "tashkent-research27-a0519ceefc4f",
+        "tashkent-research27-3b162bbe2ea5",
+        "tashkent-research27-03fe32dca197",
+        "tashkent-research27-6fa26fa58b73",
+        "tashkent-research27-a7df6b366fa0",
+        "tashkent-research27-9f6d270430eb",
+        "tashkent-research27-517cd993f283",
+        "tashkent-research27-ca10d18df97c",
+        "tashkent-research27-ff948fd20def",
+        "tashkent-research27-0359ea3dbc97",
+        "tashkent-research27-7d24e8b9266c",
+        "tashkent-research27-645001789023",
+        "tashkent-research27-1b0b453f4582",
+        "tashkent-research27-be64fa37357a",
+        "tashkent-research27-d213f986ff98",
+        "tashkent-research27-9389009df8ae",
+        "tashkent-research27-303c87fa7ecc",
+        "tashkent-research27-7d1105126a24",
+        "tashkent-research27-71480b91188e",
+        "tashkent-research27-4a93065174ca",
+        "tashkent-research27-29f7e3e33db2",
+        "tashkent-research27-490e7b914632",
+        "tashkent-research27-098898e0f2c3",
+        "tashkent-research27-9aa9870961c2",
+        "tashkent-research27-e5bcf1e8808a",
+        "tashkent-research27-872123fbcb12",
+        "tashkent-research27-fcc90a5bbe46",
+        "tashkent-research27-bdc581a38443",
+        "tashkent-research27-f8d0770c9367",
+        "tashkent-research27-ca027d0dcd7e",
+        "tashkent-research27-f3b8bb847396",
+        "tashkent-research27-6d10b1215be0",
+        "tashkent-research27-7e965da79243",
+        "tashkent-research27-8702b9812a3c",
+        "tashkent-research27-27689b3aee87"
+      ],
+      "evidence": "SourceZarqaynar6 matches storedZarqaynar6, points~2m; sameUlugbekPlanetarium, notnewvenue."
+    },
+    {
+      "cityId": "tashkent",
+      "venue": "Государственная Консерватория",
+      "placeId": "osm:way:95513981",
+      "eventIds": [
+        "tashkent-research27-1191418a7913",
+        "tashkent-research27-fedf8d76c557"
+      ],
+      "evidence": "UniqueStateConservatoryofUzbekistan; sourceOlmazor1 and storedBotirZokirov1 are sameconservatorybuilding with~50mpoints and officialkonservatoriya.uzidentity. Existingbaselineconcerts alreadylinkhere; notdifferenthall."
+    },
+    {
+      "cityId": "tashkent",
+      "venue": "Государственный театр музыкальной комедии (оперетты) Узбекистана",
+      "placeId": "osm:node:1502769151",
+      "eventIds": [
+        "tashkent-research27-f002c9984e68",
+        "tashkent-research27-e8c449984602"
+      ],
+      "evidence": "UniqueStateOperettaTheatre; samefullRussianname/sourceaddressChoponOtaChilanzarC and OSMnamedtheatrepoint~14m, officialtheatrewebsite. Nohallseparation asserted."
+    },
+    {
+      "cityId": "minsk",
+      "venue": "Белгосфилармония",
+      "placeId": "osm:node:306065148",
+      "eventIds": [
+        "minsk-research27-3b7ae0985060",
+        "minsk-research27-1d4343098fc3",
+        "minsk-research27-c4a83ee7c30d",
+        "minsk-research27-43e82652eda7",
+        "minsk-research27-2c5adb7f4c60",
+        "minsk-research27-ee18981fd0cd",
+        "minsk-research27-055a5a8fe252",
+        "minsk-research27-e8cda965378b",
+        "minsk-research27-f5344e2766fc",
+        "minsk-research27-6eeb60218708",
+        "minsk-research27-3cd6342e1d6c",
+        "minsk-research27-c02a0701f786",
+        "minsk-research27-6970c945b7e7",
+        "minsk-research27-0046cff1c99c",
+        "minsk-research27-4575bd21606a",
+        "minsk-research27-9c49924d5503",
+        "minsk-research27-79517421cd8d",
+        "minsk-research27-6b6786e1c44d"
+      ],
+      "evidence": "SameBelarusianStatePhilharmonic, exactIndependence50address and identicalcoordinates; abbrevBelgos createsRUduplicate."
+    },
+    {
+      "cityId": "minsk",
+      "venue": "PRIME HALL",
+      "placeId": "osm:way:391059844",
+      "eventIds": [
+        "minsk-research27-0a88f00aeb0e",
+        "minsk-research27-4dd7729d495d",
+        "minsk-research27-be0d83f60608"
+      ],
+      "evidence": "UniquePrimeHall atPobediteley65; Ticketprovenuepage freshlyconfirmsname/address and listsKosta/ProstoLera2026sessions. OSMstorednamedPrimeHallwithinmall samevenue. PreserveeventTicketpropoint; notPrimeBar."
+    },
+    {
+      "cityId": "minsk",
+      "venue": "КЗ Минск (большой зал)",
+      "placeId": "osm:way:25326786",
+      "eventIds": [
+        "minsk-research27-47d99b1f6cf3",
+        "minsk-research27-b8ca55b7b19b",
+        "minsk-research27-7acef3d0b981",
+        "minsk-research27-e0959e873cb3",
+        "minsk-research27-2eb93c3bdd38",
+        "minsk-research27-fa6baf01aa19"
+      ],
+      "evidence": "ExistingstoredMinskConcertHallbuilding. Eventhallremainsinvenue/halltext; placeIdisbuilding-levelcatalogueidentity only, noevent/hallmerge."
+    },
+    {
+      "cityId": "minsk",
+      "venue": "Дворец Профсоюзов",
+      "placeId": "osm:relation:5579041",
+      "eventIds": [
+        "minsk-research27-631813d93c98"
+      ],
+      "evidence": "SamePalaceofCultureofTradeUnionsbuilding; exactexistingOSMcoordinate/source match eventIndependence25. Placeidentity only."
+    },
+    {
+      "cityId": "minsk",
+      "venue": "Белорусский государственный молодежный театр",
+      "placeId": "osm:way:25324614",
+      "eventIds": [
+        "minsk-oct24-0542a1c8f654",
+        "minsk-oct24-628a30ac9abb"
+      ],
+      "evidence": "CorrectedrecordsКозлова17matchstoredBelarusianStateYouthTheatreКазлова17andTicketprofreshvenueproof. StableplaceId neededaftercoordinatecorrection; notVarietyTheatreМосковская18а. Keepallhalltext."
+    },
+    {
+      "cityId": "minsk",
+      "venue": "Дом офицеров",
+      "placeId": "minsk-f7bf3a0cdd12",
+      "eventIds": [
+        "minsk-research27-2a43e60015cd"
+      ],
+      "evidence": "FreshTicketprovenuepageexplicitCentralHouseofOfficersКрасноармейская3andmapdata53.902509,27.564291; existingoldvenueIdalreadyminsk-f7bf3a0cdd12. Addcanonicalnamedvenue ratherthanbinddistinctArmyTheatreatsameaddress."
+    }
+  ],
+  "excludedHolds": [
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-4a3a59f27f2f",
+      "reason": "Ticketprovenuepage explicitlycancelledBrendonStone13Nov2026at19:00. Hold/removeaddition.",
+      "sourceUrl": "https://www.ticketpro.by/koncertnye-ploshhadki/centralnyj-dom-oficerov/",
+      "evidenceFile": "/workspace/shared/hm27-central-officers-proof.html"
+    }
+  ],
+  "rawParityEvidence": "/workspace/shared/hm27-new-place-parity-raw.json",
+  "simulationPending": false,
+  "simulation": [
+    {
+      "city": "antalya",
+      "ru": {
+        "before": 16,
+        "after": 16,
+        "storedPlaces": 11,
+        "events": 119,
+        "links": [
+          [
+            "hm27-global-1498f0d9b056d1",
+            "antalya-turkan"
+          ]
+        ]
+      },
+      "en": {
+        "before": 17,
+        "after": 16,
+        "storedPlaces": 11,
+        "events": 119,
+        "links": [
+          [
+            "hm27-global-1498f0d9b056d1",
+            "antalya-turkan"
+          ]
+        ]
+      },
+      "countParity": true,
+      "newLinkIdParity": true
+    },
+    {
+      "city": "minsk",
+      "ru": {
+        "before": 3842,
+        "after": 3836,
+        "storedPlaces": 3823,
+        "events": 217,
+        "links": [
+          [
+            "minsk-tp-be0bbde8c18c",
+            "osm:relation:5579041"
+          ],
+          [
+            "minsk-oct24-ee94c3c1cd4e",
+            "osm:relation:5579041"
+          ],
+          [
+            "minsk-oct24-0542a1c8f654",
+            "osm:way:25324614"
+          ],
+          [
+            "minsk-oct24-628a30ac9abb",
+            "osm:way:25324614"
+          ],
+          [
+            "minsk-research27-631813d93c98",
+            "osm:relation:5579041"
+          ],
+          [
+            "minsk-research27-47d99b1f6cf3",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-3b7ae0985060",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-b8ca55b7b19b",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-1d4343098fc3",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-0a88f00aeb0e",
+            "osm:way:391059844"
+          ],
+          [
+            "minsk-research27-c4a83ee7c30d",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-4dd7729d495d",
+            "osm:way:391059844"
+          ],
+          [
+            "minsk-research27-7acef3d0b981",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-43e82652eda7",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-2c5adb7f4c60",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-e0959e873cb3",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-ee18981fd0cd",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-055a5a8fe252",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-e8cda965378b",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-2eb93c3bdd38",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-f5344e2766fc",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-6eeb60218708",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-fa6baf01aa19",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-3cd6342e1d6c",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-c02a0701f786",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-be0d83f60608",
+            "osm:way:391059844"
+          ],
+          [
+            "minsk-research27-6970c945b7e7",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-2a43e60015cd",
+            "venue:minsk-f7bf3a0cdd12:53.9025:27.5643"
+          ],
+          [
+            "minsk-research27-0046cff1c99c",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-4575bd21606a",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-9c49924d5503",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-79517421cd8d",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-6b6786e1c44d",
+            "osm:node:306065148"
+          ]
+        ]
+      },
+      "en": {
+        "before": 3838,
+        "after": 3836,
+        "storedPlaces": 3823,
+        "events": 217,
+        "links": [
+          [
+            "minsk-tp-be0bbde8c18c",
+            "osm:relation:5579041"
+          ],
+          [
+            "minsk-oct24-ee94c3c1cd4e",
+            "osm:relation:5579041"
+          ],
+          [
+            "minsk-oct24-0542a1c8f654",
+            "osm:way:25324614"
+          ],
+          [
+            "minsk-oct24-628a30ac9abb",
+            "osm:way:25324614"
+          ],
+          [
+            "minsk-research27-631813d93c98",
+            "osm:relation:5579041"
+          ],
+          [
+            "minsk-research27-47d99b1f6cf3",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-3b7ae0985060",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-b8ca55b7b19b",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-1d4343098fc3",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-0a88f00aeb0e",
+            "osm:way:391059844"
+          ],
+          [
+            "minsk-research27-c4a83ee7c30d",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-4dd7729d495d",
+            "osm:way:391059844"
+          ],
+          [
+            "minsk-research27-7acef3d0b981",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-43e82652eda7",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-2c5adb7f4c60",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-e0959e873cb3",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-ee18981fd0cd",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-055a5a8fe252",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-e8cda965378b",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-2eb93c3bdd38",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-f5344e2766fc",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-6eeb60218708",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-fa6baf01aa19",
+            "osm:way:25326786"
+          ],
+          [
+            "minsk-research27-3cd6342e1d6c",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-c02a0701f786",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-be0d83f60608",
+            "osm:way:391059844"
+          ],
+          [
+            "minsk-research27-6970c945b7e7",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-2a43e60015cd",
+            "venue:minsk-f7bf3a0cdd12:53.9025:27.5643"
+          ],
+          [
+            "minsk-research27-0046cff1c99c",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-4575bd21606a",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-9c49924d5503",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-79517421cd8d",
+            "osm:node:306065148"
+          ],
+          [
+            "minsk-research27-6b6786e1c44d",
+            "osm:node:306065148"
+          ]
+        ]
+      },
+      "countParity": true,
+      "newLinkIdParity": true
+    },
+    {
+      "city": "baku",
+      "ru": {
+        "before": 2510,
+        "after": 2509,
+        "storedPlaces": 2488,
+        "events": 85,
+        "links": [
+          [
+            "m27v-baku-8318412faa59a5",
+            "osm:way:152191003"
+          ]
+        ]
+      },
+      "en": {
+        "before": 2509,
+        "after": 2509,
+        "storedPlaces": 2488,
+        "events": 85,
+        "links": [
+          [
+            "m27v-baku-8318412faa59a5",
+            "osm:way:152191003"
+          ]
+        ]
+      },
+      "countParity": true,
+      "newLinkIdParity": true
+    },
+    {
+      "city": "tashkent",
+      "ru": {
+        "before": 3123,
+        "after": 3123,
+        "storedPlaces": 3091,
+        "events": 193,
+        "links": [
+          [
+            "tashkent-research27-1191418a7913",
+            "osm:way:95513981"
+          ],
+          [
+            "tashkent-research27-fedf8d76c557",
+            "osm:way:95513981"
+          ],
+          [
+            "tashkent-research27-f002c9984e68",
+            "osm:node:1502769151"
+          ],
+          [
+            "tashkent-research27-ef71d7e61a9b",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-17c46e33f22a",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-d303ba988149",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-0fbdae41169b",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-a0519ceefc4f",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-3b162bbe2ea5",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-03fe32dca197",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-6fa26fa58b73",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-a7df6b366fa0",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-9f6d270430eb",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-517cd993f283",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-ca10d18df97c",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-ff948fd20def",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-0359ea3dbc97",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-7d24e8b9266c",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-645001789023",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-1b0b453f4582",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-be64fa37357a",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-d213f986ff98",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-9389009df8ae",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-303c87fa7ecc",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-7d1105126a24",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-71480b91188e",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-4a93065174ca",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-29f7e3e33db2",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-490e7b914632",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-098898e0f2c3",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-9aa9870961c2",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-e5bcf1e8808a",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-872123fbcb12",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-fcc90a5bbe46",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-bdc581a38443",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-f8d0770c9367",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-ca027d0dcd7e",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-f3b8bb847396",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-6d10b1215be0",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-7e965da79243",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-8702b9812a3c",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-27689b3aee87",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-e8c449984602",
+            "osm:node:1502769151"
+          ]
+        ]
+      },
+      "en": {
+        "before": 3126,
+        "after": 3123,
+        "storedPlaces": 3091,
+        "events": 193,
+        "links": [
+          [
+            "tashkent-research27-1191418a7913",
+            "osm:way:95513981"
+          ],
+          [
+            "tashkent-research27-fedf8d76c557",
+            "osm:way:95513981"
+          ],
+          [
+            "tashkent-research27-f002c9984e68",
+            "osm:node:1502769151"
+          ],
+          [
+            "tashkent-research27-ef71d7e61a9b",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-17c46e33f22a",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-d303ba988149",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-0fbdae41169b",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-a0519ceefc4f",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-3b162bbe2ea5",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-03fe32dca197",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-6fa26fa58b73",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-a7df6b366fa0",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-9f6d270430eb",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-517cd993f283",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-ca10d18df97c",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-ff948fd20def",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-0359ea3dbc97",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-7d24e8b9266c",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-645001789023",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-1b0b453f4582",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-be64fa37357a",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-d213f986ff98",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-9389009df8ae",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-303c87fa7ecc",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-7d1105126a24",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-71480b91188e",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-4a93065174ca",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-29f7e3e33db2",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-490e7b914632",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-098898e0f2c3",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-9aa9870961c2",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-e5bcf1e8808a",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-872123fbcb12",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-fcc90a5bbe46",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-bdc581a38443",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-f8d0770c9367",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-ca027d0dcd7e",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-f3b8bb847396",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-6d10b1215be0",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-7e965da79243",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-8702b9812a3c",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-27689b3aee87",
+            "osm:way:144714783"
+          ],
+          [
+            "tashkent-research27-e8c449984602",
+            "osm:node:1502769151"
+          ]
+        ]
+      },
+      "countParity": true,
+      "newLinkIdParity": true
+    }
+  ],
+  "primaryAvailabilityChecks": [
+    {
+      "id": "minsk-research27-2a43e60015cd",
+      "title": "Андрей Атлас",
+      "date": "2026-11-21",
+      "time": "19:00",
+      "status": "Buy ticket present, not marked cancelled",
+      "priceFrom": 115,
+      "currency": "BYN",
+      "sourceUrl": "https://www.ticketpro.by/koncertnye-ploshhadki/centralnyj-dom-oficerov/?page=2"
+    },
+    {
+      "id": "minsk-research27-4a3a59f27f2f",
+      "status": "Explicitly cancelled, exclude",
+      "sourceUrl": "https://www.ticketpro.by/koncertnye-ploshhadki/centralnyj-dom-oficerov/?page=2"
+    }
+  ],
+  "optionalCanonicalPlaces": [],
+  "newPlaces": [],
+  "optionalExistingAliasPatches": [
+    {
+      "cityId": "minsk",
+      "id": "minsk-oct24-ee94c3c1cd4e",
+      "patch": {
+        "placeId": "osm:relation:5579041"
+      },
+      "reason": "Same TradeUnionsPalace building, explicitIndependence25 in existingevent and publishedvenueevidence; nohall distinction. Resolves residual preexisting localeidentitypartition exposedbycorrectedYouthTheatre. Optional beyondnewrows.",
+      "sourceProof": {
+        "url": "https://www.ticketpro.by/koncertnye-ploshhadki/dk-profsoyuzov/",
+        "facts": "Named Republican Palace of Culture of Trade Unions, IndependenceAvenue25, matches both oldrecordaddresses and storedOSMrelation5579041; nohall distinction asserted."
+      }
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-tp-be0bbde8c18c",
+      "patch": {
+        "placeId": "osm:relation:5579041"
+      },
+      "reason": "Same TradeUnionsPalace building, explicitIndependence25 in existingevent and publishedvenueevidence; nohall distinction. Resolves residual preexisting localeidentitypartition exposedbycorrectedYouthTheatre. Optional beyondnewrows.",
+      "sourceProof": {
+        "url": "https://www.ticketpro.by/koncertnye-ploshhadki/dk-profsoyuzov/",
+        "facts": "Named Republican Palace of Culture of Trade Unions, IndependenceAvenue25, matches both oldrecordaddresses and storedOSMrelation5579041; nohall distinction asserted."
+      }
+    }
+  ],
+  "resolvedCounts": {
+    "antalya": 16,
+    "minsk": 3836,
+    "baku": 2509,
+    "tashkent": 3123
+  }
+}

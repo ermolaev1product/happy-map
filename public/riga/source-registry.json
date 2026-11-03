@@ -1,0 +1,91 @@
+{
+  "city": "Riga",
+  "checkedAt": "2026-10-28T02:06:19.292358+00:00",
+  "sources": [
+    {
+      "id": "riga-liveriga-events",
+      "name": "LiveRiga official city calendar",
+      "url": "https://www.liveriga.com/en/3-events",
+      "checkedAt": "2026-10-28T02:06:19.292358+00:00",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 47,
+      "note": "Selected full dated event details reviewed across multiple categories; not a complete import of all 340 listed results. Fields with unresolved dates or venues held.",
+      "type": "official_city_calendar"
+    },
+    {
+      "id": "riga-latvia-travel-reserve",
+      "name": "Latvia Travel event guide",
+      "url": "https://www.latvia.travel/en/autumn-and-winter-event-guide-latvia",
+      "checkedAt": "2026-10-28T02:04:30Z",
+      "status": "partial",
+      "accessStatus": "partial",
+      "count": 0,
+      "note": "Reserve source identified; city-specific event imports still rely on individual LiveRiga details.",
+      "type": "official_tourism_reserve"
+    },
+    {
+      "id": "riga-telegram-announcements",
+      "name": "Riga Events Telegram",
+      "url": "https://t.me/s/rigaevents",
+      "checkedAt": "2026-10-28T02:04:30Z",
+      "status": "stale_public_posts",
+      "accessStatus": "stale_public_posts",
+      "count": 0,
+      "note": "Public feed inspected; visible announcements dated2023/2024, no fresh confirmed programme imported.",
+      "type": "telegram"
+    },
+    {
+      "id": "riga-telegram-chat",
+      "name": "RigaRusChat",
+      "url": "https://t.me/RigaRusChat",
+      "checkedAt": "2026-10-28T02:04:30Z",
+      "status": "profile_only",
+      "accessStatus": "profile_only",
+      "count": 0,
+      "note": "Public profile only; conversation history not exposed. No join, login or outreach.",
+      "type": "telegram_chat"
+    },
+    {
+      "id": "overnight29-source-70b47748cf80adaa",
+      "name": "ARĒNA festival — official organizer",
+      "url": "https://www.arenafest.lv/programma/pr-2026/paregojumi/",
+      "checkedAt": "2026-10-29T01:31:52.565134+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Selected dated programme facts checked; partial coverage. Source clock conflicts resolved with own organizer details, history retained."
+    },
+    {
+      "id": "overnight29-source-8110a77bcd538a1e",
+      "name": "ARĒNA festival — official organizer",
+      "url": "https://www.arenafest.lv/programma/pr-2026/tumsas-gaisma/",
+      "checkedAt": "2026-10-29T01:31:55.550049+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Selected dated programme facts checked; partial coverage. Source clock conflicts resolved with own organizer details, history retained."
+    },
+    {
+      "id": "overnight29-source-b12ab8445ca37b50",
+      "name": "ARĒNA festival — official organizer",
+      "url": "https://www.arenafest.lv/programma/pr-2026/sarunas-ar-feldmanu/",
+      "checkedAt": "2026-10-29T01:31:59.302160+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Selected dated programme facts checked; partial coverage. Source clock conflicts resolved with own organizer details, history retained."
+    },
+    {
+      "id": "overnight29-source-59b8480154916124",
+      "name": "ARĒNA festival — official organizer",
+      "url": "https://www.arenafest.lv/programma/pr-2026/eiropas-nolaupisana/",
+      "checkedAt": "2026-10-29T01:32:02.231210+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Selected dated programme facts checked; partial coverage. Source clock conflicts resolved with own organizer details, history retained."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

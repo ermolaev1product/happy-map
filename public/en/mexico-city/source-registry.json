@@ -1,0 +1,557 @@
+{
+  "city": "Mexico City",
+  "checkedAt": "2026-10-29T03:29:27.619237+00:00",
+  "sources": [
+    {
+      "id": "mexico-city-source-aa22cbc1da4720",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/estado/9/ciudad-de-mexico",
+      "checkedAt": "2026-10-29T03:17:06.428647+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-fae9ea4490b440",
+      "name": "mexicocity.cdmx.gob.mx",
+      "url": "https://mexicocity.cdmx.gob.mx/e/dia-de-muertos-en-la-ciudad-de-mexico/",
+      "checkedAt": "2026-10-29T03:17:14.630244+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-126ae82c4c259d",
+      "name": "mncp.cultura.gob.mx",
+      "url": "https://mncp.cultura.gob.mx/events/mes/2026-11/",
+      "checkedAt": "2026-10-29T03:17:19.048053+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "503; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-44946d981af95a",
+      "name": "teatros.cultura.cdmx.gob.mx",
+      "url": "https://teatros.cultura.cdmx.gob.mx/content/directorio",
+      "checkedAt": "2026-10-29T03:17:22.432007+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "503; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-ca8f89fd548008",
+      "name": "cenart.gob.mx",
+      "url": "https://cenart.gob.mx/app/",
+      "checkedAt": "2026-10-29T03:17:25.683673+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "503; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-f944049f68b2ea",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340726/festival-de-dia-de-muertos-en-el-museo-casa-del-risco.html",
+      "checkedAt": "2026-10-29T03:18:28.836804+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 4,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-9cc2637f0f9791",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340725/ofrendas-del-risco.html",
+      "checkedAt": "2026-10-29T03:18:34.577470+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-66c66e103fe723",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340719/entre-vivos-y-muertos-un-pueblo-que-permanece-altar-de-difuntos-del-pueblo-de-los-reyes-hueytlilac-coyoacan.html",
+      "checkedAt": "2026-10-29T03:18:37.606232+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-5dafa032969cd5",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340713/muestra-memorias-organicas-oaxaca.html",
+      "checkedAt": "2026-10-29T03:18:40.596638+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-bc2e5bc2e7233f",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340698/la-ilusion-por-el-retorno-tradiciones-mexicanas-del-dia-de-muertos.html",
+      "checkedAt": "2026-10-29T03:18:43.667664+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-2798d90eb5793c",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340689/sexteto-mistico-jornadas-inbal-sacm.html",
+      "checkedAt": "2026-10-29T03:18:46.799661+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-3e6353a2f0c6ae",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340627/2-festival-de-danza-y-musica-boliviana-quotgustavo-portilloquot.html",
+      "checkedAt": "2026-10-29T03:18:50.289962+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-94a7f199a5fb1c",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340623/habia-una-vez-la-biblioteca-de-mexico-guardianes-de-tinta-y-tiempo.html",
+      "checkedAt": "2026-10-29T03:18:54.703413+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-307ddf7ce04b05",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340622/ciclo-de-cine-historias-para-no-dormir-la-bruja.html",
+      "checkedAt": "2026-10-29T03:18:58.032251+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-ee05a8c142e9ff",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340620/tzompantli.html",
+      "checkedAt": "2026-10-29T03:19:01.769567+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-77d65009cf1f47",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340619/ciclo-de-cine-historias-para-no-dormir-hellraiser.html",
+      "checkedAt": "2026-10-29T03:19:13.513639+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-b340ed7e79e080",
+      "name": "osn.inba.gob.mx",
+      "url": "https://osn.inba.gob.mx/temporada/actual",
+      "checkedAt": "2026-10-29T03:19:05.821010+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-8664e8b11f7046",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340618/inauguracion-de-exposiciones.html",
+      "checkedAt": "2026-10-29T03:19:17.234021+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-75949aef9fa78c",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340608/dia-de-muertos-encuentro-de-musica-memoria-y-movimiento.html",
+      "checkedAt": "2026-10-29T03:19:23.239343+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-b9329f32846288",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340606/ensamble-chapultepec-en-la-feria-de-las-calacas.html",
+      "checkedAt": "2026-10-29T03:19:26.682859+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-3a96c3956156ed",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340605/tradicional-feria-dia-de-muertos-no-estaban-muertos-andaban-de-parranda.html",
+      "checkedAt": "2026-10-29T03:19:30.784616+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-8ef60f18615d36",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/index.php?p=calendario",
+      "checkedAt": "2026-10-29T03:19:18.953188+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-416e49132e6f7f",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340551/jaina-la-isla-de-los-muertos.html",
+      "checkedAt": "2026-10-29T03:19:34.428384+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-5839de430c0329",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340514/sola.html",
+      "checkedAt": "2026-10-29T03:19:37.919089+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 6,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-19e78eeb94c2da",
+      "name": "forodemusicanueva.inba.gob.mx",
+      "url": "https://forodemusicanueva.inba.gob.mx/",
+      "checkedAt": "2026-10-29T03:19:36.125022+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-159d37975f13a6",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340495/sonidos-y-baile-del-inframundo-tropical.html",
+      "checkedAt": "2026-10-29T03:19:41.130289+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-d8e249702c2950",
+      "name": "mexicoescultura.com",
+      "url": "https://mexicoescultura.com/actividad/340477/eran-brujas.html",
+      "checkedAt": "2026-10-29T03:19:44.208619+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-24b7af9209a3e4",
+      "name": "cultura.unam.mx",
+      "url": "https://cultura.unam.mx/actividades/M%C3%BAsica",
+      "checkedAt": "2026-10-29T03:19:42.696140+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-3724a4c415dfa2",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/26259846",
+      "checkedAt": "2026-10-29T03:19:50.043246+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-a1b8fc99faad90",
+      "name": "www.museocasadelrisco.org.mx",
+      "url": "https://www.museocasadelrisco.org.mx/ubicacion",
+      "checkedAt": "2026-10-29T03:19:54.431551+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-281e3419cb808c",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/ficha.php?table=rnbp&table_id=75165",
+      "checkedAt": "2026-10-29T03:19:59.111436+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-c212631e47fcea",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/64352/",
+      "checkedAt": "2026-10-29T03:24:40.439928+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-a68b9d5ca584fc",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/64360/",
+      "checkedAt": "2026-10-29T03:24:46.061287+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-dc38e9365da121",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/64543/",
+      "checkedAt": "2026-10-29T03:24:49.650221+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-49fbf9aa666a71",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/ficha.php?estado_id=9&table=centro_cultural&table_id=550",
+      "checkedAt": "2026-10-29T03:24:50.433933+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-22d4d7c37a4756",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/63681/",
+      "checkedAt": "2026-10-29T03:24:52.768089+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-d1c02afbd40635",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/ficha.php?estado_id=9&table=museo&table_id=976",
+      "checkedAt": "2026-10-29T03:24:56.040427+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-b2de9b24cc1b43",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/ficha.php?disciplina=&table=museo&table_id=855",
+      "checkedAt": "2026-10-29T03:24:59.301704+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-550a3a7b91f162",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/64866/",
+      "checkedAt": "2026-10-29T03:24:57.211538+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-8d81a19835ca4f",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/ficha.php?table=teatro&table_id=396",
+      "checkedAt": "2026-10-29T03:25:02.764522+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-143e2d534bedd9",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/64842/",
+      "checkedAt": "2026-10-29T03:25:02.825619+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-9514cab92b30f6",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/lista.php?estado_id=9&municipio_id=-1&table=auditorio",
+      "checkedAt": "2026-10-29T03:25:05.945270+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-ec351a5c8d4f6c",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/64895/",
+      "checkedAt": "2026-10-29T03:25:08.208363+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-2c3bd56b78ad47",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/64987/",
+      "checkedAt": "2026-10-29T03:25:13.877921+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-673541c7b97a6a",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/65021/",
+      "checkedAt": "2026-10-29T03:25:16.805521+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-141b81e433caf3",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/65002/",
+      "checkedAt": "2026-10-29T03:25:19.927055+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-d73d83378f3c23",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/63858/",
+      "checkedAt": "2026-10-29T03:25:23.968434+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-1e4577face30e8",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/calendario/evento/64799/",
+      "checkedAt": "2026-10-29T03:25:27.424360+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-c4e1fa886a343d",
+      "name": "musica.unam.mx",
+      "url": "https://musica.unam.mx/prepara-tu-visita",
+      "checkedAt": "2026-10-29T03:25:30.962842+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-de838008a36cb6",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/ficha.php?table=auditorio&table_id=748",
+      "checkedAt": "2026-10-29T03:25:49.284356+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-9d3455a08d21d7",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/ficha.php?disciplina=&table=centro_cultural&table_id=3958",
+      "checkedAt": "2026-10-29T03:26:03.348731+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-a3a45b967c6490",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/ficha.php?table=teatro&table_id=476",
+      "checkedAt": "2026-10-29T03:26:07.997323+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-f2cc98d1eebb27",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/ficha.php?disciplina=&table=centro_cultural&table_id=1457",
+      "checkedAt": "2026-10-29T03:26:10.584163+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-a5e2e5d0a607b9",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/ficha.php?disciplina=&table=centro_cultural&table_id=1237",
+      "checkedAt": "2026-10-29T03:26:13.286239+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "mexico-city-source-431677e914028d",
+      "name": "sic.cultura.gob.mx",
+      "url": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=970",
+      "checkedAt": "2026-10-29T03:26:43.452308+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

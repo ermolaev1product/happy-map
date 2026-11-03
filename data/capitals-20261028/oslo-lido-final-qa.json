@@ -1,0 +1,77 @@
+{
+  "title": "Lido Pimienta",
+  "categories": [
+    "concert"
+  ],
+  "sourceUrl": "https://osloworld.no/festival/arrangement/lido-pimienta",
+  "sourceType": "official_festival_event_detail",
+  "evidenceStatus": "read_announcement",
+  "checkedAt": "2026-10-28T02:49:59Z",
+  "venue": "Parkteatret",
+  "address": "Olaf Ryes plass 11, 0552 Oslo",
+  "venueSourceUrl": "https://osloworld.no/spillested/parkteatret",
+  "city": "Oslo",
+  "timezone": "Europe/Oslo",
+  "startDate": null,
+  "endDate": null,
+  "openingHours": null,
+  "occurrences": [
+    {
+      "date": "2026-10-30",
+      "startTime": "19:30",
+      "doorsTime": "18:30",
+      "endTime": null
+    }
+  ],
+  "price": {
+    "min": 320,
+    "max": 380,
+    "listedAmounts": [
+      380,
+      320
+    ],
+    "feeAdditional": true,
+    "text": "NOK 380 ordinary; NOK 320 Student/Honnør/A-kort/Under 25; additional fee",
+    "categories": [
+      {
+        "amount": 380,
+        "label": "ordinary"
+      },
+      {
+        "amount": 320,
+        "label": "Student/Honnør/A-kort/Under 25"
+      }
+    ]
+  },
+  "currency": "NOK",
+  "restrictions": "Age 18+. Physical identification required (passport, ID card or driving licence).",
+  "accessibility": null,
+  "availability": null,
+  "cancelled": null,
+  "soldOut": null,
+  "latitude": null,
+  "longitude": null,
+  "sourceMapHref": null,
+  "dateEvidence": {
+    "dayMonthSource": "https://osloworld.no/festival/arrangement/lido-pimienta",
+    "programSource": "https://osloworld.no/festival/program",
+    "yearSource": "https://www.osloworld.no/om-oss",
+    "yearEvidence": "Official about page explicitly dates 2026 festival to 27 October–1 November. Joined with current programme and event day/month; not inferred from copyright.",
+    "explicitYearSource": "https://www.parkteatret.no/arrangement/lido-pimienta"
+  },
+  "ageMin": 18,
+  "additionalSourceUrls": [
+    "https://www.parkteatret.no/arrangement/lido-pimienta"
+  ],
+  "ownVenueEvidence": {
+    "sourceUrl": "https://www.parkteatret.no/arrangement/lido-pimienta",
+    "checkedAt": "2026-10-28T02:49:59Z",
+    "evidenceStatus": "read_full_event_detail",
+    "date": "2026-10-30",
+    "doorsTime": "18:30",
+    "startTime": "19:30",
+    "ageMin": 18,
+    "feeAdditional": true,
+    "note": "Historical cancelled appearance described in biography is not a cancellation of this2026 concert."
+  }
+}

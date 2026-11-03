@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-28T03:14:22Z",
+  "published": false,
+  "held": [
+    {
+      "title": "A Alma Imoral",
+      "url": "https://brasiliashopping.com.br/teatro/a-alma-imoral/",
+      "confirmedDates": [
+        "2026-11-20T20:00",
+        "2026-11-21T20:00",
+        "2026-11-22T19:00"
+      ],
+      "venueId": "shopping",
+      "reason": "Official detail date/time stable, age restriction conflicting16+ in service vs Livre structured. Full60/concession30BRL; fees unknown. Need ticket corroboration before release."
+    },
+    {
+      "title": "Fernando Duarte, bandolim & Camerata do ECCOF — UnB",
+      "url": "https://www.daquidebrasilia.com.br/cultura-lazer/fernando-duarte-bandolim-camerata-eccof-unb-alexandre-innecco-29-outubro",
+      "date": "2026-10-29T19:30",
+      "venue": "Espaço Cultural Alexandre Innecco, SHCN CLN116 BlocoA loja62",
+      "reason": "Full dated article gives100+10fee/full,50+5concession, late entry prohibited. Exact venue coordinates absent; official /programacao search surfacedOct/Nov but fullopenreturnedstaleAug/Sep, so cannot label fresh full official programme."
+    }
+  ],
+  "sourceChecks": [
+    {
+      "url": "https://www.alexandreinnecco.com/programacao/",
+      "status": "read staleAug/Sep content; searchsnippetOct/Nov differs; not fresh full official verification"
+    },
+    {
+      "url": "https://maps.app.goo.gl/7ChYFAfGxmNEVhCc6",
+      "status": "unavailable via web; PinkStreet coordinate stillunverified"
+    },
+    {
+      "url": "https://feverup.com/pt/brasilia/venue/teatro-la-salle",
+      "status": "read confirms address insideCollege906SulConjuntoE; no coordinates in reader"
+    }
+  ],
+  "note": "Frozen candidates.json unchanged. No city-centroid or neighboring theatre coordinates substituted."
+}

@@ -1,0 +1,58 @@
+{
+  "cityId": "toronto",
+  "checkedAt": "2026-11-02T10:00:09Z",
+  "publication": {
+    "at": "2026-11-02T10:13:13.374Z",
+    "publishedCommit": "3e072534b1ea7d7b93550b161a46700f69dd29a4",
+    "excludedNewElapsedIds": [],
+    "retainedHistoricalIds": []
+  },
+  "templateRoot": "/workspace/shared/hm-quality/source",
+  "templateSHA256": "0fea351c073907306cd8a76464f7bc9dd0f0c6e8a1bfb504d6bf73a6fb60181a",
+  "center": [
+    43.6536066,
+    -79.3925123
+  ],
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "events": 41,
+    "places": 3,
+    "sources": 21,
+    "mappedEvents": 41,
+    "liveEvents": 41,
+    "liveMappedEvents": 41,
+    "expiredEvents": 0,
+    "dates": [
+      "2026-06-06",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28",
+      "2026-11-29",
+      "2026-12-01"
+    ],
+    "venues": [
+      "toronto-ago",
+      "toronto-rom",
+      "toronto-harbourfront"
+    ]
+  }
+}

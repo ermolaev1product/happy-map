@@ -1,0 +1,97 @@
+{
+  "city": "Vilnius",
+  "timezone": "Europe/Vilnius",
+  "checkedAt": "2026-10-28T06:23:30Z",
+  "status": "preparation_not_published",
+  "counts": {
+    "records": 50,
+    "pinned": 48,
+    "programmes": 40,
+    "venues": 22,
+    "sessions": 47,
+    "ranges": 3,
+    "heldDispositions": 21
+  },
+  "sources": [
+    {
+      "url": "https://www.vilnius-events.lt/en/",
+      "type": "main_city_agenda",
+      "status": "partial_read",
+      "detail": "59eventURLs discovered;31 official mapmarkers extracted; full bodies read where webcache available; MoreEvents dynamicpagination not exhausted; rawdetailHTTP403 respected. Actual exact dates verified in full bodies, not index-only."
+    },
+    {
+      "url": "https://www.govilnius.lt/visit-vilnius/events",
+      "type": "official_router",
+      "status": "redirect_to_main"
+    },
+    {
+      "url": "https://muzikosmagija.lt/events",
+      "type": "official_venue",
+      "status": "partial_read",
+      "detail": "Full current schedule read; 7full primarydetail reads plus 4cachemiss; 30day horizon dates explicit."
+    },
+    {
+      "url": "https://vilniausmuziejus.lt/en/events/?category=events",
+      "type": "official_museum",
+      "status": "partial_read",
+      "detail": "Rasos fullrange+holidayhours,4dated English lectures; Atlas exact branch held."
+    },
+    {
+      "url": "https://cac.lt/en/",
+      "type": "official_museum",
+      "status": "partial_read",
+      "detail": "2fullcurrentexhibitionbodies+FAQ+ticketcatalog;holidayexceptioncorrected; tour catalogue not exhausted."
+    },
+    {
+      "url": "https://t.me/s/afishavilnius",
+      "type": "telegram_announcements",
+      "status": "partial_read",
+      "detail": "Publicpostcontent23–27Oct2026 and one upcoming range;0 imported because exact dates/hours/year conflict. Singlepostcachemiss. No claim latesttodayexhausted."
+    },
+    {
+      "url": "https://t.me/lithuania_granitsa",
+      "type": "telegram_city_chat",
+      "status": "profile_only",
+      "detail": "Publicdescriptionread; actualchatmessagesnotread. Explicit self-promotion banned; do not post. No join/contact."
+    }
+  ],
+  "limits": [
+    "No full source pagination/30day exhaustiveness claim",
+    "Main calendar generic eventlanguage field conflicts with explicit English body; leave unknown unless body confirms",
+    "No Instagram login, no registration/outreach",
+    "Some coordinatepoints building-level, not precise door; stated explicitly",
+    "All records candidates, no website launch proof",
+    "No complete Google/Yandex pages reviewed, websearch only",
+    "Exact years from fullpages, not copyrightfooter"
+  ],
+  "sevenDays": {
+    "2026-10-28": {
+      "sessions": 7,
+      "rangesWithConfirmedHours": 3
+    },
+    "2026-10-29": {
+      "sessions": 5,
+      "rangesWithConfirmedHours": 3
+    },
+    "2026-10-30": {
+      "sessions": 9,
+      "rangesWithConfirmedHours": 3
+    },
+    "2026-10-31": {
+      "sessions": 6,
+      "rangesWithConfirmedHours": 3
+    },
+    "2026-11-01": {
+      "sessions": 1,
+      "rangesWithConfirmedHours": 0
+    },
+    "2026-11-02": {
+      "sessions": 2,
+      "rangesWithConfirmedHours": 0
+    },
+    "2026-11-03": {
+      "sessions": 3,
+      "rangesWithConfirmedHours": 3
+    }
+  }
+}

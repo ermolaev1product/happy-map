@@ -1,0 +1,617 @@
+{
+  "city": "Montevideo",
+  "checkedAt": "2026-10-29T03:53:22.340471+00:00",
+  "sources": [
+    {
+      "id": "montevideo-source-c0699890798505",
+      "name": "tocan.uy",
+      "url": "https://tocan.uy/evento/rasmus-2026-11-02/",
+      "checkedAt": "2026-10-29T03:48:37.485867+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-92e916613603ec",
+      "name": "tripomatic.com",
+      "url": "https://tripomatic.com/en/poi/pittamiglio-castle-poi%3A29893",
+      "checkedAt": "2026-10-29T03:49:47.796308+00:00",
+      "status": "HTTP Error 404: Not Found",
+      "accessStatus": "HTTP Error 404: Not Found",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-e48373ff9cabf9",
+      "name": "www.artes.udelar.edu.uy",
+      "url": "https://www.artes.udelar.edu.uy/actividad/05-11-exposicion-colectiva-no-miramos-mas-las-estrellas/",
+      "checkedAt": "2026-10-29T03:39:40.692775+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-5b3a462548d21b",
+      "name": "tocan.uy",
+      "url": "https://tocan.uy/evento/juana-y-los-heladeros-del-tango-2026-10-29/",
+      "checkedAt": "2026-10-29T03:49:10.837264+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-e74c8d8f311018",
+      "name": "www.salacamacua.uy",
+      "url": "https://www.salacamacua.uy/eventos/light-shadowplay/",
+      "checkedAt": "2026-10-29T03:49:04.533930+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-4c00e9e002c49b",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/El-Teatro-uc2946",
+      "checkedAt": "2026-10-29T03:47:24.642859+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 12,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-2516f9e06e5fda",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/categoria/Temporada-2026-3",
+      "checkedAt": "2026-10-29T03:44:20.783601+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-d70d0131ffe280",
+      "name": "www.artes.udelar.edu.uy",
+      "url": "https://www.artes.udelar.edu.uy/actividad/todo-con-cuerda-conciertos-de-la-catedra-de-guitarra-junto-al-colectivo-vilardevoz/",
+      "checkedAt": "2026-10-29T03:39:16.731340+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-9d131bc944a50c",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Recital-de-voz-y-piano-uc2968",
+      "checkedAt": "2026-10-29T03:48:09.057608+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-696aa7414d73ca",
+      "name": "www.salacamacua.uy",
+      "url": "https://www.salacamacua.uy/eventos/",
+      "checkedAt": "2026-10-29T03:44:37.105969+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-f7832fea6d3f40",
+      "name": "universopittamiglio.com",
+      "url": "https://universopittamiglio.com/agenda.php?s=magos-brujas-y-hechiceros-halloween",
+      "checkedAt": "2026-10-29T03:49:16.998526+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-81c8a78c41dc2b",
+      "name": "www.salacamacua.uy",
+      "url": "https://www.salacamacua.uy/contacto/",
+      "checkedAt": "2026-10-29T03:49:32.867870+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-7fa00cba3bc833",
+      "name": "universopittamiglio.com",
+      "url": "https://universopittamiglio.com/agenda.php?s=halloween-el-castillo-del-horror",
+      "checkedAt": "2026-10-29T03:49:13.630370+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-bd4c2756f8a80f",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/EL-de-las-tinieblas-a-la-luz-uc2938",
+      "checkedAt": "2026-10-29T03:48:16.928236+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-be72329add1884",
+      "name": "redtickets.uy",
+      "url": "https://redtickets.uy/evento/Sociedad-de-Tango-Juana-y-los-Heladeros-del-Tango/33258/",
+      "checkedAt": "2026-10-29T03:49:16.264541+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-6e84718091d94d",
+      "name": "universopittamiglio.com",
+      "url": "https://universopittamiglio.com/mvd.php",
+      "checkedAt": "2026-10-29T03:48:04.831457+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-02f2d52cc48698",
+      "name": "universopittamiglio.com",
+      "url": "https://universopittamiglio.com/agenda.php",
+      "checkedAt": "2026-10-29T03:44:58.029837+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-684bc7e3fdc545",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Rasgar-la-tierra-uc3073",
+      "checkedAt": "2026-10-29T03:47:38.930303+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 6,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-d055a215874585",
+      "name": "www.artes.udelar.edu.uy",
+      "url": "https://www.artes.udelar.edu.uy/actividad/10-11-ronda-de-conversacion-sobre-escribir-y-publicar-danzas-a-partir-de-la-experiencia-editorial-del-grupo-de-investigacion-danzas-de-aca/",
+      "checkedAt": "2026-10-29T03:39:46.200244+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-37d8f6f5e06925",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/categoria/Contacto-112",
+      "checkedAt": "2026-10-29T03:48:09.131325+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-60caebb2f497ae",
+      "name": "www.salacamacua.uy",
+      "url": "https://www.salacamacua.uy/eventos/3237/",
+      "checkedAt": "2026-10-29T03:48:35.715918+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-59195ad229ace9",
+      "name": "artexperienceuruguay.com",
+      "url": "https://artexperienceuruguay.com/agenda/",
+      "checkedAt": "2026-10-29T03:44:47.592003+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-ed40725ef624b2",
+      "name": "www.salacamacua.uy",
+      "url": "https://www.salacamacua.uy/eventos/presentacion-intro-full-album/",
+      "checkedAt": "2026-10-29T03:48:53.759748+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-5d6b299f65ca68",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/-No-tan-Solos-al-mediodia-uc2976",
+      "checkedAt": "2026-10-29T03:47:33.340656+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 9,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-4ec6d6978d56cb",
+      "name": "goo.gl",
+      "url": "https://goo.gl/maps/GexB2GchwJucdaGd8",
+      "checkedAt": "2026-10-29T03:50:25.019218+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-aa88fd2d8e3008",
+      "name": "universopittamiglio.com",
+      "url": "https://universopittamiglio.com/agenda.php?s=cartelera-teatral-octubre-2026",
+      "checkedAt": "2026-10-29T03:49:26.675248+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-592b4fde4d2dde",
+      "name": "www.artes.udelar.edu.uy",
+      "url": "https://www.artes.udelar.edu.uy/actividad/29-10-taller-de-lutheria-electronica-con-annabelle-playe-conversatorio/",
+      "checkedAt": "2026-10-29T03:39:30.036408+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-0d593f06b81875",
+      "name": "redtickets.uy",
+      "url": "https://redtickets.uy/evento/THE-RASMUS-en-Uruguay/29429/",
+      "checkedAt": "2026-10-29T03:48:44.970661+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-fda63eca1eb8e7",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Agenda-de-actividades-Universo-Mercedes-Pinto-uc3078",
+      "checkedAt": "2026-10-29T03:47:53.656526+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-fc4e755a4fd757",
+      "name": "artexperienceuruguay.com",
+      "url": "https://artexperienceuruguay.com/evento/gustavo-tabares-verbo/",
+      "checkedAt": "2026-10-29T03:48:20.758004+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-7919b5156d0841",
+      "name": "www.salacamacua.uy",
+      "url": "https://www.salacamacua.uy/eventos/de-la-vieja-estirpe-en-vivo/",
+      "checkedAt": "2026-10-29T03:48:58.728813+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-5dea974bd38c26",
+      "name": "universopittamiglio.com",
+      "url": "https://universopittamiglio.com/agenda.php?s=hadas-piratas-y-fantasmas-modo-halloween",
+      "checkedAt": "2026-10-29T03:49:20.454969+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-a156cfd460ad56",
+      "name": "redtickets.uy",
+      "url": "https://redtickets.uy/evento/ANYA-WAINBERG-presenta-MI-LUZ--Concierto-a-beneficio-de-Fundacion-Canguro/33614/",
+      "checkedAt": "2026-10-29T03:49:05.140929+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-6eadb93f7d117a",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Monteverdi-Choir--English-Baroque-Soloists-uc2903",
+      "checkedAt": "2026-10-29T03:48:04.840303+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-c880fb3a94bd41",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/categoria/CALENDARIO-8?fecha=01%2F11%2F2026",
+      "checkedAt": "2026-10-29T03:44:29.127628+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-f47894ed916419",
+      "name": "tocan.uy",
+      "url": "https://tocan.uy/evento/anya-wainberg-2026-10-29/",
+      "checkedAt": "2026-10-29T03:49:00.664667+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-387e7c256a5a54",
+      "name": "tocan.uy",
+      "url": "https://tocan.uy/",
+      "checkedAt": "2026-10-29T03:37:48.433348+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-c4f8a0746ac0d9",
+      "name": "www.artes.udelar.edu.uy",
+      "url": "https://www.artes.udelar.edu.uy/actividad/del-17-08-al-30-10-musica-ahora-festival-internacional-de-musica-contemporanea/",
+      "checkedAt": "2026-10-29T03:39:22.272074+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-797b5bcfaba958",
+      "name": "eventos.montevideo.gub.uy",
+      "url": "https://eventos.montevideo.gub.uy/",
+      "checkedAt": "2026-10-29T03:37:29.705587+00:00",
+      "status": "HTTP Error 503: Service Unavailable",
+      "accessStatus": "HTTP Error 503: Service Unavailable",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-53147cf03a9508",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Washington-y-Cristina-50-aniversario-uc2961",
+      "checkedAt": "2026-10-29T03:48:12.439654+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-e707149067205a",
+      "name": "universopittamiglio.com",
+      "url": "https://universopittamiglio.com/agenda.php?s=el-umbral-del-terror",
+      "checkedAt": "2026-10-29T03:49:09.227862+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 4,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-cc9fadad29a741",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/5to-Foro-Mujeres-Lideres-OMEU-uc3079",
+      "checkedAt": "2026-10-29T03:48:28.684390+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-3f88dc8bd56e46",
+      "name": "www.salacamacua.uy",
+      "url": "https://www.salacamacua.uy/eventos/la-bajada-23-escarlatina-y-sinestesia/",
+      "checkedAt": "2026-10-29T03:48:41.307739+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-539356521f0eb3",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Canto-del-cisne-uc2897",
+      "checkedAt": "2026-10-29T03:48:01.513656+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-3367f83605a6f5",
+      "name": "www.salacamacua.uy",
+      "url": "https://www.salacamacua.uy/eventos/cartografia-sobre-la-identidad-mariana-zaffaroni/",
+      "checkedAt": "2026-10-29T03:48:47.924872+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-2a745294abb5a9",
+      "name": "tocan.uy",
+      "url": "https://tocan.uy/evento/limbo-2026-10-29/",
+      "checkedAt": "2026-10-29T03:49:21.229385+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-0cdbebe68e7bf3",
+      "name": "salazitarrosa.montevideo.gub.uy",
+      "url": "https://salazitarrosa.montevideo.gub.uy/sala/principal/",
+      "checkedAt": "2026-10-29T03:45:02.348597+00:00",
+      "status": "HTTP Error 503: Service Unavailable",
+      "accessStatus": "HTTP Error 503: Service Unavailable",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-f0e6dabdc407ad",
+      "name": "entradasfans.com",
+      "url": "https://entradasfans.com/Limbo-en-Sala-Corchea/",
+      "checkedAt": "2026-10-29T03:49:25.696110+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-882204f22edc31",
+      "name": "www.artes.udelar.edu.uy",
+      "url": "https://www.artes.udelar.edu.uy/calendario-actividades/",
+      "checkedAt": "2026-10-29T03:37:53.690843+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-74bb88850f0a65",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Tablao--Noviembre-uc2920",
+      "checkedAt": "2026-10-29T03:48:25.277266+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-9e17bc15a5edc4",
+      "name": "api.openstreetmap.org",
+      "url": "https://api.openstreetmap.org/api/0.6/node/11062523000",
+      "checkedAt": "2026-10-29T03:49:40.046084+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-416fdcf880c6b3",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Sombras-por-supuesto-uc2951",
+      "checkedAt": "2026-10-29T03:47:42.837571+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 4,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-61f99da3c2293e",
+      "name": "www.montevideo.gub.uy",
+      "url": "https://www.montevideo.gub.uy/agenda",
+      "checkedAt": "2026-10-29T03:37:39.044253+00:00",
+      "status": "HTTP Error 503: Service Unavailable",
+      "accessStatus": "HTTP Error 503: Service Unavailable",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-552638857c158f",
+      "name": "www.artes.udelar.edu.uy",
+      "url": "https://www.artes.udelar.edu.uy/actividad/29-10-charla-la-ternura-que-nos-sostiene-dialogos-entre-el-cuerpo-blando-la-institucion-y-lo-colectivo-a-cargo-de-olga-gutierrez-mx/",
+      "checkedAt": "2026-10-29T03:39:35.545657+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-1a2d6ccdb20445",
+      "name": "tocan.uy",
+      "url": "https://tocan.uy/evento/valeria-lynch-2026-11-02/",
+      "checkedAt": "2026-10-29T03:48:49.774425+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-fc66cbe90abc10",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Duo-de-violin-y-piano-uc3068",
+      "checkedAt": "2026-10-29T03:47:58.272899+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-d15882a6bfef74",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Los-planetas-uc2887",
+      "checkedAt": "2026-10-29T03:48:32.372962+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-9e8624583da64d",
+      "name": "www.teatrosolis.org.uy",
+      "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Ulysses-Quartet--Anne-Marie-McDermott-piano-uc3080",
+      "checkedAt": "2026-10-29T03:48:21.479457+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-4dc3f2eba99b04",
+      "name": "dh-ibsenstage.hf.uio.no",
+      "url": "https://dh-ibsenstage.hf.uio.no/pages/venue/11687",
+      "checkedAt": "2026-10-29T03:47:52.122273+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-ebe97050c04d97",
+      "name": "universopittamiglio.com",
+      "url": "https://universopittamiglio.com/agenda.php?s=noches-de-edgar-allan-poe",
+      "checkedAt": "2026-10-29T03:49:23.492959+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "montevideo-source-0773b52662e388",
+      "name": "tickantel.com.uy",
+      "url": "https://tickantel.com.uy/ng/espectaculo/40020653/valeria-lynch-en-el-sodre",
+      "checkedAt": "2026-10-29T03:48:55.080431+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "Actual source-specific retrieval; not complete source/import coverage."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

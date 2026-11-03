@@ -1,0 +1,82 @@
+{
+  "rows": [
+    {
+      "query": "Avenida Sáenz 459",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Avenida+S%C3%A1enz+459%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:17:14.803082+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 459,
+            "cod_calle": 20002,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.416264",
+              "y": "-34.644773"
+            },
+            "direccion": "SAENZ AV. 459, CABA",
+            "nombre_calle": "SAENZ AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Jorge Newbery 3816",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Jorge+Newbery+3816%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:17:24.072185+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 3816,
+            "cod_calle": 14019,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.449912",
+              "y": "-34.586254"
+            },
+            "direccion": "NEWBERY, JORGE AV. 3816, CABA",
+            "nombre_calle": "NEWBERY, JORGE AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    },
+    {
+      "query": "Av. Chorroarín 1040",
+      "url": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Av.+Chorroar%C3%ADn+1040%2C+CABA&geocodificar=TRUE&srid=4326&maxOptions=5",
+      "checkedAt": "2026-10-28T03:17:28.536935+00:00",
+      "response": {
+        "direccionesNormalizadas": [
+          {
+            "altura": 1040,
+            "cod_calle": 3237,
+            "cod_calle_cruce": null,
+            "cod_partido": "caba",
+            "coordenadas": {
+              "srid": 4326,
+              "x": "-58.469730",
+              "y": "-34.584511"
+            },
+            "direccion": "CHORROARIN AV. 1040, CABA",
+            "nombre_calle": "CHORROARIN AV.",
+            "nombre_calle_cruce": "",
+            "nombre_localidad": "CABA",
+            "nombre_partido": "CABA",
+            "tipo": "calle_altura"
+          }
+        ]
+      }
+    }
+  ]
+}

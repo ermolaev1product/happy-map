@@ -1,0 +1,3264 @@
+{
+  "city": "Amsterdam",
+  "countryCode": "NL",
+  "timezone": "Europe/Amsterdam",
+  "windowStart": "2026-10-28",
+  "windowEnd": "2026-11-26",
+  "checkedAt": "2026-10-28T09:10:57.318352+00:00",
+  "complete": false,
+  "researchStatus": "Fresh primary reviewed exhibition subset; requires city semantic merge and Site QA",
+  "programmes": [
+    {
+      "sourceId": "ams-exh-glass-made-in-antiquity",
+      "title": "Glass, made in antiquity",
+      "summaryEn": "Ancient glass objects reveal techniques explored through archaeological and scientific research.",
+      "normalizedCategory": "exhibition",
+      "venue": "Allard Pierson",
+      "address": "Oude Turfmarkt 127, 1012 GC Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.368786,
+        "longitude": 4.893018,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/glass-made-in-antiquity",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Primary venue identity/address cross-checked with named map point. Primary explicitly extended to Nov1’26. Allard child visit-price evidence pending; do not assume free. Adult15.50 verified by parallel primary reviewer; raw in child archive.",
+        "checkedAt": "2026-10-28T08:36:39.504192+00:00"
+      },
+      "sourceUrl": "https://www.allardpierson.nl/en/calendar/glass-made-in-antiquity",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/glass-made-in-antiquity",
+        "https://www.allardpierson.nl/en/calendar/glass-made-in-antiquity",
+        "https://www.allardpierson.nl/en/visit"
+      ],
+      "checkedAt": "2026-10-28T08:36:39.504192+00:00",
+      "price": {
+        "standard": 15.5,
+        "min": 15.5,
+        "max": 15.5,
+        "text": "Primary explicitly extended to Nov1’26. Allard child visit-price evidence pending; do not assume free. Adult15.50 verified by parallel primary reviewer; raw in child archive."
+      },
+      "currency": "EUR",
+      "restrictions": "Primary explicitly extended to Nov1’26. Allard child visit-price evidence pending; do not assume free. Adult15.50 verified by parallel primary reviewer; raw in child archive.",
+      "occurrences": [],
+      "startDate": "2025-05-16",
+      "endDate": "2026-11-01",
+      "visitSchedule": [
+        {
+          "date": "2026-10-28",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        }
+      ],
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.allardpierson.nl/en/calendar/glass-made-in-antiquity",
+        "type": "primary_full_body_date_range"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": false
+      }
+    },
+    {
+      "sourceId": "ams-exh-exhibition-the-essence",
+      "title": "Exhibition: the ESSENCE",
+      "summaryEn": "An exhibition about graffiti, from tags and names to its visual language.",
+      "normalizedCategory": "exhibition",
+      "venue": "STRAAT Museum – Street art en graffiti in Amsterdam",
+      "address": "NDSM-plein 1, 1033 WC Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.401967212250256,
+        "longitude": 4.8937976360321045,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/exhibition-the-essence",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Primary venue identity/address cross-checked with named map point. Standard adult21.50; youth13–18 11.50; student16.50validID; under13freewithadult,max5. Night firstFriday17–21 separatelypriced15, not silently standard day.",
+        "checkedAt": "2026-10-28T08:36:23.338108+00:00"
+      },
+      "sourceUrl": "https://www.straatmuseum.com/en/exhibitions/the-essence",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/exhibition-the-essence",
+        "https://www.straatmuseum.com/en/exhibitions/the-essence",
+        "https://www.straatmuseum.com/en/plan-your-visit"
+      ],
+      "checkedAt": "2026-10-28T08:36:23.338108+00:00",
+      "price": {
+        "standard": 21.5,
+        "min": 21.5,
+        "max": 21.5,
+        "text": "Standard adult21.50; youth13–18 11.50; student16.50validID; under13freewithadult,max5. Night firstFriday17–21 separatelypriced15, not silently standard day."
+      },
+      "currency": "EUR",
+      "restrictions": "Standard adult21.50; youth13–18 11.50; student16.50validID; under13freewithadult,max5. Night firstFriday17–21 separatelypriced15, not silently standard day.",
+      "occurrences": [],
+      "startDate": "2026-04-10",
+      "endDate": "2026-12-30",
+      "visitSchedule": [
+        {
+          "date": "2026-10-28",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "10:00",
+          "endTime": "21:00"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-02",
+          "startTime": "12:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-09",
+          "startTime": "12:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-11",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "10:00",
+          "endTime": "21:00"
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-16",
+          "startTime": "12:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-18",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "10:00",
+          "endTime": "21:00"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-23",
+          "startTime": "12:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-24",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-25",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "10:00",
+          "endTime": "21:00"
+        }
+      ],
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.straatmuseum.com/en/exhibitions/the-essence",
+        "type": "primary_full_body_date_range"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": false
+      }
+    },
+    {
+      "sourceId": "ams-exh-queer-amsterdam-the-pink-city",
+      "title": "Queer Amsterdam, the Pink City",
+      "summaryEn": "Objects and personal stories trace Amsterdam’s LGBTQIA+ history.",
+      "normalizedCategory": "exhibition",
+      "venue": "De Nieuwe Kerk Amsterdam",
+      "address": "Dam, 1012 JS Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.37371540483739,
+        "longitude": 4.891868310391456,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/queer-amsterdam-the-pink-city",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Primary venue identity/address cross-checked with named map point. Primary supersedes tourism Aug27start/25EUR: actualJul9start/20EUR; youth/student13.50. Nofutureclosure announced in body.",
+        "checkedAt": "2026-10-28T08:36:23.337632+00:00"
+      },
+      "sourceUrl": "https://www.nieuwekerk.nl/en/exhibitions/queer-amsterdam-the-pink-city/",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/queer-amsterdam-the-pink-city",
+        "https://www.nieuwekerk.nl/en/exhibitions/queer-amsterdam-the-pink-city/"
+      ],
+      "checkedAt": "2026-10-28T08:36:23.337632+00:00",
+      "price": {
+        "standard": 20,
+        "min": 20,
+        "max": 20,
+        "text": "Primary supersedes tourism Aug27start/25EUR: actualJul9start/20EUR; youth/student13.50. Nofutureclosure announced in body."
+      },
+      "currency": "EUR",
+      "restrictions": "Primary supersedes tourism Aug27start/25EUR: actualJul9start/20EUR; youth/student13.50. Nofutureclosure announced in body.",
+      "occurrences": [],
+      "startDate": "2026-07-09",
+      "endDate": "2027-04-04",
+      "visitSchedule": [
+        {
+          "date": "2026-10-28",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-02",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-09",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-11",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-18",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-23",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-24",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-25",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        }
+      ],
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.nieuwekerk.nl/en/exhibitions/queer-amsterdam-the-pink-city/",
+        "type": "primary_full_body_date_range"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": false
+      }
+    },
+    {
+      "sourceId": "ams-exh-the-land-of-sprinkles-het-land-van-hagelslag",
+      "title": "The Land of Sprinkles. (Het Land van Hagelslag)",
+      "summaryEn": "CATPC presents chocolate sculptures and embroidered portraits exploring plantation economies.",
+      "normalizedCategory": "exhibition",
+      "venue": "H'ART Museum",
+      "address": "Amstel 51, 1018 EJ Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.365341220827,
+        "longitude": 4.902248792045585,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/the-land-of-sprinkles-het-land-van-hagelslag",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Primary venue identity/address cross-checked with named map point. Adultincluding exhibition surcharge29.50; student18.50; under18free.",
+        "checkedAt": "2026-10-28T08:36:35.381861+00:00"
+      },
+      "sourceUrl": "https://www.hartmuseum.nl/en/exhibitions/het-land-van-hagelslag/",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/the-land-of-sprinkles-het-land-van-hagelslag",
+        "https://www.hartmuseum.nl/en/exhibitions/het-land-van-hagelslag/"
+      ],
+      "checkedAt": "2026-10-28T08:36:35.381861+00:00",
+      "price": {
+        "standard": 29.5,
+        "min": 29.5,
+        "max": 29.5,
+        "text": "Adultincluding exhibition surcharge29.50; student18.50; under18free."
+      },
+      "currency": "EUR",
+      "restrictions": "Adultincluding exhibition surcharge29.50; student18.50; under18free.",
+      "occurrences": [],
+      "startDate": "2026-05-22",
+      "endDate": "2026-11-08",
+      "visitSchedule": [
+        {
+          "date": "2026-10-28",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-02",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        }
+      ],
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.hartmuseum.nl/en/exhibitions/het-land-van-hagelslag/",
+        "type": "primary_full_body_date_range"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": false
+      }
+    },
+    {
+      "sourceId": "ams-exh-exhibition-worn-in-the-rijksmuseum",
+      "title": "Exhibition Worn in the Rijksmuseum",
+      "summaryEn": "Worn, repaired and reused garments show how clothing acquires a history.",
+      "normalizedCategory": "exhibition",
+      "venue": "Rijksmuseum",
+      "address": "Museumstraat 1, 1071 XX Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.360007,
+        "longitude": 4.885185,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/exhibition-worn-in-the-rijksmuseum",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Primary venue identity/address cross-checked with named map point. Range startMay1 is full tourism dated index; own primary says nowonview untilMar21’27, not separate dailyshows. Under19free.",
+        "checkedAt": "2026-10-28T08:36:32.285966+00:00"
+      },
+      "sourceUrl": "https://www.rijksmuseum.nl/en/stories/exhibitions/worn",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/exhibition-worn-in-the-rijksmuseum",
+        "https://www.rijksmuseum.nl/en/stories/exhibitions/worn"
+      ],
+      "checkedAt": "2026-10-28T08:36:32.285966+00:00",
+      "price": {
+        "standard": 25,
+        "min": 25,
+        "max": 25,
+        "text": "Range startMay1 is full tourism dated index; own primary says nowonview untilMar21’27, not separate dailyshows. Under19free."
+      },
+      "currency": "EUR",
+      "restrictions": "Range startMay1 is full tourism dated index; own primary says nowonview untilMar21’27, not separate dailyshows. Under19free.",
+      "occurrences": [],
+      "startDate": "2026-05-01",
+      "endDate": "2027-03-21",
+      "visitSchedule": [
+        {
+          "date": "2026-10-28",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-02",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-09",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-11",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-16",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-17",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-18",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-23",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-24",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-25",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        }
+      ],
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.rijksmuseum.nl/en/stories/exhibitions/worn",
+        "type": "primary_end2027 plus full tourism index2026start"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": false
+      }
+    },
+    {
+      "sourceId": "ams-exh-vrij-denken-hoe-de-ideeen-van-luther-en-erasmus-de-wereld-veranderden",
+      "title": "Vrij Denken. Hoe de ideeën van Luther en Erasmus de wereld verander(d)en'",
+      "summaryEn": "An exhibition explores Luther, Erasmus and the challenge of disagreeing constructively.",
+      "normalizedCategory": "exhibition",
+      "venue": "Luther Museum Amsterdam: Ontdek de Geschiedenis",
+      "address": "Nieuwe Keizersgracht 570, 1018 VG Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.365298,
+        "longitude": 4.909581,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/vrij-denken-hoe-de-ideeen-van-luther-en-erasmus-de-wereld-veranderden",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Primary venue identity/address cross-checked with named map point. Primary conflict: visitorinformation prose Wednesday11–17 but samefooter and eventpage Wednesdayclosed. Wednesdayhours held (including openingOct28), not declared closed; ThuSun confirmed. Student8,under18free.",
+        "checkedAt": "2026-10-28T08:37:21.602088+00:00"
+      },
+      "sourceUrl": "https://luthermuseum.nl/en/agenda/vrij-denken",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/vrij-denken-hoe-de-ideeen-van-luther-en-erasmus-de-wereld-veranderden",
+        "https://luthermuseum.nl/en/agenda/vrij-denken",
+        "https://luthermuseum.nl/en/visitor-information"
+      ],
+      "checkedAt": "2026-10-28T08:37:21.602088+00:00",
+      "price": {
+        "standard": 11,
+        "min": 11,
+        "max": 11,
+        "text": "Primary conflict: visitorinformation prose Wednesday11–17 but samefooter and eventpage Wednesdayclosed. Wednesdayhours held (including openingOct28), not declared closed; ThuSun confirmed. Student8,under18free."
+      },
+      "currency": "EUR",
+      "restrictions": "Primary conflict: visitorinformation prose Wednesday11–17 but samefooter and eventpage Wednesdayclosed. Wednesdayhours held (including openingOct28), not declared closed; ThuSun confirmed. Student8,under18free.",
+      "occurrences": [],
+      "startDate": "2026-10-28",
+      "endDate": "2027-03-21",
+      "visitSchedule": [
+        {
+          "date": "2026-10-29",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        }
+      ],
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://luthermuseum.nl/en/agenda/vrij-denken",
+        "type": "primary_full_body_date_range"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": false
+      },
+      "unconfirmedVisitDates": [
+        "2026-10-28",
+        "2026-11-04",
+        "2026-11-11",
+        "2026-11-18",
+        "2026-11-25"
+      ]
+    },
+    {
+      "sourceId": "ams-exh-the-art-of-swimming",
+      "title": "The art of swimming",
+      "summaryEn": "Artists from PhArt respond to the work of Franz Kafka.",
+      "normalizedCategory": "exhibition",
+      "venue": "NDSM Fuse",
+      "address": "NDSM-PLEIN 29, 1033 WC Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.40113600000001,
+        "longitude": 4.895482599999999,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/the-art-of-swimming",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Primary venue identity/address cross-checked with named map point. Free/paywhatyoucanafford. MuseumclosedOct12–Nov5, firsteligibleNov6; do notshowopenOct28.",
+        "checkedAt": "2026-10-28T08:37:01.217431+00:00"
+      },
+      "sourceUrl": "https://www.ndsm-fuse.eu/en/",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/the-art-of-swimming",
+        "https://www.ndsm-fuse.eu/en/"
+      ],
+      "checkedAt": "2026-10-28T08:37:01.217431+00:00",
+      "price": {
+        "standard": 0,
+        "min": 0,
+        "max": 0,
+        "text": "Free/paywhatyoucanafford. MuseumclosedOct12–Nov5, firsteligibleNov6; do notshowopenOct28."
+      },
+      "currency": "EUR",
+      "restrictions": "Free/paywhatyoucanafford. MuseumclosedOct12–Nov5, firsteligibleNov6; do notshowopenOct28.",
+      "occurrences": [],
+      "startDate": "2026-09-05",
+      "endDate": "2027-01-10",
+      "visitSchedule": [
+        {
+          "date": "2026-11-06",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        }
+      ],
+      "isFree": true,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.ndsm-fuse.eu/en/",
+        "type": "primary_full_body_date_range"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": false
+      }
+    },
+    {
+      "sourceId": "ams-exh-nasal-demons",
+      "title": "Nasal Demons",
+      "summaryEn": "Artists examine how technology changes expectations of human identity and purpose.",
+      "normalizedCategory": "exhibition",
+      "venue": "Treehouse NDSM",
+      "address": "Tt. Neveritaweg 55-57, 1033 WB Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.39953449999999,
+        "longitude": 4.8934247,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nasal-demons",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Primary venue identity/address cross-checked with named map point. OpeningNov5separate18–22; no regularvisitNov9–18, evenNov14workshopdistinct. Feeunknownnotfree.",
+        "checkedAt": "2026-10-28T08:37:01.181925+00:00"
+      },
+      "sourceUrl": "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nasal-demons",
+        "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19"
+      ],
+      "checkedAt": "2026-10-28T08:37:01.181925+00:00",
+      "price": {
+        "standard": null,
+        "min": null,
+        "max": null,
+        "text": null
+      },
+      "currency": null,
+      "restrictions": "Exhibition open only published split date ranges.; OpeningNov5separate18–22; no regularvisitNov9–18, evenNov14workshopdistinct. Feeunknownnotfree.",
+      "occurrences": [],
+      "startDate": "2026-11-05",
+      "endDate": "2026-12-06",
+      "visitSchedule": [
+        {
+          "date": "2026-11-06",
+          "startTime": "13:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "13:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "13:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "13:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "13:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "13:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "13:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "13:00",
+          "endTime": "18:00"
+        }
+      ],
+      "isFree": null,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19",
+        "type": "primary_full_body_date_range"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": false
+      }
+    },
+    {
+      "sourceId": "ams-exh-pan-amsterdam",
+      "title": "PAN Amsterdam",
+      "summaryEn": "An art, antiques and design fair at RAI Amsterdam.",
+      "normalizedCategory": "exhibition",
+      "venue": "RAI Amsterdam, Hall 8",
+      "address": "Europaplein 8, 1078 GZ Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.342308,
+        "longitude": 4.890117,
+        "sourceUrl": "https://www.pan.nl/en/visit",
+        "precision": "organizer embedded GoogleMaps destination at RAI; not exact Hall8 entrance",
+        "evidence": "Primary venue identity/address cross-checked with named map point. Online28.50+mandatory1.50=30;door32.50. Oct31privateopening excluded;Nov5ArtEvening18–22invitationonlyexcluded;cashnotaccepted.",
+        "checkedAt": "2026-10-28T08:37:52.933859+00:00"
+      },
+      "sourceUrl": "https://www.pan.nl/en/visit",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/pan-amsterdam",
+        "https://www.pan.nl/en/visit"
+      ],
+      "checkedAt": "2026-10-28T08:37:52.933859+00:00",
+      "price": {
+        "standard": 30,
+        "min": 30,
+        "max": 30,
+        "text": "Online28.50+mandatory1.50=30;door32.50. Oct31privateopening excluded;Nov5ArtEvening18–22invitationonlyexcluded;cashnotaccepted."
+      },
+      "currency": "EUR",
+      "restrictions": "Online28.50+mandatory1.50=30;door32.50. Oct31privateopening excluded;Nov5ArtEvening18–22invitationonlyexcluded;cashnotaccepted.",
+      "occurrences": [],
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-08",
+      "visitSchedule": [
+        {
+          "date": "2026-11-01",
+          "startTime": "11:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-02",
+          "startTime": "11:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "11:00",
+          "endTime": "20:00"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "11:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "11:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "11:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "11:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "11:00",
+          "endTime": "18:00"
+        }
+      ],
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.pan.nl/en/visit",
+        "type": "primary_full_body_date_range"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": false
+      }
+    },
+    {
+      "sourceId": "ams-exh-opening-life-after-love",
+      "title": "Life After Love – In Search of the Militant Image",
+      "summaryEn": "Artists explore images of political struggle and collective organising.",
+      "normalizedCategory": "exhibition",
+      "venue": "Framer Framed",
+      "address": "Oranje-Vrijstaatkade 71, 1093 KS Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.35692,
+        "longitude": 4.9322,
+        "sourceUrl": "https://mapcarta.com/N599313070",
+        "precision": "named OSM arts-centre node599313070, exactprimaryaddress match",
+        "evidence": "Primary venue identity/address cross-checked with named map point. Free/paywhatyoucan. Firstdayopening18–20separate; noassumptionregular12–18beforeopening. Tourismoldnorthpinrejected.",
+        "checkedAt": "2026-10-28T08:37:52.935177+00:00"
+      },
+      "sourceUrl": "https://framerframed.nl/en/exposities/life-after-love/",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/opening-life-after-love",
+        "https://framerframed.nl/en/exposities/life-after-love/"
+      ],
+      "checkedAt": "2026-10-28T08:37:52.935177+00:00",
+      "price": {
+        "standard": 0,
+        "min": 0,
+        "max": 0,
+        "text": "Free/paywhatyoucan. Firstdayopening18–20separate; noassumptionregular12–18beforeopening. Tourismoldnorthpinrejected."
+      },
+      "currency": "EUR",
+      "restrictions": "Free/paywhatyoucan. Firstdayopening18–20separate; noassumptionregular12–18beforeopening. Tourismoldnorthpinrejected.",
+      "occurrences": [],
+      "startDate": "2026-10-30",
+      "endDate": "2027-01-17",
+      "visitSchedule": [
+        {
+          "date": "2026-10-31",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-11",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-17",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-18",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-24",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-25",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        }
+      ],
+      "isFree": true,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://framerframed.nl/en/exposities/life-after-love/",
+        "type": "primary_full_body_date_range"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": false
+      }
+    },
+    {
+      "sourceId": "ams-exh-einder-by-boris-acket",
+      "title": "EINDER — final exhibition weekend",
+      "summaryEn": "The final public exhibition weekend of Boris Acket’s large-scale audiovisual installation.",
+      "normalizedCategory": "exhibition",
+      "venue": "Centrale Markthal",
+      "address": "Centrale Markthallen 170, 1051 LJ Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.37877,
+        "longitude": 4.86579,
+        "sourceUrl": "https://mapcarta.com/W276272968",
+        "precision": "named building footprint centre, not entrance",
+        "evidence": "Primary venue identity/address cross-checked with named map point. This is remaining explicit exhibitionwindow, not claimactualinitialopening. Mandatoryservicefeeamountunknown;13excludesfee. ConcertOct29separate. AccessviaJanvanGalenstraat6and300mwalk;buildingaddressCentraleMarkthallen170. Named final exhibition weekend per primary visit prose, not original installation start. Book arrival slot;30minslot not visit duration.",
+        "checkedAt": "2026-10-28T08:37:52.934638+00:00"
+      },
+      "sourceUrl": "https://einder.world/plan-your-visit",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/einder-by-boris-acket",
+        "https://einder.world/plan-your-visit",
+        "https://einder.world/exhibition-2026"
+      ],
+      "checkedAt": "2026-10-28T08:37:52.934638+00:00",
+      "price": {
+        "standard": 13,
+        "min": 13,
+        "max": 13,
+        "text": "This is remaining explicit exhibitionwindow, not claimactualinitialopening. Mandatoryservicefeeamountunknown;13excludesfee. ConcertOct29separate. AccessviaJanvanGalenstraat6and300mwalk;buildingaddressCentraleMarkthallen170. Named final exhibition weekend per primary visit prose, not original installation start. Book arrival slot;30minslot not visit duration."
+      },
+      "currency": "EUR",
+      "restrictions": "Flashinglights/intensesound;6+recommended;under12free;validticketrequired.; This is remaining explicit exhibitionwindow, not claimactualinitialopening. Mandatoryservicefeeamountunknown;13excludesfee. ConcertOct29separate. AccessviaJanvanGalenstraat6and300mwalk;buildingaddressCentraleMarkthallen170. Named final exhibition weekend per primary visit prose, not original installation start. Book arrival slot;30minslot not visit duration.",
+      "occurrences": [],
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-01",
+      "visitSchedule": [
+        {
+          "date": "2026-10-30",
+          "startTime": "12:00",
+          "endTime": "22:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "10:00",
+          "endTime": "22:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "10:00",
+          "endTime": "22:00"
+        }
+      ],
+      "isFree": false,
+      "fees": "service fee applies; amount not published in primary",
+      "dateEvidence": {
+        "sourceURL": "https://einder.world/plan-your-visit",
+        "type": "primary_full_body_date_range"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": true
+      }
+    },
+    {
+      "sourceId": "ams-exh-halloween-weekend-at-the-museum-of-illusions-amsterdam",
+      "title": "Halloween Weekend at the Museum of Illusions Amsterdam",
+      "summaryEn": "A family Halloween scavenger hunt is included with museum admission.",
+      "normalizedCategory": "exhibition",
+      "venue": "Museum  of Illusions Amsterdam",
+      "address": "Keizersgracht 676, 1017 ET Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.3634212,
+        "longitude": 4.8938107,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/halloween-weekend-at-the-museum-of-illusions-amsterdam",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Primary venue identity/address cross-checked with named map point. FamilyHalloweenhunt includedregularmuseumticket;feeunknown,no separateticket. Museumjaarkaartnotvalid.",
+        "checkedAt": "2026-10-28T08:36:48.119058+00:00"
+      },
+      "sourceUrl": "https://museumofillusions.nl/en/current-event/halloween-weekend-at-museum-of-illusions-amsterdam/",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/halloween-weekend-at-the-museum-of-illusions-amsterdam",
+        "https://museumofillusions.nl/en/current-event/halloween-weekend-at-museum-of-illusions-amsterdam/"
+      ],
+      "checkedAt": "2026-10-28T08:36:48.119058+00:00",
+      "price": {
+        "standard": null,
+        "min": null,
+        "max": null,
+        "text": null
+      },
+      "currency": null,
+      "restrictions": "FamilyHalloweenhunt includedregularmuseumticket;feeunknown,no separateticket. Museumjaarkaartnotvalid.",
+      "occurrences": [],
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-01",
+      "visitSchedule": [
+        {
+          "date": "2026-10-30",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        }
+      ],
+      "isFree": null,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://museumofillusions.nl/en/current-event/halloween-weekend-at-museum-of-illusions-amsterdam/",
+        "type": "primary_full_body_date_range"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "rangeAudit": {
+        "startIsRemainingConfirmedSegment": false
+      }
+    },
+    {
+      "sourceId": "ams-exh-nadav-kander-the-edge-of-things",
+      "title": "Nadav Kander - The Edge Of Things",
+      "summaryEn": "Landscapes, portraits and studies of the human body by Nadav Kander.",
+      "normalizedCategory": "exhibition",
+      "venue": "Foam Photography Museum Amsterdam",
+      "address": "Keizersgracht 609, 1017 DS Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.363957,
+        "longitude": 4.893294,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nadav-kander-the-edge-of-things",
+        "precision": "named venue/campus; not verified entrance",
+        "evidence": "official_tourism_Event_location_coordinates",
+        "checkedAt": "2026-10-28T08:44:59.097951+00:00"
+      },
+      "sourceUrl": "https://www.foam.org/nl/events/nadav-kander",
+      "additionalEvidenceUrls": [
+        "https://www.foam.org/nl/events/nadav-kander",
+        "https://www.foam.org/visit",
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nadav-kander-the-edge-of-things"
+      ],
+      "checkedAt": "2026-10-28T08:44:59.097951+00:00",
+      "price": {
+        "standard": 16,
+        "min": 16,
+        "max": 16,
+        "text": "Adult €16; student €12.80; school pupil/CJP €11.75; children up to 12 and qualifying pass holders free. Museum ticket, not a separate session fee."
+      },
+      "currency": "EUR",
+      "restrictions": "Card-only payments. The historic building is not fully wheelchair accessible. Check visiting hours, especially 28 October.",
+      "occurrences": [],
+      "startDate": "2026-09-18",
+      "endDate": "2027-01-31",
+      "visitSchedule": null,
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceUrl": "https://www.foam.org/nl/events/nadav-kander",
+        "primaryEvidence": [
+          {
+            "url": "https://www.foam.org/nl/events/nadav-kander",
+            "finalUrl": "https://www.foam.org/nl/events/nadav-kander",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:34:25.024686+00:00",
+            "localFile": "raw/nadav-kander-the-edge-of-things.json",
+            "rawSha256": "5cd76b2a1ba31372e0ac36a22299ee5d6842eba4e7bdf5228f3954a5223ba0fd"
+          },
+          {
+            "url": "https://www.foam.org/visit",
+            "finalUrl": "https://www.foam.org/visit",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:37:49.820874+00:00",
+            "localFile": "raw/foam-visit-en.json",
+            "rawSha256": "d8c94bc4fc5ad8eb7e3bbea71b4a894921db7d9f7c22af766477f2387c6dae49"
+          }
+        ],
+        "notes": [
+          "Full primary exhibition range overrides tourism: calendar start 6 October is not the true opening date.",
+          "Fresh full EN and NL visit pages render placeholders instead of hours/closure notice. Search-index text mentions early closure 16:00 on Wednesday 28 October and Thu/Fri 21:00, but it was not reproduced in full fresh content. It remains a lead, not verified current hours.",
+          "openingHours deliberately null. No open-now claim or manufactured daily performances."
+        ],
+        "rangeStartEvidence": null
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "unconfirmedHours": true,
+      "openingHoursEvidence": null,
+      "openingExceptions": []
+    },
+    {
+      "sourceId": "ams-exh-hailun-ma-hometown",
+      "title": "Hailun Ma - Hometown",
+      "summaryEn": "Hailun Ma’s photographs of family, youth, fashion and everyday life in Xinjiang.",
+      "normalizedCategory": "exhibition",
+      "venue": "Foam Photography Museum Amsterdam",
+      "address": "Keizersgracht 609, 1017 DS Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.363957,
+        "longitude": 4.893294,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/hailun-ma-hometown",
+        "precision": "named venue/campus; not verified entrance",
+        "evidence": "official_tourism_Event_location_coordinates",
+        "checkedAt": "2026-10-28T08:44:59.097951+00:00"
+      },
+      "sourceUrl": "https://www.foam.org/nl/events/hailun-ma",
+      "additionalEvidenceUrls": [
+        "https://www.foam.org/nl/events/hailun-ma",
+        "https://www.foam.org/visit",
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/hailun-ma-hometown"
+      ],
+      "checkedAt": "2026-10-28T08:44:59.097951+00:00",
+      "price": {
+        "standard": 16,
+        "min": 16,
+        "max": 16,
+        "text": "Adult €16; student €12.80; school pupil/CJP €11.75; children up to 12 and qualifying pass holders free. Museum ticket, not a separate session fee."
+      },
+      "currency": "EUR",
+      "restrictions": "Card-only payments. The historic building is not fully wheelchair accessible. Check visiting hours, especially 28 October.",
+      "occurrences": [],
+      "startDate": "2026-09-18",
+      "endDate": "2027-01-20",
+      "visitSchedule": null,
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceUrl": "https://www.foam.org/nl/events/hailun-ma",
+        "primaryEvidence": [
+          {
+            "url": "https://www.foam.org/nl/events/hailun-ma",
+            "finalUrl": "https://www.foam.org/nl/events/hailun-ma",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:34:28.648559+00:00",
+            "localFile": "raw/hailun-ma-hometown.json",
+            "rawSha256": "3b883b612b255c7d42ffb7afffeac7fb6a8a85e5559fcc1fdece32543ac347a7"
+          },
+          {
+            "url": "https://www.foam.org/visit",
+            "finalUrl": "https://www.foam.org/visit",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:37:49.820874+00:00",
+            "localFile": "raw/foam-visit-en.json",
+            "rawSha256": "d8c94bc4fc5ad8eb7e3bbea71b4a894921db7d9f7c22af766477f2387c6dae49"
+          }
+        ],
+        "notes": [
+          "Full primary exhibition range overrides tourism: calendar start 6 October is not the true opening date.",
+          "Fresh full EN and NL visit pages render placeholders instead of hours/closure notice. Search-index text mentions early closure 16:00 on Wednesday 28 October and Thu/Fri 21:00, but it was not reproduced in full fresh content. It remains a lead, not verified current hours.",
+          "openingHours deliberately null. No open-now claim or manufactured daily performances."
+        ],
+        "rangeStartEvidence": null
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "unconfirmedHours": true,
+      "openingHoursEvidence": null,
+      "openingExceptions": []
+    },
+    {
+      "sourceId": "ams-exh-experimenteerdrift",
+      "title": "Experimenteerdrift",
+      "summaryEn": "Works on paper from Rembrandt to contemporary artists, with opportunities for visitors to draw.",
+      "normalizedCategory": "exhibition",
+      "venue": "Rembrandt House Museum",
+      "address": "Jodenbreestraat 4, 1011 NK Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.369358,
+        "longitude": 4.901191,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/experimenteerdrift",
+        "precision": "named venue/campus; not verified entrance",
+        "evidence": "official_tourism_Event_location_coordinates",
+        "checkedAt": "2026-10-28T08:44:59.097951+00:00"
+      },
+      "sourceUrl": "https://www.rembrandthuis.nl/nl/over-ons/pers/press/experimenteerdrift-in-museum-rembrandthuis",
+      "additionalEvidenceUrls": [
+        "https://www.rembrandthuis.nl/nl/over-ons/pers/press/experimenteerdrift-in-museum-rembrandthuis",
+        "https://www.rembrandthuis.nl/nl/over-ons/pers/programma",
+        "https://www.rembrandthuis.nl/en/plan-your-visit/visitor-information/opening-hours-fees/",
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/experimenteerdrift"
+      ],
+      "checkedAt": "2026-10-28T08:44:59.097951+00:00",
+      "price": {
+        "standard": 23.5,
+        "min": 23.5,
+        "max": 23.5,
+        "text": "Standard adult €23.50; €19.50 is a conditional off-peak price advertised for 16:00–18:00, not the full-day standard. Youth under 25 €15; ages 6–17 €8; under 6 and qualifying pass holders free. Seasonal closing is 17:00 from 2 November."
+      },
+      "currency": "EUR",
+      "restrictions": "A timed-entry ticket is recommended. On-site payment is card only. Museum opening hours are not separate showtimes.",
+      "occurrences": [],
+      "startDate": "2026-09-19",
+      "endDate": "2027-01-03",
+      "visitSchedule": [
+        {
+          "date": "2026-10-28",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-02",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-09",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-11",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-18",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-23",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-24",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-25",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        }
+      ],
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceUrl": "https://www.rembrandthuis.nl/nl/over-ons/pers/press/experimenteerdrift-in-museum-rembrandthuis",
+        "primaryEvidence": [
+          {
+            "url": "https://www.rembrandthuis.nl/nl/over-ons/pers/press/experimenteerdrift-in-museum-rembrandthuis",
+            "finalUrl": "https://www.rembrandthuis.nl/nl/over-ons/pers/press/experimenteerdrift-in-museum-rembrandthuis",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:37:54.922239+00:00",
+            "localFile": "raw/rembrandt-press.json",
+            "rawSha256": "9f960e2343750e346f27112eefaada666b68ff327969e6c5bfd80f95a2a6fbea"
+          },
+          {
+            "url": "https://www.rembrandthuis.nl/nl/over-ons/pers/programma",
+            "finalUrl": "https://www.rembrandthuis.nl/nl/over-ons/pers/programma",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:37:58.787438+00:00",
+            "localFile": "raw/rembrandt-programme.json",
+            "rawSha256": "a78029d706956fa97a238b3c91c604009608c6f8da9db82c8122e6b1733c2fda"
+          },
+          {
+            "url": "https://www.rembrandthuis.nl/en/plan-your-visit/visitor-information/opening-hours-fees/",
+            "finalUrl": "https://www.rembrandthuis.nl/en/plan-your-visit/visitor-information/opening-hours-fees/",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:36:10.761633+00:00",
+            "localFile": "raw/rembrandt-fees.json",
+            "rawSha256": "bdd6566c892bef002c3fd2b4d44af0606baba4f4f172797c7c5f4b23318aa3bf"
+          }
+        ],
+        "notes": [
+          "Source dates: 19 September 2026–3 January 2027, not tourism 6 October opening.",
+          "November 2 change to 17:00 closing overrides tourism recurring 18:00.",
+          "Published €19.50 off-peak band may depend on selected date/time; no slot inventory or November eligibility asserted."
+        ],
+        "rangeStartEvidence": null
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "unconfirmedHours": false,
+      "openingHoursEvidence": {
+        "url": "https://www.rembrandthuis.nl/en/plan-your-visit/visitor-information/opening-hours-fees/",
+        "finalUrl": "https://www.rembrandthuis.nl/en/plan-your-visit/visitor-information/opening-hours-fees/",
+        "status": 200,
+        "checkedAt": "2026-10-28T08:36:10.761633+00:00",
+        "localFile": "raw/rembrandt-fees.json",
+        "rawSha256": "bdd6566c892bef002c3fd2b4d44af0606baba4f4f172797c7c5f4b23318aa3bf"
+      },
+      "openingExceptions": [
+        {
+          "date": "2026-12-25",
+          "closed": true,
+          "outsideRequestedWindow": true
+        }
+      ]
+    },
+    {
+      "sourceId": "ams-exh-chez-matisse",
+      "title": "Chez Matisse",
+      "summaryEn": "Matisse and artists in his circle, with works from the Centre Pompidou collection.",
+      "normalizedCategory": "exhibition",
+      "venue": "H'ART Museum",
+      "address": "Amstel 51, 1018 EJ Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.365341220827,
+        "longitude": 4.902248792045585,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/chez-matisse",
+        "precision": "named venue/campus; not verified entrance",
+        "evidence": "official_tourism_Event_location_coordinates",
+        "checkedAt": "2026-10-28T08:44:59.097951+00:00"
+      },
+      "sourceUrl": "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/",
+      "additionalEvidenceUrls": [
+        "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/",
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/chez-matisse"
+      ],
+      "checkedAt": "2026-10-28T08:44:59.097951+00:00",
+      "price": {
+        "standard": 29.5,
+        "min": 29.5,
+        "max": 29.5,
+        "text": "Adult 18+ €29.50 including exhibition surcharge; student/CJP/Uitpas €18.50; Museum Pass and I amsterdam/Go City €7; youth through 17 and named qualifying pass holders free."
+      },
+      "currency": "EUR",
+      "restrictions": "Last entry 16:30. Book a selected entry time; concessions depend on the relevant pass.",
+      "occurrences": [],
+      "startDate": "2026-10-03",
+      "endDate": "2027-02-14",
+      "visitSchedule": [
+        {
+          "date": "2026-10-28",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-02",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-09",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-11",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-18",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-23",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-24",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-25",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        }
+      ],
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceUrl": "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/",
+        "primaryEvidence": [
+          {
+            "url": "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/",
+            "finalUrl": "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:34:37.419853+00:00",
+            "localFile": "raw/chez-matisse.json",
+            "rawSha256": "4f4393929a852ad92021196f947ac2adc0533e4f65b852e42c1d0368f7bcde89"
+          }
+        ],
+        "notes": [
+          "Primary opening 3 October, not tourism 6 October. Primary rates supersede ambiguous tourism pass-holder rows."
+        ],
+        "rangeStartEvidence": null
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "unconfirmedHours": false,
+      "openingHoursEvidence": {
+        "url": "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/",
+        "finalUrl": "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/",
+        "status": 200,
+        "checkedAt": "2026-10-28T08:34:37.419853+00:00",
+        "localFile": "raw/chez-matisse.json",
+        "rawSha256": "4f4393929a852ad92021196f947ac2adc0533e4f65b852e42c1d0368f7bcde89"
+      },
+      "openingExceptions": [
+        {
+          "date": "2026-12-25",
+          "opens": "12:00",
+          "closes": "17:00",
+          "outsideRequestedWindow": true
+        },
+        {
+          "date": "2027-01-01",
+          "opens": "12:00",
+          "closes": "17:00",
+          "outsideRequestedWindow": true
+        }
+      ]
+    },
+    {
+      "sourceId": "ams-exh-artotel-amsterdam-en-nocknock-art-presenteren-groepsexpositie-identity",
+      "title": "art’otel Amsterdam en NOCKNOCK ART presenteren groepsexpositie Identity",
+      "summaryEn": "A group exhibition on identity through photography, installation, fashion and mixed media.",
+      "normalizedCategory": "exhibition",
+      "venue": "art’otel amsterdam",
+      "address": "Prins Hendrikkade 33, 1012 TM Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.37764,
+        "longitude": 4.89716,
+        "sourceUrl": "https://goo.gl/maps/CcA8pwRNSBTYHr7W9",
+        "precision": "named hotel/gallery building, not indoor gallery entrance",
+        "evidence": "primary_venue_GoogleMaps_link_named_place_redirect_coordinates",
+        "checkedAt": "2026-10-28T08:44:59.097951+00:00"
+      },
+      "sourceUrl": "https://artotel.com/en/hotels/amsterdam/central-amsterdam/event/exhibition-opening-identity-by-nocknock-art/",
+      "additionalEvidenceUrls": [
+        "https://artotel.com/en/hotels/amsterdam/central-amsterdam/event/exhibition-opening-identity-by-nocknock-art/",
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/artotel-amsterdam-en-nocknock-art-presenteren-groepsexpositie-identity"
+      ],
+      "checkedAt": "2026-10-28T08:44:59.097951+00:00",
+      "price": {
+        "standard": 0,
+        "min": 0,
+        "max": 0,
+        "text": "Free entrance is explicitly stated by the official tourism listing; the primary exhibition page gives no admission charge. Do not interpret tourism 0.01 upper bound as a real fee."
+      },
+      "currency": "EUR",
+      "restrictions": "The 11:00–23:00 visiting window is published by the tourism calendar, not independently confirmed on the organiser page.",
+      "occurrences": [],
+      "startDate": "2026-09-17",
+      "endDate": "2026-11-28",
+      "visitSchedule": null,
+      "isFree": true,
+      "fees": null,
+      "dateEvidence": {
+        "sourceUrl": "https://artotel.com/en/hotels/amsterdam/central-amsterdam/event/exhibition-opening-identity-by-nocknock-art/",
+        "primaryEvidence": [
+          {
+            "url": "https://artotel.com/en/hotels/amsterdam/central-amsterdam/event/exhibition-opening-identity-by-nocknock-art/",
+            "finalUrl": "https://artotel.com/en/hotels/amsterdam/central-amsterdam/event/exhibition-opening-identity-by-nocknock-art/",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:34:40.535526+00:00",
+            "localFile": "raw/artotel-amsterdam-en-nocknock-art-presenteren-groepsexpositie-identity.json",
+            "rawSha256": "0c7b42b56829f2e11afc7c3e3834e065de72dbbabf0700362ebec2de04456518"
+          }
+        ],
+        "notes": [
+          "Primary full page says until 28 November 2026. September 17 opening is stated in tourism prose; 6 October is only the tourism recurring-calendar start.",
+          "Primary JSON-LD incorrectly uses 28 November 01:00 for both start and end; do not create a night-time performance."
+        ],
+        "rangeStartEvidence": {
+          "url": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/artotel-amsterdam-en-nocknock-art-presenteren-groepsexpositie-identity",
+          "basis": "explicit September 17 prose within this 2026 run; exact year crosschecked primary until November 28 2026"
+        }
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "unconfirmedHours": true,
+      "openingHoursEvidence": {
+        "tier": "official_tourism_full_event_calendar_only",
+        "url": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/artotel-amsterdam-en-nocknock-art-presenteren-groepsexpositie-identity"
+      },
+      "openingExceptions": []
+    },
+    {
+      "sourceId": "ams-exh-solo-exhibition-murmurs-under-the-skin-by-photographer-clementine-van-der-bent",
+      "title": "Solo-exhibition ‘Murmurs under the Skin’ by photographer Clementine van der Bent",
+      "summaryEn": "Clementine van der Bent’s photographic series on the seasons and inner experience.",
+      "normalizedCategory": "exhibition",
+      "venue": "Atelier K84",
+      "address": "Keizersgracht 84h, 1015 CT Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.3778242,
+        "longitude": 4.8877339,
+        "sourceUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9742.366567483612!2d4.8877339!3d52.3778242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6937c722c15590e3!2sAtelier%20K84!5e0!3m2!1sen!2snl!4v1627911918833!5m2!1sen!2snl",
+        "precision": "named gallery building, not verified entrance",
+        "evidence": "primary_gallery_contact_embedded_GoogleMaps_named_place_payload",
+        "checkedAt": "2026-10-28T08:44:59.097951+00:00"
+      },
+      "sourceUrl": "https://atelierk84.com/expositie/clementine-van-der-bent-murmurs-under-the-skin/",
+      "additionalEvidenceUrls": [
+        "https://atelierk84.com/expositie/clementine-van-der-bent-murmurs-under-the-skin/",
+        "https://atelierk84.com/contact/",
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/solo-exhibition-murmurs-under-the-skin-by-photographer-clementine-van-der-bent"
+      ],
+      "checkedAt": "2026-10-28T08:44:59.097951+00:00",
+      "price": {
+        "standard": 0,
+        "min": 0,
+        "max": 0,
+        "text": "Free entrance stated in the official tourism event listing."
+      },
+      "currency": "EUR",
+      "restrictions": "Friday and Saturday 12:00–18:00; the photographer is present. Other visits are by separate appointment.",
+      "occurrences": [],
+      "startDate": "2026-10-09",
+      "endDate": "2026-11-21",
+      "visitSchedule": [
+        {
+          "date": "2026-10-30",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "12:00",
+          "endTime": "18:00"
+        }
+      ],
+      "isFree": true,
+      "fees": null,
+      "dateEvidence": {
+        "sourceUrl": "https://atelierk84.com/expositie/clementine-van-der-bent-murmurs-under-the-skin/",
+        "primaryEvidence": [
+          {
+            "url": "https://atelierk84.com/expositie/clementine-van-der-bent-murmurs-under-the-skin/",
+            "finalUrl": "https://atelierk84.com/expositie/clementine-van-der-bent-murmurs-under-the-skin/",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:36:21.829881+00:00",
+            "localFile": "raw/atelier-exhibition.json",
+            "rawSha256": "41b907b3860de074e8fce2e6aea6d388c63820fa9a03734a16129819306691b8"
+          },
+          {
+            "url": "https://atelierk84.com/contact/",
+            "finalUrl": "https://atelierk84.com/contact/",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:38:16.043411+00:00",
+            "localFile": "raw/atelier-contact.json",
+            "rawSha256": "0582545870b3909efe561e9f8a183537e80bb555626b47934615e0004a69f586"
+          }
+        ],
+        "notes": [
+          "Appointment-only visits are not expanded into public hours. The 9 October opening and 24 October concert are outside the requested window, not new sessions."
+        ],
+        "rangeStartEvidence": null
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "unconfirmedHours": false,
+      "openingHoursEvidence": {
+        "url": "https://atelierk84.com/expositie/clementine-van-der-bent-murmurs-under-the-skin/",
+        "finalUrl": "https://atelierk84.com/expositie/clementine-van-der-bent-murmurs-under-the-skin/",
+        "status": 200,
+        "checkedAt": "2026-10-28T08:36:21.829881+00:00",
+        "localFile": "raw/atelier-exhibition.json",
+        "rawSha256": "41b907b3860de074e8fce2e6aea6d388c63820fa9a03734a16129819306691b8"
+      },
+      "openingExceptions": []
+    },
+    {
+      "sourceId": "ams-exh-de-kunst-van-het-transformeren",
+      "title": "De kunst van het transformeren",
+      "summaryEn": "The history of theatrical transformation through costumes, roles, stage design and contemporary interpretations.",
+      "normalizedCategory": "exhibition",
+      "venue": "Allard Pierson",
+      "address": "Oude Turfmarkt 127–129, 1012 GC Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.368786,
+        "longitude": 4.893018,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/de-kunst-van-het-transformeren",
+        "precision": "named venue/campus; not verified entrance",
+        "evidence": "official_tourism_Event_location_coordinates",
+        "checkedAt": "2026-10-28T08:44:59.097951+00:00"
+      },
+      "sourceUrl": "https://www.allardpierson.nl/agenda/de-kunst-van-het-transformeren",
+      "additionalEvidenceUrls": [
+        "https://www.allardpierson.nl/agenda/de-kunst-van-het-transformeren",
+        "https://www.allardpierson.nl/en/visit",
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/de-kunst-van-het-transformeren"
+      ],
+      "checkedAt": "2026-10-28T08:44:59.097951+00:00",
+      "price": {
+        "standard": 15.5,
+        "min": 15.5,
+        "max": 15.5,
+        "text": "Museum ticket: adult €15.50; ages 5–18 €3.50; up to 4 free; qualifying cards free; other concessions have conditions."
+      },
+      "currency": "EUR",
+      "restrictions": "Closed Mondays except specifically announced holiday openings.",
+      "occurrences": [],
+      "startDate": "2026-07-04",
+      "endDate": "2027-04-11",
+      "visitSchedule": [
+        {
+          "date": "2026-10-28",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-11",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-18",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-24",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-25",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "10:00",
+          "endTime": "17:00"
+        }
+      ],
+      "isFree": false,
+      "fees": null,
+      "dateEvidence": {
+        "sourceUrl": "https://www.allardpierson.nl/agenda/de-kunst-van-het-transformeren",
+        "primaryEvidence": [
+          {
+            "url": "https://www.allardpierson.nl/agenda/de-kunst-van-het-transformeren",
+            "finalUrl": "https://www.allardpierson.nl/agenda/de-kunst-van-het-transformeren",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:39:38.571403+00:00",
+            "localFile": "raw/allard-transformeren.json",
+            "rawSha256": "e289a6447f1590b01dd9e047d1028ba6a8d47124e8ec2d8ab7e7f090e023d4d1"
+          },
+          {
+            "url": "https://www.allardpierson.nl/en/visit",
+            "finalUrl": "https://www.allardpierson.nl/en/visit",
+            "status": 200,
+            "checkedAt": "2026-10-28T08:38:10.828689+00:00",
+            "localFile": "raw/allard-visit.json",
+            "rawSha256": "63c8f0c38e1f4e981117910fd9e299aa0edbdccab8162095a0254406c99c1b15"
+          }
+        ],
+        "notes": [
+          "Original tourism primary URL /en/calendar/... returned 404. Correct full primary detail was discovered via official agenda, not guessed.",
+          "Current full primary range is 4 July 2026–11 April 2027. Search-index snippet with 29 November is stale and was rejected.",
+          "Do not confuse Reading Room Monday hours with museum opening."
+        ],
+        "rangeStartEvidence": null
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "exhibition_range",
+      "unconfirmedHours": false,
+      "openingHoursEvidence": {
+        "url": "https://www.allardpierson.nl/en/visit",
+        "finalUrl": "https://www.allardpierson.nl/en/visit",
+        "status": 200,
+        "checkedAt": "2026-10-28T08:38:10.828689+00:00",
+        "localFile": "raw/allard-visit.json",
+        "rawSha256": "63c8f0c38e1f4e981117910fd9e299aa0edbdccab8162095a0254406c99c1b15"
+      },
+      "openingExceptions": [
+        {
+          "date": "2026-12-25",
+          "closed": true,
+          "outsideRequestedWindow": true
+        },
+        {
+          "date": "2027-01-01",
+          "closed": true,
+          "outsideRequestedWindow": true
+        }
+      ]
+    },
+    {
+      "sourceId": "ams-primary-framer-opening-2026-10-30",
+      "title": "Opening: Life After Love – In Search of the Militant Image",
+      "summaryEn": "An opening gathering for the Life After Love exhibition.",
+      "normalizedCategory": "meetup",
+      "venue": "Framer Framed",
+      "address": "Oranje-Vrijstaatkade 71, 1093 KS Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.35692,
+        "longitude": 4.9322,
+        "sourceUrl": "https://mapcarta.com/N599313070",
+        "precision": "named OSM arts-centre node599313070, exactprimaryaddress match",
+        "evidence": "Named map point plus primary venue/address match.",
+        "checkedAt": "2026-10-28T08:37:56.796622+00:00"
+      },
+      "sourceUrl": "https://framerframed.nl/en/projecten/opening-life-after-love/",
+      "additionalEvidenceUrls": [
+        "https://framerframed.nl/en/projecten/opening-life-after-love/",
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/opening-life-after-love",
+        "https://framerframed.nl/en/exposities/life-after-love/"
+      ],
+      "checkedAt": "2026-10-28T08:37:56.796622+00:00",
+      "price": {
+        "standard": 0,
+        "min": 0,
+        "max": 0,
+        "text": "0 EUR"
+      },
+      "currency": "EUR",
+      "restrictions": "Sign-up link; free, pay what you can.",
+      "occurrences": [
+        {
+          "date": "2026-10-30",
+          "startTime": "18:00",
+          "endTime": "20:00",
+          "endDate": "2026-10-30",
+          "timezone": "Europe/Amsterdam",
+          "timeEvidence": "Actual end null unless written programme/access window, not calendar header."
+        }
+      ],
+      "startDate": null,
+      "endDate": null,
+      "visitSchedule": null,
+      "isFree": true,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://framerframed.nl/en/projecten/opening-life-after-love/",
+        "type": "full primary prose2026 date/programmecontext"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "scheduled_event"
+    },
+    {
+      "sourceId": "ams-primary-framer-annotations-2026-10-31",
+      "title": "Annotations to the Image",
+      "summaryEn": "Artist walkthroughs, presentations and readings accompany Life After Love.",
+      "normalizedCategory": "talk",
+      "venue": "Framer Framed",
+      "address": "Oranje-Vrijstaatkade 71, 1093 KS Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.35692,
+        "longitude": 4.9322,
+        "sourceUrl": "https://mapcarta.com/N599313070",
+        "precision": "named OSM arts-centre node599313070, exactprimaryaddress match",
+        "evidence": "Named map point plus primary venue/address match.",
+        "checkedAt": "2026-10-28T08:37:59.373216+00:00"
+      },
+      "sourceUrl": "https://framerframed.nl/en/projecten/annotations-to-the-image/",
+      "additionalEvidenceUrls": [
+        "https://framerframed.nl/en/projecten/annotations-to-the-image/",
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/opening-life-after-love",
+        "https://framerframed.nl/en/exposities/life-after-love/"
+      ],
+      "checkedAt": "2026-10-28T08:37:59.373216+00:00",
+      "price": {
+        "standard": 0,
+        "min": 0,
+        "max": 0,
+        "text": "0 EUR"
+      },
+      "currency": "EUR",
+      "restrictions": "Registration requested.",
+      "occurrences": [
+        {
+          "date": "2026-10-31",
+          "startTime": "15:00",
+          "endTime": null,
+          "endDate": null,
+          "timezone": "Europe/Amsterdam",
+          "timeEvidence": "Actual end null unless written programme/access window, not calendar header."
+        }
+      ],
+      "startDate": null,
+      "endDate": null,
+      "visitSchedule": null,
+      "isFree": true,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://framerframed.nl/en/projecten/annotations-to-the-image/",
+        "type": "full primary prose2026 date/programmecontext"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "scheduled_event"
+    },
+    {
+      "sourceId": "ams-primary-framer-tour-2026-11-01",
+      "title": "Curators’ Tour: Life After Love",
+      "summaryEn": "Curators Hera Chan and Edwin Nasr lead a tour of Life After Love.",
+      "normalizedCategory": "tour",
+      "venue": "Framer Framed",
+      "address": "Oranje-Vrijstaatkade 71, 1093 KS Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.35692,
+        "longitude": 4.9322,
+        "sourceUrl": "https://mapcarta.com/N599313070",
+        "precision": "named OSM arts-centre node599313070, exactprimaryaddress match",
+        "evidence": "Named map point plus primary venue/address match.",
+        "checkedAt": "2026-10-28T08:37:59.859891+00:00"
+      },
+      "sourceUrl": "https://framerframed.nl/en/projecten/rondleiding-life-after-love/",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/opening-life-after-love",
+        "https://framerframed.nl/en/projecten/rondleiding-life-after-love/",
+        "https://framerframed.nl/en/exposities/life-after-love/"
+      ],
+      "checkedAt": "2026-10-28T08:37:59.859891+00:00",
+      "price": {
+        "standard": 0,
+        "min": 0,
+        "max": 0,
+        "text": "0 EUR"
+      },
+      "currency": "EUR",
+      "restrictions": "English; registration requested, free/pay what you can.",
+      "occurrences": [
+        {
+          "date": "2026-11-01",
+          "startTime": "15:00",
+          "endTime": null,
+          "endDate": null,
+          "timezone": "Europe/Amsterdam",
+          "timeEvidence": "Actual end null unless written programme/access window, not calendar header."
+        }
+      ],
+      "startDate": null,
+      "endDate": null,
+      "visitSchedule": null,
+      "isFree": true,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://framerframed.nl/en/projecten/rondleiding-life-after-love/",
+        "type": "full primary prose2026 date/programmecontext"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "scheduled_event"
+    },
+    {
+      "sourceId": "ams-primary-nasal-demons-2026-11-05",
+      "title": "Opening: Nasal Demons",
+      "summaryEn": "An opening gathering for the Nasal Demons exhibition.",
+      "normalizedCategory": "meetup",
+      "venue": "Treehouse NDSM",
+      "address": "Tt. Neveritaweg 55-57, 1033 WB Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.39953449999999,
+        "longitude": 4.8934247,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nasal-demons",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Named map point plus primary venue/address match.",
+        "checkedAt": "2026-10-28T08:37:01.181925+00:00"
+      },
+      "sourceUrl": "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nasal-demons",
+        "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19"
+      ],
+      "checkedAt": "2026-10-28T08:37:01.181925+00:00",
+      "price": {
+        "standard": null,
+        "min": null,
+        "max": null,
+        "text": null
+      },
+      "currency": null,
+      "restrictions": null,
+      "occurrences": [
+        {
+          "date": "2026-11-05",
+          "startTime": "18:00",
+          "endTime": "22:00",
+          "endDate": "2026-11-05",
+          "timezone": "Europe/Amsterdam",
+          "timeEvidence": "Actual end null unless written programme/access window, not calendar header."
+        }
+      ],
+      "startDate": null,
+      "endDate": null,
+      "visitSchedule": null,
+      "isFree": null,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19",
+        "type": "full primary prose2026 date/programmecontext"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "scheduled_event"
+    },
+    {
+      "sourceId": "ams-primary-nasal-demons-2026-11-14",
+      "title": "Bathroom Archive — workshop and tour",
+      "summaryEn": "Explore Amsterdam Noord with artist Dewi Mac Donald, then build a collage archive.",
+      "normalizedCategory": "practice",
+      "venue": "Treehouse NDSM",
+      "address": "Tt. Neveritaweg 55-57, 1033 WB Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.39953449999999,
+        "longitude": 4.8934247,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nasal-demons",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Named map point plus primary venue/address match.",
+        "checkedAt": "2026-10-28T08:37:01.181925+00:00"
+      },
+      "sourceUrl": "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nasal-demons",
+        "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19"
+      ],
+      "checkedAt": "2026-10-28T08:37:01.181925+00:00",
+      "price": {
+        "standard": null,
+        "min": null,
+        "max": null,
+        "text": null
+      },
+      "currency": null,
+      "restrictions": "Participants collect latrinalia across Amsterdam Noord then make collage archive; departure/meetingpoint onlyTreehouse programmecontext.",
+      "occurrences": [
+        {
+          "date": "2026-11-14",
+          "startTime": "13:00",
+          "endTime": "15:00",
+          "endDate": "2026-11-14",
+          "timezone": "Europe/Amsterdam",
+          "timeEvidence": "Actual end null unless written programme/access window, not calendar header."
+        }
+      ],
+      "startDate": null,
+      "endDate": null,
+      "visitSchedule": null,
+      "isFree": null,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19",
+        "type": "full primary prose2026 date/programmecontext"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "scheduled_event"
+    },
+    {
+      "sourceId": "ams-primary-nasal-demons-2026-11-21",
+      "title": "Live Radio Show & Artist Talk: Quintus Glerum",
+      "summaryEn": "A live radio programme and artist discussion with Quintus Glerum.",
+      "normalizedCategory": "talk",
+      "venue": "Treehouse NDSM",
+      "address": "Tt. Neveritaweg 55-57, 1033 WB Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.39953449999999,
+        "longitude": 4.8934247,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nasal-demons",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Named map point plus primary venue/address match.",
+        "checkedAt": "2026-10-28T08:37:01.181925+00:00"
+      },
+      "sourceUrl": "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nasal-demons",
+        "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19"
+      ],
+      "checkedAt": "2026-10-28T08:37:01.181925+00:00",
+      "price": {
+        "standard": null,
+        "min": null,
+        "max": null,
+        "text": null
+      },
+      "currency": null,
+      "restrictions": null,
+      "occurrences": [
+        {
+          "date": "2026-11-21",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "endDate": "2026-11-21",
+          "timezone": "Europe/Amsterdam",
+          "timeEvidence": "Actual end null unless written programme/access window, not calendar header."
+        }
+      ],
+      "startDate": null,
+      "endDate": null,
+      "visitSchedule": null,
+      "isFree": null,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19",
+        "type": "full primary prose2026 date/programmecontext"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "scheduled_event"
+    },
+    {
+      "sourceId": "ams-primary-nasal-demons-2026-11-22",
+      "title": "Kids Tour with Quintus Glerum",
+      "summaryEn": "Children explore the exhibition with Quintus Glerum and make drawings.",
+      "normalizedCategory": "tour",
+      "venue": "Treehouse NDSM",
+      "address": "Tt. Neveritaweg 55-57, 1033 WB Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.39953449999999,
+        "longitude": 4.8934247,
+        "sourceUrl": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nasal-demons",
+        "precision": "named tourism venue; primary street cross-check, not entrance",
+        "evidence": "Named map point plus primary venue/address match.",
+        "checkedAt": "2026-10-28T08:37:01.181925+00:00"
+      },
+      "sourceUrl": "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/nasal-demons",
+        "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19"
+      ],
+      "checkedAt": "2026-10-28T08:37:01.181925+00:00",
+      "price": {
+        "standard": null,
+        "min": null,
+        "max": null,
+        "text": null
+      },
+      "currency": null,
+      "restrictions": "Children create human-machine drawings after guidedtour; no exactminimumage stated.",
+      "occurrences": [
+        {
+          "date": "2026-11-22",
+          "startTime": "14:00",
+          "endTime": "15:30",
+          "endDate": "2026-11-22",
+          "timezone": "Europe/Amsterdam",
+          "timeEvidence": "Actual end null unless written programme/access window, not calendar header."
+        }
+      ],
+      "startDate": null,
+      "endDate": null,
+      "visitSchedule": null,
+      "isFree": null,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://www.treehousendsm.com/agenda/nasal-demons#2026-11-19",
+        "type": "full primary prose2026 date/programmecontext"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "scheduled_event"
+    },
+    {
+      "sourceId": "ams-primary-einder-visit-2026-10-29",
+      "title": "Joep Beving at EINDER",
+      "summaryEn": "Joep Beving performs in Boris Acket’s EINDER installation.",
+      "normalizedCategory": "music",
+      "venue": "Centrale Markthal",
+      "address": "Centrale Markthallen 170, 1051 LJ Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.37877,
+        "longitude": 4.86579,
+        "sourceUrl": "https://mapcarta.com/W276272968",
+        "precision": "named building footprint centre, not entrance",
+        "evidence": "Named map point plus primary venue/address match.",
+        "checkedAt": "2026-10-28T08:37:52.934638+00:00"
+      },
+      "sourceUrl": "https://einder.world/plan-your-visit",
+      "additionalEvidenceUrls": [
+        "https://einder.world/plan-your-visit",
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/einder-by-boris-acket"
+      ],
+      "checkedAt": "2026-10-28T08:37:52.934638+00:00",
+      "price": {
+        "standard": 42,
+        "min": 42,
+        "max": 42,
+        "text": "42 EUR"
+      },
+      "currency": "EUR",
+      "restrictions": "Seated; doors19:00, arrivalatleast30minbeforestart; no lateentry. Mandatoryservicefeeamountunknown.",
+      "occurrences": [
+        {
+          "date": "2026-10-29",
+          "startTime": "20:00",
+          "endTime": "21:30",
+          "endDate": "2026-10-29",
+          "timezone": "Europe/Amsterdam",
+          "timeEvidence": "Primary fullprose explicitlyconcert20:00–21:30; do not confusedoors19:00withstart."
+        }
+      ],
+      "startDate": null,
+      "endDate": null,
+      "visitSchedule": null,
+      "isFree": false,
+      "fees": "service fee applies; amount unknown",
+      "dateEvidence": {
+        "sourceURL": "https://einder.world/plan-your-visit",
+        "type": "full primary prose2026 date/programmecontext"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "scheduled_event"
+    },
+    {
+      "sourceId": "ams-primary-framer-assembly-2026-11-22",
+      "title": "Art Workers’ Assembly",
+      "summaryEn": "Artists and cultural workers discuss collective organising and solidarity.",
+      "normalizedCategory": "talk",
+      "venue": "Framer Framed",
+      "address": "Oranje-Vrijstaatkade 71, 1093 KS Amsterdam",
+      "verifiedCoordinates": {
+        "latitude": 52.35692,
+        "longitude": 4.9322,
+        "sourceUrl": "https://mapcarta.com/N599313070",
+        "precision": "named OSM arts-centre node599313070, exactprimaryaddress match",
+        "evidence": "Named map point plus primary venue/address match.",
+        "checkedAt": "2026-10-28T08:41:35.978568+00:00"
+      },
+      "sourceUrl": "https://framerframed.nl/en/projecten/art-workers-assembly/",
+      "additionalEvidenceUrls": [
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/opening-life-after-love",
+        "https://framerframed.nl/en/exposities/life-after-love/",
+        "https://framerframed.nl/en/projecten/art-workers-assembly/"
+      ],
+      "checkedAt": "2026-10-28T08:41:35.978568+00:00",
+      "price": {
+        "standard": 0,
+        "min": 0,
+        "max": 0,
+        "text": "0 EUR"
+      },
+      "currency": "EUR",
+      "restrictions": "Public programme in English; registration requested. Detailed agenda not yet announced; calendar end 18:00 is not verified actual finish.",
+      "occurrences": [
+        {
+          "date": "2026-11-22",
+          "startTime": "10:00",
+          "endTime": null,
+          "endDate": null,
+          "timezone": "Europe/Amsterdam",
+          "timeEvidence": "Actual end null unless written programme/access window, not calendar header."
+        }
+      ],
+      "startDate": null,
+      "endDate": null,
+      "visitSchedule": null,
+      "isFree": true,
+      "fees": null,
+      "dateEvidence": {
+        "sourceURL": "https://framerframed.nl/en/projecten/art-workers-assembly/",
+        "type": "full primary prose2026 date/programmecontext"
+      },
+      "timezone": "Europe/Amsterdam",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "eventKind": "scheduled_event"
+    }
+  ],
+  "counts": {
+    "programmes": 28,
+    "ranges": 19,
+    "sessions": 9,
+    "holds": 13
+  },
+  "rawInputs": {
+    "capitals-recovery/amsterdam-exhibitions/primary-delta.json": "85861c183ecd501e1081f33961bad4b83c84c03f580be07bf61c7c5c05e1996b",
+    "capitals-recovery/amsterdam-exhibitions/sessions-delta.json": "9888f3211c3d03109c890fd87d67e6b485e109489992d2d10d4f9b12b437b2f1",
+    "capitals-recovery/amsterdam-exhibitions/child/child-delta.json": "77b5299b084288f92bbcf9530571ccb80e9beb0deb7f560de5f9fc57969b7e7d",
+    "capitals-recovery/amsterdam-exhibitions/child/child-qa-delta.json": "07333f02680e8321056d36898223c8b848c72b589662d6d9c934818c40f53e96"
+  },
+  "notes": [
+    "ArtisDeepSeeingCurrents held: no verifiedend, not asserted permanent.",
+    "ChildISOweekdays1–7 normalized separately from parentPython0–6.",
+    "Foam andIdentity unconfirmedhours → visitSchedule null, no open-now claim.",
+    "Visit windows generated only within30day horizon, retain actual full exhibitionranges; not daily performance events."
+  ],
+  "holds": [
+    {
+      "slug": "raad-van-de-raaf-6",
+      "reason": "Primary explicitly permanent; retain place/programme not temporary range"
+    },
+    {
+      "slug": "loop-zelf-door-het-amsterdam-van-1652",
+      "reason": "Permanent VR attraction status; no confirmed finite temporaryrange"
+    },
+    {
+      "slug": "het-gerestaureerde-topstuk-de-kruisafneming-ca-1530",
+      "reason": "Primary museumlanding does notconfirm temporaryrange"
+    },
+    {
+      "slug": "modelstad-haven-stad-model-city-port-city",
+      "reason": "Primaryhome currently different programme; directrange unconfirmed"
+    },
+    {
+      "slug": "upon-us-after",
+      "reason": "Primary403; no retry"
+    },
+    {
+      "slug": "ggd-expo-125-years-of-caring-for-the-city",
+      "reason": "PrimaryonlyOctober–December2026 months; preciseinitialday/hours/pinunconfirmed"
+    },
+    {
+      "slug": "emily-and-women-of-utoptia",
+      "reason": "No linkedprimary; point/yearrange notverified"
+    },
+    {
+      "slug": "hals-rembrandt",
+      "reason": "PrimaryFransHalsMuseumHaarlem outsidecity"
+    },
+    {
+      "slug": "kiki-ho-where-the-light-comes-in-days-of-izyum",
+      "reason": "Primaryartistprofile no datedannouncement"
+    },
+    {
+      "slug": "flavours-of-nieuw-west-plates-full-of-stories",
+      "reason": "Primary403; no retry"
+    },
+    {
+      "id": "c18ac0eb-538a-4cdd-a911-628bfdaf6848",
+      "slug": "materialising-memories",
+      "title": "Materialising Memories",
+      "status": "held_venue_pin_conflict",
+      "startDate": "2026-09-03",
+      "endDate": "2027-02-27",
+      "reason": "Primary organiser AFW says new OSCAM at Bijlmerplein 97. Tourism still supplies old Bijlmerplein 110 address/pin; no confirmed point for the new premises. Do not publish stale coordinates.",
+      "verifiedAddress": "Bijlmerplein 97, Amsterdam",
+      "latitude": null,
+      "longitude": null,
+      "primaryEvidence": [
+        {
+          "url": "https://amsterdamfashionweek.nl/open-to-public-oscam-presents-materialising-memories-during-afw26/",
+          "finalUrl": "https://amsterdamfashionweek.nl/open-to-public-oscam-presents-materialising-memories-during-afw26/",
+          "status": 200,
+          "checkedAt": "2026-10-28T08:35:53.509546+00:00",
+          "localFile": "raw/oscam-afw.json",
+          "rawSha256": "302fa0d6b50697e0a2c1e0531a609f077d05f53fba695c4f6b0594dea7436fcf"
+        },
+        {
+          "url": "https://linktr.ee/oscam",
+          "finalUrl": "https://linktr.ee/oscam",
+          "status": 200,
+          "checkedAt": "2026-10-28T08:34:16.293083+00:00",
+          "localFile": "raw/materialising-memories.json",
+          "rawSha256": "2d339cae203e04db7a60f1282e81313d0afbccd22b449125a70e0d04b3c3d882"
+        },
+        {
+          "url": "https://oscam.nl",
+          "finalUrl": "https://linktr.ee/oscam",
+          "status": 200,
+          "checkedAt": "2026-10-28T08:35:45.505333+00:00",
+          "localFile": "raw/oscam-home.json",
+          "rawSha256": "2d339cae203e04db7a60f1282e81313d0afbccd22b449125a70e0d04b3c3d882"
+        }
+      ],
+      "tourismEvidence": {
+        "url": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/materialising-memories",
+        "status": 200,
+        "checkedAt": "2026-10-28T08:33:12.291489+00:00",
+        "localFile": "../raw/materialising-memories.json",
+        "rawSha256": "6b8bfa701b20fc0f1bad5ba9782de778a8b11fedb5a87a1475b24f7ea19395c0",
+        "parsedJsonSha256": "59a2315efb7300f48a912b70cf72cd4ed49a7393be88055dc083378fe5880dba"
+      },
+      "notes": [
+        "AFW full body says public until Saturday 27 February 2027; its final summary mistakenly prints February 2026. Explicit body and tourism both support 2027.",
+        "OSCAM homepage redirects to Linktree. No new-location map point verified.",
+        "Tourism hours Tue–Fri10–18/Sat10–17 are not promoted for the relocated venue.",
+        "No extra timed programmes from the Linktree were researched or added."
+      ]
+    },
+    {
+      "id": "e4642acf-38c1-4e29-9ebc-65012285b056",
+      "slug": "yayoi-kusama",
+      "title": "Yayoi Kusama",
+      "status": "held_primary_robot_check_and_price_unresolved",
+      "startDate": "2026-09-11",
+      "endDate": "2027-01-17",
+      "reason": "Primary exhibition and ticket GETs yielded empty documents; web open explicitly displays robot verification requiring JavaScript. No bypass attempted. Tourism €10 is City Card surcharge, not standard admission.",
+      "primaryEvidence": [
+        {
+          "url": "https://www.stedelijk.nl/en/exhibitions/yayoi-kusama-en",
+          "finalUrl": "https://www.stedelijk.nl/en/exhibitions/yayoi-kusama-en",
+          "status": "error",
+          "checkedAt": "2026-10-28T08:34:21.510688+00:00",
+          "localFile": "raw/yayoi-kusama.json",
+          "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "url": "https://www.stedelijk.nl/en/tickets-kusama-en",
+          "finalUrl": "https://www.stedelijk.nl/en/tickets-kusama-en",
+          "status": "error",
+          "checkedAt": "2026-10-28T08:36:28.833223+00:00",
+          "localFile": "raw/kusama-tickets.json",
+          "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "tourismEvidence": {
+        "url": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/yayoi-kusama",
+        "status": 200,
+        "checkedAt": "2026-10-28T08:33:12.367652+00:00",
+        "localFile": "../raw/yayoi-kusama.json",
+        "rawSha256": "00739db70549df13bde723e0f6041a25d69e3848686cc1587469d68a642bfcb3",
+        "parsedJsonSha256": "b557cadcc4a168aed4b26b9655534b0990573e1549bda356ac22b2ddf6b9c169"
+      },
+      "notes": [
+        "Exact primary page https://www.stedelijk.nl/en/exhibitions/yayoi-kusama-en showed JavaScript robot check through read-only web open.",
+        "Do not promote third-party €32.50 as independently primary-verified.",
+        "No ticket slots or availability asserted."
+      ]
+    },
+    {
+      "id": "88026253-5277-4dfd-835c-3ee89e6e8b07",
+      "slug": "deep-seeing-currents",
+      "title": "Deep Seeing Currents",
+      "summary": "Иммерсивная инсталляция Олафура Элиассона о глубоком океане в аквариуме ARTIS.",
+      "summaryEn": "Olafur Eliasson’s immersive deep-ocean installation in the ARTIS Aquarium.",
+      "kind": "exhibition_range",
+      "categories": [
+        "art",
+        "exhibition"
+      ],
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "timezone": "Europe/Amsterdam",
+      "status": "held_temporary_exhibition_end_unconfirmed",
+      "checkedAt": "2026-10-28T08:44:59.097951+00:00",
+      "startDate": "2026-10-03",
+      "endDate": null,
+      "occurrences": [],
+      "startTime": null,
+      "endTime": null,
+      "durationMinutes": null,
+      "openingHours": null,
+      "openingExceptions": [],
+      "openingHoursAreVenueAccessNotSeances": true,
+      "observedActualFinish": false,
+      "price": {
+        "currency": "EUR",
+        "standardAdultPrice": null,
+        "detailsEn": "ARTIS Zoo ticket includes the Aquarium. Standard 13+ online from €29.50, varies by day; counter €32.50. A separate late-afternoon ticket from 16:00 is €15 (3+), conditional. No exact all-date headline price or ticket inventory verified.",
+        "sourceUrl": "https://www.artis.nl/en/plan-your-visit/ticket-prices",
+        "freeEntry": false,
+        "inventoryVerified": false
+      },
+      "restrictions": "Темнота, мигающий свет, пространственный звук и ощутимые вибрации. Точка — территория ARTIS, не вход в инсталляцию.",
+      "restrictionsEn": "Darkness, flashing light, spatial sound and tangible vibrations. Pin is the ARTIS site, not the installation entrance.",
+      "venue": "ARTIS Amsterdam Royal Zoo",
+      "address": "Plantage Kerklaan 38-40, 1018 CZ Amsterdam",
+      "latitude": 52.366101,
+      "longitude": 4.916811,
+      "pinEvidence": {
+        "type": "official_tourism_Event_location_coordinates",
+        "url": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/deep-seeing-currents",
+        "localFile": "../raw/deep-seeing-currents.json",
+        "precision": "named venue/campus; not verified entrance"
+      },
+      "primaryEvidence": [
+        {
+          "url": "https://www.artis.nl/en/news-from-artis/olafur-eliasson-creates-deep-sea-experience-for-new-aquarium?_gl=1*1j5xjue*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwkOvTBhDgARIsAKUNyRvsnVSohx8h2VHXuCkbI_i_b2kyz7aoJUFOOVhnDM6Len3QjoDVncoaAj31EALw_wcB&gbraid=0AAAAAoMbVx7cJtZG2FxcbsWbybKwG5UUB",
+          "finalUrl": "https://www.artis.nl/en/news-from-artis/olafur-eliasson-creates-deep-sea-experience-for-new-aquarium?_gl=1*1j5xjue*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwkOvTBhDgARIsAKUNyRvsnVSohx8h2VHXuCkbI_i_b2kyz7aoJUFOOVhnDM6Len3QjoDVncoaAj31EALw_wcB&gbraid=0AAAAAoMbVx7cJtZG2FxcbsWbybKwG5UUB",
+          "status": 200,
+          "checkedAt": "2026-10-28T08:34:49.978877+00:00",
+          "localFile": "raw/deep-seeing-currents.json",
+          "rawSha256": "f55f7aab21be63e11832f04b68305272b9000b1fad80750fc68892bcc67f9dcc"
+        },
+        {
+          "url": "https://www.artis.nl/en/plan-your-visit/opening-hours",
+          "finalUrl": "https://www.artis.nl/en/plan-your-visit/opening-hours",
+          "status": 200,
+          "checkedAt": "2026-10-28T08:38:31.125499+00:00",
+          "localFile": "raw/artis-hours.json",
+          "rawSha256": "c8791882122a383c8e32517e97e90ad2b4b221454c18d00853963270145b72d4"
+        },
+        {
+          "url": "https://www.artis.nl/en/plan-your-visit/ticket-prices",
+          "finalUrl": "https://www.artis.nl/en/plan-your-visit/ticket-prices",
+          "status": 200,
+          "checkedAt": "2026-10-28T08:38:35.502625+00:00",
+          "localFile": "raw/artis-prices.json",
+          "rawSha256": "3f66188487630f57b597df46cc8de0ab99e41e4eddeb7123ee20242d998d8fad"
+        }
+      ],
+      "tourismEvidence": {
+        "url": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/deep-seeing-currents",
+        "status": 200,
+        "checkedAt": "2026-10-28T08:33:32.765293+00:00",
+        "localFile": "../raw/deep-seeing-currents.json",
+        "rawSha256": "9cb7932a350b249bf910149d72e4ecd184a8d9313a5ce39ea5fd2a4f31a01038",
+        "parsedJsonSha256": "bd739a3fb701213008d3ed1868005567cebd26a8e833aea91fb67875564c1603"
+      },
+      "sourceUrls": [
+        "https://www.artis.nl/en/news-from-artis/olafur-eliasson-creates-deep-sea-experience-for-new-aquarium",
+        "https://www.artis.nl/en/plan-your-visit/opening-hours",
+        "https://www.artis.nl/en/plan-your-visit/ticket-prices",
+        "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/deep-seeing-currents"
+      ],
+      "notes": [
+        "Full primary press announcement says on view from 3 October 2026. The official tourism calendar supplies availability through 30 November; this is not proof that the installation closes permanently that day.",
+        "Primary opening-hours page currently gives zoo daily 09:00–18:00; no invented seasonal November change. These are venue access hours, not timed installation sessions.",
+        "Tourism €30.50 is superseded by primary day-variable ticket pricing.",
+        "Generic current zoo09–18 page contains no dated November validity. It is not proof of future installation-specific hours.",
+        "Do not publish as an eight-week temporary exhibition or convert generic access hours into sessions."
+      ],
+      "sourceInterpretation": "Prefer full primary dates/prices over tourism fields; never timezone-convert tourism +00:00 suffix into invented local showtimes.",
+      "rangeEndEvidence": {
+        "url": "https://www.iamsterdam.com/en/whats-on/calendar/exhibitions/all-exhibitions/deep-seeing-currents",
+        "basis": "official_tourism_calendar_bounded_availability_not_claimed_final_closure"
+      },
+      "openingHoursEvidence": {
+        "url": "https://www.artis.nl/en/plan-your-visit/opening-hours",
+        "finalUrl": "https://www.artis.nl/en/plan-your-visit/opening-hours",
+        "status": 200,
+        "checkedAt": "2026-10-28T08:38:31.125499+00:00",
+        "localFile": "raw/artis-hours.json",
+        "rawSha256": "c8791882122a383c8e32517e97e90ad2b4b221454c18d00853963270145b72d4"
+      },
+      "installationSpecificHoursVerified": false,
+      "excludedFromOpenNow": true,
+      "reason": "Primary confirms installation starts 3 October 2026 but gives no actual temporary end. Tourism 30 November cannot be treated as a confirmed closing date. The installation may be ongoing; permanency is not independently established either.",
+      "tourismAdvertisedThrough": "2026-11-30"
+    }
+  ]
+}

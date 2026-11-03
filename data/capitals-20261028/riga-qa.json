@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-28T02:16:48.154531+00:00",
+  "status": "local_QA_passed_not_published",
+  "baseVersion": 198,
+  "baseCommit": "871548f72b1fce60b59eabd50b0b70bf293f65fe",
+  "city": "riga",
+  "timezone": "Europe/Riga",
+  "records": 47,
+  "uniqueProgrammes": 23,
+  "places": 17,
+  "localSevenDateDisplayedCounts": [
+    8,
+    7,
+    6,
+    7,
+    4,
+    1,
+    2
+  ],
+  "localSevenDateRadiusCounts": [
+    4,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+  ],
+  "weekDisplayed": 20,
+  "weekNearCentre": 6,
+  "scope": "28Oct–26Nov2026; partial LiveRiga traversal; no claim of complete import",
+  "gaps": [
+    "Nov2 has only a date-range exhibition with unknown visiting hours, not proven open",
+    "Telegram announcement channel stale; conversational chat profile-only",
+    "No live APK QA; map backup labels warning in cloud browser",
+    "Existing test-live-expiry snapshot hardcoded catalogue count is stale; existing expansion harness conference category omission"
+  ],
+  "preserved": "All pre-existing events/places files byte-identical to HEAD; all citywide-list routes tested; country/city return path, RU/EN, 500m radius tested in preview"
+}

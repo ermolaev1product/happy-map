@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-14",
+  "records": [
+    {
+      "candidate_ids": [
+        "osm:way:814716340"
+      ],
+      "name": "Jardin21",
+      "city": "Paris",
+      "within_paris_proper": true,
+      "address": "12a Rue Ella Fitzgerald, 75019 Paris",
+      "operating_status": "seasonally_closed_for_winter",
+      "status_effective_after": "2026-09-27T04:00:00+02:00",
+      "current_opening_hours": null,
+      "source": "https://www.jardin21.fr/events/la-fin-closing-du-jardin21",
+      "evidence_summary": "Official closing event on 26–27 September 2026 explicitly says the venue closes for winter. Seasonal footer/OSM hours must not be applied as current October opening hours.",
+      "action": "Keep as seasonal venue, do not publish as currently open. Paris address resolves polygon edge review."
+    },
+    {
+      "candidate_ids": [
+        "osm:node:10201239984",
+        "osm:way:1392683807"
+      ],
+      "name": "Annette K. Seine",
+      "city": "Paris",
+      "within_paris_proper": true,
+      "address": "Port de Javel Bas, 75015 Paris",
+      "operating_status": "indoor_bar_active_seasonal_quays_guinguette_closed",
+      "official_bar_hours": "We 18:00-00:00; Th-Sa 18:00-02:00",
+      "quays_guinguette_season": "May 1 through September 30",
+      "current_quays_guinguette_hours": null,
+      "sources": [
+        "https://www.annettek.fr/acces-horaires/",
+        "https://www.annettek.fr/fetes/",
+        "https://www.annettek.fr/seine/"
+      ],
+      "action": "One venue complex with bar and seasonal guinguette components. Preserve two OSM aliases, do not duplicate venue. Do not merge with separate Montparnasse branch.",
+      "notes": [
+        "Official FAQ contains conflicting season-specific schedules; preferred detailed access-hours page lists bar and guinguette separately. Public hours may change for holidays/private events."
+      ]
+    },
+    {
+      "candidate_ids": [
+        "osm:node:11883948069"
+      ],
+      "name": "Hôtel Maison Montmartre / Station M rooftop",
+      "city": "Paris",
+      "within_paris_proper": true,
+      "address": "32 Avenue de la Porte de Montmartre, angle 22 Rue Maurice Grimaud, 75018 Paris",
+      "source": "https://www.maisonmontmartre-kitchenm.fr/",
+      "action": "Official address confirms Paris 18 despite nearby Saint-Ouen and conservative boundary review band. Do not use restaurant/breakfast schedule as bar-only hours."
+    },
+    {
+      "candidate_ids": [
+        "osm:node:11849583769"
+      ],
+      "name": "La Terrasse du Stade",
+      "city": "Paris",
+      "within_paris_proper": true,
+      "address": "2 Rue du Commandant Guilbaud, 75016 Paris",
+      "operating_status": null,
+      "current_opening_hours": null,
+      "sources": [
+        "https://www.stadefrancais.com/wp-content/uploads/2024/10/brochure-page-a-page-22_10_24_compressed_compressed-1.pdf",
+        "https://www.privateaser.com/lieu/39413-La-terrasse-du-stade"
+      ],
+      "action": "Paris address supported by venue-host brochure. Hold operating status: booking platform marks closed, historical listings show hours; do not infer permanent closure or current operation."
+    }
+  ],
+  "existing_places_boundary_note": "All six existing Paris places in the 100m edge band are inside the official polygon and already carry Paris addresses sourced to paris.fr. Do not remove them automatically merely because of the conservative review band."
+}

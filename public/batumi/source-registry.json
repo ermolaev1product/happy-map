@@ -1,0 +1,161 @@
+{
+  "city": "Batumi",
+  "checkedAt": "2026-10-15T11:50:00Z",
+  "sources": [
+    {
+      "id": "candidate:8c33f0dc7865acb2",
+      "name": "Yolo Batumi",
+      "url": "https://yolo.ge/ru/location/batumi",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 16,
+      "note": "Current calendar and Pink October read; archives and out-of-city tours excluded.",
+      "type": "aggregator"
+    },
+    {
+      "id": "candidate:f4f9329ffc9f6fff",
+      "name": "InfoBatumi",
+      "url": "https://www.infobatumi.ge/ru/events/?lang=ru&sort_by=",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 4,
+      "note": "Current calendar and detail pages; serialized next-day ranges not taken as event ends.",
+      "type": "local_calendar"
+    },
+    {
+      "id": "candidate:ac0e8e37df569112",
+      "name": "Batumi Drama Theatre",
+      "url": "https://batumitheatre.ge/ka/calendar",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "imported",
+      "accessStatus": "public_page_read",
+      "count": 14,
+      "note": "Official calendar and eight repertoires; separate auditorium addresses.",
+      "type": "first_party_calendar"
+    },
+    {
+      "id": "candidate:da326bf9c004c808",
+      "name": "Take and Hike Telegram",
+      "url": "https://t.me/take_and_hike",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Public preview read. Oct15 moth lecture20:00 free with registration; exact year metadata pending.",
+      "type": "telegram"
+    },
+    {
+      "id": "source-6cb2f977cd5e",
+      "name": "Georgia Afisha",
+      "url": "https://t.me/georgiaafisha",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Public preview read; extracted earlyOctober posts mostly Tbilisi. No extra in-window Batumi event.",
+      "type": "telegram"
+    },
+    {
+      "id": "candidate:6412d46df32ba6fc",
+      "name": "MY BATUMI",
+      "url": "https://t.me/mybatumi_info",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_index_read",
+      "accessStatus": "public_index_read",
+      "count": 0,
+      "note": "Public indexed Pink October post corroborates programme; other posts not systematically audited.",
+      "type": "telegram"
+    },
+    {
+      "id": "candidate:d8df869f1327b6da",
+      "name": "Events Georgia",
+      "url": "https://t.me/events_ge/5994",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_embed_only",
+      "accessStatus": "public_embed_only",
+      "count": 0,
+      "note": "Direct campaign link exposes embed without text; contents not verified.",
+      "type": "telegram"
+    },
+    {
+      "id": "candidate:009497f82062c1d8",
+      "name": "Batumi quiz mafia yoga",
+      "url": "https://t.me/batymi_kviz_mafiya_yoga",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "third_party_index_only",
+      "accessStatus": "third_party_index_only",
+      "count": 0,
+      "note": "Direct preview unavailable; Telemetr index corroborates Oct17 acrylic event only.",
+      "type": "telegram"
+    },
+    {
+      "id": "candidate:c2f9b480eee27e96",
+      "name": "r/Batumi",
+      "url": "https://www.reddit.com/r/Batumi/comments/1x2pc73/activities/",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Recent discussion read; no exact public event verified.",
+      "type": "reddit"
+    },
+    {
+      "id": "candidate:03fdc799834b7f7d",
+      "name": "SoulShop",
+      "url": "https://soulshop.ge/en",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_page_read",
+      "accessStatus": "public_page_read",
+      "count": 0,
+      "note": "Verified address38 overrides directory34; social links discovered. Product health claims not used.",
+      "type": "first_party_place"
+    },
+    {
+      "id": "candidate:a300fbb574682d6c",
+      "name": "Batumi events legacy",
+      "url": "https://mail.batumievents.com/?lang=ru",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_stale_content",
+      "accessStatus": "public_stale_content",
+      "count": 0,
+      "note": "Legacy public material stale; no current event added.",
+      "type": "local_calendar"
+    },
+    {
+      "id": "candidate:058e5449ab72e815",
+      "name": "TKT ANIRAM",
+      "url": "https://tkt.ge/show/35345/aniram",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "dynamic_shell_only",
+      "accessStatus": "dynamic_shell_only",
+      "count": 0,
+      "note": "Dynamic ticket shell only; event data from InfoBatumi.",
+      "type": "ticketing"
+    },
+    {
+      "id": "candidate:d4fe49181545cd6d",
+      "name": "Biletebi Night Show Band",
+      "url": "https://biletebi.ge/seat-selection/59fb1f51-b145-4f9e-9298-99a2d64e1b55",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "dynamic_shell_only",
+      "accessStatus": "dynamic_shell_only",
+      "count": 0,
+      "note": "Organizer-linked dynamic ticket shell; detail from InfoBatumi.",
+      "type": "ticketing"
+    },
+    {
+      "id": "candidate:bc036d289c0041bf",
+      "name": "Батуми афиша | квиз йога настолки мафия",
+      "url": "https://t.me/batumi_ge",
+      "checkedAt": "2026-10-15T10:30:00Z",
+      "status": "public_mirror_content_read_direct_channel_unavailable",
+      "accessStatus": "public_mirror_content_read_direct_channel_unavailable",
+      "count": 0,
+      "note": "Three exact-year announcements verified through public Telemetrio mirror, including two today and one tomorrow. Original channel fetch unavailable; mirror explicitly credits organizers and contains2026 date tags. No joins or messages.",
+      "type": "telegram"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

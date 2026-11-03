@@ -1,0 +1,102 @@
+data/raw-tkt/
+__pycache__/
+*.pyc
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/.vinext/
+/out/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+next-env.d.ts
+/dist/
+/.wrangler/
+# Checkout-local execution profile and tool state; never publish them.
+/.sites-runtime/
+/.agents/
+/.codex/
+/outputs/
+/work/
+
+.dev.vars
+tsconfig.tsbuildinfo
+
+# Generated Android payload and intermediate build; client source remains in public/.
+/android/assets/
+/android/build/
+/android/asset-manifest.json
+
+# Local credentials and generated artifacts
+.env
+.env.*
+!.env.example
+.dev.vars*
+node_modules/
+.sites-runtime/
+.wrangler/
+*.apk
+*.aab
+release-archive/
+
+*.idsig
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# Restored from checked-in compressed datasets
+/data/city-expansion/packets/minsk.json
+/data/city-expansion/packets/tashkent.json
+/data/city-expansion/research/minsk.json
+/data/city-expansion/research/tashkent.json
+/data/coverage-20261016/release.json
+/data/research-moscow-20261014/moskino-batch.json
+/lib/place-catalog.json
+/public/berlin/places.json
+/public/en/berlin/places.json
+/public/en/events.json
+/public/en/london/places.json
+/public/en/moscow/events.json
+/public/en/paris/events.json
+/public/en/paris/paris-data-derived.json
+/public/en/paris/places.json
+/public/en/prague/places.json
+/public/en/research/bars-2026-10-14/bar-registry.json
+/public/events.json
+/public/london/places.json
+/public/moscow/events.json
+/public/paris/paris-data-derived.json
+/public/paris/places.json
+/public/prague/places.json
+/public/research/bars-2026-10-14/bar-registry.json

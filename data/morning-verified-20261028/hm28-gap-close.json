@@ -1,0 +1,212 @@
+{
+  "checkedAt": "2026-10-28T05:34:12.318510+00:00",
+  "status": "verified_gap_close_candidates",
+  "candidates": [
+    {
+      "id": "yv-toms-46274-20261102",
+      "cityId": "yerevan",
+      "title": "Сона Шахгельдян",
+      "titleEn": "Sona Shahgeldyan",
+      "category": "music",
+      "date": "2026-11-02",
+      "time": "20:00",
+      "startAt": "2026-11-02T20:00:00+04:00",
+      "timezone": "Asia/Yerevan",
+      "endAt": null,
+      "venue": "Hin Ani Music Hall",
+      "venueId": "yv-toms:2811",
+      "address": "19 Sayat-Nova Avenue, Yerevan",
+      "lat": 40.183134,
+      "lng": 44.519837,
+      "coordinateSource": "https://yandex.com/maps/10262/yerevan/house/sayat_novayi_poghota_19/YE0YcwZpT0IHQFpqfX15cn9lbA%3D%3D/inside/",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": {
+        "rawFile": "/workspace/shared/hm28-eurasia-evidence/hinani-yandex-building.html",
+        "namedObjectId": "43521540985",
+        "namedObjectTitle": "Hin Ani Music Hall",
+        "namedObjectAddress": "Sayat-Nova Avenue, 19",
+        "namedObjectCoordinates": [
+          44.519837,
+          40.183134
+        ],
+        "note": "Exact concert-hall tenant point extracted from public building listing; not building centre or viewport."
+      },
+      "price": 6000,
+      "priceMax": 8000,
+      "currency": "AMD",
+      "min": true,
+      "priceNote": "Tickets AMD 6,000 / 7,000 / 8,000 per seat; minimum ticket quantities depend on table size.",
+      "ageRestriction": "5+",
+      "accessNote": "Children under5 and sportswear not permitted; children5+ require full ticket. Table minimums:2 seats→2tickets,3→2,4→3,5–6→4. Some second-hall tables have restricted view. No refunds within72hours.",
+      "soldOut": null,
+      "availabilityVerified": false,
+      "availabilityNote": "Public ticket order advertised; seat inventory not checked.",
+      "source": "Tomsarkgh.am",
+      "sourceUrl": "https://www.tomsarkgh.am/en/event/46274/%D5%8D%D5%B8%D5%B6%D5%A1-%D5%87%D5%A1%D5%B0%D5%A3%D5%A5%D5%AC%D5%A4%D5%B5%D5%A1%D5%B6.html",
+      "checkedAt": "2026-10-28T05:34:12.318510+00:00",
+      "yearEvidence": "Fresh primary HTML meta itemprop=startDate content=\"2026-11-02 20:00\"; visible Nov2 20:00 agrees.",
+      "evidence": [
+        {
+          "url": "https://www.tomsarkgh.am/en/event/46274/%D5%8D%D5%B8%D5%B6%D5%A1-%D5%87%D5%A1%D5%B0%D5%A3%D5%A5%D5%AC%D5%A4%D5%B5%D5%A1%D5%B6.html",
+          "rawFile": "/workspace/shared/hm28-eurasia-evidence/tomsarkgh-sona-46274.html",
+          "startDate": "2026-11-02 20:00",
+          "venueUrl": "https://www.tomsarkgh.am/en/venue/2811/Hin-Ani-Music-Hall.html",
+          "checkedAt": "2026-10-28T05:31:00Z"
+        }
+      ],
+      "placeId": "yv-toms:2811",
+      "kind": "event",
+      "status": "scheduled",
+      "publicationStatus": "verified",
+      "researchBatch": "morning-verified-20261028",
+      "programmeId": "programme-a18adf266e2b0c1b",
+      "language": null,
+      "mandatoryFees": null,
+      "sourceURLs": [
+        "https://www.tomsarkgh.am/en/event/46274/%D5%8D%D5%B8%D5%B6%D5%A1-%D5%87%D5%A1%D5%B0%D5%A3%D5%A5%D5%AC%D5%A4%D5%B5%D5%A1%D5%B6.html"
+      ]
+    },
+    {
+      "id": "astana-shaker-ff8eb85f-e165-448d-968c-690323e99f11",
+      "cityId": "astana",
+      "title": "Шейкер Квиз — Телеквиз #3",
+      "titleEn": "Shaker Quiz — TV Quiz #3",
+      "category": "games",
+      "date": "2026-11-02",
+      "time": "20:00",
+      "startAt": "2026-11-02T20:00:00+05:00",
+      "timezone": "Asia/Almaty",
+      "endAt": null,
+      "venue": "Chili Grill",
+      "venueId": "osm:node:5889815192",
+      "placeId": "osm:node:5889815192",
+      "address": "ул. Желтоксан, 2Т, Астана",
+      "lat": 51.161645,
+      "lng": 71.419663,
+      "coordinateSource": "https://yandex.kz/maps/org/chili_grill_bar/178759956257/",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": {
+        "rawFile": "/workspace/shared/hm28-eurasia-evidence/chili-yandex.html",
+        "namedObjectId": "178759956257",
+        "namedObjectTitle": "Chili Grill",
+        "namedObjectAddress": "Астана, ул. Желтоксан, 2Т",
+        "namedObjectCoordinates": [
+          71.419663,
+          51.161645
+        ],
+        "storedPlaceMatch": "osm:node:5889815192 namedЧилигриль at51.1618003,71.419618 is ~18m away; same namedvenue/address, not Harats in samebuilding."
+      },
+      "price": 3000,
+      "currency": "KZT",
+      "min": false,
+      "priceNote": "Published participation price: KZT 3,000; food and drink optional.",
+      "soldOut": null,
+      "availabilityVerified": false,
+      "availabilityNote": "Organizer lists registration open; no form submitted or remaining capacity checked.",
+      "accessNote": "Registration encouraged; exact game permits teams of1–12. GeneralFAQallows solo visitors and says regular games are free for children12andunder; confirm game-specific conditions.",
+      "source": "Shaker Quiz Astana",
+      "sourceUrl": "https://astana.shakerquiz.ru/",
+      "checkedAt": "2026-10-28T05:31:42.093368+00:00",
+      "yearEvidence": "Fresh organizer __NEXT_DATA__ gameff8eb85f... alias3-television-2026-11-02 and event_time2026-11-02T20:00:00.000Z explicitly establish2026. Published visible organizer listing showsNov2Monday20:00local; source usesZ for displayed wallclock, do not shift it.",
+      "evidence": [
+        {
+          "url": "https://astana.shakerquiz.ru/",
+          "rawFile": "/workspace/shared/hm28-eurasia-evidence/astana-shaker.html",
+          "game": {
+            "id": "ff8eb85f-e165-448d-968c-690323e99f11",
+            "alias": "3-television-2026-11-02",
+            "number": "3",
+            "event_time": "2026-11-02T20:00:00.000Z",
+            "price": 3000,
+            "min_members_count": 1,
+            "max_members_count": 12,
+            "status": "Publish",
+            "visibility": "Visible",
+            "name": "ТЕЛЕКВИЗ"
+          },
+          "venue": {
+            "id": "90db8c33-0859-4cca-8b00-84c30ee33206",
+            "name": "Chili Grill",
+            "street": "Желтоксан 2Т",
+            "house_number": "Желтоксан 2Т",
+            "location_info": null,
+            "game_id": "ff8eb85f-e165-448d-968c-690323e99f11"
+          },
+          "publicListingText": "2 ноября • пн • 20:00; ТЕЛЕКВИЗ #3; Chili Grill; Желтоксан2Т; 3000₸; Идёт регистрация",
+          "displayTimeEvidence": "Fresh indexed organizer listing read by web search; public page fullNextdata matched by exactgameid. No inferred weekly recurrence."
+        }
+      ],
+      "kind": "event",
+      "status": "scheduled",
+      "publicationStatus": "verified",
+      "researchBatch": "morning-verified-20261028",
+      "programmeId": "programme-8da6dc9bc522f228",
+      "language": null,
+      "mandatoryFees": null,
+      "sourceURLs": [
+        "https://astana.shakerquiz.ru/"
+      ]
+    }
+  ],
+  "dedup": [
+    {
+      "cityId": "yerevan",
+      "baselineEventsOnDate": [],
+      "sameEventInFrozen468": false
+    },
+    {
+      "cityId": "astana",
+      "baselineEventsOnDate": [],
+      "sameEventInFrozen468": false
+    }
+  ],
+  "places": [],
+  "sourceAudit": [
+    {
+      "url": "https://astana.shakerquiz.ru/",
+      "checkedAt": "2026-10-28T05:31:42.093368+00:00",
+      "file": "/workspace/shared/hm28-eurasia-evidence/astana-shaker.html",
+      "status": 200,
+      "finalUrl": "https://astana.shakerquiz.ru/",
+      "bytes": 224487
+    },
+    {
+      "url": "https://www.tomsarkgh.am/en/venue/2811/Hin-Ani-Music-Hall.html",
+      "checkedAt": "2026-10-28T05:31:42.094171+00:00",
+      "file": "/workspace/shared/hm28-eurasia-evidence/hinani-toms-venue.html",
+      "status": 200,
+      "finalUrl": "https://www.tomsarkgh.am/en/venue/2811/Hin-Ani-Music-Hall.html",
+      "bytes": 297396
+    },
+    {
+      "url": "https://yandex.com/maps/10262/yerevan/house/sayat_novayi_poghota_19/YE0YcwZpT0IHQFpqfX15cn9lbA%3D%3D/inside/",
+      "checkedAt": "2026-10-28T05:31:42.094891+00:00",
+      "file": "/workspace/shared/hm28-eurasia-evidence/hinani-yandex-building.html",
+      "status": 200,
+      "finalUrl": "https://yandex.com/maps/10262/yerevan/house/sayat_novayi_poghota_19/YE0YcwZpT0IHQFpqfX15cn9lbA%3D%3D/inside/",
+      "bytes": 646803
+    },
+    {
+      "url": "https://yandex.kz/maps/org/chili_grill_bar/178759956257/",
+      "checkedAt": "2026-10-28T05:31:42.095799+00:00",
+      "file": "/workspace/shared/hm28-eurasia-evidence/chili-yandex.html",
+      "status": 200,
+      "finalUrl": "https://yandex.kz/maps/org/chili_grill_bar/178759956257/",
+      "bytes": 587534
+    }
+  ],
+  "held": [
+    {
+      "cityId": "astana",
+      "title": "Антипонедельник Standup",
+      "sourceUrl": "https://ticketon.kz/stand-up/event/tckt2-antiponedelnik-standup-pozitiv-2nov",
+      "status": "held_primary_detail403_not_retried",
+      "reason": "Searchindex alone shows2026Nov2 20:30,2140KZT,21+,PozitivGabdullina18. No accessible alternative organizer fullannouncement established. Do not publish from blocked detail."
+    }
+  ],
+  "limits": [
+    "No blockedEsoraorTicketondetailrequests made. Searchresultsincidentallyincludedtheirindexed snippets; not used asprimaryproof.",
+    "Yandex buildingwebopen returned429 after an independent rawrequestwasalready launched inparallel; rawrequestreturned200. No furtherretry after429.",
+    "Existingfrozenpacket unchanged; parent sole writer may addthe2validated candidates afterintegrationQA."
+  ]
+}

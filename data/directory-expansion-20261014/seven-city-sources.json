@@ -1,0 +1,940 @@
+{
+  "checkedOn": "2026-10-14",
+  "scope": "Bounded source audit and official Palo Alto food-register acquisition; no checkout modifications/publication",
+  "completeCityCoverage": false,
+  "sources": [
+    {
+      "city": "london",
+      "url": "https://api.ratings.food.gov.uk/help",
+      "status": "read",
+      "notes": "Free public FHRS v2 API, x-api-version:2 required, no registration. Use local-authority bulk files; hygiene rating is not culinary quality.",
+      "evidencedCount": null
+    },
+    {
+      "city": "london",
+      "url": "https://api.ratings.food.gov.uk/Help/BestPractices",
+      "status": "search_result_read",
+      "notes": "Official docs recommend bulk files from local authority endpoint.",
+      "evidencedCount": null
+    },
+    {
+      "city": "london",
+      "url": "https://ratings.food.gov.uk/open-data",
+      "status": "read",
+      "notes": "Official downloadable records of food businesses; restaurants, cafes, pubs, takeaways, food shops. Delegate fetching to parent London worker.",
+      "evidencedCount": null
+    },
+    {
+      "city": "palo-alto",
+      "url": "https://api.us.socrata.com/api/catalog/v1?domains=data.sccgov.org&search_context=data.sccgov.org&q=food",
+      "status": "downloaded",
+      "notes": "Discovered authoritative current BUSINESS, INSPECTIONS, VIOLATIONS and FEED_INFO resource IDs.",
+      "evidencedCount": null
+    },
+    {
+      "city": "palo-alto",
+      "url": "https://data.sccgov.org/resource/vuw7-jmjk.json?$limit=50000",
+      "status": "downloaded",
+      "notes": "9,714 county food permit records;625 Palo Alto/Stanford;293 selected public-facing dining venues. Exact original coords.332 held institutional/ambiguous/storage/private/non-dining permits.",
+      "evidencedCount": 9714
+    },
+    {
+      "city": "palo-alto",
+      "url": "https://data.sccgov.org/resource/2u2d-8jej.json?$limit=50000",
+      "status": "downloaded",
+      "notes": "23,393 inspections downloaded.1,266 relevant retained with comments stripped to reduce disk; selected venues have no latest Red closure. Latest inspection does not establish currently open.",
+      "evidencedCount": 23393
+    },
+    {
+      "city": "palo-alto",
+      "url": "https://data.sccgov.org/stories/s/SCC-DEH-Food-Facility-Inspections-Data/8ptb-6646/",
+      "status": "search_content_read_direct_timeout",
+      "notes": "Official explanatory page says datasets updated daily; direct web open timed out. Public Socrata API succeeded.",
+      "evidencedCount": null
+    },
+    {
+      "city": "paris",
+      "url": "https://www.apur.org/fr/open-data-cartes/open-data/base-donnees-commerces-parisiens",
+      "status": "read",
+      "notes": "BDCOM2023:83,154 premises,60,845 shops/services.ODbL, geographic positions and activity codes. Not current2026 live business registry; no business-name field described. Use for coverage-gap detection, not invented named pins.",
+      "evidencedCount": 60845
+    },
+    {
+      "city": "paris",
+      "url": "https://data.smartidf.services/explore/dataset/bdcom-2023/",
+      "status": "search_result_read",
+      "notes": "2023 commercial census mirror. Bulk not fetched.",
+      "evidencedCount": null
+    },
+    {
+      "city": "moscow",
+      "url": "https://www.restoclub.ru/msk/search",
+      "status": "read",
+      "notes": "8,600 directory places displayed. Use discovery and official venue corroboration; not bulk-copied.",
+      "evidencedCount": 8600
+    },
+    {
+      "city": "moscow",
+      "url": "https://yandex.ru/maps/213/moscow/category/restaurant/184106394/",
+      "status": "read",
+      "notes": "Public result page redirected yandex.com; venue names/addresses available, no full export acquired. Example Dr.Zhivago Mokhovaya15/1s1 and Beluga same building.",
+      "evidencedCount": null
+    },
+    {
+      "city": "moscow",
+      "url": "https://data.mos.ru/",
+      "status": "search_not_successful",
+      "notes": "Targeted web queries did not expose a current comprehensive food-venue bulk dataset; do not claim acquired.",
+      "evidencedCount": null
+    },
+    {
+      "city": "tbilisi",
+      "url": "https://kompas.ge/tbilisi/catalog/restaurant",
+      "status": "read",
+      "notes": "Georgian restaurant directory with addresses. Discovery source; not a bulk import, coverage not quantified.",
+      "evidencedCount": null
+    },
+    {
+      "city": "tbilisi",
+      "url": "https://relax.ge/ge/cat/tbilisi/restaurants/coffee-list/",
+      "status": "search_result_read",
+      "notes": "Georgian coffee/restaurants directory candidate.",
+      "evidencedCount": null
+    },
+    {
+      "city": "tbilisi",
+      "url": "https://tbilisieats.ge/?lang=tr",
+      "status": "search_result_read",
+      "notes": "City directory with neighborhood categories; no bulk export confirmed.",
+      "evidencedCount": null
+    },
+    {
+      "city": "belgrade",
+      "url": "https://www.restoranibeograd.com/en/",
+      "status": "read",
+      "notes": "32 restaurant results on landing page with names/addresses. Commercial booking directory, not complete city inventory.",
+      "evidencedCount": 32
+    },
+    {
+      "city": "belgrade",
+      "url": "https://guide.michelin.com/us/en/belgrade-region/belgrade/restaurants",
+      "status": "search_result_read",
+      "notes": "21 selected restaurants plus surroundings; curated, cannot stand for all public venues.",
+      "evidencedCount": 21
+    },
+    {
+      "city": "flensburg",
+      "url": "https://www.lykke-flensburg.de/",
+      "status": "read",
+      "notes": "Primary confirms two distinct branches:GroßeStraße73 and Norderstraße109. Earlier OSM75 conflict needs exact geolocation before mapping.",
+      "evidencedCount": null
+    },
+    {
+      "city": "flensburg",
+      "url": "https://norderliebe.com/",
+      "status": "read",
+      "notes": "Primary CaféNorderliebe,Norderstraße1. Instagram linked; content failed to fetch.",
+      "evidencedCount": null
+    },
+    {
+      "city": "flensburg",
+      "url": "https://ollis-weinlounge.de/",
+      "status": "read",
+      "notes": "Primary OllisWeinlounge,GroßeStraße52. Instagram linked; content failed to fetch.",
+      "evidencedCount": null
+    }
+  ],
+  "searchCoverage": {
+    "engine": "available web search, not 20-30 numbered Google pages",
+    "languages": [
+      "Russian",
+      "English",
+      "Georgian",
+      "German",
+      "French"
+    ],
+    "threads": "Targeted London/Paris/Flensburg Threads searches returned no usable verified venue profiles; not imported",
+    "instagram": "Three official-linked Flensburg profiles attempted; fetch returned InternalError. Existing bars research has official-linked Paris/PaloAlto handles; posts not claimed read."
+  },
+  "telegramFresh": [
+    {
+      "city": "moscow",
+      "channel": "raidedrests",
+      "checkedAt": "2026-10-14T15:54:12.695568+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/raidedrests",
+          "finalUrl": "https://t.me/s/raidedrests",
+          "postsWithText": 17,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/raidedrests?before=9112",
+          "finalUrl": "https://t.me/s/raidedrests?before=9112",
+          "postsWithText": 16,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/raidedrests?before=9089",
+          "finalUrl": "https://t.me/s/raidedrests?before=9089",
+          "postsWithText": 15,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 48
+    },
+    {
+      "city": "moscow",
+      "channel": "vkusonomika",
+      "checkedAt": "2026-10-14T15:54:12.599437+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/vkusonomika",
+          "finalUrl": "https://t.me/s/vkusonomika",
+          "postsWithText": 11,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/vkusonomika?before=10540",
+          "finalUrl": "https://t.me/s/vkusonomika?before=10540",
+          "postsWithText": 7,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/vkusonomika?before=10514",
+          "finalUrl": "https://t.me/s/vkusonomika?before=10514",
+          "postsWithText": 7,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 25
+    },
+    {
+      "city": "tbilisi",
+      "channel": "tbilisieda",
+      "checkedAt": "2026-10-14T15:54:12.491817+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/tbilisieda",
+          "finalUrl": "https://t.me/s/tbilisieda",
+          "postsWithText": 12,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/tbilisieda?before=8367",
+          "finalUrl": "https://t.me/s/tbilisieda?before=8367",
+          "postsWithText": 13,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/tbilisieda?before=8345",
+          "finalUrl": "https://t.me/s/tbilisieda?before=8345",
+          "postsWithText": 8,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 33
+    },
+    {
+      "city": "tbilisi",
+      "channel": "tbs_foodizm",
+      "checkedAt": "2026-10-14T15:54:12.397112+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/tbs_foodizm",
+          "finalUrl": "https://t.me/s/tbs_foodizm",
+          "postsWithText": 12,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/tbs_foodizm?before=5447",
+          "finalUrl": "https://t.me/s/tbs_foodizm?before=5447",
+          "postsWithText": 9,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/tbs_foodizm?before=5424",
+          "finalUrl": "https://t.me/s/tbs_foodizm?before=5424",
+          "postsWithText": 7,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 28
+    },
+    {
+      "city": "belgrade",
+      "channel": "witravel_po_belgradu",
+      "checkedAt": "2026-10-14T15:54:14.909529+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/witravel_po_belgradu",
+          "finalUrl": "https://t.me/s/witravel_po_belgradu",
+          "postsWithText": 13,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/witravel_po_belgradu?before=2976",
+          "finalUrl": "https://t.me/s/witravel_po_belgradu?before=2976",
+          "postsWithText": 17,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/witravel_po_belgradu?before=2956",
+          "finalUrl": "https://t.me/s/witravel_po_belgradu?before=2956",
+          "postsWithText": 20,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 50
+    },
+    {
+      "city": "belgrade",
+      "channel": "eda_bg",
+      "checkedAt": "2026-10-14T15:54:13.160827+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/eda_bg",
+          "finalUrl": "https://t.me/eda_bg",
+          "postsWithText": 0,
+          "http": 200
+        }
+      ],
+      "status": "unreadable_or_no_public_posts",
+      "postsRead": 0
+    },
+    {
+      "city": "flensburg",
+      "channel": "ganzebaeckereiFL",
+      "checkedAt": "2026-10-14T15:54:14.445551+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/ganzebaeckereiFL",
+          "finalUrl": "https://t.me/s/ganzebaeckereiFL",
+          "postsWithText": 19,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/ganzebaeckereiFL?before=440",
+          "finalUrl": "https://t.me/s/ganzebaeckereiFL?before=440",
+          "postsWithText": 16,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/ganzebaeckereiFL?before=418",
+          "finalUrl": "https://t.me/s/ganzebaeckereiFL?before=418",
+          "postsWithText": 12,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 47
+    }
+  ],
+  "telegramPreviouslyReadSameDay": [
+    {
+      "city": "paris",
+      "channel": "marie_paris",
+      "checkedAt": "2026-10-14T03:25:11.767827+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/marie_paris",
+          "finalUrl": "https://t.me/s/marie_paris",
+          "postsWithText": 8,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/marie_paris?before=11015",
+          "finalUrl": "https://t.me/s/marie_paris?before=11015",
+          "postsWithText": 10,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/marie_paris?before=10987",
+          "finalUrl": "https://t.me/s/marie_paris?before=10987",
+          "postsWithText": 4,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 22
+    },
+    {
+      "city": "paris",
+      "channel": "afishaparis",
+      "checkedAt": "2026-10-14T03:25:12.268492+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/afishaparis",
+          "finalUrl": "https://t.me/s/afishaparis",
+          "postsWithText": 19,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/afishaparis?before=1236",
+          "finalUrl": "https://t.me/s/afishaparis?before=1236",
+          "postsWithText": 19,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/afishaparis?before=1215",
+          "finalUrl": "https://t.me/s/afishaparis?before=1215",
+          "postsWithText": 20,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 58
+    },
+    {
+      "city": "paris",
+      "channel": "ideacityprs",
+      "checkedAt": "2026-10-14T03:25:11.990235+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/ideacityprs",
+          "finalUrl": "https://t.me/s/ideacityprs",
+          "postsWithText": 20,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/ideacityprs?before=281",
+          "finalUrl": "https://t.me/s/ideacityprs?before=281",
+          "postsWithText": 20,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/ideacityprs?before=261",
+          "finalUrl": "https://t.me/s/ideacityprs?before=261",
+          "postsWithText": 16,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 56
+    },
+    {
+      "city": "london",
+      "channel": "afishalondon",
+      "checkedAt": "2026-10-14T03:25:12.134892+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/afishalondon",
+          "finalUrl": "https://t.me/s/afishalondon",
+          "postsWithText": 16,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/afishalondon?before=11056",
+          "finalUrl": "https://t.me/s/afishalondon?before=11056",
+          "postsWithText": 18,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/afishalondon?before=11033",
+          "finalUrl": "https://t.me/s/afishalondon?before=11033",
+          "postsWithText": 18,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 52
+    },
+    {
+      "city": "london",
+      "channel": "russiansinlnd",
+      "checkedAt": "2026-10-14T03:25:11.699169+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/russiansinlnd",
+          "finalUrl": "https://t.me/s/russiansinlnd",
+          "postsWithText": 11,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/russiansinlnd?before=54767",
+          "finalUrl": "https://t.me/s/russiansinlnd?before=54767",
+          "postsWithText": 4,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/russiansinlnd?before=54746",
+          "finalUrl": "https://t.me/s/russiansinlnd?before=54746",
+          "postsWithText": 12,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 27
+    },
+    {
+      "city": "london",
+      "channel": "ideacityldn",
+      "checkedAt": "2026-10-14T03:25:11.814729+00:00",
+      "pages": [
+        {
+          "url": "https://t.me/s/ideacityldn",
+          "finalUrl": "https://t.me/s/ideacityldn",
+          "postsWithText": 20,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/ideacityldn?before=275",
+          "finalUrl": "https://t.me/s/ideacityldn?before=275",
+          "postsWithText": 20,
+          "http": 200
+        },
+        {
+          "url": "https://t.me/s/ideacityldn?before=255",
+          "finalUrl": "https://t.me/s/ideacityldn?before=255",
+          "postsWithText": 16,
+          "http": 200
+        }
+      ],
+      "status": "public_posts",
+      "postsRead": 56
+    }
+  ],
+  "telegramNewPostsRead": 231,
+  "candidateReviewQueue": [
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9112",
+      "publishedAt": "2026-10-12T16:55:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Пиццерия  Entra ,  открывшаяся  в марте на -1 этаже «Башни Федерация» в Москва-Сити (Пресненская набережная, 12), закрылась  #навсегда .   Пицца не прошла испытание офисными обедами.   Спасибо читателю и нашему    РестоСкауту    за информацию и фото через    @restbot   .    #закрытие  |  #деловойцентр   #москвасити"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9113",
+      "publishedAt": "2026-10-12T18:18:39+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   Сегодня на месте части корейского ресторана Hite на Большой Серпуховской улице, 12/11с2  открылась  третья рюмочная  «Алёша и Графин» .   Для части нашей редакции оба «Алёши» были главным местом в 2026 году. Мы ходили туда постоянно, при каждой удобной (и неудобной) возможности:    https://t.me/rickyamble/504    Очень рады их открытию!  Спасибо"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9114",
+      "publishedAt": "2026-10-12T19:20:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На Ленинградском вокзале (Комсомольская площадь, 3) открылся корнер  «Вау Вафли» .   Жёсткая конкуренция за пассажиров там.   Спасибо читателю и нашему    РестоСкауту    за информацию и фото через    @restbot   .    #открытие  |  #комсомольская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9115",
+      "publishedAt": "2026-10-13T06:07:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Бар  «Подвал Бродячей Собаки»  на 1-й Тверской-Ямской улице, 8,  закрывшийся  на технические работы в конце июля, в итоге закрылся  #навсегда .   Технические работы довели до самоустранения.   Спасибо читателям за информацию через    @restbot   .    #закрытие  |  #маяковская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9116",
+      "publishedAt": "2026-10-13T07:16:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На Коломенской улице, 7с2 открылся «Шеф донер».   Меню в первом комментарии.   Спасибо читателю и нашему    РестоСкауту    за информацию и фото через    @restbot   .    #открытие  |  #нагатинскийзатон"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9117",
+      "publishedAt": "2026-10-13T08:18:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На Угрешской улице, 31к3 открылись: — кофейня  «Кофе мерч» , —  «Муслим донер»  с говяжьими донерами по 350₽.   У этой пристройки подозрительно насыщенная гастрономическая жизнь.   Спасибо читателю за информацию и фото через    @restbot   .    #открытие  |  #угрешская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9119",
+      "publishedAt": "2026-10-13T09:20:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Корейский корнер  «ХанЧу»  в фудмолле «Привоз» (улица Авиаконструктора Миля, 3А) закрылся  #навсегда .   Освободилось место для очередной вьетнамки или шаурмы.   Сообщайте, пожалуйста, про закрытия через бота    @restbot   .    #закрытие  |  #жулебино   #котельники"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9120",
+      "publishedAt": "2026-10-13T10:22:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На месте «Красного дракона» в Старокирочном переулке, 16/2с1 открылась третья в Москве кофейня из Уфы  «Мама варит кофе» .   Студенты Бауманки будут рады.   Спасибо читателям и нашему    РестоСкауту    за информацию и фото через    @restbot   .    #открытие  |  #бауманская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9121",
+      "publishedAt": "2026-10-13T13:27:25+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   12 октября в ЖК «Зорге 9» на улице Зорге, 9Ас5  открылся  «DOHA лаунж».   До Дохи теперь можно на такси, если только оно работает...   Спасибо читателю за информацию и фото через    @restbot   .    #открытие  |  #полежаевская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9122",
+      "publishedAt": "2026-10-13T14:28:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Кафе  «АндерСон»  на Жулебинском бульваре, 5 закрылось  #навсегда .   Кстати, в какие заведения вы обычно ходите с детьми?   Сообщайте, пожалуйста, про закрытия через бота    @restbot   .    #закрытие  |  #лермонтовскийпроспект"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9123",
+      "publishedAt": "2026-10-13T15:29:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Пекарня  365  на улице Архитектора Щусева, 2к2 закрылась  #навсегда .   Рубрика «офигенный зум».   Спасибо читателю за информацию и фото через    @restbot   .    #закрытие  |  #зил"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9125",
+      "publishedAt": "2026-10-13T16:30:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   В ТЦ «Калужский» (Профсоюзная улица, 61А) открылся кофейный остров с мороженым  One More Coffee .   Отзывы явно оставляли друзья владельцев.   Спасибо читателю за информацию и фото через    @restbot   .    #открытие  |  #калужская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9126",
+      "publishedAt": "2026-10-13T17:31:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   8 октября на месте бара  Mandarin Combustible  в Малом Черкасском переулке, 2  открылся  ресторан  «Мандарин»  с премиальной кальянной картой, межконтинентальной кухней и коктейлями.   Для нас кальяны в ресторане — это ред-флаг.   Спасибо читателям за информацию и фото через    @restbot   .    #открытие  |  #лубянка   #китайгород"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9127",
+      "publishedAt": "2026-10-13T18:32:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Кафе  Beze  в ЖК «Зиларт» (улица Архитектора Щусева, 2к2), которое год назад  закрывалось , потом снова открывалось, в итоге закрылось  #навсегда .   С таким объявлением, может, и хорошо, что закрылись. Рубрика «офигенный зум».   Спасибо читателям за информацию и фото через    @restbot   .    #закрытие  |  #зил"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9129",
+      "publishedAt": "2026-10-14T08:41:30+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   19 сентября на Винницкой улице, 8к2  открылась  кофейня из Дагестана  Donutsday .   Самый дагестанский район Москвы.    #открытие  |  #раменки   #ломоносовскийпроспект"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9130",
+      "publishedAt": "2026-10-14T09:45:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На месте  «Шоколадницы»  на улице Народного Ополчения, 49к1 открылась кулинария  «Мама Китчен» .   Пока там пустовато: и по людям, и по выбору блюд.   Спасибо читателям за информацию и фото через    @restbot   .    #открытие  |  #октябрьскоеполе   #панфиловская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9131",
+      "publishedAt": "2026-10-14T10:45:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На месте «Куринарии» в бизнес-парке «Станколит» (Складочная улица, 1с1) открылся корнер «Нептун».   Готовят стейки, салаты и горячие блюда.   Спасибо читателю за информацию и фото через    @restbot   .    #открытие  |  #савеловская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9089",
+      "publishedAt": "2026-10-10T15:49:02+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   Новые кофейни и киоски Cofix: — на Курском вокзале (улица Земляной Вал, 29, -1 этаж); —  на МЦК Лужники  ( улица Хамовнический Вал, 7с1 ); —  на МЦД Крюково  ( Зеленоград, улица Ленина ); —  на МЦД Выхино .   Повторяют стратегию    One and Double   .   Спасибо читателю и нашему    РестоСкауту    за информацию и фото через    @restbot   .    #от"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9093",
+      "publishedAt": "2026-10-10T16:50:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На Страстном бульваре, 6с1  открылась  новая «Шаурма».   Шаурма от 320 рублей + Pepsi в подарок. Меню в первом комментарии.   Спасибо читателю и нашему    РестоСкауту    за информацию и фото через    @restbot   .    #открытие  |  #пушкинская   #чеховская   #тверская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9094",
+      "publishedAt": "2026-10-10T17:51:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На месте «Гурмаркета» в Переведеновском переулке, 13с18  открылась  вьетнамская кухня  «Фо Бистро» .   Шаурма и фо бо продолжают борьбу за лидерство по числу открытий.   Спасибо читателю за информацию и фото через    @restbot   .    #открытие  |  #электрозаводская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9095",
+      "publishedAt": "2026-10-10T18:52:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Кофейня  «Одди» ,  открывшаяся  на -1 этаже Ленинградского вокзала (Комсомольская площадь, 3), закрылась  #навсегда .   Первый пошёл.   Спасибо читателю за информацию и фото через    @restbot   .    #закрытие  |  #комсомольская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9097",
+      "publishedAt": "2026-10-11T06:30:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   В фудмолле «Депо Три Вокзала» (Новорязанская улица, 23с1) открылся корнер тайской кухни Seeyam.   #открытие  |  #комсомольская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9098",
+      "publishedAt": "2026-10-11T07:36:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Бар  «Кирпи4» ,  открывшийся  в августе прошлого года на месте  Lakmus Bar & Bottle Shop  в Конном переулке, 12, закрылся  #навсегда .   Наш читатель с сожалением говорит, что был хороший бар.   Спасибо читателю за информацию и фото через    @restbot   .    #закрытие  |  #шаболовская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9099",
+      "publishedAt": "2026-10-11T19:17:25+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   Вчера на месте  Paul  на Лесной улице, 7  открылась  флагманская кофейня  ABC House .   Осенний подарок белым воротничкам.   Спасибо читателям за информацию и фото через    @restbot   .    #открытие  |  #белорусская   #менделеевская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9100",
+      "publishedAt": "2026-10-12T08:29:58+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Ресторан  Patriki  на Малой Бронной улице, 21/13с2 переходит на режим работы с пятницы по воскресенье. В остальные дни будет работать только на банкеты.   На    сайте    при этом указано, что \"Ресторан Закрыт\" (UPD: уже нет), но Виталий Истомин опроверг полное закрытие.   Спасибо читателям за информацию через    @restbot   .    #закрытие  |  #п"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9102",
+      "publishedAt": "2026-10-12T09:30:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На Большой Новодмитровской улице, 36с6 в помещении кафе  «Тондэмун»  открылось ещё и кафе «Сицилия».   Это одно из самых странных открытий на нашей памяти. Сначала нам сообщили, что на этом месте    открылось кафе «Тондэмун»   . После этого нам сообщили, что там никакой не «Тондэмун», а ресторан «Сицилия». Потом — что там всё-таки «Тондэмун». А"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9104",
+      "publishedAt": "2026-10-12T09:30:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Ресторан  «Лодка»  в ТЦ Lotte Plaza (Новинский бульвар, 8) закрылся  #навсегда  после 13 лет работы.   Там можно было совершить телепорт в 90-е.   Спасибо читателю за информацию через    @restbot   .    #закрытие  |  #смоленская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9105",
+      "publishedAt": "2026-10-12T11:49:52+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На месте стейк-хауса «Луизиана» на Пятницкой улице, 30с4 открылся ресторан  «Еммаус» .   Еммаус (также Эммаус) —    древний город    в Аялонской долине, располагавшийся на пути из Иоппии (Яффа) в Иерусалим. В Еммаусе был большой рынок, где продавали скот.  Интересно, под чем принималось решение о выборе нейминга?   🤔     Спасибо читателю за инф"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9106",
+      "publishedAt": "2026-10-12T12:50:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Сегодня кафе  «Андерсон»  на Таганской улице, 36с1 закрылось  #навсегда .   Сейчас продолжают работать 21 кафе, а на момент приобретения сети «ВкусВиллом» в 2023 году    их было 38   .   Спасибо читателю за информацию и фото через    @restbot   .    #закрытие  |  #марксистская   #таганская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9107",
+      "publishedAt": "2026-10-12T13:52:05+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "Новости сети пекарен «Батон»:    🚫   Летом закрылись  ещё  две точки: —  на Ленинском проспекте, 60/2 , —  в Большом Тишинском переулке, 10с1 .    ♻️   Точка  на Часовой улице, 11с4  стала ноунейм пекарней.   По сути, вся сеть «Батон» закрылась.   Спасибо читателям и нашему    РестоСкауту    за информацию и фото через    @restbot   .    #закрытие  "
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9110",
+      "publishedAt": "2026-10-12T14:53:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На месте зоомагазина на Профсоюзной улице, 104 открылось  «ВкусВилл кафе» .   В этом здании с другой стороны был маленький магазин    «ВкусВилл»   , но он закрылся в сентябре.   Спасибо читателю за информацию и фото через    @restbot   .    #открытие  |  #беляево"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9111",
+      "publishedAt": "2026-10-12T15:54:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Корнер  «Про Рёбра» ,  открывшийся  на Центральном рынке на Маросейке (улица Маросейка, 4/2с1) в июне, уже закрылся  #навсегда .   Три месяца, и всё.   Спасибо читателю за информацию и фото через    @restbot   .    #закрытие  |  #лубянка   #китайгород"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9069",
+      "publishedAt": "2026-10-09T10:59:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На месте кафе «Китайский завтрак» на проспекте Вернадского, 105к4  открылось  второе кафе китайской сети Yangmingyu.   И внутри почти одни китайцы.   Спасибо каналу «   Куриная Лапка   » за информацию и фото через    @restbot   .    #открытие  |  #югозападная"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9070",
+      "publishedAt": "2026-10-09T12:01:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Кафетерий  «Тео Стелла» ,  открывшийся  в начале сентября на 3-й улице Ямского Поля, 2к13, уже закрылся  #навсегда .   Странное название предполагало быстрое закрытие.   Спасибо читателю за информацию и фото через    @restbot   .    #закрытие  |  #белорусская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9071",
+      "publishedAt": "2026-10-09T13:02:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   18 октября ресторан  «Старик и море»  на Чистопрудном бульваре, 12Ас1  закрывается  на переезд на проспект Вернадского, 6с3.   Может, аренду в центре больше не тянут   🤔     Спасибо читателям за информацию и фото через    @restbot   .    #закрытие  |  #чистыепруды   #тургеневская   #сретенскийбульвар"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9072",
+      "publishedAt": "2026-10-09T14:03:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Ресторан  «Портал» ,  открывшийся  18 сентября в Настасьинском переулке, 1, похоже, уже закрылся  #навсегда .   Не прошло и трёх недель. Какое-то недоразумение.   Спасибо читателю за информацию и нашему    РестоСкауту    за фото через    @restbot   .    #закрытие  |  #пушкинская   #тверская   #чеховская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9073",
+      "publishedAt": "2026-10-09T15:04:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На месте «Иль де ботэ» в ТЦ «Елоховский пассаж» (Спартаковская улица, 24) открылась «Пекарня».   Продают хлеб нарезной, дарницкий, пироги, курники, плюшки.   Спасибо читателям за информацию и фото через    @restbot   .    #открытие  |  #бауманская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9074",
+      "publishedAt": "2026-10-09T16:05:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Итальянский ресторан  «Лето Италия» ,  открывшийся  в сентябре 2024 года на Садовнической набережной, 9, закрылся  #навсегда .   Лето закончилось, а с Италией сейчас сложно.   Спасибо читателям и нашему    РестоСкауту    за информацию и фото через    @restbot   .    #закрытие  |  #новокузнецкая   #третьяковская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9076",
+      "publishedAt": "2026-10-09T17:05:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На улице Гарибальди, 17А  открылась  кофейня  Surf Coffee .   Хороших кофеен в этой локации не хватает.   Спасибо читателям и нашему    РестоСкауту    за информацию и фото через    @restbot   .    #открытие  |  #новыечеремушки"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9077",
+      "publishedAt": "2026-10-09T18:06:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На Бакунинской улице, 84 открылась  «Кофейня» .   Видимо, пока не придумали название.   Спасибо читателю за информацию и фото через    @restbot   .    #открытие  |  #электрозаводская   #бауманская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9078",
+      "publishedAt": "2026-10-09T19:11:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На месте ресторана  «СырИнжир»  на Усачёвском рынке (Усачёва улица, 26) открылось кафе  «Дагестанская Лавка» .   Новый формат с официантами.   Спасибо читателю за информацию и фото через    @restbot   .    #открытие  |  #спортивная"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9079",
+      "publishedAt": "2026-10-10T06:54:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   В связи со сносом двух небольших ТЦ у платформы «Лось» закрылись: —  «Хлебница»  (улица Егора Абакумова, 14А), —  Make Coffee  (улица Егора Абакумова, 15А).   Продолжаем изучать названия улиц в городе.   Спасибо читателю за информацию и фото через    @restbot   .    #закрытие"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9082",
+      "publishedAt": "2026-10-10T09:33:41+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   В фудмолле «Депо.Москва» (Лесная улица, 20с3) закрылись: —  Wine Depo , —  «1-я Креветочная» ,  открывшаяся  в мае 2023 года.   Вместо Wine Depo откроется винный AST, второе место пока вакантно. Есть желающие?   Спасибо читателям за информацию и фото через    @restbot   .    #закрытие  |  #менделеевская   #новослободская   #белорусская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9084",
+      "publishedAt": "2026-10-10T10:35:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Итальянский ресторан  «Маре Монти» ,  открывшийся  в мае на месте «Дикого улова» в ЖК «Зиларт» (улица Архитектора Щусева, 1), закрылся  #навсегда .   Гости в последнее время    жаловались    на плохой сервис и долгую подачу блюд.   Спасибо читателю за информацию и фото через    @restbot   .    #закрытие  |  #зил"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9085",
+      "publishedAt": "2026-10-10T11:36:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   Кафе-пекарня  6am Bread Kitchen  на Садовнической улице, 80, которое в мае уже  закрывалось  из-за нарушения санитарно-эпидемиологических требований, снова  приостановило работу  на неопределённый срок.   Вероятно, кто-то не даёт им работать спокойно.    #закрытие  |  #павелецкая"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9086",
+      "publishedAt": "2026-10-10T13:31:47+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🆕   На месте  «Плов центра»  на Новослободской улице, 46 открылось кафе «Донер 46».   Сколько уже всех этих донеров на Новослободской?      🤔      Спасибо читателю за информацию и фото через    @restbot   .    #открытие  |  #менделеевская   #новослободская"
+    },
+    {
+      "city": "moscow",
+      "url": "https://t.me/raidedrests/9087",
+      "publishedAt": "2026-10-10T14:38:00+00:00",
+      "reason": "new_opening_or_closure_requires_primary_confirmation_and_geolocation",
+      "excerpt": "🚫   В ТРЦ «Атриум» (улица Земляной Вал, 33) закрылись корнеры: —  «Суши-маркет» , —  Van Wok .   Грустная ситуация не только в фудмоллах, но и на фудкортах.   Спасибо читателю за информацию и фото через    @restbot   .    #закрытие  |  #курская"
+    },
+    {
+      "city": "tbilisi",
+      "url": "https://t.me/tbilisieda/8352",
+      "publishedAt": "2026-10-07T07:59:58+00:00",
+      "reason": "venue_discovered_needs_primary_address_and_coordinates",
+      "excerpt": "🥟   В Тбилиси открылся новый ресторан славянской кухни -    KARAVAI    В меню - блюда славянской кухни в современной подаче: знакомые сочетания в необычной подаче, щедрые порции и тот самый comfort food, ради которого хочется вернуться ещё раз.   А ещё в KARAVAI:    🥟   знакомая славянская кухня    🍷   грузинские вина, которые отлично к ней подходя"
+    },
+    {
+      "city": "tbilisi",
+      "url": "https://t.me/tbilisieda/8364",
+      "publishedAt": "2026-10-09T15:05:10+00:00",
+      "reason": "venue_discovered_needs_primary_address_and_coordinates",
+      "excerpt": "✨    Полезные и вкусные публикации за последнее время   Собрали все лучшие посты в одном, чтобы вы точно ничего не пропустили и оставались в курсе гастрономических событий Тбилиси.   Самое интересное     🥪    Окошко с турецким стрит-фудом коло площади Свободы  Заказать там можно балык дюрюм — филе скумбрии на гриле в лаваше с салатом и помидорами. "
+    },
+    {
+      "city": "tbilisi",
+      "url": "https://t.me/TBS_FOODIZM/5406",
+      "publishedAt": "2026-09-08T15:48:46+00:00",
+      "reason": "venue_discovered_needs_primary_address_and_coordinates",
+      "excerpt": "на Вере открылось новое место —  Food Lab by Loomba    Loomba многие знают по их протеиновым батончикам, а теперь у них появился ещё и небольшой healthy corner  я забежала туда на кофе и, честно говоря, осталась очень довольна — кофе на hazelnut milk оказался прям очень вкусным   ещё в меню есть матча, боулы и салаты   🥗     но больше всего мне пон"
+    },
+    {
+      "city": "belgrade",
+      "url": "https://t.me/witravel_po_belgradu/2980",
+      "publishedAt": "2026-10-07T16:25:15+00:00",
+      "reason": "venue_discovered_needs_primary_address_and_coordinates",
+      "excerpt": "Первому sake-бару Белграда уже чуть больше года     Yama  на Дорћоле отметили свой первый день рождения. Если вы до сих пор здесь не были - отличный повод познакомиться с японской барной культурой.     🤩   Здесь около  30 видов саке , а еще стоит попробовать коктейли на основе  shōchū  — японского дистиллята из риса, ячменя или сладкого картофеля. "
+    },
+    {
+      "city": "belgrade",
+      "url": "https://t.me/witravel_po_belgradu/2994",
+      "publishedAt": "2026-10-13T15:31:36+00:00",
+      "reason": "venue_discovered_needs_primary_address_and_coordinates",
+      "excerpt": "Marmar - уютный бар между Цетиньской и Ботаническим садом   Продолжаем рассказывать о барах и кафе Белграда    💚     Место, которое в течение дня успевает несколько раз поменять настроение: утром сюда можно зайти за кофе и свежей выпечкой, а вечером - уже за бокалом винишка, так сказать :)  Здесь регулярно проходят  живые джазовые вечера , играют л"
+    }
+  ],
+  "directOfficialVenueChecks": [
+    {
+      "city": "flensburg",
+      "name": "Café Norderliebe",
+      "address": "Norderstraße1,24939Flensburg",
+      "sourceUrl": "https://norderliebe.com/",
+      "coordinates": null,
+      "status": "official_address_confirmed_needs_geolocation"
+    },
+    {
+      "city": "flensburg",
+      "name": "Olli’s Weinlounge",
+      "address": "GroßeStraße52,Flensburg",
+      "sourceUrl": "https://ollis-weinlounge.de/",
+      "coordinates": null,
+      "status": "official_address_confirmed_needs_geolocation"
+    },
+    {
+      "city": "flensburg",
+      "name": "Lykke Grosse",
+      "address": "GroßeStraße73,Flensburg",
+      "sourceUrl": "https://www.lykke-flensburg.de/",
+      "coordinates": null,
+      "status": "official_address_confirmed_OSM75_conflict"
+    }
+  ],
+  "normalizedPlacesFile": "outputs/seven-city-source-details/palo-alto-scc-normalized.json",
+  "normalizedPlacesCount": 293,
+  "heldPlacesFile": "outputs/seven-city-source-details/palo-alto-scc-held.json",
+  "publicationStatus": "research_only_parent_must_deduplicate_and_import",
+  "dataQualityNotes": [
+    "Official inspection records include private facilities; omitted from map candidates.",
+    "Hygiene score is not customer quality or popularity.",
+    "No fabricated coordinates; missing coords held.",
+    "2023Paris census useful coverage benchmark but does not prove current operation.",
+    "Telegram reports are candidates until venue source confirms location/current status."
+  ],
+  "parisBulkAcquisition": {
+    "retrievedOn": "2026-10-14",
+    "sourceSnapshotAt": "2026-10-08T05:18:37+00:00",
+    "sourceUrl": "https://babel.opendatasoft.com/explore/dataset/osm-restaurant-fr/",
+    "query": "code_departement='75'",
+    "rawCount": 16863,
+    "eligibleCount": 16606,
+    "heldCounts": {
+      "unnamed": 179,
+      "same_normalized_name_within_15m": 78
+    },
+    "categoryCounts": {
+      "restaurant": 8962,
+      "fast_food": 2908,
+      "bar": 1750,
+      "cafe": 2567,
+      "pub": 274,
+      "ice_cream": 133,
+      "biergarten": 5,
+      "food_court": 7
+    },
+    "streetAddressesMissing": 16606,
+    "attribution": "© OpenStreetMap contributors; GéoDataMine / Babel Opendatasoft",
+    "license": "https://opendatacommons.org/licenses/odbl/",
+    "notes": [
+      "Uses Paris department code; not all Ile-de-France.",
+      "Street addresses absent in source export; null rather than inferred.",
+      "Coordinates are source geometry points/centres, not independent entrance verification.",
+      "Current operating status unverified.",
+      "No customer ratings or prices fabricated.",
+      "Older HuwiseOct6 snapshot retained for audit only, not merged to avoid resurrecting removed places."
+    ]
+  },
+  "parisNormalizedFile": "outputs/seven-city-source-details/paris-osm-normalized.json"
+}

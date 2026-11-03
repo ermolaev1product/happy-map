@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-29T04:13:45.842492+00:00",
+  "reason": "Normalizer preserves one daily window only; retain afternoon as main end cutoff and morning as explicit supplemental window. Never claim continuous10\u201319 across lunch closure.",
+  "eventId": "san-salvador-sculpture-range",
+  "visitSchedule": {
+    "2026-10-28": {
+      "start": "14:00",
+      "end": "19:00"
+    },
+    "2026-10-29": {
+      "start": "14:00",
+      "end": "19:00"
+    },
+    "2026-10-30": {
+      "start": "14:00",
+      "end": "19:00"
+    }
+  },
+  "additionalOpeningWindows": [
+    {
+      "date": "2026-10-28",
+      "startTime": "10:00",
+      "endTime": "13:00",
+      "reason": "Own explicit morning visiting interval; closed13\u201314, afternoon is mainvisitSchedule."
+    },
+    {
+      "date": "2026-10-29",
+      "startTime": "10:00",
+      "endTime": "13:00",
+      "reason": "Own explicit morning visiting interval; closed13\u201314, afternoon is mainvisitSchedule."
+    },
+    {
+      "date": "2026-10-30",
+      "startTime": "10:00",
+      "endTime": "13:00",
+      "reason": "Own explicit morning visiting interval; closed13\u201314, afternoon is mainvisitSchedule."
+    }
+  ],
+  "openingNote": "Open10:00\u201313:00 and14:00\u201319:00, closed13:00\u201314:00. Daily main-model window stores afternoon; morning retained in supplemental source fields. Not continuous10\u201319."
+}

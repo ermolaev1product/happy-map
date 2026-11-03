@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-27T05:34:08.842849+00:00",
+  "mode": "read-only; no feed mutations",
+  "scope": "53activeMinsk additions from Relaxconcerts; reviewprimarydescriptions, not name-only reclassification",
+  "patches": [
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-2a43e60015cd",
+      "beforeCategory": "music",
+      "patch": {
+        "category": "theatre"
+      },
+      "reason": "Direct event description identifies comedian Andrey Atlas and his second solo stand-up programme; not a music concert. Existing taxonomy maps standup/comedy to theatre.",
+      "sourceUrl": "https://afisha.relax.by/conserts/11131970-stendap-andrej-atlas/minsk/",
+      "evidenceFile": "/workspace/shared/hm27-tmb-evidence/minsk-11131970-stendap-andrej-atlas.html",
+      "checkedAt": "2026-10-27T05:34:08.842819+00:00",
+      "editorialSubtype": "standup"
+    },
+    {
+      "cityId": "minsk",
+      "id": "minsk-research27-b8ca55b7b19b",
+      "beforeCategory": "music",
+      "patch": {
+        "category": "theatre"
+      },
+      "reason": "Direct description explicitly identifies the Saint Petersburg Shtorm dance theatre, a staged production Мужчина и женщина, its director/choreographers and dance performance under rain; theatre rather than music.",
+      "sourceUrl": "https://afisha.relax.by/conserts/11168460-shou-pod-dozhdem-muzhchina-i-zhenshhina-/minsk/",
+      "evidenceFile": "/workspace/shared/hm27-tmb-evidence/minsk-11168460-shou-pod-dozhdem-muzhchina-i-zhenshhina-.html",
+      "checkedAt": "2026-10-27T05:34:08.842836+00:00",
+      "editorialSubtype": "dance_theatre"
+    }
+  ],
+  "keptMusicAfterDescriptionReview": [
+    {
+      "id": "minsk-research27-d2ee2f10edb3",
+      "category": "music",
+      "reason": "Фиеста с оркестром is explicitly a National Presidential Orchestra dance-and-music show with live musicians; keep music, do not invent a pure-theatre category.",
+      "sourceUrl": "https://afisha.relax.by/conserts/11168481-koncert-shou-chempionov-fijesta-s-orkestrom-/minsk/",
+      "evidenceFile": "/workspace/shared/hm27-tmb-evidence/minsk-11168481-koncert-shou-chempionov-fijesta-s-orkestrom-.html"
+    },
+    {
+      "id": "minsk-research27-6b6786e1c44d",
+      "category": "music",
+      "reason": "Ладдзя Роспачы entry is an orchestral/choral opera concert at Philharmonic. Body lists orchestra, choirs, singers and conductor, without clear staged-theatre evidence; conservatively keep music.",
+      "sourceUrl": "https://afisha.relax.by/conserts/11171478-k-70-letiju-kompozitora-s-belytyukova/minsk/",
+      "evidenceFile": "/workspace/shared/hm27-tmb-evidence/minsk-11171478-k-70-letiju-kompozitora-s-belytyukova.html"
+    },
+    {
+      "id": "minsk-research27-f7bf33850ed9",
+      "category": "music",
+      "reason": "Чего хотят женщины?! is explicitly a musical evening by singers and Presidential Orchestra, not the similarly titled stand-up show.",
+      "sourceUrl": "https://afisha.relax.by/conserts/11170377-koncert-chego-khotyat-zhenshhiny-/minsk/",
+      "evidenceFile": "/workspace/shared/hm27-tmb-evidence/minsk-11170377-koncert-chego-khotyat-zhenshhiny-.html"
+    },
+    {
+      "id": "minsk-research27-6d5fc7019bc5",
+      "category": "music",
+      "reason": "Мужской гараж is an interactive concert with pop singers; keep music despite comic narrative.",
+      "sourceUrl": "https://afisha.relax.by/conserts/11126582-koncertnaja-shou-programma-muzhskoj-garazh-/minsk/",
+      "evidenceFile": "/workspace/shared/hm27-tmb-evidence/minsk-11126582-koncertnaja-shou-programma-muzhskoj-garazh-.html"
+    },
+    {
+      "id": "minsk-research27-6730424efbf6",
+      "category": "music",
+      "reason": "Песня о главном combines vocal solos/duets with humour, still explicitly a concert programme; keep music.",
+      "sourceUrl": "https://afisha.relax.by/conserts/11164587-koncertno-jumoristicheskaja-programma-jevgenija-jermolkovicha-pesnya-o-glavnom-/minsk/",
+      "evidenceFile": "/workspace/shared/hm27-tmb-evidence/minsk-11164587-koncertno-jumoristicheskaja-programma-jevgenija-jermolkovicha-pesnya-o-glavnom-.html"
+    },
+    {
+      "id": "minsk-research27-2126c5fbd395",
+      "category": "music",
+      "reason": "Second explicit session of same musical-humorous concert; keep music.",
+      "sourceUrl": "https://afisha.relax.by/conserts/11164587-koncertno-jumoristicheskaja-programma-jevgenija-jermolkovicha-pesnya-o-glavnom-/minsk/",
+      "evidenceFile": "/workspace/shared/hm27-tmb-evidence/minsk-11164587-koncertno-jumoristicheskaja-programma-jevgenija-jermolkovicha-pesnya-o-glavnom-.html"
+    },
+    {
+      "id": "minsk-research27-0046cff1c99c",
+      "category": "music",
+      "reason": "Космос is explicitly a children’s classical-music concert, not a science lecture; keep music.",
+      "sourceUrl": "https://afisha.relax.by/conserts/11147482-muzykoterapija-dlya-detej-kosmos/minsk/",
+      "evidenceFile": "/workspace/shared/hm27-tmb-evidence/minsk-11147482-muzykoterapija-dlya-detej-kosmos.html"
+    }
+  ],
+  "countsAfterPatches": {
+    "music": 51,
+    "theatre": 2
+  },
+  "coverageNote": "Minsk intake is concert-heavy: actual Relaxconcert pagination plusselecteddetails, not a complete all-category pass. No newlyverifiedlecture/talk category established. Do not manufacturecategorybalance.",
+  "taxonomyEvidence": "scripts/apply-morning-verified-20261027.py mapsstandup/comedy/dancetotheatre; public/minsk/app.js supports theatre/music/talk etc."
+}

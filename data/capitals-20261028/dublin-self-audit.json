@@ -1,0 +1,692 @@
+{
+  "auditType": "author_self_audit_not_independent_of_original_authorship",
+  "auditedAt": "2026-10-28T08:16:40.029267+00:00",
+  "inputFile": "candidates.json",
+  "inputSha256": "a7a199930f9d8e1e59d11c3030f6996fe99388969f736ce4c5c3cc343111d0ed",
+  "snapshotModified": false,
+  "scope": "All 27 candidate programmes: saved full primary text plus relevant full municipal/tourism text, original raw map markers, exact date/time recurrence, fees/unknown-price handling, explicit sold-out hold and end-provenance classification. Not a new city-wide inventory or verification of all held candidates.",
+  "freshReadScope": {
+    "count": 3,
+    "method": "Three exact public ticket URLs observed in saved primary announcements, one GET each, no forms/cart/checkout. Two Whelans pages return usable full text. Art Source ticket page returns only JS shell. No workaround, retry, or unsupported inference.",
+    "auditFile": "self-audit-fresh-reads.json"
+  },
+  "summary": {
+    "newGenuineErrorGroups": 3,
+    "newWrongDatesFound": 0,
+    "newWrongCoordinatesFound": 0,
+    "newWrongNumericPricesFound": 0,
+    "newSoldOutPromotionsFound": 0,
+    "programmeCountUnchanged": 27,
+    "datedSessionsUnchanged": 58,
+    "rangeExhibitionsUnchanged": 1,
+    "uniquePinsUnchanged": 19,
+    "firstSevenDatedSessionCounts": {
+      "2026-10-28": 3,
+      "2026-10-29": 3,
+      "2026-10-30": 3,
+      "2026-10-31": 8,
+      "2026-11-01": 3,
+      "2026-11-02": 3,
+      "2026-11-03": 4
+    },
+    "note": "No requirement to remove a programme established by this self-audit. End provenance affects whether two Art Source endings can populate an actual-end field."
+  },
+  "findings": [
+    {
+      "findingId": "DUB-QA-01",
+      "severity": "low",
+      "kind": "incorrect_source_attribution",
+      "programmeIds": [
+        "dub-37",
+        "dub-martin-angolo-nov-2026",
+        "dub-bed-nov-2026",
+        "dub-better-call-solomons-james-joyce-and-the-solomons-family",
+        "dub-inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026"
+      ],
+      "field": "pinEvidence.method",
+      "current": "official_municipal_named_venue_embedded_map_marker",
+      "proposed": "official_tourism_named_venue_embedded_map_marker",
+      "reason": "The named source URLs and preserved HTML are VisitDublin, not Dublin City Council/dublin.ie. Coordinates themselves exactly match the source markers.",
+      "occurrenceOrCoordinateChange": false
+    },
+    {
+      "findingId": "DUB-QA-02",
+      "severity": "medium",
+      "kind": "overstated_primary_end_provenance",
+      "programmeIds": [
+        "dub-57"
+      ],
+      "field": "endEvidence.classification and end-evidence.json classification",
+      "current": "explicit_own_event_programme_or_access_window",
+      "proposed": "explicit_official_municipal_event_body_access_window_primary_confirms_run_only",
+      "reason": "The preserved organiser home page confirms 13–15 November 2026 but contains no clock times. Friday 11:00–21:00 and Saturday 10:00–18:00 are explicit in the municipal full event body, not organiser prose.",
+      "evidence": [
+        {
+          "file": "primary-57.txt",
+          "url": "http://www.artsource.ie/",
+          "locator": "Art Source 13th – 15th Nov 2026"
+        },
+        {
+          "file": "event-57.txt",
+          "url": "https://dublin.ie/whats-on/listings/art-source/",
+          "locator": "Dates and Times; Friday 13th Nov 2026 / Saturday 14th Nov 2026"
+        }
+      ],
+      "publisherAction": "Keep the sourced published calendar windows; if actualEnd is permitted only for primary-body intervals, set actualEnd null for these two records. Do not lift Sunday hold.",
+      "occurrenceDateOrStartChange": false
+    },
+    {
+      "findingId": "DUB-QA-03",
+      "severity": "low",
+      "kind": "end_evidence_url_classification_mismatch",
+      "programmeIds": [
+        "dub-inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026"
+      ],
+      "field": "endEvidence.sourceUrl and end-evidence.json sourceUrl",
+      "current": "https://www.visitdublin.com/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026",
+      "proposed": "https://www.nationalgallery.ie/whats-on/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary",
+      "reason": "The classification correctly says own primary event header, but the evidence URL points to VisitDublin. Preserved National Gallery full page directly gives 03 November 14.00–15.00. VisitDublin should remain the exact-year evidence URL. This is not a new duration or an actual-finish assertion.",
+      "evidenceFile": "reserve-primary-inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026.txt",
+      "publisherAction": "Clarify note: primary header and official tourism agree on the published interval; no independent prose runtime. Keep strict-policy actualEnd null.",
+      "occurrenceDateOrTimeChange": false
+    }
+  ],
+  "newPrimaryCorroborationNotRetroactiveError": [
+    {
+      "id": "dub-martin-angolo-nov-2026",
+      "sourceUrl": "https://www.whelanslive.com/ticket/martin-angolo/",
+      "sourceFile": "qa-ticket-martin-angolo.html",
+      "textFile": "qa-ticket-martin-angolo.txt",
+      "fetchedAt": "2026-10-28T08:12:02.390299+00:00",
+      "rawSha256": "18ae779219e0bda89fcbdf1f30b11ca8e988fb86a01c012f767731e0f9a7a607",
+      "publicationUse": "primary ticket header corroborates published interval only; no observed actual finish; keep actual end null under strict primary-prose policy",
+      "publishedInterval": {
+        "date": "2026-11-02",
+        "startTime": "20:00",
+        "endTime": "22:45",
+        "evidenceUrl": "https://www.visitdublin.com/martin-angolo-nov-2026"
+      },
+      "inventoryObservation": "Page said In stock at read time; no purchase/checkout, not guaranteed later availability"
+    },
+    {
+      "id": "dub-bed-nov-2026",
+      "sourceUrl": "https://www.whelanslive.com/ticket/bed/",
+      "sourceFile": "qa-ticket-bed.html",
+      "textFile": "qa-ticket-bed.txt",
+      "fetchedAt": "2026-10-28T08:12:08.145684+00:00",
+      "rawSha256": "0139995dbc2c20a63abba7b21fa74be5fcbad3920747d6b63458debab0aefce1",
+      "publicationUse": "primary ticket header corroborates published interval only; no observed actual finish; keep actual end null under strict primary-prose policy",
+      "publishedInterval": {
+        "date": "2026-11-03",
+        "startTime": "20:00",
+        "endTime": "22:30",
+        "evidenceUrl": "https://www.visitdublin.com/bed-nov-2026"
+      },
+      "inventoryObservation": "Page said In stock at read time; no purchase/checkout, not guaranteed later availability"
+    }
+  ],
+  "additionalRestrictionEvidence": [
+    {
+      "id": "dub-bed-nov-2026",
+      "sourceFile": "qa-ticket-bed.txt",
+      "sourceUrl": "https://www.whelanslive.com/ticket/bed/",
+      "proposedAdditionEn": "General admission; standing only.",
+      "proposedAdditionRu": "Общий вход, только стоячие места.",
+      "reason": "Fresh primary ticket page explicitly says STANDING ONLY; this condition was absent from the frozen restriction text."
+    }
+  ],
+  "preservedControls": [
+    "Halloween Workshop for Kids remains held: full primary says sold out; no candidate record.",
+    "ClothesCycle VIP 10:00 and GA 13:00 ticket classes show sold out. Frozen candidate uses explicitly listed first GA 11:00, not either sold-out class. Availability not guaranteed. Currency conflict remains unresolved/null, not free.",
+    "Five podcast individual prices remain null. The festival-wide minimum was not assigned to individual shows.",
+    "ANIMALS is explicitly bounded Mon–Sat 19:30 plus Saturday 14:00; only Wednesday matinee is 7 October outside window. Duration 175 min comes from primary prose.",
+    "The Seagull explicitly uses weekday 19:00 and Saturday 19:30; no Sunday; Saturday matinees begin after window. Duration 170 min comes from primary prose.",
+    "DCU pin is Glasnevin only, not St Patricks. IMMA and Trinity are campus-level. Hall 4 pin is used for ClothesCycle, not RDS Arena.",
+    "LORE 17–30 October public range is explicitly in municipal prose; organiser describes 16–30 with invitation-only 16 October reception. openingHours remain null; no open-now claim.",
+    "Art Source Sunday remains held for conflicting-year hours; new Universe GET returned JS shell only, not schedule evidence.",
+    "All end times are published scheduled windows or derived from cited durations, never observed actual finish. Header-only/tourism-only ends must not silently become actual runtime.",
+    "No TG freshness claim: inherited audit remains historical, zero TG event promotions. No APK/browser/Sites/Sheets/Pages/Library action."
+  ],
+  "pinChecks": [
+    {
+      "id": "dub-4",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/little-red-the-big-bad-wolf-2/",
+      "sourceFile": "event-4.html",
+      "sourceSha256": "bcd27b7ecb937fd748da61df5678c4a1b0d786d78ef17ffb2235dd9f8d51e3a7",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-9",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/haunted-literary-tours-samhain-at-moli/",
+      "sourceFile": "event-9.html",
+      "sourceSha256": "5886039a0b454f63f8183445d5d1e27feff96679656ab7c91fbd5fd89708d851",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-18",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/animals/",
+      "sourceFile": "event-18.html",
+      "sourceSha256": "02fc22f84f5507add64de7ca19e6dc465a79888c8eb14794656db72fc0764691",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-19",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/moving-signatures/",
+      "sourceFile": "event-19.html",
+      "sourceSha256": "dc51647f9808c9a68f58dd94ceda8a320bff89db4d960bd90b2e1231ef889c9b",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-30",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/tim-burtons-universe-by-mystery-ensemble/",
+      "sourceFile": "event-30.html",
+      "sourceSha256": "fa08d044af124515a5fdd9f29d5d0397a589f4d4d01901665616b92e3713d0ec",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-33",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/the-liberties-haunt/",
+      "sourceFile": "event-33.html",
+      "sourceSha256": "a0b885903819a182813653b82aaf39bbda86670f6c254bf4b272266fc34749c2",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-37",
+      "sourceUrl": "https://www.visitdublin.com/clothes-cycle-rds",
+      "sourceFile": "reserve-clothes-cycle-rds.html",
+      "sourceSha256": "b96c7dbcecdb7fce269dbf0990b3f060141f3be5a9628e0f5bc2f4bc4bc62a67",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-41",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/theatre-room-food-for-thought-a-daylight-performance-symposium/",
+      "sourceFile": "event-41.html",
+      "sourceSha256": "e14e4c0d606dd447a94e364989f0ee702d06d55ed4b2b3b98093bf568ba845d0",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-tattoo",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/dublin-tattoo-convention/",
+      "sourceFile": "event-43.html",
+      "sourceSha256": "8f161c4dd92be4585473fbe3b9b95a6eafff7c50a5360f37aa1d23dd6a14e1e7",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-45",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/lets-talk-science-festival/",
+      "sourceFile": "event-45.html",
+      "sourceSha256": "bc2811743929917c4f21ea966a760d994bdb7c15a4dcf1737f49d981e719ddf8",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-58",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/clare-sands/",
+      "sourceFile": "event-58.html",
+      "sourceSha256": "9933920b099ee41495ff2f890353bf504ab96a9dcd1077218c902b75c4e58ad8",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-60",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/dcu-open-day/",
+      "sourceFile": "event-60.html",
+      "sourceSha256": "34e0ccdbe7fa8da2538588e32a4a42e8b71c5fc47c9a7f1e9ac8c54e2463fb3c",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-ai",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/ai-awards/",
+      "sourceFile": "event-66.html",
+      "sourceSha256": "845074b0b63d5ffafdc63b7d30414595804c5f6a3a4dbc98d8d434e506b101a9",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-71",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/the-seagull/",
+      "sourceFile": "event-71.html",
+      "sourceSha256": "0cd34ee641c90490358563991c6c7a1d02280c7e127f5b964aaea2177dae7938",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-76",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/trinity-open-day/",
+      "sourceFile": "event-76.html",
+      "sourceSha256": "63425a73fa3c8c7261c78b122e61f38fea3454eb43e3662950380843a0962e82",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-martin-angolo-nov-2026",
+      "sourceUrl": "https://www.visitdublin.com/martin-angolo-nov-2026",
+      "sourceFile": "reserve-martin-angolo-nov-2026.html",
+      "sourceSha256": "ea8e14db47ea3d6ac181cd1541fac030edbe565c88ce867f6bc43074bd38ba06",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-bed-nov-2026",
+      "sourceUrl": "https://www.visitdublin.com/bed-nov-2026",
+      "sourceFile": "reserve-bed-nov-2026.html",
+      "sourceSha256": "23d14adec385f2a6d3eb20a3cb8b92ddf3f2bc87c4335886efa299a775ea1f00",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-better-call-solomons-james-joyce-and-the-solomons-family",
+      "sourceUrl": "https://www.visitdublin.com/better-call-solomons-james-joyce-and-the-solomons-family",
+      "sourceFile": "reserve-better-call-solomons-james-joyce-and-the-solomons-family.html",
+      "sourceSha256": "7a80b1b4570aaeb95378760dfa561848f7fa85f1a4d1172ce9d6370a8358cb0a",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026",
+      "sourceUrl": "https://www.visitdublin.com/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026",
+      "sourceFile": "reserve-inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026.html",
+      "sourceSha256": "8603b533ab610ffce52dc830ad3a0cf5897e6645e23f907abcd20c74d40a525f",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-2378950",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/cheerful-earful/",
+      "sourceFile": "event-50.html",
+      "sourceSha256": "0516473217b8a420c94264116d08ed46dd2cd13a05887182fefdeb6ac784ddca",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-2369574",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/cheerful-earful/",
+      "sourceFile": "event-50.html",
+      "sourceSha256": "0516473217b8a420c94264116d08ed46dd2cd13a05887182fefdeb6ac784ddca",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-2346724",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/cheerful-earful/",
+      "sourceFile": "event-50.html",
+      "sourceSha256": "0516473217b8a420c94264116d08ed46dd2cd13a05887182fefdeb6ac784ddca",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-2327851",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/cheerful-earful/",
+      "sourceFile": "event-50.html",
+      "sourceSha256": "0516473217b8a420c94264116d08ed46dd2cd13a05887182fefdeb6ac784ddca",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-2356366",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/cheerful-earful/",
+      "sourceFile": "event-50.html",
+      "sourceSha256": "0516473217b8a420c94264116d08ed46dd2cd13a05887182fefdeb6ac784ddca",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-science-furniture",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/lets-talk-science-festival/",
+      "sourceFile": "event-45.html",
+      "sourceSha256": "bc2811743929917c4f21ea966a760d994bdb7c15a4dcf1737f49d981e719ddf8",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-57",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/art-source/",
+      "sourceFile": "event-57.html",
+      "sourceSha256": "7bd1993c1a65ca69523ce8e2edb4b4301c4275e4cacf1529c9e2dfe089310b88",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    },
+    {
+      "id": "dub-3",
+      "sourceUrl": "https://dublin.ie/whats-on/listings/lore-mexican-irish-folklore/",
+      "sourceFile": "event-3.html",
+      "sourceSha256": "a16407935b0bc37a882ef0c1f348f2d67a34459bef8ff03509c45496bd26b74a",
+      "coordinateMatch": true,
+      "precision": "source-named venue/campus/complex, not entrance"
+    }
+  ],
+  "reviewedLocalEvidenceIndex": [
+    {
+      "file": "primary-4.json",
+      "sha256": "375c46768e5c417d3cec0ae73d775239cc451c13d108348ea25d01f3ca12fd98",
+      "url": "https://www.mcd.ie/artists/little-red-the-big-bad-wolf",
+      "originalFetchedAt": "2026-10-28T07:48:18.134590+00:00"
+    },
+    {
+      "file": "event-4.json",
+      "sha256": "9899162192abc12e6bfe5150d2d2a4a5de3174ad072833b82117b8c0aad2c78e",
+      "url": "https://dublin.ie/whats-on/listings/little-red-the-big-bad-wolf-2/",
+      "originalFetchedAt": "2026-10-28T07:47:07.687766+00:00"
+    },
+    {
+      "file": "primary-9.json",
+      "sha256": "991d750ef8a6ccf9082b600338a116533eda593c922de79a9fa3e914ccea13f0",
+      "url": "https://moli.ie/events/molis-haunted-literary-tour",
+      "originalFetchedAt": "2026-10-28T07:48:21.675844+00:00"
+    },
+    {
+      "file": "event-9.json",
+      "sha256": "be4635b901d22e2a775b350567c84cf267abfa1e463faf70e892b46036b3aa5c",
+      "url": "https://dublin.ie/whats-on/listings/haunted-literary-tours-samhain-at-moli/",
+      "originalFetchedAt": "2026-10-28T07:47:10.147719+00:00"
+    },
+    {
+      "file": "primary-18.json",
+      "sha256": "81bf2f2cbece84c79cfb6c2fe013ccd1000a7439044168d1173d6b56a135f16e",
+      "url": "https://www.abbeytheatre.ie/whats-on/animals/",
+      "originalFetchedAt": "2026-10-28T07:48:31.571866+00:00"
+    },
+    {
+      "file": "event-18.json",
+      "sha256": "091fc6976c28609f9c47b7811b136e554429676ede87fde4a4091d081feb1fd9",
+      "url": "https://dublin.ie/whats-on/listings/animals/",
+      "originalFetchedAt": "2026-10-28T07:47:17.815673+00:00"
+    },
+    {
+      "file": "primary-19.json",
+      "sha256": "a0ecfaf68ade83ccfce8a3cae45700aa12b5f92203370118725bb2d8722819c2",
+      "url": "https://www.coisceim.com/dance/broadreach/moving-signatures-technologies-of-peace/",
+      "originalFetchedAt": "2026-10-28T07:48:32.726450+00:00"
+    },
+    {
+      "file": "event-19.json",
+      "sha256": "7942d952f0231cfe1f7badc2f758a48932735a9b4ab192e2c44b83b61fc849df",
+      "url": "https://dublin.ie/whats-on/listings/moving-signatures/",
+      "originalFetchedAt": "2026-10-28T07:47:17.803753+00:00"
+    },
+    {
+      "file": "primary-30.json",
+      "sha256": "ff6a06c26650a506578e66c2af10f4b9019de9a05bb726061402343723dfc2f0",
+      "url": "https://redevents.world/event/918-tim-burton-s-universe-by-mystery-ensemble.html",
+      "originalFetchedAt": "2026-10-28T07:48:40.759555+00:00"
+    },
+    {
+      "file": "event-30.json",
+      "sha256": "b2f89fe4fc7fc94a82b202436a80a6588d8c603d779b997ae571c53d7f3aa472",
+      "url": "https://dublin.ie/whats-on/listings/tim-burtons-universe-by-mystery-ensemble/",
+      "originalFetchedAt": "2026-10-28T07:47:23.844017+00:00"
+    },
+    {
+      "file": "primary-33.json",
+      "sha256": "1dfecb67766feaaae4294278983648e98fe10a7227f79a101496e1b8f98d31a8",
+      "url": "https://www.dublincity.ie/events/liberties-haunt",
+      "originalFetchedAt": "2026-10-28T07:48:45.101658+00:00"
+    },
+    {
+      "file": "event-33.json",
+      "sha256": "e47b31430b0d5dd18c84e23e99aeab5a79cbc3ed5e7076257a24112bfc7bc124",
+      "url": "https://dublin.ie/whats-on/listings/the-liberties-haunt/",
+      "originalFetchedAt": "2026-10-28T07:47:23.844111+00:00"
+    },
+    {
+      "file": "primary-37.json",
+      "sha256": "d32fd277ab2eaede67f7d82cc821222b18ef14fba661f84f3e6c084381f67796",
+      "url": "https://www.clothescyclemarkets.co.uk/event-details/europes-largest-thrift-market-dublin-1-1",
+      "originalFetchedAt": "2026-10-28T07:48:46.688920+00:00"
+    },
+    {
+      "file": "event-37.json",
+      "sha256": "23a5e7a001a5ade5a8bd07ffff5523a679e656fc674ce2b4070ef9d9411d8839",
+      "url": "https://dublin.ie/whats-on/listings/europes-largest-thrift-festival/",
+      "originalFetchedAt": "2026-10-28T07:47:26.483855+00:00"
+    },
+    {
+      "file": "reserve-clothes-cycle-rds.json",
+      "sha256": "eb961dfc4be00fe1066eae72db0e7c188a34aaa73b8e83d9104bf7bca2a87cca",
+      "url": "https://www.visitdublin.com/clothes-cycle-rds",
+      "originalFetchedAt": "2026-10-28T07:52:46.479487+00:00"
+    },
+    {
+      "file": "primary-41.json",
+      "sha256": "75b7a4f9191f6be67c2eecda4181e10e885b92fe9d66bafd2feebd107e8f7e24",
+      "url": "https://smockalley.com/theatre-room-food-for-thought-daylight-performance-symposium/",
+      "originalFetchedAt": "2026-10-28T07:49:02.847897+00:00"
+    },
+    {
+      "file": "event-41.json",
+      "sha256": "b6ee8862e880707ae174eb51b51df2b518f5c6147db7e3711e7d2a2b68748360",
+      "url": "https://dublin.ie/whats-on/listings/theatre-room-food-for-thought-a-daylight-performance-symposium/",
+      "originalFetchedAt": "2026-10-28T07:47:31.608992+00:00"
+    },
+    {
+      "file": "tattoo-info.json",
+      "sha256": "fd4fafe4d136a511a783f83bae2316276996d16e54c27029a429fddeba0ad26c",
+      "url": "https://www.dublintattooconvention.com/info/",
+      "originalFetchedAt": "2026-10-28T07:52:30.871205+00:00"
+    },
+    {
+      "file": "tattoo-faq.json",
+      "sha256": "598d43bae4473162a8271ba2ef94f1d65ff8521ea616cae23a015c0e75672e7f",
+      "url": "https://www.dublintattooconvention.com/faqs/",
+      "originalFetchedAt": "2026-10-28T07:52:30.919951+00:00"
+    },
+    {
+      "file": "event-43.json",
+      "sha256": "db339efdcf45d7c33c36033bf6f1de1bef6230c94e861c15161cc917ce7f3caf",
+      "url": "https://dublin.ie/whats-on/listings/dublin-tattoo-convention/",
+      "originalFetchedAt": "2026-10-28T07:47:34.247786+00:00"
+    },
+    {
+      "file": "primary-45.json",
+      "sha256": "910a7d4fea2c2ea2528db6e8ce165dde54c3d842a7a9a7668a2d4163149b6a07",
+      "url": "https://www.rediscoverycentre.ie/workshops/lets-talk-science-festival-2026/",
+      "originalFetchedAt": "2026-10-28T07:49:08.353597+00:00"
+    },
+    {
+      "file": "event-45.json",
+      "sha256": "c8104262b288127ffc42b93a5c5b2d2bc64ca51e358173534a7d9600c28105f0",
+      "url": "https://dublin.ie/whats-on/listings/lets-talk-science-festival/",
+      "originalFetchedAt": "2026-10-28T07:47:35.031934+00:00"
+    },
+    {
+      "file": "primary-58.json",
+      "sha256": "31afb034b2b5a3155e2a5ce05ce17f06ce1be82778695bb56e2ae117af88ea98",
+      "url": "https://www.tickettailor.com/events/claresands/2209111",
+      "originalFetchedAt": "2026-10-28T07:49:19.047925+00:00"
+    },
+    {
+      "file": "event-58.json",
+      "sha256": "bd8c8f3ac569a6bf19108caf1e14e93494cae0173acfba8fd4a03ecdc9fe233c",
+      "url": "https://dublin.ie/whats-on/listings/clare-sands/",
+      "originalFetchedAt": "2026-10-28T07:47:51.415774+00:00"
+    },
+    {
+      "file": "primary-60.json",
+      "sha256": "5bc3afac316d816629c210f9d59bb2f8a32be1b2030932d82f8a367501c385ab",
+      "url": "https://www.dcu.ie/openday",
+      "originalFetchedAt": "2026-10-28T07:49:19.334102+00:00"
+    },
+    {
+      "file": "event-60.json",
+      "sha256": "64ec9d78ada94bba8d0fdf30e8ab08a6eecd0fa6dbcf70a1d0d8ae7313727d89",
+      "url": "https://dublin.ie/whats-on/listings/dcu-open-day/",
+      "originalFetchedAt": "2026-10-28T07:47:53.786272+00:00"
+    },
+    {
+      "file": "ticket-66.json",
+      "sha256": "a96c8445d5c8753ce05e8ef791711798123341765a84985b14ec7d8404e4e761",
+      "url": "https://www.eventbrite.ie/e/1991069116325?aff=oddtdtcreator",
+      "originalFetchedAt": "2026-10-28T07:52:32.719684+00:00"
+    },
+    {
+      "file": "primary-66.json",
+      "sha256": "26b50c13f2d583693c22f200d553d6b8c3f773598701cf6e9fa0f6346f5e2c00",
+      "url": "https://aiawards.ie/",
+      "originalFetchedAt": "2026-10-28T07:49:28.423669+00:00"
+    },
+    {
+      "file": "event-66.json",
+      "sha256": "d7a48381b0a7c02b1fb4b833dc7f2d32f615991c8a8677dc4762df88fa8d341e",
+      "url": "https://dublin.ie/whats-on/listings/ai-awards/",
+      "originalFetchedAt": "2026-10-28T07:47:56.487890+00:00"
+    },
+    {
+      "file": "primary-71.json",
+      "sha256": "31e08ee65f8775eee235f2aa0326a136b033939ab48f12ff6d5a849db8e25a67",
+      "url": "https://www.smockalley.com/the-seagull/",
+      "originalFetchedAt": "2026-10-28T07:49:33.767769+00:00"
+    },
+    {
+      "file": "event-71.json",
+      "sha256": "a6d875d64ac067129f0aa23ebbce96e8718aac01b956d2b0021548e0daee79a4",
+      "url": "https://dublin.ie/whats-on/listings/the-seagull/",
+      "originalFetchedAt": "2026-10-28T07:48:05.113597+00:00"
+    },
+    {
+      "file": "primary-76.json",
+      "sha256": "01d64ddc99644cdddffbe1e108d2f520a45e19ced4fd9e84cee789f3003d0b1a",
+      "url": "https://www.tcd.ie/openday/",
+      "originalFetchedAt": "2026-10-28T07:49:41.503985+00:00"
+    },
+    {
+      "file": "event-76.json",
+      "sha256": "1135212f184d5c2f150e83e34c7944d18004bb099bc6540def504d7d9a3ca1dc",
+      "url": "https://dublin.ie/whats-on/listings/trinity-open-day/",
+      "originalFetchedAt": "2026-10-28T07:48:10.079799+00:00"
+    },
+    {
+      "file": "reserve-primary-martin-angolo-nov-2026.json",
+      "sha256": "6d8b0f79d419ddece43d625c76ed3d331e47c42f28fe4f14fcc520a0bc2ff991",
+      "url": "https://www.whelanslive.com/event/martin-angolo/?utm_source=visitdublin_com&utm_medium=referral&utm_campaign=failteireland&utm_content=visit_website_button",
+      "originalFetchedAt": "2026-10-28T07:52:51.682454+00:00"
+    },
+    {
+      "file": "reserve-martin-angolo-nov-2026.json",
+      "sha256": "1f0ac6c2f7e80aecb4d4cefdcf9fbb90b99ad67f52fec099c45da279037c10b1",
+      "url": "https://www.visitdublin.com/martin-angolo-nov-2026",
+      "originalFetchedAt": "2026-10-28T07:52:43.284659+00:00"
+    },
+    {
+      "file": "reserve-primary-bed-nov-2026.json",
+      "sha256": "554da912f0ac7fba68d09f1ed44c28f6381ee8c49185ee6892ee124d5820c087",
+      "url": "https://www.whelanslive.com/event/bed/?utm_source=visitdublin_com&utm_medium=referral&utm_campaign=failteireland&utm_content=visit_website_button",
+      "originalFetchedAt": "2026-10-28T07:52:51.685693+00:00"
+    },
+    {
+      "file": "reserve-bed-nov-2026.json",
+      "sha256": "c7703877687aea12b756a37fba8dcae80b98f4dc43de24adfa6386ff83d8b547",
+      "url": "https://www.visitdublin.com/bed-nov-2026",
+      "originalFetchedAt": "2026-10-28T07:52:43.310748+00:00"
+    },
+    {
+      "file": "reserve-primary-better-call-solomons-james-joyce-and-the-solomons-family.json",
+      "sha256": "29501d3c0a385ab907057ce1ebc600d78bb9cb7dc1895275cf96149f3d761250",
+      "url": "https://jamesjoyce.ie/events/better-call-solomons/?utm_source=visitdublin_com&utm_medium=referral&utm_campaign=failteireland&utm_content=visit_website_button",
+      "originalFetchedAt": "2026-10-28T07:52:49.807676+00:00"
+    },
+    {
+      "file": "reserve-better-call-solomons-james-joyce-and-the-solomons-family.json",
+      "sha256": "14061b392376516f6b0d17a443f0879dc269fd37b3dbf1d6c9588683318a0e24",
+      "url": "https://www.visitdublin.com/better-call-solomons-james-joyce-and-the-solomons-family",
+      "originalFetchedAt": "2026-10-28T07:52:43.939631+00:00"
+    },
+    {
+      "file": "reserve-primary-inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026.json",
+      "sha256": "0708db55386153d23c5ed6e2edf99490d1747327bc2a97f0ab75601c5d027836",
+      "url": "https://www.nationalgallery.ie/whats-on/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary?utm_source=visitdublin_com&utm_medium=referral&utm_campaign=failteireland&utm_content=visit_website_button",
+      "originalFetchedAt": "2026-10-28T07:52:52.711984+00:00"
+    },
+    {
+      "file": "reserve-inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026.json",
+      "sha256": "ecc375b9cbaad5b73718b9339512c4292b1f6d6cd4986617c01550b9886009fd",
+      "url": "https://www.visitdublin.com/inclusive-accessible-tour-hilma-af-klint-artist-and-visionary-nov-2026",
+      "originalFetchedAt": "2026-10-28T07:52:46.575827+00:00"
+    },
+    {
+      "file": "podcast-2378950.json",
+      "sha256": "ca5aac22a3b34d5d991684e21fa53c245a7da7097e9ddd33c72bb5fef33ecb72",
+      "url": "https://www.tickettailor.com/events/cheerfulearfulireland/2378950",
+      "originalFetchedAt": "2026-10-28T07:52:36.139983+00:00"
+    },
+    {
+      "file": "event-50.json",
+      "sha256": "0adb9a7e5cbb59e837e2149a191d183c13e0fb8c857f2debaa2fa35ad3e5c5b4",
+      "url": "https://dublin.ie/whats-on/listings/cheerful-earful/",
+      "originalFetchedAt": "2026-10-28T07:47:40.027766+00:00"
+    },
+    {
+      "file": "podcast-2369574.json",
+      "sha256": "8cac3e90742ac403235e3b90fd63dee8e4f4ab831b312861a55a8affbef345c8",
+      "url": "https://www.tickettailor.com/events/cheerfulearfulireland/2369574",
+      "originalFetchedAt": "2026-10-28T07:52:36.297813+00:00"
+    },
+    {
+      "file": "podcast-2346724.json",
+      "sha256": "b5056f7835b9cb7e88cec3413edfba69754fd28175a8cb76c504f8a888baf10e",
+      "url": "https://www.tickettailor.com/events/cheerfulearfulireland/2346724",
+      "originalFetchedAt": "2026-10-28T07:52:39.063618+00:00"
+    },
+    {
+      "file": "podcast-2327851.json",
+      "sha256": "30dffda8a48d3dba1e16bb9508cfd7f669a45f6c5b094e0990475814588b9987",
+      "url": "https://www.tickettailor.com/events/cheerfulearfulireland/2327851",
+      "originalFetchedAt": "2026-10-28T07:52:38.971942+00:00"
+    },
+    {
+      "file": "podcast-2356366.json",
+      "sha256": "36a282e2bef161c8b69b8544eb5a3153207f86fb7d571347cec26bd3353b468d",
+      "url": "https://www.tickettailor.com/events/cheerfulearfulireland/2356366",
+      "originalFetchedAt": "2026-10-28T07:52:39.043981+00:00"
+    },
+    {
+      "file": "science-furniture.json",
+      "sha256": "7fff5e078ca2381164ce31d5ec4c36b6920b3193dde171cffcfdc1533c31ea36",
+      "url": "https://www.rediscoverycentre.ie/workshops/furniture-revamping-workshop-2/",
+      "originalFetchedAt": "2026-10-28T07:52:57.424963+00:00"
+    },
+    {
+      "file": "primary-57.json",
+      "sha256": "e30326ba3ed6c6f4f980a92bf2d930b6812eec73dca3e0d2c15537886b7d8e82",
+      "url": "http://www.artsource.ie/",
+      "originalFetchedAt": "2026-10-28T07:49:23.799609+00:00"
+    },
+    {
+      "file": "event-57.json",
+      "sha256": "078f51e2abe672542fc0647b7e94953348bd328588eb30bf71d843e0a8f656d5",
+      "url": "https://dublin.ie/whats-on/listings/art-source/",
+      "originalFetchedAt": "2026-10-28T07:47:49.703802+00:00"
+    },
+    {
+      "file": "primary-3.json",
+      "sha256": "d0df354e8bd3679de36024f15ec50a951684277e44f1bf5c4f63ff590b725082",
+      "url": "https://www.minawcollective.com/",
+      "originalFetchedAt": "2026-10-28T07:48:13.599950+00:00"
+    },
+    {
+      "file": "event-3.json",
+      "sha256": "b7bee1c13e212d95e425e496cd0570991e6c9cd66aba30b6db1cd5e7c33d8117",
+      "url": "https://dublin.ie/whats-on/listings/lore-mexican-irish-folklore/",
+      "originalFetchedAt": "2026-10-28T07:47:04.827703+00:00"
+    }
+  ],
+  "strictProseEndPolicyAfterProvenanceDelta": {
+    "primaryProseDurationProgrammes": 10,
+    "primaryExplicitProgrammeOrAccessWindowProgrammes": 9,
+    "primaryHeaderOnlyProgrammes": 5,
+    "municipalBodyOnlyProgrammes": 1,
+    "tourismOnlyProgrammes": 1,
+    "rangeOnlyProgrammes": 1,
+    "countsAreProgrammeLevel": true,
+    "note": "Two Whelans rows now have additional primary ticket-header corroboration, but their actualEnd remains unproven; Better Call Solomons remains tourism-only for ending."
+  }
+}

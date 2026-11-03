@@ -1,0 +1,98 @@
+{
+  "pt-BR": {
+    "brasilia": {
+      "locale": "pt-BR",
+      "cityId": "brasilia",
+      "cityName": "Brasília",
+      "pageTitle": "O que fazer em Brasília hoje e nesta semana | Happy Map",
+      "heading": "O que fazer em Brasília hoje e nesta semana",
+      "metaDescription": "Agenda cultural de Brasília: shows, teatro, exposições e encontros com datas, locais e links para os anúncios originais. Escolha aonde ir.",
+      "intro": "Explore uma seleção de shows, teatro, exposições, palestras e encontros em Brasília. Veja o que está publicado para hoje, esta noite e os próximos dias, confira o local e abra o anúncio original antes de sair.",
+      "localContext": "O catálogo reúne programações de espaços como o Clube do Choro de Brasília, o CCBB Brasília, a CAIXA Cultural Brasília, o Teatro Brasília Shopping e o Espaço Cultural Renato Russo. A presença de um local no catálogo não significa que haja programação em todas as datas. A cobertura é parcial, não uma agenda completa do Distrito Federal.",
+      "copy": {
+        "agenda": "Agenda de eventos por cidade",
+        "map": "Abrir mapa",
+        "title": "O que fazer em {city} hoje e nesta semana",
+        "desc": "Agenda cultural de {city}: shows, palestras, teatro e exposições com datas, locais e links para os anúncios originais.",
+        "today": "Hoje",
+        "evening": "Hoje à noite",
+        "weekend": "Próximo dia de fim de semana",
+        "all": "Próximos 7 dias",
+        "music": "Shows e música",
+        "talk": "Palestras e debates",
+        "exhibition": "Arte e exposições",
+        "theatre": "Teatro",
+        "other": "Outros eventos",
+        "source": "Anúncio original",
+        "checked": "Fonte verificada",
+        "empty": "Não há registros confirmados nesta seleção para as datas escolhidas. Isso não significa que não haja eventos na cidade.",
+        "note": "Esta é uma seleção do catálogo publicado, não a agenda completa da cidade. Confira cancelamentos, ingressos disponíveis, horários de visitação e condições de entrada no anúncio original antes de sair. O idioma da publicação não é necessariamente o idioma do evento.",
+        "snapshot": "Seleção gerada",
+        "period": "Datas locais",
+        "sold": "Ingressos esgotados",
+        "fees": "Taxas e condições: consulte a fonte",
+        "unknown": "Horário não informado",
+        "venue": "Locais com programação",
+        "allcities": "Todas as cidades"
+      },
+      "dayCopy": {
+        "heading": "Eventos em",
+        "empty": "Não há eventos atuais confirmados nesta seleção para esta data local. Veja os próximos dias no mapa.",
+        "next": "Eventos dos próximos sete dias"
+      },
+      "statusAndDetails": {
+        "partialCoverage": "Cobertura parcial",
+        "lastSourceCheck": "Última verificação da fonte",
+        "notRechecked": "Fonte ainda não verificada novamente",
+        "sourceLanguageNotice": "Os títulos e alguns detalhes dos eventos podem permanecer no idioma da fonte. O idioma da interface não filtra a agenda.",
+        "closedRegistration": "Inscrições encerradas",
+        "registrationRequired": "Inscrição obrigatória",
+        "venue": "Local",
+        "address": "Endereço",
+        "date": "Data",
+        "time": "Horário",
+        "localTime": "Horário local de Brasília · America/Sao_Paulo",
+        "price": "Preço",
+        "priceUnknown": "Preço não informado",
+        "free": "Grátis",
+        "openMap": "Abrir mapa",
+        "viewOnMap": "Ver no mapa",
+        "viewSource": "Consultar anúncio original",
+        "nextDays": "Ver próximos dias",
+        "todayList": "Agenda de hoje",
+        "weekList": "Agenda dos próximos sete dias",
+        "eventCountOne": "evento",
+        "eventCountMany": "eventos",
+        "noExactMapPoint": "Sem localização exata verificada no mapa"
+      },
+      "renderingNotes": [
+        "Use the source event IDs, titles, descriptions, dates, timezones, venues, addresses and checkedAt unchanged. This file is UI/editorial guide copy, not new event verification.",
+        "The localContext venue names are present in the existing source guide/catalogue read on 2026-11-02; this statement does not assert new source checks, new events, daily programmes or full district coverage.",
+        "Do not label the current rendering timestamp as a source verification timestamp. Preserve each original checkedAt and show separate generation time if needed.",
+        "The existing guide's day heading combines dayCopy.heading with a semantic time element; Portuguese Eventos em is natural for dates such as 2 de novembro.",
+        "Keep reciprocal RU/EN/pt-BR hreflang, self-canonical on the exact Portuguese route and language-neutral record IDs. Do not redirect explicit language guide URLs based on IP.",
+        "Keep English or original-source event facts when no verified Portuguese translation exists; the sourceLanguageNotice explains that honestly. Do not silently omit admission restrictions or source-language notes."
+      ]
+    }
+  },
+  "de": {
+    "berlin": {
+      "cityName": "Berlin",
+      "heading": "Veranstaltungen in Berlin: heute und diese Woche",
+      "metaDescription": "Kultur in Berlin planen: datierte Konzerte, Vorträge, Theater und Ausstellungen mit Veranstaltungsorten, Prüfdatum und Links zu den Ankündigungen.",
+      "intro": "Museumsbesuch, Theaterabend oder ein Treffen mit neuen Leuten: Hier kannst du Berliner Kulturangebote nach Datum und Kategorie durchsehen und auf der Karte einordnen. Die Auswahl stammt aus dem bestehenden Katalog und deckt weder alle Bezirke noch das gesamte Stadtprogramm ab. Öffne die jeweilige Ankündigung, bevor du deinen Besuch planst."
+    },
+    "vienna": {
+      "cityName": "Wien",
+      "heading": "Veranstaltungen in Wien: heute und diese Woche",
+      "metaDescription": "Was in Wien los ist: eine datierte Auswahl von Musik, Theater, Vorträgen und Ausstellungen mit Veranstaltungsorten und direkten Quellen.",
+      "intro": "Ein Konzert, ein Theaterbesuch oder Zeit für eine Ausstellung: Diese Wiener Auswahl verbindet veröffentlichte Termine mit ihren Veranstaltungsorten und Quellen. Nutze die Datums- und Kategorienlinks für deinen nächsten Plan. Sie ersetzen keinen vollständigen Wiener Veranstaltungskalender; auch ein bekannter Veranstaltungsort kann hier nur mit einem Teil seines Programms vertreten sein."
+    },
+    "bern": {
+      "cityName": "Bern",
+      "heading": "Veranstaltungen in Bern: heute und diese Woche",
+      "metaDescription": "Kultur in Bern entdecken: Musik, Theater, Gespräche und Ausstellungen mit belegten Terminen, Veranstaltungsorten und Links zu den Quellen.",
+      "intro": "Vom Konzert über einen Theaterabend bis zum Ausstellungsbesuch: Diese Berner Auswahl hilft dir, veröffentlichte Kulturtermine zu vergleichen und ihren Ort auf der Karte zu finden. Bei Ausstellungen ist die Laufzeit nicht mit täglichen Öffnungszeiten gleichzusetzen. Prüfe deshalb besonders Besuchszeiten, Schliessungstage und Einlassbedingungen in der verlinkten Quelle."
+    }
+  }
+}

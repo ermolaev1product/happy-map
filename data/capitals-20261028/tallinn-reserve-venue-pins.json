@@ -1,0 +1,120 @@
+{
+  "city": "Tallinn",
+  "checkedAt": "2026-10-28T03:43:14.135479+00:00",
+  "venues": [
+    {
+      "venue": "MonReflets",
+      "address": "Roseni 9, Tallinn",
+      "latitude": 59.4389468,
+      "longitude": 24.7553319,
+      "sourceUrl": "https://monreflets.com/et/kontakt",
+      "mapUrl": "https://www.google.com/maps/place/Roseni+tn+9,+10111+Tallinn/@59.4389468,24.7527516,364m/data=!3m2!1e3!4b1!4m6!3m5!1s0x469293612632f261:0x61f6d7fb6b4056d9!8m2!3d59.4389468!4d24.7553319!16s%2Fg%2F11cs8hqqhv?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
+      "precision": "named address/building point, not exact theatre entrance",
+      "evidence": "Own contact page links Roseni9 named Google place with !3d/!4d; official entrance is at rear of Metropol hotel.",
+      "rawPath": "/workspace/shared/tallinn-research/pin-monreflets-com.html",
+      "checkedAt": "2026-10-28T03:41:17.576213+00:00",
+      "status": "verified"
+    },
+    {
+      "venue": "Tallinn St John’s Church",
+      "address": "Vabaduse väljak 1, Tallinn",
+      "latitude": 59.43383,
+      "longitude": 24.74492,
+      "sourceUrl": "https://tallinnajaani.ee/kontakt.html",
+      "mapUrl": null,
+      "precision": "official venue map marker",
+      "evidence": "Own contact HTML var koord171 = new L.LatLng(59.43383,24.74492); var marker171 = new L.Marker(koord171); not viewport-only.",
+      "rawPath": "/workspace/shared/tallinn-research/pin-tallinnajaani-ee.html",
+      "checkedAt": "2026-10-28T03:41:17.576213+00:00",
+      "status": "verified"
+    },
+    {
+      "venue": "Eesti Noorsooteater",
+      "address": "Lai 1 / Nunne 4, Tallinn",
+      "latitude": 59.438273205,
+      "longitude": 24.7431766396,
+      "sourceUrl": "https://www.eestinoorsooteater.ee/en/theatre/contact/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=59.4382732050%2C24.7431766396",
+      "precision": "official theatre Location coordinate target, building/complex",
+      "evidence": "Own Contact -> Location link query explicitly contains coordinates. Address same page.",
+      "rawPath": null,
+      "checkedAt": "2026-10-28T03:41:17.576213+00:00",
+      "status": "verified"
+    },
+    {
+      "venue": "Vivita Solutions Laboratory",
+      "address": "Telliskivi 60a/5, Tallinn",
+      "latitude": 59.4386098,
+      "longitude": 24.7292426,
+      "sourceUrl": "https://huvi.tallinn.ee/en/event/culture-creative-lab-idea-your-own-product?occurrence=292328",
+      "mapUrl": null,
+      "precision": "municipal event venue pin, complex accuracy",
+      "evidence": "Full event page explicit venue coordinate pair; own vivita.ee footer agrees address.",
+      "rawPath": null,
+      "checkedAt": "2026-10-28T03:41:17.576213+00:00",
+      "status": "verified"
+    },
+    {
+      "venue": "The Workshop",
+      "address": "Pärnu maantee19,2ndfloor,Tallinn",
+      "latitude": 59.4319255,
+      "longitude": 24.7459196,
+      "sourceUrl": "https://fienta.com/et/theworkshop-206809",
+      "mapUrl": "https://www.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1sP%C3%A4rnu+maantee+19+Tallinn",
+      "precision": "named street-address building point; NOT second-floor entrance",
+      "evidence": "Full organizer announcement names The Workshop,Pärnu maantee19,2ndfloor. Exact address public map query returns named Pärnu mnt.19,10141Tallinn place0x4692949eefd04cb9:0xedd75fd58b4cd6cd and marker[59.4319255,24.7459196], not viewport-only. Bell Male Secrets.",
+      "rawPath": "/workspace/shared/tallinn-research/workshop-address-map.html",
+      "checkedAt": "2026-10-28T03:43:14.135461+00:00",
+      "status": "verified_address_point",
+      "coordinateSourceUrl": "https://maps.google.com/maps?output=embed&q=P%C3%A4rnu%20maantee%2019%20Tallinn"
+    },
+    {
+      "venue": "KÖÖGIKOMPANII",
+      "address": "Maakri23,2ndfloor,Tallinn",
+      "latitude": 59.4326273,
+      "longitude": 24.7599643,
+      "sourceUrl": "https://koogikompanii.ee/kontakt/",
+      "mapUrl": "https://maps.google.com/maps?iwloc=near&output=embed&q=K%C3%B6%C3%B6gikompanii&t=m&z=15",
+      "precision": "named venue marker in official-linked Google map payload",
+      "evidence": "Own contact named embed resolves to payload place0x46929534912536f5:0xfc46593863ff9a94, full venue name KÖÖGIKOMPANII, Maakri tn23 and marker[59.4326273,24.7599643]. Not viewport-only. Second floor, right-hand stairwell under balcony.",
+      "rawPath": "/workspace/shared/tallinn-research/koogikompanii-map.html",
+      "checkedAt": "2026-10-28T03:41:17.576213+00:00",
+      "status": "verified"
+    },
+    {
+      "venue": "HALO / Rüütli10",
+      "address": "Rüütli10,Tallinn",
+      "latitude": 59.4356573,
+      "longitude": 24.7418722,
+      "sourceUrl": "https://fienta.com/et/halo-avahingus",
+      "mapUrl": "https://maps.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1zUsO8w7x0bGkgMTAgVGFsbGlubg",
+      "precision": "named street-address building point; NOT exact courtyard entrance",
+      "evidence": "Organizer full announcement supplies Rüütli10,Tallinn. Public Google map queried with that exact address returns named Rüütli10 place0x4692949d9051d50d:0xd134115237a8ede3 marker[59.4356573,24.7418722]. Distinct from viewport. Entrance must follow courtyard sign Taani Kuninga Aed.",
+      "rawPath": "/workspace/shared/tallinn-research/ruutli-map.html",
+      "checkedAt": "2026-10-28T03:43:03.565534+00:00",
+      "status": "verified_address_point",
+      "coordinateSourceUrl": "https://maps.google.com/maps?output=embed&q=R%C3%BC%C3%BCtli%2010%20Tallinn"
+    },
+    {
+      "venue": "Estonian National Opera",
+      "address": "Estonia pst4,Tallinn",
+      "latitude": null,
+      "longitude": null,
+      "sourceUrl": "https://opera.ee/en/accessibility/",
+      "mapUrl": null,
+      "precision": null,
+      "evidence": "Own Googleembed !2d/!3d is viewport; rejected. Parent auditing VisitTallinn venue pin.",
+      "rawPath": null,
+      "checkedAt": "2026-10-28T03:41:17.576213+00:00",
+      "status": "held"
+    }
+  ],
+  "blockers": [
+    {
+      "action": "Public GET named-venue Overpass query",
+      "target": "https://overpass-api.de/api/interpreter",
+      "status": "HTTP406",
+      "reason": "No data obtained; not bypassed"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "city": "Brasília",
+  "checkedAt": "2026-10-28T03:17:30Z",
+  "sources": [
+    {
+      "id": "brasilia-source-067af45df0cab0",
+      "name": "GuiaBSB broad local agenda",
+      "url": "https://guiabsb.digital/eventos",
+      "checkedAt": "2026-10-28T03:03:32.198800+00:00",
+      "status": "partial_then_rate_limited",
+      "accessStatus": "partial_then_rate_limited",
+      "count": 0,
+      "note": "Broad future-event list read, four detail pages then429; no retry/bypass or full-pagination claim.",
+      "type": "city_agenda"
+    },
+    {
+      "id": "brasilia-source-08821c07ea0d9b",
+      "name": "Agenda Brasília",
+      "url": "https://agenda.bsb.br/events/mes/2026-10/",
+      "checkedAt": "2026-10-28T03:03:32.198800+00:00",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 11,
+      "note": "Selected complete details read; calendar has erroneous1970/date ranges, not accepted without detail evidence.",
+      "type": "city_agenda"
+    },
+    {
+      "id": "brasilia-source-f82979d80160e2",
+      "name": "CCBB Brasília programme",
+      "url": "https://ccbb.com.br/brasilia/programacao/",
+      "checkedAt": "2026-10-28T03:03:32.198800+00:00",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 15,
+      "note": "Programme and linked tickets read; Amano/Ataxia conflicting dates held, no duplicate alias.",
+      "type": "official_organizer"
+    },
+    {
+      "id": "brasilia-source-3bb54c212ab2a7",
+      "name": "CCBB official tickets",
+      "url": "https://ingressosccbb.com.br/",
+      "checkedAt": "2026-10-28T03:03:32.198800+00:00",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 1,
+      "note": "Published service details used with corroboration; availability not assumed.",
+      "type": "official_tickets"
+    },
+    {
+      "id": "brasilia-source-2489145f46e85d",
+      "name": "Clube do Choro programme",
+      "url": "https://clubedochoro.com.br/conteudo/programacao-eventos/",
+      "checkedAt": "2026-10-28T03:03:32.198800+00:00",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 13,
+      "note": "Main and pages2/3 reviewed; cached index varies. Year from explicit body/current programme only.",
+      "type": "official_organizer"
+    },
+    {
+      "id": "brasilia-source-64d92b3e74beb3",
+      "name": "Bilheteria Digital Choro",
+      "url": "https://www.bilheteriadigital.com/choro",
+      "checkedAt": "2026-10-28T03:03:32.198800+00:00",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 3,
+      "note": "Dates, entry conditions and fees where readable; ticket calendar does not establish year alone.",
+      "type": "official_tickets"
+    },
+    {
+      "id": "brasilia-source-f58d992495ac30",
+      "name": "Teatro Brasília Shopping",
+      "url": "https://brasiliashopping.com.br/todos-teatros/",
+      "checkedAt": "2026-10-28T03:03:32.198800+00:00",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 3,
+      "note": "Current theatre programme and selected detail pages read.",
+      "type": "official_organizer"
+    },
+    {
+      "id": "brasilia-source-e93ed53d2f12b1",
+      "name": "Sympla Brasília events",
+      "url": "https://www.sympla.com.br/",
+      "checkedAt": "2026-10-28T03:03:32.198800+00:00",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 1,
+      "note": "Selected full dated public event details; no account or booking.",
+      "type": "ticketing"
+    },
+    {
+      "id": "brasilia-source-4287cd63ecafc0",
+      "name": "Brasília public Telegram JornaldeBrasiliaDF",
+      "url": "https://t.me/s/JornaldeBrasiliaDF",
+      "checkedAt": "2026-10-28T03:05:52Z",
+      "status": "unavailable_or_profile_only",
+      "accessStatus": "unavailable_or_profile_only",
+      "count": 0,
+      "note": "unavailable; no fresh announcement imported, no join/login/outreach.",
+      "type": "telegram"
+    },
+    {
+      "id": "brasilia-source-cb709d0672963f",
+      "name": "Brasília public Telegram DistritoFederal_DF",
+      "url": "https://t.me/DistritoFederal_DF",
+      "checkedAt": "2026-10-28T03:05:52Z",
+      "status": "unavailable_or_profile_only",
+      "accessStatus": "unavailable_or_profile_only",
+      "count": 0,
+      "note": "unavailable; indexed chat only; no fresh announcement imported, no join/login/outreach.",
+      "type": "telegram"
+    },
+    {
+      "id": "brasilia-source-4c244107f7b5a3",
+      "name": "Brasília public Telegram casarussabrasilia",
+      "url": "https://t.me/s/casarussabrasilia",
+      "checkedAt": "2026-10-28T03:05:52Z",
+      "status": "unavailable_or_profile_only",
+      "accessStatus": "unavailable_or_profile_only",
+      "count": 0,
+      "note": "unavailable; profile found220subscribers, no dated announcement; no fresh announcement imported, no join/login/outreach.",
+      "type": "telegram"
+    },
+    {
+      "id": "brasilia-source-768090cbe10564",
+      "name": "Brasília public Telegram brasilia_forum",
+      "url": "https://t.me/brasilia_forum",
+      "checkedAt": "2026-10-28T03:05:52Z",
+      "status": "unavailable_or_profile_only",
+      "accessStatus": "unavailable_or_profile_only",
+      "count": 0,
+      "note": "unavailable; directory only; no fresh announcement imported, no join/login/outreach.",
+      "type": "telegram"
+    },
+    {
+      "id": "brasilia-source-35129f5abecbfe",
+      "name": "Brasília public Telegram brazilia_chatik",
+      "url": "https://t.me/brazilia_chatik",
+      "checkedAt": "2026-10-28T03:05:52Z",
+      "status": "unavailable_or_profile_only",
+      "accessStatus": "unavailable_or_profile_only",
+      "count": 0,
+      "note": "unavailable; directory only; no fresh announcement imported, no join/login/outreach.",
+      "type": "telegram"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

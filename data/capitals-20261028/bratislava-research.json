@@ -1,0 +1,2190 @@
+{
+  "cityId": "CAP036",
+  "city": "Bratislava",
+  "version": 3,
+  "checkedAt": "2026-10-28T10:02:40Z",
+  "horizon": {
+    "from": "2026-10-28",
+    "through": "2026-11-26"
+  },
+  "timezone": "Europe/Bratislava",
+  "sources": [
+    {
+      "id": "vb",
+      "url": "https://www.visitbratislava.com/events/",
+      "role": "official broad agenda",
+      "readStatus": "pages1–6 fetched;80in-horizon dated entries metadata audited;selected full bodies read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "lod",
+      "url": "https://www.lod.sk/en/cruises/culinary-cruise-on-the-danube/goose-feast",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "market",
+      "url": "https://staratrznica.sk/en/program/trh-piac-markt-2026/2026-11-21",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "bbd",
+      "url": "https://www.babkovedivadlo.sk/repertoar/opice-z-nasej-police/",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "bbd10",
+      "url": "https://babkovedivadlo.maxiticket.sk/opice-z-nasej-police-2026-bratislava-11",
+      "role": "official ticket partner",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "bbd1430",
+      "url": "https://babkovedivadlo.maxiticket.sk/opice-z-nasej-police-2026-bratislava-12",
+      "role": "official ticket partner",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "mac",
+      "url": "https://www.giraffebakery.com/eshop/kurzy-pecenia/macarons",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "macdate",
+      "url": "https://novacvernovka.eu/program/kurz-pecenia-macarons-4",
+      "role": "venue",
+      "readStatus": "body interval plus calendar link establishes2026; year not inferred from copyright",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "cake",
+      "url": "https://www.giraffebakery.com/eshop/kurzy-pecenia/torty",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "cakedate",
+      "url": "https://novacvernovka.eu/program/kurz-pecenia-torty-3",
+      "role": "venue",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "lino",
+      "url": "https://novacvernovka.eu/program/linorytovy-kurz-19",
+      "role": "venue",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "sculpture",
+      "url": "https://www.gmb.sk/detail/socharsky-workshop-s-evou-moflarovou-k-vystave-marie-bartuszovej",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "exhibition",
+      "url": "https://www.gmb.sk/detail/maria-bartuszova-byt-prirodou",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "gmbaccess",
+      "url": "https://www.gmb.sk/navstivte",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "panel",
+      "url": "https://www.gmb.sk/detail/forma-nasleduje-starostlivost-ekofeministicke-citanie-tvorby-marie-bartuszovej",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "tour",
+      "url": "https://www.gmb.sk/detail/komentovany-sprievod-vystavou-maria-bartuszova-byt-prirodou",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "sisa",
+      "url": "https://novacvernovka.eu/program/piesne-z-kabinetu-sisa-feher-mammatus",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "kafka",
+      "url": "https://novacvernovka.eu/program/kafka-band-hraje-kafku",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:45:00Z"
+    },
+    {
+      "id": "dns-program",
+      "url": "https://www.novascena.sk/program?print=1",
+      "role": "organizer",
+      "readStatus": "PDF pages 1–2 dated 2026 rows read; screenshot calls completed",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "dns-access",
+      "url": "https://www.novascena.sk/dns/informacie-pre-divakov",
+      "role": "organizer",
+      "readStatus": "full visitor-access text read",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "dns-address",
+      "url": "https://www.novascena.sk/kontakty",
+      "role": "organizer",
+      "readStatus": "HTML address read; web extraction omitted address, successful raw HTML saved",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "dns-pin",
+      "url": "https://mapcarta.com/W77918432",
+      "role": "named venue geodata",
+      "readStatus": "full named theatre page read; OSM way 77918432 building point",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "dns-mojzis",
+      "url": "https://www.novascena.sk/podujatia/mojzis",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "dns-skrupinka",
+      "url": "https://www.novascena.sk/podujatia/skrupinka",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "dns-bonvivan",
+      "url": "https://www.novascena.sk/podujatia/bonvivan",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "dns-cats-macky",
+      "url": "https://www.novascena.sk/podujatia/cats-macky",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "dns-six",
+      "url": "https://www.novascena.sk/podujatia/six",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "dns-muller-zivot-na-2-tahy",
+      "url": "https://www.novascena.sk/podujatia/muller-zivot-na-2-tahy",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "dns-panska-jazda",
+      "url": "https://www.novascena.sk/podujatia/panska-jazda",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "dns-vystup",
+      "url": "https://www.novascena.sk/podujatia/vystup",
+      "role": "organizer",
+      "readStatus": "full dated body read",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "bkis-wine",
+      "url": "https://www.bkis.sk/festival-mladeho-vina/",
+      "role": "organizer",
+      "readStatus": "2026 programme section read; stale 2025 lower sections explicitly excluded",
+      "checkedAt": "2026-10-28T09:53:30Z"
+    },
+    {
+      "id": "a4-hradby",
+      "url": "https://a4.sk/events/2026/10/30/hradby-samoty-bratislava-intermezzo-2026",
+      "readStatus": "Full archived primary body reviewed at10:04:43Z; archive fetched09:39:06Z. Later robots denial respected, no refetch.",
+      "localEvidence": "/workspace/scratch/59f6a13c9f12/capitals-wave3/bratislava/a4primary.txt",
+      "checkedAt": "2026-10-28T10:04:43Z",
+      "fetchedAt": "2026-10-28T09:39:06Z"
+    },
+    {
+      "id": "snd-swan",
+      "url": "https://snd.sk/en/performance/17508/swan-lake/2026-11-03/19-00",
+      "readStatus": "full dated performance body read; raw saved primary/snd-swan.html",
+      "checkedAt": "2026-10-28T10:02:40Z"
+    },
+    {
+      "id": "snd-access",
+      "url": "https://snd.sk/en/tickets-parking-and-access-to-the-snd-premises-for-visitors-with-disabilities",
+      "readStatus": "full accessibility text read",
+      "checkedAt": "2026-10-28T10:02:40Z"
+    },
+    {
+      "id": "snd-nov",
+      "url": "https://snd.sk/en/program/2026/11",
+      "readStatus": "full official calendar read",
+      "checkedAt": "2026-10-28T10:02:40Z"
+    }
+  ],
+  "programmes": [
+    {
+      "id": "goose-feast",
+      "sourceId": "lod",
+      "title": "Goose Feast aboard Harmónia",
+      "category": "food_cruise",
+      "summary": "A seasonal goose dinner with an evening Danube cruise.",
+      "restrictions": "Ticketed. Minimum50 passengers for operation. No pets. Groups10+ written reservation. Live seats not verified.",
+      "place": {
+        "name": "LOD Passenger Port / Harmónia boarding point",
+        "address": "Fajnorovo nábrežie 2,81102 Bratislava",
+        "coordinates": {
+          "name": "LOD boarding point",
+          "lat": 48.1399742,
+          "lng": 17.112751,
+          "sourceUrl": "https://www.visitbratislava.com/events/goose-feast-on-the-danube-taste-slovak-autumn-aboard-the-harmonia/",
+          "precision": "official agenda-supplied boarding-area point; not independently surveyed berth",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-10-28",
+          "startTime": "17:30",
+          "endTime": "21:30",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "text": "Adult menu1 from65 EUR, menu2 from79 EUR; child2–12 from32 EUR; under2 free accompanied without seat. Drinks extra."
+          },
+          "availability": "not_live_checked",
+          "sourceUrl": "https://www.lod.sk/en/cruises/culinary-cruise-on-the-danube/goose-feast",
+          "endEvidence": "Organizer schedule explicitly permits time onboard 19:30–21:30; separate cruise ends19:30. Canonical event includes boarding/dinner/onboard time."
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "17:30",
+          "endTime": "21:30",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "text": "Adult menu1 from65 EUR, menu2 from79 EUR; child2–12 from32 EUR; under2 free accompanied without seat. Drinks extra."
+          },
+          "availability": "not_live_checked",
+          "sourceUrl": "https://www.lod.sk/en/cruises/culinary-cruise-on-the-danube/goose-feast",
+          "endEvidence": "Organizer schedule explicitly permits time onboard 19:30–21:30; separate cruise ends19:30. Canonical event includes boarding/dinner/onboard time."
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "17:30",
+          "endTime": "21:30",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "text": "Adult menu1 from65 EUR, menu2 from79 EUR; child2–12 from32 EUR; under2 free accompanied without seat. Drinks extra."
+          },
+          "availability": "not_live_checked",
+          "sourceUrl": "https://www.lod.sk/en/cruises/culinary-cruise-on-the-danube/goose-feast",
+          "endEvidence": "Organizer schedule explicitly permits time onboard 19:30–21:30; separate cruise ends19:30. Canonical event includes boarding/dinner/onboard time."
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "17:30",
+          "endTime": "21:30",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "text": "Adult menu1 from65 EUR, menu2 from79 EUR; child2–12 from32 EUR; under2 free accompanied without seat. Drinks extra."
+          },
+          "availability": "not_live_checked",
+          "sourceUrl": "https://www.lod.sk/en/cruises/culinary-cruise-on-the-danube/goose-feast",
+          "endEvidence": "Organizer schedule explicitly permits time onboard 19:30–21:30; separate cruise ends19:30. Canonical event includes boarding/dinner/onboard time."
+        }
+      ],
+      "readiness": "confirmed_public_schedule",
+      "notes": [
+        "17:30boarding;18:30departure;19:30cruise ends;21:30onboard experience ends."
+      ]
+    },
+    {
+      "id": "trh-piac-markt",
+      "sourceId": "market",
+      "title": "Trh-Piac-Markt 2026",
+      "category": "market",
+      "summary": "A Saturday food and makers market with a book exchange upstairs.",
+      "restrictions": "Public food/design/book market. No attendee booking requirement stated. Children program detail refreshed each Thursday; do not invent specific acts.",
+      "place": {
+        "name": "Stará tržnica",
+        "address": "Námestie SNP25,81101 Bratislava",
+        "coordinates": {
+          "name": "Stará tržnica",
+          "lat": 48.1446,
+          "lng": 17.1117,
+          "sourceUrl": "https://www.visitbratislava.com/events/trh-piac-markt-170/",
+          "precision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-10-31",
+          "startTime": "09:00",
+          "endTime": "15:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "text": "Free admission explicitly confirmed by organizer."
+          },
+          "availability": "not_live_checked",
+          "sourceUrl": "https://staratrznica.sk/en/program/trh-piac-markt-2026/2026-10-31",
+          "endEvidence": "Each individual dated organizer page explicitly displays9:00–15:00."
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "09:00",
+          "endTime": "15:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "text": "Free admission explicitly confirmed by organizer."
+          },
+          "availability": "not_live_checked",
+          "sourceUrl": "https://staratrznica.sk/en/program/trh-piac-markt-2026/2026-11-07",
+          "endEvidence": "Each individual dated organizer page explicitly displays9:00–15:00."
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "09:00",
+          "endTime": "15:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "text": "Free admission explicitly confirmed by organizer."
+          },
+          "availability": "not_live_checked",
+          "sourceUrl": "https://staratrznica.sk/en/program/trh-piac-markt-2026/2026-11-14",
+          "endEvidence": "Each individual dated organizer page explicitly displays9:00–15:00."
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "09:00",
+          "endTime": "15:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "text": "Free admission explicitly confirmed by organizer."
+          },
+          "availability": "not_live_checked",
+          "sourceUrl": "https://staratrznica.sk/en/program/trh-piac-markt-2026/2026-11-21",
+          "endEvidence": "Each individual dated organizer page explicitly displays9:00–15:00."
+        }
+      ],
+      "readiness": "confirmed_public_schedule",
+      "notes": []
+    },
+    {
+      "id": "opice",
+      "sourceId": "bbd",
+      "title": "Opice z našej police",
+      "category": "family_theatre",
+      "summary": "A puppet-theatre adaptation of Krista Bendová’s stories about brothers and their toy monkeys.",
+      "restrictions": "Recommended age5+. Public Sunday performances only; school sessions excluded. No filming or photography.",
+      "place": {
+        "name": "Bratislavské bábkové divadlo,Veľká sála",
+        "address": "Dunajská36,81108 Bratislava",
+        "coordinates": {
+          "name": "Bratislavské bábkové divadlo",
+          "lat": 48.1453,
+          "lng": 17.118,
+          "sourceUrl": "https://www.visitbratislava.com/events/opice-z-nasej-police-24/",
+          "precision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-08",
+          "startTime": "10:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 10,
+            "sourceId": "bbd10"
+          },
+          "availability": "not_live_checked",
+          "durationMinutes": 55,
+          "durationSourceId": "bbd",
+          "endEvidence": "Explicit55-minute duration; no endTime synthesized."
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "14:30",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 10,
+            "sourceId": "bbd1430"
+          },
+          "availability": "not_live_checked",
+          "durationMinutes": 55,
+          "durationSourceId": "bbd",
+          "endEvidence": "Explicit55-minute duration; no endTime synthesized."
+        }
+      ],
+      "readiness": "confirmed_public_schedule_duration_only",
+      "notes": [
+        "Official ticket partner€10 overrides agenda€9. Box-office-only family/disability discounts listed on ticket source."
+      ]
+    },
+    {
+      "id": "macarons",
+      "sourceId": "mac",
+      "title": "Macarons baking course",
+      "category": "workshop",
+      "summary": "Learn Italian-method macarons and prepare three fillings.",
+      "restrictions": "Not suitable for children. Advance paid booking; specify selected date. Giraffe Bakery inside campus.",
+      "place": {
+        "name": "Nová Cvernovka",
+        "address": "Račianska78,Bratislava",
+        "coordinates": {
+          "name": "Nová Cvernovka campus",
+          "lat": 48.1831,
+          "lng": 17.1317,
+          "sourceUrl": "https://www.visitbratislava.com/events/vianocny-cverna-market-2026/",
+          "precision": "source-supplied campus point; NOT individual studio entrance",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        },
+        "room": "Giraffe Bakery"
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-10",
+          "startTime": "18:00",
+          "endTime": "21:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 109,
+            "sourceId": "mac"
+          },
+          "availability": "not_live_checked",
+          "endEvidence": "Explicit start–end interval in readable venue event body; baking organizer also states3hours.",
+          "yearEvidenceSourceId": "macdate"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_campus_pin"
+    },
+    {
+      "id": "cakes",
+      "sourceId": "cake",
+      "title": "Cake baking course",
+      "category": "workshop",
+      "summary": "A practical cake-making workshop covering sponge, creams and finishing.",
+      "restrictions": "Advance paid booking;3participants stated. Giraffe Bakery inside campus.",
+      "place": {
+        "name": "Nová Cvernovka",
+        "address": "Račianska78,Bratislava",
+        "coordinates": {
+          "name": "Nová Cvernovka campus",
+          "lat": 48.1831,
+          "lng": 17.1317,
+          "sourceUrl": "https://www.visitbratislava.com/events/vianocny-cverna-market-2026/",
+          "precision": "source-supplied campus point; NOT individual studio entrance",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        },
+        "room": "Giraffe Bakery"
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-21",
+          "startTime": "09:00",
+          "endTime": "12:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 149,
+            "sourceId": "cake"
+          },
+          "availability": "not_live_checked",
+          "endEvidence": "Explicit start–end interval in readable venue event body; baking organizer also states3hours.",
+          "yearEvidenceSourceId": "cakedate"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_campus_pin"
+    },
+    {
+      "id": "linocut",
+      "sourceId": "lino",
+      "title": "Linocut workshop",
+      "category": "workshop",
+      "summary": "Create a linocut design and print five copies in a small workshop.",
+      "restrictions": "Beginner-friendly;8places;materials supplied. Exact studio entrance not verified.",
+      "place": {
+        "name": "Nová Cvernovka",
+        "address": "Račianska78,Bratislava",
+        "coordinates": {
+          "name": "Nová Cvernovka campus",
+          "lat": 48.1831,
+          "lng": 17.1317,
+          "sourceUrl": "https://www.visitbratislava.com/events/vianocny-cverna-market-2026/",
+          "precision": "source-supplied campus point; NOT individual studio entrance",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        },
+        "room": "Studio not individually geocoded"
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-14",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 70,
+            "sourceId": "lino"
+          },
+          "availability": "not_live_checked",
+          "endEvidence": "Explicit start–end interval in the full venue event body.",
+          "yearEvidenceSourceId": "lino"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_campus_pin"
+    },
+    {
+      "id": "sculpture",
+      "sourceId": "sculpture",
+      "title": "Sculpture workshop with Eva Moflárová",
+      "category": "art_workshop",
+      "summary": "Explore organic sculptural forms and visit Maria Bartuszová’s exhibition.",
+      "restrictions": "Recommended15+;materials supplied;limited capacity;arrive on time. SOLD OUT label on exhibition’s related-event listing.",
+      "place": {
+        "name": "Mirbachov palác",
+        "address": "Františkánske nám.11,Bratislava",
+        "coordinates": {
+          "name": "Mirbachov palác",
+          "lat": 48.1449,
+          "lng": 17.1079,
+          "sourceUrl": "https://www.visitbratislava.com/events/socharsky-workshop-s-evou-moflarovou-k-vystave-marie-bartuszovej/",
+          "precision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-14",
+          "startTime": "15:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 18,
+            "sourceId": "sculpture"
+          },
+          "availability": "sold_out",
+          "availabilitySourceId": "exhibition",
+          "endEvidence": "Organizer event body explicitly15:00–18:00."
+        }
+      ],
+      "readiness": "confirmed_public_sold_out",
+      "importDecision": "held_sold_out_per_launcher"
+    },
+    {
+      "id": "bartuszova-exhibition",
+      "sourceId": "exhibition",
+      "title": "Maria Bartuszová – Being Nature",
+      "category": "exhibition",
+      "summary": "A retrospective exploring sculptural forms, nature and touch.",
+      "restrictions": "Closed Mondays. Under18free;adult€8;listed concession groups50%off. Opening-hour slots are not timed performances;check holiday exceptions.",
+      "place": {
+        "name": "Mirbachov palác",
+        "address": "Františkánske nám.11,Bratislava",
+        "coordinates": {
+          "name": "Mirbachov palác",
+          "lat": 48.1449,
+          "lng": 17.1079,
+          "sourceUrl": "https://www.visitbratislava.com/events/socharsky-workshop-s-evou-moflarovou-k-vystave-marie-bartuszovej/",
+          "precision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        }
+      },
+      "exhibitionRange": {
+        "startDate": "2026-06-18",
+        "endDate": "2027-01-24",
+        "sourceId": "exhibition"
+      },
+      "visitingSlots": [
+        {
+          "date": "2026-10-28",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-10-29",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-10-30",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-10-31",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-01",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-03",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 0,
+            "sourceId": "gmbaccess",
+            "text": "First Wednesday free admission"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-05",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-06",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-08",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-11",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-12",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-13",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-14",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-15",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-17",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-18",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-21",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-22",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-24",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-25",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        },
+        {
+          "date": "2026-11-26",
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "sourceId": "gmbaccess",
+            "text": "Adult single-palace ticket;under18free and other concessions listed"
+          },
+          "availability": "published_hours_no_exception_check",
+          "slotType": "published_opening_hours_expansion",
+          "endEvidence": "Venue explicitlyTue–Sun11:00–18:00;Mondayclosed."
+        }
+      ],
+      "occurrences": [],
+      "readiness": "confirmed_exhibition_with_regular_hours"
+    },
+    {
+      "id": "eco-panel",
+      "sourceId": "panel",
+      "title": "Form Follows Care: Ecofeminist readings of Maria Bartuszová",
+      "category": "public_discussion",
+      "summary": "A public panel discussing ecology, care and Bartuszová’s work.",
+      "restrictions": "At Café Emil inside Mirbach Palace;finish not published.",
+      "place": {
+        "name": "Mirbachov palác",
+        "address": "Františkánske nám.11,Bratislava",
+        "coordinates": {
+          "name": "Mirbachov palác",
+          "lat": 48.1449,
+          "lng": 17.1079,
+          "sourceUrl": "https://www.visitbratislava.com/events/socharsky-workshop-s-evou-moflarovou-k-vystave-marie-bartuszovej/",
+          "precision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-04",
+          "startTime": "18:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 0,
+            "sourceId": "panel"
+          },
+          "availability": "not_live_checked"
+        }
+      ],
+      "readiness": "confirmed_start_only_end_gate_pending"
+    },
+    {
+      "id": "guided-tour",
+      "sourceId": "tour",
+      "title": "Guided tour: Maria Bartuszová – Being Nature",
+      "category": "guided_tour",
+      "summary": "Explore the exhibition with the gallery director and exhibition designers.",
+      "restrictions": "Limited capacity;advance purchase recommended;arrive18:00;finish not published.",
+      "place": {
+        "name": "Mirbachov palác",
+        "address": "Františkánske nám.11,Bratislava",
+        "coordinates": {
+          "name": "Mirbachov palác",
+          "lat": 48.1449,
+          "lng": 17.1079,
+          "sourceUrl": "https://www.visitbratislava.com/events/socharsky-workshop-s-evou-moflarovou-k-vystave-marie-bartuszovej/",
+          "precision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-11",
+          "startTime": "18:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 8,
+            "concessionAmount": 4,
+            "sourceId": "tour"
+          },
+          "availability": "not_live_checked"
+        }
+      ],
+      "readiness": "confirmed_start_only_end_gate_pending"
+    },
+    {
+      "id": "sisa",
+      "sourceId": "sisa",
+      "title": "Sisa Fehér & Mammatus",
+      "category": "music",
+      "summary": "An alternative-jazz concert with experimental textures and support from Zina.",
+      "restrictions": "Finish not confirmed;calendar-only22:00 rejected.",
+      "place": {
+        "name": "Nová Cvernovka",
+        "address": "Račianska78,Bratislava",
+        "coordinates": {
+          "name": "Nová Cvernovka campus",
+          "lat": 48.1831,
+          "lng": 17.1317,
+          "sourceUrl": "https://www.visitbratislava.com/events/vianocny-cverna-market-2026/",
+          "precision": "source-supplied campus point; NOT individual studio entrance",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-10-29",
+          "startTime": "20:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "amount": 10,
+            "text": "Door price",
+            "sourceId": "sisa"
+          },
+          "availability": "not_live_checked"
+        }
+      ],
+      "readiness": "confirmed_start_only_end_gate_pending"
+    },
+    {
+      "id": "kafka",
+      "sourceId": "kafka",
+      "title": "Kafka Band plays Kafka",
+      "category": "music",
+      "summary": "Alternative rock inspired by Kafka’s novels.",
+      "restrictions": "Price and finish not established;calendar-only22:00 rejected.",
+      "place": {
+        "name": "Nová Cvernovka",
+        "address": "Račianska78,Bratislava",
+        "coordinates": {
+          "name": "Nová Cvernovka campus",
+          "lat": 48.1831,
+          "lng": 17.1317,
+          "sourceUrl": "https://www.visitbratislava.com/events/vianocny-cverna-market-2026/",
+          "precision": "source-supplied campus point; NOT individual studio entrance",
+          "checkedAt": "2026-10-28T09:45:00Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-02",
+          "startTime": "20:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "price": null,
+          "availability": "not_live_checked"
+        }
+      ],
+      "readiness": "confirmed_start_only_end_gate_pending"
+    },
+    {
+      "id": "dns-mojzis",
+      "sourceId": "dns-mojzis",
+      "title": "MOJŽIŠ",
+      "category": "theatre",
+      "summary": "A musical retelling of the Exodus story.",
+      "restrictions": "Recommended age 12+. Strobe and strong lighting directed into the auditorium.",
+      "access": "Arrive on time: late arrivals wait until the interval. Each child needs a ticket. Wheelchair access uses the side entrance from Námestie 1. mája; advance accessible-seat reservation required.",
+      "accessSourceId": "dns-access",
+      "place": {
+        "name": "Divadlo Nová scéna, Veľká sála",
+        "address": "Živnostenská 1, 812 14 Bratislava",
+        "addressSourceId": "dns-address",
+        "coordinates": {
+          "name": "Divadlo Nová scéna theatre building",
+          "lat": 48.14943,
+          "lng": 17.11112,
+          "sourceUrl": "https://mapcarta.com/W77918432",
+          "precision": "named OSM theatre building point, not a verified door or studio entrance",
+          "checkedAt": "2026-10-28T09:53:30Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-10-28",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 160,
+          "durationSourceId": "dns-mojzis",
+          "endEvidence": "Explicit published duration including interval. No end time synthesized.",
+          "price": {
+            "currency": "EUR",
+            "tiers": [
+              25,
+              35,
+              45
+            ],
+            "sourceId": "dns-program"
+          },
+          "availability": "buy_link_displayed_seat_inventory_not_checked"
+        },
+        {
+          "date": "2026-11-10",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 160,
+          "durationSourceId": "dns-mojzis",
+          "endEvidence": "Explicit published duration including interval. No end time synthesized.",
+          "price": {
+            "currency": "EUR",
+            "tiers": [
+              25,
+              35,
+              45
+            ],
+            "sourceId": "dns-program"
+          },
+          "availability": "buy_link_displayed_seat_inventory_not_checked"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_duration_only",
+      "notes": [
+        "2026 dates and per-performance prices cross-checked against official programme PDF. Public buy links displayed; no cart or booking action."
+      ]
+    },
+    {
+      "id": "dns-skrupinka",
+      "sourceId": "dns-skrupinka",
+      "title": "ŠKRUPINKA",
+      "category": "theatre",
+      "summary": "Two very different women find an unexpected friendship.",
+      "restrictions": "Recommended age 15+. ",
+      "access": "Arrive on time: late arrivals wait until the interval. Each child needs a ticket. Wheelchair access uses the side entrance from Námestie 1. mája; advance accessible-seat reservation required.",
+      "accessSourceId": "dns-access",
+      "place": {
+        "name": "Divadlo Nová scéna, Štúdio Olympia",
+        "address": "Živnostenská 1, 812 14 Bratislava",
+        "addressSourceId": "dns-address",
+        "coordinates": {
+          "name": "Divadlo Nová scéna theatre building",
+          "lat": 48.14943,
+          "lng": 17.11112,
+          "sourceUrl": "https://mapcarta.com/W77918432",
+          "precision": "named OSM theatre building point, not a verified door or studio entrance",
+          "checkedAt": "2026-10-28T09:53:30Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-07",
+          "startTime": "19:30",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 120,
+          "durationSourceId": "dns-skrupinka",
+          "endEvidence": "Explicit published duration including interval. No end time synthesized.",
+          "price": {
+            "currency": "EUR",
+            "tiers": [
+              17
+            ],
+            "sourceId": "dns-program"
+          },
+          "availability": "buy_link_displayed_seat_inventory_not_checked"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_duration_only",
+      "notes": [
+        "2026 dates and per-performance prices cross-checked against official programme PDF. Public buy links displayed; no cart or booking action."
+      ]
+    },
+    {
+      "id": "dns-bonvivan",
+      "sourceId": "dns-bonvivan",
+      "title": "BONVIVÁN",
+      "category": "theatre",
+      "summary": "A musical inspired by entertainer František Krištof Veselý.",
+      "restrictions": "Recommended age 12+. Smoking on stage.",
+      "access": "Arrive on time: late arrivals wait until the interval. Each child needs a ticket. Wheelchair access uses the side entrance from Námestie 1. mája; advance accessible-seat reservation required.",
+      "accessSourceId": "dns-access",
+      "place": {
+        "name": "Divadlo Nová scéna, Veľká sála",
+        "address": "Živnostenská 1, 812 14 Bratislava",
+        "addressSourceId": "dns-address",
+        "coordinates": {
+          "name": "Divadlo Nová scéna theatre building",
+          "lat": 48.14943,
+          "lng": 17.11112,
+          "sourceUrl": "https://mapcarta.com/W77918432",
+          "precision": "named OSM theatre building point, not a verified door or studio entrance",
+          "checkedAt": "2026-10-28T09:53:30Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-11",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 180,
+          "durationSourceId": "dns-bonvivan",
+          "endEvidence": "Explicit published duration including interval. No end time synthesized.",
+          "price": {
+            "currency": "EUR",
+            "tiers": [
+              20,
+              32,
+              37
+            ],
+            "sourceId": "dns-program"
+          },
+          "availability": "buy_link_displayed_seat_inventory_not_checked"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_duration_only",
+      "notes": [
+        "2026 dates and per-performance prices cross-checked against official programme PDF. Public buy links displayed; no cart or booking action."
+      ]
+    },
+    {
+      "id": "dns-cats-macky",
+      "sourceId": "dns-cats-macky",
+      "title": "CATS/MAČKY",
+      "category": "theatre",
+      "summary": "Andrew Lloyd Webber’s dance musical about a gathering of cats.",
+      "restrictions": "Recommended age 6+. Strong changes in dynamics.",
+      "access": "Arrive on time: late arrivals wait until the interval. Each child needs a ticket. Wheelchair access uses the side entrance from Námestie 1. mája; advance accessible-seat reservation required.",
+      "accessSourceId": "dns-access",
+      "place": {
+        "name": "Divadlo Nová scéna, Veľká sála",
+        "address": "Živnostenská 1, 812 14 Bratislava",
+        "addressSourceId": "dns-address",
+        "coordinates": {
+          "name": "Divadlo Nová scéna theatre building",
+          "lat": 48.14943,
+          "lng": 17.11112,
+          "sourceUrl": "https://mapcarta.com/W77918432",
+          "precision": "named OSM theatre building point, not a verified door or studio entrance",
+          "checkedAt": "2026-10-28T09:53:30Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-14",
+          "startTime": "17:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 150,
+          "durationSourceId": "dns-cats-macky",
+          "endEvidence": "Explicit published duration including interval. No end time synthesized.",
+          "price": {
+            "currency": "EUR",
+            "tiers": [
+              25,
+              35,
+              45
+            ],
+            "sourceId": "dns-program"
+          },
+          "availability": "buy_link_displayed_seat_inventory_not_checked"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_duration_only",
+      "notes": [
+        "2026 dates and per-performance prices cross-checked against official programme PDF. Public buy links displayed; no cart or booking action."
+      ]
+    },
+    {
+      "id": "dns-six",
+      "sourceId": "dns-six",
+      "title": "SIX",
+      "category": "theatre",
+      "summary": "Henry VIII’s six wives tell their stories as a pop ensemble.",
+      "restrictions": "Recommended age 14+. Strong lighting, expressive language and prominent rock-pop music. No recording.",
+      "access": "Arrive on time: late arrivals wait until the interval. Each child needs a ticket. Wheelchair access uses the side entrance from Námestie 1. mája; advance accessible-seat reservation required.",
+      "accessSourceId": "dns-access",
+      "place": {
+        "name": "Divadlo Nová scéna, Veľká sála",
+        "address": "Živnostenská 1, 812 14 Bratislava",
+        "addressSourceId": "dns-address",
+        "coordinates": {
+          "name": "Divadlo Nová scéna theatre building",
+          "lat": 48.14943,
+          "lng": 17.11112,
+          "sourceUrl": "https://mapcarta.com/W77918432",
+          "precision": "named OSM theatre building point, not a verified door or studio entrance",
+          "checkedAt": "2026-10-28T09:53:30Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-15",
+          "startTime": "18:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 90,
+          "durationSourceId": "dns-six",
+          "endEvidence": "Explicit published duration. No end time synthesized.",
+          "price": {
+            "currency": "EUR",
+            "tiers": [
+              22,
+              31,
+              36
+            ],
+            "sourceId": "dns-program"
+          },
+          "availability": "buy_link_displayed_seat_inventory_not_checked"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_duration_only",
+      "notes": [
+        "2026 dates and per-performance prices cross-checked against official programme PDF. Public buy links displayed; no cart or booking action."
+      ]
+    },
+    {
+      "id": "dns-muller-zivot-na-2-tahy",
+      "sourceId": "dns-muller-zivot-na-2-tahy",
+      "title": "MÜLLER – Život na 2 ťahy",
+      "category": "theatre",
+      "summary": "A musical portrait inspired by Richard Müller’s life and songs.",
+      "restrictions": "Recommended age 18+. Addiction themes; smoking on stage.",
+      "access": "Arrive on time: late arrivals wait until the interval. Each child needs a ticket. Wheelchair access uses the side entrance from Námestie 1. mája; advance accessible-seat reservation required.",
+      "accessSourceId": "dns-access",
+      "place": {
+        "name": "Divadlo Nová scéna, Veľká sála",
+        "address": "Živnostenská 1, 812 14 Bratislava",
+        "addressSourceId": "dns-address",
+        "coordinates": {
+          "name": "Divadlo Nová scéna theatre building",
+          "lat": 48.14943,
+          "lng": 17.11112,
+          "sourceUrl": "https://mapcarta.com/W77918432",
+          "precision": "named OSM theatre building point, not a verified door or studio entrance",
+          "checkedAt": "2026-10-28T09:53:30Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-18",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 190,
+          "durationSourceId": "dns-muller-zivot-na-2-tahy",
+          "endEvidence": "Explicit published duration including interval. No end time synthesized.",
+          "price": {
+            "currency": "EUR",
+            "tiers": [
+              25,
+              35,
+              45
+            ],
+            "sourceId": "dns-program"
+          },
+          "availability": "buy_link_displayed_seat_inventory_not_checked"
+        },
+        {
+          "date": "2026-11-19",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 190,
+          "durationSourceId": "dns-muller-zivot-na-2-tahy",
+          "endEvidence": "Explicit published duration including interval. No end time synthesized.",
+          "price": {
+            "currency": "EUR",
+            "tiers": [
+              25,
+              35,
+              45
+            ],
+            "sourceId": "dns-program"
+          },
+          "availability": "buy_link_displayed_seat_inventory_not_checked"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_duration_only",
+      "notes": [
+        "2026 dates and per-performance prices cross-checked against official programme PDF. Public buy links displayed; no cart or booking action."
+      ]
+    },
+    {
+      "id": "dns-panska-jazda",
+      "sourceId": "dns-panska-jazda",
+      "title": "PÁNSKA JAZDA",
+      "category": "theatre",
+      "summary": "A pub-themed musical show with singing and dance.",
+      "restrictions": "Recommended age 18+. Alcohol is served as part of the production.",
+      "access": "Arrive on time: late arrivals wait until the interval. Each child needs a ticket. Wheelchair access uses the side entrance from Námestie 1. mája; advance accessible-seat reservation required.",
+      "accessSourceId": "dns-access",
+      "place": {
+        "name": "Divadlo Nová scéna, Veľká sála",
+        "address": "Živnostenská 1, 812 14 Bratislava",
+        "addressSourceId": "dns-address",
+        "coordinates": {
+          "name": "Divadlo Nová scéna theatre building",
+          "lat": 48.14943,
+          "lng": 17.11112,
+          "sourceUrl": "https://mapcarta.com/W77918432",
+          "precision": "named OSM theatre building point, not a verified door or studio entrance",
+          "checkedAt": "2026-10-28T09:53:30Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-24",
+          "startTime": "19:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 120,
+          "durationSourceId": "dns-panska-jazda",
+          "endEvidence": "Explicit published duration. No end time synthesized.",
+          "price": {
+            "currency": "EUR",
+            "tiers": [
+              22,
+              31,
+              36
+            ],
+            "sourceId": "dns-program"
+          },
+          "availability": "buy_link_displayed_seat_inventory_not_checked"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_duration_only",
+      "notes": [
+        "2026 dates and per-performance prices cross-checked against official programme PDF. Public buy links displayed; no cart or booking action."
+      ]
+    },
+    {
+      "id": "dns-vystup",
+      "sourceId": "dns-vystup",
+      "title": "VÝSTUP",
+      "category": "theatre",
+      "summary": "A comedy about three friends confronting midlife on a mountain walk.",
+      "restrictions": "Recommended age 15+. ",
+      "access": "Arrive on time: late arrivals wait until the interval. Each child needs a ticket. Wheelchair access uses the side entrance from Námestie 1. mája; advance accessible-seat reservation required.",
+      "accessSourceId": "dns-access",
+      "place": {
+        "name": "Divadlo Nová scéna, Štúdio Olympia",
+        "address": "Živnostenská 1, 812 14 Bratislava",
+        "addressSourceId": "dns-address",
+        "coordinates": {
+          "name": "Divadlo Nová scéna theatre building",
+          "lat": 48.14943,
+          "lng": 17.11112,
+          "sourceUrl": "https://mapcarta.com/W77918432",
+          "precision": "named OSM theatre building point, not a verified door or studio entrance",
+          "checkedAt": "2026-10-28T09:53:30Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-25",
+          "startTime": "19:30",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 135,
+          "durationSourceId": "dns-vystup",
+          "endEvidence": "Explicit published duration including interval. No end time synthesized.",
+          "price": {
+            "currency": "EUR",
+            "tiers": [
+              20
+            ],
+            "sourceId": "dns-program"
+          },
+          "availability": "buy_link_displayed_seat_inventory_not_checked"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_duration_only",
+      "notes": [
+        "2026 dates and per-performance prices cross-checked against official programme PDF. Public buy links displayed; no cart or booking action."
+      ]
+    },
+    {
+      "id": "young-wine-market",
+      "sourceId": "bkis-wine",
+      "title": "Festival mladého vína — wine market",
+      "category": "food_market",
+      "summary": "Bratislava winemakers present young wines in the palace courtyard.",
+      "restrictions": "Wine samples are purchased from individual vendors; tasting-glass deposit EUR 5. Guided walks require separate reservations and are not included here.",
+      "place": {
+        "name": "St George courtyard, Primate’s Palace",
+        "address": "Primaciálne námestie 2, Bratislava",
+        "addressSourceUrl": "https://goout.net/sk/champagne-gala-2026/szdtjly/",
+        "coordinates": {
+          "name": "Primate’s Palace venue point",
+          "lat": 48.1442,
+          "lng": 17.1093,
+          "sourceUrl": "https://www.visitbratislava.com/events/champagne-gala-2026/",
+          "precision": "official agenda palace point; specific courtyard entrance not surveyed",
+          "checkedAt": "2026-10-28T09:53:30Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-06",
+          "startTime": "16:00",
+          "endTime": "22:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "admission": 0,
+            "sourceUrl": "https://www.visitbratislava.com/events/young-wine-festival/",
+            "extras": "Wine samples charged separately; glass deposit EUR 5."
+          },
+          "availability": "public_market",
+          "endEvidence": "Organizer prose gives wine sales interval; courtyard closes at 23:00, not the sales end.",
+          "endSourceId": "bkis-wine"
+        },
+        {
+          "date": "2026-11-07",
+          "startTime": "12:00",
+          "endTime": "22:00",
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "admission": 0,
+            "sourceUrl": "https://www.visitbratislava.com/events/young-wine-festival/",
+            "extras": "Wine samples charged separately; glass deposit EUR 5."
+          },
+          "availability": "public_market",
+          "endEvidence": "Organizer prose gives wine sales interval; courtyard closes at 23:00, not the sales end.",
+          "endSourceId": "bkis-wine"
+        }
+      ],
+      "readiness": "confirmed_public_schedule",
+      "notes": [
+        "Only explicit 2026 upper programme used. Lower blocks say Friday 7 November / Saturday 8 November and are stale 2025 content, excluded. Concerts not assigned inferred durations."
+      ]
+    },
+    {
+      "id": "hradby-samoty-oct30",
+      "sourceId": "a4-hradby",
+      "title": "Hradby Samoty – Bratislava Intermezzo 2026",
+      "category": "experimental_music",
+      "summary": "Experimental music, visual performance and sound art at A4.",
+      "restrictions": "The A4 membership card is not valid for this externally organized festival.",
+      "place": {
+        "name": "A4 – priestor súčasnej kultúry",
+        "address": "Karpatská 2 (YMCA building), 811 05 Bratislava",
+        "addressSourceId": "a4-hradby",
+        "coordinates": {
+          "name": "A4 contemporary culture venue",
+          "lat": 48.1571,
+          "lng": 17.1136,
+          "sourceUrl": "https://www.visitbratislava.com/events/hradby-samoty-bratislava-intermezzo-2026-2/",
+          "precision": "official agenda venue point; not door surveyed",
+          "checkedAt": "2026-10-28T09:59:50Z"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-10-30",
+          "startTime": "18:00",
+          "endTime": null,
+          "timezone": "Europe/Bratislava",
+          "price": {
+            "currency": "EUR",
+            "min": 20,
+            "max": 50,
+            "sourceId": "a4-hradby",
+            "note": "Published festival ticket range; individual pass tiers not resolved."
+          },
+          "availability": "not_live_checked"
+        }
+      ],
+      "readiness": "confirmed_start_only",
+      "notes": [
+        "Primary18:00 overrides older agenda12:00; festival spans30–31Oct but only verified first-day start included. No inferred end."
+      ]
+    },
+    {
+      "id": "snd-swan-lake",
+      "sourceId": "snd-swan",
+      "title": "Swan Lake",
+      "category": "ballet",
+      "summary": "Tchaikovsky’s ballet in Rudolf Nureyev’s staging, performed by the Slovak National Theatre.",
+      "restrictions": "Recommended age 10+. Wheelchair users should arrange designated seating and arrive at least 30 minutes early.",
+      "accessSourceId": "snd-access",
+      "place": {
+        "name": "Slovak National Theatre — New Building, Opera and Ballet Hall",
+        "address": "Pribinova 17, 819 01 Bratislava",
+        "addressSourceUrl": "https://snd.sk/adresy-a-kontakty",
+        "coordinates": {
+          "name": "Slovak National Theatre — New Building",
+          "lat": 48.14131,
+          "lng": 17.1229458,
+          "sourceUrl": "https://snd.sk/ako-sa-k-nam-dostanete",
+          "precision": "official-linked named venue building marker, not exact hall entrance",
+          "checkedAt": "2026-10-28T10:02:11.619514+00:00",
+          "evidenceFile": "/workspace/scratch/59f6a13c9f12/capitals-wave3/bratislava/snd-pin/verified.json"
+        }
+      },
+      "occurrences": [
+        {
+          "date": "2026-11-03",
+          "startTime": "19:00",
+          "endTime": "22:00",
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 180,
+          "durationSourceId": "snd-swan",
+          "endEvidence": "Explicit dated 19:00–22:00 performance schedule on the organizer performance page; body independently states 3 hours with two intervals. No arithmetic-derived end.",
+          "endSourceId": "snd-swan",
+          "price": {
+            "currency": "EUR",
+            "amount": null,
+            "status": "unconfirmed",
+            "note": "No standard amount in read performance body; ticket Buy uses POST hall form, not submitted."
+          },
+          "availability": "in_sales_on_official_page_seat_inventory_not_checked"
+        },
+        {
+          "date": "2026-11-04",
+          "startTime": "19:00",
+          "endTime": "22:00",
+          "timezone": "Europe/Bratislava",
+          "durationMinutes": 180,
+          "durationSourceId": "snd-swan",
+          "endEvidence": "Explicit dated 19:00–22:00 performance schedule on the organizer performance page; body independently states 3 hours with two intervals. No arithmetic-derived end.",
+          "endSourceId": "snd-swan",
+          "price": {
+            "currency": "EUR",
+            "amount": null,
+            "status": "unconfirmed",
+            "note": "No standard amount in read performance body; ticket Buy uses POST hall form, not submitted."
+          },
+          "availability": "in_sales_on_official_page_seat_inventory_not_checked"
+        }
+      ],
+      "readiness": "confirmed_public_schedule_price_unknown",
+      "notes": [
+        "Official page explicitly lists both 3 and 4 November 2026. No ticket checkout, cart or reservation performed. New building pin supplied by launcher from its independently saved official-linked named map payload."
+      ]
+    }
+  ],
+  "coverage": {
+    "catalogPagesFetched": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "linkedUrlsFetched": 92,
+    "datedEntriesInHorizon": 80,
+    "notComplete": true,
+    "uniqueProgrammes": 21,
+    "notes": "Original 80 agenda date rows remain a bounded observation, not completeness. Added 8 theatre productions / 10 performances and the 2-day wine market; sold-out discoveries held separately. Duration-only theatre has null endTime.",
+    "distinctOccurrenceDates": [
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-31",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-21",
+      "2026-11-24",
+      "2026-11-25"
+    ]
+  },
+  "audit": [
+    "v1 preserved;v2 expands diversity,does not equate two recurring series with city completeness.",
+    "School/private/soldout school sessions excluded. Public soldout sculpture retained with label.",
+    "A4 guessed2026slam URL returned2025content;excluded,notdate-inferred. Later robots restriction means no further attempts.",
+    "Prior to parent no-cross-transport instruction, some web cache-miss URLs were fetched with rawHTTP;logged transparently. No retry via alternate transport after instruction.",
+    "Cverna calendar default2h rejected as endproof;vendor registration not attendee booking.",
+    "No publishing,joining,outreach,purchases or browser use.",
+    "Coordinates copied from named official agenda points;campus pins explicitly not room-precise.",
+    "v3: original v2 preserved; corrected absolute output path removes extra Scratch component. Nová scéna 8 public productions verified using primary full detail pages + dated PDF. No school/organized or sold-out theatre rows imported. Mapcarta pin explicitly building precision. BKIS stale 2025 lower blocks excluded. Failed web targets not retried through another transport."
+  ],
+  "heldAddendum": [
+    {
+      "title": "Tiché vody",
+      "dates": [
+        "2026-11-23"
+      ],
+      "times": [
+        "18:00",
+        "20:00"
+      ],
+      "sourceUrl": "https://tichevody.sk/",
+      "readStatus": "full dated 2026 screening list read",
+      "availability": "sold_out",
+      "reason": "Both Bratislava screenings marked Vypredané; duration unconfirmed."
+    },
+    {
+      "title": "Champagne Gala 2026",
+      "date": "2026-11-25",
+      "startTime": "17:30",
+      "endTime": "21:30",
+      "priceEUR": 79,
+      "minimumAge": 18,
+      "sourceUrl": "https://www.sipandsmith.sk/",
+      "availabilitySourceUrl": "https://goout.net/sk/champagne-gala-2026/szdtjly/",
+      "readStatus": "organizer and linked ticket page fully read",
+      "availability": "sold_out",
+      "reason": "Explicit interval from organizer; ticket page sold out. Retained as held, not accessible inventory."
+    }
+  ],
+  "qa": {
+    "frozenPacket": "/workspace/scratch/59f6a13c9f12/capitals-wave3/bratislava/canonical-packet-v3.json",
+    "sha256": "5e4c708ce107de9c8c784621801978f73c4823ab5768f40ab8d779b0872a6cd2",
+    "checkedAt": "2026-10-28T09:56:15Z",
+    "horizonInclusiveDays": 30,
+    "allOccurrenceDates": [
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-31",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-21",
+      "2026-11-24",
+      "2026-11-25"
+    ],
+    "timedNonSoldOutOccurrenceDates": [
+      "2026-10-28",
+      "2026-10-31",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-21",
+      "2026-11-24",
+      "2026-11-25"
+    ],
+    "sevenDistinctDatesInThirtyDays": true,
+    "sevenConsecutiveDaysClaim": false,
+    "exhibitionSlotsExcluded": true,
+    "programmeEvidence": [
+      {
+        "id": "goose-feast",
+        "dateSourceUrl": "https://www.lod.sk/en/cruises/culinary-cruise-on-the-danube/goose-feast",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.lod.sk/en/cruises/culinary-cruise-on-the-danube/goose-feast",
+        "addressEvidenceKind": "office_address_only_not_verified_boarding_berth",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/goose-feast-on-the-danube-taste-slovak-autumn-aboard-the-harmonia/",
+        "pinPrecision": "official agenda-supplied boarding-area point; not independently surveyed berth",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "trh-piac-markt",
+        "dateSourceUrl": "https://staratrznica.sk/en/program/trh-piac-markt-2026/2026-11-21",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://staratrznica.sk/en/program/trh-piac-markt-2026/2026-11-21",
+        "addressEvidenceKind": "venue_footer",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/trh-piac-markt-170/",
+        "pinPrecision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "opice",
+        "dateSourceUrl": "https://www.babkovedivadlo.sk/repertoar/opice-z-nasej-police/",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.babkovedivadlo.sk/repertoar/opice-z-nasej-police/",
+        "addressEvidenceKind": "event_Where_section",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/opice-z-nasej-police-24/",
+        "pinPrecision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "macarons",
+        "dateSourceUrl": "https://www.giraffebakery.com/eshop/kurzy-pecenia/macarons",
+        "yearSourceUrls": [
+          "https://novacvernovka.eu/program/kurz-pecenia-macarons-4"
+        ],
+        "addressSourceUrl": "https://www.giraffebakery.com/eshop/kurzy-pecenia/macarons",
+        "addressEvidenceKind": "organizer_address",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/vianocny-cverna-market-2026/",
+        "pinPrecision": "source-supplied campus point; NOT individual studio entrance",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "cakes",
+        "dateSourceUrl": "https://www.giraffebakery.com/eshop/kurzy-pecenia/torty",
+        "yearSourceUrls": [
+          "https://novacvernovka.eu/program/kurz-pecenia-torty-3"
+        ],
+        "addressSourceUrl": "https://www.giraffebakery.com/eshop/kurzy-pecenia/torty",
+        "addressEvidenceKind": "organizer_address",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/vianocny-cverna-market-2026/",
+        "pinPrecision": "source-supplied campus point; NOT individual studio entrance",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "linocut",
+        "dateSourceUrl": "https://novacvernovka.eu/program/linorytovy-kurz-19",
+        "yearSourceUrls": [
+          "https://novacvernovka.eu/program/linorytovy-kurz-19"
+        ],
+        "addressSourceUrl": "https://www.giraffebakery.com/eshop/kurzy-pecenia/macarons",
+        "addressEvidenceKind": "campus_address_only",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/vianocny-cverna-market-2026/",
+        "pinPrecision": "source-supplied campus point; NOT individual studio entrance",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "sculpture",
+        "dateSourceUrl": "https://www.gmb.sk/detail/socharsky-workshop-s-evou-moflarovou-k-vystave-marie-bartuszovej",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.sipandsmith.sk/",
+        "addressEvidenceKind": "named_EMIL_in_Mirbach_address",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/socharsky-workshop-s-evou-moflarovou-k-vystave-marie-bartuszovej/",
+        "pinPrecision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "bartuszova-exhibition",
+        "dateSourceUrl": "https://www.gmb.sk/detail/maria-bartuszova-byt-prirodou",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.sipandsmith.sk/",
+        "addressEvidenceKind": "named_EMIL_in_Mirbach_address",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/socharsky-workshop-s-evou-moflarovou-k-vystave-marie-bartuszovej/",
+        "pinPrecision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "eco-panel",
+        "dateSourceUrl": "https://www.gmb.sk/detail/forma-nasleduje-starostlivost-ekofeministicke-citanie-tvorby-marie-bartuszovej",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.sipandsmith.sk/",
+        "addressEvidenceKind": "named_EMIL_in_Mirbach_address",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/socharsky-workshop-s-evou-moflarovou-k-vystave-marie-bartuszovej/",
+        "pinPrecision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "guided-tour",
+        "dateSourceUrl": "https://www.gmb.sk/detail/komentovany-sprievod-vystavou-maria-bartuszova-byt-prirodou",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.sipandsmith.sk/",
+        "addressEvidenceKind": "named_EMIL_in_Mirbach_address",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/socharsky-workshop-s-evou-moflarovou-k-vystave-marie-bartuszovej/",
+        "pinPrecision": "source-supplied venue point;4decimal coordinates; entrance not surveyed",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "sisa",
+        "dateSourceUrl": "https://novacvernovka.eu/program/piesne-z-kabinetu-sisa-feher-mammatus",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.giraffebakery.com/eshop/kurzy-pecenia/macarons",
+        "addressEvidenceKind": "campus_address_only",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/vianocny-cverna-market-2026/",
+        "pinPrecision": "source-supplied campus point; NOT individual studio entrance",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "kafka",
+        "dateSourceUrl": "https://novacvernovka.eu/program/kafka-band-hraje-kafku",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.giraffebakery.com/eshop/kurzy-pecenia/macarons",
+        "addressEvidenceKind": "campus_address_only",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/vianocny-cverna-market-2026/",
+        "pinPrecision": "source-supplied campus point; NOT individual studio entrance",
+        "checkedAt": "2026-10-28T09:45:00Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "dns-mojzis",
+        "dateSourceUrl": "https://www.novascena.sk/podujatia/mojzis",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.novascena.sk/kontakty",
+        "addressEvidenceKind": "explicit_venue_address",
+        "pinSourceUrl": "https://mapcarta.com/W77918432",
+        "pinPrecision": "named OSM theatre building point, not a verified door or studio entrance",
+        "checkedAt": "2026-10-28T09:53:30Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "dns-skrupinka",
+        "dateSourceUrl": "https://www.novascena.sk/podujatia/skrupinka",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.novascena.sk/kontakty",
+        "addressEvidenceKind": "explicit_venue_address",
+        "pinSourceUrl": "https://mapcarta.com/W77918432",
+        "pinPrecision": "named OSM theatre building point, not a verified door or studio entrance",
+        "checkedAt": "2026-10-28T09:53:30Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "dns-bonvivan",
+        "dateSourceUrl": "https://www.novascena.sk/podujatia/bonvivan",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.novascena.sk/kontakty",
+        "addressEvidenceKind": "explicit_venue_address",
+        "pinSourceUrl": "https://mapcarta.com/W77918432",
+        "pinPrecision": "named OSM theatre building point, not a verified door or studio entrance",
+        "checkedAt": "2026-10-28T09:53:30Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "dns-cats-macky",
+        "dateSourceUrl": "https://www.novascena.sk/podujatia/cats-macky",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.novascena.sk/kontakty",
+        "addressEvidenceKind": "explicit_venue_address",
+        "pinSourceUrl": "https://mapcarta.com/W77918432",
+        "pinPrecision": "named OSM theatre building point, not a verified door or studio entrance",
+        "checkedAt": "2026-10-28T09:53:30Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "dns-six",
+        "dateSourceUrl": "https://www.novascena.sk/podujatia/six",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.novascena.sk/kontakty",
+        "addressEvidenceKind": "explicit_venue_address",
+        "pinSourceUrl": "https://mapcarta.com/W77918432",
+        "pinPrecision": "named OSM theatre building point, not a verified door or studio entrance",
+        "checkedAt": "2026-10-28T09:53:30Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "dns-muller-zivot-na-2-tahy",
+        "dateSourceUrl": "https://www.novascena.sk/podujatia/muller-zivot-na-2-tahy",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.novascena.sk/kontakty",
+        "addressEvidenceKind": "explicit_venue_address",
+        "pinSourceUrl": "https://mapcarta.com/W77918432",
+        "pinPrecision": "named OSM theatre building point, not a verified door or studio entrance",
+        "checkedAt": "2026-10-28T09:53:30Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "dns-panska-jazda",
+        "dateSourceUrl": "https://www.novascena.sk/podujatia/panska-jazda",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.novascena.sk/kontakty",
+        "addressEvidenceKind": "explicit_venue_address",
+        "pinSourceUrl": "https://mapcarta.com/W77918432",
+        "pinPrecision": "named OSM theatre building point, not a verified door or studio entrance",
+        "checkedAt": "2026-10-28T09:53:30Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "dns-vystup",
+        "dateSourceUrl": "https://www.novascena.sk/podujatia/vystup",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://www.novascena.sk/kontakty",
+        "addressEvidenceKind": "explicit_venue_address",
+        "pinSourceUrl": "https://mapcarta.com/W77918432",
+        "pinPrecision": "named OSM theatre building point, not a verified door or studio entrance",
+        "checkedAt": "2026-10-28T09:53:30Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      },
+      {
+        "id": "young-wine-market",
+        "dateSourceUrl": "https://www.bkis.sk/festival-mladeho-vina/",
+        "yearSourceUrls": [],
+        "addressSourceUrl": "https://goout.net/sk/champagne-gala-2026/szdtjly/",
+        "addressEvidenceKind": "explicit_venue_address",
+        "pinSourceUrl": "https://www.visitbratislava.com/events/champagne-gala-2026/",
+        "pinPrecision": "official agenda palace point; specific courtyard entrance not surveyed",
+        "checkedAt": "2026-10-28T09:53:30Z",
+        "hasEnglishSummary": true,
+        "endTimeSynthesizedFromDuration": false
+      }
+    ],
+    "issues": [
+      {
+        "id": "Q01",
+        "severity": "material",
+        "programme": "goose-feast",
+        "issue": "Fajnorovo nábrežie 2 is explicitly the travel agency / Passenger Port Building address in lod.sk text, not a verified boarding berth.",
+        "recommendedDelta": "Label office/port-building address; do not promise exact boarding point. Hold under strict entrance gate until berth is proved."
+      },
+      {
+        "id": "Q02",
+        "severity": "editorial",
+        "programme": "linocut",
+        "issue": "endEvidence accidentally repeats baking organizer also states 3 hours, a template carry-over unrelated to the 10:00–17:00 linocut session.",
+        "recommendedDelta": "Remove baking clause; retain explicit venue body interval only."
+      },
+      {
+        "id": "Q03",
+        "severity": "schema",
+        "programme": "v2-derived places",
+        "issue": "Address source fields were absent although most addresses had been read.",
+        "recommendedDelta": "Use programmeEvidence mapping in this QA file; campus and port limitations remain explicit."
+      },
+      {
+        "id": "Q04",
+        "severity": "coverage",
+        "programme": "all",
+        "issue": "19 dates includes start-only and held candidates; not all are import-ready.",
+        "recommendedDelta": "16 distinct interval/duration-supported public occurrence dates after excluding start-only, sold-out and exhibition visiting slots; strict door gate may reduce this."
+      },
+      {
+        "id": "Q05",
+        "severity": "precision",
+        "programme": "dns-*; Nová Cvernovka; young-wine-market",
+        "issue": "Pins are building/campus/palace points rather than independently verified entrances.",
+        "recommendedDelta": "Retain honest precision labels; solewriter decides entrance gate."
+      },
+      {
+        "id": "Q06",
+        "severity": "source_conflict",
+        "programme": "young-wine-market",
+        "issue": "BKIS lower blocks still use Friday7/Saturday8Nov (2025), conflicting with explicit upper2026 dates.",
+        "recommendedDelta": "Use only upper 2026 wine sales intervals6Nov16–22 and7Nov12–22. Do not import stale lower tours/concerts."
+      },
+      {
+        "id": "Q07",
+        "severity": "availability",
+        "programme": "dns-*",
+        "issue": "Buy links displayed, but seat inventory not opened/held.",
+        "recommendedDelta": "Do not label guaranteed available; retain buy_link_displayed_seat_inventory_not_checked."
+      }
+    ]
+  }
+}

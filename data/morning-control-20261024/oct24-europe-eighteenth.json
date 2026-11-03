@@ -1,0 +1,165 @@
+{
+  "checkedAt": "2026-10-24T05:48:29Z",
+  "baseCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+  "events": [
+    {
+      "cityId": "london",
+      "title": "Van Eyck: The Portraits",
+      "date": "2026-11-21",
+      "time": null,
+      "venue": "National Gallery",
+      "sourceUrl": "https://www.nationalgallery.org.uk/exhibitions/van-eyck-the-portraits",
+      "category": "exhibition",
+      "price": 18,
+      "currency": "GBP",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-10-24T05:48:29Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "lat": 51.50889,
+      "lng": -0.12875,
+      "address": "Trafalgar Square, London WC2N 5DN",
+      "coordinateSource": "https://mapcarta.com/W4372002",
+      "coordinatePrecision": "building_approximate",
+      "startDate": "2026-11-21",
+      "endDate": "2027-04-11",
+      "id": "london-afisha24-a742f493ee2d",
+      "programmeId": "london-afisha24-a742f493ee2d",
+      "kind": "exhibition",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": [],
+      "datePrecision": "date_range",
+      "openingHours": {
+        "0": "10:00–18:00",
+        "1": "10:00–18:00",
+        "2": "10:00–18:00",
+        "3": "10:00–18:00",
+        "4": "10:00–18:00",
+        "5": "10:00–21:00",
+        "6": "10:00–18:00"
+      },
+      "closedDates": [
+        "2026-12-24",
+        "2026-12-25",
+        "2026-12-26",
+        "2027-01-01"
+      ],
+      "hoursSource": "https://www.nationalgallery.org.uk/visiting/plan-your-visit",
+      "admission": "£18 includes audio guide. Under18 and members free. Nov20 preview members-only soldout excluded."
+    },
+    {
+      "cityId": "london",
+      "title": "Constantinople to Istanbul: One City, Two Empires",
+      "date": "2026-11-07",
+      "time": null,
+      "venue": "V&A South Kensington",
+      "sourceUrl": "https://www.vam.ac.uk/exhibitions/constantinople-to-istanbul-one-city-two-empires",
+      "category": "exhibition",
+      "price": 25,
+      "currency": "GBP",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-10-24T05:48:29Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "lat": 51.4968,
+      "lng": -0.17273,
+      "address": "Cromwell Road, London SW7 2RL",
+      "coordinateSource": "https://mapcarta.com/25585340",
+      "coordinatePrecision": "building_approximate",
+      "startDate": "2026-11-07",
+      "endDate": "2027-05-09",
+      "id": "london-afisha24-353db6f0ce1e",
+      "programmeId": "london-afisha24-353db6f0ce1e",
+      "kind": "exhibition",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": [],
+      "datePrecision": "date_range",
+      "openingHours": null,
+      "priceNote": "Weekday£25,weekend£27; concessions. General museumhours10–17:45Friday22, specific exhibitionhours unconfirmed; TimeOut10–18 not assumed.",
+      "sourceURLs": [
+        "https://www.vam.ac.uk/exhibitions/constantinople-to-istanbul-one-city-two-empires",
+        "https://www.timeout.com/london/things-to-do/constantinople-to-istanbul-one-city-two-empires"
+      ],
+      "dateEvidence": "OfficialNov7start; primaryfullpageMay9,2027end. MembersNov5–6preview excluded."
+    }
+  ],
+  "held": [
+    {
+      "cityId": "london",
+      "title": "Tove Jansson and her Families",
+      "date": "2026-11-21",
+      "endDate": "2027-05-09",
+      "venue": "Quentin Blake Centre for Illustration",
+      "address": "1 Myddelton Passage, London EC1R 1AG",
+      "time": null,
+      "price": 15,
+      "currency": "GBP",
+      "sourceUrl": "https://qbcentre.org.uk/exhibitions/tove-jansson-and-her-families",
+      "checkedAt": "2026-10-24T05:48:29Z",
+      "openingHours": "Wednesday–Sunday10–17; lastentry16",
+      "heldReason": "Official fullrange/hours/admission confirmed; no verified pin. Do not reuse Southbank QuentinBlake exhibition point."
+    }
+  ],
+  "sourceChecks": [],
+  "conflicts": [],
+  "existingCorrections": [
+    {
+      "cityId": "london",
+      "id": "ldn-c7d455c966c6ea66",
+      "updates": {
+        "date": "2026-02-17",
+        "startDate": "2026-02-17",
+        "endDate": "2026-11-08",
+        "time": null,
+        "kind": "exhibition",
+        "visitingHours": {
+          "0": {
+            "open": "10:00",
+            "close": "23:00"
+          },
+          "2": {
+            "open": "10:00",
+            "close": "23:00"
+          },
+          "3": {
+            "open": "10:00",
+            "close": "23:00"
+          },
+          "4": {
+            "open": "10:00",
+            "close": "23:00"
+          },
+          "5": {
+            "open": "10:00",
+            "close": "23:00"
+          },
+          "6": {
+            "open": "10:00",
+            "close": "23:00"
+          }
+        },
+        "closedWeekdays": [
+          1
+        ],
+        "price": 0,
+        "currency": "GBP",
+        "admission": "Free, no ticket. Under12 accompanied. Sitewide installation; events/buildingclosures may restrict access.",
+        "checkedAt": "2026-10-24T05:48:29Z"
+      },
+      "reason": "Fresh official dates Feb17–Nov8 replace truncated baseline Oct11–17; preserve ID and history. Official Tue–Sun10–23, closedMon overrides primary daily placeholder.",
+      "evidence": [
+        {
+          "url": "https://www.southbankcentre.co.uk/whats-on/quentin-blake-the-southbank-parade/",
+          "checkedAt": "2026-10-24T05:48:29Z",
+          "status": "full_detail_read"
+        }
+      ]
+    }
+  ]
+}

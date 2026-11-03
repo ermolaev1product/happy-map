@@ -1,0 +1,417 @@
+{
+  "city": "Quito",
+  "checkedAt": "2026-10-29T03:56:18.133752+00:00",
+  "sources": [
+    {
+      "id": "quito-source-6019b3cd46f38f",
+      "name": "visitquito.ec",
+      "url": "https://visitquito.ec/es/eventos/",
+      "checkedAt": "2026-10-29T03:40:38.201737+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-352daaf966018d",
+      "name": "quitoinforma.quito.gob.ec",
+      "url": "https://quitoinforma.quito.gob.ec/2026/10/28/conozca-la-agenda-cultural-de-quito-para-el-feriado-por-el-dia-de-los-difuntos/",
+      "checkedAt": "2026-10-29T03:40:48.986048+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 4,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-0009a961a819fb",
+      "name": "tickets.elteatro.com.ec",
+      "url": "https://tickets.elteatro.com.ec/",
+      "checkedAt": "2026-10-29T03:40:54.979154+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-10c4338ce392ca",
+      "name": "www.buenplan.com.ec",
+      "url": "https://www.buenplan.com.ec/",
+      "checkedAt": "2026-10-29T03:40:58.318882+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-25a297c2d51b43",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/",
+      "checkedAt": "2026-10-29T03:41:26.594959+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-2a25599ca3c7ff",
+      "name": "www.vamoseventos.com",
+      "url": "https://www.vamoseventos.com/quito/semana/2026-10-26",
+      "checkedAt": "2026-10-29T03:41:32.593803+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-aa3f60be8c2299",
+      "name": "museosquito.gob.ec",
+      "url": "https://museosquito.gob.ec/espacios/museo-del-carmen-alto/",
+      "checkedAt": "2026-10-29T03:41:47.028886+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-456c86fbab2085",
+      "name": "asociacion-humboldt.org.ec",
+      "url": "https://asociacion-humboldt.org.ec/events/",
+      "checkedAt": "2026-10-29T03:41:52.157507+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-7a87c18d6feed2",
+      "name": "hcjb.org",
+      "url": "https://hcjb.org/corovozandes/",
+      "checkedAt": "2026-10-29T03:41:56.734010+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-f159ab50b69b71",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/agenda/",
+      "checkedAt": "2026-10-29T03:42:07.235740+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-9115ba48600d30",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/museo-de-la-ciudad/",
+      "checkedAt": "2026-10-29T03:42:11.813554+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-95eaf414296440",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/museo-del-carmen-alto/",
+      "checkedAt": "2026-10-29T03:42:15.829136+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-0837368807d2c1",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/museo-interactivo-de-ciencia/",
+      "checkedAt": "2026-10-29T03:42:19.872472+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-b630d63d97427b",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/yaku-parque-museo-del-agua/",
+      "checkedAt": "2026-10-29T03:42:23.550418+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-8d058b1c04d92d",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/centro-de-arte-contemporaneo/",
+      "checkedAt": "2026-10-29T03:42:27.463486+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-43d8a0ffb1516c",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/margarita-laso-recital-cac-quito-dia-difuntos/",
+      "checkedAt": "2026-10-29T03:42:31.130356+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-7b41b6583abdd9",
+      "name": "asociacion-humboldt.org.ec",
+      "url": "https://asociacion-humboldt.org.ec/events/ecuador-encuentro-david-pastor-es/",
+      "checkedAt": "2026-10-29T03:42:31.237214+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-d9ea179e04f62a",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/un-feriado-de-tradiciones-con-ciencia-en-familia/",
+      "checkedAt": "2026-10-29T03:42:34.718095+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 4,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-ae725b8961f522",
+      "name": "asociacion-humboldt.org.ec",
+      "url": "https://asociacion-humboldt.org.ec/contacto/",
+      "checkedAt": "2026-10-29T03:42:37.440975+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-dfbc1a76927bf2",
+      "name": "www.vamoseventos.com",
+      "url": "https://www.vamoseventos.com/quito/noviembre",
+      "checkedAt": "2026-10-29T03:42:40.548616+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-0eb3442805cc2f",
+      "name": "maps.google.com",
+      "url": "https://maps.google.com/maps?q=Museo%20de%20la%20Ciudad%20Garc%C3%ADa%20Moreno%2C%20Quito%20170405&z=15&output=embed",
+      "checkedAt": "2026-10-29T03:43:03.058705+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-ed1cddd422b99d",
+      "name": "maps.google.com",
+      "url": "https://maps.google.com/maps?q=Museo%20del%20Carmen%20Alto&z=15&output=embed",
+      "checkedAt": "2026-10-29T03:43:09.339516+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-1b1cff97319bbf",
+      "name": "maps.google.com",
+      "url": "https://maps.google.com/maps?q=Museo%20Interactivo%20de%20Ciencia%2C%20Quito&z=15&output=embed",
+      "checkedAt": "2026-10-29T03:43:14.608638+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-8b1357ac3a2c07",
+      "name": "maps.google.com",
+      "url": "https://maps.google.com/maps?q=Yaku%20Parque%20Museo%20del%20Agua&z=15&output=embed",
+      "checkedAt": "2026-10-29T03:43:20.990199+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-77653010db8d29",
+      "name": "maps.google.com",
+      "url": "https://maps.google.com/maps?q=Centro%20de%20Arte%20Contempor%C3%A1neo%20de%20Quito&z=15&output=embed",
+      "checkedAt": "2026-10-29T03:43:26.442383+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-be673550e9fe18",
+      "name": "www.vamoseventos.com",
+      "url": "https://www.vamoseventos.com/event/xpotech-latam-uio-2026-b8ccb44d-fad2-45bc-a3cf-d08cf82d63a8",
+      "checkedAt": "2026-10-29T03:44:03.711741+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-81ff1de08f2e57",
+      "name": "www.vamoseventos.com",
+      "url": "https://www.vamoseventos.com/event/las-reinas-indias-semi-opera-sudaka-f1c20f22-062d-4f11-b6e9-c83e70b318b3",
+      "checkedAt": "2026-10-29T03:44:09.842070+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-0425aff8936f1e",
+      "name": "maps.google.com",
+      "url": "https://maps.google.com/maps?q=asociaci%C3%B3n%20humboldt&t=m&z=15&output=embed&iwloc=near",
+      "checkedAt": "2026-10-29T03:44:15.354147+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-2fef507e8db39b",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/feriado-en-quito-colada-morada-ciencia-y-exposiciones-en-yaku-parque-museo-del-agua/",
+      "checkedAt": "2026-10-29T03:49:30.602061+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 9,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-4a70168c6f36a9",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/que-secretos-guarda-la-ciudad-sobre-la-muerte-descubrelos-en-el-recorrido-la-morada-de-los-ausentes/",
+      "checkedAt": "2026-10-29T03:49:36.594718+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-b30f9aa7924d27",
+      "name": "baq-cae.ec",
+      "url": "https://baq-cae.ec/academico2026/",
+      "checkedAt": "2026-10-29T03:49:39.957338+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-4c12df0d6f48f6",
+      "name": "fundacionmuseosquito.gob.ec",
+      "url": "https://fundacionmuseosquito.gob.ec/el-museo-del-carmen-alto-presenta-latidos-tejer-el-territorio-una-experiencia-que-conecta-el-patrimonio-con-las-memorias-y-saberes-de-la-comunidad/",
+      "checkedAt": "2026-10-29T03:49:41.130791+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-2c827363973721",
+      "name": "biosummit.net",
+      "url": "https://biosummit.net/schedule.html",
+      "checkedAt": "2026-10-29T03:49:48.533547+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 3,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-86833e628cc7a9",
+      "name": "sitios.udla.edu.ec",
+      "url": "https://sitios.udla.edu.ec/eventos/wids/",
+      "checkedAt": "2026-10-29T03:49:51.660763+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-437d702c9dbb02",
+      "name": "ecuadorbirdfair.org",
+      "url": "https://ecuadorbirdfair.org/",
+      "checkedAt": "2026-10-29T03:49:58.838840+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-df8924327d3c27",
+      "name": "biosummit.net",
+      "url": "https://biosummit.net/passes.html",
+      "checkedAt": "2026-10-29T03:50:27.356297+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-7781f5ff11835b",
+      "name": "academico.baq-cae.ec",
+      "url": "https://academico.baq-cae.ec/product/inscripcion-a-baq-presencial-virtual-semana-completa/",
+      "checkedAt": "2026-10-29T03:50:33.312542+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-9590d2365fa40b",
+      "name": "ecuadorbirdfair.org",
+      "url": "https://ecuadorbirdfair.org/agenda/",
+      "checkedAt": "2026-10-29T03:51:40.627056+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-25b2db04a34d13",
+      "name": "ecuadorbirdfair.org",
+      "url": "https://ecuadorbirdfair.org/como-llegar-donde-alojarse/",
+      "checkedAt": "2026-10-29T03:51:44.116353+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-994c0b50f15835",
+      "name": "biosummit.net",
+      "url": "https://biosummit.net/pricing.html",
+      "checkedAt": "2026-10-29T03:51:47.198065+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-source-779fa6d4b81971",
+      "name": "museosquito.gob.ec",
+      "url": "https://museosquito.gob.ec/espacios/museo-interactivo-de-ciencia/",
+      "checkedAt": "2026-10-29T03:55:21.876234+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

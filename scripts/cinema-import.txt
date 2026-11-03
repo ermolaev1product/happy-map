@@ -1,0 +1,6 @@
+Import Tbilisi cinema schedules from the public Kinoafisha page.
+python3 scripts/import-cinema.py --start YYYY-MM-DD --cache /tmp/noreli-cinema
+Use --offline to replay previously downloaded YYYY-MM-DD.html snapshots.
+Only five verified Tbilisi cinemas are imported. Source dates and unique IDs are validated before writing. Standard-seat prices are estimates from the published schedule; final availability and fees remain with the cinema. Other-language sessions display a request to check the language.
+This script does not schedule updates or publish automatically. Review the resulting catalog and import report, then release the site through Sites.
+On 2026-10-08 it imported 855 sessions for October 8–14; October 14 had only one published session, so coverage is incomplete.

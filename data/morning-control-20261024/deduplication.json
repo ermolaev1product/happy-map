@@ -1,0 +1,3517 @@
+[
+  {
+    "candidate": {
+      "id": "tkt:506154",
+      "title": "The Sound of Time",
+      "date": "2026-10-24",
+      "time": "19:00",
+      "startAt": "2026-10-24T19:00:00+04:00",
+      "venue": "Batumi Summer Theatre",
+      "address": "Batumi",
+      "lat": 41.6536615592465,
+      "lng": 41.6329308024811,
+      "price": 40.0,
+      "currency": "GEL",
+      "min": true,
+      "sourceUrl": "https://tkt.ge/event/506154",
+      "source": "TKT.ge",
+      "category": "music",
+      "checkedAt": "2026-10-24T05:35:23.269024+00:00",
+      "soldOut": true,
+      "cityId": "batumi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "The Sound of Time",
+      "endAt": null,
+      "language": null,
+      "coordinateSource": "https://tkt.ge/event/506154",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "batumi-symphony-of-magic-20261024",
+          "batumi-sound-of-time-20261024"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "verified_candidate_semantic_dedupe_required",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "description": "",
+      "accessNote": "Ticket requirement/minimum age field: 7; see source terms. Sold out according to ticket source.",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-506154.json",
+      "minAge": 7,
+      "ageRestriction": 0,
+      "sourceStatus": 3,
+      "locationPrecision": "venue",
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null
+    },
+    "existingIds": [
+      "batumi-sound-of-time-20261024"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "The Sound of Time",
+      "sourceUrl": "https://biletebi.ge/en/concerts/the-sound-of-time",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-24",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-24T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Batumi Summer Theatre",
+      "address": "Batumi Central Boulevard, Batumi",
+      "lat": 41.6535738,
+      "lng": 41.6329145,
+      "coordinateSource": "https://maps.app.goo.gl/ECnNTFnWqJjmHyJS7",
+      "coordinateEvidence": {
+        "reusedExistingEventId": "batumi-symphony-of-magic-20261024",
+        "note": "Venue point reused from existing published source; exact stage entrance not surveyed."
+      },
+      "category": "music",
+      "price": 40,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 40,
+        "to": 40
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:16:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Neoclassical chamber concert; non-refundable tickets. Existing exact title/date alreadyfound.",
+      "accessNote": "Neoclassical chamber concert; non-refundable tickets. Existing exact title/date alreadyfound.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [
+        "batumi-sound-of-time-20261024"
+      ],
+      "titleEn": "The Sound of Time"
+    },
+    "existingIds": [
+      "batumi-sound-of-time-20261024"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "Darispan’s Trouble",
+      "sourceUrl": "https://biletebi.ge/en/theatres/darispans-trouble",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-24",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-24T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Batumi Drama Theatre",
+      "address": "1 Shota Rustaveli Street, Batumi",
+      "lat": 41.6528598,
+      "lng": 41.6381924,
+      "coordinateSource": "https://maps.app.goo.gl/ehtjKQVH8Cna6ZC78",
+      "coordinateEvidence": {
+        "note": "Exact place pin from ticket operator map link redirect; not viewport coordinates."
+      },
+      "category": "theatre",
+      "price": 10,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 10,
+        "to": 10
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:16:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Performed in Georgian. Existing Georgian-title records found; shouldmergeevidence notduplicate.",
+      "accessNote": "Performed in Georgian. Existing Georgian-title records found; shouldmergeevidence notduplicate.Officialcalendar12+,MainStage.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "evidenceUrls": [
+        "https://biletebi.ge/en/theatres/darispans-trouble",
+        "https://batumitheatre.ge/en/calendar",
+        "https://batumitheatre.ge/en/kontaqti"
+      ],
+      "titleEn": "Darispan’s Trouble"
+    },
+    "existingIds": [
+      "batumi-darispanis-gasachiri-10-24"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "Darispan’s Trouble",
+      "sourceUrl": "https://biletebi.ge/en/theatres/darispans-trouble",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-25",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-25T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Batumi Drama Theatre",
+      "address": "1 Shota Rustaveli Street, Batumi",
+      "lat": 41.6528598,
+      "lng": 41.6381924,
+      "coordinateSource": "https://maps.app.goo.gl/ehtjKQVH8Cna6ZC78",
+      "coordinateEvidence": {
+        "note": "Exact place pin from ticket operator map link redirect; not viewport coordinates."
+      },
+      "category": "theatre",
+      "price": 10,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 10,
+        "to": 10
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:16:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Performed in Georgian. Existing Georgian-title records found; shouldmergeevidence notduplicate.",
+      "accessNote": "Performed in Georgian. Existing Georgian-title records found; shouldmergeevidence notduplicate.Officialcalendar12+,MainStage.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "evidenceUrls": [
+        "https://biletebi.ge/en/theatres/darispans-trouble",
+        "https://batumitheatre.ge/en/calendar",
+        "https://batumitheatre.ge/en/kontaqti"
+      ],
+      "titleEn": "Darispan’s Trouble"
+    },
+    "existingIds": [
+      "batumi-darispanis-gasachiri-10-25"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "LIVE MUSIC with TRUE SCHOEN",
+      "sourceUrl": "https://biletebi.ge/en/concerts/true-schoen-nilo",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-25T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Nilo",
+      "address": "35 Vertskhli St, Tbilisi, Georgia",
+      "lat": 41.6951597,
+      "lng": 44.8040234,
+      "coordinateSource": "https://maps.app.goo.gl/imRzoLTQT18xEi3G6",
+      "coordinateEvidence": {
+        "reusedExistingEventId": "tkt:507365",
+        "note": "Venue point reused from existing published source; exact stage entrance not surveyed."
+      },
+      "category": "music",
+      "price": 10,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "from": 10,
+        "to": 10
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:16:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Folk,country,classic rock,originals andcovers.",
+      "accessNote": "Folk,country,classic rock,originals andcovers.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "LIVE MUSIC with TRUE SCHOEN"
+    },
+    "existingIds": [
+      "tkt:508234"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "OPUS: Classic Music Evening | Season Opening",
+      "sourceUrl": "https://biletebi.ge/en/concerts/opusi-sezonis-gaxsna",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-25T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Haraki Theatre",
+      "address": "20 Petre Melikishvili Street, Tbilisi",
+      "lat": 41.7085983,
+      "lng": 44.7803588,
+      "coordinateSource": "https://www.google.com/maps/place/%E1%83%B0%E1%83%90%E1%83%A0%E1%83%90%E1%83%99%E1%83%98/@41.7393429,44.7415418,13z/data=!4m6!3m5!1s0x40440d744fac7d29:0x8c4def442301715c!8m2!3d41.7085983!4d44.7803588!16s%2Fg%2F11tsrrv9v7?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateEvidence": {
+        "reusedExistingEventId": "biletebi:opusi-sezonis-gaxsna:2026-10-25",
+        "note": "Venue point reused from existing published source; exact stage entrance not surveyed."
+      },
+      "category": "music",
+      "price": 40,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "from": 40,
+        "to": 40
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:16:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Existing id biletebi:opusi-sezonis-gaxsna:2026-10-25; mergeevidence notduplicate.",
+      "accessNote": "Existing id biletebi:opusi-sezonis-gaxsna:2026-10-25; mergeevidence notduplicate.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [
+        "biletebi:opusi-sezonis-gaxsna:2026-10-25"
+      ],
+      "titleEn": "OPUS: Classic Music Evening | Season Opening"
+    },
+    "existingIds": [
+      "biletebi:opusi-sezonis-gaxsna:2026-10-25"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "The Train Has Already Left",
+      "sourceUrl": "https://batumitheatre.ge/en/repertuari/matarebeli-ukve-gavida",
+      "source": "Batumi Drama Theatre",
+      "sourceType": "primary_organizer",
+      "date": "2026-10-30",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-30T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Batumi Drama Theatre",
+      "address": "1 Shota Rustaveli Street, Batumi",
+      "lat": 41.6528598,
+      "lng": 41.6381924,
+      "coordinateSource": "https://maps.app.goo.gl/ehtjKQVH8Cna6ZC78",
+      "coordinateEvidence": {
+        "note": "Exact place pin from ticket operator map link redirect; not viewport coordinates."
+      },
+      "category": "theatre",
+      "price": null,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": null,
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:16:00Z",
+      "yearEvidence": "Official theatre details explicitly list2026scheduled dates, corroborated official2026calendar.",
+      "description": "Experimental stage.12+.70minutes. Biletebi detailstaleJune16, priceleftunknown.",
+      "accessNote": "Experimental stage.12+.70minutes. Biletebi detailstaleJune16, priceleftunknown.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "evidenceUrls": [
+        "https://batumitheatre.ge/en/repertuari/matarebeli-ukve-gavida",
+        "https://batumitheatre.ge/en/calendar",
+        "https://batumitheatre.ge/en/service/sastseno-sivrtsis-idjara/mtavari-stsenis-idjara"
+      ],
+      "titleEn": "The Train Has Already Left"
+    },
+    "existingIds": [
+      "batumi-matarebeli-ukve-gavida-10-30"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "Flight LP 43-20",
+      "sourceUrl": "https://batumitheatre.ge/en/repertuari/reisi-lp-43-20",
+      "source": "Batumi Drama Theatre",
+      "sourceType": "primary_organizer",
+      "date": "2026-11-04",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-04T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Batumi Drama Theatre",
+      "address": "1 Shota Rustaveli Street, Batumi",
+      "lat": 41.6528598,
+      "lng": 41.6381924,
+      "coordinateSource": "https://maps.app.goo.gl/ehtjKQVH8Cna6ZC78",
+      "coordinateEvidence": {
+        "note": "Exact place pin from ticket operator map link redirect; not viewport coordinates."
+      },
+      "category": "theatre",
+      "price": null,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": null,
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:16:00Z",
+      "yearEvidence": "Official theatre details explicitly list2026scheduled dates, corroborated official2026calendar.",
+      "description": "Main stage.16+.120minutes. Explicit2026premiere andcalendar.",
+      "accessNote": "Main stage.16+.120minutes. Explicit2026premiere andcalendar.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "evidenceUrls": [
+        "https://batumitheatre.ge/en/repertuari/reisi-lp-43-20",
+        "https://batumitheatre.ge/en/calendar",
+        "https://batumitheatre.ge/en/service/sastseno-sivrtsis-idjara/mtavari-stsenis-idjara"
+      ],
+      "titleEn": "Flight LP 43-20"
+    },
+    "existingIds": [
+      "batumi-reisi-lp-43-20-11-04"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "Flight LP 43-20",
+      "sourceUrl": "https://batumitheatre.ge/en/repertuari/reisi-lp-43-20",
+      "source": "Batumi Drama Theatre",
+      "sourceType": "primary_organizer",
+      "date": "2026-11-05",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-05T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Batumi Drama Theatre",
+      "address": "1 Shota Rustaveli Street, Batumi",
+      "lat": 41.6528598,
+      "lng": 41.6381924,
+      "coordinateSource": "https://maps.app.goo.gl/ehtjKQVH8Cna6ZC78",
+      "coordinateEvidence": {
+        "note": "Exact place pin from ticket operator map link redirect; not viewport coordinates."
+      },
+      "category": "theatre",
+      "price": null,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": null,
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:16:00Z",
+      "yearEvidence": "Official theatre details explicitly list2026scheduled dates, corroborated official2026calendar.",
+      "description": "Main stage.16+.120minutes. Explicit2026premiere andcalendar.",
+      "accessNote": "Main stage.16+.120minutes. Explicit2026premiere andcalendar.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "evidenceUrls": [
+        "https://batumitheatre.ge/en/repertuari/reisi-lp-43-20",
+        "https://batumitheatre.ge/en/calendar",
+        "https://batumitheatre.ge/en/service/sastseno-sivrtsis-idjara/mtavari-stsenis-idjara"
+      ],
+      "titleEn": "Flight LP 43-20"
+    },
+    "existingIds": [
+      "batumi-reisi-lp-43-20-11-05"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "Waiting for Godot",
+      "sourceUrl": "https://batumitheatre.ge/en/repertuari/godos-molodinshi",
+      "source": "Batumi Drama Theatre",
+      "sourceType": "primary_organizer",
+      "date": "2026-11-11",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-11T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Batumi Drama Theatre",
+      "address": "1 Shota Rustaveli Street, Batumi",
+      "lat": 41.6528598,
+      "lng": 41.6381924,
+      "coordinateSource": "https://maps.app.goo.gl/ehtjKQVH8Cna6ZC78",
+      "coordinateEvidence": {
+        "note": "Exact place pin from ticket operator map link redirect; not viewport coordinates."
+      },
+      "category": "theatre",
+      "price": 25,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "from": 25,
+        "to": 25
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:16:00Z",
+      "yearEvidence": "Official theatre details explicitly list2026scheduled dates, corroborated official2026calendar.",
+      "description": "Experimental stage.120minutes. Officialtheatre12+,ticketing14+; ageconflictuseconservative14+disclosure.",
+      "accessNote": "Experimental stage.120minutes. Officialtheatre12+,ticketing14+; ageconflictuseconservative14+disclosure.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "evidenceUrls": [
+        "https://batumitheatre.ge/en/repertuari/godos-molodinshi",
+        "https://batumitheatre.ge/en/calendar",
+        "https://batumitheatre.ge/en/service/sastseno-sivrtsis-idjara/mtavari-stsenis-idjara"
+      ],
+      "titleEn": "Waiting for Godot"
+    },
+    "existingIds": [
+      "batumi-godos-molodinshi-11-11"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "Waiting for Godot",
+      "sourceUrl": "https://batumitheatre.ge/en/repertuari/godos-molodinshi",
+      "source": "Batumi Drama Theatre",
+      "sourceType": "primary_organizer",
+      "date": "2026-11-12",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-12T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Batumi Drama Theatre",
+      "address": "1 Shota Rustaveli Street, Batumi",
+      "lat": 41.6528598,
+      "lng": 41.6381924,
+      "coordinateSource": "https://maps.app.goo.gl/ehtjKQVH8Cna6ZC78",
+      "coordinateEvidence": {
+        "note": "Exact place pin from ticket operator map link redirect; not viewport coordinates."
+      },
+      "category": "theatre",
+      "price": 25,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "from": 25,
+        "to": 25
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:16:00Z",
+      "yearEvidence": "Official theatre details explicitly list2026scheduled dates, corroborated official2026calendar.",
+      "description": "Experimental stage.120minutes. Officialtheatre12+,ticketing14+; ageconflictuseconservative14+disclosure.",
+      "accessNote": "Experimental stage.120minutes. Officialtheatre12+,ticketing14+; ageconflictuseconservative14+disclosure.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "evidenceUrls": [
+        "https://batumitheatre.ge/en/repertuari/godos-molodinshi",
+        "https://batumitheatre.ge/en/calendar",
+        "https://batumitheatre.ge/en/service/sastseno-sivrtsis-idjara/mtavari-stsenis-idjara"
+      ],
+      "titleEn": "Waiting for Godot"
+    },
+    "existingIds": [
+      "batumi-godos-molodinshi-11-12"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "Night Show Band - Batumi",
+      "sourceUrl": "https://biletebi.ge/en/concerts/night-show-band---batumi",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-13T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Batumi State Music Center",
+      "address": "1 Odissei Dimitriadi Street, Batumi",
+      "lat": 41.6603415,
+      "lng": 41.6793139,
+      "coordinateSource": "https://mapcarta.com/W120223314",
+      "coordinateEvidence": {
+        "note": "Ticketoperator exact Googleplacepin41.6603415,41.6793139 agreesMapcarta/OSMbuilding41.66038,41.67938 at1OdisseiDimitriadi."
+      },
+      "category": "music",
+      "price": 50,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 50
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:20:12Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Ticket required; advertised minimum excludes any unlisted fees. Non-refundable ticket.",
+      "accessNote": "Ticket required.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Night Show Band - Batumi"
+    },
+    "existingIds": [
+      "batumi-nightshow-1113"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "yerevan",
+      "city": "Yerevan",
+      "title": "Symphonic Europe — Alice Sara Ott",
+      "sourceUrl": "https://www.tomsarkgh.am/en/event/51579/%D5%8D%D5%AB%D5%B4%D6%86%D5%B8%D5%B6%D5%AB%D5%AF-%D4%B5%D5%BE%D6%80%D5%B8%D5%BA%D5%A1-%D4%B1%D5%AC%D5%AB%D5%BD-%D5%8D%D5%A1%D5%BC%D5%A1-%D5%95%D5%BF%D5%BF-%D5%80%D5%A1%D5%B5%D5%A1%D5%BD.html",
+      "source": "Tomsarkgh",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-24",
+      "time": "19:30",
+      "timezone": "Asia/Yerevan",
+      "startAt": "2026-10-24T19:30:00+04:00",
+      "endAt": null,
+      "venue": "Aram Khachaturian Concert Hall",
+      "address": "46 Mesrop Mashtots Ave, Yerevan",
+      "lat": 40.1863288,
+      "lng": 44.5151222,
+      "coordinateSource": "https://www.google.com/maps?output=embed&q=Aram%20Khachaturian%20Concert%20Hall%2046%20Mesrop%20Mashtots%20Ave%2C%20Yerevan",
+      "coordinateEvidence": {
+        "baselineId": "yv-eventix-cf745540-d0f8-44cc-8a05-628e43f25884-2026-10-15-1930",
+        "note": "Existing venue-specific pin reused; event venue explicitly verified in current ticket detail."
+      },
+      "category": "music",
+      "price": 3000,
+      "currency": "AMD",
+      "min": true,
+      "priceDetails": {
+        "from": 3000,
+        "to": 15000
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:23:00Z",
+      "yearEvidence": "2026 ticket catalogue footer and matching weekdays; full dated event schedule read. Source may be cached.",
+      "description": "6+. Armenian State Symphony Orchestra, conductor Sergey Smbatyan.",
+      "accessNote": "6+. Armenian State Symphony Orchestra, conductor Sergey Smbatyan.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Symphonic Europe — Alice Sara Ott"
+    },
+    "existingIds": [
+      "yerevan-symphonic-europe-alice-sara-ott-20261024"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "MGZAVREBI",
+      "sourceUrl": "https://biletebi.ge/en/concerts/mgzavrebi-academy",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-24",
+      "time": null,
+      "timezone": "Asia/Tbilisi",
+      "startAt": null,
+      "endAt": null,
+      "venue": "ACADEMY - TBILISI",
+      "address": "2 Dzmebi Kakabadzeebi Street, Georgian Film Academy, Tbilisi",
+      "lat": 41.7032351,
+      "lng": 44.7903168,
+      "coordinateSource": "https://www.google.com/maps/place/ACADEMY+-+TBILISI/@41.7033275,44.7898376,169m/data=!3m1!1e3!4m6!3m5!1s0x40440db935f3d6f9:0x124f1423dc23b307!8m2!3d41.7032351!4d44.7903168!16s%2Fg%2F11zf74s1vy!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateEvidence": {
+        "baselineId": "biletebi:anri-jokhadze-14:2026-10-14",
+        "note": "Venue-specific existing pin; current full detail verifies venue."
+      },
+      "category": "music",
+      "price": 60,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "advertised": 60
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:25:40Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Doors open21:00; artist stage time not stated. 16+; minors with responsible adult. Standing access; no re-entry.",
+      "accessNote": "Doors open21:00; artist stage time not stated. 16+; minors with responsible adult. Standing access; no re-entry.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "MGZAVREBI",
+      "timeBasis": "doors",
+      "addressSource": "https://biletebi.ge/en/concerts/MAREUX",
+      "doors": "21:00"
+    },
+    "existingIds": [
+      "biletebi:mgzavrebi-academy:2026-10-24"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "SON LUX",
+      "sourceUrl": "https://biletebi.ge/en/concerts/son-lux-at-academy",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-31",
+      "time": null,
+      "timezone": "Asia/Tbilisi",
+      "startAt": null,
+      "endAt": null,
+      "venue": "ACADEMY - TBILISI",
+      "address": "2 Dzmebi Kakabadzeebi Street, Georgian Film Academy, Tbilisi",
+      "lat": 41.7032351,
+      "lng": 44.7903168,
+      "coordinateSource": "https://www.google.com/maps/place/ACADEMY+-+TBILISI/@41.7033275,44.7898376,169m/data=!3m1!1e3!4m6!3m5!1s0x40440db935f3d6f9:0x124f1423dc23b307!8m2!3d41.7032351!4d44.7903168!16s%2Fg%2F11zf74s1vy!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateEvidence": {
+        "baselineId": "biletebi:anri-jokhadze-14:2026-10-14",
+        "note": "Venue-specific existing pin; current full detail verifies venue."
+      },
+      "category": "music",
+      "price": 60,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "advertised": 60
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:25:40Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Doors open21:00; artist stage time not stated. 16+; minors with responsible adult. Standing access; no re-entry.",
+      "accessNote": "Doors open21:00; artist stage time not stated. 16+; minors with responsible adult. Standing access; no re-entry.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "SON LUX",
+      "timeBasis": "doors",
+      "addressSource": "https://biletebi.ge/en/concerts/MAREUX",
+      "doors": "21:00"
+    },
+    "existingIds": [
+      "biletebi:son-lux-at-academy:2026-10-31"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "MAREUX",
+      "sourceUrl": "https://biletebi.ge/en/concerts/MAREUX",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-07",
+      "time": null,
+      "timezone": "Asia/Tbilisi",
+      "startAt": null,
+      "endAt": null,
+      "venue": "ACADEMY - TBILISI",
+      "address": "2 Dzmebi Kakabadzeebi Street, Georgian Film Academy, Tbilisi",
+      "lat": 41.7032351,
+      "lng": 44.7903168,
+      "coordinateSource": "https://www.google.com/maps/place/ACADEMY+-+TBILISI/@41.7033275,44.7898376,169m/data=!3m1!1e3!4m6!3m5!1s0x40440db935f3d6f9:0x124f1423dc23b307!8m2!3d41.7032351!4d44.7903168!16s%2Fg%2F11zf74s1vy!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateEvidence": {
+        "baselineId": "biletebi:anri-jokhadze-14:2026-10-14",
+        "note": "Venue-specific existing pin; current full detail verifies venue."
+      },
+      "category": "music",
+      "price": 60,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "advertised": 60
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:25:40Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Doors open21:00; artist stage time not stated. 16+; minors with responsible adult. Standing access; no re-entry.",
+      "accessNote": "Doors open21:00; artist stage time not stated. 16+; minors with responsible adult. Standing access; no re-entry.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "MAREUX",
+      "timeBasis": "doors",
+      "addressSource": "https://biletebi.ge/en/concerts/MAREUX",
+      "doors": "21:00"
+    },
+    "existingIds": [
+      "biletebi:mareux:2026-11-07"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Halloween Horror Circus",
+      "sourceUrl": "https://biletebi.ge/en/concerts/halloween-cirki",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-31",
+      "time": "18:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-31T18:00:00+04:00",
+      "endAt": null,
+      "venue": "ELEKTROWERK",
+      "address": "Monk Gabriel Salosi I Turn 2, Tbilisi",
+      "lat": 41.676697,
+      "lng": 44.849971,
+      "coordinateSource": "https://tkt.ge/event/499575",
+      "coordinateEvidence": {
+        "baselineId": "tkt:499575",
+        "note": "Venue-specific existing pin; current full detail verifies venue."
+      },
+      "category": "music",
+      "price": 75,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "advertised": 75
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:25:40Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "18+. Cosplay shows, rock, DJs; afterparty00:30. Early bird50soldout; current standard75,door90. Costumeoptional.",
+      "accessNote": "18+. Cosplay shows, rock, DJs; afterparty00:30. Early bird50soldout; current standard75,door90. Costumeoptional.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Halloween Horror Circus"
+    },
+    "existingIds": [
+      "tkt:507181"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Dead Games — Halloween",
+      "sourceUrl": "https://biletebi.ge/en/concerts/dead-games",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-31T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Nilo Restaurant",
+      "address": "35 Vertskhli St, Tbilisi, Georgia",
+      "lat": 41.6951597,
+      "lng": 44.8040234,
+      "coordinateSource": "https://maps.app.goo.gl/imRzoLTQT18xEi3G6",
+      "coordinateEvidence": {
+        "note": "Current ticket-linked exact Googleplace pin, matching35Vertskhli address."
+      },
+      "category": "music",
+      "price": 45,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "advertised": 45
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:25:40Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Ticket required; table reservation recommended.",
+      "accessNote": "Ticket required; table reservation recommended.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Dead Games — Halloween"
+    },
+    "existingIds": [
+      "tkt:508136"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Project Malome — Live Music",
+      "sourceUrl": "https://biletebi.ge/en/concerts/project-malome-at-nilo",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-06T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Nilo Restaurant",
+      "address": "35 Vertskhli St, Tbilisi, Georgia",
+      "lat": 41.6951597,
+      "lng": 44.8040234,
+      "coordinateSource": "https://maps.app.goo.gl/imRzoLTQT18xEi3G6",
+      "coordinateEvidence": {
+        "note": "Current ticket-linked exact Googleplace pin, matching35Vertskhli address."
+      },
+      "category": "music",
+      "price": 35,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "advertised": 35
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:25:40Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Ticket required; table reservation recommended.",
+      "accessNote": "Ticket required; table reservation recommended.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Project Malome — Live Music"
+    },
+    "existingIds": [
+      "tkt:508304"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Halloween at Astral Game Bar",
+      "sourceUrl": "https://biletebi.ge/en/concerts/halloween-at-astral-game-bar",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-31",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-31T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Astral Game Bar",
+      "address": "Tbilisi, Orbeliani Bazaar, 3a Vekua Street",
+      "lat": 41.6974194558856,
+      "lng": 44.8043542478913,
+      "coordinateSource": "https://tkt.ge/event/507932",
+      "coordinateEvidence": {
+        "baselineId": "tkt:507932",
+        "note": "Venue-specific existing pin; current full detail verifies venue."
+      },
+      "category": "games",
+      "price": 60,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "advertised": 60
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:25:40Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "8+. Games,costumes,buffet. Advertised duration90minutes.",
+      "accessNote": "8+. Games,costumes,buffet. Advertised duration90minutes.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Halloween at Astral Game Bar",
+      "durationMinutes": 90
+    },
+    "existingIds": [
+      "tkt:507932"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Infamous Offspring — Ultima Vez",
+      "sourceUrl": "https://biletebi.ge/en/theatres/mankieri-shtamomavloba",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-24T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Griboedov Theatre",
+      "address": "Shota Rustaveli Ave. 2/4, Tbilisi",
+      "lat": 41.6950867896778,
+      "lng": 44.7996715539788,
+      "coordinateSource": "https://tkt.ge/event/507664",
+      "coordinateEvidence": {
+        "baselineId": "tkt:507664",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 20,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 20
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "13+. GIFT Festival2026. Doors19:30; danceperformance110minutes.",
+      "accessNote": "13+. GIFT Festival2026. Doors19:30; danceperformance110minutes.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Infamous Offspring — Ultima Vez",
+      "durationMinutes": 110
+    },
+    "existingIds": [
+      "tkt:507664"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Fröken Julie",
+      "sourceUrl": "https://biletebi.ge/en/theatres/freken-juli-",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-24T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Theatre Factory 42",
+      "address": "114 Akaki Tsereteli Ave, T'bilisi",
+      "lat": 41.7362343,
+      "lng": 44.7804659,
+      "coordinateSource": "https://maps.app.goo.gl/LGx8vSPfRpfJ93uc8",
+      "coordinateEvidence": {
+        "note": "Exact ticket-linked Googleplace3d/4d pin; matches114Tsereteli infullannouncement. Maps rendering blocked; no bypass."
+      },
+      "category": "theatre",
+      "price": 33,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 33
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "16+.114TsereteliAvenue.90minutes,nointermission.",
+      "accessNote": "16+.114TsereteliAvenue.90minutes,nointermission.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Fröken Julie",
+      "durationMinutes": 90
+    },
+    "existingIds": [
+      "tkt:507050"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Is That a Man?!",
+      "sourceUrl": "https://biletebi.ge/en/theatres/is-that-a-man",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-24T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Tumanishvili Theatre",
+      "address": "164 Davit Aghmashenebeli Ave",
+      "lat": 41.718708,
+      "lng": 44.789689,
+      "coordinateSource": "https://tkt.ge/event/507700",
+      "coordinateEvidence": {
+        "baselineId": "tkt:507700",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 30,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 30
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "14+. Based on Ilia Chavchavadze.",
+      "accessNote": "14+. Based on Ilia Chavchavadze.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Is That a Man?!"
+    },
+    "existingIds": [
+      "tkt:507067"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Is That a Man?!",
+      "sourceUrl": "https://biletebi.ge/en/theatres/is-that-a-man",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-18",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-18T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Tumanishvili Theatre",
+      "address": "164 Davit Aghmashenebeli Ave",
+      "lat": 41.718708,
+      "lng": 44.789689,
+      "coordinateSource": "https://tkt.ge/event/507700",
+      "coordinateEvidence": {
+        "baselineId": "tkt:507700",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 30,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 30
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "14+. Based on Ilia Chavchavadze.",
+      "accessNote": "14+. Based on Ilia Chavchavadze.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Is That a Man?!"
+    },
+    "existingIds": [
+      "tkt:508113"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Mozart and Salieri",
+      "sourceUrl": "https://biletebi.ge/en/theatres/mozart-and-salieri",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-25T20:00:00+04:00",
+      "endAt": null,
+      "venue": "City Theatre",
+      "address": "18 Queen Tamar Ave",
+      "lat": 41.7210545,
+      "lng": 44.7953676,
+      "coordinateSource": "https://maps.app.goo.gl/dCug8WktHxviuGQFA",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplacepin agrees v168venue18QueenTamar. Maprender blocked,nobypass."
+      },
+      "category": "theatre",
+      "price": 35,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 35
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Directed by KokoRoinishvili.",
+      "accessNote": "Directed by KokoRoinishvili.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Mozart and Salieri"
+    },
+    "existingIds": [
+      "tkt:507056"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Mozart and Salieri",
+      "sourceUrl": "https://biletebi.ge/en/theatres/mozart-and-salieri",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-14",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-14T20:00:00+04:00",
+      "endAt": null,
+      "venue": "City Theatre",
+      "address": "18 Queen Tamar Ave",
+      "lat": 41.7210545,
+      "lng": 44.7953676,
+      "coordinateSource": "https://maps.app.goo.gl/dCug8WktHxviuGQFA",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplacepin agrees v168venue18QueenTamar. Maprender blocked,nobypass."
+      },
+      "category": "theatre",
+      "price": 35,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 35
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Directed by KokoRoinishvili.",
+      "accessNote": "Directed by KokoRoinishvili.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Mozart and Salieri"
+    },
+    "existingIds": [
+      "tkt:508107"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "The Kugelmass",
+      "sourceUrl": "https://biletebi.ge/en/theatres/kugelmas",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-25T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Tumanishvili Theatre",
+      "address": "164 Davit Aghmashenebeli Ave",
+      "lat": 41.718708,
+      "lng": 44.789689,
+      "coordinateSource": "https://tkt.ge/event/507700",
+      "coordinateEvidence": {
+        "baselineId": "tkt:507700",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 20,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 20
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Georgian. Based on WoodyAllen story;75minutes.",
+      "accessNote": "Georgian. Based on WoodyAllen story;75minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "The Kugelmass",
+      "durationMinutes": 75
+    },
+    "existingIds": [
+      "tkt:507068"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Three Ties and an Angel",
+      "sourceUrl": "https://biletebi.ge/en/theatres/sami-halstuxiani-da-angelozi-14",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-25",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-25T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Liberty Theater",
+      "address": "Sulkhan-Saba Str. 9, Tbilisi",
+      "lat": 41.694571,
+      "lng": 44.799374,
+      "coordinateSource": "https://tkt.ge/event/506944",
+      "coordinateEvidence": {
+        "baselineId": "tkt:506944",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 24.99,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 24.99
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "14+. Georgian;95minutes. Late arrivals notadmittedtoparterre.",
+      "accessNote": "14+. Georgian;95minutes. Late arrivals notadmittedtoparterre.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Three Ties and an Angel",
+      "durationMinutes": 95
+    },
+    "existingIds": [
+      "tkt:506939"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Three Ties and an Angel",
+      "sourceUrl": "https://biletebi.ge/en/theatres/sami-halstuxiani-da-angelozi-14",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-13",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-13T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Liberty Theater",
+      "address": "Sulkhan-Saba Str. 9, Tbilisi",
+      "lat": 41.694571,
+      "lng": 44.799374,
+      "coordinateSource": "https://tkt.ge/event/506944",
+      "coordinateEvidence": {
+        "baselineId": "tkt:506944",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 24.99,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 24.99
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "14+. Georgian;95minutes. Late arrivals notadmittedtoparterre.",
+      "accessNote": "14+. Georgian;95minutes. Late arrivals notadmittedtoparterre.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Three Ties and an Angel",
+      "durationMinutes": 95
+    },
+    "existingIds": [
+      "tkt:508028"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "God Save Us and People",
+      "sourceUrl": "https://biletebi.ge/en/theatres/rmerto-dagvifare-chven-da-adamianebi-14",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-24",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-24T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Liberty Theater",
+      "address": "Sulkhan-Saba Str. 9, Tbilisi",
+      "lat": 41.694571,
+      "lng": 44.799374,
+      "coordinateSource": "https://tkt.ge/event/506944",
+      "coordinateEvidence": {
+        "baselineId": "tkt:506944",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 24.99,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 24.99
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "14+. Georgian;100minutes. Late arrivals notadmittedtoparterre.",
+      "accessNote": "14+. Georgian;100minutes. Late arrivals notadmittedtoparterre.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "God Save Us and People",
+      "durationMinutes": 100
+    },
+    "existingIds": [
+      "tkt:506938"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "God Save Us and People",
+      "sourceUrl": "https://biletebi.ge/en/theatres/rmerto-dagvifare-chven-da-adamianebi-14",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-19",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-19T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Liberty Theater",
+      "address": "Sulkhan-Saba Str. 9, Tbilisi",
+      "lat": 41.694571,
+      "lng": 44.799374,
+      "coordinateSource": "https://tkt.ge/event/506944",
+      "coordinateEvidence": {
+        "baselineId": "tkt:506944",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 24.99,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 24.99
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "14+. Georgian;100minutes. Late arrivals notadmittedtoparterre.",
+      "accessNote": "14+. Georgian;100minutes. Late arrivals notadmittedtoparterre.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "God Save Us and People",
+      "durationMinutes": 100
+    },
+    "existingIds": [
+      "tkt:508033",
+      "m24-tbilisi-588fd9e0092ac3"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "One Jar of Wishes",
+      "sourceUrl": "https://biletebi.ge/en/theatres/erti-qila-natvra",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-08",
+      "time": "12:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-08T12:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "family",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "7+. Georgian;50minutes.",
+      "accessNote": "7+. Georgian;50minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "One Jar of Wishes",
+      "durationMinutes": 50
+    },
+    "existingIds": [
+      "tkt:507993"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Hamlet — Youth Theatre",
+      "sourceUrl": "https://biletebi.ge/en/theatres/hamleti-545",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-11",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-11T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Georgian.140minutes.",
+      "accessNote": "Georgian.140minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Hamlet — Youth Theatre",
+      "durationMinutes": 140
+    },
+    "existingIds": [
+      "tkt:508062"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Aladdin — Youth Theatre",
+      "sourceUrl": "https://biletebi.ge/en/theatres/aladini",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-24",
+      "time": "13:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-24T13:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "family",
+      "price": 18,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 18
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "5+. Georgian.110minutes.",
+      "accessNote": "5+. Georgian.110minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Aladdin — Youth Theatre",
+      "durationMinutes": 110
+    },
+    "existingIds": [
+      "tkt:507745"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Aladdin — Youth Theatre",
+      "sourceUrl": "https://biletebi.ge/en/theatres/aladini",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-14",
+      "time": "13:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-14T13:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "family",
+      "price": 18,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 18
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "5+. Georgian.110minutes.",
+      "accessNote": "5+. Georgian.110minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Aladdin — Youth Theatre",
+      "durationMinutes": 110
+    },
+    "existingIds": [
+      "tkt:508066"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Chinchraka",
+      "sourceUrl": "https://biletebi.ge/en/theatres/chinchraka1",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-24",
+      "time": "16:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-24T16:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "family",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "5+. Georgian. Small Stage. Shadowtheatre,music,circus elements.",
+      "accessNote": "5+. Georgian. Small Stage. Shadowtheatre,music,circus elements.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Chinchraka"
+    },
+    "existingIds": [
+      "tkt:507746"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Chinchraka",
+      "sourceUrl": "https://biletebi.ge/en/theatres/chinchraka1",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-01",
+      "time": "12:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-01T12:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "family",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "5+. Georgian. Small Stage. Shadowtheatre,music,circus elements.",
+      "accessNote": "5+. Georgian. Small Stage. Shadowtheatre,music,circus elements.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Chinchraka"
+    },
+    "existingIds": [
+      "tkt:507982"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Chinchraka",
+      "sourceUrl": "https://biletebi.ge/en/theatres/chinchraka1",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-15",
+      "time": "16:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-15T16:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "family",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "5+. Georgian. Small Stage. Shadowtheatre,music,circus elements.",
+      "accessNote": "5+. Georgian. Small Stage. Shadowtheatre,music,circus elements.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Chinchraka"
+    },
+    "existingIds": [
+      "tkt:508069"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Matchmaker",
+      "sourceUrl": "https://biletebi.ge/en/theatres/mawankali-543",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-24",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-24T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "12+. Georgian.90minutes.",
+      "accessNote": "12+. Georgian.90minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Matchmaker",
+      "durationMinutes": 90
+    },
+    "existingIds": [
+      "tkt:507747"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Matchmaker",
+      "sourceUrl": "https://biletebi.ge/en/theatres/mawankali-543",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-05",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-05T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "12+. Georgian.90minutes.",
+      "accessNote": "12+. Georgian.90minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Matchmaker",
+      "durationMinutes": 90
+    },
+    "existingIds": [
+      "tkt:507987"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Bandits of the Dense Forest",
+      "sourceUrl": "https://biletebi.ge/en/theatres/bandits-of-the-dense-forest",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-25",
+      "time": "13:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-25T13:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "family",
+      "price": 18,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 18
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Georgian. Separate YouthTheatre production; stage notspecified.",
+      "accessNote": "Georgian. Separate YouthTheatre production; stage notspecified.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Bandits of the Dense Forest"
+    },
+    "existingIds": [
+      "tkt:507748"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Bandits of the Dense Forest",
+      "sourceUrl": "https://biletebi.ge/en/theatres/bandits-of-the-dense-forest",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-03",
+      "time": "12:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-03T12:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "family",
+      "price": 18,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 18
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Georgian. Separate YouthTheatre production; stage notspecified.",
+      "accessNote": "Georgian. Separate YouthTheatre production; stage notspecified.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Bandits of the Dense Forest"
+    },
+    "existingIds": [
+      "m24-tbilisi-c186f1641a8137"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Bandits of the Dense Forest",
+      "sourceUrl": "https://biletebi.ge/en/theatres/bandits-of-the-dense-forest",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-07",
+      "time": "13:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-07T13:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "family",
+      "price": 18,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 18
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Georgian. Separate YouthTheatre production; stage notspecified.",
+      "accessNote": "Georgian. Separate YouthTheatre production; stage notspecified.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Bandits of the Dense Forest"
+    },
+    "existingIds": [
+      "tkt:507990"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Bandits of the Dense Forest",
+      "sourceUrl": "https://biletebi.ge/en/theatres/bandits-of-the-dense-forest",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-13",
+      "time": "12:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-13T12:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "family",
+      "price": 18,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 18
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Georgian. Separate YouthTheatre production; stage notspecified.",
+      "accessNote": "Georgian. Separate YouthTheatre production; stage notspecified.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Bandits of the Dense Forest"
+    },
+    "existingIds": [
+      "m24-tbilisi-7c270cec61c39f"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Pirosmani",
+      "sourceUrl": "https://biletebi.ge/en/theatres/pirosman-i",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-25",
+      "time": "15:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-25T15:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Georgian. Stage notspecified.",
+      "accessNote": "Georgian. Stage notspecified.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Pirosmani"
+    },
+    "existingIds": [
+      "tkt:507669"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Pirosmani",
+      "sourceUrl": "https://biletebi.ge/en/theatres/pirosman-i",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-01",
+      "time": "16:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-01T16:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Georgian. Stage notspecified.",
+      "accessNote": "Georgian. Stage notspecified.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Pirosmani"
+    },
+    "existingIds": [
+      "tkt:507984"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Pirosmani",
+      "sourceUrl": "https://biletebi.ge/en/theatres/pirosman-i",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-14",
+      "time": "16:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-14T16:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Georgian. Stage notspecified.",
+      "accessNote": "Georgian. Stage notspecified.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Pirosmani"
+    },
+    "existingIds": [
+      "tkt:508067"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Refugee Pass",
+      "sourceUrl": "https://biletebi.ge/en/theatres/refugee-pass",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-25T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Ticket required. Language notstated.",
+      "accessNote": "Ticket required. Language notstated.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Refugee Pass",
+      "soldOut": true
+    },
+    "existingIds": [
+      "tkt:507749"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Refugee Pass",
+      "sourceUrl": "https://biletebi.ge/en/theatres/refugee-pass",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-03",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-03T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Ticket required. Language notstated.",
+      "accessNote": "Ticket required. Language notstated.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Refugee Pass"
+    },
+    "existingIds": [
+      "tkt:507986"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Refugee Pass",
+      "sourceUrl": "https://biletebi.ge/en/theatres/refugee-pass",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-13T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Ticket required. Language notstated.",
+      "accessNote": "Ticket required. Language notstated.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Refugee Pass"
+    },
+    "existingIds": [
+      "tkt:508065"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "First They Died, Then They Got Married",
+      "sourceUrl": "https://biletebi.ge/en/theatres/jer-daixocnen-mere-iqorwines",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-12",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-12T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Tumanishvili Theatre",
+      "address": "164 Davit Aghmashenebeli Ave",
+      "lat": 41.718708,
+      "lng": 44.789689,
+      "coordinateSource": "https://tkt.ge/event/507700",
+      "coordinateEvidence": {
+        "baselineId": "tkt:507700",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 50,
+      "currency": "GEL",
+      "min": false,
+      "priceDetails": {
+        "from": 50
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:27:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Vaudeville;140minutes with oneintermission.",
+      "accessNote": "Vaudeville;140minutes with oneintermission.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "First They Died, Then They Got Married",
+      "durationMinutes": 140
+    },
+    "existingIds": [
+      "tkt:508111"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "I See the Sun",
+      "sourceUrl": "https://biletebi.ge/en/theatres/me-vxedav-mzes",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-27",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-27T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:30:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "10+. Based on Nodar Dumbadze novel. Georgian.",
+      "accessNote": "10+. Based on Nodar Dumbadze novel. Georgian.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "I See the Sun"
+    },
+    "existingIds": [
+      "tkt:507750"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "I See the Sun",
+      "sourceUrl": "https://biletebi.ge/en/theatres/me-vxedav-mzes",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-31",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-31T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:30:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "10+. Based on Nodar Dumbadze novel. Georgian.",
+      "accessNote": "10+. Based on Nodar Dumbadze novel. Georgian.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "I See the Sun"
+    },
+    "existingIds": [
+      "tkt:507757"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "I See the Sun",
+      "sourceUrl": "https://biletebi.ge/en/theatres/me-vxedav-mzes",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-08",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-08T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:30:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "10+. Based on Nodar Dumbadze novel. Georgian.",
+      "accessNote": "10+. Based on Nodar Dumbadze novel. Georgian.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "I See the Sun"
+    },
+    "existingIds": [
+      "tkt:507995"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Toy Pistol",
+      "sourceUrl": "https://biletebi.ge/en/theatres/satamasho-pistoleti",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-27",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-27T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:30:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "13+. Georgian. 60 minutes.",
+      "accessNote": "13+. Georgian. 60 minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Toy Pistol",
+      "durationMinutes": 60
+    },
+    "existingIds": [
+      "tkt:507751"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "We Are Performing Kvachi Kvachantiradze",
+      "sourceUrl": "https://biletebi.ge/en/theatres/we-are-performing-kvachi-kvachantiradze",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-28",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-28T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Liberty Theater",
+      "address": "Sulkhan-Saba Str. 9, Tbilisi",
+      "lat": 41.694571,
+      "lng": 44.799374,
+      "coordinateSource": "https://tkt.ge/event/506944",
+      "coordinateEvidence": {
+        "baselineId": "tkt:506944",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 24.99,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 24.99
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:30:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "14+. 140 minutes.",
+      "accessNote": "14+. 140 minutes.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "We Are Performing Kvachi Kvachantiradze",
+      "durationMinutes": 140
+    },
+    "existingIds": [
+      "tkt:506941"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Police",
+      "sourceUrl": "https://biletebi.ge/en/theatres/policiaa",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-28",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-28T20:00:00+04:00",
+      "endAt": null,
+      "venue": "City Theatre",
+      "address": "18 Queen Tamar Ave",
+      "lat": 41.7210545,
+      "lng": 44.7953676,
+      "coordinateSource": "https://maps.app.goo.gl/dCug8WktHxviuGQFA",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplacepin agrees v168venue18QueenTamar. Maprender blocked,nobypass."
+      },
+      "category": "theatre",
+      "price": 35,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 35
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:30:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Play by Slawomir Mrozek.",
+      "accessNote": "Play by Slawomir Mrozek.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Police"
+    },
+    "existingIds": [
+      "tkt:507058"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Police",
+      "sourceUrl": "https://biletebi.ge/en/theatres/policiaa",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-12",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-12T20:00:00+04:00",
+      "endAt": null,
+      "venue": "City Theatre",
+      "address": "18 Queen Tamar Ave",
+      "lat": 41.7210545,
+      "lng": 44.7953676,
+      "coordinateSource": "https://maps.app.goo.gl/dCug8WktHxviuGQFA",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplacepin agrees v168venue18QueenTamar. Maprender blocked,nobypass."
+      },
+      "category": "theatre",
+      "price": 35,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 35
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:30:00Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Play by Slawomir Mrozek.",
+      "accessNote": "Play by Slawomir Mrozek.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Police"
+    },
+    "existingIds": [
+      "tkt:508106"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "yerevan",
+      "city": "Yerevan",
+      "title": "Թիմ Բարթոնի տիեզերքը․ Mystery Ensemble",
+      "sourceUrl": "https://www.tomsarkgh.am/en/event/51279",
+      "source": "Tomsarkgh",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-30",
+      "time": "19:00",
+      "timezone": "Asia/Yerevan",
+      "startAt": "2026-10-30T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Komitas Chamber Music House",
+      "address": "1 Isahakyan St, Yerevan ",
+      "lat": 40.1855127,
+      "lng": 44.5231657,
+      "coordinateSource": "https://www.google.com/maps?output=embed&q=Komitas%20Chamber%20Music%20House%201%20Isahakyan%20St%2C%20Yerevan%20",
+      "coordinateEvidence": {
+        "baselineId": "yv-eventix-ab7aefbb-a872-4bce-82c8-45f08e8d601e-2026-10-16-1930",
+        "note": "Existing venue-specific pin reused; event venue explicitly verified in current ticket detail."
+      },
+      "category": "music",
+      "price": 9300,
+      "currency": "AMD",
+      "min": true,
+      "priceDetails": {
+        "from": 9300
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:32:40Z",
+      "yearEvidence": "2026 ticket catalogue footer and matching weekdays; full dated event schedule read. Source may be cached.",
+      "description": "Film-music concert performed by Mystery Ensemble; Tim Burton is not announced as attending. Tickets 9300–13700 AMD.",
+      "accessNote": "Film-music concert performed by Mystery Ensemble; Tim Burton is not announced as attending. Tickets 9300–13700 AMD.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Tim Burton’s Universe — Mystery Ensemble"
+    },
+    "existingIds": [
+      "yerevan-refresh23-tim-burton"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "yerevan",
+      "city": "Yerevan",
+      "title": "Համերգ. «Վիվա Վերդի»",
+      "sourceUrl": "https://www.tomsarkgh.am/en/event/51699",
+      "source": "Tomsarkgh",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-27",
+      "time": "19:00",
+      "timezone": "Asia/Yerevan",
+      "startAt": "2026-10-27T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Armenian National Opera and Ballet Theatre",
+      "address": "54 Tumanyan Street, Yerevan",
+      "lat": 40.185801,
+      "lng": 44.514898,
+      "coordinateSource": "https://musicbrainz.org/place/c53ca1fc-98f4-4ea0-aebd-0cbfaaefa691/map",
+      "coordinateEvidence": {
+        "baselineId": "yv-opera-1722-20261016",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 building pin; current ticket confirms Opera theatre hall."
+      },
+      "category": "music",
+      "price": 5000,
+      "currency": "AMD",
+      "min": true,
+      "priceDetails": {
+        "from": 5000
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:32:40Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme; weekdays match 2026; Tomsarkgh footer last updated October 2026 / Biletebi current programme. Not a claim of uncached origin fetch.",
+      "description": "Special ceremonies hall; theatre soloists. Building pin, not individual hall entrance.",
+      "accessNote": "Special ceremonies hall; theatre soloists. Building pin, not individual hall entrance.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Viva Verdi"
+    },
+    "existingIds": [
+      "m23-yerevan-bc8c598eb82156"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Game Theory",
+      "sourceUrl": "https://biletebi.ge/en/theatres/game-theory",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-26",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-26T20:00:00+04:00",
+      "endAt": null,
+      "venue": "City Theatre",
+      "address": "18 Queen Tamar Ave",
+      "lat": 41.7210545,
+      "lng": 44.7953676,
+      "coordinateSource": "https://maps.app.goo.gl/dCug8WktHxviuGQFA",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplacepin agrees v168venue18QueenTamar. Maprender blocked,nobypass."
+      },
+      "category": "theatre",
+      "price": 35,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 35
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:34:15Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "18+. Interactive two-act performance requires audience mobile phone and performance app.",
+      "accessNote": "18+. Interactive two-act performance requires audience mobile phone and performance app.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Game Theory"
+    },
+    "existingIds": [
+      "tkt:507057"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Treasure Island",
+      "sourceUrl": "https://biletebi.ge/en/theatres/treasure-island",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-15",
+      "time": "13:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-15T13:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 18,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 18
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:34:15Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "10+. Two-act adaptation of Stevenson novel.",
+      "accessNote": "10+. Two-act adaptation of Stevenson novel.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Treasure Island"
+    },
+    "existingIds": [
+      "tkt:508068"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Mother of Leuville",
+      "sourceUrl": "https://biletebi.ge/en/theatres/levilis-deda",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-29",
+      "time": "19:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-29T19:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:34:15Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "12+. Georgian. 80 minutes.",
+      "accessNote": "12+. Georgian. 80 minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Mother of Leuville",
+      "durationMinutes": 80
+    },
+    "existingIds": [
+      "tkt:507753"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "The Mad Man's Diary",
+      "sourceUrl": "https://biletebi.ge/en/theatres/sheshlilis-tserilebi",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-29",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-29T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Theatre Factory 42",
+      "address": "114 Akaki Tsereteli Ave, T'bilisi",
+      "lat": 41.7362343,
+      "lng": 44.7804659,
+      "coordinateSource": "https://maps.app.goo.gl/LGx8vSPfRpfJ93uc8",
+      "coordinateEvidence": {
+        "note": "Exact ticket-linked Googleplace3d/4d pin; matches114Tsereteli infullannouncement. Maps rendering blocked; no bypass."
+      },
+      "category": "theatre",
+      "price": 33,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 33
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:34:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Gogol adaptation. 90 minutes.",
+      "accessNote": "Gogol adaptation. 90 minutes.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "The Mad Man's Diary",
+      "durationMinutes": 90
+    },
+    "existingIds": [
+      "tkt:507695"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Flying Lizard Qartula",
+      "sourceUrl": "https://biletebi.ge/en/theatres/mfrinavi-xvliki-qartula",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-29",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-29T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Tumanishvili Theatre",
+      "address": "164 Davit Aghmashenebeli Ave",
+      "lat": 41.718708,
+      "lng": 44.789689,
+      "coordinateSource": "https://tkt.ge/event/507700",
+      "coordinateEvidence": {
+        "baselineId": "tkt:507700",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 20,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 20
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:34:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "80 minutes, one act.",
+      "accessNote": "80 minutes, one act.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Flying Lizard Qartula",
+      "durationMinutes": 80
+    },
+    "existingIds": [
+      "tkt:507069"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "The Three Little Pigs — Youth Theatre",
+      "sourceUrl": "https://biletebi.ge/en/theatres/sami-gowi",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-31",
+      "time": "12:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-31T12:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:34:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "5+. Georgian with Georgian subtitles. 45 minutes.",
+      "accessNote": "5+. Georgian with Georgian subtitles. 45 minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "The Three Little Pigs — Youth Theatre",
+      "durationMinutes": 45
+    },
+    "existingIds": [
+      "tkt:507755"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "The Three Little Pigs — Youth Theatre",
+      "sourceUrl": "https://biletebi.ge/en/theatres/sami-gowi",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-05",
+      "time": "12:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-05T12:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:34:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "5+. Georgian with Georgian subtitles. 45 minutes.",
+      "accessNote": "5+. Georgian with Georgian subtitles. 45 minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "The Three Little Pigs — Youth Theatre",
+      "durationMinutes": 45
+    },
+    "existingIds": [
+      "m24-tbilisi-4760ae005fde22"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "The Three Little Pigs — Youth Theatre",
+      "sourceUrl": "https://biletebi.ge/en/theatres/sami-gowi",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-11-07",
+      "time": "12:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-11-07T12:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:34:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "5+. Georgian with Georgian subtitles. 45 minutes.",
+      "accessNote": "5+. Georgian with Georgian subtitles. 45 minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "The Three Little Pigs — Youth Theatre",
+      "durationMinutes": 45
+    },
+    "existingIds": [
+      "tkt:507989"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "The Conductor",
+      "sourceUrl": "https://biletebi.ge/en/theatres/dirijori-11",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-30T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Theatre Factory 42",
+      "address": "114 Akaki Tsereteli Ave, T'bilisi",
+      "lat": 41.7362343,
+      "lng": 44.7804659,
+      "coordinateSource": "https://maps.app.goo.gl/LGx8vSPfRpfJ93uc8",
+      "coordinateEvidence": {
+        "note": "Exact ticket-linked Googleplace3d/4d pin; matches114Tsereteli infullannouncement. Maps rendering blocked; no bypass."
+      },
+      "category": "theatre",
+      "price": 33,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 33
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:34:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "14+. 115 minutes with one intermission. Subtitles announced, language unspecified.",
+      "accessNote": "14+. 115 minutes with one intermission. Subtitles announced, language unspecified.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "The Conductor",
+      "durationMinutes": 115
+    },
+    "existingIds": [
+      "tkt:507696"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Spring Will Come Anyway",
+      "sourceUrl": "https://biletebi.ge/en/theatres/summer-will-still-come",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-30T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Tumanishvili Theatre",
+      "address": "164 Davit Aghmashenebeli Ave",
+      "lat": 41.718708,
+      "lng": 44.789689,
+      "coordinateSource": "https://tkt.ge/event/507700",
+      "coordinateEvidence": {
+        "baselineId": "tkt:507700",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 20,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 20
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:34:45Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Georgian. 70 minutes.",
+      "accessNote": "Georgian. 70 minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Spring Will Come Anyway",
+      "durationMinutes": 70
+    },
+    "existingIds": [
+      "tkt:507070"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "The Chief of Red Skins",
+      "sourceUrl": "https://biletebi.ge/en/theatres/witelkanianta-beladi",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-31",
+      "time": "13:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-31T13:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:35:15Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "8+. Georgian with Georgian subtitles. 80 minutes.",
+      "accessNote": "8+. Georgian with Georgian subtitles. 80 minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "The Chief of Red Skins",
+      "durationMinutes": 80
+    },
+    "existingIds": [
+      "tkt:507756"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Spineless",
+      "sourceUrl": "https://biletebi.ge/en/theatres/uxerxemlo-1906",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-31T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Tumanishvili Theatre",
+      "address": "164 Davit Aghmashenebeli Ave",
+      "lat": 41.718708,
+      "lng": 44.789689,
+      "coordinateSource": "https://tkt.ge/event/507700",
+      "coordinateEvidence": {
+        "baselineId": "tkt:507700",
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+        "note": "v168 venue pin, current detail confirms venue."
+      },
+      "category": "theatre",
+      "price": 25,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 25
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:35:15Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "90 minutes.",
+      "accessNote": "90 minutes.",
+      "language": null,
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Spineless",
+      "durationMinutes": 90
+    },
+    "existingIds": [
+      "tkt:507071"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "tbilisi",
+      "city": "Tbilisi",
+      "title": "Oh My God",
+      "sourceUrl": "https://biletebi.ge/en/theatres/oh-rmerto",
+      "source": "Biletebi",
+      "sourceType": "primary_ticketing",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "timezone": "Asia/Tbilisi",
+      "startAt": "2026-10-31T20:00:00+04:00",
+      "endAt": null,
+      "venue": "Youth Theatre",
+      "address": "101/1 Davit Aghmashenebeli Avenue, Tbilisi",
+      "lat": 41.7113889,
+      "lng": 44.7963889,
+      "coordinateSource": "https://maps.app.goo.gl/6F3xHyzUnLJGh9Az8",
+      "coordinateEvidence": {
+        "note": "Ticket-linked exactGoogleplace3d/4d pin forNodarDumbadzeTheatre; agrees v168address andnearbyexistingpin."
+      },
+      "category": "theatre",
+      "price": 16,
+      "currency": "GEL",
+      "min": true,
+      "priceDetails": {
+        "from": 16
+      },
+      "mandatoryFees": null,
+      "checkedAt": "2026-10-24T05:35:15Z",
+      "yearEvidence": "Current October/November 2026 ticketing programme and matching weekdays. Source may be cached; not an uncached origin fetch.",
+      "description": "Recommended 15+. Georgian. 75 minutes.",
+      "accessNote": "Recommended 15+. Georgian. 75 minutes.",
+      "language": "ka",
+      "kind": "event",
+      "publicationStatus": "candidate_for_parent_validation",
+      "duplicateCandidates": [],
+      "titleEn": "Oh My God",
+      "durationMinutes": 75
+    },
+    "existingIds": [
+      "tkt:508125"
+    ]
+  },
+  {
+    "candidate": {
+      "address": "Süderhofenden 40, 24937 Flensburg",
+      "lat": 54.7837487,
+      "lng": 9.4384556,
+      "coordinateSource": "https://www.openstreetmap.org/node/373153321",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "fl-b4868a503161dd06",
+      "cityId": "flensburg",
+      "title": "Yoga in der Bibliothek",
+      "date": "2026-10-24",
+      "time": "16:00",
+      "venue": "StadtBibliothek Flensburg",
+      "sourceUrl": "https://foerdekompass.sh/kalender/yoga-in-der-bibliothek/",
+      "category": "workshop",
+      "price": 0,
+      "currency": "EUR",
+      "timezone": "Europe/Berlin",
+      "checkedAt": "2026-10-24T05:41:00Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "end": "17:30",
+      "admission": "Advance registration required; yoga with book readings.",
+      "id": "flensburg-afisha24-6780436bb7d7",
+      "programmeId": "flensburg-afisha24-6780436bb7d7",
+      "kind": "event",
+      "dedupeStatus": "existing",
+      "existingMatches": [
+        "fl-community-1060"
+      ]
+    },
+    "existingIds": [
+      "fl-community-1060"
+    ]
+  },
+  {
+    "candidate": {
+      "venueId": "fl-local-venue-stadttheater",
+      "address": "Rathausstraße 22, 24937 Flensburg",
+      "lat": 54.7860792,
+      "lng": 9.433189,
+      "coordinateSource": "https://www.niederdeutschebuehne.de/",
+      "coordinatePrecision": "building",
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "fl-local-b4f7f784b7d516e6",
+      "cityId": "flensburg",
+      "title": "Himmlische Zeiten — Oltwarrn is nix för Bangbüxen",
+      "date": "2026-10-25",
+      "time": "19:00",
+      "venue": "Stadttheater Flensburg",
+      "sourceUrl": "https://foerdekompass.sh/kalender/himmlische-zeiten-oltwarrn-is-nix-foer-bangbuexen/",
+      "category": "theatre",
+      "price": 23.92,
+      "currency": "EUR",
+      "timezone": "Europe/Berlin",
+      "checkedAt": "2026-10-24T05:41:00Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": "nds",
+      "status": "scheduled",
+      "accessType": "public",
+      "priceNote": "Regular23.92–30.92byseat; Kulturschlüssel3EUR limited2places notgeneralprice.",
+      "id": "flensburg-afisha24-17a2e5e4f4f5",
+      "programmeId": "flensburg-afisha24-17a2e5e4f4f5",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    },
+    "existingIds": [
+      "fl-local-3cedf4ab66b802aa"
+    ]
+  },
+  {
+    "candidate": {
+      "address": "Süderhofenden 40, 24937 Flensburg",
+      "lat": 54.7837487,
+      "lng": 9.4384556,
+      "coordinateSource": "https://www.openstreetmap.org/node/373153321",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "fl-b4868a503161dd06",
+      "cityId": "flensburg",
+      "title": "Naturtalent 2026 — Preisverleihung und Saatguttauschbörse",
+      "date": "2026-10-27",
+      "time": "18:00",
+      "venue": "StadtBibliothek Flensburg",
+      "sourceUrl": "https://foerdekompass.sh/kalender/flensburger-naturgartenwettbewerb-2026/",
+      "category": "city",
+      "price": 0,
+      "currency": "EUR",
+      "timezone": "Europe/Berlin",
+      "checkedAt": "2026-10-24T05:41:00Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "admission": "Seed exchange during awardbreak; seeds accepted until18; separatechildrenactivities15:30–17:30notfabricatedasseparateevents.",
+      "id": "flensburg-afisha24-fbb43beccd36",
+      "programmeId": "flensburg-afisha24-fbb43beccd36",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    },
+    "existingIds": [
+      "fl-community-1068"
+    ]
+  },
+  {
+    "candidate": {
+      "venueId": "fl-venue-4ef5d3c5ade1",
+      "address": "Mühlendamm 25, 24937 Flensburg",
+      "lat": 54.77455,
+      "lng": 9.44076,
+      "coordinateSource": "https://kulturbytes.de/de/veranstaltung/019eb675-fd88-7444-9d44-f550d54a9ad8/202610172100",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "fl-82fc58aef23abfb4",
+      "cityId": "flensburg",
+      "title": "Halloween Rave",
+      "date": "2026-10-30",
+      "time": "23:00",
+      "venue": "Kulturwerkstatt Kühlhaus",
+      "sourceUrl": "https://foerdekompass.sh/kalender/halloween-rave/",
+      "category": "music",
+      "price": 10,
+      "currency": "EUR",
+      "timezone": "Europe/Berlin",
+      "checkedAt": "2026-10-24T05:42:30Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "admission": "Costumeswelcome.",
+      "id": "flensburg-afisha24-e04230fd1d02",
+      "programmeId": "flensburg-afisha24-e04230fd1d02",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    },
+    "existingIds": [
+      "fl-a2a158ff26cb40ef"
+    ]
+  },
+  {
+    "candidate": {
+      "address": "Süderhofenden 40, 24937 Flensburg",
+      "lat": 54.7837487,
+      "lng": 9.4384556,
+      "coordinateSource": "https://www.openstreetmap.org/node/373153321",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "fl-b4868a503161dd06",
+      "cityId": "flensburg",
+      "title": "3. Flensburger Mangacon",
+      "date": "2026-10-30",
+      "time": "12:00",
+      "venue": "StadtBibliothek Flensburg",
+      "sourceUrl": "https://foerdekompass.sh/kalender/3-flensburger-mangacon/",
+      "category": "festival",
+      "price": 0,
+      "currency": "EUR",
+      "timezone": "Europe/Berlin",
+      "checkedAt": "2026-10-24T05:41:40Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "end": "19:00",
+      "admission": "Jugendbibliothek2 andlecturehall; manga/drawing/origami/gaming.",
+      "id": "flensburg-afisha24-96167079eca2",
+      "programmeId": "flensburg-afisha24-96167079eca2",
+      "kind": "event",
+      "dedupeStatus": "existing",
+      "existingMatches": [
+        "fl-community-1070"
+      ]
+    },
+    "existingIds": [
+      "fl-community-1070"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "london",
+      "title": "EFG London Jazz Festival — Haruki Murakami’s Jazz at Peter Cat: A Japanese Jazz Night",
+      "date": "2026-11-21",
+      "time": "20:30",
+      "venue": "Barbican",
+      "sourceUrl": "https://efglondonjazzfestival.org.uk/events/haruki-murakamis-jazz-at-peter-cat-a-japanese-jazz-night",
+      "category": "music",
+      "price": null,
+      "currency": "GBP",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-10-24T05:50:34Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": null,
+      "status": "scheduled",
+      "accessType": "public",
+      "doors": "20:00",
+      "soldOut": true,
+      "priceNote": "Soldout; no currentprice.",
+      "lat": 51.51987,
+      "lng": -0.09384,
+      "address": "Silk Street, London EC2Y 8DS",
+      "coordinateSource": "https://mapcarta.com/W34038687",
+      "coordinatePrecision": "building_approximate",
+      "id": "london-afisha24-cc523b49b50f",
+      "programmeId": "london-afisha24-cc523b49b50f",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": [],
+      "admission": "Haruki Murakami does not appear in person. The Blend performs with remaining four musicians following Yoshio Suzuki’s death; do not advertise Suzuki appearing."
+    },
+    "existingIds": [
+      "london-afisha24-4cf184629994"
+    ]
+  },
+  {
+    "candidate": {
+      "cityId": "barcelona",
+      "title": "FLIB LAB — Anima’t a jugar amb les llengües!",
+      "date": "2026-10-24",
+      "time": "17:00",
+      "timezone": "Europe/Madrid",
+      "venue": "Espai Jove La Fontana",
+      "address": "Carrer Gran de Gràcia,190–192,08012 Barcelona",
+      "lat": 41.4033032,
+      "lng": 2.1523326,
+      "coordinateSource": "https://www.bcnsostenible.cat/web/punt/espai-jove-la-fontana",
+      "coordinateEvidence": "Municipal-linked sustainability map prints coordinate axis labels reversed. Corrected order against Barcelona bounds and official address.",
+      "coordinatePrecision": "venue-level",
+      "sourceUrl": "https://www.flibfestival.com/ca/flib-2026/",
+      "checkedAt": "2026-10-24T05:25:22Z",
+      "category": "workshop",
+      "price": null,
+      "currency": "EUR",
+      "restrictions": "Family multilingualism workshop; registration required.",
+      "evidence": "Official FLIB2026 programme explicitOct24 day,time,andvenue. Old2025PDFignored; currentHTML establishes session. No session language inferred from programme language."
+    },
+    "existingIds": [
+      "m24-barcelona-352751e5f5d818"
+    ]
+  }
+]

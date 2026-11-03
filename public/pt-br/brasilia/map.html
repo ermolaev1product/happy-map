@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<title>Happy Map — Brasília: eventos e lugares</title>
+
+<meta name="description" content="Descubra eventos verificados e lugares interessantes em Brasília. Escolha aonde ir e salve seus planos.">
+
+<link rel="canonical" href="https://happymap.app/pt-br/brasilia/map.html">
+
+<meta property="og:type" content="website"><meta property="og:site_name" content="Happy Map">
+
+<meta property="og:title" content="Happy Map — Brasília: eventos e lugares"><meta property="og:description" content="Descubra eventos verificados e lugares interessantes em Brasília. Escolha aonde ir e salve seus planos."><meta property="og:url" content="https://happymap.app/pt-br/brasilia/map.html">
+
+<meta property="og:image" content="https://happymap.app/assets/happy-map-unified-20261015-en.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Happy Map — Events. Places. Plans."><meta property="og:locale" content="pt_BR">
+
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Happy Map — Brasília: eventos e lugares"><meta name="twitter:description" content="Descubra eventos verificados e lugares interessantes em Brasília. Escolha aonde ir e salve seus planos."><meta name="twitter:image" content="https://happymap.app/assets/happy-map-unified-20261015-en.png"><meta name="twitter:image:alt" content="Happy Map — Events. Places. Plans.">
+
+  
+
+  <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="theme-color" content="#ffffff">
+  
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;450;500;550;600;650;700;750;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/en/assets/leaflet.css?v=337bfca5cabd"><link rel="stylesheet" href="/en/brasilia/style.css?v=0ab72cef3086">
+  
+  <script defer src="/en/assets/leaflet.js?v=db49d009c841"></script><link rel="stylesheet" href="/en/assets/maplibre/maplibre-gl.css?v=43c1d886b5fd"><script defer src="/en/assets/maplibre/maplibre-gl.js?v=1525f971223d"></script><script defer src="/en/assets/maplibre/leaflet-maplibre-gl.js?v=81a92cefb959"></script><script defer src="/pt-br/map-basemap.js?v=5904be4869c8"></script><script defer src="/pt-br/brasilia/map-layout.js?v=ba7e7e9975c3"></script><script defer src="/en/discovery-model.js?v=b0724918928a"></script><script defer src="/pt-br/brasilia/app.js?v=4b0dfcdd596d"></script><script defer src="/pt-br/location-control.js?v=aeeb8eb2ffe4"></script>
+
+<script defer src="/pt-br/brasilia/discovery.js?v=36440886185a"></script>
+
+<script defer src="/pt-br/catalog-modes.js?v=eeb73d42e00a"></script>
+
+<script defer src="/pt-br/city-state.js?v=4e69cc7cabc3" data-city="brasilia"></script><link rel="stylesheet" href="/en/discovery.css?v=37c6ea1d9ba7"><link rel="stylesheet" href="/en/social.css?v=a4214c9258b0"><script defer src="/pt-br/social.js?v=9dfe91e35af8"></script><script defer src="/pt-br/plan-account.js?v=f8e00848e5a9"></script><link rel="stylesheet" href="/en/dialog.css?v=b43e57321f1f">
+
+<link rel="stylesheet" href="/en/assets/download.css?v=71a91a023af2"><script defer src="/pt-br/assets/app-shell.js?v=61bd1e8a75c2"></script><script defer src="/pt-br/freshness.js?v=7477084cef9f"></script><script src="/en/locale-policy.js?v=90c843aeccb6"></script><script src="/en/language-switch.js?v=894a3ab5bc80"></script><link rel="stylesheet" href="/en/map-space.css?v=c6a1ae597f81"><link rel="stylesheet" href="/en/assets/controls.css?v=dd95db7a686c"><link rel="stylesheet" href="/en/assets/controls.css?v=dd95db7a686c"><link rel="alternate" hreflang="ru" href="https://happymap.app/brasilia/map.html"><link rel="alternate" hreflang="en" href="https://happymap.app/en/brasilia/map.html"><link rel="alternate" hreflang="pt-BR" href="https://happymap.app/pt-br/brasilia/map.html"><link rel="alternate" hreflang="x-default" href="https://happymap.app/en/brasilia/map.html"><link rel="stylesheet" href="/assets/controls.css?v=dd95db7a686c"></head>
+
+<body data-palette="coral" class="map-first">
+  
+  <header class="header">
+    
+    <a class="wordmark" href="/pt-br/index.html" aria-label="Happy Map — início"><span translate="no" class="notranslate">Happy Map</span><span class="sunmark" aria-hidden="true">✳</span></a>
+    
+    <div class="city city-picker city-context"><span class="current-city">Brasília</span><a class="change-city" href="/pt-br/cities.html">Mudar cidade</a></div>
+    
+    <nav aria-label="Navegação principal"><button class="nav-tab active" id="exploreTab">Mapa</button><button class="nav-tab" id="plansTab">Meus planos <span id="planCount" class="nav-count">0</span></button></nav>
+    
+    <a class="app-download" href="/pt-br/android.html"><span aria-hidden="true">↓</span><span>Baixar o aplicativo</span></a>
+    
+    <details class="more-menu"><summary aria-label="Menu do Happy Map">•••</summary><div><a href="/pt-br/brasilia/sources.html">Todas as fontes ↗</a><button type="button" data-share-city>Compartilhar este mapa · Brasília</button><button id="visitorButton">Meu perfil</button><button id="organizerButton">Para organizadores</button><a href="/pt-br/android.html">Baixar aplicativo (Android)</a><a href="/pt-br/cities.html">Escolher cidade</a><button data-peace class="peace-link">Pela paz</button></div></details>
+  
+  <button type="button" id="addOwnEvent">＋ Adicione seu evento · grátis</button></header>
+
+  
+
+  <main><div class="journey" id="journey" hidden><strong>Etapa 3 de 3 · Faça um plano</strong><span>Abra um evento → confira o horário e o preço → toque em “Adicionar ao meu plano”.</span></div>
+    
+    <section class="intro">
+      
+      <div><div class="eyebrow"><span class="tiny-star">✳</span> O QUE ACONTECE NA CIDADE</div><h1 id="mainTitle">A cidade tem planos.<br><span>Agora você também.</span></h1></div>
+      
+      <div class="intro-side"><span class="edition">BRASÍLIA · BR</span><p>Do café com gente nova<br>à última música na pista de dança.</p><button id="sourcesButton" class="demo-label"><span></span> Carregando a agenda de eventos…</button></div>
+    
+    </section>
+
+    
+
+    <div class="catalog-status" id="catalogStatus" role="status"></div><div class="layer-tabs" role="group" aria-label="Mostrar no mapa"><button id="eventsLayer" class="active" aria-pressed="true">Eventos</button><button id="cityLayer" aria-pressed="false">Toda a cidade</button></div><section class="discovery-controls" aria-label="Escolha um dia e eventos">
+      
+      <div class="calendar-row"><div class="month-label">Outubro <span>2026</span><span class="week-caption">Sua próxima semana</span></div><div id="calendar" class="calendar" role="group" aria-label="Calendário de sete dias"></div><button class="filter-button week-button" id="wholeWeek">Semana inteira</button><div class="week-note">Um bom dia<br>começa com uma ideia <span>↘</span></div></div>
+      
+      <div class="search-row"><label><span>Encontre um evento ou lugar</span><input id="eventSearch" type="search" placeholder="Jazz, palestras, D&D, o nome de um bar…" autocomplete="off"></label></div><div class="filters-row" id="filtersRow"><div class="category-scroll"><button class="category-arrow" id="categoryPrev" aria-label="Categorias anteriores" aria-controls="categories">‹</button><div class="categories" id="categories" role="group" aria-label="Categorias"></div><button class="category-arrow" id="categoryNext" aria-label="Próximas categorias" aria-controls="categories">›</button></div><div class="filter-actions"><button id="nearButton" class="filter-button">Perto de mim</button><button id="programOnly" class="filter-button" aria-pressed="false">Com programação</button><button id="freeFilter" class="filter-button" aria-pressed="false">Grátis</button><button id="filtersButton" aria-label="Filtros" class="filter-button" aria-expanded="false"><span data-icon="sliders"></span><span class="filters-word">Filtros</span></button></div></div>
+      
+      <div id="extraFilters" class="extra-filters" hidden><label>Quando <select id="timeFilter"><option value="all">Qualquer horário</option><option value="day">Durante o dia, antes das 18h</option><option value="evening">À noite, após as 18h</option></select></label><label>Idioma do evento <select id="languageFilter"><option value="all">Qualquer um</option><option value="PT">Português</option><option value="RU">Russo</option><option value="EN">Inglês</option></select></label><label>Distância<select id="radiusFilter"><option value="0">Toda a cidade</option><option value="0.5">Em um raio de 500 m</option></select></label><button class="text-button" id="resetFilters">Limpar filtros</button></div>
+    
+    </section>
+
+    
+
+    <p id="discoveryNote" class="discovery-note"></p><section class="workspace" id="workspace">
+      
+      <div class="events-panel">
+        
+        <div class="list-heading"><div><h2 id="listTitle">Domingo, 4 de outubro</h2><span id="resultCount" class="muted"></span></div><button class="sort-button" id="sortButton" aria-label="Ordenar por horário"><span data-icon="sort"></span></button></div>
+        
+        <div id="eventList" class="event-list" aria-live="polite"></div>
+        
+        <div id="planBudget" class="plan-budget" hidden></div>
+        
+        <div class="list-bottom"><span class="tiny-star">✳</span><p>Algo interessante<br>pode estar logo ali.</p><span class="small-arrow">↗</span></div>
+      
+      </div>
+      
+      <div class="map-shell">
+        
+        <div id="map" aria-label="Mapa de eventos de Brasília"></div>
+        
+        <div id="mapEmpty" class="map-empty" hidden></div><div class="map-top"><button class="map-label" id="mapResults" aria-haspopup="dialog"><span class="city-dot"></span><span id="mapLabel">Abrir lista de eventos →</span></button><button class="map-home" id="mapHome" aria-label="Mostrar todos os eventos no mapa"><span data-icon="focus"></span></button></div>
+        
+        <div class="map-feature" id="mapFeature"><span class="feature-kicker">PEQUENAS DESCOBERTAS</span><h3>Uma cidade grande.<br>Seu pequeno plano.</h3><p>Descubra lugares no mapa.<br>O resto vem depois.</p><span class="feature-flower" aria-hidden="true">✳</span></div>
+        
+        <button class="map-bottom" id="mapPlanButton" type="button"><span class="map-plan-copy"><span class="plan-icon" data-icon="bookmark"></span><span><strong id="mapPlanTitle">Eventos desta semana</strong><span id="mapPlanSubtitle">Salve os lugares aonde quer ir</span></span></span><span class="map-cta-arrow" data-icon="arrow"></span></button>
+        
+        <div id="mapFallback" class="map-fallback" hidden>O mapa está indisponível. Você ainda pode consultar a lista de eventos.</div>
+      
+      </div>
+    
+    </section>
+
+    
+
+    <section class="closing-note"><span>EVENTOS E LUGARES PERTO DE VOCÊ</span><p>Descubra eventos e salve-os nos seus planos <span>↗</span></p></section>
+    
+    <footer><a class="data-credit" href="/en/brasilia/places.json" download>Guia de locais · fontes em cada cartão</a><a class="wordmark small" href="/pt-br/index.html"><span translate="no" class="notranslate">Happy Map</span><span class="sunmark" aria-hidden="true">✳</span></a><a class="text-button" href="/pt-br/android.html">Baixar <span translate="no" class="notranslate">Happy Map</span> para Android ↗</a><div class="design-options" aria-label="Tema de cores"><span>Tema</span><button class="swatch coral selected" data-palette="coral" aria-label="Tema coral" aria-pressed="true"></button><button class="swatch cobalt" data-palette="cobalt" aria-label="Tema azul" aria-pressed="false"></button><button class="swatch olive" data-palette="olive" aria-label="Tema oliva" aria-pressed="false"></button></div><button data-peace class="peace-link">Pela paz</button><!-- locale-guide --><a class="text-button city-guide-link" href="/guide/pt-br/brasilia">Agenda de Brasília</a><!-- /locale-guide --></footer>
+  
+  </main>
+  
+  <div class="mobile-nav"><button id="mobileExplore" class="active"><span data-icon="map"></span>Mapa</button><button id="mobilePlans"><span data-icon="bookmark"></span>Meus planos <span id="mobileCount">0</span></button><button id="mobileList">Eventos</button><a class="download-tab" href="/pt-br/android.html">Baixar ↓</a></div>
+  
+  <dialog id="eventDialog" class="event-dialog"><div class="dialog-toolbar"><span><span translate="no" class="notranslate">Happy Map</span></span><button type="button" class="close-dialog" aria-label="Fechar detalhes" id="closeEvent"><span>Fechar</span><span data-icon="close" aria-hidden="true"></span></button></div><div id="eventDetails"></div></dialog>
+  
+  <dialog id="organizerDialog" class="organizer-dialog"><button class="close-dialog" aria-label="Fechar formulário" id="closeOrganizer"><span data-icon="close"></span></button><span class="eyebrow">REÚNA PESSOAS</span><h2>O que você está<br>planejando?</h2><p class="muted">Experimente adicionar um evento. Este é um formulário de demonstração; nada será publicado.</p><form id="organizerForm"><label>Título do evento<input name="title" placeholder="Por exemplo, uma noite de xadrez" required maxlength="80"></label><div class="form-row"><label>Dia<select name="day" id="organizerDay"></select></label><label>Horário de início<input type="time" value="19:00" required name="time"></label></div><label>Local<input placeholder="Nome do seu bar ou espaço" required name="venue"></label><button class="primary-button" type="submit">Ver prévia do evento <span>↗</span></button></form><div id="organizerPreview" hidden></div></dialog>
+  
+  <div id="toast" role="status" class="toast"></div>
+
+<script src="/pt-br/map-space.js?v=dcbeb322349f"></script><script defer src="/pt-br/business-entry.js?v=9842aaa3f77d"></script><a data-traffic-privacy href="/pt-br/traffic-privacy.html" style="display:block;text-align:center;font-size:12px;padding:12px;color:inherit">Estatísticas de visitas e privacidade</a><script src="/en/assets/traffic.js?v=f992ccfcbc04" defer></script></body>
+
+</html>
+

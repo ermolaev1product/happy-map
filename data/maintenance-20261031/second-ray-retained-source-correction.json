@@ -1,0 +1,349 @@
+{
+  "baseline": "ac0b2cb2cbeb0a213d89d9e6b3bbf202ee7515df",
+  "scope": "One existing second Ray seating only, RU/EN; first Ray and Classical untouched. Recovery-based correction, not fresh source validation.",
+  "evidencePolicy": "Exact recovered secondRay sourcepacket and contemporaneous independentpeer only; fullraw missing. No freshGET. FirstRay/Classical alreadypublished and untouched.",
+  "sourceEvidence": {
+    "correction-delta.json": {
+      "sha256": "7b2d2618c106ed28e8063f2f130d9890ff64fc00605f8bee731d492a1eea10a6",
+      "packet": {
+        "reviewedAt": "2026-10-30T05:16:18.084375+00:00",
+        "scope": "Independent fresh check of second seating only. Frozen two-record package untouched.",
+        "networkRequests": 1,
+        "decision": "READY_FOR_INDEPENDENT_PEER",
+        "id": "pa-meyhouse-20261114-2000",
+        "originalRecord": {
+          "kind": "event",
+          "city": "Palo Alto",
+          "locality": "Palo Alto",
+          "municipality": "Palo Alto",
+          "mapRegion": "Palo Alto / Stanford",
+          "venue": "Meyhouse Jazz Palo Alto Stage",
+          "address": "640 Emerson St, Palo Alto, CA 94301, USA",
+          "lat": 37.4432991,
+          "lng": -122.1609897,
+          "coordinatePrecision": "organizer-published-venue-point",
+          "id": "pa-meyhouse-20261114-2000",
+          "cityId": "palo-alto",
+          "venueId": "pa-meyhouse",
+          "title": "Ray Obiedo’s Latin Jazz Ensemble — second seating",
+          "date": "2026-11-14",
+          "time": "20:00",
+          "startAt": "2026-11-14T20:00:00-08:00",
+          "timezone": "America/Los_Angeles",
+          "source": "Meyhouse Jazz",
+          "sourceUrl": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-8-pm",
+          "sourceURLs": [
+            "https://www.meyhousejazz.com/paloalto"
+          ],
+          "checkedAt": "2026-10-23T05:12:45Z",
+          "currency": "USD",
+          "price": 38,
+          "fees": 0.95,
+          "min": true,
+          "priceNote": "Early bird38+.95fee and general48+1.20fee both listed.",
+          "category": "music",
+          "description": "Reserved seating and live music at Meyhouse Palo Alto.",
+          "language": "EN",
+          "isInPerson": true,
+          "status": "scheduled",
+          "registrationStatus": "tickets_listed",
+          "availabilityVerified": true,
+          "doorsTime": "20:00",
+          "showStartTime": "20:30",
+          "timeNote": "Start time is the booked seating/arrival time; the concert starts at 20:30. Actual performance ending is unpublished; ticket calendar range is not treated as actual duration.",
+          "admission": "Reserved seating at 20:00; concert begins 20:30. Ticket covers performance; food and beverages cost extra.",
+          "coordinateSource": "https://www.meyhousejazz.com/paloalto",
+          "coordinateEvidence": "Existing pa-meyhouse point reused after full official event page confirmed640EmersonSt,PaloAlto94301.",
+          "yearEvidence": "Full organizer detail and current calendar explicitly publishNovember2026; US Pacific offset correctly-08 afterNovember1 DST end.",
+          "evidence": {
+            "url": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-8-pm",
+            "checkedAt": "2026-10-23T05:12:45Z",
+            "method": "Full official detail read plus current calendar",
+            "facts": {
+              "date": "2026-11-14",
+              "time": "20:00",
+              "end": "22:00",
+              "showStartTime": "20:30",
+              "availablePrice": 38,
+              "fee": 0.95
+            },
+            "availabilityNote": "Public ticket form lists available tier; no checkout performed."
+          },
+          "programmeId": "pa-ray-obiedo-20261114"
+        },
+        "feedSHA256": "583e68a612418dcd3460687cedf993f2b5acd30d368398c2c7fc85d363f26216",
+        "sourceUrl": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-8-pm",
+        "sourceReadAt": "2026-10-30T05:15:47.310987+00:00",
+        "status": 200,
+        "rawPath": "resume-20261029/maintenance/palo-alto-ray-second-20261030/raw/e7b9c0901257b13f.raw",
+        "rawSHA256": "1ccd3c6e3ba871ad8d82a88338581ac6d536e7c851820eb34ad47371b6316a22",
+        "richTextPath": "resume-20261029/maintenance/palo-alto-ray-second-20261030/raw/e7b9c0901257b13f.public-richtext.txt",
+        "scheduleQuotes": [
+          "Doors open: 8:00 PM",
+          "Show: 8:30 PM"
+        ],
+        "dateYearVenueQuote": "Time & Location Nov 14, 2026, 8:00 PM – 10:00 PM Meyhouse Jazz Palo Alto Stage, 640 Emerson St, Palo Alto, CA 94301, USA ",
+        "priceSection": "Tickets Ticket type Early Bird General Admission More info Limited quantity tickets for customers who buy early Price $38.00 +$0.95 ticket service fee Quantity 0 Ticket type General Admission Price $48.00 +$1.20 ticket service fee Quantity 0 Total $0.00 Checkout ",
+        "findings": {
+          "actualShow": "20:30",
+          "doors": "20:00",
+          "mandatory20Arrival": "Not stated in full visible body or public rich text; absence is not a guarantee of late entry.",
+          "actualEnd": null,
+          "calendarEnd": "22:00, not accepted as performance end",
+          "tierPrices": "Early bird38 USD +0.95 fee; general48 USD +1.20 fee. Neither marked Sold Out in read; quantity0 is selector value, not stock.",
+          "availability": "No checkout, purchase or reservation; displayed tiers only.",
+          "venue": "Same640EmersonSt,PaloAlto94301; existing named point retained, not fresh geocode.",
+          "timezone": "Explicit source JSON-LD date-08:00 consistent with America/Los_Angeles after DST; sameNov14,2026 page."
+        },
+        "patch": {
+          "time": "20:30",
+          "startAt": "2026-11-14T20:30:00-08:00",
+          "showStartTime": "20:30",
+          "doorsTime": "20:00",
+          "end": null,
+          "endAt": null,
+          "sourceReadAt": "2026-10-30T05:15:47.310987+00:00",
+          "scheduleCheckedAt": "2026-10-30T05:15:47.310987+00:00",
+          "priceCheckedAt": "2026-10-30T05:15:47.310987+00:00",
+          "availabilityVerified": false,
+          "timeNote": "Doors at 20:00; the show starts at 20:30. The actual ending is unknown; the 20:00–22:00 calendar block is not treated as performance duration.",
+          "admission": "Doors at 20:00, show at 20:30. No mandatory 20:00 arrival deadline was found. Check admission conditions with the venue; ticket checkout and live stock were not tested.",
+          "priceNote": "Displayed early bird: USD 38 plus USD 0.95 ticket service fee (USD 38.95); general admission: USD 48 plus USD 1.20 fee (USD 49.20). Other charges and checkout availability are unverified.",
+          "availabilityNote": "Public ticket selectors were displayed at the source-read time; checkout and stock reservation were not tested. Quantity 0 is the selected quantity, not a sold-out indication."
+        },
+        "preserve": [
+          "stable ID/date/venue/pins",
+          "existing price38/fees0.95/mintrue (displayed limited early bird, not guaranteed stock)",
+          "historical checkedAt/evidence as dated history",
+          "other two frozen correction records and all other records"
+        ],
+        "modelExpected": "60min arrival cutoff from actual20:30 =>21:30local, not21:00 from doors. Must test after any separately authorized implementation.",
+        "mutations": "Separate delta only, no checkout/Library/Sites or prior package changes."
+      }
+    },
+    "independent-primary-peer.json": {
+      "sha256": "a501b4e3c04f50d036eb6000109fa8bf90eac4d077d7dd9dbfb5d46e92418de1",
+      "packet": {
+        "reviewedAt": "2026-10-30T05:16:59.654130+00:00",
+        "verdict": "PASS",
+        "networkRequests": 0,
+        "checkoutWrites": 0,
+        "inputSHA256": "7b2d2618c106ed28e8063f2f130d9890ff64fc00605f8bee731d492a1eea10a6",
+        "id": "pa-meyhouse-20261114-2000",
+        "sourceUrl": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-8-pm",
+        "sourceReadAt": "2026-10-30T05:15:47.310987+00:00",
+        "rawPath": "resume-20261029/maintenance/palo-alto-ray-second-20261030/raw/e7b9c0901257b13f.raw",
+        "rawSHA256": "1ccd3c6e3ba871ad8d82a88338581ac6d536e7c851820eb34ad47371b6316a22",
+        "rawAndMetaVerified": true,
+        "originalRecordMatchesCurrentFeed": true,
+        "independentFacts": {
+          "date": "2026-11-14",
+          "timezone": "America/Los_Angeles",
+          "sourceOffset": "-08:00",
+          "doorsTime": "20:00",
+          "actualShowStart": "20:30",
+          "actualEnd": null,
+          "rejectedCalendarEnd": "22:00",
+          "address": "640 Emerson St, Palo Alto, CA 94301, USA",
+          "venue": "Meyhouse Jazz Palo Alto Stage",
+          "price": 38,
+          "fees": 0.95,
+          "min": true,
+          "priceCondition": "Displayed limited-quantity early bird, not standard price or guaranteed stock. Standard48 plus1.20; other charges unknown.",
+          "availabilityVerified": false,
+          "noSoldOutOrCancellationNoticeSeen": true
+        },
+        "actualChangedFields": [
+          "time",
+          "startAt",
+          "end",
+          "endAt",
+          "sourceReadAt",
+          "scheduleCheckedAt",
+          "priceCheckedAt",
+          "availabilityVerified",
+          "timeNote",
+          "admission",
+          "priceNote",
+          "availabilityNote"
+        ],
+        "scope": "Own second-seating full retained HTML independently inspected; no first-seating transfer. Only this one future candidate, frozen earlier two-record package untouched.",
+        "risks": [
+          "Quantity0 is selected quantity, not soldout. No checkout tested.",
+          "No mandatory20:00 arrival deadline found; not guarantee of late entry.",
+          "22:00 is listing/calendar end only, not actual performance end.",
+          "Existing named coordinate retained unchanged, no fresh pin verification.",
+          "Nested historical evidence still contains doors-as-start/calendar-end; future implementation must use patched currentfields.",
+          "A later authorized model test should establish21:30local arrivalcutoff from20:30show, not21:00fromdoors."
+        ],
+        "historicalCheckedAtPreserved": "2026-10-23T05:12:45Z",
+        "rawTextNotExternallyCopied": true
+      }
+    }
+  },
+  "originalRecords": {
+    "public/palo-alto/events.json": {
+      "pa-meyhouse-20261114-2000": {
+        "kind": "event",
+        "city": "Palo Alto",
+        "locality": "Palo Alto",
+        "municipality": "Palo Alto",
+        "mapRegion": "Palo Alto / Stanford",
+        "venue": "Meyhouse Jazz Palo Alto Stage",
+        "address": "640 Emerson St, Palo Alto, CA 94301, USA",
+        "lat": 37.4432991,
+        "lng": -122.1609897,
+        "coordinatePrecision": "organizer-published-venue-point",
+        "id": "pa-meyhouse-20261114-2000",
+        "cityId": "palo-alto",
+        "venueId": "pa-meyhouse",
+        "title": "Ray Obiedo’s Latin Jazz Ensemble — second seating",
+        "date": "2026-11-14",
+        "time": "20:00",
+        "startAt": "2026-11-14T20:00:00-08:00",
+        "timezone": "America/Los_Angeles",
+        "source": "Meyhouse Jazz",
+        "sourceUrl": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-8-pm",
+        "sourceURLs": [
+          "https://www.meyhousejazz.com/paloalto"
+        ],
+        "checkedAt": "2026-10-23T05:12:45Z",
+        "currency": "USD",
+        "price": 38,
+        "fees": 0.95,
+        "min": true,
+        "priceNote": "Early bird38+.95fee and general48+1.20fee both listed.",
+        "category": "music",
+        "description": "Reserved seating and live music at Meyhouse Palo Alto.",
+        "language": "EN",
+        "isInPerson": true,
+        "status": "scheduled",
+        "registrationStatus": "tickets_listed",
+        "availabilityVerified": true,
+        "doorsTime": "20:00",
+        "showStartTime": "20:30",
+        "timeNote": "Start time is the booked seating/arrival time; the concert starts at 20:30. Actual performance ending is unpublished; ticket calendar range is not treated as actual duration.",
+        "admission": "Reserved seating at 20:00; concert begins 20:30. Ticket covers performance; food and beverages cost extra.",
+        "coordinateSource": "https://www.meyhousejazz.com/paloalto",
+        "coordinateEvidence": "Existing pa-meyhouse point reused after full official event page confirmed640EmersonSt,PaloAlto94301.",
+        "yearEvidence": "Full organizer detail and current calendar explicitly publishNovember2026; US Pacific offset correctly-08 afterNovember1 DST end.",
+        "evidence": {
+          "url": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-8-pm",
+          "checkedAt": "2026-10-23T05:12:45Z",
+          "method": "Full official detail read plus current calendar",
+          "facts": {
+            "date": "2026-11-14",
+            "time": "20:00",
+            "end": "22:00",
+            "showStartTime": "20:30",
+            "availablePrice": 38,
+            "fee": 0.95
+          },
+          "availabilityNote": "Public ticket form lists available tier; no checkout performed."
+        },
+        "programmeId": "pa-ray-obiedo-20261114"
+      }
+    },
+    "public/en/palo-alto/events.json": {
+      "pa-meyhouse-20261114-2000": {
+        "kind": "event",
+        "city": "Palo Alto",
+        "locality": "Palo Alto",
+        "municipality": "Palo Alto",
+        "mapRegion": "Palo Alto / Stanford",
+        "venue": "Meyhouse Jazz Palo Alto Stage",
+        "address": "640 Emerson St, Palo Alto, CA 94301, USA",
+        "lat": 37.4432991,
+        "lng": -122.1609897,
+        "coordinatePrecision": "organizer-published-venue-point",
+        "id": "pa-meyhouse-20261114-2000",
+        "cityId": "palo-alto",
+        "venueId": "pa-meyhouse",
+        "title": "Ray Obiedo’s Latin Jazz Ensemble — second seating",
+        "date": "2026-11-14",
+        "time": "20:00",
+        "startAt": "2026-11-14T20:00:00-08:00",
+        "timezone": "America/Los_Angeles",
+        "source": "Meyhouse Jazz",
+        "sourceUrl": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-8-pm",
+        "sourceURLs": [
+          "https://www.meyhousejazz.com/paloalto"
+        ],
+        "checkedAt": "2026-10-23T05:12:45Z",
+        "currency": "USD",
+        "price": 38,
+        "fees": 0.95,
+        "min": true,
+        "priceNote": "Early bird38+.95fee and general48+1.20fee both listed.",
+        "category": "music",
+        "description": "Reserved seating and live music at Meyhouse Palo Alto.",
+        "language": "EN",
+        "isInPerson": true,
+        "status": "scheduled",
+        "registrationStatus": "tickets_listed",
+        "availabilityVerified": true,
+        "doorsTime": "20:00",
+        "showStartTime": "20:30",
+        "timeNote": "Start time is the booked seating/arrival time; the concert starts at 20:30. Actual performance ending is unpublished; ticket calendar range is not treated as actual duration.",
+        "admission": "Reserved seating at 20:00; concert begins 20:30. Ticket covers performance; food and beverages cost extra.",
+        "coordinateSource": "https://www.meyhousejazz.com/paloalto",
+        "coordinateEvidence": "Existing pa-meyhouse point reused after full official event page confirmed640EmersonSt,PaloAlto94301.",
+        "yearEvidence": "Full organizer detail and current calendar explicitly publishNovember2026; US Pacific offset correctly-08 afterNovember1 DST end.",
+        "evidence": {
+          "url": "https://www.meyhousejazz.com/event-details/ray-obiedos-latin-jazz-ensemble-sat-11-14-8-pm",
+          "checkedAt": "2026-10-23T05:12:45Z",
+          "method": "Full official detail read plus current calendar",
+          "facts": {
+            "date": "2026-11-14",
+            "time": "20:00",
+            "end": "22:00",
+            "showStartTime": "20:30",
+            "availablePrice": 38,
+            "fee": 0.95
+          },
+          "availabilityNote": "Public ticket form lists available tier; no checkout performed."
+        },
+        "programmeId": "pa-ray-obiedo-20261114"
+      }
+    }
+  },
+  "patches": {
+    "public/palo-alto/events.json": {
+      "pa-meyhouse-20261114-2000": {
+        "time": "20:30",
+        "startAt": "2026-11-14T20:30:00-08:00",
+        "end": null,
+        "endAt": null,
+        "sourceReadAt": "2026-10-30T05:15:47.310987+00:00",
+        "scheduleCheckedAt": "2026-10-30T05:15:47.310987+00:00",
+        "priceCheckedAt": "2026-10-30T05:15:47.310987+00:00",
+        "availabilityVerified": false,
+        "timeNote": "Двери открываются в 20:00; выступление начинается в 20:30. Фактическое окончание неизвестно; календарный интервал 20:00–22:00 не принят за длительность выступления.",
+        "admission": "Двери открываются в 20:00; выступление в 20:30. Обязательное прибытие именно к 20:00 не установлено; условия входа уточняйте у площадки. Еда и напитки оплачиваются отдельно. Покупка и остаток билетов не проверялись.",
+        "priceNote": "При чтении источника 30 октября был указан ограниченный ранний тариф: 38 USD плюс сервисный сбор 0,95 USD (38,95 USD); обычный билет — 48 USD плюс 1,20 USD (49,20 USD). Другие доплаты и текущая доступность тарифов не проверены.",
+        "availabilityNote": "При чтении источника 30 октября 2026 года отображались варианты билетов; покупка и резервирование мест не проверялись. Quantity 0 — выбранное количество, а не признак распродажи."
+      }
+    },
+    "public/en/palo-alto/events.json": {
+      "pa-meyhouse-20261114-2000": {
+        "time": "20:30",
+        "startAt": "2026-11-14T20:30:00-08:00",
+        "end": null,
+        "endAt": null,
+        "sourceReadAt": "2026-10-30T05:15:47.310987+00:00",
+        "scheduleCheckedAt": "2026-10-30T05:15:47.310987+00:00",
+        "priceCheckedAt": "2026-10-30T05:15:47.310987+00:00",
+        "availabilityVerified": false,
+        "timeNote": "Doors at 20:00; actual show starts at 20:30. Actual ending remains unknown; the 20:00–22:00 calendar block is not performance duration.",
+        "admission": "Doors at 20:00; show at 20:30. No mandatory 20:00 arrival deadline was established; confirm entry conditions with the venue. Food and drinks cost extra. Checkout and remaining stock were not verified.",
+        "priceNote": "In the source read on 30 October, displayed limited-quantity early bird was USD 38 plus USD 0.95 service fee (USD 38.95); general admission USD 48 plus USD 1.20 (USD 49.20). Other charges and current tier availability are unverified.",
+        "availabilityNote": "Ticket options were displayed in the source read on 30 October 2026; no checkout or stock reservation was tested. Quantity 0 is the selected quantity, not proof of sold out."
+      }
+    }
+  },
+  "missingEvidence": [
+    "Original full raw HTML/public-richtext files",
+    "Historical implementation/applied peer files"
+  ],
+  "sourceClockPolicy": "Actual retained Oct30 sourceReadAt/scheduleCheckedAt/priceCheckedAt copied unchanged. Original checkedAt and pin evidence remain historical. No new network read or current stock verification."
+}

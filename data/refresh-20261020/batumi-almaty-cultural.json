@@ -1,0 +1,699 @@
+{
+  "checkedAt": "2026-10-20T05:20:00Z",
+  "mode": "Publishable research proposals only; shared project remains unmodified",
+  "additions": [
+    {
+      "id": "batumi-quizplease-210-20261023",
+      "kind": "event",
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "Квиз, плиз! #210",
+      "venue": "Shelter Bar",
+      "venueId": "batumi-shelter-bar",
+      "placeId": "batumi-shelter-bar",
+      "address": "8 Baku Street, Batumi",
+      "lat": 41.646352,
+      "lng": 41.646121,
+      "coordinateSource": "https://yandex.com.ge/maps/10278/batumi/house/YEgYcANmSEcGQFprfXp1d39mZQ%3D%3D/inside/",
+      "coordinatePrecision": "address_building",
+      "coordinateEvidence": "Named number 8 building lists Shelter Bar inside; not an exact entrance. Reused existing exact venue record; current announcement matches this named venue and address.",
+      "date": "2026-10-23",
+      "time": "19:30",
+      "startAt": "2026-10-23T19:30:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "endAt": null,
+      "timezone": "Asia/Tbilisi",
+      "currency": "GEL",
+      "status": "scheduled",
+      "checkedAt": "2026-10-20T05:20:00Z",
+      "language": null,
+      "source": "Quiz, please! Batumi",
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current availability with the linked organizer or ticket seller. No reservation or purchase performed.",
+      "category": "games",
+      "sourceCategory": "quiz",
+      "sourceUrl": "https://batumi.quizplease.com/game/01a0aa28-ab68-7263-a1fa-0ff8ddd8daa4",
+      "sourceURLs": [
+        "https://batumi.quizplease.com/game/01a0aa28-ab68-7263-a1fa-0ff8ddd8daa4"
+      ],
+      "bookingUrl": "https://batumi.quizplease.com/game/01a0aa28-ab68-7263-a1fa-0ff8ddd8daa4",
+      "price": 20,
+      "priceLabel": "20 GEL с человека",
+      "priceStatus": "advertised_fixed",
+      "priceEvidenceUrl": "https://batumi.quizplease.com/game/01a0aa28-ab68-7263-a1fa-0ff8ddd8daa4",
+      "priceNote": "Дети до 12 лет бесплатно по условиям организатора.",
+      "registrationStatus": "registration_required",
+      "admission": "Командная регистрация на сайте организатора; подтверждение по электронной почте.",
+      "accessNote": "Открытая игра по предварительной командной регистрации.",
+      "description": "Командный квиз на общие темы с вопросами на логику и эрудицию. Семь раундов; заявленная продолжительность около двух часов.",
+      "durationMinutes": 120,
+      "yearEvidence": "The full organizer page title explicitly states October 23, 2026; the event body states 19:30, Shelter Bar and 8 Baku Street. Its public signup form confirms public registration access.",
+      "verificationNotes": [
+        "Specific game format says 2 hours, but general FAQ says 2+ hours, so no exact end timestamp is asserted.",
+        "Web full-page read succeeded; direct HTTP fetch returned 403 and was not retried."
+      ]
+    },
+    {
+      "id": "almaty-punch-improv-mix-battle-20261022",
+      "kind": "event",
+      "cityId": "almaty",
+      "city": "Almaty",
+      "title": "Improv Mix Battle",
+      "venue": "Punch Stand Up Club",
+      "venueId": "almaty-punch",
+      "placeId": "almaty-punch",
+      "address": "ул. Каирбекова, 35А",
+      "lat": 43.260146,
+      "lng": 76.961033,
+      "coordinateSource": "https://yandex.kz/maps/ru/162/almaty/house/qayyrbekov_koshesi_35a/Y08YfwFhSUYEQFppfX53cX1nYg%3D%3D/",
+      "coordinatePrecision": "building",
+      "coordinateEvidence": "Named building at the exact current venue address, independently corroborated by named venue listing. No entrance-level claim. Reused existing exact venue record; current announcement matches this named venue and address.",
+      "date": "2026-10-22",
+      "time": "19:30",
+      "startAt": "2026-10-22T19:30:00+05:00",
+      "endDate": null,
+      "endTime": null,
+      "endAt": null,
+      "timezone": "Asia/Almaty",
+      "currency": "KZT",
+      "status": "scheduled",
+      "checkedAt": "2026-10-20T05:20:00Z",
+      "language": null,
+      "source": "Sxodim / Punch StandUp Club",
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current availability with the linked organizer or ticket seller. No reservation or purchase performed.",
+      "category": "comedy",
+      "sourceCategory": "comedy",
+      "description": "Две команды импровизаторов выступают без заранее готового сценария. Победителя определяют зрители и жюри.",
+      "sourceUrl": "https://sxodim.com/almaty/event/improv-mix-battle",
+      "sourceURLs": [
+        "https://sxodim.com/almaty/event/improv-mix-battle",
+        "https://sxodim.com/almaty/punch-standup-club/improv-mix-battle/tickets"
+      ],
+      "bookingUrl": "https://sxodim.com/almaty/punch-standup-club/improv-mix-battle/tickets",
+      "yearEvidence": "Full seller event page includes publication date 2026-10-17. Event JSON-LD explicitly supplies startDate 2026-10-22T19:30:00+05:00 and exact Punch address.",
+      "price": 3000,
+      "priceLabel": "от 3 000 ₸",
+      "priceMinAdvertised": 3000,
+      "priceStatus": "advertised_from",
+      "priceEvidenceUrl": "https://sxodim.com/almaty/event/improv-mix-battle",
+      "priceNote": "Объявленная минимальная цена; доступность конкретного билета уточняйте у продавца.",
+      "registrationStatus": "ticket_required",
+      "admission": "Публичная продажа билетов через Sxodim; наличие проверяйте перед покупкой.",
+      "accessNote": "Билет обязателен; объявление открыто для публики.",
+      "verificationNotes": [
+        "End time and duration are not published; end fields remain null.",
+        "Visible event page advertises from 3,000 KZT, while JSON-LD contains one 18,000 KZT offer. Use 3,000 only as advertised minimum, not guaranteed available seat or all-in price."
+      ]
+    },
+    {
+      "id": "almaty-punch-chernyy-stendap-23-oktyabrya-20261023",
+      "kind": "event",
+      "cityId": "almaty",
+      "city": "Almaty",
+      "title": "Черный стендап",
+      "venue": "Punch Stand Up Club",
+      "venueId": "almaty-punch",
+      "placeId": "almaty-punch",
+      "address": "ул. Каирбекова, 35А",
+      "lat": 43.260146,
+      "lng": 76.961033,
+      "coordinateSource": "https://yandex.kz/maps/ru/162/almaty/house/qayyrbekov_koshesi_35a/Y08YfwFhSUYEQFppfX53cX1nYg%3D%3D/",
+      "coordinatePrecision": "building",
+      "coordinateEvidence": "Named building at the exact current venue address, independently corroborated by named venue listing. No entrance-level claim. Reused existing exact venue record; current announcement matches this named venue and address.",
+      "date": "2026-10-23",
+      "time": "23:30",
+      "startAt": "2026-10-23T23:30:00+05:00",
+      "endDate": null,
+      "endTime": null,
+      "endAt": null,
+      "timezone": "Asia/Almaty",
+      "currency": "KZT",
+      "status": "scheduled",
+      "checkedAt": "2026-10-20T05:20:00Z",
+      "language": null,
+      "source": "Sxodim / Punch StandUp Club",
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current availability with the linked organizer or ticket seller. No reservation or purchase performed.",
+      "category": "comedy",
+      "sourceCategory": "comedy",
+      "description": "Вечер стендап-комедии с провокационными шутками на табуированные темы.",
+      "sourceUrl": "https://sxodim.com/almaty/event/chernyy-stendap-23-oktyabrya",
+      "sourceURLs": [
+        "https://sxodim.com/almaty/event/chernyy-stendap-23-oktyabrya",
+        "https://sxodim.com/almaty/punch-standup-club/chernyy-stendap-23-oktyabrya/tickets"
+      ],
+      "bookingUrl": "https://sxodim.com/almaty/punch-standup-club/chernyy-stendap-23-oktyabrya/tickets",
+      "yearEvidence": "Full seller event page includes publication date 2026-10-17. Event JSON-LD explicitly supplies startDate 2026-10-23T23:30:00+05:00 and exact Punch address.",
+      "price": 2000,
+      "priceLabel": "от 2 000 ₸",
+      "priceMinAdvertised": 2000,
+      "priceStatus": "advertised_from",
+      "priceEvidenceUrl": "https://sxodim.com/almaty/event/chernyy-stendap-23-oktyabrya",
+      "priceNote": "Объявленная минимальная цена; доступность конкретного билета уточняйте у продавца.",
+      "registrationStatus": "ticket_required",
+      "admission": "Публичная продажа билетов через Sxodim; наличие проверяйте перед покупкой.",
+      "accessNote": "Билет обязателен; объявление открыто для публики.",
+      "verificationNotes": [
+        "End time and duration are not published; end fields remain null."
+      ]
+    },
+    {
+      "id": "almaty-punch-shou-stendap-zaruba-24-oktyabrya-20261024",
+      "kind": "event",
+      "cityId": "almaty",
+      "city": "Almaty",
+      "title": "Шоу «Стендап заруба»",
+      "venue": "Punch Stand Up Club",
+      "venueId": "almaty-punch",
+      "placeId": "almaty-punch",
+      "address": "ул. Каирбекова, 35А",
+      "lat": 43.260146,
+      "lng": 76.961033,
+      "coordinateSource": "https://yandex.kz/maps/ru/162/almaty/house/qayyrbekov_koshesi_35a/Y08YfwFhSUYEQFppfX53cX1nYg%3D%3D/",
+      "coordinatePrecision": "building",
+      "coordinateEvidence": "Named building at the exact current venue address, independently corroborated by named venue listing. No entrance-level claim. Reused existing exact venue record; current announcement matches this named venue and address.",
+      "date": "2026-10-24",
+      "time": "23:30",
+      "startAt": "2026-10-24T23:30:00+05:00",
+      "endDate": null,
+      "endTime": null,
+      "endAt": null,
+      "timezone": "Asia/Almaty",
+      "currency": "KZT",
+      "status": "scheduled",
+      "checkedAt": "2026-10-20T05:20:00Z",
+      "language": null,
+      "source": "Sxodim / Punch StandUp Club",
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current availability with the linked organizer or ticket seller. No reservation or purchase performed.",
+      "category": "comedy",
+      "sourceCategory": "comedy",
+      "description": "Комедийное соревнование с короткими выступлениями: гонг завершает номер, если комику не удаётся рассмешить зал.",
+      "sourceUrl": "https://sxodim.com/almaty/event/shou-stendap-zaruba-24-oktyabrya",
+      "sourceURLs": [
+        "https://sxodim.com/almaty/event/shou-stendap-zaruba-24-oktyabrya",
+        "https://sxodim.com/almaty/punch-standup-club/shou-stendap-zaruba-24-oktyabrya/tickets"
+      ],
+      "bookingUrl": "https://sxodim.com/almaty/punch-standup-club/shou-stendap-zaruba-24-oktyabrya/tickets",
+      "yearEvidence": "Full seller event page includes publication date 2026-10-16. Event JSON-LD explicitly supplies startDate 2026-10-24T23:30:00+05:00 and exact Punch address.",
+      "price": 2000,
+      "priceLabel": "от 2 000 ₸",
+      "priceMinAdvertised": 2000,
+      "priceStatus": "advertised_from",
+      "priceEvidenceUrl": "https://sxodim.com/almaty/event/shou-stendap-zaruba-24-oktyabrya",
+      "priceNote": "Объявленная минимальная цена; доступность конкретного билета уточняйте у продавца.",
+      "registrationStatus": "ticket_required",
+      "admission": "Публичная продажа билетов через Sxodim; наличие проверяйте перед покупкой.",
+      "accessNote": "Билет обязателен; объявление открыто для публики.",
+      "verificationNotes": [
+        "End time and duration are not published; end fields remain null."
+      ]
+    },
+    {
+      "id": "batumi-terrible-happiness-20261020",
+      "kind": "event",
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "ნინო ხარატიშვილი · Мой год ужасного счастья",
+      "venue": "Batumi Puppet and Youth Theatre",
+      "venueId": "batumi-puppet-youth-theatre",
+      "placeId": "batumi-puppet-youth-theatre",
+      "address": "49 Memed Abashidze Street, Batumi",
+      "lat": 41.6492483,
+      "lng": 41.6333516,
+      "coordinateSource": "https://maps.app.goo.gl/UdhrDsYGpp3wu5xV9",
+      "coordinatePrecision": "named_venue_point",
+      "coordinateEvidence": "Named theatre point from the map link on its Biletebi ticket page; target !3d/!4d coordinates. Reused existing exact venue record; current announcement matches this named venue and address.",
+      "date": "2026-10-20",
+      "time": "20:00",
+      "startAt": "2026-10-20T20:00:00+04:00",
+      "endDate": "2026-10-20",
+      "endTime": "22:20",
+      "endAt": "2026-10-20T22:20:00+04:00",
+      "timezone": "Asia/Tbilisi",
+      "currency": "GEL",
+      "status": "scheduled",
+      "checkedAt": "2026-10-20T05:20:00Z",
+      "language": null,
+      "source": "Biletebi / Theatre Komosi",
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current availability with the linked organizer or ticket seller. No reservation or purchase performed.",
+      "category": "theatre",
+      "sourceCategory": "theatre",
+      "sourceUrl": "https://biletebi.ge/theatres/nino-haratischwili-the-year-of-my-terrible-ha",
+      "sourceURLs": [
+        "https://biletebi.ge/theatres/nino-haratischwili-the-year-of-my-terrible-ha",
+        "https://www.infobatumi.ge/ru/events/chemi-sashineli-bednierebis-celicadi/"
+      ],
+      "bookingUrl": "https://biletebi.ge/theatres/nino-haratischwili-the-year-of-my-terrible-ha",
+      "description": "Постановка пьесы Нино Харатишвили в режиссуре Ачи Гогуадзе. Спектакль театра Komosi на площадке Батумского театра кукол и юного зрителя.",
+      "price": 20,
+      "priceLabel": "20 GEL",
+      "priceStatus": "advertised_fixed",
+      "priceEvidenceUrl": "https://biletebi.ge/theatres/nino-haratischwili-the-year-of-my-terrible-ha",
+      "priceNote": "Цена опубликована для указанного сеанса. Наличие мест уточняйте у продавца.",
+      "registrationStatus": "ticket_required",
+      "admission": "Билет обязателен; публичная продажа на Biletebi.",
+      "accessNote": "Публичный спектакль по билету, 16+.",
+      "ageRestriction": "16+",
+      "durationMinutes": 140,
+      "yearEvidence": "InfoBatumi full page explicitly dates 19–21 October 2026 and lists each date at 20:00. Biletebi full page independently lists October 20 and 21 at 20:00, 20 GEL and names Batumi Puppet Theatre.",
+      "verificationNotes": [
+        "End timestamp calculated from explicit 140-minute performance duration published by Biletebi; not an independently advertised end time.",
+        "No inferred language is assigned.",
+        "InfoBatumi full page retrieved with HTTP 200 after web read error; Biletebi full-page web read succeeded but direct HTTP 403 was not retried."
+      ]
+    },
+    {
+      "id": "batumi-terrible-happiness-20261021",
+      "kind": "event",
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "ნინო ხარატიშვილი · Мой год ужасного счастья",
+      "venue": "Batumi Puppet and Youth Theatre",
+      "venueId": "batumi-puppet-youth-theatre",
+      "placeId": "batumi-puppet-youth-theatre",
+      "address": "49 Memed Abashidze Street, Batumi",
+      "lat": 41.6492483,
+      "lng": 41.6333516,
+      "coordinateSource": "https://maps.app.goo.gl/UdhrDsYGpp3wu5xV9",
+      "coordinatePrecision": "named_venue_point",
+      "coordinateEvidence": "Named theatre point from the map link on its Biletebi ticket page; target !3d/!4d coordinates. Reused existing exact venue record; current announcement matches this named venue and address.",
+      "date": "2026-10-21",
+      "time": "20:00",
+      "startAt": "2026-10-21T20:00:00+04:00",
+      "endDate": "2026-10-21",
+      "endTime": "22:20",
+      "endAt": "2026-10-21T22:20:00+04:00",
+      "timezone": "Asia/Tbilisi",
+      "currency": "GEL",
+      "status": "scheduled",
+      "checkedAt": "2026-10-20T05:20:00Z",
+      "language": null,
+      "source": "Biletebi / Theatre Komosi",
+      "accessType": "public",
+      "availabilityStatus": "check_provider",
+      "availabilityNote": "Check current availability with the linked organizer or ticket seller. No reservation or purchase performed.",
+      "category": "theatre",
+      "sourceCategory": "theatre",
+      "sourceUrl": "https://biletebi.ge/theatres/nino-haratischwili-the-year-of-my-terrible-ha",
+      "sourceURLs": [
+        "https://biletebi.ge/theatres/nino-haratischwili-the-year-of-my-terrible-ha",
+        "https://www.infobatumi.ge/ru/events/chemi-sashineli-bednierebis-celicadi/"
+      ],
+      "bookingUrl": "https://biletebi.ge/theatres/nino-haratischwili-the-year-of-my-terrible-ha",
+      "description": "Постановка пьесы Нино Харатишвили в режиссуре Ачи Гогуадзе. Спектакль театра Komosi на площадке Батумского театра кукол и юного зрителя.",
+      "price": 20,
+      "priceLabel": "20 GEL",
+      "priceStatus": "advertised_fixed",
+      "priceEvidenceUrl": "https://biletebi.ge/theatres/nino-haratischwili-the-year-of-my-terrible-ha",
+      "priceNote": "Цена опубликована для указанного сеанса. Наличие мест уточняйте у продавца.",
+      "registrationStatus": "ticket_required",
+      "admission": "Билет обязателен; публичная продажа на Biletebi.",
+      "accessNote": "Публичный спектакль по билету, 16+.",
+      "ageRestriction": "16+",
+      "durationMinutes": 140,
+      "yearEvidence": "InfoBatumi full page explicitly dates 19–21 October 2026 and lists each date at 20:00. Biletebi full page independently lists October 20 and 21 at 20:00, 20 GEL and names Batumi Puppet Theatre.",
+      "verificationNotes": [
+        "End timestamp calculated from explicit 140-minute performance duration published by Biletebi; not an independently advertised end time.",
+        "No inferred language is assigned.",
+        "InfoBatumi full page retrieved with HTTP 200 after web read error; Biletebi full-page web read succeeded but direct HTTP 403 was not retried."
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "batumi-cavea-grand-mall",
+      "kind": "place",
+      "cityId": "batumi",
+      "city": "Batumi",
+      "title": "Cavea Grand Mall Batumi",
+      "address": "29 Sherif Khimshiashvili Street, Grand Mall, 4th floor, Batumi",
+      "category": "cinema",
+      "lat": 41.635347,
+      "lng": 41.608042,
+      "coordinateSource": "https://yandex.com/maps/10278/batumi/house/YEgYcAdoSUEFQFprfXpydH9nYw%3D%3D/inside/",
+      "coordinatePrecision": "address_building",
+      "coordinateEvidence": "Yandex named address building 29 explicitly gives 41.635347, 41.608042 and lists Cavea inside on floor 4. This is a shopping-centre building point, not an auditorium or entrance coordinate. Official Cavea cinema directory corroborates address 29; mall tenant page independently confirms Cavea in Grand Mall.",
+      "source": "Cavea / Grand Mall / Yandex Maps",
+      "sourceUrl": "https://cavea.ge/cinemas",
+      "sourceURLs": [
+        "https://cavea.ge/cinemas",
+        "https://grandmall.com.ge/en/brands/cavea",
+        "https://yandex.com/maps/org/kavea/183552495350/",
+        "https://yandex.com/maps/10278/batumi/house/YEgYcAdoSUEFQFprfXpydH9nYw%3D%3D/inside/"
+      ],
+      "checkedAt": "2026-10-20T05:20:00Z",
+      "currency": "GEL",
+      "timezone": "Asia/Tbilisi",
+      "price": null,
+      "admission": "Cinema ticket required; price depends on session.",
+      "operatingStatusVerified": true,
+      "verificationNotes": [
+        "Cavea separate cinema detail page search result says 15 Khimshiashvili; do not reuse that conflicting address. The official cinema directory and named independent map both explicitly show 29.",
+        "No daily opening hours or universal admission price asserted."
+      ],
+      "accessType": "public",
+      "accessNote": "Public cinema; individual session ticket required."
+    }
+  ],
+  "evidence": [
+    {
+      "eventIds": [
+        "batumi-quizplease-210-20261023"
+      ],
+      "url": "https://batumi.quizplease.com/game/01a0aa28-ab68-7263-a1fa-0ff8ddd8daa4",
+      "readStatus": "Full event content and page title read via web; direct HTTP 403 no retry",
+      "facts": {
+        "date": "2026-10-23",
+        "time": "19:30",
+        "venue": "Shelter Bar",
+        "address": "8 Baku Street",
+        "admission": "Public team signup",
+        "price": "20 GEL/person; under 12 free"
+      },
+      "webReference": "turn1396view2"
+    },
+    {
+      "eventIds": [
+        "almaty-punch-improv-mix-battle-20261022"
+      ],
+      "url": "https://sxodim.com/almaty/event/improv-mix-battle",
+      "readStatus": "Full event body read via web and direct HTTP 200; Event JSON-LD inspected",
+      "facts": {
+        "startDate": "2026-10-22T19:30:00+05:00",
+        "address": "Punch Stand Up Club, ул. Каирбекова, 35А",
+        "visiblePriceFrom": 3000,
+        "jsonLdOfferPrice": 18000,
+        "publicTicketUrl": "https://sxodim.com/almaty/punch-standup-club/improv-mix-battle/tickets"
+      },
+      "eventJsonLd": {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Improv Mix Battle",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "url": "https://sxodim.com/almaty/event/improv-mix-battle",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "image": [
+          "https://sxodim.com/uploads/posts/2026/10/17/optimized/03b22c3ade0523ae5de76611f1d08223_1522x570-q-85.jpg"
+        ],
+        "description": "Лучшие импровизаторы города делятся на 2 команды, а победителя выбирают жюри и зрители. Будет интересно и несомненно смешно!",
+        "location": {
+          "@context": "http://schema.org",
+          "@type": "Place",
+          "name": "Improv Mix Battle",
+          "url": "https://sxodim.com/almaty/event/improv-mix-battle",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Алматы",
+            "streetAddress": "Punch Stand Up Club, ул. Каирбекова, 35А"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": 18000,
+          "priceCurrency": "KZT",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-10-17T14:36:58+05:00",
+          "url": "https://sxodim.com/almaty/punch-standup-club/improv-mix-battle/tickets"
+        },
+        "startDate": "2026-10-22T19:30:00+05:00"
+      },
+      "articlePublished": "2026-10-17T14:27:00+05:00",
+      "rawFile": "/workspace/shared/oct20_deep_raw/page0.html"
+    },
+    {
+      "eventIds": [
+        "almaty-punch-chernyy-stendap-23-oktyabrya-20261023"
+      ],
+      "url": "https://sxodim.com/almaty/event/chernyy-stendap-23-oktyabrya",
+      "readStatus": "Full event body read via web and direct HTTP 200; Event JSON-LD inspected",
+      "facts": {
+        "startDate": "2026-10-23T23:30:00+05:00",
+        "address": "Punch Stand Up Club, ул. Каирбекова, 35А",
+        "visiblePriceFrom": 2000,
+        "jsonLdOfferPrice": 2000,
+        "publicTicketUrl": "https://sxodim.com/almaty/punch-standup-club/chernyy-stendap-23-oktyabrya/tickets"
+      },
+      "eventJsonLd": {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Черный стендап (23 октября)",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "url": "https://sxodim.com/almaty/event/chernyy-stendap-23-oktyabrya",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "image": [
+          "https://sxodim.com/uploads/posts/2026/10/17/optimized/49eb2bece2d84593feea91525af05eee_1522x570-q-85.jpg"
+        ],
+        "description": "Черный стендап — это вечер шуток на грани, где комики не боятся заходить на территорию запретных тем и говорить о том, о чём обычно принято молчать.",
+        "location": {
+          "@context": "http://schema.org",
+          "@type": "Place",
+          "name": "Черный стендап (23 октября)",
+          "url": "https://sxodim.com/almaty/event/chernyy-stendap-23-oktyabrya",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Алматы",
+            "streetAddress": "Punch Stand Up Club, ул. Каирбекова, 35А"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": 2000,
+          "priceCurrency": "KZT",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-10-17T18:47:09+05:00",
+          "url": "https://sxodim.com/almaty/punch-standup-club/chernyy-stendap-23-oktyabrya/tickets"
+        },
+        "startDate": "2026-10-23T23:30:00+05:00"
+      },
+      "articlePublished": "2026-10-17T18:45:00+05:00",
+      "rawFile": "/workspace/shared/oct20_deep_raw/page1.html"
+    },
+    {
+      "eventIds": [
+        "almaty-punch-shou-stendap-zaruba-24-oktyabrya-20261024"
+      ],
+      "url": "https://sxodim.com/almaty/event/shou-stendap-zaruba-24-oktyabrya",
+      "readStatus": "Full event body read via web and direct HTTP 200; Event JSON-LD inspected",
+      "facts": {
+        "startDate": "2026-10-24T23:30:00+05:00",
+        "address": "Punch Stand Up Club, ул. Каирбекова, 35А",
+        "visiblePriceFrom": 2000,
+        "jsonLdOfferPrice": 2000,
+        "publicTicketUrl": "https://sxodim.com/almaty/punch-standup-club/shou-stendap-zaruba-24-oktyabrya/tickets"
+      },
+      "eventJsonLd": {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Шоу «Стендап заруба» (24 октября)",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "url": "https://sxodim.com/almaty/event/shou-stendap-zaruba-24-oktyabrya",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "image": [
+          "https://sxodim.com/uploads/posts/2026/10/16/optimized/9ff19410bcc3f78142142401b1111b4a_1522x570-q-85.jpg"
+        ],
+        "description": "«Стендап заруба» – это стендап-шоу на выживание, где комики соревнуются не только в остроумии, но и в способности рассмешить зрителей за ограниченное время.",
+        "location": {
+          "@context": "http://schema.org",
+          "@type": "Place",
+          "name": "Шоу «Стендап заруба» (24 октября)",
+          "url": "https://sxodim.com/almaty/event/shou-stendap-zaruba-24-oktyabrya",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Алматы",
+            "streetAddress": "Punch Stand Up Club, ул. Каирбекова, 35А"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": 2000,
+          "priceCurrency": "KZT",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-10-16T18:22:14+05:00",
+          "url": "https://sxodim.com/almaty/punch-standup-club/shou-stendap-zaruba-24-oktyabrya/tickets"
+        },
+        "startDate": "2026-10-24T23:30:00+05:00"
+      },
+      "articlePublished": "2026-10-16T18:21:00+05:00",
+      "rawFile": "/workspace/shared/oct20_deep_raw/page2.html"
+    },
+    {
+      "eventIds": [
+        "batumi-terrible-happiness-20261020",
+        "batumi-terrible-happiness-20261021"
+      ],
+      "url": "https://biletebi.ge/theatres/nino-haratischwili-the-year-of-my-terrible-ha",
+      "readStatus": "Full primary public ticket page read via web; full secondary support page fetched HTTP 200",
+      "supportUrl": "https://www.infobatumi.ge/ru/events/chemi-sashineli-bednierebis-celicadi/",
+      "facts": {
+        "dates": [
+          "2026-10-20",
+          "2026-10-21"
+        ],
+        "time": "20:00",
+        "price": 20,
+        "currency": "GEL",
+        "durationMinutes": 140,
+        "age": "16+",
+        "address": "49 Memed Abashidze Street"
+      },
+      "rawSupportFile": "/workspace/shared/oct20_deep_raw/extra0.html",
+      "webReference": "turn1401view0"
+    }
+  ],
+  "corrections": [
+    {
+      "cityId": "limassol",
+      "ids": [
+        "limassol-poster-triennial-interval",
+        "limassol-poster-triennial-opening"
+      ],
+      "patch": {
+        "price": 0,
+        "priceLabel": "Free admission",
+        "admission": "Free admission. Regular exhibition visiting hours remain unverified.",
+        "accessType": "public",
+        "accessNote": "Free admission. Regular exhibition visiting hours remain unverified.",
+        "priceStatus": "free",
+        "checkedAt": "2026-10-20T05:20:00Z"
+      },
+      "evidence": {
+        "city": "Limassol",
+        "title": "3η ΤΡΙΕΝΑΛΕ ΑΦΙΣΑΣ ΚΥΠΡΟΥ 2026",
+        "start_date": "2026-10-16",
+        "end_date": "2026-11-15",
+        "venue": "Δημοτικό Κέντρο Τεχνών Λεμεσού – Αποθήκες Παπαδάκη",
+        "price": "free",
+        "source_url": "https://www.limassol.org.cy/el/event/3%CE%B7-%CF%84%CF%81%CE%B9%CE%B5%CE%BD%CE%B1%CE%BB%CE%B5-%CE%B1%CF%86%CE%B9%CF%83%CE%B1%CF%82-%CE%BA%CF%85%CF%80%CF%81%CE%BF%CF%85-2026-%CE%B4%CE%B9%CE%B5%CE%B8%CE%BD%CE%AE%CF%82-%CE%AD%CE%BA%CE%B8%CE%B5%CF%83%CE%B7-%CE%B1%CF%86%CE%AF%CF%83%CE%B1%CF%82",
+        "fully_read": true,
+        "caveats": [
+          "Opening-night 18:00–22:00 is not confirmed daily opening hours."
+        ]
+      },
+      "note": "Do not change unknown daily hours or turn interval into daily sessions."
+    }
+  ],
+  "blockedCandidates": [
+    {
+      "cityId": "batumi",
+      "title": "Pink October: tour of a princely family house",
+      "date": "2026-10-22",
+      "time": "18:00",
+      "price": 70,
+      "sourceUrl": "https://yolo.ge/ru/poster/pink-october-in-batumi",
+      "reason": "Only Kazbegi Street is given. No house number, named venue or meeting point. Cannot assign trustworthy coordinates.",
+      "status": "evidence_incomplete_not_denied"
+    },
+    {
+      "cityId": "batumi",
+      "title": "Pink October: collage workshop",
+      "date": "2026-10-23",
+      "time": "18:00",
+      "price": 30,
+      "sourceUrl": "https://yolo.ge/ru/poster/pink-october-in-batumi",
+      "reason": "No venue or address in fullread announcement. Organizer handle alone does not establish location.",
+      "status": "evidence_incomplete_not_denied"
+    },
+    {
+      "cityId": "batumi",
+      "title": "Three Little Pigs",
+      "date": "2026-10-24",
+      "time": "13:00",
+      "price": 10,
+      "sourceUrl": "https://biletebi.ge/theatres/sami-gowi-4183",
+      "reason": "Primary page confirms Oct 24, 13:00,10 GEL,50 min,3+ and exact known venue; full year not explicit in readable primary body. InfoBatumi detail fetch 503 and tourism calendar web returned empty shell. Search snippet year alone not used.",
+      "status": "year_evidence_pending"
+    },
+    {
+      "cityId": "batumi",
+      "date": "2026-10-26",
+      "reason": "Targeted public searches did not yield a fully verified additional non-cinema event; no recurring session inferred. Parent independently verifying cinema sessions."
+    }
+  ],
+  "duplicatesNotCounted": [
+    "Limassol poster exhibition interval and opening",
+    "Limassol Oct26 moonlight concert",
+    "Istanbul Oct20 Kutu Kutu Oyun",
+    "Batumi existing Drama Theatre October/November repertoire"
+  ],
+  "queriesThisDeepPass": [
+    "Батуми \"26 октября\" \"2026\" мероприятие",
+    "Батуми \"22 октября\" \"2026\" афиша",
+    "site.batumievents.com \"October\" \"2026\" theatre",
+    "ბათუმი \"26 ოქტომბერი\" \"2026\"",
+    "site:batumievents.com \"Three Little Pigs\" \"2026\"",
+    "site:biletebi.ge \"სამი გოჭი\"",
+    "site:batumievents.com \"Agro\" \"2026\"",
+    "site:batumievents.com \"Jonathan\" \"2026\"",
+    "Cavea Grand Mall Batumi address coordinates",
+    "site:cavea.ge Grand Mall ბათუმი",
+    "Cavea Grand Mall Batumi yandex maps"
+  ],
+  "summary": {
+    "newEventOccurrences": 6,
+    "batumi": 3,
+    "almaty": 3,
+    "newVenues": 1,
+    "externalWrites": 0,
+    "projectPublicDataFilesModified": 0,
+    "requestedVenueResearchArtifactWritten": "data/refresh-20261020/batumi-grand-mall-venue.json"
+  },
+  "enTranslations": {
+    "batumi-quizplease-210-20261023": {
+      "title": "Quiz, Please! #210",
+      "description": "A team quiz covering general knowledge and logic, with seven rounds. The advertised running time is about two hours.",
+      "priceNote": "Children under 12 are admitted free under the organizer’s terms.",
+      "admission": "Register your team on the organizer’s website; confirmation is sent by email.",
+      "accessNote": "Open to the public with advance team registration.",
+      "priceLabel": "20 GEL per person"
+    },
+    "almaty-punch-improv-mix-battle-20261022": {
+      "title": "Improv Mix Battle",
+      "description": "Two teams of improvisers perform without a prepared script. The audience and jury choose the winner.",
+      "priceNote": "Advertised starting price; check availability of individual tickets with the seller.",
+      "admission": "Public ticket sales through Sxodim. Check availability before purchasing.",
+      "accessNote": "Open to the public; ticket required.",
+      "priceLabel": "From 3,000 KZT"
+    },
+    "almaty-punch-chernyy-stendap-23-oktyabrya-20261023": {
+      "title": "Chernyy Stendap · Dark Stand-Up",
+      "description": "An evening of stand-up comedy featuring provocative jokes about taboo subjects.",
+      "priceNote": "Advertised starting price; check availability of individual tickets with the seller.",
+      "admission": "Public ticket sales through Sxodim. Check availability before purchasing.",
+      "accessNote": "Open to the public; ticket required.",
+      "priceLabel": "From 2,000 KZT"
+    },
+    "almaty-punch-shou-stendap-zaruba-24-oktyabrya-20261024": {
+      "title": "Stand-Up Zaruba",
+      "description": "A short-set comedy contest in which a gong ends a performance if the comedian fails to make the audience laugh.",
+      "priceNote": "Advertised starting price; check availability of individual tickets with the seller.",
+      "admission": "Public ticket sales through Sxodim. Check availability before purchasing.",
+      "accessNote": "Open to the public; ticket required.",
+      "priceLabel": "From 2,000 KZT"
+    },
+    "batumi-terrible-happiness-20261020": {
+      "title": "Nino Haratischwili · My Year of Terrible Happiness",
+      "description": "A production of Nino Haratischwili’s play, directed by Achi Goguadze. Theatre Komosi performs at the Batumi Puppet and Youth Theatre.",
+      "priceNote": "The published price applies to this performance. Check ticket availability with the seller.",
+      "admission": "Ticket required; public ticket sales through Biletebi.",
+      "accessNote": "Public ticketed performance, ages 16+.",
+      "priceLabel": "20 GEL"
+    },
+    "batumi-terrible-happiness-20261021": {
+      "title": "Nino Haratischwili · My Year of Terrible Happiness",
+      "description": "A production of Nino Haratischwili’s play, directed by Achi Goguadze. Theatre Komosi performs at the Batumi Puppet and Youth Theatre.",
+      "priceNote": "The published price applies to this performance. Check ticket availability with the seller.",
+      "admission": "Ticket required; public ticket sales through Biletebi.",
+      "accessNote": "Public ticketed performance, ages 16+.",
+      "priceLabel": "20 GEL"
+    }
+  }
+}

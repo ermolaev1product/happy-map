@@ -1,0 +1,683 @@
+{
+  "asOf": "2026-10-25T06:52:00Z",
+  "baseCommit": "52e0f9e04c81aac9eb44cdc11ac908d247d85d36",
+  "method": "Exact source functions with mocked DOM; eight-date audit extends normal seven-date UI by one day. Not independent live browser verification.",
+  "routes": [
+    {
+      "city": "batumi",
+      "locale": "ru",
+      "route": "batumi/index.html",
+      "zone": "Asia/Tbilisi",
+      "storedEvents": 185,
+      "storedPlaces": 15,
+      "connectedPlaces": 22,
+      "days": [
+        {
+          "date": "2026-10-25",
+          "occurrences": 23,
+          "nonCinema": 4,
+          "programmes": 23,
+          "categories": {
+            "theatre": 3,
+            "workshop": 1,
+            "film": 19
+          },
+          "mapped": 23,
+          "ids": [
+            "batumi-darispanis-gasachiri-10-25",
+            "batumi-little-red-riding-hood-1800-20261025",
+            "batumi-pink-10",
+            "cinema:cbg_1/25-10-2026/12:45",
+            "cinema:cbg_1/25-10-2026/16:30",
+            "cinema:cbg_1/25-10-2026/19:00",
+            "cinema:cbg_1/25-10-2026/22:00",
+            "cinema:cbg_2/25-10-2026/12:00",
+            "cinema:cbg_2/25-10-2026/14:30",
+            "cinema:cbg_2/25-10-2026/17:00",
+            "cinema:cbg_2/25-10-2026/19:30",
+            "cinema:cbg_2/25-10-2026/22:00",
+            "cinema:cbg_3/25-10-2026/12:00",
+            "cinema:cbg_3/25-10-2026/14:00",
+            "cinema:cbg_3/25-10-2026/16:30",
+            "cinema:cbg_3/25-10-2026/19:00",
+            "cinema:cbg_3/25-10-2026/21:45",
+            "cinema:cbg_4/25-10-2026/11:45",
+            "cinema:cbg_4/25-10-2026/14:00",
+            "cinema:cbg_4/25-10-2026/16:15",
+            "cinema:cbg_4/25-10-2026/19:15",
+            "cinema:cbg_4/25-10-2026/22:00",
+            "m24-batumi-729244a682684e"
+          ],
+          "thematic": 0,
+          "near500m": 3
+        },
+        {
+          "date": "2026-10-26",
+          "occurrences": 19,
+          "nonCinema": 0,
+          "programmes": 19,
+          "categories": {
+            "film": 19
+          },
+          "mapped": 19,
+          "ids": [
+            "cinema:cbg_1/26-10-2026/12:45",
+            "cinema:cbg_1/26-10-2026/16:30",
+            "cinema:cbg_1/26-10-2026/19:00",
+            "cinema:cbg_1/26-10-2026/22:00",
+            "cinema:cbg_2/26-10-2026/12:00",
+            "cinema:cbg_2/26-10-2026/14:30",
+            "cinema:cbg_2/26-10-2026/17:00",
+            "cinema:cbg_2/26-10-2026/19:30",
+            "cinema:cbg_2/26-10-2026/22:00",
+            "cinema:cbg_3/26-10-2026/12:00",
+            "cinema:cbg_3/26-10-2026/14:00",
+            "cinema:cbg_3/26-10-2026/16:30",
+            "cinema:cbg_3/26-10-2026/19:00",
+            "cinema:cbg_3/26-10-2026/21:45",
+            "cinema:cbg_4/26-10-2026/11:45",
+            "cinema:cbg_4/26-10-2026/14:00",
+            "cinema:cbg_4/26-10-2026/16:15",
+            "cinema:cbg_4/26-10-2026/19:15",
+            "cinema:cbg_4/26-10-2026/22:00"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-27",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "other": 1
+          },
+          "mapped": 0,
+          "ids": [
+            "batumi-pink-11"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-28",
+          "occurrences": 2,
+          "nonCinema": 2,
+          "programmes": 2,
+          "categories": {
+            "theatre": 2
+          },
+          "mapped": 2,
+          "ids": [
+            "batumi-love-is-2026-10-28",
+            "batumi-sakhli-ghrublebshi-10-28"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        },
+        {
+          "date": "2026-10-29",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "theatre": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "batumi-love-is-2026-10-29"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        },
+        {
+          "date": "2026-10-30",
+          "occurrences": 2,
+          "nonCinema": 2,
+          "programmes": 2,
+          "categories": {
+            "theatre": 1,
+            "music": 1
+          },
+          "mapped": 2,
+          "ids": [
+            "batumi-matarebeli-ukve-gavida-10-30",
+            "m24-batumi-f60d01abd79c05"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-31",
+          "occurrences": 6,
+          "nonCinema": 6,
+          "programmes": 6,
+          "categories": {
+            "kids": 2,
+            "music": 1,
+            "sport": 1,
+            "workshop": 1,
+            "theatre": 1
+          },
+          "mapped": 2,
+          "ids": [
+            "batumi-ana-frankis-dghiuri-10-31",
+            "batumi-pink-12",
+            "batumi-pink-13",
+            "batumi-pink-14",
+            "m24-batumi-6c683d72085e1b",
+            "m24-batumi-75c036f4018125"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        },
+        {
+          "date": "2026-11-01",
+          "occurrences": 2,
+          "nonCinema": 2,
+          "programmes": 2,
+          "categories": {
+            "workshop": 1,
+            "theatre": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "batumi-ana-frankis-dghiuri-11-01",
+            "batumi-pink-15"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        }
+      ]
+    },
+    {
+      "city": "batumi",
+      "locale": "en",
+      "route": "en/batumi/index.html",
+      "zone": "Asia/Tbilisi",
+      "storedEvents": 185,
+      "storedPlaces": 15,
+      "connectedPlaces": 22,
+      "days": [
+        {
+          "date": "2026-10-25",
+          "occurrences": 23,
+          "nonCinema": 4,
+          "programmes": 23,
+          "categories": {
+            "theatre": 3,
+            "workshop": 1,
+            "film": 19
+          },
+          "mapped": 23,
+          "ids": [
+            "batumi-darispanis-gasachiri-10-25",
+            "batumi-little-red-riding-hood-1800-20261025",
+            "batumi-pink-10",
+            "cinema:cbg_1/25-10-2026/12:45",
+            "cinema:cbg_1/25-10-2026/16:30",
+            "cinema:cbg_1/25-10-2026/19:00",
+            "cinema:cbg_1/25-10-2026/22:00",
+            "cinema:cbg_2/25-10-2026/12:00",
+            "cinema:cbg_2/25-10-2026/14:30",
+            "cinema:cbg_2/25-10-2026/17:00",
+            "cinema:cbg_2/25-10-2026/19:30",
+            "cinema:cbg_2/25-10-2026/22:00",
+            "cinema:cbg_3/25-10-2026/12:00",
+            "cinema:cbg_3/25-10-2026/14:00",
+            "cinema:cbg_3/25-10-2026/16:30",
+            "cinema:cbg_3/25-10-2026/19:00",
+            "cinema:cbg_3/25-10-2026/21:45",
+            "cinema:cbg_4/25-10-2026/11:45",
+            "cinema:cbg_4/25-10-2026/14:00",
+            "cinema:cbg_4/25-10-2026/16:15",
+            "cinema:cbg_4/25-10-2026/19:15",
+            "cinema:cbg_4/25-10-2026/22:00",
+            "m24-batumi-729244a682684e"
+          ],
+          "thematic": 0,
+          "near500m": 3
+        },
+        {
+          "date": "2026-10-26",
+          "occurrences": 19,
+          "nonCinema": 0,
+          "programmes": 19,
+          "categories": {
+            "film": 19
+          },
+          "mapped": 19,
+          "ids": [
+            "cinema:cbg_1/26-10-2026/12:45",
+            "cinema:cbg_1/26-10-2026/16:30",
+            "cinema:cbg_1/26-10-2026/19:00",
+            "cinema:cbg_1/26-10-2026/22:00",
+            "cinema:cbg_2/26-10-2026/12:00",
+            "cinema:cbg_2/26-10-2026/14:30",
+            "cinema:cbg_2/26-10-2026/17:00",
+            "cinema:cbg_2/26-10-2026/19:30",
+            "cinema:cbg_2/26-10-2026/22:00",
+            "cinema:cbg_3/26-10-2026/12:00",
+            "cinema:cbg_3/26-10-2026/14:00",
+            "cinema:cbg_3/26-10-2026/16:30",
+            "cinema:cbg_3/26-10-2026/19:00",
+            "cinema:cbg_3/26-10-2026/21:45",
+            "cinema:cbg_4/26-10-2026/11:45",
+            "cinema:cbg_4/26-10-2026/14:00",
+            "cinema:cbg_4/26-10-2026/16:15",
+            "cinema:cbg_4/26-10-2026/19:15",
+            "cinema:cbg_4/26-10-2026/22:00"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-27",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "other": 1
+          },
+          "mapped": 0,
+          "ids": [
+            "batumi-pink-11"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-28",
+          "occurrences": 2,
+          "nonCinema": 2,
+          "programmes": 2,
+          "categories": {
+            "theatre": 2
+          },
+          "mapped": 2,
+          "ids": [
+            "batumi-love-is-2026-10-28",
+            "batumi-sakhli-ghrublebshi-10-28"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        },
+        {
+          "date": "2026-10-29",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "theatre": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "batumi-love-is-2026-10-29"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        },
+        {
+          "date": "2026-10-30",
+          "occurrences": 2,
+          "nonCinema": 2,
+          "programmes": 2,
+          "categories": {
+            "theatre": 1,
+            "music": 1
+          },
+          "mapped": 2,
+          "ids": [
+            "batumi-matarebeli-ukve-gavida-10-30",
+            "m24-batumi-f60d01abd79c05"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-31",
+          "occurrences": 6,
+          "nonCinema": 6,
+          "programmes": 6,
+          "categories": {
+            "kids": 2,
+            "music": 1,
+            "sport": 1,
+            "workshop": 1,
+            "theatre": 1
+          },
+          "mapped": 2,
+          "ids": [
+            "batumi-ana-frankis-dghiuri-10-31",
+            "batumi-pink-12",
+            "batumi-pink-13",
+            "batumi-pink-14",
+            "m24-batumi-6c683d72085e1b",
+            "m24-batumi-75c036f4018125"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        },
+        {
+          "date": "2026-11-01",
+          "occurrences": 2,
+          "nonCinema": 2,
+          "programmes": 2,
+          "categories": {
+            "workshop": 1,
+            "theatre": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "batumi-ana-frankis-dghiuri-11-01",
+            "batumi-pink-15"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        }
+      ]
+    },
+    {
+      "city": "bishkek",
+      "locale": "ru",
+      "route": "bishkek/index.html",
+      "zone": "Asia/Bishkek",
+      "storedEvents": 70,
+      "storedPlaces": 1419,
+      "connectedPlaces": 1441,
+      "days": [
+        {
+          "date": "2026-10-25",
+          "occurrences": 13,
+          "nonCinema": 13,
+          "programmes": 13,
+          "categories": {
+            "music": 4,
+            "theatre": 5,
+            "kids": 2,
+            "workshop": 1,
+            "sport": 1
+          },
+          "mapped": 13,
+          "ids": [
+            "bishkek-kassir-4392",
+            "bishkek-kassir-4496",
+            "bishkek-kassir-4814",
+            "bishkek-oct24-bc4e03c0b43d",
+            "bishkek-ticketkg-2711daa03269",
+            "bishkek-ticketkg-28161f041c46",
+            "bishkek-ticketkg-5dd9cebc6cba",
+            "bishkek-ticketkg-9107580ba3bc",
+            "bishkek-ticketkg-a3405623399a",
+            "bishkek-ticketkg-a5cdf612fcbc",
+            "bishkek-ticketkg-c7830e07de63",
+            "bishkek-ticketkg-c928c7af9658",
+            "bishkek-ticketkg-efea47011367"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-26",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "games": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "bishkek-quizplease-2026-10-26"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        },
+        {
+          "date": "2026-10-27",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "games": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "bishkek-quizplease-2026-10-27"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        },
+        {
+          "date": "2026-10-28",
+          "occurrences": 2,
+          "nonCinema": 2,
+          "programmes": 2,
+          "categories": {
+            "music": 1,
+            "games": 1
+          },
+          "mapped": 2,
+          "ids": [
+            "bishkek-oct24-9a0f9d82974d",
+            "bishkek-refresh-20261022-78e40a33fd00"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-29",
+          "occurrences": 0,
+          "nonCinema": 0,
+          "programmes": 0,
+          "categories": {},
+          "mapped": 0,
+          "ids": [],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-30",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "music": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "bishkek-research-ec025fa2bb20"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-31",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "games": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "bishkek-oct24-d07342f834af"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-11-01",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "theatre": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "bishkek-research-3c0f35dc38a8"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        }
+      ]
+    },
+    {
+      "city": "bishkek",
+      "locale": "en",
+      "route": "en/bishkek/index.html",
+      "zone": "Asia/Bishkek",
+      "storedEvents": 70,
+      "storedPlaces": 1419,
+      "connectedPlaces": 1441,
+      "days": [
+        {
+          "date": "2026-10-25",
+          "occurrences": 13,
+          "nonCinema": 13,
+          "programmes": 13,
+          "categories": {
+            "music": 4,
+            "theatre": 5,
+            "kids": 2,
+            "workshop": 1,
+            "sport": 1
+          },
+          "mapped": 13,
+          "ids": [
+            "bishkek-kassir-4392",
+            "bishkek-kassir-4496",
+            "bishkek-kassir-4814",
+            "bishkek-oct24-bc4e03c0b43d",
+            "bishkek-ticketkg-2711daa03269",
+            "bishkek-ticketkg-28161f041c46",
+            "bishkek-ticketkg-5dd9cebc6cba",
+            "bishkek-ticketkg-9107580ba3bc",
+            "bishkek-ticketkg-a3405623399a",
+            "bishkek-ticketkg-a5cdf612fcbc",
+            "bishkek-ticketkg-c7830e07de63",
+            "bishkek-ticketkg-c928c7af9658",
+            "bishkek-ticketkg-efea47011367"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-26",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "games": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "bishkek-quizplease-2026-10-26"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        },
+        {
+          "date": "2026-10-27",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "games": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "bishkek-quizplease-2026-10-27"
+          ],
+          "thematic": 0,
+          "near500m": 1
+        },
+        {
+          "date": "2026-10-28",
+          "occurrences": 2,
+          "nonCinema": 2,
+          "programmes": 2,
+          "categories": {
+            "music": 1,
+            "games": 1
+          },
+          "mapped": 2,
+          "ids": [
+            "bishkek-oct24-9a0f9d82974d",
+            "bishkek-refresh-20261022-78e40a33fd00"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-29",
+          "occurrences": 0,
+          "nonCinema": 0,
+          "programmes": 0,
+          "categories": {},
+          "mapped": 0,
+          "ids": [],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-30",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "music": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "bishkek-research-ec025fa2bb20"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-10-31",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "games": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "bishkek-oct24-d07342f834af"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        },
+        {
+          "date": "2026-11-01",
+          "occurrences": 1,
+          "nonCinema": 1,
+          "programmes": 1,
+          "categories": {
+            "theatre": 1
+          },
+          "mapped": 1,
+          "ids": [
+            "bishkek-research-3c0f35dc38a8"
+          ],
+          "thematic": 0,
+          "near500m": 0
+        }
+      ]
+    }
+  ],
+  "parity": [
+    {
+      "city": "batumi",
+      "events": true,
+      "places": true
+    },
+    {
+      "city": "bishkek",
+      "events": true,
+      "places": true
+    }
+  ]
+}

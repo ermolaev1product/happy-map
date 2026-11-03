@@ -1,0 +1,831 @@
+{
+  "schema": "happymap-palo-alto-moscow-followon-v1",
+  "batchId": "palo-alto-moscow-followon-20261014",
+  "baselineVersion": 102,
+  "baselineCommit": "7c8ece7f560cf4baff04760e82c60deb65e39c89",
+  "checkedAt": "2026-10-14T14:23:00.549900+00:00",
+  "windowStart": "2026-10-14",
+  "windowEnd": "2026-11-13",
+  "cities": {
+    "palo-alto": {
+      "before": 268,
+      "after": 478,
+      "newUniqueEvents": 210
+    },
+    "moscow": {
+      "before": 3468,
+      "after": 3473,
+      "newUniqueEvents": 5
+    }
+  },
+  "newIds": {
+    "palo-alto": [
+      "pa-cfef2fe64ee9cd12",
+      "pa-stanford-54232661143570",
+      "pa-stanford-53947940290137",
+      "pa-stanford-53853507645975",
+      "pa-stanford-54118665008592",
+      "pa-stanford-54170341688597",
+      "pa-stanford-54160840544064",
+      "pa-stanford-53851911372253",
+      "pa-stanford-54138556328697",
+      "pa-stanford-54135592930323",
+      "pa-stanford-54179633525296",
+      "pa-stanford-53941977013623",
+      "pa-stanford-53499289648509",
+      "pa-stanford-53887340621114",
+      "pa-stanford-54171962479683",
+      "pa-stanford-53851984386412",
+      "pa-stanford-51888105052828",
+      "pa-biblio-6946001eea69de6e001069b4",
+      "pa-stanford-53427273212212",
+      "pa-stanford-53879236295620",
+      "pa-stanford-54003982029728",
+      "pa-stanford-54195940969178",
+      "pa-biblio-6a3dbc0bfddb082f00fe14a1",
+      "pa-stanford-54135592932372",
+      "pa-stanford-53012995942610",
+      "pa-stanford-53940187552009",
+      "pa-biblio-69276b597eb3e430002638b6",
+      "pa-biblio-6a270e7b703c3363002d2545",
+      "pa-biblio-6a270e7b703c3363002d2546",
+      "pa-stanford-52825360149034",
+      "pa-stanford-53870073814846",
+      "pa-stanford-54179187456103",
+      "pa-stanford-53764263973883",
+      "pa-0c5834ed4d0ef40b",
+      "pa-biblio-6946005fea69de6e001069c8",
+      "pa-stanford-54196018683018",
+      "pa-stanford-53694860296224",
+      "pa-biblio-6ab5dfe1101eb7003f32c59e",
+      "pa-stanford-54162072232117",
+      "pa-stanford-54197974615978",
+      "pa-stanford-53818815576151",
+      "pa-stanford-54109449215717",
+      "pa-biblio-6a25aace2ea730c17ab50490",
+      "pa-stanford-54190641390663",
+      "pa-stanford-53632376003809",
+      "pa-stanford-54136092619202",
+      "pa-stanford-51288078608342",
+      "pa-biblio-698e125a2a787a47a5e73be7",
+      "pa-stanford-53694860297249",
+      "pa-biblio-68faeb383cbc052f00816102",
+      "pa-stanford-53737430742203",
+      "pa-stanford-53818815577176",
+      "pa-biblio-6a873b1560ccaf01c01fb300",
+      "pa-biblio-6ace75889dbc2b002c8e5387",
+      "pa-stanford-53737452696667",
+      "pa-stanford-53145033318426",
+      "pa-stanford-53145040229546",
+      "pa-stanford-53737430743228",
+      "pa-stanford-53818815578201",
+      "pa-stanford-53737452697692",
+      "pa-stanford-53975524031897",
+      "pa-stanford-54127785306878",
+      "pa-stanford-54002008943310",
+      "pa-stanford-53552396943866",
+      "pa-stanford-54135592934421",
+      "pa-stanford-54179663660321",
+      "pa-biblio-6abc28e90f56a0002cd4d666",
+      "pa-biblio-6a270e7b703c3363002d2547",
+      "pa-biblio-699f624cb0595799c09f6053",
+      "pa-stanford-53507917771115",
+      "pa-stanford-53878443470419",
+      "pa-stanford-54075763488295",
+      "pa-stanford-53851092553235",
+      "pa-biblio-68afa7b0022de53d00d2717e",
+      "pa-stanford-53941494800330",
+      "pa-stanford-53800398915027",
+      "pa-stanford-54162708782761",
+      "pa-stanford-53995718968113",
+      "pa-stanford-51888105053853",
+      "pa-biblio-6946001eea69de6e001069b5",
+      "pa-stanford-54001189754707",
+      "pa-stanford-54180542658426",
+      "pa-stanford-54198537508049",
+      "pa-stanford-54004002774428",
+      "pa-stanford-54172035147789",
+      "pa-stanford-53985621686471",
+      "pa-stanford-54126220446841",
+      "pa-biblio-6a3dbc0bfddb082f00fe14a2",
+      "pa-stanford-54135592935446",
+      "pa-stanford-53940187553034",
+      "pa-stanford-54001907478256",
+      "pa-stanford-53941768563971",
+      "pa-biblio-6a270e7b703c3363002d2548",
+      "pa-biblio-6a270e7b703c3363002d2549",
+      "pa-stanford-53481317823257",
+      "pa-stanford-54232746102437",
+      "pa-biblio-6946005fea69de6e001069c9",
+      "pa-stanford-53694860298274",
+      "pa-biblio-6ab5dfe1101eb7003f32c59f",
+      "pa-stanford-54001261669969",
+      "pa-stanford-53818815579226",
+      "pa-stanford-54189761557008",
+      "pa-biblio-6a25aace2ea730c17ab50491",
+      "pa-stanford-54179547167136",
+      "pa-stanford-51288078609367",
+      "pa-biblio-689fbe369fd3e1d82154c4d4",
+      "pa-biblio-698e125a2a787a47a5e73be8",
+      "pa-stanford-53694860298275",
+      "pa-biblio-68faeb383cbc052f00816103",
+      "pa-stanford-53737430744253",
+      "pa-stanford-53818815580251",
+      "pa-stanford-53737452699741",
+      "pa-96c7fcfde3d80fae",
+      "pa-biblio-6948560c1e64afd01e50328f",
+      "pa-stanford-53737430745278",
+      "pa-stanford-53818815581276",
+      "pa-stanford-53737452701790",
+      "pa-stanford-54065335414252",
+      "pa-stanford-54189731968421",
+      "pa-stanford-53552401710388",
+      "pa-stanford-54162326675903",
+      "pa-stanford-54135592937495",
+      "pa-stanford-54074581180954",
+      "pa-biblio-6abc28e90f56a0002cd4d667",
+      "pa-biblio-6a270e7b703c3363002d254a",
+      "pa-biblio-699f624cb0595799c09f6054",
+      "pa-biblio-6a89d81336204e08fbb653fa",
+      "pa-biblio-68afa7b0022de53d00d2717f",
+      "pa-stanford-51888105054878",
+      "pa-biblio-6946001eea69de6e001069b6",
+      "pa-stanford-53861067888210",
+      "pa-stanford-54001154362238",
+      "pa-biblio-6ac3ff06c6cddb004595bb64",
+      "pa-stanford-53808344432557",
+      "pa-biblio-6ac3ff06c6cddb004595bb65",
+      "pa-stanford-54004063488689",
+      "pa-stanford-54188899938999",
+      "pa-stanford-53808344431532",
+      "pa-biblio-6a3dbc0bfddb082f00fe14a3",
+      "pa-stanford-54135592940568",
+      "pa-biblio-69276b597eb3e430002638b8",
+      "pa-stanford-54180690948197",
+      "pa-stanford-53691925115269",
+      "pa-stanford-53801235932031",
+      "pa-biblio-6a270e7b703c3363002d254b",
+      "pa-biblio-6a270e7b703c3363002d254c",
+      "pa-stanford-54011243977907",
+      "pa-stanford-53977038029919",
+      "pa-stanford-53871308387148",
+      "pa-stanford-54177973515463",
+      "pa-stanford-54170450699649",
+      "pa-biblio-6946005fea69de6e001069ca",
+      "pa-stanford-53694860299300",
+      "pa-biblio-6ab5dfe1101eb7003f32c5a0",
+      "pa-stanford-54001169587167",
+      "pa-stanford-54162642751098",
+      "pa-stanford-53818815582301",
+      "pa-biblio-6a25aace2ea730c17ab50492",
+      "pa-stanford-51288078610392",
+      "pa-biblio-69484721571fb4d550be978b",
+      "pa-biblio-689fbe369fd3e1d82154c4d5",
+      "pa-biblio-698e125a2a787a47a5e73be9",
+      "pa-biblio-691cd362a6fedec95309c349",
+      "pa-stanford-53694860300325",
+      "pa-biblio-6941b70d6724c63d00e73cf3",
+      "pa-biblio-68faeb383cbc052f00816104",
+      "pa-stanford-53737430746303",
+      "pa-stanford-53818815583326",
+      "pa-stanford-53737452704863",
+      "pa-biblio-6a46e4fb20e064860195a38b",
+      "pa-biblio-6948560c1e64afd01e503290",
+      "pa-stanford-53889417999301",
+      "pa-biblio-69667a0394297d3600a4e8a0",
+      "pa-stanford-53737430747328",
+      "pa-stanford-53818815584351",
+      "pa-stanford-53737452705888",
+      "pa-stanford-53948468116083",
+      "pa-stanford-54169501224168",
+      "pa-stanford-53984485261396",
+      "pa-stanford-53552405470793",
+      "pa-stanford-54135592943641",
+      "pa-biblio-6abc28e90f56a0002cd4d668",
+      "pa-biblio-6a270e7b703c3363002d254d",
+      "pa-biblio-699f624cb0595799c09f6055",
+      "pa-stanford-53604059427397",
+      "pa-stanford-53879694291005",
+      "pa-biblio-68afa7b0022de53d00d27180",
+      "pa-stanford-51888105055903",
+      "pa-stanford-53969632558022",
+      "pa-stanford-54231209060094",
+      "pa-stanford-54222690022196",
+      "pa-stanford-54004127814166",
+      "pa-stanford-54135592945690",
+      "pa-biblio-69276b597eb3e430002638b9",
+      "pa-biblio-6a270e7b703c3363002d254e",
+      "pa-biblio-6a270e7b703c3363002d254f",
+      "pa-stanford-53880685189682",
+      "pa-stanford-52825362201674",
+      "pa-stanford-54004410021939",
+      "pa-biblio-6759fea0da3a5e3d00ca4d1a",
+      "pa-biblio-6a0e2faa4dc267647daa2d2f",
+      "pa-biblio-6946005fea69de6e001069cb",
+      "pa-stanford-53694860301350",
+      "pa-stanford-53261076733106",
+      "pa-biblio-6ab5dfe1101eb7003f32c5a1",
+      "pa-stanford-54231141268808",
+      "pa-stanford-53818815585376",
+      "pa-biblio-6a25aace2ea730c17ab50493",
+      "pa-stanford-54003351099545",
+      "pa-stanford-54003301124014"
+    ],
+    "moscow": [
+      "official-lumiere-9a471d45273c07d",
+      "official-lumiere-18e5bf6a1377cab",
+      "official-lumiere-c301c9f25649c08",
+      "official-lumiere-e7ff463726dd323",
+      "official-lumiere-492ebbcdcf9af97"
+    ]
+  },
+  "correctedPaloAltoIds": [
+    "pa-biblio-69276b597eb3e430002638b7",
+    "pa-biblio-698e5b7094297d3600abe212",
+    "pa-biblio-6a9cb52960ccaf01c023b78c",
+    "pa-biblio-6ac8309f377296003a4ab25d",
+    "pa-biblio-6a679a8ba41369ab2c691ee5",
+    "pa-biblio-68f909ed3cbc052f008115b6",
+    "pa-biblio-6a4d69d54b05243d0055896d",
+    "pa-biblio-6a610290c7e02e3d006aed61",
+    "pa-biblio-694ae5edb5ff473000577f53",
+    "pa-biblio-6a4d4ec9b96ccc750c5a0851",
+    "pa-biblio-6a270e7b703c3363002d2542",
+    "pa-biblio-6a270e7b703c3363002d2543",
+    "pa-biblio-6a7253f6e30fe4845966ebf1",
+    "pa-biblio-6a25aace2ea730c17ab5048f",
+    "pa-biblio-6aa04e624cb69d003e268efd",
+    "pa-biblio-6aa04e624cb69d003e268efe",
+    "pa-biblio-6a628e389943bdf31ea11fa9",
+    "pa-biblio-6a63bd09898f0d2051148d92",
+    "pa-biblio-6a3dbc0bfddb082f00fe14a0",
+    "pa-biblio-6946001eea69de6e001069b3",
+    "pa-biblio-6946005fea69de6e001069c7",
+    "pa-biblio-69276b597eb3e430002638b5",
+    "pa-biblio-698e125a2a787a47a5e73be6",
+    "pa-biblio-6a384108c134422d50e9a7b1",
+    "pa-biblio-6a3032c18ea300e2631dc5f1",
+    "pa-biblio-689fbe369fd3e1d82154c4d2",
+    "pa-biblio-69adb99845f57dfccb1945c6",
+    "pa-biblio-6a696680a0b1bdf860d8ad1a",
+    "pa-biblio-6ab57dbc94b74515467b6680",
+    "pa-biblio-6a397278c7d3cd580062120f"
+  ],
+  "newPlaceIds": [
+    "msk-place-craft-republic",
+    "msk-place-bb-craft-dmitrovskoe",
+    "msk-place-bb-craft-preobrazhenskaya",
+    "msk-place-craft-mafia",
+    "msk-place-arma-craft",
+    "msk-place-stoy-craft",
+    "msk-place-perfumist",
+    "msk-place-cocktailnaya",
+    "msk-place-dry-wet",
+    "msk-place-golova",
+    "msk-place-vovas",
+    "msk-place-one-geek",
+    "msk-place-knigamag-veshnyaki",
+    "msk-place-the-beer-polyany",
+    "msk-place-the-beer-monakhovoy",
+    "msk-place-the-beer-scandi",
+    "msk-place-dom-kultur",
+    "msk-place-black-hat",
+    "msk-place-bobry-utki-pyatnitskaya",
+    "msk-place-moscow-books",
+    "msk-place-biblio-globus",
+    "msk-place-john-gilroys"
+  ],
+  "permanentPlaces": {
+    "city": "Moscow",
+    "before": 84,
+    "after": 106,
+    "added": 22
+  },
+  "sourceAccessPointsReviewed": 31,
+  "heldDuringImport": [],
+  "paloAltoBundleSha256": "3903d0ee1bd87b3d3f7fc8428cf7a7c0b28cdc37ee1e6ba492227725e86882e3",
+  "paloAltoResearchMetrics": {
+    "baselineCount": 268,
+    "addedEvents": 210,
+    "proposedCount": 478,
+    "bySource": {
+      "Stanford Events": 144,
+      "Palo Alto City Library": 63,
+      "Igniter Silicon Valley / ANCI AI": 1,
+      "Autotech Council": 1,
+      "Oshman Family JCC": 1
+    },
+    "byLocality": {
+      "Palo Alto": 67,
+      "Stanford": 143
+    },
+    "byCategory": {
+      "talk": 85,
+      "workshop": 48,
+      "kids": 28,
+      "art": 34,
+      "sport": 1,
+      "film": 3,
+      "music": 9,
+      "games": 1,
+      "market": 1
+    },
+    "byDate": {
+      "2026-10-15": 1,
+      "2026-10-19": 9,
+      "2026-10-20": 6,
+      "2026-10-21": 8,
+      "2026-10-22": 10,
+      "2026-10-23": 11,
+      "2026-10-24": 10,
+      "2026-10-25": 5,
+      "2026-10-26": 5,
+      "2026-10-27": 12,
+      "2026-10-28": 12,
+      "2026-10-29": 7,
+      "2026-10-30": 8,
+      "2026-10-31": 8,
+      "2026-11-01": 5,
+      "2026-11-02": 5,
+      "2026-11-03": 6,
+      "2026-11-04": 12,
+      "2026-11-05": 10,
+      "2026-11-06": 8,
+      "2026-11-07": 12,
+      "2026-11-08": 6,
+      "2026-11-09": 5,
+      "2026-11-10": 6,
+      "2026-11-11": 6,
+      "2026-11-12": 8,
+      "2026-11-13": 9
+    },
+    "duplicateCandidatesExcluded": 85,
+    "heldCandidateCount": 449,
+    "sourceRowsRetrieved": {
+      "stanford": 1003,
+      "library": 131
+    },
+    "baselineSha256": "08f43e019409cac1a1bf2442923e8ca54e5e2f449c60e04befb2c88e37a93b21",
+    "zeroInventedEndTimes": true,
+    "zeroNewOnlineOnlyPins": true,
+    "distinctProgrammes": 170,
+    "canonicalLinkCorrections": 30,
+    "newSourceCount": 2,
+    "blockedTelegramProfiles": 5,
+    "baselineFileSha256": "d7dd523e4fc244bc4e6adefca48ca9ca7f46204bf16c6b163186a783052602e8",
+    "exactEntranceNotClaimed": true,
+    "existingSourcesUpdated": 3
+  },
+  "limitations": [
+    "Palo Alto and Stanford are explicitly separate localities; broader Bay Area venues are excluded.",
+    "Public-access and registration restrictions remain in cards; no admissions or availability guarantee.",
+    "Telegram source previews were not readable and contributed no Palo Alto events.",
+    "Moscow building-level venue pins are disclosed in their descriptions. Permanent venues do not create dated events."
+  ],
+  "publication": {
+    "status": "release_payload"
+  },
+  "productionCoverage": {
+    "checkedAt": "2026-10-14T14:28:29.946Z",
+    "method": "Exact production NoreliDiscovery.availableOnDate at one before/after instant, unchanged500m circles; coordinate-pair counts are not rendered cluster counts.",
+    "cities": {
+      "palo-alto": {
+        "before": {
+          "week": {
+            "total": 165,
+            "nonFilm": 153,
+            "venuePoints": 61
+          },
+          "weekDefaultCircle": {
+            "total": 8,
+            "nonFilm": 8,
+            "venuePoints": 3
+          },
+          "daily": [
+            {
+              "date": "2026-10-14",
+              "citywide": {
+                "total": 37,
+                "nonFilm": 37,
+                "venuePoints": 25
+              },
+              "defaultCircle": {
+                "total": 0,
+                "nonFilm": 0,
+                "venuePoints": 0
+              }
+            },
+            {
+              "date": "2026-10-15",
+              "citywide": {
+                "total": 46,
+                "nonFilm": 45,
+                "venuePoints": 24
+              },
+              "defaultCircle": {
+                "total": 1,
+                "nonFilm": 1,
+                "venuePoints": 1
+              }
+            },
+            {
+              "date": "2026-10-16",
+              "citywide": {
+                "total": 47,
+                "nonFilm": 44,
+                "venuePoints": 26
+              },
+              "defaultCircle": {
+                "total": 3,
+                "nonFilm": 3,
+                "venuePoints": 2
+              }
+            },
+            {
+              "date": "2026-10-17",
+              "citywide": {
+                "total": 41,
+                "nonFilm": 37,
+                "venuePoints": 21
+              },
+              "defaultCircle": {
+                "total": 3,
+                "nonFilm": 3,
+                "venuePoints": 2
+              }
+            },
+            {
+              "date": "2026-10-18",
+              "citywide": {
+                "total": 21,
+                "nonFilm": 17,
+                "venuePoints": 8
+              },
+              "defaultCircle": {
+                "total": 0,
+                "nonFilm": 0,
+                "venuePoints": 0
+              }
+            },
+            {
+              "date": "2026-10-19",
+              "citywide": {
+                "total": 6,
+                "nonFilm": 6,
+                "venuePoints": 5
+              },
+              "defaultCircle": {
+                "total": 0,
+                "nonFilm": 0,
+                "venuePoints": 0
+              }
+            },
+            {
+              "date": "2026-10-20",
+              "citywide": {
+                "total": 7,
+                "nonFilm": 7,
+                "venuePoints": 6
+              },
+              "defaultCircle": {
+                "total": 1,
+                "nonFilm": 1,
+                "venuePoints": 1
+              }
+            }
+          ]
+        },
+        "after": {
+          "week": {
+            "total": 181,
+            "nonFilm": 169,
+            "venuePoints": 67
+          },
+          "weekDefaultCircle": {
+            "total": 8,
+            "nonFilm": 8,
+            "venuePoints": 3
+          },
+          "daily": [
+            {
+              "date": "2026-10-14",
+              "citywide": {
+                "total": 37,
+                "nonFilm": 37,
+                "venuePoints": 25
+              },
+              "defaultCircle": {
+                "total": 0,
+                "nonFilm": 0,
+                "venuePoints": 0
+              }
+            },
+            {
+              "date": "2026-10-15",
+              "citywide": {
+                "total": 47,
+                "nonFilm": 46,
+                "venuePoints": 25
+              },
+              "defaultCircle": {
+                "total": 1,
+                "nonFilm": 1,
+                "venuePoints": 1
+              }
+            },
+            {
+              "date": "2026-10-16",
+              "citywide": {
+                "total": 47,
+                "nonFilm": 44,
+                "venuePoints": 26
+              },
+              "defaultCircle": {
+                "total": 3,
+                "nonFilm": 3,
+                "venuePoints": 2
+              }
+            },
+            {
+              "date": "2026-10-17",
+              "citywide": {
+                "total": 41,
+                "nonFilm": 37,
+                "venuePoints": 21
+              },
+              "defaultCircle": {
+                "total": 3,
+                "nonFilm": 3,
+                "venuePoints": 2
+              }
+            },
+            {
+              "date": "2026-10-18",
+              "citywide": {
+                "total": 21,
+                "nonFilm": 17,
+                "venuePoints": 8
+              },
+              "defaultCircle": {
+                "total": 0,
+                "nonFilm": 0,
+                "venuePoints": 0
+              }
+            },
+            {
+              "date": "2026-10-19",
+              "citywide": {
+                "total": 15,
+                "nonFilm": 15,
+                "venuePoints": 13
+              },
+              "defaultCircle": {
+                "total": 0,
+                "nonFilm": 0,
+                "venuePoints": 0
+              }
+            },
+            {
+              "date": "2026-10-20",
+              "citywide": {
+                "total": 13,
+                "nonFilm": 13,
+                "venuePoints": 11
+              },
+              "defaultCircle": {
+                "total": 1,
+                "nonFilm": 1,
+                "venuePoints": 1
+              }
+            }
+          ]
+        }
+      },
+      "moscow": {
+        "before": {
+          "week": {
+            "total": 2119,
+            "nonFilm": 400,
+            "venuePoints": 127
+          },
+          "weekDefaultCircle": {
+            "total": 39,
+            "nonFilm": 39,
+            "venuePoints": 9
+          },
+          "daily": [
+            {
+              "date": "2026-10-14",
+              "citywide": {
+                "total": 197,
+                "nonFilm": 66,
+                "venuePoints": 66
+              },
+              "defaultCircle": {
+                "total": 5,
+                "nonFilm": 5,
+                "venuePoints": 4
+              }
+            },
+            {
+              "date": "2026-10-15",
+              "citywide": {
+                "total": 332,
+                "nonFilm": 68,
+                "venuePoints": 67
+              },
+              "defaultCircle": {
+                "total": 5,
+                "nonFilm": 5,
+                "venuePoints": 4
+              }
+            },
+            {
+              "date": "2026-10-16",
+              "citywide": {
+                "total": 350,
+                "nonFilm": 76,
+                "venuePoints": 70
+              },
+              "defaultCircle": {
+                "total": 7,
+                "nonFilm": 7,
+                "venuePoints": 5
+              }
+            },
+            {
+              "date": "2026-10-17",
+              "citywide": {
+                "total": 376,
+                "nonFilm": 100,
+                "venuePoints": 77
+              },
+              "defaultCircle": {
+                "total": 7,
+                "nonFilm": 7,
+                "venuePoints": 5
+              }
+            },
+            {
+              "date": "2026-10-18",
+              "citywide": {
+                "total": 353,
+                "nonFilm": 86,
+                "venuePoints": 70
+              },
+              "defaultCircle": {
+                "total": 4,
+                "nonFilm": 4,
+                "venuePoints": 3
+              }
+            },
+            {
+              "date": "2026-10-19",
+              "citywide": {
+                "total": 298,
+                "nonFilm": 44,
+                "venuePoints": 55
+              },
+              "defaultCircle": {
+                "total": 5,
+                "nonFilm": 5,
+                "venuePoints": 5
+              }
+            },
+            {
+              "date": "2026-10-20",
+              "citywide": {
+                "total": 316,
+                "nonFilm": 63,
+                "venuePoints": 65
+              },
+              "defaultCircle": {
+                "total": 6,
+                "nonFilm": 6,
+                "venuePoints": 5
+              }
+            }
+          ]
+        },
+        "after": {
+          "week": {
+            "total": 2120,
+            "nonFilm": 401,
+            "venuePoints": 128
+          },
+          "weekDefaultCircle": {
+            "total": 39,
+            "nonFilm": 39,
+            "venuePoints": 9
+          },
+          "daily": [
+            {
+              "date": "2026-10-14",
+              "citywide": {
+                "total": 197,
+                "nonFilm": 66,
+                "venuePoints": 66
+              },
+              "defaultCircle": {
+                "total": 5,
+                "nonFilm": 5,
+                "venuePoints": 4
+              }
+            },
+            {
+              "date": "2026-10-15",
+              "citywide": {
+                "total": 332,
+                "nonFilm": 68,
+                "venuePoints": 67
+              },
+              "defaultCircle": {
+                "total": 5,
+                "nonFilm": 5,
+                "venuePoints": 4
+              }
+            },
+            {
+              "date": "2026-10-16",
+              "citywide": {
+                "total": 350,
+                "nonFilm": 76,
+                "venuePoints": 70
+              },
+              "defaultCircle": {
+                "total": 7,
+                "nonFilm": 7,
+                "venuePoints": 5
+              }
+            },
+            {
+              "date": "2026-10-17",
+              "citywide": {
+                "total": 377,
+                "nonFilm": 101,
+                "venuePoints": 78
+              },
+              "defaultCircle": {
+                "total": 7,
+                "nonFilm": 7,
+                "venuePoints": 5
+              }
+            },
+            {
+              "date": "2026-10-18",
+              "citywide": {
+                "total": 353,
+                "nonFilm": 86,
+                "venuePoints": 70
+              },
+              "defaultCircle": {
+                "total": 4,
+                "nonFilm": 4,
+                "venuePoints": 3
+              }
+            },
+            {
+              "date": "2026-10-19",
+              "citywide": {
+                "total": 298,
+                "nonFilm": 44,
+                "venuePoints": 55
+              },
+              "defaultCircle": {
+                "total": 5,
+                "nonFilm": 5,
+                "venuePoints": 5
+              }
+            },
+            {
+              "date": "2026-10-20",
+              "citywide": {
+                "total": 316,
+                "nonFilm": 63,
+                "venuePoints": 65
+              },
+              "defaultCircle": {
+                "total": 6,
+                "nonFilm": 6,
+                "venuePoints": 5
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "hashes": {
+    "palo-alto/events.json": "798ef88babbfee62708f515268e2cba8a79ea60497fd3bffacb76a6cbd269d77",
+    "en/palo-alto/events.json": "6b0c7dead5390345a3dd2217210b8222cbdae0f5ca9c7b3e2f7198c616da7b7e",
+    "moscow/events.json": "e966180732b0e9fd7990adb89b5987e11edc2c94275ac4fd9392c39291d03cd4",
+    "en/moscow/events.json": "761d9d04546cfd4df63abcc3c1caa96e5acb8bf79042ae1338e81c243fe4d4a5",
+    "moscow/places.json": "fe34f53e6d0830b72ed0c547eb5a5f59bc08002900b3d59533a6d34dd98c6040",
+    "en/moscow/places.json": "183cd3458d88be730f830276479408c310d9c9af9693ea348351c3551274becc"
+  },
+  "placeCategories": {
+    "bar": 18,
+    "space": 1,
+    "books": 3
+  }
+}

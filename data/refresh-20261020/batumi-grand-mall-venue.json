@@ -1,0 +1,38 @@
+{
+  "id": "batumi-cavea-grand-mall",
+  "kind": "place",
+  "cityId": "batumi",
+  "city": "Batumi",
+  "title": "Cavea Grand Mall Batumi",
+  "address": "29 Sherif Khimshiashvili Street, Grand Mall, 4th floor, Batumi",
+  "category": "cinema",
+  "lat": 41.635347,
+  "lng": 41.608042,
+  "coordinateSource": "https://yandex.com/maps/10278/batumi/house/YEgYcAdoSUEFQFprfXpydH9nYw%3D%3D/inside/",
+  "coordinatePrecision": "address_building",
+  "coordinateEvidence": "Yandex named address building 29 explicitly gives 41.635347, 41.608042 and lists Cavea inside on floor 4. This is a shopping-centre building point, not an auditorium or entrance coordinate. Official Cavea cinema directory corroborates address 29; mall tenant page independently confirms Cavea in Grand Mall.",
+  "source": "Cavea / Grand Mall / Yandex Maps",
+  "sourceUrl": "https://cavea.ge/cinemas",
+  "sourceURLs": [
+    "https://cavea.ge/cinemas",
+    "https://grandmall.com.ge/en/brands/cavea",
+    "https://yandex.com/maps/org/kavea/183552495350/",
+    "https://yandex.com/maps/10278/batumi/house/YEgYcAdoSUEFQFprfXpydH9nYw%3D%3D/inside/"
+  ],
+  "checkedAt": "2026-10-20T05:20:00Z",
+  "currency": "GEL",
+  "timezone": "Asia/Tbilisi",
+  "price": null,
+  "admission": "Cinema ticket required; price depends on session.",
+  "operatingStatusVerified": true,
+  "verificationNotes": [
+    "Cavea separate cinema detail page search result says 15 Khimshiashvili; do not reuse that conflicting address. The official cinema directory and named independent map both explicitly show 29.",
+    "No daily opening hours or universal admission price asserted."
+  ],
+  "accessType": "public",
+  "accessNote": "Public cinema; individual session ticket required.",
+  "venue": "Cavea Grand Mall Batumi",
+  "venueId": "batumi-cavea-grand-mall",
+  "coordinateAccuracy": "address_building",
+  "addressEvidence": "Official Cavea directory https://cavea.ge/cinemas explicitly lists 29 Sherif Khimshiashvili Street. Yandex named Cavea business corroborates number 29, floor 4. The mall official tenant page corroborates Cavea presence. Separate cinema detail page has conflicting number 15; the directory and named map agree on number 29."
+}

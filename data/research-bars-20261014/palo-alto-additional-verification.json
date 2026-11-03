@@ -1,0 +1,301 @@
+{
+  "title": "Additional Palo Alto bar handoff reconciliation",
+  "checked_date": "2026-10-14",
+  "policy": "Research queue only; no source/site files modified. Coordinates not invented. Null hours/day means unknown, [] means explicitly closed, +1 is following day.",
+  "counts": {
+    "additional_rows_reconciled": 8,
+    "operating_queue_pending_coordinates": 5,
+    "closed_predecessors": 1,
+    "duplicate_research_rows": 2
+  },
+  "records": [
+    {
+      "name": "BarZola",
+      "classification": "restaurant_cocktail_bar",
+      "status": "operating",
+      "address": "585 Bryant Street, Palo Alto, CA 94301",
+      "official_website": "https://www.zolapaloalto.com/",
+      "weekly_bar_hours": {
+        "mon": [
+          "16:00-22:30"
+        ],
+        "tue": [
+          "16:00-22:30"
+        ],
+        "wed": [
+          "16:00-22:30"
+        ],
+        "thu": [
+          "16:00-23:30"
+        ],
+        "fri": [
+          "16:00-23:30"
+        ],
+        "sat": [
+          "16:00-23:30"
+        ],
+        "sun": null
+      },
+      "hours_source": "https://www.zolapaloalto.com/",
+      "hours_quality": "official_but_sunday_not_listed",
+      "notes": [
+        "Bar service differs from dinner service (Mon-Sat 17:00-22:00); use bar service for bar browsing. Sunday is not stated in fetched official text, so remains unknown, not automatically closed."
+      ],
+      "action": "queue_pending_verified_coordinates",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "city": "Palo Alto",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "President’s Terrace",
+      "classification": "hotel_rooftop_bar",
+      "status": "operating",
+      "address": "488 University Avenue, Palo Alto, CA 94301",
+      "official_website": "https://www.presidentsterrace.com/",
+      "weekly_bar_hours": {
+        "mon": [
+          "16:00-22:00"
+        ],
+        "tue": [
+          "16:00-22:00"
+        ],
+        "wed": [
+          "16:00-22:00"
+        ],
+        "thu": [
+          "16:00-22:00"
+        ],
+        "fri": [
+          "16:00-23:00"
+        ],
+        "sat": [
+          "16:00-23:00"
+        ],
+        "sun": [
+          "16:00-22:00"
+        ]
+      },
+      "hours_source": "https://www.presidentsterrace.com/location/none/",
+      "hours_quality": "official",
+      "notes": [
+        "Last call for food and drinks is 30 minutes before closing."
+      ],
+      "action": "queue_pending_verified_coordinates",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "city": "Palo Alto",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "Nola",
+      "classification": "restaurant_bar",
+      "status": "operating",
+      "address": "535 Ramona Street, Palo Alto, CA 94301",
+      "official_website": "https://www.nolas.com/",
+      "weekly_bar_hours": {
+        "mon": [],
+        "tue": [
+          "11:30-23:00"
+        ],
+        "wed": [
+          "11:30-23:00"
+        ],
+        "thu": [
+          "11:30-23:00"
+        ],
+        "fri": [
+          "11:30-01:00+1"
+        ],
+        "sat": [
+          "11:00-01:00+1"
+        ],
+        "sun": [
+          "11:00-22:00"
+        ]
+      },
+      "hours_source": "https://www.nolas.com/",
+      "hours_quality": "official_venue_opening_and_explicit_bar_closing",
+      "notes": [
+        "Website gives restaurant opening times and separate bar closing times; schedule combines these, not restaurant dinner cutoffs. Monday explicitly closed."
+      ],
+      "action": "queue_pending_verified_coordinates",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "city": "Palo Alto",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "The Patio @ Rudy’s",
+      "classification": "restaurant_sports_bar_nightlife",
+      "status": "operating",
+      "address": "412 Emerson Street, Palo Alto, CA 94301",
+      "official_website": "https://www.thepatiopa.com/",
+      "weekly_bar_hours": null,
+      "official_partial_hours": {
+        "all_days_open": "11:00",
+        "closing_time": null
+      },
+      "hours_source": "https://www.thepatiopa.com/",
+      "hours_quality": "official_opening_only",
+      "provisional_secondary_hours": {
+        "mon": [
+          "11:00-01:00+1"
+        ],
+        "tue": [
+          "11:00-01:00+1"
+        ],
+        "wed": [
+          "11:00-01:30+1"
+        ],
+        "thu": [
+          "11:00-01:30+1"
+        ],
+        "fri": [
+          "11:00-01:30+1"
+        ],
+        "sat": [
+          "11:00-01:30+1"
+        ],
+        "sun": [
+          "11:00-00:00+1"
+        ]
+      },
+      "provisional_hours_source": "https://www.restaurantji.com/ca/palo-alto/the-patio-/",
+      "evidence": [
+        "https://www.thepatiopa.com/contact",
+        "https://eservices.sccgov.org/facilityinspection/Home/ShowHistory?id=PR0305373"
+      ],
+      "notes": [
+        "Official source gives daily 11:00 opening but no closing times. Secondary listings conflict; full weekly schedule must not be marked official."
+      ],
+      "action": "queue_pending_verified_coordinates_and_closing_hours",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "city": "Palo Alto",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "Vino Locale",
+      "classification": "wine_bar_restaurant",
+      "status": "operating",
+      "address": "431 Kipling Street, Palo Alto, CA 94301",
+      "official_website": "https://vinolocale.com/",
+      "weekly_bar_hours": null,
+      "official_partial_hours": {
+        "lunch": {
+          "mon": null,
+          "tue": [
+            "11:30-14:00"
+          ],
+          "wed": [
+            "11:30-14:00"
+          ],
+          "thu": [
+            "11:30-14:00"
+          ],
+          "fri": [
+            "11:30-14:00"
+          ],
+          "sat": null,
+          "sun": null
+        },
+        "evening_start": "15:30",
+        "evening_close": null
+      },
+      "hours_source": "https://vinolocale.com/",
+      "hours_quality": "official_partial",
+      "provisional_partner_evening_hours": {
+        "mon": null,
+        "tue": [
+          "15:30-21:00"
+        ],
+        "wed": [
+          "15:30-21:00"
+        ],
+        "thu": [
+          "15:30-21:00"
+        ],
+        "fri": [
+          "15:30-21:30"
+        ],
+        "sat": [
+          "15:30-21:30"
+        ],
+        "sun": null
+      },
+      "provisional_hours_source": "https://www.opentable.com/r/vino-locale-palo-alto",
+      "notes": [
+        "The .org transferred source is a stale parallel site with 2025 events and older menu/happy-hour timing. Prefer .com, linked by booking partner and currently updated Sept 2026. Do not publish 2025 music dates as upcoming. Monday/Sunday not explicitly stated in fetched weekly information; unknown."
+      ],
+      "action": "queue_pending_verified_coordinates_and_complete_hours",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "city": "Palo Alto",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "Calave",
+      "classification": "closed_predecessor",
+      "status": "permanently_closed_replaced",
+      "address_historical": "299 S California Avenue #115, Palo Alto, CA 94306",
+      "official_website": null,
+      "weekly_bar_hours": null,
+      "successor": {
+        "name": "Bar Underdog",
+        "osm_id": "osm:node:4559150502",
+        "address": "299 S California Avenue #110, Palo Alto, CA 94306",
+        "official_website": "https://barunderdogpa.com/"
+      },
+      "evidence": [
+        "https://www.almanacnews.com/food/2025/09/22/the-team-behind-palo-altos-michelin-starred-protege-debuts-bar-underdog-along-california-avenue/",
+        "https://barunderdogpa.com/",
+        "https://eservices.sccgov.org/FacilityInspection/Home/ShowDetail/PR0420571",
+        "https://order.toasttab.com/online/calave-palo-alto"
+      ],
+      "notes": [
+        "Owner-interview reporting explicitly confirms Calave closed in 2024 and Bar Underdog took over its existing bar premises, opening Sept 18 2025. This resolves location relationship despite historic #115 versus current owner/county #110.",
+        "Keep Calave as historical predecessor, not a current name alias or active second bar. Toast page still displays #115 and stale opening text, but says it is not accepting online orders. That page is not proof of continued operation."
+      ],
+      "action": "exclude_closed_predecessor_no_active_duplicate",
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "city": "Palo Alto",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "The Wine Room",
+      "status": "duplicate_research_candidate",
+      "duplicate_of": "osm:node:11412826374",
+      "action": "merge_into_confirmed_candidate_no_second_place",
+      "evidence": [
+        "https://thepawineroom.com/"
+      ],
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "city": "Palo Alto",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "Scotty’s Bar & Grill",
+      "status": "duplicate_research_candidate",
+      "duplicate_of": "osm:way:132182085",
+      "action": "merge_into_confirmed_candidate_no_second_place",
+      "evidence": [
+        "https://www.scottysbarpa.com/"
+      ],
+      "checked_date": "2026-10-14",
+      "timezone": "America/Los_Angeles",
+      "city": "Palo Alto",
+      "lat": null,
+      "lng": null
+    }
+  ]
+}

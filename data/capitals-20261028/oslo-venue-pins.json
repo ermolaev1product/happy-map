@@ -1,0 +1,185 @@
+{
+  "checkedAt": "2026-10-28T02:51:11.968299+00:00",
+  "venues": [
+    {
+      "venue": "Norges musikkhøgskole",
+      "address": "Slemdalsveien 11, 0369 Oslo",
+      "lat": 59.932369,
+      "lng": 10.714164,
+      "coordinateSource": "https://nmh.no/arrangementer/coffee-schmoffee-1-2026",
+      "mapUrl": "https://goo.gl/maps/u7K8pMooutMzawNm6",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Official Finn veien link resolves named Norges musikkhøgskole marker payload !3d59.932369!4d10.714164. Same address confirmed https://nmh.no/kontakt-oss. Final Google renderer blocked non-retryable; no retry or bypass.",
+      "name": "Norges musikkhøgskole",
+      "precision": "venue",
+      "source": "https://nmh.no/arrangementer/coffee-schmoffee-1-2026",
+      "evidence": "Official Finn veien link resolves named Norges musikkhøgskole marker payload !3d59.932369!4d10.714164. Same address confirmed https://nmh.no/kontakt-oss. Final Google renderer blocked non-retryable; no retry or bypass."
+    },
+    {
+      "venue": "Akershus slottskirke",
+      "address": "Akershus Festning, 0150 Oslo",
+      "lat": 59.90642,
+      "lng": 10.73643,
+      "coordinateSource": "https://mapcarta.com/N8402143318",
+      "coordinatePrecision": "venue_approximate",
+      "coordinateEvidence": "Full named church OSM node 8402143318 mirror read; located inside southern fortress as official event address. Not fortress/city centroid. Direct OSM returned cache miss.",
+      "addressSource": "https://www.visitoslo.com/event/free-lunch-concert-at-the-slottskirken",
+      "name": "Akershus slottskirke",
+      "precision": "venue_approximate",
+      "source": "https://mapcarta.com/N8402143318",
+      "evidence": "Full named church OSM node 8402143318 mirror read; located inside southern fortress as official event address. Not fortress/city centroid. Direct OSM returned cache miss."
+    },
+    {
+      "venue": "IBSEN Museum & Teater",
+      "address": "Henrik Ibsens gate 26, Oslo",
+      "lat": 59.91503,
+      "lng": 10.72705,
+      "coordinateSource": "https://mapcarta.com/W90768996",
+      "coordinatePrecision": "building_centroid",
+      "coordinateEvidence": "Full OSM way90768996 mirror identifies named museum, operatorNorskFolkemuseum and officialibsenmt.no, buildingcoordinate notcitycentroid; officialVisitOslo exactaddress confirms same venue.",
+      "addressSource": "https://www.visitoslo.com/attraction/ibsen-museum-teater",
+      "name": "IBSEN Museum & Teater",
+      "precision": "building_centroid",
+      "source": "https://mapcarta.com/W90768996",
+      "evidence": "Full OSM way90768996 mirror identifies named museum, operatorNorskFolkemuseum and officialibsenmt.no, buildingcoordinate notcitycentroid; officialVisitOslo exactaddress confirms same venue."
+    },
+    {
+      "venue": "Frøyas have",
+      "address": "Drammensveien 89, Oslo; entrance via Skarpsnoparken",
+      "lat": 59.91573,
+      "lng": 10.69671,
+      "coordinateSource": "https://mapcarta.com/W5249065",
+      "coordinatePrecision": "venue_area_centroid",
+      "coordinateEvidence": "Full OSM parkway5249065 mirror read; coordinate is named park area, NOT precise entrance. Event address entranceviaSkarpsnoparken must remain explicit; officialaddress still requires researcher eventdetail confirmation.",
+      "addressSource": "https://www.visitoslo.com/event/halloween-fr-yas-have-oslo-2026",
+      "status": "pending_address_detail_crosscheck",
+      "name": "Frøyas have",
+      "precision": "venue_area_centroid",
+      "source": "https://mapcarta.com/W5249065",
+      "evidence": "Full OSM parkway5249065 mirror read; coordinate is named park area, NOT precise entrance. Event address entranceviaSkarpsnoparken must remain explicit; officialaddress still requires researcher eventdetail confirmation."
+    },
+    {
+      "venue": "Vestkanttorvet",
+      "address": "Professor Dahls gate, Oslo",
+      "lat": 59.92424,
+      "lng": 10.71373,
+      "coordinateSource": "https://mapcarta.com/W29500226",
+      "coordinatePrecision": "venue_area_centroid",
+      "coordinateEvidence": "Full named Vestkanttorget OSMway29500226 mirror read; public square/market area rather than exact stall entrance. Exact location named in official market detail.",
+      "addressSource": "https://www.visitoslo.com/event/vestkanttorvet-antique-and-second-hand-market",
+      "checkedAt": "2026-10-28T02:33:06Z",
+      "name": "Vestkanttorvet",
+      "precision": "venue_area_centroid",
+      "source": "https://mapcarta.com/W29500226",
+      "evidence": "Full named Vestkanttorget OSMway29500226 mirror read; public square/market area rather than exact stall entrance. Exact location named in official market detail."
+    },
+    {
+      "name": "Becco",
+      "address": "Kristian Augusts gate 11, 0164 Oslo",
+      "lat": 59.91675877902305,
+      "lng": 10.737756213975889,
+      "precision": "address_representative_point; not surveyed venue entrance; not city center",
+      "source": "https://api.kartverket.no/adresser/v1/sok?sok=Kristian+Augusts+gate+11+Oslo&treffPerSide=5",
+      "evidence": "Exact full street/number and Oslo municipality matched. Venue is in back courtyard behind street address; address pin may differ from courtyard entrance. Use approximate-address label, not exact entrance."
+    },
+    {
+      "name": "Dansens Hus",
+      "address": "Vulkan 1, 0182 Oslo",
+      "lat": 59.921391258259405,
+      "lng": 10.752559155128992,
+      "precision": "address_representative_point; not surveyed venue entrance; not city center",
+      "source": "https://api.kartverket.no/adresser/v1/sok?sok=Vulkan+1+Oslo&treffPerSide=5",
+      "evidence": "Exact full street/number and Oslo municipality matched. "
+    },
+    {
+      "name": "Trekanten",
+      "address": "Pilestredet 24, 0165 Oslo",
+      "lat": 59.917479579679124,
+      "lng": 10.73942169969718,
+      "precision": "address_representative_point; not surveyed venue entrance; not city center",
+      "source": "https://api.kartverket.no/adresser/v1/sok?sok=Pilestredet+24+Oslo&treffPerSide=5",
+      "evidence": "Exact full street/number and Oslo municipality matched. Trekanten excludes Pilestredet Park24 false-positive. Venue own current address Pilestredet24; festival lists St.Olavs plass5. Own entrance-side address preferred. No relocation established."
+    },
+    {
+      "name": "Parkteatret",
+      "address": "Olaf Ryes plass 11, 0552 Oslo",
+      "lat": 59.923491593862295,
+      "lng": 10.758325345993262,
+      "precision": "address_representative_point; not surveyed venue entrance; not city center",
+      "source": "https://api.kartverket.no/adresser/v1/sok?sok=Olaf+Ryes+plass+11+Oslo&treffPerSide=5",
+      "evidence": "Exact full street/number and Oslo municipality matched. Kartverket exact official address supports eastern Wikipedia coordinate near10.75833, not Commons category10.756133. Use address-level coordinate, not contradictory Commons."
+    },
+    {
+      "name": "Sentrum Scene",
+      "address": "Arbeidersamfunnets plass 1, 0181 Oslo",
+      "lat": 59.915522025173345,
+      "lng": 10.751804294249158,
+      "precision": "address_representative_point; not surveyed venue entrance; not city center",
+      "source": "https://api.kartverket.no/adresser/v1/sok?sok=Arbeidersamfunnets+plass+1+Oslo&treffPerSide=5",
+      "evidence": "Exact full street/number and Oslo municipality matched. "
+    },
+    {
+      "name": "Cosmopolite",
+      "address": "Vogts gate 64, 0477 Oslo",
+      "lat": 59.9361466493251,
+      "lng": 10.765707094455388,
+      "precision": "address_representative_point; not surveyed venue entrance; not city center",
+      "source": "https://api.kartverket.no/adresser/v1/sok?sok=Vogts+gate+64+Oslo&treffPerSide=5",
+      "evidence": "Exact full street/number and Oslo municipality matched. "
+    },
+    {
+      "name": "Riksscenen",
+      "address": "Schous Kulturbryggeri, Trondheimsveien 2T, Oslo",
+      "lat": 59.9197043,
+      "lng": 10.7608831,
+      "precision": "named_venue_point; source !3d !4d coordinates, NOT @ viewport",
+      "source": "https://maps.app.goo.gl/3kopR3DYNbvrWVE28",
+      "evidence": "Official Ditt besøk address hyperlink redirects to named Riksscenen entity; tool exposes complete redirect even though destination rendering inaccessible. Kartverket query2T found no result; official named map used instead.0506 is official postal-box postcode, not confirmed visitor postcode."
+    },
+    {
+      "name": "Vinslottet",
+      "address": "Bøkkerveien 4, 0579 Oslo",
+      "lat": 59.92697999876442,
+      "lng": 10.793997529872943,
+      "precision": "address_representative_point",
+      "source": "https://api.kartverket.no/adresser/v1/sok?sok=B%C3%B8kkerveien+4+Oslo&treffPerSide=5",
+      "evidence": "Kartverket official exact full street address and Oslo municipality matched; EPSG4258 representative address point, not a city/postcode centroid or surveyed venue entrance. Geodetic verification: True"
+    },
+    {
+      "name": "Vinkelplassen",
+      "address": "Kirkeveien 59, 0364 Oslo",
+      "lat": 59.92898071557618,
+      "lng": 10.716221214320008,
+      "precision": "address_representative_point",
+      "source": "https://api.kartverket.no/adresser/v1/sok?sok=Kirkeveien+59+Oslo&treffPerSide=5",
+      "evidence": "Kartverket official exact full street address and Oslo municipality matched; EPSG4258 representative address point, not a city/postcode centroid or surveyed venue entrance. Geodetic verification: True"
+    },
+    {
+      "name": "Norwegian School of Sport Sciences",
+      "address": "Sognsveien 220, 0863 Oslo",
+      "lat": 59.96674574302014,
+      "lng": 10.73221610569738,
+      "precision": "address_representative_point",
+      "source": "https://api.kartverket.no/adresser/v1/sok?sok=Sognsveien+220+Oslo&treffPerSide=5",
+      "evidence": "Kartverket official exact full street address and Oslo municipality matched; EPSG4258 representative address point, not a city/postcode centroid or surveyed venue entrance. Geodetic verification: True"
+    },
+    {
+      "name": "Herr Nilsen",
+      "address": "C. J. Hambros plass 5, 0164 Oslo",
+      "lat": 59.91540665264817,
+      "lng": 10.740851482974401,
+      "precision": "address_representative_point",
+      "source": "https://api.kartverket.no/adresser/v1/sok?sok=C.+J.+Hambros+plass+5+Oslo&treffPerSide=5",
+      "evidence": "Kartverket official exact full street address and Oslo municipality matched; EPSG4258 representative address point, not a city/postcode centroid or surveyed venue entrance. Geodetic verification: False"
+    },
+    {
+      "name": "Universitetets aula",
+      "address": "Karl Johans gate 47, 0162 Oslo",
+      "lat": 59.91535570075229,
+      "lng": 10.735178715248589,
+      "precision": "address_representative_point",
+      "source": "https://api.kartverket.no/adresser/v1/sok?sok=Karl+Johans+gate+47+Oslo&treffPerSide=5",
+      "evidence": "Kartverket official exact full street address and Oslo municipality matched; EPSG4258 representative address point, not a city/postcode centroid or surveyed venue entrance. Geodetic verification: False"
+    }
+  ]
+}

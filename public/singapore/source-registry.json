@@ -1,0 +1,727 @@
+{
+  "city": "Singapore",
+  "checkedAt": "2026-10-29T03:06:28.166357+00:00",
+  "sources": [
+    {
+      "id": "singapore-source-ecd8eb3342964a",
+      "name": "www.visitsingapore.com",
+      "url": "https://www.visitsingapore.com/whats-happening/all-happenings/",
+      "checkedAt": "2026-10-29T02:44:12.354379+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-4183667b5eabb1",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on",
+      "checkedAt": "2026-10-29T02:44:17.358363+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-32ae7feb64d3d3",
+      "name": "www.nafa.edu.sg",
+      "url": "https://www.nafa.edu.sg/events",
+      "checkedAt": "2026-10-29T02:44:24.123667+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-e78819e82db5af",
+      "name": "sagg.info",
+      "url": "https://sagg.info/?event_range=upcoming",
+      "checkedAt": "2026-10-29T02:44:26.824682+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-616b5ffff306b8",
+      "name": "eventsingapore.com",
+      "url": "https://eventsingapore.com/whats-on/",
+      "checkedAt": "2026-10-29T02:44:33.029796+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-c0018a96960884",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/2026/asian-intercultural-conference-aic-2026-staging-the-unseen-bodies-power-and-belonging",
+      "checkedAt": "2026-10-29T02:45:14.926914+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 3,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-9045258d02fe33",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026",
+      "checkedAt": "2026-10-29T02:45:20.942944+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-ee068cd667e270",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026",
+      "checkedAt": "2026-10-29T02:45:24.678036+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-cb08b0427e84ce",
+      "name": "www.marinabaysands.com",
+      "url": "https://www.marinabaysands.com/entertainment/shows/cats-the-musical.html",
+      "checkedAt": "2026-10-29T02:45:27.811850+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 30,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-a9747f8ce01274",
+      "name": "www.marinabaysands.com",
+      "url": "https://www.marinabaysands.com/museum/programmes/in-the-ether.html",
+      "checkedAt": "2026-10-29T02:45:31.509527+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 3,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-1fd79cdff3dfed",
+      "name": "sagg.info",
+      "url": "https://sagg.info/event/the-art-journey-of-singapore/",
+      "checkedAt": "2026-10-29T02:45:29.649661+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-a888d8cda9fb19",
+      "name": "www.nationalgallery.sg",
+      "url": "https://www.nationalgallery.sg/sg/en/exhibitions/When-Art-Meets-Nature.html",
+      "checkedAt": "2026-10-29T02:45:35.216414+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-19ee8de8463f2c",
+      "name": "sagg.info",
+      "url": "https://sagg.info/event/liminality/",
+      "checkedAt": "2026-10-29T02:45:35.414000+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-1f93eece3a8b2c",
+      "name": "www.thestar.sg",
+      "url": "https://www.thestar.sg/events/interstellar---live",
+      "checkedAt": "2026-10-29T02:45:38.405535+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-e854b17256c2f3",
+      "name": "www.thestar.sg",
+      "url": "https://www.thestar.sg/events/trevor-noah",
+      "checkedAt": "2026-10-29T02:45:41.612073+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-e7969b19e0499e",
+      "name": "sagg.info",
+      "url": "https://sagg.info/event/dramatis-personae-1001-lives/",
+      "checkedAt": "2026-10-29T02:45:39.742278+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-5ceafc185e49ae",
+      "name": "sagg.info",
+      "url": "https://sagg.info/event/yoo-hyun-mi-the-blank-puzzle-the-image-yet-to-come/",
+      "checkedAt": "2026-10-29T02:45:46.218959+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-7e9703e6cf790b",
+      "name": "artshousegroup.sg",
+      "url": "https://artshousegroup.sg/whats-on/whats-on-details/music/sso-organ-series-phantoms-and-organs",
+      "checkedAt": "2026-10-29T02:45:45.549075+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-9f396f0991ec28",
+      "name": "sagg.info",
+      "url": "https://sagg.info/event/singapore-clay-festival-2026/",
+      "checkedAt": "2026-10-29T02:45:51.022990+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-ce15a37ee20378",
+      "name": "www.suntecsingapore.com",
+      "url": "https://www.suntecsingapore.com/visit-events/craft-festival-2026-1",
+      "checkedAt": "2026-10-29T02:45:51.635471+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-3eeab3376cf756",
+      "name": "sagg.info",
+      "url": "https://sagg.info/event/departures-edition-2/",
+      "checkedAt": "2026-10-29T02:45:55.241232+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-b3bbb651a4c158",
+      "name": "www.suntecsingapore.com",
+      "url": "https://www.suntecsingapore.com/visit-events/cybersg-innovation-day-2026",
+      "checkedAt": "2026-10-29T02:45:58.577063+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-f6c4434a27cfbb",
+      "name": "www.gardensbythebay.com.sg",
+      "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/gardens-by-the-bay-christmas-train-show-2026.html",
+      "checkedAt": "2026-10-29T02:46:02.321615+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-49f70db96c914b",
+      "name": "visualartscentre.sg",
+      "url": "https://visualartscentre.sg/event_listing_category/exhibitions/",
+      "checkedAt": "2026-10-29T02:46:14.643301+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-e46b88f45de1c1",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/sit-and-chill-with-gaston-liew",
+      "checkedAt": "2026-10-29T02:46:24.528201+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-870a8ef1191959",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/nadya-zaheer",
+      "checkedAt": "2026-10-29T02:46:28.486755+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-aa8b21291a442c",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/festivals-and-series/popaholic/2026/oake",
+      "checkedAt": "2026-10-29T02:46:31.870194+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-3a2c332f6cb748",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/beginners-dj-workshop-with-dialled-in",
+      "checkedAt": "2026-10-29T02:46:36.423384+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-8c6873dfed379f",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/follow-the-thread-the-dori-on-discovering-south-asian-craft",
+      "checkedAt": "2026-10-29T02:46:39.505907+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-517129c96367a9",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/paatis-spice-kitchen-sensory-storytelling-workshop",
+      "checkedAt": "2026-10-29T02:46:42.863687+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-c44e6413cf0356",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/parent-child-bharatanatyam-workshop-sahachara-moving-together",
+      "checkedAt": "2026-10-29T02:46:47.319946+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-9383c4327ac46e",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/tamil-spoken-word-poetry",
+      "checkedAt": "2026-10-29T02:46:51.625672+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 2,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-1cea91a5dd01ee",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/whats-on/festivals-and-series/kalaa-utsavam-indian-festival-of-arts/2026/rafta-rafta",
+      "checkedAt": "2026-10-29T02:46:55.670659+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 7,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-5abe76e2799621",
+      "name": "redseagallery.com",
+      "url": "https://redseagallery.com/exhibitions/liminality/",
+      "checkedAt": "2026-10-29T02:47:17.669767+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-3fe5f8ffe24bae",
+      "name": "gajahgallery.com",
+      "url": "https://gajahgallery.com/exhibition/dramatis-personae-1001-lives/",
+      "checkedAt": "2026-10-29T02:47:23.139795+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-6ff9e21c28db71",
+      "name": "www.singaporeclayfest.com",
+      "url": "https://www.singaporeclayfest.com/",
+      "checkedAt": "2026-10-29T02:47:28.800720+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 3,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-7436acc072eb1f",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/visit",
+      "checkedAt": "2026-10-29T02:47:32.834915+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-f27be40684ac43",
+      "name": "www.thestar.sg",
+      "url": "https://www.thestar.sg/",
+      "checkedAt": "2026-10-29T02:47:36.224865+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-2b00b78fcb5b01",
+      "name": "www.thestar.sg",
+      "url": "https://www.thestar.sg/getting-to-the-star",
+      "checkedAt": "2026-10-29T02:48:03.284367+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-9490c05b84cbef",
+      "name": "www.esplanade.com",
+      "url": "https://www.esplanade.com/visit/visitor-guide/getting-here-and-around",
+      "checkedAt": "2026-10-29T02:48:06.317161+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-115371ed9623d2",
+      "name": "redseagallery.com",
+      "url": "https://redseagallery.com/contact/",
+      "checkedAt": "2026-10-29T02:48:09.763322+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-f2a88372d61c06",
+      "name": "goo.gl",
+      "url": "https://goo.gl/maps/h3C1i8cmdFhzKA3H7",
+      "checkedAt": "2026-10-29T02:48:13.244946+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-2e1c1d6bfa04da",
+      "name": "tig.cybersg.sg",
+      "url": "https://tig.cybersg.sg/",
+      "checkedAt": "2026-10-29T02:48:19.112384+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-e21fa18302403f",
+      "name": "www.commontouchcraft.com",
+      "url": "https://www.commontouchcraft.com/craftfest",
+      "checkedAt": "2026-10-29T02:48:24.017439+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-dccf6cb27528af",
+      "name": "www.google.com",
+      "url": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d997.2018291177345!2d103.85567752513123!3d1.2898721051171402!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a7ec1ae549%3A0xb955a5f90a365835!2sEsplanade+-+Theatres+on+the+Bay%2C+Singapore!5e0!3m2!1sen!2ssg!4v1428497649859",
+      "checkedAt": "2026-10-29T02:48:54.511640+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-1f643d85b72f18",
+      "name": "www.google.com.sg",
+      "url": "https://www.google.com.sg/maps/place/The+Star+Performing+Arts+Centre/@1.306973,103.788327,18z/data=!3m1!4b1!4m2!3m1!1s0x31da1a42eafab277:0xd5b2686876584c69?hl=en",
+      "checkedAt": "2026-10-29T02:48:57.671457+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-ae663ed77e4a14",
+      "name": "www.gardensbythebay.com.sg",
+      "url": "https://www.gardensbythebay.com.sg/en/plan-your-visit/getting-here.html",
+      "checkedAt": "2026-10-29T02:49:00.351085+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-7a89107275d9fd",
+      "name": "www.marinabaysands.com",
+      "url": "https://www.marinabaysands.com/museum/plan-your-visit.html",
+      "checkedAt": "2026-10-29T02:49:17.614287+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-eb43f1ff304845",
+      "name": "baseasia.com",
+      "url": "https://baseasia.com/theatre-rental/",
+      "checkedAt": "2026-10-29T02:49:21.684030+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-ad39b7ddcacc03",
+      "name": "www.wikidata.org",
+      "url": "https://www.wikidata.org/wiki/Q2744014",
+      "checkedAt": "2026-10-29T02:49:25.326230+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-01e32fa0419b11",
+      "name": "www.waze.com",
+      "url": "https://www.waze.com/live-map/directions/sg/singapore/sands-theatre?to=place.ChIJO5e9kQYZ2jER97FNDeq_gxQ",
+      "checkedAt": "2026-10-29T02:49:29.528551+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-10a60eea102f92",
+      "name": "tig.cybersg.sg",
+      "url": "https://tig.cybersg.sg/event/cybersg-innovation-day-2026/",
+      "checkedAt": "2026-10-29T02:49:41.210883+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-d362b9cb0ad219",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/W393090489",
+      "checkedAt": "2026-10-29T02:49:53.177216+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-58b2b30d1be236",
+      "name": "www.google.com",
+      "url": "https://www.google.com/maps/search/?api=1&query=Flower+Dome+Singapore",
+      "checkedAt": "2026-10-29T02:49:56.527706+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-68c6f6bb9bc120",
+      "name": "www.findlatitudeandlongitude.com",
+      "url": "https://www.findlatitudeandlongitude.com/l/artscience%2Bmuseum%2Bsingapore/1341662/",
+      "checkedAt": "2026-10-29T02:49:59.222866+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-31ebc983e704eb",
+      "name": "commons.wikimedia.org",
+      "url": "https://commons.wikimedia.org/wiki/Category:The_Star_Vista",
+      "checkedAt": "2026-10-29T02:50:45.548459+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-220479142f8c2d",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/ArtScience_Museum",
+      "checkedAt": "2026-10-29T02:50:48.058436+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-128378774baa93",
+      "name": "aroundus.com",
+      "url": "https://aroundus.com/p/171422653-flower-dome",
+      "checkedAt": "2026-10-29T02:50:51.412044+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-5e555a5993213f",
+      "name": "go.gov.sg",
+      "url": "https://go.gov.sg/cybersginnovationday2026",
+      "checkedAt": "2026-10-29T02:51:15.045588+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-44231d365c2931",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/N11361584770",
+      "checkedAt": "2026-10-29T02:51:52.520540+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-f35ac92efcda63",
+      "name": "ticketmaster.sg",
+      "url": "https://ticketmaster.sg/venues/the-star-performing-arts-centre-the-star-theatre?type=table",
+      "checkedAt": "2026-10-29T02:51:57.229727+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-426eda02a4b074",
+      "name": "www.checkonsite.com",
+      "url": "https://www.checkonsite.com/the-star-performing-arts-centre/",
+      "checkedAt": "2026-10-29T02:54:49.927318+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "406; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-41d06d2db00bc9",
+      "name": "www.gardensbythebay.com.sg",
+      "url": "https://www.gardensbythebay.com.sg/en/plan-your-visit/opening-hours.html",
+      "checkedAt": "2026-10-29T02:55:06.118047+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-91feeae19f4313",
+      "name": "www.sistic.com.sg",
+      "url": "https://www.sistic.com.sg/events/ORT2644-1",
+      "checkedAt": "2026-10-29T02:55:11.528875+00:00",
+      "status": "access_blocked",
+      "accessStatus": "access_blocked",
+      "count": 0,
+      "note": "403; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-52a7287c1519a4",
+      "name": "www.sso.org.sg",
+      "url": "https://www.sso.org.sg/whats-on/organ-series-phantoms-organs-phoon-yu",
+      "checkedAt": "2026-10-29T02:55:32.780032+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 3,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-ba6d13693a3a42",
+      "name": "www.mom.gov.sg",
+      "url": "https://www.mom.gov.sg/employment-practices/public-holidays",
+      "checkedAt": "2026-10-29T02:55:38.145951+00:00",
+      "status": "read_full_source",
+      "accessStatus": "read_full_source",
+      "count": 0,
+      "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "singapore-source-d50b2545ae89e2",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/Victoria_Theatre_and_Concert_Hall_R3899820",
+      "checkedAt": "2026-10-29T03:04:49.168335+00:00",
+      "status": "full_source_evidence_reviewed",
+      "accessStatus": "full_source_evidence_reviewed",
+      "count": 0,
+      "note": "Not a new source request by normalizer",
+      "sourceReadAt": null,
+      "checkedAtSemantics": "Named building point review timestamp; exact original request seconds not separately retained in supplied pin sidecar"
+    },
+    {
+      "id": "singapore-source-a19ee0d7f05006",
+      "name": "api.openstreetmap.org",
+      "url": "https://api.openstreetmap.org/api/0.6/relation/3899820/full.json",
+      "checkedAt": "2026-10-29T03:04:49.168335+00:00",
+      "status": "full_source_evidence_reviewed",
+      "accessStatus": "full_source_evidence_reviewed",
+      "count": 0,
+      "note": "Not a new source request by normalizer",
+      "sourceReadAt": null,
+      "checkedAtSemantics": "Named building point review timestamp; exact original request seconds not separately retained in supplied pin sidecar"
+    },
+    {
+      "id": "singapore-source-eab150ce923835",
+      "name": "mapcarta.com",
+      "url": "https://mapcarta.com/35533320",
+      "checkedAt": "2026-10-29T03:05:56.763876+00:00",
+      "status": "full_source_evidence_reviewed",
+      "accessStatus": "full_source_evidence_reviewed",
+      "count": 0,
+      "note": "Not a new request by normalizer",
+      "sourceReadAt": null,
+      "checkedAtSemantics": "Named building review timestamp; exact request seconds not separately retained in supplied pin sidecar"
+    },
+    {
+      "id": "singapore-source-9bee755c9e077b",
+      "name": "api.openstreetmap.org",
+      "url": "https://api.openstreetmap.org/api/0.6/way/1080516770/full.json",
+      "checkedAt": "2026-10-29T03:05:56.763876+00:00",
+      "status": "full_source_evidence_reviewed",
+      "accessStatus": "full_source_evidence_reviewed",
+      "count": 0,
+      "note": "Not a new request by normalizer",
+      "sourceReadAt": null,
+      "checkedAtSemantics": "Named building review timestamp; exact request seconds not separately retained in supplied pin sidecar"
+    },
+    {
+      "id": "singapore-source-b5b7e7a6b8485b",
+      "name": "singaporeccc.org.sg",
+      "url": "https://singaporeccc.org.sg/visit/",
+      "checkedAt": "2026-10-29T03:05:56.763876+00:00",
+      "status": "full_source_evidence_reviewed",
+      "accessStatus": "full_source_evidence_reviewed",
+      "count": 0,
+      "note": "Not a new request by normalizer",
+      "sourceReadAt": null,
+      "checkedAtSemantics": "Named building review timestamp; exact request seconds not separately retained in supplied pin sidecar"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

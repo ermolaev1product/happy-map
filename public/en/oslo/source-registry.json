@@ -1,0 +1,83 @@
+{
+  "city": "Oslo",
+  "checkedAt": "2026-10-28T02:31:20Z",
+  "sources": [
+    {
+      "id": "oslo-source-d943280e233809",
+      "name": "VisitOslo main city calendar",
+      "url": "https://www.visitoslo.com/whats-on/events",
+      "checkedAt": "2026-10-28T02:31:20Z",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 16,
+      "note": "Main and7category first-visible pages reviewed; next controls had no accessible link. Not complete pagination/import.",
+      "type": "official_city_calendar"
+    },
+    {
+      "id": "oslo-source-67986e6a3519e1",
+      "name": "Oslo World official festival programme",
+      "url": "https://osloworld.no/festival/program",
+      "checkedAt": "2026-10-28T02:31:20Z",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 8,
+      "note": "Read full details; year established via official2026festival range. Cancelled/soldout/conflicting records held.",
+      "type": "official_festival"
+    },
+    {
+      "id": "oslo-source-c4d0444f36bcec",
+      "name": "Norwegian Academy of Music programme",
+      "url": "https://nmh.no/arrangementer",
+      "checkedAt": "2026-10-28T02:31:20Z",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 12,
+      "note": "Explicit2026dated programme and event details; correct organizer09:00 beats VisitOslo10:00 CoffeeSchmoffee.",
+      "type": "official_organizer"
+    },
+    {
+      "id": "oslo-source-c7b0b9fb7ff9f9",
+      "name": "Hei Norway public Telegram",
+      "url": "https://t.me/s/hei_norway",
+      "checkedAt": "2026-10-28T02:31:20Z",
+      "status": "no_relevant_dated_announcements",
+      "accessStatus": "no_relevant_dated_announcements",
+      "count": 0,
+      "note": "Public channel concerns Trondheim/Norway; no target-window Oslo event established.",
+      "type": "telegram"
+    },
+    {
+      "id": "oslo-source-22b938cf2aa6a5",
+      "name": "Oslo Norway chat",
+      "url": "https://t.me/norway_oslo_chat",
+      "checkedAt": "2026-10-28T02:31:20Z",
+      "status": "profile_only",
+      "accessStatus": "profile_only",
+      "count": 0,
+      "note": "Conversation history unavailable; no join/login/outreach.",
+      "type": "telegram_chat"
+    },
+    {
+      "id": "oslo-source-2eed94ad36eba4",
+      "name": "Oslo chat",
+      "url": "https://t.me/oslochat",
+      "checkedAt": "2026-10-28T02:31:20Z",
+      "status": "profile_only",
+      "accessStatus": "profile_only",
+      "count": 0,
+      "note": "Profile only, not read conversation or confirmed announcement.",
+      "type": "telegram_chat"
+    },
+    {
+      "id": "overnight29-source-bae06ed757f8f8f7",
+      "name": "VisitOSLO — official tourism event listing",
+      "url": "https://www.visitoslo.com/event/morning-beat-x-tad-2",
+      "checkedAt": "2026-10-29T01:32:23.050030+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "note": "Selected dated programme facts checked; partial coverage. Source clock conflicts resolved with own organizer details, history retained."
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

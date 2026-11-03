@@ -1,0 +1,1576 @@
+{
+  "batchId": "new-discovery-2026-10-10-afternoon",
+  "checkedAt": "2026-10-10T13:08:09Z",
+  "reportFile": "public/research-update-afternoon-2026-10-10.json",
+  "coverageNote": " Дополнение 10 октября, дневной проход: отдельные новые события и уточнения по первичным источникам; остальные записи в этом проходе не перепроверялись. Карта показывает ближайшие семь дней.",
+  "items": [
+    {
+      "city": "tbilisi",
+      "action": "add",
+      "event": {
+        "id": "redevents:44:2026-10-24:2000",
+        "title": "Музыка «Гарри Поттера» — Mystery Ensemble",
+        "date": "2026-10-24",
+        "time": "20:00",
+        "startAt": "2026-10-24T20:00:00+04:00",
+        "endDate": null,
+        "endTime": null,
+        "city": "Tbilisi",
+        "timezone": "Asia/Tbilisi",
+        "category": "music",
+        "price": 30,
+        "min": true,
+        "currency": "GEL",
+        "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+        "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+        "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "mandatoryExtras": {
+          "amount": null,
+          "currency": "GEL",
+          "status": "not_disclosed",
+          "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+        },
+        "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+        "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+        "language": "",
+        "source": "RED EVENTS Georgia",
+        "sourceId": "ge-src-9c3085cc39d5",
+        "sourceUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+        "ticketUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+        "description": "Мультимедийный концерт музыки из фильмов о Гарри Поттере в исполнении Mystery Ensemble. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "checkedAt": "2026-10-10T13:02:29Z",
+        "verification": "verified_primary_schedule_and_venue",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+        "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+        "dateEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+          "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+          "localStart": "2026-10-24T20:00:00+04:00"
+        },
+        "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+        "priceEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+          "publishedMin": 30,
+          "publishedMax": 100,
+          "currency": "GEL",
+          "visibleSymbol": "₾",
+          "fees": "not_disclosed",
+          "checkoutVerified": false
+        },
+        "venue": "Большой зал Тбилисской государственной консерватории",
+        "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+        "lat": 41.6994629,
+        "lng": 44.7950581,
+        "placeId": "osm:relation:18222383",
+        "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+        "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+        "venueEvidenceUrls": [
+          "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+          "https://tsc.edu.ge/en/history-grand-hall/"
+        ],
+        "evidenceUrls": [
+          "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+          "https://redevents.ge/en",
+          "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+          "https://tsc.edu.ge/en/history-grand-hall/",
+          "https://www.openstreetmap.org/relation/18222383"
+        ],
+        "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "end": null,
+        "sources": [
+          {
+            "name": "RED EVENTS Georgia",
+            "url": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+            "price": 30,
+            "min": true,
+            "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+            "checkedAt": "2026-10-10T13:08:09Z"
+          }
+        ],
+        "kind": "event",
+        "stale": false
+      },
+      "reason": "Новое отдельное событие: дата, время, площадка и условия проверены по открытым первичным источникам.",
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "add",
+      "event": {
+        "id": "redevents:80:2026-10-30:2000",
+        "title": "Антонио Вивальди: «Времена года» при свечах — Mystery Ensemble",
+        "date": "2026-10-30",
+        "time": "20:00",
+        "startAt": "2026-10-30T20:00:00+04:00",
+        "endDate": null,
+        "endTime": null,
+        "city": "Tbilisi",
+        "timezone": "Asia/Tbilisi",
+        "category": "music",
+        "price": 30,
+        "min": true,
+        "currency": "GEL",
+        "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+        "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+        "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "mandatoryExtras": {
+          "amount": null,
+          "currency": "GEL",
+          "status": "not_disclosed",
+          "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+        },
+        "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+        "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+        "language": "",
+        "source": "RED EVENTS Georgia",
+        "sourceId": "ge-src-9c3085cc39d5",
+        "sourceUrl": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+        "ticketUrl": "https://tkt.ge/ru/event/504484?previewkey=f6200335-1232-49a9-98da-b337466c07cc",
+        "description": "Mystery Ensemble исполняет «Времена года» Вивальди при свечах; организатор также указывает серенаду Элгара. Программа может меняться. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "checkedAt": "2026-10-10T13:02:29Z",
+        "verification": "verified_primary_schedule_and_venue",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+        "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+        "dateEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+          "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+          "localStart": "2026-10-30T20:00:00+04:00"
+        },
+        "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+        "priceEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+          "publishedMin": 30,
+          "publishedMax": 100,
+          "currency": "GEL",
+          "visibleSymbol": "₾",
+          "fees": "not_disclosed",
+          "checkoutVerified": false
+        },
+        "venue": "Большой зал Тбилисской государственной консерватории",
+        "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+        "lat": 41.6994629,
+        "lng": 44.7950581,
+        "placeId": "osm:relation:18222383",
+        "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+        "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+        "venueEvidenceUrls": [
+          "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+          "https://tsc.edu.ge/en/history-grand-hall/"
+        ],
+        "evidenceUrls": [
+          "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+          "https://redevents.ge/en",
+          "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+          "https://tsc.edu.ge/en/history-grand-hall/",
+          "https://www.openstreetmap.org/relation/18222383"
+        ],
+        "ticketNote": "Прямая билетная ссылка с сайта организатора; при открытии текстовый инструмент показывает оболочку TKT, поэтому состояние продажи не подтверждено.",
+        "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "end": null,
+        "sources": [
+          {
+            "name": "RED EVENTS Georgia",
+            "url": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+            "price": 30,
+            "min": true,
+            "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+            "checkedAt": "2026-10-10T13:08:09Z"
+          }
+        ],
+        "kind": "event",
+        "stale": false
+      },
+      "reason": "Новое отдельное событие: дата, время, площадка и условия проверены по открытым первичным источникам.",
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "add",
+      "event": {
+        "id": "redevents:121:2026-10-31:2000",
+        "title": "Вселенная Тима Бёртона при свечах — Mystery Ensemble",
+        "date": "2026-10-31",
+        "time": "20:00",
+        "startAt": "2026-10-31T20:00:00+04:00",
+        "endDate": null,
+        "endTime": null,
+        "city": "Tbilisi",
+        "timezone": "Asia/Tbilisi",
+        "category": "music",
+        "price": 35,
+        "min": true,
+        "currency": "GEL",
+        "priceLabel": "35–70 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+        "priceNote": "От 35 GEL; опубликованный диапазон 35–70 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+        "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "mandatoryExtras": {
+          "amount": null,
+          "currency": "GEL",
+          "status": "not_disclosed",
+          "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+        },
+        "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+        "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+        "language": "",
+        "source": "RED EVENTS Georgia",
+        "sourceId": "ge-src-9c3085cc39d5",
+        "sourceUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+        "ticketUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+        "description": "Концерт музыки из фильмов Тима Бёртона в аранжировках Mystery Ensemble, включая произведения Дэнни Эльфмана. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "checkedAt": "2026-10-10T13:02:29Z",
+        "verification": "verified_primary_schedule_and_venue",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+        "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+        "dateEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+          "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+          "localStart": "2026-10-31T20:00:00+04:00"
+        },
+        "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+        "priceEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+          "publishedMin": 35,
+          "publishedMax": 70,
+          "currency": "GEL",
+          "visibleSymbol": "₾",
+          "fees": "not_disclosed",
+          "checkoutVerified": false
+        },
+        "venue": "Концертный зал Вахтанга Саларидзе",
+        "address": "Ул. Акакия Белиашвили, 68, Тбилиси",
+        "lat": 41.7708080052007,
+        "lng": 44.7790551134925,
+        "venueId": "tkt:2915",
+        "coordinateSource": "https://tkt.ge/event/504481",
+        "coordinateEvidence": "Повторно использован исходный TKT pin площадки 2915 из опубликованного события tkt:504481. Свежая первичная страница RED Events подтверждает ту же площадку и адрес Белиашвили, 68.",
+        "venueEvidenceUrls": [
+          "https://redevents.ge/en/places/6-koncertnyi-zal-vahtanga-salaridze.html"
+        ],
+        "evidenceUrls": [
+          "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+          "https://redevents.ge/en",
+          "https://redevents.ge/en/places/6-koncertnyi-zal-vahtanga-salaridze.html",
+          "https://tkt.ge/event/504481"
+        ],
+        "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "end": null,
+        "sources": [
+          {
+            "name": "RED EVENTS Georgia",
+            "url": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+            "price": 35,
+            "min": true,
+            "priceLabel": "35–70 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+            "checkedAt": "2026-10-10T13:08:09Z"
+          }
+        ],
+        "kind": "event",
+        "stale": false
+      },
+      "reason": "Новое отдельное событие: дата, время, площадка и условия проверены по открытым первичным источникам.",
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/6-koncertnyi-zal-vahtanga-salaridze.html",
+        "https://tkt.ge/event/504481"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "add",
+      "event": {
+        "id": "redevents:125:2026-11-06:2000",
+        "title": "Посвящение Людовико Эйнауди при свечах — Mystery Ensemble",
+        "date": "2026-11-06",
+        "time": "20:00",
+        "startAt": "2026-11-06T20:00:00+04:00",
+        "endDate": null,
+        "endTime": null,
+        "city": "Tbilisi",
+        "timezone": "Asia/Tbilisi",
+        "category": "music",
+        "price": 30,
+        "min": true,
+        "currency": "GEL",
+        "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+        "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+        "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "mandatoryExtras": {
+          "amount": null,
+          "currency": "GEL",
+          "status": "not_disclosed",
+          "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+        },
+        "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+        "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+        "language": "",
+        "source": "RED EVENTS Georgia",
+        "sourceId": "ge-src-9c3085cc39d5",
+        "sourceUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+        "ticketUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+        "description": "Mystery Ensemble исполняет музыку Людовико Эйнауди при свечах. Сам Людовико Эйнауди в концерте не участвует. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "checkedAt": "2026-10-10T13:02:29Z",
+        "verification": "verified_primary_schedule_and_venue",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+        "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+        "dateEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+          "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+          "localStart": "2026-11-06T20:00:00+04:00"
+        },
+        "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+        "priceEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+          "publishedMin": 30,
+          "publishedMax": 100,
+          "currency": "GEL",
+          "visibleSymbol": "₾",
+          "fees": "not_disclosed",
+          "checkoutVerified": false
+        },
+        "venue": "Большой зал Тбилисской государственной консерватории",
+        "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+        "lat": 41.6994629,
+        "lng": 44.7950581,
+        "placeId": "osm:relation:18222383",
+        "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+        "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+        "venueEvidenceUrls": [
+          "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+          "https://tsc.edu.ge/en/history-grand-hall/"
+        ],
+        "evidenceUrls": [
+          "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+          "https://redevents.ge/en",
+          "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+          "https://tsc.edu.ge/en/history-grand-hall/",
+          "https://www.openstreetmap.org/relation/18222383"
+        ],
+        "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "end": null,
+        "sources": [
+          {
+            "name": "RED EVENTS Georgia",
+            "url": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+            "price": 30,
+            "min": true,
+            "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+            "checkedAt": "2026-10-10T13:08:09Z"
+          }
+        ],
+        "kind": "event",
+        "stale": false
+      },
+      "reason": "Новое отдельное событие: дата, время, площадка и условия проверены по открытым первичным источникам.",
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "add",
+      "event": {
+        "id": "redevents:107:2026-11-07:1800",
+        "title": "Романтические вальсы при свечах: Шопен, Штраус, Чайковский",
+        "date": "2026-11-07",
+        "time": "18:00",
+        "startAt": "2026-11-07T18:00:00+04:00",
+        "endDate": null,
+        "endTime": null,
+        "city": "Tbilisi",
+        "timezone": "Asia/Tbilisi",
+        "category": "music",
+        "price": 55,
+        "min": true,
+        "currency": "GEL",
+        "priceLabel": "55–75 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+        "priceNote": "От 55 GEL; опубликованный диапазон 55–75 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+        "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "mandatoryExtras": {
+          "amount": null,
+          "currency": "GEL",
+          "status": "not_disclosed",
+          "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+        },
+        "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+        "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+        "language": "",
+        "source": "RED EVENTS Georgia",
+        "sourceId": "ge-src-9c3085cc39d5",
+        "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+        "ticketUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+        "description": "Пианист David Ketsbaia исполняет романтические вальсы и другие произведения в лютеранской церкви. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "checkedAt": "2026-10-10T13:02:29Z",
+        "verification": "verified_primary_schedule_and_venue",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+        "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано. У организатора также указан сеанс 7 ноября в 20:00; он не добавляется отдельной карточкой.",
+        "dateEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+          "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+          "localStart": "2026-11-07T18:00:00+04:00"
+        },
+        "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+        "priceEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+          "publishedMin": 55,
+          "publishedMax": 75,
+          "currency": "GEL",
+          "visibleSymbol": "₾",
+          "fees": "not_disclosed",
+          "checkoutVerified": false
+        },
+        "venue": "Евангелическо-лютеранская церковь",
+        "address": "Ул. Теренти Гранели, 15, Тбилиси",
+        "lat": 41.7101792488746,
+        "lng": 44.8065875994641,
+        "venueId": "tkt:4501",
+        "coordinateSource": "https://tkt.ge/event/507140",
+        "coordinateEvidence": "Повторно использован исходный TKT pin Evangelical-Lutheran Church, площадка 4501, из опубликованного Piano Trio. Свежая первичная карточка RED Events подтверждает эту церковь и адрес Теренти Гранели, 15.",
+        "venueEvidenceUrls": [
+          "https://redevents.ge/en/places/17-evangelichesko-lyuteranskaja-cerkov.html"
+        ],
+        "evidenceUrls": [
+          "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+          "https://redevents.ge/en",
+          "https://redevents.ge/en/places/17-evangelichesko-lyuteranskaja-cerkov.html",
+          "https://tkt.ge/event/507140"
+        ],
+        "additionalSessions": [
+          {
+            "date": "2026-11-07",
+            "time": "20:00",
+            "timezone": "Asia/Tbilisi",
+            "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+20:00:00",
+            "publicationDecision": "Не создавать отдельное событие; та же программа."
+          }
+        ],
+        "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "end": null,
+        "sources": [
+          {
+            "name": "RED EVENTS Georgia",
+            "url": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+            "price": 55,
+            "min": true,
+            "priceLabel": "55–75 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+            "checkedAt": "2026-10-10T13:08:09Z"
+          }
+        ],
+        "kind": "event",
+        "stale": false
+      },
+      "reason": "Новое отдельное событие: дата, время, площадка и условия проверены по открытым первичным источникам.",
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/17-evangelichesko-lyuteranskaja-cerkov.html",
+        "https://tkt.ge/event/507140"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "add",
+      "event": {
+        "id": "redevents:124:2026-11-08:1800",
+        "title": "Сны Миядзаки — мультимедийный концерт Mystery Ensemble",
+        "date": "2026-11-08",
+        "time": "18:00",
+        "startAt": "2026-11-08T18:00:00+04:00",
+        "endDate": null,
+        "endTime": null,
+        "city": "Tbilisi",
+        "timezone": "Asia/Tbilisi",
+        "category": "music",
+        "price": 30,
+        "min": true,
+        "currency": "GEL",
+        "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+        "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+        "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "mandatoryExtras": {
+          "amount": null,
+          "currency": "GEL",
+          "status": "not_disclosed",
+          "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+        },
+        "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+        "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+        "language": "",
+        "source": "RED EVENTS Georgia",
+        "sourceId": "ge-src-9c3085cc39d5",
+        "sourceUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+        "ticketUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+        "description": "Mystery Ensemble исполняет музыку Дзё Хисаиси к аниме Хаяо Миядзаки, включая «Ходячий замок», «Унесённые призраками» и «Мой сосед Тоторо». Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+        "checkedAt": "2026-10-10T13:02:29Z",
+        "verification": "verified_primary_schedule_and_venue",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+        "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+        "dateEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+          "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+          "localStart": "2026-11-08T18:00:00+04:00"
+        },
+        "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+        "priceEvidence": {
+          "sourceUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+          "publishedMin": 30,
+          "publishedMax": 100,
+          "currency": "GEL",
+          "visibleSymbol": "₾",
+          "fees": "not_disclosed",
+          "checkoutVerified": false
+        },
+        "venue": "Большой зал Тбилисской государственной консерватории",
+        "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+        "lat": 41.6994629,
+        "lng": 44.7950581,
+        "placeId": "osm:relation:18222383",
+        "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+        "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+        "venueEvidenceUrls": [
+          "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+          "https://tsc.edu.ge/en/history-grand-hall/"
+        ],
+        "evidenceUrls": [
+          "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+          "https://redevents.ge/en",
+          "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+          "https://tsc.edu.ge/en/history-grand-hall/",
+          "https://www.openstreetmap.org/relation/18222383"
+        ],
+        "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "end": null,
+        "sources": [
+          {
+            "name": "RED EVENTS Georgia",
+            "url": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+            "price": 30,
+            "min": true,
+            "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+            "checkedAt": "2026-10-10T13:08:09Z"
+          }
+        ],
+        "kind": "event",
+        "stale": false
+      },
+      "reason": "Новое отдельное событие: дата, время, площадка и условия проверены по открытым первичным источникам.",
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383"
+      ]
+    },
+    {
+      "city": "tbilisi",
+      "action": "update",
+      "event": {
+        "id": "tkt:507447",
+        "title": "GLITZ X MTATSMINDA HALL",
+        "date": "2026-10-10",
+        "time": "22:00",
+        "startAt": "2026-10-10T22:00:00+04:00",
+        "end": null,
+        "venue": "Under Wheel",
+        "venueId": "tkt:132",
+        "address": "Mtatsminda Park",
+        "lat": 41.695388,
+        "lng": 44.781205,
+        "locationPrecision": "source",
+        "price": null,
+        "min": false,
+        "priceNote": "Источники показывают разные цены; прежние 50 GEL из TKT от 8 октября не считать подтверждённым текущим тарифом.",
+        "currency": "GEL",
+        "category": "music",
+        "language": null,
+        "description": "Проверка перед визитом: источники расходятся. TKT указывает 22:00 и Under Wheel в парке Мтацминда; сайт Mtatsminda Hall указывает 23:00, а в его описании также осталось упоминание Botanico. Уточните время и точку входа у организатора. Текущий тариф тоже требует проверки: в индексированной грузинской карточке TKT — от 60 GEL, на сайте площадки — 50 GEL + 6% (53 GEL).\n\nOne of the most anticipated nights awaits you. ALILO & IBIZA RECORDS — two main acts coming together for a special night. ALILO takes the main stage with a special live show — powerful vocals, live emotions, and an energy that will make this night truly unforgettable. 🪩 Following the main show, IBIZA RECORDS takes over for the official AFTER PARTY, bringing their signature sound and energy to continue the night. Get … Наличие мест и билетов уточните у организатора.",
+        "timeNote": null,
+        "soldOut": false,
+        "source": "TKT.ge",
+        "sourceUrl": "https://tkt.ge/event/507447",
+        "sources": [
+          {
+            "name": "TKT.ge",
+            "url": "https://tkt.ge/event/507447",
+            "price": 50.0,
+            "min": true,
+            "checkedAt": "2026-10-08T01:36:19.662018+00:00"
+          }
+        ],
+        "checkedAt": "2026-10-08T01:36:19.662018+00:00",
+        "imageUrl": "https://static.tkt.ge/img/9d2f3e2e-bf38-4e04-a484-be9e65a23593.jpeg",
+        "kind": "event",
+        "priceLabel": "Цена требует проверки: в индексе TKT — от 60 GEL; на сайте площадки — 50 GEL + 6% = 53 GEL. Текущий тариф и доступность не подтверждены.",
+        "verificationWarning": "Проверка перед визитом: источники расходятся. TKT указывает 22:00 и Under Wheel в парке Мтацминда; сайт Mtatsminda Hall указывает 23:00, а в его описании также осталось упоминание Botanico. Уточните время и точку входа у организатора. Текущий тариф тоже требует проверки: в индексированной грузинской карточке TKT — от 60 GEL, на сайте площадки — 50 GEL + 6% (53 GEL).",
+        "verification": "conflicting_primary_details",
+        "verificationCheckedAt": "2026-10-10T13:02:29Z",
+        "availabilityVerified": false,
+        "conflictEvidence": {
+          "time": [
+            {
+              "value": "22:00",
+              "sourceUrl": "https://tkt.ge/",
+              "method": "Свежее поисковое представление официальной грузинской главной TKT; прямые detail-страницы не извлеклись."
+            },
+            {
+              "value": "23:00",
+              "sourceUrl": "https://mtatsmindahall.com/events/alilo-ibiza-records",
+              "method": "Прямое открытие страницы площадки."
+            }
+          ],
+          "venue": [
+            {
+              "value": "Under Wheel, Mtatsminda Park",
+              "sourceUrl": "https://tkt.ge/event/507447"
+            },
+            {
+              "value": "Mtatsminda Hall · Mtatsminda Park; в тексте @botanico.tbilisi",
+              "sourceUrl": "https://mtatsmindahall.com/events/alilo-ibiza-records"
+            }
+          ],
+          "prices": [
+            {
+              "amount": 60,
+              "currency": "GEL",
+              "min": true,
+              "sourceUrl": "https://tkt.ge/",
+              "status": "official_search_index_offer_checkout_unverified"
+            },
+            {
+              "amount": 50,
+              "mandatoryFeePercent": 6,
+              "mandatoryFeeAmount": 3,
+              "total": 53,
+              "currency": "GEL",
+              "sourceUrl": "https://mtatsmindahall.com/events/alilo-ibiza-records",
+              "status": "published_venue_offer_checkout_unverified"
+            }
+          ],
+          "historicalPrice": {
+            "amount": 50.0,
+            "currency": "GEL",
+            "checkedAt": "2026-10-08T01:36:19.662018+00:00",
+            "sourceUrl": "https://tkt.ge/event/507447"
+          },
+          "identityMatch": "Страница площадки явно содержит GLITZ X MTATSMINDA HALL и ту же программу ALILO + IBIZA RECORDS на 10 октября; это дубликат одного шоу.",
+          "detailReadAttempts": [
+            "https://tkt.ge/event/507447",
+            "https://tkt.ge/en/event/507447",
+            "https://tkt.ge/ru/event/507447"
+          ],
+          "detailReadResult": "Страницы не дали содержимого; главная при прямом открытии показала оболочку. Цена TKT 60 GEL известна только из индекса официальной главной."
+        },
+        "evidenceUrls": [
+          "https://tkt.ge/event/507447",
+          "https://tkt.ge/",
+          "https://tkt.ge/en",
+          "https://mtatsmindahall.com/events/alilo-ibiza-records"
+        ],
+        "sourceRetrievedAt": "2026-10-08T01:36:19.662018+00:00",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "city": "Tbilisi",
+        "feesNote": null,
+        "stale": false
+      },
+      "expectedDate": "2026-10-10",
+      "refreshOfferPrices": true,
+      "reason": "Предупреждение о противоречиях времени, места и текущей цены",
+      "evidenceUrls": [
+        "https://tkt.ge/event/507447",
+        "https://tkt.ge/",
+        "https://tkt.ge/en",
+        "https://mtatsmindahall.com/events/alilo-ibiza-records"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-10T13:05:37Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверено публичное объявление. Свободные места и результат регистрации не проверялись.",
+        "language": null,
+        "id": "bg-afternoon-vuk-20261015",
+        "title": "Вук и Негош в созвездии Боки Которской — литературный вечер",
+        "originalTitle": "Књижевно вече Вук и Његош у сазвежђу Боке Которске",
+        "date": "2026-10-15",
+        "time": "18:00",
+        "endDate": null,
+        "endTime": "19:00",
+        "end": "19:00",
+        "startAt": "2026-10-15T18:00:00+02:00",
+        "endAt": "2026-10-15T19:00:00+02:00",
+        "timeNote": "Местное время Europe/Belgrade. Дата и часы подтверждены текстом анонса и JSON-LD.",
+        "source": "Narodni muzej Srbije — официальный анонс",
+        "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/knizhevno-veche-vuk-i-negosh-u-sazvezh-u-boke-kotorske/",
+        "category": "talk",
+        "price": 0,
+        "priceLabel": "Бесплатно",
+        "min": false,
+        "extraFees": "В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены.",
+        "ticketUrl": null,
+        "registrationRequired": false,
+        "registration": "Предварительная запись не требуется.",
+        "admission": "Свободный вход, предварительная запись не требуется.",
+        "evidenceUrls": [
+          "https://www.narodnimuzej.rs/dogadjaj/knizhevno-veche-vuk-i-negosh-u-sazvezh-u-boke-kotorske/",
+          "https://www.narodnimuzej.rs/posetite-nas/",
+          "https://www.google.com/maps?cid=719686053204893890"
+        ],
+        "verificationNote": "2026 год, дата, часы и место подтверждены первичным календарём и JSON-LD отдельного события. Бесплатность и условия входа проверены по тексту.",
+        "venue": "Muzej Vuka i Dositeja",
+        "address": "Gospodar Jevremova 21, Beograd",
+        "lat": 44.8210221,
+        "lng": 20.4588895,
+        "primaryVenueUrl": "https://www.narodnimuzej.rs/posetite-nas/",
+        "addressSource": "https://www.narodnimuzej.rs/posetite-nas/",
+        "coordinateSource": "https://www.narodnimuzej.rs/posetite-nas/",
+        "coordinateEvidence": "Адрес подтверждён официальной страницей посещения. Координаты извлечены из именованной сущности Google Maps, встроенной самой площадкой; это точка музея, а не центр карты.",
+        "coordinateProvenance": {
+          "method": "official_venue_linked_map_named_entity",
+          "source": "https://www.narodnimuzej.rs/posetite-nas/",
+          "mapUrl": "https://www.google.com/maps?cid=719686053204893890",
+          "mapEntityId": "0x475a654b31971cc7:0x9fcd6a6ff14a0c2",
+          "matchedVenue": "Muzej Vuka i Dositeja",
+          "matchedAddress": "Gospodar Jevremova 21, Beograd",
+          "lat": 44.8210221,
+          "lng": 20.4588895,
+          "checkedAt": "2026-10-10T13:05:37Z"
+        },
+        "description": "Зоран Живкович расскажет о Вуке Караджиче, Петре Петровиче Негоше и влиянии Средиземноморья на сербскую культуру. Божан Жирович прочтёт отрывки под музыкальное сопровождение. Свободный вход, предварительная запись не требуется. Предварительная запись не требуется. В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены. Наличие мест и билетов уточните у организатора.",
+        "sourceRetrievedAt": "2026-10-10T13:05:37Z",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "sources": [
+          {
+            "name": "Narodni muzej Srbije — официальный анонс",
+            "url": "https://www.narodnimuzej.rs/dogadjaj/knizhevno-veche-vuk-i-negosh-u-sazvezh-u-boke-kotorske/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-10T13:08:09Z"
+          }
+        ],
+        "feesNote": "В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены.",
+        "priceNote": "Бесплатно",
+        "kind": "event",
+        "stale": false
+      },
+      "reason": "Новое отдельное событие: дата, время, площадка и условия проверены по открытым первичным источникам.",
+      "evidenceUrls": [
+        "https://www.narodnimuzej.rs/dogadjaj/knizhevno-veche-vuk-i-negosh-u-sazvezh-u-boke-kotorske/",
+        "https://www.narodnimuzej.rs/posetite-nas/",
+        "https://www.google.com/maps?cid=719686053204893890"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-10T13:05:37Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверено публичное объявление. Свободные места и результат регистрации не проверялись.",
+        "language": null,
+        "id": "bg-afternoon-ljuba-20261015",
+        "title": "«Я буду тебе любимой» — монодрама о Марии Мокраняц",
+        "originalTitle": "Монодрама „Ја ћу теби љуба бити“",
+        "date": "2026-10-15",
+        "time": "19:00",
+        "endDate": null,
+        "endTime": "20:00",
+        "end": "20:00",
+        "startAt": "2026-10-15T19:00:00+02:00",
+        "endAt": "2026-10-15T20:00:00+02:00",
+        "timeNote": "Местное время Europe/Belgrade. Дата и часы подтверждены текстом анонса и JSON-LD.",
+        "source": "Narodni muzej Srbije — официальный анонс",
+        "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/monodrama-ja-u-tebi-luba-biti/",
+        "category": "theatre",
+        "price": 0,
+        "priceLabel": "Бесплатно",
+        "min": false,
+        "extraFees": "В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены.",
+        "ticketUrl": null,
+        "registrationRequired": true,
+        "registration": "Обязательная предварительная запись: nadezdairastko@narodnimuzej.rs. Число мест ограничено.",
+        "admission": "Вход бесплатный, но обязательна предварительная запись по электронной почте. Места ограничены.",
+        "evidenceUrls": [
+          "https://www.narodnimuzej.rs/dogadjaj/monodrama-ja-u-tebi-luba-biti/",
+          "https://www.srbija.gov.rs/vest/879163/otvoren-obnovljen-spomen-muzej-nadezde-i-rastka-petrovica.php",
+          "https://www.waze.com/live-map/directions/spomen-muzej-nadezde-i-rastka-petrovica-ljubomira-stojanovica-25-beograd-palilula?to=place.w.13435328.134222209.17495756",
+          "https://www.narodnimuzej.rs/o-muzeju/izlozbeni-prostori/spomen-muzej-nadezde-i-rastka-petrovica/"
+        ],
+        "verificationNote": "2026 год, дата, часы и место подтверждены первичным календарём и JSON-LD отдельного события. Бесплатность и условия входа проверены по тексту.",
+        "venue": "Spomen-muzej Nadežde i Rastka Petrovića",
+        "address": "Ljubomira Stojanovića 25, Beograd",
+        "lat": 44.8145,
+        "lng": 20.47887,
+        "primaryVenueUrl": "https://www.narodnimuzej.rs/o-muzeju/izlozbeni-prostori/spomen-muzej-nadezde-i-rastka-petrovica/",
+        "addressSource": "https://www.srbija.gov.rs/vest/879163/otvoren-obnovljen-spomen-muzej-nadezde-i-rastka-petrovica.php",
+        "coordinateSource": "https://www.waze.com/live-map/directions/spomen-muzej-nadezde-i-rastka-petrovica-ljubomira-stojanovica-25-beograd-palilula?to=place.w.13435328.134222209.17495756",
+        "coordinateEvidence": "Точка Waze содержит одновременно полное название музея, Ljubomira Stojanovića 25 и GeoCoordinates. Адрес отдельно подтверждён официальным сообщением правительства об открытии музея и каталогом белградского института охраны памятников.",
+        "coordinateProvenance": {
+          "method": "named_map_entity_exact_address_match",
+          "source": "https://www.waze.com/live-map/directions/spomen-muzej-nadezde-i-rastka-petrovica-ljubomira-stojanovica-25-beograd-palilula?to=place.w.13435328.134222209.17495756",
+          "mapEntityId": "venues.13435328.134222209.17495756",
+          "matchedVenue": "Spomen muzej Nadežde i Rastka Petrovića",
+          "matchedAddress": "25 Ljubomira Stojanovića, Beograd - Palilula, Serbia",
+          "lat": 44.8145,
+          "lng": 20.47887,
+          "checkedAt": "2026-10-10T13:05:37Z"
+        },
+        "description": "Лиляна Якшич исполняет роль Марии Мокраняц в монодраме Татьяны Радосавлевич о семье композитора и культурной жизни Белграда. Вход бесплатный, но обязательна предварительная запись по электронной почте. Места ограничены. Обязательная предварительная запись: nadezdairastko@narodnimuzej.rs. Число мест ограничено. В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены. Наличие мест и билетов уточните у организатора.",
+        "registrationEmail": "nadezdairastko@narodnimuzej.rs",
+        "sourceRetrievedAt": "2026-10-10T13:05:37Z",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "sources": [
+          {
+            "name": "Narodni muzej Srbije — официальный анонс",
+            "url": "https://www.narodnimuzej.rs/dogadjaj/monodrama-ja-u-tebi-luba-biti/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-10T13:08:09Z"
+          }
+        ],
+        "feesNote": "В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены.",
+        "priceNote": "Бесплатно",
+        "kind": "event",
+        "stale": false
+      },
+      "reason": "Новое отдельное событие: дата, время, площадка и условия проверены по открытым первичным источникам.",
+      "evidenceUrls": [
+        "https://www.narodnimuzej.rs/dogadjaj/monodrama-ja-u-tebi-luba-biti/",
+        "https://www.srbija.gov.rs/vest/879163/otvoren-obnovljen-spomen-muzej-nadezde-i-rastka-petrovica.php",
+        "https://www.waze.com/live-map/directions/spomen-muzej-nadezde-i-rastka-petrovica-ljubomira-stojanovica-25-beograd-palilula?to=place.w.13435328.134222209.17495756",
+        "https://www.narodnimuzej.rs/o-muzeju/izlozbeni-prostori/spomen-muzej-nadezde-i-rastka-petrovica/"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-10T13:05:37Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверено публичное объявление. Свободные места и результат регистрации не проверялись.",
+        "language": null,
+        "id": "bg-afternoon-ritratto-20261018",
+        "title": "Ritratto — вокальный концерт Мартины Коленшич",
+        "originalTitle": "Концерт Ritratto",
+        "date": "2026-10-18",
+        "time": "12:00",
+        "endDate": null,
+        "endTime": "13:00",
+        "end": "13:00",
+        "startAt": "2026-10-18T12:00:00+02:00",
+        "endAt": "2026-10-18T13:00:00+02:00",
+        "timeNote": "Местное время Europe/Belgrade. Дата и часы подтверждены текстом анонса и JSON-LD.",
+        "source": "Narodni muzej Srbije — официальный анонс",
+        "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/kontsert-ritratto/",
+        "category": "music",
+        "price": 0,
+        "priceLabel": "Бесплатно",
+        "min": false,
+        "extraFees": "В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены.",
+        "ticketUrl": null,
+        "registrationRequired": false,
+        "registration": "Предварительная запись не требуется.",
+        "admission": "Свободный вход, предварительная запись не требуется.",
+        "evidenceUrls": [
+          "https://www.narodnimuzej.rs/dogadjaj/kontsert-ritratto/",
+          "https://www.narodnimuzej.rs/posetite-nas/",
+          "https://www.google.com/maps?cid=16611763430121550399"
+        ],
+        "verificationNote": "2026 год, дата, часы и место подтверждены первичным календарём и JSON-LD отдельного события. Бесплатность и условия входа проверены по тексту.",
+        "venue": "Narodni muzej Srbije",
+        "address": "Trg Republike 1a, Beograd",
+        "lat": 44.8166183,
+        "lng": 20.4598603,
+        "primaryVenueUrl": "https://www.narodnimuzej.rs/posetite-nas/",
+        "addressSource": "https://www.narodnimuzej.rs/posetite-nas/",
+        "coordinateSource": "https://www.narodnimuzej.rs/posetite-nas/",
+        "coordinateEvidence": "Адрес подтверждён официальной страницей посещения. Координаты извлечены из именованной сущности Google Maps, встроенной самой площадкой; это точка музея, а не центр карты.",
+        "coordinateProvenance": {
+          "method": "official_venue_linked_map_named_entity",
+          "source": "https://www.narodnimuzej.rs/posetite-nas/",
+          "mapUrl": "https://www.google.com/maps?cid=16611763430121550399",
+          "mapEntityId": "0x475a7ab244d7a753:0xe688d6d3a938323f",
+          "matchedVenue": "Narodni muzej Srbije",
+          "matchedAddress": "Trg Republike 1a, Beograd",
+          "lat": 44.8166183,
+          "lng": 20.4598603,
+          "checkedAt": "2026-10-10T13:05:37Z"
+        },
+        "description": "Меццо-сопрано Мартина Коленшич, приглашённое сопрано Оливера Гочанин и пианист Страхиня Джокич: арии, песни из мюзиклов и популярные мелодии. Свободный вход, предварительная запись не требуется. Предварительная запись не требуется. В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены. Наличие мест и билетов уточните у организатора.",
+        "sourceRetrievedAt": "2026-10-10T13:05:37Z",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "sources": [
+          {
+            "name": "Narodni muzej Srbije — официальный анонс",
+            "url": "https://www.narodnimuzej.rs/dogadjaj/kontsert-ritratto/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-10T13:08:09Z"
+          }
+        ],
+        "feesNote": "В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены.",
+        "priceNote": "Бесплатно",
+        "kind": "event",
+        "stale": false
+      },
+      "reason": "Новое отдельное событие: дата, время, площадка и условия проверены по открытым первичным источникам.",
+      "evidenceUrls": [
+        "https://www.narodnimuzej.rs/dogadjaj/kontsert-ritratto/",
+        "https://www.narodnimuzej.rs/posetite-nas/",
+        "https://www.google.com/maps?cid=16611763430121550399"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-10T13:05:37Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверено публичное объявление. Свободные места и результат регистрации не проверялись.",
+        "language": null,
+        "id": "bg-afternoon-dosije-20261018",
+        "title": "«Досье Доситей» — музейный моноспектакль",
+        "originalTitle": "Монодрама „Досије Доситеј“",
+        "date": "2026-10-18",
+        "time": "12:00",
+        "endDate": null,
+        "endTime": null,
+        "end": null,
+        "startAt": "2026-10-18T12:00:00+02:00",
+        "endAt": null,
+        "timeNote": "Местное время Europe/Belgrade. Окончание не объявлено; одинаковые начало и конец в JSON-LD не использованы как длительность.",
+        "source": "Narodni muzej Srbije — официальный анонс",
+        "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/monodrama-dosije-dositej-7/",
+        "category": "theatre",
+        "price": 600,
+        "priceLabel": "600 RSD в кассе музея",
+        "min": false,
+        "extraFees": "Официальный анонс указывает 600 RSD при покупке в кассе музея. Условия и возможные сборы Tickets.rs не проверялись; цена онлайн не представлена как окончательная.",
+        "ticketUrl": null,
+        "registrationRequired": false,
+        "registration": "Бронирование билетов: vukidositej@narodnimuzej.rs. Обязательность предварительной брони не заявлена.",
+        "admission": "Билет 600 RSD в кассе музея. Возможна предварительная бронь по электронной почте.",
+        "evidenceUrls": [
+          "https://www.narodnimuzej.rs/dogadjaj/monodrama-dosije-dositej-7/",
+          "https://www.narodnimuzej.rs/posetite-nas/",
+          "https://www.google.com/maps?cid=719686053204893890"
+        ],
+        "verificationNote": "2026 год, дата, часы и место подтверждены текстом и JSON-LD. Билет за 600 RSD прямо указан с возможностью покупки в кассе музея. Время окончания не опубликовано.",
+        "venue": "Muzej Vuka i Dositeja",
+        "address": "Gospodar Jevremova 21, Beograd",
+        "lat": 44.8210221,
+        "lng": 20.4588895,
+        "primaryVenueUrl": "https://www.narodnimuzej.rs/posetite-nas/",
+        "addressSource": "https://www.narodnimuzej.rs/posetite-nas/",
+        "coordinateSource": "https://www.narodnimuzej.rs/posetite-nas/",
+        "coordinateEvidence": "Адрес подтверждён официальной страницей посещения. Координаты извлечены из именованной сущности Google Maps, встроенной самой площадкой; это точка музея, а не центр карты.",
+        "coordinateProvenance": {
+          "method": "official_venue_linked_map_named_entity",
+          "source": "https://www.narodnimuzej.rs/posetite-nas/",
+          "mapUrl": "https://www.google.com/maps?cid=719686053204893890",
+          "mapEntityId": "0x475a654b31971cc7:0x9fcd6a6ff14a0c2",
+          "matchedVenue": "Muzej Vuka i Dositeja",
+          "matchedAddress": "Gospodar Jevremova 21, Beograd",
+          "lat": 44.8210221,
+          "lng": 20.4588895,
+          "checkedAt": "2026-10-10T13:05:37Z"
+        },
+        "description": "Владимир Цвеич рассказывает о жизни, путешествиях и просветительской работе Доситея Обрадовича в историческом пространстве музея. Билет 600 RSD в кассе музея. Возможна предварительная бронь по электронной почте. Бронирование билетов: vukidositej@narodnimuzej.rs. Обязательность предварительной брони не заявлена. Официальный анонс указывает 600 RSD при покупке в кассе музея. Условия и возможные сборы Tickets.rs не проверялись; цена онлайн не представлена как окончательная. Наличие мест и билетов уточните у организатора.",
+        "registrationEmail": "vukidositej@narodnimuzej.rs",
+        "sourceRetrievedAt": "2026-10-10T13:05:37Z",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "sources": [
+          {
+            "name": "Narodni muzej Srbije — официальный анонс",
+            "url": "https://www.narodnimuzej.rs/dogadjaj/monodrama-dosije-dositej-7/",
+            "price": 600,
+            "min": false,
+            "priceLabel": "600 RSD в кассе музея",
+            "checkedAt": "2026-10-10T13:08:09Z"
+          }
+        ],
+        "feesNote": "Официальный анонс указывает 600 RSD при покупке в кассе музея. Условия и возможные сборы Tickets.rs не проверялись; цена онлайн не представлена как окончательная.",
+        "priceNote": "600 RSD в кассе музея",
+        "kind": "event",
+        "stale": false
+      },
+      "reason": "Новое отдельное событие: дата, время, площадка и условия проверены по открытым первичным источникам.",
+      "evidenceUrls": [
+        "https://www.narodnimuzej.rs/dogadjaj/monodrama-dosije-dositej-7/",
+        "https://www.narodnimuzej.rs/posetite-nas/",
+        "https://www.google.com/maps?cid=719686053204893890"
+      ]
+    },
+    {
+      "city": "belgrade",
+      "action": "add",
+      "event": {
+        "city": "Belgrade",
+        "timezone": "Europe/Belgrade",
+        "currency": "RSD",
+        "checkedAt": "2026-10-10T13:05:37Z",
+        "availabilityVerified": false,
+        "availabilityNote": "Проверено публичное объявление. Свободные места и результат регистрации не проверялись.",
+        "language": null,
+        "id": "bg-afternoon-books-20261022",
+        "title": "«Целительная сила книги»: наши отношения с текстом",
+        "originalTitle": "Предавање Лековитост књиге: какав је наш однос према тексту?",
+        "date": "2026-10-22",
+        "time": "18:00",
+        "endDate": null,
+        "endTime": "19:00",
+        "end": "19:00",
+        "startAt": "2026-10-22T18:00:00+02:00",
+        "endAt": "2026-10-22T19:00:00+02:00",
+        "timeNote": "Местное время Europe/Belgrade. Дата и часы подтверждены текстом анонса и JSON-LD.",
+        "source": "Narodni muzej Srbije — официальный анонс",
+        "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/predavane-lekovitost-knige-kakav-je-nash-odnos-prema-tekstu/",
+        "category": "talk",
+        "price": 0,
+        "priceLabel": "Бесплатно",
+        "min": false,
+        "extraFees": "В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены.",
+        "ticketUrl": null,
+        "registrationRequired": false,
+        "registration": "Предварительная запись не требуется.",
+        "admission": "Свободный вход, предварительная запись не требуется.",
+        "evidenceUrls": [
+          "https://www.narodnimuzej.rs/dogadjaj/predavane-lekovitost-knige-kakav-je-nash-odnos-prema-tekstu/",
+          "https://www.narodnimuzej.rs/posetite-nas/",
+          "https://www.google.com/maps?cid=719686053204893890"
+        ],
+        "verificationNote": "2026 год, дата, часы и место подтверждены первичным календарём и JSON-LD отдельного события. Бесплатность и условия входа проверены по тексту.",
+        "venue": "Muzej Vuka i Dositeja",
+        "address": "Gospodar Jevremova 21, Beograd",
+        "lat": 44.8210221,
+        "lng": 20.4588895,
+        "primaryVenueUrl": "https://www.narodnimuzej.rs/posetite-nas/",
+        "addressSource": "https://www.narodnimuzej.rs/posetite-nas/",
+        "coordinateSource": "https://www.narodnimuzej.rs/posetite-nas/",
+        "coordinateEvidence": "Адрес подтверждён официальной страницей посещения. Координаты извлечены из именованной сущности Google Maps, встроенной самой площадкой; это точка музея, а не центр карты.",
+        "coordinateProvenance": {
+          "method": "official_venue_linked_map_named_entity",
+          "source": "https://www.narodnimuzej.rs/posetite-nas/",
+          "mapUrl": "https://www.google.com/maps?cid=719686053204893890",
+          "mapEntityId": "0x475a654b31971cc7:0x9fcd6a6ff14a0c2",
+          "matchedVenue": "Muzej Vuka i Dositeja",
+          "matchedAddress": "Gospodar Jevremova 21, Beograd",
+          "lat": 44.8210221,
+          "lng": 20.4588895,
+          "checkedAt": "2026-10-10T13:05:37Z"
+        },
+        "description": "Литературовед Вук Жикич обсудит отношения читателя с книгой и то, как чтение влияет на личный опыт. Свободный вход, предварительная запись не требуется. Предварительная запись не требуется. В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены. Наличие мест и билетов уточните у организатора.",
+        "sourceRetrievedAt": "2026-10-10T13:05:37Z",
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "sources": [
+          {
+            "name": "Narodni muzej Srbije — официальный анонс",
+            "url": "https://www.narodnimuzej.rs/dogadjaj/predavane-lekovitost-knige-kakav-je-nash-odnos-prema-tekstu/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно",
+            "checkedAt": "2026-10-10T13:08:09Z"
+          }
+        ],
+        "feesNote": "В первичном анонсе вход прямо указан как бесплатный. Обязательные доплаты не заявлены.",
+        "priceNote": "Бесплатно",
+        "kind": "event",
+        "stale": false
+      },
+      "reason": "Новое отдельное событие: дата, время, площадка и условия проверены по открытым первичным источникам.",
+      "evidenceUrls": [
+        "https://www.narodnimuzej.rs/dogadjaj/predavane-lekovitost-knige-kakav-je-nash-odnos-prema-tekstu/",
+        "https://www.narodnimuzej.rs/posetite-nas/",
+        "https://www.google.com/maps?cid=719686053204893890"
+      ]
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "reason": "Новое отдельное событие: дата, время, адрес, точка карты, опубликованный тариф и условия входа проверены.",
+      "evidenceUrls": [
+        "https://castle.moscow/event/kulinarnaja-jekskursija-carstvo-moskovskoe-xvi-xvii-vek-10-oktjabrja/",
+        "https://castle.moscow/teahouse/",
+        "https://yandex.com/maps/org/chaynaya_na_krutitsakh/100415121892/"
+      ],
+      "event": {
+        "id": "research-msk-8fd63c11c4ee52d6",
+        "city": "Moscow",
+        "title": "Кулинарная экскурсия «Царство Московское. XVI–XVII век»",
+        "date": "2026-10-10",
+        "time": "19:00",
+        "end": "20:30",
+        "endTime": "20:30",
+        "endDate": "2026-10-10",
+        "timezone": "Europe/Moscow",
+        "startAt": "2026-10-10T19:00:00+03:00",
+        "endAt": "2026-10-10T20:30:00+03:00",
+        "source": "Музей ратной истории Москвы / Чайная на Крутицах",
+        "sourceUrl": "https://castle.moscow/event/kulinarnaja-jekskursija-carstvo-moskovskoe-xvi-xvii-vek-10-oktjabrja/",
+        "checkedAt": "2026-10-10T13:02:11Z",
+        "sourceRetrievedAt": "2026-10-10T13:02:11Z",
+        "retrievalTimeNote": "Источник прочитан в интервале 12:57–13:02 UTC; итоговая отметка проверки взята из clock.curr_time.",
+        "price": 5500,
+        "min": false,
+        "currency": "RUB",
+        "category": "city",
+        "kind": "event",
+        "language": "",
+        "languageNote": "Язык отдельно не указан организатором; объявление на русском.",
+        "verification": "verified_primary_schedule_and_venue",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "evidenceUrls": [
+          "https://castle.moscow/event/kulinarnaja-jekskursija-carstvo-moskovskoe-xvi-xvii-vek-10-oktjabrja/",
+          "https://castle.moscow/teahouse/",
+          "https://yandex.com/maps/org/chaynaya_na_krutitsakh/100415121892/"
+        ],
+        "availabilityVerified": false,
+        "availabilityNote": "На момент проверки 10.10.2026 в 16:02 МСК официальная страница показывала 7 доступных билетов. Это снимок наличия, покупка не выполнялась.",
+        "venue": "Чайная на Крутицах",
+        "address": "Москва, ул. Крутицкая, 17, стр. 9",
+        "lat": 55.728417,
+        "lng": 37.658525,
+        "coordinateSource": "https://yandex.com/maps/org/chaynaya_na_krutitsakh/100415121892/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "Яндекс Карты: объект Чайная на Крутицах, ID 100415121892, адрес Krutitskaya Street, 17с9 и coordinates [37.658525,55.728417]. Это координаты выбранного объекта, не центра карты. Адрес отдельно подтверждён официальной страницей чайной. Общая метка музея в подвале сайта не использовалась.",
+        "priceLabel": "5 500 ₽ — экскурсия-трапеза",
+        "priceEvidenceUrl": "https://castle.moscow/event/kulinarnaja-jekskursija-carstvo-moskovskoe-xvi-xvii-vek-10-oktjabrja/",
+        "ageLimit": "",
+        "ageNote": "Рекомендованный организатором возраст: 10+.",
+        "ticketUrl": "https://castle.moscow/event/kulinarnaja-jekskursija-carstvo-moskovskoe-xvi-xvii-vek-10-oktjabrja/",
+        "registration": "Покупка билета на официальной странице; число мест ограничено.",
+        "admission": "Билет 5 500 ₽ на экскурсию-трапезу. Объявленная программа включает блюда и напитки по историческим рецептам. Организатор рекомендует возраст 10+ и предупреждает об аллергенах, включая мёд и орехи.",
+        "mandatoryExtras": "Отдельный обязательный входной билет или обязательная доплата на странице не указаны. Возможные сборы на заключительном этапе оплаты не проверены.",
+        "timeNote": "Московское время, UTC+3. В видимом расписании и JSON-LD совпадают 10.10.2026, 19:00–20:30 и смещение +03:00.",
+        "availabilitySnapshot": {
+          "availableTickets": 7,
+          "checkedAt": "2026-10-10T13:02:11Z",
+          "sourceUrl": "https://castle.moscow/event/kulinarnaja-jekskursija-carstvo-moskovskoe-xvi-xvii-vek-10-oktjabrja/"
+        },
+        "description": "Юлия Давидовская проведёт историческую экскурсию за общим столом с блюдами Московского царства. Билет 5 500 ₽ включает объявленную трапезу. Рекомендовано 10+; в меню есть аллергены. Наличие мест меняется. Билет 5 500 ₽ на экскурсию-трапезу. Объявленная программа включает блюда и напитки по историческим рецептам. Организатор рекомендует возраст 10+ и предупреждает об аллергенах, включая мёд и орехи. Покупка билета на официальной странице; число мест ограничено. Отдельный обязательный входной билет или обязательная доплата на странице не указаны. Возможные сборы на заключительном этапе оплаты не проверены.",
+        "sources": [
+          {
+            "name": "Музей ратной истории Москвы / Чайная на Крутицах",
+            "url": "https://castle.moscow/event/kulinarnaja-jekskursija-carstvo-moskovskoe-xvi-xvii-vek-10-oktjabrja/",
+            "price": 5500,
+            "min": false,
+            "priceLabel": "5 500 ₽ — экскурсия-трапеза",
+            "checkedAt": "2026-10-10T13:02:11Z"
+          }
+        ],
+        "extraFees": "Отдельный обязательный входной билет или обязательная доплата на странице не указаны. Возможные сборы на заключительном этапе оплаты не проверены.",
+        "verificationNote": "Дата, начало и окончание, площадка, адрес, точка карты, опубликованная цена и правила входа проверены. Ограничения сведений о доступности и комиссиях обозначены отдельно.",
+        "feesNote": "Отдельный обязательный входной билет или обязательная доплата на странице не указаны. Возможные сборы на заключительном этапе оплаты не проверены.",
+        "availabilitySnapshotVerified": true,
+        "priceNote": "5 500 ₽ — экскурсия-трапеза"
+      }
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "reason": "Новое отдельное событие: дата, время, адрес, точка карты, опубликованный тариф и условия входа проверены.",
+      "evidenceUrls": [
+        "https://fanstationfest.ru/",
+        "https://qtickets.ru/iframe?event_id=243219"
+      ],
+      "event": {
+        "id": "research-msk-a9aeb4c9617451ab",
+        "city": "Moscow",
+        "title": "Фан-стендап на Фан Станции",
+        "date": "2026-10-10",
+        "time": "21:00",
+        "end": "23:00",
+        "endTime": "23:00",
+        "endDate": "2026-10-10",
+        "timezone": "Europe/Moscow",
+        "startAt": "2026-10-10T21:00:00+03:00",
+        "endAt": "2026-10-10T23:00:00+03:00",
+        "source": "Фестиваль «Фан Станция»",
+        "sourceUrl": "https://fanstationfest.ru/",
+        "checkedAt": "2026-10-10T13:02:11Z",
+        "sourceRetrievedAt": "2026-10-10T13:02:11Z",
+        "retrievalTimeNote": "Источник прочитан в интервале 12:57–13:02 UTC; итоговая отметка проверки взята из clock.curr_time.",
+        "price": 3500,
+        "min": false,
+        "currency": "RUB",
+        "category": "theatre",
+        "kind": "event",
+        "language": "",
+        "languageNote": "Язык отдельно не указан организатором; объявление на русском.",
+        "verification": "verified_primary_schedule_and_venue",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "evidenceUrls": [
+          "https://fanstationfest.ru/",
+          "https://qtickets.ru/iframe?event_id=243219"
+        ],
+        "availabilityVerified": false,
+        "availabilityNote": "Опубликован тариф и ссылка на Qtickets; наличие мест и сумма на заключительном этапе оплаты не подтверждены.",
+        "venue": "Академия спорта «Динамо»",
+        "address": "Москва, ул. Юрия Никулина, 3",
+        "lat": 55.79057,
+        "lng": 37.565308,
+        "coordinateSource": "https://fanstationfest.ru/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "В iframe официального сайта параметр pt=37.565308,55.790570,pm2rdm задаёт явную метку Академии спорта «Динамо». Использован pt, не только ll (центр карты).",
+        "timeNote": "Московское время, UTC+3. Официальный скрипт открытия фестиваля явно использует 2026-10-10T10:30:00+03:00; указанное для события время взято из соответствующей программы.",
+        "ticketUrl": "https://qtickets.ru/iframe?event_id=243219",
+        "registration": "Нужен билет выбранного типа и даты. На входе проверка безопасности и выдача браслета; передавать браслет другому человеку нельзя.",
+        "mandatoryExtras": "Обязательные доплаты в опубликованном тарифе не указаны. Итоговая комиссия Qtickets при оплате не проверена; указанная цена является опубликованным тарифом организатора, а не подтверждённым итогом заказа.",
+        "priceEvidenceUrl": "https://fanstationfest.ru/",
+        "priceLabel": "3 500 ₽ — отдельный билет на стендап",
+        "ageLimit": "18+",
+        "ageNote": "18+ для стендап-вечера, несмотря на общий рейтинг дневного фестиваля 0+.",
+        "admission": "Отдельный билет на стендап-вечер — 3 500 ₽. Для владельцев VIP-билета фестиваля стендап включён. Обычный дневной билет не указан как достаточный для стендапа.",
+        "description": "Двухчасовой стендап-вечер с Денисом Антипиным, Алексеем Соловьёвым, Артёмом Емельяновым, Львом Ерёменко и Севой Ловкачёвым. 18+. Отдельный билет — 3 500 ₽; VIP включает посещение. Возможная комиссия оплаты не проверена. Отдельный билет на стендап-вечер — 3 500 ₽. Для владельцев VIP-билета фестиваля стендап включён. Обычный дневной билет не указан как достаточный для стендапа. Нужен билет выбранного типа и даты. На входе проверка безопасности и выдача браслета; передавать браслет другому человеку нельзя. Обязательные доплаты в опубликованном тарифе не указаны. Итоговая комиссия Qtickets при оплате не проверена; указанная цена является опубликованным тарифом организатора, а не подтверждённым итогом заказа. Наличие мест и билетов уточните у организатора.",
+        "sources": [
+          {
+            "name": "Фестиваль «Фан Станция»",
+            "url": "https://fanstationfest.ru/",
+            "price": 3500,
+            "min": false,
+            "priceLabel": "3 500 ₽ — отдельный билет на стендап",
+            "checkedAt": "2026-10-10T13:02:11Z"
+          }
+        ],
+        "extraFees": "Обязательные доплаты в опубликованном тарифе не указаны. Итоговая комиссия Qtickets при оплате не проверена; указанная цена является опубликованным тарифом организатора, а не подтверждённым итогом заказа.",
+        "verificationNote": "Дата, начало и окончание, площадка, адрес, точка карты, опубликованная цена и правила входа проверены. Ограничения сведений о доступности и комиссиях обозначены отдельно.",
+        "categoryNote": "Стендап, 18+.",
+        "feesNote": "Обязательные доплаты в опубликованном тарифе не указаны. Итоговая комиссия Qtickets при оплате не проверена; указанная цена является опубликованным тарифом организатора, а не подтверждённым итогом заказа.",
+        "priceNote": "3 500 ₽ — отдельный билет на стендап"
+      }
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "reason": "Новое отдельное событие: дата, время, адрес, точка карты, опубликованный тариф и условия входа проверены.",
+      "evidenceUrls": [
+        "https://castle.moscow/event/voskresnyj-zavtrak-proroki-bozhii-v-chem-raznica-s-vangami-11-oktjabrja/",
+        "https://castle.moscow/teahouse/",
+        "https://yandex.com/maps/org/chaynaya_na_krutitsakh/100415121892/"
+      ],
+      "event": {
+        "id": "research-msk-c7be10b0d67ef3df",
+        "city": "Moscow",
+        "title": "«Воскресный завтрак»: Пророки Божии. В чём разница с «вангами»?",
+        "date": "2026-10-11",
+        "time": "12:00",
+        "end": "13:30",
+        "endTime": "13:30",
+        "endDate": "2026-10-11",
+        "timezone": "Europe/Moscow",
+        "startAt": "2026-10-11T12:00:00+03:00",
+        "endAt": "2026-10-11T13:30:00+03:00",
+        "source": "Музей ратной истории Москвы / Чайная на Крутицах",
+        "sourceUrl": "https://castle.moscow/event/voskresnyj-zavtrak-proroki-bozhii-v-chem-raznica-s-vangami-11-oktjabrja/",
+        "checkedAt": "2026-10-10T13:02:11Z",
+        "sourceRetrievedAt": "2026-10-10T13:02:11Z",
+        "retrievalTimeNote": "Источник прочитан в интервале 12:57–13:02 UTC; итоговая отметка проверки взята из clock.curr_time.",
+        "price": 0,
+        "min": false,
+        "currency": "RUB",
+        "category": "talk",
+        "kind": "event",
+        "language": "",
+        "languageNote": "Язык отдельно не указан организатором; объявление на русском.",
+        "verification": "verified_primary_schedule_and_venue",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "evidenceUrls": [
+          "https://castle.moscow/event/voskresnyj-zavtrak-proroki-bozhii-v-chem-raznica-s-vangami-11-oktjabrja/",
+          "https://castle.moscow/teahouse/",
+          "https://yandex.com/maps/org/chaynaya_na_krutitsakh/100415121892/"
+        ],
+        "availabilityVerified": false,
+        "availabilityNote": "На момент проверки 10.10.2026 в 16:02 МСК официальная форма показывала 8 доступных приглашений. Это снимок наличия, запись не выполнялась.",
+        "venue": "Чайная на Крутицах",
+        "address": "Москва, ул. Крутицкая, 17, стр. 9",
+        "lat": 55.728417,
+        "lng": 37.658525,
+        "coordinateSource": "https://yandex.com/maps/org/chaynaya_na_krutitsakh/100415121892/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "Яндекс Карты: объект Чайная на Крутицах, ID 100415121892, адрес Krutitskaya Street, 17с9 и coordinates [37.658525,55.728417]. Это координаты выбранного объекта, не центра карты. Адрес отдельно подтверждён официальной страницей чайной. Общая метка музея в подвале сайта не использовалась.",
+        "priceLabel": "Бесплатно, по записи",
+        "priceEvidenceUrl": "https://castle.moscow/event/voskresnyj-zavtrak-proroki-bozhii-v-chem-raznica-s-vangami-11-oktjabrja/",
+        "ageLimit": "",
+        "ageNote": "Возрастное ограничение в карточке не указано.",
+        "ticketUrl": "https://castle.moscow/event/voskresnyj-zavtrak-proroki-bozhii-v-chem-raznica-s-vangami-11-oktjabrja/",
+        "registration": "Предварительная запись через кнопку «Записаться» на официальной странице.",
+        "admission": "Участие в беседе объявлено бесплатным. Для записи на странице предусмотрены бесплатные приглашения. Включённое питание не обещано; обязательный заказ в кафе не указан.",
+        "mandatoryExtras": "Обязательная покупка еды или напитков и иные обязательные доплаты не указаны. Название «завтрак» не является обещанием бесплатной еды.",
+        "timeNote": "Московское время, UTC+3. В видимом расписании и JSON-LD совпадают 11.10.2026, 12:00–13:30 и смещение +03:00.",
+        "availabilitySnapshot": {
+          "availableInvitations": 8,
+          "checkedAt": "2026-10-10T13:02:11Z",
+          "sourceUrl": "https://castle.moscow/event/voskresnyj-zavtrak-proroki-bozhii-v-chem-raznica-s-vangami-11-oktjabrja/"
+        },
+        "structuredDataCaveat": "В JSON-LD у нулевого предложения технически стоит USD; видимая карточка и форма прямо показывают бесплатное участие. Платёж отсутствует; RUB используется как валюта московского фида, без пересчёта или платного тарифа.",
+        "description": "Беседа на веранде Чайной о ветхозаветных пророках и лжепророках. Участие бесплатное, по записи. Бесплатное питание не заявлено, обязательный заказ в кафе не указан. Участие в беседе объявлено бесплатным. Для записи на странице предусмотрены бесплатные приглашения. Включённое питание не обещано; обязательный заказ в кафе не указан. Предварительная запись через кнопку «Записаться» на официальной странице. Обязательная покупка еды или напитков и иные обязательные доплаты не указаны. Название «завтрак» не является обещанием бесплатной еды. Наличие мест и билетов уточните у организатора.",
+        "sources": [
+          {
+            "name": "Музей ратной истории Москвы / Чайная на Крутицах",
+            "url": "https://castle.moscow/event/voskresnyj-zavtrak-proroki-bozhii-v-chem-raznica-s-vangami-11-oktjabrja/",
+            "price": 0,
+            "min": false,
+            "priceLabel": "Бесплатно, по записи",
+            "checkedAt": "2026-10-10T13:02:11Z"
+          }
+        ],
+        "extraFees": "Обязательная покупка еды или напитков и иные обязательные доплаты не указаны. Название «завтрак» не является обещанием бесплатной еды.",
+        "verificationNote": "Дата, начало и окончание, площадка, адрес, точка карты, опубликованная цена и правила входа проверены. Ограничения сведений о доступности и комиссиях обозначены отдельно.",
+        "feesNote": "Обязательная покупка еды или напитков и иные обязательные доплаты не указаны. Название «завтрак» не является обещанием бесплатной еды.",
+        "availabilitySnapshotVerified": true,
+        "priceNote": "Бесплатно, по записи"
+      }
+    },
+    {
+      "city": "moscow",
+      "action": "add",
+      "reason": "Новое отдельное событие: дата, время, адрес, точка карты, опубликованный тариф и условия входа проверены.",
+      "evidenceUrls": [
+        "https://fanstationfest.ru/",
+        "https://qtickets.ru/iframe?event_id=243219"
+      ],
+      "event": {
+        "id": "research-msk-3f8e23d58ac1d4e6",
+        "city": "Moscow",
+        "title": "Фан Станция: воскресная программа фестиваля настольных игр и косплея",
+        "date": "2026-10-11",
+        "time": "11:00",
+        "end": "21:00",
+        "endTime": "21:00",
+        "endDate": "2026-10-11",
+        "timezone": "Europe/Moscow",
+        "startAt": "2026-10-11T11:00:00+03:00",
+        "endAt": "2026-10-11T21:00:00+03:00",
+        "source": "Фестиваль «Фан Станция»",
+        "sourceUrl": "https://fanstationfest.ru/",
+        "checkedAt": "2026-10-10T13:02:11Z",
+        "sourceRetrievedAt": "2026-10-10T13:02:11Z",
+        "retrievalTimeNote": "Источник прочитан в интервале 12:57–13:02 UTC; итоговая отметка проверки взята из clock.curr_time.",
+        "price": 1290,
+        "min": false,
+        "currency": "RUB",
+        "category": "games",
+        "kind": "event",
+        "language": "",
+        "languageNote": "Язык отдельно не указан организатором; объявление на русском.",
+        "verification": "verified_primary_schedule_and_venue",
+        "stale": false,
+        "researchBatch": "new-discovery-2026-10-10-afternoon",
+        "evidenceUrls": [
+          "https://fanstationfest.ru/",
+          "https://qtickets.ru/iframe?event_id=243219"
+        ],
+        "availabilityVerified": false,
+        "availabilityNote": "Опубликован тариф на воскресенье и ссылка на Qtickets; число свободных билетов и итоговая комиссия не подтверждены.",
+        "venue": "Академия спорта «Динамо»",
+        "address": "Москва, ул. Юрия Никулина, 3",
+        "lat": 55.79057,
+        "lng": 37.565308,
+        "coordinateSource": "https://fanstationfest.ru/",
+        "coordinatePrecision": "building",
+        "coordinateEvidence": "В iframe официального сайта параметр pt=37.565308,55.790570,pm2rdm задаёт явную метку Академии спорта «Динамо». Использован pt, не только ll (центр карты).",
+        "timeNote": "Московское время, UTC+3. Официальный скрипт открытия фестиваля явно использует 2026-10-10T10:30:00+03:00; указанное для события время взято из соответствующей программы.",
+        "ticketUrl": "https://qtickets.ru/iframe?event_id=243219",
+        "registration": "Нужен билет выбранного типа и даты. На входе проверка безопасности и выдача браслета; передавать браслет другому человеку нельзя.",
+        "mandatoryExtras": "Обязательные доплаты в опубликованном тарифе не указаны. Итоговая комиссия Qtickets при оплате не проверена; указанная цена является опубликованным тарифом организатора, а не подтверждённым итогом заказа.",
+        "priceEvidenceUrl": "https://fanstationfest.ru/",
+        "priceLabel": "1 290 ₽ — входной билет на воскресенье",
+        "ageLimit": "0+",
+        "ageNote": "Дети до 10 лет включительно проходят бесплатно с подтверждением возраста. До 14 лет нужен совершеннолетний сопровождающий.",
+        "admission": "Входной билет на воскресенье — 1 290 ₽. Дети до 10 лет включительно бесплатно при предъявлении оригинала или скана свидетельства о рождении; до 14 лет нужен взрослый сопровождающий. VIP допускается с 10:30, обычный вход — с 11:00.",
+        "description": "Второй день фестиваля с настольными играми, НРИ, косплеем и встречами с гостями. Обычный вход с 11:00 до 21:00, билет — 1 290 ₽. Дети до 10 лет включительно бесплатно с подтверждением возраста; до 14 лет — со взрослым. Возможная комиссия оплаты не проверена. Входной билет на воскресенье — 1 290 ₽. Дети до 10 лет включительно бесплатно при предъявлении оригинала или скана свидетельства о рождении; до 14 лет нужен взрослый сопровождающий. VIP допускается с 10:30, обычный вход — с 11:00. Нужен билет выбранного типа и даты. На входе проверка безопасности и выдача браслета; передавать браслет другому человеку нельзя. Обязательные доплаты в опубликованном тарифе не указаны. Итоговая комиссия Qtickets при оплате не проверена; указанная цена является опубликованным тарифом организатора, а не подтверждённым итогом заказа. Наличие мест и билетов уточните у организатора.",
+        "sessionSelectionNote": "Опубликован только один дневной сеанс, на завтра. Субботняя дневная программа уже идёт и не размножена. Стендап — отдельная платная вечерняя программа, не повтор дневного фестиваля.",
+        "sources": [
+          {
+            "name": "Фестиваль «Фан Станция»",
+            "url": "https://fanstationfest.ru/",
+            "price": 1290,
+            "min": false,
+            "priceLabel": "1 290 ₽ — входной билет на воскресенье",
+            "checkedAt": "2026-10-10T13:02:11Z"
+          }
+        ],
+        "extraFees": "Обязательные доплаты в опубликованном тарифе не указаны. Итоговая комиссия Qtickets при оплате не проверена; указанная цена является опубликованным тарифом организатора, а не подтверждённым итогом заказа.",
+        "verificationNote": "Дата, начало и окончание, площадка, адрес, точка карты, опубликованная цена и правила входа проверены. Ограничения сведений о доступности и комиссиях обозначены отдельно.",
+        "feesNote": "Обязательные доплаты в опубликованном тарифе не указаны. Итоговая комиссия Qtickets при оплате не проверена; указанная цена является опубликованным тарифом организатора, а не подтверждённым итогом заказа.",
+        "priceNote": "1 290 ₽ — входной билет на воскресенье"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "city": "tbilisi",
+      "id": "ilia-evolution-book-2026-10-12",
+      "title": "Давид Тархнишвили: презентация книги «Реконструкция эволюции»",
+      "sourceUrl": "https://events.iliauni.edu.ge/event/iliaunis-prophesoris-davith-tharkhnishvilis-tsignis-evolutsiis-rekonstruqtsia-rogor-gavaerthianoth-genetika-da-ekologia-prezentatsia/",
+      "reason": "Дата, время, адрес и свободный вход подтверждены первичным источником; точный pin здания G не установлен. Нельзя подставить координаты другого кампуса университета."
+    },
+    {
+      "city": "tbilisi",
+      "id": "ilia-goncourt-choice-2026-10-13",
+      "title": "Гонкуровская премия: объявление грузинского выбора",
+      "sourceUrl": "https://events.iliauni.edu.ge/event/gonkuris-premiis-saqarthvelos-archevanis-laureatis-gamotskhadebis-tseremonia-3/",
+      "reason": "Дата, время, площадка, адрес и свободный вход подтверждены; точный pin книжного дома не проверен. Сторонний каталог даёт 41.7092, 44.77083, но первичный pin не раскрыт."
+    },
+    {
+      "city": "tbilisi",
+      "id": "ra:2557605",
+      "title": "Fireflies: Noise Lullabies by sic",
+      "sourceUrl": "https://ra.co/events/2557605",
+      "reason": "Мест очень мало; нужна запись в Instagram, адрес сообщают после подтверждения. Публичного адреса и pin нет; не выдумывать точку на карте."
+    },
+    {
+      "city": "tbilisi",
+      "id": "ra:2555346",
+      "title": "SUNDAY OPEN DECKS",
+      "sourceUrl": "https://ra.co/events/2555346",
+      "reason": "В первичном анонсе организатора на RA указана стоимость 15 без валюты; нельзя автоматически записать GEL. Точный pin не проверен; прямая страница не извлеклась, прочитан индекс RA."
+    },
+    {
+      "city": "tbilisi",
+      "id": "ra:2554577",
+      "title": "PHASE011 / Follow the Dragonfly",
+      "sourceUrl": "https://ra.co/events/2554577",
+      "reason": "В заголовке расписания RA — 10 октября 2026, а в описании организатора — 11 октября. До разрешения противоречия не публиковать ни один день."
+    },
+    {
+      "city": "tbilisi",
+      "id": "tbilisi-lapka-market-2026-10-10-candidate",
+      "title": "LAPKA MARKET",
+      "sourceUrl": "https://t.me/pro_tbilisi/590",
+      "reason": "Свежий агрегатор указывает 10–11 октября 2026, 14:00–21:00, но прямая публикация Telegram не извлеклась. Цена, условия входа и pin не подтверждены первоисточником."
+    },
+    {
+      "city": "belgrade",
+      "id": "bg-afternoon-forest-20261017",
+      "title": "«Лес сияет, лес поёт» — детская мастерская",
+      "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/radionitsa-za-detsu-shuma-blista-shuma-peva/",
+      "reason": "Нет прямого подтверждения цены или бесплатности; наличие цены общего посещения музея не определяет стоимость мастерской."
+    },
+    {
+      "city": "belgrade",
+      "id": "bg-afternoon-azbrka-20261024",
+      "title": "АзБрка у Вука — азбучная детская мастерская",
+      "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/radionitsa-za-detsu-azbrka-kod-vuka-azbuchno-putovane-kroz-azbrkograd/",
+      "reason": "Конфликт даты внутри первичного анонса: 24 октября в заголовке и JSON-LD, 24 сентября в основном тексте. Также не подтверждена цена."
+    },
+    {
+      "city": "belgrade",
+      "id": "bg-afternoon-atkins-20261016",
+      "title": "Juan Atkins — публичная беседа и клубная сессия",
+      "sourceUrl": "https://lozionica.rs/pojedinacni-dogadjaj/juan-atkins/",
+      "reason": "Две действующие первичные страницы дают разные цены: 2 500 RSD и 2 600 RSD. Объяснение разницы не подтверждено. Нельзя объявлять беседу бесплатной без условия покупки билета и отдельной регистрации."
+    },
+    {
+      "city": "belgrade",
+      "id": "bg-afternoon-kocka-20261029",
+      "title": "«Kocka» — спектакль о зависимости",
+      "sourceUrl": "https://domomladine.org/predstave/predstava-kocka-4/",
+      "reason": "Условие рекомендованного возраста расходится между первичными источниками: 14+ и 15+. Сохранено кандидатом до уточнения; дата и цена подтверждены."
+    },
+    {
+      "city": "belgrade",
+      "id": "bg-afternoon-dobro-20261015",
+      "title": "Христина Попович — «Dobro sam ispala! (Šta mi fali?)»",
+      "sourceUrl": "https://domomladine.org/predstave/autobiografski-komedi-sou-hristine-popovic-dobro-sam-ispala-sta-mi-fali-4/",
+      "reason": "В первичном объявлении есть дата и время, но нет цены. Цена связанной страницы eFinity в этом ограниченном проходе не установлена."
+    },
+    {
+      "city": "belgrade",
+      "id": "bg-afternoon-rustir-20261011",
+      "title": "Rústir — концерт в Elektropionir",
+      "sourceUrl": "https://urbanbug.net/desavanje/rustir-is-2026-10-11",
+      "reason": "Только вторичные анонсы. Первичный источник, правила входа и точная адресная точка для этой карточки не проверены; не считать бесплатным или готовым к карте."
+    },
+    {
+      "city": "belgrade",
+      "id": "bg-afternoon-lozionica-ceger-20261011",
+      "title": "Jesenji ceger — детская творческая мастерская",
+      "sourceUrl": "https://www.decijigrad.rs/dogadjaji/kreativne-radionice-za-decu-lozionici/",
+      "reason": "Нет первичного объявления организатора, подтверждающего дату, бесплатность и запись. Более поздние повторные мастерские из вторичного списка отдельно не размножались."
+    },
+    {
+      "city": "moscow",
+      "id": "research-msk-2c42e55122a371e7",
+      "title": "Перформанс, посвящённый Достоевскому и его героям-мечтателям",
+      "sourceUrl": "https://www.svetlovka.ru/events/kontserty/performans-posvyashchyennyy-dostoevskomu-i-ego-geroyam-mechtatelyam/",
+      "reason": "На официальном сайте окончание 21:00, на странице организатора в Timepad — 20:00. Кроме того, Timepad reg_open=false: регистрация закрыта. Не публиковать как доступное событие до уточнения."
+    },
+    {
+      "city": "moscow",
+      "id": "research-msk-9680b3d00248c079",
+      "title": "English Literature Club: The Library Horror Джона Гарднера",
+      "sourceUrl": "https://www.svetlovka.ru/events/other/vstrecha-angliyskogo-literaturnogo-kluba-v-ssvetlovke-english-literature-club-in-svetlovka/",
+      "reason": "Дата и начало совпадают, но окончание расходится: 21:00 на сайте библиотеки и 20:45 в Timepad. В соответствии с требованием удерживать конфликтующие поля событие оставлено кандидатом."
+    },
+    {
+      "city": "moscow",
+      "id": "research-msk-5cf5f4d2c70cc77a",
+      "title": "Вечерний приём на Крутицах",
+      "sourceUrl": "https://castle.moscow/event/vechernij-priem-na-kruticah-17-oktjabrja/",
+      "reason": "Официальная страница и JSON-LD показывают SoldOut, 0 доступно и «Распродано». Не выводить как доступное событие."
+    },
+    {
+      "city": "moscow",
+      "id": "research-msk-259210460cb318a2",
+      "title": "«Родина» — вечерняя программа перформативного уикенда «Круг II»",
+      "sourceUrl": "https://kroog2.ru/368-performativnyj-uikend-sentyabr-2026",
+      "reason": "Начало 20:00 и цена от 1 500 ₽ подтверждены официальным расписанием и связанным билетным продавцом. Организатор назначает обсуждение на 21:20, продавец указывает длительность 1 час 30 минут; JSON-LD продавца ошибочно равняет конец началу. Окончание и билетные комиссии требуют уточнения."
+    },
+    {
+      "city": "moscow",
+      "id": "candidate-msk-fandom-20261011",
+      "title": "Фандом Фест 2026 — воскресенье",
+      "sourceUrl": "https://fandomvk.com/",
+      "reason": "Первичный сайт в веб-представлении рекламирует от 3 900 ₽, билетная страница Афиши показывает от 6 700 ₽. Прямой запрос первичного сайта вернул 502, официальный сайт арены 403; актуальный доступный тариф, конец программы и точная метка площадки не подтверждены. Не подменять цену одним из противоречащих значений."
+    }
+  ]
+}

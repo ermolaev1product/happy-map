@@ -1,0 +1,645 @@
+[
+  {
+    "cityId": "tbilisi",
+    "url": "https://tkt.ge/en",
+    "status": "partial_dynamic_no_cards",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "yerevan",
+    "url": "https://www.tomsarkgh.am/en/",
+    "status": "partial_homepage_and_two_cards",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "batumi",
+    "url": "https://www.infobatumi.ge/en/events/",
+    "status": "partial_homepage_detail_timeout",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "baku",
+    "url": "https://iticket.az/",
+    "status": "partial_homepage_selected_cards",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "tashkent",
+    "url": "https://www.afisha.uz/ru",
+    "status": "partial_homepage_five_full_cards_and_structured_data",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "almaty",
+    "url": "https://ticketon.kz/almaty",
+    "status": "403",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "astana",
+    "url": "https://ticketon.kz/astana",
+    "status": "403",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "bishkek",
+    "url": "https://bishkek.events/",
+    "status": "timeout",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "astana",
+    "url": "https://afisha.yandex.kz/astana",
+    "status": "partial_calendar_no_event_cards",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "almaty",
+    "url": "https://afisha.yandex.kz/almaty",
+    "status": "opened_not_substantively_reviewed",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "tashkent",
+    "url": "https://www.afisha.uz/ru/concerts/2026/03/02/valeriy-meladze",
+    "status": "full_announcement_and_jsonld_read",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00"
+  },
+  {
+    "cityId": "tashkent",
+    "url": "https://www.afisha.uz/ru/concerts/2026/05/14/leonid-agutin",
+    "status": "full_announcement_and_jsonld_read",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00"
+  },
+  {
+    "cityId": "tashkent",
+    "url": "https://www.afisha.uz/ru/gorod/2026/09/23/teni-doma",
+    "status": "full_announcement_and_jsonld_read",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00"
+  },
+  {
+    "cityId": "tashkent",
+    "url": "https://www.afisha.uz/ru/children/2026/02/11/globus-arxeo",
+    "status": "full_announcement_and_jsonld_read",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00"
+  },
+  {
+    "cityId": "tashkent",
+    "url": "https://www.afisha.uz/ru/exhibitions/2026/10/19/pim-market",
+    "status": "full_announcement_and_jsonld_read",
+    "checkedAt": "2026-10-25T05:11:31.119445+00:00"
+  },
+  {
+    "cityId": "astana",
+    "url": "https://sxodim.com/astana",
+    "status": "partial_homepage_read",
+    "checkedAt": "2026-10-25T05:12:35.229580+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "bishkek",
+    "url": "https://kassir.kg/ru",
+    "status": "partial_homepage_read",
+    "checkedAt": "2026-10-25T05:12:35.229580+00:00",
+    "pagination": "incomplete"
+  },
+  {
+    "cityId": "belgrade",
+    "url": "https://www.danubeogradu.rs/izlasci/",
+    "checkedAt": "2026-10-25T05:08:00Z",
+    "status": "read homepage, partial; not full pagination",
+    "method": "web open"
+  },
+  {
+    "cityId": "paris",
+    "url": "https://www.sortiraparis.com/",
+    "checkedAt": "2026-10-25T05:08:00Z",
+    "status": "read homepage, partial; not full pagination",
+    "method": "web open"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.timeout.com/london",
+    "checkedAt": "2026-10-25T05:08:00Z",
+    "status": "read homepage, partial; not full pagination",
+    "method": "web open"
+  },
+  {
+    "cityId": "flensburg",
+    "url": "https://foerdekompass.sh/kalender/",
+    "checkedAt": "2026-10-25T05:08:00Z",
+    "status": "read homepage, partial; not full pagination",
+    "method": "web open"
+  },
+  {
+    "cityId": "vienna",
+    "url": "https://www.falter.at/events",
+    "checkedAt": "2026-10-25T05:08:00Z",
+    "status": "blocked UnexpectedStatusCode",
+    "method": "web open"
+  },
+  {
+    "cityId": "prague",
+    "url": "https://prague.eu/en/akce-kategorie/events/",
+    "checkedAt": "2026-10-25T05:08:00Z",
+    "status": "read homepage, partial; not full pagination",
+    "method": "web open"
+  },
+  {
+    "cityId": "berlin",
+    "url": "https://www.visitberlin.de/de/veranstaltungskalender-berlin",
+    "checkedAt": "2026-10-25T05:08:00Z",
+    "status": "read homepage, partial; not full pagination",
+    "method": "web open"
+  },
+  {
+    "cityId": "barcelona",
+    "url": "https://guia.barcelona.cat/es/",
+    "checkedAt": "2026-10-25T05:08:00Z",
+    "status": "read homepage, partial; not full pagination",
+    "method": "web open"
+  },
+  {
+    "cityId": "madrid",
+    "url": "https://www.esmadrid.com/agenda-madrid",
+    "checkedAt": "2026-10-25T05:08:00Z",
+    "status": "read homepage, partial; not full pagination",
+    "method": "web open"
+  },
+  {
+    "cityId": "limassol",
+    "url": "https://www.checkincyprus.com/section/events/things-to-do/month/city/lemesos/category/all/",
+    "checkedAt": "2026-10-25T05:08:00Z",
+    "status": "read homepage, partial; not full pagination",
+    "method": "web open"
+  },
+  {
+    "cityId": "flensburg",
+    "url": "https://bergmuehle-flensburg.com/?page_id=510",
+    "checkedAt": "2026-10-25T05:09:55Z",
+    "status": "Read dated full program excerpts Oct25,28,30 and Nov1; private rehearsals/Belegt excluded; Nov8 Swing Gitanes moved to Dec13 outside horizon."
+  },
+  {
+    "cityId": "flensburg",
+    "url": "https://de.wikipedia.org/wiki/Bergm%C3%BChle_(Flensburg)",
+    "checkedAt": "2026-10-25T05:09:55Z",
+    "status": "Named venue coordinate read; address matched official organizer footer."
+  },
+  {
+    "cityId": "vienna",
+    "url": "https://eventfinder.at/wien/veranstaltungen/",
+    "checkedAt": "2026-10-25T05:10:45Z",
+    "status": "tool reports URL notaccessible,reserve blocked"
+  },
+  {
+    "cityId": "limassol",
+    "url": "https://www.checkincyprus.com/article/89986/e-palia-lemesos-zontaneuei-sto-3o-phestibal-kantadas/",
+    "checkedAt": "2026-10-25T05:11:15Z",
+    "status": "full dated event read;coordinatepending"
+  },
+  {
+    "cityId": "madrid",
+    "url": "https://www.esmadrid.com/agenda/arte-guardar-galeria-colecciones-reales",
+    "checkedAt": "2026-10-25T05:11:15Z",
+    "status": "fullmunicipaleventdetailread;operator ticketread;museumdetail403"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.gresham.ac.uk/whats-on/true-stories",
+    "checkedAt": "2026-10-25T05:14:09Z",
+    "status": "full dated official announcement read"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.gresham.ac.uk/whats-on/indian-cinema",
+    "checkedAt": "2026-10-25T05:14:09Z",
+    "status": "full dated official announcement read"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.gresham.ac.uk/whats-on/history-not",
+    "checkedAt": "2026-10-25T05:14:09Z",
+    "status": "full dated official announcement read"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.gresham.ac.uk/whats-on/objects-auschwitz",
+    "checkedAt": "2026-10-25T05:14:09Z",
+    "status": "full dated official announcement read"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.gresham.ac.uk/whats-on/guantanamo-euphrates",
+    "checkedAt": "2026-10-25T05:14:09Z",
+    "status": "full dated official announcement read"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.ianvisits.co.uk/calendar/",
+    "status": "todaylist includedpast24Oct detailcards;relative-datecache mismatch",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.ianvisits.co.uk/calendar/tomorrow/",
+    "status": "staleFri23Oct label;not used asOct26",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.ianvisits.co.uk/calendar/date/2026/10/",
+    "status": "datedOct25–28 sectionsread,one monthlypage,notallMoreevents pages",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.gresham.ac.uk/whats-on/venues/barnards-inn-hall",
+    "status": "official address read",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "berlin",
+    "url": "https://www.visitberlin.de/de/tagestipps-veranstaltungen-berlin",
+    "status": "firstdaytipspage,3detailpagesread;no fullpagination",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "berlin",
+    "url": "https://www.visitberlin.de/de/event/carmen-1",
+    "status": "dated16:00Oct25 detailread",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "barcelona",
+    "url": "https://guia.barcelona.cat/es/detall/5e-festival-de-literatura-italiana-a-barcelona-flib_99400721454.html",
+    "status": "detailread;existingFLIBoccurrences deduplicated",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "barcelona",
+    "url": "https://guia.barcelona.cat/es/agenda-recomenada/la-meva-barcelona?ctg=jornades+i+conferencies",
+    "status": "filterpageonly no readablecards",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "vienna",
+    "url": "https://www.wien.gv.at/veranstaltungen/",
+    "status": "fetch500",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "vienna",
+    "url": "https://www.wienmuseum.at/veranstaltungen",
+    "status": "notaccessible",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "london",
+    "url": "https://t.me/s/afishalondon",
+    "status": "publicpostsread;LightroomAardmanexhibitionends4Jan2027 candidate needsdate/hours/coords",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "london",
+    "url": "https://t.me/s/londontechevents",
+    "status": "publicpostsread latestvisibleOct11–18section;laterpostpending",
+    "checkedAt": "2026-10-25T05:14:09Z"
+  },
+  {
+    "cityId": "vienna",
+    "url": "https://wienxtra.at/event/7853/",
+    "checkedAt": "2026-10-25T05:15:20Z",
+    "status": "full two-day dated program read;free/noregistration"
+  },
+  {
+    "cityId": "vienna",
+    "url": "https://tickets.mak.at/tickets/4970541/",
+    "checkedAt": "2026-10-25T05:15:20Z",
+    "status": "officialdatedticketpagefreeadmissionconfirmed"
+  },
+  {
+    "cityId": "vienna",
+    "url": "https://www.mak.at/veranstaltung/mak_day_2026_2026-10-26_1000",
+    "checkedAt": "2026-10-25T05:15:20Z",
+    "status": "officialGermanfullannouncementread"
+  },
+  {
+    "cityId": "vienna",
+    "url": "https://www.eventfinder.at/wien/veranstaltungen/oktober/?page=10",
+    "checkedAt": "2026-10-25T05:15:20Z",
+    "status": "onepageread;actualcardsOct14despitesearchsnippetOct26;notmisdated"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.instagram.com/afisha.london/",
+    "checkedAt": "2026-10-25T05:15:20Z",
+    "status": "robotsdenied,noauthattempt"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.gresham.ac.uk/whats-on/trans-variance",
+    "checkedAt": "2026-10-25T05:16:02Z",
+    "status": "Full official dated announcement read"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.gresham.ac.uk/whats-on/end-maths",
+    "checkedAt": "2026-10-25T05:16:02Z",
+    "status": "Full official dated announcement read"
+  },
+  {
+    "cityId": "barcelona",
+    "url": "https://t.me/s/barcelona_afisha",
+    "checkedAt": "2026-10-25T05:16:02Z",
+    "status": "not accessible"
+  },
+  {
+    "cityId": "barcelona",
+    "url": "https://t.me/s/HoyBarcelona",
+    "checkedAt": "2026-10-25T05:16:02Z",
+    "status": "public posts readable but returnedSeptember2026 slice;notfreshOctobercoverage"
+  },
+  {
+    "cityId": "london",
+    "url": "https://t.me/s/londontechevents",
+    "checkedAt": "2026-10-25T05:16:02Z",
+    "status": "Readthroughlastpost:Oct18–25digestlatestlistedactualeventOct24,noneconfirmedfuture."
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.gresham.ac.uk/whats-on",
+    "checkedAt": "2026-10-25T05:16:02Z",
+    "status": "JS listing shell only,no furtherdatedcards;homepage8upcomingonly"
+  },
+  {
+    "cityId": "london",
+    "url": "https://www.gresham.ac.uk/whats-on/rethinking-deterrence",
+    "checkedAt": "2026-10-25T05:16:32Z",
+    "status": "FullannouncementreadandMercersvenue/address/coordsresolved"
+  },
+  {
+    "cityId": "antalya",
+    "url": "https://www.bubilet.com.tr/antalya/etkinlik/soft-analog-konseri/seans/291777",
+    "checkedAt": "2026-10-25T05:10:49.373117+00:00",
+    "status": "full exactdatedsession read; new vsfeed"
+  },
+  {
+    "cityId": "antalya",
+    "url": "https://www.bubilet.com.tr/antalya/etkinlik/anaf-reunion-tour/seans/292148",
+    "checkedAt": "2026-10-25T05:10:49.373117+00:00",
+    "status": "full exactdatedsession read; new vsfeed"
+  },
+  {
+    "cityId": "antalya",
+    "url": "https://www.bubilet.com.tr/antalya/etkinlik/furkan-halici-konseri/seans/293603",
+    "checkedAt": "2026-10-25T05:10:49.373117+00:00",
+    "status": "full exactdatedsession read; new vsfeed"
+  },
+  {
+    "cityId": "antalya",
+    "url": "https://www.bubilet.com.tr/antalya/etkinlik/acik-mikrofon-stand-up-pazar-puzzle-social-house/seans/295430",
+    "checkedAt": "2026-10-25T05:10:49.373117+00:00",
+    "status": "full exactdatedsession read; new vsfeed"
+  },
+  {
+    "cityId": "moscow",
+    "url": "https://msk.kassir.ru/obrazovanie/kulturnyiy-tsentr-dom-bulata/aleksandra-irbe-frankl-dostoevskiy-tolstoy-o-smyisle-jizni-i-o-poiskah-schastya_2026-10-25",
+    "checkedAt": "2026-10-25T05:13:57.140867+00:00",
+    "status": "full datedannouncement read; semanticdedupchecked againstfeed"
+  },
+  {
+    "cityId": "tel-aviv",
+    "url": "https://www.secrettelaviv.com/tickets/doomsday-disco-kuli-alma",
+    "checkedAt": "2026-10-25T05:13:57.140867+00:00",
+    "status": "full datedannouncement read; semanticdedupchecked againstfeed"
+  },
+  {
+    "cityId": "tel-aviv",
+    "url": "https://www.secrettelaviv.com/tickets/launch-of-the-book-tel-aviv-beaches-bauhaus-center",
+    "checkedAt": "2026-10-25T05:13:57.140867+00:00",
+    "status": "full datedannouncement read; semanticdedupchecked againstfeed"
+  },
+  {
+    "cityId": "istanbul",
+    "url": "https://www.bubilet.com.tr/istanbul/etkinlik/mahsun-kirmizigul-/seans/281816",
+    "status": "full exactdatedsession read; newsemanticmatchabsent",
+    "checkedAt": "2026-10-25T05:14:57.015862+00:00"
+  },
+  {
+    "cityId": "istanbul",
+    "url": "https://www.bubilet.com.tr/istanbul/etkinlik/mahsun-kirmizigul-/seans/281817",
+    "status": "full exactdatedsession read; newsemanticmatchabsent",
+    "checkedAt": "2026-10-25T05:14:57.015862+00:00"
+  },
+  {
+    "cityId": "istanbul",
+    "url": "https://www.bubilet.com.tr/istanbul/etkinlik/hande-yener-konseri/seans/264958",
+    "status": "full exactdatedsession read; newsemanticmatchabsent",
+    "checkedAt": "2026-10-25T05:14:57.015862+00:00"
+  },
+  {
+    "cityId": "istanbul",
+    "url": "https://www.bubilet.com.tr/istanbul/etkinlik/iki-kisilik-oyun-/seans/302992",
+    "status": "full exactdatedsession read; newsemanticmatchabsent",
+    "checkedAt": "2026-10-25T05:14:57.015862+00:00"
+  },
+  {
+    "cityId": "moscow",
+    "url": "https://www.afisha.ru/msk/",
+    "checkedAt": "2026-10-25T05:15:33.548332+00:00",
+    "status": "Primary homepage and 2 lecture announcements read. No complete pagination.",
+    "method": "available web text reader, not Google/Yandex page pagination"
+  },
+  {
+    "cityId": "saint-petersburg",
+    "url": "https://www.afisha.ru/spb/",
+    "checkedAt": "2026-10-25T05:15:33.548332+00:00",
+    "status": "Primary homepage read; supplementary puppet lecture held for conflicting times and unreadable official Timepad.",
+    "method": "available web text reader, not Google/Yandex page pagination"
+  },
+  {
+    "cityId": "minsk",
+    "url": "https://afisha.relax.by/",
+    "checkedAt": "2026-10-25T05:15:33.548332+00:00",
+    "status": "Primary homepage and ZYNK/Fame Fashion full announcements read. ZYNK lacks start time; other details not fully resolved.",
+    "method": "available web text reader, not Google/Yandex page pagination"
+  },
+  {
+    "cityId": "palo-alto",
+    "url": "https://www.eventbrite.com/d/ca--palo-alto/events/",
+    "checkedAt": "2026-10-25T05:15:33.548332+00:00",
+    "status": "405 Method Not Allowed; no dynamic list extracted.",
+    "method": "available web text reader, not Google/Yandex page pagination"
+  },
+  {
+    "cityId": "palo-alto",
+    "url": "https://www.paloalto.gov/Events-Directory",
+    "checkedAt": "2026-10-25T05:15:33.548332+00:00",
+    "status": "Reserve page 1 of 9 read, 86 displayed results. Photography Meetup already exists; detail 403. Mayor detail cache miss.",
+    "method": "available web text reader, not Google/Yandex page pagination"
+  },
+  {
+    "cityId": "palo-alto",
+    "url": "https://events.stanford.edu/calendar/day/2026/10/25",
+    "checkedAt": "2026-10-25T05:15:33.548332+00:00",
+    "status": "Day page read; Book spells stale range found. Oct29 calendar returned429; further calendar reads stopped.",
+    "method": "available web text reader, not Google/Yandex page pagination"
+  },
+  {
+    "cityId": "new-york",
+    "url": "https://www.timeout.com/newyork/things-to-do/things-to-do-in-nyc-this-weekend",
+    "checkedAt": "2026-10-25T05:15:33.548332+00:00",
+    "status": "Full dated Oct23–25 roundup partially examined: NYBG puppets, showhouse, exhibitions; no all-category coverage. NYBG official detail403; exact subvenue pin not verified.",
+    "method": "available web text reader, not Google/Yandex page pagination"
+  },
+  {
+    "cityId": "dubai",
+    "url": "https://dubai.platinumlist.net/",
+    "checkedAt": "2026-10-25T05:15:33.548332+00:00",
+    "status": "Primary homepage timed out400. Blue Oct25 supplementary references deduplicated against already published Jubilee Park record; no new verified additions.",
+    "method": "available web text reader, not Google/Yandex page pagination"
+  },
+  {
+    "cityId": "tel-aviv",
+    "url": "https://www.secrettelaviv.com/tickets",
+    "checkedAt": "2026-10-25T05:15:33.548332+00:00",
+    "status": "Primary first page read through Oct27; no remaining pagination. 5 full announcements examined; 2 prepared. Instagram original posts cache miss, no login.",
+    "method": "available web text reader, not Google/Yandex page pagination"
+  },
+  {
+    "cityId": "antalya",
+    "url": "https://www.bubilet.com.tr/antalya",
+    "checkedAt": "2026-10-25T05:15:33.548332+00:00",
+    "status": "Primary first page + Holly Stone/Turkan Soray/Aspendos venue programs and selected exact sessions read. 4 clean additions; conflicts retained. No all-city pagination claim.",
+    "method": "available web text reader, not Google/Yandex page pagination"
+  },
+  {
+    "cityId": "istanbul",
+    "url": "https://www.bubilet.com.tr/istanbul",
+    "checkedAt": "2026-10-25T05:15:33.548332+00:00",
+    "status": "Primary first page + Harbiye/DasDas venue programs and selected exact sessions read; 4 prepared, Nov9/10 DasDas existing duplicates excluded. No all-city pagination claim.",
+    "method": "available web text reader, not Google/Yandex page pagination"
+  },
+  {
+    "city": "palo-alto",
+    "url": "https://events.stanford.edu/event/book-spells",
+    "checkedAt": "2026-10-25T05:17:52Z",
+    "status": "read",
+    "scope": "Book spells exhibition range and visitor access",
+    "pagination": "single official page"
+  },
+  {
+    "city": "palo-alto",
+    "url": "https://library.stanford.edu/libraries/cubberley-education-library",
+    "checkedAt": "2026-10-25T05:17:52Z",
+    "status": "read",
+    "scope": "Book spells exhibition range and visitor access",
+    "pagination": "single official page"
+  },
+  {
+    "city": "palo-alto",
+    "url": "https://library.stanford.edu/about-stanford-libraries/visitor-access",
+    "checkedAt": "2026-10-25T05:17:52Z",
+    "status": "read",
+    "scope": "Book spells exhibition range and visitor access",
+    "pagination": "single official page"
+  },
+  {
+    "city": "tbilisi",
+    "url": "https://tkt.ge/en/show/34935/unlimited-summit",
+    "checkedAt": "2026-10-25T05:19:46.552Z",
+    "status": "read",
+    "scope": "Full conferenceannouncement; coordinate-bearinglinks read for fourvenues.",
+    "pagination": "single detail page"
+  },
+  {
+    "city": "tbilisi",
+    "url": "https://tkt.ge/en/show/35199/welcome-tbilisi-2026",
+    "checkedAt": "2026-10-25T05:19:48.694Z",
+    "status": "read",
+    "scope": "Full conferenceannouncement; coordinate-bearinglinks read for fourvenues.",
+    "pagination": "single detail page"
+  },
+  {
+    "city": "tbilisi",
+    "url": "https://tkt.ge/en/show/35086/agilexchange-georgia-2026-hands-on-agile",
+    "checkedAt": "2026-10-25T05:19:50.865Z",
+    "status": "read",
+    "scope": "Full conferenceannouncement; coordinate-bearinglinks read for fourvenues.",
+    "pagination": "single detail page"
+  },
+  {
+    "city": "tbilisi",
+    "url": "https://tkt.ge/en/show/31603/ai-for-georgia",
+    "checkedAt": "2026-10-25T05:19:52.983Z",
+    "status": "read",
+    "scope": "Full conferenceannouncement; coordinate-bearinglinks read for fourvenues.",
+    "pagination": "single detail page"
+  },
+  {
+    "city": "tbilisi",
+    "url": "https://tkt.ge/en/show/34693/dgfi-2026-digital-finance-conference",
+    "checkedAt": "2026-10-25T05:19:54.973Z",
+    "status": "read",
+    "scope": "Full conferenceannouncement; coordinate-bearinglinks read for fourvenues.",
+    "pagination": "single detail page"
+  },
+  {
+    "city": "tbilisi",
+    "url": "https://tkt.ge/en/show/35430/industry-talks-1-0-retail-transformation",
+    "checkedAt": "2026-10-25T05:19:56.996Z",
+    "status": "read",
+    "scope": "Full conferenceannouncement; coordinate-bearinglinks read for fourvenues.",
+    "pagination": "single detail page"
+  },
+  {
+    "city": "tbilisi",
+    "url": "https://tkt.ge/en/show/35107/procurement-conference-2026",
+    "checkedAt": "2026-10-25T05:19:58.988Z",
+    "status": "read",
+    "scope": "Full conferenceannouncement; coordinate-bearinglinks read for fourvenues.",
+    "pagination": "single detail page"
+  },
+  {
+    "city": "tbilisi",
+    "url": "https://tkt.ge/en/show/35326/realty-forum-tbilisi-invest-2026",
+    "checkedAt": "2026-10-25T05:20:01.015Z",
+    "status": "read",
+    "scope": "Full conferenceannouncement; coordinate-bearinglinks read for fourvenues.",
+    "pagination": "single detail page"
+  },
+  {
+    "city": "tbilisi",
+    "url": "https://tkt.ge/en/show/35068/legal-tech-meetup-2026",
+    "checkedAt": "2026-10-25T05:20:02.999Z",
+    "status": "read",
+    "scope": "Full conferenceannouncement; coordinate-bearinglinks read for fourvenues.",
+    "pagination": "single detail page"
+  },
+  {
+    "city": "tbilisi",
+    "url": "https://tkt.ge/en/show/35606/ba-connect-georgia-2026",
+    "checkedAt": "2026-10-25T05:20:05.102Z",
+    "status": "read",
+    "scope": "Full conferenceannouncement; coordinate-bearinglinks read for fourvenues.",
+    "pagination": "single detail page"
+  },
+  {
+    "city": "tbilisi",
+    "url": "https://tkt.ge/en/conferences",
+    "checkedAt": "2026-10-25T05:21:28.080820+00:00",
+    "status": "read",
+    "scope": "14visible cards;10within30days fullyread. No visible pagination in this category; other categoriesnotexhausted.",
+    "pagination": "categoryvisible14; not wholeTKT"
+  }
+]

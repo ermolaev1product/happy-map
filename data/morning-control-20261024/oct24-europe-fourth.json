@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-10-24T05:28:10Z",
+  "baseCommit": "6c460a54232755eab9e5adac3201833795a1618f",
+  "events": [
+    {
+      "venueId": "paris-venue-edfe1d2dd53fed",
+      "address": "11ruePayenne,75003Paris",
+      "lat": 48.8581050182032,
+      "lng": 2.36229800729188,
+      "coordinateSource": "https://www.paris.fr/evenements/seminaire-france-suede-et-empire-ottoman-alliances-artistiques-113007",
+      "coordinatePrecision": "official-calendar",
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "paris-qfap-113007",
+      "cityId": "paris",
+      "title": "Andreas Eriksson in conversation with Nicolas Gausserand",
+      "date": "2026-11-05",
+      "time": "19:00",
+      "venue": "Institut Suédois",
+      "sourceUrl": "https://www.sortiraparis.com/arts-culture/exposition/articles/353690-soleil-et-lune-une-exposition-gratuite-a-l-institut-suedois",
+      "category": "talk",
+      "price": 0,
+      "currency": "EUR",
+      "timezone": "Europe/Paris",
+      "checkedAt": "2026-10-24T05:28:10Z",
+      "mandatoryFees": null,
+      "endAt": null,
+      "language": "en",
+      "status": "scheduled",
+      "accessType": "public",
+      "end": "21:00",
+      "admission": "Free, subject to available capacity.",
+      "dateEvidence": "FulldatedannouncementstatesThu5Nov2026 19–21, English conversation. Exhibition itself already baseline116800/124707; this is separate talk.",
+      "sourceURLs": [
+        "https://www.sortiraparis.com/arts-culture/exposition/articles/353690-soleil-et-lune-une-exposition-gratuite-a-l-institut-suedois",
+        "https://paris.si.se/agenda/soleil-et-lune-programme-associe/"
+      ],
+      "sourceLimitations": "Officialassociatedprogramme403; fullprimaryafishaannouncementread; noaccessbypass.",
+      "id": "paris-afisha24-9b94faf28c4c",
+      "programmeId": "paris-afisha24-9b94faf28c4c",
+      "kind": "event",
+      "dedupeStatus": "no_same_title_or_source_date_time",
+      "existingMatches": []
+    }
+  ],
+  "held": [],
+  "sourceChecks": [
+    {
+      "city": "paris",
+      "url": "https://paris.si.se/agenda/soleil-et-lune-programme-associe/",
+      "status": "403",
+      "checkedAt": "2026-10-24T05:28:10Z"
+    },
+    {
+      "city": "paris",
+      "url": "https://www.sortiraparis.com/arts-culture/exposition",
+      "status": "partial",
+      "scope": "Categorylatestarticleblocksread pages1–11,17–20;12–16unavailable. Lastvisiblepage20 primarilySeptemberpastprogrammes butdoesnotproveglobalcoverage. Fullfourmoreexhibitiondetailsread: RememberMe/SoleilLunealreadybaseline; MadeInSitu/JeanMarquiscoordinateverificationopen."
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,117 @@
+{
+  "city": "Tallinn",
+  "checkedAt": "2026-10-28T03:57:13.586642+00:00",
+  "sources": [
+    {
+      "id": "tallinn-source-b9aa95b010d8a0",
+      "name": "VisitTallinn broad official calendar",
+      "url": "https://www.visittallinn.ee/eng/visitor/see-do/events",
+      "checkedAt": "2026-10-28T03:57:13.586642+00:00",
+      "status": "imported",
+      "accessStatus": "complete_api_list_partial_organizer_review",
+      "count": 18,
+      "note": "Full103-row public API screened;91uniqueIDs51overlap. PublicUI fetches one list then filters; no claimed invented pagination. Not all eligible source programmes imported.",
+      "type": "official_city_calendar"
+    },
+    {
+      "id": "tallinn-source-ed862f4ec13885",
+      "name": "VisitTallinn public event feed",
+      "url": "https://www.visittallinn.ee/api/v1/event?lang=eng&prefix=eng",
+      "checkedAt": "2026-10-28T03:57:13.586642+00:00",
+      "status": "full_public_api_read",
+      "accessStatus": "full_public_api_read",
+      "count": 0,
+      "note": "Full published announcement content read; raw coordinate and date conflicts corrected with organizer evidence or held.",
+      "type": "official_city_calendar"
+    },
+    {
+      "id": "tallinn-source-c9cd74fcf01407",
+      "name": "Estonian Art Museum programmes",
+      "url": "https://kunstimuuseum.ekm.ee/en/",
+      "checkedAt": "2026-10-28T03:57:13.586642+00:00",
+      "status": "imported",
+      "accessStatus": "partial_detail_review",
+      "count": 1,
+      "note": "Kumu, Niguliste, Kadriorg and Mikkel full programme/admission pages; true ranges, closures and special prices retained.",
+      "type": "official_organizer"
+    },
+    {
+      "id": "tallinn-source-592b9dc55b658d",
+      "name": "Estonian National Opera programme",
+      "url": "https://opera.ee/en/",
+      "checkedAt": "2026-10-28T03:57:13.586642+00:00",
+      "status": "imported",
+      "accessStatus": "full_window_api_and_details",
+      "count": 45,
+      "note": "Public calendar and full production details; cancelled/sold-out sessions excluded, access/group requirements retained.",
+      "type": "official_organizer"
+    },
+    {
+      "id": "tallinn-source-85935659583fd0",
+      "name": "Fienta Tallinn organizer events",
+      "url": "https://fienta.com/",
+      "checkedAt": "2026-10-28T03:57:13.586642+00:00",
+      "status": "imported",
+      "accessStatus": "selected_full_details",
+      "count": 6,
+      "note": "Selected full dated organizer listings; not whole platform coverage.",
+      "type": "official_linked_ticket"
+    },
+    {
+      "id": "tallinn-source-1740b0a564764e",
+      "name": "Tallinn municipal activity calendar",
+      "url": "https://huvi.tallinn.ee/en",
+      "checkedAt": "2026-10-28T03:57:13.586642+00:00",
+      "status": "imported",
+      "accessStatus": "selected_full_details",
+      "count": 5,
+      "note": "Named programme details; not full pagination.",
+      "type": "official_city_calendar"
+    },
+    {
+      "id": "tallinn-source-948c87673102b2",
+      "name": "Tallinn public Telegram AfishaMiraTallinn",
+      "url": "https://t.me/s/AfishaMiraTallinn",
+      "checkedAt": "2026-10-28T03:57:13.586642+00:00",
+      "status": "read_public_announcement_preview",
+      "accessStatus": "read_public_announcement_preview",
+      "count": 0,
+      "note": "Visible announcement bodies mostly spring/summer or December, no complete verified 2026 horizon candidate.",
+      "type": "telegram"
+    },
+    {
+      "id": "tallinn-source-b5ca79fb6d778b",
+      "name": "Tallinn public Telegram AfishaMiraTallinn?before=119",
+      "url": "https://t.me/s/AfishaMiraTallinn?before=119",
+      "checkedAt": "2026-10-28T03:57:13.586642+00:00",
+      "status": "read_public_announcement_preview",
+      "accessStatus": "read_public_announcement_preview",
+      "count": 0,
+      "note": "November announcements visible, but year absent and nearby material explicitly references 2024. Not imported as 2026; no guessed year.",
+      "type": "telegram"
+    },
+    {
+      "id": "tallinn-source-08a2d9695ba263",
+      "name": "Tallinn public Telegram Estoniyachat",
+      "url": "https://t.me/Estoniyachat",
+      "checkedAt": "2026-10-28T03:57:13.586642+00:00",
+      "status": "profile_only",
+      "accessStatus": "profile_only",
+      "count": 0,
+      "note": "Public conversational Estonia chat landing page visible; no conversation bodies. /s/Estoniyachat inaccessible via reader; stopped, no join/login.",
+      "type": "telegram"
+    },
+    {
+      "id": "tallinn-source-dedacce3944320",
+      "name": "Tallinn public Telegram tallinnas",
+      "url": "https://t.me/s/tallinnas",
+      "checkedAt": "2026-10-28T03:57:13.586642+00:00",
+      "status": "read_public_channel_preview_not_chat",
+      "accessStatus": "read_public_channel_preview_not_chat",
+      "count": 0,
+      "note": "Old city-life material including explicit 2020 context; no current eligible announcements. Not claimed conversational chat coverage.",
+      "type": "telegram"
+    }
+  ],
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+}

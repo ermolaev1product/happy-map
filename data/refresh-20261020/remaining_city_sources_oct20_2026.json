@@ -1,0 +1,474 @@
+{
+  "task": "Happy Map fresh initial source overview only",
+  "checked_at_utc": "2026-10-20T05:10:18Z",
+  "window": {
+    "priority_start": "2026-10-20",
+    "priority_end": "2026-10-27",
+    "extended_end": "2026-11-19"
+  },
+  "method": "Public web search and web page opens only. No shared browser, login, account action, publication, or contact. Calendar entries are leads, not verified event objects. Search snippets never counted as verified events.",
+  "queries": [
+    [
+      "Berlin",
+      "Berlin Veranstaltungen 20 Oktober 2026 27 Oktober 2026 Berlin de"
+    ],
+    [
+      "Batumi",
+      "ბათუმი 20 ოქტომბერი 2026 ღონისძიებები Batumi events October"
+    ],
+    [
+      "Limassol",
+      "Λεμεσός εκδηλώσεις 20 Οκτωβρίου 2026 Limassol events October"
+    ],
+    [
+      "Antalya",
+      "Antalya etkinlik 20 Ekim 2026 27 Ekim"
+    ],
+    [
+      "Almaty",
+      "Алматы афиша 20 октября 2026 27 октября"
+    ],
+    [
+      "Istanbul",
+      "Istanbul etkinlik 20 Ekim 2026 27 Ekim kültür"
+    ],
+    [
+      "Dubai",
+      "Dubai events October 20 2026 October 27 calendar"
+    ],
+    [
+      "Tel Aviv",
+      "תל אביב אירועים 20 אוקטובר 2026 27 אוקטובר"
+    ],
+    [
+      "Prague",
+      "Praha akce 20 října 2026 27 října kalendář"
+    ],
+    [
+      "Barcelona",
+      "Barcelona agenda activitats 20 octubre 2026 27 octubre"
+    ],
+    [
+      "Madrid",
+      "Madrid agenda eventos 20 octubre 2026 27 octubre"
+    ],
+    [
+      "Almaty",
+      "Алматы афиша октябрь 2026 site.tickets.kz"
+    ],
+    [
+      "Almaty",
+      "Алматы афиша октябрь 2026 ticketon"
+    ],
+    [
+      "Batumi",
+      "Batumi events October 2026 tkt.ge"
+    ],
+    [
+      "Prague",
+      "Praha říjen 2026 program prague.eu"
+    ],
+    [
+      "Tel Aviv",
+      "תל אביב לוח אירועים אוקטובר 2026 site:tel-aviv.gov.il"
+    ],
+    [
+      "Batumi",
+      "Batumi events October November 2026 visitbatumi"
+    ],
+    [
+      "Antalya",
+      "Antalya Ekim 2026 etkinlik takvimi site:antalya.bel.tr"
+    ],
+    [
+      "Dubai",
+      "Dubai calendar October 2026 site:visitdubai.com"
+    ],
+    [
+      "Limassol",
+      "Λεμεσός Οκτώβριος 2026 Rialto Pattihio πρόγραμμα"
+    ],
+    [
+      "Antalya",
+      "Antalya Ekim 2026 program site:antalyadt.gov.tr"
+    ],
+    [
+      "Antalya",
+      "Antalya 2026 Ekim site:biletinial.com/tr-tr"
+    ],
+    [
+      "Almaty",
+      "Алматы қазан 2026 афиша site:gatob.kz"
+    ],
+    [
+      "Batumi",
+      "ბათუმი თეატრი აფიშა ოქტომბერი 2026"
+    ],
+    [
+      "Berlin",
+      "Berlin October 2026 events site:visitberlin.de"
+    ],
+    [
+      "Antalya",
+      "Antalya 2026 Ekim konser site:bubilet.com.tr"
+    ],
+    [
+      "Almaty",
+      "Алматы афиша октябрь 2026 опера театр официальный"
+    ],
+    [
+      "Tel Aviv",
+      "Tel Aviv October 2026 museum events official"
+    ],
+    [
+      "Almaty",
+      "Алматы афиша Абая театр октябрь 2026"
+    ],
+    [
+      "Tel Aviv",
+      "תל אביב הופעות אוקטובר 2026 site:barby.co.il"
+    ],
+    [
+      "Barcelona",
+      "Barcelona agenda octubre 2026 site:barcelona.cat"
+    ],
+    [
+      "Dubai",
+      "دبي فعاليات أكتوبر 2026 site:dubaiopera.com"
+    ],
+    [
+      "Tel Aviv",
+      "site:barby.co.il \"2026\" \"אוקטובר\""
+    ],
+    [
+      "Dubai",
+      "site:dubaiopera.com \"October\" \"2026\""
+    ],
+    [
+      "Tel Aviv",
+      "site:tamuseum.org.il \"2026\" \"אוקטובר\""
+    ]
+  ],
+  "sources": [
+    {
+      "city": "Berlin",
+      "url": "https://www.berlin.de/events/jahresuebersicht/oktober/",
+      "kind": "official_city_calendar",
+      "read_status": "failed_429",
+      "findings": "Search result current; direct page open failed Too Many Requests. No event counted.",
+      "web_evidence_ref": "turn1348view0"
+    },
+    {
+      "city": "Berlin",
+      "url": "https://www.visitberlin.de/en/event-calendar-berlin-map",
+      "kind": "official_tourism_calendar",
+      "read_status": "read_current",
+      "findings": "Actual opened calendar contains Oct20–Nov dates; strong broad source. Many long-running exhibitions have current-day start display, so not necessarily newly opened events.",
+      "web_evidence_ref": "turn1371view5"
+    },
+    {
+      "city": "Berlin",
+      "url": "https://www.visitberlin.de/en/blog/october-berlin",
+      "kind": "official_tourism_monthly_overview",
+      "read_status": "read",
+      "findings": "October 2026 overview, article dated Sep15. Search and full-page fetch available; use date filtering because many highlights ended before Oct20.",
+      "web_evidence_ref": "turn1363view4"
+    },
+    {
+      "city": "Batumi",
+      "url": "https://www.visitbatumi.com/public/ka/events?category=gartoba&from=2026-10-01&to=2026-10-31",
+      "kind": "official_tourism_calendar",
+      "read_status": "failed_cache_miss",
+      "findings": "Search indexed only calendar shell; direct open cache miss. No current events verified.",
+      "web_evidence_ref": "turn1355view0"
+    },
+    {
+      "city": "Batumi",
+      "url": "https://dr.tkt.ge/festival",
+      "kind": "ticketing_calendar",
+      "read_status": "read_empty_shell",
+      "findings": "Search result suggests Nov7–8 SUPERNATURAL at ROOMS Batumi, but opened page contains only navigation, no event listing; not verified.",
+      "web_evidence_ref": "turn1355view1"
+    },
+    {
+      "city": "Batumi",
+      "url": "https://batumitheatre.ge/repertory",
+      "kind": "official_venue_calendar",
+      "read_status": "read_current",
+      "findings": "Full repertory page read. Current 148th season schedule: Oct24/25 19:00 big stage, Oct28/30/31 and Nov1/3/4 later performances. Georgian text and Oct2026 dated news. Event detail pages not read.",
+      "web_evidence_ref": "turn1371view3"
+    },
+    {
+      "city": "Limassol",
+      "url": "https://www.limassol.org.cy/el/calendar",
+      "kind": "official_municipal_calendar",
+      "read_status": "read_current",
+      "findings": "Four entries including poster triennial Oct16–Nov15, full moon music Oct26, Pattihio Oct30. Time in full moon header disagrees with detail-body time.",
+      "web_evidence_ref": "turn1348view1"
+    },
+    {
+      "city": "Limassol",
+      "url": "https://www.pattihio.com.cy/",
+      "kind": "official_venue_calendar",
+      "read_status": "read_empty_shell",
+      "findings": "Search result indexed actual October listings, but opened homepage rendered 0 Performances. Do not treat snippet as verified.",
+      "web_evidence_ref": "turn1355view2"
+    },
+    {
+      "city": "Limassol",
+      "url": "https://rialto.interticket.com/event",
+      "kind": "official_venue_ticketing",
+      "read_status": "read_stale",
+      "findings": "Search result had current October listings; opened page returned April/May2026 listings and crawl age 5 months. Needs current direct view before verification.",
+      "web_evidence_ref": "turn1355view3"
+    },
+    {
+      "city": "Antalya",
+      "url": "https://www.bubilet.com.tr/blog/antalya/antalya-konser-takvimi-ekim-2026",
+      "kind": "ticket_seller_monthly_announcement",
+      "read_status": "fully_read_current",
+      "findings": "Article dated Oct6,2026; fully read current three dated concert announcements Oct21/23/24. Not venue-primary, but primary ticket seller editorial.",
+      "web_evidence_ref": "turn1371view4"
+    },
+    {
+      "city": "Almaty",
+      "url": "https://ticketon.kz/almaty?lang=kz",
+      "kind": "ticketing_city_calendar",
+      "read_status": "read_stale",
+      "findings": "Search result indexed October2026 calendar but same URL open returned September snapshot. Some future Oct29/Nov3 cards exist; not fresh event verification.",
+      "web_evidence_ref": "turn1348view3"
+    },
+    {
+      "city": "Almaty",
+      "url": "https://auezov-theatre.kz/ru/afisha",
+      "kind": "official_venue_calendar",
+      "read_status": "read_empty",
+      "findings": "Search result had October schedule; open produced 0 text lines. No current event verified.",
+      "web_evidence_ref": "turn1370view0"
+    },
+    {
+      "city": "Istanbul",
+      "url": "https://kultursanat.istanbul/etkinliklerimiz",
+      "kind": "official_municipal_calendar",
+      "read_status": "failed_502",
+      "findings": "Current October search snippet; direct open failed Bad Gateway.",
+      "web_evidence_ref": "turn1348view2"
+    },
+    {
+      "city": "Istanbul",
+      "url": "https://kultur.istanbul/anasayfa2/",
+      "kind": "official_municipal_culture_calendar",
+      "read_status": "read_current",
+      "findings": "Actual page has Oct20 Kutu Kutu Oyun, Terasta Caz Oct7–28, and Dali Cybernetics Oct22. Useful direct links.",
+      "web_evidence_ref": "turn1355view4"
+    },
+    {
+      "city": "Dubai",
+      "url": "https://www.visitdubai.com/en/festivals-and-events/dubai-events-calendar",
+      "kind": "official_tourism_calendar",
+      "read_status": "read_empty_shell",
+      "findings": "Opened page shows filters and navigation but no dated calendar result cards. No event verified.",
+      "web_evidence_ref": "turn1363view2"
+    },
+    {
+      "city": "Dubai",
+      "url": "https://dubai.platinumlist.net/calendar/october/concert",
+      "kind": "primary_ticketing_calendar",
+      "read_status": "read_current",
+      "findings": "Actual dated section Oct20–27 is populated. Includes Fridge Concert Series Oct20–27, Gipsy Kings Oct22, concerts Oct23–25. Promotional blocks include other cities: filter city carefully.",
+      "web_evidence_ref": "turn1356view5"
+    },
+    {
+      "city": "Tel Aviv",
+      "url": "https://www.tel-aviv.gov.il/Visitors/Events/Pages/Events.aspx",
+      "kind": "official_municipal_calendar",
+      "read_status": "read_unrendered_template",
+      "findings": "Actual open yields Angular template placeholders, not dated events. Search indexed date cards but not verification.",
+      "web_evidence_ref": "turn1363view1"
+    },
+    {
+      "city": "Tel Aviv",
+      "url": "https://www.tamuseum.org.il/he/exhibitions-and-events/film/",
+      "kind": "official_museum_calendar",
+      "read_status": "read_empty_shell",
+      "findings": "Search result had Oct22/23 cinema program; open yielded only generic navigation/footer, no calendar. No event verified.",
+      "web_evidence_ref": "turn1373view0"
+    },
+    {
+      "city": "Tel Aviv",
+      "url": "https://www.tamuseum.org.il/he/exhibitions-and-events/activity/",
+      "kind": "official_museum_calendar",
+      "read_status": "read_shell",
+      "findings": "Opened to 109-line generic page, same shell pattern; search had Oct24/31 family activity leads. No event verified.",
+      "web_evidence_ref": "turn1371view1"
+    },
+    {
+      "city": "Tel Aviv",
+      "url": "https://tamuseum.org.il/he/exhibitions-and-events/concert/",
+      "kind": "official_museum_calendar",
+      "read_status": "read_shell",
+      "findings": "Opened to 109-line generic page, same shell pattern; search had Oct27/28/29 and Nov3 series dates. No event verified.",
+      "web_evidence_ref": "turn1371view2"
+    },
+    {
+      "city": "Prague",
+      "url": "https://prague.eu/en/akce-kategorie/events/",
+      "kind": "official_tourism_calendar",
+      "read_status": "read_current",
+      "findings": "381 listed events; actual page shows Oct21 Young the Giant, AIGEL, Charlie Hunter; Oct21–22 Alexandra Dovgan, later Oct23 and beyond. Full detail pages not read.",
+      "web_evidence_ref": "turn1363view0"
+    },
+    {
+      "city": "Barcelona",
+      "url": "https://palausantjordi.barcelona/es/agenda",
+      "kind": "official_venue_calendar",
+      "read_status": "read_current",
+      "findings": "Explicit 2026 dates Oct20/21/22/23/24/25/26/28. The Strokes Oct20 sold out. Strong direct source, 10 cards with detail links.",
+      "web_evidence_ref": "turn1356view2"
+    },
+    {
+      "city": "Barcelona",
+      "url": "https://guia.barcelona.cat/ca/",
+      "kind": "official_municipal_calendar",
+      "read_status": "search_only_robots_block_reported",
+      "findings": "Search returned current October cards, but tool reported barcelona.cat robots restriction. Did not attempt to bypass or retry. No fully read verification.",
+      "web_evidence_ref": "turn1367search3"
+    },
+    {
+      "city": "Barcelona",
+      "url": "https://agenda500.barcelona.cat/es",
+      "kind": "official_municipal_highlights",
+      "read_status": "search_only_robots_block_reported",
+      "findings": "Useful current October discovery source; not opened due to reported domain robots restriction.",
+      "web_evidence_ref": "turn1367search1"
+    },
+    {
+      "city": "Madrid",
+      "url": "https://www.esmadrid.com/calendario-eventos-madrid",
+      "kind": "official_tourism_calendar",
+      "read_status": "read_current",
+      "findings": "Actual page includes Oct20/22/23/24/27 and November performances, exhibitions and festivals. Broad strong primary tourism source.",
+      "web_evidence_ref": "turn1356view1"
+    },
+    {
+      "city": "Madrid",
+      "url": "https://www.visitmadrid.es/agenda-madrid",
+      "kind": "official_regional_calendar",
+      "read_status": "read_current",
+      "findings": "Actual page current Oct20–27 and November. Many events outside Madrid city (Aranjuez, Batres, etc.); do not misassign to city.",
+      "web_evidence_ref": "turn1371view6"
+    },
+    {
+      "city": "Limassol",
+      "url": "https://www.limassol.org.cy/el/event/%CE%BC%CE%BF%CF%85%CF%83%CE%B9%CE%BA%CE%B7-%CF%80%CE%B1%CE%BD%CF%83%CE%B5%CE%BB%CE%B7%CE%BD%CE%BF%CF%82-%CE%BF%CE%BA%CF%84%CF%89%CE%B2%CF%81%CE%B9%CE%BF%CF%85-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%BA%CF%85%CE%BC%CE%B1%CE%B9%CE%B1-3",
+      "kind": "official_municipal_event",
+      "read_status": "fully_read_current",
+      "findings": "Body gives Oct26 19:30 free music; header gives 16:10–23:30. Preserve conflict explicitly.",
+      "web_evidence_ref": "turn1373view1"
+    },
+    {
+      "city": "Limassol",
+      "url": "https://www.limassol.org.cy/el/event/3%CE%B7-%CF%84%CF%81%CE%B9%CE%B5%CE%BD%CE%B1%CE%BB%CE%B5-%CE%B1%CF%86%CE%B9%CF%83%CE%B1%CF%82-%CE%BA%CF%85%CF%80%CF%81%CE%BF%CF%85-2026-%CE%B4%CE%B9%CE%B5%CE%B8%CE%BD%CE%AE%CF%82-%CE%AD%CE%BA%CE%B8%CE%B5%CF%83%CE%B7-%CE%B1%CF%86%CE%AF%CF%83%CE%B1%CF%82",
+      "kind": "official_municipal_event",
+      "read_status": "fully_read_current",
+      "findings": "Free exhibition Oct16–Nov15 at Municipal Arts Centre, Papadakis Warehouses. Opening hours beyond opening-night schedule not stated.",
+      "web_evidence_ref": "turn1373view2"
+    },
+    {
+      "city": "Istanbul",
+      "url": "https://kultur.istanbul/etkinlik/kutu-kutu-oyun/",
+      "kind": "official_municipal_event",
+      "read_status": "fully_read_current",
+      "findings": "Oct20 19:30, free, limited capacity with Radar Türkiye registration opened Oct14. No current seat availability checked.",
+      "web_evidence_ref": "turn1373view3"
+    }
+  ],
+  "candidate_announcements": [
+    {
+      "city": "Limassol",
+      "title": "ΜΟΥΣΙΚΗ ΠΑΝΣΕΛΗΝΟΣ ΟΚΤΩΒΡΙΟΥ ΣΤΗΝ ΠΡΟΚΥΜΑΙΑ",
+      "date": "2026-10-26",
+      "time_local": "19:30",
+      "venue": "Θεατράκι Ηρώων, Χρίστου και Μίλτου Χριστοφόρου",
+      "price": "free",
+      "source_url": "https://www.limassol.org.cy/el/event/%CE%BC%CE%BF%CF%85%CF%83%CE%B9%CE%BA%CE%B7-%CF%80%CE%B1%CE%BD%CF%83%CE%B5%CE%BB%CE%B7%CE%BD%CE%BF%CF%82-%CE%BF%CE%BA%CF%84%CF%89%CE%B2%CF%81%CE%B9%CE%BF%CF%85-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CF%81%CE%BF%CE%BA%CF%85%CE%BC%CE%B1%CE%B9%CE%B1-3",
+      "fully_read": true,
+      "caveats": [
+        "Header conflicts: 16:10–23:30; event-body start is 19:30.",
+        "Exact coordinate/address not normalized."
+      ]
+    },
+    {
+      "city": "Limassol",
+      "title": "3η ΤΡΙΕΝΑΛΕ ΑΦΙΣΑΣ ΚΥΠΡΟΥ 2026",
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-15",
+      "venue": "Δημοτικό Κέντρο Τεχνών Λεμεσού – Αποθήκες Παπαδάκη",
+      "price": "free",
+      "source_url": "https://www.limassol.org.cy/el/event/3%CE%B7-%CF%84%CF%81%CE%B9%CE%B5%CE%BD%CE%B1%CE%BB%CE%B5-%CE%B1%CF%86%CE%B9%CF%83%CE%B1%CF%82-%CE%BA%CF%85%CF%80%CF%81%CE%BF%CF%85-2026-%CE%B4%CE%B9%CE%B5%CE%B8%CE%BD%CE%AE%CF%82-%CE%AD%CE%BA%CE%B8%CE%B5%CF%83%CE%B7-%CE%B1%CF%86%CE%AF%CF%83%CE%B1%CF%82",
+      "fully_read": true,
+      "caveats": [
+        "Opening-night 18:00–22:00 is not confirmed daily opening hours."
+      ]
+    },
+    {
+      "city": "Istanbul",
+      "title": "Kutu Kutu Oyun",
+      "date": "2026-10-20",
+      "time_local": "19:30",
+      "venue": "Müze Gazhane, T Atölye",
+      "price": "free",
+      "source_url": "https://kultur.istanbul/etkinlik/kutu-kutu-oyun/",
+      "fully_read": true,
+      "caveats": [
+        "Limited capacity; Radar Türkiye registration required.",
+        "Availability not checked."
+      ]
+    },
+    {
+      "city": "Antalya",
+      "title": "Lvbel C5 Konseri",
+      "date": "2026-10-21",
+      "time_local": "21:00",
+      "venue": "Antalya Bahçe",
+      "source_url": "https://www.bubilet.com.tr/blog/antalya/antalya-konser-takvimi-ekim-2026",
+      "fully_read": true,
+      "caveats": [
+        "Ticket-seller editorial announcement; ticket availability and detailed admission not checked."
+      ]
+    },
+    {
+      "city": "Antalya",
+      "title": "Serdar Ortaç Konseri",
+      "date": "2026-10-23",
+      "time_local": "21:00",
+      "venue": "Antalya Açıkhava",
+      "source_url": "https://www.bubilet.com.tr/blog/antalya/antalya-konser-takvimi-ekim-2026",
+      "fully_read": true,
+      "caveats": [
+        "Ticket-seller editorial announcement; ticket availability and detailed admission not checked."
+      ]
+    },
+    {
+      "city": "Antalya",
+      "title": "Mustafa Sandal Konseri",
+      "date": "2026-10-24",
+      "time_local": "21:00",
+      "venue": "Antalya Açıkhava",
+      "source_url": "https://www.bubilet.com.tr/blog/antalya/antalya-konser-takvimi-ekim-2026",
+      "fully_read": true,
+      "caveats": [
+        "Ticket-seller editorial announcement; ticket availability and detailed admission not checked."
+      ]
+    }
+  ],
+  "publication_readiness": "Not publish-ready dataset. Source survey only; candidates still need existing-data deduplication, precise venue/location normalization, and any availability checks needed by site standards.",
+  "summary": {
+    "cities": 11,
+    "actual_queries": 35,
+    "sources_recorded": 29,
+    "opened_unique_urls": 27,
+    "fully_read_candidate_announcements": 6,
+    "verified_published_events": 0
+  }
+}

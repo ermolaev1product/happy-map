@@ -1,0 +1,51 @@
+{
+  "cityId": "san-diego",
+  "checkedAt": "2026-11-02T10:42:31Z",
+  "publication": {
+    "at": "2026-11-02T10:56:42.368Z",
+    "publishedCommit": "d9ce4d85aaded392bb30e94b7d43e916afa969ee",
+    "excludedNewElapsedIds": [],
+    "retainedHistoricalIds": []
+  },
+  "templateRoot": "/workspace/shared/hm-quality/source",
+  "templateSHA256": "fe7d4d460ae5dee1c63d04e76ef237453655ac66890b5e816114c423b8b8e5d8",
+  "center": [
+    32.732119,
+    -117.1504179
+  ],
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "events": 26,
+    "places": 3,
+    "sources": 37,
+    "mappedEvents": 26,
+    "liveEvents": 26,
+    "liveMappedEvents": 26,
+    "expiredEvents": 0,
+    "dates": [
+      "2026-01-24",
+      "2026-05-21",
+      "2026-06-11",
+      "2026-06-27",
+      "2026-07-11",
+      "2026-08-22",
+      "2026-09-05",
+      "2026-09-19",
+      "2026-11-07",
+      "2026-11-08",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-19",
+      "2026-11-21",
+      "2026-11-28"
+    ],
+    "venues": [
+      "san-diego-sdma",
+      "san-diego-mopa",
+      "san-diego-mcasd"
+    ]
+  }
+}

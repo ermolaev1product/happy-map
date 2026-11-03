@@ -1,0 +1,4943 @@
+{
+  "startDate": "2026-10-04",
+  "endDate": "2026-10-10",
+  "generatedAt": "2026-10-04T00:03:41.302342+00:00",
+  "updateMode": "snapshot",
+  "coverage": "Москва, 4–10 октября 2026: выборка из 448 опубликованных записей публичного API KudaGo. Включены только отдельные сеансы с явной датой, временем начала и указанным открытым местом проведения. Длительные выставки и события без точного расписания исключены. Координаты взяты из справочника мест KudaGo; отсутствующие координаты — null. Цены в RUB, возможны регистрация, льготы и изменение цены; условия сохранены в priceText. API не предоставляет отдельный статус отмены: наличие билетов и отмены на сайте организатора не проверены. Все часы — Europe/Moscow.",
+  "events": [
+    {
+      "id": "kudago-msk-194707-1791100800",
+      "title": "Серия культурных завтраков в Котельнической высотке",
+      "date": "2026-10-04",
+      "time": "11:00",
+      "end": null,
+      "venue": "Сталинская высотка на Котельнической набережной",
+      "address": "наб. Котельническая, д. 1/15",
+      "lat": 55.74752999999998,
+      "lng": 37.64469199999996,
+      "price": 4000,
+      "min": false,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/obuchenie-utro-v-kotelnicheskoj-vyisotke/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Встречи в Котельнической высотке — это камерные лекции об искусстве. Гости узнают интересные факты об архитектуре, дизайне и истории, их ждут великолепные виды на Москву, уютная атмосфера и вкусное угощение.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/obuchenie-utro-v-kotelnicheskoj-vyisotke/",
+          "price": 4000,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-na-kotelnicheskoj-naberezhnoj/",
+      "priceText": "4000 рублей",
+      "sourceEventId": 194707,
+      "endDate": null,
+      "sourceCategories": [
+        "education",
+        "tour",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-15198-1791104400",
+      "title": "Спектакль «Заколдованный лес» в Сказочном театре",
+      "date": "2026-10-04",
+      "time": "12:00",
+      "end": null,
+      "venue": "Московский детский Сказочный театр",
+      "address": "пер. Большой Факельный, д. 18, стр. 2",
+      "lat": 55.74117099999997,
+      "lng": 37.664078,
+      "price": 500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kukolnyj-spektakl-zakoldovannyj-les-v-moskovskom-d/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Добрая сказка превращает зрителей в участников волшебного приключения. История напоминает, что правильный выбор и хорошие поступки всегда помогают найти дорогу к счастью.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kukolnyj-spektakl-zakoldovannyj-les-v-moskovskom-d/",
+          "price": 500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/skazochnyj-teatr/",
+      "priceText": "от 500 до 3000 рублей",
+      "sourceEventId": 15198,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-211504-1791104400",
+      "title": "Экскурсия «Гоголь — загадка третьего тысячелетия»",
+      "date": "2026-10-04",
+      "time": "12:00",
+      "end": null,
+      "venue": "Дом Николая Гоголя",
+      "address": "бул. Никитский, д. 7, лит. А",
+      "lat": 55.75414199999994,
+      "lng": 37.599822,
+      "price": 400,
+      "min": true,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-gogol---zagadka-tretego-tyisyacheletiya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Экскурсия «Гоголь — загадка третьего тысячелетия» открывает перед посетителями глубину личности и творчества Николая Васильевича Гоголя. Великий писатель XIX века до сих пор вызывает споры и вопросы: от его религиозных поисков до художественных решений. Участники экскурсии приоткроют завесу его тайн.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-gogol---zagadka-tretego-tyisyacheletiya/",
+          "price": 400,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-nikolaya-gogoly/",
+      "priceText": "от 400 до 800 руб.",
+      "sourceEventId": 211504,
+      "endDate": null,
+      "sourceCategories": [
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-220111-1791108000",
+      "title": "Интерактивный концерт «С чего начинается джаз»",
+      "date": "2026-10-04",
+      "time": "13:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 900,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/interaktivnyij-kontsert-s-chego-nachinaetsya-dzhaz/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Интерактивный концерт «С чего начинается джаз» — это захватывающее музыкальное путешествие для детей и взрослых. Вас ждёт знакомство с истоками джаза, живое исполнение, увлекательные истории и необычные звуковые опыты.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/interaktivnyij-kontsert-s-chego-nachinaetsya-dzhaz/",
+          "price": 900,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 900 рублей",
+      "sourceEventId": 220111,
+      "endDate": null,
+      "sourceCategories": [
+        "kids",
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-226728-1791108000",
+      "title": "Концерт «МультОРГАН. Музыка Диснея и Союзмультфильма на органе»",
+      "date": "2026-10-04",
+      "time": "13:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 700,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-multorgan-muzyika-disneya-i-soyuzmultfilma-na-organe/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Тимур Халиуллин сыграет на органе музыку из любимых мультфильмов и кино.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-multorgan-muzyika-disneya-i-soyuzmultfilma-na-organe/",
+          "price": 700,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 700 до 2500 рублей",
+      "sourceEventId": 226728,
+      "endDate": null,
+      "sourceCategories": [
+        "kids",
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-213876-1791108000",
+      "title": "Мюзикл «Остров сокровищ»",
+      "date": "2026-10-04",
+      "time": "13:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 800,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/myuzikl-ostrov-sokrovisch/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Погрузитесь в захватывающее морское приключение! Впечатляющие декорации, 3D-эффекты и акробатические трюки сделают это шоу незабываемым для всей семьи.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/myuzikl-ostrov-sokrovisch/",
+          "price": 800,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 800 рублей",
+      "sourceEventId": 213876,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-190272-1791108000",
+      "title": "Спектакль «Поколение Маугли» на сцене МХТ имени Чехова",
+      "date": "2026-10-04",
+      "time": "13:00",
+      "end": null,
+      "venue": "Московский художественный театр имени Чехова (МХТ)",
+      "address": "пер. Камергерский, д. 3",
+      "lat": 55.760397999999995,
+      "lng": 37.61349400000001,
+      "price": 1000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-pokolenie-maugli/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Константин Хабенский представляет масштабный благотворительный спектакль, сделав его ещё более захватывающим.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-pokolenie-maugli/",
+          "price": 1000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mht-im-chehova/",
+      "priceText": "от 1000 до 9500 рублей",
+      "sourceEventId": 190272,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-225450-1791108000",
+      "title": "Театрализованная иммерсивная экскурсия «Особняк»",
+      "date": "2026-10-04",
+      "time": "13:00",
+      "end": null,
+      "venue": "бар «Орбита»",
+      "address": "ул. Яузская, д. 1/15 стр. 1",
+      "lat": 55.75048466331753,
+      "lng": 37.64341169464926,
+      "price": 1700,
+      "min": true,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-osobnyakteatralizovannaya-immersivnaya-ekskursiya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Участники экскурсии побывают в старинном особняке, где жили предки супруги Александра Пушкина Натальи Гончаровой. История оживёт и раскроет свои тайны!",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-osobnyakteatralizovannaya-immersivnaya-ekskursiya/",
+          "price": 1700,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bar-orbita/",
+      "priceText": "от 1700 до 5000 рублей",
+      "sourceEventId": 225450,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-226641-1791108000",
+      "title": "Экскурсия «Между словом и образом: Гоголь в иллюстрациях и цитатах»",
+      "date": "2026-10-04",
+      "time": "13:00",
+      "end": null,
+      "venue": "Дом Николая Гоголя",
+      "address": "бул. Никитский, д. 7, лит. А",
+      "lat": 55.75414199999994,
+      "lng": 37.599822,
+      "price": 400,
+      "min": true,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-mezhdu-slovom-i-obrazom-gogol-v-illyustratsiyah-i-tsitatah/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Гости выставки увидят произведения Гоголя глазами художников XX–XXI веков.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-mezhdu-slovom-i-obrazom-gogol-v-illyustratsiyah-i-tsitatah/",
+          "price": 400,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-nikolaya-gogoly/",
+      "priceText": "от 400 до 600 рублей",
+      "sourceEventId": 226641,
+      "endDate": null,
+      "sourceCategories": [
+        "exhibition",
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-209250-1791111600",
+      "title": "Викторина «География и путешествия»",
+      "date": "2026-10-04",
+      "time": "14:00",
+      "end": null,
+      "venue": "бар «Золбергъ»",
+      "address": "пер. 1-й Люсиновский, д. 3Б.",
+      "lat": 55.727439999999895,
+      "lng": 37.62167009999957,
+      "price": 800,
+      "min": false,
+      "currency": "RUB",
+      "category": "games",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/entertainment-geografiya-i-puteshestviya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Много путешествуете, увлекаетесь приключенческими книгами и посвящаете свободное время просмотру шоу о далёких странах? Если что-то из вышеперечисленного про вас, то приходите на тематический квиз «Смузи», где вы сможете не только блеснуть знаниями, но и узнать много интересного о путешествиях.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/entertainment-geografiya-i-puteshestviya/",
+          "price": 800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bar-zolberg/",
+      "priceText": "800 рублей",
+      "sourceEventId": 209250,
+      "endDate": null,
+      "sourceCategories": [
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-205599-1791111600",
+      "title": "Викторина «Мультфильмы»",
+      "date": "2026-10-04",
+      "time": "14:00",
+      "end": null,
+      "venue": "бар «Золбергъ»",
+      "address": "пер. 1-й Люсиновский, д. 3Б.",
+      "lat": 55.727439999999895,
+      "lng": 37.62167009999957,
+      "price": 800,
+      "min": false,
+      "currency": "RUB",
+      "category": "games",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/entertainment-ugadaj-multfilm-soyuzmultfilm-i-disnej/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "На квизе, посвящённом зарубежной и отечественной мультипликации, вас ждёт 75 интересных вопросов по работам знаменитых студий.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/entertainment-ugadaj-multfilm-soyuzmultfilm-i-disnej/",
+          "price": 800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bar-zolberg/",
+      "priceText": "800 рублей за игрока",
+      "sourceEventId": 205599,
+      "endDate": null,
+      "sourceCategories": [
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-218068-1791111600",
+      "title": "Встреча «Искусство изящного слога»",
+      "date": "2026-10-04",
+      "time": "14:00",
+      "end": null,
+      "venue": "Российская государственная библиотека для молодёжи",
+      "address": "ул. Большая Черкизовская, д. 4/1",
+      "lat": 55.79575199999994,
+      "lng": 37.71762699999999,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/vstrecha-iskusstvo-izyaschnogo-sloga/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Если вам хочется научиться писать красиво и точно, приходите на мастерскую по литературному мастерству с Риной Солнцевой.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/vstrecha-iskusstvo-izyaschnogo-sloga/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/rgub/",
+      "priceText": "",
+      "sourceEventId": 218068,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-190558-1791111600",
+      "title": "Спектакль «Ходжа Насреддин» в Театре Наций",
+      "date": "2026-10-04",
+      "time": "14:00",
+      "end": null,
+      "venue": "Театр Наций",
+      "address": "Петровский пер., д. 3",
+      "lat": 55.76594399999996,
+      "lng": 37.612775,
+      "price": 3000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-hodzha-nasreddin-fevral-2021/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Кукольный спектакль Тимура Бекмамбетова — первая постановка этого жанра на сцене Театра Наций. Лёгкий фольклорный сюжет постепенно приобретает философское звучание, позволяя взглянуть на привычные вещи с другой стороны.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-hodzha-nasreddin-fevral-2021/",
+          "price": 3000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/gosudarstvennyj-teatr-nacij/",
+      "priceText": "от 3000 до 6000 рублей",
+      "sourceEventId": 190558,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-221537-1791111600",
+      "title": "Экскурсия «Детство и юность Гоголя»",
+      "date": "2026-10-04",
+      "time": "14:00",
+      "end": null,
+      "venue": "Дом Николая Гоголя",
+      "address": "бул. Никитский, д. 7, лит. А",
+      "lat": 55.75414199999994,
+      "lng": 37.599822,
+      "price": 400,
+      "min": true,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-detstvo-i-yunost-gogolya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Экскурсия посвящена юности великого писателя. Участники познакомятся с судьбами сестёр Гоголя, откроют загадку его фамилии и узнают, какой путь прошёл молодой автор прежде чем получить известность.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-detstvo-i-yunost-gogolya/",
+          "price": 400,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-nikolaya-gogoly/",
+      "priceText": "от 400 до 800 рублей",
+      "sourceEventId": 221537,
+      "endDate": null,
+      "sourceCategories": [
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-15198-1791115200",
+      "title": "Спектакль «Заколдованный лес» в Сказочном театре",
+      "date": "2026-10-04",
+      "time": "15:00",
+      "end": null,
+      "venue": "Московский детский Сказочный театр",
+      "address": "пер. Большой Факельный, д. 18, стр. 2",
+      "lat": 55.74117099999997,
+      "lng": 37.664078,
+      "price": 500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kukolnyj-spektakl-zakoldovannyj-les-v-moskovskom-d/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Добрая сказка превращает зрителей в участников волшебного приключения. История напоминает, что правильный выбор и хорошие поступки всегда помогают найти дорогу к счастью.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kukolnyj-spektakl-zakoldovannyj-les-v-moskovskom-d/",
+          "price": 500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/skazochnyj-teatr/",
+      "priceText": "от 500 до 3000 рублей",
+      "sourceEventId": 15198,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-194706-1791118800",
+      "title": "Концерт «Вивальди. Времена года»",
+      "date": "2026-10-04",
+      "time": "16:00",
+      "end": null,
+      "venue": "Киноконцертный зал «Эльдар»",
+      "address": "Ленинский просп., д. 105",
+      "lat": null,
+      "lng": null,
+      "price": 2000,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-vivaldi-vremena-goda-noyabr-2021/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Цикл концертов от коллектива Olympic Orchestra. Декорациями к выступлению станут картины в технике водной анимации.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-vivaldi-vremena-goda-noyabr-2021/",
+          "price": 2000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kontsertnyij-zal-eldar/",
+      "priceText": "от 2000 до 3900 рублей",
+      "sourceEventId": 194706,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-226665-1791118800",
+      "title": "Концерт «Шедевры органной музыки: играет Мелоди Мишель (Франция)»",
+      "date": "2026-10-04",
+      "time": "16:00",
+      "end": null,
+      "venue": "Евангелическо-Лютеранский Кафедральный собор святых апостолов Петра и Павла",
+      "address": "пер. Старосадский, д. 7/10, стр. 10",
+      "lat": 55.75678510282241,
+      "lng": 37.64095186663472,
+      "price": 900,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-shedevryi-organnoj-muzyiki-igraet-melodi-mishel-frantsiya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Выпускница Парижской консерватории проведёт слушателей сквозь века: от эпохи барокко до XX столетия.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-shedevryi-organnoj-muzyiki-igraet-melodi-mishel-frantsiya/",
+          "price": 900,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kafedralnyj-sobor-svyatyh-apostolov-petra-i-pavla/",
+      "priceText": "от 900 руб.",
+      "sourceEventId": 226665,
+      "endDate": null,
+      "sourceCategories": [
+        "stock",
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-217585-1791118800",
+      "title": "Экскурсия «Последние дни Николая Гоголя»",
+      "date": "2026-10-04",
+      "time": "16:00",
+      "end": null,
+      "venue": "Дом Николая Гоголя",
+      "address": "бул. Никитский, д. 7, лит. А",
+      "lat": 55.75414199999994,
+      "lng": 37.599822,
+      "price": 400,
+      "min": true,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-poslednie-dni-nikolaya-gogolya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Что происходило в последние дни жизни Николая Гоголя и почему они окутаны такой завесой загадок? Новая экскурсия от Дома Гоголя откроет драматическую историю его последних решений и духовных исканий.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-poslednie-dni-nikolaya-gogolya/",
+          "price": 400,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-nikolaya-gogoly/",
+      "priceText": "от 400 до 800 рублей",
+      "sourceEventId": 217585,
+      "endDate": null,
+      "sourceCategories": [
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-186675-1791120600",
+      "title": "Фабрика «Красный Октябрь». Фотоэкскурсия с подъёмом на крышу",
+      "date": "2026-10-04",
+      "time": "16:30",
+      "end": null,
+      "venue": "фабрика «Красный Октябрь»",
+      "address": "наб. Берсеневская, д. 6",
+      "lat": 55.74045712018253,
+      "lng": 37.60975241137536,
+      "price": 1800,
+      "min": false,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-krasnyij-oktyabr-ekskursiya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "«Красный Октябрь» — не только легендарный бренд, славящийся своей шоколадной продукцией, но и атмосферное место для фотосессий. Эта старинная фабрика — шедевр архитектуры с уникальной эстетикой, с которым стоит познакомиться поближе.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-krasnyij-oktyabr-ekskursiya/",
+          "price": 1800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/fabrika-krasnyj-oktyabr/",
+      "priceText": "1800 рублей",
+      "sourceEventId": 186675,
+      "endDate": null,
+      "sourceCategories": [
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-223480-1791122400",
+      "title": "Вечер «Джаз и вино»",
+      "date": "2026-10-04",
+      "time": "17:00",
+      "end": null,
+      "venue": "бар «Орбита»",
+      "address": "ул. Яузская, д. 1/15 стр. 1",
+      "lat": 55.75048466331753,
+      "lng": 37.64341169464926,
+      "price": 3500,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-dzhaz-i-vino/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Джазовый вечер с дегустацией под руководством опытного сомелье — событие, наполненное эстетикой и вкусом.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-dzhaz-i-vino/",
+          "price": 3500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bar-orbita/",
+      "priceText": "от 3500 до 5000 рублей",
+      "sourceEventId": 223480,
+      "endDate": null,
+      "sourceCategories": [
+        "concert",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-227006-1791126000",
+      "title": "Киноужин «Мачеха»",
+      "date": "2026-10-04",
+      "time": "18:00",
+      "end": "21:30",
+      "venue": "ODMO",
+      "address": "Большой Трехсвятительский пер., д. 2/1, стр. 1 (вход с Малого Трехсвятительского)",
+      "lat": 55.75467089999987,
+      "lng": 37.64473580000017,
+      "price": 3300,
+      "min": false,
+      "currency": "RUB",
+      "category": "cinema",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kinouzhin-macheha/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Кинопросмотр с ужином посвящён семейной драме конца 90-х о сложных отношениях, принятии и заботе. Зрителей ждёт показ фильма на языке оригинала с русскими субтитрами и фуршетный стол.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kinouzhin-macheha/",
+          "price": 3300,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/art-tsentr-odmo-space/",
+      "priceText": "3300 рублей",
+      "sourceEventId": 227006,
+      "endDate": "2026-10-04",
+      "sourceCategories": [
+        "cinema"
+      ]
+    },
+    {
+      "id": "kudago-msk-219578-1791126000",
+      "title": "Концерт духового квинтета Windspiel",
+      "date": "2026-10-04",
+      "time": "18:00",
+      "end": null,
+      "venue": "научная библиотека и мемориальный музей «Дом Лосева»",
+      "address": "ул. Арбат, д. 33",
+      "lat": 55.74953200000001,
+      "lng": 37.59240200000001,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-duhovogo-kvinteta-windspiel/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Уникальный вечер камерной музыки в исполнении духового квинтета «Windspiel» подарит слушателям редкое удовольствие — услышать, как дерево, металл и дыхание рождают живые, яркие и многогранные звуки. Это будет музыкальное путешествие по стилям, эпохам и настроениям.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-duhovogo-kvinteta-windspiel/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/biblioteka-istorii-russkoj-filosofii-i-kultury-do/",
+      "priceText": "",
+      "sourceEventId": 219578,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-190272-1791126000",
+      "title": "Спектакль «Поколение Маугли» на сцене МХТ имени Чехова",
+      "date": "2026-10-04",
+      "time": "18:00",
+      "end": null,
+      "venue": "Московский художественный театр имени Чехова (МХТ)",
+      "address": "пер. Камергерский, д. 3",
+      "lat": 55.760397999999995,
+      "lng": 37.61349400000001,
+      "price": 1000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-pokolenie-maugli/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Константин Хабенский представляет масштабный благотворительный спектакль, сделав его ещё более захватывающим.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-pokolenie-maugli/",
+          "price": 1000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mht-im-chehova/",
+      "priceText": "от 1000 до 9500 рублей",
+      "sourceEventId": 190272,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-221207-1791129600",
+      "title": "Викторина «Приколы и мемы» от квиза «Смузи»",
+      "date": "2026-10-04",
+      "time": "19:00",
+      "end": null,
+      "venue": "бар «Белая стрекоза»",
+      "address": "ул. Большая Дмитровка, д. 32 с. 4",
+      "lat": null,
+      "lng": null,
+      "price": 800,
+      "min": false,
+      "currency": "RUB",
+      "category": "games",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/entertainment-prikolyi-i-memyi-oktyabr-2025/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Любите современный юмор и имеете диплом в области мемологии? Команда квиза «Смузи» приглашает вас на тематическую викторину, где ваши знания проложат вам дорогу к главному призу.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/entertainment-prikolyi-i-memyi-oktyabr-2025/",
+          "price": 800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bar-belaya-strekoza/",
+      "priceText": "800 рублей за игрока",
+      "sourceEventId": 221207,
+      "endDate": null,
+      "sourceCategories": [
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-196538-1791129600",
+      "title": "Концерт «1983. Минимализм. Медитация на органе»",
+      "date": "2026-10-04",
+      "time": "19:00",
+      "end": null,
+      "venue": "Евангелическо-Лютеранский Кафедральный собор святых апостолов Петра и Павла",
+      "address": "пер. Старосадский, д. 7/10, стр. 10",
+      "lat": 55.75678510282241,
+      "lng": 37.64095186663472,
+      "price": 600,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-meditatsiya-na-organe-minimalizm/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Испанский органист Даниэль Сальвадор исполнит сочинения современных классиков жанра минимализм.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-meditatsiya-na-organe-minimalizm/",
+          "price": 600,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kafedralnyj-sobor-svyatyh-apostolov-petra-i-pavla/",
+      "priceText": "от 600 рублей",
+      "sourceEventId": 196538,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-220525-1791129600",
+      "title": "Концерт «Отговорила роща золотая»",
+      "date": "2026-10-04",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 700,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-otgovorila-roscha-zolotaya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Концерт, посвящённый 130-летию со дня рождения Сергея Есенина, объединит музыку и поэзию в одном проникновенном вечере. Произведения, вдохновлённые стихами поэта, прозвучат в исполнении мужского хора, ансамбля народных инструментов и артистов театра. Это событие подарит редкую возможность почувствовать силу слова через музыку.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-otgovorila-roscha-zolotaya/",
+          "price": 700,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 700 рублей",
+      "sourceEventId": 220525,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-226729-1791129600",
+      "title": "Концерт «Хиты Армстронга»",
+      "date": "2026-10-04",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 900,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-hityi-armstronga/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Американский вокалист и трубач Винсент Гросс вместе с квартетом Арка Овруцкого посвятит вечер музыке Луи Армстронга.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-hityi-armstronga/",
+          "price": 900,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 900 до 4300 рублей",
+      "sourceEventId": 226729,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-206600-1791129600",
+      "title": "Спектакль «Маяковский. Послушайте» в театре «Мастерская Петра Фоменко»",
+      "date": "2026-10-04",
+      "time": "19:00",
+      "end": null,
+      "venue": "Театр «Мастерская Петра Фоменко»",
+      "address": "наб. Тараса Шевченко, д. 29",
+      "lat": 55.74287218795934,
+      "lng": 37.53516979090794,
+      "price": 1000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-mayakovskij-poslushajte/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Литературно-музыкальная композиция по мотивам автобиографии в исполнении трёх артистов «Мастерской».",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-mayakovskij-poslushajte/",
+          "price": 1000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/fomenko-theatre/",
+      "priceText": "от 1000 до 10 000 рублей",
+      "sourceEventId": 206600,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-190558-1791129600",
+      "title": "Спектакль «Ходжа Насреддин» в Театре Наций",
+      "date": "2026-10-04",
+      "time": "19:00",
+      "end": null,
+      "venue": "Театр Наций",
+      "address": "Петровский пер., д. 3",
+      "lat": 55.76594399999996,
+      "lng": 37.612775,
+      "price": 3000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-hodzha-nasreddin-fevral-2021/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Кукольный спектакль Тимура Бекмамбетова — первая постановка этого жанра на сцене Театра Наций. Лёгкий фольклорный сюжет постепенно приобретает философское звучание, позволяя взглянуть на привычные вещи с другой стороны.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-hodzha-nasreddin-fevral-2021/",
+          "price": 3000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/gosudarstvennyj-teatr-nacij/",
+      "priceText": "от 3000 до 6000 рублей",
+      "sourceEventId": 190558,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-194707-1791131400",
+      "title": "Серия культурных завтраков в Котельнической высотке",
+      "date": "2026-10-04",
+      "time": "19:30",
+      "end": null,
+      "venue": "Сталинская высотка на Котельнической набережной",
+      "address": "наб. Котельническая, д. 1/15",
+      "lat": 55.74752999999998,
+      "lng": 37.64469199999996,
+      "price": 4000,
+      "min": false,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/obuchenie-utro-v-kotelnicheskoj-vyisotke/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Встречи в Котельнической высотке — это камерные лекции об искусстве. Гости узнают интересные факты об архитектуре, дизайне и истории, их ждут великолепные виды на Москву, уютная атмосфера и вкусное угощение.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/obuchenie-utro-v-kotelnicheskoj-vyisotke/",
+          "price": 4000,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-na-kotelnicheskoj-naberezhnoj/",
+      "priceText": "4000 рублей",
+      "sourceEventId": 194707,
+      "endDate": null,
+      "sourceCategories": [
+        "education",
+        "tour",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-226906-1791133200",
+      "title": "Спектакль «Ласточка моя»",
+      "date": "2026-10-04",
+      "time": "20:00",
+      "end": null,
+      "venue": "Музей Москвы",
+      "address": "бул. Зубовский, д. 2",
+      "lat": 55.73668610000017,
+      "lng": 37.59185630000002,
+      "price": null,
+      "min": false,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/spektakl-lastochka-moya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Спектакль театрального проекта «а39» переосмысляет пьесу Александра Островского через эстетику волжского кабуки.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/spektakl-lastochka-moya/",
+          "price": null,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/muzej-moskvi/",
+      "priceText": "уточняйте у организаторов",
+      "sourceEventId": 226906,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-226901-1791183600",
+      "title": "Показ фильма «Доживём до понедельника»",
+      "date": "2026-10-05",
+      "time": "10:00",
+      "end": null,
+      "venue": "кинотеатр «Иллюзион»",
+      "address": "наб. Котельническая, д. 1/15",
+      "lat": 55.74752999999998,
+      "lng": 37.64469199999996,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "cinema",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kinopokaz-dozhivyom-do-ponedelnika/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Картина возвращает к теме учительства и взросления, а знакомый сюжет раскрывается через новые впечатления на большом экране и разговор о наследии отечественного кино.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kinopokaz-dozhivyom-do-ponedelnika/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kinoteatr-illyuzion/",
+      "priceText": "",
+      "sourceEventId": 226901,
+      "endDate": null,
+      "sourceCategories": [
+        "cinema"
+      ]
+    },
+    {
+      "id": "kudago-msk-223010-1791187200",
+      "title": "Лаборатория «Видеотекст»",
+      "date": "2026-10-05",
+      "time": "11:00",
+      "end": null,
+      "venue": "Особняк купца Носова",
+      "address": "ул. Электрозаводская, д. 12, стр. 1",
+      "lat": 55.785267000000026,
+      "lng": 37.703605899999836,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "workshop",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/laboratoriya-videotekst-razrabotka-izdatelskoj-tsifrovoj-tehnologii-geneticheskogo-chteniya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Проект «Видеотекст» превращает чтение в наблюдение за тем, как рождается текст: шаг за шагом можно проследить, как из пушкинских черновиков складывается знакомое произведение.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/laboratoriya-videotekst-razrabotka-izdatelskoj-tsifrovoj-tehnologii-geneticheskogo-chteniya/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/osobnyak-kupca-nosova/",
+      "priceText": "",
+      "sourceEventId": 223010,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-213999-1791201600",
+      "title": "Виртуальная экскурсия «Прогулка с профессором Гоголем»",
+      "date": "2026-10-05",
+      "time": "15:00",
+      "end": null,
+      "venue": "Дом Николая Гоголя",
+      "address": "бул. Никитский, д. 7, лит. А",
+      "lat": 55.75414199999994,
+      "lng": 37.599822,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/virtualnaya-ekskursiya-progulka-s-professorom-gogolem/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Отправьтесь в уникальное виртуальное путешествие по Москве вместе с профессором Гоголем. Виртуальная экскурсия откроет секреты утраченных мест города, погрузит в атмосферу старой Москвы и подарит возможность взглянуть на знакомые улицы по-новому.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/virtualnaya-ekskursiya-progulka-s-professorom-gogolem/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-nikolaya-gogoly/",
+      "priceText": "",
+      "sourceEventId": 213999,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-226947-1791208800",
+      "title": "Кинолекторий «Вий»",
+      "date": "2026-10-05",
+      "time": "17:00",
+      "end": null,
+      "venue": "Дом Николая Гоголя",
+      "address": "бул. Никитский, д. 7, лит. А",
+      "lat": 55.75414199999994,
+      "lng": 37.599822,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "cinema",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kinolektorij-vij/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Кинолекторий о легендарной экранизации произведения Николая Гоголя.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kinolektorij-vij/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-nikolaya-gogoly/",
+      "priceText": "",
+      "sourceEventId": 226947,
+      "endDate": null,
+      "sourceCategories": [
+        "education",
+        "cinema"
+      ]
+    },
+    {
+      "id": "kudago-msk-226948-1791216000",
+      "title": "Лекция «Гоголь у доски»",
+      "date": "2026-10-05",
+      "time": "19:00",
+      "end": null,
+      "venue": "Дом Николая Гоголя",
+      "address": "бул. Никитский, д. 7, лит. А",
+      "lat": 55.75414199999994,
+      "lng": 37.599822,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/lektsiya-gogol-u-doski/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Лекция о малоизвестных страницах жизни Николая Гоголя — его школьных годах, педагогической работе и личных увлечениях. Слушатели узнают, какие занятия формировали интересы писателя и как менялись разные стороны его личности на протяжении жизни.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/lektsiya-gogol-u-doski/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-nikolaya-gogoly/",
+      "priceText": "",
+      "sourceEventId": 226948,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-227046-1791216000",
+      "title": "Показ документального фильма и обсуждение «Великанцы»",
+      "date": "2026-10-05",
+      "time": "19:00",
+      "end": null,
+      "venue": "Российская государственная библиотека для молодёжи",
+      "address": "ул. Большая Черкизовская, д. 4/1",
+      "lat": 55.79575199999994,
+      "lng": 37.71762699999999,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "cinema",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/pokaz-dokumentalnogo-filma-i-obsuzhdenie-velikantsyi/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Документальный фильм рассказывает о необычном творческом эксперименте — создании огромных кукол, воплощающих образы русских писателей.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/pokaz-dokumentalnogo-filma-i-obsuzhdenie-velikantsyi/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/rgub/",
+      "priceText": "",
+      "sourceEventId": 227046,
+      "endDate": null,
+      "sourceCategories": [
+        "education",
+        "cinema"
+      ]
+    },
+    {
+      "id": "kudago-msk-226756-1791216000",
+      "title": "Спектакль «Острые предметы»",
+      "date": "2026-10-05",
+      "time": "19:00",
+      "end": null,
+      "venue": "Театр на Таганке",
+      "address": "ул. Земляной Вал, д. 76/21",
+      "lat": 55.743102,
+      "lng": 37.653999,
+      "price": 12000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-ostryie-predmetyi/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Почти детективная история о браке и любви с Викторией Исаковой, Ириной Старшенбаум и другими известными актёрами.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-ostryie-predmetyi/",
+          "price": 12000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/taganka-theatre/",
+      "priceText": "от 12 000 руб.",
+      "sourceEventId": 226756,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-225450-1791216000",
+      "title": "Театрализованная иммерсивная экскурсия «Особняк»",
+      "date": "2026-10-05",
+      "time": "19:00",
+      "end": null,
+      "venue": "бар «Орбита»",
+      "address": "ул. Яузская, д. 1/15 стр. 1",
+      "lat": 55.75048466331753,
+      "lng": 37.64341169464926,
+      "price": 1700,
+      "min": true,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-osobnyakteatralizovannaya-immersivnaya-ekskursiya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Участники экскурсии побывают в старинном особняке, где жили предки супруги Александра Пушкина Натальи Гончаровой. История оживёт и раскроет свои тайны!",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-osobnyakteatralizovannaya-immersivnaya-ekskursiya/",
+          "price": 1700,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bar-orbita/",
+      "priceText": "от 1700 до 5000 рублей",
+      "sourceEventId": 225450,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-212328-1791216000",
+      "title": "Языковой урок «Твоя Корея»",
+      "date": "2026-10-05",
+      "time": "19:00",
+      "end": null,
+      "venue": "Российская государственная библиотека для молодёжи",
+      "address": "ул. Большая Черкизовская, д. 4/1",
+      "lat": 55.79575199999994,
+      "lng": 37.71762699999999,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "workshop",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/urok-tvoya-koreya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "На уроке вы освоите базовые фразы на корейском и узнаете, что скрывается за популярными выражениями.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/urok-tvoya-koreya/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/rgub/",
+      "priceText": "",
+      "sourceEventId": 212328,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-226714-1791217800",
+      "title": "Концерт «The Listening Club. Музыка в соавторстве»",
+      "date": "2026-10-05",
+      "time": "19:30",
+      "end": null,
+      "venue": "ДК «Рассвет»",
+      "address": "Столярный пер, д. 3, корп. 15",
+      "lat": 55.7647129999999,
+      "lng": 37.56777200000037,
+      "price": 1800,
+      "min": false,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-the-listening-club-muzyika-v-soavtorstve/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Главная тема вечера — соавторство: как несколько композиторов могут работать над одним произведением и что происходит с индивидуальным голосом внутри общей формы.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-the-listening-club-muzyika-v-soavtorstve/",
+          "price": 1800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-kulturyi-dk-rassvet/",
+      "priceText": "1800 рублей",
+      "sourceEventId": 226714,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-207629-1791217800",
+      "title": "Спектакль «Долгие годы» в Театре имени Вахтангова",
+      "date": "2026-10-05",
+      "time": "19:30",
+      "end": null,
+      "venue": "Театр имени Евгения Вахтангова (Симоновская сцена)",
+      "address": "пер. Калошин, д. 10, стр. 2",
+      "lat": 55.74899691575929,
+      "lng": 37.5928301923754,
+      "price": 1300,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-dolgie-godyi/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "В основу спектакля об одиночестве легли роман Джозефины Лоуренс и киносценарий Виньи Дельмар «Уступи место завтрашнему дню».",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-dolgie-godyi/",
+          "price": 1300,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/teatr-teatr-imeni-evg-vahtangova/",
+      "priceText": "от 1300 до 2200 рублей",
+      "sourceEventId": 207629,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-47998-1791217800",
+      "title": "Спектакль «Крик лангусты» в Театре имени Вахтангова",
+      "date": "2026-10-05",
+      "time": "19:30",
+      "end": null,
+      "venue": "Театр имени Евгения Вахтангова (Новая сцена)",
+      "address": "ул. Арбат, д. 24",
+      "lat": 55.74713529999973,
+      "lng": 37.583980600000196,
+      "price": 1500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/spektakl-krik-langusty-v-teatre-im-evgvahtangova/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Спектакль в постановке режиссёра Михаила Цитриняка рассказывает о судьбе великой актрисы Сары Бернар.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/spektakl-krik-langusty-v-teatre-im-evgvahtangova/",
+          "price": 1500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/teatr-imeni-evgeniya-vahtangova-novaya-scena/",
+      "priceText": "от 1500 до 3201 рублей",
+      "sourceEventId": 47998,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-212898-1791219600",
+      "title": "Викторина «Музыкальное лото: русское»",
+      "date": "2026-10-05",
+      "time": "20:00",
+      "end": null,
+      "venue": "[цурцум]кафе",
+      "address": "4-й Сыромятнический пер., д. 1/8, стр. 6",
+      "lat": 55.75539359999975,
+      "lng": 37.66510610000025,
+      "price": 900,
+      "min": false,
+      "currency": "RUB",
+      "category": "games",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/entertainment-muzyikalnoe-loto/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Любите музыку и хотите проверить свои знания за увлекательной игрой? Команда квиза «Смузи» приглашает вас опробовать новый формат музыкальной викторины, который будет держать вас в приятном напряжении на протяжении всего игрового процесса.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/entertainment-muzyikalnoe-loto/",
+          "price": 900,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/restoran-tsurtsumkafe/",
+      "priceText": "900 рублей за игрока",
+      "sourceEventId": 212898,
+      "endDate": null,
+      "sourceCategories": [
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-202293-1791219600",
+      "title": "Пробные занятия «Секретные актёрские техники для жизни и карьеры: быстрый результат»",
+      "date": "2026-10-05",
+      "time": "20:00",
+      "end": null,
+      "venue": "арт-пространство «Сияние»",
+      "address": "ул. Советской армии, д. 8",
+      "lat": 55.78754179999977,
+      "lng": 37.61703830000033,
+      "price": 800,
+      "min": false,
+      "currency": "RUB",
+      "category": "workshop",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/obuchenie-byistryij-rezultat/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Хотите уверенно чувствовать себя на публике? На двухчасовом занятии в арт-студии «Сияние» вы познакомитесь с основными актёрскими техниками, которые помогут раскрепоститься, раскрыть внутренний потенциал, снять психологические зажимы и научиться удерживать внимание любого слушателя.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/obuchenie-byistryij-rezultat/",
+          "price": 800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/art-tsentr-siyanie/",
+      "priceText": "800 рублей",
+      "sourceEventId": 202293,
+      "endDate": null,
+      "sourceCategories": [
+        "stock",
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-210753-1791219600",
+      "title": "Пробный мастер-класс «Ораторское мастерство для жизни и карьеры» в студии «Сияние»",
+      "date": "2026-10-05",
+      "time": "20:00",
+      "end": null,
+      "venue": "арт-пространство «Сияние»",
+      "address": "ул. Советской армии, д. 8",
+      "lat": 55.78754179999977,
+      "lng": 37.61703830000033,
+      "price": 800,
+      "min": false,
+      "currency": "RUB",
+      "category": "workshop",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/aktsiya-oratorskoe-masterstvo-dlya-biznesa/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Арт-студия «Сияние» запускает новый курс, на котором бизнесмены смогут обучиться ораторскому мастерству и узнают, как эффективно презентовать свои проекты и заражать аудиторию своими идеями. Участники пробного занятия познакомятся с действенными техниками раскрепощения, научатся снимать психофизические зажимы и узнают, как побороть страх публичных выступлений.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/aktsiya-oratorskoe-masterstvo-dlya-biznesa/",
+          "price": 800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/art-tsentr-siyanie/",
+      "priceText": "800 рублей",
+      "sourceEventId": 210753,
+      "endDate": null,
+      "sourceCategories": [
+        "stock",
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-226906-1791219600",
+      "title": "Спектакль «Ласточка моя»",
+      "date": "2026-10-05",
+      "time": "20:00",
+      "end": null,
+      "venue": "Музей Москвы",
+      "address": "бул. Зубовский, д. 2",
+      "lat": 55.73668610000017,
+      "lng": 37.59185630000002,
+      "price": null,
+      "min": false,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/spektakl-lastochka-moya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Спектакль театрального проекта «а39» переосмысляет пьесу Александра Островского через эстетику волжского кабуки.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/spektakl-lastochka-moya/",
+          "price": null,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/muzej-moskvi/",
+      "priceText": "уточняйте у организаторов",
+      "sourceEventId": 226906,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-227060-1791295200",
+      "title": "Лекция «Цветы модерна»",
+      "date": "2026-10-06",
+      "time": "17:00",
+      "end": null,
+      "venue": "Особняк купца Носова",
+      "address": "ул. Электрозаводская, д. 12, стр. 1",
+      "lat": 55.785267000000026,
+      "lng": 37.703605899999836,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/lektsiya-tsvetyi-moderna/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Модерн часто называют стилем перемен — он появился на рубеже XIX и XX веков и предложил новый взгляд на архитектуру и декоративное искусство. Лекция посвящена одним из самых выразительных образов этого направления — образам растений.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/lektsiya-tsvetyi-moderna/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/osobnyak-kupca-nosova/",
+      "priceText": "",
+      "sourceEventId": 227060,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-211504-1791295200",
+      "title": "Экскурсия «Гоголь — загадка третьего тысячелетия»",
+      "date": "2026-10-06",
+      "time": "17:00",
+      "end": null,
+      "venue": "Дом Николая Гоголя",
+      "address": "бул. Никитский, д. 7, лит. А",
+      "lat": 55.75414199999994,
+      "lng": 37.599822,
+      "price": 400,
+      "min": true,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-gogol---zagadka-tretego-tyisyacheletiya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Экскурсия «Гоголь — загадка третьего тысячелетия» открывает перед посетителями глубину личности и творчества Николая Васильевича Гоголя. Великий писатель XIX века до сих пор вызывает споры и вопросы: от его религиозных поисков до художественных решений. Участники экскурсии приоткроют завесу его тайн.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-gogol---zagadka-tretego-tyisyacheletiya/",
+          "price": 400,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-nikolaya-gogoly/",
+      "priceText": "от 400 до 800 руб.",
+      "sourceEventId": 211504,
+      "endDate": null,
+      "sourceCategories": [
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-226989-1791300600",
+      "title": "Встреча «Логико-философский клуб проф. В. И. Моисеева „Читаем классику по-новому“. Тема: Логика всеединства»",
+      "date": "2026-10-06",
+      "time": "18:30",
+      "end": "20:00",
+      "venue": "научная библиотека и мемориальный музей «Дом Лосева»",
+      "address": "ул. Арбат, д. 33",
+      "lat": 55.74953200000001,
+      "lng": 37.59240200000001,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/vstrecha-logiko-filosofskij-klub-prof-v-i-moiseeva-chitaem-klassiku-po-novomu-tema-logika-vseedinstva/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "На встрече разберут идею всеединства и попробуют увидеть за сложными понятиями актуальную проблематику. Разговор проведёт профессор Вячеслав Иванович Моисеев, автор 12 монографий.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/vstrecha-logiko-filosofskij-klub-prof-v-i-moiseeva-chitaem-klassiku-po-novomu-tema-logika-vseedinstva/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/biblioteka-istorii-russkoj-filosofii-i-kultury-do/",
+      "priceText": "",
+      "sourceEventId": 226989,
+      "endDate": "2026-10-06",
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-226904-1791302400",
+      "title": "Встреча с Мариной Чусовой «Даниловский: Симоново»",
+      "date": "2026-10-06",
+      "time": "19:00",
+      "end": null,
+      "venue": "Музей Москвы",
+      "address": "бул. Зубовский, д. 2",
+      "lat": 55.73668610000017,
+      "lng": 37.59185630000002,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/vstrecha-danilovskij-simonovo-vstrecha-s-marinoj-chusovoj/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Краевед Марина Чусова покажет связь между историей местности, архитектурой и судьбами людей, а также поможет увидеть знакомый район через призму разных исторических периодов.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/vstrecha-danilovskij-simonovo-vstrecha-s-marinoj-chusovoj/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/muzej-moskvi/",
+      "priceText": "",
+      "sourceEventId": 226904,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-226730-1791302400",
+      "title": "Гала-концерт «Пять эпох мирового балета»",
+      "date": "2026-10-06",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 4000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/gala-kontsert-pyat-epoh-mirovogo-baleta/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "На одной сцене представят пять эпох балета. В программе — «Шахерезада», «Лебединое озеро», «Петрушка» и другие знаковые образы в сопровождении DYP Orchestra.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/gala-kontsert-pyat-epoh-mirovogo-baleta/",
+          "price": 4000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 4000 до 18 000 рублей",
+      "sourceEventId": 226730,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-226949-1791302400",
+      "title": "Кинопоказ «Но будет лето…»",
+      "date": "2026-10-06",
+      "time": "19:00",
+      "end": null,
+      "venue": "Дом Николая Гоголя",
+      "address": "бул. Никитский, д. 7, лит. А",
+      "lat": 55.75414199999994,
+      "lng": 37.599822,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "cinema",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kinopokaz-no-budet-leto/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Премьерный показ короткометражного фильма о семейном кризисе и поиске пути к взаимопониманию. После просмотра зрителей ждёт встреча с авторами картины. Показ будет сопровождаться тифлокомментированием.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kinopokaz-no-budet-leto/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-nikolaya-gogoly/",
+      "priceText": "",
+      "sourceEventId": 226949,
+      "endDate": null,
+      "sourceCategories": [
+        "cinema"
+      ]
+    },
+    {
+      "id": "kudago-msk-189702-1791302400",
+      "title": "Котельническая. Лекция в сталинской высотке с видом на Кремль",
+      "date": "2026-10-06",
+      "time": "19:00",
+      "end": null,
+      "venue": "Сталинская высотка на Котельнической набережной",
+      "address": "наб. Котельническая, д. 1/15",
+      "lat": 55.74752999999998,
+      "lng": 37.64469199999996,
+      "price": 3500,
+      "min": false,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/raznoe-lektsiya-v-stalinskoj-vyisotke/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Изучите выдающуюся постройку на Котельнической набережной буквально изнутри, посетив лекцию в квартире знаменитого советского небоскрёба.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/raznoe-lektsiya-v-stalinskoj-vyisotke/",
+          "price": 3500,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-na-kotelnicheskoj-naberezhnoj/",
+      "priceText": "3500 рублей",
+      "sourceEventId": 189702,
+      "endDate": null,
+      "sourceCategories": [
+        "education",
+        "tour",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-227222-1791302400",
+      "title": "Опера «Волшебная флейта» на Новой сцене Большого театра",
+      "date": "2026-10-06",
+      "time": "19:00",
+      "end": null,
+      "venue": "Большой театр (Новая сцена)",
+      "address": "ул. Большая Дмитровка, д. 4/2",
+      "lat": 55.75968399999999,
+      "lng": 37.61671000000001,
+      "price": 1500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-volshebnaya-flejta-oktyabr-2026/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Опера Вольфганга Амадея Моцарта — история о принце, птицелове и волшебных инструментах, за которой скрывается философское завещание композитора о борьбе тьмы и света. Постановка Бориса Покровского стала последней его работой.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-volshebnaya-flejta-oktyabr-2026/",
+          "price": 1500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bolshoj-teatr-novaya-scena/",
+      "priceText": "от 1500 до 2000 рублей",
+      "sourceEventId": 227222,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-226682-1791302400",
+      "title": "Спектакль «Свадьба вслепую»",
+      "date": "2026-10-06",
+      "time": "19:00",
+      "end": "20:40",
+      "venue": "Театр «На Страстном»",
+      "address": "Страстной бул., д. 8, лит. А",
+      "lat": 55.76625299999996,
+      "lng": 37.610826,
+      "price": 1000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-svadba-vslepuyu/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Молодожёны Иван и Надя собирались сесть в самолёт, но оказались совсем в другом месте, где им придётся сбросить привычные маски. Романтическая комедия с Надеждой Ангарской и Иваном Пышненко наполнена узнаваемыми ситуациями и предлагает свой ответ на вопрос, как сохранить любовь. Читателям KUDAGO — скидка!",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-svadba-vslepuyu/",
+          "price": 1000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/nastrastnom/",
+      "priceText": "от 1000 до 4500 рублей",
+      "sourceEventId": 226682,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "stock",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-190990-1791304200",
+      "title": "Спектакль «Обещание на рассвете» в Театре имени Вахтангова",
+      "date": "2026-10-06",
+      "time": "19:30",
+      "end": null,
+      "venue": "Театр имени Евгения Вахтангова (Симоновская сцена)",
+      "address": "пер. Калошин, д. 10, стр. 2",
+      "lat": 55.74899691575929,
+      "lng": 37.5928301923754,
+      "price": 1000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-obeschanie-na-rassvete/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Постановка по роману Ромена Гари о том, на что способна любовь.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-obeschanie-na-rassvete/",
+          "price": 1000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/teatr-teatr-imeni-evg-vahtangova/",
+      "priceText": "от 1000 до 3000 рублей",
+      "sourceEventId": 190990,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-226906-1791306000",
+      "title": "Спектакль «Ласточка моя»",
+      "date": "2026-10-06",
+      "time": "20:00",
+      "end": null,
+      "venue": "Музей Москвы",
+      "address": "бул. Зубовский, д. 2",
+      "lat": 55.73668610000017,
+      "lng": 37.59185630000002,
+      "price": null,
+      "min": false,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/spektakl-lastochka-moya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Спектакль театрального проекта «а39» переосмысляет пьесу Александра Островского через эстетику волжского кабуки.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/spektakl-lastochka-moya/",
+          "price": null,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/muzej-moskvi/",
+      "priceText": "уточняйте у организаторов",
+      "sourceEventId": 226906,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-212150-1791370800",
+      "title": "Интерактивная экскурсия для детей «Сказания Руси богатырской»",
+      "date": "2026-10-07",
+      "time": "14:00",
+      "end": null,
+      "venue": "Исторический музей",
+      "address": "пл. Красная, д. 1",
+      "lat": 55.7534523775232,
+      "lng": 37.61873189947469,
+      "price": 2700,
+      "min": false,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/detyam-skazaniya-rusi-bogatyirskoj/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Опытный гид проведёт ребят по выставочным залам Государственного исторического музея и в игровом формате познакомит их с историей России и героическими былинными персонажами.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/detyam-skazaniya-rusi-bogatyirskoj/",
+          "price": 2700,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/gos-istoricheskij-muze/",
+      "priceText": "2700 рублей",
+      "sourceEventId": 212150,
+      "endDate": null,
+      "sourceCategories": [
+        "kids",
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-223330-1791374400",
+      "title": "Мастер-класс «Зарисовки в Кабинете художника»",
+      "date": "2026-10-07",
+      "time": "15:00",
+      "end": null,
+      "venue": "Российская государственная библиотека для молодёжи",
+      "address": "ул. Большая Черкизовская, д. 4/1",
+      "lat": 55.79575199999994,
+      "lng": 37.71762699999999,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "workshop",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/master-klass-zarisovki-v-kabinete-hudozhnika/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Участники мастер-класса художника Алима Велитова выполнят упражнения на развитие воображения, будут учиться внимательнее смотреть на мир и переводить увиденное на бумагу.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/master-klass-zarisovki-v-kabinete-hudozhnika/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/rgub/",
+      "priceText": "",
+      "sourceEventId": 223330,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-65687-1791378000",
+      "title": "Спектакль «Али-Баба и сорок разбойников» в Театре кукол имени Образцова",
+      "date": "2026-10-07",
+      "time": "16:00",
+      "end": null,
+      "venue": "Театр кукол имени Образцова",
+      "address": "ул. Садовая-Самотёчная, д. 3",
+      "lat": 55.77410999999975,
+      "lng": 37.61430900000015,
+      "price": 800,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/spektakl-ali-baba-i-sorok-razbojnikov-v-teatre-kuk/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Борис Константинов поставил спектакль по мотивам арабской народной сказки. Её герой случайно подслушал разговор разбойников и узнал, где они хранят несметные сокровища.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/spektakl-ali-baba-i-sorok-razbojnikov-v-teatre-kuk/",
+          "price": 800,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/teatr-kukol-obrazcova/",
+      "priceText": "от 800 до 3000 рублей",
+      "sourceEventId": 65687,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-223392-1791385200",
+      "title": "Встреча «Клуб любителей российской истории, философии и словесности»",
+      "date": "2026-10-07",
+      "time": "18:00",
+      "end": null,
+      "venue": "научная библиотека и мемориальный музей «Дом Лосева»",
+      "address": "ул. Арбат, д. 33",
+      "lat": 55.74953200000001,
+      "lng": 37.59240200000001,
+      "price": 0,
+      "min": true,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/vstrecha-klub-lyubitelej-rossijskoj-istorii-filosofii-i-slovesnosti/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "На встрече клуба поговорят о князьях Оболенских и Трубецких. Историк Александр Мраморнов представит книгу, созданную на основе дневников и семейных архивов.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/vstrecha-klub-lyubitelej-rossijskoj-istorii-filosofii-i-slovesnosti/",
+          "price": 0,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/biblioteka-istorii-russkoj-filosofii-i-kultury-do/",
+      "priceText": "от 0 до 150 рублей",
+      "sourceEventId": 223392,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-227062-1791385200",
+      "title": "Встреча «Фотосреда: „Инфракрасная фотография, или Почему на ваших снимках зелень белая?“»",
+      "date": "2026-10-07",
+      "time": "18:00",
+      "end": null,
+      "venue": "Особняк купца Носова",
+      "address": "ул. Электрозаводская, д. 12, стр. 1",
+      "lat": 55.785267000000026,
+      "lng": 37.703605899999836,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/vstrecha-fotosreda-infrakrasnaya-fotografiya-ili-pochemu-na-vashih-snimkah-zelen-belaya-jek9lj/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Встреча с архитектурным фотографом Маргаритой Фединой посвящена необычной технике съёмки — инфракрасной фотографии.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/vstrecha-fotosreda-infrakrasnaya-fotografiya-ili-pochemu-na-vashih-snimkah-zelen-belaya-jek9lj/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/osobnyak-kupca-nosova/",
+      "priceText": "",
+      "sourceEventId": 227062,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-227133-1791388800",
+      "title": "Встреча «Книжный клуб „Клуб“»",
+      "date": "2026-10-07",
+      "time": "19:00",
+      "end": "20:30",
+      "venue": "Центр культур англоязычных стран Библиотеки иностранной литературы",
+      "address": "ул. Николоямская, д. 1",
+      "lat": 55.74863130000007,
+      "lng": 37.64758419999989,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/vstrecha-knizhnyij-klub-klub/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Чтение можно воспринимать как привычку, способ провести свободный вечер или инструмент для работы. Но у него есть и другая сторона — навык, который можно тренировать. На встрече разговор пойдёт именно об этом: как перестать двигаться по тексту на автопилоте и научиться замечать детали, которые легко упустить при быстром чтении.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/vstrecha-knizhnyij-klub-klub/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/uchebnoe-zavedenie-tsentr-kultur-angloyazyichnyih-stran/",
+      "priceText": "",
+      "sourceEventId": 227133,
+      "endDate": "2026-10-07",
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-200267-1791388800",
+      "title": "Встреча «„Кафе смерти“ / Death Café — разговор о смерти за чашкой чая» в библиотеке Некрасова",
+      "date": "2026-10-07",
+      "time": "19:00",
+      "end": null,
+      "venue": "Библиотека имени Некрасова",
+      "address": "ул. Бауманская, д. 58/25, стр. 14",
+      "lat": 55.76709899999997,
+      "lng": 37.67865800000001,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/raznoe-death-caf---razgovor-o-smerti-za-chashkoj-chaya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Приватная обстановка, горячий чай, пара сушек и один томный разговор о самом пугающем событии в жизни каждого человека.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/raznoe-death-caf---razgovor-o-smerti-za-chashkoj-chaya/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/nekrasovka/",
+      "priceText": "",
+      "sourceEventId": 200267,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-189702-1791388800",
+      "title": "Котельническая. Лекция в сталинской высотке с видом на Кремль",
+      "date": "2026-10-07",
+      "time": "19:00",
+      "end": null,
+      "venue": "Сталинская высотка на Котельнической набережной",
+      "address": "наб. Котельническая, д. 1/15",
+      "lat": 55.74752999999998,
+      "lng": 37.64469199999996,
+      "price": 3500,
+      "min": false,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/raznoe-lektsiya-v-stalinskoj-vyisotke/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Изучите выдающуюся постройку на Котельнической набережной буквально изнутри, посетив лекцию в квартире знаменитого советского небоскрёба.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/raznoe-lektsiya-v-stalinskoj-vyisotke/",
+          "price": 3500,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-na-kotelnicheskoj-naberezhnoj/",
+      "priceText": "3500 рублей",
+      "sourceEventId": 189702,
+      "endDate": null,
+      "sourceCategories": [
+        "education",
+        "tour",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-227222-1791388800",
+      "title": "Опера «Волшебная флейта» на Новой сцене Большого театра",
+      "date": "2026-10-07",
+      "time": "19:00",
+      "end": null,
+      "venue": "Большой театр (Новая сцена)",
+      "address": "ул. Большая Дмитровка, д. 4/2",
+      "lat": 55.75968399999999,
+      "lng": 37.61671000000001,
+      "price": 1500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-volshebnaya-flejta-oktyabr-2026/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Опера Вольфганга Амадея Моцарта — история о принце, птицелове и волшебных инструментах, за которой скрывается философское завещание композитора о борьбе тьмы и света. Постановка Бориса Покровского стала последней его работой.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-volshebnaya-flejta-oktyabr-2026/",
+          "price": 1500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bolshoj-teatr-novaya-scena/",
+      "priceText": "от 1500 до 2000 рублей",
+      "sourceEventId": 227222,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-194567-1791388800",
+      "title": "Спектакль «Война и мир» в Театре имени Вахтангова",
+      "date": "2026-10-07",
+      "time": "19:00",
+      "end": null,
+      "venue": "Театр имени Евгения Вахтангова",
+      "address": "ул. Арбат, д. 26",
+      "lat": 55.74989099999998,
+      "lng": 37.59152099999997,
+      "price": 1500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-vojna-i-mir-noyabr-2021/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Четыре тома Льва Толстого — почти пять часов на сцене. Постановка без павильонов и лишних деталей: только артисты, судьбы и перелом эпохи.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-vojna-i-mir-noyabr-2021/",
+          "price": 1500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/vakhtangov/",
+      "priceText": "от 1500 до 15 000 рублей",
+      "sourceEventId": 194567,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-226990-1791388800",
+      "title": "Фестиваль «Несказанное упоение — опера»",
+      "date": "2026-10-07",
+      "time": "19:00",
+      "end": null,
+      "venue": "научная библиотека и мемориальный музей «Дом Лосева»",
+      "address": "ул. Арбат, д. 33",
+      "lat": 55.74953200000001,
+      "lng": 37.59240200000001,
+      "price": 0,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/festival-neskazannoe-upoenie---opera/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Арии и сцены из опер Беллини, Бизе, Верди, Пуччини и Сен-Санса прозвучат в исполнении солистов московских оперных театров.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/festival-neskazannoe-upoenie---opera/",
+          "price": 0,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/biblioteka-istorii-russkoj-filosofii-i-kultury-do/",
+      "priceText": "от 0 до 250 рублей",
+      "sourceEventId": 226990,
+      "endDate": null,
+      "sourceCategories": [
+        "concert",
+        "festival"
+      ]
+    },
+    {
+      "id": "kudago-msk-227047-1791390600",
+      "title": "Встреча «Сопротивление переменам: что внутри боится нового?»",
+      "date": "2026-10-07",
+      "time": "19:30",
+      "end": null,
+      "venue": "Российская государственная библиотека для молодёжи",
+      "address": "ул. Большая Черкизовская, д. 4/1",
+      "lat": 55.79575199999994,
+      "lng": 37.71762699999999,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/vstrecha-soprotivlenie-peremenam-chto-vnutri-boitsya-novogo/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Встреча психологического клуба посвящена боязни перемен. Участники попробуют разобраться, почему даже желанные изменения могут вызывать тревогу, как работают защитные механизмы и что говорят о человеке его сомнения.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/vstrecha-soprotivlenie-peremenam-chto-vnutri-boitsya-novogo/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/rgub/",
+      "priceText": "",
+      "sourceEventId": 227047,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-226715-1791390600",
+      "title": "Концерт «Три музыканта: четыре взгляда на картину Пикассо»",
+      "date": "2026-10-07",
+      "time": "19:30",
+      "end": null,
+      "venue": "ДК «Рассвет»",
+      "address": "Столярный пер, д. 3, корп. 15",
+      "lat": 55.7647129999999,
+      "lng": 37.56777200000037,
+      "price": 1800,
+      "min": false,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-tri-muzyikanta-chetyire-vzglyada-na-kartinu-pikasso/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Три музыканта и россыпь инструментов соединят позднее Средневековье, Ренессанс и современную академическую музыку.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-tri-muzyikanta-chetyire-vzglyada-na-kartinu-pikasso/",
+          "price": 1800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-kulturyi-dk-rassvet/",
+      "priceText": "1800 рублей",
+      "sourceEventId": 226715,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-197647-1791390600",
+      "title": "Обучение актёрскому мастерству в «Школе Театра Москвы»",
+      "date": "2026-10-07",
+      "time": "19:30",
+      "end": null,
+      "venue": "«Школа Театра Москвы»",
+      "address": "ул. Большая Бронная, д. 23, стр. 1",
+      "lat": 55.76349720000023,
+      "lng": 37.60169259999969,
+      "price": 1790,
+      "min": false,
+      "currency": "RUB",
+      "category": "workshop",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/obuchenie-aktyorskoe-masterstvo-dlya-zhizni/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Мечтаете чувствовать себя раскованно и уверенно в любой ситуации, раскрыть свою индивидуальность и познакомиться с интересными людьми? Приходите на пробное занятие курса «Актёрское мастерство для жизни» в «Школу Театра Москвы».",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/obuchenie-aktyorskoe-masterstvo-dlya-zhizni/",
+          "price": 1790,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/uchebnoe-zavedenie-studiya-svobodyi/",
+      "priceText": "пробное занятие — 1790 рублей",
+      "sourceEventId": 197647,
+      "endDate": null,
+      "sourceCategories": [
+        "education",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-226283-1791392400",
+      "title": "Спектакль «Любовные письма. Виртуальный роман»",
+      "date": "2026-10-07",
+      "time": "20:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 1500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/spektakl-lyubovnyie-pisma-virtualnyij-roman/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Спектакль по пьесе Альберта Рамсделла Герни о двух людях, чья близость существует в письмах. Екатерина Климова и Гоша Куценко играют историю любви, растянувшуюся на годы, где признания, молчание и детали повседневной жизни постепенно складываются в портрет отношений.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/spektakl-lyubovnyie-pisma-virtualnyij-roman/",
+          "price": 1500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 1500 до 25 000 рублей",
+      "sourceEventId": 226283,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-208091-1791468000",
+      "title": "Экскурсия для детей «Про Китай»",
+      "date": "2026-10-08",
+      "time": "17:00",
+      "end": null,
+      "venue": "Музей Востока",
+      "address": "бул. Никитский, д. 12, лит. А",
+      "lat": 55.75623899999998,
+      "lng": 37.59997399999999,
+      "price": 2700,
+      "min": false,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/detyam-ekskursiya-pro-kitaj/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Участники экскурсии познакомятся с историей императорского Китая и в игровом формате постараются раскрыть тайны загадочной Поднебесной.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/detyam-ekskursiya-pro-kitaj/",
+          "price": 2700,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/muzej-narodov-vostok/",
+      "priceText": "2700 рублей",
+      "sourceEventId": 208091,
+      "endDate": null,
+      "sourceCategories": [
+        "kids",
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-227103-1791471600",
+      "title": "Концерт камерной ансамблевой музыки",
+      "date": "2026-10-08",
+      "time": "18:00",
+      "end": null,
+      "venue": "Особняк купца Носова",
+      "address": "ул. Электрозаводская, д. 12, стр. 1",
+      "lat": 55.785267000000026,
+      "lng": 37.703605899999836,
+      "price": 200,
+      "min": false,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-kamernoj-ansamblevoj-muzyiki/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Программу исполнит музыкальный проект «Искусство вечно» / Ars Longa  студентов музыкальных училищ Москвы.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-kamernoj-ansamblevoj-muzyiki/",
+          "price": 200,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/osobnyak-kupca-nosova/",
+      "priceText": "200 рублей",
+      "sourceEventId": 227103,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-170089-1791471600",
+      "title": "Экскурсия «Однажды на Патриарших»",
+      "date": "2026-10-08",
+      "time": "18:00",
+      "end": null,
+      "venue": "Академический театр имени Моссовета",
+      "address": "ул. Большая Садовая, д. 16",
+      "lat": 55.76832899999999,
+      "lng": 37.59745899999999,
+      "price": 1500,
+      "min": false,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-odnazhdyi-na-patriarshih/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Литературная прогулка по следам героев романа «Мастер и Маргарита», организованная Музеем Михаила Булгакова.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-odnazhdyi-na-patriarshih/",
+          "price": 1500,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/teatr-imeni-mossoveta/",
+      "priceText": "1500 рублей",
+      "sourceEventId": 170089,
+      "endDate": null,
+      "sourceCategories": [
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-226991-1791473400",
+      "title": "Лекция «Идеи и образы Древней Руси. Тема: Экзистенциональная драма — святость или диагноз? Юродивые на Руси»",
+      "date": "2026-10-08",
+      "time": "18:30",
+      "end": null,
+      "venue": "научная библиотека и мемориальный музей «Дом Лосева»",
+      "address": "ул. Арбат, д. 33",
+      "lat": 55.74953200000001,
+      "lng": 37.59240200000001,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/lektsiya-idei-i-obrazyi-drevnej-rusi-tema-ekzistentsionalnaya-drama---svyatost-ili-diagnoz-yurodivyie-na-rusi/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Лекция посвящена феномену юродства в культуре Древней Руси. Слушатели узнают, почему образ юродивого вызывал одновременно почтение и страх, и смогут взглянуть на  исторические сюжеты сквозь призму современности.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/lektsiya-idei-i-obrazyi-drevnej-rusi-tema-ekzistentsionalnaya-drama---svyatost-ili-diagnoz-yurodivyie-na-rusi/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/biblioteka-istorii-russkoj-filosofii-i-kultury-do/",
+      "priceText": "",
+      "sourceEventId": 226991,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-220513-1791475200",
+      "title": "Концерт «Песнопения древней Византии. Хор Аксион Естин»",
+      "date": "2026-10-08",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 700,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-pesnopeniya-drevnej-vizantii-hor-aksion-estin/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Хор «Аксион Естин» погружает в мистический мир византийского пения. Афонская традиция, духовная глубина, древние мелодии и визуальный видеоряд превращают выступление в подлинное переживание — редкую возможность прикоснуться к монастырскому искусству Святой Горы.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-pesnopeniya-drevnej-vizantii-hor-aksion-estin/",
+          "price": 700,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 700 рублей",
+      "sourceEventId": 220513,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-226902-1791475200",
+      "title": "Лекция «Факт и вымысел в художественной теории Осипа Брика»",
+      "date": "2026-10-08",
+      "time": "19:00",
+      "end": null,
+      "venue": "Музей Москвы",
+      "address": "бул. Зубовский, д. 2",
+      "lat": 55.73668610000017,
+      "lng": 37.59185630000002,
+      "price": 600,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/lektsiya-fakt-i-vyimyisel-v-hudozhestvennoj-teorii-osipa-brika/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Лекция о художественных взглядах Осипа Брика расскажет о том, как авангард менял представления об искусстве, факте и вымысле. Участники узнают о роли фотографии, кино и новых способов изображения в культуре начала XX века, а также разберутся в идеях одного из заметных теоретиков русского авангарда.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/lektsiya-fakt-i-vyimyisel-v-hudozhestvennoj-teorii-osipa-brika/",
+          "price": 600,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/muzej-moskvi/",
+      "priceText": "600 рублей",
+      "sourceEventId": 226902,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-216956-1791475200",
+      "title": "Спектакль «Гамлет» в Театре на Таганке",
+      "date": "2026-10-08",
+      "time": "19:00",
+      "end": null,
+      "venue": "Театр на Таганке",
+      "address": "ул. Земляной Вал, д. 76/21",
+      "lat": 55.743102,
+      "lng": 37.653999,
+      "price": 1000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-gamlet-2025/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Спектакль по пьесе Ники Ратмановой по мотивам трагедии Уильяма Шекспира представляет Мурат Абулкатинов.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-gamlet-2025/",
+          "price": 1000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/taganka-theatre/",
+      "priceText": "от 1000 до 8000 рублей",
+      "sourceEventId": 216956,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-225157-1791475200",
+      "title": "Экскурсия «Тайны старинной усадьбы»",
+      "date": "2026-10-08",
+      "time": "19:00",
+      "end": null,
+      "venue": "Дом Николая Гоголя",
+      "address": "бул. Никитский, д. 7, лит. А",
+      "lat": 55.75414199999994,
+      "lng": 37.599822,
+      "price": 400,
+      "min": true,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-tajnyi-starinnoj-usadbyi/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Экскурсия по старинной усадьбе на Никитском бульваре раскрывает загадки, связанные с последними годами Николая Гоголя. Гости узнают о тайне смерти писателя, сожжённой рукописи и доме, где он жил.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-tajnyi-starinnoj-usadbyi/",
+          "price": 400,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-nikolaya-gogoly/",
+      "priceText": "от 400 до 800 рублей",
+      "sourceEventId": 225157,
+      "endDate": null,
+      "sourceCategories": [
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-206661-1791478800",
+      "title": "Викторина «Телеквиз»",
+      "date": "2026-10-08",
+      "time": "20:00",
+      "end": null,
+      "venue": "бар «Золбергъ»",
+      "address": "пер. 1-й Люсиновский, д. 3Б.",
+      "lat": 55.727439999999895,
+      "lng": 37.62167009999957,
+      "price": 800,
+      "min": false,
+      "currency": "RUB",
+      "category": "games",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/entertainment-telekviz/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Хотите попробовать свои силы в интеллектуальных играх? Квиз «Смузи» приглашает вас принять участие в тематической викторине, созданной по мотивам популярных телепередач. Здесь вы сможете проверить свою эрудицию, интуицию и логику.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/entertainment-telekviz/",
+          "price": 800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bar-zolberg/",
+      "priceText": "800 рублей за игрока",
+      "sourceEventId": 206661,
+      "endDate": null,
+      "sourceCategories": [
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-190640-1791478800",
+      "title": "Концерт «Саундтреки на органе»",
+      "date": "2026-10-08",
+      "time": "20:00",
+      "end": null,
+      "venue": "Евангелическо-Лютеранский Кафедральный собор святых апостолов Петра и Павла",
+      "address": "пер. Старосадский, д. 7/10, стр. 10",
+      "lat": 55.75678510282241,
+      "lng": 37.64095186663472,
+      "price": 900,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-saundtreki-na-organe-solyaris-zerkalo-interstellar/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Саундтреки из знаменитых отечественных и зарубежных кинолент прозвучат в исполнении органиста Тимура Халиуллина.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-saundtreki-na-organe-solyaris-zerkalo-interstellar/",
+          "price": 900,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kafedralnyj-sobor-svyatyh-apostolov-petra-i-pavla/",
+      "priceText": "от 900 рублей",
+      "sourceEventId": 190640,
+      "endDate": null,
+      "sourceCategories": [
+        "stock",
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-227104-1791554400",
+      "title": "Концерт «Музыкальный салон „Фантазия“»",
+      "date": "2026-10-09",
+      "time": "17:00",
+      "end": null,
+      "venue": "Особняк купца Носова",
+      "address": "ул. Электрозаводская, д. 12, стр. 1",
+      "lat": 55.785267000000026,
+      "lng": 37.703605899999836,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-muzyikalnyij-salon-fantaziya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Слушатели окажутся в воображаемом музыкальном салоне, где молодые артисты исполнят шедевры камерной музыки.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-muzyikalnyij-salon-fantaziya/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/osobnyak-kupca-nosova/",
+      "priceText": "",
+      "sourceEventId": 227104,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-211504-1791554400",
+      "title": "Экскурсия «Гоголь — загадка третьего тысячелетия»",
+      "date": "2026-10-09",
+      "time": "17:00",
+      "end": null,
+      "venue": "Дом Николая Гоголя",
+      "address": "бул. Никитский, д. 7, лит. А",
+      "lat": 55.75414199999994,
+      "lng": 37.599822,
+      "price": 400,
+      "min": true,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-gogol---zagadka-tretego-tyisyacheletiya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Экскурсия «Гоголь — загадка третьего тысячелетия» открывает перед посетителями глубину личности и творчества Николая Васильевича Гоголя. Великий писатель XIX века до сих пор вызывает споры и вопросы: от его религиозных поисков до художественных решений. Участники экскурсии приоткроют завесу его тайн.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-gogol---zagadka-tretego-tyisyacheletiya/",
+          "price": 400,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-nikolaya-gogoly/",
+      "priceText": "от 400 до 800 руб.",
+      "sourceEventId": 211504,
+      "endDate": null,
+      "sourceCategories": [
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-226997-1791558000",
+      "title": "Читка пьесы «Два дурака»",
+      "date": "2026-10-09",
+      "time": "18:00",
+      "end": null,
+      "venue": "философский центр «Идея»",
+      "address": "ул. Новорогожская, д. 5",
+      "lat": 55.74290010000011,
+      "lng": 37.67939470000001,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "other",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/chitka-pesyi-dva-duraka/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Пьесу современного драматурга Алексея Левшина прочтут артисты Малого театра и сам автор.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/chitka-pesyi-dva-duraka/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/biblioteka-ideya/",
+      "priceText": "",
+      "sourceEventId": 226997,
+      "endDate": null,
+      "sourceCategories": [
+        "other"
+      ]
+    },
+    {
+      "id": "kudago-msk-212969-1791559800",
+      "title": "Встреча «Играриум»",
+      "date": "2026-10-09",
+      "time": "18:30",
+      "end": null,
+      "venue": "Российская государственная библиотека для молодёжи",
+      "address": "ул. Большая Черкизовская, д. 4/1",
+      "lat": 55.79575199999994,
+      "lng": 37.71762699999999,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "games",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/igra-igrarium/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Клуб любителей настольных игр «Играриум» приглашает всех на встречу, где можно посостязаться в популярных настолках и познакомиться с новыми играми. Это отличная возможность провести время весело, найти единомышленников и развить свои навыки в игровом мастерстве.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/igra-igrarium/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/rgub/",
+      "priceText": "",
+      "sourceEventId": 212969,
+      "endDate": null,
+      "sourceCategories": [
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-226992-1791559800",
+      "title": "Лекция «Кино и книга: экранизация. Тема: Н.В. Гоголь „Вечера на хуторе...“»",
+      "date": "2026-10-09",
+      "time": "18:30",
+      "end": null,
+      "venue": "научная библиотека и мемориальный музей «Дом Лосева»",
+      "address": "ул. Арбат, д. 33",
+      "lat": 55.74953200000001,
+      "lng": 37.59240200000001,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/lektsiya-kino-i-kniga-ekranizatsiya-tema-nv-gogol-vechera-na-hutore-1-chast/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Встреча посвящена тому, как литературное произведение меняется при переходе на язык кинематографа. В центре обсуждения — цикл повестей Гоголя «Вечера на хуторе близ Диканьки» и их экранные воплощения.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/lektsiya-kino-i-kniga-ekranizatsiya-tema-nv-gogol-vechera-na-hutore-1-chast/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/biblioteka-istorii-russkoj-filosofii-i-kultury-do/",
+      "priceText": "",
+      "sourceEventId": 226992,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-222804-1791561600",
+      "title": "Бурлеск-кабаре «Мадам Бум»",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "end": null,
+      "venue": "гастро-клуб «Гримёрка»",
+      "address": "ул. Пушечная, д. 9/6",
+      "lat": 55.76103989999991,
+      "lng": 37.62437389999989,
+      "price": 3000,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-madam-boom-aprel-2026/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Гости винтажного танцевального шоу перенесутся в роскошную «золотую эпоху джаза».",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-madam-boom-aprel-2026/",
+          "price": 3000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/restoran-grimyorka/",
+      "priceText": "от 3000 до 7000 рублей",
+      "sourceEventId": 222804,
+      "endDate": null,
+      "sourceCategories": [
+        "concert",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-224748-1791561600",
+      "title": "Иммерсивный круиз «Тайна последнего рейса» на теплоходе «Ривер Палас»",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "end": null,
+      "venue": "причал «Национальный центр Россия» («Сити-Экспоцентр»)",
+      "address": "наб. Краснопресненская, д. 14.",
+      "lat": 55.748869593828694,
+      "lng": 37.546628047468296,
+      "price": 4000,
+      "min": true,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-rokovoe-puteshestvie/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Три часа, один теплоход, десятки тайн и запутанное преступление, которое предстоит раскрыть именно вам. Теплоход «Ривер Палас» приглашает на иммерсивный детективный круиз — трёхчасовое путешествие по Москве-реке, которое сочетает живописный маршрут и захватывающее расследование.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-rokovoe-puteshestvie/",
+          "price": 4000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/interesnoe-mesto-mezhdunarodnaya-vyistavka/",
+      "priceText": "от 4000 до 7500 руб.",
+      "sourceEventId": 224748,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "tour",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-226732-1791561600",
+      "title": "Концерт «Владимир Вишневский и Квартет имени Глинки»",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 1200,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-vladimir-vishnevskij-i-kvartet-imeni-glinki/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "В программе музыканты соединят романтическую камерную музыку и более напряжённый язык XX века.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-vladimir-vishnevskij-i-kvartet-imeni-glinki/",
+          "price": 1200,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 1200 до 1900 рублей",
+      "sourceEventId": 226732,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-226993-1791561600",
+      "title": "Концерт «Звуки прошлого»",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "end": null,
+      "venue": "научная библиотека и мемориальный музей «Дом Лосева»",
+      "address": "ул. Арбат, д. 33",
+      "lat": 55.74953200000001,
+      "lng": 37.59240200000001,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-zvuki-proshlogo/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Концерт вокальной и фортепианной музыки с произведениями композиторов разных эпох. В программе прозвучат арии, романсы и инструментальные сочинения.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-zvuki-proshlogo/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/biblioteka-istorii-russkoj-filosofii-i-kultury-do/",
+      "priceText": "",
+      "sourceEventId": 226993,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-222527-1791561600",
+      "title": "Концерт «Мировые рок-хиты на саксофонах»",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 700,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-mirovyie-rok-hityi-na-saksofonah/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Саксофоны берут на себя роль гитар и вокала: женский ансамбль SIRENES Saxophone играет рок-хиты так, что хочется подпевать и двигаться. В программе — KISS, Scorpions, Linkin Park, AC/DC, баллады «Арии» и «ДДТ», а затем резкий поворот в ска-панк «Ленинграда» — без пафоса, с драйвом и импровизацией, на одном дыхании.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-mirovyie-rok-hityi-na-saksofonah/",
+          "price": 700,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 700 рублей",
+      "sourceEventId": 222527,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-226984-1791561600",
+      "title": "Концерт «На высоте»",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "end": "20:30",
+      "venue": "дом культуры «Зодчие»",
+      "address": "ул. Партизанская, д. 23",
+      "lat": 55.73541899999994,
+      "lng": 37.41126499999999,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-na-vyisote/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Праздничный концерт ко Дню учителя объединит хореографию и песни. На сцене выступят коллектив современного эстрадного танца «Планета снов» и вокальная группа «Девчата».",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-na-vyisote/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-kultury-zodchie/",
+      "priceText": "",
+      "sourceEventId": 226984,
+      "endDate": "2026-10-09",
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-226998-1791561600",
+      "title": "Лекция «Ненужная отцу дочь. Трагедия неразделённой телесности. О книге „Имя отца. В тени Жака Лакана“ Сибиллы Лакан»",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "end": null,
+      "venue": "философский центр «Идея»",
+      "address": "ул. Новорогожская, д. 5",
+      "lat": 55.74290010000011,
+      "lng": 37.67939470000001,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "talk",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/lektsiya-nenuzhnaya-ottsu-doch-tragediya-nerazdelyonnoj-telesnosti-o-knige-imya-ottsa-v-teni-zhaka-lakana-sibillyi-lakan/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Очередная встреча курса о теле в искусстве посвящена тому, как человек воспринимает себя через отношения с другими, память и собственный опыт. В центре внимания окажутся тексты Сибиллы Лакан, дочери известного психоаналитика Жака Лакана, собранные в книге «Имя отца. В тени Жака Лакана».",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/lektsiya-nenuzhnaya-ottsu-doch-tragediya-nerazdelyonnoj-telesnosti-o-knige-imya-ottsa-v-teni-zhaka-lakana-sibillyi-lakan/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/biblioteka-ideya/",
+      "priceText": "",
+      "sourceEventId": 226998,
+      "endDate": null,
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-209756-1791561600",
+      "title": "Спектакль «Мой брат умер» в Новом пространстве Театра Наций",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "end": null,
+      "venue": "Театр Наций (Новое пространство)",
+      "address": "Страстной бул., д. 12/2",
+      "lat": 55.76615849999985,
+      "lng": 37.60865809999957,
+      "price": 6000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-moj-brat-umer/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Перформативная читка киносценария Алексея Балабанова, завершённого им за три дня до смерти.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-moj-brat-umer/",
+          "price": 6000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/teatr-nacij-novoe-prostranstvo/",
+      "priceText": "от 6000 до 8500 рублей",
+      "sourceEventId": 209756,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-188885-1791561600",
+      "title": "Спектакль «Старший сын» в Московском театре Олега Табакова",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский театр Олега Табакова (Историческая сцена)",
+      "address": "ул. Чаплыгина, д. 1, лит. А, стр. 1",
+      "lat": 55.764197,
+      "lng": 37.64613899999999,
+      "price": 2500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-starshij-syin-2020/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Случайная ложь запускает цепочку событий, в которой чужой человек вдруг становится частью семьи. Это история о доверии, близости и том, как быстро могут измениться привычные роли.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-starshij-syin-2020/",
+          "price": 2500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/tabakov/",
+      "priceText": "от 2500 до 8000 рублей",
+      "sourceEventId": 188885,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-220532-1791561600",
+      "title": "Творческий вечер «Жизнь на кончиках пальцев»",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 3500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/tvorcheskij-vecher-zhizn-na-konchikah-paltsev/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Прима-балерина Большого театра Евгения Образцова приглашает на уникальный творческий вечер — сочетание изысканного классического балета, современных постановок и премьер. Это шанс увидеть на сцене редкое сочетание таланта, грации и искреннего артистизма в окружении звёзд мирового уровня.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/tvorcheskij-vecher-zhizn-na-konchikah-paltsev/",
+          "price": 3500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 3500 рублей",
+      "sourceEventId": 220532,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-220555-1791561600",
+      "title": "Шоу Flamenco Capriccios",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 700,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/shou-flamenco-capriccios/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Погрузиться в чувственный мир фламенко приглашает шоу «Flamenco Capriccios» — яркое сценическое полотно, в котором танец, живопись, музыка и литература сплетаются в единое художественное повествование. На одной сцене — лучшие исполнители фламенко, живой аккомпанемент и эмоциональная экспрессия Испании.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/shou-flamenco-capriccios/",
+          "price": 700,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 700 рублей",
+      "sourceEventId": 220555,
+      "endDate": null,
+      "sourceCategories": [
+        "concert",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-227221-1791563400",
+      "title": "Опера «Приключения Чиполлино» в Большом театре",
+      "date": "2026-10-09",
+      "time": "19:30",
+      "end": null,
+      "venue": "Большой театр",
+      "address": "пл. Театральная, д. 1",
+      "lat": 55.76021099999999,
+      "lng": 37.618534,
+      "price": 1500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-priklyucheniya-chipollino/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Комическая опера по сказке Джанни Родари — история о том, как весёлый мальчик-лук поднял восстание против жадного синьора Помидора и победил.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-priklyucheniya-chipollino/",
+          "price": 1500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bolshoi/",
+      "priceText": "от 1500 до 2000 рублей",
+      "sourceEventId": 227221,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-225850-1791563400",
+      "title": "Шоу-программа «Кабаре в большом городе»",
+      "date": "2026-10-09",
+      "time": "19:30",
+      "end": null,
+      "venue": "бар «Сплетни»",
+      "address": "ул. Кузнецкий мост. д. 3, стр. 2",
+      "lat": 55.761514555916506,
+      "lng": 37.61754796728055,
+      "price": 1500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-kabare-v-bolshom-gorode/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Праздник красоты и стиля в формате кабаре.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-kabare-v-bolshom-gorode/",
+          "price": 1500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bar-spletni-36344/",
+      "priceText": "от 1500 до 3000 рублей",
+      "sourceEventId": 225850,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-178060-1791568800",
+      "title": "Концерт «Мюзиклы Бродвея. „Призрак оперы“. „Кошки“. „Иисус Христос-суперзвезда“»",
+      "date": "2026-10-09",
+      "time": "21:00",
+      "end": null,
+      "venue": "Евангелическо-Лютеранский Кафедральный собор святых апостолов Петра и Павла",
+      "address": "пер. Старосадский, д. 7/10, стр. 10",
+      "lat": 55.75678510282241,
+      "lng": 37.64095186663472,
+      "price": 1000,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-endryu-llojd-uebber/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Три мюзикла в одном флаконе: под сводами Кафедрального собора святых Петра и Павла пройдёт вечер музыки выдающегося английского композитора Эндрю Ллойда Уэббера.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-endryu-llojd-uebber/",
+          "price": 1000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kafedralnyj-sobor-svyatyh-apostolov-petra-i-pavla/",
+      "priceText": "от 1000 до 4500 руб.",
+      "sourceEventId": 178060,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-227003-1791615600",
+      "title": "Серия кинопоказов «Персона. Леонид Куравлёв»",
+      "date": "2026-10-10",
+      "time": "10:00",
+      "end": null,
+      "venue": "кинотеатр «Иллюзион»",
+      "address": "наб. Котельническая, д. 1/15",
+      "lat": 55.74752999999998,
+      "lng": 37.64469199999996,
+      "price": 0,
+      "min": false,
+      "currency": "RUB",
+      "category": "cinema",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/seriya-kinopokazov-persona-leonid-kuravlyov/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Ретроспектива посвящена Леониду Куравлёву и объединяет фильмы разных жанров — от любимых комедий до редких драматических и остросюжетных работ.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/seriya-kinopokazov-persona-leonid-kuravlyov/",
+          "price": 0,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kinoteatr-illyuzion/",
+      "priceText": "",
+      "sourceEventId": 227003,
+      "endDate": null,
+      "sourceCategories": [
+        "cinema"
+      ]
+    },
+    {
+      "id": "kudago-msk-194707-1791619200",
+      "title": "Серия культурных завтраков в Котельнической высотке",
+      "date": "2026-10-10",
+      "time": "11:00",
+      "end": null,
+      "venue": "Сталинская высотка на Котельнической набережной",
+      "address": "наб. Котельническая, д. 1/15",
+      "lat": 55.74752999999998,
+      "lng": 37.64469199999996,
+      "price": 4000,
+      "min": false,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/obuchenie-utro-v-kotelnicheskoj-vyisotke/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Встречи в Котельнической высотке — это камерные лекции об искусстве. Гости узнают интересные факты об архитектуре, дизайне и истории, их ждут великолепные виды на Москву, уютная атмосфера и вкусное угощение.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/obuchenie-utro-v-kotelnicheskoj-vyisotke/",
+          "price": 4000,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-na-kotelnicheskoj-naberezhnoj/",
+      "priceText": "4000 рублей",
+      "sourceEventId": 194707,
+      "endDate": null,
+      "sourceCategories": [
+        "education",
+        "tour",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-208080-1791621000",
+      "title": "Экскурсия для детей «В гости к динозаврам»",
+      "date": "2026-10-10",
+      "time": "11:30",
+      "end": null,
+      "venue": "Палеонтологический музей",
+      "address": "ул. Профсоюзная, д. 123",
+      "lat": 55.62369099999994,
+      "lng": 37.51428399999999,
+      "price": 2700,
+      "min": false,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/detyam-ekskursiya-v-gosti-k-dinozavram/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Юные гости Палеонтологического музея узнают много интересных фактов из истории нашей планеты и познакомятся с животными, вымершими миллионы лет назад.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/detyam-ekskursiya-v-gosti-k-dinozavram/",
+          "price": 2700,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/paleontologicheskij-muzej/",
+      "priceText": "2700 рублей",
+      "sourceEventId": 208080,
+      "endDate": null,
+      "sourceCategories": [
+        "kids",
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-223916-1791622800",
+      "title": "Спектакль «Как Емеля щуку поймал»",
+      "date": "2026-10-10",
+      "time": "12:00",
+      "end": null,
+      "venue": "Центр культуры и искусства «МЕРИДИАН»",
+      "address": "ул. Профсоюзная, дом 61",
+      "lat": 55.656417,
+      "lng": 37.542608,
+      "price": 400,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/spektakl-kak-emelya-schuku-pojmal/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Здесь знакомая сказка превращается в веселое приключение с волшебством, погонями, шутками и играми со зрителями. История о Емеле, Щуке-Царевне и царских проделках обещает детям яркое действие, а взрослым — узнаваемый сюжет в живом сценическом прочтении, где чудеса случаются одно за другим и скучать точно не придется.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/spektakl-kak-emelya-schuku-pojmal/",
+          "price": 400,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/meridian/",
+      "priceText": "от 400 рублей",
+      "sourceEventId": 223916,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-202914-1791622800",
+      "title": "Экшен-шоу «Лунозавр в космосе» от «Театра Будущего Лилии Тим»",
+      "date": "2026-10-10",
+      "time": "12:00",
+      "end": null,
+      "venue": "концертный зал «Бородино Холл»",
+      "address": "ул. Русаковская, д. 13, стр. 5.",
+      "lat": 55.78436599999995,
+      "lng": 37.67233799999975,
+      "price": 1100,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-lunozavr-v-kosmose-202914/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "«Театр Будущего Лилии Тим» приглашает ребят и их родителей отправиться навстречу незабываемым космическим приключениям. Зрителей ждёт ультрасовременное интерактивное представление с захватывающим сюжетом, добрым юмором и невероятными спецэффектами.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-lunozavr-v-kosmose-202914/",
+          "price": 1100,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kontsertnyij-zal-borodino-holl/",
+      "priceText": "от 1100 рублей",
+      "sourceEventId": 202914,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "stock",
+        "kids",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-208571-1791626400",
+      "title": "Спектакль «Русалочка» в Московском театре юного зрителя",
+      "date": "2026-10-10",
+      "time": "13:00",
+      "end": null,
+      "venue": "Московский театр юного зрителя (МТЮЗ)",
+      "address": "пер. Мамоновский, д. 10, стр. 1",
+      "lat": 55.76622799999998,
+      "lng": 37.599867,
+      "price": 2400,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-rusalochka-2024/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Нежный и изысканный спектакль Рузанны Мовсесян по сказке Ганса Христиана Андерсена.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-rusalochka-2024/",
+          "price": 2400,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/teatr-yunogo-zritelya/",
+      "priceText": "от 2400 до 3200 рублей",
+      "sourceEventId": 208571,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-227088-1791630000",
+      "title": "Кинопоказ «Живите в радости»",
+      "date": "2026-10-10",
+      "time": "14:00",
+      "end": null,
+      "venue": "Музей кино",
+      "address": "просп. Мира, д. 119, павильон № 36",
+      "lat": 55.83950252112824,
+      "lng": 37.61669319110222,
+      "price": null,
+      "min": false,
+      "currency": "RUB",
+      "category": "cinema",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kinopokaz-zhivite-v-radosti/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Комедия Леонида Миллионщикова о сельском изобретателе Дмитрии Пряжкине, который постоянно что-то мастерит и пытается облегчить жизнь окружающих. Добродушный герой Леонида Куравлёва сталкивается с неожиданными обстоятельствами, а его стремление сделать мир вокруг немного лучше становится источником тёплого юмора и человечной истории.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kinopokaz-zhivite-v-radosti/",
+          "price": null,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/muzej-kino/",
+      "priceText": "бесплатно по входному билету в музей (от 0 до 500 рублей)",
+      "sourceEventId": 227088,
+      "endDate": null,
+      "sourceCategories": [
+        "cinema"
+      ]
+    },
+    {
+      "id": "kudago-msk-227007-1791630000",
+      "title": "Кинопоказ «Осень в Нью-Йорке»",
+      "date": "2026-10-10",
+      "time": "14:00",
+      "end": "16:30",
+      "venue": "ODMO",
+      "address": "Большой Трехсвятительский пер., д. 2/1, стр. 1 (вход с Малого Трехсвятительского)",
+      "lat": 55.75467089999987,
+      "lng": 37.64473580000017,
+      "price": 3300,
+      "min": false,
+      "currency": "RUB",
+      "category": "cinema",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kinoobed-osen-v-nyu-jorke/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Показ знакомой драмы проходит в формате кинобранча: фильм демонстрируется на языке оригинала с русскими субтитрами, а просмотр дополняет фуршетный стол.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kinoobed-osen-v-nyu-jorke/",
+          "price": 3300,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/art-tsentr-odmo-space/",
+      "priceText": "3300 рублей",
+      "sourceEventId": 227007,
+      "endDate": "2026-10-10",
+      "sourceCategories": [
+        "cinema"
+      ]
+    },
+    {
+      "id": "kudago-msk-227221-1791630000",
+      "title": "Опера «Приключения Чиполлино» в Большом театре",
+      "date": "2026-10-10",
+      "time": "14:00",
+      "end": null,
+      "venue": "Большой театр",
+      "address": "пл. Театральная, д. 1",
+      "lat": 55.76021099999999,
+      "lng": 37.618534,
+      "price": 1500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-priklyucheniya-chipollino/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Комическая опера по сказке Джанни Родари — история о том, как весёлый мальчик-лук поднял восстание против жадного синьора Помидора и победил.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-priklyucheniya-chipollino/",
+          "price": 1500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bolshoi/",
+      "priceText": "от 1500 до 2000 рублей",
+      "sourceEventId": 227221,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-205603-1791633600",
+      "title": "Викторина «Телеквиз: музыка и кино СССР»",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "end": null,
+      "venue": "бар «Золбергъ»",
+      "address": "пер. 1-й Люсиновский, д. 3Б.",
+      "lat": 55.727439999999895,
+      "lng": 37.62167009999957,
+      "price": 800,
+      "min": false,
+      "currency": "RUB",
+      "category": "games",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/entertainment-ugadajka-media-miks-epoha-sssr/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Вы погрузитесь в атмосферу ушедшей эпохи и вспомните культовые песни и фильмы времён Советского Союза.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/entertainment-ugadajka-media-miks-epoha-sssr/",
+          "price": 800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bar-zolberg/",
+      "priceText": "800 рублей за игрока",
+      "sourceEventId": 205603,
+      "endDate": null,
+      "sourceCategories": [
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-194706-1791633600",
+      "title": "Концерт «Вивальди. Времена года»",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "end": null,
+      "venue": "Киноконцертный зал «Эльдар»",
+      "address": "Ленинский просп., д. 105",
+      "lat": null,
+      "lng": null,
+      "price": 2000,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-vivaldi-vremena-goda-noyabr-2021/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Цикл концертов от коллектива Olympic Orchestra. Декорациями к выступлению станут картины в технике водной анимации.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-vivaldi-vremena-goda-noyabr-2021/",
+          "price": 2000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kontsertnyij-zal-eldar/",
+      "priceText": "от 2000 до 3900 рублей",
+      "sourceEventId": 194706,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-211600-1791633600",
+      "title": "Концерт «Наше любимое кино. Оркестр „Русская филармония“»",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 3000,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-nashe-lyubimoe-kino-orkestr-russkaya-filarmoniya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Проект Симфонического оркестра Москвы «Русская филармония» приглашает услышать в мир классических мелодий отечественного кино. Живая музыка напомнит о лучших моментах культовых фильмов и позволит ощутить волшебство симфонического звучания.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-nashe-lyubimoe-kino-orkestr-russkaya-filarmoniya/",
+          "price": 3000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 3000 рублей",
+      "sourceEventId": 211600,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-227105-1791633600",
+      "title": "Мастер-класс «Пишем маслом в старинном особняке»",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "end": "19:30",
+      "venue": "Особняк купца Носова",
+      "address": "ул. Электрозаводская, д. 12, стр. 1",
+      "lat": 55.785267000000026,
+      "lng": 37.703605899999836,
+      "price": 4500,
+      "min": false,
+      "currency": "RUB",
+      "category": "workshop",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/master-klass-pishem-maslom-v-starinnom-osobnyake/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Три часа живописи маслом в историческом интерьере Особняка Носова.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/master-klass-pishem-maslom-v-starinnom-osobnyake/",
+          "price": 4500,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/osobnyak-kupca-nosova/",
+      "priceText": "4500 рублей",
+      "sourceEventId": 227105,
+      "endDate": "2026-10-10",
+      "sourceCategories": [
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-202914-1791633600",
+      "title": "Экшен-шоу «Лунозавр в космосе» от «Театра Будущего Лилии Тим»",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "end": null,
+      "venue": "концертный зал «Бородино Холл»",
+      "address": "ул. Русаковская, д. 13, стр. 5.",
+      "lat": 55.78436599999995,
+      "lng": 37.67233799999975,
+      "price": 1100,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-lunozavr-v-kosmose-202914/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "«Театр Будущего Лилии Тим» приглашает ребят и их родителей отправиться навстречу незабываемым космическим приключениям. Зрителей ждёт ультрасовременное интерактивное представление с захватывающим сюжетом, добрым юмором и невероятными спецэффектами.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-lunozavr-v-kosmose-202914/",
+          "price": 1100,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kontsertnyij-zal-borodino-holl/",
+      "priceText": "от 1100 рублей",
+      "sourceEventId": 202914,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "stock",
+        "kids",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-227089-1791637200",
+      "title": "Кинопоказ «Смешные люди!»",
+      "date": "2026-10-10",
+      "time": "16:00",
+      "end": null,
+      "venue": "Музей кино",
+      "address": "просп. Мира, д. 119, павильон № 36",
+      "lat": 55.83950252112824,
+      "lng": 37.61669319110222,
+      "price": null,
+      "min": false,
+      "currency": "RUB",
+      "category": "cinema",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kinopokaz-smeshnyie-lyudi/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Экранизация ранних рассказов Антона Чехова соединяет иронию, бытовой юмор и наблюдения за человеческими характерами.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kinopokaz-smeshnyie-lyudi/",
+          "price": null,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/muzej-kino/",
+      "priceText": "бесплатно по входному билету в музей (от 0 до 500 рублей)",
+      "sourceEventId": 227089,
+      "endDate": null,
+      "sourceCategories": [
+        "cinema"
+      ]
+    },
+    {
+      "id": "kudago-msk-189747-1791637200",
+      "title": "Экскурсия-прогулка «Великий мастер русского модерна»",
+      "date": "2026-10-10",
+      "time": "16:00",
+      "end": null,
+      "venue": "станция метро «Тверская»",
+      "address": "ул. Тверская",
+      "lat": 55.76482218409318,
+      "lng": 37.60613991401667,
+      "price": 2000,
+      "min": false,
+      "currency": "RUB",
+      "category": "city",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/ekskursiya-velikij-master-russkogo-moderna/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Прогулка-экскурсия посвящена искусству Фёдора Шехтеля — выдающегося архитектора эпохи модерна, автора особняка Рябушинского, Ярославского вокзала и других знаменитых зданий.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/ekskursiya-velikij-master-russkogo-moderna/",
+          "price": 2000,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/tverskaya/",
+      "priceText": "2000 рублей",
+      "sourceEventId": 189747,
+      "endDate": null,
+      "sourceCategories": [
+        "tour"
+      ]
+    },
+    {
+      "id": "kudago-msk-226189-1791640800",
+      "title": "Спектакль «Письма русскому испанцу»",
+      "date": "2026-10-10",
+      "time": "17:00",
+      "end": null,
+      "venue": "дом фламенко «Фламенкерия»",
+      "address": "ул. Доброслободская, д.5а",
+      "lat": 55.768496,
+      "lng": 37.673025,
+      "price": 1500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-pisma-russkomu-ispantsu/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Спектакль о любви, несовпадении и семейной памяти, основанный на реальных письмах.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-pisma-russkomu-ispantsu/",
+          "price": 1500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dom-flamenko-flamenkeriya/",
+      "priceText": "от 1500 до 5000 рублей",
+      "sourceEventId": 226189,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-194295-1791640800",
+      "title": "Фестиваль «Битлзфест»",
+      "date": "2026-10-10",
+      "time": "17:00",
+      "end": "23:00",
+      "venue": "клуб «База» / Base",
+      "address": "ул. Орджоникидзе, д. 11, стр. 1",
+      "lat": 55.707791,
+      "lng": 37.595806,
+      "price": 2200,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-the-beatles-oktyabr-2021/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Осенний московский вечер посвятят музыке The Beatles. Пять групп вживую исполнят культовые композиции коллектива.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-the-beatles-oktyabr-2021/",
+          "price": 2200,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/klub-baza--base/",
+      "priceText": "от 2200 до 5000 рублей",
+      "sourceEventId": 194295,
+      "endDate": null,
+      "sourceCategories": [
+        "concert",
+        "festival"
+      ]
+    },
+    {
+      "id": "kudago-msk-225068-1791644400",
+      "title": "Большая вечеринка знакомств «Искротека»",
+      "date": "2026-10-10",
+      "time": "18:00",
+      "end": "01:00",
+      "venue": "Omega Tsvetnoy Rooftop",
+      "address": "Цветной бульвар, д. 15, стр. 1",
+      "lat": 55.77109910000014,
+      "lng": 37.61994680000009,
+      "price": 3390,
+      "min": false,
+      "currency": "RUB",
+      "category": "party",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/vecherinka-iskroteka/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Множество интерактивных игр, музыка, шоу и веселье — в «Искротеке» клуб «ПБ» собрал всё, что превращает обычную вечеринку в место, где легко познакомиться даже тем, кто пришёл один.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/vecherinka-iskroteka/",
+          "price": 3390,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/na-kryishe-omega-rooftop/",
+      "priceText": "3390 рублей",
+      "sourceEventId": 225068,
+      "endDate": null,
+      "sourceCategories": [
+        "party",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-227009-1791644400",
+      "title": "Концерт «Хор Минина: между светом и тьмой. Бах и Шнитке»",
+      "date": "2026-10-10",
+      "time": "18:00",
+      "end": "19:30",
+      "venue": "Евангелическо-Лютеранский Кафедральный собор святых апостолов Петра и Павла",
+      "address": "пер. Старосадский, д. 7/10, стр. 10",
+      "lat": 55.75678510282241,
+      "lng": 37.64095186663472,
+      "price": 900,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-hor-minina-mezhdu-svetom-i-tmoj-bah-i-shnitke/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Знаменитый коллектив исполнит Реквием Альфреда Шнитке — произведение, объединившее традиции барокко и музыкальный язык XX века.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-hor-minina-mezhdu-svetom-i-tmoj-bah-i-shnitke/",
+          "price": 900,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kafedralnyj-sobor-svyatyh-apostolov-petra-i-pavla/",
+      "priceText": "от 900 руб.",
+      "sourceEventId": 227009,
+      "endDate": null,
+      "sourceCategories": [
+        "stock",
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-227221-1791644400",
+      "title": "Опера «Приключения Чиполлино» в Большом театре",
+      "date": "2026-10-10",
+      "time": "18:00",
+      "end": null,
+      "venue": "Большой театр",
+      "address": "пл. Театральная, д. 1",
+      "lat": 55.76021099999999,
+      "lng": 37.618534,
+      "price": 1500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-priklyucheniya-chipollino/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Комическая опера по сказке Джанни Родари — история о том, как весёлый мальчик-лук поднял восстание против жадного синьора Помидора и победил.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-priklyucheniya-chipollino/",
+          "price": 1500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bolshoi/",
+      "priceText": "от 1500 до 2000 рублей",
+      "sourceEventId": 227221,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "kids"
+      ]
+    },
+    {
+      "id": "kudago-msk-202293-1791644400",
+      "title": "Пробные занятия «Секретные актёрские техники для жизни и карьеры: быстрый результат»",
+      "date": "2026-10-10",
+      "time": "18:00",
+      "end": null,
+      "venue": "арт-пространство «Сияние»",
+      "address": "ул. Советской армии, д. 8",
+      "lat": 55.78754179999977,
+      "lng": 37.61703830000033,
+      "price": 800,
+      "min": false,
+      "currency": "RUB",
+      "category": "workshop",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/obuchenie-byistryij-rezultat/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Хотите уверенно чувствовать себя на публике? На двухчасовом занятии в арт-студии «Сияние» вы познакомитесь с основными актёрскими техниками, которые помогут раскрепоститься, раскрыть внутренний потенциал, снять психологические зажимы и научиться удерживать внимание любого слушателя.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/obuchenie-byistryij-rezultat/",
+          "price": 800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/art-tsentr-siyanie/",
+      "priceText": "800 рублей",
+      "sourceEventId": 202293,
+      "endDate": null,
+      "sourceCategories": [
+        "stock",
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-214176-1791648000",
+      "title": "Балет «Лебединое озеро»",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 700,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/balet-lebedinoe-ozero-fe7upm/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Знаменитый балет «Лебединое озеро» — это яркое воплощение классического русского искусства. Театр «Русские балетные сезоны» представляет  постановку, объединившую традиции и современную интерпретацию.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/balet-lebedinoe-ozero-fe7upm/",
+          "price": 700,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 700 рублей",
+      "sourceEventId": 214176,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-227225-1791648000",
+      "title": "Вечеринка на теплоходе «СуперХиты 80—90»",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "end": "22:00",
+      "venue": "Северный речной вокзал",
+      "address": "ш. Ленинградское, д. 51",
+      "lat": 55.85067599999999,
+      "lng": 37.467392,
+      "price": 1000,
+      "min": true,
+      "currency": "RUB",
+      "category": "party",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/vecherinka-superhityi-80-90/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Сезон дискотек на воде завершается вечеринкой с живым звуком и участием шоу-балета.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/vecherinka-superhityi-80-90/",
+          "price": 1000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/severnyj-rechnoj-vokzal/",
+      "priceText": "от 1000 до 5000 рубублей",
+      "sourceEventId": 227225,
+      "endDate": null,
+      "sourceCategories": [
+        "party"
+      ]
+    },
+    {
+      "id": "kudago-msk-213823-1791648000",
+      "title": "Концерт «Арфа в темноте»",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 1000,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-arfa-v-temnote-ru8ozd/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Окунитесь в атмосферу волшебства и музыки на уникальном перформансе «Арфа в темноте». Живое звучание классической и электроарфы соединяется с эффектными визуальными образами.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-arfa-v-temnote-ru8ozd/",
+          "price": 1000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 1000 рублей",
+      "sourceEventId": 213823,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-226606-1791648000",
+      "title": "Концерт «Оперетта за столиками»",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "end": null,
+      "venue": "бар «Барчук»",
+      "address": "Староваганьковский пер., д. 19, стр. 3",
+      "lat": 55.75119565867232,
+      "lng": 37.606397929776534,
+      "price": 900,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-operetta-za-stolikami/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Лёгкая, жизнерадостная и мелодичная музыка из оперетт наполнит зал клуба осенним вечером.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-operetta-za-stolikami/",
+          "price": 900,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bar-barchuk/",
+      "priceText": "от 900 до 2000 рублей",
+      "sourceEventId": 226606,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-226734-1791648000",
+      "title": "Концерт группы «Непара»",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 1100,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-gruppyi-nepara/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Александр Шоуа и обновлённый состав группы исполнят главные хиты проекта и новые песни.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-gruppyi-nepara/",
+          "price": 1100,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 1100 до 8000 рублей",
+      "sourceEventId": 226734,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-13735-1791648000",
+      "title": "Опера «Травиата» в Большом театре",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "end": null,
+      "venue": "Большой театр",
+      "address": "пл. Театральная, д. 1",
+      "lat": 55.76021099999999,
+      "lng": 37.618534,
+      "price": 600,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/spektakl-traviata-d-verdi-v-bolshom/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Опера Джузеппе Верди на либретто Франческо Пьяве по мотивам романа «Дама с камелиями».",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/spektakl-traviata-d-verdi-v-bolshom/",
+          "price": 600,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bolshoi/",
+      "priceText": "от 600 до 15 000 рублей",
+      "sourceEventId": 13735,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-202293-1791648000",
+      "title": "Пробные занятия «Секретные актёрские техники для жизни и карьеры: быстрый результат»",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "end": null,
+      "venue": "арт-пространство «Сияние»",
+      "address": "ул. Советской армии, д. 8",
+      "lat": 55.78754179999977,
+      "lng": 37.61703830000033,
+      "price": 800,
+      "min": false,
+      "currency": "RUB",
+      "category": "workshop",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/obuchenie-byistryij-rezultat/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Хотите уверенно чувствовать себя на публике? На двухчасовом занятии в арт-студии «Сияние» вы познакомитесь с основными актёрскими техниками, которые помогут раскрепоститься, раскрыть внутренний потенциал, снять психологические зажимы и научиться удерживать внимание любого слушателя.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/obuchenie-byistryij-rezultat/",
+          "price": 800,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/art-tsentr-siyanie/",
+      "priceText": "800 рублей",
+      "sourceEventId": 202293,
+      "endDate": null,
+      "sourceCategories": [
+        "stock",
+        "education"
+      ]
+    },
+    {
+      "id": "kudago-msk-209756-1791648000",
+      "title": "Спектакль «Мой брат умер» в Новом пространстве Театра Наций",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "end": null,
+      "venue": "Театр Наций (Новое пространство)",
+      "address": "Страстной бул., д. 12/2",
+      "lat": 55.76615849999985,
+      "lng": 37.60865809999957,
+      "price": 6000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-moj-brat-umer/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Перформативная читка киносценария Алексея Балабанова, завершённого им за три дня до смерти.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-moj-brat-umer/",
+          "price": 6000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/teatr-nacij-novoe-prostranstvo/",
+      "priceText": "от 6000 до 8500 рублей",
+      "sourceEventId": 209756,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-184309-1791648000",
+      "title": "Спектакль «Ночь в отеле» в Московском театре Олега Табакова",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский театр Олега Табакова (Историческая сцена)",
+      "address": "ул. Чаплыгина, д. 1, лит. А, стр. 1",
+      "lat": 55.764197,
+      "lng": 37.64613899999999,
+      "price": 2500,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-noch-v-otele/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Спектакль по пьесе Терри Джонсона — первая постановка Владимира Машкова в качестве художественного руководителя «Табакерки». Она показывает, как случайная встреча превращается в разговор о влиянии, амбициях и личных слабостях.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-noch-v-otele/",
+          "price": 2500,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/tabakov/",
+      "priceText": "от 2500 до 8000 рублей",
+      "sourceEventId": 184309,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-206553-1791648000",
+      "title": "Спектакль «Последнее лето» в Театре Наций",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "end": null,
+      "venue": "Театр Наций",
+      "address": "Петровский пер., д. 3",
+      "lat": 55.76594399999996,
+      "lng": 37.612775,
+      "price": 7000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-poslednee-leto/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Спектакль о дачной жизни в эпоху потрясений по сценарию Анны Козловой «Куоккала». История показывает, как привычный уклад постепенно уступает место тревоге и ощущению перемен.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-poslednee-leto/",
+          "price": 7000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/gosudarstvennyj-teatr-nacij/",
+      "priceText": "от 7000 до 20000 рублей",
+      "sourceEventId": 206553,
+      "endDate": null,
+      "sourceCategories": [
+        "theater"
+      ]
+    },
+    {
+      "id": "kudago-msk-226735-1791648000",
+      "title": "Шоу «4 струны. Русская филармония»",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "end": null,
+      "venue": "Московский международный Дом музыки (ММДМ)",
+      "address": "наб. Космодамианская, д. 52, стр. 8",
+      "lat": 55.73324899999993,
+      "lng": 37.64659699999999,
+      "price": 3000,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/shou-4-strunyi-russkaya-filarmoniya/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Скрипки, альт, виолончель и бас-гитара проведут слушателей от Каприса Паганини до темпераментных цыганских мелодий.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/shou-4-strunyi-russkaya-filarmoniya/",
+          "price": 3000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/mmdm/",
+      "priceText": "от 3000 до 4000 рублей",
+      "sourceEventId": 226735,
+      "endDate": null,
+      "sourceCategories": [
+        "concert",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-227028-1791651600",
+      "title": "Кабаре-шоу «Все краски соблазна»",
+      "date": "2026-10-10",
+      "time": "20:00",
+      "end": null,
+      "venue": "шоу-ресторан «Наблюдатель».",
+      "address": "ул. Шаболовка, д. 31Г",
+      "lat": 55.72064560000004,
+      "lng": 37.61040110000024,
+      "price": 4000,
+      "min": true,
+      "currency": "RUB",
+      "category": "theatre",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/teatr-vse-kraski-soblazna/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Сюжет этого красивого шоу строится вокруг таинственного Коллекционера, который приезжает издалека и представляет свою коллекцию кукол. По ходу действия они выходят из витрин и оживают на сцене.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/teatr-vse-kraski-soblazna/",
+          "price": 4000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/restoran-nablyudatel/",
+      "priceText": "от 4000 руб.",
+      "sourceEventId": 227028,
+      "endDate": null,
+      "sourceCategories": [
+        "theater",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-196328-1791651600",
+      "title": "Концерт «Мировые рок-хиты с симфоническим оркестром»",
+      "date": "2026-10-10",
+      "time": "20:00",
+      "end": null,
+      "venue": "дворец культуры имени Горбунова",
+      "address": "Новозаводская ул., д. 27",
+      "lat": 55.75010399999997,
+      "lng": 37.497144,
+      "price": 1800,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-mirovyie-rok-hityi-s-simfonicheskim-orkestrom-mart-2022/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Коллектив Olympic Orchestra зарядит слушателей мощной энергией хитов легендарных рок-групп.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-mirovyie-rok-hityi-s-simfonicheskim-orkestrom-mart-2022/",
+          "price": 1800,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/dkgorbunova/",
+      "priceText": "от 1800 до 5000 рублей",
+      "sourceEventId": 196328,
+      "endDate": null,
+      "sourceCategories": [
+        "concert",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "kudago-msk-151572-1791655200",
+      "title": "Концерт «Старинный орган, дудук и саксофон»",
+      "date": "2026-10-10",
+      "time": "21:00",
+      "end": null,
+      "venue": "Евангелическо-Лютеранский Кафедральный собор святых апостолов Петра и Павла",
+      "address": "пер. Старосадский, д. 7/10, стр. 10",
+      "lat": 55.75678510282241,
+      "lng": 37.64095186663472,
+      "price": 1000,
+      "min": true,
+      "currency": "RUB",
+      "category": "music",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/kontsert-zvuchaschie-polotna-nikolaj-rerih/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Традиционные армянские и грузинские мелодии прозвучат в исполнении этнических инструментов и органа. Концерт сопровождает мультимедийная инсталляция: «Звучащие полотна. Рерих».",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/kontsert-zvuchaschie-polotna-nikolaj-rerih/",
+          "price": 1000,
+          "min": true
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/kafedralnyj-sobor-svyatyh-apostolov-petra-i-pavla/",
+      "priceText": "от 1000 до 4500 руб.",
+      "sourceEventId": 151572,
+      "endDate": null,
+      "sourceCategories": [
+        "concert"
+      ]
+    },
+    {
+      "id": "kudago-msk-212917-1791658800",
+      "title": "Викторина «Караоке-квиз: только хиты»",
+      "date": "2026-10-10",
+      "time": "22:00",
+      "end": null,
+      "venue": "бар «Золбергъ»",
+      "address": "пер. 1-й Люсиновский, д. 3Б.",
+      "lat": 55.727439999999895,
+      "lng": 37.62167009999957,
+      "price": 900,
+      "min": false,
+      "currency": "RUB",
+      "category": "games",
+      "source": "KudaGo",
+      "sourceUrl": "https://kudago.com/msk/event/entertainment-karaoke-kviz-tolko-pripevyi/",
+      "checkedAt": "2026-10-04T00:03:41.302342+00:00",
+      "description": "Легендарные треки, заводная атмосфера и интересные вопросы — вас ждёт увлекательное погружение в историю музыки в формате квиза. Готовьтесь подпевать, ведь в программу вошли только самые певучие строчки из популярных композиций.",
+      "language": null,
+      "sources": [
+        {
+          "name": "KudaGo",
+          "url": "https://kudago.com/msk/event/entertainment-karaoke-kviz-tolko-pripevyi/",
+          "price": 900,
+          "min": false
+        }
+      ],
+      "coordinateSource": "https://kudago.com/msk/place/bar-zolberg/",
+      "priceText": "900 рублей за игрока",
+      "sourceEventId": 212917,
+      "endDate": null,
+      "sourceCategories": [
+        "entertainment"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "KudaGo",
+      "url": "https://kudago.com/public-api/v1.4/events/?location=msk&actual_since=1791061200&actual_until=1791666000&expand=place,dates",
+      "count": 139
+    }
+  ]
+}

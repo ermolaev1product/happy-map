@@ -1,0 +1,390 @@
+{
+  "offlineReviewedAt": "2026-10-30T04:00:02.506975+00:00",
+  "baseline": "e013d432a3d1e8cdd37ebec4b87b665d9febf36b",
+  "scope": "One category and seven exact reviewed conference memberships; predicates unchanged. No new events, venues or source reads.",
+  "generalSemanticLimitation": "Retained source-attributed structured evidence supports UI classification. Original full raw bodies unavailable; not an independent full-body revalidation, fresh source check, status refresh or admission verification. Historical checkedAt values retained, not replaced by this review time.",
+  "reviews": [
+    {
+      "path": "resume-20261029/audit/taxonomy-20261030/semantic-review/proof.json",
+      "sha256": "622ab43ac33a8a165771a7edbe03da0ad924863fbb8e87aed31a1376a14636f8"
+    },
+    {
+      "path": "resume-20261029/audit/taxonomy-20261030/asuncion-iberamia-semantic-peer.json",
+      "sha256": "4cb13e284457a7fc71a2576c2e959dc13ff3b0fc70b5bce1c47db59474545d50"
+    }
+  ],
+  "originalCategoryRecords": [
+    {
+      "path": "public/podgorica/events.json",
+      "originalEvent": {
+        "id": "podgorica-poezija-zivota-20261122-2000",
+        "title": "Poezija i pjesma života — Marko Milošević and band",
+        "venue": "KIC Budo Tomović",
+        "venueId": "podgorica-venue-0de07c38d2b19e",
+        "address": "Vaka Đurovića 12, 81000 Podgorica",
+        "description": "An evening combining poetry and live music.",
+        "date": "2026-11-22",
+        "time": "20:00",
+        "end": null,
+        "startAt": "2026-11-22T20:00:00+01:00",
+        "category": "poetry_music",
+        "lat": 42.4462115,
+        "lng": 19.2646084,
+        "coordinateSource": "https://www.openstreetmap.org/api/0.6/node/313123693.json",
+        "coordinatePrecision": "venue_approximate",
+        "coordinateEvidence": "named arts-centre point; not entrance",
+        "source": "Podgorica tourism / organizer",
+        "sourceUrl": "https://podgorica.travel/calendar-event/premijera-u-kic-u-u-novoj-sezoni-poezija-i-pjesma-zivota-marka-milosevica-benda-22-novembra-%f0%9f%93%9a%f0%9f%8e%a4%f0%9f%8e%b6%e2%9c%a8/",
+        "checkedAt": "2026-10-28T12:16:15.324038+00:00",
+        "yearEvidence": "Explicit2026 dated programme or verified temporary date range. Exact evidence and review/fetch distinctions retained in source audit.",
+        "price": null,
+        "priceNote": "Price and additional fees not confirmed",
+        "currency": "EUR",
+        "timezone": "Europe/Podgorica",
+        "language": null,
+        "status": "scheduled",
+        "admission": "Ticketed public event; price and step-free access not confirmed.",
+        "hall": "Velika sala",
+        "kind": "event",
+        "city": "Podgorica",
+        "cityId": "podgorica"
+      }
+    },
+    {
+      "path": "public/en/podgorica/events.json",
+      "originalEvent": {
+        "id": "podgorica-poezija-zivota-20261122-2000",
+        "title": "Poezija i pjesma života — Marko Milošević and band",
+        "venue": "KIC Budo Tomović",
+        "venueId": "podgorica-venue-0de07c38d2b19e",
+        "address": "Vaka Đurovića 12, 81000 Podgorica",
+        "description": "An evening combining poetry and live music.",
+        "date": "2026-11-22",
+        "time": "20:00",
+        "end": null,
+        "startAt": "2026-11-22T20:00:00+01:00",
+        "category": "poetry_music",
+        "lat": 42.4462115,
+        "lng": 19.2646084,
+        "coordinateSource": "https://www.openstreetmap.org/api/0.6/node/313123693.json",
+        "coordinatePrecision": "venue_approximate",
+        "coordinateEvidence": "named arts-centre point; not entrance",
+        "source": "Podgorica tourism / organizer",
+        "sourceUrl": "https://podgorica.travel/calendar-event/premijera-u-kic-u-u-novoj-sezoni-poezija-i-pjesma-zivota-marka-milosevica-benda-22-novembra-%f0%9f%93%9a%f0%9f%8e%a4%f0%9f%8e%b6%e2%9c%a8/",
+        "checkedAt": "2026-10-28T12:16:15.324038+00:00",
+        "yearEvidence": "Explicit2026 dated programme or verified temporary date range. Exact evidence and review/fetch distinctions retained in source audit.",
+        "price": null,
+        "priceNote": "Price and additional fees not confirmed",
+        "currency": "EUR",
+        "timezone": "Europe/Podgorica",
+        "language": null,
+        "status": "scheduled",
+        "admission": "Ticketed public event; price and step-free access not confirmed.",
+        "hall": "Velika sala",
+        "kind": "event",
+        "city": "Podgorica",
+        "cityId": "podgorica"
+      }
+    }
+  ],
+  "appendedMemberships": [
+    {
+      "city": "port-of-spain",
+      "id": "port-of-spain-digital-arts-20261030-0900",
+      "date": "2026-10-30",
+      "topics": [
+        "technology",
+        "media"
+      ],
+      "format": "conference",
+      "sourceUrl": "https://www.animaecaribe.com/festival/2026/events",
+      "checkedAt": "2026-10-29T04:19:17.025107+00:00"
+    },
+    {
+      "city": "quito",
+      "id": "quito-biosummit-20261104-0840",
+      "date": "2026-11-04",
+      "topics": [
+        "science"
+      ],
+      "format": "conference",
+      "sourceUrl": "https://biosummit.net/schedule.html",
+      "checkedAt": "2026-10-29T03:49:48.533547+00:00"
+    },
+    {
+      "city": "quito",
+      "id": "quito-biosummit-20261105-0850",
+      "date": "2026-11-05",
+      "topics": [
+        "science"
+      ],
+      "format": "conference",
+      "sourceUrl": "https://biosummit.net/schedule.html",
+      "checkedAt": "2026-10-29T03:49:48.533547+00:00"
+    },
+    {
+      "city": "quito",
+      "id": "quito-biosummit-20261106-0855",
+      "date": "2026-11-06",
+      "topics": [
+        "science"
+      ],
+      "format": "conference",
+      "sourceUrl": "https://biosummit.net/schedule.html",
+      "checkedAt": "2026-10-29T03:49:48.533547+00:00"
+    },
+    {
+      "city": "asuncion",
+      "id": "asuncion-iberamia-20261118-0900",
+      "date": "2026-11-18",
+      "topics": [
+        "ai"
+      ],
+      "format": "conference",
+      "sourceUrl": "https://www.iberamia.org/iberamia/iberamia2026/programme2026/",
+      "checkedAt": "2026-10-29T03:56:59.880615+00:00"
+    },
+    {
+      "city": "asuncion",
+      "id": "asuncion-iberamia-20261119-0900",
+      "date": "2026-11-19",
+      "topics": [
+        "ai"
+      ],
+      "format": "conference",
+      "sourceUrl": "https://www.iberamia.org/iberamia/iberamia2026/programme2026/",
+      "checkedAt": "2026-10-29T03:56:59.880615+00:00"
+    },
+    {
+      "city": "asuncion",
+      "id": "asuncion-iberamia-20261120-0900",
+      "date": "2026-11-20",
+      "topics": [
+        "ai"
+      ],
+      "format": "conference",
+      "sourceUrl": "https://www.iberamia.org/iberamia/iberamia2026/programme2026/",
+      "checkedAt": "2026-10-29T03:56:59.880615+00:00"
+    }
+  ],
+  "historicalEvidence": [
+    {
+      "city": "podgorica",
+      "id": "podgorica-poezija-zivota-20261122-2000",
+      "date": "2026-11-22",
+      "time": "20:00",
+      "currentStatus": "scheduled",
+      "currentCategory": "poetry_music",
+      "originalSourceAttributedTitle": "Poezija i pjesma života — Marko Milošević and band",
+      "retainedNormalizedDescription": "An evening combining poetry and live music.",
+      "retainedAdmission": "Ticketed public event; price and step-free access not confirmed.",
+      "sourceUrl": "https://podgorica.travel/calendar-event/premijera-u-kic-u-u-novoj-sezoni-poezija-i-pjesma-zivota-marka-milosevica-benda-22-novembra-%f0%9f%93%9a%f0%9f%8e%a4%f0%9f%8e%b6%e2%9c%a8/",
+      "historicalSourceCheckedAt": "2026-10-28T12:16:15.324038+00:00",
+      "yearEvidence": "Explicit2026 dated programme or verified temporary date range. Exact evidence and review/fetch distinctions retained in source audit.",
+      "evidencePath": "resume-20261029/site/data/capitals-20261028/podgorica-research.json",
+      "fullRawLocated": false,
+      "decision": "READY_UI_CLASSIFICATION_ON_RETAINED_STRUCTURED_EVIDENCE_ONLY",
+      "confidence": "high semantic classification; no fresh source/date/status revalidation",
+      "proposal": {
+        "field": "category",
+        "old": "poetry_music",
+        "new": "music"
+      },
+      "reason": "Original title names band; retained author summary explicitly combines poetry and live music. Do not discard poetry description.",
+      "preserve": [
+        "date",
+        "time",
+        "end",
+        "price",
+        "fees",
+        "admission",
+        "status",
+        "pin",
+        "source timestamps",
+        "all other record fields"
+      ]
+    },
+    {
+      "city": "port-of-spain",
+      "id": "port-of-spain-digital-arts-20261030-0900",
+      "date": "2026-10-30",
+      "time": "09:00",
+      "currentStatus": "scheduled",
+      "currentCategory": "conference",
+      "originalSourceAttributedTitle": "Digital Arts & Media Summit",
+      "retainedNormalizedDescription": "Interactive displays and masterclasses explore digital media alongside the festival’s separate screening programme.",
+      "retainedAdmission": "Animae Caribe2026 public festival programme. Ticket/admission price not stated for this session; screenings may require a separate paid ticket. No free assumption. Venue is CinemaONE complex, not a precise room. Explicitly open to schools AND the public; not a school-only session. Displays run alongside separate talks, not nine copies of one screening.",
+      "sourceUrl": "https://www.animaecaribe.com/festival/2026/events",
+      "historicalSourceCheckedAt": "2026-10-29T04:19:17.025107+00:00",
+      "yearEvidence": "Full organizer/authorized ticket source explicitly dated2026. No footer-year inference.",
+      "evidencePath": "resume-20261029/site/data/capitals-20261029/port-of-spain-packet.json",
+      "fullRawLocated": false,
+      "decision": "READY_UI_CLASSIFICATION_ON_RETAINED_STRUCTURED_EVIDENCE_ONLY",
+      "confidence": "high semantic classification; no fresh source/date/status revalidation",
+      "proposal": {
+        "exactReviewedMembership": {
+          "city": "port-of-spain",
+          "id": "port-of-spain-digital-arts-20261030-0900",
+          "date": "2026-10-30",
+          "topics": [
+            "technology",
+            "media"
+          ],
+          "format": "conference",
+          "sourceUrl": "https://www.animaecaribe.com/festival/2026/events",
+          "checkedAt": "2026-10-29T04:19:17.025107+00:00"
+        },
+        "categoryUnchanged": "conference"
+      },
+      "reason": "Digital media masterclasses/interactive displays and separate talks match technology/media conference learning; not inclusion of festival screenings or Handmade Fashion programme.",
+      "preserve": [
+        "date",
+        "time",
+        "end",
+        "price",
+        "fees",
+        "admission",
+        "status",
+        "pin",
+        "source timestamps",
+        "all other record fields"
+      ]
+    },
+    {
+      "city": "quito",
+      "id": "quito-biosummit-20261104-0840",
+      "date": "2026-11-04",
+      "time": "08:40",
+      "currentStatus": "scheduled",
+      "currentCategory": "conference",
+      "originalSourceAttributedTitle": "BioSummit Ecuador 2026",
+      "retainedNormalizedDescription": "A biodiversity conference brings together science, public policy and regenerative production.",
+      "retainedAdmission": "General daily pass USD85, student daily pass USD72 with university ID. Daily pass includes main lectures, scientific panels and BioConexion fair; specialised workshops require an appropriate Premium pass. Three-day regular Premium USD275; advertised discount expiredSeptember15 and is not used. Ticket fees unspecified. Registration opens07:30; displayed start is the actual opening programme, not registration. Timetable may change; exact whole-day end unconfirmed. November7 field expeditions outside Quito are excluded.",
+      "sourceUrl": "https://biosummit.net/schedule.html",
+      "historicalSourceCheckedAt": "2026-10-29T03:49:48.533547+00:00",
+      "yearEvidence": "Full own official agenda explicitly4,5,6November2026. Public page inline agendaData assigns firstprogramme08:40/08:50/08:55 to three days; registration07:30 is separate.",
+      "evidencePath": "resume-20261029/site/data/capitals-20261029/quito-packet.json",
+      "fullRawLocated": false,
+      "decision": "READY_UI_CLASSIFICATION_ON_RETAINED_STRUCTURED_EVIDENCE_ONLY",
+      "confidence": "high semantic classification; no fresh source/date/status revalidation",
+      "proposal": {
+        "exactReviewedMembership": {
+          "city": "quito",
+          "id": "quito-biosummit-20261104-0840",
+          "date": "2026-11-04",
+          "topics": [
+            "science"
+          ],
+          "format": "conference",
+          "sourceUrl": "https://biosummit.net/schedule.html",
+          "checkedAt": "2026-10-29T03:49:48.533547+00:00"
+        },
+        "categoryUnchanged": "conference"
+      },
+      "reason": "Science/biodiversity conference and scientific panels explicitly match science topic in the existing filter.",
+      "preserve": [
+        "date",
+        "time",
+        "end",
+        "price",
+        "fees",
+        "admission",
+        "status",
+        "pin",
+        "source timestamps",
+        "all other record fields"
+      ]
+    },
+    {
+      "city": "quito",
+      "id": "quito-biosummit-20261105-0850",
+      "date": "2026-11-05",
+      "time": "08:50",
+      "currentStatus": "scheduled",
+      "currentCategory": "conference",
+      "originalSourceAttributedTitle": "BioSummit Ecuador 2026",
+      "retainedNormalizedDescription": "A biodiversity conference brings together science, public policy and regenerative production.",
+      "retainedAdmission": "General daily pass USD85, student daily pass USD72 with university ID. Daily pass includes main lectures, scientific panels and BioConexion fair; specialised workshops require an appropriate Premium pass. Three-day regular Premium USD275; advertised discount expiredSeptember15 and is not used. Ticket fees unspecified. Registration opens07:30; displayed start is the actual opening programme, not registration. Timetable may change; exact whole-day end unconfirmed. November7 field expeditions outside Quito are excluded.",
+      "sourceUrl": "https://biosummit.net/schedule.html",
+      "historicalSourceCheckedAt": "2026-10-29T03:49:48.533547+00:00",
+      "yearEvidence": "Full own official agenda explicitly4,5,6November2026. Public page inline agendaData assigns firstprogramme08:40/08:50/08:55 to three days; registration07:30 is separate.",
+      "evidencePath": "resume-20261029/site/data/capitals-20261029/quito-packet.json",
+      "fullRawLocated": false,
+      "decision": "READY_UI_CLASSIFICATION_ON_RETAINED_STRUCTURED_EVIDENCE_ONLY",
+      "confidence": "high semantic classification; no fresh source/date/status revalidation",
+      "proposal": {
+        "exactReviewedMembership": {
+          "city": "quito",
+          "id": "quito-biosummit-20261105-0850",
+          "date": "2026-11-05",
+          "topics": [
+            "science"
+          ],
+          "format": "conference",
+          "sourceUrl": "https://biosummit.net/schedule.html",
+          "checkedAt": "2026-10-29T03:49:48.533547+00:00"
+        },
+        "categoryUnchanged": "conference"
+      },
+      "reason": "Science/biodiversity conference and scientific panels explicitly match science topic in the existing filter.",
+      "preserve": [
+        "date",
+        "time",
+        "end",
+        "price",
+        "fees",
+        "admission",
+        "status",
+        "pin",
+        "source timestamps",
+        "all other record fields"
+      ]
+    },
+    {
+      "city": "quito",
+      "id": "quito-biosummit-20261106-0855",
+      "date": "2026-11-06",
+      "time": "08:55",
+      "currentStatus": "scheduled",
+      "currentCategory": "conference",
+      "originalSourceAttributedTitle": "BioSummit Ecuador 2026",
+      "retainedNormalizedDescription": "A biodiversity conference brings together science, public policy and regenerative production.",
+      "retainedAdmission": "General daily pass USD85, student daily pass USD72 with university ID. Daily pass includes main lectures, scientific panels and BioConexion fair; specialised workshops require an appropriate Premium pass. Three-day regular Premium USD275; advertised discount expiredSeptember15 and is not used. Ticket fees unspecified. Registration opens07:30; displayed start is the actual opening programme, not registration. Timetable may change; exact whole-day end unconfirmed. November7 field expeditions outside Quito are excluded.",
+      "sourceUrl": "https://biosummit.net/schedule.html",
+      "historicalSourceCheckedAt": "2026-10-29T03:49:48.533547+00:00",
+      "yearEvidence": "Full own official agenda explicitly4,5,6November2026. Public page inline agendaData assigns firstprogramme08:40/08:50/08:55 to three days; registration07:30 is separate.",
+      "evidencePath": "resume-20261029/site/data/capitals-20261029/quito-packet.json",
+      "fullRawLocated": false,
+      "decision": "READY_UI_CLASSIFICATION_ON_RETAINED_STRUCTURED_EVIDENCE_ONLY",
+      "confidence": "high semantic classification; no fresh source/date/status revalidation",
+      "proposal": {
+        "exactReviewedMembership": {
+          "city": "quito",
+          "id": "quito-biosummit-20261106-0855",
+          "date": "2026-11-06",
+          "topics": [
+            "science"
+          ],
+          "format": "conference",
+          "sourceUrl": "https://biosummit.net/schedule.html",
+          "checkedAt": "2026-10-29T03:49:48.533547+00:00"
+        },
+        "categoryUnchanged": "conference"
+      },
+      "reason": "Science/biodiversity conference and scientific panels explicitly match science topic in the existing filter.",
+      "preserve": [
+        "date",
+        "time",
+        "end",
+        "price",
+        "fees",
+        "admission",
+        "status",
+        "pin",
+        "source timestamps",
+        "all other record fields"
+      ]
+    }
+  ],
+  "existingReviewedRows": 160
+}

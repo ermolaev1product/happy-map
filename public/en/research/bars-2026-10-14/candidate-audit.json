@@ -1,0 +1,344 @@
+{
+  "checkedAt": "2026-10-14",
+  "candidateCount": 6701,
+  "uniqueOsmIdentities": 6701,
+  "exactDuplicateOsmIdentities": [],
+  "completeness": {
+    "palo-alto": {
+      "candidates": 14,
+      "missing": {
+        "address": 3,
+        "website": 9,
+        "openingHours": 11,
+        "instagram": 14
+      },
+      "invalidCoordinates": 0,
+      "nearNameDuplicatePairs": 0
+    },
+    "london": {
+      "candidates": 4348,
+      "missing": {
+        "address": 699,
+        "website": 2178,
+        "openingHours": 3120,
+        "instagram": 4079
+      },
+      "invalidCoordinates": 0,
+      "nearNameDuplicatePairs": 16
+    },
+    "paris": {
+      "candidates": 2339,
+      "missing": {
+        "address": 1510,
+        "website": 1781,
+        "openingHours": 1334,
+        "instagram": 2210
+      },
+      "invalidCoordinates": 0,
+      "nearNameDuplicatePairs": 7
+    }
+  },
+  "nearNameDuplicatePairs": [
+    {
+      "city": "london",
+      "names": [
+        "Robin Hood",
+        "Robin Hood"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/266739623",
+        "https://www.openstreetmap.org/way/1500205604"
+      ],
+      "distanceMeters": 12.7,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "Balls Brothers",
+        "Balls Brothers"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/296614817",
+        "https://www.openstreetmap.org/node/2935383884"
+      ],
+      "distanceMeters": 32.0,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "The Leather Exchange",
+        "the Leather Exchange"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/352930271",
+        "https://www.openstreetmap.org/node/1662542806"
+      ],
+      "distanceMeters": 42.1,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "Freud",
+        "Freud"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/371050910",
+        "https://www.openstreetmap.org/node/603120730"
+      ],
+      "distanceMeters": 8.2,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "The Preston",
+        "The Preston"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/469765399",
+        "https://www.openstreetmap.org/way/80151497"
+      ],
+      "distanceMeters": 18.1,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "The Gardeners Arms",
+        "The Gardeners Arms"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/1111103378",
+        "https://www.openstreetmap.org/way/1338847029"
+      ],
+      "distanceMeters": 1.9,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "Grand Union – Chancery Lane",
+        "Grand Union – Chancery Lane"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/1377064259",
+        "https://www.openstreetmap.org/node/1832688358"
+      ],
+      "distanceMeters": 13.5,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "Radio Rooftop Bar",
+        "Radio Rooftop Bar"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/2916237763",
+        "https://www.openstreetmap.org/node/6386762785"
+      ],
+      "distanceMeters": 39.0,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "Cellar Door",
+        "CellarDoor"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/3898185143",
+        "https://www.openstreetmap.org/node/13290010041"
+      ],
+      "distanceMeters": 11.9,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "Cahoots",
+        "Cahoots"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/4870230621",
+        "https://www.openstreetmap.org/way/582746347"
+      ],
+      "distanceMeters": 15.3,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "Barts",
+        "Barts"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/5732244222",
+        "https://www.openstreetmap.org/node/9594135917"
+      ],
+      "distanceMeters": 41.2,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "Eastcheap Records",
+        "Eastcheap Records"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/10203027526",
+        "https://www.openstreetmap.org/way/156720845"
+      ],
+      "distanceMeters": 4.9,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "The Sussex Arms",
+        "The Sussex Arms"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/way/629129391",
+        "https://www.openstreetmap.org/relation/8757463"
+      ],
+      "distanceMeters": 2.0,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "The Hill",
+        "The Hill"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/way/289374229",
+        "https://www.openstreetmap.org/way/289446739"
+      ],
+      "distanceMeters": 39.5,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "JK Banquets",
+        "JK Banquets"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/way/289799670",
+        "https://www.openstreetmap.org/way/289799676"
+      ],
+      "distanceMeters": 14.0,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "london",
+      "names": [
+        "Trinity Arms",
+        "Trinity Arms"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/way/1006213538",
+        "https://www.openstreetmap.org/way/1006213539"
+      ],
+      "distanceMeters": 9.3,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "paris",
+      "names": [
+        "The Cricketer",
+        "The Cricketer"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/815764595",
+        "https://www.openstreetmap.org/node/13340259868"
+      ],
+      "distanceMeters": 23.9,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "paris",
+      "names": [
+        "La Panthère Ose",
+        "La Panthère Ose"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/1812659246",
+        "https://www.openstreetmap.org/node/4038906093"
+      ],
+      "distanceMeters": 30.0,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "paris",
+      "names": [
+        "Le Mousk",
+        "Le Mousk"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/5353492574",
+        "https://www.openstreetmap.org/node/12459495701"
+      ],
+      "distanceMeters": 9.8,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "paris",
+      "names": [
+        "Annette K",
+        "Annette K"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/node/10201239984",
+        "https://www.openstreetmap.org/way/1392683807"
+      ],
+      "distanceMeters": 41.3,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "paris",
+      "names": [
+        "Rosa Bonheur sur Seine",
+        "Rosa Bonheur sur Seine"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/way/618752756",
+        "https://www.openstreetmap.org/way/1392687175"
+      ],
+      "distanceMeters": 28.2,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "paris",
+      "names": [
+        "Rosa Bonheur sur Seine",
+        "Rosa Bonheur sur Seine"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/way/618752756",
+        "https://www.openstreetmap.org/way/1392687178"
+      ],
+      "distanceMeters": 26.8,
+      "status": "review_required_not_automerged"
+    },
+    {
+      "city": "paris",
+      "names": [
+        "Rosa Bonheur sur Seine",
+        "Rosa Bonheur sur Seine"
+      ],
+      "sourceURLs": [
+        "https://www.openstreetmap.org/way/1392687175",
+        "https://www.openstreetmap.org/way/1392687178"
+      ],
+      "distanceMeters": 11.8,
+      "status": "review_required_not_automerged"
+    }
+  ],
+  "completeCityCoverage": false,
+  "operationFullyReviewed": false
+}

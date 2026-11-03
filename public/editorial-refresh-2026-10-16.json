@@ -1,0 +1,747 @@
+{
+  "refreshId": "daily-2026-10-16",
+  "checkedAt": "2026-10-16T05:12:00+00:00",
+  "baselineLiveVersion": 134,
+  "baselineDataVersion": 132,
+  "heldUnpublishedVersions": [
+    133,
+    135
+  ],
+  "cities": [
+    {
+      "cityId": "tbilisi",
+      "city": "Тбилиси",
+      "timezone": "Asia/Tbilisi",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "tbilisi",
+          "source": "TKT festivals",
+          "url": "https://tkt.ge/en/festival",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://tkt.ge/en/festival",
+          "body_bytes": 366650,
+          "title": "Festival Tickets Online | Upcoming Events | TKT.GE",
+          "year2026_present": false,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "TKT festival calendar returned a client-rendered shell. Indexed dated festival leads remain candidates; no cinema import or claim that old screenings were reverified.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 2629,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "belgrade",
+      "city": "Белград",
+      "timezone": "Europe/Belgrade",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "belgrade",
+          "source": "Resident Advisor city calendar",
+          "url": "https://ra.co/events/rs/belgrade?startDate=2026-10-16",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "status": "fetch_failed",
+          "error": "HTTP Error 403: Forbidden",
+          "newPublishedEvents": 0,
+          "webRetrievalStatus": "public_text_read",
+          "httpFailureDoesNotNegateWebEvidence": true
+        },
+        {
+          "city": "belgrade",
+          "source": "Juan Atkins cancellation",
+          "url": "https://ra.co/events/2533148",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "status": "fetch_failed",
+          "error": "HTTP Error 403: Forbidden",
+          "newPublishedEvents": 0,
+          "webRetrievalStatus": "public_text_read",
+          "httpFailureDoesNotNegateWebEvidence": true
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "RA event detail explicitly marks Juan Atkins on 16 October cancelled. Original venue detail now returns 404. Other RA calendar results remain discovery only.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 1,
+      "existingFeedCount": 566,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "moscow",
+      "city": "Москва",
+      "timezone": "Europe/Moscow",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [],
+      "reviewStatus": "selected_official_details_verified",
+      "notes": "Priority official cultural-programme review; separate detailed packet records new events, resolved candidates and venue exceptions.",
+      "newVerifiedEvents": 35,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 3653,
+      "fullThirtyDayCoverageVerified": false,
+      "resolvedPriorCandidates": 1,
+      "venueClarifications": 1,
+      "sourceCoverage": {
+        "official": [
+          "GES-2 seven-day calendar, visitor page, 11 programme detail pages",
+          "Bulgakov Museum event index, October calendar, four tour details",
+          "Jewish Museum events pages 1–3 and 10 detail pages",
+          "Museum of Moscow homepage and four blocked detail requests"
+        ],
+        "social": [
+          "Official GES-2 Telegram https://t.me/s/vacges2 read successfully; corroborates White Cane Day programme and links official detail",
+          "Reddit public search: no useful verified Moscow cultural listings found",
+          "Instagram and Threads public searches: no usable event evidence returned"
+        ],
+        "blockers": [
+          "Museum of Moscow event detail pages returned 403",
+          "Bulgakov future day URLs for 20–21 October returned cache miss",
+          "Yandex map linked by GES-2 returned 429; coordinates left null rather than newly claiming verification",
+          "Jewish Museum English club index/detail date disagreement; held",
+          "No logins, CAPTCHA, contact, purchases or browser used"
+        ],
+        "limits": "Selective current cultural refresh; not exhaustive city coverage. No events fabricated to fill 21 October. Future voice/choir sessions expand explicit official weekly recurrences. No ends inferred from duration. Ticket/registration capacity not checked. No held 144-event batch imported. GES-2 and Jewish Museum coordinates reuse exact existing venue-site pins, with original coordinate-source evidence copied. Bulgakov point comes from the official map link."
+      }
+    },
+    {
+      "cityId": "palo-alto",
+      "city": "Пало-Альто",
+      "timezone": "America/Los_Angeles",
+      "localStartDate": "2026-10-15",
+      "sevenLocalDatesEnd": "2026-10-21",
+      "thirtyLocalDatesEnd": "2026-11-13",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [],
+      "reviewStatus": "selected_official_details_verified",
+      "notes": "Priority official Stanford API, library and municipal-calendar review; separate detailed packet records new events, cancellations and waitlists.",
+      "newVerifiedEvents": 16,
+      "newPublishedEvents": 0,
+      "existingCorrections": 6,
+      "existingFeedCount": 624,
+      "fullThirtyDayCoverageVerified": false,
+      "knownRestrictedCandidatesKeptHeld": 8,
+      "sourceCoverage": [
+        {
+          "name": "Stanford Events Calendar",
+          "urls": [
+            "https://events.stanford.edu/api/2/events?start=2026-10-16&end=2026-11-15&pp=100&page=1",
+            "https://events.stanford.edu/api/2/events?start=2026-10-16&end=2026-11-15&pp=100&page=2",
+            "https://events.stanford.edu/api/2/events?start=2026-10-16&end=2026-11-15&pp=100&page=3",
+            "https://events.stanford.edu/api/2/events?start=2026-10-16&end=2026-11-15&pp=100&page=4",
+            "https://events.stanford.edu/api/2/events?start=2026-10-16&end=2026-11-15&pp=100&page=5",
+            "https://events.stanford.edu/api/2/events?start=2026-10-16&end=2026-11-15&pp=100&page=6",
+            "https://events.stanford.edu/api/2/events?start=2026-10-16&end=2026-11-15&pp=100&page=7",
+            "https://events.stanford.edu/api/2/events?start=2026-10-16&end=2026-11-15&pp=100&page=8",
+            "https://events.stanford.edu/api/2/events?start=2026-10-16&end=2026-11-15&pp=100&page=9",
+            "https://events.stanford.edu/api/2/events?start=2026-10-16&end=2026-11-15&pp=100&page=10"
+          ],
+          "status": "fresh_http_api_read",
+          "rawOccurrences": 947,
+          "uniqueEvents": 518,
+          "scope": "October 16–November 14; calendar pages spot-checked; all ten API pages fetched. Curated new public and explicitly restricted candidates selected. API audiences can be broader than textual access rules."
+        },
+        {
+          "name": "Palo Alto City Library",
+          "urls": [
+            "https://paloalto.bibliocommons.com/v2/events?page=1",
+            "https://paloalto.bibliocommons.com/v2/events?page=2",
+            "https://paloalto.bibliocommons.com/v2/events?page=3",
+            "https://paloalto.bibliocommons.com/v2/events?page=4",
+            "https://paloalto.bibliocommons.com/v2/events?page=5",
+            "https://paloalto.bibliocommons.com/v2/events?page=6",
+            "https://paloalto.bibliocommons.com/v2/events?page=7"
+          ],
+          "status": "fresh_http_html_and_embedded_state_read",
+          "rawOccurrences": 140,
+          "scope": "Seven pages through November 18; corrections and additions filtered through November 14. Date-range Practice Your Vote exhibits not expanded to invented daily occurrences. Canceled, online and branch-closure notices excluded."
+        },
+        {
+          "name": "City of Palo Alto",
+          "urls": [
+            "https://www.paloalto.gov/Events-Directory/Community-Services/Magical-Tennis",
+            "https://www.paloalto.gov/Events-Directory/Community-Services/THINKFUND-The-Art-of-Zines-Workshop"
+          ],
+          "status": "fresh_http_detail_read",
+          "scope": "Two organizer detail pages plus municipal directory checked; four explicitly listed tennis dates and one Zines date new."
+        },
+        {
+          "name": "UUCPA",
+          "url": "https://www.uucpa.org/whats-happening/events/calendar-detail/",
+          "status": "fresh_http_calendar_read",
+          "scope": "Eight explicit local organizer occurrences; no recurrence extrapolation. Price unknown; no coordinates fabricated."
+        },
+        {
+          "name": "Funcheap Peninsula",
+          "url": "https://sf.funcheap.com/region/peninsula/",
+          "status": "fresh_web_read",
+          "scope": "Existing Baylands and MOAH activities reverified; no new eligible Palo Alto occurrence from this overview."
+        }
+      ]
+    },
+    {
+      "cityId": "paris",
+      "city": "Париж",
+      "timezone": "Europe/Paris",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "paris",
+          "source": "Officiel calendar Oct16",
+          "url": "https://www.offi.fr/concerts/jour-16-10-2026.html?npage=2",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://www.offi.fr/concerts/jour-16-10-2026.html?npage=2",
+          "body_bytes": 115756,
+          "title": "Page 2 - Concerts du  16 octobre 2026 à Paris – L’Officiel des spectacles\n\n",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "Dated Officiel concert calendar for 16 October read. Individual event details, full 30-day programme and map pins were not reverified in this breadth pass.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 1506,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "london",
+      "city": "Лондон",
+      "timezone": "Europe/London",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "london",
+          "source": "IanVisits dated calendar",
+          "url": "https://www.ianvisits.co.uk/calendar/date/2026/10/16/",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://www.ianvisits.co.uk/calendar/date/2026/10/16/",
+          "body_bytes": 165321,
+          "title": "What’s on in London on Friday 16th October 2026 – calendar",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "IanVisits dated 16 October calendar read. This is a selected discovery-calendar review, not a fresh verification of every existing record or all 30 dates.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 180,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "flensburg",
+      "city": "Фленсбург",
+      "timezone": "Europe/Berlin",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "flensburg",
+          "source": "Official venue calendar",
+          "url": "https://www.events-flensburg.de/",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://www.events-flensburg.de/",
+          "body_bytes": 306796,
+          "title": "Eventkalender || Veranstaltungs-Zentrum Flensburg",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "Official venue programme read into November. Lars Ruth and Die Reimanns are postponed and already absent from the live event feed. Robert Marc Lehmann remains sold out as already recorded.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 208,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "yerevan",
+      "city": "Ереван",
+      "timezone": "Asia/Yerevan",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "yerevan",
+          "source": "Official city visitor calendar",
+          "url": "https://www.visityerevan.am/browse/events/en/",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://www.visityerevan.am/browse/events/en/",
+          "body_bytes": 74567,
+          "title": "\n        Visit Yerevan\n        \n    ",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        },
+        {
+          "city": "yerevan",
+          "source": "Eventix October calendar",
+          "url": "https://eventix.am/en/months/2026-10",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://eventix.am/en/months/2026-10",
+          "body_bytes": 758393,
+          "title": "Events in Yerevan October 2026 — Concerts, Festivals & Things to Do",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "Official visitor calendar and Eventix October catalogue read. Eventix structured timestamps use Z while matching visible local clock times; ambiguous time-zone and date-range records remain candidates.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 83,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "vienna",
+      "city": "Вена",
+      "timezone": "Europe/Vienna",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "vienna",
+          "source": "eSeL dated culture calendar",
+          "url": "https://www.esel.at/en/day/2026-10-16",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://www.esel.at/en/day/2026-10-16",
+          "body_bytes": 263416,
+          "title": "\nTermine am  16. Oktober 2026\n       – Terminkalender | eSeL.at \n    ",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "eSeL dated 16 October cultural calendar read. No individual new item passed complete date, venue, map-point and duplicate verification in this breadth pass.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 198,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "saint-petersburg",
+      "city": "Санкт-Петербург",
+      "timezone": "Europe/Moscow",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "saint-petersburg",
+          "source": "Philharmonia official programme",
+          "url": "https://www.philharmonia.spb.ru/afisha/grand/pc/",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://www.philharmonia.spb.ru/afisha/grand/pc/",
+          "body_bytes": 74300,
+          "title": "����� - �����-������������� ������������� ���������� ����� �.�. �����������",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "Official Philharmonia calendar read. The returned page includes earlier October concerts; full 30-day detail traversal was not completed and prior event check dates are preserved.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 457,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "new-york",
+      "city": "Нью-Йорк",
+      "timezone": "America/New_York",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "new-york",
+          "source": "White Rabbit Books official events",
+          "url": "https://whiterabbitsbooks.com/events/",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://whiterabbitsbooks.com/events/",
+          "body_bytes": 221508,
+          "title": "Events from October 15 – October 29 – White Rabbit books",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "White Rabbit Books public programme read, including 17, 18 and 19 October. Existing and held programme records remain separate; no held v133 additions were released.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 84,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "berlin",
+      "city": "Берлин",
+      "timezone": "Europe/Berlin",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "berlin",
+          "source": "Rausgegangen public calendar",
+          "url": "https://rausgegangen.de/en/berlin/",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "status": "fetch_failed",
+          "error": "HTTP Error 403: Forbidden",
+          "newPublishedEvents": 0,
+          "webRetrievalStatus": "public_text_read",
+          "httpFailureDoesNotNegateWebEvidence": true
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "Rausgegangen calendar read through web retrieval; direct HTTP returned 403. Returned page labels 15 October as today, so explicit dated detail verification is required before new imports.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 75,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "batumi",
+      "city": "Батуми",
+      "timezone": "Asia/Tbilisi",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "batumi",
+          "source": "InfoBatumi events",
+          "url": "https://www.infobatumi.ge/ru/events/?lang=ru&sort_by=",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://www.infobatumi.ge/ru/events/?lang=ru&sort_by=",
+          "body_bytes": 1256951,
+          "title": "Мероприятия в Батуми, Афиша",
+          "year2026_present": false,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "InfoBatumi calendar read. Some visible day labels conflict with description dates (including 7/17 October and September/October labels); those entries remain candidates.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 37,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "limassol",
+      "city": "Лимасол",
+      "timezone": "Asia/Nicosia",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "limassol",
+          "source": "WGO calendar",
+          "url": "https://wgolimassol.com/en/calendar?month=2026-10",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://wgolimassol.com/en/calendar?month=2026-10",
+          "body_bytes": 516728,
+          "title": "Limassol events this weekend & calendar | WGO Limassol",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "WGO October calendar read with official-source links and dated festival/family listings. Organizer detail confirmation is still required for new imports; previous records were not all reverified.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 44,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "antalya",
+      "city": "Анталья",
+      "timezone": "Europe/Istanbul",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "antalya",
+          "source": "Bubilet city tickets",
+          "url": "https://www.bubilet.com.tr/antalya",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://www.bubilet.com.tr/antalya",
+          "body_bytes": 825620,
+          "title": "Antalya Etkinlik Biletleri - Konser, Tiyatro, Festival | Bubilet",
+          "year2026_present": false,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "Bubilet calendar read. Listed local clocks and venues are visible, but calendar text omits the year; event detail confirmation is required. Out-of-city Alanya entries are not silently treated as Antalya.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 91,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "almaty",
+      "city": "Алматы",
+      "timezone": "Asia/Almaty",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "almaty",
+          "source": "Sxodim city calendar",
+          "url": "https://sxodim.com/almaty",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://sxodim.com/almaty",
+          "body_bytes": 482381,
+          "title": "    Афиша Алматы\n | Давай Сходим!",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "Sxodim public city calendar read. Discovery results require dated detail verification and deduplication; held v133 additions remain unreleased.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 45,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "istanbul",
+      "city": "Стамбул",
+      "timezone": "Europe/Istanbul",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "istanbul",
+          "source": "Bubilet city tickets",
+          "url": "https://www.bubilet.com.tr/istanbul",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://www.bubilet.com.tr/istanbul",
+          "body_bytes": 890729,
+          "title": "İstanbul Etkinlik Biletleri - Konser, Tiyatro, Festival | Bubilet",
+          "year2026_present": false,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "Bubilet public city calendar read. Multi-date and multi-venue listings require individual occurrence verification; held v133 additions remain unreleased.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 245,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "dubai",
+      "city": "Дубай",
+      "timezone": "Asia/Dubai",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "dubai",
+          "source": "Dubai Opera official programme",
+          "url": "https://www.dubaiopera.com/en/events",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://www.dubaiopera.com/en/events",
+          "body_bytes": 572585,
+          "title": "Events & Shows | Dubai Opera",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "Dubai Opera official programme explicitly lists October–November 2026 dates and advertised starting prices. Session-level time/availability and prior/held-record checks are required before any new import.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 47,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "tel-aviv",
+      "city": "Тель-Авив",
+      "timezone": "Asia/Jerusalem",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "tel-aviv",
+          "source": "Anshlag city calendar",
+          "url": "https://anshlag.co.il/city/tel-aviv/",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "http_status": 200,
+          "final_url": "https://anshlag.co.il/city/tel-aviv/",
+          "body_bytes": 185662,
+          "title": "Афиша Тель‑Авива 2026 — концерты, спектакли и мероприятия",
+          "year2026_present": true,
+          "status": "read_public_calendar",
+          "newPublishedEvents": 0
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "Anshlag public calendar read. Tour date ranges are not individual Tel Aviv sessions; programme/performer text conflicts and exact venue times require detail confirmation.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 90,
+      "fullThirtyDayCoverageVerified": false
+    },
+    {
+      "cityId": "prague",
+      "city": "Прага",
+      "timezone": "Europe/Prague",
+      "localStartDate": "2026-10-16",
+      "sevenLocalDatesEnd": "2026-10-22",
+      "thirtyLocalDatesEnd": "2026-11-14",
+      "checkedAt": "2026-10-16T05:12:00+00:00",
+      "sources": [
+        {
+          "city": "prague",
+          "source": "Official city event calendar",
+          "url": "https://prague.eu/en/akce-kategorie/events/",
+          "checkedAt": "2026-10-16T05:12:00Z",
+          "scope": "A fresh public calendar read, not a full 30-day detail verification.",
+          "status": "fetch_failed",
+          "error": "HTTP Error 502: Bad Gateway",
+          "newPublishedEvents": 0,
+          "webRetrievalStatus": "public_text_read",
+          "httpFailureDoesNotNegateWebEvidence": true
+        }
+      ],
+      "reviewStatus": "selected_calendar_read",
+      "notes": "Prague City Tourism event calendar read via web retrieval; direct HTTP returned 502. Broad calendar listing alone does not establish all 30 dates or new verified sessions.",
+      "newVerifiedEvents": 0,
+      "newPublishedEvents": 0,
+      "existingCorrections": 0,
+      "existingFeedCount": 384,
+      "fullThirtyDayCoverageVerified": false
+    }
+  ],
+  "limitations": [
+    "Selected calendars were read for all 20 cities; complete detail verification of every local date is not claimed.",
+    "Only priority-city detailed research and specific source-backed corrections are eligible for this release.",
+    "No private social access, account creation, CAPTCHA or login was used.",
+    "Previously known events/places are not counted as new discoveries or freshly reverified."
+  ],
+  "publicationStatus": "verified_release_content",
+  "publicSocialDiscovery": {
+    "checkedAt": "2026-10-16T05:15:00Z",
+    "method": "Search-index discovery of publicly accessible Telegram, Reddit, Instagram and Threads; no login.",
+    "telegram": [
+      "https://t.me/s/afisha_rs",
+      "https://t.me/s/novostiserbii?q=%23%D0%91%D0%B5%D0%BB%D0%B3%D1%80%D0%B0%D0%B4",
+      "https://t.me/s/tbilisipeople?before=38266"
+    ],
+    "reddit": [
+      "https://www.reddit.com/r/LondonSocialClub/comments/1wujied/monthly_anything_goes_thread_things_that_are_not/"
+    ],
+    "outcome": "Discovery only; expired, unclear venue or insufficient primary confirmation leads were not published. Not an exhaustive social-source pass across all cities."
+  },
+  "newVerifiedAdditions": 51,
+  "resolvedPriorCandidates": 1,
+  "existingEventCorrections": 7,
+  "venueClarifications": 1
+}

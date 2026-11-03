@@ -1,0 +1,1955 @@
+{
+  "schemaVersion": "Helsinki-like-v1",
+  "city": "Podgorica",
+  "capitalId": "CAP040",
+  "compiledAt": "2026-10-28T12:09:44.408118+00:00",
+  "publicationStatus": "candidate_not_published",
+  "timeZone": "Europe/Podgorica",
+  "horizon": {
+    "from": "2026-10-28",
+    "to": "2026-11-26"
+  },
+  "sources": [
+    {
+      "id": "source-1",
+      "url": "https://podgorica.travel/calendar-event/harry-potter-kviz-4-novembra-u-restoran-baru-desetka%F0%9F%A7%99%E2%99%82%EF%B8%8F%F0%9F%AA%84%F0%9F%8F%B0/",
+      "title": "HARRY POTTER KVIZ 4.novembra u restoran-baru ,,Desetka”🧙‍♂️❓🪄🧠🏰🧐🏆 – Turistička organizacija Podgorica",
+      "checkedAt": "2026-10-28T12:02:47.525909+00:00",
+      "status": 200,
+      "path": "capitals-wave4/podgorica/raw/source-1.html",
+      "sha256": "10b9e17bcfa3d46fa233dffdce85cbab9c738f310d3fb20fe1ccba3a5a1fec54",
+      "sourceFetchedAt": "2026-10-28T12:02:47.525909+00:00",
+      "checkMethod": "Successful full HTML read and local evidence review",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "source-2",
+      "url": "https://kic.podgorica.me/novosti/298/program-za-oktobar",
+      "title": "KIC Budo Tomović",
+      "checkedAt": "2026-10-28T12:02:47.526534+00:00",
+      "status": 200,
+      "path": "capitals-wave4/podgorica/raw/source-2.html",
+      "sha256": "ca472706d09dbf96cc9d552874d199c5c4a02fd94fb3576b02f5df1afd0ebe39",
+      "sourceFetchedAt": "2026-10-28T12:02:47.526534+00:00",
+      "checkMethod": "Successful full HTML read and local evidence review",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "source-3",
+      "url": "https://podgorica.travel/calendar-event/sax-beats-igor-stefanovski%F0%9F%8E%B7-dj-ilyas%F0%9F%8E%A730-oktobra-u-hotelu-hemera%F0%9F%8E%B7%F0%9F%8E%A7%F0%9F%8E%B6/",
+      "title": "SAX & BEATS: Igor Stefanovski🎷& DJ Ilyas🎧30.oktobra u hotelu ,,Hemera”🎷🎧🎶 – Turistička organizacija Podgorica",
+      "checkedAt": "2026-10-28T12:02:47.526948+00:00",
+      "status": 200,
+      "path": "capitals-wave4/podgorica/raw/source-3.html",
+      "sha256": "ae642e61f7517d385d5963159d6fd2ef6a90d90bda5b745e44432ffe230b948c",
+      "sourceFetchedAt": "2026-10-28T12:02:47.526948+00:00",
+      "checkMethod": "Successful full HTML read and local evidence review",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "source-4",
+      "url": "https://kic.podgorica.me/novosti/303/manifestacija-kamernih-dramskih-ostvarenja-xi-makado-2-8-11",
+      "title": "KIC Budo Tomović",
+      "checkedAt": "2026-10-28T12:02:53.228823+00:00",
+      "status": 200,
+      "path": "capitals-wave4/podgorica/raw/source-4.html",
+      "sha256": "c1c26bab855795232514e404be1abe4295946f6c0c853c2272c5e793397c3aff",
+      "sourceFetchedAt": "2026-10-28T12:02:53.228823+00:00",
+      "checkMethod": "Successful full HTML read and local evidence review",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "source-5",
+      "url": "https://kic.podgorica.me/novosti/302/svecano-otvaranje-xi-medunarodnog-festivala-dani-gitare-u-podgorici",
+      "title": "KIC Budo Tomović",
+      "checkedAt": "2026-10-28T12:02:53.329874+00:00",
+      "status": 200,
+      "path": "capitals-wave4/podgorica/raw/source-5.html",
+      "sha256": "60918b542297da7da9bd41b76faad3faedf0ac5e81cb7985e44f22c659f82673",
+      "sourceFetchedAt": "2026-10-28T12:02:53.329874+00:00",
+      "checkMethod": "Successful full HTML read and local evidence review",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "source-6",
+      "url": "https://cnp.me/praizvedba-crnojevica-za-pocetak-73-pozorisne-sezone/",
+      "title": "Praizvedba „Crnojevića“ za početak 73. pozorišne sezone - CNP",
+      "error": "HTTP Error 406: Not Acceptable",
+      "sourceFetchedAt": null,
+      "failedArchiveAt": "2026-10-28T12:02:53.371009+00:00",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; not a new source fetch",
+      "evidencePath": "backup/pg_read_batch5.json",
+      "readStatus": "full_body_read",
+      "sha256": "62d9af406e832c5fe948c4d0eb502413a64bd23755e4bb6403e82602b39b6cba",
+      "hashScope": "Retained evidence document, not origin HTML"
+    },
+    {
+      "id": "source-7",
+      "url": "https://podgorica.travel/calendar-event/vr-turnir-u-podgorici-halloween-edition%F0%9F%95%B8%EF%B8%8F%F0%9F%91%BE%F0%9F%8E%AE%F0%9F%8E%83%F0%9F%8F%86/",
+      "title": "VR TURNIR U PODGORICI👾🎮🏆HALLOWEEN EDITION 29.oktobra u VR Areni🎃👾🕸️🎮👻🏆 – Turistička organizacija Podgorica",
+      "checkedAt": "2026-10-28T12:02:56.470235+00:00",
+      "status": 200,
+      "path": "capitals-wave4/podgorica/raw/source-7.html",
+      "sha256": "478b92fbeaec084c06d3daedd6873cd6e71f70f2a2f0967c8738c32d8a411a52",
+      "sourceFetchedAt": "2026-10-28T12:02:56.470235+00:00",
+      "checkMethod": "Successful full HTML read and local evidence review",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "source-8",
+      "url": "https://podgorica.travel/calendar-event/radionice-i-snazna-i-vazna-lidije-ivanovic-i-adrijane-husic-u-novembru-i-decembru-u-ckz-ribnica%F0%9F%8E%99%EF%B8%8F%F0%9F%91%A9%F0%9F%A6%B0%E2%99%80%EF%B8%8F%F0%9F%92%AC-3/",
+      "title": "Radionice „I SNAŽNA I VAŽNA” Lidije Ivanović i Adrijane Husić u novembru i decembru u CKZ ,,Ribnica”🎙️👩‍🦰♀️💬✨ – Turistička organizacija Podgorica",
+      "checkedAt": "2026-10-28T12:02:57.500465+00:00",
+      "status": 200,
+      "path": "capitals-wave4/podgorica/raw/source-8.html",
+      "sha256": "49504e66f62453fe579c3b23e7df140a8f806c1ce92dd979c2c6d8fbd746eaed",
+      "sourceFetchedAt": "2026-10-28T12:02:57.500465+00:00",
+      "checkMethod": "Successful full HTML read and local evidence review",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "source-9",
+      "url": "https://msucg.me/izlozbe/u-muzeju-savremene-umjetnosti-crne-gore-otvorena-izlozba-miroslawa-balke/",
+      "title": "https://msucg.me/izlozbe/u-muzeju-savremene-umjetnosti-crne-gore-otvorena-izlozba-miroslawa-balke/",
+      "checkedAt": "2026-10-28T12:02:57.731902+00:00",
+      "status": 200,
+      "path": "capitals-wave4/podgorica/raw/source-9.html",
+      "sha256": "c7f683bad86fe9cf3b43ae5be4eb974a9bc30d045703fa3bdad61c801e40a1b8",
+      "sourceFetchedAt": "2026-10-28T12:02:57.731902+00:00",
+      "checkMethod": "Successful full HTML read and local evidence review",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "source-10",
+      "url": "https://msucg.me/izlozbe/u-galeriji-msucg-otvorena-izlozba-kolektiva-irwin-drzava-kao-skola-veceras-nastavak-programa/",
+      "title": "https://msucg.me/izlozbe/u-galeriji-msucg-otvorena-izlozba-kolektiva-irwin-drzava-kao-skola-veceras-nastavak-programa/",
+      "checkedAt": "2026-10-28T12:03:00.073714+00:00",
+      "status": 200,
+      "path": "capitals-wave4/podgorica/raw/source-10.html",
+      "sha256": "5119f1986ed47bc3265f27cb9140d47c04fc7a6f6d1b9513c6c187e3c009dac5",
+      "sourceFetchedAt": "2026-10-28T12:03:00.073714+00:00",
+      "checkMethod": "Successful full HTML read and local evidence review",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "source-11",
+      "url": "https://msucg.me/cjenovnik-muzeja-savremene-umjetnosti-crne-gore/",
+      "title": "https://msucg.me/cjenovnik-muzeja-savremene-umjetnosti-crne-gore/",
+      "checkedAt": "2026-10-28T12:03:00.082397+00:00",
+      "status": 200,
+      "path": "capitals-wave4/podgorica/raw/source-11.html",
+      "sha256": "515ef808071d27d92e24cbd052e6150b7c2abfd37b74666965c45ebbf3d7de44",
+      "sourceFetchedAt": "2026-10-28T12:03:00.082397+00:00",
+      "checkMethod": "Successful full HTML read and local evidence review",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "source-12",
+      "url": "https://msucg.me/events/irwin-eda-cufer-zdenka-badovinec-inke-arns-i-mihnea-mircan/",
+      "title": "https://msucg.me/events/irwin-eda-cufer-zdenka-badovinec-inke-arns-i-mihnea-mircan/",
+      "checkedAt": "2026-10-28T12:03:09.427982+00:00",
+      "status": 200,
+      "path": "capitals-wave4/podgorica/raw/source-12.html",
+      "sha256": "11e21f31232a94d055053edd8fbc87dc40ed660444478e70e7ddde51c96a8894",
+      "sourceFetchedAt": "2026-10-28T12:03:09.427982+00:00",
+      "checkMethod": "Successful full HTML read and local evidence review",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "kic-contact",
+      "url": "https://kic.podgorica.me/kontakt",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; original exact request timestamp not retained",
+      "note": "Own address and ticket office, not public programme opening hours",
+      "evidencePath": "raw/kic-contact.html",
+      "sha256": "8e3df09fa1c01a8280c1a2e30690d4be00f90295d0a2fe7430f6acf9213306d0",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "kic-pin",
+      "url": "https://www.openstreetmap.org/api/0.6/node/313123693.json",
+      "checkedAt": "2026-10-28T12:08:22.381163+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:08:22.381163+00:00",
+      "checkMethod": "Launcher successful full OSM API named-node read and review; same underlying geometry as Mapcarta",
+      "note": "Full named OSM arts-centre node313123693, building point not hall entrance",
+      "evidencePath": "raw/launcher-kic-osm.json",
+      "sha256": "1c4586a74432209797bc3c503de05ca40da707516cbc678818b99ed254f7bac4",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "cnp-contact",
+      "url": "https://cnp.me/kontakt-2/",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; original exact request timestamp not retained",
+      "note": "Full own contact: Stanka Dragojevica18",
+      "evidencePath": "audit/auxiliary-retained-evidence.json",
+      "readStatus": "full_body_read",
+      "sha256": "f5d45a166ba6c5c80880b95118d571e839788dc4ec21f05257e0937e7d64b423",
+      "hashScope": "Retained evidence document, not origin HTML"
+    },
+    {
+      "id": "cnp-pin",
+      "url": "https://mapcarta.com/W28131161",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; original exact request timestamp not retained",
+      "note": "Full named theatre way28131161",
+      "evidencePath": "backup/pg_read_batch7.json",
+      "sha256": "08c88e8897bcbeb10242ecf5185e2821773b6e77a22dddb24d401559d6e18f63",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "hemera-pin",
+      "url": "https://mapcarta.com/N4447847750",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; original exact request timestamp not retained",
+      "note": "Full named hotel node4447847750",
+      "evidencePath": "backup/pg_read_batch6.json",
+      "sha256": "758f098b7505723af0e0227c1582243a68ffdf46a77d943975d28d93f70374cc",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "vr-contact",
+      "url": "https://vrarena.me/contact-us/",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; original exact request timestamp not retained",
+      "note": "Full web own contact includes explicit coordinate query42.45044N19.25822E; target map cachemiss; later own archivalGET403 stopped",
+      "evidencePath": "backup/pg_read_batch6.json",
+      "sha256": "758f098b7505723af0e0227c1582243a68ffdf46a77d943975d28d93f70374cc",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "kokotov-pin",
+      "url": "https://mapcarta.com/N13058577601",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; original exact request timestamp not retained",
+      "note": "Full named bar+address42 node13058577601",
+      "evidencePath": "backup/pg_pin_batch.json",
+      "sha256": "c208f82a02b66ea5c922c98a1fa47b97b9d2df12399939c7b19ae0ec030c4a4f",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "kokotov-event",
+      "url": "https://podgorica.travel/calendar-event/cock-games-28-oktobra-u-kokotovom-rep-u%F0%9F%91%BB/",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; original exact request timestamp not retained",
+      "note": "Full dated event announcement",
+      "evidencePath": "backup/pg_read_batch3.json",
+      "sha256": "5d1220807584ddb958567cef7121670677246cdab27132fd146c2d9c5abd670d",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "desetka-pin",
+      "url": "https://montegigs.me/events/venue/399-desetka",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; original exact request timestamp not retained",
+      "note": "Full named venue, campus address and own link query42.4430124,19.2405941,placeIDChIJAQAAAEDrTRMRRqxewEydqhg; mapcachemiss and ownsite timeout stopped",
+      "evidencePath": "backup/pg_pin_batch.json",
+      "sha256": "c208f82a02b66ea5c922c98a1fa47b97b9d2df12399939c7b19ae0ec030c4a4f",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "zoo-event",
+      "url": "https://podgorica.travel/calendar-event/radionica-arhitekture-i-maketarstva-zoo-maketa-1-novembra-u-prihvatilistu-za-zivotinje-%F0%9F%8F%A1%F0%9F%90%BE/",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; original exact request timestamp not retained",
+      "note": "Full dated announcement with explicit prose11–14",
+      "evidencePath": "backup/pg_read_batch7.json",
+      "sha256": "08c88e8897bcbeb10242ecf5185e2821773b6e77a22dddb24d401559d6e18f63",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "zoo-address",
+      "url": "https://podgorica.travel/calendar-event/humanitarna-slikarska-kolonija-bojama-za-zivotinje-svakog-petka-u-junu-u-ambijentu-prihvatilista-i-oporavka-zivotinja%F0%9F%90%BE%F0%9F%96%8C%EF%B8%8F%F0%9F%90%BE%F0%9F%8E%A8/",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; original exact request timestamp not retained",
+      "note": "Older programme used ONLY to corroborate named venue Blizna, NOT June admission or event schedule",
+      "evidencePath": "backup/pg_zoo_address.json",
+      "sha256": "ddd9e20986e9247801b9026fdc60f9cdfc6438421ae31bee7b9c548fd7a5bbed",
+      "readStatus": "full_body_read"
+    },
+    {
+      "id": "zoo-pin",
+      "url": "https://montenegro.worldplaces.me/view-place/53561816-prihvatiliste-i-oporavak-zivotinja-crna-gora.html",
+      "checkedAt": "2026-10-28T12:06:53.567639+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:06:53.567639+00:00",
+      "checkMethod": "Local review of retained successful full-web response; original exact request timestamp not retained",
+      "note": "Full named sanctuary coordinates+matching phone; approximate grounds; outlying Blizna not city-centre",
+      "evidencePath": "audit/auxiliary-retained-evidence.json",
+      "readStatus": "full_body_read",
+      "sha256": "f5d45a166ba6c5c80880b95118d571e839788dc4ec21f05257e0937e7d64b423",
+      "hashScope": "Retained evidence document, not origin HTML"
+    },
+    {
+      "id": "late-idem-putem",
+      "url": "https://podgorica.travel/calendar-event/predstava-idem-putem-pa-zagrlim-drvo-16-novembra-u-kic-u-budo-tomovic%f0%9f%8e%ad/",
+      "readStatus": "full_body_read",
+      "sourceReadWindow": "2026-10-28T12:14:09Z/2026-10-28T12:14:22Z",
+      "checkedAt": "2026-10-28T12:16:15.324038+00:00",
+      "evidenceReviewedAt": "2026-10-28T12:16:15.324038+00:00",
+      "sourceFetchedAt": null,
+      "checkMethod": "Local review of retained full web result, not a new fetch",
+      "path": "capitals-wave4/podgorica/backup/late-read1.json"
+    },
+    {
+      "id": "late-vranjkovic",
+      "url": "https://podgorica.travel/calendar-event/koncerti-nikole-vranjkovic-18-19-oktobra-u-kic-u-budo-tomovic%f0%9f%8e%b8%f0%9f%8e%b6/",
+      "readStatus": "full_body_read",
+      "sourceReadWindow": "2026-10-28T12:14:09Z/2026-10-28T12:14:22Z",
+      "checkedAt": "2026-10-28T12:16:15.324038+00:00",
+      "evidenceReviewedAt": "2026-10-28T12:16:15.324038+00:00",
+      "sourceFetchedAt": null,
+      "checkMethod": "Local review of retained full web result, not a new fetch",
+      "path": "capitals-wave4/podgorica/backup/late-read1.json"
+    },
+    {
+      "id": "late-poezija-zivota",
+      "url": "https://podgorica.travel/calendar-event/premijera-u-kic-u-u-novoj-sezoni-poezija-i-pjesma-zivota-marka-milosevica-benda-22-novembra-%f0%9f%93%9a%f0%9f%8e%a4%f0%9f%8e%b6%e2%9c%a8/",
+      "readStatus": "full_body_read",
+      "sourceReadWindow": "2026-10-28T12:14:09Z/2026-10-28T12:14:22Z",
+      "checkedAt": "2026-10-28T12:16:15.324038+00:00",
+      "evidenceReviewedAt": "2026-10-28T12:16:15.324038+00:00",
+      "sourceFetchedAt": null,
+      "checkMethod": "Local review of retained full web result, not a new fetch",
+      "path": "capitals-wave4/podgorica/backup/late-read1.json"
+    },
+    {
+      "id": "expo-ticket",
+      "url": "https://montenegromadeexpo.me/wp-content/uploads/2026/10/MME_E-Ticket.pdf",
+      "checkedAt": "2026-10-28T12:16:57.380622+00:00",
+      "sourceFetchedAt": "2026-10-28T12:16:57.380622+00:00",
+      "sha256": "6c6cf02f502e007eb2b52130710ec5b3613a24ad597ccccae2a00277ac8a3969",
+      "path": "capitals-wave4/podgorica/raw/expo-ticket.pdf",
+      "readStatus": "full_pdf_visually_read"
+    },
+    {
+      "id": "expo-admission",
+      "url": "https://montenegromadeexpo.me/",
+      "checkedAt": "2026-10-28T12:19:40.899011+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:19:40.899011+00:00",
+      "checkMethod": "Local retained full-web-result review; not new fetch",
+      "path": "capitals-wave4/podgorica/backup/pg_late_read4.json"
+    },
+    {
+      "id": "bemax-pin",
+      "url": "https://www.openstreetmap.org/api/0.6/node/7466068382.json",
+      "checkedAt": "2026-10-28T12:18:53.397554+00:00",
+      "sourceFetchedAt": null,
+      "evidenceReviewedAt": "2026-10-28T12:18:53.397554+00:00",
+      "path": "capitals-wave4/podgorica/bemax-pin-review.json",
+      "checkMethod": "Full named OSM node originally observed on full Mapcarta; underlying geometry is same source, not independent second point"
+    }
+  ],
+  "venues": [
+    {
+      "id": "kic",
+      "name": "KIC Budo Tomović",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null
+    },
+    {
+      "id": "cnp",
+      "name": "Crnogorsko narodno pozorište",
+      "address": "Stanka Dragojevića 18, 81000 Podgorica",
+      "addressSourceId": "cnp-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.44191,
+        "longitude": 19.26073,
+        "sourceId": "cnp-pin",
+        "precision": "named building / approximate venue point; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": null
+    },
+    {
+      "id": "hemera",
+      "name": "Hotel Hemera",
+      "address": "Njegoševa 17, Podgorica",
+      "addressSourceId": "source-3",
+      "verifiedCoordinates": {
+        "latitude": 42.44225,
+        "longitude": 19.26193,
+        "sourceId": "hemera-pin",
+        "precision": "named building / approximate venue point; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": null
+    },
+    {
+      "id": "vr",
+      "name": "VR Arena",
+      "address": "Vladike Danila 24, Podgorica",
+      "addressSourceId": "vr-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.45044,
+        "longitude": 19.25822,
+        "sourceId": "vr-contact",
+        "precision": "named building / approximate venue point; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": null
+    },
+    {
+      "id": "kokotov",
+      "name": "Kokotov rep",
+      "address": "Stanka Dragojevića 42, Podgorica",
+      "addressSourceId": "kokotov-event",
+      "verifiedCoordinates": {
+        "latitude": 42.44353,
+        "longitude": 19.26115,
+        "sourceId": "kokotov-pin",
+        "precision": "named building / approximate venue point; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": null
+    },
+    {
+      "id": "desetka",
+      "name": "Restoran-bar Desetka",
+      "address": "University of Montenegro, Technical Faculties campus, Podgorica",
+      "addressSourceId": "source-1",
+      "verifiedCoordinates": {
+        "latitude": 42.4430124,
+        "longitude": 19.2405941,
+        "sourceId": "desetka-pin",
+        "precision": "named building / approximate venue point; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": "Campus address, no street-number assertion. Named venue link coordinates, destination map not readable."
+    },
+    {
+      "id": "gallery",
+      "name": "Galerija MSUCG",
+      "address": "Njegoševa 2, Podgorica",
+      "addressSourceId": "source-12",
+      "verifiedCoordinates": {
+        "latitude": 42.4396423,
+        "longitude": 19.2610487,
+        "sourceId": "source-12",
+        "precision": "named gallery building / approximate100m",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": "Own event-specific map agrees nearby42.43967049,19.26094244; generic site JSON-LD longitude19.259859 conflicts ~100m. See museum-coordinate-conflicts.json. Do not present as entrance precision."
+    }
+  ],
+  "programmes": [
+    {
+      "id": "guitar",
+      "sourceId": "source-5",
+      "title": "Dani gitare: Šandor Papp and Manolo Franco",
+      "summaryEn": "An evening of classical guitar followed by flamenco.",
+      "category": "music",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "Velika sala",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 5,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-10-28",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": 5,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "makado-2",
+      "sourceId": "source-4",
+      "title": "Krevet od lišća",
+      "summaryEn": "A drama about identity and isolation.",
+      "category": "theatre",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "DODEST",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 5,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Part of MAKADO. Language and surtitles not specified. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-02",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": 5,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "makado-3",
+      "sourceId": "source-4",
+      "title": "Zagonetne varijacije",
+      "summaryEn": "A writer and journalist confront love, secrets and deception.",
+      "category": "theatre",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "DODEST",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 5,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Part of MAKADO. Language and surtitles not specified. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-03",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": 5,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "makado-4",
+      "sourceId": "source-4",
+      "title": "Fetišist",
+      "summaryEn": "A monodrama exploring self-acceptance and sexuality.",
+      "category": "theatre",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "DODEST",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 5,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Part of MAKADO. Language and surtitles not specified. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-04",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": 5,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "makado-5",
+      "sourceId": "source-4",
+      "title": "Najbolji čovjek na svijetu",
+      "summaryEn": "Acting and stand-up examine contemporary dilemmas.",
+      "category": "theatre",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "DODEST",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 5,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Part of MAKADO. Language and surtitles not specified. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-05",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": 5,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "makado-6",
+      "sourceId": "source-4",
+      "title": "Džepovi puni kamenja",
+      "summaryEn": "Hollywood ambitions collide with rural Irish realities.",
+      "category": "theatre",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "DODEST",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 5,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Part of MAKADO. Language and surtitles not specified. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-06",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": 5,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "makado-7",
+      "sourceId": "source-4",
+      "title": "Maske",
+      "summaryEn": "A solo performance explores theatrical masks.",
+      "category": "theatre",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "DODEST",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 5,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Part of MAKADO. Language and surtitles not specified. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-07",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": 5,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "makado-8",
+      "sourceId": "source-4",
+      "title": "Kako postati žena kojoj se sve prašta",
+      "summaryEn": "A comedy satirises self-help culture and influencers.",
+      "category": "theatre",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "DODEST",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 5,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Part of MAKADO. Language and surtitles not specified. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-08",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": 5,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "safra",
+      "sourceId": "source-2",
+      "title": "Safra",
+      "summaryEn": "A play featuring Milica Šćepanović and Marija Labudović.",
+      "category": "theatre",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "DODEST",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-10-29",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "folklore",
+      "sourceId": "source-2",
+      "title": "Osam decenija tradicije",
+      "summaryEn": "A concert by the KIC folklore ensemble.",
+      "category": "music",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "Velika sala",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-10-30",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "crystal",
+      "sourceId": "source-2",
+      "title": "Kristalna planeta / The Crystal Planet",
+      "summaryEn": "A dubbed animated film screening for younger audiences.",
+      "category": "film",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "Velika sala",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-10-31",
+          "time": "11:00",
+          "startTime": "11:00",
+          "endTime": null,
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "crnojevici",
+      "sourceId": "source-6",
+      "title": "Crnojevići",
+      "summaryEn": "A historical drama by Maja Todorović, directed by Ana Vukotić.",
+      "category": "theatre",
+      "venueId": "cnp",
+      "venue": "Crnogorsko narodno pozorište",
+      "hall": "Velika scena",
+      "address": "Stanka Dragojevića 18, 81000 Podgorica",
+      "addressSourceId": "cnp-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.44191,
+        "longitude": 19.26073,
+        "sourceId": "cnp-pin",
+        "precision": "named building / approximate venue point; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "English surtitles announced. Current ticket availability and price not confirmed. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-10-30",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        },
+        {
+          "date": "2026-10-31",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        },
+        {
+          "date": "2026-11-02",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "sax",
+      "sourceId": "source-3",
+      "title": "Sax & Beats: Igor Stefanovski and DJ Ilyas",
+      "summaryEn": "Live saxophone meets a DJ selection.",
+      "category": "music",
+      "venueId": "hemera",
+      "venue": "Hotel Hemera",
+      "hall": null,
+      "address": "Njegoševa 17, Podgorica",
+      "addressSourceId": "source-3",
+      "verifiedCoordinates": {
+        "latitude": 42.44225,
+        "longitude": 19.26193,
+        "sourceId": "hemera-pin",
+        "precision": "named building / approximate venue point; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 10,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-10-30",
+          "time": "21:00",
+          "startTime": "21:00",
+          "endTime": null,
+          "price": {
+            "amount": 10,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "vr-halloween",
+      "sourceId": "source-7",
+      "title": "VR Halloween Tournament",
+      "summaryEn": "Two-player teams compete in zombie-themed virtual-reality games.",
+      "category": "games",
+      "venueId": "vr",
+      "venue": "VR Arena",
+      "hall": null,
+      "address": "Vladike Danila 24, Podgorica",
+      "addressSourceId": "vr-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.45044,
+        "longitude": 19.25822,
+        "sourceId": "vr-contact",
+        "precision": "named building / approximate venue point; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 20,
+        "currency": "EUR",
+        "unit": "team of 2",
+        "feeStatus": "Additional booking fees not stated",
+        "note": "EUR20 per team, not per person."
+      },
+      "restrictions": "Limited places; advance team registration by organiser DM. Age eligibility not stated. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-10-29",
+          "time": "17:00",
+          "startTime": "17:00",
+          "endTime": null,
+          "price": {
+            "amount": 20,
+            "currency": "EUR",
+            "unit": "team of 2",
+            "feeStatus": "Additional booking fees not stated",
+            "note": "EUR20 per team, not per person."
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "cock-games",
+      "sourceId": "kokotov-event",
+      "title": "Cock Games: Halloween edition",
+      "summaryEn": "A Halloween-themed social quiz and game evening.",
+      "category": "games",
+      "venueId": "kokotov",
+      "venue": "Kokotov rep",
+      "hall": null,
+      "address": "Stanka Dragojevića 42, Podgorica",
+      "addressSourceId": "kokotov-event",
+      "verifiedCoordinates": {
+        "latitude": 42.44353,
+        "longitude": 19.26115,
+        "sourceId": "kokotov-pin",
+        "precision": "named building / approximate venue point; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": null
+      },
+      "restrictions": "Registration requested. Alcohol is mentioned; age eligibility not stated. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-10-28",
+          "time": "18:00",
+          "startTime": "18:00",
+          "endTime": null,
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": null
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "harry-potter",
+      "sourceId": "source-1",
+      "title": "Harry Potter Quiz",
+      "summaryEn": "A team quiz about the eight Harry Potter films.",
+      "category": "games",
+      "venueId": "desetka",
+      "venue": "Restoran-bar Desetka",
+      "hall": null,
+      "address": "University of Montenegro, Technical Faculties campus, Podgorica",
+      "addressSourceId": "source-1",
+      "verifiedCoordinates": {
+        "latitude": 42.4430124,
+        "longitude": 19.2405941,
+        "sourceId": "desetka-pin",
+        "precision": "named building / approximate venue point; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": "Campus address, no street-number assertion. Named venue link coordinates, destination map not readable.",
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 12,
+        "currency": "EUR",
+        "unit": "team up to 6",
+        "feeStatus": "Additional booking fees not stated",
+        "note": "EUR12 per team, not per person."
+      },
+      "restrictions": "Teams of up to six; advance registration via organiser profile link. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-04",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "price": {
+            "amount": 12,
+            "currency": "EUR",
+            "unit": "team up to 6",
+            "feeStatus": "Additional booking fees not stated",
+            "note": "EUR12 per team, not per person."
+          },
+          "endEvidence": null
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "irwin",
+      "sourceId": "source-10",
+      "title": "IRWIN: Država kao škola",
+      "summaryEn": "An exhibition exploring art, political narratives and historical memory.",
+      "category": "exhibition",
+      "venueId": "gallery",
+      "venue": "Galerija MSUCG",
+      "hall": null,
+      "address": "Njegoševa 2, Podgorica",
+      "addressSourceId": "source-12",
+      "verifiedCoordinates": {
+        "latitude": 42.4396423,
+        "longitude": 19.2610487,
+        "sourceId": "source-12",
+        "precision": "named gallery building / approximate100m",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": "Own event-specific map agrees nearby42.43967049,19.26094244; generic site JSON-LD longitude19.259859 conflicts ~100m. See museum-coordinate-conflicts.json. Do not present as entrance precision.",
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": 5,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": "One ticket covers all MSUCG venues. Groups5+:EUR3; pupils/students/pensioners:EUR2; children under12:free. First Wednesday monthly:free."
+      },
+      "restrictions": "Holiday opening not specifically confirmed. Do not reuse opening-night talks as current sessions. Step-free access not confirmed. Weekly visiting hours are not holiday-specific confirmation.",
+      "occurrences": [],
+      "publicationStatus": "candidate_not_published",
+      "dateRange": {
+        "startDate": "2026-10-01",
+        "endDate": "2026-11-20",
+        "sourceId": "source-10"
+      },
+      "visitSchedule": {
+        "type": "weekly_opening_hours",
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "startTime": "10:30",
+        "endTime": "18:30",
+        "sourceId": "source-11",
+        "exceptionsVerified": false,
+        "doNotInferOpenNow": true,
+        "holidayHours": "not confirmed"
+      },
+      "freeAdmissionDates": [
+        "2026-11-04"
+      ]
+    },
+    {
+      "id": "idem-putem",
+      "sourceId": "late-idem-putem",
+      "title": "Idem putem pa zagrlim drvo",
+      "summaryEn": "A comic solo performance about a man seeking a partner under his mother’s watchful eye.",
+      "category": "theatre",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": null,
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Price and additional fees not confirmed"
+      },
+      "restrictions": "Ticketed public event; price and step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-16",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "endEvidence": null,
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Price and additional fees not confirmed"
+          }
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "vranjkovic",
+      "sourceId": "late-vranjkovic",
+      "title": "Nikola Vranjković",
+      "summaryEn": "Two contrasting concerts: semi-acoustic on 18 November and electric on 19 November.",
+      "category": "music",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": null,
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Price and additional fees not confirmed"
+      },
+      "restrictions": "Ticketed public event; price and step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-18",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "endEvidence": null,
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Price and additional fees not confirmed"
+          }
+        },
+        {
+          "date": "2026-11-19",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "endEvidence": null,
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Price and additional fees not confirmed"
+          }
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "poezija-zivota",
+      "sourceId": "late-poezija-zivota",
+      "title": "Poezija i pjesma života — Marko Milošević and band",
+      "summaryEn": "An evening combining poetry and live music.",
+      "category": "poetry_music",
+      "venueId": "kic",
+      "venue": "KIC Budo Tomović",
+      "hall": "Velika sala",
+      "address": "Vaka Đurovića 12, 81000 Podgorica",
+      "addressSourceId": "kic-contact",
+      "verifiedCoordinates": {
+        "latitude": 42.4462115,
+        "longitude": 19.2646084,
+        "sourceId": "kic-pin",
+        "precision": "named arts-centre point; not entrance",
+        "checkedAt": "2026-10-28T12:08:22.381163+00:00"
+      },
+      "addressCaveat": null,
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Price and additional fees not confirmed"
+      },
+      "restrictions": "Ticketed public event; price and step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-22",
+          "time": "20:00",
+          "startTime": "20:00",
+          "endTime": null,
+          "endEvidence": null,
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Price and additional fees not confirmed"
+          }
+        }
+      ],
+      "publicationStatus": "candidate_not_published"
+    },
+    {
+      "id": "montenegro-made-expo",
+      "sourceId": "expo-ticket",
+      "title": "Montenegro Made Expo",
+      "summaryEn": "A free trade fair featuring Montenegrin producers, food, drinks and local brands.",
+      "category": "fair",
+      "venueId": "bemax",
+      "venue": "Bemax Arena",
+      "address": "Ulica Svetlane Kane Radević, Podgorica",
+      "addressSourceUrl": "https://podgorica.travel/calendar-event/montenegro-made-expo%f0%9f%8e%aa19-20-novembar-%f0%9f%93%8dbemax-arena%f0%9f%8d%b7%f0%9f%8d%af%f0%9f%8d%87%f0%9f%a7%80%f0%9f%a5%93%f0%9f%8d%85%f0%9f%a5%96%f0%9f%8e%aa/",
+      "verifiedCoordinates": {
+        "latitude": 42.4374059,
+        "longitude": 19.2549604,
+        "precision": "named arena playing-area point; approximate venue centre, not visitor entrance",
+        "sourceId": "bemax-pin",
+        "checkedAt": "2026-10-28T12:18:53.397554+00:00"
+      },
+      "timeZone": "Europe/Podgorica",
+      "dateRange": {
+        "startDate": "2026-11-19",
+        "endDate": "2026-11-20"
+      },
+      "occurrences": [],
+      "visitSchedule": [
+        {
+          "date": "2026-11-19",
+          "startTime": "12:00",
+          "endTime": "19:00",
+          "sourceId": "expo-ticket",
+          "endEvidence": "Dated 12:00–19:00 interval explicitly printed on organizer admission ticket."
+        },
+        {
+          "date": "2026-11-20",
+          "startTime": "12:00",
+          "endTime": "19:00",
+          "sourceId": "expo-ticket",
+          "endEvidence": "Dated 12:00–19:00 interval explicitly printed on organizer admission ticket."
+        }
+      ],
+      "price": {
+        "amount": 0,
+        "currency": "EUR",
+        "unit": "person",
+        "note": "Organizer states free admission for all visitors; public downloadable ticket available."
+      },
+      "priceSourceId": "expo-admission",
+      "restrictions": "Free public admission. Step-free access and any tasting age rules are not confirmed. Downloadable public ticket is offered by the organizer.",
+      "publicationStatus": "candidate_not_published"
+    }
+  ],
+  "holds": [
+    {
+      "id": "balka",
+      "title": "Mirosław Bałka:1978/2026/Otwock+",
+      "sourceId": "source-9",
+      "dateRange": {
+        "startDate": "2026-10-09",
+        "endDate": "2027-01-18"
+      },
+      "holdReason": "Two distinct venues DvoracPetrovića/PerjaničkiDom. Own generic JSON-LD and footer map disagree; no verified venue-specific reconciliation. Preserve exhibition, fees and opening hours; no daily sessions."
+    },
+    {
+      "id": "ribnica-workshop",
+      "sourceId": "source-8",
+      "dates": [
+        "2026-11-04",
+        "2026-11-18"
+      ],
+      "startTime": "18:30",
+      "endTime": "20:00",
+      "holdReason": "Full announcement read, women groups up to12, registration; exact CKZ venue pin not yet corroborated."
+    },
+    {
+      "id": "itaka-nov1",
+      "holdReason": "Live calendar card Nov1 differs from linked full-web body Oct1 film; not usable."
+    },
+    {
+      "id": "kosmos-nov5",
+      "holdReason": "Live calendar card Nov5 differs from linked full-web body Sep24 book; not usable."
+    },
+    {
+      "id": "grow-halloween",
+      "holdReason": "Telegram full announcement Oct31 17:30,price45; year and venue pin unresolved, primary event page inaccessible."
+    },
+    {
+      "id": "clay-nov5",
+      "holdReason": "Calendar card only; full detail cachemiss, no alternate request."
+    },
+    {
+      "id": "zidovi-nov12",
+      "holdReason": "Archive text/calendar observed; full tourismdetailcachemiss."
+    },
+    {
+      "id": "titograd-weekend",
+      "holdReason": "Archive text observed; full detailcachemiss."
+    },
+    {
+      "id": "gidion-nov19-20",
+      "holdReason": "Source archive says sold out; not promoted, no fullbody QA."
+    },
+    {
+      "title": "Nov9 Teatralnost mjesta",
+      "holdReason": "Detail URL inaccessible; no retry"
+    },
+    {
+      "title": "Nov17 Stefan Simić",
+      "holdReason": "Detail URL inaccessible; no retry"
+    },
+    {
+      "title": "Nov23 Pred penzijom",
+      "holdReason": "Current calendar links to full detail dated 8 May 2026"
+    },
+    {
+      "title": "Nov26 Princeza Ksenija",
+      "holdReason": "Current calendar links to full detail dated 11 May 2026"
+    },
+    {
+      "title": "Nov24 guitar",
+      "holdReason": "Search result gives primary programme, but full root inaccessible; no alternate route attempted"
+    },
+    {
+      "title": "Nov14–15 NASA challenge",
+      "holdReason": "Tourism full body confirms dates; official registration returned 502; venue pin and precise access unresolved"
+    }
+  ],
+  "firstSevenDayMatrix": [
+    {
+      "date": "2026-10-28",
+      "programmeIds": [
+        "guitar",
+        "cock-games"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "programmeIds": [
+        "safra",
+        "vr-halloween"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "programmeIds": [
+        "folklore",
+        "crnojevici",
+        "sax"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "programmeIds": [
+        "crystal",
+        "crnojevici"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "programmeIds": [
+        "makado-2",
+        "crnojevici"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "programmeIds": [
+        "makado-3"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    }
+  ],
+  "thirtyDayMatrix": [
+    {
+      "date": "2026-10-28",
+      "programmeIds": [
+        "guitar",
+        "cock-games"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "programmeIds": [
+        "safra",
+        "vr-halloween"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "programmeIds": [
+        "folklore",
+        "crnojevici",
+        "sax"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "programmeIds": [
+        "crystal",
+        "crnojevici"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "programmeIds": [
+        "makado-2",
+        "crnojevici"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "programmeIds": [
+        "makado-3"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "programmeIds": [
+        "makado-4",
+        "harry-potter"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "programmeIds": [
+        "makado-5"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "programmeIds": [
+        "makado-6"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "programmeIds": [
+        "makado-7"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "programmeIds": [
+        "makado-8"
+      ],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "programmeIds": [],
+      "rangeIds": [
+        "irwin"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "programmeIds": [],
+      "rangeIds": []
+    },
+    {
+      "date": "2026-11-22",
+      "programmeIds": [],
+      "rangeIds": []
+    },
+    {
+      "date": "2026-11-23",
+      "programmeIds": [],
+      "rangeIds": []
+    },
+    {
+      "date": "2026-11-24",
+      "programmeIds": [],
+      "rangeIds": []
+    },
+    {
+      "date": "2026-11-25",
+      "programmeIds": [],
+      "rangeIds": []
+    },
+    {
+      "date": "2026-11-26",
+      "programmeIds": [],
+      "rangeIds": []
+    }
+  ],
+  "sourceCoverage": {
+    "main": "Official tourism calendar:134 actual cards across14 read-only public AJAX pages archived; no claim all are unique/current/usable.",
+    "calendarLimitations": "Contains long-running ranges, duplicate series, default23:59 ends, mutated slugs and cached stale detail bodies.",
+    "primary": "Full KIC programme/MAKADO/guitar; CNP season announcement; MSUCG ranges/fees/hours; selected tourism event details.",
+    "telegram": "monteafisha public full posts read; PodgoricaMNE and Sarajevo bosnialife1 profiles only, no conversation history or joining.",
+    "blocked": "VR contact archivalGET403 after successful webread; CNP archivalGET406 after successful webread. Several tourismdetailcachemiss, Googlemaps targets cachemiss, grow-point inaccessible, RA2570482cachemiss, Desetkaownsite timeout; not retried.",
+    "unreadRemainder": "Remaining observed cards not fullbody/pin checked; see audit/observed-catalog-cards.json.",
+    "catalogRawCount": 134,
+    "completeRawCatalogRead": true,
+    "allEventDetailsRead": false,
+    "paginationEvidence": "raw/calendar-filter-page1.json through page14.json with each *-fetch.json;134 observedcards, not134verifiedevents. Firstpagecalendar had133; liveAJAX grew134. Filter includes ongoingranges and repeatedcards.",
+    "auditManifest": "audit/evidence-file-manifest.json"
+  },
+  "QA": {
+    "programmeCount": 17,
+    "timedOccurrences": 18,
+    "venueCount": 7,
+    "rangeCount": 1,
+    "allFirstSevenTimed": false,
+    "endPolicy": "All city timed events endTime=null. Nearby ZooMaketa has an explicit prose11–14 interval, but is not a city event.",
+    "outskirts": "ZooMaketa separately in nearbyCandidates, not counted as city session/date/venue.",
+    "pending": "No unresolved KIC identity issue. Gallery event-specific vs generic coordinates caveat retained; building-level point only. Solewriter determines import gate.",
+    "firstSevenCityGaps": [
+      "2026-11-01"
+    ],
+    "readyScope": "17 city programmes,18 timed sessions,1 range,7 named venue points. First seven city dates:6/7;Nov1gap. NearbyZoo excluded."
+  },
+  "nearbyCandidates": [
+    {
+      "id": "zoo-maketa",
+      "sourceId": "zoo-event",
+      "title": "Zoo Maketa",
+      "summaryEn": "A guided animal-sanctuary visit followed by a model-making workshop for children.",
+      "category": "family",
+      "venueId": "zoo",
+      "venue": "Prihvatilište i oporavak životinja Crna Gora",
+      "hall": null,
+      "address": "Blizna, Podgorica municipality",
+      "addressSourceId": "zoo-address",
+      "verifiedCoordinates": {
+        "latitude": 42.53715,
+        "longitude": 19.30596,
+        "sourceId": "zoo-pin",
+        "precision": "named sanctuary grounds / approximate; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": "Outside central Podgorica; tourism venue page describes about30 minutes from city. Confirm directions with organiser before travel.",
+      "timeZone": "Europe/Podgorica",
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": "person",
+        "feeStatus": "Additional booking fees not stated",
+        "note": "Price available only by contacting organiser; not free."
+      },
+      "restrictions": "Advance registration required; limited places. Age range not specified. Tour, juice and snacks included. Outlying Blizna venue. Step-free access not confirmed.",
+      "occurrences": [
+        {
+          "date": "2026-11-01",
+          "time": "11:00",
+          "startTime": "11:00",
+          "endTime": "14:00",
+          "price": {
+            "amount": null,
+            "currency": "EUR",
+            "unit": "person",
+            "feeStatus": "Additional booking fees not stated",
+            "note": "Price available only by contacting organiser; not free."
+          },
+          "endEvidence": {
+            "sourceId": "zoo-event",
+            "text": "Vrijeme: 11.00–14.00 h"
+          }
+        }
+      ],
+      "publicationStatus": "candidate_not_published",
+      "scopeDisposition": "outside_city_settlement_not_counted",
+      "holdReason": "Blizna is outside central Podgorica; no authority to count nearby municipality events as city dates."
+    }
+  ],
+  "nearbyVenues": [
+    {
+      "id": "zoo",
+      "name": "Prihvatilište i oporavak životinja Crna Gora",
+      "address": "Blizna, Podgorica municipality",
+      "addressSourceId": "zoo-address",
+      "verifiedCoordinates": {
+        "latitude": 42.53715,
+        "longitude": 19.30596,
+        "sourceId": "zoo-pin",
+        "precision": "named sanctuary grounds / approximate; not entrance",
+        "checkedAt": "2026-10-28T12:06:53.567639+00:00"
+      },
+      "addressCaveat": "Outside central Podgorica; tourism venue page describes about30 minutes from city. Confirm directions with organiser before travel."
+    }
+  ],
+  "version": "frozen-v3",
+  "appliedDelta": "canonical-late-delta-v2.json",
+  "checkedAt": "2026-10-28T12:19:40.899011+00:00"
+}

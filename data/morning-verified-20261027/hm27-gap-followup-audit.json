@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-10-27T05:30:47.254195+00:00",
+  "targetLocalDate": "2026-11-02",
+  "scope": "Bounded focused public-source check of remaining gaps in Yerevan, Almaty, Antalya and Astana; no completeness or city-empty claim. Four verified Antalya sessions are in the stable separate candidate packet.",
+  "candidateFile": "/workspace/shared/hm27-gap-followup.json",
+  "additionalCandidates": [],
+  "sourceCheckAudit": [
+    {
+      "cityId": "antalya",
+      "sourceUrl": "https://roboversekids.com/tiyatro/",
+      "action": "Read complete public organizer programme and save normal HTTP 200 HTML.",
+      "result": "Four explicit 2 November 2026 sessions verified and packaged: 11:00, 14:00, 17:00, 19:00; same coordinate-backed Nazım Hikmet venue, Amfi Salon.",
+      "limits": "Live ticket inventory not checked. Public Biletino detail returned cache miss.",
+      "rawFile": "/workspace/shared/hm27-nov2-evidence/roboverse.html"
+    },
+    {
+      "cityId": "antalya",
+      "sourceUrl": "https://www.bubilet.com.tr/mekan/konyaalti-belediyesi-nazim-hikmet-fuar-ve-kongre-merkezi",
+      "action": "Read complete named venue page, address and public directions link.",
+      "result": "39 listed venue events; schedule jumps from October 30 to November 3. This does not cover all organizers: RoboVerse has its own November 2 announcement. Directions destination confirms baseline 36.88479487,30.65056514.",
+      "limits": "Venue inventory is seller-specific, not a complete venue calendar."
+    },
+    {
+      "cityId": "antalya",
+      "sourceUrl": "https://yapilacaklar.com/antalya/2-kasim-2026",
+      "action": "Targeted dated calendar discovery, then attempted full page.",
+      "result": "Search excerpt supplied Robot Robby lead; detail returned cache miss. Ben mi Yapmışım at Alanya excluded as outside Antalya city. Ölmüşü Öldürsene at Dada remains unverified lead.",
+      "limits": "No candidate imported solely from this calendar."
+    },
+    {
+      "cityId": "yerevan",
+      "sourceUrl": "https://www.tomsarkgh.am/",
+      "action": "Fresh homepage read attempted.",
+      "result": "Timeout; no fresh November 2 programme could be established from this source.",
+      "limits": "Earlier audit already found stale deep pagination; no claimed empty city."
+    },
+    {
+      "cityId": "yerevan",
+      "sourceUrl": "https://eventix.am/",
+      "action": "Fresh homepage read attempted.",
+      "result": "Timeout; no fresh November 2 announcement established here.",
+      "limits": "No retry or guessed programme."
+    },
+    {
+      "cityId": "yerevan",
+      "sourceUrl": "https://esora.app/ru/yerevan/dance",
+      "action": "Read current dance category, 19 upcoming entries through 2027, and follow exact November 2 event detail.",
+      "result": "Found Karin three-month course November 2 at 18:30, Derenik Demirchyan 36. Exact event body read at https://esora.app/ru/events/three-month-armenian-traditional-dance-course-96b2edd0.",
+      "limits": "Registration routed to organizer profile; original dated primary announcement not read; exact coordinates/price not established; not assumed to be a drop-in session. Independent normal HTTP fetch of detail returned 403 and was stopped."
+    },
+    {
+      "cityId": "almaty",
+      "sourceUrl": "https://afisha.yandex.kz/almaty",
+      "action": "Read city homepage and attempt November 2 concert date filter.",
+      "result": "Homepage rendered calendar and one promotional event rather than complete event inventory. https://afisha.yandex.kz/almaty/concert?date=2026-11-02&period=1 was inaccessible through web tool.",
+      "limits": "Filter failure is not evidence that no city events occur."
+    },
+    {
+      "cityId": "almaty",
+      "sourceUrl": "https://afisha.yandex.kz/almaty/concert/places/dvorets-respubliki/schedule",
+      "action": "Read complete publicly rendered named-venue schedule, November 2026 to January 2027.",
+      "result": "Listed November 1, 5, 7, 14, 20, 21 and 23; no November 2 announcement in this exact checked schedule.",
+      "limits": "Seller-specific schedule; other venues not exhausted."
+    },
+    {
+      "cityId": "almaty",
+      "sourceUrl": "https://jursh.kz/almaty/concerts/?week=2026-11-03",
+      "action": "Targeted discovery and attempted direct calendar read.",
+      "result": "Search excerpt shows GAZAN on November 2; direct open cache miss. Ticketon index distinguishes 16:30 meet-and-greet from 18:00 concert.",
+      "limits": "Prior Ticketon 403 respected, no direct Ticketon retry or language-route bypass. Independent primary programme not found in focused searches; exact price also differs between indexed language snapshots."
+    },
+    {
+      "cityId": "astana",
+      "sourceUrl": "https://gorkytheatre.kz/poster",
+      "action": "Read fresh complete public poster page; compare prior saved full HTML dated ticket links.",
+      "result": "Programme through November 29; no November 2 date in checked official list. Prior saved HTML has November 1 and November 3 links but zero 2026-11-02 occurrences.",
+      "limits": "No inference of city-wide absence or of theatre closure."
+    },
+    {
+      "cityId": "astana",
+      "sourceUrl": "https://ticketon.kz/stand-up/event/tckt2-antiponedelnik-standup-pozitiv-2nov",
+      "action": "Discovery-only indexed announcement; direct read not attempted due known Ticketon restriction.",
+      "result": "Promising Anti-Monday Standup lead: November 2, 2026, 20:30, Pozitiv Standup Bar, Gabdullina 18.",
+      "limits": "Prior Ticketon 403 respected; not full-primary verified, no candidate imported."
+    }
+  ],
+  "held": [
+    {
+      "cityId": "yerevan",
+      "title": "Karin three-month traditional dance course",
+      "date": "2026-11-02",
+      "time": "18:30",
+      "sourceUrl": "https://esora.app/ru/events/three-month-armenian-traditional-dance-course-96b2edd0",
+      "reason": "Full afisha body read, but original organizer announcement not read, registration eligibility/drop-in access and coordinate evidence unresolved. Direct HTTP 403 stopped. Do not import automatically."
+    },
+    {
+      "cityId": "almaty",
+      "title": "GAZAN",
+      "date": "2026-11-02",
+      "sourceUrl": "https://ticketon.kz/en/concerts/event/tckt2-gazan-almaty",
+      "reason": "Indexed Ticketon announcement only; prior 403 respected, no primary fetch. 16:30 is an additional meet-and-greet requiring a concert ticket; indexed main concert is 18:00. Jursh conflates earliest activity with main concert, so its 16:30 must not be imported as the concert. Indexed starting prices 8800/9900 differ; leave unknown."
+    },
+    {
+      "cityId": "astana",
+      "title": "Anti-Monday Standup",
+      "date": "2026-11-02",
+      "time": "20:30",
+      "sourceUrl": "https://ticketon.kz/stand-up/event/tckt2-antiponedelnik-standup-pozitiv-2nov",
+      "reason": "Only indexed announcement available; prior Ticketon 403 respected. Needs full primary body and venue coordinate verification; not imported."
+    },
+    {
+      "cityId": "astana",
+      "title": "Mad Mozart",
+      "sourceUrl": "https://ticketon.kz/tashkent/event/kontsert-mad-mozart-v-astane",
+      "reason": "Index contains contradictory May 24, 2026 prose and November 2 schedule; wrong country path, stale crawl. Not accepted or fetched."
+    }
+  ],
+  "blocks": [
+    {
+      "target": "https://esora.app/ru/events/three-month-armenian-traditional-dance-course-96b2edd0",
+      "action": "Normal read-only HTTP GET to save public primary evidence",
+      "reason": "HTTP 403 Forbidden",
+      "outcome": "Stopped without retry/bypass; earlier accessible web body is secondary evidence only."
+    },
+    {
+      "target": "Ticketon and Instagram",
+      "action": "Would need original full primary event/posts",
+      "reason": "Known earlier access restrictions; no materially new access evidence",
+      "outcome": "No direct attempts or bypass. Discovery results are held, not used as primary publication proof."
+    }
+  ]
+}

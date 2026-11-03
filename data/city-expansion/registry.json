@@ -1,0 +1,3231 @@
+{
+  "schemaVersion": 1,
+  "existingCityIds": [
+    "tbilisi",
+    "belgrade",
+    "yerevan",
+    "moscow",
+    "palo-alto",
+    "vienna",
+    "paris",
+    "london",
+    "flensburg"
+  ],
+  "newCities": [
+    {
+      "id": "saint-petersburg",
+      "canonicalCity": "Saint Petersburg",
+      "countryCode": "RU",
+      "name": {
+        "ru": "Санкт-Петербург",
+        "en": "Saint Petersburg",
+        "de": "Sankt Petersburg"
+      },
+      "ianaTimezone": "Europe/Moscow",
+      "path": "saint-petersburg/index.html",
+      "currency": "RUB",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ]
+    },
+    {
+      "id": "new-york",
+      "canonicalCity": "New York",
+      "countryCode": "US",
+      "name": {
+        "ru": "Нью-Йорк",
+        "en": "New York",
+        "de": "New York"
+      },
+      "ianaTimezone": "America/New_York",
+      "path": "new-york/index.html",
+      "currency": "USD",
+      "interfaceLanguages": [
+        "en"
+      ]
+    },
+    {
+      "id": "berlin",
+      "canonicalCity": "Berlin",
+      "countryCode": "DE",
+      "name": {
+        "ru": "Берлин",
+        "en": "Berlin",
+        "de": "Berlin"
+      },
+      "ianaTimezone": "Europe/Berlin",
+      "path": "berlin/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "en"
+      ]
+    },
+    {
+      "id": "batumi",
+      "canonicalCity": "Batumi",
+      "countryCode": "GE",
+      "name": {
+        "ru": "Батуми",
+        "en": "Batumi",
+        "de": "Batumi"
+      },
+      "ianaTimezone": "Asia/Tbilisi",
+      "path": "batumi/index.html",
+      "currency": "GEL",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ]
+    },
+    {
+      "id": "limassol",
+      "canonicalCity": "Limassol",
+      "countryCode": "CY",
+      "name": {
+        "ru": "Лимасол",
+        "en": "Limassol",
+        "de": "Limassol"
+      },
+      "ianaTimezone": "Asia/Nicosia",
+      "path": "limassol/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ]
+    },
+    {
+      "id": "antalya",
+      "canonicalCity": "Antalya",
+      "countryCode": "TR",
+      "name": {
+        "ru": "Анталья",
+        "en": "Antalya",
+        "de": "Antalya"
+      },
+      "ianaTimezone": "Europe/Istanbul",
+      "path": "antalya/index.html",
+      "currency": "TRY",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ]
+    },
+    {
+      "id": "almaty",
+      "canonicalCity": "Almaty",
+      "countryCode": "KZ",
+      "name": {
+        "ru": "Алматы",
+        "en": "Almaty",
+        "de": "Almaty"
+      },
+      "ianaTimezone": "Asia/Almaty",
+      "path": "almaty/index.html",
+      "currency": "KZT",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ]
+    },
+    {
+      "id": "istanbul",
+      "canonicalCity": "Istanbul",
+      "countryCode": "TR",
+      "name": {
+        "ru": "Стамбул",
+        "en": "Istanbul",
+        "de": "Istanbul"
+      },
+      "ianaTimezone": "Europe/Istanbul",
+      "path": "istanbul/index.html",
+      "currency": "TRY",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ]
+    },
+    {
+      "id": "dubai",
+      "canonicalCity": "Dubai",
+      "countryCode": "AE",
+      "name": {
+        "ru": "Дубай",
+        "en": "Dubai",
+        "de": "Dubai"
+      },
+      "ianaTimezone": "Asia/Dubai",
+      "path": "dubai/index.html",
+      "currency": "AED",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ]
+    },
+    {
+      "id": "tel-aviv",
+      "canonicalCity": "Tel Aviv",
+      "countryCode": "IL",
+      "name": {
+        "ru": "Тель-Авив",
+        "en": "Tel Aviv",
+        "de": "Tel Aviv"
+      },
+      "ianaTimezone": "Asia/Jerusalem",
+      "path": "tel-aviv/index.html",
+      "currency": "ILS",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ]
+    },
+    {
+      "id": "prague",
+      "canonicalCity": "Prague",
+      "countryCode": "CZ",
+      "name": {
+        "ru": "Прага",
+        "en": "Prague",
+        "de": "Prag"
+      },
+      "ianaTimezone": "Europe/Prague",
+      "path": "prague/index.html",
+      "currency": "CZK",
+      "interfaceLanguages": [
+        "en"
+      ]
+    },
+    {
+      "id": "barcelona",
+      "canonicalCity": "Barcelona",
+      "countryCode": "ES",
+      "name": {
+        "ru": "Барселона",
+        "en": "Barcelona",
+        "de": "Barcelona",
+        "es": "Barcelona"
+      },
+      "ianaTimezone": "Europe/Madrid",
+      "path": "barcelona/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "en"
+      ],
+      "eventLanguages": [
+        {
+          "code": "ES",
+          "label": "Spanish",
+          "terms": [
+            "Spanish",
+            "español",
+            "castellano"
+          ]
+        },
+        {
+          "code": "CA",
+          "label": "Catalan",
+          "terms": [
+            "Catalan",
+            "català",
+            "catalán"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "English",
+          "terms": [
+            "English",
+            "inglés"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Russian",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        }
+      ],
+      "defaultDateView": "week"
+    },
+    {
+      "id": "madrid",
+      "canonicalCity": "Madrid",
+      "countryCode": "ES",
+      "name": {
+        "ru": "Мадрид",
+        "en": "Madrid",
+        "de": "Madrid",
+        "es": "Madrid"
+      },
+      "ianaTimezone": "Europe/Madrid",
+      "path": "madrid/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "en"
+      ],
+      "eventLanguages": [
+        {
+          "code": "ES",
+          "label": "Spanish",
+          "terms": [
+            "Spanish",
+            "español",
+            "castellano"
+          ]
+        },
+        {
+          "code": "CA",
+          "label": "Catalan",
+          "terms": [
+            "Catalan",
+            "català",
+            "catalán"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "English",
+          "terms": [
+            "English",
+            "inglés"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Russian",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        }
+      ],
+      "defaultDateView": "week"
+    },
+    {
+      "id": "astana",
+      "canonicalCity": "Astana",
+      "countryCode": "KZ",
+      "name": {
+        "ru": "Астана",
+        "en": "Astana",
+        "de": "Astana"
+      },
+      "ianaTimezone": "Asia/Almaty",
+      "path": "astana/index.html",
+      "currency": "KZT",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "eventLanguages": [
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        },
+        {
+          "code": "KK",
+          "label": "Казахский",
+          "terms": [
+            "Kazakh",
+            "Казахский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tashkent",
+      "canonicalCity": "Tashkent",
+      "countryCode": "UZ",
+      "name": {
+        "ru": "Ташкент",
+        "en": "Tashkent",
+        "de": "Tashkent"
+      },
+      "ianaTimezone": "Asia/Tashkent",
+      "path": "tashkent/index.html",
+      "currency": "UZS",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "eventLanguages": [
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        },
+        {
+          "code": "UZ",
+          "label": "Узбекский",
+          "terms": [
+            "Uzbek",
+            "Узбекский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bishkek",
+      "canonicalCity": "Bishkek",
+      "countryCode": "KG",
+      "name": {
+        "ru": "Бишкек",
+        "en": "Bishkek",
+        "de": "Bishkek"
+      },
+      "ianaTimezone": "Asia/Bishkek",
+      "path": "bishkek/index.html",
+      "currency": "KGS",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "eventLanguages": [
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        },
+        {
+          "code": "KY",
+          "label": "Кыргызский",
+          "terms": [
+            "Kyrgyz",
+            "Кыргызский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "minsk",
+      "canonicalCity": "Minsk",
+      "countryCode": "BY",
+      "name": {
+        "ru": "Минск",
+        "en": "Minsk",
+        "de": "Minsk"
+      },
+      "ianaTimezone": "Europe/Minsk",
+      "path": "minsk/index.html",
+      "currency": "BYN",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "eventLanguages": [
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        },
+        {
+          "code": "BE",
+          "label": "Белорусский",
+          "terms": [
+            "Belarusian",
+            "Белорусский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baku",
+      "canonicalCity": "Baku",
+      "countryCode": "AZ",
+      "name": {
+        "ru": "Баку",
+        "en": "Baku",
+        "de": "Baku"
+      },
+      "ianaTimezone": "Asia/Baku",
+      "path": "baku/index.html",
+      "currency": "AZN",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "eventLanguages": [
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        },
+        {
+          "code": "AZ",
+          "label": "Азербайджанский",
+          "terms": [
+            "Azerbaijani",
+            "Азербайджанский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "riga",
+      "canonicalCity": "Riga",
+      "countryCode": "LV",
+      "name": {
+        "ru": "Рига",
+        "en": "Riga",
+        "de": "Riga"
+      },
+      "ianaTimezone": "Europe/Riga",
+      "path": "riga/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "eventLanguages": [
+        {
+          "code": "LV",
+          "label": "Латышский",
+          "terms": [
+            "Latvian",
+            "латышский"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ],
+      "nameLocativeRu": "Риге",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "oslo",
+      "canonicalCity": "Oslo",
+      "countryCode": "NO",
+      "name": {
+        "ru": "Осло",
+        "en": "Oslo",
+        "de": "Oslo"
+      },
+      "ianaTimezone": "Europe/Oslo",
+      "path": "oslo/index.html",
+      "currency": "NOK",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "eventLanguages": [
+        {
+          "code": "NO",
+          "label": "Норвежский",
+          "terms": [
+            "Norwegian",
+            "норвежский"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ],
+      "nameLocativeRu": "Осло",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "buenos-aires",
+      "canonicalCity": "Buenos Aires",
+      "countryCode": "AR",
+      "name": {
+        "ru": "Буэнос-Айрес",
+        "en": "Buenos Aires",
+        "de": "Buenos Aires"
+      },
+      "ianaTimezone": "America/Argentina/Buenos_Aires",
+      "path": "buenos-aires/index.html",
+      "currency": "ARS",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "eventLanguages": [
+        {
+          "code": "ES",
+          "label": "Испанский",
+          "terms": [
+            "Spanish",
+            "español",
+            "испанский"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ],
+      "nameLocativeRu": "Буэнос-Айресе",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "brasilia",
+      "canonicalCity": "Brasília",
+      "countryCode": "BR",
+      "name": {
+        "ru": "Бразилиа",
+        "en": "Brasília",
+        "de": "Brasília"
+      },
+      "ianaTimezone": "America/Sao_Paulo",
+      "path": "brasilia/index.html",
+      "currency": "BRL",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "eventLanguages": [
+        {
+          "code": "PT",
+          "label": "Португальский",
+          "terms": [
+            "Portuguese",
+            "português",
+            "португальский"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ],
+      "nameLocativeRu": "Бразилиа",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "tallinn",
+      "canonicalCity": "Tallinn",
+      "countryCode": "EE",
+      "name": {
+        "ru": "Таллин",
+        "en": "Tallinn",
+        "de": "Tallinn"
+      },
+      "ianaTimezone": "Europe/Tallinn",
+      "path": "tallinn/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Таллине",
+      "eventLanguages": [
+        {
+          "code": "ET",
+          "label": "Эстонский",
+          "terms": [
+            "Estonian",
+            "eesti",
+            "эстонский"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "warsaw",
+      "canonicalCity": "Warsaw",
+      "countryCode": "PL",
+      "name": {
+        "ru": "Варшава",
+        "en": "Warsaw",
+        "de": "Warschau"
+      },
+      "ianaTimezone": "Europe/Warsaw",
+      "path": "warsaw/index.html",
+      "currency": "PLN",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Варшаве",
+      "eventLanguages": [
+        {
+          "code": "PL",
+          "label": "Польский",
+          "terms": [
+            "Polish",
+            "polski",
+            "польский"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lisbon",
+      "canonicalCity": "Lisbon",
+      "countryCode": "PT",
+      "name": {
+        "ru": "Лиссабон",
+        "en": "Lisbon",
+        "de": "Lissabon"
+      },
+      "ianaTimezone": "Europe/Lisbon",
+      "path": "lisbon/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Лиссабоне",
+      "eventLanguages": [
+        {
+          "code": "PT",
+          "label": "Португальский",
+          "terms": [
+            "Portuguese",
+            "português",
+            "португальский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chisinau",
+      "canonicalCity": "Chișinău",
+      "countryCode": "MD",
+      "name": {
+        "ru": "Кишинёв",
+        "en": "Chișinău",
+        "de": "Chișinău"
+      },
+      "ianaTimezone": "Europe/Chisinau",
+      "path": "chisinau/index.html",
+      "currency": "MDL",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Кишинёве",
+      "eventLanguages": [
+        {
+          "code": "RO",
+          "label": "Румынский",
+          "terms": [
+            "Romanian",
+            "română",
+            "румынский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vilnius",
+      "canonicalCity": "Vilnius",
+      "countryCode": "LT",
+      "name": {
+        "ru": "Вильнюс",
+        "en": "Vilnius",
+        "de": "Vilnius"
+      },
+      "ianaTimezone": "Europe/Vilnius",
+      "path": "vilnius/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Вильнюсе",
+      "eventLanguages": [
+        {
+          "code": "LT",
+          "label": "Литовский",
+          "terms": [
+            "Lithuanian",
+            "lietuvių",
+            "литовский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copenhagen",
+      "canonicalCity": "Copenhagen",
+      "countryCode": "DK",
+      "name": {
+        "ru": "Копенгаген",
+        "en": "Copenhagen",
+        "de": "Kopenhagen"
+      },
+      "ianaTimezone": "Europe/Copenhagen",
+      "path": "copenhagen/index.html",
+      "currency": "DKK",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Копенгагене",
+      "eventLanguages": [
+        {
+          "code": "DA",
+          "label": "Датский",
+          "terms": [
+            "Danish",
+            "dansk",
+            "датский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Русский",
+          "terms": [
+            "Russian",
+            "русский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dublin",
+      "canonicalCity": "Dublin",
+      "countryCode": "IE",
+      "name": {
+        "ru": "Дублин",
+        "en": "Dublin",
+        "de": "Dublin"
+      },
+      "ianaTimezone": "Europe/Dublin",
+      "path": "dublin/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Дублине",
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        },
+        {
+          "code": "GA",
+          "label": "Ирландский",
+          "terms": [
+            "Irish",
+            "Gaeilge",
+            "ирландский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stockholm",
+      "canonicalCity": "Stockholm",
+      "countryCode": "SE",
+      "name": {
+        "ru": "Стокгольм",
+        "en": "Stockholm",
+        "de": "Stockholm"
+      },
+      "ianaTimezone": "Europe/Stockholm",
+      "path": "stockholm/index.html",
+      "currency": "SEK",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Стокгольме",
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        },
+        {
+          "code": "SV",
+          "label": "Шведский",
+          "terms": [
+            "Swedish",
+            "Svenska",
+            "шведский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "helsinki",
+      "canonicalCity": "Helsinki",
+      "countryCode": "FI",
+      "name": {
+        "ru": "Хельсинки",
+        "en": "Helsinki",
+        "de": "Helsinki"
+      },
+      "ianaTimezone": "Europe/Helsinki",
+      "path": "helsinki/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Хельсинки",
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        },
+        {
+          "code": "FI",
+          "label": "Финский",
+          "terms": [
+            "Finnish",
+            "suomi",
+            "финский"
+          ]
+        },
+        {
+          "code": "SV",
+          "label": "Шведский",
+          "terms": [
+            "Swedish",
+            "Svenska",
+            "шведский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "canonicalCity": "Amsterdam",
+      "countryCode": "NL",
+      "name": {
+        "ru": "Амстердам",
+        "en": "Amsterdam",
+        "de": "Amsterdam"
+      },
+      "ianaTimezone": "Europe/Amsterdam",
+      "path": "amsterdam/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Амстердаме",
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        },
+        {
+          "code": "NL",
+          "label": "Нидерландский",
+          "terms": [
+            "Dutch",
+            "Nederlands",
+            "нидерландский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bratislava",
+      "canonicalCity": "Bratislava",
+      "countryCode": "SK",
+      "name": {
+        "ru": "Братислава",
+        "en": "Bratislava",
+        "de": "Bratislava"
+      },
+      "ianaTimezone": "Europe/Bratislava",
+      "path": "bratislava/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Братиславе",
+      "eventLanguages": [
+        {
+          "code": "SK",
+          "label": "Словацкий",
+          "terms": [
+            "Slovak",
+            "словацкий"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sofia",
+      "canonicalCity": "Sofia",
+      "countryCode": "BG",
+      "name": {
+        "ru": "София",
+        "en": "Sofia",
+        "de": "Sofia"
+      },
+      "ianaTimezone": "Europe/Sofia",
+      "path": "sofia/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Софии",
+      "eventLanguages": [
+        {
+          "code": "BG",
+          "label": "Болгарский",
+          "terms": [
+            "Bulgarian",
+            "болгарский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rome",
+      "canonicalCity": "Rome",
+      "countryCode": "IT",
+      "name": {
+        "ru": "Рим",
+        "en": "Rome",
+        "de": "Rom"
+      },
+      "ianaTimezone": "Europe/Rome",
+      "path": "rome/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Риме",
+      "eventLanguages": [
+        {
+          "code": "IT",
+          "label": "Итальянский",
+          "terms": [
+            "Italian",
+            "итальянский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "budapest",
+      "canonicalCity": "Budapest",
+      "countryCode": "HU",
+      "name": {
+        "ru": "Будапешт",
+        "en": "Budapest",
+        "de": "Budapest"
+      },
+      "ianaTimezone": "Europe/Budapest",
+      "path": "budapest/index.html",
+      "currency": "HUF",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Будапеште",
+      "eventLanguages": [
+        {
+          "code": "HU",
+          "label": "Венгерский",
+          "terms": [
+            "Hungarian",
+            "венгерский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brussels",
+      "canonicalCity": "Brussels",
+      "countryCode": "BE",
+      "name": {
+        "ru": "Брюссель",
+        "en": "Brussels",
+        "de": "Brüssel"
+      },
+      "ianaTimezone": "Europe/Brussels",
+      "path": "brussels/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Брюсселе",
+      "eventLanguages": [
+        {
+          "code": "FR",
+          "label": "Французский",
+          "terms": [
+            "French",
+            "французский"
+          ]
+        },
+        {
+          "code": "NL",
+          "label": "Нидерландский",
+          "terms": [
+            "Dutch",
+            "нидерландский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "athens",
+      "canonicalCity": "Athens",
+      "countryCode": "GR",
+      "name": {
+        "ru": "Афины",
+        "en": "Athens",
+        "de": "Athen"
+      },
+      "ianaTimezone": "Europe/Athens",
+      "path": "athens/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Афинах",
+      "eventLanguages": [
+        {
+          "code": "EL",
+          "label": "Греческий",
+          "terms": [
+            "Greek",
+            "греческий"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bucharest",
+      "canonicalCity": "Bucharest",
+      "countryCode": "RO",
+      "name": {
+        "ru": "Бухарест",
+        "en": "Bucharest",
+        "de": "Bukarest"
+      },
+      "ianaTimezone": "Europe/Bucharest",
+      "path": "bucharest/index.html",
+      "currency": "RON",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Бухаресте",
+      "eventLanguages": [
+        {
+          "code": "RO",
+          "label": "Румынский",
+          "terms": [
+            "Romanian",
+            "румынский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "podgorica",
+      "canonicalCity": "Podgorica",
+      "countryCode": "ME",
+      "name": {
+        "ru": "Подгорица",
+        "en": "Podgorica",
+        "de": "Podgorica"
+      },
+      "ianaTimezone": "Europe/Podgorica",
+      "path": "podgorica/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Подгорице",
+      "eventLanguages": [
+        {
+          "code": "ME",
+          "label": "Черногорский",
+          "terms": [
+            "Montenegrin",
+            "черногорский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zagreb",
+      "canonicalCity": "Zagreb",
+      "countryCode": "HR",
+      "name": {
+        "ru": "Загреб",
+        "en": "Zagreb",
+        "de": "Zagreb"
+      },
+      "ianaTimezone": "Europe/Zagreb",
+      "path": "zagreb/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Загребе",
+      "eventLanguages": [
+        {
+          "code": "HR",
+          "label": "Хорватский",
+          "terms": [
+            "Croatian",
+            "Hrvatski",
+            "хорватский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ljubljana",
+      "canonicalCity": "Ljubljana",
+      "countryCode": "SI",
+      "name": {
+        "ru": "Любляна",
+        "en": "Ljubljana",
+        "de": "Ljubljana"
+      },
+      "ianaTimezone": "Europe/Ljubljana",
+      "path": "ljubljana/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Любляне",
+      "eventLanguages": [
+        {
+          "code": "SL",
+          "label": "Словенский",
+          "terms": [
+            "Slovenian",
+            "slovenščina",
+            "словенский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skopje",
+      "canonicalCity": "Skopje",
+      "countryCode": "MK",
+      "name": {
+        "ru": "Скопье",
+        "en": "Skopje",
+        "de": "Skopje"
+      },
+      "ianaTimezone": "Europe/Skopje",
+      "path": "skopje/index.html",
+      "currency": "MKD",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5,
+      "nameLocativeRu": "Скопье",
+      "eventLanguages": [
+        {
+          "code": "MK",
+          "label": "Македонский",
+          "terms": [
+            "Macedonian",
+            "македонски",
+            "македонский"
+          ]
+        },
+        {
+          "code": "EN",
+          "label": "Английский",
+          "terms": [
+            "English",
+            "английский"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sarajevo",
+      "canonicalCity": "Sarajevo",
+      "countryCode": "BA",
+      "name": {
+        "ru": "Сараево",
+        "en": "Sarajevo",
+        "de": "Sarajevo"
+      },
+      "ianaTimezone": "Europe/Sarajevo",
+      "path": "sarajevo/index.html",
+      "currency": "BAM",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Сараево",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "ankara",
+      "canonicalCity": "Ankara",
+      "countryCode": "TR",
+      "name": {
+        "ru": "Анкара",
+        "en": "Ankara",
+        "de": "Ankara"
+      },
+      "ianaTimezone": "Europe/Istanbul",
+      "path": "ankara/index.html",
+      "currency": "TRY",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Анкаре",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "nicosia",
+      "canonicalCity": "Nicosia",
+      "countryCode": "CY",
+      "name": {
+        "ru": "Никосия",
+        "en": "Nicosia",
+        "de": "Nikosia"
+      },
+      "ianaTimezone": "Asia/Nicosia",
+      "path": "nicosia/index.html",
+      "currency": "EUR",
+      "allowedCurrencies": [
+        "EUR"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Никосии",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "abu-dhabi",
+      "canonicalCity": "Abu Dhabi",
+      "countryCode": "AE",
+      "name": {
+        "ru": "Абу-Даби",
+        "en": "Abu Dhabi",
+        "de": "Abu Dhabi"
+      },
+      "ianaTimezone": "Asia/Dubai",
+      "path": "abu-dhabi/index.html",
+      "currency": "AED",
+      "allowedCurrencies": [
+        "AED",
+        "USD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Абу-Даби",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "tirana",
+      "canonicalCity": "Tirana",
+      "countryCode": "AL",
+      "name": {
+        "ru": "Тирана",
+        "en": "Tirana",
+        "de": "Tirana"
+      },
+      "ianaTimezone": "Europe/Tirane",
+      "path": "tirana/index.html",
+      "currency": "ALL",
+      "allowedCurrencies": [
+        "ALL",
+        "EUR",
+        "USD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Тиране",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "valletta",
+      "canonicalCity": "Valletta",
+      "countryCode": "MT",
+      "name": {
+        "ru": "Валлетта",
+        "en": "Valletta",
+        "de": "Valletta"
+      },
+      "ianaTimezone": "Europe/Malta",
+      "path": "valletta/index.html",
+      "currency": "EUR",
+      "allowedCurrencies": [
+        "EUR"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Валлетте",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "doha",
+      "canonicalCity": "Doha",
+      "countryCode": "QA",
+      "name": {
+        "ru": "Доха",
+        "en": "Doha",
+        "de": "Doha"
+      },
+      "ianaTimezone": "Asia/Qatar",
+      "path": "doha/index.html",
+      "currency": "QAR",
+      "allowedCurrencies": [
+        "QAR"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Дохе",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "manama",
+      "canonicalCity": "Manama",
+      "countryCode": "BH",
+      "name": {
+        "ru": "Манама",
+        "en": "Manama",
+        "de": "Manama"
+      },
+      "ianaTimezone": "Asia/Bahrain",
+      "path": "manama/index.html",
+      "currency": "BHD",
+      "allowedCurrencies": [
+        "BHD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Манаме",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "tokyo",
+      "canonicalCity": "Tokyo",
+      "countryCode": "JP",
+      "name": {
+        "ru": "Токио",
+        "en": "Tokyo",
+        "de": "Tokio"
+      },
+      "ianaTimezone": "Asia/Tokyo",
+      "path": "tokyo/index.html",
+      "currency": "JPY",
+      "allowedCurrencies": [
+        "JPY"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Токио",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "seoul",
+      "canonicalCity": "Seoul",
+      "countryCode": "KR",
+      "name": {
+        "ru": "Сеул",
+        "en": "Seoul",
+        "de": "Seoul"
+      },
+      "ianaTimezone": "Asia/Seoul",
+      "path": "seoul/index.html",
+      "currency": "KRW",
+      "allowedCurrencies": [
+        "KRW"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Сеуле",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "bangkok",
+      "canonicalCity": "Bangkok",
+      "countryCode": "TH",
+      "name": {
+        "ru": "Бангкок",
+        "en": "Bangkok",
+        "de": "Bangkok"
+      },
+      "ianaTimezone": "Asia/Bangkok",
+      "path": "bangkok/index.html",
+      "currency": "THB",
+      "allowedCurrencies": [
+        "THB"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Бангкоке",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "singapore",
+      "canonicalCity": "Singapore",
+      "countryCode": "SG",
+      "name": {
+        "ru": "Сингапур",
+        "en": "Singapore",
+        "de": "Singapur"
+      },
+      "ianaTimezone": "Asia/Singapore",
+      "path": "singapore/index.html",
+      "currency": "SGD",
+      "allowedCurrencies": [
+        "SGD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Сингапуре",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "washington",
+      "canonicalCity": "Washington, D.C.",
+      "countryCode": "US",
+      "name": {
+        "ru": "Вашингтон",
+        "en": "Washington, D.C.",
+        "de": "Washington, D.C."
+      },
+      "ianaTimezone": "America/New_York",
+      "path": "washington/index.html",
+      "currency": "USD",
+      "allowedCurrencies": [
+        "USD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Вашингтоне",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "kuala-lumpur",
+      "canonicalCity": "Kuala Lumpur",
+      "countryCode": "MY",
+      "name": {
+        "ru": "Куала-Лумпур",
+        "en": "Kuala Lumpur",
+        "de": "Kuala Lumpur"
+      },
+      "ianaTimezone": "Asia/Kuala_Lumpur",
+      "path": "kuala-lumpur/index.html",
+      "currency": "MYR",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Куала-Лумпуре",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "mexico-city",
+      "canonicalCity": "Mexico City",
+      "countryCode": "MX",
+      "name": {
+        "ru": "Мехико",
+        "en": "Mexico City",
+        "de": "Mexiko-Stadt"
+      },
+      "ianaTimezone": "America/Mexico_City",
+      "path": "mexico-city/index.html",
+      "currency": "MXN",
+      "allowedCurrencies": [
+        "MXN"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Мехико",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "ottawa",
+      "canonicalCity": "Ottawa",
+      "countryCode": "CA",
+      "name": {
+        "ru": "Оттава",
+        "en": "Ottawa",
+        "de": "Ottawa"
+      },
+      "ianaTimezone": "America/Toronto",
+      "path": "ottawa/index.html",
+      "currency": "CAD",
+      "allowedCurrencies": [
+        "CAD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Оттаве",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "hanoi",
+      "canonicalCity": "Hanoi",
+      "countryCode": "VN",
+      "name": {
+        "ru": "Ханой",
+        "en": "Hanoi",
+        "de": "Hanoi"
+      },
+      "ianaTimezone": "Asia/Ho_Chi_Minh",
+      "path": "hanoi/index.html",
+      "currency": "VND",
+      "allowedCurrencies": [
+        "VND"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Ханое",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "new-delhi",
+      "canonicalCity": "New Delhi",
+      "countryCode": "IN",
+      "name": {
+        "ru": "Нью-Дели",
+        "en": "New Delhi",
+        "de": "Neu-Delhi"
+      },
+      "ianaTimezone": "Asia/Kolkata",
+      "path": "new-delhi/index.html",
+      "currency": "INR",
+      "allowedCurrencies": [
+        "INR"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Нью-Дели",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "lima",
+      "canonicalCity": "Lima",
+      "countryCode": "PE",
+      "name": {
+        "ru": "Лима",
+        "en": "Lima",
+        "de": "Lima"
+      },
+      "ianaTimezone": "America/Lima",
+      "path": "lima/index.html",
+      "currency": "PEN",
+      "allowedCurrencies": [
+        "PEN"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Лиме",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "bogota",
+      "canonicalCity": "Bogotá",
+      "countryCode": "CO",
+      "name": {
+        "ru": "Богота",
+        "en": "Bogotá",
+        "de": "Bogotá"
+      },
+      "ianaTimezone": "America/Bogota",
+      "path": "bogota/index.html",
+      "currency": "COP",
+      "allowedCurrencies": [
+        "COP"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Боготе",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "montevideo",
+      "canonicalCity": "Montevideo",
+      "countryCode": "UY",
+      "name": {
+        "ru": "Монтевидео",
+        "en": "Montevideo",
+        "de": "Montevideo"
+      },
+      "ianaTimezone": "America/Montevideo",
+      "path": "montevideo/index.html",
+      "currency": "UYU",
+      "allowedCurrencies": [
+        "UYU"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Монтевидео",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "santiago",
+      "canonicalCity": "Santiago",
+      "countryCode": "CL",
+      "name": {
+        "ru": "Сантьяго",
+        "en": "Santiago",
+        "de": "Santiago"
+      },
+      "ianaTimezone": "America/Santiago",
+      "path": "santiago/index.html",
+      "currency": "CLP",
+      "allowedCurrencies": [
+        "CLP"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Сантьяго",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "quito",
+      "canonicalCity": "Quito",
+      "countryCode": "EC",
+      "name": {
+        "ru": "Кито",
+        "en": "Quito",
+        "de": "Quito"
+      },
+      "ianaTimezone": "America/Guayaquil",
+      "path": "quito/index.html",
+      "currency": "USD",
+      "allowedCurrencies": [
+        "USD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Кито",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "asuncion",
+      "canonicalCity": "Asunción",
+      "countryCode": "PY",
+      "name": {
+        "ru": "Асунсьон",
+        "en": "Asunción",
+        "de": "Asunción"
+      },
+      "ianaTimezone": "America/Asuncion",
+      "path": "asuncion/index.html",
+      "currency": "PYG",
+      "allowedCurrencies": [
+        "PYG",
+        "EUR"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Асунсьоне",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "guatemala-city",
+      "canonicalCity": "Guatemala City",
+      "countryCode": "GT",
+      "name": {
+        "ru": "Гватемала",
+        "en": "Guatemala City",
+        "de": "Guatemala-Stadt"
+      },
+      "ianaTimezone": "America/Guatemala",
+      "path": "guatemala-city/index.html",
+      "currency": "GTQ",
+      "allowedCurrencies": [
+        "GTQ"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Гватемале",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "panama-city",
+      "canonicalCity": "Panama City",
+      "countryCode": "PA",
+      "name": {
+        "ru": "Панама",
+        "en": "Panama City",
+        "de": "Panama-Stadt"
+      },
+      "ianaTimezone": "America/Panama",
+      "path": "panama-city/index.html",
+      "currency": "USD",
+      "allowedCurrencies": [
+        "USD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Панаме",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "san-salvador",
+      "canonicalCity": "San Salvador",
+      "countryCode": "SV",
+      "name": {
+        "ru": "Сан-Сальвадор",
+        "en": "San Salvador",
+        "de": "San Salvador"
+      },
+      "ianaTimezone": "America/El_Salvador",
+      "path": "san-salvador/index.html",
+      "currency": "USD",
+      "allowedCurrencies": [
+        "USD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Сан-Сальвадоре",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "santo-domingo",
+      "canonicalCity": "Santo Domingo",
+      "countryCode": "DO",
+      "name": {
+        "ru": "Санто-Доминго",
+        "en": "Santo Domingo",
+        "de": "Santo Domingo"
+      },
+      "ianaTimezone": "America/Santo_Domingo",
+      "path": "santo-domingo/index.html",
+      "currency": "DOP",
+      "allowedCurrencies": [
+        "DOP"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Санто-Доминго",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "port-of-spain",
+      "canonicalCity": "Port of Spain",
+      "countryCode": "TT",
+      "name": {
+        "ru": "Порт-оф-Спейн",
+        "en": "Port of Spain",
+        "de": "Port of Spain"
+      },
+      "ianaTimezone": "America/Port_of_Spain",
+      "path": "port-of-spain/index.html",
+      "currency": "TTD",
+      "allowedCurrencies": [
+        "TTD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Порт-оф-Спейне",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "rabat",
+      "canonicalCity": "Rabat",
+      "countryCode": "MA",
+      "name": {
+        "ru": "Рабат",
+        "en": "Rabat",
+        "de": "Rabat"
+      },
+      "ianaTimezone": "Africa/Casablanca",
+      "path": "rabat/index.html",
+      "currency": "MAD",
+      "allowedCurrencies": [
+        "MAD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Рабате",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "bridgetown",
+      "canonicalCity": "Bridgetown",
+      "countryCode": "BB",
+      "name": {
+        "ru": "Бриджтаун",
+        "en": "Bridgetown",
+        "de": "Bridgetown"
+      },
+      "ianaTimezone": "America/Barbados",
+      "path": "bridgetown/index.html",
+      "currency": "BBD",
+      "allowedCurrencies": [
+        "BBD",
+        "USD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Бриджтауне",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "dakar",
+      "canonicalCity": "Dakar",
+      "countryCode": "SN",
+      "name": {
+        "ru": "Дакар",
+        "en": "Dakar",
+        "de": "Dakar"
+      },
+      "ianaTimezone": "Africa/Dakar",
+      "path": "dakar/index.html",
+      "currency": "XOF",
+      "allowedCurrencies": [
+        "XOF"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Дакаре",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "tunis",
+      "canonicalCity": "Tunis",
+      "countryCode": "TN",
+      "name": {
+        "ru": "Тунис",
+        "en": "Tunis",
+        "de": "Tunis"
+      },
+      "ianaTimezone": "Africa/Tunis",
+      "path": "tunis/index.html",
+      "currency": "TND",
+      "allowedCurrencies": [
+        "TND"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Тунисе",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "accra",
+      "canonicalCity": "Accra",
+      "countryCode": "GH",
+      "name": {
+        "ru": "Аккра",
+        "en": "Accra",
+        "de": "Accra"
+      },
+      "ianaTimezone": "Africa/Accra",
+      "path": "accra/index.html",
+      "currency": "GHS",
+      "allowedCurrencies": [
+        "GHS",
+        "USD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Аккре",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "algiers",
+      "canonicalCity": "Algiers",
+      "countryCode": "DZ",
+      "name": {
+        "ru": "Алжир",
+        "en": "Algiers",
+        "de": "Algier"
+      },
+      "ianaTimezone": "Africa/Algiers",
+      "path": "algiers/index.html",
+      "currency": "DZD",
+      "allowedCurrencies": [
+        "DZD"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Алжире",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "reykjavik",
+      "canonicalCity": "Reykjavík",
+      "countryCode": "IS",
+      "name": {
+        "ru": "Рейкьявик",
+        "en": "Reykjavík",
+        "de": "Reykjavík"
+      },
+      "ianaTimezone": "Atlantic/Reykjavik",
+      "path": "reykjavik/index.html",
+      "currency": "ISK",
+      "allowedCurrencies": [
+        "ISK"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Рейкьявике",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "luxembourg",
+      "canonicalCity": "Luxembourg",
+      "countryCode": "LU",
+      "name": {
+        "ru": "Люксембург",
+        "en": "Luxembourg",
+        "de": "Luxemburg"
+      },
+      "nameLocativeRu": "Люксембурге",
+      "ianaTimezone": "Europe/Luxembourg",
+      "path": "luxembourg/index.html",
+      "currency": "EUR",
+      "allowedCurrencies": [
+        "EUR"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "cape-town",
+      "canonicalCity": "Cape Town",
+      "countryCode": "ZA",
+      "name": {
+        "ru": "Кейптаун",
+        "en": "Cape Town",
+        "de": "Kapstadt"
+      },
+      "ianaTimezone": "Africa/Johannesburg",
+      "path": "cape-town/index.html",
+      "currency": "ZAR",
+      "allowedCurrencies": [
+        "ZAR"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Кейптауне",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "bern",
+      "canonicalCity": "Bern",
+      "countryCode": "CH",
+      "name": {
+        "ru": "Берн",
+        "en": "Bern",
+        "de": "Bern"
+      },
+      "ianaTimezone": "Europe/Zurich",
+      "path": "bern/index.html",
+      "currency": "CHF",
+      "allowedCurrencies": [
+        "CHF"
+      ],
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "nameLocativeRu": "Берне",
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0.5
+    },
+    {
+      "id": "toronto",
+      "canonicalCity": "Toronto",
+      "countryCode": "CA",
+      "name": {
+        "ru": "Торонто",
+        "en": "Toronto",
+        "de": "Toronto",
+        "fr": "Toronto"
+      },
+      "nameLocativeRu": "Торонто",
+      "ianaTimezone": "America/Toronto",
+      "path": "toronto/index.html",
+      "currency": "CAD",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0,
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "English",
+          "terms": [
+            "en"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Russian",
+          "terms": [
+            "ru"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montreal",
+      "canonicalCity": "Montréal",
+      "countryCode": "CA",
+      "name": {
+        "ru": "Монреаль",
+        "en": "Montréal",
+        "de": "Montréal",
+        "fr": "Montréal"
+      },
+      "nameLocativeRu": "Монреале",
+      "ianaTimezone": "America/Toronto",
+      "path": "montreal/index.html",
+      "currency": "CAD",
+      "interfaceLanguages": [
+        "ru",
+        "en",
+        "fr-CA"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0,
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "English",
+          "terms": [
+            "en"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Russian",
+          "terms": [
+            "ru"
+          ]
+        },
+        {
+          "code": "FR",
+          "label": "French",
+          "terms": [
+            "fr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hamburg",
+      "canonicalCity": "Hamburg",
+      "countryCode": "DE",
+      "name": {
+        "ru": "Гамбург",
+        "en": "Hamburg",
+        "de": "Hamburg",
+        "fr": "Hamburg"
+      },
+      "nameLocativeRu": "Гамбурге",
+      "ianaTimezone": "Europe/Berlin",
+      "path": "hamburg/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en",
+        "de"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0,
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "English",
+          "terms": [
+            "en"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Russian",
+          "terms": [
+            "ru"
+          ]
+        },
+        {
+          "code": "DE",
+          "label": "German",
+          "terms": [
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "munich",
+      "canonicalCity": "Munich",
+      "countryCode": "DE",
+      "name": {
+        "ru": "Мюнхен",
+        "en": "Munich",
+        "de": "München",
+        "fr": "Munich"
+      },
+      "nameLocativeRu": "Мюнхене",
+      "ianaTimezone": "Europe/Berlin",
+      "path": "munich/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en",
+        "de"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0,
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "English",
+          "terms": [
+            "en"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Russian",
+          "terms": [
+            "ru"
+          ]
+        },
+        {
+          "code": "DE",
+          "label": "German",
+          "terms": [
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicago",
+      "canonicalCity": "Chicago",
+      "countryCode": "US",
+      "name": {
+        "ru": "Чикаго",
+        "en": "Chicago",
+        "de": "Chicago"
+      },
+      "nameLocativeRu": "Чикаго",
+      "ianaTimezone": "America/Chicago",
+      "path": "chicago/index.html",
+      "currency": "USD",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0,
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "English",
+          "terms": [
+            "en"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Russian",
+          "terms": [
+            "ru"
+          ]
+        },
+        {
+          "code": "ES",
+          "label": "Spanish",
+          "terms": [
+            "es"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "philadelphia",
+      "canonicalCity": "Philadelphia",
+      "countryCode": "US",
+      "name": {
+        "ru": "Филадельфия",
+        "en": "Philadelphia",
+        "de": "Philadelphia"
+      },
+      "nameLocativeRu": "Филадельфии",
+      "ianaTimezone": "America/New_York",
+      "path": "philadelphia/index.html",
+      "currency": "USD",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0,
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "English",
+          "terms": [
+            "en"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Russian",
+          "terms": [
+            "ru"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "los-angeles",
+      "canonicalCity": "Los Angeles",
+      "countryCode": "US",
+      "name": {
+        "ru": "Лос-Анджелес",
+        "en": "Los Angeles",
+        "de": "Los Angeles"
+      },
+      "nameLocativeRu": "Лос-Анджелесе",
+      "ianaTimezone": "America/Los_Angeles",
+      "path": "los-angeles/index.html",
+      "currency": "USD",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0,
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "English",
+          "terms": [
+            "en"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Russian",
+          "terms": [
+            "ru"
+          ]
+        },
+        {
+          "code": "ES",
+          "label": "Spanish",
+          "terms": [
+            "es",
+            "spanish"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "san-diego",
+      "canonicalCity": "San Diego",
+      "countryCode": "US",
+      "name": {
+        "ru": "Сан-Диего",
+        "en": "San Diego",
+        "de": "San Diego"
+      },
+      "nameLocativeRu": "Сан-Диего",
+      "ianaTimezone": "America/Los_Angeles",
+      "path": "san-diego/index.html",
+      "currency": "USD",
+      "interfaceLanguages": [
+        "ru",
+        "en"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0,
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "English",
+          "terms": [
+            "en"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Russian",
+          "terms": [
+            "ru"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cologne",
+      "canonicalCity": "Cologne",
+      "countryCode": "DE",
+      "name": {
+        "ru": "Кёльн",
+        "en": "Cologne",
+        "de": "Köln"
+      },
+      "nameLocativeRu": "Кёльне",
+      "ianaTimezone": "Europe/Berlin",
+      "path": "cologne/index.html",
+      "currency": "EUR",
+      "interfaceLanguages": [
+        "ru",
+        "en",
+        "de"
+      ],
+      "defaultDateView": "week",
+      "defaultRadiusKm": 0,
+      "eventLanguages": [
+        {
+          "code": "EN",
+          "label": "English",
+          "terms": [
+            "en"
+          ]
+        },
+        {
+          "code": "RU",
+          "label": "Russian",
+          "terms": [
+            "ru"
+          ]
+        },
+        {
+          "code": "DE",
+          "label": "German",
+          "terms": [
+            "de"
+          ]
+        },
+        {
+          "code": "ES",
+          "label": "Spanish",
+          "terms": [
+            "es"
+          ]
+        },
+        {
+          "code": "TR",
+          "label": "Turkish",
+          "terms": [
+            "tr"
+          ]
+        }
+      ]
+    }
+  ],
+  "countries": {
+    "CY": {
+      "en": "Cyprus",
+      "ru": "Кипр",
+      "de": "Zypern"
+    },
+    "TR": {
+      "en": "Türkiye",
+      "ru": "Турция",
+      "de": "Türkei"
+    },
+    "KZ": {
+      "en": "Kazakhstan",
+      "ru": "Казахстан",
+      "de": "Kasachstan"
+    },
+    "AE": {
+      "en": "United Arab Emirates",
+      "ru": "ОАЭ",
+      "de": "Vereinigte Arabische Emirate"
+    },
+    "IL": {
+      "en": "Israel",
+      "ru": "Израиль",
+      "de": "Israel"
+    },
+    "CZ": {
+      "en": "Czechia",
+      "ru": "Чехия",
+      "de": "Tschechien"
+    },
+    "ES": {
+      "en": "Spain",
+      "ru": "Испания",
+      "de": "Spanien",
+      "es": "España"
+    },
+    "UZ": {
+      "ru": "Узбекистан",
+      "en": "Uzbekistan",
+      "de": "Usbekistan"
+    },
+    "KG": {
+      "ru": "Кыргызстан",
+      "en": "Kyrgyzstan",
+      "de": "Kirgisistan"
+    },
+    "BY": {
+      "ru": "Беларусь",
+      "en": "Belarus",
+      "de": "Belarus"
+    },
+    "AZ": {
+      "ru": "Азербайджан",
+      "en": "Azerbaijan",
+      "de": "Aserbaidschan"
+    },
+    "LV": {
+      "en": "Latvia",
+      "ru": "Латвия",
+      "de": "Lettland"
+    },
+    "NO": {
+      "ru": "Норвегия",
+      "en": "Norway",
+      "de": "Norwegen"
+    },
+    "AR": {
+      "ru": "Аргентина",
+      "en": "Argentina",
+      "de": "Argentinien"
+    },
+    "BR": {
+      "ru": "Бразилия",
+      "en": "Brazil",
+      "de": "Brasilien"
+    },
+    "EE": {
+      "ru": "Эстония",
+      "en": "Estonia",
+      "de": "Estland"
+    },
+    "PL": {
+      "ru": "Польша",
+      "en": "Poland",
+      "de": "Polen"
+    },
+    "PT": {
+      "ru": "Португалия",
+      "en": "Portugal",
+      "de": "Portugal"
+    },
+    "MD": {
+      "ru": "Молдова",
+      "en": "Moldova",
+      "de": "Moldau"
+    },
+    "LT": {
+      "ru": "Литва",
+      "en": "Lithuania",
+      "de": "Litauen"
+    },
+    "DK": {
+      "ru": "Дания",
+      "en": "Denmark",
+      "de": "Dänemark"
+    },
+    "IE": {
+      "ru": "Ирландия",
+      "en": "Ireland",
+      "de": "Irland"
+    },
+    "SE": {
+      "ru": "Швеция",
+      "en": "Sweden",
+      "de": "Schweden"
+    },
+    "FI": {
+      "ru": "Финляндия",
+      "en": "Finland",
+      "de": "Finnland"
+    },
+    "NL": {
+      "ru": "Нидерланды",
+      "en": "Netherlands",
+      "de": "Niederlande"
+    },
+    "SK": {
+      "ru": "Словакия",
+      "en": "Slovakia",
+      "de": "Slowakei"
+    },
+    "BG": {
+      "ru": "Болгария",
+      "en": "Bulgaria",
+      "de": "Bulgarien"
+    },
+    "IT": {
+      "ru": "Италия",
+      "en": "Italy",
+      "de": "Italien"
+    },
+    "HU": {
+      "ru": "Венгрия",
+      "en": "Hungary",
+      "de": "Ungarn"
+    },
+    "BE": {
+      "ru": "Бельгия",
+      "en": "Belgium",
+      "de": "Belgien"
+    },
+    "GR": {
+      "ru": "Греция",
+      "en": "Greece",
+      "de": "Griechenland"
+    },
+    "RO": {
+      "ru": "Румыния",
+      "en": "Romania",
+      "de": "Rumänien"
+    },
+    "ME": {
+      "ru": "Черногория",
+      "en": "Montenegro",
+      "de": "Montenegro"
+    },
+    "HR": {
+      "ru": "Хорватия",
+      "en": "Croatia",
+      "de": "Kroatien"
+    },
+    "SI": {
+      "ru": "Словения",
+      "en": "Slovenia",
+      "de": "Slowenien"
+    },
+    "MK": {
+      "ru": "Северная Македония",
+      "en": "North Macedonia",
+      "de": "Nordmazedonien"
+    },
+    "BA": {
+      "ru": "Босния и Герцеговина",
+      "en": "Bosnia and Herzegovina",
+      "de": "Bosnien und Herzegowina"
+    },
+    "AL": {
+      "ru": "Албания",
+      "en": "Albania",
+      "de": "Albanien"
+    },
+    "MT": {
+      "ru": "Мальта",
+      "en": "Malta",
+      "de": "Malta"
+    },
+    "QA": {
+      "ru": "Катар",
+      "en": "Qatar",
+      "de": "Katar"
+    },
+    "BH": {
+      "ru": "Бахрейн",
+      "en": "Bahrain",
+      "de": "Bahrain"
+    },
+    "JP": {
+      "ru": "Япония",
+      "en": "Japan",
+      "de": "Japan"
+    },
+    "KR": {
+      "ru": "Южная Корея",
+      "en": "South Korea",
+      "de": "Südkorea"
+    },
+    "TH": {
+      "ru": "Таиланд",
+      "en": "Thailand",
+      "de": "Thailand"
+    },
+    "SG": {
+      "ru": "Сингапур",
+      "en": "Singapore",
+      "de": "Singapur"
+    },
+    "MY": {
+      "ru": "Малайзия",
+      "en": "Malaysia",
+      "de": "Malaysia"
+    },
+    "MX": {
+      "ru": "Мексика",
+      "en": "Mexico",
+      "de": "Mexiko"
+    },
+    "CA": {
+      "ru": "Канада",
+      "en": "Canada",
+      "de": "Kanada"
+    },
+    "VN": {
+      "ru": "Вьетнам",
+      "en": "Vietnam",
+      "de": "Vietnam"
+    },
+    "IN": {
+      "ru": "Индия",
+      "en": "India",
+      "de": "Indien"
+    },
+    "PE": {
+      "ru": "Перу",
+      "en": "Peru",
+      "de": "Peru"
+    },
+    "CO": {
+      "ru": "Колумбия",
+      "en": "Colombia",
+      "de": "Kolumbien"
+    },
+    "UY": {
+      "ru": "Уругвай",
+      "en": "Uruguay",
+      "de": "Uruguay"
+    },
+    "CL": {
+      "ru": "Чили",
+      "en": "Chile",
+      "de": "Chile"
+    },
+    "EC": {
+      "ru": "Эквадор",
+      "en": "Ecuador",
+      "de": "Ecuador"
+    },
+    "PY": {
+      "ru": "Парагвай",
+      "en": "Paraguay",
+      "de": "Paraguay"
+    },
+    "GT": {
+      "ru": "Гватемала",
+      "en": "Guatemala",
+      "de": "Guatemala"
+    },
+    "PA": {
+      "ru": "Панама",
+      "en": "Panama",
+      "de": "Panama"
+    },
+    "SV": {
+      "ru": "Сальвадор",
+      "en": "El Salvador",
+      "de": "El Salvador"
+    },
+    "DO": {
+      "ru": "Доминиканская Республика",
+      "en": "Dominican Republic",
+      "de": "Dominikanische Republik"
+    },
+    "TT": {
+      "ru": "Тринидад и Тобаго",
+      "en": "Trinidad and Tobago",
+      "de": "Trinidad und Tobago"
+    },
+    "MA": {
+      "ru": "Марокко",
+      "en": "Morocco",
+      "de": "Marokko"
+    },
+    "BB": {
+      "ru": "Барбадос",
+      "en": "Barbados",
+      "de": "Barbados"
+    },
+    "SN": {
+      "ru": "Сенегал",
+      "en": "Senegal",
+      "de": "Senegal"
+    },
+    "TN": {
+      "ru": "Тунис",
+      "en": "Tunisia",
+      "de": "Tunesien"
+    },
+    "GH": {
+      "ru": "Гана",
+      "en": "Ghana",
+      "de": "Ghana"
+    },
+    "DZ": {
+      "ru": "Алжир",
+      "en": "Algeria",
+      "de": "Algerien"
+    },
+    "IS": {
+      "ru": "Исландия",
+      "en": "Iceland",
+      "de": "Island"
+    },
+    "LU": {
+      "ru": "Люксембург",
+      "en": "Luxembourg",
+      "de": "Luxemburg"
+    },
+    "ZA": {
+      "ru": "ЮАР",
+      "en": "South Africa",
+      "de": "Südafrika"
+    },
+    "CH": {
+      "ru": "Швейцария",
+      "en": "Switzerland",
+      "de": "Schweiz"
+    }
+  }
+}

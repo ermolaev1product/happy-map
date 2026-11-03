@@ -1,0 +1,127 @@
+{
+  "schema": "happymap-moscow-expansion-v1",
+  "batch": "moscow-expansion-2026-10-14",
+  "verifiedAt": "2026-10-14T12:00:20.376Z",
+  "baseCommit": "565a4367f3330b6d6a11499cef9bd42c79ef9a1b",
+  "storedEventsBefore": 314,
+  "storedEventsAfter": 2733,
+  "newUniqueEvents": 2419,
+  "newCinemaSessions": 2283,
+  "newDistinctFilms": 111,
+  "newCulturalRecords": 136,
+  "newDistinctCulturalTitles": 98,
+  "newFullRunExhibitions": 19,
+  "independentPlacesBefore": 7,
+  "independentPlacesAfter": 68,
+  "independentPlacesWithPins": 67,
+  "connectedPlaceCards": 120,
+  "sourceAccessPointsReviewed": 98,
+  "heldCandidateGroups": 40,
+  "next7": [
+    {
+      "date": "2026-10-14",
+      "before": 13,
+      "after": 176,
+      "newUnique": 163,
+      "categories": {
+        "exhibition": 16,
+        "theatre": 0,
+        "lecture": 9,
+        "community": 3,
+        "music": 4,
+        "cinema": 144
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "before": 6,
+      "after": 294,
+      "newUnique": 288,
+      "categories": {
+        "exhibition": 16,
+        "theatre": 0,
+        "lecture": 6,
+        "community": 7,
+        "music": 2,
+        "cinema": 263
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "before": 7,
+      "after": 305,
+      "newUnique": 298,
+      "categories": {
+        "exhibition": 17,
+        "theatre": 0,
+        "lecture": 3,
+        "community": 6,
+        "music": 6,
+        "cinema": 273
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "before": 12,
+      "after": 318,
+      "newUnique": 306,
+      "categories": {
+        "exhibition": 17,
+        "theatre": 0,
+        "lecture": 5,
+        "community": 14,
+        "music": 6,
+        "cinema": 276
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "before": 11,
+      "after": 309,
+      "newUnique": 298,
+      "categories": {
+        "exhibition": 17,
+        "theatre": 0,
+        "lecture": 5,
+        "community": 15,
+        "music": 5,
+        "cinema": 267
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "before": 10,
+      "after": 267,
+      "newUnique": 257,
+      "categories": {
+        "exhibition": 1,
+        "theatre": 0,
+        "lecture": 4,
+        "community": 4,
+        "music": 4,
+        "cinema": 254
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "before": 5,
+      "after": 277,
+      "newUnique": 272,
+      "categories": {
+        "exhibition": 15,
+        "theatre": 0,
+        "lecture": 3,
+        "community": 3,
+        "music": 3,
+        "cinema": 253
+      }
+    }
+  ],
+  "limitations": [
+    "Selected public sources; not complete city coverage or proof of continuous automatic import.",
+    "Session counts are separate from distinct programmes and permanent places.",
+    "Ticket capacity and unlisted payment fees are unconfirmed.",
+    "Exact meeting pins are still unresolved for three walking-tour meeting points.",
+    "Exhibitions retain complete date runs and weekly/exception hours. The existing time-of-day filter excludes exhibitions with no single session start; one split opening day is conservatively hidden after its first visit window."
+  ]
+}

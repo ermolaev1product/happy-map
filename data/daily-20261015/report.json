@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-15",
+  "completeDailyCheck": false,
+  "reason": "Bounded priority-source pass; full registries, menus and cinema horizon not fully refreshed. Do not count toward 14 successful daily checks.",
+  "cities": {
+    "tbilisi": {
+      "added": 12,
+      "updated": 1,
+      "addedIds": [
+        "tg:auditoria_tbilisi:7595:2026-10-15:2000",
+        "tg:auditoria_tbilisi:7600:2026-10-17:1930",
+        "tg:tiflis_books:6570:2026-10-15:1900",
+        "tg:quizplease_tbls:3294:2026-10-20:2000",
+        "tg:mesto_info:2891:2026-10-16:1900:night-of-masks-tabletop-rpg-one-sho",
+        "tg:mesto_info:2891:2026-10-17:1200:twilight-imperium-board-game",
+        "tg:mesto_info:2891:2026-10-18:1300:berserk-card-game",
+        "tg:mesto_info:2891:2026-10-18:1400:star-wars-rebellion-board-game",
+        "tg:mesto_info:2891:2026-10-19:1930:game-of-the-week",
+        "tg:mesto_info:2891:2026-10-20:1930:sorcery-contested-realm",
+        "tg:mesto_info:2891:2026-10-20:1930:party-board-games",
+        "tg:mesto_info:2891:2026-10-20:1930:board-games-in-english"
+      ],
+      "updatedIds": [
+        "tg:mesto_info:2878:2026-10-18:heroes"
+      ],
+      "dailyCounts": {
+        "2026-10-15": 187,
+        "2026-10-16": 191,
+        "2026-10-17": 215,
+        "2026-10-18": 192,
+        "2026-10-19": 162,
+        "2026-10-20": 160,
+        "2026-10-21": 7
+      }
+    },
+    "belgrade": {
+      "added": 19,
+      "updated": 0,
+      "addedIds": [
+        "bg-daily-auditoria_belgrade-1783",
+        "bg-daily-auditoria_belgrade-1785",
+        "bg-daily-triptix_belgrade-1582",
+        "bg-daily-vranin_tavan-1016",
+        "bg-daily-vranin_tavan-1015",
+        "bg-daily-vranin_tavan-1010",
+        "bg-daily-vranin_tavan-1011",
+        "bg-daily-vranin_tavan-1013",
+        "bg-daily-vranin_tavan-1012",
+        "bg-daily-blackcat_beograd-1495",
+        "bg-daily-blackcat_beograd-1496",
+        "kinoteka-2026-10-15-1700",
+        "kinoteka-2026-10-15-1900",
+        "kinoteka-2026-10-16-1800",
+        "kinoteka-2026-10-16-2100",
+        "kinoteka-2026-10-17-1700",
+        "kinoteka-2026-10-17-1900",
+        "kinoteka-2026-10-17-2100",
+        "kinoteka-2026-10-18-1700"
+      ],
+      "updatedIds": [],
+      "dailyCounts": {
+        "2026-10-15": 33,
+        "2026-10-16": 24,
+        "2026-10-17": 28,
+        "2026-10-18": 21,
+        "2026-10-19": 14,
+        "2026-10-20": 14,
+        "2026-10-21": 9
+      }
+    },
+    "moscow": {
+      "added": 3,
+      "updated": 0,
+      "addedIds": [
+        "daily-msk-rovesnik-chess-20261015",
+        "daily-msk-rovesnik-debate-20261017",
+        "daily-msk-zotov-nine-days-20261018"
+      ],
+      "updatedIds": [],
+      "dailyCounts": {
+        "2026-10-15": 314,
+        "2026-10-16": 330,
+        "2026-10-17": 355,
+        "2026-10-18": 334,
+        "2026-10-19": 297,
+        "2026-10-20": 296,
+        "2026-10-21": 270
+      }
+    }
+  },
+  "menuChecks": [
+    {
+      "url": "https://radiocafe.ge/ru/draft-beer",
+      "result": "10–11 GEL, 0.4 L reconfirmed; menu publication date absent."
+    },
+    {
+      "url": "https://smabar.ge/",
+      "result": "6.5–12.5 GEL prices visible; serving volume and menu date absent; not refreshed as complete menu."
+    },
+    {
+      "url": "https://gunnerspub.com/beers/",
+      "result": "Only menu header extractable; existing data/check date preserved."
+    }
+  ],
+  "qualityFixes": [
+    {
+      "placeId": "osm:node:637763969",
+      "removed": {
+        "min": 10,
+        "max": 20,
+        "currency": "GEL",
+        "unit": "Бокал; объём не указан",
+        "source": "Яндекс Карты",
+        "sourceUrl": "https://yandex.com/maps/org/muse/26798597160/",
+        "checkedAt": "2026-10-08T04:34:27.567258+00:00"
+      },
+      "reason": "Museum incorrectly matched to unrelated Muse bar."
+    }
+  ]
+}

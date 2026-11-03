@@ -1,0 +1,100 @@
+[
+  {
+    "cityId": "bishkek",
+    "id": "bishkek-ticketkg-0af6bc926e38",
+    "status": "held_for_recheck",
+    "reason": "Unresolved same venue/date/time programme conflict: existing Temirlan solo on24October20:00 versus freshly read Bishkek.events psychologists comedy show atSoldOut32A, same doors19:00. Fresh primaryTicket.kg returns403, so cannot determine replacement/cancellation. Hide disputed existing record pending organizer confirmation; do not delete history.",
+    "evidence": [
+      {
+        "url": "https://bishkek.events/event/stand-up-komiki-reshayut-problemy/",
+        "checkedAt": "2026-10-24T05:24:56.886615+00:00",
+        "status": "full_announcement_read",
+        "date": "2026-10-24",
+        "time": "20:00",
+        "venue": "Sold Out Bar",
+        "address": "Байтик Баатыра32А"
+      },
+      {
+        "url": "https://ticket.kg/event/temirlan-zhaldybaev-solnyi-stendap-kontsert",
+        "checkedAt": "2026-10-24T05:40:58.776949+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 403: Forbidden",
+        "previousSuccessfulCheck": "2026-10-19T08:09:02.651228+00:00"
+      }
+    ],
+    "nextAction": "Read fresh official SoldOut organizer/ticket announcement, resolveprogramme, then restore verified record only."
+  },
+  {
+    "cityId": "london",
+    "id": "ldn-c7d455c966c6ea66",
+    "updates": {
+      "date": "2026-02-17",
+      "startDate": "2026-02-17",
+      "endDate": "2026-11-08",
+      "time": null,
+      "kind": "event",
+      "visitingHours": {
+        "start": "10:00",
+        "end": "23:00",
+        "weekdays": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "closedWeekdays": [
+        1
+      ],
+      "price": 0,
+      "currency": "GBP",
+      "admission": "Free, no ticket. Under12 accompanied. Sitewide installation; events/buildingclosures may restrict access.",
+      "checkedAt": "2026-10-24T05:48:29Z",
+      "ongoing": true,
+      "scheduleType": "daily_opening_hours"
+    },
+    "reason": "Fresh official dates Feb17–Nov8 replace truncated baseline Oct11–17; preserve ID and history. Official Tue–Sun10–23, closedMon overrides primary daily placeholder.",
+    "evidence": [
+      {
+        "url": "https://www.southbankcentre.co.uk/whats-on/quentin-blake-the-southbank-parade/",
+        "checkedAt": "2026-10-24T05:48:29Z",
+        "status": "full_detail_read"
+      }
+    ]
+  },
+  {
+    "cityId": "prague",
+    "id": "prague-fece855b0bc7455f",
+    "updates": {
+      "venueId": "prague-a1bf6043fa9f",
+      "address": "Českomoravská 2345/17a, 190 00, Libeň, Praha 9",
+      "lat": 50.104880928515,
+      "lng": 14.493588676335,
+      "coordinateSource": "https://prague.eu/en/akce/tipsport-extraliga-hc-sparta-praha-matches-in-o2-arena/",
+      "coordinatePrecision": "venue",
+      "coordinateEvidence": "Reused current v168 named venue point; fresh event detail confirms same venue/address. Not fresh geocoding.",
+      "baselineVenueRecordId": "prague-5e91aada6f099285",
+      "venue": "O2 arena",
+      "doors": "18:30",
+      "price": 1948,
+      "currency": "CZK",
+      "priceNote": "1948–3010CZK; mandatoryfeesunknown.",
+      "checkedAt": "2026-10-24T05:44:30Z"
+    },
+    "reason": "PrimarysidebarincorrectO2universum; officialO2arenaconfirmsarenaOct30,2026at20:00. Preserve originalID/history, updatepin/venue notnewsession.",
+    "evidence": [
+      {
+        "url": "https://www.o2arena.cz/en/events/don-toliver-nitrous-octane-world-tour-leg-en/?lang=en",
+        "checkedAt": "2026-10-24T05:44:30Z",
+        "status": "full_official_read"
+      },
+      {
+        "url": "https://prague.eu/en/akce/tipsport-extraliga-hc-sparta-praha-matches-in-o2-arena/",
+        "checkedAt": "2026-10-24T05:44:30Z",
+        "status": "reused_baseline_named_venue_pin"
+      }
+    ]
+  }
+]

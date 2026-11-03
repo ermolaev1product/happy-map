@@ -1,0 +1,988 @@
+{
+  "cityId": "philadelphia",
+  "checkedAt": "2026-11-02T10:36:41Z",
+  "window": {
+    "startDate": "2026-11-02",
+    "endDate": "2026-12-01"
+  },
+  "events": [
+    {
+      "venue": "Philadelphia Museum of Art",
+      "venueEn": "Philadelphia Museum of Art",
+      "venueId": "philadelphia-pma",
+      "address": "2600 Benjamin Franklin Parkway, Philadelphia, PA 19130",
+      "lat": 39.965519,
+      "lng": -75.181053,
+      "coordinateSource": "https://www.latlong.net/place/philadelphia-museum-of-art-pa-usa-33298.html",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-marcel-duchamp",
+      "kind": "event",
+      "title": "Marcel Duchamp",
+      "titleEn": "Marcel Duchamp",
+      "date": "2026-10-10",
+      "time": null,
+      "category": "art",
+      "source": "Philadelphia Museum of Art",
+      "sourceUrl": "https://www.philamuseum.org/exhibitions/marcel-duchamp",
+      "checkedAt": "2026-11-02T10:45:37.132Z",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "price": 35,
+      "priceNote": "Timed entry35USD includes generaladmission; arrivalwindow1hour; queue may reach2hours, not eventduration.",
+      "yearEvidence": "Full current official programme states 2026 date, not inferred from download time.",
+      "dateType": "published_interval",
+      "endDate": "2027-01-31",
+      "openingHoursKnown": true,
+      "openingHours": {
+        "sun": [
+          "10:00",
+          "17:00"
+        ],
+        "mon": [
+          "10:00",
+          "17:00"
+        ],
+        "tue": null,
+        "wed": null,
+        "thu": [
+          "10:00",
+          "17:00"
+        ],
+        "fri": [
+          "10:00",
+          "20:45"
+        ],
+        "sat": [
+          "10:00",
+          "17:00"
+        ]
+      },
+      "openingHoursSource": "https://www.philamuseum.org/main-building",
+      "hall": "Dorrance Galleries281–283",
+      "closedDates": [
+        "2026-11-26",
+        "2026-12-25"
+      ],
+      "visitSchedule": {
+        "2026-10-10": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-11": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-12": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-15": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-16": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-18": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-19": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-22": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-23": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2026-10-24": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-25": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-26": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-02": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-09": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-16": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-23": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2026-11-28": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-29": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-11-30": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-03": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-04": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2026-12-05": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-06": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-07": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-10": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-11": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2026-12-12": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-13": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-14": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-17": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-18": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2026-12-19": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-20": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-21": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-24": {
+          "start": "10:00",
+          "end": "15:00"
+        },
+        "2026-12-26": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-27": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-28": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-12-31": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-01": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2027-01-02": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-03": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-04": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-07": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-08": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2027-01-09": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-10": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-11": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-14": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-15": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2027-01-16": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-17": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-18": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-21": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-22": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2027-01-23": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-24": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-25": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-28": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-29": {
+          "start": "10:00",
+          "end": "20:45"
+        },
+        "2027-01-30": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2027-01-31": {
+          "start": "10:00",
+          "end": "17:00"
+        }
+      },
+      "openingHoursCheckedAt": "2026-11-02T10:45:37.132Z",
+      "holidayHoursEvidence": "Expanded official Holiday Hours: Thanksgiving closed, Christmas Day closed, Christmas Eve10–15. New Year special status not stated; recheck required."
+    },
+    {
+      "venue": "Parkway Central Library",
+      "venueEn": "Parkway Central Library",
+      "venueId": "philadelphia-parkway-library",
+      "address": "1901 Vine Street, Philadelphia, PA 19103",
+      "lat": 39.959302,
+      "lng": -75.171102,
+      "coordinateSource": "https://www.philadelphiacenterforthebook.org/locations/free-library-of-philadelphia-central-parkway/",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-library-174471",
+      "kind": "event",
+      "title": "Science Film Series: An Inconvenient Truth and discussion",
+      "titleEn": "Science Film Series: An Inconvenient Truth and discussion",
+      "date": "2026-11-02",
+      "time": "17:30",
+      "category": "film",
+      "source": "Parkway Central Library",
+      "sourceUrl": "https://libwww.freelibrary.org/calendar/event/174471",
+      "checkedAt": "2026-11-02T10:31:47Z",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "price": 0,
+      "priceNote": "Officialeventstatesfree.",
+      "yearEvidence": "Full current official programme states 2026 date, not inferred from download time.",
+      "hall": "Room108"
+    },
+    {
+      "venue": "Parkway Central Library",
+      "venueEn": "Parkway Central Library",
+      "venueId": "philadelphia-parkway-library",
+      "address": "1901 Vine Street, Philadelphia, PA 19103",
+      "lat": 39.959302,
+      "lng": -75.171102,
+      "coordinateSource": "https://www.philadelphiacenterforthebook.org/locations/free-library-of-philadelphia-central-parkway/",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-library-174420",
+      "kind": "event",
+      "title": "Angela Nissel: Good Grief, Pass The Bread Mom is Dead",
+      "titleEn": "Angela Nissel: Good Grief, Pass The Bread Mom is Dead",
+      "date": "2026-11-03",
+      "time": "19:00",
+      "category": "talk",
+      "source": "Parkway Central Library",
+      "sourceUrl": "https://libwww.freelibrary.org/calendar/event/174420",
+      "checkedAt": "2026-11-02T10:31:47Z",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "price": 5,
+      "priceNote": "Registration required; nonrefundable5USD; donationoptional; fees unknown.",
+      "yearEvidence": "Full current official programme states 2026 date, not inferred from download time.",
+      "hall": ""
+    },
+    {
+      "venue": "Parkway Central Library",
+      "venueEn": "Parkway Central Library",
+      "venueId": "philadelphia-parkway-library",
+      "address": "1901 Vine Street, Philadelphia, PA 19103",
+      "lat": 39.959302,
+      "lng": -75.171102,
+      "coordinateSource": "https://www.philadelphiacenterforthebook.org/locations/free-library-of-philadelphia-central-parkway/",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-library-175833",
+      "kind": "event",
+      "title": "Jesse Wegman: The Lost Founder",
+      "titleEn": "Jesse Wegman: The Lost Founder",
+      "date": "2026-11-04",
+      "time": "19:00",
+      "category": "talk",
+      "source": "Parkway Central Library",
+      "sourceUrl": "https://libwww.freelibrary.org/calendar/event/175833",
+      "checkedAt": "2026-11-02T10:31:47Z",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "price": 5,
+      "priceNote": "Registration required; nonrefundable5USD; donationoptional; fees unknown.",
+      "yearEvidence": "Full current official programme states 2026 date, not inferred from download time.",
+      "hall": ""
+    },
+    {
+      "venue": "Barnes Foundation",
+      "venueEn": "Barnes Foundation",
+      "venueId": "philadelphia-barnes",
+      "address": "2025 Benjamin Franklin Parkway, Philadelphia, PA 19130",
+      "lat": 39.9606625,
+      "lng": -75.1728218224587,
+      "coordinateSource": "https://www.coordinatesfinder.com/coordinates/475017-barnes-foundation",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-barnes-first-friday-november-2026",
+      "kind": "event",
+      "title": "First Friday: Miki Yamanaka Trio & PAAFF",
+      "titleEn": "First Friday: Miki Yamanaka Trio & PAAFF",
+      "date": "2026-11-06",
+      "time": "18:00",
+      "category": "music",
+      "source": "Barnes Foundation",
+      "sourceUrl": "https://www.barnesfoundation.org/whats-on/first-friday-november-2026",
+      "checkedAt": "2026-11-02T10:31:47Z",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "price": 35,
+      "priceNote": "Public35USD; students10; limitedseating/standingpossible. Two performances18:30,19:45 within oneadmissionevent. Feesunknown.",
+      "yearEvidence": "CurrentofficialNovember2026programme andlinked2026URL/seasoncontext; notcopyrightalone.",
+      "hall": "",
+      "end": "21:00"
+    },
+    {
+      "venue": "Barnes Foundation",
+      "venueEn": "Barnes Foundation",
+      "venueId": "philadelphia-barnes",
+      "address": "2025 Benjamin Franklin Parkway, Philadelphia, PA 19130",
+      "lat": 39.9606625,
+      "lng": -75.1728218224587,
+      "coordinateSource": "https://www.coordinatesfinder.com/coordinates/475017-barnes-foundation",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-barnes-duchamps-fountain",
+      "kind": "event",
+      "title": "Duchamp’s Fountain: A Second Opinion",
+      "titleEn": "Duchamp’s Fountain: A Second Opinion",
+      "date": "2026-11-07",
+      "time": "12:00",
+      "category": "talk",
+      "source": "Barnes Foundation",
+      "sourceUrl": "https://www.barnesfoundation.org/whats-on/talks/duchamps-fountain",
+      "checkedAt": "2026-11-02T10:31:47Z",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "price": 10,
+      "priceNote": "Onsite10USD; member/studentfree. Online8USD is a different access mode, not mapped.",
+      "yearEvidence": "CurrentofficialNovember2026programme andlinked2026URL/seasoncontext; notcopyrightalone.",
+      "hall": "",
+      "end": "13:00"
+    },
+    {
+      "venue": "Barnes Foundation",
+      "venueEn": "Barnes Foundation",
+      "venueId": "philadelphia-barnes",
+      "address": "2025 Benjamin Franklin Parkway, Philadelphia, PA 19130",
+      "lat": 39.9606625,
+      "lng": -75.1728218224587,
+      "coordinateSource": "https://www.coordinatesfinder.com/coordinates/475017-barnes-foundation",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-barnes-barnes-cinema-powwow-people-by-sky-hopinka",
+      "kind": "event",
+      "title": "Barnes Cinema: Powwow People by Sky Hopinka",
+      "titleEn": "Barnes Cinema: Powwow People by Sky Hopinka",
+      "date": "2026-11-08",
+      "time": "13:00",
+      "category": "film",
+      "source": "Barnes Foundation",
+      "sourceUrl": "https://www.barnesfoundation.org/whats-on/film/barnes-cinema-powwow-people-by-sky-hopinka",
+      "checkedAt": "2026-11-02T10:31:47Z",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "price": 15,
+      "priceNote": "Film plus filmmakerQ&A; public15USD, students/membersfree; feesunknown.",
+      "yearEvidence": "CurrentofficialNovember2026programme andlinked2026URL/seasoncontext; notcopyrightalone.",
+      "hall": "Comcast NBCUniversal Auditorium",
+      "end": "16:00"
+    },
+    {
+      "venue": "Barnes Foundation",
+      "venueEn": "Barnes Foundation",
+      "venueId": "philadelphia-barnes",
+      "address": "2025 Benjamin Franklin Parkway, Philadelphia, PA 19130",
+      "lat": 39.9606625,
+      "lng": -75.1728218224587,
+      "coordinateSource": "https://www.coordinatesfinder.com/coordinates/475017-barnes-foundation",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-barnes-on-practice-pew-fellows-in-conversation-november-11",
+      "kind": "event",
+      "title": "On Practice: Pew Fellows in Conversation",
+      "titleEn": "On Practice: Pew Fellows in Conversation",
+      "date": "2026-11-11",
+      "time": "18:00",
+      "category": "talk",
+      "source": "Barnes Foundation",
+      "sourceUrl": "https://www.barnesfoundation.org/whats-on/talks/on-practice-pew-fellows-in-conversation-november-11",
+      "checkedAt": "2026-11-02T10:31:47Z",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "price": 0,
+      "priceNote": "Officialbody: free; registrationrequired.",
+      "yearEvidence": "CurrentofficialNovember2026programme andlinked2026URL/seasoncontext; notcopyrightalone.",
+      "hall": "Comcast NBCUniversal Auditorium",
+      "end": "19:15"
+    },
+    {
+      "venue": "Barnes Foundation",
+      "venueEn": "Barnes Foundation",
+      "venueId": "philadelphia-barnes",
+      "address": "2025 Benjamin Franklin Parkway, Philadelphia, PA 19130",
+      "lat": 39.9606625,
+      "lng": -75.1728218224587,
+      "coordinateSource": "https://www.coordinatesfinder.com/coordinates/475017-barnes-foundation",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-barnes-deep-dive-november-2026",
+      "kind": "event",
+      "title": "Deep Dive: S. Neil Fujita",
+      "titleEn": "Deep Dive: S. Neil Fujita",
+      "date": "2026-11-13",
+      "time": "12:00",
+      "category": "talk",
+      "source": "Barnes Foundation",
+      "sourceUrl": "https://www.barnesfoundation.org/whats-on/talks/deep-dive-november-2026",
+      "checkedAt": "2026-11-02T10:31:47Z",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "price": null,
+      "priceNote": "Includedwithpaidgeneraladmission, notunrestrictedfree.",
+      "yearEvidence": "CurrentofficialNovember2026programme andlinked2026URL/seasoncontext; notcopyrightalone.",
+      "hall": "Roberts Gallery",
+      "end": "12:30"
+    },
+    {
+      "venue": "Barnes Foundation",
+      "venueEn": "Barnes Foundation",
+      "venueId": "philadelphia-barnes",
+      "address": "2025 Benjamin Franklin Parkway, Philadelphia, PA 19130",
+      "lat": 39.9606625,
+      "lng": -75.1728218224587,
+      "coordinateSource": "https://www.coordinatesfinder.com/coordinates/475017-barnes-foundation",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-noguchi-asawa-seminar-20261117-1100",
+      "kind": "event",
+      "title": "Exhibition Seminar: Noguchi to Asawa",
+      "titleEn": "Exhibition Seminar: Noguchi to Asawa",
+      "date": "2026-11-17",
+      "time": "11:00",
+      "category": "workshop",
+      "source": "Barnes Foundation",
+      "sourceUrl": "https://www.barnesfoundation.org/classes/exhibition-seminar-noguchi-to-asawa-designing-postwar-america-november",
+      "checkedAt": "2026-11-02T10:31:47Z",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "price": 90,
+      "priceNote": "Public90USD/member81; registration; capacity25 per session; feesunknown.",
+      "yearEvidence": "Full current official programme states 2026 date, not inferred from download time.",
+      "end": "13:00"
+    },
+    {
+      "venue": "Barnes Foundation",
+      "venueEn": "Barnes Foundation",
+      "venueId": "philadelphia-barnes",
+      "address": "2025 Benjamin Franklin Parkway, Philadelphia, PA 19130",
+      "lat": 39.9606625,
+      "lng": -75.1728218224587,
+      "coordinateSource": "https://www.coordinatesfinder.com/coordinates/475017-barnes-foundation",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-noguchi-asawa-seminar-20261117-1500",
+      "kind": "event",
+      "title": "Exhibition Seminar: Noguchi to Asawa",
+      "titleEn": "Exhibition Seminar: Noguchi to Asawa",
+      "date": "2026-11-17",
+      "time": "15:00",
+      "category": "workshop",
+      "source": "Barnes Foundation",
+      "sourceUrl": "https://www.barnesfoundation.org/classes/exhibition-seminar-noguchi-to-asawa-designing-postwar-america-november",
+      "checkedAt": "2026-11-02T10:31:47Z",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "price": 90,
+      "priceNote": "Public90USD/member81; registration; capacity25 per session; feesunknown.",
+      "yearEvidence": "Full current official programme states 2026 date, not inferred from download time.",
+      "end": "17:00"
+    }
+  ],
+  "places": [
+    {
+      "venue": "Philadelphia Museum of Art",
+      "venueEn": "Philadelphia Museum of Art",
+      "venueId": "philadelphia-pma",
+      "address": "2600 Benjamin Franklin Parkway, Philadelphia, PA 19130",
+      "lat": 39.965519,
+      "lng": -75.181053,
+      "coordinateSource": "https://www.latlong.net/place/philadelphia-museum-of-art-pa-usa-33298.html",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-pma",
+      "title": "Philadelphia Museum of Art",
+      "titleEn": "Philadelphia Museum of Art",
+      "kind": "place",
+      "category": "art",
+      "source": "Philadelphia Museum of Art",
+      "sourceUrl": "https://www.philamuseum.org/events",
+      "checkedAt": "2026-11-02T10:35:21Z",
+      "operatingStatusVerified": true
+    },
+    {
+      "venue": "Parkway Central Library",
+      "venueEn": "Parkway Central Library",
+      "venueId": "philadelphia-parkway-library",
+      "address": "1901 Vine Street, Philadelphia, PA 19103",
+      "lat": 39.959302,
+      "lng": -75.171102,
+      "coordinateSource": "https://www.philadelphiacenterforthebook.org/locations/free-library-of-philadelphia-central-parkway/",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-parkway-library",
+      "title": "Parkway Central Library",
+      "titleEn": "Parkway Central Library",
+      "kind": "place",
+      "category": "books",
+      "source": "Parkway Central Library",
+      "sourceUrl": "https://libwww.freelibrary.org/locations/parkway-central-library",
+      "checkedAt": "2026-11-02T10:35:21Z",
+      "operatingStatusVerified": true
+    },
+    {
+      "venue": "Barnes Foundation",
+      "venueEn": "Barnes Foundation",
+      "venueId": "philadelphia-barnes",
+      "address": "2025 Benjamin Franklin Parkway, Philadelphia, PA 19130",
+      "lat": 39.9606625,
+      "lng": -75.1728218224587,
+      "coordinateSource": "https://www.coordinatesfinder.com/coordinates/475017-barnes-foundation",
+      "coordinatePrecision": "venue_building_approx_100m",
+      "coordinateEvidence": "Named building point corroborated with current official venue/address. Approximate building, not individual entrance or hall.",
+      "id": "philadelphia-barnes",
+      "title": "Barnes Foundation",
+      "titleEn": "Barnes Foundation",
+      "kind": "place",
+      "category": "art",
+      "source": "Barnes Foundation",
+      "sourceUrl": "https://www.barnesfoundation.org/plan-your-visit",
+      "checkedAt": "2026-11-02T10:35:21Z",
+      "operatingStatusVerified": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-a8a815c805da",
+      "name": "Philadelphia Museum of Art",
+      "url": "https://www.philamuseum.org/events",
+      "checkedAt": "2026-11-02T10:35:21Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-b193d102d4d1",
+      "name": "Independent named venue coordinate evidence",
+      "url": "https://www.latlong.net/place/philadelphia-museum-of-art-pa-usa-33298.html",
+      "checkedAt": "2026-11-02T10:35:21Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-ab0ef496ac11",
+      "name": "Parkway Central Library",
+      "url": "https://libwww.freelibrary.org/locations/parkway-central-library",
+      "checkedAt": "2026-11-02T10:35:21Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-8460ea780c93",
+      "name": "Independent named venue coordinate evidence",
+      "url": "https://www.philadelphiacenterforthebook.org/locations/free-library-of-philadelphia-central-parkway/",
+      "checkedAt": "2026-11-02T10:35:07Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-b70f1d89bfa6",
+      "name": "Philadelphia Museum of Art",
+      "url": "https://www.philamuseum.org/exhibitions/marcel-duchamp",
+      "checkedAt": "2026-11-02T10:30:44Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-e9d7b3c7dfc3",
+      "name": "Parkway Central Library",
+      "url": "https://libwww.freelibrary.org/calendar/event/174471",
+      "checkedAt": "2026-11-02T10:30:44Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-566d0ccddab1",
+      "name": "Parkway Central Library",
+      "url": "https://libwww.freelibrary.org/calendar/event/174420",
+      "checkedAt": "2026-11-02T10:30:44Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-535f10e9275a",
+      "name": "Parkway Central Library",
+      "url": "https://libwww.freelibrary.org/calendar/event/175833",
+      "checkedAt": "2026-11-02T10:30:44Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-2f676b31ad9a",
+      "name": "Visit Philadelphia",
+      "url": "https://www.visitphilly.com/articles/philadelphia/top-things-to-do-in-philadelphia-in-november/",
+      "checkedAt": "2026-11-02T10:29:39Z",
+      "status": "full_relevant_body_read",
+      "note": "November2026monthlyroundupread; regionalnoncityvenuesexcluded; boundedselection."
+    },
+    {
+      "id": "source-9a0a844d44f3",
+      "name": "Barnes Foundation",
+      "url": "https://www.barnesfoundation.org/plan-your-visit",
+      "checkedAt": "2026-11-02T10:35:21Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-eb20914944af",
+      "name": "Independent named venue coordinate evidence",
+      "url": "https://www.coordinatesfinder.com/coordinates/475017-barnes-foundation",
+      "checkedAt": "2026-11-02T10:36:41Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-5458f89f3a52",
+      "name": "Barnes Foundation",
+      "url": "https://www.barnesfoundation.org/whats-on/first-friday-november-2026",
+      "checkedAt": "2026-11-02T10:30:44Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-4f6eb15baace",
+      "name": "Barnes Foundation",
+      "url": "https://www.barnesfoundation.org/whats-on/talks/duchamps-fountain",
+      "checkedAt": "2026-11-02T10:30:44Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-192606399a21",
+      "name": "Barnes Foundation",
+      "url": "https://www.barnesfoundation.org/whats-on/film/barnes-cinema-powwow-people-by-sky-hopinka",
+      "checkedAt": "2026-11-02T10:30:44Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-75ba5e6414bd",
+      "name": "Barnes Foundation",
+      "url": "https://www.barnesfoundation.org/whats-on/talks/on-practice-pew-fellows-in-conversation-november-11",
+      "checkedAt": "2026-11-02T10:35:00Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-007ed60d9714",
+      "name": "Barnes Foundation",
+      "url": "https://www.barnesfoundation.org/whats-on/talks/deep-dive-november-2026",
+      "checkedAt": "2026-11-02T10:30:44Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "source-593daf54f165",
+      "name": "Barnes Foundation",
+      "url": "https://www.barnesfoundation.org/classes/exhibition-seminar-noguchi-to-asawa-designing-postwar-america-november",
+      "checkedAt": "2026-11-02T10:30:44Z",
+      "status": "full_relevant_body_read",
+      "note": "Bounded page read, not full website pagination."
+    },
+    {
+      "id": "pma-holiday-hours-20261102",
+      "name": "Philadelphia Museum of Art — Holiday Hours",
+      "url": "https://www.philamuseum.org/main-building",
+      "checkedAt": "2026-11-02T10:45:37.132Z",
+      "status": "full_relevant_body_read",
+      "note": "Expanded official Holiday Hours: Thanksgiving closed, Christmas Day closed, Christmas Eve10–15. New Year special status not stated; recheck required."
+    }
+  ],
+  "pending": [
+    {
+      "sourceUrl": "https://libwww.freelibrary.org/calendar/event/183179",
+      "reason": "MeetBeetlesNov5header2026butbodySpring2026 conflict; held."
+    },
+    {
+      "sourceUrl": "https://libwww.freelibrary.org/calendar/event/174703",
+      "reason": "StorytimeNov2 indoor/outdoorweatherlocation notresolved."
+    },
+    {
+      "sourceUrl": "https://www.barnesfoundation.org/exhibitions/noguchi-to-asawa-designing-postwar-america",
+      "reason": "FullbodyendJan10 2027, actualstartnotconfirmed; nofabricatedrange."
+    }
+  ],
+  "coverage": "Bounded initial selection, not complete city coverage. Main monthly agenda and selected official programmes read; pagination incomplete.",
+  "unperformedSourceChecks": [
+    {
+      "type": "Telegram",
+      "status": "not_checked",
+      "reason": "Official-source launch research prioritised; no claimed social coverage."
+    },
+    {
+      "type": "Instagram/Threads",
+      "status": "not_checked",
+      "reason": "No login attempted; no fresh post/story claimed."
+    }
+  ],
+  "quality": {
+    "status": "initial_limited_selection",
+    "neighborhoodLimit": "Central cultural districts dominate; outer-neighbourhood and grassroots coverage remains a specific gap.",
+    "full30DayPagination": false,
+    "uniqueProgrammes": 10,
+    "timedSessions": 10,
+    "exhibitionRanges": 1,
+    "cinemaSessions": 2
+  },
+  "dateCoverage": [
+    {
+      "date": "2026-11-02",
+      "records": 2,
+      "timedSessions": 1,
+      "exhibitionRanges": 1,
+      "categories": [
+        "art",
+        "film"
+      ],
+      "status": "limited_selection"
+    },
+    {
+      "date": "2026-11-03",
+      "records": 1,
+      "timedSessions": 1,
+      "exhibitionRanges": 0,
+      "categories": [
+        "talk"
+      ],
+      "status": "limited_selection"
+    },
+    {
+      "date": "2026-11-04",
+      "records": 1,
+      "timedSessions": 1,
+      "exhibitionRanges": 0,
+      "categories": [
+        "talk"
+      ],
+      "status": "limited_selection"
+    },
+    {
+      "date": "2026-11-05",
+      "records": 1,
+      "timedSessions": 0,
+      "exhibitionRanges": 1,
+      "categories": [
+        "art"
+      ],
+      "status": "limited_selection"
+    },
+    {
+      "date": "2026-11-06",
+      "records": 2,
+      "timedSessions": 1,
+      "exhibitionRanges": 1,
+      "categories": [
+        "art",
+        "music"
+      ],
+      "status": "limited_selection"
+    },
+    {
+      "date": "2026-11-07",
+      "records": 2,
+      "timedSessions": 1,
+      "exhibitionRanges": 1,
+      "categories": [
+        "art",
+        "talk"
+      ],
+      "status": "limited_selection"
+    },
+    {
+      "date": "2026-11-08",
+      "records": 2,
+      "timedSessions": 1,
+      "exhibitionRanges": 1,
+      "categories": [
+        "art",
+        "film"
+      ],
+      "status": "limited_selection"
+    }
+  ]
+}

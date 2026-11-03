@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-10-28T03:20:08.212704+00:00",
+  "candidateSHA256": "cf0d2e2fa364237181bcee048733400f445bf66c4e25cce63cb64f2f332610f3",
+  "eventCount": 320,
+  "sessions": 316,
+  "ranges": 4,
+  "programmes": 154,
+  "venues": 64,
+  "categories": {
+    "conference": 9,
+    "city": 44,
+    "workshop": 14,
+    "kids": 30,
+    "film": 27,
+    "music": 101,
+    "talk": 16,
+    "theatre": 72,
+    "food": 3,
+    "art": 4
+  },
+  "timezone": "America/Argentina/Buenos_Aires",
+  "coordinatePolicy": "Exact municipal address/number match, approximate building where street interpolation unreliable; unresolved venue points excluded. No city/postcode centroid.",
+  "knownCorrectionVenues": [
+    "Microestadio Malvinas Argentinas",
+    "Espacio Cultural Plaza Defensa",
+    "La Trastienda",
+    "Teatro Broadway",
+    "Niceto Club",
+    "Planetario Galileo Galilei"
+  ],
+  "limits": [
+    "No complete city coverage claim",
+    "Ticket inventory and unknown fees unverified",
+    "No current Telegram announcements imported; chat profile only",
+    "La Rural entrance and several park/landmark pins held",
+    "Moderno month-only range held",
+    "Installed APK not checked"
+  ],
+  "previewCheckedAt": "2026-10-28T03:24:12Z",
+  "previewSevenDays": [
+    26,
+    32,
+    37,
+    60,
+    31,
+    5,
+    7
+  ],
+  "previewNear500m": [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "previewWeekUnique": 177,
+  "previewExpandedListRows": 177,
+  "previewWholeCityPlaces": 64,
+  "previewConferenceWeek": 9,
+  "countryCityMapReturn": "passed",
+  "languageParity": "RU/EN320IDs",
+  "oldCityFeedPreservation": "All116previousRU/ENevents/placesfilesbyte-identicalto v200",
+  "tests": [
+    "country-city30",
+    "citywide-list",
+    "location-control",
+    "catalog-modes2623checks61routes",
+    "expiry-resume",
+    "English269pages31appmetadata"
+  ],
+  "visualLimit": "Backup basemap warning remains; physical APK not tested."
+}

@@ -1,0 +1,89 @@
+{
+  "rawElements": 3607,
+  "publishedPlaces": 3091,
+  "excluded": {
+    "unnamed_or_unselected": 499,
+    "closed_or_private": 2
+  },
+  "duplicates": [
+    {
+      "retained": "osm:node:1768289407",
+      "excluded": "osm:node:1768289409"
+    },
+    {
+      "retained": "osm:node:4187765393",
+      "excluded": "osm:node:4187815889"
+    },
+    {
+      "retained": "osm:node:5004373023",
+      "excluded": "osm:node:5116408721"
+    },
+    {
+      "retained": "osm:node:5924720967",
+      "excluded": "osm:node:6002733991"
+    },
+    {
+      "retained": "osm:node:5933575585",
+      "excluded": "osm:node:6010366994"
+    },
+    {
+      "retained": "osm:node:1776091558",
+      "excluded": "osm:node:8628734634"
+    },
+    {
+      "retained": "osm:node:9692769904",
+      "excluded": "osm:node:11753313470"
+    },
+    {
+      "retained": "osm:node:5106942722",
+      "excluded": "osm:way:134641762"
+    },
+    {
+      "retained": "osm:node:7925061859",
+      "excluded": "osm:way:162698569"
+    },
+    {
+      "retained": "osm:node:3668346419",
+      "excluded": "osm:way:361734752"
+    },
+    {
+      "retained": "osm:node:1249961409",
+      "excluded": "osm:way:480222998"
+    },
+    {
+      "retained": "osm:node:4389086292",
+      "excluded": "osm:way:512288546"
+    },
+    {
+      "retained": "osm:way:132057309",
+      "excluded": "osm:way:596922260"
+    },
+    {
+      "retained": "osm:node:5600142822",
+      "excluded": "osm:way:615542191"
+    },
+    {
+      "retained": "osm:node:11830444215",
+      "excluded": "osm:way:628550466"
+    }
+  ],
+  "categories": {
+    "food": 2443,
+    "city": 129,
+    "art": 59,
+    "sport": 177,
+    "bar": 117,
+    "club": 23,
+    "theatre": 19,
+    "film": 18,
+    "music": 1,
+    "books": 41,
+    "market": 3,
+    "park": 49,
+    "games": 12
+  },
+  "missingAddresses": 2252,
+  "boundarySource": "https://www.openstreetmap.org/relation/2216724",
+  "operatingStatusVerified": false,
+  "scope": "Selected public leisure, cultural and food venues inside OSM administrative boundary. Not an exhaustive or individually rechecked business directory."
+}

@@ -1,0 +1,2085 @@
+[
+  {
+    "existingId": "redevents:44:2026-10-24:2000",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "redevents:44:2026-10-24:2000",
+      "title": "Музыка «Гарри Поттера» — Mystery Ensemble",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "startAt": "2026-10-24T20:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 30,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+      "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+      "ticketUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+      "description": "Мультимедийный концерт музыки из фильмов о Гарри Поттере в исполнении Mystery Ensemble. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-10-24T20:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+        "publishedMin": 30,
+        "publishedMax": 100,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Большой зал Тбилисской государственной консерватории",
+      "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+      "lat": 41.6994629,
+      "lng": 44.7950581,
+      "placeId": "osm:relation:18222383",
+      "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+      "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383"
+      ],
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+          "price": 30,
+          "min": true,
+          "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-14T05:15:41.867950+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/504483",
+        "checkedAt": "2026-10-14T05:15:41.867950+00:00",
+        "status": "listed",
+        "note": "Dated official programme rechecked; historic unrelated fields retained."
+      }
+    },
+    "after": {
+      "id": "redevents:44:2026-10-24:2000",
+      "title": "Музыка «Гарри Поттера» — Mystery Ensemble",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "startAt": "2026-10-24T20:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 30,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+      "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+      "ticketUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+      "description": "Мультимедийный концерт музыки из фильмов о Гарри Поттере в исполнении Mystery Ensemble. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-10-24T20:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+        "publishedMin": 30,
+        "publishedMax": 100,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Большой зал Тбилисской государственной консерватории",
+      "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+      "lat": 41.6994629,
+      "lng": 44.7950581,
+      "placeId": "osm:relation:18222383",
+      "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+      "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383",
+        "https://tkt.ge/event/504483"
+      ],
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/44-muzyka-garri-pottera-multimediinyi-koncert-mystery-ensemble.html?date=2026-10-24+20:00:00",
+          "price": 30,
+          "min": true,
+          "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        },
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/504483",
+          "checkedAt": "2026-10-24T05:35:31.540658+00:00",
+          "price": 30.0,
+          "currency": "GEL",
+          "soldOut": false,
+          "note": "Current TKT listing; availability and prices apply to this seller only."
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-24T05:35:31.540658+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/504483",
+        "checkedAt": "2026-10-24T05:35:31.540658+00:00",
+        "status": "listed",
+        "note": "Exact-date/time TKT alias merged into preexisting organizer ID; old venue pin retained."
+      },
+      "mergedRecordIds": [
+        "tkt:504483"
+      ]
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  },
+  {
+    "existingId": "tkt:504483",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "tkt:504483",
+      "title": "The Music of Harry Potter by Mystery Ensemble. Multimedia concert",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "startAt": "2026-10-24T20:00:00+04:00",
+      "end": null,
+      "venue": "Tbilisi State Conservatoire",
+      "venueId": "tkt:77",
+      "address": "Alexander Griboedov St. 8/10, Tbilisi",
+      "lat": 41.699542,
+      "lng": 44.795255,
+      "locationPrecision": "venue",
+      "price": 30.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "Harry Potter film music performed by Mystery Ensemble; multimedia concert.",
+      "timeNote": null,
+      "soldOut": false,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/504483",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/504483"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:35:31.540658+00:00",
+      "imageUrl": "https://static.tkt.ge/img/d38efa33-aa4b-4141-847e-64b109860477.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "The Music of Harry Potter by Mystery Ensemble. Multimedia concert",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/504483",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:506863",
+          "tkt:507301",
+          "tkt:507302"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "verified",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-504483.json",
+      "minAge": null,
+      "ageRestriction": 6,
+      "sourceStatus": 1,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-7d504685306ce16f",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "scheduled",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/504483"
+      ],
+      "placeId": "tkt:77",
+      "priceLabel": "from 30.0 GEL"
+    },
+    "after": {
+      "id": "tkt:504483",
+      "title": "The Music of Harry Potter by Mystery Ensemble. Multimedia concert",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "startAt": "2026-10-24T20:00:00+04:00",
+      "end": null,
+      "venue": "Tbilisi State Conservatoire",
+      "venueId": "tkt:77",
+      "address": "Alexander Griboedov St. 8/10, Tbilisi",
+      "lat": 41.699542,
+      "lng": 44.795255,
+      "locationPrecision": "venue",
+      "price": 30.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "Harry Potter film music performed by Mystery Ensemble; multimedia concert.",
+      "timeNote": null,
+      "soldOut": false,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/504483",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/504483"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:35:31.540658+00:00",
+      "imageUrl": "https://static.tkt.ge/img/d38efa33-aa4b-4141-847e-64b109860477.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "The Music of Harry Potter by Mystery Ensemble. Multimedia concert",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/504483",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:506863",
+          "tkt:507301",
+          "tkt:507302"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "held_for_recheck",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-504483.json",
+      "minAge": null,
+      "ageRestriction": 6,
+      "sourceStatus": 1,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-7d504685306ce16f",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "held_for_recheck",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/504483"
+      ],
+      "placeId": "tkt:77",
+      "priceLabel": "from 30.0 GEL",
+      "duplicateOf": "redevents:44:2026-10-24:2000",
+      "holdReason": "Confirmed cross-source duplicate: same programme, local date/time and venue; canonical organizer record already cites this exact TKT event. Evidence merged; ID retained for audit.",
+      "deduplicatedAt": "2026-10-24T06:44:00Z"
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  },
+  {
+    "existingId": "redevents:80:2026-10-30:2000",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "redevents:80:2026-10-30:2000",
+      "title": "Антонио Вивальди: «Времена года» при свечах — Mystery Ensemble",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "startAt": "2026-10-30T20:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 30,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+      "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+      "ticketUrl": "https://tkt.ge/ru/event/504484?previewkey=f6200335-1232-49a9-98da-b337466c07cc",
+      "description": "Mystery Ensemble исполняет «Времена года» Вивальди при свечах; организатор также указывает серенаду Элгара. Программа может меняться. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-10-30T20:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+        "publishedMin": 30,
+        "publishedMax": 100,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Большой зал Тбилисской государственной консерватории",
+      "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+      "lat": 41.6994629,
+      "lng": 44.7950581,
+      "placeId": "osm:relation:18222383",
+      "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+      "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383"
+      ],
+      "ticketNote": "Прямая билетная ссылка с сайта организатора; при открытии текстовый инструмент показывает оболочку TKT, поэтому состояние продажи не подтверждено.",
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+          "price": 30,
+          "min": true,
+          "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-14T05:15:41.891188+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/504484",
+        "checkedAt": "2026-10-14T05:15:41.891188+00:00",
+        "status": "listed",
+        "note": "Dated official programme rechecked; historic unrelated fields retained."
+      }
+    },
+    "after": {
+      "id": "redevents:80:2026-10-30:2000",
+      "title": "Антонио Вивальди: «Времена года» при свечах — Mystery Ensemble",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "startAt": "2026-10-30T20:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 30,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+      "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+      "ticketUrl": "https://tkt.ge/ru/event/504484?previewkey=f6200335-1232-49a9-98da-b337466c07cc",
+      "description": "Mystery Ensemble исполняет «Времена года» Вивальди при свечах; организатор также указывает серенаду Элгара. Программа может меняться. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "TKT.ge listing marked sold out at 2026-10-24T05:39:00.896800+00:00; availability at other sellers not reconfirmed.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-10-30T20:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+        "publishedMin": 30,
+        "publishedMax": 100,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Большой зал Тбилисской государственной консерватории",
+      "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+      "lat": 41.6994629,
+      "lng": 44.7950581,
+      "placeId": "osm:relation:18222383",
+      "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+      "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383",
+        "https://tkt.ge/event/504484"
+      ],
+      "ticketNote": "Прямая билетная ссылка с сайта организатора; при открытии текстовый инструмент показывает оболочку TKT, поэтому состояние продажи не подтверждено.",
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/80-antonio-vivaldi-four-seasons-by-candlelight-mystery-ensemble.html?date=2026-10-30+20:00:00",
+          "price": 30,
+          "min": true,
+          "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        },
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/504484",
+          "checkedAt": "2026-10-24T05:39:00.896800+00:00",
+          "price": 30.0,
+          "currency": "GEL",
+          "soldOut": true,
+          "note": "Current TKT listing; availability and prices apply to this seller only."
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-24T05:39:00.896800+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/504484",
+        "checkedAt": "2026-10-24T05:39:00.896800+00:00",
+        "status": "listed",
+        "note": "Exact-date/time TKT alias merged into preexisting organizer ID; old venue pin retained."
+      },
+      "mergedRecordIds": [
+        "tkt:504484"
+      ],
+      "soldOut": true
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  },
+  {
+    "existingId": "tkt:504484",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "tkt:504484",
+      "title": "Antonio Vivaldi: The Four Seasons by Candlelight, performed by Mystery Ensemble",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "startAt": "2026-10-30T20:00:00+04:00",
+      "end": null,
+      "venue": "Tbilisi State Conservatoire",
+      "venueId": "tkt:77",
+      "address": "Alexander Griboedov St. 8/10, Tbilisi",
+      "lat": 41.699542,
+      "lng": 44.795255,
+      "locationPrecision": "venue",
+      "price": 30.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "Vivaldi’s Four Seasons performed by Mystery Ensemble.",
+      "timeNote": null,
+      "soldOut": true,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/504484",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/504484"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:39:00.896800+00:00",
+      "imageUrl": "https://static.tkt.ge/img/fc9361e4-bc36-4588-ba5c-7c00873c57cf.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "Antonio Vivaldi: The Four Seasons by Candlelight, performed by Mystery Ensemble",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/504484",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:506863",
+          "tkt:507301",
+          "tkt:507302"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "verified",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "Sold out according to ticket source.",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-504484.json",
+      "minAge": null,
+      "ageRestriction": null,
+      "sourceStatus": 3,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-53822908ad9c5ca0",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "scheduled",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/504484"
+      ],
+      "placeId": "tkt:77",
+      "priceLabel": "from 30.0 GEL"
+    },
+    "after": {
+      "id": "tkt:504484",
+      "title": "Antonio Vivaldi: The Four Seasons by Candlelight, performed by Mystery Ensemble",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "startAt": "2026-10-30T20:00:00+04:00",
+      "end": null,
+      "venue": "Tbilisi State Conservatoire",
+      "venueId": "tkt:77",
+      "address": "Alexander Griboedov St. 8/10, Tbilisi",
+      "lat": 41.699542,
+      "lng": 44.795255,
+      "locationPrecision": "venue",
+      "price": 30.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "Vivaldi’s Four Seasons performed by Mystery Ensemble.",
+      "timeNote": null,
+      "soldOut": true,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/504484",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/504484"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:39:00.896800+00:00",
+      "imageUrl": "https://static.tkt.ge/img/fc9361e4-bc36-4588-ba5c-7c00873c57cf.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "Antonio Vivaldi: The Four Seasons by Candlelight, performed by Mystery Ensemble",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/504484",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:506863",
+          "tkt:507301",
+          "tkt:507302"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "held_for_recheck",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "Sold out according to ticket source.",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-504484.json",
+      "minAge": null,
+      "ageRestriction": null,
+      "sourceStatus": 3,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-53822908ad9c5ca0",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "held_for_recheck",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/504484"
+      ],
+      "placeId": "tkt:77",
+      "priceLabel": "from 30.0 GEL",
+      "duplicateOf": "redevents:80:2026-10-30:2000",
+      "holdReason": "Confirmed cross-source duplicate: same programme, local date/time and venue; canonical organizer record already cites this exact TKT event. Evidence merged; ID retained for audit.",
+      "deduplicatedAt": "2026-10-24T06:44:00Z"
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  },
+  {
+    "existingId": "redevents:121:2026-10-31:2000",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "redevents:121:2026-10-31:2000",
+      "title": "Вселенная Тима Бёртона при свечах — Mystery Ensemble",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "startAt": "2026-10-31T20:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 35,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "35–70 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+      "priceNote": "От 35 GEL; опубликованный диапазон 35–70 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+      "ticketUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+      "description": "Концерт музыки из фильмов Тима Бёртона в аранжировках Mystery Ensemble, включая произведения Дэнни Эльфмана. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-10-31T20:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+        "publishedMin": 35,
+        "publishedMax": 70,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Концертный зал Вахтанга Саларидзе",
+      "address": "Ул. Акакия Белиашвили, 68, Тбилиси",
+      "lat": 41.7708080052007,
+      "lng": 44.7790551134925,
+      "venueId": "tkt:2915",
+      "coordinateSource": "https://tkt.ge/event/504481",
+      "coordinateEvidence": "Повторно использован исходный TKT pin площадки 2915 из опубликованного события tkt:504481. Свежая первичная страница RED Events подтверждает ту же площадку и адрес Белиашвили, 68.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/6-koncertnyi-zal-vahtanga-salaridze.html"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/6-koncertnyi-zal-vahtanga-salaridze.html",
+        "https://tkt.ge/event/504481"
+      ],
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+          "price": 35,
+          "min": true,
+          "priceLabel": "35–70 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-14T05:16:12.717848+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/504686",
+        "checkedAt": "2026-10-14T05:16:12.717848+00:00",
+        "status": "listed",
+        "note": "Dated official programme rechecked; historic unrelated fields retained."
+      }
+    },
+    "after": {
+      "id": "redevents:121:2026-10-31:2000",
+      "title": "Вселенная Тима Бёртона при свечах — Mystery Ensemble",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "startAt": "2026-10-31T20:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 35,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "35–70 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+      "priceNote": "От 35 GEL; опубликованный диапазон 35–70 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+      "ticketUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+      "description": "Концерт музыки из фильмов Тима Бёртона в аранжировках Mystery Ensemble, включая произведения Дэнни Эльфмана. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-10-31T20:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+        "publishedMin": 35,
+        "publishedMax": 70,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Концертный зал Вахтанга Саларидзе",
+      "address": "Ул. Акакия Белиашвили, 68, Тбилиси",
+      "lat": 41.7708080052007,
+      "lng": 44.7790551134925,
+      "venueId": "tkt:2915",
+      "coordinateSource": "https://tkt.ge/event/504481",
+      "coordinateEvidence": "Повторно использован исходный TKT pin площадки 2915 из опубликованного события tkt:504481. Свежая первичная страница RED Events подтверждает ту же площадку и адрес Белиашвили, 68.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/6-koncertnyi-zal-vahtanga-salaridze.html"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/6-koncertnyi-zal-vahtanga-salaridze.html",
+        "https://tkt.ge/event/504481",
+        "https://tkt.ge/event/504686"
+      ],
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/121-vselennaja-tima-byortona-pri-svechah-mystery-ensemble.html?date=2026-10-31+20:00:00",
+          "price": 35,
+          "min": true,
+          "priceLabel": "35–70 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        },
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/504686",
+          "checkedAt": "2026-10-24T05:39:41.809003+00:00",
+          "price": 35.0,
+          "currency": "GEL",
+          "soldOut": false,
+          "note": "Current TKT listing; availability and prices apply to this seller only."
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-24T05:39:41.809003+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/504686",
+        "checkedAt": "2026-10-24T05:39:41.809003+00:00",
+        "status": "listed",
+        "note": "Exact-date/time TKT alias merged into preexisting organizer ID; old venue pin retained."
+      },
+      "mergedRecordIds": [
+        "tkt:504686"
+      ]
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  },
+  {
+    "existingId": "tkt:504686",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "tkt:504686",
+      "title": "Tim Burton’s Universe by candlelight. Mystery Ensemble",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "startAt": "2026-10-31T20:00:00+04:00",
+      "end": null,
+      "venue": "Vakhtang Salaridze Concert Hall (Beliashvili 68)",
+      "venueId": "tkt:2915",
+      "address": "Beliashvili 68, Tbilisi",
+      "lat": 41.7708080052007,
+      "lng": 44.7790551134925,
+      "locationPrecision": "venue",
+      "price": 35.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "Tim Burton film music performed by Mystery Ensemble; not a personal appearance by Tim Burton.",
+      "timeNote": null,
+      "soldOut": false,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/504686",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/504686"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:39:41.809003+00:00",
+      "imageUrl": "https://static.tkt.ge/img/1f0b1d05-02fd-4127-84e6-11fff23599b4.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "Tim Burton’s Universe by candlelight. Mystery Ensemble",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/504686",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:507082",
+          "tkt:504481",
+          "tkt:506854"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "verified",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-504686.json",
+      "minAge": null,
+      "ageRestriction": null,
+      "sourceStatus": 1,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-237b7ea21ac5824a",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "scheduled",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/504686"
+      ],
+      "placeId": "tkt:2915",
+      "priceLabel": "from 35.0 GEL"
+    },
+    "after": {
+      "id": "tkt:504686",
+      "title": "Tim Burton’s Universe by candlelight. Mystery Ensemble",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "startAt": "2026-10-31T20:00:00+04:00",
+      "end": null,
+      "venue": "Vakhtang Salaridze Concert Hall (Beliashvili 68)",
+      "venueId": "tkt:2915",
+      "address": "Beliashvili 68, Tbilisi",
+      "lat": 41.7708080052007,
+      "lng": 44.7790551134925,
+      "locationPrecision": "venue",
+      "price": 35.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "Tim Burton film music performed by Mystery Ensemble; not a personal appearance by Tim Burton.",
+      "timeNote": null,
+      "soldOut": false,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/504686",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/504686"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:39:41.809003+00:00",
+      "imageUrl": "https://static.tkt.ge/img/1f0b1d05-02fd-4127-84e6-11fff23599b4.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "Tim Burton’s Universe by candlelight. Mystery Ensemble",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/504686",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:507082",
+          "tkt:504481",
+          "tkt:506854"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "held_for_recheck",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-504686.json",
+      "minAge": null,
+      "ageRestriction": null,
+      "sourceStatus": 1,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-237b7ea21ac5824a",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "held_for_recheck",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/504686"
+      ],
+      "placeId": "tkt:2915",
+      "priceLabel": "from 35.0 GEL",
+      "duplicateOf": "redevents:121:2026-10-31:2000",
+      "holdReason": "Confirmed cross-source duplicate: same programme, local date/time and venue; canonical organizer record already cites this exact TKT event. Evidence merged; ID retained for audit.",
+      "deduplicatedAt": "2026-10-24T06:44:00Z"
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  },
+  {
+    "existingId": "redevents:124:2026-11-08:1800",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "redevents:124:2026-11-08:1800",
+      "title": "Сны Миядзаки — мультимедийный концерт Mystery Ensemble",
+      "date": "2026-11-08",
+      "time": "18:00",
+      "startAt": "2026-11-08T18:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 30,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+      "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+      "ticketUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+      "description": "Mystery Ensemble исполняет музыку Дзё Хисаиси к аниме Хаяо Миядзаки, включая «Ходячий замок», «Унесённые призраками» и «Мой сосед Тоторо». Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-11-08T18:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+        "publishedMin": 30,
+        "publishedMax": 100,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Большой зал Тбилисской государственной консерватории",
+      "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+      "lat": 41.6994629,
+      "lng": 44.7950581,
+      "placeId": "osm:relation:18222383",
+      "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+      "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383"
+      ],
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+          "price": 30,
+          "min": true,
+          "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-14T05:18:01.575215+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/505942",
+        "checkedAt": "2026-10-14T05:18:01.575215+00:00",
+        "status": "listed",
+        "note": "Dated official programme rechecked; historic unrelated fields retained."
+      }
+    },
+    "after": {
+      "id": "redevents:124:2026-11-08:1800",
+      "title": "Сны Миядзаки — мультимедийный концерт Mystery Ensemble",
+      "date": "2026-11-08",
+      "time": "18:00",
+      "startAt": "2026-11-08T18:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 30,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+      "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+      "ticketUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+      "description": "Mystery Ensemble исполняет музыку Дзё Хисаиси к аниме Хаяо Миядзаки, включая «Ходячий замок», «Унесённые призраками» и «Мой сосед Тоторо». Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-11-08T18:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+        "publishedMin": 30,
+        "publishedMax": 100,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Большой зал Тбилисской государственной консерватории",
+      "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+      "lat": 41.6994629,
+      "lng": 44.7950581,
+      "placeId": "osm:relation:18222383",
+      "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+      "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383",
+        "https://tkt.ge/event/505942"
+      ],
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/124-sny-mijadzaki-mystery-ensemble-multimediinyi-koncert.html?date=2026-11-08+18:00:00",
+          "price": 30,
+          "min": true,
+          "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        },
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/505942",
+          "checkedAt": "2026-10-24T05:43:13.346366+00:00",
+          "price": 30.0,
+          "currency": "GEL",
+          "soldOut": false,
+          "note": "Current TKT listing; availability and prices apply to this seller only."
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-24T05:43:13.346366+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/505942",
+        "checkedAt": "2026-10-24T05:43:13.346366+00:00",
+        "status": "listed",
+        "note": "Exact-date/time TKT alias merged into preexisting organizer ID; old venue pin retained."
+      },
+      "mergedRecordIds": [
+        "tkt:505942"
+      ]
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  },
+  {
+    "existingId": "tkt:505942",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "tkt:505942",
+      "title": "Hayao Miyazaki's Dreams by Mystery Ensemble. Multimedia concert",
+      "date": "2026-11-08",
+      "time": "18:00",
+      "startAt": "2026-11-08T18:00:00+04:00",
+      "end": null,
+      "venue": "Tbilisi State Conservatoire",
+      "venueId": "tkt:77",
+      "address": "Alexander Griboedov St. 8/10, Tbilisi",
+      "lat": 41.699542,
+      "lng": 44.795255,
+      "locationPrecision": "venue",
+      "price": 30.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "Joe Hisaishi anime film music performed by Mystery Ensemble; no personal appearance by Hisaishi announced.",
+      "timeNote": null,
+      "soldOut": false,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/505942",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/505942"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:43:13.346366+00:00",
+      "imageUrl": "https://static.tkt.ge/img/82364ac4-972f-49e2-b233-4112f3d994c1.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "Hayao Miyazaki's Dreams by Mystery Ensemble. Multimedia concert",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/505942",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:506863",
+          "tkt:507301",
+          "tkt:507302"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "verified",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "Age restriction: 6+. Ticket requirement/minimum age field: 6; see source terms.",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-505942.json",
+      "minAge": 6,
+      "ageRestriction": 6,
+      "sourceStatus": 1,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-3752dc6398ad0918",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "scheduled",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/505942"
+      ],
+      "placeId": "tkt:77",
+      "priceLabel": "from 30.0 GEL"
+    },
+    "after": {
+      "id": "tkt:505942",
+      "title": "Hayao Miyazaki's Dreams by Mystery Ensemble. Multimedia concert",
+      "date": "2026-11-08",
+      "time": "18:00",
+      "startAt": "2026-11-08T18:00:00+04:00",
+      "end": null,
+      "venue": "Tbilisi State Conservatoire",
+      "venueId": "tkt:77",
+      "address": "Alexander Griboedov St. 8/10, Tbilisi",
+      "lat": 41.699542,
+      "lng": 44.795255,
+      "locationPrecision": "venue",
+      "price": 30.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "Joe Hisaishi anime film music performed by Mystery Ensemble; no personal appearance by Hisaishi announced.",
+      "timeNote": null,
+      "soldOut": false,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/505942",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/505942"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:43:13.346366+00:00",
+      "imageUrl": "https://static.tkt.ge/img/82364ac4-972f-49e2-b233-4112f3d994c1.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "Hayao Miyazaki's Dreams by Mystery Ensemble. Multimedia concert",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/505942",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:506863",
+          "tkt:507301",
+          "tkt:507302"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "held_for_recheck",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "Age restriction: 6+. Ticket requirement/minimum age field: 6; see source terms.",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-505942.json",
+      "minAge": 6,
+      "ageRestriction": 6,
+      "sourceStatus": 1,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-3752dc6398ad0918",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "held_for_recheck",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/505942"
+      ],
+      "placeId": "tkt:77",
+      "priceLabel": "from 30.0 GEL",
+      "duplicateOf": "redevents:124:2026-11-08:1800",
+      "holdReason": "Confirmed cross-source duplicate: same programme, local date/time and venue; canonical organizer record already cites this exact TKT event. Evidence merged; ID retained for audit.",
+      "deduplicatedAt": "2026-10-24T06:44:00Z"
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  },
+  {
+    "existingId": "redevents:125:2026-11-06:2000",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "redevents:125:2026-11-06:2000",
+      "title": "Посвящение Людовико Эйнауди при свечах — Mystery Ensemble",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "startAt": "2026-11-06T20:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 30,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+      "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+      "ticketUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+      "description": "Mystery Ensemble исполняет музыку Людовико Эйнауди при свечах. Сам Людовико Эйнауди в концерте не участвует. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-11-06T20:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+        "publishedMin": 30,
+        "publishedMax": 100,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Большой зал Тбилисской государственной консерватории",
+      "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+      "lat": 41.6994629,
+      "lng": 44.7950581,
+      "placeId": "osm:relation:18222383",
+      "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+      "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383"
+      ],
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+          "price": 30,
+          "min": true,
+          "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-14T05:17:35.712412+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/505944",
+        "checkedAt": "2026-10-14T05:17:35.712412+00:00",
+        "status": "listed",
+        "note": "Dated official programme rechecked; historic unrelated fields retained."
+      }
+    },
+    "after": {
+      "id": "redevents:125:2026-11-06:2000",
+      "title": "Посвящение Людовико Эйнауди при свечах — Mystery Ensemble",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "startAt": "2026-11-06T20:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 60,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "TKT.ge: from 60 GEL; mandatory fees unverified.",
+      "priceNote": "Current TKT listing starts at 60 GEL. Earlier organizer price retained in history, not reconfirmed.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+      "ticketUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+      "description": "Mystery Ensemble исполняет музыку Людовико Эйнауди при свечах. Сам Людовико Эйнауди в концерте не участвует. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-11-06T20:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+        "publishedMin": 30,
+        "publishedMax": 100,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Большой зал Тбилисской государственной консерватории",
+      "address": "Ул. Александра Грибоедова, 8–10, Тбилиси",
+      "lat": 41.6994629,
+      "lng": 44.7950581,
+      "placeId": "osm:relation:18222383",
+      "coordinateSource": "https://www.openstreetmap.org/relation/18222383",
+      "coordinateEvidence": "Повторно использована существующая точка комплекса консерватории из OSM relation 18222383. Свежие первичные страницы организатора и самого Большого зала подтверждают адрес 8–10 Грибоедова. Это не одноимённая OSM-точка на западе города.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/5-tbilisskaja-gosudarstvennaja-konservatorija-imeni-vano-saradzhishvili.html",
+        "https://tsc.edu.ge/en/history-grand-hall/",
+        "https://www.openstreetmap.org/relation/18222383",
+        "https://tkt.ge/event/505944"
+      ],
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00",
+          "price": 30,
+          "min": true,
+          "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        },
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/505944",
+          "checkedAt": "2026-10-24T05:42:09.400672+00:00",
+          "price": 60.0,
+          "currency": "GEL",
+          "soldOut": false,
+          "note": "Current TKT listing; availability and prices apply to this seller only."
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-24T05:42:09.400672+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/505944",
+        "checkedAt": "2026-10-24T05:42:09.400672+00:00",
+        "status": "listed",
+        "note": "Exact-date/time TKT alias merged into preexisting organizer ID; old venue pin retained."
+      },
+      "mergedRecordIds": [
+        "tkt:505944"
+      ],
+      "priceHistory": [
+        {
+          "price": 30,
+          "currency": "GEL",
+          "priceLabel": "30–100 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "priceNote": "От 30 GEL; опубликованный диапазон 30–100 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+          "checkedAt": "2026-10-10T13:02:29Z",
+          "sourceUrl": "https://redevents.ge/en/event/125-posvjaschenie-lyudoviko-einaudi-pri-svechah.html?date=2026-11-06+20:00:00"
+        }
+      ]
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  },
+  {
+    "existingId": "tkt:505944",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "tkt:505944",
+      "title": "Tribute to Ludovico Einaudi by candlelight",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "startAt": "2026-11-06T20:00:00+04:00",
+      "end": null,
+      "venue": "Tbilisi State Conservatoire",
+      "venueId": "tkt:77",
+      "address": "Alexander Griboedov St. 8/10, Tbilisi",
+      "lat": 41.699542,
+      "lng": 44.795255,
+      "locationPrecision": "venue",
+      "price": 60.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "Ludovico Einaudi tribute performed by Mystery Ensemble. Ludovico Einaudi does not take part.",
+      "timeNote": null,
+      "soldOut": false,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/505944",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/505944"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:42:09.400672+00:00",
+      "imageUrl": "https://static.tkt.ge/img/e330e989-9e9f-432b-91ec-06a7b3093874.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "Tribute to Ludovico Einaudi by candlelight",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/505944",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:506863",
+          "tkt:507301",
+          "tkt:507302"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "verified",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "Age restriction: 6+. Ticket requirement/minimum age field: 6; see source terms.",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-505944.json",
+      "minAge": 6,
+      "ageRestriction": 6,
+      "sourceStatus": 1,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-90989937b60a99ec",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "scheduled",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/505944"
+      ],
+      "placeId": "tkt:77",
+      "priceLabel": "from 60.0 GEL"
+    },
+    "after": {
+      "id": "tkt:505944",
+      "title": "Tribute to Ludovico Einaudi by candlelight",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "startAt": "2026-11-06T20:00:00+04:00",
+      "end": null,
+      "venue": "Tbilisi State Conservatoire",
+      "venueId": "tkt:77",
+      "address": "Alexander Griboedov St. 8/10, Tbilisi",
+      "lat": 41.699542,
+      "lng": 44.795255,
+      "locationPrecision": "venue",
+      "price": 60.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "Ludovico Einaudi tribute performed by Mystery Ensemble. Ludovico Einaudi does not take part.",
+      "timeNote": null,
+      "soldOut": false,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/505944",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/505944"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:42:09.400672+00:00",
+      "imageUrl": "https://static.tkt.ge/img/e330e989-9e9f-432b-91ec-06a7b3093874.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "Tribute to Ludovico Einaudi by candlelight",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/505944",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:506863",
+          "tkt:507301",
+          "tkt:507302"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "held_for_recheck",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "Age restriction: 6+. Ticket requirement/minimum age field: 6; see source terms.",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-505944.json",
+      "minAge": 6,
+      "ageRestriction": 6,
+      "sourceStatus": 1,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-90989937b60a99ec",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "held_for_recheck",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/505944"
+      ],
+      "placeId": "tkt:77",
+      "priceLabel": "from 60.0 GEL",
+      "duplicateOf": "redevents:125:2026-11-06:2000",
+      "holdReason": "Confirmed cross-source duplicate: same programme, local date/time and venue; canonical organizer record already cites this exact TKT event. Evidence merged; ID retained for audit.",
+      "deduplicatedAt": "2026-10-24T06:44:00Z"
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  },
+  {
+    "existingId": "redevents:107:2026-11-07:1800",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "redevents:107:2026-11-07:1800",
+      "title": "Романтические вальсы при свечах: Шопен, Штраус, Чайковский",
+      "date": "2026-11-07",
+      "time": "18:00",
+      "startAt": "2026-11-07T18:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 55,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "55–75 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+      "priceNote": "От 55 GEL; опубликованный диапазон 55–75 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+      "ticketUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+      "description": "Пианист David Ketsbaia исполняет романтические вальсы и другие произведения в лютеранской церкви. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано. У организатора также указан сеанс 7 ноября в 20:00; он не добавляется отдельной карточкой.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-11-07T18:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+        "publishedMin": 55,
+        "publishedMax": 75,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Евангелическо-лютеранская церковь",
+      "address": "Ул. Теренти Гранели, 15, Тбилиси",
+      "lat": 41.7101792488746,
+      "lng": 44.8065875994641,
+      "venueId": "tkt:4501",
+      "coordinateSource": "https://tkt.ge/event/507140",
+      "coordinateEvidence": "Повторно использован исходный TKT pin Evangelical-Lutheran Church, площадка 4501, из опубликованного Piano Trio. Свежая первичная карточка RED Events подтверждает эту церковь и адрес Теренти Гранели, 15.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/17-evangelichesko-lyuteranskaja-cerkov.html"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/17-evangelichesko-lyuteranskaja-cerkov.html",
+        "https://tkt.ge/event/507140"
+      ],
+      "additionalSessions": [
+        {
+          "date": "2026-11-07",
+          "time": "20:00",
+          "timezone": "Asia/Tbilisi",
+          "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+20:00:00",
+          "publicationDecision": "Не создавать отдельное событие; та же программа."
+        }
+      ],
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+          "price": 55,
+          "min": true,
+          "priceLabel": "55–75 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-14T05:17:50.087595+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/507167",
+        "checkedAt": "2026-10-14T05:17:50.087595+00:00",
+        "status": "listed",
+        "note": "Dated official programme rechecked; historic unrelated fields retained."
+      }
+    },
+    "after": {
+      "id": "redevents:107:2026-11-07:1800",
+      "title": "Романтические вальсы при свечах: Шопен, Штраус, Чайковский",
+      "date": "2026-11-07",
+      "time": "18:00",
+      "startAt": "2026-11-07T18:00:00+04:00",
+      "endDate": null,
+      "endTime": null,
+      "city": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "category": "music",
+      "price": 55,
+      "min": true,
+      "currency": "GEL",
+      "priceLabel": "55–75 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+      "priceNote": "От 55 GEL; опубликованный диапазон 55–75 GEL. Итог выбранного места и возможные сборы проверяйте у продавца.",
+      "feesNote": "Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "mandatoryExtras": {
+        "amount": null,
+        "currency": "GEL",
+        "status": "not_disclosed",
+        "note": "Обязательные сборы не опубликованы; отсутствие сборов не подтверждается."
+      },
+      "admission": "Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны.",
+      "registration": "Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись.",
+      "language": "",
+      "source": "RED EVENTS Georgia",
+      "sourceId": "ge-src-9c3085cc39d5",
+      "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+      "ticketUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+      "description": "Пианист David Ketsbaia исполняет романтические вальсы и другие произведения в лютеранской церкви. Вход по билету. Возрастные ограничения, правила возврата и повторного входа на проверенной странице не указаны. Кнопка покупки билета на странице организатора. Наличие мест и успешность покупки не проверялись. Дополнительные обязательные сборы на открытой странице не указаны; итог оформления не проверялся.",
+      "checkedAt": "2026-10-10T13:02:29Z",
+      "verification": "verified_primary_schedule_and_venue",
+      "availabilityVerified": false,
+      "availabilityNote": "Проверена опубликованная программа; доступность конкретных мест не проверялась.",
+      "timeNote": "Местное время начала в Тбилиси. Время открытия дверей и окончания не опубликовано. У организатора также указан сеанс 7 ноября в 20:00; он не добавляется отдельной карточкой.",
+      "dateEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+        "method": "Ссылка конкретного сеанса взята из первичного календаря организатора; параметр date подтверждает год, дату и время. Видимая карточка подтверждает день, месяц и часы.",
+        "localStart": "2026-11-07T18:00:00+04:00"
+      },
+      "timezoneEvidence": "Первичный календарь объявляет концерт в Тбилиси; часы трактуются как местное время площадки, Asia/Tbilisi, UTC+04:00. Отдельный UTC-offset на странице не напечатан.",
+      "priceEvidence": {
+        "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+        "publishedMin": 55,
+        "publishedMax": 75,
+        "currency": "GEL",
+        "visibleSymbol": "₾",
+        "fees": "not_disclosed",
+        "checkoutVerified": false
+      },
+      "venue": "Евангелическо-лютеранская церковь",
+      "address": "Ул. Теренти Гранели, 15, Тбилиси",
+      "lat": 41.7101792488746,
+      "lng": 44.8065875994641,
+      "venueId": "tkt:4501",
+      "coordinateSource": "https://tkt.ge/event/507140",
+      "coordinateEvidence": "Повторно использован исходный TKT pin Evangelical-Lutheran Church, площадка 4501, из опубликованного Piano Trio. Свежая первичная карточка RED Events подтверждает эту церковь и адрес Теренти Гранели, 15.",
+      "venueEvidenceUrls": [
+        "https://redevents.ge/en/places/17-evangelichesko-lyuteranskaja-cerkov.html"
+      ],
+      "evidenceUrls": [
+        "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+        "https://redevents.ge/en",
+        "https://redevents.ge/en/places/17-evangelichesko-lyuteranskaja-cerkov.html",
+        "https://tkt.ge/event/507140",
+        "https://tkt.ge/event/507167"
+      ],
+      "additionalSessions": [
+        {
+          "date": "2026-11-07",
+          "time": "20:00",
+          "timezone": "Asia/Tbilisi",
+          "sourceUrl": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+20:00:00",
+          "publicationDecision": "Не создавать отдельное событие; та же программа."
+        }
+      ],
+      "sourceRetrievedAt": "2026-10-10T13:02:29Z",
+      "researchBatch": "new-discovery-2026-10-10-afternoon",
+      "end": null,
+      "sources": [
+        {
+          "name": "RED EVENTS Georgia",
+          "url": "https://redevents.ge/en/event/107-romanticheskie-valsy-pri-svechah-shopen-shtraus-chaikovskii.html?date=2026-11-07+18:00:00",
+          "price": 55,
+          "min": true,
+          "priceLabel": "55–75 GEL. Диапазон организатора; обязательные дополнительные сборы не указаны.",
+          "checkedAt": "2026-10-10T13:08:09Z"
+        },
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/507167",
+          "checkedAt": "2026-10-24T05:42:56.616920+00:00",
+          "price": 55.0,
+          "currency": "GEL",
+          "soldOut": false,
+          "note": "Current TKT listing; availability and prices apply to this seller only."
+        }
+      ],
+      "kind": "event",
+      "stale": false,
+      "scheduleCheckedAt": "2026-10-24T05:42:56.616920+00:00",
+      "latestScheduleCheck": {
+        "sourceUrl": "https://tkt.ge/event/507167",
+        "checkedAt": "2026-10-24T05:42:56.616920+00:00",
+        "status": "listed",
+        "note": "Exact-date/time TKT alias merged into preexisting organizer ID; old venue pin retained."
+      },
+      "mergedRecordIds": [
+        "tkt:507167"
+      ]
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  },
+  {
+    "existingId": "tkt:507167",
+    "cityId": "tbilisi",
+    "before": {
+      "id": "tkt:507167",
+      "title": "Romantic Waltzes: Chopin, Strauss, Tchaikovsky by candlelight",
+      "date": "2026-11-07",
+      "time": "18:00",
+      "startAt": "2026-11-07T18:00:00+04:00",
+      "end": null,
+      "venue": "Evangelical-Lutheran Church, Tbilisi",
+      "venueId": "tkt:6032",
+      "address": "15 Terenti Graneli Street, Tbilisi 0102, Georgia",
+      "lat": 41.7101482865497,
+      "lng": 44.8065780327044,
+      "locationPrecision": "venue",
+      "price": 55.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "",
+      "timeNote": null,
+      "soldOut": false,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/507167",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/507167"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:42:56.616920+00:00",
+      "imageUrl": "https://static.tkt.ge/img/909556b4-406e-465a-a046-88bb07a77ffb.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "Romantic Waltzes: Chopin, Strauss, Tchaikovsky by candlelight",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/507167",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:507172"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "verified",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "Age restriction: 6+.",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-507167.json",
+      "minAge": 0,
+      "ageRestriction": 6,
+      "sourceStatus": 1,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-6eda4fc4f3964f9a",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "scheduled",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/507167"
+      ],
+      "placeId": "tkt:6032",
+      "priceLabel": "from 55.0 GEL"
+    },
+    "after": {
+      "id": "tkt:507167",
+      "title": "Romantic Waltzes: Chopin, Strauss, Tchaikovsky by candlelight",
+      "date": "2026-11-07",
+      "time": "18:00",
+      "startAt": "2026-11-07T18:00:00+04:00",
+      "end": null,
+      "venue": "Evangelical-Lutheran Church, Tbilisi",
+      "venueId": "tkt:6032",
+      "address": "15 Terenti Graneli Street, Tbilisi 0102, Georgia",
+      "lat": 41.7101482865497,
+      "lng": 44.8065780327044,
+      "locationPrecision": "venue",
+      "price": 55.0,
+      "min": true,
+      "priceNote": "Обычная минимальная цена; сборы и условия — у продавца.",
+      "currency": "GEL",
+      "category": "music",
+      "language": null,
+      "description": "",
+      "timeNote": null,
+      "soldOut": false,
+      "source": "TKT.ge",
+      "sourceUrl": "https://tkt.ge/event/507167",
+      "sources": [
+        {
+          "name": "TKT.ge",
+          "url": "https://tkt.ge/event/507167"
+        }
+      ],
+      "checkedAt": "2026-10-24T05:42:56.616920+00:00",
+      "imageUrl": "https://static.tkt.ge/img/909556b4-406e-465a-a046-88bb07a77ffb.jpeg",
+      "cityId": "tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "titleEn": "Romantic Waltzes: Chopin, Strauss, Tchaikovsky by candlelight",
+      "endAt": null,
+      "coordinateSource": "https://tkt.ge/event/507167",
+      "coordinateEvidence": {
+        "note": "API venue point; current source exact street address; corroborated existing published venue coordinate, not fresh independent map verification.",
+        "baselineIds": [
+          "tkt:507172"
+        ],
+        "baselineCommit": "6c460a54232755eab9e5adac3201833795a1618f"
+      },
+      "publicationStatus": "held_for_recheck",
+      "yearEvidence": "Explicit2026 API event.date and day catalogue",
+      "sourceType": "primary_ticketing",
+      "accessNote": "Age restriction: 6+.",
+      "rawEvidencePath": "/workspace/shared/oct24-tkt/detail-507167.json",
+      "minAge": 0,
+      "ageRestriction": 6,
+      "sourceStatus": 1,
+      "reviewedAt": "2026-10-24T05:49:41.112712+00:00",
+      "mandatoryFees": null,
+      "programmeId": "programme-6eda4fc4f3964f9a",
+      "sourceCategory": "music",
+      "kind": "event",
+      "status": "held_for_recheck",
+      "availabilityVerified": false,
+      "sourceURLs": [
+        "https://tkt.ge/event/507167"
+      ],
+      "placeId": "tkt:6032",
+      "priceLabel": "from 55.0 GEL",
+      "duplicateOf": "redevents:107:2026-11-07:1800",
+      "holdReason": "Confirmed cross-source duplicate: same programme, local date/time and venue; canonical organizer record already cites this exact TKT event. Evidence merged; ID retained for audit.",
+      "deduplicatedAt": "2026-10-24T06:44:00Z"
+    },
+    "reason": "Cross-source semantic duplicate merged; preserve prior canonical ID and fresh seller evidence."
+  }
+]

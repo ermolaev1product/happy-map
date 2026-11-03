@@ -1,0 +1,5904 @@
+{
+  "checkedAt": "2026-10-14T02:00:00Z",
+  "baselineCommit": "b9224f1e5fea571e97d24a50eacee19eebe24f2f",
+  "baselineBelgradeEvents": 494,
+  "baselineArtRecords": 4,
+  "addedCount": 23,
+  "totalBelgradeEvents": 517,
+  "events": [
+    {
+      "id": "bg-exhibition-ulus-svetlista-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Svetlišta",
+      "date": "2026-10-09",
+      "endDate": "2026-10-24",
+      "time": "12:00",
+      "end": null,
+      "venue": "Galerija ULUS",
+      "address": "Kneza Mihaila 37, Beograd",
+      "lat": 44.8183577,
+      "lng": 20.456066,
+      "coordinateSource": "https://ulus.rs/prostori/",
+      "coordinateEvidence": "Official Google Maps place link contains !3d44.8183577!4d20.456066; extracted from public official HTML.",
+      "price": null,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Цена входа не подтверждена.",
+      "description": "Выставка с 2026-10-09 по 2026-10-24. Участники: Biljana Klarić – Klara. Посещение: Пн, Вт, Ср, Чт, Пт 12:00–19:00; Сб 10:00–14:00; Вс закрыто.",
+      "timeNote": "Посещение: Пн, Вт, Ср, Чт, Пт 12:00–19:00; Сб 10:00–14:00; Вс закрыто. Открытие 2026-10-09 в 19:00. Время открытия не является ежедневным расписанием.",
+      "source": "Galerija ULUS",
+      "sourceUrl": "https://ulus.rs/blog/biljana-klaric-klara-svetlista/",
+      "sources": [
+        {
+          "name": "Galerija ULUS",
+          "url": "https://ulus.rs/blog/biljana-klaric-klara-svetlista/",
+          "price": null,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:51:45Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://ulus.rs/prostori/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://ulus.rs/kontakt/"
+        }
+      ],
+      "evidenceUrls": [
+        "https://ulus.rs/blog/biljana-klaric-klara-svetlista/",
+        "https://ulus.rs/prostori/",
+        "https://ulus.rs/kontakt/"
+      ],
+      "checkedAt": "2026-10-14T01:51:45Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-10-09",
+        "time": "19:00"
+      },
+      "verificationNotes": "Gallery visitor hours verified separately from office hours. Admission price not stated.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "researchDescription": "Paintings and generative digital work investigating light and perception.",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-15": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-16": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "14:00"
+        },
+        "2026-10-19": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-20": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-21": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-22": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-23": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-24": {
+          "start": "10:00",
+          "end": "14:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24"
+      ],
+      "closedWeekdays": [
+        0
+      ],
+      "weeklyVisitingHours": {
+        "monday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "friday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "10:00",
+            "14:00"
+          ]
+        ],
+        "sunday": []
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-ulus-iznutra-ka-spolja-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Iznutra ka spolja, spolja ka unutra",
+      "date": "2026-10-08",
+      "endDate": "2026-10-15",
+      "time": "12:00",
+      "end": null,
+      "venue": "Umetnički salon Cvijeta Zuzorić",
+      "address": "Mali Kalemegdan 1, Beograd",
+      "lat": 44.8225761,
+      "lng": 20.4540197,
+      "coordinateSource": "https://ulus.rs/prostori/",
+      "coordinateEvidence": "Official Google Maps place link contains !3d44.8225761!4d20.4540197; extracted from public official HTML.",
+      "price": null,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Цена входа не подтверждена.",
+      "description": "Выставка с 2026-10-08 по 2026-10-15. Участники: Sveta Kletina, Evgeni Gertsenstein. Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 12:00–19:00.",
+      "timeNote": "Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 12:00–19:00. Открытие 2026-10-08 в 19:00. Время открытия не является ежедневным расписанием.",
+      "source": "Umetnički salon Cvijeta Zuzorić",
+      "sourceUrl": "https://ulus.rs/blog/iznutra-ka-spolja-spolja-ka-unutra/",
+      "sources": [
+        {
+          "name": "Umetnički salon Cvijeta Zuzorić",
+          "url": "https://ulus.rs/blog/iznutra-ka-spolja-spolja-ka-unutra/",
+          "price": null,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:51:45Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://ulus.rs/prostori/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://ulus.rs/kontakt/"
+        }
+      ],
+      "evidenceUrls": [
+        "https://ulus.rs/blog/iznutra-ka-spolja-spolja-ka-unutra/",
+        "https://ulus.rs/prostori/",
+        "https://ulus.rs/kontakt/"
+      ],
+      "checkedAt": "2026-10-14T01:51:45Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-10-08",
+        "time": "19:00"
+      },
+      "verificationNotes": "Hours are current official pavilion visitor hours for the same building, not salon-specific event hours. September-only 16:00–20:00 notice does not apply to October. Admission price not stated.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "researchDescription": "Installation combining paintings, footwear, sculpture and documentary film around inner identity and outward appearance.",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-15": {
+          "start": "12:00",
+          "end": "19:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "closedWeekdays": [
+        1
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "friday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-ulus-izvan-centra-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Izvan centra — Jesenja izložba ULUS-a",
+      "date": "2026-10-08",
+      "endDate": "2026-10-30",
+      "time": "12:00",
+      "end": null,
+      "venue": "Umetnički paviljon Cvijeta Zuzorić",
+      "address": "Mali Kalemegdan 1, Beograd",
+      "lat": 44.8225761,
+      "lng": 20.4540197,
+      "coordinateSource": "https://ulus.rs/prostori/",
+      "coordinateEvidence": "Official Google Maps place link contains !3d44.8225761!4d20.4540197; extracted from public official HTML.",
+      "price": null,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Цена входа не подтверждена.",
+      "description": "Выставка с 2026-10-08 по 2026-10-30. Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 12:00–19:00.",
+      "timeNote": "Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 12:00–19:00. Открытие 2026-10-08 в 19:00. Время открытия не является ежедневным расписанием.",
+      "source": "Umetnički paviljon Cvijeta Zuzorić",
+      "sourceUrl": "https://ulus.rs/blog/44965/",
+      "sources": [
+        {
+          "name": "Umetnički paviljon Cvijeta Zuzorić",
+          "url": "https://ulus.rs/blog/44965/",
+          "price": null,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:51:45Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://ulus.rs/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://ulus.rs/prostori/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://ulus.rs/kontakt/"
+        }
+      ],
+      "evidenceUrls": [
+        "https://ulus.rs/blog/44965/",
+        "https://ulus.rs/",
+        "https://ulus.rs/prostori/",
+        "https://ulus.rs/kontakt/"
+      ],
+      "checkedAt": "2026-10-14T01:51:45Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-10-08",
+        "time": "19:00"
+      },
+      "verificationNotes": "Announcement heading explicitly says October 8–30, 2026 and opening October 8; homepage independently matches October 8–30. One invitation sentence incorrectly says November 8, apparently a typo. Keep date evidence note; do not silently use November. Admission price not stated.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "researchDescription": "Annual group exhibition examining self-organization, communities and artistic practices outside established centres.",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-15": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-16": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-17": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-18": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-20": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-21": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-22": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-23": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-24": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-25": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-27": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-28": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-29": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-30": {
+          "start": "12:00",
+          "end": "19:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30"
+      ],
+      "closedWeekdays": [
+        1
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "friday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-ulus-ruah-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Ruah (duša, vetar)",
+      "date": "2026-10-16",
+      "endDate": "2026-10-23",
+      "time": "12:00",
+      "end": null,
+      "venue": "Umetnički salon Cvijeta Zuzorić",
+      "address": "Mali Kalemegdan 1, Beograd",
+      "lat": 44.8225761,
+      "lng": 20.4540197,
+      "coordinateSource": "https://ulus.rs/prostori/",
+      "coordinateEvidence": "Official Google Maps place link contains !3d44.8225761!4d20.4540197; extracted from public official HTML.",
+      "price": null,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Цена входа не подтверждена.",
+      "description": "Выставка с 2026-10-16 по 2026-10-23. Участники: Nikola Radić Lucati. Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 12:00–19:00.",
+      "timeNote": "Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 12:00–19:00. Открытие 2026-10-16 в 19:00. Время открытия не является ежедневным расписанием.",
+      "source": "Umetnički salon Cvijeta Zuzorić",
+      "sourceUrl": "https://ulus.rs/blog/nikola-radic-lucati-ruah-dusa-vetar/",
+      "sources": [
+        {
+          "name": "Umetnički salon Cvijeta Zuzorić",
+          "url": "https://ulus.rs/blog/nikola-radic-lucati-ruah-dusa-vetar/",
+          "price": null,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:51:45Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://ulus.rs/prostori/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://ulus.rs/kontakt/"
+        }
+      ],
+      "evidenceUrls": [
+        "https://ulus.rs/blog/nikola-radic-lucati-ruah-dusa-vetar/",
+        "https://ulus.rs/prostori/",
+        "https://ulus.rs/kontakt/"
+      ],
+      "checkedAt": "2026-10-14T01:51:45Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-10-16",
+        "time": "19:00"
+      },
+      "verificationNotes": "Opens at 19:00 on October 16; do not advertise normal noon visiting before that opening. Building hours verified separately; price not stated.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "researchDescription": "Solo exhibition reflecting on cultural inheritance, historical memory and its human cost.",
+      "visitSchedule": {
+        "2026-10-16": {
+          "start": "19:00",
+          "end": null,
+          "type": "opening",
+          "endVerified": false
+        },
+        "2026-10-17": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-18": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-20": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-21": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-22": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-23": {
+          "start": "12:00",
+          "end": "19:00"
+        }
+      },
+      "validDates": [
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "closedWeekdays": [
+        1
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "friday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-u10-tangenta-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Tangenta",
+      "date": "2026-10-15",
+      "endDate": "2026-11-07",
+      "time": "12:00",
+      "end": null,
+      "venue": "Umetnički prostor U10",
+      "address": "Kralja Milana 10, 11000 Beograd; entrance from Kosovke devojke 3",
+      "lat": 44.8101464,
+      "lng": 20.4615949,
+      "coordinateSource": "https://u10.rs/kontakt/",
+      "coordinateEvidence": "Official Google Maps place link contains !3d44.8101464!4d20.4615949; extracted from public official HTML.",
+      "price": null,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Цена входа не подтверждена.",
+      "description": "Выставка с 2026-10-15 по 2026-11-07. Участники: Alisa Sizik, Andreja Bogdanović, Bogdan Dimčić, Bogdana Perović, Ada Čiž, Dara Bošković, Darija Česlavskaja, Dimitrije Despotovski, Iva Dimitrijević, Katarina Vasiljević, Lili Rot, Mateja Marković, Milica Miljković, Olga Stanojević, Ruslana Ključko, Sara Kecman, Viktorija Bahdanovič, Varvara Sudnik, Zorana Stevanović, Julija. Посещение: Пн, Вс закрыто; Вт, Ср, Чт, Пт, Сб 12:00–20:00.",
+      "timeNote": "Посещение: Пн, Вс закрыто; Вт, Ср, Чт, Пт, Сб 12:00–20:00. Открытие 2026-10-15 в 19:00. Время открытия не является ежедневным расписанием.",
+      "source": "Umetnički prostor U10",
+      "sourceUrl": "https://u10.rs/exhibitions/tangenta/",
+      "sources": [
+        {
+          "name": "Umetnički prostor U10",
+          "url": "https://u10.rs/exhibitions/tangenta/",
+          "price": null,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:51:45Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://u10.rs/otvaranje-grupne-izlozbe-tangenta-konstantinosa/"
+        }
+      ],
+      "evidenceUrls": [
+        "https://u10.rs/exhibitions/tangenta/",
+        "https://u10.rs/otvaranje-grupne-izlozbe-tangenta-konstantinosa/",
+        "https://u10.rs/kontakt/"
+      ],
+      "checkedAt": "2026-10-14T01:51:45Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-10-15",
+        "time": "19:00"
+      },
+      "verificationNotes": "Official Serbian announcement verifies full 2026 run, address, hours and opening. Two opening performances are ancillary, not separate exhibitions. No admission price stated.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "researchDescription": "Group exhibition of work from four editions of the Tangente art camp, considering belonging, freedom, memory and responsibility.",
+      "visitSchedule": {
+        "2026-10-15": {
+          "start": "19:00",
+          "end": null,
+          "type": "opening",
+          "endVerified": false
+        },
+        "2026-10-16": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-17": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-20": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-21": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-22": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-23": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-24": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-27": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-28": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-29": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-31": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-03": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-04": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-05": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-07": {
+          "start": "12:00",
+          "end": "20:00"
+        }
+      },
+      "validDates": [
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07"
+      ],
+      "closedWeekdays": [
+        1,
+        0
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "friday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "sunday": []
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-dob-afterimage-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Afterimage",
+      "date": "2026-10-13",
+      "endDate": "2026-10-23",
+      "time": "12:00",
+      "end": null,
+      "venue": "Galerija Doma omladine Beograda",
+      "address": "Makedonska 22, Beograd",
+      "lat": 44.815407,
+      "lng": 20.462793,
+      "coordinateSource": "https://en.wikipedia.org/wiki/Belgrade_Youth_Center",
+      "coordinateEvidence": "Coordinate of Dom omladine building explicitly provided by Wikipedia; gallery is within building. Independent Tripomatic mapping source supports same building area.",
+      "price": null,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Цена входа не подтверждена.",
+      "description": "Выставка с 2026-10-13 по 2026-10-23. Участники: Aleksandra Veljović. Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб 12:00–21:00; Вс 12:00–18:00.",
+      "timeNote": "Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб 12:00–21:00; Вс 12:00–18:00.",
+      "source": "Galerija Doma omladine Beograda",
+      "sourceUrl": "https://domomladine.org/izlozbe/izlozba-afterimage-aleksandre-veljovic/",
+      "sources": [
+        {
+          "name": "Galerija Doma omladine Beograda",
+          "url": "https://domomladine.org/izlozbe/izlozba-afterimage-aleksandre-veljovic/",
+          "price": null,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:55:30Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://domomladine.org/kontakt/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://tripomatic.com/sk/poi/dum-mladeze-poi%3A33332"
+        }
+      ],
+      "evidenceUrls": [
+        "https://domomladine.org/izlozbe/izlozba-afterimage-aleksandre-veljovic/",
+        "https://domomladine.org/kontakt/",
+        "https://tripomatic.com/sk/poi/dum-mladeze-poi%3A33332",
+        "https://en.wikipedia.org/wiki/Belgrade_Youth_Center"
+      ],
+      "checkedAt": "2026-10-14T01:55:30Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": null,
+      "verificationNotes": "Official event verifies dates and visitor hours. Contact address includes /IV for administration; gallery floor not verified. Price not stated.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "researchDescription": "Paintings considering afterimages, botanical forms and perception through grey and black layers.",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "12:00",
+          "end": "21:00"
+        },
+        "2026-10-15": {
+          "start": "12:00",
+          "end": "21:00"
+        },
+        "2026-10-16": {
+          "start": "12:00",
+          "end": "21:00"
+        },
+        "2026-10-17": {
+          "start": "12:00",
+          "end": "21:00"
+        },
+        "2026-10-18": {
+          "start": "12:00",
+          "end": "18:00"
+        },
+        "2026-10-20": {
+          "start": "12:00",
+          "end": "21:00"
+        },
+        "2026-10-21": {
+          "start": "12:00",
+          "end": "21:00"
+        },
+        "2026-10-22": {
+          "start": "12:00",
+          "end": "21:00"
+        },
+        "2026-10-23": {
+          "start": "12:00",
+          "end": "21:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "closedWeekdays": [
+        1
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "12:00",
+            "21:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "12:00",
+            "21:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "21:00"
+          ]
+        ],
+        "friday": [
+          [
+            "12:00",
+            "21:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "12:00",
+            "21:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "12:00",
+            "18:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-kolarac-svet-fantastike-na-papiru-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Svet fantastike na papiru",
+      "date": "2026-09-17",
+      "endDate": "2026-10-18",
+      "time": "10:00",
+      "end": null,
+      "venue": "Galerija Kolarčeve zadužbine",
+      "address": "Studentski trg 5, 11000 Beograd",
+      "lat": 44.819094,
+      "lng": 20.456261,
+      "coordinateSource": "https://en.wikipedia.org/wiki/Ilija_M._Kolarac_Endowment",
+      "coordinateEvidence": "Coordinate of the Kolarac building at Studentski trg 5, explicitly provided by Wikipedia; gallery is inside same official-address building, not an exact entrance coordinate.",
+      "price": 0,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Условия и льготы уточняйте у площадки.",
+      "description": "Выставка с 2026-09-17 по 2026-10-18. Посещение: Пн, Вт, Ср, Чт, Пт, Сб, Вс 10:00–20:00.",
+      "timeNote": "Посещение: Пн, Вт, Ср, Чт, Пт, Сб, Вс 10:00–20:00. Открытие 2026-09-17 в 19:00. Время открытия не является ежедневным расписанием.",
+      "source": "Galerija Kolarčeve zadužbine",
+      "sourceUrl": "https://www.kolarac.rs/vizuelne-umetnosti/svet-fantastike-na-papiru-17-9-18-10-2026-galerija/",
+      "sources": [
+        {
+          "name": "Galerija Kolarčeve zadužbine",
+          "url": "https://www.kolarac.rs/vizuelne-umetnosti/svet-fantastike-na-papiru-17-9-18-10-2026-galerija/",
+          "price": 0,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:55:30Z"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.kolarac.rs/vizuelne-umetnosti/svet-fantastike-na-papiru-17-9-18-10-2026-galerija/",
+        "https://en.wikipedia.org/wiki/Ilija_M._Kolarac_Endowment"
+      ],
+      "checkedAt": "2026-10-14T01:55:30Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-09-17",
+        "time": "19:00"
+      },
+      "verificationNotes": "Official event explicitly verifies entire 2026 run, daily hours and free entry. October18 guided tour is part of this exhibition, not another exhibition run.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "researchDescription": "Works on paper by 62 artists from the Mihajlović–Feniks Foundation collection, spanning Mediala and fantastic art.",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-15": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-16": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-18": {
+          "start": "10:00",
+          "end": "20:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18"
+      ],
+      "closedWeekdays": [],
+      "weeklyVisitingHours": {
+        "monday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "friday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-cervantes-arhitektura-introspekcije-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Arhitektura introspekcije",
+      "date": "2026-09-17",
+      "endDate": "2026-10-25",
+      "time": "11:00",
+      "end": null,
+      "venue": "Galerija Instituta Servantes u Beogradu",
+      "address": "Čika Ljubina 19, 11000 Beograd",
+      "lat": 44.8176471,
+      "lng": 20.4573014,
+      "coordinateSource": "https://rutascervantes.es/lugar/instituto-cervantes-de-belgrado/",
+      "coordinateEvidence": "Existing exact-address venue point retained; named-building coordinate source corroborates it.",
+      "price": 0,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Условия и льготы уточняйте у площадки.",
+      "description": "Выставка с 2026-09-17 по 2026-10-25. Участники: Florensija Zunana. Посещение: Пн, Вт, Ср, Чт, Пт 11:00–20:00; Сб 10:00–18:00; Вс часы не подтверждены.",
+      "timeNote": "Посещение: Пн, Вт, Ср, Чт, Пт 11:00–20:00; Сб 10:00–18:00; Вс часы не подтверждены. Открытие 2026-09-17 в 19:00. Время открытия не является ежедневным расписанием.",
+      "source": "Galerija Instituta Servantes u Beogradu",
+      "sourceUrl": "https://cultura.cervantes.es/FichasCulturales/FichaActividadCultural.php?id=a0UVk00000LldrhMAB&lang=sh",
+      "sources": [
+        {
+          "name": "Galerija Instituta Servantes u Beogradu",
+          "url": "https://cultura.cervantes.es/FichasCulturales/FichaActividadCultural.php?id=a0UVk00000LldrhMAB&lang=sh",
+          "price": 0,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:55:30Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://belgrado.cervantes.es/rs/default.shtm"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://boldmagazine.rs/arhitektura-introspekcije-beograd-viden-kroz-porodicna-secanja-florensije-zunana/"
+        }
+      ],
+      "evidenceUrls": [
+        "https://cultura.cervantes.es/FichasCulturales/FichaActividadCultural.php?id=a0UVk00000LldrhMAB&lang=sh",
+        "https://belgrado.cervantes.es/rs/default.shtm",
+        "https://boldmagazine.rs/arhitektura-introspekcije-beograd-viden-kroz-porodicna-secanja-florensije-zunana/",
+        "https://rutascervantes.es/lugar/instituto-cervantes-de-belgrado/"
+      ],
+      "checkedAt": "2026-10-14T01:55:30Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-09-17",
+        "time": "19:00"
+      },
+      "verificationNotes": "Full run primary verified. Free admission from BOLD September3 announcement. Current homepage specifies hours effective June8 2026, superseding older about-page10–21. Sunday unknown despite final advertised date falling Sunday. Publisher already has verified venue coordinates44.8176471,20.4573014 and separate Oct16 guided visit; keep guided visit unchanged and distinguish it from full run.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "researchDescription": "Photographs, family documents and objects investigating memory, migration and the artist’s family connections to Belgrade.",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-15": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-16": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-19": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-20": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-21": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-22": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-23": {
+          "start": "11:00",
+          "end": "20:00"
+        },
+        "2026-10-24": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24"
+      ],
+      "closedWeekdays": [],
+      "weeklyVisitingHours": {
+        "monday": [
+          [
+            "11:00",
+            "20:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "11:00",
+            "20:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "11:00",
+            "20:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "11:00",
+            "20:00"
+          ]
+        ],
+        "friday": [
+          [
+            "11:00",
+            "20:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "sunday": null
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-b2-ana-knezevic-dodir-pogledom-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Dodir pogledom",
+      "date": "2026-10-03",
+      "endDate": "2026-10-31",
+      "time": "12:00",
+      "end": null,
+      "venue": "Galerija B2",
+      "address": "Balkanska 2, 11000 Beograd – Stari grad, Serbia",
+      "lat": 44.8125303,
+      "lng": 20.4594604,
+      "coordinateSource": "https://www.google.com/maps?cid=16170898083075855496",
+      "coordinateEvidence": {
+        "provider": "Google Maps",
+        "url": "https://maps.google.com/maps?q=Galerija%20B2%2C%20Balkanska%202%2C%20Beograd&t=m&z=14&output=embed&iwloc=near",
+        "placeUrl": "https://www.google.com/maps?cid=16170898083075855496",
+        "verifiedBy": "Read public Google Maps embed HTML. Parsed the coordinates inside the named venue entity tuple, not viewport/camera coordinates. Entity name, street address, website and phone match official venue details."
+      },
+      "price": null,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Цена входа не подтверждена.",
+      "description": "Выставка с 2026-10-03 по 2026-10-31. Участники: Ana Knežević. Посещение: Пн, Вт, Ср, Чт, Пт 12:00–20:00; Сб 10:00–15:00; Вс часы не подтверждены.",
+      "timeNote": "Посещение: Пн, Вт, Ср, Чт, Пт 12:00–20:00; Сб 10:00–15:00; Вс часы не подтверждены.",
+      "source": "Galerija B2",
+      "sourceUrl": "https://www.galerijab2.rs/home/",
+      "sources": [
+        {
+          "name": "Galerija B2",
+          "url": "https://www.galerijab2.rs/home/",
+          "price": null,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:45Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://www.galerijab2.rs/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://rts.rs/radio/radio-beograd-2/6056504/nagrada-za-crtez-fonda-vladimir-velickovic-i-dodir-pogledom-.html"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://maps.google.com/maps?q=Galerija%20B2%2C%20Balkanska%202%2C%20Beograd&t=m&z=14&output=embed&iwloc=near"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.galerijab2.rs/home/",
+        "https://www.galerijab2.rs/",
+        "https://rts.rs/radio/radio-beograd-2/6056504/nagrada-za-crtez-fonda-vladimir-velickovic-i-dodir-pogledom-.html",
+        "https://maps.google.com/maps?q=Galerija%20B2%2C%20Balkanska%202%2C%20Beograd&t=m&z=14&output=embed&iwloc=near",
+        "https://www.google.com/maps?cid=16170898083075855496"
+      ],
+      "checkedAt": "2026-10-14T01:57:45Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": null,
+      "verificationNotes": "Dates, artist, English title, address and hours verified directly on official gallery homepage. Serbian title verified in official site's indexed result. Media details supported by RTS interview with the artist.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-15": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-16": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "15:00"
+        },
+        "2026-10-19": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-20": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-21": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-22": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-23": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-24": {
+          "start": "10:00",
+          "end": "15:00"
+        },
+        "2026-10-26": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-27": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-28": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-29": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "15:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31"
+      ],
+      "closedWeekdays": [],
+      "weeklyVisitingHours": {
+        "monday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "friday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "10:00",
+            "15:00"
+          ]
+        ],
+        "sunday": null
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-rima-perica-donkov-kon-sekvence-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Kon_Sekvence",
+      "date": "2026-10-08",
+      "endDate": "2026-11-07",
+      "time": "12:00",
+      "end": null,
+      "venue": "Galerija RIMA, Beograd",
+      "address": "Pariska 8, 11000 Beograd, Serbia",
+      "lat": 44.8187088,
+      "lng": 20.4509244,
+      "coordinateSource": "https://www.google.com/maps?cid=9535461193292794057",
+      "coordinateEvidence": {
+        "provider": "Google Maps",
+        "url": "https://maps.google.com/maps?q=Galerija%20RIMA%2C%20Pariska%208%2C%20Beograd&t=m&z=14&output=embed&iwloc=near",
+        "placeUrl": "https://www.google.com/maps?cid=9535461193292794057",
+        "verifiedBy": "Read public Google Maps embed HTML. Parsed the coordinates inside the named venue entity tuple, not viewport/camera coordinates. Entity name, street address, website and phone match official venue details."
+      },
+      "price": null,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Цена входа не подтверждена.",
+      "description": "Выставка с 2026-10-08 по 2026-11-07. Участники: Perica Donkov. Посещение: Пн, Вс закрыто; Вт, Ср, Чт, Пт 12:00–19:00; Сб 11:00–18:00.",
+      "timeNote": "Посещение: Пн, Вс закрыто; Вт, Ср, Чт, Пт 12:00–19:00; Сб 11:00–18:00.",
+      "source": "Galerija RIMA, Beograd",
+      "sourceUrl": "https://galerijarima.com/perica-donkov-36-bg/",
+      "sources": [
+        {
+          "name": "Galerija RIMA, Beograd",
+          "url": "https://galerijarima.com/perica-donkov-36-bg/",
+          "price": null,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:45Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://galerijarima.com/izlozbe/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://galerijarima.com/kontakt/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://www.tanjug.rs/kultura/art/287420/izlozba-slika-perice-donkova-od-8-oktobra-u-galeriji-rima/vest"
+        }
+      ],
+      "evidenceUrls": [
+        "https://galerijarima.com/perica-donkov-36-bg/",
+        "https://galerijarima.com/izlozbe/",
+        "https://galerijarima.com/kontakt/",
+        "https://www.tanjug.rs/kultura/art/287420/izlozba-slika-perice-donkova-od-8-oktobra-u-galeriji-rima/vest",
+        "https://maps.google.com/maps?q=Galerija%20RIMA%2C%20Pariska%208%2C%20Beograd&t=m&z=14&output=embed&iwloc=near",
+        "https://www.google.com/maps?cid=9535461193292794057"
+      ],
+      "checkedAt": "2026-10-14T01:57:45Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": null,
+      "verificationNotes": "Dedicated official exhibition page verifies Oct 8–Nov 7, 2026. Official contact page verifies address/hours. A City of Belgrade announcement incorrectly/differently gives Oct 18 as closing; use the gallery's own Nov 7 date.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-15": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-16": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-17": {
+          "start": "11:00",
+          "end": "18:00"
+        },
+        "2026-10-20": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-21": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-22": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-23": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-24": {
+          "start": "11:00",
+          "end": "18:00"
+        },
+        "2026-10-27": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-28": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-29": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-30": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-10-31": {
+          "start": "11:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-11-04": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-11-05": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-11-06": {
+          "start": "12:00",
+          "end": "19:00"
+        },
+        "2026-11-07": {
+          "start": "11:00",
+          "end": "18:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07"
+      ],
+      "closedWeekdays": [
+        1,
+        0
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "friday": [
+          [
+            "12:00",
+            "19:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "11:00",
+            "18:00"
+          ]
+        ],
+        "sunday": []
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-dots-retke-zemlje-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Retke zemlje",
+      "date": "2026-10-01",
+      "endDate": "2026-10-31",
+      "time": null,
+      "end": null,
+      "venue": "Galerija DOTS",
+      "address": "Bulevar vojvode Bojovića 4, 11000 Beograd – Stari grad, Serbia",
+      "lat": 44.8272492,
+      "lng": 20.4547448,
+      "coordinateSource": "https://www.google.com/maps?cid=14997144076932270544",
+      "coordinateEvidence": {
+        "provider": "Google Maps",
+        "url": "https://maps.google.com/maps?q=DOTS%20Gallery%2C%20Bulevar%20vojvode%20Bojovi%C4%87a%204%2C%20Beograd&t=m&z=14&output=embed&iwloc=near",
+        "placeUrl": "https://www.google.com/maps?cid=14997144076932270544",
+        "verifiedBy": "Read public Google Maps embed HTML. Parsed the coordinates inside the named venue entity tuple, not viewport/camera coordinates. Entity name, street address, website and phone match official venue details."
+      },
+      "price": null,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Цена входа не подтверждена.",
+      "description": "Выставка с 2026-10-01 по 2026-10-31. Участники: Kate Crawford and Vladan Joler, Thomas Thwaites, Volkan Dinçer, Total Refusal, Victoria Vesna, JKU Soft Matter Physics. Часы посещения не подтверждены. Перед визитом проверь расписание у площадки.",
+      "timeNote": "Часы посещения не подтверждены. Перед визитом проверь расписание у площадки. Открытие 2026-10-01 в 19:00. Время открытия не является ежедневным расписанием.",
+      "source": "Galerija DOTS",
+      "sourceUrl": "https://dotsgallery.org/rs/exhibitions/retke_zemlje/",
+      "sources": [
+        {
+          "name": "Galerija DOTS",
+          "url": "https://dotsgallery.org/rs/exhibitions/retke_zemlje/",
+          "price": null,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:45Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://dotsgallery.org/rs/exhibitions/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://dotsgallery.org/rs/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://maps.google.com/maps?q=DOTS%20Gallery%2C%20Bulevar%20vojvode%20Bojovi%C4%87a%204%2C%20Beograd&t=m&z=14&output=embed&iwloc=near"
+        }
+      ],
+      "evidenceUrls": [
+        "https://dotsgallery.org/rs/exhibitions/retke_zemlje/",
+        "https://dotsgallery.org/rs/exhibitions/",
+        "https://dotsgallery.org/rs/",
+        "https://maps.google.com/maps?q=DOTS%20Gallery%2C%20Bulevar%20vojvode%20Bojovi%C4%87a%204%2C%20Beograd&t=m&z=14&output=embed&iwloc=near",
+        "https://www.google.com/maps?cid=14997144076932270544"
+      ],
+      "checkedAt": "2026-10-14T01:57:45Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-10-01",
+        "time": "19:00",
+        "timezone": "Europe/Belgrade"
+      },
+      "verificationNotes": "Full run, opening, artists, curator and address verified on dedicated official announcement. Source transliterates some artist names into Serbian; original spellings normalized from names in exhibition coverage.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "dailyHoursUnverified": true
+    },
+    {
+      "id": "bg-exhibition-goethe-mila-panic-inside-joke-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Inside Joke / Unutar šale",
+      "date": "2026-10-13",
+      "endDate": "2026-10-31",
+      "time": "10:00",
+      "end": null,
+      "venue": "Galerija Menjačnica, Goethe-Institut Beograd library",
+      "address": "Knez Mihailova 50, 11000 Beograd, Serbia",
+      "lat": 44.8190272,
+      "lng": 20.4550849,
+      "coordinateSource": "https://www.google.com/maps?cid=11913285046824906583",
+      "coordinateEvidence": {
+        "provider": "Google Maps",
+        "url": "https://maps.google.com/maps?q=Goethe-Institut%2C%20Knez%20Mihailova%2050%2C%20Beograd&t=m&z=14&output=embed&iwloc=near",
+        "placeUrl": "https://www.google.com/maps?cid=11913285046824906583",
+        "verifiedBy": "Read public Google Maps embed HTML. Parsed the coordinates inside the named venue entity tuple, not viewport/camera coordinates. Entity name, street address, website and phone match official venue details."
+      },
+      "price": null,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Цена входа не подтверждена.",
+      "description": "Выставка с 2026-10-13 по 2026-10-31. Участники: Mila Panić. Посещение: Пн, Вт, Ср, Пт 10:00–16:30; Чт 10:00–19:00; Сб 10:00–15:00; Вс часы не подтверждены.",
+      "timeNote": "Посещение: Пн, Вт, Ср, Пт 10:00–16:30; Чт 10:00–19:00; Сб 10:00–15:00; Вс часы не подтверждены. Открытие 2026-10-13 в 19:00. Время открытия не является ежедневным расписанием.",
+      "source": "Galerija Menjačnica, Goethe-Institut Beograd library",
+      "sourceUrl": "https://www.goethe.de/ins/cs/sr/ver.cfm?event_id=27358070",
+      "sources": [
+        {
+          "name": "Galerija Menjačnica, Goethe-Institut Beograd library",
+          "url": "https://www.goethe.de/ins/cs/sr/ver.cfm?event_id=27358070",
+          "price": null,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:45Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://www.goethe.de/ins/cs/sr/ueb/kon.html"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://www.goethe.de/ins/cs/sr/kul/kue/men.html"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://maps.google.com/maps?q=Goethe-Institut%2C%20Knez%20Mihailova%2050%2C%20Beograd&t=m&z=14&output=embed&iwloc=near"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.goethe.de/ins/cs/sr/ver.cfm?event_id=27358070",
+        "https://www.goethe.de/ins/cs/sr/ueb/kon.html",
+        "https://www.goethe.de/ins/cs/sr/kul/kue/men.html",
+        "https://maps.google.com/maps?q=Goethe-Institut%2C%20Knez%20Mihailova%2050%2C%20Beograd&t=m&z=14&output=embed&iwloc=near",
+        "https://www.google.com/maps?cid=11913285046824906583"
+      ],
+      "checkedAt": "2026-10-14T01:57:45Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-10-13",
+        "time": "19:00",
+        "timezone": "Europe/Belgrade",
+        "description": "Exhibition opening and Umetnički kafe with Mila Panić and Selman Trtovac"
+      },
+      "verificationNotes": "Direct official event verifies dates and opening; official contact page gives address and library hours.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "10:00",
+          "end": "16:30"
+        },
+        "2026-10-15": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-10-16": {
+          "start": "10:00",
+          "end": "16:30"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "15:00"
+        },
+        "2026-10-19": {
+          "start": "10:00",
+          "end": "16:30"
+        },
+        "2026-10-20": {
+          "start": "10:00",
+          "end": "16:30"
+        },
+        "2026-10-21": {
+          "start": "10:00",
+          "end": "16:30"
+        },
+        "2026-10-22": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-10-23": {
+          "start": "10:00",
+          "end": "16:30"
+        },
+        "2026-10-24": {
+          "start": "10:00",
+          "end": "15:00"
+        },
+        "2026-10-26": {
+          "start": "10:00",
+          "end": "16:30"
+        },
+        "2026-10-27": {
+          "start": "10:00",
+          "end": "16:30"
+        },
+        "2026-10-28": {
+          "start": "10:00",
+          "end": "16:30"
+        },
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "19:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "16:30"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "15:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31"
+      ],
+      "closedWeekdays": [],
+      "weeklyVisitingHours": {
+        "monday": [
+          [
+            "10:00",
+            "16:30"
+          ]
+        ],
+        "tuesday": [
+          [
+            "10:00",
+            "16:30"
+          ]
+        ],
+        "wednesday": [
+          [
+            "10:00",
+            "16:30"
+          ]
+        ],
+        "thursday": [
+          [
+            "10:00",
+            "19:00"
+          ]
+        ],
+        "friday": [
+          [
+            "10:00",
+            "16:30"
+          ]
+        ],
+        "saturday": [
+          [
+            "10:00",
+            "15:00"
+          ]
+        ],
+        "sunday": null
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-prodajna-ranka-radovanovic-smanjena-vidljivost-2026",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Smanjena vidljivost",
+      "date": "2026-10-15",
+      "endDate": "2026-11-02",
+      "time": "09:00",
+      "end": null,
+      "venue": "Prodajna galerija Beograd",
+      "address": "Kosančićev venac 19, 11000 Beograd, Serbia",
+      "lat": 44.8164551,
+      "lng": 20.4512732,
+      "coordinateSource": "https://www.google.com/maps?cid=13408342222255317759",
+      "coordinateEvidence": {
+        "provider": "Google Maps",
+        "url": "https://maps.google.com/maps?q=Prodajna%20galerija%20Beograd%2C%20Kosan%C4%8Di%C4%87ev%20venac%2019%2C%20Beograd&t=m&z=14&output=embed&iwloc=near",
+        "placeUrl": "https://www.google.com/maps?cid=13408342222255317759",
+        "verifiedBy": "Read public Google Maps embed HTML. Parsed the coordinates inside the named venue entity tuple, not viewport/camera coordinates. Entity name, street address, website and phone match official venue details."
+      },
+      "price": null,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Цена входа не подтверждена.",
+      "description": "Выставка с 2026-10-15 по 2026-11-02. Участники: Ranka Radovanović. Посещение: Пн, Вт, Ср, Чт, Пт 09:00–19:00; Сб 09:00–15:00; Вс закрыто.",
+      "timeNote": "Посещение: Пн, Вт, Ср, Чт, Пт 09:00–19:00; Сб 09:00–15:00; Вс закрыто. Открытие 2026-10-15 в 19:00. Время открытия не является ежедневным расписанием.",
+      "source": "Prodajna galerija Beograd",
+      "sourceUrl": "https://www.galerijabeograd.org/aktuelna-izlozba-5/",
+      "sources": [
+        {
+          "name": "Prodajna galerija Beograd",
+          "url": "https://www.galerijabeograd.org/aktuelna-izlozba-5/",
+          "price": null,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:45Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://galerijabeograd.org/podaci-o-galeriji-2/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://www.galerijabeograd.org/vesti/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://maps.google.com/maps?q=Prodajna%20galerija%20Beograd%2C%20Kosan%C4%8Di%C4%87ev%20venac%2019%2C%20Beograd&t=m&z=14&output=embed&iwloc=near"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.galerijabeograd.org/aktuelna-izlozba-5/",
+        "https://galerijabeograd.org/podaci-o-galeriji-2/",
+        "https://www.galerijabeograd.org/vesti/",
+        "https://maps.google.com/maps?q=Prodajna%20galerija%20Beograd%2C%20Kosan%C4%8Di%C4%87ev%20venac%2019%2C%20Beograd&t=m&z=14&output=embed&iwloc=near",
+        "https://www.google.com/maps?cid=13408342222255317759"
+      ],
+      "checkedAt": "2026-10-14T01:57:45Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-10-15",
+        "time": "19:00",
+        "timezone": "Europe/Belgrade"
+      },
+      "verificationNotes": "Full dates, artist, title, medium, opening and address verified in freshly indexed official current-exhibition page. web.open serves an older cached version showing the previous Dunja Ćorlomanović show; current search result was checked repeatedly and explicitly states Oct 15–Nov 2, 2026. Dedicated official gallery-information page verifies hours; official news page states Sunday closed.",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-15": {
+          "start": "19:00",
+          "end": null,
+          "type": "opening",
+          "endVerified": false
+        },
+        "2026-10-16": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "2026-10-17": {
+          "start": "09:00",
+          "end": "15:00"
+        },
+        "2026-10-19": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "2026-10-20": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "2026-10-21": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "2026-10-22": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "2026-10-23": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "2026-10-24": {
+          "start": "09:00",
+          "end": "15:00"
+        },
+        "2026-10-26": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "2026-10-27": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "2026-10-28": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "2026-10-29": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "2026-10-30": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "2026-10-31": {
+          "start": "09:00",
+          "end": "15:00"
+        },
+        "2026-11-02": {
+          "start": "09:00",
+          "end": "19:00"
+        }
+      },
+      "validDates": [
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-02"
+      ],
+      "closedWeekdays": [
+        0
+      ],
+      "weeklyVisitingHours": {
+        "monday": [
+          [
+            "09:00",
+            "19:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "09:00",
+            "19:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "09:00",
+            "19:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "09:00",
+            "19:00"
+          ]
+        ],
+        "friday": [
+          [
+            "09:00",
+            "19:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "09:00",
+            "15:00"
+          ]
+        ],
+        "sunday": []
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-zarko-baseski-corporeality",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Žarko Bašeski: Korporealnost",
+      "date": "2026-10-02",
+      "endDate": "2026-11-09",
+      "time": "11:00",
+      "end": null,
+      "venue": "Muzej savremene umetnosti",
+      "address": "Ušće 10, Blok 15, Novi Beograd",
+      "lat": 44.8195603,
+      "lng": 20.4424033,
+      "coordinateSource": "https://msub.org.rs/kontakt/",
+      "coordinateEvidence": "Destination !1d20.4424033!2d44.8195603 in official Google Directions link; not map-center coordinates.",
+      "price": 600,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Взрослый билет в музей — 600 RSD, льготный — 300 RSD. В первую среду месяца вход бесплатный. Отдельные обязательные сборы не указаны.",
+      "description": "Выставка с 2026-10-02 по 2026-11-09. Посещение: Пн, Ср, Пт, Вс 11:00–19:00; Вт закрыто; Чт, Сб 12:00–20:00.",
+      "timeNote": "Посещение: Пн, Ср, Пт, Вс 11:00–19:00; Вт закрыто; Чт, Сб 12:00–20:00. Открытие 2026-10-02 в 18:00. Время открытия не является ежедневным расписанием.",
+      "source": "Muzej savremene umetnosti",
+      "sourceUrl": "https://msub.org.rs/exhibition/zarko-baseski-korporealnost/",
+      "sources": [
+        {
+          "name": "Muzej savremene umetnosti",
+          "url": "https://msub.org.rs/exhibition/zarko-baseski-korporealnost/",
+          "price": 600,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:00Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://msub.org.rs/poseta/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://msub.org.rs/kontakt/"
+        }
+      ],
+      "evidenceUrls": [
+        "https://msub.org.rs/exhibition/zarko-baseski-korporealnost/",
+        "https://msub.org.rs/poseta/",
+        "https://msub.org.rs/kontakt/"
+      ],
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-10-02",
+        "time": "18:00",
+        "end": null
+      },
+      "verificationNotes": "",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-15": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-16": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-17": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-18": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-19": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-21": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-22": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-23": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-24": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-25": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-26": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-28": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-29": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-31": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-01": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-02": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-04": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-05": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-07": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-08": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-09": {
+          "start": "11:00",
+          "end": "19:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09"
+      ],
+      "closedWeekdays": [
+        2
+      ],
+      "weeklyVisitingHours": {
+        "monday": [
+          [
+            "11:00",
+            "19:00"
+          ]
+        ],
+        "tuesday": [],
+        "wednesday": [
+          [
+            "11:00",
+            "19:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "friday": [
+          [
+            "11:00",
+            "19:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "11:00",
+            "19:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-zorica-colic-and-tanja-jurican-measures-of-the-body",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Zorica Čolić i Tanja Juričan: Mere tela",
+      "date": "2026-08-28",
+      "endDate": "2026-10-19",
+      "time": "12:00",
+      "end": null,
+      "venue": "Salon Muzeja savremene umetnosti",
+      "address": "Pariska 14, Beograd",
+      "lat": 44.8194603,
+      "lng": 20.4528657,
+      "coordinateSource": "https://msub.org.rs/kontakt/",
+      "coordinateEvidence": "Destination !1d20.4528657!2d44.8194603 in official Google Directions link.",
+      "price": 0,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Вход бесплатный по информации музея.",
+      "description": "Выставка с 2026-08-28 по 2026-10-19. Посещение: Пн, Ср, Чт, Пт, Сб, Вс 12:00–20:00; Вт закрыто.",
+      "timeNote": "Посещение: Пн, Ср, Чт, Пт, Сб, Вс 12:00–20:00; Вт закрыто. Открытие 2026-08-28 в 19:00. Время открытия не является ежедневным расписанием.",
+      "source": "Salon Muzeja savremene umetnosti",
+      "sourceUrl": "https://msub.org.rs/exhibition/zorica-colic-i-tanja-jurican-mere-tela/",
+      "sources": [
+        {
+          "name": "Salon Muzeja savremene umetnosti",
+          "url": "https://msub.org.rs/exhibition/zorica-colic-i-tanja-jurican-mere-tela/",
+          "price": 0,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:00Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://msub.org.rs/poseta/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://msub.org.rs/kontakt/"
+        }
+      ],
+      "evidenceUrls": [
+        "https://msub.org.rs/exhibition/zorica-colic-i-tanja-jurican-mere-tela/",
+        "https://msub.org.rs/poseta/",
+        "https://msub.org.rs/kontakt/"
+      ],
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-08-28",
+        "time": "19:00",
+        "end": null
+      },
+      "verificationNotes": "",
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-15": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-16": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-17": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-18": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-19": {
+          "start": "12:00",
+          "end": "20:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19"
+      ],
+      "closedWeekdays": [
+        2
+      ],
+      "weeklyVisitingHours": {
+        "monday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "tuesday": [],
+        "wednesday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "friday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-turning-points-toward-modernity-art-and-society-19001945",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Prekretnice ka modernosti: Umetnost društva 1900–1945",
+      "date": "2025-10-18",
+      "endDate": "2027-03-01",
+      "time": "11:00",
+      "end": null,
+      "venue": "Muzej savremene umetnosti",
+      "address": "Ušće 10, Blok 15, Novi Beograd",
+      "lat": 44.8195603,
+      "lng": 20.4424033,
+      "coordinateSource": "https://msub.org.rs/kontakt/",
+      "coordinateEvidence": "Destination !1d20.4424033!2d44.8195603 in official Google Directions link; not map-center coordinates.",
+      "price": 600,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Взрослый билет в музей — 600 RSD, льготный — 300 RSD. В первую среду месяца вход бесплатный. Отдельные обязательные сборы не указаны.",
+      "description": "Выставка с 2025-10-18 по 2027-03-01. Посещение: Пн, Ср, Пт, Вс 11:00–19:00; Вт закрыто; Чт, Сб 12:00–20:00.",
+      "timeNote": "Посещение: Пн, Ср, Пт, Вс 11:00–19:00; Вт закрыто; Чт, Сб 12:00–20:00.",
+      "source": "Muzej savremene umetnosti",
+      "sourceUrl": "https://msub.org.rs/exhibition/prekretnice-ka-modernosti-umetnost-drustva-1900-1945/",
+      "sources": [
+        {
+          "name": "Muzej savremene umetnosti",
+          "url": "https://msub.org.rs/exhibition/prekretnice-ka-modernosti-umetnost-drustva-1900-1945/",
+          "price": 600,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:00Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://msub.org.rs/poseta/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://msub.org.rs/kontakt/"
+        }
+      ],
+      "evidenceUrls": [
+        "https://msub.org.rs/exhibition/prekretnice-ka-modernosti-umetnost-drustva-1900-1945/",
+        "https://msub.org.rs/poseta/",
+        "https://msub.org.rs/kontakt/"
+      ],
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": null,
+      "verificationNotes": [
+        "Explicit structured run and exhibition index say 2025-10-18 to 2027-03-01. Narrative also says next two years; prefer explicit dates, but flag this loose wording. Not a new October 2026 opening."
+      ],
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-15": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-16": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-17": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-18": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-19": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-21": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-22": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-23": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-24": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-25": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-26": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-28": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-29": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-10-31": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-01": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-02": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-04": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-05": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-07": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-08": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-09": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-11": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-12": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-14": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-15": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-16": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-18": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-19": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-20": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-21": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-22": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-23": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-25": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-26": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-27": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-28": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-11-29": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-11-30": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-02": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-03": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-12-04": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-05": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-12-06": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-07": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-09": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-10": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-12-11": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-12": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-12-13": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-14": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-16": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-17": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-12-18": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-19": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-12-20": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-21": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-23": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-24": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-12-25": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-26": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-12-27": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-28": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-30": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2026-12-31": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-01-01": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-02": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-01-03": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-04": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-06": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-07": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-01-08": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-09": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-01-10": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-11": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-13": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-14": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-01-15": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-16": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-01-17": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-18": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-20": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-21": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-01-22": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-23": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-01-24": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-25": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-27": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-28": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-01-29": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-01-30": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-01-31": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-01": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-03": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-04": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-02-05": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-06": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-02-07": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-08": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-10": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-11": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-02-12": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-13": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-02-14": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-15": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-17": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-18": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-02-19": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-20": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-02-21": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-22": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-24": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-25": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-02-26": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-02-27": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2027-02-28": {
+          "start": "11:00",
+          "end": "19:00"
+        },
+        "2027-03-01": {
+          "start": "11:00",
+          "end": "19:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29",
+        "2026-11-30",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-05",
+        "2026-12-06",
+        "2026-12-07",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-12",
+        "2026-12-13",
+        "2026-12-14",
+        "2026-12-16",
+        "2026-12-17",
+        "2026-12-18",
+        "2026-12-19",
+        "2026-12-20",
+        "2026-12-21",
+        "2026-12-23",
+        "2026-12-24",
+        "2026-12-25",
+        "2026-12-26",
+        "2026-12-27",
+        "2026-12-28",
+        "2026-12-30",
+        "2026-12-31",
+        "2027-01-01",
+        "2027-01-02",
+        "2027-01-03",
+        "2027-01-04",
+        "2027-01-06",
+        "2027-01-07",
+        "2027-01-08",
+        "2027-01-09",
+        "2027-01-10",
+        "2027-01-11",
+        "2027-01-13",
+        "2027-01-14",
+        "2027-01-15",
+        "2027-01-16",
+        "2027-01-17",
+        "2027-01-18",
+        "2027-01-20",
+        "2027-01-21",
+        "2027-01-22",
+        "2027-01-23",
+        "2027-01-24",
+        "2027-01-25",
+        "2027-01-27",
+        "2027-01-28",
+        "2027-01-29",
+        "2027-01-30",
+        "2027-01-31",
+        "2027-02-01",
+        "2027-02-03",
+        "2027-02-04",
+        "2027-02-05",
+        "2027-02-06",
+        "2027-02-07",
+        "2027-02-08",
+        "2027-02-10",
+        "2027-02-11",
+        "2027-02-12",
+        "2027-02-13",
+        "2027-02-14",
+        "2027-02-15",
+        "2027-02-17",
+        "2027-02-18",
+        "2027-02-19",
+        "2027-02-20",
+        "2027-02-21",
+        "2027-02-22",
+        "2027-02-24",
+        "2027-02-25",
+        "2027-02-26",
+        "2027-02-27",
+        "2027-02-28",
+        "2027-03-01"
+      ],
+      "closedWeekdays": [
+        2
+      ],
+      "weeklyVisitingHours": {
+        "monday": [
+          [
+            "11:00",
+            "19:00"
+          ]
+        ],
+        "tuesday": [],
+        "wednesday": [
+          [
+            "11:00",
+            "19:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "friday": [
+          [
+            "11:00",
+            "19:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "11:00",
+            "19:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-traces-collecting-objects-from-2020-to-2024",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Tragovi: Prikupljanje predmeta u periodu od 2020. do 2024. godine",
+      "date": "2026-09-08",
+      "endDate": "2026-11-15",
+      "time": "10:00",
+      "end": null,
+      "venue": "Etnografski muzej u Beogradu",
+      "address": "Studentski trg 13, Beograd",
+      "lat": 44.8197579,
+      "lng": 20.4564871,
+      "coordinateSource": "https://etnografskimuzej.rs/kontakt/",
+      "coordinateEvidence": "Official contact-page locations array labels this marker as Etnografski muzej, Studentski trg 13.",
+      "price": 600,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Взрослый билет — 600 RSD, льготный — 300 RSD, семейный до пяти человек — 700 RSD. По понедельникам вход бесплатный.",
+      "description": "Выставка с 2026-09-08 по 2026-11-15. Посещение: Пн, Вт, Чт, Пт, Сб, Вс 10:00–20:00; Ср закрыто.",
+      "timeNote": "Посещение: Пн, Вт, Чт, Пт, Сб, Вс 10:00–20:00; Ср закрыто.",
+      "source": "Etnografski muzej u Beogradu",
+      "sourceUrl": "https://etnografskimuzej.rs/izlozba/tragovi-prikupljanje-predmeta-u-periodu-od-2020-do-2024-godine/",
+      "sources": [
+        {
+          "name": "Etnografski muzej u Beogradu",
+          "url": "https://etnografskimuzej.rs/izlozba/tragovi-prikupljanje-predmeta-u-periodu-od-2020-do-2024-godine/",
+          "price": 600,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:00Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://etnografskimuzej.rs/posetite-nas/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://etnografskimuzej.rs/kontakt/"
+        }
+      ],
+      "evidenceUrls": [
+        "https://etnografskimuzej.rs/izlozba/tragovi-prikupljanje-predmeta-u-periodu-od-2020-do-2024-godine/",
+        "https://etnografskimuzej.rs/posetite-nas/",
+        "https://etnografskimuzej.rs/kontakt/"
+      ],
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": null,
+      "verificationNotes": [
+        "Museum closed Wednesday October 14; exhibition remains active during the run and next opens Thursday October 15."
+      ],
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-15": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-16": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-18": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-19": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-20": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-22": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-23": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-24": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-25": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-26": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-27": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-02": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-09": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "20:00"
+        }
+      },
+      "validDates": [
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "closedWeekdays": [
+        3
+      ],
+      "weeklyVisitingHours": {
+        "monday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "wednesday": [],
+        "thursday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "friday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-read-and-pass-it-on-wartime-leaflets-in-the-yugoslav-region",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Čitaj i deli dalje: ratni letak na jugoslovenskom području u 20. veku",
+      "date": "2026-09-15",
+      "endDate": "2027-03-31",
+      "time": "10:00",
+      "end": null,
+      "venue": "Muzej Jugoslavije – Muzej 25. maj",
+      "address": "Mihaila Mike Jankovića 6, Beograd",
+      "lat": 44.78799,
+      "lng": 20.45202,
+      "coordinateSource": "https://mapcarta.com/W32809082",
+      "coordinateEvidence": "OSM building way 32809082, Museum of the 25th of May; correct building for both temporary shows.",
+      "price": 800,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Обычный билет — 800 RSD, для жителей Сербии — 600 RSD. Школьникам и студентам — 400 RSD; школьникам, студентам и пенсионерам — жителям Сербии — 200 RSD. В первый четверг месяца и государственные праздники индивидуальные посещения бесплатны. Отдельные сборы не указаны.",
+      "description": "Выставка с 2026-09-15 по 2027-03-31. Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 10:00–18:00.",
+      "timeNote": "Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 10:00–18:00. Открытие 2026-09-15 в 18:00. Время открытия не является ежедневным расписанием.",
+      "source": "Muzej Jugoslavije – Muzej 25. maj",
+      "sourceUrl": "https://muzej-jugoslavije.org/exhibition/citaj-i-deli-dalje-ratni-letak-na-jugoslovenskom-podrucju-u-20-veku/",
+      "sources": [
+        {
+          "name": "Muzej Jugoslavije – Muzej 25. maj",
+          "url": "https://muzej-jugoslavije.org/exhibition/citaj-i-deli-dalje-ratni-letak-na-jugoslovenskom-podrucju-u-20-veku/",
+          "price": 800,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:00Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://muzej-jugoslavije.org/posetite-nas/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://mapcarta.com/W32809082"
+        }
+      ],
+      "evidenceUrls": [
+        "https://muzej-jugoslavije.org/exhibition/citaj-i-deli-dalje-ratni-letak-na-jugoslovenskom-podrucju-u-20-veku/",
+        "https://muzej-jugoslavije.org/posetite-nas/",
+        "https://mapcarta.com/W32809082"
+      ],
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-09-15",
+        "time": "18:00",
+        "end": null
+      },
+      "verificationNotes": [
+        "Muzej 25. maj, right exhibition space."
+      ],
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-16": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-18": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-23": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-24": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-25": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-27": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-28": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-01": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-03": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-04": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-05": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-06": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-10": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-11": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-12": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-13": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-18": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-19": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-24": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-25": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-26": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-27": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-28": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-11-29": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-01": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-02": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-03": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-04": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-05": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-06": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-09": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-10": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-11": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-12": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-13": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-16": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-18": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-19": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-23": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-24": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-25": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-26": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-27": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-29": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-30": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-12-31": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-01": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-02": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-03": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-05": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-06": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-08": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-09": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-10": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-12": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-13": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-16": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-19": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-23": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-24": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-26": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-27": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-28": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-29": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-30": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-01-31": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-02": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-03": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-04": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-05": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-06": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-09": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-10": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-11": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-12": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-13": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-16": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-18": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-19": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-23": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-24": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-25": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-26": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-27": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-02-28": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-02": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-03": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-04": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-05": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-06": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-07": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-09": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-10": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-11": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-12": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-13": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-16": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-18": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-19": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-23": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-24": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-25": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-26": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-27": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-28": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-30": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2027-03-31": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29",
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-05",
+        "2026-12-06",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-12",
+        "2026-12-13",
+        "2026-12-15",
+        "2026-12-16",
+        "2026-12-17",
+        "2026-12-18",
+        "2026-12-19",
+        "2026-12-20",
+        "2026-12-22",
+        "2026-12-23",
+        "2026-12-24",
+        "2026-12-25",
+        "2026-12-26",
+        "2026-12-27",
+        "2026-12-29",
+        "2026-12-30",
+        "2026-12-31",
+        "2027-01-01",
+        "2027-01-02",
+        "2027-01-03",
+        "2027-01-05",
+        "2027-01-06",
+        "2027-01-07",
+        "2027-01-08",
+        "2027-01-09",
+        "2027-01-10",
+        "2027-01-12",
+        "2027-01-13",
+        "2027-01-14",
+        "2027-01-15",
+        "2027-01-16",
+        "2027-01-17",
+        "2027-01-19",
+        "2027-01-20",
+        "2027-01-21",
+        "2027-01-22",
+        "2027-01-23",
+        "2027-01-24",
+        "2027-01-26",
+        "2027-01-27",
+        "2027-01-28",
+        "2027-01-29",
+        "2027-01-30",
+        "2027-01-31",
+        "2027-02-02",
+        "2027-02-03",
+        "2027-02-04",
+        "2027-02-05",
+        "2027-02-06",
+        "2027-02-07",
+        "2027-02-09",
+        "2027-02-10",
+        "2027-02-11",
+        "2027-02-12",
+        "2027-02-13",
+        "2027-02-14",
+        "2027-02-16",
+        "2027-02-17",
+        "2027-02-18",
+        "2027-02-19",
+        "2027-02-20",
+        "2027-02-21",
+        "2027-02-23",
+        "2027-02-24",
+        "2027-02-25",
+        "2027-02-26",
+        "2027-02-27",
+        "2027-02-28",
+        "2027-03-02",
+        "2027-03-03",
+        "2027-03-04",
+        "2027-03-05",
+        "2027-03-06",
+        "2027-03-07",
+        "2027-03-09",
+        "2027-03-10",
+        "2027-03-11",
+        "2027-03-12",
+        "2027-03-13",
+        "2027-03-14",
+        "2027-03-16",
+        "2027-03-17",
+        "2027-03-18",
+        "2027-03-19",
+        "2027-03-20",
+        "2027-03-21",
+        "2027-03-23",
+        "2027-03-24",
+        "2027-03-25",
+        "2027-03-26",
+        "2027-03-27",
+        "2027-03-28",
+        "2027-03-30",
+        "2027-03-31"
+      ],
+      "closedWeekdays": [
+        1
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "friday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-freedom-is-a-dream-for-us-imprisonment-suffering-and-resistance",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Sloboda je za nas san – O zatočeništvu, stradanju i otporu",
+      "date": "2026-04-29",
+      "endDate": "2026-10-29",
+      "time": "10:00",
+      "end": null,
+      "venue": "Muzej Jugoslavije – Muzej 25. maj",
+      "address": "Mihaila Mike Jankovića 6, Beograd",
+      "lat": 44.78799,
+      "lng": 20.45202,
+      "coordinateSource": "https://mapcarta.com/W32809082",
+      "coordinateEvidence": "OSM building way 32809082, Museum of the 25th of May; correct building for both temporary shows.",
+      "price": 800,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Обычный билет — 800 RSD, для жителей Сербии — 600 RSD. Школьникам и студентам — 400 RSD; школьникам, студентам и пенсионерам — жителям Сербии — 200 RSD. В первый четверг месяца и государственные праздники индивидуальные посещения бесплатны. Отдельные сборы не указаны.",
+      "description": "Выставка с 2026-04-29 по 2026-10-29. Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 10:00–18:00.",
+      "timeNote": "Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 10:00–18:00. Открытие 2026-04-29 в 18:00. Время открытия не является ежедневным расписанием.",
+      "source": "Muzej Jugoslavije – Muzej 25. maj",
+      "sourceUrl": "https://muzej-jugoslavije.org/exhibition/sloboda-je-za-nas-san-o-zatocenistvu-stradanju-i-otporu/",
+      "sources": [
+        {
+          "name": "Muzej Jugoslavije – Muzej 25. maj",
+          "url": "https://muzej-jugoslavije.org/exhibition/sloboda-je-za-nas-san-o-zatocenistvu-stradanju-i-otporu/",
+          "price": 800,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:00Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://muzej-jugoslavije.org/posetite-nas/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://mapcarta.com/W32809082"
+        }
+      ],
+      "evidenceUrls": [
+        "https://muzej-jugoslavije.org/exhibition/sloboda-je-za-nas-san-o-zatocenistvu-stradanju-i-otporu/",
+        "https://muzej-jugoslavije.org/posetite-nas/",
+        "https://mapcarta.com/W32809082"
+      ],
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-04-29",
+        "time": "18:00",
+        "end": null
+      },
+      "verificationNotes": [
+        "Muzej 25. maj, left exhibition space. Full date range explicitly shown; do not use only accompanying film or discussion times."
+      ],
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-16": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-18": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-23": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-24": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-25": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-27": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-28": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29"
+      ],
+      "closedWeekdays": [
+        1
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "friday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-architecture-of-yugoslav-modernism-belgrade-7-1",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Arhitektura jugoslovenskog modernizma, Beograd: 7 + 1",
+      "date": "2026-04-03",
+      "endDate": "2026-10-31",
+      "time": "10:00",
+      "end": null,
+      "venue": "Muzej Jugoslavije – Stari muzej",
+      "address": "Mihaila Mike Jankovića 6, Beograd",
+      "lat": 44.78618,
+      "lng": 20.45178,
+      "coordinateSource": "https://mapcarta.com/W146656805",
+      "coordinateEvidence": "OSM way 146656805, Old Museum; exhibition is in fifth hall.",
+      "price": 800,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Обычный билет — 800 RSD, для жителей Сербии — 600 RSD. Школьникам и студентам — 400 RSD; школьникам, студентам и пенсионерам — жителям Сербии — 200 RSD. В первый четверг месяца и государственные праздники индивидуальные посещения бесплатны. Отдельные сборы не указаны.",
+      "description": "Выставка с 2026-04-03 по 2026-10-31. Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 10:00–18:00.",
+      "timeNote": "Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб, Вс 10:00–18:00. Открытие 2026-04-03 в 13:00. Время открытия не является ежедневным расписанием.",
+      "source": "Muzej Jugoslavije – Stari muzej",
+      "sourceUrl": "https://muzej-jugoslavije.org/program/arhitektura-jugoslovenskog-modernizma-beograd-7-1/",
+      "sources": [
+        {
+          "name": "Muzej Jugoslavije – Stari muzej",
+          "url": "https://muzej-jugoslavije.org/program/arhitektura-jugoslovenskog-modernizma-beograd-7-1/",
+          "price": 800,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:00Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://muzej-jugoslavije.org/posetite-nas/"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://mapcarta.com/W146656805"
+        }
+      ],
+      "evidenceUrls": [
+        "https://muzej-jugoslavije.org/program/arhitektura-jugoslovenskog-modernizma-beograd-7-1/",
+        "https://muzej-jugoslavije.org/posetite-nas/",
+        "https://mapcarta.com/W146656805"
+      ],
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": {
+        "date": "2026-04-03",
+        "time": "13:00",
+        "end": null
+      },
+      "verificationNotes": [
+        "Part of Muzejska laboratorija, Stari muzej fifth hall. Official page gives full run 03.04–31.10.2026. Do not duplicate as an unrelated guided-tour event."
+      ],
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-15": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-16": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-18": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-20": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-21": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-22": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-23": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-24": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-25": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-27": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-28": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-29": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-30": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-31": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31"
+      ],
+      "closedWeekdays": [
+        1
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "friday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-encounter-with-china",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Susret s Kinom",
+      "date": "2026-10-09",
+      "endDate": "2026-10-23",
+      "time": "10:00",
+      "end": null,
+      "venue": "Manakova kuća",
+      "address": "Gavrila Principa 5, Beograd",
+      "lat": 44.8136978,
+      "lng": 20.4542887,
+      "coordinateSource": "https://etnografskimuzej.rs/kontakt/",
+      "coordinateEvidence": "Official contact-page locations array labels this marker as Manakova kuća, Gavrila Principa 5.",
+      "price": 200,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Взрослый билет — 200 RSD, льготный — 100 RSD, семейный до пяти человек — 300 RSD. Бесплатный вход именно на эту выставку не подтверждён.",
+      "description": "Выставка с 2026-10-09 по 2026-10-23. Посещение: Пн, Вс закрыто; Вт, Ср, Чт, Пт, Сб 10:00–17:00.",
+      "timeNote": "Посещение: Пн, Вс закрыто; Вт, Ср, Чт, Пт, Сб 10:00–17:00.",
+      "source": "Manakova kuća",
+      "sourceUrl": "https://etnografskimuzej.rs/izlozba-susret-s-kinom-u-manakovoj-kuci/",
+      "sources": [
+        {
+          "name": "Manakova kuća",
+          "url": "https://etnografskimuzej.rs/izlozba-susret-s-kinom-u-manakovoj-kuci/",
+          "price": 200,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:00Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://etnografskimuzej.rs/kontakt/"
+        }
+      ],
+      "evidenceUrls": [
+        "https://etnografskimuzej.rs/izlozba-susret-s-kinom-u-manakovoj-kuci/",
+        "https://etnografskimuzej.rs/kontakt/"
+      ],
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": null,
+      "verificationNotes": [
+        "Primary article and city announcement both say October 9–23. One aggregator metadata says October 24; reject that extra day. Article footer lists main museum hours, so use Manak-specific contact-page hours."
+      ],
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-15": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-16": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-20": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-21": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-22": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-23": {
+          "start": "10:00",
+          "end": "17:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "closedWeekdays": [
+        1,
+        0
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "friday": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "sunday": []
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-between-two-breaths-from-the-avant-garde-to-the-digital",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Između dva daha: od avangarde do digitalnog",
+      "date": "2026-09-11",
+      "endDate": "2026-10-16",
+      "time": "12:00",
+      "end": null,
+      "venue": "Salon Muzeja grada Beograda",
+      "address": "Bulevar kralja Aleksandra 30, Beograd",
+      "lat": 44.8089271,
+      "lng": 20.4681357,
+      "coordinateSource": "https://www.openstreetmap.org/node/11085502701",
+      "coordinateEvidence": "Nominatim exact-name result, OSM node 11085502701, tourism=gallery, name Салон Музеја града Београда, address 30 Булевар краља Александра. Independently corroborates BelgradeLife JSON-LD coordinates.",
+      "price": 0,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Вход бесплатный по информации музея. По воскресеньям площадка закрывается в 18:00; использовано официальное расписание.",
+      "description": "Выставка с 2026-09-11 по 2026-10-16. Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб 12:00–20:00; Вс 12:00–18:00.",
+      "timeNote": "Посещение: Пн закрыто; Вт, Ср, Чт, Пт, Сб 12:00–20:00; Вс 12:00–18:00.",
+      "source": "Salon Muzeja grada Beograda",
+      "sourceUrl": "https://art.wiener.co.rs/exhibition/wiener-art-kolekcija-predstavlja-izlozbu-izmedu-dva-daha-od-avangarde-do-digitalnog/",
+      "sources": [
+        {
+          "name": "Salon Muzeja grada Beograda",
+          "url": "https://art.wiener.co.rs/exhibition/wiener-art-kolekcija-predstavlja-izlozbu-izmedu-dva-daha-od-avangarde-do-digitalnog/",
+          "price": 0,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T02:00:32Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://www.mgb.org.rs/visit/details/39"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://www.openstreetmap.org/node/11085502701"
+        }
+      ],
+      "evidenceUrls": [
+        "https://art.wiener.co.rs/exhibition/wiener-art-kolekcija-predstavlja-izlozbu-izmedu-dva-daha-od-avangarde-do-digitalnog/",
+        "https://www.mgb.org.rs/visit/details/39",
+        "https://www.openstreetmap.org/node/11085502701"
+      ],
+      "checkedAt": "2026-10-14T02:00:32Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": null,
+      "verificationNotes": [
+        "Dates and venue verified on collection owner announcement, published 2026-09-06. Correct location is Salon at Bulevar kralja Aleksandra 30, not main museum Resavska or Vuka Karadžića space."
+      ],
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-15": {
+          "start": "12:00",
+          "end": "20:00"
+        },
+        "2026-10-16": {
+          "start": "12:00",
+          "end": "20:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16"
+      ],
+      "closedWeekdays": [
+        1
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "friday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "12:00",
+            "18:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    },
+    {
+      "id": "bg-exhibition-utvar-zeljko-ethnographic-collection",
+      "kind": "event",
+      "city": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "category": "art",
+      "title": "Etnografska zbirka Utvar Željka",
+      "date": "2026-10-08",
+      "endDate": "2026-10-18",
+      "time": "10:00",
+      "end": null,
+      "venue": "Zavičajni muzej Žarkova",
+      "address": "Ace Joksimovića 2, Žarkovo, Beograd",
+      "lat": 44.75824,
+      "lng": 20.41685,
+      "coordinateSource": "https://mapcarta.com/N12903002747",
+      "coordinateEvidence": "OSM node 12903002747, Native Museum Žarkovo.",
+      "price": 0,
+      "currency": "RSD",
+      "min": false,
+      "priceNote": "Вход бесплатный по информации площадки. Вечерние мастер-классы имеют отдельное расписание.",
+      "description": "Выставка с 2026-10-08 по 2026-10-18. Посещение: Пн закрыто; Вт, Ср, Чт, Сб 10:00–17:00; Пт 10:00–18:00; Вс 10:00–14:00.",
+      "timeNote": "Посещение: Пн закрыто; Вт, Ср, Чт, Сб 10:00–17:00; Пт 10:00–18:00; Вс 10:00–14:00.",
+      "source": "Zavičajni muzej Žarkova",
+      "sourceUrl": "https://www.beograd.rs/lat/zivot-u-beogradu/manifestacije/a116079/Program-u-okviru-manifestacije-Dani-evropske-bastine-2026.-u-Zavicajnom-muzeju-Zarkova.html",
+      "sources": [
+        {
+          "name": "Zavičajni muzej Žarkova",
+          "url": "https://www.beograd.rs/lat/zivot-u-beogradu/manifestacije/a116079/Program-u-okviru-manifestacije-Dani-evropske-bastine-2026.-u-Zavicajnom-muzeju-Zarkova.html",
+          "price": 0,
+          "currency": "RSD",
+          "checkedAt": "2026-10-14T01:57:00Z"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://www.mgb.org.rs/visit/details/37"
+        },
+        {
+          "name": "Visiting information / evidence",
+          "url": "https://mapcarta.com/N12903002747"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.beograd.rs/lat/zivot-u-beogradu/manifestacije/a116079/Program-u-okviru-manifestacije-Dani-evropske-bastine-2026.-u-Zavicajnom-muzeju-Zarkova.html",
+        "https://www.mgb.org.rs/visit/details/37",
+        "https://mapcarta.com/N12903002747"
+      ],
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "researchBatch": "belgrade-exhibitions-2026-10-14",
+      "availabilityVerified": false,
+      "stale": false,
+      "exhibitionRun": true,
+      "opening": null,
+      "verificationNotes": [
+        "City authority announcement dated Oct 9 explicitly gives Oct 8–18. Evening workshops 19:00–20:30 are separate from daytime exhibition hours. Checked apparent closure notices: September 18 after 13:00 and December 9 notice do not apply to this run."
+      ],
+      "scheduleVerifiedFrom": "2026-10-14",
+      "visitSchedule": {
+        "2026-10-14": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-15": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-16": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "2026-10-17": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "2026-10-18": {
+          "start": "10:00",
+          "end": "14:00"
+        }
+      },
+      "validDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18"
+      ],
+      "closedWeekdays": [
+        1
+      ],
+      "weeklyVisitingHours": {
+        "monday": [],
+        "tuesday": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "friday": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "sunday": [
+          [
+            "10:00",
+            "14:00"
+          ]
+        ]
+      },
+      "scheduleType": "dated_visiting_hours"
+    }
+  ],
+  "held": [
+    {
+      "city": "Belgrade",
+      "country": "RS",
+      "timezone": "Europe/Belgrade",
+      "category": "exhibition",
+      "price": null,
+      "currency": null,
+      "lat": null,
+      "lng": null,
+      "checkedAt": "2026-10-14T01:55:30Z",
+      "id": "baza-nista-preko-duse-2026-held-upgrade",
+      "title": "Ništa preko duše",
+      "artists": [
+        "Magdalena Nenković"
+      ],
+      "venue": "Baza Kulturnih Zbivanja",
+      "address": "Venizelosova 34a, 11000 Beograd",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-28",
+      "opening": {
+        "date": "2026-10-15",
+        "time": "20:00"
+      },
+      "hoursText": null,
+      "closedWeekdays": null,
+      "sourceUrl": null,
+      "supportingSources": [
+        "https://urbanbug.net/desavanje/nista-preko-duse-magdalena-nenkovic-2026-10-15",
+        "https://vajbmagazin.com/lepota-nesavrsenog-kadra-izlozba-nista-preko-duse-magdalena-nenkovic/",
+        "https://bazakulturnihzbivanja.com/galerija"
+      ],
+      "reasonHeld": "Full run verified by two reputable local listings but official event announcement not located. Official gallery site verifies address only. Existing opening record already published; use as upgrade evidence, not duplicate.",
+      "weeklyHours": null
+    },
+    {
+      "city": "Belgrade",
+      "country": "RS",
+      "timezone": "Europe/Belgrade",
+      "category": "exhibition",
+      "price": null,
+      "currency": null,
+      "lat": null,
+      "lng": null,
+      "checkedAt": "2026-10-14T01:55:30Z",
+      "id": "francuski-strukture-haosa-2026-held",
+      "title": "Strukture haosa: Materijalnost memorije",
+      "artists": [
+        "Viktor Šekularac"
+      ],
+      "curator": "Marija Radoš",
+      "venue": "Francuski institut u Srbiji",
+      "address": "Knez Mihailova 31, Beograd",
+      "startDate": "2026-10-06",
+      "endDate": "2026-10-23",
+      "opening": {
+        "date": "2026-10-06",
+        "time": "19:00"
+      },
+      "hoursText": null,
+      "closedWeekdays": null,
+      "sourceUrl": "https://www.beograd.rs/lat/zivot-u-beogradu/umetnicki-program/a116016/Izlozba-Viktora-Sekularca-u-Domu-kulture-Studentski-grad.html",
+      "supportingSources": [
+        "https://www.institutfrancais.rs/doc/BD-Katalog.pdf",
+        "https://www.tanjug.rs/kultura/art/285969/izlozba-strukture-haosa-materijalnost-memorije-od-6-oktobra-u-francuskom-institutu/vest"
+      ],
+      "reasonHeld": "Official City of Belgrade announcement explicitly verifies Oct6–23 2026. Organizer site inaccessible in web retrieval and Remont site inaccessible. Municipality URL slug wrongly mentions Studentski grad, but body explicitly identifies French Institute. Venue address corroborated by official Institute publication; visitor hours and price unknown. Held for publisher decision on municipal source tier.",
+      "weeklyHours": null
+    },
+    {
+      "title": "Igračke bez naziva / Tišina budućeg djetinjstva",
+      "artist": "Nikola Marković",
+      "venue": "Galerija Haos",
+      "address": "Dositejeva 3, 11000 Beograd, Serbia",
+      "startDateLead": "2026-09-15",
+      "endDateLead": "2026-10-15",
+      "reason": "Venue address verified by galleries association, but no accessible official exhibition announcement found. Secondary coverage and artist/gallery-owner interview exist. Do not present full dates as official-verified.",
+      "sourceUrls": [
+        "https://augs.art/en/galerija/haos/",
+        "https://rtsplaneta.rs/sr_lat/video/5095385/listing/519/zlatni-presek-igracke-bez-naziva-tisina-buduceg-djetinjstva-i-arhitektura-introspekcije",
+        "https://www.danubeogradu.rs/2026/09/izlozbe-u-beogradu-oktobar-2026/"
+      ]
+    },
+    {
+      "title": "Stasis",
+      "artist": "Tijana Kojić",
+      "venue": "Galerija Sanjaj",
+      "startDateLead": "2026-09-17 or 2026-09-18",
+      "endDateLead": "2026-10-17",
+      "reason": "Official current exhibition page hits verification interstitial; secondary sources differ by a day on start. Not included among verified records.",
+      "sourceUrls": [
+        "https://galerijasanjaj.com/izlozbe/trenutna/",
+        "https://urbanbug.net/mapa/beograd/galerija-sanjaj-savremena-umetnost"
+      ]
+    },
+    {
+      "title": "Ko slika cvet, ne slika miris",
+      "venue": "Kula",
+      "startDateLead": "2026-10-15",
+      "endDateLead": "2026-11-01",
+      "reason": "Secondary lead only; not fully researched after completing assigned main galleries.",
+      "sourceUrls": [
+        "https://urbanbug.net/desavanje/ko-slika-cvet-ne-slika-miris-2026-10-15"
+      ]
+    },
+    {
+      "title": "61. Dečji oktobarski salon: Kulturno nasleđe našeg naroda",
+      "titleEn": "61st Children’s October Salon: Our Cultural Heritage",
+      "category": "exhibition",
+      "exhibitionType": "temporary_exhibition",
+      "runStartDate": "2026-10-03",
+      "runEndDateInclusive": "2026-10-21",
+      "timezone": "Europe/Belgrade",
+      "openingCeremony": null,
+      "venue": {
+        "name": "Muzej primenjene umetnosti",
+        "address": "Vuka Karadžića 18, Beograd",
+        "latitude": 44.817018,
+        "longitude": 20.454462,
+        "coordinateSourceUrl": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_arts_appliqu%C3%A9s_de_Belgrade",
+        "coordinateEvidence": "Secondary coordinates; official address matches.",
+        "weeklyHours": null,
+        "hoursSourceUrl": "https://mpu.rs/radno-vreme/",
+        "standardAdultPrice": 400,
+        "currency": "RSD",
+        "mandatoryFees": null,
+        "priceNotes": "General adult ticket 400 RSD, concessions 200 RSD; permanent exhibition separately 300 RSD; last Saturday each month free. https://mpu.rs/en/visit/. HOURS CONFLICT: main visitor-hours page body and English visit page say Mon–Sat 11–19, live homepage/current article footer says Mon–Sat 11–20; Sunday closed in all official versions.",
+        "priceSourceUrl": "https://mpu.rs/en/visit/",
+        "specialClosureDates": null
+      },
+      "sourceUrl": "https://mpu.rs/dogadjaji/%d0%be%d1%82%d0%b2%d0%be%d1%80%d0%b5%d0%bd-61-%d0%b4%d0%b5%d1%87%d1%98%d0%b8-%d0%be%d0%ba%d1%82%d0%be%d0%b1%d0%b0%d1%80%d1%81%d0%ba%d0%b8-%d1%81%d0%b0%d0%bb%d0%be%d0%bd-%d0%ba%d1%83%d0%bb/",
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "descriptionEn": "Children’s artwork explores cultural inheritance and collective memory.",
+      "verificationNotes": [],
+      "sourceEvidence": [
+        {
+          "url": "https://mpu.rs/dogadjaji/%d0%be%d1%82%d0%b2%d0%be%d1%80%d0%b5%d0%bd-61-%d0%b4%d0%b5%d1%87%d1%98%d0%b8-%d0%be%d0%ba%d1%82%d0%be%d0%b1%d0%b0%d1%80%d1%81%d0%ba%d0%b8-%d1%81%d0%b0%d0%bb%d0%be%d0%bd-%d0%ba%d1%83%d0%bb/",
+          "supports": "Exhibition title, venue and full run dates unless noted otherwise."
+        },
+        {
+          "url": "https://mpu.rs/radno-vreme/",
+          "supports": "Venue address and weekly visitor hours; prices unless separately sourced."
+        },
+        {
+          "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_arts_appliqu%C3%A9s_de_Belgrade",
+          "supports": "Venue coordinates as described in coordinateEvidence."
+        }
+      ],
+      "holdReason": "Run dates, venue, address and general price verified; conflicting official closing time 19:00 vs 20:00. May publish with hours unknown or an explicitly conservative visit window only if the model supports that distinction."
+    },
+    {
+      "title": "TISO 08 – U fokusu: nagrađeni autori",
+      "titleEn": "TISO 08: In Focus – Award-Winning Artists",
+      "category": "exhibition",
+      "exhibitionType": "temporary_exhibition",
+      "runStartDate": "2026-10-14",
+      "runEndDateInclusive": "2026-10-24",
+      "timezone": "Europe/Belgrade",
+      "openingCeremony": {
+        "date": "2026-10-14",
+        "startTime": "19:00",
+        "endTime": null
+      },
+      "venue": {
+        "name": "Muzej primenjene umetnosti",
+        "address": "Vuka Karadžića 18, Beograd",
+        "latitude": 44.817018,
+        "longitude": 20.454462,
+        "coordinateSourceUrl": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_arts_appliqu%C3%A9s_de_Belgrade",
+        "coordinateEvidence": "Secondary coordinates; official address matches.",
+        "weeklyHours": null,
+        "hoursSourceUrl": "https://mpu.rs/radno-vreme/",
+        "standardAdultPrice": 400,
+        "currency": "RSD",
+        "mandatoryFees": null,
+        "priceNotes": "General adult ticket 400 RSD, concessions 200 RSD; permanent exhibition separately 300 RSD; last Saturday each month free. https://mpu.rs/en/visit/. HOURS CONFLICT: main visitor-hours page body and English visit page say Mon–Sat 11–19, live homepage/current article footer says Mon–Sat 11–20; Sunday closed in all official versions.",
+        "priceSourceUrl": "https://mpu.rs/en/visit/",
+        "specialClosureDates": null
+      },
+      "sourceUrl": "https://www.beograd.rs/lat/zivot-u-beogradu/umetnicki-program/a116137/Izlozba-TISO-08-U-fokusu-nagradjeni-autori.html",
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "descriptionEn": "Award-winning contemporary textile and clothing works at the museum’s Žad Gallery.",
+      "verificationNotes": [],
+      "sourceEvidence": [
+        {
+          "url": "https://www.beograd.rs/lat/zivot-u-beogradu/umetnicki-program/a116137/Izlozba-TISO-08-U-fokusu-nagradjeni-autori.html",
+          "supports": "Exhibition title, venue and full run dates unless noted otherwise."
+        },
+        {
+          "url": "https://mpu.rs/radno-vreme/",
+          "supports": "Venue address and weekly visitor hours; prices unless separately sourced."
+        },
+        {
+          "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_arts_appliqu%C3%A9s_de_Belgrade",
+          "supports": "Venue coordinates as described in coordinateEvidence."
+        }
+      ],
+      "holdReason": "Run dates and opening are confirmed by city authority; conflicting ordinary museum closing time. Opening at 19:00 on October 14 is a special event, not all-day access. Museum/organizer direct announcement not found."
+    },
+    {
+      "title": "Srpske svadbe pre 125 godina",
+      "titleEn": "Serbian Weddings 125 Years Ago",
+      "category": "exhibition",
+      "exhibitionType": "temporary_exhibition",
+      "runStartDate": "2026-09-21",
+      "runEndDateInclusive": null,
+      "timezone": "Europe/Belgrade",
+      "openingCeremony": null,
+      "venue": {
+        "name": "Etnografski muzej u Beogradu",
+        "address": "Studentski trg 13, Beograd",
+        "latitude": 44.8197579,
+        "longitude": 20.4564871,
+        "coordinateSourceUrl": "https://etnografskimuzej.rs/kontakt/",
+        "coordinateEvidence": "Official contact-page locations array labels this marker as Etnografski muzej, Studentski trg 13.",
+        "weeklyHours": {
+          "monday": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "tuesday": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "wednesday": [],
+          "thursday": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "friday": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "saturday": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "sunday": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ]
+        },
+        "hoursSourceUrl": "https://etnografskimuzej.rs/posetite-nas/",
+        "standardAdultPrice": 600,
+        "currency": "RSD",
+        "mandatoryFees": null,
+        "priceNotes": "Main museum adult ticket 600 RSD; concessions 300 RSD, family up to five 700 RSD. Mondays free. Price-tab labels verified in live HTML.",
+        "priceSourceUrl": "https://etnografskimuzej.rs/posetite-nas/",
+        "specialClosureDates": null
+      },
+      "sourceUrl": "https://etnografskimuzej.rs/izlozba/srpske-svadbe-pre-125-godina/",
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "descriptionEn": "Historical objects, costumes and photographs explore Serbian wedding traditions.",
+      "verificationNotes": [],
+      "sourceEvidence": [
+        {
+          "url": "https://etnografskimuzej.rs/izlozba/srpske-svadbe-pre-125-godina/",
+          "supports": "Exhibition title, venue and full run dates unless noted otherwise."
+        },
+        {
+          "url": "https://etnografskimuzej.rs/posetite-nas/",
+          "supports": "Venue address and weekly visitor hours; prices unless separately sourced."
+        },
+        {
+          "url": "https://etnografskimuzej.rs/kontakt/",
+          "supports": "Venue coordinates as described in coordinateEvidence."
+        }
+      ],
+      "runEndText": "September 2027",
+      "holdReason": "Exact closing day unknown; source gives only September 2027. Do not fabricate September 30."
+    },
+    {
+      "title": "Prostor, trag, gest: crteži Milana Milovanovića, Koste Miličevića i Mališe Glišića",
+      "titleEn": "Space, Trace, Gesture: Drawings by Milan Milovanović, Kosta Miličević and Mališa Glišić",
+      "category": "exhibition",
+      "exhibitionType": "temporary_exhibition",
+      "runStartDate": "2026-04-23",
+      "runEndDateInclusive": null,
+      "timezone": "Europe/Belgrade",
+      "openingCeremony": null,
+      "venue": {
+        "name": "Narodni muzej Srbije",
+        "address": "Trg Republike 1a, Beograd",
+        "latitude": 44.816622,
+        "longitude": 20.459871,
+        "coordinateSourceUrl": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_Serbie",
+        "coordinateEvidence": null,
+        "weeklyHours": {
+          "monday": [],
+          "tuesday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "wednesday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "thursday": [
+            [
+              "12:00",
+              "20:00"
+            ]
+          ],
+          "friday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "saturday": [
+            [
+              "12:00",
+              "20:00"
+            ]
+          ],
+          "sunday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        },
+        "hoursSourceUrl": "https://www.narodnimuzej.rs/posetite-nas/",
+        "standardAdultPrice": 500,
+        "currency": "RSD",
+        "mandatoryFees": null,
+        "priceNotes": "General current thematic exhibition ticket 500 RSD; permanent collection alone 300 RSD. Sunday free applies only to permanent collection; do not label all temporary shows free.",
+        "priceSourceUrl": "https://www.narodnimuzej.rs/posetite-nas/",
+        "specialClosureDates": null
+      },
+      "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/otvarane-izlozhbe-prostor-trag-gest-tsrtezhi-milana-milovanovi-a-koste-milichevi-a-i-malishe-glishi-a/",
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "descriptionEn": "Drawings by three Serbian Impressionists, including work made during WWI.",
+      "verificationNotes": [],
+      "sourceEvidence": [
+        {
+          "url": "https://www.narodnimuzej.rs/dogadjaj/otvarane-izlozhbe-prostor-trag-gest-tsrtezhi-milana-milovanovi-a-koste-milichevi-a-i-malishe-glishi-a/",
+          "supports": "Exhibition title, venue and full run dates unless noted otherwise."
+        },
+        {
+          "url": "https://www.narodnimuzej.rs/posetite-nas/",
+          "supports": "Venue address and weekly visitor hours; prices unless separately sourced."
+        },
+        {
+          "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_Serbie",
+          "supports": "Venue coordinates as described in coordinateEvidence."
+        }
+      ],
+      "holdReason": "Currently active evidenced by final guided tour October 17, but no explicit exhibition closing day found. Do not turn April opening’s 18–19 time into exhibition run.",
+      "currentEvidenceUrl": "https://www.narodnimuzej.rs/dogadjaj/autorsko-vo-ene-prostor-trag-gest-tsrtezhi-milana-milovanovi-a-koste-milichevi-a-i-malishe-glishi-a-4/"
+    },
+    {
+      "title": "AzBrka kod Vuka",
+      "titleEn": "AzBrka at Vuk’s Museum",
+      "category": "exhibition",
+      "exhibitionType": "temporary_exhibition",
+      "runStartDate": "2026-09-25",
+      "runEndDateInclusive": null,
+      "timezone": "Europe/Belgrade",
+      "openingCeremony": null,
+      "venue": {
+        "name": "Muzej Vuka i Dositeja",
+        "address": "Gospodar Jevremova 21, Beograd",
+        "latitude": 44.820999,
+        "longitude": 20.45886,
+        "coordinateSourceUrl": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Vuk_et_Dositej",
+        "coordinateEvidence": null,
+        "weeklyHours": {
+          "monday": [],
+          "tuesday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "wednesday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "thursday": [
+            [
+              "12:00",
+              "20:00"
+            ]
+          ],
+          "friday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "saturday": [
+            [
+              "12:00",
+              "20:00"
+            ]
+          ],
+          "sunday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        },
+        "hoursSourceUrl": "https://www.narodnimuzej.rs/posetite-nas/",
+        "standardAdultPrice": 200,
+        "currency": "RSD",
+        "mandatoryFees": null,
+        "priceNotes": "General individual adult admission 200 RSD. Opening was free, no general free exhibition claim.",
+        "priceSourceUrl": "https://www.narodnimuzej.rs/posetite-nas/",
+        "specialClosureDates": null
+      },
+      "sourceUrl": "https://www.narodnimuzej.rs/otvarane-izlozhbe-azbrka-kod-vuka-u-muzeju-vuka-i-dositeja/",
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "descriptionEn": "Interactive alphabet materials and games for children.",
+      "verificationNotes": [],
+      "sourceEvidence": [
+        {
+          "url": "https://www.narodnimuzej.rs/otvarane-izlozhbe-azbrka-kod-vuka-u-muzeju-vuka-i-dositeja/",
+          "supports": "Exhibition title, venue and full run dates unless noted otherwise."
+        },
+        {
+          "url": "https://www.narodnimuzej.rs/posetite-nas/",
+          "supports": "Venue address and weekly visitor hours; prices unless separately sourced."
+        },
+        {
+          "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Vuk_et_Dositej",
+          "supports": "Venue coordinates as described in coordinateEvidence."
+        }
+      ],
+      "runEndText": "January 2027",
+      "holdReason": "Exact closing day unknown."
+    },
+    {
+      "title": "Predrag Nešković – Zemlja – vazduh",
+      "titleEn": "Predrag Nešković: Earth – Air",
+      "category": "exhibition",
+      "exhibitionType": "temporary_exhibition",
+      "runStartDate": "2026-10-20",
+      "runEndDateInclusive": "2027-02-22",
+      "timezone": "Europe/Belgrade",
+      "openingCeremony": {
+        "date": "2026-10-20",
+        "startTime": "18:00",
+        "endTime": null
+      },
+      "venue": {
+        "name": "Muzej savremene umetnosti",
+        "address": "Ušće 10, Blok 15, Novi Beograd",
+        "latitude": 44.8195603,
+        "longitude": 20.4424033,
+        "coordinateSourceUrl": "https://msub.org.rs/kontakt/",
+        "coordinateEvidence": "Destination !1d20.4424033!2d44.8195603 in official Google Directions link; not map-center coordinates.",
+        "weeklyHours": {
+          "monday": [
+            [
+              "11:00",
+              "19:00"
+            ]
+          ],
+          "tuesday": [],
+          "wednesday": [
+            [
+              "11:00",
+              "19:00"
+            ]
+          ],
+          "thursday": [
+            [
+              "12:00",
+              "20:00"
+            ]
+          ],
+          "friday": [
+            [
+              "11:00",
+              "19:00"
+            ]
+          ],
+          "saturday": [
+            [
+              "12:00",
+              "20:00"
+            ]
+          ],
+          "sunday": [
+            [
+              "11:00",
+              "19:00"
+            ]
+          ]
+        },
+        "hoursSourceUrl": "https://msub.org.rs/poseta/",
+        "standardAdultPrice": 600,
+        "currency": "RSD",
+        "mandatoryFees": null,
+        "priceNotes": "Standard adult museum admission; concessions 300 RSD. Free on the first Wednesday of each month. No separately stated mandatory fees.",
+        "priceSourceUrl": "https://msub.org.rs/poseta/",
+        "specialClosureDates": null
+      },
+      "sourceUrl": "https://www.nedeljnik.rs/izlozba-zemlja-vazduh-predraga-neskovica-u-muzeju-savremene-umetnosti/",
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "descriptionEn": "A survey of Predrag Nešković’s evolving artistic practice.",
+      "verificationNotes": [],
+      "sourceEvidence": [
+        {
+          "url": "https://www.nedeljnik.rs/izlozba-zemlja-vazduh-predraga-neskovica-u-muzeju-savremene-umetnosti/",
+          "supports": "Exhibition title, venue and full run dates unless noted otherwise."
+        },
+        {
+          "url": "https://msub.org.rs/poseta/",
+          "supports": "Venue address and weekly visitor hours; prices unless separately sourced."
+        },
+        {
+          "url": "https://msub.org.rs/kontakt/",
+          "supports": "Venue coordinates as described in coordinateEvidence."
+        }
+      ],
+      "holdReason": "Upcoming dates found in press/aggregator; no direct MSUB primary announcement located yet. Opening is Tuesday, normal museum closed day; do not create ordinary Tuesday access.",
+      "secondaryEndDateSource": "https://www.danubeogradu.rs/2026/09/izlozbe-u-beogradu-oktobar-2026/"
+    },
+    {
+      "title": "Dijalog o aktu. Tela koja nešto znače",
+      "titleEn": "Dialogue on the Nude: Bodies That Mean Something",
+      "category": "exhibition",
+      "exhibitionType": "temporary_exhibition",
+      "runStartDate": "2026-10-29",
+      "runEndDateInclusive": null,
+      "timezone": "Europe/Belgrade",
+      "openingCeremony": {
+        "date": "2026-10-29",
+        "startTime": "18:00",
+        "endTime": "19:00"
+      },
+      "venue": {
+        "name": "Narodni muzej Srbije",
+        "address": "Trg Republike 1a, Beograd",
+        "latitude": 44.816622,
+        "longitude": 20.459871,
+        "coordinateSourceUrl": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_Serbie",
+        "coordinateEvidence": null,
+        "weeklyHours": {
+          "monday": [],
+          "tuesday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "wednesday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "thursday": [
+            [
+              "12:00",
+              "20:00"
+            ]
+          ],
+          "friday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "saturday": [
+            [
+              "12:00",
+              "20:00"
+            ]
+          ],
+          "sunday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        },
+        "hoursSourceUrl": "https://www.narodnimuzej.rs/posetite-nas/",
+        "standardAdultPrice": 500,
+        "currency": "RSD",
+        "mandatoryFees": null,
+        "priceNotes": "General current thematic exhibition ticket 500 RSD; permanent collection alone 300 RSD. Sunday free applies only to permanent collection; do not label all temporary shows free.",
+        "priceSourceUrl": "https://www.narodnimuzej.rs/posetite-nas/",
+        "specialClosureDates": null
+      },
+      "sourceUrl": "https://www.narodnimuzej.rs/dogadjaj/otvarane-izlozhbe-dijalog-o-aktu-tela-koja-neshto-znache/",
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "descriptionEn": "A thematic exhibition on painted bodies across two National Museum venues.",
+      "verificationNotes": [],
+      "sourceEvidence": [
+        {
+          "url": "https://www.narodnimuzej.rs/dogadjaj/otvarane-izlozhbe-dijalog-o-aktu-tela-koja-neshto-znache/",
+          "supports": "Exhibition title, venue and full run dates unless noted otherwise."
+        },
+        {
+          "url": "https://www.narodnimuzej.rs/posetite-nas/",
+          "supports": "Venue address and weekly visitor hours; prices unless separately sourced."
+        },
+        {
+          "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_Serbie",
+          "supports": "Venue coordinates as described in coordinateEvidence."
+        }
+      ],
+      "holdReason": "Only opening event verified; no full exhibition end date. Second venue has separate opening October 30, 13–14 at Nadežda and Rastko Petrović Memorial Museum; do not use one point for both.",
+      "secondVenueSource": "https://www.narodnimuzej.rs/dogadjaj/otvarane-izlozhbe-dijalog-o-aktu-tela-koja-neshto-znache-2/"
+    },
+    {
+      "title": "Između linije i funkcije / Oblik života: Kosta Krsmanović i industrijski dizajn",
+      "titleEn": "Between Line and Function: Kosta Krsmanović and Industrial Design",
+      "category": "exhibition",
+      "exhibitionType": "temporary_exhibition",
+      "runStartDate": "2026-10-02",
+      "runEndDateInclusive": "2026-12-01",
+      "timezone": "Europe/Belgrade",
+      "openingCeremony": null,
+      "venue": {
+        "name": "Muzej nauke i tehnike – Galerija 51",
+        "address": "Dobračina 51, Beograd",
+        "latitude": null,
+        "longitude": null,
+        "coordinateSourceUrl": null,
+        "coordinateEvidence": null,
+        "weeklyHours": null,
+        "hoursSourceUrl": "https://muzejnt.rs/",
+        "standardAdultPrice": null,
+        "currency": null,
+        "mandatoryFees": null,
+        "priceNotes": null,
+        "priceSourceUrl": "https://muzejnt.rs/",
+        "specialClosureDates": null
+      },
+      "sourceUrl": "https://eventzeka.com/events/j57cppyxj44ffs80cj7hk9vb518fbrk2",
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "descriptionEn": "An industrial-design retrospective.",
+      "verificationNotes": [],
+      "sourceEvidence": [
+        {
+          "url": "https://eventzeka.com/events/j57cppyxj44ffs80cj7hk9vb518fbrk2",
+          "supports": "Exhibition title, venue and full run dates unless noted otherwise."
+        },
+        {
+          "url": "https://muzejnt.rs/",
+          "supports": "Venue address and weekly visitor hours; prices unless separately sourced."
+        },
+        {
+          "url": null,
+          "supports": "Venue coordinates as described in coordinateEvidence."
+        }
+      ],
+      "holdReason": "Secondary evidence only for run. October 1 appears opening, October 2 public start. Museum homepage has conflicting 10–18 and 11–18 hours; specific direct exhibition page unavailable."
+    },
+    {
+      "title": "Umro je drug Tito",
+      "exhibitionType": "long_running_collection_display",
+      "runStartDate": "2021-05-25",
+      "runEndDateInclusive": "2027-05-25",
+      "venue": "Muzej Jugoslavije – Kuća cveća, both exhibition spaces",
+      "sourceUrl": "https://muzej-jugoslavije.org/exhibition/umro-je-drug-tito/",
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "notes": "Part of core long-running museum visit. Keep separate from new temporary coverage; not a 2026 opening.",
+      "publicationHold": "Long-running collection display, not imported as a new temporary exhibition."
+    },
+    {
+      "title": "Muzejska laboratorija",
+      "exhibitionType": "evolving_collection_display",
+      "runStartDate": "2017-05-04",
+      "runEndDateInclusive": "2026-11-01",
+      "venue": "Muzej Jugoslavije – Stari muzej",
+      "venueData": {
+        "name": "Muzej Jugoslavije – Stari muzej",
+        "address": "Mihaila Mike Jankovića 6, Beograd",
+        "latitude": 44.78618,
+        "longitude": 20.45178,
+        "coordinateSourceUrl": "https://mapcarta.com/W146656805",
+        "coordinateEvidence": "OSM way 146656805, Old Museum; exhibition is in fifth hall.",
+        "weeklyHours": {
+          "monday": [],
+          "tuesday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "wednesday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "thursday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "friday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "saturday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "sunday": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        },
+        "hoursSourceUrl": "https://muzej-jugoslavije.org/posetite-nas/",
+        "standardAdultPrice": 800,
+        "currency": "RSD",
+        "mandatoryFees": null,
+        "priceNotes": "Standard 800 RSD; Serbia residents 600 RSD; students/school pupils 400 RSD, resident students/school pupils/pensioners 200 RSD. First Thursday of each month and state holidays free for individual visits. No separately stated fees.",
+        "priceSourceUrl": "https://muzej-jugoslavije.org/posetite-nas/",
+        "specialClosureDates": [
+          "2026-01-01",
+          "2026-01-07",
+          "2026-04-10",
+          "2026-04-12",
+          "2026-04-13"
+        ],
+        "specialClosureNote": "All listed special closure dates are before the research window; Mondays remain closed."
+      },
+      "sourceUrl": "https://muzej-jugoslavije.org/exhibition/laboratorija-muzeja-jugoslavije/",
+      "checkedAt": "2026-10-14T01:57:00Z",
+      "notes": "Long-running evolving collection installation; its temporary architecture intervention is separately listed above.",
+      "publicationHold": "Long-running collection display, not imported as a new temporary exhibition."
+    },
+    {
+      "city": "Belgrade",
+      "country": "RS",
+      "timezone": "Europe/Belgrade",
+      "category": "exhibition",
+      "price": null,
+      "currency": null,
+      "lat": null,
+      "lng": null,
+      "checkedAt": "2026-10-14T01:51:45Z",
+      "id": "kcb-antirefleks-2026",
+      "title": "Neželjeni odraz: Antirefleks",
+      "artists": [
+        "Miodrag Krkobabić"
+      ],
+      "venue": "Likovna galerija Kulturnog centra Beograda",
+      "address": "Knez Mihailova 6, 11000 Beograd",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-22",
+      "opening": {
+        "date": "2026-10-01",
+        "time": "19:00"
+      },
+      "hoursText": "Monday–Saturday 12:00–20:00; Sunday closed",
+      "closedWeekdays": [
+        "sunday"
+      ],
+      "status": "ongoing",
+      "sourceUrl": "https://www.kcb.org.rs/2026/10/nezeljeni-odraz-antirefleks-miodrag-krkobabic/",
+      "supportingSources": [
+        "https://www.kcb.org.rs/aktuelno/",
+        "https://www.kcb.org.rs/premises/likovna-galerija/"
+      ],
+      "description": "Solo contemporary-art exhibition exploring identity, belonging and imposed categories.",
+      "notes": "Official announcement explicitly gives both full dates. Do not use reception time as daily hours; admission price not stated.",
+      "weeklyHours": {
+        "monday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "friday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "sunday": []
+      },
+      "publicationHold": "Verified exhibition, but precise map coordinates not established in this pass."
+    },
+    {
+      "city": "Belgrade",
+      "country": "RS",
+      "timezone": "Europe/Belgrade",
+      "category": "exhibition",
+      "price": null,
+      "currency": null,
+      "lat": null,
+      "lng": null,
+      "checkedAt": "2026-10-14T01:55:30Z",
+      "id": "dob-elektricni-orgazam-svaki-novi-dan-2026",
+      "title": "Električni orgazam — Svaki novi dan",
+      "artists": [
+        "Brajan Branislav Rašić",
+        "Goranka Matić",
+        "Aleksandar Kujučev",
+        "Stanislav Milojković"
+      ],
+      "curator": "Zorica Kojić and Dragan Ambrozić",
+      "venue": "Plato ispred Umetničkog paviljona Cvijeta Zuzorić, Kalemegdan",
+      "address": "Plaza in front of Cvijeta Zuzorić Art Pavilion, Mali Kalemegdan 1, Beograd",
+      "startDate": "2026-05-27",
+      "endDate": "2026-11-30",
+      "opening": {
+        "date": "2026-05-27",
+        "time": "18:00"
+      },
+      "hoursText": null,
+      "closedWeekdays": null,
+      "status": "ongoing",
+      "subcategory": "outdoor photography",
+      "sourceUrl": "https://domomladine.org/izlozbe/izlozba-elektricni-orgazam-svaki-novi-dan/",
+      "supportingSources": [
+        "https://ulus.rs/prostori/"
+      ],
+      "description": "Outdoor photographic history of the band, marking four decades since the album Distorzija.",
+      "notes": "Outdoor plaza exhibition, NOT inside pavilion; do not apply pavilion closed Mondays or infer 24-hour availability. Coordinates remain null because building point differs from plaza location.",
+      "weeklyHours": null,
+      "publicationHold": "Verified exhibition, but precise map coordinates not established in this pass."
+    }
+  ],
+  "importedResearchIds": [
+    "ulus-svetlista-2026",
+    "ulus-iznutra-ka-spolja-2026",
+    "ulus-izvan-centra-2026",
+    "ulus-ruah-2026",
+    "u10-tangenta-2026",
+    "dob-afterimage-2026",
+    "kolarac-svet-fantastike-na-papiru-2026",
+    "cervantes-arhitektura-introspekcije-2026",
+    "b2-ana-knezevic-dodir-pogledom-2026",
+    "rima-perica-donkov-kon-sekvence-2026",
+    "dots-retke-zemlje-2026",
+    "goethe-mila-panic-inside-joke-2026",
+    "prodajna-ranka-radovanovic-smanjena-vidljivost-2026",
+    "zarko-baseski-corporeality",
+    "zorica-colic-and-tanja-jurican-measures-of-the-body",
+    "turning-points-toward-modernity-art-and-society-19001945",
+    "traces-collecting-objects-from-2020-to-2024",
+    "read-and-pass-it-on-wartime-leaflets-in-the-yugoslav-region",
+    "freedom-is-a-dream-for-us-imprisonment-suffering-and-resistance",
+    "architecture-of-yugoslav-modernism-belgrade-7-1",
+    "encounter-with-china",
+    "between-two-breaths-from-the-avant-garde-to-the-digital",
+    "utvar-zeljko-ethnographic-collection"
+  ]
+}
