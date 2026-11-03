@@ -18,7 +18,7 @@ React, TypeScript, Next.js-compatible routes, Vinext/Vite, Tailwind CSS, Cloudfl
 
 ## Run locally
 
-Use Node.js 22.13 or newer. PlayTrickle's content checks also require Python 3.
+Use Node.js 22.13 or newer.
 
 ```sh
 npm ci
