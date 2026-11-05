@@ -33,6 +33,7 @@ if(probe.status===0){
  run('node',['scripts/stamp-download-layout.mjs']);
  run('node',['scripts/stamp-controls.mjs']);
  run('node',['scripts/build-seo-guides.mjs']);
+ run('node',['scripts/build-country-seo.mjs']);
  fs.writeFileSync(manifest,JSON.stringify(snapshot(),null,2)+'\n');
 }else if(probe.error?.code==='ENOENT'){
  if(!fs.existsSync(manifest))throw Error('Python unavailable and no checked English build snapshot exists.');

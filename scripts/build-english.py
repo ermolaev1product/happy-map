@@ -15,7 +15,7 @@ def translate(s):
  return s
 if out.exists():shutil.rmtree(out)
 # The multilingual chooser registry is shared from the root, never translated or mirrored.
-files=[f for f in p.rglob('*') if f.is_file() and f.name not in ['telegram.html','telegram-entry.js','telegram.js','telegram.css','city-picker.json','locale-registry.json','catalog-modes.js','robots.txt','sitemap.xml'] and not any(x in f.relative_to(p).parts for x in ['en','de','pt-br','fr','fr-ca','it','downloads','guide'])]
+files=[f for f in p.rglob('*') if f.is_file() and f.name not in ['telegram.html','telegram-entry.js','telegram.js','telegram.css','city-picker.json','locale-registry.json','catalog-modes.js','robots.txt','sitemap.xml'] and not any(x in f.relative_to(p).parts for x in ['en','de','pt-br','fr','fr-ca','it','downloads','guide','countries'])]
 for f in files:
  rel=f.relative_to(p);dest=out/rel;dest.parent.mkdir(parents=True,exist_ok=True)
  if 'maplibre' in rel.parts or f.suffix not in ['.html','.js','.css'] or f.name in ['language-switch.js','entry-language.js','locale-policy.js','leaflet.js']:
