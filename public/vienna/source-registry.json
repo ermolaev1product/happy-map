@@ -2133,6 +2133,32 @@
       "count": 1,
       "type": "web",
       "note": "Explicit dated occurrence. Performance/support times kept distinct from doors; remaining ticket availability is not guaranteed."
+    },
+    {
+      "id": "vienna-source-6c798d3cbff375",
+      "name": "ALBERTINA official programme and shop",
+      "url": "https://shop.albertina.at/de/workshops-erwachsene-p4539/",
+      "checkedAt": "2026-11-15",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "eventIds": [
+        "vienna-albertina-rainer-workshop-20261118"
+      ],
+      "note": "Independently reconciled official dated event. Conflicting end or unknown all-in price remains explicit; no inventory claim."
+    },
+    {
+      "id": "vienna-source-943f04591bdeb6",
+      "name": "ALBERTINA official programme and shop",
+      "url": "https://www.albertina.at/besuch/programm/kunstworkshops-erwachsene/",
+      "checkedAt": "2026-11-15",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "eventIds": [
+        "vienna-albertina-rainer-workshop-20261118"
+      ],
+      "note": "Independently reconciled official dated event. Conflicting end or unknown all-in price remains explicit; no inventory claim."
     }
   ],
   "telegramSummary": {
@@ -2148,5 +2174,6 @@
     "at": "2026-11-06T04:32:08Z",
     "addedOccurrences": 2,
     "coverage": "Partial primary-source additions; unresolved and sold-out candidates not imported."
-  }
+  },
+  "editorialUpdatedAt": "2026-11-15T10:30:19.315170+00:00"
 }

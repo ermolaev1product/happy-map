@@ -5,7 +5,7 @@
   "generatedAt": "2026-11-12T07:12:49.740748+00:00",
   "startDate": "2026-10-15",
   "endDate": "2026-12-03",
-  "coverage": "Expanded primary-source selection, including individual performances and dated exhibition visits. Not a complete census of all Vienna events. This bounded editorial update adds or corrects selected independently checked occurrences only; not continuous or complete city coverage.",
+  "coverage": "Expanded primary-source selection, including individual performances and dated exhibition visits. Not a complete census of all Vienna events. This bounded editorial update adds or corrects selected independently checked occurrences only; not continuous or complete city coverage. One independently checked dated programme was added; this bounded update does not establish full city coverage.",
   "events": [
     {
       "title": "Public hearings: AI and Machine Learning in the Arts",
@@ -12923,6 +12923,68 @@
       "admission": "Презентация книги и беседа с Йоханом Хартле об архитектуре и идеологии Красной Вены. Нужна регистрация. Место встречи: зал мероприятий на 3-м этаже. Участие бесплатное. Метка указывает на здание музея. Наличие мест перед посещением следует проверить у организатора.",
       "priceNote": "Презентация книги и беседа с Йоханом Хартле об архитектуре и идеологии Красной Вены. Нужна регистрация. Место встречи: зал мероприятий на 3-м этаже. Участие бесплатное. Метка указывает на здание музея. Наличие мест перед посещением следует проверить у организатора.",
       "priceNoteEn": "Book presentation and conversation with Johan Hartle about architecture and ideology in Red Vienna. Registration is required. Meeting point: event hall on the 3rd floor. Participation is free. The map pin identifies the museum building. Check with the organizer before visiting for current availability."
+    },
+    {
+      "id": "vienna-albertina-rainer-workshop-20261118",
+      "title": "Arnulf Rainer — Übermalen wie Rainer",
+      "date": "2026-11-18",
+      "time": "18:30",
+      "startAt": "2026-11-18T18:30:00+01:00",
+      "timezone": "Europe/Vienna",
+      "venue": "ALBERTINA",
+      "address": "Albertinaplatz 1, Vienna",
+      "lat": 48.2046365,
+      "lng": 16.3682605,
+      "currency": "EUR",
+      "sourceUrl": "https://shop.albertina.at/de/workshops-erwachsene-p4539/",
+      "end": "20:30",
+      "endAt": "2026-11-18T20:30:00+01:00",
+      "category": "workshop",
+      "price": null,
+      "min": false,
+      "mandatoryFees": null,
+      "feeStatus": "Full mandatory fees are not confirmed; unknown is not zero.",
+      "kind": "event",
+      "status": "scheduled",
+      "publicationStatus": "verified",
+      "city": "Vienna",
+      "cityId": "vienna",
+      "checkedAt": "2026-11-15",
+      "source": "ALBERTINA official programme and shop",
+      "sourceURLs": [
+        "https://shop.albertina.at/de/workshops-erwachsene-p4539/",
+        "https://www.albertina.at/besuch/programm/kunstworkshops-erwachsene/",
+        "https://www.albertina.at/en/contact-us/",
+        "https://www.coordinatesfinder.com/coordinates/1734254-albertina"
+      ],
+      "venueId": "vi-osm:node:60438337",
+      "coordinateSource": "https://www.openstreetmap.org/node/60438337",
+      "coordinateSupportingSources": [
+        "https://shop.albertina.at/de/workshops-erwachsene-p4539/",
+        "https://www.albertina.at/besuch/programm/kunstworkshops-erwachsene/",
+        "https://www.albertina.at/en/contact-us/",
+        "https://www.coordinatesfinder.com/coordinates/1734254-albertina"
+      ],
+      "coordinatePrecision": "museum venue point, not entrance or workshop room",
+      "coordinateEvidence": "Existing canonical venue point retained and independently corroborated by current venue identity and address. Not an entrance or room pin.",
+      "coordinateCheckedAt": "2026-11-15",
+      "programmeId": "vienna-albertina-rainer-workshop",
+      "language": "DE",
+      "ticketAvailability": "not checked",
+      "registrationStatus": "required",
+      "registrationUrl": "https://shop.albertina.at/de/workshops-erwachsene-p4539/",
+      "yearEvidence": "The dated official event and organizer booking page explicitly identify November2026.",
+      "placeId": "vi-osm:node:60438337",
+      "workshopOnlyPrice": 35,
+      "museumAdmissionPrice": null,
+      "registrationRequired": true,
+      "ageGuidance": "Adults",
+      "languageStatus": "explicit",
+      "endEvidence": "The official dated booking page gives the workshop interval18:30–20:30.",
+      "description": "Взрослый мастер-класс «Übermalen wie Rainer» в ALBERTINA. Предварительные художественные навыки не требуются.",
+      "priceNote": "Мастер-класс стоит 35 EUR плюс отдельный входной билет в музей. Полная сумма и обязательные сборы не подтверждены. Требуется бронирование; наличие мест не проверено.",
+      "languageNote": "На немецком языке. Для взрослых.",
+      "admission": "Мастер-класс стоит 35 EUR плюс отдельный входной билет в музей. Полная сумма и обязательные сборы не подтверждены. Требуется бронирование; наличие мест не проверено."
     }
   ],
   "sourceRegistry": [
@@ -13855,6 +13917,32 @@
         "vie-wienmuseum-3555-20261203-1830"
       ],
       "note": "Only selected individually reviewed sessions. Existing source rows preserved. Full calendar coverage and live ticket inventory are not claimed."
+    },
+    {
+      "id": "vienna-source-6c798d3cbff375",
+      "name": "ALBERTINA official programme and shop",
+      "url": "https://shop.albertina.at/de/workshops-erwachsene-p4539/",
+      "checkedAt": "2026-11-15",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "eventIds": [
+        "vienna-albertina-rainer-workshop-20261118"
+      ],
+      "note": "Independently reconciled official dated event. Conflicting end or unknown all-in price remains explicit; no inventory claim."
+    },
+    {
+      "id": "vienna-source-943f04591bdeb6",
+      "name": "ALBERTINA official programme and shop",
+      "url": "https://www.albertina.at/besuch/programm/kunstworkshops-erwachsene/",
+      "checkedAt": "2026-11-15",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "eventIds": [
+        "vienna-albertina-rainer-workshop-20261118"
+      ],
+      "note": "Independently reconciled official dated event. Conflicting end or unknown all-in price remains explicit; no inventory claim."
     }
   ],
   "dateCounts": {
@@ -13890,7 +13978,7 @@
     "added": 21,
     "scope": "Verified missing occurrences only. Existing records, source check dates and horizon were not globally refreshed."
   },
-  "editorialUpdatedAt": "2026-11-12T07:12:49.740748+00:00",
+  "editorialUpdatedAt": "2026-11-15T10:30:19.315170+00:00",
   "latestResearchBatch": "oslo-vienna-dublin-primary-20261106",
   "maintenanceHistory": [
     {
@@ -13934,6 +14022,13 @@
         "vie-andre-rieu-20261107-1930",
         "vie-placebo-support-20261110-2000"
       ]
+    },
+    {
+      "at": "2026-11-15T10:30:19.315170+00:00",
+      "scope": "One independently checked dated programme added. All existing records and source clocks retained.",
+      "addedId": "vienna-albertina-rainer-workshop-20261118",
+      "sourceReadDate": "2026-11-15",
+      "limits": "Bounded source update, not complete city coverage. Inventory and unresolved end/total price are not promised."
     }
   ]
 }
