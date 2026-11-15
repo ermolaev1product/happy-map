@@ -27,6 +27,8 @@ public final class MainActivity extends Activity {
     private static final String ORIGIN = "https://" + HOST;
     private static final String HOME = ORIGIN + "/app-start.html";
     private WebView web;
+    private String uiLanguage = NativeText.normalize(java.util.Locale.getDefault().toLanguageTag());
+    private String text(String key) { return NativeText.text(uiLanguage, key); }
     private long lastUpdateCheck=0;
     private int offeredUpdate=0;
     private GeolocationPermissions.Callback locationCallback;
@@ -81,9 +83,19 @@ public final class MainActivity extends Activity {
                 String name = path.substring(1);
                 String type = name.endsWith(".html") ? "text/html" : name.endsWith(".js") ? "application/javascript" : name.endsWith(".css") ? "text/css" : name.endsWith(".json") ? "application/json" : name.endsWith(".svg") ? "image/svg+xml" : name.endsWith(".png") ? "image/png" : name.endsWith(".jpg") ? "image/jpeg" : "text/plain";
                 try { return new WebResourceResponse(type, "UTF-8", 200, "OK", Collections.singletonMap("X-Content-Type-Options", "nosniff"), getAssets().open(name)); }
-                catch (IOException e) { return missing(); }
+                catch (IOException e) {
+                    if (!name.substring(name.lastIndexOf('/') + 1).contains(".")) {
+                        try { return new WebResourceResponse("text/html", "UTF-8", 200, "OK", Collections.singletonMap("X-Content-Type-Options", "nosniff"), getAssets().open(name + ".html")); }
+                        catch (IOException ignored) {}
+                    }
+                    return missing();
+                }
             }
             @Override public void onPageFinished(WebView view, String url) {
+                if (url.startsWith(ORIGIN + "/")) view.evaluateJavascript("document.documentElement.lang || 'en'", value -> {
+                    if (!url.equals(view.getUrl())) return;
+                    try { uiLanguage = NativeText.normalize(new org.json.JSONArray("[" + value + "]").getString(0)); } catch (Exception ignored) {}
+                });
                 if (url.startsWith(ORIGIN + "/")) view.evaluateJavascript("(()=>{if(window.happyMapLinksBound)return;window.happyMapLinksBound=true;document.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(a&&/^(https?:|tel:)/.test(a.getAttribute('href')))a.removeAttribute('target');},true);})()", null);
             }
             @Override public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
@@ -93,7 +105,7 @@ public final class MainActivity extends Activity {
                 return navigate(Uri.parse(url));
             }
             @Override public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
-                if (request.isForMainFrame()) new AlertDialog.Builder(MainActivity.this).setTitle("Не удалось открыть Happy Map").setMessage("Попробуйте открыть приложение ещё раз.").setPositiveButton("Повторить", (d,w) -> web.loadUrl(HOME)).show();
+                if (request.isForMainFrame()) new AlertDialog.Builder(MainActivity.this).setTitle(text("openTitle")).setMessage(text("openMessage")).setPositiveButton(text("retry"), (d,w) -> web.loadUrl(HOME)).show();
             }
         });
         web.setWebChromeClient(new WebChromeClient() {
@@ -102,10 +114,10 @@ public final class MainActivity extends Activity {
                 if (hasLocation()) { callback.invoke(origin, true, false); return; }
                 if (locationCallback != null) locationCallback.invoke(locationOrigin, false, false);
                 locationCallback = callback; locationOrigin = origin;
-                new AlertDialog.Builder(MainActivity.this).setTitle("Что рядом с тобой?")
-                    .setMessage("Разреши Happy Map определить местоположение, чтобы показать события поблизости. Можно выбрать приблизительное местоположение. Координаты не сохраняются в аккаунте; фонового отслеживания нет.")
-                    .setPositiveButton("Продолжить", (d,w) -> requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION}, 7))
-                    .setNegativeButton("Не сейчас", (d,w) -> resolveLocation(false))
+                new AlertDialog.Builder(MainActivity.this).setTitle(text("nearby"))
+                    .setMessage(text("location"))
+                    .setPositiveButton(text("continue"), (d,w) -> requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION}, 7))
+                    .setNegativeButton(text("notNow"), (d,w) -> resolveLocation(false))
                     .setOnCancelListener(d -> resolveLocation(false)).show();
             }
             @Override public void onGeolocationPermissionsHidePrompt() { resolveLocation(false); }
@@ -170,12 +182,12 @@ public final class MainActivity extends Activity {
         if ("https".equals(uri.getScheme()) && HOST.equals(uri.getHost())) return false;
         if ("tel".equals(uri.getScheme())) {
             try { startActivity(new Intent(Intent.ACTION_DIAL, uri)); }
-            catch (ActivityNotFoundException e) { Toast.makeText(this, "На устройстве нет приложения для звонков", Toast.LENGTH_LONG).show(); }
+            catch (ActivityNotFoundException e) { Toast.makeText(this, text("noDialer"), Toast.LENGTH_LONG).show(); }
             return true;
         }
         if ("https".equals(uri.getScheme()) || "http".equals(uri.getScheme())) {
             try { startActivity(new Intent(Intent.ACTION_VIEW, uri).addCategory(Intent.CATEGORY_BROWSABLE)); }
-            catch (ActivityNotFoundException e) { Toast.makeText(this, "Установите браузер, чтобы открыть ссылку", Toast.LENGTH_LONG).show(); }
+            catch (ActivityNotFoundException e) { Toast.makeText(this, text("noBrowser"), Toast.LENGTH_LONG).show(); }
         }
         return true;
     }
@@ -200,10 +212,10 @@ public final class MainActivity extends Activity {
                 runOnUiThread(()->{
                     if(isFinishing()||isDestroyed()||next<=offeredUpdate)return;
                     offeredUpdate=next;
-                    new AlertDialog.Builder(this).setTitle("Обновление Happy Map")
-                        .setMessage("Доступна новая версия. Установите её поверх текущей, чтобы сохранить планы.")
-                        .setNegativeButton("Позже",null)
-                        .setPositiveButton("Открыть обновление",(d,w)->navigate(Uri.parse("https://happymap.app/android.html"))).show();
+                    new AlertDialog.Builder(this).setTitle(text("updateTitle"))
+                        .setMessage(text("updateMessage"))
+                        .setNegativeButton(text("later"),null)
+                        .setPositiveButton(text("openUpdate"),(d,w)->navigate(Uri.parse("https://happymap.app/" + ("ru".equals(uiLanguage) ? "" : uiLanguage + "/") + "android.html"))).show();
                 });
             }catch(Exception ignored){}finally{if(connection!=null)connection.disconnect();}
         }).start();

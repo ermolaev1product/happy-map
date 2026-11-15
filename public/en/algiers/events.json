@@ -1683,6 +1683,61 @@
       "feeStatus": "Not confirmed",
       "coordinateCheckedAt": "2026-10-29T04:46:09.055041+00:00",
       "endEvidence": "Own October 29–November 7 2026 PDF printed explicit programme interval; visually checked page transitions, not calendar placeholder."
+    },
+    {
+      "id": "algiers-chaabi-tlemcani-20261113-2030",
+      "city": "Algiers",
+      "cityId": "algiers",
+      "kind": "event",
+      "status": "scheduled",
+      "publicationStatus": "included_in_verified_release",
+      "timezone": "Africa/Algiers",
+      "title": "Abdelkader Cherchem & Azouz Abdelghani — Qaâda Chaâbi",
+      "titleEn": "Abdelkader Cherchem & Azouz Abdelghani — Qaâda Chaâbi",
+      "originalTitle": "قعدة شعبي",
+      "category": "music",
+      "date": "2026-11-13",
+      "endDate": "2026-11-13",
+      "time": "20:30",
+      "end": null,
+      "startAt": "2026-11-13T20:30:00+01:00",
+      "endAt": null,
+      "description": "A free chaabi concert on the square by historic Café Tlemçani in the Casbah. The marker identifies the cafe and adjacent square, not the exact stage location.",
+      "descriptionEn": "A free chaabi concert on the square by historic Café Tlemçani in the Casbah. The marker identifies the cafe and adjacent square, not the exact stage location.",
+      "venue": "Placette du café Tlemçani",
+      "venueId": "algiers-venue-tlemcani-square",
+      "address": "17 Rue El Mourabitoune, Casbah, Algiers, Algeria",
+      "lat": 36.7855625,
+      "lng": 3.064671875,
+      "coordinateSource": "https://www.waze.com/live-map/directions/dz/algiers-province/casbah/cafe-historique-tlemcani?to=place.ChIJNWRSBsuzjxIRA0yFnTcOt8w",
+      "coordinatePrecision": "Named cafe and adjacent square; not a surveyed stage or entrance",
+      "coordinateEvidence": "Full Waze named venue page gives short Plus Code Q3P7+6VF in Casbah, expanded with Algiers locality to 8F85Q3P7+6VF and decoded cell center. Official event specifies adjacent placette. Full DZ Event page confirms 17 Rue El Mourabitoune. DZ Event explicitly marks its own map as city-centre approximate; that centroid is not used.",
+      "coordinateCheckedAt": "2026-11-12T14:27:00Z",
+      "source": "Établissement Arts et Culture de la Wilaya d’Alger",
+      "sourceUrl": "https://artsetculturealger.dz/evenement/16",
+      "primarySourceUrl": "https://artsetculturealger.dz/evenement/16",
+      "sourceURLs": [
+        "https://artsetculturealger.dz/evenement/16",
+        "https://www.dzevent.com/events/qa-da-cha-bi-avec-abdelkader-cherchem-et-azouz-abdelghani-mwacsuy5"
+      ],
+      "checkedAt": "2026-11-12T14:27:00Z",
+      "sourceVerificationMethod": "Full dated official announcement and independent event/venue pages read with web connector. Cached Waze venue content is three weeks old, official event body crawled today.",
+      "yearEvidence": "Official event body and information fields explicitly state 13 November 2026; secondary page independently agrees.",
+      "price": 0,
+      "currency": "DZD",
+      "mandatoryFees": 0,
+      "feeStatus": "Official announcement explicitly says free",
+      "priceStatus": "verified_free",
+      "priceNote": "The organizer explicitly states free admission.",
+      "priceNoteEn": "The organizer explicitly states free admission.",
+      "accessType": "public",
+      "language": null,
+      "isInPerson": true,
+      "availabilityVerified": false,
+      "endEvidence": "Official end time is not published. Secondary 23:00 calendar end is not treated as factual endAt.",
+      "researchBatch": "algiers-tashkent-monitor-repair-20261112",
+      "admission": "Free admission. The concert end time is not published.",
+      "admissionEn": "Free admission. The concert end time is not published."
     }
   ],
   "sourceRegistry": [
@@ -1714,7 +1769,105 @@
       "status": "read_full_source",
       "accessStatus": "read_full_source",
       "count": 0,
-      "note": "Actual source-specific retrieval; not evidence of complete city/source import."
+      "note": "Actual source-specific retrieval; not evidence of complete city/source import.",
+      "researchObservations": [
+        {
+          "id": "obs-history-908e436a1eba067ad4bb1924",
+          "cityId": "algiers",
+          "sourceUrl": "https://artsetculturealger.dz/evenement/16",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "full_selected_event_announcement",
+          "readDepth": "full_dated_announcement",
+          "summary": "Full primary November 13 announcement read for the Chaabi performance. Public named-venue corroboration retained; the map point is the cafe/adjacent square, not an independently surveyed stage.",
+          "dateHorizon": {
+            "startDate": "2026-11-13",
+            "endDate": "2026-11-13",
+            "dates": [
+              "2026-11-13"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "algiers-chaabi-tlemcani-20261113-2030"
+          ],
+          "evidenceSourceURL": "https://artsetculturealger.dz/evenement/16",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:27:00Z",
+          "evidenceSourceURLs": [
+            "https://artsetculturealger.dz/evenement/16",
+            "https://www.dzevent.com/events/qa-da-cha-bi-avec-abdelkader-cherchem-et-azouz-abdelghani-mwacsuy5"
+          ]
+        },
+        {
+          "id": "obs-history-b8d9f07fc48bc00f256083d2",
+          "cityId": "algiers",
+          "sourceUrl": "https://artsetculturealger.dz/evenement/23",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_announcement_facts_held",
+          "readDepth": "partial_announcement",
+          "summary": "Official information fields20:30 conflict with Arabic body21:00. Keepheld; do not assume doors/start.",
+          "dateHorizon": {
+            "startDate": "2026-11-12",
+            "endDate": "2026-11-12",
+            "dates": [
+              "2026-11-12"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "held",
+          "eventIds": [],
+          "evidenceSourceURL": "https://artsetculturealger.dz/evenement/23",
+          "nextAction": "Resolve the stated time or venue conflict using clear primary evidence before publishing this event.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:27:00Z"
+        },
+        {
+          "id": "obs-history-5640a9a9caf5c251b9be058f",
+          "cityId": "algiers",
+          "sourceUrl": "https://artsetculturealger.dz/evenement/55",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_announcement_facts_held",
+          "readDepth": "partial_announcement",
+          "summary": "Official programme date/time/free verified. Two independent named-location links disagree: Meeps36.743971,3.0946324 versus Winrouh36.7445877,3.0907211 (~350m). Old Casbah point36.7843837,3.0549662 is a different palace; must not reuse. Resolve venue geometry before publication.",
+          "dateHorizon": {
+            "startDate": "2026-11-13",
+            "endDate": "2026-11-13",
+            "dates": [
+              "2026-11-13"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "held",
+          "eventIds": [],
+          "evidenceSourceURL": "https://artsetculturealger.dz/evenement/55",
+          "nextAction": "Resolve the stated time or venue conflict using clear primary evidence before publishing this event.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:27:00Z"
+        }
+      ]
     },
     {
       "id": "algiers-source-d76336bddb1942",
@@ -2306,5 +2459,8 @@
       "count": 0,
       "note": "Actual source-specific retrieval; not evidence of complete city/source import."
     }
-  ]
+  ],
+  "editorialUpdatedAt": "2026-11-12T14:37:16.289541+00:00",
+  "latestResearchBatch": "city-quality-20261112",
+  "editorialUpdateNote": "Bounded source-verified additions or schedule repairs on 12 November 2026. Other records, original city coverage horizon and source verification dates are unchanged. Ticket availability is unverified; no full-city coverage is claimed."
 }

@@ -152,7 +152,7 @@
    const nearest=accuracy<=10000?nearbyCity(point):null;
    if(nearest&&nearest.id!==currentCity&&(!options.automatic||autoCity)){
     try{sessionStorage.setItem(transferKey,JSON.stringify({...fix,city:nearest.id}));}catch{}
-    const policy=window.HappyMapLocalePolicy;const nextLocale=policy?policy.choose(nearest.id,null,document.documentElement.lang):'en';const target=new URL(policy?policy.path(nearest.path,nextLocale):'/en/'+nearest.path,location.href);location.replace(target.pathname+(telegram?'?miniapp=telegram&location=city':''));return;
+    const policy=window.HappyMapLocalePolicy;const nextLocale=policy?policy.choose(nearest.id,null,document.documentElement.lang):'en';const target=new URL(policy?policy.path(nearest.path,nextLocale):'/fr-ca/'+nearest.path,location.href);location.replace(target.pathname+(telegram?'?miniapp=telegram&location=city':''));return;
    }
    if(options.automatic&&!autoCity){kind=searchKind==='shared'?'shared':'selected';phase='searchContext';update();drawOrigin();}
    else{setPoint(point,true);if(entry.get('radius')==='all'){radius=0;pendingRadius=0;persistNear();refreshLocation();}if(!nearest){phase=accuracy>10000?'imprecise':'unsupported';update();}}

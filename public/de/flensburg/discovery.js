@@ -14,14 +14,10 @@ const distanceLabel=e=>{const d=distance(e);return Number.isFinite(d)?(d<1?Math.
 const shortWhen=e=>e.endDate?"Po "+shortDate(e.endDate):e.date===today()?"Heute":e.date===dates[1]?"Morgen":shortDate(e.date);
 function programmeLine(e){return `${shortWhen(e)}${e.time?' · '+timeLabel(e.time):''} — ${e.title}`;}
 async function loadPlaces(){
- const unpack=d=>Array.isArray(d)?d:d.places;
- const valid=d=>Array.isArray(d)&&d.length<150000&&d.every(p=>p&&typeof p.id==='string'&&typeof p.title==='string');
- let local=unpack(await (await fetch('/de/flensburg/places.json',{cache:'no-store'})).json());if(!valid(local))local=[];
- if(!isAndroid)return local;
- let cached;try{cached=JSON.parse(localStorage.getItem(nearKey+'-places-catalog'));}catch{}
- const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),4500);
- try{const r=await fetch('/live/'+cityFolder+'places.json',{cache:'no-store',signal:controller.signal});if(!r.ok)throw Error();const remote=unpack(await r.json());if(!valid(remote)||remote.length<local.length/2)throw Error();try{localStorage.setItem(nearKey+'-places-catalog',JSON.stringify({places:remote,version:'2.3'}));}catch{}return remote;}catch{return cached?.version==='2.3'&&valid(cached.places)&&cached.places.length>=local.length?cached.places:local;}finally{clearTimeout(timer);}
+ const result=await window.HappyMapCatalog.load(cityFolder?cityFolder.replace(/\/$/,''):'tbilisi','places',document.documentElement.lang,{legacyCachePrefix:nearKey});
+ return Array.isArray(result.data)?result.data:result.data.places;
 }
+
 const initMapBeforeDiscovery=initMap;
 initMap=function(){
  venueIndex=NoreliDiscovery.connect(places,events);places=venueIndex.places;for(const p of places){if(p.fromEvents){const e=(venueIndex.programmes.get(p.id)||[])[0];p.description="A venue ab the events calendar. Its verified programme with dates is shown below.";p.coordinatePrecision=e?.coordinatePrecision;p.website=e?.primarySourceUrl||e?.sourceUrl;p.currency='EUR';}if(p.coordinatePrecision==='postcode-centroid')p.openingNote="The point marks a postcode area, not a verified entrance. Use the listed address and confirm opening hours with the venue.";}
@@ -31,7 +27,7 @@ initMap=function(){
  if(view==='plans')layer='events';
  if(cityFolder===''){
   let remembered=false;try{remembered=!!localStorage.getItem(nearKey);}catch{}
-  if(!remembered){position=[41.7011268,44.7962925];positionLabel="Opera district";radius=1;}
+  if(!remembered){position=[41.7011268,44.7962925];positionLabel="Opernviertel";radius=1;}
  }
  if(entry.get('radius')==='all'){radius=0;$('#radiusFilter').value='0';}
  initMapBeforeDiscovery();
@@ -63,7 +59,7 @@ render=function(){
   }
  }
  renderBeforeDiscovery();if(!catalog)return;
- const statusText=$('#catalogStatus span');statusText.textContent="Veranstaltungen · "+(catalog.generatedAt||'').slice(0,10).split('-').reverse().join('.')+(today()>catalog.endDate?" · new announcements needed":'');statusText.title="Termine bis "+catalog.endDate+"; loads the published selection on startup";
+ if(!isAndroid){const statusText=$('#catalogStatus span');statusText.textContent="Veranstaltungen · "+(catalog.generatedAt||'').slice(0,10).split('-').reverse().join('.')+(today()>catalog.endDate?" · new announcements needed":'');statusText.title="Termine bis "+catalog.endDate+"; loads the published selection on startup";}
  const nearby=layer==='city'&&view!=='plans',list=visible();document.body.classList.toggle('nearby-view',nearby);
  for(const [id,on] of [['eventsLayer',layer==='events'],['cityLayer',layer==='city']]){
   $('#'+id).classList.toggle('active',on);$('#'+id).setAttribute('aria-pressed',String(on));
@@ -83,7 +79,7 @@ render=function(){
   $('#listTitle').textContent=withProgram?"Orte mit Veranstaltungen":"Wohin gehen?";
   const scheduled=list.filter(p=>programFor(p).length).length;
   $('#resultCount').textContent=`${placeCount(list.filter(p=>p.kind==='place').length)} · ${scheduled} mit Veranstaltungen${list.some(p=>p.kind!=='place')?' · '+eventCount(list.filter(p=>p.kind!=='place').length):''}`;
-  if(!radius)$('#mapLabel').textContent=`${placeCount(list.length)} · list →`;
+  if(!radius)$('#mapLabel').textContent=`${placeCount(list.length)} · Liste →`;
   $('#mapResults').setAttribute('aria-label',"Liste öffnen: "+placeCount(list.length));
   $('#mapPlanButton').hidden=true;$('#sortButton').hidden=true;
   $('#mapEmpty').querySelector('p').textContent="Wähle einen anderen Tag oder eine andere Kategorie.";
@@ -95,7 +91,7 @@ render=function(){
   const alternatives=`<div class="empty-alternatives">${layer==='events'?"<button type=\"button\" class=\"text-button\" data-empty-places>Orte dieser Kategorie in der ganzen Stadt →</button>":''}${layer==='events'&&day!==-1?"<button type=\"button\" class=\"text-button\" data-empty-week>View all event dates →</button>":''}<a class="text-button" href="/de/flensburg/sources.html">Lokale Quellen prüfen ↗</a></div>`;
   for(const box of [$('#eventList .empty'),$('#mapEmpty')]){
    if(!box)continue;box.insertAdjacentHTML('beforeend',alternatives);
-   const placesButton=box.querySelector("[data-empty-Orte]");
+   const placesButton=box.querySelector('[data-empty-places]');
    if(placesButton)placesButton.onclick=()=>{setLayer('city');};
    const weekButton=box.querySelector('[data-empty-week]');
    if(weekButton)weekButton.onclick=()=>{day=-1;limit=18;render();};
@@ -132,8 +128,8 @@ openPlace=function(p,showWeek=false,shown=12){
  const beerText=beer?`${beer.min}${beer.max?'–'+beer.max:'+'} ${beer.currency||'EUR'}`:null;
  showDialog(`<div class="detail-content"><div class="eyebrow">${esc(p.placeType||catOf(p).name)} · ${esc(distanceLabel(p))}</div><h2>${esc(p.title)}</h2><p class="detail-description">${esc(p.description)}</p><div class="detail-facts"><div>${icon('pin')}${esc(p.address||"The place is marked on the map; no street address is provided.")}</div></div>${p.openingHours?`<p class="detail-description"><strong>Angegebene Öffnungszeiten:</strong> ${esc(p.openingHours)}</p>`:''}<p class="detail-disclaimer">${esc(p.openingNote||"Check opening hours and admission conditions before visiting.")}</p>
  ${p.menuReference?`<p class="detail-description">${esc(p.menuReference.text)} <a href="${safeUrl(p.menuReference.url)}" target="_blank" rel="noopener noreferrer">${esc(p.menuReference.source)} ↗</a></p>`:''}${NoreliDiscovery.hasCategory(p,'bar')||beer?`<div class="drink-budget"><strong>Bier ${beerText?'— '+esc(beerText):"an diesem Ort; Preis nicht angegeben"}</strong>${beer?`<p>${esc(beer.unit||"One glass; volume not specified")}${beer.menuDate?" · menu ab "+esc(beer.menuDate):''} · estimate based on the source, not a guaranteed menu price.</p><a href="${safeUrl(beer.sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(beer.source)} ↗</a><small>Geprüft ${esc(beer.checkedAt.slice(0,10).split('-').reverse().join('.'))}. Tickets und Getränke werden separat bezahlt.</small>`:''}</div>`:''}
- <div class="source-links">${sourceLinks(p)}</div><div class="detail-actions"><button id="placeSave" class="primary-button">${savedPlaces.some(x=>x.id===p.id)?"✓ Ort gespeichert":"Ort speichern"}</button><a class="external-link" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(NoreliDiscovery.hasPoint(p)&&p.coordinatePrecision!=='postcode-centroid'?p.lat+','+p.lng:[p.title,p.address].filter(Boolean).join(', '))}&travelmode=walking" target="_blank" rel="noopener noreferrer">Walking directions ↗</a></div>
- ${program.length||weekly.length?`<section class="place-program">${program.length?`<h3>${showWeek?"Programm für verfügbare Termine":day===-1?"Programm für verfügbare Termine":"Programme · "+esc(dateLabel(dates[day]))}</h3>`:''}${program.length?program.slice(0,shown).map(e=>`<button data-open="${esc(e.id)}"><span>${esc(shortWhen(e))} · ${esc(timeLabel(e.time)||"Uhrzeit nicht bestätigt")} · ${priceText(e)}${e.soldOut?" · tickets ausverkauft":''}</span>${esc(e.title)} →</button>`).join(''):''}${program.length>shown?"<button id=\"moreProgramme\" class=\"text-button\">Mehr Veranstaltungen anzeigen</button>":''}${!showWeek&&day!==-1&&weekly.length?`<button id="weekProgramme" class="text-button">Full programme for the week · ${weekly.length} →</button>`:''}</section>`:''}
+ <div class="source-links">${sourceLinks(p)}</div><div class="detail-actions"><button id="placeSave" class="primary-button">${savedPlaces.some(x=>x.id===p.id)?"✓ Ort gespeichert":"Ort speichern"}</button><a class="external-link" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(NoreliDiscovery.hasPoint(p)&&p.coordinatePrecision!=='postcode-centroid'?p.lat+','+p.lng:[p.title,p.address].filter(Boolean).join(', '))}&travelmode=walking" target="_blank" rel="noopener noreferrer">Fußweg anzeigen ↗</a></div>
+ ${program.length||weekly.length?`<section class="place-program">${program.length?`<h3>${showWeek?"Programm für verfügbare Termine":day===-1?"Programm für verfügbare Termine":"Programm · "+esc(dateLabel(dates[day]))}</h3>`:''}${program.length?program.slice(0,shown).map(e=>`<button data-open="${esc(e.id)}"><span>${esc(shortWhen(e))} · ${esc(timeLabel(e.time)||"Uhrzeit nicht bestätigt")} · ${priceText(e)}${e.soldOut?" · tickets ausverkauft":''}</span>${esc(e.title)} →</button>`).join(''):''}${program.length>shown?"<button id=\"moreProgramme\" class=\"text-button\">Mehr Veranstaltungen anzeigen</button>":''}${!showWeek&&day!==-1&&weekly.length?`<button id="weekProgramme" class="text-button">Full programme for the week · ${weekly.length} →</button>`:''}</section>`:''}
  <p class="detail-disclaimer">${p.provenance==='openstreetmap'?"This place comes ab OpenStreetMap. A point on the map does not confirm that the venue is open today. ":''}${p.sourceCheckedAt?"Letzte Verzeichnisprüfung: "+esc(p.sourceCheckedAt)+'. ':''}Entfernungen werden als Luftlinie gemessen. Der Fußweg kann länger sein.</p></div>`);
  $('#placeSave').onclick=()=>togglePlace(p.id);if($('#weekProgramme'))$('#weekProgramme').onclick=()=>openPlace(p,true);
  if($('#moreProgramme'))$('#moreProgramme').onclick=()=>openPlace(p,showWeek,shown+20);
@@ -145,7 +141,7 @@ const showResultsBeforeDiscovery=showResults;
 showResults=function(unknownOnly=false,shown=30){showResultsBeforeDiscovery(unknownOnly,shown);if(layer==='city'){$('#eventDetails .eyebrow').textContent="ORTE UND VERANSTALTUNGEN";$('#eventDetails h2').textContent="Wohin gehen?";}};
 function showPeace(){
  $('.more-menu').open=false;
- showDialog("<div class=\"detail-content peace-note\"><div class=\"eyebrow\">OUR POSITION</div><h2>Für Frieden.</h2><p>We oppose war. We stand for human life, freedom and the chance bis live without fear.</p><p>This project helps people meet, enjoy music and films, and discover their city. Everyone should have the opportunity bis make peaceful plans.</p></div>");
+ showDialog("<div class=\"detail-content peace-note\"><div class=\"eyebrow\">UNSERE HALTUNG</div><h2>Für Frieden.</h2><p>Wir sind gegen Krieg. Wir stehen für Menschenleben, Freiheit und die Möglichkeit, ohne Angst zu leben.</p><p>Dieses Projekt hilft Menschen, sich zu treffen, Musik und Filme zu genießen und ihre Stadt zu entdecken. Alle sollten die Möglichkeit haben, friedliche Pläne zu machen.</p></div>");
 }
 document.querySelectorAll('[data-peace]').forEach(b=>b.onclick=showPeace);
 const sourcesBeforeDiscovery=showSources;

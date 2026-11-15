@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "url": "https://postopice.rs/en/venue/docker-brewery-beer-garden",
+      "menuMonth": "2026-10",
+      "prices": [
+        {
+          "currency": "RSD",
+          "volumeL": 0.33,
+          "amount": 350
+        },
+        {
+          "currency": "RSD",
+          "volumeL": 0.5,
+          "amount": 420
+        }
+      ],
+      "status": "Read via web reader November12; returned snapshot crawled2daysago, unchanged October secondary-source menu. Not proof of November on-site prices."
+    },
+    {
+      "url": "https://menu.8000vintages.ge/",
+      "currency": "GEL",
+      "status": "Read November12, glass wine11/13.20GEL; volume/menu-date/branch unconfirmed, no import."
+    }
+  ],
+  "scope": "Selected menus only; full city coverage not checked."
+}

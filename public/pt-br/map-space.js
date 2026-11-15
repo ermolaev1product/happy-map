@@ -1,12 +1,12 @@
 (() => {
  const locale='en';
- const copy=locale==='de'?{home:'Startseite',filters:'Weitere Filter und Daten',events:'Veranstaltungen',city:'Ganze Stadt'}:locale==='en'?{home:'home',filters:"Mais filtros e dados",events:"Eventos",city:"Toda a cidade"}:{home:"home",filters:"Mais filtros e dados",events:"Eventos",city:"Toda a cidade"};
+ const copy=locale==='de'?{home:'Startseite',filters:'Weitere Filter und Daten',events:'Veranstaltungen',city:'Ganze Stadt'}:locale==='en'?{home:"início",filters:"Mais filtros e dados",events:"Eventos",city:"Toda a cidade"}:{home:"início",filters:"Mais filtros e dados",events:"Eventos",city:"Toda a cidade"};
  document.querySelectorAll('a.wordmark').forEach(a=>{a.href=true?'/pt-br/index.html':'/pt-br/index.html';a.setAttribute('aria-label','Happy Map — '+copy.home)});
  const workspace=document.getElementById('workspace');if(!workspace)return;
  const drawer=document.createElement('details');drawer.className='map-options';
  const summary=document.createElement('summary');summary.textContent=copy.filters;drawer.append(summary);
  for(const selector of ['.filter-actions','#extraFilters','#catalogStatus','#coverageControls']){const el=document.querySelector(selector);if(el)drawer.append(el)}
- workspace.after(drawer);if(true){const note=document.createElement('p');note.className='muted';note.textContent="As descrições dos eventos estão traduzidas para o inglês. Cada anúncio tem um link para a publicação original.";drawer.append(note);}
+ workspace.after(drawer);if(true){const note=document.createElement('p');note.className='muted';note.textContent="A interface está traduzida. As descrições de eventos e lugares podem permanecer no idioma do catálogo ou da fonte. O idioma da interface não filtra os eventos.";drawer.append(note);}
  const events=document.getElementById('eventsLayer');if(events)events.textContent=copy.events;
  const city=document.getElementById('cityLayer');if(city)city.textContent=copy.city;
 })();

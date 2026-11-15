@@ -1299,6 +1299,160 @@
       "status": "scheduled",
       "source": "Official programme",
       "end": null
+    },
+    {
+      "cityId": "rabat",
+      "title": "Cinq Regards — screening and meeting with Karim Debbagh",
+      "date": "2026-11-15",
+      "time": "18:00",
+      "timezone": "Africa/Casablanca",
+      "venue": "Cinéma 7ème Art",
+      "address": "Avenue Allal Ben Abdallah, Rabat",
+      "lat": 34.020347,
+      "lng": -6.835899,
+      "coordinateSource": "https://mapcarta.com/fr/N2626897157",
+      "coordinateEvidence": "Fresh Mapcarta 7ème Art cinema record OSM node 2626897157 exposes place:location:latitude 34.020347 longitude -6.835899 (visible rounded 34.02035,-6.8359). Fresh official event page gives Cinéma 7ème Art Av Allal Ben Abdallah, Rabat. Independent Yandex indexed named cinema result corroborates Avenue Allal Ben Abdellah. Not nearby same-name restaurant.",
+      "coordinateCheckedAt": "2026-11-13T08:52:04.646936+00:00",
+      "id": "rabat-verified-cinq-regards-septieme-art-20261115",
+      "programmeId": "rabat-cinq-regards-septieme-art",
+      "city": "Rabat",
+      "country": "MA",
+      "currency": "MAD",
+      "category": "film",
+      "kind": "event",
+      "startAt": "2026-11-15T18:00:00+01:00",
+      "end": null,
+      "endAt": null,
+      "description": "Screening of Cinq Regards followed by a meeting with filmmaker Karim Debbagh at Cinéma 7ème Art. Film runtime is 71 minutes; the full meeting end is not published.",
+      "source": "Institut français Rabat",
+      "sourceUrl": "https://if-maroc.org/rabat/evenements/projection-rencontre-cinq-regards-en-presence-du-realisateur-karim-debbagh/",
+      "checkedAt": "2026-11-13T08:52:04.646936+00:00",
+      "status": "scheduled",
+      "accessType": "public",
+      "availabilityVerified": false,
+      "availability": "not_live_checked",
+      "priceNote": "MAD20 members; MAD30 non-members; on-site box office; Pass Jeunes app",
+      "price": null,
+      "priceStatus": "not_confirmed",
+      "priceLabel": "See admission details",
+      "venueId": "rabat-venue-d9b2839a2059",
+      "coordinatePrecision": "venue",
+      "coordinatePrecisionNote": "Named cinema point, not surveyed entrance",
+      "sourceURLs": [
+        "https://if-maroc.org/rabat/evenements/projection-rencontre-cinq-regards-en-presence-du-realisateur-karim-debbagh/",
+        "https://mapcarta.com/fr/N2626897157",
+        "https://yandex.com/maps/org/cinema_7_me_art/150871189807/"
+      ],
+      "sources": [
+        {
+          "name": "Institut français Rabat",
+          "url": "https://if-maroc.org/rabat/evenements/projection-rencontre-cinq-regards-en-presence-du-realisateur-karim-debbagh/",
+          "checkedAt": "2026-11-13T08:52:04.646936+00:00"
+        },
+        {
+          "name": "Venue coordinate corroboration",
+          "url": "https://mapcarta.com/fr/N2626897157",
+          "checkedAt": "2026-11-13T08:52:04.646936+00:00"
+        },
+        {
+          "name": "Venue coordinate corroboration",
+          "url": "https://yandex.com/maps/org/cinema_7_me_art/150871189807/",
+          "checkedAt": "2026-11-13T08:52:04.646936+00:00"
+        }
+      ],
+      "verification": "Current primary event page rechecked; date, local start, named venue and coordinate evidence verified. No live ticket inventory or mandatory fee confirmation.",
+      "filmRuntimeMinutes": 71,
+      "accessNote": "Published admission: MAD 30 standard, MAD 20 members. On-site box office and Pass Jeunes app; availability has not been checked.",
+      "researchBatch": "verified-city-sessions-20261113",
+      "publicationStatus": "included_in_verified_release",
+      "isInPerson": true,
+      "mapEligible": true,
+      "originalTitle": "Cinq Regards — screening and meeting with Karim Debbagh",
+      "min": false,
+      "yearEvidence": "The individually checked primary event announcement explicitly states this 2026 date; no recurrence was inferred.",
+      "timeNote": "End time not published.",
+      "primarySourceUrl": "https://if-maroc.org/rabat/evenements/projection-rencontre-cinq-regards-en-presence-du-realisateur-karim-debbagh/",
+      "sourceRetrievedAt": "2026-11-13T08:52:04.646936+00:00"
+    },
+    {
+      "cityId": "rabat",
+      "title": "Cinq Regards — screening",
+      "date": "2026-11-17",
+      "time": "19:00",
+      "timezone": "Africa/Casablanca",
+      "venue": "Salle Gérard Philipe",
+      "address": "2 rue Al Yanboua, Rabat",
+      "lat": 34.014277,
+      "lng": -6.835749,
+      "coordinateSource": "https://www.campusfrance.org/fr/espaces/maroc-rabat",
+      "coordinateEvidence": "Fresh official Rabat contact explicitly groups Salle Gérard Philipe / Studio IFM / Campus France at 2 rue Al Yanboua near Rabat Ville station. Fresh Campus France official Espace de Rabat page gives Institut Français de Rabat, 2 rue AL YANBOUA and embedded named markers array latitude 34.014277 longitude -6.835749 title Espace de Rabat. Shared site verified, individual auditorium not surveyed. Do NOT reuse Abou Inane pin 34.0176156,-6.8320963.",
+      "coordinateCheckedAt": "2026-11-13T08:52:04.646936+00:00",
+      "id": "rabat-verified-cinq-regards-gerard-philipe-20261117",
+      "programmeId": "rabat-cinq-regards-gerard-philipe",
+      "city": "Rabat",
+      "country": "MA",
+      "currency": "MAD",
+      "category": "film",
+      "kind": "event",
+      "startAt": "2026-11-17T19:00:00+01:00",
+      "end": null,
+      "endAt": null,
+      "description": "Screening of Cinq Regards at Salle Gérard Philipe, 2 rue Al Yanboua. Film runtime is 71 minutes. Director attendance is not confirmed for this date.",
+      "source": "Institut français Rabat",
+      "sourceUrl": "https://if-maroc.org/rabat/evenements/projection-rencontre-cinq-regards-en-presence-du-realisateur-karim-debbagh/",
+      "checkedAt": "2026-11-13T08:52:04.646936+00:00",
+      "status": "scheduled",
+      "accessType": "public",
+      "availabilityVerified": false,
+      "availability": "not_live_checked",
+      "priceNote": "MAD20 members; MAD30 non-members; on-site box office; Pass Jeunes app",
+      "price": null,
+      "priceStatus": "not_confirmed",
+      "priceLabel": "See admission details",
+      "venueId": "rabat-venue-4788b38aa748",
+      "coordinatePrecision": "venue",
+      "coordinatePrecisionNote": "Shared Al Yanboua institutional site/building marker, not hall entrance",
+      "sourceURLs": [
+        "https://if-maroc.org/rabat/evenements/projection-rencontre-cinq-regards-en-presence-du-realisateur-karim-debbagh/",
+        "https://www.campusfrance.org/fr/espaces/maroc-rabat",
+        "https://if-maroc.org/rabat/contact-acces/",
+        "https://if-maroc.org/contact-acces/"
+      ],
+      "sources": [
+        {
+          "name": "Institut français Rabat",
+          "url": "https://if-maroc.org/rabat/evenements/projection-rencontre-cinq-regards-en-presence-du-realisateur-karim-debbagh/",
+          "checkedAt": "2026-11-13T08:52:04.646936+00:00"
+        },
+        {
+          "name": "Venue coordinate corroboration",
+          "url": "https://www.campusfrance.org/fr/espaces/maroc-rabat",
+          "checkedAt": "2026-11-13T08:52:04.646936+00:00"
+        },
+        {
+          "name": "Venue coordinate corroboration",
+          "url": "https://if-maroc.org/rabat/contact-acces/",
+          "checkedAt": "2026-11-13T08:52:04.646936+00:00"
+        },
+        {
+          "name": "Venue coordinate corroboration",
+          "url": "https://if-maroc.org/contact-acces/",
+          "checkedAt": "2026-11-13T08:52:04.646936+00:00"
+        }
+      ],
+      "verification": "Current primary event page rechecked; date, local start, named venue and coordinate evidence verified. No live ticket inventory or mandatory fee confirmation.",
+      "filmRuntimeMinutes": 71,
+      "accessNote": "Published admission: MAD 30 standard, MAD 20 members. On-site box office and Pass Jeunes app; availability has not been checked.",
+      "researchBatch": "verified-city-sessions-20261113",
+      "publicationStatus": "included_in_verified_release",
+      "isInPerson": true,
+      "mapEligible": true,
+      "originalTitle": "Cinq Regards — screening",
+      "min": false,
+      "yearEvidence": "The individually checked primary event announcement explicitly states this 2026 date; no recurrence was inferred.",
+      "timeNote": "End time not published.",
+      "primarySourceUrl": "https://if-maroc.org/rabat/evenements/projection-rencontre-cinq-regards-en-presence-du-realisateur-karim-debbagh/",
+      "sourceRetrievedAt": "2026-11-13T08:52:04.646936+00:00"
     }
   ],
   "sourceRegistry": [
@@ -1973,6 +2127,19 @@
       ],
       "correctedIds": [],
       "note": "Fresh bounded official-source observations; existing checkedAt preserved; no completeness claim."
+    },
+    {
+      "auditId": "verified-city-sessions-20261113",
+      "recordedAt": "2026-11-13T09:07:11.930692+00:00",
+      "addedIds": [
+        "rabat-verified-cinq-regards-septieme-art-20261115",
+        "rabat-verified-cinq-regards-gerard-philipe-20261117"
+      ],
+      "correctedIds": [],
+      "sourceScope": "Only individually verified new sessions; no source registry, interface, runtime, held package or city coverage-horizon changes."
     }
-  ]
+  ],
+  "editorialUpdatedAt": "2026-11-13T09:07:11.930692+00:00",
+  "latestResearchBatch": "verified-city-sessions-20261113",
+  "editorialUpdateNote": "Bounded source-verified additions on 13 November 2026. Existing records, source registry and original city coverage horizon are unchanged. Ticket availability is unverified; no complete city coverage is claimed."
 }

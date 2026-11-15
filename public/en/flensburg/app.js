@@ -169,13 +169,11 @@ const sourcesPath='sources.html';
 function validCatalog(d){return d&&/^\d{4}-\d{2}-\d{2}$/.test(d.startDate)&&/^\d{4}-\d{2}-\d{2}$/.test(d.endDate)&&Array.isArray(d.events)&&d.events.length<20000&&d.events.every(e=>e&&typeof e.id==='string'&&typeof e.title==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(e.date)&&(!e.sourceUrl||safeUrl(e.sourceUrl)));}
 async function readCatalog(url){const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),12000);try{const r=await fetch(url,{cache:'no-store',signal:controller.signal});if(!r.ok)throw Error("Unavailable");const d=await r.json();if(!validCatalog(d))throw Error("Invalid catalogue");return d;}finally{clearTimeout(timer);}}
 async function loadCatalog(){
- catalogOrigin=isAndroid?'bundled':'website';
- let local=await readCatalog('/en/flensburg/events.json');
- if(!isAndroid){catalogOrigin='website';return local;}
- try{const cached=JSON.parse(localStorage.getItem(nearKey+'-catalog'));if(validCatalog(cached)&&(cached.generatedAt||'')>(local.generatedAt||'')){local=cached;catalogOrigin='cache';}}catch{}
- try{const remote=await readCatalog('/live/'+cityFolder+'events.json');if((remote.generatedAt||'')>=(local.generatedAt||'')){try{localStorage.setItem(nearKey+'-catalog',JSON.stringify(remote));}catch{}catalogOrigin='website';return remote;}}catch{}
- return local;
+ const result=await window.HappyMapCatalog.load(cityFolder?cityFolder.replace(/\/$/,''):'tbilisi','events',document.documentElement.lang,{validate:validCatalog,legacyCachePrefix:nearKey});
+ catalogOrigin=result.origin;
+ return result.data;
 }
+
 const renderOriginal=render;
 render=function(){renderOriginal();if(!catalog)return;
  $('#wholeWeek').classList.toggle('active',day===-1);$('#wholeWeek').setAttribute('aria-pressed',day===-1);
@@ -199,7 +197,7 @@ bindCards=function(root){bindCardsOriginal(root);root.querySelectorAll('.event-r
 });};
 showSources=function(){
  const entries=catalog.sourceRegistry||[],used=entries.filter(s=>s.status==='imported');
- showDialog(`<div class="detail-content"><div class="eyebrow">FLENSBURG · SOURCES</div><h2>Where announcements come from</h2><p class="detail-description">${esc(catalog.coverage)}</p><p>Checked ${esc(catalog.generatedAt.slice(0,10))}. All event times are shown in the Europe/Berlin time zone. Checked daily at 09:00 (Asia/Tbilisi). Publication depends on verified source updates.</p><a class="primary-button" href="sources.html">View verified sources →</a><h3>Selected announcements imported</h3><div class="source-registry">${used.map(s=>`<div><a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)} ↗</a><p>${esc(s.note)}</p></div>`).join('')}</div><p class="detail-disclaimer">An Instagram or Telegram profile does not confirm an imported or current programme. Registration conditions, prices and cancellations may change after verification.</p></div>`);
+ showDialog(`<div class="detail-content"><div class="eyebrow">FLENSBURG · SOURCES</div><h2>Where announcements come from</h2><p class="detail-description">${esc(catalog.coverage)}</p><p>All event times are in the Europe/Berlin timezone. Listings are added after individual source checks. This is a partial selection. Check dates are shown for individual sources; daily updates are not guaranteed.</p><a class="primary-button" href="sources.html">View verified sources →</a><h3>Selected announcements imported</h3><div class="source-registry">${used.map(s=>`<div><a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)} ↗</a><p>${esc(s.note)}</p></div>`).join('')}</div><p class="detail-disclaimer">An Instagram or Telegram profile does not confirm an imported or current programme. Registration conditions, prices and cancellations may change after verification.</p></div>`);
 };
 $('#wholeWeek').onclick=()=>{day=-1;limit=18;render();};
 $('#eventSearch').oninput=e=>{searchTerm=e.target.value.trim().toLocaleLowerCase();limit=18;render();};

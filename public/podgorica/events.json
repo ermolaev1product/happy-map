@@ -821,6 +821,79 @@
       "city": "Podgorica",
       "cityId": "podgorica",
       "timeOfDayEligible": true
+    },
+    {
+      "cityId": "podgorica",
+      "title": "Vujadin Krivokapić solo violin recital",
+      "date": "2026-11-17",
+      "time": "20:00",
+      "timezone": "Europe/Podgorica",
+      "venue": "Moderna galerija Muzeja i galerija Podgorice",
+      "address": "Marka Miljanova 4, Podgorica",
+      "lat": 42.43853772258482,
+      "lng": 19.26572062075138,
+      "coordinateSource": "https://www.osipodgorica.me/objekti/ju-muzeji-i-galerije-podgorice",
+      "coordinateEvidence": "Podgorica paraplegic association accessibility record explicitly names MODERNA GALERIJA - JU MUZEJI I GALERIJE, PODGORICA, Marka Miljanova br. 4; embedded record map position is lat 42.43853772258482 lng 19.26572062075138. Fresh venue primary page confirms exact name and address. Concert primary page explicitly places recital here, not at KIC headquarters.",
+      "coordinateCheckedAt": "2026-11-13T08:52:04.646936+00:00",
+      "id": "podgorica-verified-moderna-vujadin-krivokapic-20261117",
+      "programmeId": "podgorica-moderna-vujadin-krivokapic",
+      "city": "Podgorica",
+      "country": "ME",
+      "currency": "EUR",
+      "category": "music",
+      "kind": "event",
+      "startAt": "2026-11-17T20:00:00+01:00",
+      "end": null,
+      "endAt": null,
+      "description": "Solo violin recital by Vujadin Krivokapić at Moderna galerija, Marka Miljanova 4, not the KIC headquarters.",
+      "source": "KIC Podgorica",
+      "sourceUrl": "https://kic.podgorica.me/novosti/310/solisticki-koncert-vujadina-krivokapica-17-novembra-u-modernoj-galeriji",
+      "checkedAt": "2026-11-13T08:52:04.646936+00:00",
+      "status": "scheduled",
+      "accessType": "public",
+      "availabilityVerified": false,
+      "availability": "not_live_checked",
+      "priceNote": "Free admission",
+      "price": 0,
+      "priceStatus": "verified_free",
+      "priceLabel": "Free",
+      "venueId": "podgorica-venue-2ac15a6658a6",
+      "coordinatePrecision": "venue",
+      "coordinatePrecisionNote": "Named gallery building marker, not surveyed room or entrance",
+      "sourceURLs": [
+        "https://kic.podgorica.me/novosti/310/solisticki-koncert-vujadina-krivokapica-17-novembra-u-modernoj-galeriji",
+        "https://www.osipodgorica.me/objekti/ju-muzeji-i-galerije-podgorice",
+        "https://muzeji.podgorica.me/moderna-galerija/"
+      ],
+      "sources": [
+        {
+          "name": "KIC Podgorica",
+          "url": "https://kic.podgorica.me/novosti/310/solisticki-koncert-vujadina-krivokapica-17-novembra-u-modernoj-galeriji",
+          "checkedAt": "2026-11-13T08:52:04.646936+00:00"
+        },
+        {
+          "name": "Venue coordinate corroboration",
+          "url": "https://www.osipodgorica.me/objekti/ju-muzeji-i-galerije-podgorice",
+          "checkedAt": "2026-11-13T08:52:04.646936+00:00"
+        },
+        {
+          "name": "Venue coordinate corroboration",
+          "url": "https://muzeji.podgorica.me/moderna-galerija/",
+          "checkedAt": "2026-11-13T08:52:04.646936+00:00"
+        }
+      ],
+      "verification": "Current primary event page rechecked; date, local start, named venue and coordinate evidence verified. No live ticket inventory or mandatory fee confirmation.",
+      "accessNote": "Free admission is stated in the official concert announcement.",
+      "researchBatch": "verified-city-sessions-20261113",
+      "publicationStatus": "included_in_verified_release",
+      "isInPerson": true,
+      "mapEligible": true,
+      "originalTitle": "Vujadin Krivokapić solo violin recital",
+      "min": false,
+      "yearEvidence": "The individually checked primary event announcement explicitly states this 2026 date; no recurrence was inferred.",
+      "timeNote": "End time not published.",
+      "primarySourceUrl": "https://kic.podgorica.me/novosti/310/solisticki-koncert-vujadina-krivokapica-17-novembra-u-modernoj-galeriji",
+      "sourceRetrievedAt": "2026-11-13T08:52:04.646936+00:00"
     }
   ],
   "sourceRegistry": [
@@ -1143,6 +1216,20 @@
       "accessStatus": "profile_only",
       "count": 0,
       "note": "Profile only; chat conversations not read or joined. Retained web-service body; not an executor GET. Announcement read at actual recorded web-read time; chat profile time is retained evidence save time, not an original fetch timestamp."
+    }
+  ],
+  "editorialUpdatedAt": "2026-11-13T09:07:11.926212+00:00",
+  "latestResearchBatch": "verified-city-sessions-20261113",
+  "editorialUpdateNote": "Bounded source-verified additions on 13 November 2026. Existing records, source registry and original city coverage horizon are unchanged. Ticket availability is unverified; no complete city coverage is claimed.",
+  "maintenanceHistory": [
+    {
+      "auditId": "verified-city-sessions-20261113",
+      "recordedAt": "2026-11-13T09:07:11.926212+00:00",
+      "addedIds": [
+        "podgorica-verified-moderna-vujadin-krivokapic-20261117"
+      ],
+      "correctedIds": [],
+      "sourceScope": "Only individually verified new sessions; no source registry, interface, runtime, held package or city coverage-horizon changes."
     }
   ]
 }

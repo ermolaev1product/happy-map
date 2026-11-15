@@ -1221,7 +1221,69 @@
       "accessStatus": "source_access_None",
       "count": 0,
       "note": "HTTP/access audit, not an assertion that every page was manually curated; exact content scope and errors retained in research."
+    },
+    {
+      "id": "buc-cosmic-chord-20261107-1900-verified-detail",
+      "name": "SoNoRo / Eventbook — Cosmic Chord — SoNoRo Festival",
+      "url": "https://eventbook.ro/music/bilete-cosmic-chord-festivalul-sonoro-bucuresti",
+      "checkedAt": "2026-11-06T04:52:42Z",
+      "status": "imported",
+      "accessStatus": "permitted_primary_event_evidence",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence only. Restrictions and seller-specific prices retained; no inventory or final checkout guarantee."
+    },
+    {
+      "id": "buc-invizibilii-20261108-1800-verified-detail",
+      "name": "iaBilet — linked event ticket seller — Invizibilii: family musical",
+      "url": "https://www.iabilet.ro/bilete-musicalul-invizibilii-122902/",
+      "checkedAt": "2026-11-06T04:52:42Z",
+      "status": "imported",
+      "accessStatus": "permitted_primary_event_evidence",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence only. Restrictions and seller-specific prices retained; no inventory or final checkout guarantee."
+    },
+    {
+      "id": "buc-xzibit-20261112-2000-verified-detail",
+      "name": "iaBilet — linked event ticket seller — Xzibit — Kingmaker Tour 2026",
+      "url": "https://www.iabilet.ro/bilete-xzibit-kingmaker-tour-2026-126726",
+      "checkedAt": "2026-11-06T04:52:42Z",
+      "status": "imported",
+      "accessStatus": "permitted_primary_event_evidence",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence only. Restrictions and seller-specific prices retained; no inventory or final checkout guarantee."
+    },
+    {
+      "id": "buc-printesa-circului-20261114-1800-verified-detail",
+      "name": "DynamicTicket — theatre event — The Circus Princess — Kálmán operetta",
+      "url": "https://dynamicticket.ro/ro/bilete/12833/printesa-circului-teatrul-naional-de-operet-i-musical-ion-dacian",
+      "checkedAt": "2026-11-06T04:52:42Z",
+      "status": "imported",
+      "accessStatus": "permitted_primary_event_evidence",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence only. Restrictions and seller-specific prices retained; no inventory or final checkout guarantee."
+    },
+    {
+      "id": "buc-sonoro-talk-proust-20261108-1600-verified-detail",
+      "name": "SoNoRo / Eventbook — SoNoRo Talk: Proust and Wagner",
+      "url": "https://eventbook.ro/music/bilete-sonoro-talk-festivalul-sonoro-bucuresti",
+      "checkedAt": "2026-11-06T04:52:42Z",
+      "status": "imported",
+      "accessStatus": "permitted_primary_event_evidence",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence only. Restrictions and seller-specific prices retained; no inventory or final checkout guarantee."
     }
   ],
-  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
+  "lastPartialRefresh": {
+    "batch": "astana-bucharest-bridgetown-20261106",
+    "baseCommit": "3af4a2cb8eeba73d3b1299db6f2c942e26bb8eff",
+    "at": "2026-11-06T04:52:42Z",
+    "addedOccurrences": 5,
+    "coverage": "Partial verified additions; other holds remain excluded. Three future occurrences are outside current seven-day map window."
+  }
 }

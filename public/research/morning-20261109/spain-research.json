@@ -1,0 +1,836 @@
+{
+  "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+  "window": {
+    "start": "2026-11-09",
+    "end": "2026-11-15",
+    "timezone": "Europe/Madrid"
+  },
+  "published": false,
+  "fullDailyCheckSucceeded": false,
+  "cities": {
+    "barcelona": {
+      "add": [
+        {
+          "id": "barcelona-20261109-swing",
+          "kind": "event",
+          "title": "La Vella Dixieland & Namina — swing dance concert",
+          "venue": "Casino de l’Aliança del Poblenou",
+          "address": "Rambla del Poblenou 42, Barcelona",
+          "date": "2026-11-15",
+          "time": "19:00",
+          "category": "music",
+          "lat": 41.39973479613865,
+          "lng": 2.203250053561388,
+          "coordinateSource": "https://guia.barcelona.cat/ca/detall/casino-de-l-alianca-del-poblenou_92086011041.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Barcelona City Council / organizer agenda",
+          "sourceUrl": "https://quedeque.barcelona/agenda/ballada-de-swing-amb-la-vella-dixieland-i-namina",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 17,
+          "priceLabel": "EUR17 general; EUR12 members; EUR10 concert-only",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": "ca",
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Swing jam with dancing. EUR17 general incl. drink; EUR12 members incl. drink; EUR10 concert-only without dance-floor access/drink.",
+          "sourceURLs": [
+            "https://quedeque.barcelona/agenda/ballada-de-swing-amb-la-vella-dixieland-i-namina",
+            "https://guia.barcelona.cat/ca/detall/casino-de-l-alianca-del-poblenou_92086011041.html"
+          ],
+          "end": "23:00",
+          "registrationRequired": true
+        },
+        {
+          "id": "barcelona-20261109-wu",
+          "kind": "event",
+          "title": "Més enllà dels límits — Juijui Wu",
+          "venue": "Cementiri Poblenou",
+          "address": "Avinguda d’Icària 204, Barcelona",
+          "date": "2026-11-15",
+          "time": "12:30",
+          "category": "music",
+          "lat": 41.39459329629175,
+          "lng": 2.201156811755032,
+          "coordinateSource": "https://guia.barcelona.cat/es/detall/visita-concert-mes-enlla-dels-limits-amb-juijui-wu_99400788632.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Barcelona City Council / organizer agenda",
+          "sourceUrl": "https://quedeque.barcelona/agenda/art-llobet-2026-mes-enlla-dels-limits-juijui-wu",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": null,
+          "priceLabel": "Concert price not separately published",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": "ca",
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Classical guitar concert. Official programme also lists a10:30 cemetery visit. Advance reservation required; capacity unverified. EUR10 is printed only against the10:30 visit, so it is not assigned to the12:30 concert. EUR10 is printed only against the10:30 visit, so it is not assigned to the12:30 concert.",
+          "sourceURLs": [
+            "https://quedeque.barcelona/agenda/art-llobet-2026-mes-enlla-dels-limits-juijui-wu",
+            "https://guia.barcelona.cat/es/detall/visita-concert-mes-enlla-dels-limits-amb-juijui-wu_99400788632.html"
+          ],
+          "end": "13:30",
+          "registrationRequired": true
+        }
+      ],
+      "update": [],
+      "pending": [
+        {
+          "title": "Final + Brossa Quartet",
+          "date": "2026-11-15",
+          "sourceUrl": "https://agenda500.barcelona.cat/ca/detall/concert-final-brossa-quartet_99400700506.html",
+          "reason": "Municipal date says2026, but organizer and booking links explicitly say2025; conflicting edition needs organizer confirmation."
+        },
+        {
+          "title": "Empodera’t — Acte central",
+          "date": "2026-11-15",
+          "sourceUrl": "https://guia.barcelona.cat/ca/detall/_99400788327.html",
+          "reason": "Municipal record says Espai per determinar and names different venue/address; exact location unresolved."
+        },
+        {
+          "title": "Tramvia Blau workshop open day",
+          "date": "2026-11-15",
+          "sourceUrl": "https://t.me/BcnAjuntament/1158",
+          "reason": "Official post confirms14–15 November but no exact time or workshop address in post."
+        }
+      ],
+      "translations": {},
+      "audit": {
+        "telegram": [
+          {
+            "handle": "BcnAjuntament",
+            "url": "https://t.me/s/BcnAjuntament",
+            "pages": [
+              {
+                "url": "https://t.me/s/BcnAjuntament",
+                "fetched": 20,
+                "error": null
+              },
+              {
+                "url": "https://t.me/s/BcnAjuntament?before=1137",
+                "fetched": 20,
+                "error": null
+              },
+              {
+                "url": "https://t.me/s/BcnAjuntament?before=1115",
+                "fetched": 20,
+                "error": null
+              }
+            ],
+            "fetched": 60,
+            "fullyRead": 6,
+            "readPostIds": [
+              "BcnAjuntament/1155",
+              "BcnAjuntament/1156",
+              "BcnAjuntament/1157",
+              "BcnAjuntament/1158",
+              "BcnAjuntament/1159",
+              "BcnAjuntament/1095"
+            ],
+            "publicationDateRange": [
+              "2026-08-28T11:25:37+00:00",
+              "2026-11-06T10:38:40+00:00"
+            ],
+            "readPublicationDateRange": [
+              "2026-08-28T11:25:37+00:00",
+              "2026-11-06T10:38:40+00:00"
+            ],
+            "notes": "Three public history pages fetched; only listed selected posts counted fully read. Other downloaded posts not claimed read."
+          },
+          {
+            "handle": "bcn_afisha",
+            "url": "https://t.me/s/bcn_afisha",
+            "pages": [
+              {
+                "url": "https://t.me/s/bcn_afisha",
+                "fetched": 20,
+                "error": null
+              },
+              {
+                "url": "https://t.me/s/bcn_afisha?before=4964",
+                "fetched": 20,
+                "error": null
+              },
+              {
+                "url": "https://t.me/s/bcn_afisha?before=4944",
+                "fetched": 11,
+                "error": null
+              }
+            ],
+            "fetched": 51,
+            "fullyRead": 6,
+            "readPostIds": [
+              "bcn_afisha/4979",
+              "bcn_afisha/4980",
+              "bcn_afisha/4981",
+              "bcn_afisha/4982",
+              "bcn_afisha/4983",
+              "bcn_afisha/4924"
+            ],
+            "publicationDateRange": [
+              "2026-10-24T14:17:41+00:00",
+              "2026-11-08T12:01:21+00:00"
+            ],
+            "readPublicationDateRange": [
+              "2026-10-24T14:17:41+00:00",
+              "2026-11-08T12:01:21+00:00"
+            ],
+            "notes": "Three public history pages fetched; only listed selected posts counted fully read. Other downloaded posts not claimed read."
+          },
+          {
+            "handle": "barca",
+            "url": "https://t.me/s/barca",
+            "pages": [
+              {
+                "url": "https://t.me/s/barca",
+                "fetched": 20,
+                "error": null
+              },
+              {
+                "url": "https://t.me/s/barca?before=125",
+                "fetched": 20,
+                "error": null
+              },
+              {
+                "url": "https://t.me/s/barca?before=101",
+                "fetched": 17,
+                "error": null
+              }
+            ],
+            "fetched": 57,
+            "fullyRead": 3,
+            "readPostIds": [
+              "barca/144",
+              "barca/145",
+              "barca/79"
+            ],
+            "publicationDateRange": [
+              "2026-01-05T08:49:52+00:00",
+              "2026-11-02T05:03:58+00:00"
+            ],
+            "readPublicationDateRange": [
+              "2026-01-05T08:49:52+00:00",
+              "2026-11-02T05:03:58+00:00"
+            ],
+            "notes": "Three public history pages fetched; only listed selected posts counted fully read. Other downloaded posts not claimed read."
+          }
+        ],
+        "web": [
+          {
+            "url": "https://quedeque.barcelona/agenda/ballada-de-swing-amb-la-vella-dixieland-i-namina",
+            "status": "Full relevant event/venue detail read.",
+            "evidenceFile": "bcn-swing.html"
+          },
+          {
+            "url": "https://guia.barcelona.cat/ca/detall/casino-de-l-alianca-del-poblenou_92086011041.html",
+            "status": "Full relevant event/venue detail read.",
+            "evidenceFile": "bcn-swing-venue.html"
+          },
+          {
+            "url": "https://quedeque.barcelona/agenda/art-llobet-2026-mes-enlla-dels-limits-juijui-wu",
+            "status": "Full relevant event/venue detail read.",
+            "evidenceFile": "bcn-wu.html"
+          },
+          {
+            "url": "https://guia.barcelona.cat/es/detall/visita-concert-mes-enlla-dels-limits-amb-juijui-wu_99400788632.html",
+            "status": "Full relevant event/venue detail read.",
+            "evidenceFile": "bcn-wu-guia.html"
+          },
+          {
+            "url": "https://agenda500.barcelona.cat/ca/detall/concert-final-brossa-quartet_99400700506.html",
+            "status": "Official date/time/address read, but booking edition conflict; withheld.",
+            "evidenceFile": "bcn-final.html"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "madrid": {
+      "add": [
+        {
+          "id": "madrid-20261109-50471336",
+          "kind": "event",
+          "title": "Aventuras en pijama. Mi primer festival de cine",
+          "venue": "Centro Cultural Fuente de San Pedro - Valderrivas (Vicálvaro)",
+          "address": "CALLE TITANIO 5, 28032 Madrid",
+          "date": "2026-11-15",
+          "time": "17:00",
+          "category": "film",
+          "lat": 40.40218085880392,
+          "lng": -3.60141148450391,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50471336-aventuras-pijama-mi-primer-festival-cine.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50471336-aventuras-pijama-mi-primer-festival-cine.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Family short-film festival for ages 4+, presented by Mar Claqueta.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50471336-aventuras-pijama-mi-primer-festival-cine.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=cf697b595dc81a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "officialSourceId": "50471336"
+        },
+        {
+          "id": "madrid-20261109-50432838",
+          "kind": "event",
+          "title": "Caminero Cuarteto",
+          "venue": "CentroCentro",
+          "address": "PLAZA CIBELES 1, 28014 Madrid",
+          "date": "2026-11-15",
+          "time": "19:00",
+          "category": "music",
+          "lat": 40.41902261618159,
+          "lng": -3.692188193693138,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50432838-caminero-cuarteto.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50432838-caminero-cuarteto.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Structured time empty, but official description explicitly states 15.11.2026 19.00 h; midnight is not used.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 20,
+          "priceLabel": "EUR20 general; discounts available",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "JAZZMADRID quartet: Caminero, Juárez, Sánchez and Barrueta. General admission EUR20; discounts available.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50432838-caminero-cuarteto.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6cab4d88848d0a10VgnVCM200000f921e388RCRD"
+          ],
+          "officialSourceId": "50432838"
+        },
+        {
+          "id": "madrid-20261109-50468245",
+          "kind": "event",
+          "title": "Canta",
+          "venue": "Teatro Municipal de Vallecas",
+          "address": "CALLE PASO DE VILLAMANRIQUE 3, 28031 Madrid",
+          "date": "2026-11-15",
+          "time": "12:00",
+          "category": "film",
+          "lat": 40.37762362093048,
+          "lng": -3.6229095774784765,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468245-canta.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468245-canta.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Garth Jennings animated film. Ages7+;100 minutes.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50468245-canta.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=439706eb4f181a10VgnVCM200000f921e388RCRD"
+          ],
+          "officialSourceId": "50468245",
+          "cinemaSession": true
+        },
+        {
+          "id": "madrid-20261109-50468246",
+          "kind": "event",
+          "title": "Cante Flamenco",
+          "venue": "Centro Cultural Zazuar (Villa de Vallecas)",
+          "address": "CALLE ZAZUAR 4, 28031 Madrid",
+          "date": "2026-11-15",
+          "time": "18:00",
+          "category": "music",
+          "lat": 40.38281866921273,
+          "lng": -3.6061377076487906,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468246-cante-flamenco.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468246-cante-flamenco.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Traditional flamenco recital by Beatriz Ballesteros and Abel Portillo;60 minutes.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50468246-cante-flamenco.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=96c9ee8ecf181a10VgnVCM200000f921e388RCRD"
+          ],
+          "officialSourceId": "50468246"
+        },
+        {
+          "id": "madrid-20261109-50457413",
+          "kind": "event",
+          "title": "Caperucita y su intrépida abuela",
+          "venue": "Auditorio Joaquín Rosado (Moncloa-Aravaca)",
+          "address": "CALLE SANTA POLA 22, 28008 Madrid",
+          "date": "2026-11-15",
+          "time": "12:00",
+          "category": "theatre",
+          "lat": 40.432243310641894,
+          "lng": -3.7366613378902462,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50457413-caperucita-su-intrepida-abuela.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50457413-caperucita-su-intrepida-abuela.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Marimba Marionetas puppet show, ages4+, sign-language interpreter. Advance reservation required; late admission prohibited.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50457413-caperucita-su-intrepida-abuela.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=ff504483c4461a10VgnVCM200000f921e388RCRD"
+          ],
+          "officialSourceId": "50457413",
+          "registrationRequired": true
+        },
+        {
+          "id": "madrid-20261109-50465972",
+          "kind": "event",
+          "title": "Cine. Matinales infantiles. Your name",
+          "venue": "Centro Cultural Buero Vallejo (San Blas - Canillejas)",
+          "address": "CALLE BOLTAÑA 27, 28022 Madrid",
+          "date": "2026-11-15",
+          "time": "12:00",
+          "category": "film",
+          "lat": 40.44477474902185,
+          "lng": -3.6129105844633775,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50465972-cine-matinales-infantiles-your-name.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50465972-cine-matinales-infantiles-your-name.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Makoto Shinkai film screening; all audiences.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50465972-cine-matinales-infantiles-your-name.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=7ae66a74c7871a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "officialSourceId": "50465972",
+          "cinemaSession": true
+        },
+        {
+          "id": "madrid-20261109-50468206",
+          "kind": "event",
+          "title": "Cine: 'Hollywood, Hollywood' (1976 - That's Entertainment, Part II)",
+          "venue": "Centro Cultural Eduardo Úrculo (Tetuán)",
+          "address": "PLAZA DONOSO 5, 28029 Madrid",
+          "date": "2026-11-15",
+          "time": "18:00",
+          "category": "film",
+          "lat": 40.46900764611639,
+          "lng": -3.697595691925329,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468206-cine-hollywood-hollywood-1976-that-s-entertainment-part-ii-.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468206-cine-hollywood-hollywood-1976-that-s-entertainment-part-ii-.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Musical cinema documentary followed by discussion with critic Guillermo Balmori;133 minutes.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50468206-cine-hollywood-hollywood-1976-that-s-entertainment-part-ii-.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=639d3c39dd181a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "officialSourceId": "50468206"
+        },
+        {
+          "id": "madrid-20261109-50470476",
+          "kind": "event",
+          "title": "Circo: 'El mundo de Chan Lee'",
+          "venue": "Centro Sociocultural Alfonso XII (Fuencarral - El Pardo)",
+          "address": "CALLE MIRA EL RIO 4, 28048 Madrid",
+          "date": "2026-11-15",
+          "time": "12:00",
+          "category": "theatre",
+          "lat": 40.519673311658686,
+          "lng": -3.7779055687726535,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50470476-circo-mundo-chan-lee-.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50470476-circo-mundo-chan-lee-.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Family clown, music, juggling and balance show; ages3+.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50470476-circo-mundo-chan-lee-.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=e5c78a861fb81a10VgnVCM200000f921e388RCRD"
+          ],
+          "officialSourceId": "50470476"
+        },
+        {
+          "id": "madrid-20261109-50465979",
+          "kind": "event",
+          "title": "Día Internacional del Flamenco",
+          "venue": "Auditorio Municipal Las Trece Rosas",
+          "address": "CALLE MONTE DE MONTJUICH 7, 28031 Madrid",
+          "date": "2026-11-15",
+          "time": "12:00",
+          "category": "music",
+          "lat": 40.38024953878224,
+          "lng": -3.6175290483217055,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50465979-dia-internacional-flamenco.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50465979-dia-internacional-flamenco.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "David Sila flamenco performance;90 minutes, all audiences.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50465979-dia-internacional-flamenco.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=401947c29a871a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "officialSourceId": "50465979"
+        },
+        {
+          "id": "madrid-20261109-50456546",
+          "kind": "event",
+          "title": "El Cantacuentos de Martina",
+          "venue": "Centro Cultural Meseta de Orcasitas (Usera)",
+          "address": "PLAZA ASOCIACION 1, 28041 Madrid",
+          "date": "2026-11-15",
+          "time": "12:00",
+          "category": "theatre",
+          "lat": 40.36969488211539,
+          "lng": -3.7081179166391824,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50456546-cantacuentos-martina.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50456546-cantacuentos-martina.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Solange Freyre musical storytelling and puppets;60 minutes.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50456546-cantacuentos-martina.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=e55c745075361a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "officialSourceId": "50456546"
+        },
+        {
+          "id": "madrid-20261109-50468197",
+          "kind": "event",
+          "title": "El pequeño país",
+          "venue": "Centro Cultural José Luis López Vázquez (San Blas - Canillejas)",
+          "address": "CALLE FEBRERO 4, 28022 Madrid",
+          "date": "2026-11-15",
+          "time": "12:00",
+          "category": "theatre",
+          "lat": 40.446826729909155,
+          "lng": -3.5727382893523254,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468197-pequeno-pais.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468197-pequeno-pais.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Victoria Siedlecki storytelling performance; ages4+.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50468197-pequeno-pais.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=5ce29d093d181a10VgnVCM200000f921e388RCRD"
+          ],
+          "officialSourceId": "50468197"
+        },
+        {
+          "id": "madrid-20261109-50449456",
+          "kind": "event",
+          "title": "Exhibición Edad Media 'EL Madrid islámico'",
+          "venue": "Museo de San Isidro. Los Orígenes de Madrid",
+          "address": "PLAZA SAN ANDRES 2, 28005 Madrid",
+          "date": "2026-11-15",
+          "time": "12:30",
+          "category": "art",
+          "lat": 40.41207900253883,
+          "lng": -3.7108161027466378,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50449456-exhibicion-edad-media-madrid-islamico-.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50449456-exhibicion-edad-media-madrid-islamico-.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Medieval Islamic Madrid craft demonstration: ceramics, lamps and calligraphy.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50449456-exhibicion-edad-media-madrid-islamico-.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d426b21f95931a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "officialSourceId": "50449456"
+        },
+        {
+          "id": "madrid-20261109-50449451",
+          "kind": "event",
+          "title": "Exhibición Edad Media 'EL Madrid islámico'",
+          "venue": "Museo de San Isidro. Los Orígenes de Madrid",
+          "address": "PLAZA SAN ANDRES 2, 28005 Madrid",
+          "date": "2026-11-15",
+          "time": "11:30",
+          "category": "art",
+          "lat": 40.41207900253883,
+          "lng": -3.7108161027466378,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50449451-exhibicion-edad-media-madrid-islamico-.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Official municipal event or venue record supplies the venue pin.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50449451-exhibicion-edad-media-madrid-islamico-.json",
+          "checkedAt": "2026-11-09T03:07:06.916622+00:00",
+          "dateEvidence": "Official record explicitly states November 15, 2026 and local start time.",
+          "yearEvidence": "Explicit 2026 in official record.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Medieval Islamic Madrid craft demonstration: ceramics, lamps and calligraphy.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50449451-exhibicion-edad-media-madrid-islamico-.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6be4b21f95931a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "officialSourceId": "50449451"
+        }
+      ],
+      "update": [],
+      "pending": [
+        {
+          "title": "Hop!",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50406620-hop-.json",
+          "date": "2026-11-15",
+          "reason": "Record has no description or event type; programme and admission need clarification."
+        },
+        {
+          "title": "Jarana",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50407719-jarana.json",
+          "date": "2026-11-15",
+          "reason": "Missing venue/address/pin."
+        },
+        {
+          "title": "Archaeology exhibition (HoyMadridApp)",
+          "sourceUrl": "https://t.me/HoyMadridApp/1417",
+          "reason": "Discovery post lacks dates, venue and exact admission hours; not verified as event."
+        },
+        {
+          "title": "Encinar de San Pedro",
+          "date": "2026-11-15",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/11881517-encinar-san-pedro.json",
+          "reason": "Municipal event-location is the information centre, but narrative does not explicitly confirm actual walk meeting point. Reservation confirmation required; meeting point unresolved."
+        }
+      ],
+      "translations": {},
+      "audit": {
+        "telegram": [
+          {
+            "handle": "madrid_gorit",
+            "url": "https://t.me/s/madrid_gorit",
+            "pages": [
+              {
+                "url": "https://t.me/s/madrid_gorit",
+                "fetched": 8,
+                "error": null
+              },
+              {
+                "url": "https://t.me/s/madrid_gorit?before=3688",
+                "fetched": 12,
+                "error": null
+              },
+              {
+                "url": "https://t.me/s/madrid_gorit?before=3662",
+                "fetched": 15,
+                "error": null
+              }
+            ],
+            "fetched": 35,
+            "fullyRead": 6,
+            "readPostIds": [
+              "madrid_gorit/3703",
+              "madrid_gorit/3704",
+              "madrid_gorit/3705",
+              "madrid_gorit/3706",
+              "madrid_gorit/3707",
+              "madrid_gorit/3642"
+            ],
+            "publicationDateRange": [
+              "2026-10-26T11:20:43+00:00",
+              "2026-11-08T11:58:16+00:00"
+            ],
+            "readPublicationDateRange": [
+              "2026-10-26T11:20:43+00:00",
+              "2026-11-08T11:58:16+00:00"
+            ],
+            "notes": "Three public history pages fetched; only listed selected posts counted fully read. Other downloaded posts not claimed read."
+          },
+          {
+            "handle": "HoyMadridApp",
+            "url": "https://t.me/s/HoyMadridApp",
+            "pages": [
+              {
+                "url": "https://t.me/s/HoyMadridApp",
+                "fetched": 20,
+                "error": null
+              },
+              {
+                "url": "https://t.me/s/HoyMadridApp?before=1398",
+                "fetched": 20,
+                "error": null
+              },
+              {
+                "url": "https://t.me/s/HoyMadridApp?before=1378",
+                "fetched": 20,
+                "error": null
+              }
+            ],
+            "fetched": 60,
+            "fullyRead": 6,
+            "readPostIds": [
+              "HoyMadridApp/1413",
+              "HoyMadridApp/1414",
+              "HoyMadridApp/1415",
+              "HoyMadridApp/1416",
+              "HoyMadridApp/1417",
+              "HoyMadridApp/1358"
+            ],
+            "publicationDateRange": [
+              "2026-10-15T15:44:46+00:00",
+              "2026-11-08T16:24:31+00:00"
+            ],
+            "readPublicationDateRange": [
+              "2026-10-15T15:44:46+00:00",
+              "2026-11-08T16:24:31+00:00"
+            ],
+            "notes": "Three public history pages fetched; only listed selected posts counted fully read. Other downloaded posts not claimed read."
+          }
+        ],
+        "web": [
+          {
+            "url": "https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json",
+            "status": "Fresh catalogue downloaded; first16 of43 November15 records fully read. Other27 not reviewed.",
+            "fullyReadRecords": 16,
+            "readRecordIds": [
+              "50471336",
+              "50432838",
+              "50468245",
+              "50468246",
+              "50457413",
+              "50465972",
+              "50468206",
+              "50470476",
+              "50465979",
+              "50456546",
+              "50468197",
+              "11881517",
+              "50449456",
+              "50449451",
+              "50406620",
+              "50407719"
+            ],
+            "evidenceFile": "madrid-selected.json"
+          }
+        ],
+        "duplicates": []
+      }
+    }
+  },
+  "limitations": [
+    "Bounded research; no completeness claim. Focus new horizon November15.",
+    "Initial sandbox DNS failed; fresh public-source reads succeeded with allowed network access.",
+    "Instagram not read; menus not checked. No registrations/purchases/messages.",
+    "Only selected posts read. English dedicated Telegram channel coverage not expanded this pass.",
+    "Two museum demonstration times are separate sessions of one programme, not two distinct productions."
+  ]
+}

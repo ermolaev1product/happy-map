@@ -161,8 +161,40 @@
       "accessStatus": "checked-full-public-body",
       "count": 2,
       "note": "One programme, two independently dated starts; not a multi-day range. Existing theatre reused. Unknown fees/end retained."
+    },
+    {
+      "id": "baku-iticket-verified-20261105",
+      "name": "iTicket.AZ — seven November announcements",
+      "url": "https://iticket.az/",
+      "type": "web",
+      "status": "imported",
+      "accessStatus": "individual_announcements_read",
+      "checkedAt": "2026-11-05T22:51:10Z",
+      "count": 7,
+      "occurrencesImported": 7,
+      "verifiedPageCount": 7,
+      "verifiedVenuePageCount": 3,
+      "note": "Seven individually verified iTicket announcements on November 6–12, 2026. This is a partial correction, not a complete city inventory. November 9 remains empty. Jazz Mugham November 24 is retained in research but not imported in this window.",
+      "researchBatch": "baku-gap-repair-20261105",
+      "eventUrls": [
+        "https://iticket.az/en/events/concerts/concert-of-the-said-rustamov-folk-instruments-orchestra741",
+        "https://iticket.az/en/events/concerts/azerbaijans-victory54458",
+        "https://iticket.az/en/events/seminar/techconnect-baku-2026",
+        "https://iticket.az/en/events/concerts/sting-tribute-or-the-musical-world-of-sting5454",
+        "https://iticket.az/en/events/concerts/jazz-mugham-concert",
+        "https://iticket.az/en/events/concerts/javadshir-abdullali-trio-a-legend-of-azerbaijani-jazz586",
+        "https://iticket.az/en/events/concerts/leyla-noir-and-band-ethno-jazz"
+      ]
     }
   ],
   "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
-  "editorialUpdatedAt": "2026-10-29T01:36:34.306269+00:00"
+  "editorialUpdatedAt": "2026-10-29T01:36:34.306269+00:00",
+  "lastPartialReview": {
+    "at": "2026-11-06T00:20:09.789090+00:00",
+    "batch": "baku-gap-repair-20261105",
+    "baseCommit": "01baa2fbbc5873b4be7f75c6a932810bf026b303",
+    "addedOccurrences": 7,
+    "addedProgrammes": 7,
+    "scope": "Seven individually verified iTicket announcements on November 6–12, 2026. This is a partial correction, not a complete city inventory. November 9 remains empty. Jazz Mugham November 24 is retained in research but not imported in this window."
+  }
 }

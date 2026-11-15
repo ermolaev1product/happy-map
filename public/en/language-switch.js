@@ -28,17 +28,17 @@
   selected=parsed.city?policy.choose(parsed.city,requested||parsed.explicit||'ru',saved):[requested||parsed.explicit||'ru',policy.normalize(saved),'en','ru'].find(code=>policy.sharedAvailable(parsed.raw).includes(code));
  }
  if(requested){try{localStorage.setItem('happymap-interface-language',requested)}catch{}}
- document.documentElement.lang=selected==='de'&&parsed.city==='bern'?'de-CH':selected;
+ document.documentElement.lang=selected==='sr'?'sr-Latn':selected==='de'&&parsed.city==='bern'?'de-CH':selected;
  const targetPath=policy.path(parsed.raw==='/'?'/index.html':parsed.raw,selected);
  // Chooser layout is genuinely localized, not a document-lang relabel of Russian HTML.
  if(targetPath!==location.pathname){location.replace(targetPath+location.search+location.hash);return;}
  const ready=chooser?globalReady:parsed.city?policy.available(parsed.city):policy.sharedAvailable(parsed.raw);
  const defaultLocale=chooser?selected:policy.defaultForCity(parsed.city);
- const order=[defaultLocale,'en','ru',...ready].filter((code,i,list)=>ready.includes(code)&&list.indexOf(code)===i);
+ const order=['ru','en','sr','es','de','pt-BR',defaultLocale,...ready].filter((code,i,list)=>ready.includes(code)&&list.indexOf(code)===i);
  document.addEventListener('DOMContentLoaded',()=>{
   document.querySelectorAll('.language-switch').forEach(el=>el.remove());
-  const group=document.createElement('span');group.className='language-switch';group.setAttribute('aria-label',selected==='ru'?"Language":selected==='de'?'Sprache':selected==='pt-BR'?'Idioma':selected==='fr-CA'?'Langue':'Language');
-  for(const code of order){const a=document.createElement('a'),q=new URLSearchParams(location.search);q.set('lang',code);q.delete('autoLang');a.textContent=code==='pt-BR'?'PT':code==='fr-CA'?'FR':code.toUpperCase();a.lang=code;a.title=policy.registry.locales[code]?.label||code;a.href=policy.path(parsed.raw,code)+'?'+q+location.hash;if(code===selected)a.setAttribute('aria-current','true');a.onclick=()=>{try{localStorage.setItem('happymap-interface-language',code)}catch{}};group.append(a);}
+  const group=document.createElement('span');group.className='language-switch';group.setAttribute('aria-label',selected==='ru'?'Язык':selected==='de'?'Sprache':selected==='pt-BR'?'Idioma':selected==='fr-CA'?'Langue':selected==='es'?'Idioma':selected==='sr'?'Jezik':'Language');
+  for(const code of order){const a=document.createElement('a'),q=new URLSearchParams(location.search);q.set('lang',code);q.delete('autoLang');a.textContent=code==='pt-BR'?'PT-BR':code==='fr-CA'?'FR':code.toUpperCase();a.lang=code;a.title=policy.registry.locales[code]?.label||code;a.href=policy.path(parsed.raw,code)+'?'+q+location.hash;if(code===selected)a.setAttribute('aria-current','true');a.onclick=()=>{try{localStorage.setItem('happymap-interface-language',code)}catch{}};group.append(a);}
   const header=document.querySelector('.header,header');if(header)header.append(group);else{group.style.cssText='position:fixed;right:12px;top:12px;z-index:9999;background:white;border-radius:12px;padding:8px';document.body.append(group);}
  });
 })();

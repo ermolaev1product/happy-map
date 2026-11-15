@@ -23,11 +23,25 @@ assert.equal(vm.runInContext('priceText({price:0})',ctx),'Kostenlos');assert.equ
 assert.equal(vm.runInContext('eventCount(2)',ctx),'2 Veranstaltungen');assert.equal(vm.runInContext('placeCount(1)',ctx),'1 Ort');
 assert.equal(vm.runInContext('languageLabel("DE")',ctx),'Deutsch');assert.equal(vm.runInContext('languageLabel("de/da")',ctx),'Deutsch / Dänisch');assert.equal(vm.runInContext('languageLabel("nds")',ctx),'Plattdeutsch');assert.equal(vm.runInContext('categories.find(c=>c.id==="music").name',ctx),'Musik');
 assert.equal(vm.runInContext('accessLabel({accessType:"registration"})',ctx),'Ticket / Anmeldung');
-const html=fs.readFileSync(path.join(output,'index.html'),'utf8');for(const phrase of ['lang="de"','Veranstaltung kostenlos hinzufügen','Veranstaltungen','Orte','Meine Pläne','Vorschau ansehen','Titel der Veranstaltung','Beginn'])assert(html.includes(phrase),phrase);
-assert(!html.includes('CALIFORNIA'));assert(!html.includes('/palo-alto/android.html'));assert(html.includes('/de/flensburg/city-state.js'));assert(html.includes('/de/flensburg/map-space.js'));assert(html.includes('/de/flensburg/business-entry.js'));
+const html=fs.readFileSync(path.join(output,'index.html'),'utf8');for(const phrase of ['lang="de"','Veranstaltung kostenlos hinzufügen','Veranstaltungen','Orte','Meine Pläne','Titel der Veranstaltung','Beginn'])assert(html.includes(phrase),phrase);
+assert(html.includes('Vorschau ansehen')||html.includes('Veranstaltungsvorschau'),'German listing preview action');
+assert(!html.includes('CALIFORNIA'));assert(!html.includes('/palo-alto/android.html'));assert(html.includes('/de/flensburg/city-state.js')||html.includes('/de/city-state.js'));assert(html.includes('/de/flensburg/map-space.js')||html.includes('/de/map-space.js'));assert(html.includes('/de/flensburg/business-entry.js')||html.includes('/de/business-entry.js'));
 for(const name of fs.readdirSync(output).filter(x=>x.endsWith('.js')))new vm.Script(fs.readFileSync(path.join(output,name),'utf8'),{filename:name});
-for(const name of ['events.json','places.json','sources.json'])assert.deepEqual(JSON.parse(fs.readFileSync(path.join(output,name),'utf8')),JSON.parse(fs.readFileSync('public/en/flensburg/'+name,'utf8')),name+' changed listing data');
-console.log('PASS: Flensburg EN/DE route and saved preferences, RU city isolation, German controls/categories/dates/prices, 24-hour time, JS syntax, unchanged listing data');
+for(const name of ['places.json','sources.json'])assert.deepEqual(JSON.parse(fs.readFileSync(path.join(output,name),'utf8')),JSON.parse(fs.readFileSync('public/en/flensburg/'+name,'utf8')),name+' changed listing data');
+const reviewedEvents=JSON.parse(fs.readFileSync(process.env.FLENSBURG_DE_EVENTS||'data/i18n/flensburg-de-events-20261112.json','utf8'));
+const expectedEvents=JSON.parse(fs.readFileSync('public/en/flensburg/events.json','utf8'));
+const eventTextFields=new Set(['title','description','admission','accessNote','priceNote','timeNote']);
+for(const event of expectedEvents.events){
+ const entry=reviewedEvents.records[event.id];if(!entry)continue;
+ assert.equal(event.date,entry.expectedDate,event.id+' date guard');assert.equal(event.sourceUrl,entry.expectedSourceUrl,event.id+' source guard');
+ for(const [field,translation]of Object.entries(entry.fields)){
+  assert(eventTextFields.has(field),'Protected event field: '+field);
+  assert(translation.from.includes(event[field]),event.id+'.'+field+' is not reviewed');
+  event[field]=translation.de;
+ }
+}
+assert.deepEqual(JSON.parse(fs.readFileSync(path.join(output,'events.json'),'utf8')),expectedEvents,'Only reviewed display strings may differ from EN; old records, all metadata, URLs, dates and source objects must remain equal');
+console.log('PASS: Flensburg EN/DE route and saved preferences, RU city isolation, German controls/categories/dates/prices, 24-hour time, JS syntax, unchanged listing facts and older records; reviewed new event text localized');
 const workerText=fs.readFileSync('build/sites-worker.ts','utf8');
 const routeBlock=workerText.match(/    const cityUrl = new URL\(request.url\);[\s\S]*?(?=    let binding =)/)?.[0];
 assert(routeBlock,'German entry redirect must happen before framework routing');

@@ -140,7 +140,105 @@
       "status": "read_full_source",
       "accessStatus": "read_full_source",
       "count": 0,
-      "note": "200; actual fetch time, not generatedAt"
+      "note": "200; actual fetch time, not generatedAt",
+      "researchObservations": [
+        {
+          "id": "obs-history-194352fbeb3fa8c0bdec7e3f",
+          "cityId": "quito",
+          "sourceUrl": "https://fundacionmuseosquito.gob.ec/Agendas%20PDF/2026/Noviembre/yaku_agenda_novi.pdf",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "retained_public_pdf_body_read",
+          "readKind": "full_selected_monthly_programme",
+          "readDepth": "full_dated_programme",
+          "summary": "All 10 pages of the official Yaku November PDF and its pagination were read in the retained extraction. Pages 3 and 4 establish November 14/15 sessions; page 9 gives admission and address. A subsequent direct origin open failed, so live origin revalidation is not established. End times, duration, room and seat inventory remain unknown.",
+          "dateHorizon": {
+            "startDate": "2026-11-14",
+            "endDate": "2026-11-15",
+            "dates": [
+              "2026-11-14",
+              "2026-11-15"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "quito-burbujas-20261114-1130",
+            "quito-burbujas-20261114-1430",
+            "quito-yakucinema-20261115-1130",
+            "quito-yakucinema-20261115-1430"
+          ],
+          "evidenceSourceURL": "https://fundacionmuseosquito.gob.ec/Agendas%20PDF/2026/Noviembre/yaku_agenda_novi.pdf",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:36:28.847Z",
+          "pagesRead": 10,
+          "fullDocumentBodyRead": true,
+          "originRevalidationConfirmed": false
+        },
+        {
+          "id": "obs-history-95227fd49272d550844f5da2",
+          "cityId": "quito",
+          "sourceUrl": "https://fundacionmuseosquito.gob.ec/Agendas%20PDF/2026/Noviembre/yaku_agenda_novi.pdf",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "origin_open_inaccessible_reason_unspecified",
+          "readKind": "later_origin_open_failed",
+          "readDepth": "unknown",
+          "summary": "A later direct URL open was recorded as inaccessible. The previously read extraction remained available. The exact attempt timestamp and failure class were not retained; do not treat this as a successful live reread.",
+          "dateHorizon": {
+            "startDate": null,
+            "endDate": null,
+            "dates": [],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "inaccessible",
+          "eventIds": [],
+          "evidenceSourceURL": "https://fundacionmuseosquito.gob.ec/Agendas%20PDF/2026/Noviembre/yaku_agenda_novi.pdf",
+          "nextAction": "Review the original failure class before any retry. Do not bypass an access denial; preserve the earlier retained PDF read.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:36:28.847Z"
+        },
+        {
+          "id": "obs-history-b1f421bfbb50b53851a86799",
+          "cityId": "quito",
+          "sourceUrl": "https://fundacionmuseosquito.gob.ec/yaku-parque-museo-del-agua/",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "named_venue_identity",
+          "readDepth": "venue_evidence",
+          "summary": "Official named venue and address matched existing v312 venue. No new coordinate tuple recovered.",
+          "dateHorizon": {
+            "startDate": null,
+            "endDate": null,
+            "dates": [],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [],
+          "evidenceSourceURL": "https://fundacionmuseosquito.gob.ec/yaku-parque-museo-del-agua/",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:36:28.847Z",
+          "newGeocoding": false
+        }
+      ]
     },
     {
       "id": "quito-source-8d058b1c04d92d",
@@ -411,7 +509,80 @@
       "accessStatus": "read_full_source",
       "count": 0,
       "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "quito-usfq-libertad-1-20261109-1130-official-detail",
+      "name": "USFQ official programme — El camino hacia la prosperidad: libertad, instituciones y desarrollo",
+      "url": "https://www.usfq.edu.ec/es/eventos/semana-de-la-libertad-2026",
+      "checkedAt": "2026-11-06T04:17:00Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "type": "web",
+      "count": 1,
+      "note": "One explicitly dated occurrence. Published registration and fee conditions retained; remaining ticket/capacity availability is not guaranteed."
+    },
+    {
+      "id": "quito-usfq-libertad-2-20261109-1600-official-detail",
+      "name": "USFQ official programme — Levantamiento y caída del Muro de Berlín: el muro visible y el invisible creado por la Stasi",
+      "url": "https://www.usfq.edu.ec/es/eventos/semana-de-la-libertad-2026",
+      "checkedAt": "2026-11-06T04:17:00Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "type": "web",
+      "count": 1,
+      "note": "One explicitly dated occurrence. Published registration and fee conditions retained; remaining ticket/capacity availability is not guaranteed."
+    },
+    {
+      "id": "quito-usfq-libertad-3-20261110-1000-official-detail",
+      "name": "USFQ official programme — Después de ganar: el verdadero desafío de financiar la gestión local",
+      "url": "https://www.usfq.edu.ec/es/eventos/semana-de-la-libertad-2026",
+      "checkedAt": "2026-11-06T04:17:00Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "type": "web",
+      "count": 1,
+      "note": "One explicitly dated occurrence. Published registration and fee conditions retained; remaining ticket/capacity availability is not guaranteed."
+    },
+    {
+      "id": "quito-usfq-libertad-4-20261110-1130-official-detail",
+      "name": "USFQ official programme — ¿A quién elegimos? El voto y el territorio en el Ecuador",
+      "url": "https://www.usfq.edu.ec/es/eventos/semana-de-la-libertad-2026",
+      "checkedAt": "2026-11-06T04:17:00Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "type": "web",
+      "count": 1,
+      "note": "One explicitly dated occurrence. Published registration and fee conditions retained; remaining ticket/capacity availability is not guaranteed."
+    },
+    {
+      "id": "quito-usfq-libertad-5-20261111-1000-official-detail",
+      "name": "USFQ official programme — Inteligencia artificial: libertad, oportunidades y límites",
+      "url": "https://www.usfq.edu.ec/es/eventos/semana-de-la-libertad-2026",
+      "checkedAt": "2026-11-06T04:17:00Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "type": "web",
+      "count": 1,
+      "note": "One explicitly dated occurrence. Published registration and fee conditions retained; remaining ticket/capacity availability is not guaranteed."
+    },
+    {
+      "id": "quito-mind-game-foro-20261108-1400-official-detail",
+      "name": "Quito Informa municipal programme — Mind Game — Cine Club y foro",
+      "url": "https://quitoinforma.quito.gob.ec/2026/11/05/musica-cine-y-literatura-seran-parte-de-la-agenda-del-fin-de-semana-en-quito/",
+      "checkedAt": "2026-11-06T04:17:00Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "type": "web",
+      "count": 1,
+      "note": "One explicitly dated occurrence. Published registration and fee conditions retained; remaining ticket/capacity availability is not guaranteed."
     }
   ],
-  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
+  "lastPartialRefresh": {
+    "batch": "quito-panama-dublin-verified-20261106",
+    "baseCommit": "6a54de82609d42bb17efe49553e95223e012f69e",
+    "at": "2026-11-06T04:17:00Z",
+    "addedOccurrences": 6,
+    "coverage": "Partial explicitly dated additions only; unresolved leads excluded."
+  }
 }

@@ -622,7 +622,58 @@
       "accessStatus": "profile_only_no_messages",
       "count": 0,
       "note": "Relocation/life chat; advert contact shown, no blanket posting permission implied."
+    },
+    {
+      "id": "dublin-charleville-mums-hub-20261109-1000-official-detail",
+      "name": "Dublin City Libraries official event calendar — Coffee, Crafts and Chats with Mum’s Hub",
+      "url": "https://www.dublincitylibrariesevents.ie/event/coffee-crafts-and-chats-with-mums-hub/2026-11-09/",
+      "checkedAt": "2026-11-06T03:50:41Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "One explicitly dated occurrence. Venue/campus precision retained; no additional recurrence inferred."
+    },
+    {
+      "id": "dublin-terenure-french-film-20261111-1730-official-detail",
+      "name": "Dublin City Libraries — Terenure Library French Language Film (with subtitles)",
+      "url": "https://www.dublincitylibrariesevents.ie/event/terenure-library-french-language-film-with-subtitles/2026-11-11/",
+      "checkedAt": "2026-11-06T04:17:00Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "type": "web",
+      "count": 1,
+      "note": "One explicitly dated occurrence. Published registration and fee conditions retained; remaining ticket/capacity availability is not guaranteed."
+    },
+    {
+      "id": "dublin-chris-haughton-information-20261107-1800-primary-detail",
+      "name": "National Print Museum — Design Week: Chris Haughton on the History of Information",
+      "url": "https://www.nationalprintmuseum.ie/whats-on/design-week-chris-haughton-on-the-history-of-information/",
+      "checkedAt": "2026-11-06T04:32:08Z",
+      "status": "imported",
+      "accessStatus": "public_primary_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence. Performance/support times kept distinct from doors; remaining ticket availability is not guaranteed."
+    },
+    {
+      "id": "dublin-ireland80s-media-20261109-1300-primary-detail",
+      "name": "National Library of Ireland — Ireland in the 80s: The Full Picture | Media, TV and Radio",
+      "url": "https://www.nli.ie/exhibitions-events/ireland-80s-full-picture-media-tv-and-radio",
+      "checkedAt": "2026-11-06T04:32:08Z",
+      "status": "imported",
+      "accessStatus": "public_primary_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence. Performance/support times kept distinct from doors; remaining ticket availability is not guaranteed."
     }
   ],
-  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
+  "lastPartialRefresh": {
+    "batch": "oslo-vienna-dublin-primary-20261106",
+    "baseCommit": "9a4cfeb7e2fae6ad9eb46230b272c3ae348da29f",
+    "at": "2026-11-06T04:32:08Z",
+    "addedOccurrences": 2,
+    "coverage": "Partial primary-source additions; unresolved and sold-out candidates not imported."
+  }
 }

@@ -1,10 +1,14 @@
-Prepared release candidate: Happy Map 2.5.0 / versionCode 24 (2026-10-29).
-NOT compiled, signed, installed, or published. Distributed APK remains 2.4.9.
-Includes all 87 cities in the current website registry. Local origin and saved-plan
-storage are unchanged. Future new cities still require a new signed APK.
-17 bundle tests passed; 2740 website assets synced and parity verified.
-Build is blocked here by missing original signing material and Android SDK/JDK.
-Use the original build machine and the Release workflow below to finish.
+Prepared candidate: Happy Map 2.5.1 / versionCode 26 (2026-11-08).
+Website baseline: v300, 17e831700a730cdf51a96a4ec42d3915900b5daf.
+Interface languages: RU, EN, SR (Latin), ES, DE, PT-BR across 100 cities.
+Native location/update/error dialogs follow the local page language. Catalog
+and user-event descriptions remain in their original languages. The existing
+local origin, saved-plan storage, package and signing certificate are preserved.
+Exact assets are built locally; consult android/build/release.json and QA reports
+for the candidate hash. This candidate is NOT publicly released. Device upgrade,
+retained-plan and Android visual QA are still pending; do not claim they passed.
+Distributed public APK remains 2.4.9 until the release workflow below completes.
+Native text tests: MORROW_JAVA_HOME=<JDK17> python3 android/test_native_text.py
 
 Historical release notes:
 Happy Map 2.4.9 / versionCode 23, package ge.morrow.app.

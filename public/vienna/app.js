@@ -146,7 +146,16 @@ $('#visitorButton').onclick=()=>($('.more-menu').open=false,showDialog('<div cla
 $('#organizerButton').onclick=()=>{$('.more-menu').open=false;$('#organizerForm').hidden=false;$('#organizerPreview').hidden=true;$('#organizerDialog').showModal();};$('#organizerForm').onsubmit=e=>{e.preventDefault();const d=new FormData(e.target);$('#organizerPreview').innerHTML=`<strong>${esc(d.get('title'))}</strong><p>${esc(d.get('day'))} · ${esc(d.get('time'))}<br>${esc(d.get('venue'))}</p><p>Предпросмотр анонса. В этой версии публикация и кабинет организатора ещё не подключены.</p>`;e.target.hidden=true;$('#organizerPreview').hidden=false;};
 for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('click',e=>{const r=dialog.getBoundingClientRect();if(e.target===dialog&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))dialog.close();});
 document.querySelectorAll('.wordmark').forEach(a=>a.onclick=e=>{e.preventDefault();setView('explore');});document.querySelectorAll('.swatch').forEach(b=>b.onclick=()=>{document.body.dataset.palette=b.dataset.palette;document.querySelectorAll('.swatch').forEach(s=>{s.classList.toggle('selected',s===b);s.setAttribute('aria-pressed',s===b);});});
-async function start(){hydrateIcons();for(const id of ['eventsLayer','cityLayer'])$('#'+id).disabled=true;$('#mapLabel').textContent='Загружаем карту…';try{catalog=await loadCatalog();try{places=(await loadPlaces()).map(p=>({...p,kind:'place'}));}catch{}events=catalog.events.map(e=>({...e,category:({cinema:'film',concert:'music',concerts:'music',festival:'city',lecture:'talk',classical:'music',party:'music'})[e.category]||e.category}));const start=today();dates=Array.from({length:7},(_,i)=>new Date(Date.parse(start+'T12:00:00Z')+i*86400000).toISOString().slice(0,10));$('.month-label').innerHTML=new Date(start+'T12:00:00Z').toLocaleDateString('ru',{month:'long'})+' <span>'+start.slice(0,4)+'</span><span class="week-caption">Твоя ближайшая неделя</span>';$('#sourcesButton').textContent='Вена · источники и дата обновления ↗';$('#organizerDay').innerHTML=dates.map(d=>`<option>${d}</option>`).join('');const entry=new URLSearchParams(location.search);if(dates.includes(entry.get('date')))day=dates.indexOf(entry.get('date'));if(categories.some(c=>c.id===entry.get('category')))category=entry.get('category');if(entry.get('view')==='plans'){view='plans';day=dates.includes(entry.get('date'))?dates.indexOf(entry.get('date')):-1;}restoreNear();initMap();render();drawOrigin();if(entry.get('organizer')==='1')$('#organizerButton').click();}catch{$('#eventList').innerHTML='<div class="empty"><h3>Не удалось загрузить афишу</h3><p>Обнови страницу, чтобы попробовать ещё раз.</p></div>';$('#sourcesButton').textContent='Афиша недоступна';$('#sourcesButton').disabled=true;}finally{for(const id of ['eventsLayer','cityLayer'])$('#'+id).disabled=false;}}
+// The event list remains available when optional map rendering cannot initialize.
+function startMapSafely(){
+ try{initMap();}catch(error){
+  console.warn('Map startup unavailable',error);
+  const failedMap=map;map=null;
+  try{failedMap?.remove();}catch(cleanupError){console.warn('Map cleanup unavailable',cleanupError);}
+  $('#mapFallback').hidden=false;
+ }
+}
+async function start(){hydrateIcons();for(const id of ['eventsLayer','cityLayer'])$('#'+id).disabled=true;$('#mapLabel').textContent='Загружаем карту…';try{catalog=await loadCatalog();try{places=(await loadPlaces()).map(p=>({...p,kind:'place'}));}catch{}events=catalog.events.map(e=>({...e,category:({cinema:'film',concert:'music',concerts:'music',festival:'city',lecture:'talk',classical:'music',party:'music'})[e.category]||e.category}));const start=today();dates=Array.from({length:7},(_,i)=>new Date(Date.parse(start+'T12:00:00Z')+i*86400000).toISOString().slice(0,10));$('.month-label').innerHTML=new Date(start+'T12:00:00Z').toLocaleDateString('ru',{month:'long'})+' <span>'+start.slice(0,4)+'</span><span class="week-caption">Твоя ближайшая неделя</span>';$('#sourcesButton').textContent='Вена · источники и дата обновления ↗';$('#organizerDay').innerHTML=dates.map(d=>`<option>${d}</option>`).join('');const entry=new URLSearchParams(location.search);if(dates.includes(entry.get('date')))day=dates.indexOf(entry.get('date'));if(categories.some(c=>c.id===entry.get('category')))category=entry.get('category');if(entry.get('view')==='plans'){view='plans';day=dates.includes(entry.get('date'))?dates.indexOf(entry.get('date')):-1;}restoreNear();startMapSafely();render();try{drawOrigin();}catch(error){console.warn('Search origin unavailable',error);}if(entry.get('organizer')==='1')$('#organizerButton').click();}catch(error){console.error('Vienna catalogue startup failed',error);$('#eventList').innerHTML='<div class="empty"><h3>Не удалось загрузить афишу</h3><p>Обнови страницу, чтобы попробовать ещё раз.</p></div>';$('#sourcesButton').textContent='Афиша недоступна';$('#sourcesButton').disabled=true;}finally{for(const id of ['eventsLayer','cityLayer'])$('#'+id).disabled=false;}}
 
 function placeCount(n){return `${n} ${n%100>=11&&n%100<=14?'мест':n%10===1?'место':n%10>=2&&n%10<=4?'места':'мест'}`;}
 function setLayer(value){
@@ -172,15 +181,13 @@ const isAndroid=location.hostname==='appassets.androidplatform.net';
 const cityFolder='vienna/';
 const sourcesPath='sources.html';
 function validCatalog(d){return d&&/^\d{4}-\d{2}-\d{2}$/.test(d.startDate)&&/^\d{4}-\d{2}-\d{2}$/.test(d.endDate)&&Array.isArray(d.events)&&d.events.length<20000&&d.events.every(e=>e&&typeof e.id==='string'&&typeof e.title==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(e.date)&&(!e.sourceUrl||safeUrl(e.sourceUrl)));}
-async function readCatalog(url){const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),4500);try{const r=await fetch(url,{cache:'no-store',signal:controller.signal});if(!r.ok)throw Error('Unavailable');const d=await r.json();if(!validCatalog(d))throw Error('Invalid catalogue');return d;}finally{clearTimeout(timer);}}
+async function readCatalog(url){const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),15000);try{const r=await fetch(url,{cache:'no-store',signal:controller.signal});if(!r.ok)throw Error('Unavailable');const d=await r.json();if(!validCatalog(d))throw Error('Invalid catalogue');return d;}finally{clearTimeout(timer);}}
 async function loadCatalog(){
- catalogOrigin=isAndroid?'bundled':'website';
- let local=await readCatalog('events.json');
- if(!isAndroid){catalogOrigin='website';return local;}
- try{const cached=JSON.parse(localStorage.getItem(nearKey+'-catalog'));if(validCatalog(cached)&&(cached.generatedAt||'')>(local.generatedAt||'')){local=cached;catalogOrigin='cache';}}catch{}
- try{const remote=await readCatalog('/live/'+cityFolder+'events.json');if((remote.generatedAt||'')>=(local.generatedAt||'')){try{localStorage.setItem(nearKey+'-catalog',JSON.stringify(remote));}catch{}catalogOrigin='website';return remote;}}catch{}
- return local;
+ const result=await window.HappyMapCatalog.load(cityFolder?cityFolder.replace(/\/$/,''):'tbilisi','events',document.documentElement.lang,{validate:validCatalog,legacyCachePrefix:nearKey});
+ catalogOrigin=result.origin;
+ return result.data;
 }
+
 const renderOriginal=render;
 render=function(){renderOriginal();if(!catalog)return;
  $('#wholeWeek').classList.toggle('active',day===-1);$('#wholeWeek').setAttribute('aria-pressed',day===-1);

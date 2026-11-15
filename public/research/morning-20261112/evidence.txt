@@ -1,0 +1,4007 @@
+{
+  "bundle": {
+    "checkedAt": "2026-11-12T03:05:14.866179+00:00",
+    "batchId": "morning-20261112",
+    "reportFile": "data/refresh-20261112/import-report.json",
+    "coverageNote": " Partial editorial refresh on November 12: selected announcements rechecked; full city coverage was not revalidated.",
+    "items": [
+      {
+        "city": "tbilisi",
+        "action": "add",
+        "event": {
+          "venue": "Papers Space",
+          "address": "1 Veriko Anjaparidze Street, entrance through the hotel, Tbilisi",
+          "lat": 41.7110588,
+          "lng": 44.7832668,
+          "coordinateSource": "https://goo.gl/maps/7AeHzJWXXfDKZXB49",
+          "id": "n12-820f4436f38e12",
+          "title": "Как появились комиксы — лекция Наськи Комогоровой",
+          "titleEn": "How comics emerged — lecture by Naska Komogorova",
+          "date": "2026-11-18",
+          "time": "20:00",
+          "startAt": "2026-11-18T20:00:00+04:00",
+          "timezone": "Asia/Tbilisi",
+          "kind": "event",
+          "category": "talk",
+          "source": "Organizer programme",
+          "sourceUrl": "https://t.me/paperkartuli/30117",
+          "checkedAt": "2026-11-12T03:04:33.370915+00:00",
+          "price": 5,
+          "currency": "GEL",
+          "language": null,
+          "availabilityVerified": false,
+          "description": "История комиксов: от газетных карикатур до графических романов. Донейшн от 5 GEL. Вход через отель; нужна регистрация.",
+          "descriptionEn": "A history of comics, from newspaper cartoons to graphic novels. Donation from 5 GEL. Enter through the hotel; registration required.",
+          "yearEvidence": "Explicit November2026 date in fresh organizer programme or official structured event data; publication date is distinct.",
+          "coordinateEvidence": "Retained exact verified branch pin with fresh source address or established campus provenance.",
+          "dateEvidence": "Explicit November2026 date in fresh organizer programme or official structured event data; publication date is distinct."
+        }
+      },
+      {
+        "city": "tbilisi",
+        "action": "add",
+        "event": {
+          "venue": "Cavea City Mall Saburtalo",
+          "address": "70 Vazha Pshavela Avenue, City Mall, Tbilisi",
+          "lat": 41.7240762,
+          "lng": 44.7370463,
+          "coordinateSource": "https://maps.app.goo.gl/Atzyfrz5LzPCrKcK8",
+          "id": "cinema:ccm_1/14-11-2026/22:15",
+          "title": "Дюна: часть первая",
+          "titleEn": "Dune: Part One",
+          "date": "2026-11-14",
+          "time": "22:15",
+          "startAt": "2026-11-14T22:15:00+04:00",
+          "timezone": "Asia/Tbilisi",
+          "kind": "event",
+          "category": "film",
+          "source": "Organizer programme",
+          "sourceUrl": "https://cavea.ge/booking/ccm_1%2F14-11-2026%2F22%3A15",
+          "checkedAt": "2026-11-12T03:04:33.370915+00:00",
+          "price": 22.0,
+          "currency": "GEL",
+          "language": "EN",
+          "availabilityVerified": false,
+          "description": "Киносеанс на английском языке, 2D. Цена из расписания; наличие мест уточняйте у кинотеатра.",
+          "descriptionEn": "English-language cinema screening, 2D. Timetable price; check seat availability with the cinema.",
+          "yearEvidence": "Explicit2026 sessionID and dateGroups date on fresh official timetable.",
+          "coordinateEvidence": "Retained exact CityMallSaburtalo cinemaID/pin and70VazhaPshavela address, supported by current officialhomepage; previously noted detail-page75conflict not used.",
+          "cinemaSession": true,
+          "format": "2D",
+          "duration": 155,
+          "sessionId": "ccm_1/14-11-2026/22:15",
+          "venueId": "cinema:5d8fb2ea95616708ef1cd194",
+          "imageUrl": "https://cinerp.com/media/movies/posters/images/1_WCIUfzT.jpg",
+          "evidenceUrls": [
+            "https://cavea.ge/engsessions",
+            "https://cavea.ge/"
+          ],
+          "dateEvidence": "Explicit2026 sessionID and dateGroups date on fresh official timetable."
+        }
+      },
+      {
+        "city": "tbilisi",
+        "action": "add",
+        "event": {
+          "venue": "Cavea City Mall Saburtalo",
+          "address": "70 Vazha Pshavela Avenue, City Mall, Tbilisi",
+          "lat": 41.7240762,
+          "lng": 44.7370463,
+          "coordinateSource": "https://maps.app.goo.gl/Atzyfrz5LzPCrKcK8",
+          "id": "cinema:ccm_1/15-11-2026/22:15",
+          "title": "Дюна: часть первая",
+          "titleEn": "Dune: Part One",
+          "date": "2026-11-15",
+          "time": "22:15",
+          "startAt": "2026-11-15T22:15:00+04:00",
+          "timezone": "Asia/Tbilisi",
+          "kind": "event",
+          "category": "film",
+          "source": "Organizer programme",
+          "sourceUrl": "https://cavea.ge/booking/ccm_1%2F15-11-2026%2F22%3A15",
+          "checkedAt": "2026-11-12T03:04:33.370915+00:00",
+          "price": 22.0,
+          "currency": "GEL",
+          "language": "EN",
+          "availabilityVerified": false,
+          "description": "Киносеанс на английском языке, 2D. Цена из расписания; наличие мест уточняйте у кинотеатра.",
+          "descriptionEn": "English-language cinema screening, 2D. Timetable price; check seat availability with the cinema.",
+          "yearEvidence": "Explicit2026 sessionID and dateGroups date on fresh official timetable.",
+          "coordinateEvidence": "Retained exact CityMallSaburtalo cinemaID/pin and70VazhaPshavela address, supported by current officialhomepage; previously noted detail-page75conflict not used.",
+          "cinemaSession": true,
+          "format": "2D",
+          "duration": 155,
+          "sessionId": "ccm_1/15-11-2026/22:15",
+          "venueId": "cinema:5d8fb2ea95616708ef1cd194",
+          "imageUrl": "https://cinerp.com/media/movies/posters/images/1_WCIUfzT.jpg",
+          "evidenceUrls": [
+            "https://cavea.ge/engsessions",
+            "https://cavea.ge/"
+          ],
+          "dateEvidence": "Explicit2026 sessionID and dateGroups date on fresh official timetable."
+        }
+      },
+      {
+        "city": "tbilisi",
+        "action": "add",
+        "event": {
+          "venue": "Cavea City Mall Saburtalo",
+          "address": "70 Vazha Pshavela Avenue, City Mall, Tbilisi",
+          "lat": 41.7240762,
+          "lng": 44.7370463,
+          "coordinateSource": "https://maps.app.goo.gl/Atzyfrz5LzPCrKcK8",
+          "id": "cinema:ccm_1/16-11-2026/22:15",
+          "title": "Дюна: часть первая",
+          "titleEn": "Dune: Part One",
+          "date": "2026-11-16",
+          "time": "22:15",
+          "startAt": "2026-11-16T22:15:00+04:00",
+          "timezone": "Asia/Tbilisi",
+          "kind": "event",
+          "category": "film",
+          "source": "Organizer programme",
+          "sourceUrl": "https://cavea.ge/booking/ccm_1%2F16-11-2026%2F22%3A15",
+          "checkedAt": "2026-11-12T03:04:33.370915+00:00",
+          "price": 21.0,
+          "currency": "GEL",
+          "language": "EN",
+          "availabilityVerified": false,
+          "description": "Киносеанс на английском языке, 2D. Цена из расписания; наличие мест уточняйте у кинотеатра.",
+          "descriptionEn": "English-language cinema screening, 2D. Timetable price; check seat availability with the cinema.",
+          "yearEvidence": "Explicit2026 sessionID and dateGroups date on fresh official timetable.",
+          "coordinateEvidence": "Retained exact CityMallSaburtalo cinemaID/pin and70VazhaPshavela address, supported by current officialhomepage; previously noted detail-page75conflict not used.",
+          "cinemaSession": true,
+          "format": "2D",
+          "duration": 155,
+          "sessionId": "ccm_1/16-11-2026/22:15",
+          "venueId": "cinema:5d8fb2ea95616708ef1cd194",
+          "imageUrl": "https://cinerp.com/media/movies/posters/images/1_WCIUfzT.jpg",
+          "evidenceUrls": [
+            "https://cavea.ge/engsessions",
+            "https://cavea.ge/"
+          ],
+          "dateEvidence": "Explicit2026 sessionID and dateGroups date on fresh official timetable."
+        }
+      },
+      {
+        "city": "tbilisi",
+        "action": "add",
+        "event": {
+          "venue": "Cavea City Mall Saburtalo",
+          "address": "70 Vazha Pshavela Avenue, City Mall, Tbilisi",
+          "lat": 41.7240762,
+          "lng": 44.7370463,
+          "coordinateSource": "https://maps.app.goo.gl/Atzyfrz5LzPCrKcK8",
+          "id": "cinema:ccm_1/17-11-2026/22:15",
+          "title": "Дюна: часть первая",
+          "titleEn": "Dune: Part One",
+          "date": "2026-11-17",
+          "time": "22:15",
+          "startAt": "2026-11-17T22:15:00+04:00",
+          "timezone": "Asia/Tbilisi",
+          "kind": "event",
+          "category": "film",
+          "source": "Organizer programme",
+          "sourceUrl": "https://cavea.ge/booking/ccm_1%2F17-11-2026%2F22%3A15",
+          "checkedAt": "2026-11-12T03:04:33.370915+00:00",
+          "price": 21.0,
+          "currency": "GEL",
+          "language": "EN",
+          "availabilityVerified": false,
+          "description": "Киносеанс на английском языке, 2D. Цена из расписания; наличие мест уточняйте у кинотеатра.",
+          "descriptionEn": "English-language cinema screening, 2D. Timetable price; check seat availability with the cinema.",
+          "yearEvidence": "Explicit2026 sessionID and dateGroups date on fresh official timetable.",
+          "coordinateEvidence": "Retained exact CityMallSaburtalo cinemaID/pin and70VazhaPshavela address, supported by current officialhomepage; previously noted detail-page75conflict not used.",
+          "cinemaSession": true,
+          "format": "2D",
+          "duration": 155,
+          "sessionId": "ccm_1/17-11-2026/22:15",
+          "venueId": "cinema:5d8fb2ea95616708ef1cd194",
+          "imageUrl": "https://cinerp.com/media/movies/posters/images/1_WCIUfzT.jpg",
+          "evidenceUrls": [
+            "https://cavea.ge/engsessions",
+            "https://cavea.ge/"
+          ],
+          "dateEvidence": "Explicit2026 sessionID and dateGroups date on fresh official timetable."
+        }
+      },
+      {
+        "city": "tbilisi",
+        "action": "pending",
+        "example": {
+          "title": "Врачебная тайна в MESTO",
+          "date": "2026-11-15",
+          "sourceUrl": "https://t.me/mesto_info/2980",
+          "reason": "Dated organizer announcement lacks start time; not inferred."
+        },
+        "reason": "Dated organizer announcement lacks start time; not inferred."
+      },
+      {
+        "city": "tbilisi",
+        "action": "pending",
+        "example": {
+          "title": "Экскурсия в Пантеон",
+          "date": "2026-11-14",
+          "time": "13:00",
+          "sourceUrl": "https://t.me/paperkartuli/30133",
+          "reason": "Exact meeting point/address not confirmed; do not pin general mountain location."
+        },
+        "reason": "Exact meeting point/address not confirmed; do not pin general mountain location."
+      },
+      {
+        "city": "tbilisi",
+        "action": "pending",
+        "example": {
+          "title": "Cavea Nov18 schedule",
+          "sourceUrl": "https://cavea.ge/engsessions",
+          "reason": "NoNov18dateGroup; nextlisted date isDec16. Kept explicitdates, no extrapolation."
+        },
+        "reason": "NoNov18dateGroup; nextlisted date isDec16. Kept explicitdates, no extrapolation."
+      },
+      {
+        "city": "yerevan",
+        "action": "add",
+        "event": {
+          "venue": "Green Room",
+          "address": "31/3 Tumanyan Street, Yerevan",
+          "lat": 40.1857042,
+          "lng": 44.5125331,
+          "coordinateSource": "https://www.openstreetmap.org/node/12714563373",
+          "id": "n12-f86bc271199652",
+          "title": "Караоке после дня рождения Green Room",
+          "titleEn": "Green Room birthday afterparty karaoke",
+          "date": "2026-11-15",
+          "time": "00:00",
+          "startAt": "2026-11-15T00:00:00+04:00",
+          "timezone": "Asia/Yerevan",
+          "kind": "event",
+          "category": "music",
+          "source": "Organizer programme",
+          "sourceUrl": "https://t.me/greenroomyerevan/1342",
+          "checkedAt": "2026-11-12T03:04:33.370915+00:00",
+          "price": null,
+          "currency": "AMD",
+          "language": null,
+          "availabilityVerified": false,
+          "description": "Караоке начинается в полночь после праздничной вечеринки 14 ноября — календарная дата 15 ноября. Цена не опубликована.",
+          "descriptionEn": "Karaoke starts at midnight following the November 14 birthday party, so its calendar date is November 15. Price not published.",
+          "yearEvidence": "Explicit November2026 date in fresh organizer programme or official structured event data; publication date is distinct.",
+          "coordinateEvidence": "Retained exact verified branch pin with fresh source address or established campus provenance.",
+          "dateEvidence": "Explicit November2026 date in fresh organizer programme or official structured event data; publication date is distinct."
+        }
+      },
+      {
+        "city": "yerevan",
+        "action": "add",
+        "event": {
+          "venue": "Bohem Theater",
+          "address": "3 Marshal Baghramyan Avenue, Yerevan",
+          "lat": 40.1892256,
+          "lng": 44.5129165,
+          "coordinateSource": "https://www.google.com/maps?output=embed&q=Bohem%20Theater%203%20Marshal%20Baghramyan%20Ave%2C%20Yerevan",
+          "id": "n12-451d8317a87410",
+          "title": "«Антиквар» Лерник",
+          "titleEn": "Antiquarian Lernik",
+          "date": "2026-11-17",
+          "time": "19:00",
+          "startAt": "2026-11-17T19:00:00+04:00",
+          "timezone": "Asia/Yerevan",
+          "kind": "event",
+          "category": "theatre",
+          "source": "Organizer programme",
+          "sourceUrl": "https://boheme-theater.am/public/hy/details/list",
+          "checkedAt": "2026-11-12T03:04:33.370915+00:00",
+          "price": 2500,
+          "currency": "AMD",
+          "language": null,
+          "availabilityVerified": false,
+          "description": "Комедия Нарека Дуряна о семье и верности. Билеты от 2500 AMD; наличие мест уточняйте у театра.",
+          "descriptionEn": "Narek Duryan’s comedy about family and fidelity. Tickets from 2500 AMD; check availability with the theater.",
+          "yearEvidence": "Explicit November2026 date in fresh organizer programme or official structured event data; publication date is distinct.",
+          "coordinateEvidence": "Retained exact verified branch pin with fresh source address or established campus provenance.",
+          "evidenceUrls": [
+            "https://boheme-theater.am/public/hy/details/list",
+            "https://eventix.am/theatre/antiquarian-lernik-ade31a5f-42b4-48aa-b0fb-5d6d19505210"
+          ],
+          "dateEvidence": "Explicit November2026 date in fresh organizer programme or official structured event data; publication date is distinct."
+        }
+      },
+      {
+        "city": "yerevan",
+        "action": "add",
+        "event": {
+          "venue": "Arno Babajanian Concert Hall",
+          "address": "2 Abovyan Street, Yerevan",
+          "lat": 40.1791157,
+          "lng": 44.5136908,
+          "coordinateSource": "https://www.openstreetmap.org/node/2681033804",
+          "id": "n12-7cdfca8c7422d2",
+          "title": "Musikabend — вечер романтической музыки",
+          "titleEn": "Musikabend — an evening of Romantic music",
+          "date": "2026-11-18",
+          "time": "19:00",
+          "startAt": "2026-11-18T19:00:00+04:00",
+          "timezone": "Asia/Yerevan",
+          "kind": "event",
+          "category": "music",
+          "source": "Organizer programme",
+          "sourceUrl": "https://www.tomsarkgh.am/en/event/50436/Musikabend.html",
+          "checkedAt": "2026-11-12T03:04:33.370915+00:00",
+          "price": 3000,
+          "currency": "AMD",
+          "language": null,
+          "availabilityVerified": false,
+          "description": "Шуберт, Шопен, Танеев, Шуман и Брамс в концертном зале имени Арно Бабаджаняна. Билеты 3000–5000 AMD.",
+          "descriptionEn": "Schubert, Chopin, Taneyev, Schumann and Brahms at Arno Babajanyan Concert Hall. Tickets 3000–5000 AMD.",
+          "yearEvidence": "Explicit November2026 date in fresh organizer programme or official structured event data; publication date is distinct.",
+          "coordinateEvidence": "Retained exact verified branch pin with fresh source address or established campus provenance.",
+          "evidenceUrls": [
+            "https://www.tomsarkgh.am/en/event/50436/Musikabend.html",
+            "https://eventix.am/classical/musikabend-12143ba3-d289-4c99-a8a6-689c55399818"
+          ],
+          "dateEvidence": "Explicit November2026 date in fresh organizer programme or official structured event data; publication date is distinct."
+        }
+      },
+      {
+        "city": "yerevan",
+        "action": "update",
+        "expectedDate": "2026-11-15",
+        "event": {
+          "id": "n10-c1b833215be4c1",
+          "price": 2000,
+          "description": "Комедийная импровизация на спорные темы. Вход 2000 AMD; для каждого сеанса отдельное бронирование.",
+          "descriptionEn": "Comedy improvisation on contentious topics. Entry 2000 AMD; separate booking for each show.",
+          "sourceUrl": "https://t.me/greenroomyerevan/1343",
+          "checkedAt": "2026-11-12T03:04:33.370915+00:00"
+        },
+        "reason": "New organizer detail confirms previously unknown price for each of three sessions.",
+        "refreshOfferPrices": true
+      },
+      {
+        "city": "yerevan",
+        "action": "update",
+        "expectedDate": "2026-11-15",
+        "event": {
+          "id": "n10-9fe7d21482d45c",
+          "price": 2000,
+          "description": "Комедийная импровизация на спорные темы. Вход 2000 AMD; для каждого сеанса отдельное бронирование.",
+          "descriptionEn": "Comedy improvisation on contentious topics. Entry 2000 AMD; separate booking for each show.",
+          "sourceUrl": "https://t.me/greenroomyerevan/1343",
+          "checkedAt": "2026-11-12T03:04:33.370915+00:00"
+        },
+        "reason": "New organizer detail confirms previously unknown price for each of three sessions.",
+        "refreshOfferPrices": true
+      },
+      {
+        "city": "yerevan",
+        "action": "update",
+        "expectedDate": "2026-11-15",
+        "event": {
+          "id": "n10-f4646c22924971",
+          "price": 2000,
+          "description": "Комедийная импровизация на спорные темы. Вход 2000 AMD; для каждого сеанса отдельное бронирование.",
+          "descriptionEn": "Comedy improvisation on contentious topics. Entry 2000 AMD; separate booking for each show.",
+          "sourceUrl": "https://t.me/greenroomyerevan/1343",
+          "checkedAt": "2026-11-12T03:04:33.370915+00:00"
+        },
+        "reason": "New organizer detail confirms previously unknown price for each of three sessions.",
+        "refreshOfferPrices": true
+      },
+      {
+        "city": "yerevan",
+        "action": "pending",
+        "example": {
+          "title": "Александр Косемян — 80",
+          "date": "2026-11-16",
+          "time": "19:00",
+          "sourceUrl": "https://eventix.am/classical/jubilee-concert-alexander-kosemyan-80-2b60db3a-8fdf-4f25-bf28-4a314f1175f1",
+          "reason": "Aggregatorfullcard andTickcalendar confirm candidate; organizer/ticketdetail with time not directly verified, hold primaryconfirmation."
+        },
+        "reason": "Aggregatorfullcard andTickcalendar confirm candidate; organizer/ticketdetail with time not directly verified, hold primaryconfirmation."
+      },
+      {
+        "city": "yerevan",
+        "action": "pending",
+        "example": {
+          "title": "Мятная конфета в ПУЛ",
+          "date": "2026-11-14",
+          "time": "19:30",
+          "sourceUrl": "https://t.me/ErevanRus/7540",
+          "reason": "Secondarydigest; organizer primary and exact branchpin not verified."
+        },
+        "reason": "Secondarydigest; organizer primary and exact branchpin not verified."
+      },
+      {
+        "city": "yerevan",
+        "action": "pending",
+        "example": {
+          "title": "Армянский разговорный клуб ForestBurger",
+          "date": "2026-11-12",
+          "time": "18:30",
+          "sourceUrl": "https://t.me/easygoing_yerevan/12050",
+          "reason": "Secondaryannouncement; exactbranchpin and organizerconfirmation not verified. Entry anytwo banknotes is not free."
+        },
+        "reason": "Secondaryannouncement; exactbranchpin and organizerconfirmation not verified. Entry anytwo banknotes is not free."
+      },
+      {
+        "city": "yerevan",
+        "action": "pending",
+        "example": {
+          "title": "ВауКвиз: Обо всём",
+          "date": "2026-11-12",
+          "time": "19:30",
+          "sourceUrl": "https://t.me/wowquiz_evn/1610",
+          "reason": "Organizer confirms4000AMDandFreemansIrishPub; exact current branchaddress/pin not verified."
+        },
+        "reason": "Organizer confirms4000AMDandFreemansIrishPub; exact current branchaddress/pin not verified."
+      },
+      {
+        "city": "yerevan",
+        "action": "pending",
+        "example": {
+          "title": "AUA ReligionandRussianRevolution",
+          "date": "2026-11-18",
+          "sourceUrl": "https://newsroom.aua.am/events/",
+          "reason": "Explicitlyonline Zoomwebinar; excluded fromphysicalmap."
+        },
+        "reason": "Explicitlyonline Zoomwebinar; excluded fromphysicalmap."
+      },
+      {
+        "city": "belgrade",
+        "action": "add",
+        "event": {
+          "id": "morning12-belgrade-safe-internet",
+          "kind": "event",
+          "title": "Безопасный интернет — тренинг для детей",
+          "titleEn": "Safe Internet — children’s workshop",
+          "date": "2026-11-15",
+          "time": "16:00",
+          "venue": "Sreda Obitaniya",
+          "address": "Šafarikova 6, Belgrade",
+          "lat": 44.816038,
+          "lng": 20.46722,
+          "coordinateSource": "https://afisha.rs/en/venues/sreda-obitania",
+          "coordinateEvidence": "Existing exact named venue/branch pin reused; fresh primary source confirms same address. No new coordinate lookup.",
+          "category": "kids",
+          "price": 1500,
+          "currency": "RSD",
+          "min": false,
+          "source": "Sreda Obitaniya",
+          "sourceUrl": "https://t.me/obitaniya_sreda/2323",
+          "checkedAt": "2026-11-12T03:00:25.241127+00:00",
+          "description": "For children aged10–12. Online trust, scams, cyberbullying and digital etiquette. Advance booking required.",
+          "descriptionEn": "For children aged10–12. Online trust, scams, cyberbullying and digital etiquette. Advance booking required.",
+          "language": null,
+          "timezone": "Europe/Belgrade",
+          "availabilityVerified": false,
+          "yearEvidence": "Dated November 2026 organizer Telegram publication and explicit forthcoming day/weekday, or dated official calendar for November 2026.",
+          "registrationRequired": true,
+          "end": "17:30",
+          "ticketUrl": "https://stopugroza.rs/locations/sreda-obitaniya/schedule",
+          "venueSource": "https://stopugroza.rs/locations/sreda-obitaniya/schedule",
+          "venueEn": "Sreda Obitaniya",
+          "addressEn": "Šafarikova 6, Belgrade",
+          "sourceEn": "Sreda Obitaniya"
+        }
+      },
+      {
+        "city": "belgrade",
+        "action": "add",
+        "event": {
+          "id": "morning12-belgrade-sorcerer-king",
+          "kind": "event",
+          "title": "Казнь Короля-Чародея — DnD 5e",
+          "titleEn": "Execution of the Sorcerer King — DnD 5e",
+          "date": "2026-11-14",
+          "time": "12:00",
+          "venue": "Vranin Tavan",
+          "address": "Brankova 28, Belgrade",
+          "lat": 44.8151404,
+          "lng": 20.4542521,
+          "coordinateSource": "https://t.me/Vranin_Tavan/294",
+          "coordinateEvidence": "Existing exact named venue/branch pin reused; fresh primary source confirms same address. No new coordinate lookup.",
+          "category": "games",
+          "price": 2000,
+          "currency": "RSD",
+          "min": false,
+          "source": "Vranin Tavan",
+          "sourceUrl": "https://t.me/Vranin_Tavan/1063",
+          "checkedAt": "2026-11-12T03:00:25.241127+00:00",
+          "description": "Fantasy one-shot for4–6players, level3; beginners welcome. Price includes1000RSDclub and1000RSDgame master. Booking with game master required; no message sent.",
+          "descriptionEn": "Fantasy one-shot for4–6players, level3; beginners welcome. Price includes1000RSDclub and1000RSDgame master. Booking with game master required; no message sent.",
+          "language": null,
+          "timezone": "Europe/Belgrade",
+          "availabilityVerified": false,
+          "yearEvidence": "Dated November 2026 organizer Telegram publication and explicit forthcoming day/weekday, or dated official calendar for November 2026.",
+          "registrationRequired": true,
+          "ticketUrl": "https://t.me/rudadel",
+          "venueEn": "Vranin Tavan",
+          "addressEn": "Brankova 28, Belgrade",
+          "sourceEn": "Vranin Tavan"
+        }
+      },
+      {
+        "city": "belgrade",
+        "action": "add",
+        "event": {
+          "id": "morning12-belgrade-trap-nostalgia",
+          "kind": "event",
+          "title": "Trap Nostalgia — 1by1.party",
+          "titleEn": "Trap Nostalgia — 1by1.party",
+          "date": "2026-11-18",
+          "time": "20:00",
+          "venue": "KC Grad",
+          "address": "Braće Krsmanović 4, Belgrade",
+          "lat": 44.8143147,
+          "lng": 20.4504267,
+          "coordinateSource": "https://changeoverfestival.com/",
+          "coordinateEvidence": "Existing exact named venue/branch pin reused; fresh primary source confirms same address. No new coordinate lookup.",
+          "category": "music",
+          "price": null,
+          "currency": "RSD",
+          "min": false,
+          "source": "KC Grad",
+          "sourceUrl": "https://www.kcgrad.rs/calendar/",
+          "checkedAt": "2026-11-12T03:00:25.241127+00:00",
+          "description": "Theme party listed in the official November programme. Price and booking conditions not published.",
+          "descriptionEn": "Theme party listed in the official November programme. Price and booking conditions not published.",
+          "language": null,
+          "timezone": "Europe/Belgrade",
+          "availabilityVerified": false,
+          "yearEvidence": "Official current November programme gives Wednesday18November; matches2026. Adjacent programme dates independently corroborated2026 by Afisha venue listing on previous research day; not a recurring date inferred.",
+          "registrationRequired": null,
+          "dateEvidenceUrls": [
+            "https://www.kcgrad.rs/calendar/"
+          ],
+          "venueEn": "KC Grad",
+          "addressEn": "Braće Krsmanović 4, Belgrade",
+          "sourceEn": "KC Grad",
+          "priceLabel": "Price not published"
+        }
+      },
+      {
+        "city": "belgrade",
+        "action": "pending",
+        "example": {
+          "title": "Miniature painting evening",
+          "sourceUrl": "https://t.me/Vranin_Tavan/1061",
+          "reason": "PublishedNov11 2026 but text says nextmeetingOctober22. RecurringThursday wording insufficient to inventNov12date; hold conflicting schedule."
+        },
+        "reason": "PublishedNov11 2026 but text says nextmeetingOctober22. RecurringThursday wording insufficient to inventNov12date; hold conflicting schedule."
+      },
+      {
+        "city": "moscow",
+        "action": "add",
+        "event": {
+          "id": "morning12-moscow-silkscreen",
+          "kind": "event",
+          "title": "Мастер-класс по шелкографии",
+          "titleEn": "Silkscreen printing workshop",
+          "date": "2026-11-18",
+          "time": "11:00",
+          "venue": "GES-2 House of Culture",
+          "address": "Bolotnaya Embankment 15, Moscow",
+          "lat": 55.742751,
+          "lng": 37.612732,
+          "coordinateSource": "https://yandex.ru/maps/-/CCUeVOC8hA",
+          "coordinateEvidence": "Existing exact named venue/branch pin reused; fresh primary source confirms same address. No new coordinate lookup.",
+          "category": "workshop",
+          "price": 4000,
+          "currency": "RUB",
+          "min": false,
+          "source": "GES-2 House of Culture",
+          "sourceUrl": "https://ges-2.org/vaults-masterclass-in-silkscreen-printing",
+          "checkedAt": "2026-11-12T03:00:25.241127+00:00",
+          "description": "Adult workshop ages18+. Create an A3screen-printed collage poster. Paint, paper and consumables included; booking required.",
+          "descriptionEn": "Adult workshop ages18+. Create an A3screen-printed collage poster. Paint, paper and consumables included; booking required.",
+          "language": null,
+          "timezone": "Europe/Moscow",
+          "availabilityVerified": false,
+          "yearEvidence": "Official calendar explicitly November2026 and Wednesday18,11:00–14:00.",
+          "registrationRequired": true,
+          "end": "14:00",
+          "dateEvidenceUrls": [
+            "https://ges-2.org/calendar?date=2026-11-18"
+          ],
+          "venueEn": "GES-2 House of Culture",
+          "addressEn": "Bolotnaya Embankment 15, Moscow",
+          "sourceEn": "GES-2 House of Culture"
+        }
+      },
+      {
+        "city": "moscow",
+        "action": "add",
+        "event": {
+          "id": "morning12-moscow-capital-discussion",
+          "kind": "event",
+          "title": "Сцены из «Капитала» — спецпоказ и обсуждение",
+          "titleEn": "Scenes from Capital — special screening and discussion",
+          "date": "2026-11-15",
+          "time": "17:00",
+          "venue": "Zotov Centre",
+          "address": "Khodynskaya Street 2, building 1, Moscow",
+          "lat": 55.770331040485075,
+          "lng": 37.5646587871239,
+          "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+          "coordinateEvidence": "Existing exact named venue/branch pin reused; fresh primary source confirms same address. No new coordinate lookup.",
+          "category": "film",
+          "price": null,
+          "currency": "RUB",
+          "min": false,
+          "source": "Zotov Centre",
+          "sourceUrl": "https://centrezotov.ru/events/eho-36-go-mezhdunarodnogo-kinofestivalya-poslanie-k-cheloveku/sczeny-iz-kapitala/",
+          "checkedAt": "2026-11-12T03:00:25.241127+00:00",
+          "description": "Naum Kleiman introduces the30-minute film; discussion follows with Fyodor Maksimishin, Darya Suslova and Mikhail Ratgauz. Ages18+. Red and Black halls. Full event end and admission price not published.",
+          "descriptionEn": "Naum Kleiman introduces the30-minute film; discussion follows with Fyodor Maksimishin, Darya Suslova and Mikhail Ratgauz. Ages18+. Red and Black halls. Full event end and admission price not published.",
+          "language": null,
+          "timezone": "Europe/Moscow",
+          "availabilityVerified": false,
+          "yearEvidence": "Official detail explicitly15.11.26 17:00; organizer Telegram postedNov11 2026.",
+          "registrationRequired": true,
+          "cinemaSession": false,
+          "evidenceUrls": [
+            "https://t.me/centrezotov/10320"
+          ],
+          "venueEn": "Zotov Centre",
+          "addressEn": "Khodynskaya Street 2, building 1, Moscow",
+          "sourceEn": "Zotov Centre",
+          "priceLabel": "Price not published"
+        }
+      },
+      {
+        "city": "moscow",
+        "action": "pending",
+        "example": {
+          "title": "How to control chaos?",
+          "date": "2026-11-18",
+          "time": "17:30",
+          "sourceUrl": "https://ges-2.org/how-to-control-chaos",
+          "reason": "Registration explicitly closed; do not import as available."
+        },
+        "reason": "Registration explicitly closed; do not import as available."
+      },
+      {
+        "city": "moscow",
+        "action": "pending",
+        "example": {
+          "title": "Linocut with Darya Fetisova",
+          "date": "2026-11-12",
+          "sourceUrl": "https://stoleshniki-house.timepad.ru/event/4254195/",
+          "reason": "Discovery via privetpoidem28371 only; primary event time/admission/address not checked."
+        },
+        "reason": "Discovery via privetpoidem28371 only; primary event time/admission/address not checked."
+      },
+      {
+        "city": "moscow",
+        "action": "pending",
+        "example": {
+          "title": "Alcon pop-up",
+          "sourceUrl": "https://t.me/privetpoidem/28370",
+          "reason": "Aggregator promotion; primary not checked, no map import."
+        },
+        "reason": "Aggregator promotion; primary not checked, no map import."
+      },
+      {
+        "city": "barcelona",
+        "action": "add",
+        "event": {
+          "id": "barcelona-20261112-99400187622",
+          "kind": "event",
+          "title": "День цифровых технологий — первый день",
+          "venue": "World Trade Center",
+          "address": "Moll Barcelona, 1, Barcelona",
+          "date": "2026-11-18",
+          "time": "08:30",
+          "category": "talk",
+          "lat": 41.37109064113994,
+          "lng": 2.1823636757953953,
+          "coordinateSource": "https://guia.barcelona.cat/en/detall/diada-de-les-tecnologies-de-la-informacio-i-la-comunicacio-2026_99400187622.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://guia.barcelona.cat/en/detall/diada-de-les-tecnologies-de-la-informacio-i-la-comunicacio-2026_99400187622.html",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Free conference on digital responsibility; registration required. Only Nov18 included; Nov19 outside window.",
+          "titleEn": "Digital technology days — day one",
+          "end": "19:15",
+          "registrationRequired": true
+        }
+      },
+      {
+        "city": "barcelona",
+        "action": "add",
+        "event": {
+          "id": "barcelona-20261112-99400790137",
+          "kind": "event",
+          "title": "Форум экономики воды",
+          "venue": "Fundació Catalunya La Pedrera",
+          "address": "Passeig de Gràcia, 92, Barcelona",
+          "date": "2026-11-18",
+          "time": "09:00",
+          "category": "talk",
+          "lat": 41.395251953312766,
+          "lng": 2.1615646455941606,
+          "coordinateSource": "https://guia.barcelona.cat/en/detall/xx-forum-de-l-economia-de-l-aigua_99400790137.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://guia.barcelona.cat/en/detall/xx-forum-de-l-economia-de-l-aigua_99400790137.html",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Free forum on water,economy,technology and geopolitics. Registration required.",
+          "titleEn": "Water economy forum",
+          "end": "18:00",
+          "registrationRequired": true
+        }
+      },
+      {
+        "city": "barcelona",
+        "action": "add",
+        "event": {
+          "id": "barcelona-20261112-99400789671",
+          "kind": "event",
+          "title": "GUARRES! — запись подкаста",
+          "venue": "Sala Apolo - La Cinc",
+          "address": "Carrer Nou de la Rambla, 111, Barcelona",
+          "date": "2026-11-18",
+          "time": "19:00",
+          "category": "talk",
+          "lat": 41.37437345529078,
+          "lng": 2.1695075348590223,
+          "coordinateSource": "https://guia.barcelona.cat/en/detall/podcast-guarres-3a-temporada-capitol-3_99400789671.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://guia.barcelona.cat/en/detall/podcast-guarres-3a-temporada-capitol-3_99400789671.html",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 10,
+          "priceLabel": "EUR10advance plus fees; EUR12door",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Season3episode3. EUR10advance plus fees; EUR12door. Humor and sex education.",
+          "titleEn": "GUARRES! — live podcast"
+        }
+      },
+      {
+        "city": "barcelona",
+        "action": "add",
+        "event": {
+          "id": "barcelona-20261112-99400729548",
+          "kind": "event",
+          "title": "Arrelats: истории торговли Побле-сек — открытие",
+          "venue": "Centre Cívic El Sortidor",
+          "address": "Plaça del Sortidor, 12, Barcelona",
+          "date": "2026-11-18",
+          "time": "19:00",
+          "category": "city",
+          "lat": 41.372098413253546,
+          "lng": 2.162548299594534,
+          "coordinateSource": "https://guia.barcelona.cat/en/detall/exposicio-arrelats-histories-del-comerc-al-poble-sec_99400729548.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://guia.barcelona.cat/en/detall/exposicio-arrelats-histories-del-comerc-al-poble-sec_99400729548.html",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Exhibition opening explicitly dated Nov18at19:00. General exhibition hours are not used as event start.",
+          "titleEn": "Arrelats: Poble-sec shops and stories — opening"
+        }
+      },
+      {
+        "city": "barcelona",
+        "action": "add",
+        "event": {
+          "id": "barcelona-20261112-99400722512",
+          "kind": "event",
+          "title": "Учёба в Китае — информационная встреча",
+          "venue": "Joves de l’Eixample, Edifici Transformadors",
+          "address": "Carrer d’Ausiàs Marc, 60, Barcelona",
+          "date": "2026-11-18",
+          "time": "17:30",
+          "category": "talk",
+          "lat": 41.39342730176312,
+          "lng": 2.178581660538669,
+          "coordinateSource": "https://guia.barcelona.cat/en/detall/estudis-superiors-a-la-xina_99400722512.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://guia.barcelona.cat/en/detall/estudis-superiors-a-la-xina_99400722512.html",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "For ages18–25; scholarships,admission requirements and study programmes. Registration required.",
+          "titleEn": "Studying in China — information session",
+          "end": "19:00",
+          "registrationRequired": true
+        }
+      },
+      {
+        "city": "barcelona",
+        "action": "pending",
+        "example": {
+          "title": "Activa’t per treballar — winter employment",
+          "sourceUrl": "https://guia.barcelona.cat/en/detall/_99400750464.html",
+          "date": "2026-11-18",
+          "reason": "Spanish description concerns winter jobs but fresh English description concerns beauty/hairdressing; programme mismatch."
+        },
+        "reason": "Spanish description concerns winter jobs but fresh English description concerns beauty/hairdressing; programme mismatch."
+      },
+      {
+        "city": "barcelona",
+        "action": "pending",
+        "example": {
+          "title": "Agrippina / Giulio Cesare",
+          "sourceUrl": "https://guia.barcelona.cat/en/detall/opera-agrippina-de-handel-kozena-lezhneva-les-accents-noally_99400743808.html",
+          "reason": "Municipal language versions disagree on opera title and cast; primary venue reconciliation required."
+        },
+        "reason": "Municipal language versions disagree on opera title and cast; primary venue reconciliation required."
+      },
+      {
+        "city": "barcelona",
+        "action": "pending",
+        "example": {
+          "title": "Feminist epistemologies science talk",
+          "sourceUrl": "https://guia.barcelona.cat/en/cursos/detall/xerrada-de-ciencia-epistemologies-feministes-i-critica-de-la-ciencia-qui-produeix-el-coneixement-i-amb-quins-biaixos_99400772303.html",
+          "reason": "Title and body refer to different subjects/speakers."
+        },
+        "reason": "Title and body refer to different subjects/speakers."
+      },
+      {
+        "city": "barcelona",
+        "action": "pending",
+        "example": {
+          "title": "Autoritarisme i resistència",
+          "sourceUrl": "https://guia.barcelona.cat/en/detall/xerrada-autoritarisme-i-resistencia-alternatives-en-tems-convulsos_99400733222.html",
+          "reason": "Title political resistance, body pregnancy/medical ethics; programme conflict."
+        },
+        "reason": "Title political resistance, body pregnancy/medical ethics; programme conflict."
+      },
+      {
+        "city": "barcelona",
+        "action": "pending",
+        "example": {
+          "title": "BCN en las alturas",
+          "sourceUrl": "https://t.me/bcn_afisha/4999",
+          "reason": "Nov13–15market discovered. Exact time and primary venue confirmation not checked; website inaccessible."
+        },
+        "reason": "Nov13–15market discovered. Exact time and primary venue confirmation not checked; website inaccessible."
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50455410",
+          "kind": "event",
+          "title": "Наука и супергерои",
+          "venue": "Instituto de Educación Secundaria (IES) Ramiro de Maeztu",
+          "address": "CALLE SERRANO 127, 28006 Madrid",
+          "date": "2026-11-18",
+          "time": "09:15",
+          "category": "kids",
+          "lat": 40.44209298097929,
+          "lng": -3.6861462152769775,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50455410-charla-taller-ciencia-superheroes.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50455410-charla-taller-ciencia-superheroes.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Ages8–12. Public first-come admission; participatory science workshop.",
+          "titleEn": "Science and superheroes",
+          "originalTitle": "Charla-taller: Ciencia y superhéroes",
+          "officialSourceId": "50455410",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50455410-charla-taller-ciencia-superheroes.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a5f52b6913e51a10VgnVCM200000f921e388RCRD"
+          ],
+          "admissionEvidence": "Fresh official municipal catalogue: audience Niños,PoblaciónGeneral; description PÚBLICO: De8a12años; Entrada libre hasta completar aforo. No school-group restriction stated."
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50468302",
+          "kind": "event",
+          "title": "Гарри Поттер: за пределами Хогвартса",
+          "venue": "Centro Cultural Benjamín Palencia (Villa de Vallecas)",
+          "address": "AVENIDA LA GAVIA 55, 28051 Madrid",
+          "date": "2026-11-18",
+          "time": "19:30",
+          "category": "talk",
+          "lat": 40.36691109856854,
+          "lng": -3.6164419466246676,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468302-ciclo-anillos-dragones-varitas-3-mesa-redonda-harry-potter-alla-hogwarts.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468302-ciclo-anillos-dragones-varitas-3-mesa-redonda-harry-potter-alla-hogwarts.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Roundtable with Javier Marcos,Elia Míriel and Paco Garrido;60minutes; ages12+.",
+          "titleEn": "Harry Potter: beyond Hogwarts",
+          "originalTitle": "Ciclo Anillos, dragones y varitas.  3ª Mesa redonda:  Harry Potter. Más allá de Hogwarts",
+          "officialSourceId": "50468302",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50468302-ciclo-anillos-dragones-varitas-3-mesa-redonda-harry-potter-alla-hogwarts.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=3f21ee8ecf181a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50441056",
+          "kind": "event",
+          "title": "Иллюзионизм и магия на театральной сцене",
+          "venue": "Centro Cultural Galileo (Chamberí)",
+          "address": "CALLE GALILEO 39, 28015 Madrid",
+          "date": "2026-11-18",
+          "time": "19:00",
+          "category": "talk",
+          "lat": 40.433719454283505,
+          "lng": -3.7104468992841753,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50441056-conferencia.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50441056-conferencia.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Saladina Jota lecture;60minutes; all audiences.",
+          "titleEn": "Illusion and magic on stage",
+          "originalTitle": "Conferencia",
+          "officialSourceId": "50441056",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50441056-conferencia.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a33f6f0b37cf0a10VgnVCM100000891ecb1aRCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50483050",
+          "kind": "event",
+          "title": "Основы eBiblio и eFilm",
+          "venue": "Biblioteca Pública Municipal Pablo Neruda (Ciudad Lineal)",
+          "address": "CALLE ASCAO 4, 28017 Madrid",
+          "date": "2026-11-18",
+          "time": "17:30",
+          "category": "workshop",
+          "lat": 40.42941133441142,
+          "lng": -3.6416899839787695,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50483050-curso-basico-ebiblio-efilm.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50483050-curso-basico-ebiblio-efilm.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Municipal library programme; detailed admission conditions not published.",
+          "titleEn": "eBiblio and eFilm basics",
+          "originalTitle": "Curso básico de eBiblio y eFilm",
+          "officialSourceId": "50483050",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50483050-curso-basico-ebiblio-efilm.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=ba4ffeb4475c1a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50481141",
+          "kind": "event",
+          "title": "Современный танец в библиотеке",
+          "venue": "Biblioteca Pública Municipal Iván de Vargas (Centro)",
+          "address": "CALLE SAN JUSTO 5, 28005 Madrid",
+          "date": "2026-11-18",
+          "time": "17:00",
+          "category": "theatre",
+          "lat": 40.41410290844665,
+          "lng": -3.7098591212735883,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50481141-danza-contemporanea-biblioteca.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50481141-danza-contemporanea-biblioteca.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Municipal library programme; detailed admission conditions not published.",
+          "titleEn": "Contemporary dance at the library",
+          "originalTitle": "Danza contemporánea en la biblioteca",
+          "officialSourceId": "50481141",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50481141-danza-contemporanea-biblioteca.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=61ab8be2bc0b1a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50468148",
+          "kind": "event",
+          "title": "Как найти своего читателя — Лоренсо Сильва",
+          "venue": "Centro Cultural Zazuar (Villa de Vallecas)",
+          "address": "CALLE ZAZUAR 4, 28031 Madrid",
+          "date": "2026-11-18",
+          "time": "18:30",
+          "category": "talk",
+          "lat": 40.38281866921273,
+          "lng": -3.6061377076487906,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468148-arte-llegar-al-lector.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468148-arte-llegar-al-lector.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Lorenzo Silva in conversation with Maica Rivera;60minutes; ages16+.",
+          "titleEn": "Connecting with readers — Lorenzo Silva",
+          "originalTitle": "El arte de llegar al lector",
+          "officialSourceId": "50468148",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50468148-arte-llegar-al-lector.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=09bba14e0c181a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50481090",
+          "kind": "event",
+          "title": "Встреча с поэтессой Андреа Берналь",
+          "venue": "Biblioteca Pública Municipal Vallecas (Puente de Vallecas)",
+          "address": "CALLE PUERTO DEL MONASTERIO 1, 28053 Madrid",
+          "date": "2026-11-18",
+          "time": "18:30",
+          "category": "talk",
+          "lat": 40.395023959810636,
+          "lng": -3.665554302127492,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50481090-encuentro-poeta-andrea-bernal-circulo.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50481090-encuentro-poeta-andrea-bernal-circulo.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Municipal library programme; detailed admission conditions not published.",
+          "titleEn": "Meet poet Andrea Bernal",
+          "originalTitle": "Encuentro con la poeta Andrea Bernal: Círculo",
+          "officialSourceId": "50481090",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50481090-encuentro-poeta-andrea-bernal-circulo.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=72a862f8fb0b1a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50446593",
+          "kind": "event",
+          "title": "Хрононавты Земли — семейная научная игра",
+          "venue": "Centro Sociocultural Ágata (Villaverde)",
+          "address": "CALLE DOCTOR MARTIN AREVALO 2, 28021 Madrid",
+          "date": "2026-11-18",
+          "time": "17:30",
+          "category": "kids",
+          "lat": 40.346369432374594,
+          "lng": -3.7085146991266473,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50446593-experiencia-inmersiva-crononautas-tierra-viaje-13-800-m-.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50446593-experiencia-inmersiva-crononautas-tierra-viaje-13-800-m-.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Public Science Week family workshop using minerals,fossils and experiments.",
+          "titleEn": "Earth chrononauts — family science workshop",
+          "originalTitle": "Experiencia Inmersiva: `Crononautas de la Tierra. Un viaje de 13.800 m.a. ´",
+          "officialSourceId": "50446593",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50446593-experiencia-inmersiva-crononautas-tierra-viaje-13-800-m-.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=ba8ea0fc32c11a10VgnVCM100000891ecb1aRCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50464546",
+          "kind": "event",
+          "title": "Больше самостоятельности в повседневной жизни",
+          "venue": "Biblioteca Pública Municipal Ángel González (Latina)",
+          "address": "CALLE GRANJA DE TORREHERMOSA 1, 28024 Madrid",
+          "date": "2026-11-18",
+          "time": "19:00",
+          "category": "talk",
+          "lat": 40.397074625115906,
+          "lng": -3.7664885474841556,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50464546-autonomia-menos-dependencia-estrategias-practicas-terapia-ocupacional-dia-dia-casa-.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50464546-autonomia-menos-dependencia-estrategias-practicas-terapia-ocupacional-dia-dia-casa-.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Municipal library programme; detailed admission conditions not published.",
+          "titleEn": "Greater independence in everyday life",
+          "originalTitle": "Más autonomía, menos dependencia. Estrategias prácticas desde la Terapia Ocupacional para el día a día en casa.",
+          "officialSourceId": "50464546",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50464546-autonomia-menos-dependencia-estrategias-practicas-terapia-ocupacional-dia-dia-casa-.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=17250fa831871a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50473994",
+          "kind": "event",
+          "title": "Гераклит и искусство Кармен Камары",
+          "venue": "Centro Dotacional Integrado Arganzuela Ángel del Río",
+          "address": "CALLE CANARIAS 17, 28045 Madrid",
+          "date": "2026-11-18",
+          "time": "19:00",
+          "category": "talk",
+          "lat": 40.40242416544921,
+          "lng": -3.6954440062549017,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50473994-mesa-redonda-fragmentos-heraclito-obra-carmen-camara-.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50473994-mesa-redonda-fragmentos-heraclito-obra-carmen-camara-.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Fernando Castro,Miguel Cereceda and artist Carmen Cámara discuss art and Heraclitus.",
+          "titleEn": "Heraclitus and Carmen Cámara’s art",
+          "originalTitle": "Mesa redonda: 'Los fragmentos de Heráclito en la obra de Carmen Cámara'",
+          "officialSourceId": "50473994",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50473994-mesa-redonda-fragmentos-heraclito-obra-carmen-camara-.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=86df645f331a1a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50464434",
+          "kind": "event",
+          "title": "Современная испанская театральная критика",
+          "venue": "Biblioteca Pública Municipal Iván de Vargas (Centro)",
+          "address": "CALLE SAN JUSTO 5, 28005 Madrid",
+          "date": "2026-11-18",
+          "time": "19:00",
+          "category": "talk",
+          "lat": 40.41410290844665,
+          "lng": -3.7098591212735883,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50464434-mesa-coloquio-critica-teatro-espanol-actual.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50464434-mesa-coloquio-critica-teatro-espanol-actual.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Municipal library programme; detailed admission conditions not published.",
+          "titleEn": "Contemporary Spanish theatre criticism",
+          "originalTitle": "Mesa-coloquio 'La crítica en el teatro español actual",
+          "officialSourceId": "50464434",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50464434-mesa-coloquio-critica-teatro-espanol-actual.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=264d0e0440871a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50468102",
+          "kind": "event",
+          "title": "Месье Верду — кинопоказ",
+          "venue": "Centro Sociocultural José de Espronceda (Tetuán)",
+          "address": "CALLE ALMANSA 9, 28039 Madrid",
+          "date": "2026-11-18",
+          "time": "18:30",
+          "category": "film",
+          "lat": 40.44864332758775,
+          "lng": -3.704513191828797,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468102-monsieur-verdoux-1947-.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468102-monsieur-verdoux-1947-.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Charles Chaplin film;123minutes; ages7+.",
+          "titleEn": "Monsieur Verdoux — screening",
+          "originalTitle": "Monsieur Verdoux. (1947)",
+          "officialSourceId": "50468102",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50468102-monsieur-verdoux-1947-.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a00dd6040b181a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "cinemaSession": true
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50457770",
+          "kind": "event",
+          "title": "Ничто — кинопоказ",
+          "venue": "Centro Cultural Casa del Reloj (Arganzuela)",
+          "address": "PASEO CHOPERA 6, 28045 Madrid",
+          "date": "2026-11-18",
+          "time": "19:00",
+          "category": "film",
+          "lat": 40.39466755008527,
+          "lng": -3.700396761468562,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50457770-pelicula-nada-1947-.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50457770-pelicula-nada-1947-.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Edgar Neville film in a curated retrospective.",
+          "titleEn": "Nada — screening",
+          "originalTitle": "Película: Nada (1947)",
+          "officialSourceId": "50457770",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50457770-pelicula-nada-1947-.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b9661a3ed761a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "cinemaSession": true
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50477147",
+          "kind": "event",
+          "title": "Между строк — презентация книги",
+          "venue": "Centro Cultural Sanchinarro - Hispanidad (Hortaleza)",
+          "address": "CALLE PRINCESA DE EBOLI 29, 28050 Madrid",
+          "date": "2026-11-18",
+          "time": "19:00",
+          "category": "talk",
+          "lat": 40.49042200599307,
+          "lng": -3.6553467891079854,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50477147-presentacion-libro-entrelineas.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50477147-presentacion-libro-entrelineas.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Rosa Montero Saugar presents her collection of25stories. Description explicitly says free entry.",
+          "titleEn": "Entrelíneas — book presentation",
+          "originalTitle": "Presentación de libro Entrelíneas",
+          "officialSourceId": "50477147",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50477147-presentacion-libro-entrelineas.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b9b0bdef566a1a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50470206",
+          "kind": "event",
+          "title": "Мадрид — столица мира: встреча с автором",
+          "venue": "Museo de Historia de Madrid",
+          "address": "CALLE FUENCARRAL 78, 28004 Madrid",
+          "date": "2026-11-18",
+          "time": "18:30",
+          "category": "talk",
+          "lat": 40.42577054821346,
+          "lng": -3.700845660719608,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50470206-presentacion-libro-madrid-capital-mundo-cipriano-garcia-hidalgo.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50470206-presentacion-libro-madrid-capital-mundo-cipriano-garcia-hidalgo.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Author Cipriano García-Hidalgo; signing; free first-come admission.",
+          "titleEn": "Madrid, capital of the world — author event",
+          "originalTitle": "Presentación del libro: Madrid, capital del mundo de Cipriano García-Hidalgo",
+          "officialSourceId": "50470206",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50470206-presentacion-libro-madrid-capital-mundo-cipriano-garcia-hidalgo.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=4f5b231888881a10VgnVCM100000891ecb1aRCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50402511",
+          "kind": "event",
+          "title": "Воображать с машинами — практикум ИИ",
+          "venue": "Biblioteca Pública Municipal Miguel Delibes (Moratalaz)",
+          "address": "CALLE ARROYO BELINCOSO 11, 28030 Madrid",
+          "date": "2026-11-18",
+          "time": "17:30",
+          "category": "workshop",
+          "lat": 40.40971737692924,
+          "lng": -3.6529822109115133,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50402511-taller-imaginar-maquinas-biblioteca-miguel-delibes.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50402511-taller-imaginar-maquinas-biblioteca-miguel-delibes.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Cápsula Cultura workshop; intergenerational, focus older adults; minors12+recommended. Advance21Distritos registration required.",
+          "titleEn": "Imagining with machines — AI workshop",
+          "originalTitle": "Taller 'Imaginar con máquinas' - Biblioteca Miguel Delibes",
+          "officialSourceId": "50402511",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50402511-taller-imaginar-maquinas-biblioteca-miguel-delibes.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=2f212ecb63660a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "registrationRequired": true
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50477697",
+          "kind": "event",
+          "title": "Моими ручками — сказки для малышей",
+          "venue": "Biblioteca Pública Municipal Ciudad Lineal (Ciudad Lineal)",
+          "address": "CALLE HERMANOS GARCIA NOBLEJAS 14, 28037 Madrid",
+          "date": "2026-11-18",
+          "time": "17:30",
+          "category": "kids",
+          "lat": 40.43644651057092,
+          "lng": -3.6372924261150033,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50477697-mis-manitas-aurora-maroto.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50477697-mis-manitas-aurora-maroto.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Aurora Maroto. Ages0–24months;30minutes;8babies with one adult each. Registration required.",
+          "titleEn": "With my little hands — baby stories",
+          "originalTitle": "'Con mis manitas' con Aurora Maroto",
+          "officialSourceId": "50477697",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50477697-mis-manitas-aurora-maroto.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=84700b7c5e6a1a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "registrationRequired": true,
+          "programmeId": "madrid-20261112-50477697"
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50477697-second",
+          "kind": "event",
+          "title": "Моими ручками — сказки для малышей",
+          "venue": "Biblioteca Pública Municipal Ciudad Lineal (Ciudad Lineal)",
+          "address": "CALLE HERMANOS GARCIA NOBLEJAS 14, 28037 Madrid",
+          "date": "2026-11-18",
+          "time": "18:00",
+          "category": "kids",
+          "lat": 40.43644651057092,
+          "lng": -3.6372924261150033,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50477697-mis-manitas-aurora-maroto.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50477697-mis-manitas-aurora-maroto.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Aurora Maroto. Ages0–24months;30minutes;8babies with one adult each. Registration required.",
+          "titleEn": "With my little hands — baby stories",
+          "originalTitle": "'Con mis manitas' con Aurora Maroto",
+          "officialSourceId": "50477697",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50477697-mis-manitas-aurora-maroto.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=84700b7c5e6a1a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "registrationRequired": true,
+          "programmeId": "madrid-20261112-50477697"
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50483170",
+          "kind": "event",
+          "title": "Исцелиться — Тамара Перес",
+          "venue": "Biblioteca Pública Municipal Pablo Neruda (Ciudad Lineal)",
+          "address": "CALLE ASCAO 4, 28017 Madrid",
+          "date": "2026-11-18",
+          "time": "19:00",
+          "category": "talk",
+          "lat": 40.42941133441142,
+          "lng": -3.6416899839787695,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50483170-curar-me-tamara-perez.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50483170-curar-me-tamara-perez.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Municipal library programme; detailed admission conditions not published.",
+          "titleEn": "Curar(me) — Tamara Pérez",
+          "originalTitle": "'Curar(me)' de Tamara Pérez",
+          "officialSourceId": "50483170",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50483170-curar-me-tamara-perez.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=e34005aa2e5c1a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50477698",
+          "kind": "event",
+          "title": "Послушай ветер — сказки для малышей",
+          "venue": "Biblioteca Pública Municipal Eugenio Trías. Casa de Fieras de El Retiro (Retiro)",
+          "address": "PASEO FERNÁN NÚÑEZ 24, 28009 Madrid",
+          "date": "2026-11-18",
+          "time": "18:00",
+          "category": "kids",
+          "lat": 40.4166091081099,
+          "lng": -3.6795930368034804,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50477698-escucha-viento-silvina-rodriguez.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50477698-escucha-viento-silvina-rodriguez.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Silvina Rodríguez. Ages0–24months;30minutes;8babies with one adult each. Registration required.",
+          "titleEn": "Listen to the wind — baby stories",
+          "originalTitle": "'Escucha el viento' con Silvina Rodríguez",
+          "officialSourceId": "50477698",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50477698-escucha-viento-silvina-rodriguez.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=93700b7c5e6a1a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "registrationRequired": true,
+          "programmeId": "madrid-20261112-50477698"
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50477698-second",
+          "kind": "event",
+          "title": "Послушай ветер — сказки для малышей",
+          "venue": "Biblioteca Pública Municipal Eugenio Trías. Casa de Fieras de El Retiro (Retiro)",
+          "address": "PASEO FERNÁN NÚÑEZ 24, 28009 Madrid",
+          "date": "2026-11-18",
+          "time": "18:30",
+          "category": "kids",
+          "lat": 40.4166091081099,
+          "lng": -3.6795930368034804,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50477698-escucha-viento-silvina-rodriguez.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50477698-escucha-viento-silvina-rodriguez.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Silvina Rodríguez. Ages0–24months;30minutes;8babies with one adult each. Registration required.",
+          "titleEn": "Listen to the wind — baby stories",
+          "originalTitle": "'Escucha el viento' con Silvina Rodríguez",
+          "officialSourceId": "50477698",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50477698-escucha-viento-silvina-rodriguez.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=93700b7c5e6a1a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "registrationRequired": true,
+          "programmeId": "madrid-20261112-50477698"
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50483164",
+          "kind": "event",
+          "title": "Последняя воля — библиотечная встреча",
+          "venue": "Biblioteca Pública Municipal Eugenio Trías. Casa de Fieras de El Retiro (Retiro)",
+          "address": "PASEO FERNÁN NÚÑEZ 24, 28009 Madrid",
+          "date": "2026-11-18",
+          "time": "19:00",
+          "category": "talk",
+          "lat": 40.4166091081099,
+          "lng": -3.6795930368034804,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50483164-ultimas-voluntades-.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50483164-ultimas-voluntades-.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Municipal library programme; detailed admission conditions not published.",
+          "titleEn": "Last wishes — library event",
+          "originalTitle": "'Las últimas voluntades'",
+          "officialSourceId": "50483164",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50483164-ultimas-voluntades-.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9afd05aa2e5c1a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50471284",
+          "kind": "event",
+          "title": "Слово, словечки, словища — сказки",
+          "venue": "Biblioteca Pública Municipal Gloria Fuertes (Barajas)",
+          "address": "AVENIDA LOGROÑO 179, 28042 Madrid",
+          "date": "2026-11-18",
+          "time": "18:00",
+          "category": "kids",
+          "lat": 40.46055947228695,
+          "lng": -3.5937461811785347,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50471284-palabra-palabritas-palabron-andrea-ortuzar.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50471284-palabra-palabritas-palabron-andrea-ortuzar.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Andrea Ortúzar; ages4+; advance library registration required.",
+          "titleEn": "Words little and big — storytelling",
+          "originalTitle": "'Palabra, palabritas, palabrón' con Andrea Ortúzar",
+          "officialSourceId": "50471284",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50471284-palabra-palabritas-palabron-andrea-ortuzar.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9907ee794bc81a10VgnVCM100000891ecb1aRCRD"
+          ],
+          "registrationRequired": true
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50202901",
+          "kind": "event",
+          "title": "Пенелопа-ткачиха: Гомер и микенский мир",
+          "venue": "Museo de San Isidro. Los Orígenes de Madrid",
+          "address": "PLAZA SAN ANDRES 2, 28005 Madrid",
+          "date": "2026-11-18",
+          "time": "18:30",
+          "category": "talk",
+          "lat": 40.41207900253883,
+          "lng": -3.7108161027466378,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50202901-penelope-urdidora-tejidos-homero-mundo-micenico-conferencia.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50202901-penelope-urdidora-tejidos-homero-mundo-micenico-conferencia.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Municipal library programme; detailed admission conditions not published.",
+          "titleEn": "Penelope the weaver: Homer and the Mycenaean world",
+          "originalTitle": "'Penélope, la urdidora: tejidos en Homero y en el mundo Micénico'. Conferencia",
+          "officialSourceId": "50202901",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50202901-penelope-urdidora-tejidos-homero-mundo-micenico-conferencia.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d687e2c5e70eb910VgnVCM100000891ecb1aRCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50403603",
+          "kind": "event",
+          "title": "Бриолин — кино и обсуждение",
+          "venue": "Biblioteca Pública Municipal José Saramago (Fuencarral-El Pardo)",
+          "address": "AVENIDA MONFORTE DE LEMOS 38, 28029 Madrid",
+          "date": "2026-11-18",
+          "time": "11:00",
+          "category": "film",
+          "lat": 40.47860087334554,
+          "lng": -3.7094408342979954,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50403603-quedada-cine-biblioteca-jose-saramago-grease.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50403603-quedada-cine-biblioteca-jose-saramago-grease.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Grease screening followed by discussion facilitated by community-health psychologists. Free first-come admission.",
+          "titleEn": "Grease — film and discussion",
+          "originalTitle": "'Quedada de cine' Biblioteca José Saramago: Grease",
+          "officialSourceId": "50403603",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50403603-quedada-cine-biblioteca-jose-saramago-grease.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=20ce641fe1760a10VgnVCM100000891ecb1aRCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50464410",
+          "kind": "event",
+          "title": "История района Эль-Пилар — встреча с автором",
+          "venue": "Biblioteca Pública Municipal José Saramago (Fuencarral-El Pardo)",
+          "address": "AVENIDA MONFORTE DE LEMOS 38, 28029 Madrid",
+          "date": "2026-11-18",
+          "time": "18:00",
+          "category": "talk",
+          "lat": 40.47860087334554,
+          "lng": -3.7094408342979954,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50464410-transiciones-historia-barrio-pilar-manuel-ros-perez.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50464410-transiciones-historia-barrio-pilar-manuel-ros-perez.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Municipal library programme; detailed admission conditions not published.",
+          "titleEn": "History of El Pilar — author event",
+          "originalTitle": "'Transiciones: una historia de El Barrio de El Pilar' de Manuel Ros Pérez",
+          "officialSourceId": "50464410",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50464410-transiciones-historia-barrio-pilar-manuel-ros-perez.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=76a4f7f73f771a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261112-50480982",
+          "kind": "event",
+          "title": "Альфредо и его чувства — сказки и игра",
+          "venue": "Biblioteca Pública Municipal Francisco Ayala (Vicálvaro)",
+          "address": "BULEVAR INDALECIO PRIETO 21, 28032 Madrid",
+          "date": "2026-11-18",
+          "time": "18:00",
+          "category": "kids",
+          "lat": 40.39982891410407,
+          "lng": -3.621281890570377,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50480982-pedos-alfredo-m-victoria-gomez-gutierrez.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Explicit map pin from official municipal event record.",
+          "source": "Official municipal agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50480982-pedos-alfredo-m-victoria-gomez-gutierrez.json",
+          "checkedAt": "2026-11-12T03:00:45.237415+00:00",
+          "dateEvidence": "Official record explicitly states November18,2026 and start time.",
+          "yearEvidence": "Explicit2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "María Victoria Gómez Gutiérrez; stories and activity; ages5+ with adult. Free first-come admission.",
+          "titleEn": "Alfredo and his emotions — stories and play",
+          "originalTitle": "''Los Pedos de Alfredo' por Mª Victoria Gómez Gutiérrez",
+          "officialSourceId": "50480982",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50480982-pedos-alfredo-m-victoria-gomez-gutierrez.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=24db83348a0b1a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Conferencia:  `En el fondo del mar. ¿Qué hay debajo de tanta agua?´",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50446591-conferencia-fondo-mar-que-hay-debajo-tanta-agua-.json",
+          "reason": "School-group-only programme, grades3–4ESO."
+        },
+        "reason": "School-group-only programme, grades3–4ESO."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Cuento de verano",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50471208-cuento-verano.json",
+          "reason": "Missing exact start time; midnight not inferred."
+        },
+        "reason": "Missing exact start time; midnight not inferred."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Exposición de pintura conjunta",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50463652-exposicion-pintura-conjunta.json",
+          "reason": "Missing exact start time; midnight not inferred."
+        },
+        "reason": "Missing exact start time; midnight not inferred."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Hermanas",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50471203-hermanas.json",
+          "reason": "Missing exact start time; midnight not inferred."
+        },
+        "reason": "Missing exact start time; midnight not inferred."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Los días libres",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50471199-dias-libres.json",
+          "reason": "Missing exact start time; midnight not inferred."
+        },
+        "reason": "Missing exact start time; midnight not inferred."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Mesa redonda: El poder de las expectativas: Premios Nobel de Economía 2026",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50477512-mesa-redonda-poder-expectativas-premios-nobel-economia-2026.json",
+          "reason": "Official address Vitruvio5 given but exact pin missing."
+        },
+        "reason": "Official address Vitruvio5 given but exact pin missing."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Parque de la Vaguada",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/12409775-parque-vaguada.json",
+          "reason": "Only park name, no event description; not a verified unique event."
+        },
+        "reason": "Only park name, no event description; not a verified unique event."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Semana de la ciencia",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50469620-semana-ciencia.json",
+          "reason": "Missing exact start time; midnight not inferred."
+        },
+        "reason": "Missing exact start time; midnight not inferred."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Visita al Museo del Romanticismo (Voces de mujeres)",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50466893-visita-al-museo-romanticismo-voces-mujeres-.json",
+          "reason": "Organizer address differs from excursion destination/meeting point; exact meeting-point pin not verified."
+        },
+        "reason": "Organizer address differs from excursion destination/meeting point; exact meeting-point pin not verified."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Visita guiada a la Fuente del Berro",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50173958-visita-guiada-fuente-berro.json",
+          "reason": "Organizer address differs from excursion destination/meeting point; exact meeting-point pin not verified."
+        },
+        "reason": "Organizer address differs from excursion destination/meeting point; exact meeting-point pin not verified."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "XLI Semana de las personas mayores",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50472203-xli-semana-personas-mayores.json",
+          "reason": "Multi-venue programme; individual addresses and pins not verified."
+        },
+        "reason": "Multi-venue programme; individual addresses and pins not verified."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "«A un día luz. Ciencia y música para la sonda Voyager 1»",
+          "date": "2026-11-18",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50408999-dia-luz-ciencia-musica-sonda-voyager-1.json",
+          "reason": "Time and venue present but no programme/admission description; price unknown. Hold for primary programme."
+        },
+        "reason": "Time and venue present but no programme/admission description; price unknown. Hold for primary programme."
+      }
+    ]
+  },
+  "audit": {
+    "tbilisi": {
+      "telegram": [
+        {
+          "channel": "auditoria_tbilisi",
+          "url": "https://t.me/s/auditoria_tbilisi",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/auditoria_tbilisi",
+              "count": 16,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/auditoria_tbilisi?before=7709",
+              "count": 11,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/auditoria_tbilisi?before=7683",
+              "count": 15,
+              "error": null
+            }
+          ],
+          "postsFetched": 42,
+          "postsRead": 3,
+          "readPostIds": [
+            "auditoria_tbilisi/7729",
+            "auditoria_tbilisi/7731",
+            "auditoria_tbilisi/7663"
+          ],
+          "earliest": "2026-10-26T12:06:58+00:00",
+          "latest": "2026-11-11T14:16:23+00:00",
+          "readEarliest": "2026-10-26T12:06:58+00:00",
+          "readLatest": "2026-11-11T14:16:23+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "paperkartuli",
+          "url": "https://t.me/s/paperkartuli",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/paperkartuli",
+              "count": 17,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/paperkartuli?before=30115",
+              "count": 16,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/paperkartuli?before=30095",
+              "count": 11,
+              "error": null
+            }
+          ],
+          "postsFetched": 44,
+          "postsRead": 5,
+          "readPostIds": [
+            "paperkartuli/30117",
+            "paperkartuli/30133",
+            "paperkartuli/30135",
+            "paperkartuli/30136",
+            "paperkartuli/30074"
+          ],
+          "earliest": "2026-11-08T08:04:01+00:00",
+          "latest": "2026-11-11T18:38:01+00:00",
+          "readEarliest": "2026-11-08T08:04:01+00:00",
+          "readLatest": "2026-11-11T18:38:01+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "mesto_info",
+          "url": "https://t.me/s/mesto_info",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/mesto_info",
+              "count": 16,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/mesto_info?before=2962",
+              "count": 14,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/mesto_info?before=2942",
+              "count": 12,
+              "error": null
+            }
+          ],
+          "postsFetched": 42,
+          "postsRead": 4,
+          "readPostIds": [
+            "mesto_info/2975",
+            "mesto_info/2979",
+            "mesto_info/2980",
+            "mesto_info/2920"
+          ],
+          "earliest": "2026-10-21T12:35:56+00:00",
+          "latest": "2026-11-11T13:59:45+00:00",
+          "readEarliest": "2026-10-21T12:35:56+00:00",
+          "readLatest": "2026-11-11T13:59:45+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "quizplease_tbls",
+          "url": "https://t.me/s/quizplease_tbls",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/quizplease_tbls",
+              "count": 8,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/quizplease_tbls?before=3397",
+              "count": 10,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/quizplease_tbls?before=3368",
+              "count": 14,
+              "error": null
+            }
+          ],
+          "postsFetched": 32,
+          "postsRead": 4,
+          "readPostIds": [
+            "quizplease_tbls/3402",
+            "quizplease_tbls/3409",
+            "quizplease_tbls/3416",
+            "quizplease_tbls/3345"
+          ],
+          "earliest": "2026-10-28T09:44:01+00:00",
+          "latest": "2026-11-11T14:01:00+00:00",
+          "readEarliest": "2026-10-28T09:44:01+00:00",
+          "readLatest": "2026-11-11T14:01:00+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        }
+      ],
+      "web": [
+        {
+          "url": "https://cavea.ge/engsessions",
+          "status": "FreshfullHTML saved; structureddateGroups compared with yesterday.4newDunePart1rows reviewed."
+        },
+        {
+          "url": "https://cavea.ge/",
+          "status": "FreshHTML; canonicalbranch IDs/addresses retained. Detailaddress conflicts documentedpreviously, no silentaddressreplacement."
+        }
+      ],
+      "duplicates": [
+        {
+          "existingId": "n07-c0ac0528268dcf",
+          "reason": "FreshNov13cinema/musicquizannouncement alreadyimported."
+        }
+      ],
+      "cinema": {
+        "parsedSessionRows": 219,
+        "newRowsActuallyReviewed": 4,
+        "newUniqueFilms": 1,
+        "unchangedRowsMechanicallyCompared": 181,
+        "excludedBatumiRows": 30,
+        "outsideWindowDecember16Rows": 4,
+        "note": "NoNov18session schedule published in returned dataset. Do not misread seventh dateGroup16-12-2026 asNov18. Only4newin-windowrows actually reread today; oldrows compared computationally. No deletions inferred."
+      }
+    },
+    "yerevan": {
+      "telegram": [
+        {
+          "channel": "greenroomyerevan",
+          "url": "https://t.me/s/greenroomyerevan",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/greenroomyerevan",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/greenroomyerevan?before=1318",
+              "count": 19,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/greenroomyerevan?before=1294",
+              "count": 18,
+              "error": null
+            }
+          ],
+          "postsFetched": 57,
+          "postsRead": 4,
+          "readPostIds": [
+            "greenroomyerevan/1341",
+            "greenroomyerevan/1342",
+            "greenroomyerevan/1343",
+            "greenroomyerevan/1271"
+          ],
+          "earliest": "2026-10-07T15:34:03+00:00",
+          "latest": "2026-11-11T17:29:27+00:00",
+          "readEarliest": "2026-10-07T15:34:03+00:00",
+          "readLatest": "2026-11-11T17:29:27+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "commonground_yerevan",
+          "url": "https://t.me/s/commonground_yerevan",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/commonground_yerevan",
+              "count": 8,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/commonground_yerevan?before=880",
+              "count": 5,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/commonground_yerevan?before=849",
+              "count": 11,
+              "error": null
+            }
+          ],
+          "postsFetched": 24,
+          "postsRead": 3,
+          "readPostIds": [
+            "commonground_yerevan/901",
+            "commonground_yerevan/902",
+            "commonground_yerevan/903"
+          ],
+          "earliest": "2026-09-22T10:26:10+00:00",
+          "latest": "2026-11-08T16:42:28+00:00",
+          "readEarliest": "2026-11-05T15:00:47+00:00",
+          "readLatest": "2026-11-08T16:42:28+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "relokant",
+          "url": "https://t.me/s/relokant",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/relokant",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/relokant?before=2840",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/relokant?before=2817",
+              "count": 20,
+              "error": null
+            }
+          ],
+          "postsFetched": 60,
+          "postsRead": 4,
+          "readPostIds": [
+            "relokant/2861",
+            "relokant/2862",
+            "relokant/2863",
+            "relokant/2792"
+          ],
+          "earliest": "2026-09-28T11:15:11+00:00",
+          "latest": "2026-11-09T09:31:04+00:00",
+          "readEarliest": "2026-09-28T11:15:11+00:00",
+          "readLatest": "2026-11-09T09:31:04+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "muhabaryerevan",
+          "url": "https://t.me/s/muhabaryerevan",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/muhabaryerevan",
+              "count": 10,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/muhabaryerevan?before=2403",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/muhabaryerevan?before=2375",
+              "count": 17,
+              "error": null
+            }
+          ],
+          "postsFetched": 47,
+          "postsRead": 2,
+          "readPostIds": [
+            "muhabaryerevan/2425",
+            "muhabaryerevan/2427"
+          ],
+          "earliest": "2026-10-18T14:30:42+00:00",
+          "latest": "2026-11-11T15:09:05+00:00",
+          "readEarliest": "2026-11-11T11:53:45+00:00",
+          "readLatest": "2026-11-11T15:09:05+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "masterskayaArtLav",
+          "url": "https://t.me/s/masterskayaArtLav",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/masterskayaArtLav",
+              "count": 4,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/masterskayaArtLav?before=2538",
+              "count": 4,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/masterskayaArtLav?before=2513",
+              "count": 2,
+              "error": null
+            }
+          ],
+          "postsFetched": 10,
+          "postsRead": 3,
+          "readPostIds": [
+            "masterskayaArtLav/2548",
+            "masterskayaArtLav/2549",
+            "masterskayaArtLav/2555"
+          ],
+          "earliest": "2026-10-28T18:19:38+00:00",
+          "latest": "2026-11-09T15:09:08+00:00",
+          "readEarliest": "2026-11-06T13:16:41+00:00",
+          "readLatest": "2026-11-09T15:09:08+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "ErevanRus",
+          "url": "https://t.me/s/ErevanRus",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/ErevanRus",
+              "count": 12,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/ErevanRus?before=7521",
+              "count": 17,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/ErevanRus?before=7500",
+              "count": 16,
+              "error": null
+            }
+          ],
+          "postsFetched": 45,
+          "postsRead": 2,
+          "readPostIds": [
+            "ErevanRus/7540",
+            "ErevanRus/7541"
+          ],
+          "earliest": "2026-10-30T10:03:05+00:00",
+          "latest": "2026-11-11T14:03:00+00:00",
+          "readEarliest": "2026-11-11T12:04:47+00:00",
+          "readLatest": "2026-11-11T14:03:00+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "easygoing_yerevan",
+          "url": "https://t.me/s/easygoing_yerevan",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/easygoing_yerevan",
+              "count": 18,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/easygoing_yerevan?before=12030",
+              "count": 13,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/easygoing_yerevan?before=12010",
+              "count": 17,
+              "error": null
+            }
+          ],
+          "postsFetched": 48,
+          "postsRead": 1,
+          "readPostIds": [
+            "easygoing_yerevan/12050"
+          ],
+          "earliest": "2026-11-05T08:00:36+00:00",
+          "latest": "2026-11-11T17:00:00+00:00",
+          "readEarliest": "2026-11-11T16:55:43+00:00",
+          "readLatest": "2026-11-11T16:55:43+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "uptown_yerevan",
+          "url": "https://t.me/s/uptown_yerevan",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/uptown_yerevan",
+              "count": 7,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/uptown_yerevan?before=7329",
+              "count": 7,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/uptown_yerevan?before=7309",
+              "count": 12,
+              "error": null
+            }
+          ],
+          "postsFetched": 26,
+          "postsRead": 1,
+          "readPostIds": [
+            "uptown_yerevan/7343"
+          ],
+          "earliest": "2026-10-31T09:01:51+00:00",
+          "latest": "2026-11-11T16:01:41+00:00",
+          "readEarliest": "2026-11-11T16:01:41+00:00",
+          "readLatest": "2026-11-11T16:01:41+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "voskey_yerevan",
+          "url": "https://t.me/s/voskey_yerevan",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/voskey_yerevan",
+              "count": 6,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/voskey_yerevan?before=5669",
+              "count": 13,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/voskey_yerevan?before=5646",
+              "count": 13,
+              "error": null
+            }
+          ],
+          "postsFetched": 32,
+          "postsRead": 2,
+          "readPostIds": [
+            "voskey_yerevan/5691",
+            "voskey_yerevan/5692"
+          ],
+          "earliest": "2026-10-13T07:42:14+00:00",
+          "latest": "2026-11-11T18:14:48+00:00",
+          "readEarliest": "2026-11-10T17:57:39+00:00",
+          "readLatest": "2026-11-11T18:14:48+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "malkhasjazzclub",
+          "url": "https://t.me/s/malkhasjazzclub",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/malkhasjazzclub",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/malkhasjazzclub?before=1697",
+              "count": 19,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/malkhasjazzclub?before=1677",
+              "count": 16,
+              "error": null
+            }
+          ],
+          "postsFetched": 55,
+          "postsRead": 2,
+          "readPostIds": [
+            "malkhasjazzclub/1718",
+            "malkhasjazzclub/1719"
+          ],
+          "earliest": "2026-09-04T09:19:03+00:00",
+          "latest": "2026-11-09T08:21:41+00:00",
+          "readEarliest": "2026-11-07T13:52:30+00:00",
+          "readLatest": "2026-11-09T08:21:41+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "wowquiz_evn",
+          "url": "https://t.me/s/wowquiz_evn",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/wowquiz_evn",
+              "count": 8,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/wowquiz_evn?before=1590",
+              "count": 13,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/wowquiz_evn?before=1569",
+              "count": 15,
+              "error": null
+            }
+          ],
+          "postsFetched": 36,
+          "postsRead": 2,
+          "readPostIds": [
+            "wowquiz_evn/1609",
+            "wowquiz_evn/1610"
+          ],
+          "earliest": "2026-08-27T12:35:24+00:00",
+          "latest": "2026-11-11T07:43:02+00:00",
+          "readEarliest": "2026-11-10T15:21:46+00:00",
+          "readLatest": "2026-11-11T07:43:02+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "breakingbreaddd",
+          "url": "https://t.me/s/breakingbreaddd",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/breakingbreaddd",
+              "count": 16,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/breakingbreaddd?before=2454",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/breakingbreaddd?before=2431",
+              "count": 17,
+              "error": null
+            }
+          ],
+          "postsFetched": 53,
+          "postsRead": 2,
+          "readPostIds": [
+            "breakingbreaddd/2472",
+            "breakingbreaddd/2473"
+          ],
+          "earliest": "2026-10-28T09:48:44+00:00",
+          "latest": "2026-11-11T11:24:37+00:00",
+          "readEarliest": "2026-11-11T10:58:47+00:00",
+          "readLatest": "2026-11-11T11:24:37+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "gargoyle_pub",
+          "url": "https://t.me/s/gargoyle_pub",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/gargoyle_pub",
+              "count": 18,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/gargoyle_pub?before=968",
+              "count": 17,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/gargoyle_pub?before=948",
+              "count": 20,
+              "error": null
+            }
+          ],
+          "postsFetched": 55,
+          "postsRead": 2,
+          "readPostIds": [
+            "gargoyle_pub/988",
+            "gargoyle_pub/989"
+          ],
+          "earliest": "2026-08-16T09:38:57+00:00",
+          "latest": "2026-11-10T18:15:45+00:00",
+          "readEarliest": "2026-11-10T18:09:04+00:00",
+          "readLatest": "2026-11-10T18:15:45+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "kruzhokww",
+          "url": "https://t.me/s/kruzhokww",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/kruzhokww",
+              "count": 19,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/kruzhokww?before=649",
+              "count": 17,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/kruzhokww?before=629",
+              "count": 19,
+              "error": null
+            }
+          ],
+          "postsFetched": 55,
+          "postsRead": 1,
+          "readPostIds": [
+            "kruzhokww/670"
+          ],
+          "earliest": "2026-09-01T11:39:41+00:00",
+          "latest": "2026-11-05T12:27:03+00:00",
+          "readEarliest": "2026-11-05T12:27:03+00:00",
+          "readLatest": "2026-11-05T12:27:03+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "tomsarkgham",
+          "url": "https://t.me/s/tomsarkgham",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/tomsarkgham",
+              "count": 2,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/tomsarkgham?before=1563",
+              "count": 4,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/tomsarkgham?before=1537",
+              "count": 3,
+              "error": null
+            }
+          ],
+          "postsFetched": 9,
+          "postsRead": 1,
+          "readPostIds": [
+            "tomsarkgham/1573"
+          ],
+          "earliest": "2026-11-05T06:45:01+00:00",
+          "latest": "2026-11-11T19:40:58+00:00",
+          "readEarliest": "2026-11-11T19:40:58+00:00",
+          "readLatest": "2026-11-11T19:40:58+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "guideyerevan",
+          "url": "https://t.me/s/guideyerevan",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/guideyerevan",
+              "count": 15,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/guideyerevan?before=1569",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/guideyerevan?before=1548",
+              "count": 15,
+              "error": null
+            }
+          ],
+          "postsFetched": 50,
+          "postsRead": 1,
+          "readPostIds": [
+            "guideyerevan/1591"
+          ],
+          "earliest": "2026-09-10T12:06:04+00:00",
+          "latest": "2026-11-11T13:12:01+00:00",
+          "readEarliest": "2026-11-11T13:12:01+00:00",
+          "readLatest": "2026-11-11T13:12:01+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "reaktiv_quiz",
+          "url": "https://t.me/s/reaktiv_quiz",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/reaktiv_quiz",
+              "count": 19,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/reaktiv_quiz?before=234",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/reaktiv_quiz?before=203",
+              "count": 20,
+              "error": null
+            }
+          ],
+          "postsFetched": 59,
+          "postsRead": 1,
+          "readPostIds": [
+            "reaktiv_quiz/254"
+          ],
+          "earliest": "2025-12-24T08:32:50+00:00",
+          "latest": "2026-11-11T12:01:43+00:00",
+          "readEarliest": "2026-11-11T12:01:43+00:00",
+          "readLatest": "2026-11-11T12:01:43+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "yerevannevents",
+          "url": "https://t.me/s/yerevannevents",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/yerevannevents",
+              "count": 12,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/yerevannevents?before=8",
+              "count": 5,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/yerevannevents?after=7",
+              "count": 12,
+              "error": null
+            }
+          ],
+          "postsFetched": 17,
+          "postsRead": 1,
+          "readPostIds": [
+            "yerevannevents/676"
+          ],
+          "earliest": "2023-01-25T08:15:50+00:00",
+          "latest": "2026-11-06T08:49:33+00:00",
+          "readEarliest": "2026-11-06T08:49:33+00:00",
+          "readLatest": "2026-11-06T08:49:33+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "yerevanmunicipality",
+          "url": "https://t.me/s/yerevanmunicipality",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/yerevanmunicipality",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/yerevanmunicipality?before=4738",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/yerevanmunicipality?before=4718",
+              "count": 20,
+              "error": null
+            }
+          ],
+          "postsFetched": 60,
+          "postsRead": 1,
+          "readPostIds": [
+            "yerevanmunicipality/4757"
+          ],
+          "earliest": "2026-10-30T05:04:37+00:00",
+          "latest": "2026-11-11T16:46:54+00:00",
+          "readEarliest": "2026-11-11T16:46:54+00:00",
+          "readLatest": "2026-11-11T16:46:54+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "Afisha_artstudioananas",
+          "url": "https://t.me/s/Afisha_artstudioananas",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/Afisha_artstudioananas",
+              "count": 6,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/Afisha_artstudioananas?before=1835",
+              "count": 6,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/Afisha_artstudioananas?before=1814",
+              "count": 3,
+              "error": null
+            }
+          ],
+          "postsFetched": 15,
+          "postsRead": 1,
+          "readPostIds": [
+            "Afisha_artstudioananas/1854"
+          ],
+          "earliest": "2026-10-09T18:04:41+00:00",
+          "latest": "2026-11-09T17:45:35+00:00",
+          "readEarliest": "2026-11-09T17:45:35+00:00",
+          "readLatest": "2026-11-09T17:45:35+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "YerevanJH",
+          "url": "https://t.me/s/YerevanJH",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/YerevanJH",
+              "count": 7,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/YerevanJH?before=759",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/YerevanJH?before=734",
+              "count": 12,
+              "error": null
+            }
+          ],
+          "postsFetched": 39,
+          "postsRead": 1,
+          "readPostIds": [
+            "YerevanJH/782"
+          ],
+          "earliest": "2026-10-06T05:59:05+00:00",
+          "latest": "2026-11-04T19:09:21+00:00",
+          "readEarliest": "2026-11-04T19:09:21+00:00",
+          "readLatest": "2026-11-04T19:09:21+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "rsgovarmenia",
+          "url": "https://t.me/s/rsgovarmenia",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/rsgovarmenia",
+              "count": 4,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/rsgovarmenia?before=29388",
+              "count": 4,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/rsgovarmenia?before=29368",
+              "count": 3,
+              "error": null
+            }
+          ],
+          "postsFetched": 11,
+          "postsRead": 0,
+          "readPostIds": [],
+          "earliest": "2026-11-07T17:17:37+00:00",
+          "latest": "2026-11-11T10:37:54+00:00",
+          "readEarliest": null,
+          "readLatest": null,
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "dommoskvyerevan",
+          "url": "https://t.me/s/dommoskvyerevan",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/dommoskvyerevan",
+              "count": 9,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/dommoskvyerevan?before=8475",
+              "count": 4,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/dommoskvyerevan?before=8444",
+              "count": 6,
+              "error": null
+            }
+          ],
+          "postsFetched": 19,
+          "postsRead": 1,
+          "readPostIds": [
+            "dommoskvyerevan/8496"
+          ],
+          "earliest": "2026-11-01T17:32:06+00:00",
+          "latest": "2026-11-11T16:03:58+00:00",
+          "readEarliest": "2026-11-11T16:03:58+00:00",
+          "readLatest": "2026-11-11T16:03:58+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "yerevankino",
+          "url": "https://t.me/s/yerevankino",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/yerevankino",
+              "count": 19,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/yerevankino?before=629",
+              "count": 12,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/yerevankino?before=606",
+              "count": 20,
+              "error": null
+            }
+          ],
+          "postsFetched": 51,
+          "postsRead": 1,
+          "readPostIds": [
+            "YerevanKino/649"
+          ],
+          "earliest": "2026-05-20T12:11:56+00:00",
+          "latest": "2026-11-02T08:43:18+00:00",
+          "readEarliest": "2026-11-02T08:43:18+00:00",
+          "readLatest": "2026-11-02T08:43:18+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "cabaretbeats",
+          "url": "https://t.me/s/cabaretbeats",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/cabaretbeats",
+              "count": 18,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/cabaretbeats?before=329",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/cabaretbeats?before=308",
+              "count": 20,
+              "error": null
+            }
+          ],
+          "postsFetched": 58,
+          "postsRead": 1,
+          "readPostIds": [
+            "cabaretbeats/348"
+          ],
+          "earliest": "2026-09-20T21:51:25+00:00",
+          "latest": "2026-11-10T10:09:32+00:00",
+          "readEarliest": "2026-11-10T10:09:32+00:00",
+          "readLatest": "2026-11-10T10:09:32+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "mixer_project",
+          "url": "https://t.me/s/mixer_project",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/mixer_project",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/mixer_project?before=75",
+              "count": 15,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/mixer_project?before=54",
+              "count": 8,
+              "error": null
+            }
+          ],
+          "postsFetched": 43,
+          "postsRead": 1,
+          "readPostIds": [
+            "mixer_project/94"
+          ],
+          "earliest": "2026-04-10T13:15:22+00:00",
+          "latest": "2026-11-04T16:00:21+00:00",
+          "readEarliest": "2026-11-04T16:00:21+00:00",
+          "readLatest": "2026-11-04T16:00:21+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "gooyq_magazine",
+          "url": "https://t.me/s/gooyq_magazine",
+          "pagesRequested": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/gooyq_magazine",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/gooyq_magazine?before=60",
+              "count": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/gooyq_magazine?before=40",
+              "count": 20,
+              "error": null
+            }
+          ],
+          "postsFetched": 60,
+          "postsRead": 1,
+          "readPostIds": [
+            "gooyq_magazine/80"
+          ],
+          "earliest": "2026-07-29T11:04:04+00:00",
+          "latest": "2026-11-11T11:26:04+00:00",
+          "readEarliest": "2026-11-11T11:26:04+00:00",
+          "readLatest": "2026-11-11T11:26:04+00:00",
+          "status": "Enumerated complete texts only; image-only and truncatedposts excluded. Pinned/servicecaptions are textonly, not image verification."
+        },
+        {
+          "channel": "YerevanRun",
+          "url": "https://t.me/s/YerevanRun",
+          "pagesRequested": 1,
+          "pages": [
+            {
+              "url": "https://t.me/s/YerevanRun",
+              "count": 0,
+              "error": null
+            }
+          ],
+          "postsFetched": 0,
+          "postsRead": 0,
+          "readPostIds": [],
+          "earliest": null,
+          "latest": null,
+          "readEarliest": null,
+          "readLatest": null,
+          "status": "No public history"
+        }
+      ],
+      "web": [
+        {
+          "url": "https://newsroom.aua.am/events/",
+          "status": "Currentweekread;Nov17alreadyimported,Nov18onlineexcluded,Nov19outsidewindow."
+        },
+        {
+          "url": "https://www.cmf.am/en/programs-and-events/calendar",
+          "status": "Fetched but no usefuldatedprogramme verified."
+        },
+        {
+          "url": "https://eventix.am/",
+          "status": "SelectedNov16–18cards read, aggregate discovery not primary."
+        },
+        {
+          "url": "https://boheme-theater.am/public/hy/details/list",
+          "status": "Freshofficialtheatrelist confirmsNov17 2026 19:00 and2500AMD."
+        },
+        {
+          "url": "https://www.tomsarkgh.am/en/event/50436/Musikabend.html",
+          "status": "Fullprimaryticketpage read,Nov18Wednesday19:00,3000–5000AMD;year corroborated2026Eventixcard."
+        },
+        {
+          "url": "https://tick.am/am/classical/",
+          "status": "Nov16Kosemyan calendarread,detailnotverified."
+        },
+        {
+          "url": "https://360exp.net/events/4f0d1c16-bd38-4cef-9f96-8aef26b93589",
+          "status": "Discoveryfollowed primaryTomsarkghlink."
+        },
+        {
+          "url": "https://eventix.am/classical/jubilee-concert-alexander-kosemyan-80-2b60db3a-8fdf-4f25-bf28-4a314f1175f1",
+          "status": "Fullaggregatordetail read;exactdate/time/address, organizer attribution."
+        },
+        {
+          "url": "https://eventix.am/theatre/antiquarian-lernik-ade31a5f-42b4-48aa-b0fb-5d6d19505210",
+          "status": "Fullaggregatordetail read;exactdate/time/address, organizer attribution."
+        },
+        {
+          "url": "https://eventix.am/classical/musikabend-12143ba3-d289-4c99-a8a6-689c55399818",
+          "status": "Fullaggregatordetail read;exactdate/time/address, organizer attribution."
+        }
+      ],
+      "duplicates": [
+        {
+          "existingId": "n10-c1b833215be4c1",
+          "reason": "Newprice updates existing session ID."
+        },
+        {
+          "existingId": "n10-9fe7d21482d45c",
+          "reason": "Newprice updates existing session ID."
+        },
+        {
+          "existingId": "n10-f4646c22924971",
+          "reason": "Newprice updates existing session ID."
+        }
+      ]
+    },
+    "belgrade": {
+      "telegram": [
+        {
+          "channel": "auditoria_belgrade",
+          "pagesFetched": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/auditoria_belgrade",
+              "fetched": 17,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/auditoria_belgrade?before=1843",
+              "fetched": 19,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/auditoria_belgrade?before=1823",
+              "fetched": 18,
+              "error": null
+            }
+          ],
+          "fetchedUniqueTextPosts": 54,
+          "actuallyReadTextPosts": 1,
+          "readPostIds": [
+            "auditoria_belgrade/1822"
+          ],
+          "readPublicationRange": [
+            "2026-10-28T12:30:45+00:00",
+            "2026-10-28T12:30:45+00:00"
+          ],
+          "fetchedPublicationRange": [
+            "2026-10-18T12:55:18+00:00",
+            "2026-11-10T19:05:25+00:00"
+          ],
+          "scope": "Selected texts read across fetched history, not all posts read. No posters counted as read.",
+          "postsFetched": 54,
+          "postsRead": 1
+        },
+        {
+          "channel": "triptix_belgrade",
+          "pagesFetched": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/triptix_belgrade",
+              "fetched": 16,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/triptix_belgrade?before=1584",
+              "fetched": 16,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/triptix_belgrade?before=1559",
+              "fetched": 14,
+              "error": null
+            }
+          ],
+          "fetchedUniqueTextPosts": 46,
+          "actuallyReadTextPosts": 1,
+          "readPostIds": [
+            "triptix_belgrade/1558"
+          ],
+          "readPublicationRange": [
+            "2026-08-31T15:49:02+00:00",
+            "2026-08-31T15:49:02+00:00"
+          ],
+          "fetchedPublicationRange": [
+            "2026-07-27T12:07:45+00:00",
+            "2026-11-10T15:11:47+00:00"
+          ],
+          "scope": "Selected texts read across fetched history, not all posts read. No posters counted as read.",
+          "postsFetched": 46,
+          "postsRead": 1
+        },
+        {
+          "channel": "quizpleasebeg",
+          "pagesFetched": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/quizpleasebeg",
+              "fetched": 19,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/quizpleasebeg?before=831",
+              "fetched": 19,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/quizpleasebeg?before=811",
+              "fetched": 19,
+              "error": null
+            }
+          ],
+          "fetchedUniqueTextPosts": 57,
+          "actuallyReadTextPosts": 2,
+          "readPostIds": [
+            "quizpleasebeg/850",
+            "quizpleasebeg/810"
+          ],
+          "readPublicationRange": [
+            "2026-09-16T10:31:18+00:00",
+            "2026-11-11T10:41:01+00:00"
+          ],
+          "fetchedPublicationRange": [
+            "2026-08-26T09:14:26+00:00",
+            "2026-11-11T10:41:01+00:00"
+          ],
+          "scope": "Selected texts read across fetched history, not all posts read. No posters counted as read.",
+          "postsFetched": 57,
+          "postsRead": 2
+        },
+        {
+          "channel": "obitaniya_sreda",
+          "pagesFetched": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/obitaniya_sreda",
+              "fetched": 17,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/obitaniya_sreda?before=2303",
+              "fetched": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/obitaniya_sreda?before=2283",
+              "fetched": 19,
+              "error": null
+            }
+          ],
+          "fetchedUniqueTextPosts": 56,
+          "actuallyReadTextPosts": 2,
+          "readPostIds": [
+            "obitaniya_sreda/2323",
+            "obitaniya_sreda/2282"
+          ],
+          "readPublicationRange": [
+            "2026-10-13T17:19:27+00:00",
+            "2026-11-11T12:38:58+00:00"
+          ],
+          "fetchedPublicationRange": [
+            "2026-09-23T12:39:01+00:00",
+            "2026-11-11T12:38:58+00:00"
+          ],
+          "scope": "Selected texts read across fetched history, not all posts read. No posters counted as read.",
+          "postsFetched": 56,
+          "postsRead": 2
+        },
+        {
+          "channel": "blackcat_beograd",
+          "pagesFetched": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/blackcat_beograd",
+              "fetched": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/blackcat_beograd?before=1515",
+              "fetched": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/blackcat_beograd?before=1491",
+              "fetched": 20,
+              "error": null
+            }
+          ],
+          "fetchedUniqueTextPosts": 60,
+          "actuallyReadTextPosts": 2,
+          "readPostIds": [
+            "blackcat_beograd/1534",
+            "blackcat_beograd/1490"
+          ],
+          "readPublicationRange": [
+            "2026-10-08T16:17:31+00:00",
+            "2026-11-11T17:51:20+00:00"
+          ],
+          "fetchedPublicationRange": [
+            "2026-09-22T13:25:10+00:00",
+            "2026-11-11T17:51:20+00:00"
+          ],
+          "scope": "Selected texts read across fetched history, not all posts read. No posters counted as read.",
+          "postsFetched": 60,
+          "postsRead": 2
+        },
+        {
+          "channel": "vranin_tavan",
+          "pagesFetched": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/vranin_tavan",
+              "fetched": 18,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/vranin_tavan?before=1043",
+              "fetched": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/vranin_tavan?before=1022",
+              "fetched": 20,
+              "error": null
+            }
+          ],
+          "fetchedUniqueTextPosts": 58,
+          "actuallyReadTextPosts": 3,
+          "readPostIds": [
+            "Vranin_Tavan/1061",
+            "Vranin_Tavan/1063",
+            "Vranin_Tavan/1021"
+          ],
+          "readPublicationRange": [
+            "2026-10-19T15:09:01+00:00",
+            "2026-11-11T17:02:09+00:00"
+          ],
+          "fetchedPublicationRange": [
+            "2026-10-03T11:12:52+00:00",
+            "2026-11-11T17:02:09+00:00"
+          ],
+          "scope": "Selected texts read across fetched history, not all posts read. No posters counted as read.",
+          "postsFetched": 58,
+          "postsRead": 3
+        }
+      ],
+      "duplicates": [
+        {
+          "candidate": "morning12-belgrade-blood-clocktower",
+          "existing": [
+            "morning09-belgrade-blackcat-clocktower"
+          ]
+        }
+      ],
+      "fullRegistryChecked": false,
+      "scope": "Partial targeted daily research. No claim allcitysources/allposts checked. No messages, closedchataccess, signup or payment. Prior registries/instructions read in previous daily passes remain applicable; only listed sources revisited today.",
+      "menusChecked": 0,
+      "permanentPlacesAdded": 0,
+      "emptyDayInvestigation": "Nov18 confirmedKCGradparty; existingNov16/17programme preserved.",
+      "sourceChecks": [
+        {
+          "url": "https://bgmanifestacije.rs/",
+          "status": "read; visible programmeSeptemberonly"
+        },
+        {
+          "url": "https://beogradskifestivali.rs/kalendar/",
+          "status": "read; latestlistednightmarketOct8, noNovdate inferred"
+        },
+        {
+          "url": "https://www.meetup.com/bleya-international-meetup/events/",
+          "status": "read; visible0events, indexed2monthsago"
+        },
+        {
+          "url": "https://howtobelgrade.com/sr/events/",
+          "status": "partialread; oldindexedcalendar, noeventdetailconfirmed"
+        },
+        {
+          "url": "https://www.kcgrad.rs/calendar/",
+          "status": "read; Nov12–18programme andaddress"
+        },
+        {
+          "url": "https://stopugroza.rs/locations/sreda-obitaniya/schedule",
+          "status": "read; exactŠafarikova6address,1500RSD,90minutes confirmed"
+        }
+      ],
+      "web": [
+        {
+          "url": "https://bgmanifestacije.rs/",
+          "status": "read; visible programmeSeptemberonly"
+        },
+        {
+          "url": "https://beogradskifestivali.rs/kalendar/",
+          "status": "read; latestlistednightmarketOct8, noNovdate inferred"
+        },
+        {
+          "url": "https://www.meetup.com/bleya-international-meetup/events/",
+          "status": "read; visible0events, indexed2monthsago"
+        },
+        {
+          "url": "https://howtobelgrade.com/sr/events/",
+          "status": "partialread; oldindexedcalendar, noeventdetailconfirmed"
+        },
+        {
+          "url": "https://www.kcgrad.rs/calendar/",
+          "status": "read; Nov12–18programme andaddress"
+        },
+        {
+          "url": "https://stopugroza.rs/locations/sreda-obitaniya/schedule",
+          "status": "read; exactŠafarikova6address,1500RSD,90minutes confirmed"
+        }
+      ]
+    },
+    "moscow": {
+      "telegram": [
+        {
+          "channel": "centrezotov",
+          "pagesFetched": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/centrezotov",
+              "fetched": 7,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/centrezotov?before=10300",
+              "fetched": 9,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/centrezotov?before=10278",
+              "fetched": 9,
+              "error": null
+            }
+          ],
+          "fetchedUniqueTextPosts": 25,
+          "actuallyReadTextPosts": 4,
+          "readPostIds": [
+            "centrezotov/10315",
+            "centrezotov/10320",
+            "centrezotov/10322",
+            "centrezotov/10276"
+          ],
+          "readPublicationRange": [
+            "2026-11-06T07:51:15+00:00",
+            "2026-11-11T15:22:19+00:00"
+          ],
+          "fetchedPublicationRange": [
+            "2026-11-03T13:20:51+00:00",
+            "2026-11-11T15:22:19+00:00"
+          ],
+          "scope": "Selected texts read across fetched history, not all posts read. No posters counted as read.",
+          "postsFetched": 25,
+          "postsRead": 4
+        },
+        {
+          "channel": "privetpoidem",
+          "pagesFetched": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/privetpoidem",
+              "fetched": 7,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/privetpoidem?before=28351",
+              "fetched": 7,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/privetpoidem?before=28322",
+              "fetched": 5,
+              "error": null
+            }
+          ],
+          "fetchedUniqueTextPosts": 19,
+          "actuallyReadTextPosts": 4,
+          "readPostIds": [
+            "privetpoidem/28370",
+            "privetpoidem/28371",
+            "privetpoidem/28373",
+            "privetpoidem/28316"
+          ],
+          "readPublicationRange": [
+            "2026-11-06T12:08:28+00:00",
+            "2026-11-11T16:26:35+00:00"
+          ],
+          "fetchedPublicationRange": [
+            "2026-11-05T08:45:07+00:00",
+            "2026-11-11T16:26:35+00:00"
+          ],
+          "scope": "Selected texts read across fetched history, not all posts read. No posters counted as read.",
+          "postsFetched": 19,
+          "postsRead": 4
+        },
+        {
+          "channel": "Hlebozavod9",
+          "pagesFetched": 3,
+          "pages": [
+            {
+              "url": "https://t.me/s/Hlebozavod9",
+              "fetched": 8,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/Hlebozavod9?before=5337",
+              "fetched": 7,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/Hlebozavod9?before=5313",
+              "fetched": 3,
+              "error": null
+            }
+          ],
+          "fetchedUniqueTextPosts": 18,
+          "actuallyReadTextPosts": 3,
+          "readPostIds": [
+            "Hlebozavod9/5360",
+            "Hlebozavod9/5361",
+            "Hlebozavod9/5306"
+          ],
+          "readPublicationRange": [
+            "2026-10-21T11:00:15+00:00",
+            "2026-11-11T16:05:32+00:00"
+          ],
+          "fetchedPublicationRange": [
+            "2026-10-15T15:01:00+00:00",
+            "2026-11-11T16:05:32+00:00"
+          ],
+          "scope": "Selected texts read across fetched history, not all posts read. No posters counted as read.",
+          "postsFetched": 18,
+          "postsRead": 3
+        }
+      ],
+      "duplicates": [],
+      "fullRegistryChecked": false,
+      "scope": "Partial targeted daily research. No claim allcitysources/allposts checked. No messages, closedchataccess, signup or payment. Prior registries/instructions read in previous daily passes remain applicable; only listed sources revisited today.",
+      "menusChecked": 0,
+      "permanentPlacesAdded": 0,
+      "emptyDayInvestigation": "Nov18GES2workshop confirmed; advertised childrencourse excluded because registrationclosed.",
+      "sourceChecks": [
+        {
+          "url": "https://ges-2.org/calendar?date=2026-11-18",
+          "status": "read; officialdated2026calendar"
+        },
+        {
+          "url": "https://ges-2.org/vaults-masterclass-in-silkscreen-printing",
+          "status": "read;4000RUBmaterials included18+participation"
+        },
+        {
+          "url": "https://ges-2.org/how-to-control-chaos",
+          "status": "read;registrationclosed"
+        },
+        {
+          "url": "https://mos-razvitie.ru/afisha/",
+          "status": "cachemiss"
+        },
+        {
+          "url": "https://mestobe.timepad.ru/",
+          "status": "CAPTCHA;notbypassed"
+        },
+        {
+          "url": "https://synchronize-event.timepad.ru/",
+          "status": "400BadRequest"
+        },
+        {
+          "url": "https://centrezotov.ru/events/eho-36-go-mezhdunarodnogo-kinofestivalya-poslanie-k-cheloveku/sczeny-iz-kapitala/",
+          "status": "read;15.11.26 17:00,18+,Q&A confirmed"
+        }
+      ],
+      "web": [
+        {
+          "url": "https://ges-2.org/calendar?date=2026-11-18",
+          "status": "read; officialdated2026calendar"
+        },
+        {
+          "url": "https://ges-2.org/vaults-masterclass-in-silkscreen-printing",
+          "status": "read;4000RUBmaterials included18+participation"
+        },
+        {
+          "url": "https://ges-2.org/how-to-control-chaos",
+          "status": "read;registrationclosed"
+        },
+        {
+          "url": "https://mos-razvitie.ru/afisha/",
+          "status": "cachemiss"
+        },
+        {
+          "url": "https://mestobe.timepad.ru/",
+          "status": "CAPTCHA;notbypassed"
+        },
+        {
+          "url": "https://synchronize-event.timepad.ru/",
+          "status": "400BadRequest"
+        },
+        {
+          "url": "https://centrezotov.ru/events/eho-36-go-mezhdunarodnogo-kinofestivalya-poslanie-k-cheloveku/sczeny-iz-kapitala/",
+          "status": "read;15.11.26 17:00,18+,Q&A confirmed"
+        }
+      ]
+    },
+    "barcelona": {
+      "web": [
+        {
+          "url": "https://guia.barcelona.cat/en/detall/diada-de-les-tecnologies-de-la-informacio-i-la-comunicacio-2026_99400187622.html",
+          "status": "Fresh programme detail and explicit official coordinate pin read.",
+          "evidenceFile": "bcn-99400187622.html"
+        },
+        {
+          "url": "https://guia.barcelona.cat/en/detall/xx-forum-de-l-economia-de-l-aigua_99400790137.html",
+          "status": "Fresh programme detail and explicit official coordinate pin read.",
+          "evidenceFile": "bcn-99400790137.html"
+        },
+        {
+          "url": "https://guia.barcelona.cat/en/detall/podcast-guarres-3a-temporada-capitol-3_99400789671.html",
+          "status": "Fresh programme detail and explicit official coordinate pin read.",
+          "evidenceFile": "bcn-99400789671.html"
+        },
+        {
+          "url": "https://guia.barcelona.cat/en/detall/exposicio-arrelats-histories-del-comerc-al-poble-sec_99400729548.html",
+          "status": "Fresh programme detail and explicit official coordinate pin read.",
+          "evidenceFile": "bcn-99400729548.html"
+        },
+        {
+          "url": "https://guia.barcelona.cat/en/detall/estudis-superiors-a-la-xina_99400722512.html",
+          "status": "Fresh programme detail and explicit official coordinate pin read.",
+          "evidenceFile": "bcn-99400722512.html"
+        },
+        {
+          "url": "https://www.instagram.com/bcn_sostenible/",
+          "status": "Cache miss; not read."
+        },
+        {
+          "url": "https://bcnenlasalturas.com/",
+          "status": "Web inaccessible; not read."
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/BcnAjuntament",
+          "handle": "BcnAjuntament",
+          "pages": [
+            {
+              "url": "https://t.me/s/BcnAjuntament",
+              "fetched": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/BcnAjuntament?before=1137",
+              "fetched": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/BcnAjuntament?before=1115",
+              "fetched": 20,
+              "error": null
+            }
+          ],
+          "fetched": 60,
+          "fullyRead": 2,
+          "readPostIds": [
+            "BcnAjuntament/1159",
+            "BcnAjuntament/1095"
+          ],
+          "publicationDateRange": [
+            "2026-08-28T11:25:37+00:00",
+            "2026-11-06T10:38:40+00:00"
+          ],
+          "readPublicationDateRange": [
+            "2026-08-28T11:25:37+00:00",
+            "2026-11-06T10:38:40+00:00"
+          ],
+          "notes": "Only newest/oldest selected posts read; remaining downloaded history not claimed reviewed.",
+          "postsFetched": 60,
+          "postsRead": 2
+        },
+        {
+          "url": "https://t.me/s/bcn_afisha",
+          "handle": "bcn_afisha",
+          "pages": [
+            {
+              "url": "https://t.me/s/bcn_afisha",
+              "fetched": 19,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/bcn_afisha?before=4980",
+              "fetched": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/bcn_afisha?before=4960",
+              "fetched": 18,
+              "error": null
+            }
+          ],
+          "fetched": 57,
+          "fullyRead": 2,
+          "readPostIds": [
+            "bcn_afisha/4999",
+            "bcn_afisha/4939"
+          ],
+          "publicationDateRange": [
+            "2026-10-29T21:07:38+00:00",
+            "2026-11-11T16:33:09+00:00"
+          ],
+          "readPublicationDateRange": [
+            "2026-10-29T21:07:38+00:00",
+            "2026-11-11T16:33:09+00:00"
+          ],
+          "notes": "Only newest/oldest selected posts read; remaining downloaded history not claimed reviewed.",
+          "postsFetched": 57,
+          "postsRead": 2
+        },
+        {
+          "url": "https://t.me/s/barca",
+          "handle": "barca",
+          "pages": [
+            {
+              "url": "https://t.me/s/barca",
+              "fetched": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/barca?before=126",
+              "fetched": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/barca?before=103",
+              "fetched": 16,
+              "error": null
+            }
+          ],
+          "fetched": 56,
+          "fullyRead": 2,
+          "readPostIds": [
+            "barca/146",
+            "barca/81"
+          ],
+          "publicationDateRange": [
+            "2026-01-12T08:51:01+00:00",
+            "2026-11-09T05:14:58+00:00"
+          ],
+          "readPublicationDateRange": [
+            "2026-01-12T08:51:01+00:00",
+            "2026-11-09T05:14:58+00:00"
+          ],
+          "notes": "Only newest/oldest selected posts read; remaining downloaded history not claimed reviewed.",
+          "postsFetched": 56,
+          "postsRead": 2
+        }
+      ],
+      "duplicates": []
+    },
+    "madrid": {
+      "web": [
+        {
+          "url": "https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json",
+          "status": "Fresh catalogue;37November18records fully read. Machine comparison of existing horizon start times found only expected second baby-story session difference; no correction applied. No full cancellation review claim.",
+          "fullyReadRecords": 37,
+          "readRecordIds": [
+            "50455410",
+            "50468302",
+            "50441056",
+            "50446591",
+            "50471208",
+            "50483050",
+            "50481141",
+            "50468148",
+            "50481090",
+            "50446593",
+            "50463652",
+            "50471203",
+            "50471199",
+            "50464546",
+            "50477512",
+            "50473994",
+            "50464434",
+            "50468102",
+            "12409775",
+            "50457770",
+            "50477147",
+            "50470206",
+            "50469620",
+            "50402511",
+            "50466893",
+            "50173958",
+            "50472203",
+            "50477697",
+            "50483170",
+            "50477698",
+            "50483164",
+            "50471284",
+            "50202901",
+            "50403603",
+            "50464410",
+            "50480982",
+            "50408999"
+          ],
+          "evidenceFile": "madrid-selected.json"
+        },
+        {
+          "url": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a5f52b6913e51a10VgnVCM200000f921e388RCRD",
+          "status": "Additional human-page access attempt failed in web. Public entry evidence is fresh official JSON catalogue (audience Niños,PoblaciónGeneral; explicit free first-come admission)."
+        }
+      ],
+      "telegram": [
+        {
+          "url": "https://t.me/s/madrid_gorit",
+          "handle": "madrid_gorit",
+          "pages": [
+            {
+              "url": "https://t.me/s/madrid_gorit",
+              "fetched": 14,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/madrid_gorit?before=3697",
+              "fetched": 7,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/madrid_gorit?before=3674",
+              "fetched": 15,
+              "error": null
+            }
+          ],
+          "fetched": 36,
+          "fullyRead": 2,
+          "readPostIds": [
+            "madrid_gorit/3719",
+            "madrid_gorit/3649"
+          ],
+          "publicationDateRange": [
+            "2026-10-27T17:45:18+00:00",
+            "2026-11-11T16:50:46+00:00"
+          ],
+          "readPublicationDateRange": [
+            "2026-10-27T17:45:18+00:00",
+            "2026-11-11T16:50:46+00:00"
+          ],
+          "notes": "Only newest/oldest selected posts read; remaining downloaded history not claimed reviewed.",
+          "postsFetched": 36,
+          "postsRead": 2
+        },
+        {
+          "url": "https://t.me/s/HoyMadridApp",
+          "handle": "HoyMadridApp",
+          "pages": [
+            {
+              "url": "https://t.me/s/HoyMadridApp",
+              "fetched": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/HoyMadridApp?before=1404",
+              "fetched": 20,
+              "error": null
+            },
+            {
+              "url": "https://t.me/s/HoyMadridApp?before=1384",
+              "fetched": 20,
+              "error": null
+            }
+          ],
+          "fetched": 60,
+          "fullyRead": 2,
+          "readPostIds": [
+            "HoyMadridApp/1423",
+            "HoyMadridApp/1364"
+          ],
+          "publicationDateRange": [
+            "2026-10-18T09:49:38+00:00",
+            "2026-11-11T16:34:29+00:00"
+          ],
+          "readPublicationDateRange": [
+            "2026-10-18T09:49:38+00:00",
+            "2026-11-11T16:34:29+00:00"
+          ],
+          "notes": "Only newest/oldest selected posts read; remaining downloaded history not claimed reviewed.",
+          "postsFetched": 60,
+          "postsRead": 2
+        }
+      ],
+      "duplicates": []
+    }
+  }
+}

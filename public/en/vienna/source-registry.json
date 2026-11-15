@@ -2089,6 +2089,50 @@
       "checkedAt": "2026-10-15T08:48:41.274199+00:00",
       "eventRelevance": "Vienna Drag Festival — opening party",
       "languages": []
+    },
+    {
+      "id": "vie-wienmuseum-3344-20261112-1500-official-detail",
+      "name": "Wien Museum — Talent trifft Chance – Infobörse",
+      "url": "https://www.wienmuseum.at/event/3344",
+      "checkedAt": "2026-11-06T03:50:41Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "One explicitly dated occurrence. Venue/campus precision retained; no additional recurrence inferred."
+    },
+    {
+      "id": "vie-mq-winter-opening-20261112-1800-official-detail",
+      "name": "MuseumsQuartier Wien — Eröffnung: Winter im MQ — sanna frankie, Culk and DJ set",
+      "url": "https://www.mqw.at/de/programm/winter-im-mq/winter-im-mq-2026/",
+      "checkedAt": "2026-11-06T03:50:41Z",
+      "status": "imported",
+      "accessStatus": "public_http_200_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "One explicitly dated occurrence. Venue/campus precision retained; no additional recurrence inferred."
+    },
+    {
+      "id": "vie-andre-rieu-20261107-1930-primary-detail",
+      "name": "Wiener Stadthalle / André Rieu — André Rieu",
+      "url": "https://www.stadthalle.com/en/events/all-events/51195/Andre-Rieu",
+      "checkedAt": "2026-11-06T04:32:08Z",
+      "status": "imported",
+      "accessStatus": "public_primary_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence. Performance/support times kept distinct from doors; remaining ticket availability is not guaranteed."
+    },
+    {
+      "id": "vie-placebo-support-20261110-2000-primary-detail",
+      "name": "Wiener Stadthalle — detailed running order — Placebo — 30th Anniversary Tour",
+      "url": "https://www.stadthalle.com/de/events/alle-events/51342/Placebo",
+      "checkedAt": "2026-11-06T04:32:08Z",
+      "status": "imported",
+      "accessStatus": "public_primary_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence. Performance/support times kept distinct from doors; remaining ticket availability is not guaranteed."
     }
   ],
   "telegramSummary": {
@@ -2097,5 +2141,12 @@
     "postsFetched": 561,
     "postsRead": 43
   },
-  "note": "Source discovery and imported event records are separate. Instagram post histories were not inspected."
+  "note": "Source discovery and imported event records are separate. Instagram post histories were not inspected.",
+  "lastPartialRefresh": {
+    "batch": "oslo-vienna-dublin-primary-20261106",
+    "baseCommit": "9a4cfeb7e2fae6ad9eb46230b272c3ae348da29f",
+    "at": "2026-11-06T04:32:08Z",
+    "addedOccurrences": 2,
+    "coverage": "Partial primary-source additions; unresolved and sold-out candidates not imported."
+  }
 }

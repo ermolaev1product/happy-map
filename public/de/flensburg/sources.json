@@ -39,7 +39,225 @@
       "type": "website",
       "status": "reviewed",
       "checkedAt": "2026-10-14T11:57:06.929262+00:00",
-      "notes": "Source page researched. Only individually checked listings are imported; this is not a complete city calendar."
+      "notes": "Source page researched. Only individually checked listings are imported; this is not a complete city calendar.",
+      "researchObservations": [
+        {
+          "id": "obs-history-cb67f0dc5ddcb795f5640b14",
+          "cityId": "flensburg",
+          "sourceUrl": "https://museen-flensburg.de/termine/details/1438",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_dated_announcement",
+          "readDepth": "partial_announcement",
+          "summary": "Official individual announcement read for 2026-11-12 at 18:00; published venue and applicable admission evidence were checked selectively. The retained packet does not establish a full body or full calendar read. Unpublished end times and availability remain unknown.",
+          "dateHorizon": {
+            "startDate": "2026-11-12",
+            "endDate": "2026-11-12",
+            "dates": [
+              "2026-11-12"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "fl-verified-moin-berlin-20261112"
+          ],
+          "evidenceSourceURL": "https://museen-flensburg.de/termine/details/1438",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:13:00Z",
+          "evidenceSourceURLs": [
+            "https://museen-flensburg.de/termine/details/1438",
+            "https://museen-flensburg.de/besuch"
+          ]
+        },
+        {
+          "id": "obs-history-23a1edb3ad46374aa498ded6",
+          "cityId": "flensburg",
+          "sourceUrl": "https://museen-flensburg.de/termine/details/1423",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_dated_announcement",
+          "readDepth": "partial_announcement",
+          "summary": "Official individual announcement read for 2026-11-12 at 19:00; published venue and applicable admission evidence were checked selectively. The retained packet does not establish a full body or full calendar read. Unpublished end times and availability remain unknown.",
+          "dateHorizon": {
+            "startDate": "2026-11-12",
+            "endDate": "2026-11-12",
+            "dates": [
+              "2026-11-12"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "fl-verified-was-arbeit-erzaehlt-20261112"
+          ],
+          "evidenceSourceURL": "https://museen-flensburg.de/termine/details/1423",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:13:00Z",
+          "evidenceSourceURLs": [
+            "https://museen-flensburg.de/termine/details/1423",
+            "https://museen-flensburg.de/besuch"
+          ]
+        },
+        {
+          "id": "obs-history-433863086f666fec3f7fd44d",
+          "cityId": "flensburg",
+          "sourceUrl": "https://museen-flensburg.de/termine/details/790",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_dated_announcement",
+          "readDepth": "partial_announcement",
+          "summary": "Official individual announcement read for 2026-11-14 at 10:00; published venue and applicable admission evidence were checked selectively. The retained packet does not establish a full body or full calendar read. Unpublished end times and availability remain unknown.",
+          "dateHorizon": {
+            "startDate": "2026-11-14",
+            "endDate": "2026-11-14",
+            "dates": [
+              "2026-11-14"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "fl-verified-kartonmodellbau-20261114"
+          ],
+          "evidenceSourceURL": "https://museen-flensburg.de/termine/details/790",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:13:00Z",
+          "evidenceSourceURLs": [
+            "https://museen-flensburg.de/termine/details/790",
+            "https://museen-flensburg.de/besuch"
+          ]
+        },
+        {
+          "id": "obs-history-9e3cd5e6d612b87a2e43bea8",
+          "cityId": "flensburg",
+          "sourceUrl": "https://museen-flensburg.de/termine/details/1261",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_dated_announcement",
+          "readDepth": "partial_announcement",
+          "summary": "Official individual announcement read for 2026-11-15 at 11:00; published venue and applicable admission evidence were checked selectively. The retained packet does not establish a full body or full calendar read. Unpublished end times and availability remain unknown.",
+          "dateHorizon": {
+            "startDate": "2026-11-15",
+            "endDate": "2026-11-15",
+            "dates": [
+              "2026-11-15"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "fl-verified-sonntags-atelier-jugendstil-20261115"
+          ],
+          "evidenceSourceURL": "https://museen-flensburg.de/termine/details/1261",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:13:00Z",
+          "evidenceSourceURLs": [
+            "https://museen-flensburg.de/termine/details/1261",
+            "https://museen-flensburg.de/besuch"
+          ]
+        },
+        {
+          "id": "obs-history-a564a721bd8da145441ff190",
+          "cityId": "flensburg",
+          "sourceUrl": "https://museen-flensburg.de/termine/details/1441",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_dated_announcement",
+          "readDepth": "partial_announcement",
+          "summary": "Official individual announcement read for 2026-11-15 at 11:30; published venue and applicable admission evidence were checked selectively. The retained packet does not establish a full body or full calendar read. Unpublished end times and availability remain unknown.",
+          "dateHorizon": {
+            "startDate": "2026-11-15",
+            "endDate": "2026-11-15",
+            "dates": [
+              "2026-11-15"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "fl-verified-nidden-vernissage-20261115"
+          ],
+          "evidenceSourceURL": "https://museen-flensburg.de/termine/details/1441",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:13:00Z",
+          "evidenceSourceURLs": [
+            "https://museen-flensburg.de/termine/details/1441",
+            "https://museen-flensburg.de/besuch"
+          ]
+        },
+        {
+          "id": "obs-history-3ec548462b674bebf0b23152",
+          "cityId": "flensburg",
+          "sourceUrl": "https://museen-flensburg.de/termine/details/1095",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_dated_announcement",
+          "readDepth": "partial_announcement",
+          "summary": "Official individual announcement read for 2026-11-17 at 19:30; published venue and applicable admission evidence were checked selectively. The retained packet does not establish a full body or full calendar read. Unpublished end times and availability remain unknown.",
+          "dateHorizon": {
+            "startDate": "2026-11-17",
+            "endDate": "2026-11-17",
+            "dates": [
+              "2026-11-17"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "fl-verified-eiszeit-bjoerken-20261117"
+          ],
+          "evidenceSourceURL": "https://museen-flensburg.de/termine/details/1095",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:13:00Z",
+          "evidenceSourceURLs": [
+            "https://museen-flensburg.de/termine/details/1095",
+            "https://naturwissenschaftliches-museum.de/eiszeithaus"
+          ]
+        }
+      ]
     },
     {
       "name": "Events-Flensburg",
@@ -51,10 +269,155 @@
       "checkedAt": "2026-10-14T12:58:00Z",
       "notes": "Selected official dated performances checked, with door/start distinctions, price fees and cancellation/sold-out holds.",
       "importedCount": 23,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
-      "automatedParserInstalled": false
+      "automatedParserInstalled": false,
+      "researchObservations": [
+        {
+          "id": "obs-history-00e9d9b2bbbc7a96b110e769",
+          "cityId": "flensburg",
+          "sourceUrl": "https://www.events-flensburg.de/event-infos.php?event=3641",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_dated_announcement",
+          "readDepth": "partial_announcement",
+          "summary": "Official individual announcement read for 2026-11-14 at 19:00; published venue and applicable admission evidence were checked selectively. The retained packet does not establish a full body or full calendar read. Unpublished end times and availability remain unknown.",
+          "dateHorizon": {
+            "startDate": "2026-11-14",
+            "endDate": "2026-11-14",
+            "dates": [
+              "2026-11-14"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "fl-verified-bachchor-jahreszeiten-20261114"
+          ],
+          "evidenceSourceURL": "https://www.events-flensburg.de/event-infos.php?event=3641",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:13:00Z",
+          "evidenceSourceURLs": [
+            "https://www.events-flensburg.de/event-infos.php?event=3641",
+            "https://www.events-flensburg.de/anreise-und-aufenthalt/"
+          ]
+        },
+        {
+          "id": "obs-history-8407b89f2db6eec3c8b140f5",
+          "cityId": "flensburg",
+          "sourceUrl": "https://www.events-flensburg.de/event-infos.php?event=3532",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_dated_announcement",
+          "readDepth": "partial_announcement",
+          "summary": "Official individual announcement read for 2026-11-14 at 20:00; published venue and applicable admission evidence were checked selectively. The retained packet does not establish a full body or full calendar read. Unpublished end times and availability remain unknown.",
+          "dateHorizon": {
+            "startDate": "2026-11-14",
+            "endDate": "2026-11-14",
+            "dates": [
+              "2026-11-14"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "fl-verified-kerstin-bogensee-20261114"
+          ],
+          "evidenceSourceURL": "https://www.events-flensburg.de/event-infos.php?event=3532",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:13:00Z",
+          "evidenceSourceURLs": [
+            "https://www.events-flensburg.de/event-infos.php?event=3532",
+            "https://www.events-flensburg.de/anreise-und-aufenthalt/",
+            "https://www.events-flensburg.de/veranstalter/"
+          ]
+        },
+        {
+          "id": "obs-history-5a350ffc33d3d64788365271",
+          "cityId": "flensburg",
+          "sourceUrl": "https://www.events-flensburg.de/event-infos.php?event=3496",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_dated_announcement",
+          "readDepth": "partial_announcement",
+          "summary": "Official individual announcement read for 2026-11-14 at 22:00; published venue and applicable admission evidence were checked selectively. The retained packet does not establish a full body or full calendar read. Unpublished end times and availability remain unknown.",
+          "dateHorizon": {
+            "startDate": "2026-11-14",
+            "endDate": "2026-11-14",
+            "dates": [
+              "2026-11-14"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "fl-verified-back2dock-20261114"
+          ],
+          "evidenceSourceURL": "https://www.events-flensburg.de/event-infos.php?event=3496",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:13:00Z",
+          "evidenceSourceURLs": [
+            "https://www.events-flensburg.de/event-infos.php?event=3496",
+            "https://www.events-flensburg.de/event-infos.php?event=3342"
+          ]
+        },
+        {
+          "id": "obs-history-3d284ac7fc6fc043755119bc",
+          "cityId": "flensburg",
+          "sourceUrl": "https://www.events-flensburg.de/event-infos.php?event=3378",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_dated_announcement",
+          "readDepth": "partial_announcement",
+          "summary": "Official individual announcement read for 2026-11-18 at 20:00; published venue and applicable admission evidence were checked selectively. The retained packet does not establish a full body or full calendar read. Unpublished end times and availability remain unknown.",
+          "dateHorizon": {
+            "startDate": "2026-11-18",
+            "endDate": "2026-11-18",
+            "dates": [
+              "2026-11-18"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "fl-verified-mighty-oaks-20261118"
+          ],
+          "evidenceSourceURL": "https://www.events-flensburg.de/event-infos.php?event=3378",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:13:00Z",
+          "evidenceSourceURLs": [
+            "https://www.events-flensburg.de/event-infos.php?event=3378",
+            "https://www.ticketmaster.de/event/mighty-oaks-tour-2026-tickets/1981824756",
+            "https://www.events-flensburg.de/anreise-und-aufenthalt/"
+          ]
+        }
+      ]
     },
     {
       "name": "Kühlhaus",
@@ -66,10 +429,39 @@
       "checkedAt": "2026-10-14T12:58:00Z",
       "notes": "Selected official dated performances checked, with door/start distinctions, price fees and cancellation/sold-out holds.",
       "importedCount": 13,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
-      "automatedParserInstalled": false
+      "automatedParserInstalled": false,
+      "researchObservations": [
+        {
+          "id": "obs-history-6045206e24b0260cd6254027",
+          "cityId": "flensburg",
+          "sourceUrl": "https://kuehlhaus.net/",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_programme_cancellation",
+          "readDepth": "partial_announcement",
+          "summary": "Official current venue program explicitly marks ABGESAGT. Not present as a matching active record in the existing catalog; no patch needed.",
+          "dateHorizon": {
+            "startDate": "2026-11-18",
+            "endDate": "2026-11-18",
+            "dates": [
+              "2026-11-18"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "excluded_cancelled",
+          "eventIds": [],
+          "evidenceSourceURL": "https://kuehlhaus.net/",
+          "nextAction": "Retain the cancellation; check the official programme for different upcoming announcements.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:13:00Z"
+        }
+      ]
     },
     {
       "name": "Hochschule Flensburg",
@@ -324,9 +716,6 @@
       "newDirectEventSource": true,
       "sourceNovelty": "existing-organizer-new-verified-events",
       "importedCount": 23,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -339,9 +728,6 @@
       "checkedAt": "2026-10-14T12:58:00Z",
       "notes": "Selected official dated performances checked, with door/start distinctions, price fees and cancellation/sold-out holds.",
       "importedCount": 2,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -418,9 +804,6 @@
       "notes": "Fresh direct page fetch succeeds when web cached detail fetch reports cache miss. Explicit room, prices and event dates reviewed.",
       "sourceNovelty": "existing-municipal-provider-new-direct-stream",
       "importedCount": 11,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -436,9 +819,6 @@
       "notes": "Separate Museumsberg museum from Eiszeit-Haus; source footer address is not event venue. Registration deadlines and event-specific prices verified.",
       "sourceNovelty": "existing-municipal-provider-new-direct-stream",
       "importedCount": 8,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -454,9 +834,6 @@
       "notes": "New direct event stream; previous catalogue only linked a calendar directory. Individual event datetime attributes checked; separate 13:00/15:00 sessions preserved; possible reading-session aliases held.",
       "sourceNovelty": "existing-organizer-new-direct-event-stream",
       "importedCount": 20,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -472,9 +849,6 @@
       "notes": "New main calendar compared with former international-only catalogue. Only explicit public events imported; student-only listings held. Additional Nov/Dec lecture detail candidates remain.",
       "sourceNovelty": "existing-organizer-new-main-calendar",
       "importedCount": 5,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -490,9 +864,6 @@
       "notes": "Organizer-provided Flensborghus events individually verified. Regional entries outside Flensburg excluded; genuinely new domain in baseline catalogue.",
       "sourceNovelty": "new-source-not-in-baseline",
       "importedCount": 1,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -508,9 +879,6 @@
       "notes": "Public announcement mirror supports upcoming Flensborghus concert. Some /facebook/post routes inaccessible through web; indexed /de/feed-arkiv/post route verified.",
       "sourceNovelty": "new-organizer-not-in-baseline",
       "importedCount": 1,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -526,9 +894,6 @@
       "notes": "Upcoming dates found; exact event venue/access details not resolved, no event imported.",
       "sourceNovelty": "new-source-not-in-baseline",
       "importedCount": 0,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -544,9 +909,6 @@
       "notes": "Public calendar opens; no detail import in this pass.",
       "sourceNovelty": "existing-or-alternative-access-point",
       "importedCount": 0,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -562,9 +924,6 @@
       "notes": "Web cache miss; actual library event pages supplied public dates/prices instead. No checkout/account action.",
       "sourceNovelty": "existing-or-alternative-access-point",
       "importedCount": 0,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -580,9 +939,6 @@
       "sourceNovelty": "new-organizer-not-in-baseline",
       "notes": "Genuinely absent from baseline 38-source catalogue. Explicit 2026 exhibition dates, venue address and weekly hours verified.",
       "importedCount": 2,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -598,9 +954,6 @@
       "sourceNovelty": "new-organizer-not-in-baseline",
       "notes": "Genuinely absent from baseline 38-source catalogue. Explicit 2026 exhibition dates, venue address and weekly hours verified.",
       "importedCount": 1,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -614,9 +967,6 @@
       "count": 54,
       "notes": "54 individually dated cinema sessions through 4 November 2026. 25 detail pages also read; remaining dates and times confirmed by official programme rows and year-bearing session links. No sessions were extrapolated beyond the published programme. Standard tariffs, not ticket availability, verified separately.",
       "importedCount": 54,
-      "scheduledCheck": true,
-      "scheduledCheckTimezone": "Asia/Tbilisi",
-      "scheduledCheckTime": "09:00",
       "automatedParserInstalled": false
     },
     {
@@ -660,11 +1010,5 @@
       "notes": "City boundary extraction of bakeries, culture, leisure and shops.248 additional places; snapshot13October2026. ODbL1.0; directory status is not a guarantee of current opening."
     }
   ],
-  "researchedAt": "2026-10-14T13:08:03.545780+00:00",
-  "scheduledCheck": {
-    "enabled": true,
-    "time": "09:00",
-    "timezone": "Asia/Tbilisi",
-    "scope": "Daily source check including Flensburg; publication only after verification"
-  }
+  "researchedAt": "2026-10-14T13:08:03.545780+00:00"
 }

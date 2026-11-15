@@ -13637,11 +13637,11 @@
     {
       "id": "prague-8ad0db6c726a3137",
       "kind": "event",
-      "title": "Rudolf Firkušný Piano Festival 2026 — Lukas Sternath",
+      "title": "Rudolf Firkušný Piano Festival 2026 — Bruce Liu",
       "venue": "Rudolfinum",
       "venueId": "prague-6d80e7467611",
       "address": "Alšovo nábřeží 79/12, 110 00, Staré Město, Praha 1",
-      "description": "Classical music at Rudolfinum.",
+      "description": "Bruce Liu replaces Lukas Sternath, who cannot perform due to sudden indisposition. Programme: Liszt transcriptions of Schubert songs; Liszt Années de pèlerinage, Second Year: Italy; Schubert Wanderer Fantasy.",
       "date": "2026-11-05",
       "time": "19:30",
       "endDate": null,
@@ -13657,7 +13657,7 @@
         "https://prague.eu/en/akce/rudolf-firkusny-piano-festival-2026-lukas-sternath/",
         "https://prague.eu/en/akce-kategorie/events/"
       ],
-      "checkedAt": "2026-10-29T20:54:06.790124+00:00",
+      "checkedAt": "2026-11-05T05:13:59.908Z",
       "yearEvidence": "Individual detail data-date_list explicitly publishes start 05/11/2026 19:30 and end 05/11/2026 23:59, with corresponding user-facing display format. Original years and interval boundaries are preserved.",
       "price": null,
       "currency": "CZK",
@@ -13670,7 +13670,9 @@
       "timeOfDayEligible": true,
       "city": "Prague",
       "cityId": "prague",
-      "coordinateCheckedAt": "2026-10-29T20:53:15.778734+00:00"
+      "coordinateCheckedAt": "2026-10-29T20:53:15.778734+00:00",
+      "editorialUpdatedAt": "2026-11-05T05:23:02.045721+00:00",
+      "changeNote": "Official city announcement names Bruce Liu as replacement for Lukas Sternath."
     },
     {
       "id": "prague-77c1d4e5692d869d",
@@ -17933,6 +17935,17 @@
     "baseCommit": "64c4fa0619ae698eeea130613456ab76a0d0dc31",
     "coverage": "Verified individual source records only; incomplete primary pagination and inaccessible sources remain. TG/IG partial audit separate."
   },
-  "editorialUpdatedAt": "2026-10-27T05:32:26.406968+00:00",
-  "latestResearchBatch": "morning-verified-20261027"
+  "editorialUpdatedAt": "2026-11-05T05:23:02.045721+00:00",
+  "latestResearchBatch": "morning-verified-20261027",
+  "maintenanceHistory": [
+    {
+      "at": "2026-11-05T05:23:02.045721+00:00",
+      "batch": "morning-quality-20261105",
+      "scope": "Verified individual additions and explicit programme correction; not complete city coverage.",
+      "addedIds": [],
+      "correctedIds": [
+        "prague-8ad0db6c726a3137"
+      ]
+    }
+  ]
 }

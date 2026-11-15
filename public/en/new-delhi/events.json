@@ -1491,6 +1491,81 @@
         "https://www.waze.com/live-map/directions/in/dl/new-delhi/constitution-club-of-india?to=place.ChIJX0VLh7TiDDkRBDpM7KIID8s",
         "https://indiaartfestival.com/wp-content/uploads/2020/12/01-IAF-website-TOP-Banner-950X113-Aug-2026-scaled.jpg"
       ]
+    },
+    {
+      "cityId": "new-delhi",
+      "title": "The Forest and the Self",
+      "date": "2026-11-14",
+      "time": "19:00",
+      "startAt": "2026-11-14T19:00:00+05:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Kiran Nadar Museum of Art — Saket",
+      "venueId": "new-delhi-venue-knma",
+      "address": "145, DLF South Court Mall, Saket, New Delhi 110017",
+      "lat": 28.5285667,
+      "lng": 77.2204946,
+      "coordinateSource": "https://www.knma.org/visit/saket/",
+      "coordinatePrecision": "named venue/building; not room entrance",
+      "coordinateEvidence": "Existing named venue point reused; fresh official Saket visit page confirms 145 DLF South Court Mall and Get Direction link !3d28.5285667!4d77.2204946. Not viewport coordinates; no new geocoding.",
+      "price": null,
+      "min": false,
+      "currency": "INR",
+      "priceLabel": "Advertised regular ticket from 0 INR; booking required",
+      "priceNote": "The booking page advertises a regular ticket from ₹0. Registration is required; final booking fees are not confirmed.",
+      "mandatoryFees": null,
+      "feeStatus": "Not verified",
+      "language": null,
+      "admission": "Age 16+; ticket or registration required through the organizer-linked District page. General museum registration is also required at reception. Final booking fees and available places are not confirmed.",
+      "status": "scheduled",
+      "sourceUrl": "https://www.knma.org/whats-on/events/the-forest-and-the-self/",
+      "sourceURLs": [
+        "https://www.knma.org/whats-on/events/the-forest-and-the-self/",
+        "https://www.district.in/events/the-forest-of-the-self-nov14-2026-buy-tickets",
+        "https://www.knma.org/visit/saket/"
+      ],
+      "checkedAt": "2026-11-14T01:22:47Z",
+      "availabilityVerified": false,
+      "advertisedTicketPrice": 0,
+      "city": "New Delhi",
+      "category": "music",
+      "description": "Vipul Rikhi performs a live music concert connecting nature and the self through the poetry of Kabir, Meera and others. The map pin marks the named KNMA building, not an individual room or entrance.",
+      "id": "new-delhi-knma-forest-self-20261114-1900",
+      "endDate": "2026-11-14",
+      "end": "20:00",
+      "endAt": "2026-11-14T20:00:00+05:30",
+      "kind": "event",
+      "publicationStatus": "included_in_verified_release",
+      "isInPerson": true,
+      "mapEligible": true,
+      "availability": "not_live_checked",
+      "researchBatch": "verified-next-city-sessions-20261114",
+      "placeId": "new-delhi-venue-knma",
+      "primarySourceUrl": "https://www.knma.org/whats-on/events/the-forest-and-the-self/",
+      "source": "Official organizer or authorized ticket programme",
+      "sourceEvidenceReviewedAt": "2026-11-14T01:22:47Z",
+      "registrationUrl": "https://www.district.in/events/the-forest-of-the-self-nov14-2026-buy-tickets",
+      "registrationStatus": "ticket_required",
+      "sources": [
+        {
+          "name": "Official programme",
+          "url": "https://www.knma.org/whats-on/events/the-forest-and-the-self/",
+          "checkedAt": "2026-11-14T01:22:47Z"
+        },
+        {
+          "name": "Official tickets and admission conditions",
+          "url": "https://www.district.in/events/the-forest-of-the-self-nov14-2026-buy-tickets",
+          "checkedAt": "2026-11-14T01:22:47Z"
+        }
+      ],
+      "titleEn": "The Forest and the Self",
+      "originalTitle": "The Forest and the Self",
+      "descriptionEn": "Vipul Rikhi performs a live music concert connecting nature and the self through the poetry of Kabir, Meera and others. The map pin marks the named KNMA building, not an individual room or entrance.",
+      "admissionEn": "Age 16+; ticket or registration required through the organizer-linked District page. General museum registration is also required at reception. Final booking fees and available places are not confirmed.",
+      "accessNote": "Age 16+; ticket or registration required through the organizer-linked District page. General museum registration is also required at reception. Final booking fees and available places are not confirmed.",
+      "accessType": "public",
+      "priceNoteEn": "The booking page advertises a regular ticket from ₹0. Registration is required; final booking fees are not confirmed.",
+      "priceStatus": "not_fully_confirmed",
+      "timeNote": "Explicit session start and end in the official schedule."
     }
   ],
   "sourceRegistry": [
@@ -2104,5 +2179,6 @@
       "count": 0,
       "note": "Source-specific actual retrieval; partial import, not full city coverage. HTTP/status 200"
     }
-  ]
+  ],
+  "editorialUpdatedAt": "2026-11-14T01:27:45.636206Z"
 }

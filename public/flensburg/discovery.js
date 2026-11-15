@@ -14,14 +14,10 @@ const distanceLabel=e=>{const d=distance(e);return Number.isFinite(d)?(d<1?Math.
 const shortWhen=e=>e.endDate?"По "+shortDate(e.endDate):e.date===today()?"Сегодня":e.date===dates[1]?"Завтра":shortDate(e.date);
 function programmeLine(e){return `${shortWhen(e)}${e.time?' · '+timeLabel(e.time):''} — ${e.title}`;}
 async function loadPlaces(){
- const unpack=d=>Array.isArray(d)?d:d.places;
- const valid=d=>Array.isArray(d)&&d.length<150000&&d.every(p=>p&&typeof p.id==='string'&&typeof p.title==='string');
- let local=unpack(await (await fetch('/flensburg/places.json',{cache:'no-store'})).json());if(!valid(local))local=[];
- if(!isAndroid)return local;
- let cached;try{cached=JSON.parse(localStorage.getItem(nearKey+'-places-catalog'));}catch{}
- const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),4500);
- try{const r=await fetch('/live/'+cityFolder+'places.json',{cache:'no-store',signal:controller.signal});if(!r.ok)throw Error();const remote=unpack(await r.json());if(!valid(remote)||remote.length<local.length/2)throw Error();try{localStorage.setItem(nearKey+'-places-catalog',JSON.stringify({places:remote,version:'2.3'}));}catch{}return remote;}catch{return cached?.version==='2.3'&&valid(cached.places)&&cached.places.length>=local.length?cached.places:local;}finally{clearTimeout(timer);}
+ const result=await window.HappyMapCatalog.load(cityFolder?cityFolder.replace(/\/$/,''):'tbilisi','places',document.documentElement.lang,{legacyCachePrefix:nearKey});
+ return Array.isArray(result.data)?result.data:result.data.places;
 }
+
 const initMapBeforeDiscovery=initMap;
 initMap=function(){
  venueIndex=NoreliDiscovery.connect(places,events);places=venueIndex.places;for(const p of places){if(p.fromEvents){const e=(venueIndex.programmes.get(p.id)||[])[0];p.description="Площадка из афиши событий. Ниже показана её проверенная программа с датами.";p.coordinatePrecision=e?.coordinatePrecision;p.website=e?.primarySourceUrl||e?.sourceUrl;p.currency='EUR';}if(p.coordinatePrecision==='postcode-centroid')p.openingNote="Точка обозначает зону почтового индекса, а не проверенный вход. Используйте указанный адрес и уточняйте часы работы у площадки.";}
@@ -63,7 +59,7 @@ render=function(){
   }
  }
  renderBeforeDiscovery();if(!catalog)return;
- const statusText=$('#catalogStatus span');statusText.textContent="События · "+(catalog.generatedAt||'').slice(0,10).split('-').reverse().join('.')+(today()>catalog.endDate?" · нужны новые анонсы":'');statusText.title="Покрытие до "+catalog.endDate+"; загружает опубликованную подборку при запуске";
+ if(!isAndroid){const statusText=$('#catalogStatus span');statusText.textContent="События · "+(catalog.generatedAt||'').slice(0,10).split('-').reverse().join('.')+(today()>catalog.endDate?" · нужны новые анонсы":'');statusText.title="Покрытие до "+catalog.endDate+"; загружает опубликованную подборку при запуске";}
  const nearby=layer==='city'&&view!=='plans',list=visible();document.body.classList.toggle('nearby-view',nearby);
  for(const [id,on] of [['eventsLayer',layer==='events'],['cityLayer',layer==='city']]){
   $('#'+id).classList.toggle('active',on);$('#'+id).setAttribute('aria-pressed',String(on));

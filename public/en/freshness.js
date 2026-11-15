@@ -49,6 +49,7 @@
   if(busy)return;
   if(!catalog||!force&&!rolled&&Date.now()-lastAttempt<60000)return;
   busy=true;lastAttempt=Date.now();
+  window.HappyMapCatalog?.refresh?.();
   try{
    const next=await loadCatalog();
    catalog=next;

@@ -30,7 +30,7 @@
     const lang=policy?.normalize(document.documentElement.lang)||'en';
     const t = data.copy[lang]||data.copy.en, cards = [...list.querySelectorAll('a[data-city]')];
     const cities = collectCities(data, cards, lang);
-    const countryNames=new Intl.DisplayNames([lang],{type:'region'});
+    const countryNames=new Intl.DisplayNames([lang==='sr'?'sr-Latn':lang],{type:'region'});
     const countryName = id => data.countries[id]?.[lang] || countryNames.of(id) || id;
     const countryIDs = [...new Set(cities.map(city => city.country))].sort((a, b) => countryName(a).localeCompare(countryName(b), lang));
     const create = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; };

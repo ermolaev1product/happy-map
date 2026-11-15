@@ -67,7 +67,7 @@ function render(){$('#mobileList').textContent=layer==='city'?'Места':'Со
  const emptyTitle=view==='plans'?(isPlaces?'Пока нет сохранённых мест':'На этот день ещё нет планов'):'По этому выбору ничего не нашлось';
  $('#eventList').innerHTML=list.length?list.slice(0,limit).map(card).join('')+(list.length>limit?`<button id="showMore" class="text-button">Показать ещё ${Math.min(18,list.length-limit)} из ${list.length-limit}</button>`:''):`<div class="empty"><span>✳</span><h3>${emptyTitle}</h3><p>${!isPlaces&&dates[day]>catalog.endDate?'Подборка на эту дату ещё не обновлена.':'Выбери другую категорию или расширь область поиска.'}</p><button id="emptyAction" class="text-button">${view==='plans'?'Открыть карту':radius?'Расширить поиск':'Сбросить фильтры'}</button></div>`;
  bindCards($('#eventList'));if($('#showMore'))$('#showMore').onclick=()=>{limit+=18;render();};if($('#emptyAction'))$('#emptyAction').onclick=expandSearch;
- const unknown=list.filter(e=>e.price==null).length;$('#planBudget').hidden=isPlaces||view!=='plans'||!list.length;$('#planBudget').innerHTML=`<div class="budget-label">Вход на одного<small>Без еды и дороги${unknown?` · ещё ${unknown} без цены`:''}<br>Добавление в план не бронирует место</small></div><strong class="budget-value">${budgetPrice(list)}</strong>`;
+ const unknown=list.filter(e=>e.price==null).length,specialBudget=hasSpecialPriceUnit(list);$('#planBudget').hidden=isPlaces||view!=='plans'||!list.length;$('#planBudget').innerHTML=`<div class="budget-label">${specialBudget?'Стоимость по условиям':'Вход на одного'}<small>${specialBudget?'Семейные тарифы и депозиты не пересчитываются на человека':'Без еды и дороги'}${unknown?` · ещё ${unknown} без цены`:''}<br>Добавление в план не бронирует место</small></div><strong class="budget-value">${budgetPrice(list)}</strong>`;
  $('#mapFeature').hidden=true;$('#mapPlanButton').hidden=isPlaces;$('#mapPlanTitle').textContent='События на неделю';$('#mapPlanSubtitle').textContent='Выбери дату и добавляй события в планы';
  const countLabel=isPlaces?placeCount(list.length):category==='film'?`${list.length} · кино`:eventCount(list.length);$('#mapLabel').textContent=(view==='plans'?'Сохранено · ':'')+countLabel+' · список →';
  const empty=$('#mapEmpty');empty.hidden=!!list.length;empty.innerHTML=`<strong>${emptyTitle}</strong><p>${isPlaces?'Это подборка мест, а не полный справочник города.':'Это подборка событий, а не вся афиша города.'}</p><button class="primary-button" id="mapEmptyAction">${view==='plans'?'Открыть карту':radius?('Показать весь город'):'Сбросить фильтры'}</button>`;if(!list.length)$('#mapEmptyAction').onclick=expandSearch;
@@ -138,7 +138,16 @@ $('#visitorButton').onclick=()=>($('.more-menu').open=false,showDialog('<div cla
 $('#organizerButton').onclick=()=>{$('.more-menu').open=false;$('#organizerForm').hidden=false;$('#organizerPreview').hidden=true;$('#organizerDialog').showModal();};$('#organizerForm').onsubmit=e=>{e.preventDefault();const d=new FormData(e.target);$('#organizerPreview').innerHTML=`<strong>${esc(d.get('title'))}</strong><p>${esc(d.get('day'))} · ${esc(d.get('time'))}<br>${esc(d.get('venue'))}</p><p>Предпросмотр анонса. В этой версии публикация и кабинет организатора ещё не подключены.</p>`;e.target.hidden=true;$('#organizerPreview').hidden=false;};
 for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('click',e=>{const r=dialog.getBoundingClientRect();if(e.target===dialog&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))dialog.close();});
 document.querySelectorAll('.wordmark').forEach(a=>a.onclick=e=>{e.preventDefault();setView('explore');});document.querySelectorAll('.swatch').forEach(b=>b.onclick=()=>{document.body.dataset.palette=b.dataset.palette;document.querySelectorAll('.swatch').forEach(s=>{s.classList.toggle('selected',s===b);s.setAttribute('aria-pressed',s===b);});});
-async function start(){hydrateIcons();try{catalog=await loadCatalog();try{places=(await loadPlaces()).map(p=>({...p,kind:'place'}));}catch{}events=catalog.events.map(e=>({...e,category:({cinema:'film',concert:'music',concerts:'music',festival:'city',lecture:'talk',classical:'music',party:'music'})[e.category]||e.category}));const start=today();dates=Array.from({length:7},(_,i)=>new Date(Date.parse(start+'T12:00:00Z')+i*86400000).toISOString().slice(0,10));$('.month-label').innerHTML=new Date(start+'T12:00:00Z').toLocaleDateString('ru',{month:'long'})+' <span>'+start.slice(0,4)+'</span><span class="week-caption">Твоя ближайшая неделя</span>';$('#sourcesButton').textContent='Реальная афиша · источники и обновление ↗';$('#organizerDay').innerHTML=dates.map(d=>`<option>${d}</option>`).join('');const entry=new URLSearchParams(location.search);if(dates.includes(entry.get('date')))day=dates.indexOf(entry.get('date'));if(categories.some(c=>c.id===entry.get('category')))category=entry.get('category');if(entry.get('view')==='plans'){view='plans';day=dates.includes(entry.get('date'))?dates.indexOf(entry.get('date')):-1;}restoreNear();initMap();render();drawOrigin();if(entry.get('organizer')==='1')$('#organizerButton').click();}catch{$('#eventList').innerHTML='<div class="empty"><h3>Не удалось загрузить афишу</h3><p>Обнови страницу, чтобы попробовать ещё раз.</p></div>';$('#sourcesButton').textContent='Афиша недоступна';$('#sourcesButton').disabled=true;}}
+// The event list remains available when optional map rendering cannot initialize.
+function startMapSafely(){
+ try{initMap();}catch(error){
+  console.warn('Map startup unavailable',error);
+  const failedMap=map;map=null;
+  try{failedMap?.remove();}catch(cleanupError){console.warn('Map cleanup unavailable',cleanupError);}
+  $('#mapFallback').hidden=false;
+ }
+}
+async function start(){hydrateIcons();try{catalog=await loadCatalog();try{places=(await loadPlaces()).map(p=>({...p,kind:'place'}));}catch{}events=catalog.events.map(e=>({...e,category:({cinema:'film',concert:'music',concerts:'music',festival:'city',lecture:'talk',classical:'music',party:'music'})[e.category]||e.category}));const start=today();dates=Array.from({length:7},(_,i)=>new Date(Date.parse(start+'T12:00:00Z')+i*86400000).toISOString().slice(0,10));$('.month-label').innerHTML=new Date(start+'T12:00:00Z').toLocaleDateString('ru',{month:'long'})+' <span>'+start.slice(0,4)+'</span><span class="week-caption">Твоя ближайшая неделя</span>';$('#sourcesButton').textContent='Реальная афиша · источники и обновление ↗';$('#organizerDay').innerHTML=dates.map(d=>`<option>${d}</option>`).join('');const entry=new URLSearchParams(location.search);if(dates.includes(entry.get('date')))day=dates.indexOf(entry.get('date'));if(categories.some(c=>c.id===entry.get('category')))category=entry.get('category');if(entry.get('view')==='plans'){view='plans';day=dates.includes(entry.get('date'))?dates.indexOf(entry.get('date')):-1;}restoreNear();startMapSafely();render();try{drawOrigin();}catch(error){console.warn('Search origin unavailable',error);}if(entry.get('organizer')==='1')$('#organizerButton').click();}catch(error){console.error('Tbilisi catalogue startup failed',error);$('#eventList').innerHTML='<div class="empty"><h3>Не удалось загрузить афишу</h3><p>Обнови страницу, чтобы попробовать ещё раз.</p></div>';$('#sourcesButton').textContent='Афиша недоступна';$('#sourcesButton').disabled=true;}}
 
 function placeCount(n){return `${n} ${n%100>=11&&n%100<=14?'мест':n%10===1?'место':n%10>=2&&n%10<=4?'места':'мест'}`;}
 function setLayer(value){layer=value;limit=18;render();}
@@ -154,20 +163,19 @@ $('#eventsLayer').onclick=()=>setLayer('events');$('#cityLayer').onclick=()=>set
 // Noreli 2.1: retain legacy storage keys so an APK update preserves plans.
 let searchTerm='';
 let catalogOrigin='bundled';
-function budgetPrice(list){const known=list.filter(e=>typeof e.price==='number'),missing=known.length!==list.length;if(!known.length)return 'Уточняется';const sum=Math.round(known.reduce((s,e)=>s+e.price,0)*100)/100;if(sum===0&&!missing)return 'Бесплатно';return `${missing||known.some(e=>e.min)?'от ':''}${priceText({price:sum||0}).replace('Бесплатно',priceText({price:1}).replace('1','0'))}${missing?' + уточнения':''}`;}
+function hasSpecialPriceUnit(list){return list.some(e=>e.priceUnit&&!['person','ticket'].includes(e.priceUnit));}
+function budgetPrice(list){if(hasSpecialPriceUnit(list))return 'Смотрите карточки';const known=list.filter(e=>typeof e.price==='number'),missing=known.length!==list.length;if(!known.length)return 'Уточняется';const sum=Math.round(known.reduce((s,e)=>s+e.price,0)*100)/100;if(sum===0&&!missing)return 'Бесплатно';return `${missing||known.some(e=>e.min)?'от ':''}${priceText({price:sum||0}).replace('Бесплатно',priceText({price:1}).replace('1','0'))}${missing?' + уточнения':''}`;}
 const isAndroid=location.hostname==='appassets.androidplatform.net';
 const cityFolder=nearKey.includes('belgrade')?'belgrade/':nearKey.includes('moscow')?'moscow/':'';
 const sourcesPath=cityFolder?'../sources.html':'sources.html';
 function validCatalog(d){return d&&/^\d{4}-\d{2}-\d{2}$/.test(d.startDate)&&/^\d{4}-\d{2}-\d{2}$/.test(d.endDate)&&Array.isArray(d.events)&&d.events.length<20000&&d.events.every(e=>e&&typeof e.id==='string'&&typeof e.title==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(e.date)&&(!e.sourceUrl||safeUrl(e.sourceUrl)));}
-async function readCatalog(url){const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),4500);try{const r=await fetch(url,{cache:'no-store',signal:controller.signal});if(!r.ok)throw Error('Unavailable');const d=await r.json();if(!validCatalog(d))throw Error('Invalid catalogue');return d;}finally{clearTimeout(timer);}}
+async function readCatalog(url){const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),15000);try{const r=await fetch(url,{cache:'no-store',signal:controller.signal});if(!r.ok)throw Error('Unavailable');const d=await r.json();if(!validCatalog(d))throw Error('Invalid catalogue');return d;}finally{clearTimeout(timer);}}
 async function loadCatalog(){
- catalogOrigin=isAndroid?'bundled':'website';
- let local=await readCatalog('events.json');
- if(!isAndroid){catalogOrigin='website';return local;}
- try{const cached=JSON.parse(localStorage.getItem(nearKey+'-catalog'));if(validCatalog(cached)&&(cached.generatedAt||'')>(local.generatedAt||'')){local=cached;catalogOrigin='cache';}}catch{}
- try{const remote=await readCatalog('/live/'+cityFolder+'events.json');if((remote.generatedAt||'')>=(local.generatedAt||'')){try{localStorage.setItem(nearKey+'-catalog',JSON.stringify(remote));}catch{}catalogOrigin='website';return remote;}}catch{}
- return local;
+ const result=await window.HappyMapCatalog.load(cityFolder?cityFolder.replace(/\/$/,''):'tbilisi','events',document.documentElement.lang,{validate:validCatalog,legacyCachePrefix:nearKey});
+ catalogOrigin=result.origin;
+ return result.data;
 }
+
 const renderOriginal=render;
 render=function(){renderOriginal();if(!catalog)return;
  $('#wholeWeek').classList.toggle('active',day===-1);$('#wholeWeek').setAttribute('aria-pressed',day===-1);
@@ -218,7 +226,7 @@ render=function(){render22();requestAnimationFrame(categoryArrows);
  $('#mapResults').setAttribute('aria-label','Открыть список: '+$('#mapLabel').textContent);
  let info=$('#cinemaInfo');if(!info){info=document.createElement('div');info.id='cinemaInfo';info.className='cinema-info';$('.list-heading').after(info);}
  info.hidden=view==='plans'||layer!=='events'||category!=='film'||cityFolder!=='';
- if(!info.hidden){const date=day===-1?'':dates[day];const n=date?(catalog.cinemaCoverage?.dailyCounts?.[date]||0):null;info.innerHTML=`<strong>Кинотеатры и киноклубы</strong><p>${n===0?'На эту дату ещё нет загруженного расписания обычных киносеансов.':n===1?'На эту дату опубликована пока только часть репертуара.':'Выбирай конкретный сеанс: время, язык и билет указаны в карточке.'}</p><a href="https://kinoafisha.ge/sessions?lang=eng${date?'&date='+date.split('-').reverse().join('-'):''}" target="_blank" rel="noopener noreferrer">Полное расписание кинотеатров ↗</a>`;}
+ if(!info.hidden){const date=day===-1?'':dates[day];const n=date?events.filter(e=>e.cinemaSession&&!e.cancelled&&e.status!=='cancelled'&&e.date===date).length:null;info.innerHTML=`<strong>Кинотеатры и киноклубы</strong><p>${n===0?'На эту дату ещё нет загруженного расписания обычных киносеансов.':'Выбирай конкретный сеанс: время, язык и билет указаны в карточке.'}</p><a href="https://kinoafisha.ge/sessions?lang=eng${date?'&date='+date.split('-').reverse().join('-'):''}" target="_blank" rel="noopener noreferrer">Полное расписание кинотеатров ↗</a>`;}
 };
 const oldOpenPlace22=openPlace;
 openPlace=function(e){

@@ -1,0 +1,9 @@
+/* Coverage information stays visible without blocking the map or hiding cities. */
+.city-coverage-notice{display:flex;align-items:center;justify-content:space-between;gap:10px 20px;margin:10px 0 12px;padding:12px 16px;border:1px solid #e6d8ad;border-radius:14px;background:#fff8e7;color:#443c29;font:400 13px/1.45 'Golos Text',system-ui,sans-serif;box-sizing:border-box}
+.city-coverage-notice strong{display:block;font-size:15px;font-weight:650;line-height:1.35}
+.city-coverage-notice p{margin:3px 0 0;max-width:900px}
+.city-coverage-notice a{flex-shrink:0;display:inline-flex;align-items:center;min-height:44px;color:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.city-coverage-notice a:focus-visible{outline:2px solid #575d4d;outline-offset:4px;border-radius:3px}
+@media(max-width:760px){.city-coverage-notice{align-items:flex-start;flex-wrap:wrap;padding:10px 12px;gap:3px}.city-coverage-notice strong{font-size:14px}.city-coverage-notice p{font-size:12px}.city-coverage-notice a{font-size:12px;min-height:36px}}
+
+.city-coverage-notice[hidden]{display:none!important}

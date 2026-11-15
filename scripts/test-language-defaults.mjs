@@ -3,7 +3,7 @@ import {localeFromHosting} from '../lib/locale-policy.mjs';import {createLocaleP
 const registry=JSON.parse(fs.readFileSync('data/i18n/market-locales.json')),policy=createLocalePolicy(registry);
 for(const [cf,language,source='hosting-ip'] of [
  [{country:'BR',city:'Brasília'},'pt-BR'],[{country:'BR',city:'Recife'},'pt-BR'],[{country:'DE',city:'Berlin'},'de'],[{country:'AT',city:'Vienna'},'de'],[{country:'CH',city:'Bern'},'de'],[{country:'CH',city:'Genève'},'en'],
- [{country:'GE',city:'Tbilisi'},'ru'],[{country:'RU',city:'Kazan'},'ru'],[{country:'AM',city:'Yerevan'},'ru'],[{country:'RS',city:'Belgrade'},'en'],[undefined,'en','fallback'],[{},'en','fallback']
+ [{country:'GE',city:'Tbilisi'},'ru'],[{country:'RU',city:'Kazan'},'ru'],[{country:'AM',city:'Yerevan'},'ru'],[{country:'RS',city:'Belgrade'},'sr'],[undefined,'en','fallback'],[{},'en','fallback']
  ])assert.deepEqual(localeFromHosting(cf),{language,source});
 for(const c of registry.cities){assert(c.availableLocales.includes('en'));assert(c.availableLocales.includes('ru'));}
 assert.equal(policy.defaultForCity('brasilia'),'pt-BR');assert.equal(policy.defaultForCity('bern'),'de');assert.equal(policy.defaultForCity('tbilisi'),'ru');assert.equal(policy.defaultForCity('paris'),'en');

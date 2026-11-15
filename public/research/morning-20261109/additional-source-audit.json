@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-11-09T03:06:02.842943+00:00",
+  "sources": [
+    {
+      "url": "https://fabrikatbilisi.com/events/",
+      "status": "Read archive; only 2025 events visible, no current import."
+    },
+    {
+      "url": "https://www.goethe.de/ins/ge/ka/ver.cfm",
+      "status": "Calendar returns system error; no events verified."
+    },
+    {
+      "url": "https://mos-razvitie.ru/afisha/",
+      "status": "Web fetch cache miss; not checked successfully."
+    },
+    {
+      "url": "https://cavea.ge/sessions?lang=eng",
+      "checkedAt": "2026-11-09T03:09:38.196662+00:00",
+      "status": "read_partial",
+      "note": "Daily starts drop from152 onNov10 to14 onNov11 because135 Cavea sessions/day are present only throughNov10 in imported data. Non-cinema starts:16 onNov10,14 onNov11. Fresh Cavea page readNov9 shows ambiguous date tabs (9 Tomorrow /10Tue/14Sat/17Tue/16Wed), not proof of zero screenings afterNov10. No inferred recurrences added; cinema coverage remains incomplete."
+    }
+  ]
+}

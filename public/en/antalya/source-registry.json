@@ -172,8 +172,95 @@
         "note": "Bounded by current execution history; exact source-fetch seconds not retained."
       },
       "checkedAtPrecision": "Evidence review of full source responses retained in current run; not a new fetch."
+    },
+    {
+      "id": "antalya-ataturk-nekropol-20261110-1400-detail",
+      "name": "Atatürk’ü Anma Konseri — Antalya Devlet Opera ve Balesi",
+      "url": "https://kulturportali.gov.tr/turkiye/antalya/etkinlik/ataturk-u-anma-konseri-10",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "antalya-kuslar-20261111-2000-detail",
+      "name": "Kuşlar — Antalya Devlet Tiyatrosu",
+      "url": "https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "antalya-kuslar-20261112-2000-detail",
+      "name": "Kuşlar — Antalya Devlet Tiyatrosu",
+      "url": "https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "antalya-kuslar-20261113-2000-detail",
+      "name": "Kuşlar — Antalya Devlet Tiyatrosu",
+      "url": "https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "antalya-kuslar-20261114-1500-detail",
+      "name": "Kuşlar — Antalya Devlet Tiyatrosu",
+      "url": "https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "antalya-kuslar-20261114-2000-detail",
+      "name": "Kuşlar — Antalya Devlet Tiyatrosu",
+      "url": "https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "antalya-herkes-kocama-20261111-2030-detail",
+      "name": "Herkes Kocama Benziyor",
+      "url": "https://www.biletix.com/performance/5KMHD/001/TURKIYE/tr",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "antalya-kucuk-prens-20261115-1400-detail",
+      "name": "Küçük Prens — Kepez Kent Tiyatrosu",
+      "url": "https://www.kepezkultur.com/?event=1330/KEPEZ-KENT-TIYATROSU-KUCUK-PRENS-COCUK-OYUNU-TIYATRO-GOSTERISI",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
     }
   ],
   "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
-  "editorialUpdatedAt": "2026-10-29T01:36:34.306269+00:00"
+  "editorialUpdatedAt": "2026-10-29T01:36:34.306269+00:00",
+  "lastPartialRefresh": {
+    "batch": "valletta-antalya-20261106",
+    "baseCommit": "f8fd230f31d4e4c07a7171a66a78920ff870383b",
+    "at": "2026-11-06T05:39:52.917867+00:00",
+    "addedRecords": 8,
+    "note": "Exhibition stored as one programme with five visiting dates. Other dated sessions are separate rows. Held candidates excluded."
+  }
 }

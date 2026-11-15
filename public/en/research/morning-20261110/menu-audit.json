@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-11-10T06:53:14.462819+00:00",
+  "publishedPriceUpdates": 0,
+  "sources": [
+    {
+      "url": "https://postopice.rs/en/venue/docker-brewery-beer-garden",
+      "menuMonth": "2026-10",
+      "prices": [
+        {
+          "beer": "Docker Smash Lager",
+          "currency": "RSD",
+          "volumeL": 0.33,
+          "amount": 350
+        },
+        {
+          "beer": "Docker Smash Lager",
+          "currency": "RSD",
+          "volumeL": 0.5,
+          "amount": 420
+        }
+      ],
+      "status": "Fresh read shows October menu, previously September; amounts unchanged; secondary source not proof of current on-site November prices."
+    },
+    {
+      "url": "https://menu.8000vintages.ge/",
+      "currency": "GEL",
+      "status": "Official menu read; wine portion volume, menu date and exact branch not confirmed. No price update."
+    }
+  ],
+  "menuRecordUpdates": 1,
+  "note": "Existing Docker record menu month and beer-source check timestamp refreshed. Amounts unchanged; secondary October menu explicitly retained."
+}

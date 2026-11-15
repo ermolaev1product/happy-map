@@ -741,7 +741,47 @@
       "accessStatus": "read_full_source",
       "count": 0,
       "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "panama-mumo-tembleques-20261115-1400-official-detail",
+      "name": "Museo de la Mola — Taller de confección de tembleques",
+      "url": "https://museodelamola.org/actividades/",
+      "checkedAt": "2026-11-06T04:17:00Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "type": "web",
+      "count": 1,
+      "note": "One explicitly dated occurrence. Published registration and fee conditions retained; remaining ticket/capacity availability is not guaranteed."
+    },
+    {
+      "id": "panama-open-mic-challenge-20261111-2000-official-detail",
+      "name": "En La Taquilla — official event ticket page — OPEN MIC CHALLENGE | 11 de Noviembre",
+      "url": "https://enlataquilla.com/eventos/stand-up-comedy/cloud-vibes/",
+      "checkedAt": "2026-11-06T04:17:00Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "type": "web",
+      "count": 1,
+      "note": "One explicitly dated occurrence. Published registration and fee conditions retained; remaining ticket/capacity availability is not guaranteed."
+    },
+    {
+      "id": "panama-juan-cajiao-20261113-2000-official-detail",
+      "name": "En La Taquilla — official event ticket page — JUAN CAJIAO: CHOQUE CULTURAL",
+      "url": "https://enlataquilla.com/eventos/stand-up-comedy/juan-cajiao-choque-cultural/",
+      "checkedAt": "2026-11-06T04:17:00Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "type": "web",
+      "count": 1,
+      "note": "One explicitly dated occurrence. Published registration and fee conditions retained; remaining ticket/capacity availability is not guaranteed."
     }
   ],
-  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
+  "lastPartialRefresh": {
+    "batch": "quito-panama-dublin-verified-20261106",
+    "baseCommit": "6a54de82609d42bb17efe49553e95223e012f69e",
+    "at": "2026-11-06T04:17:00Z",
+    "addedOccurrences": 3,
+    "coverage": "Partial explicitly dated additions only; unresolved leads excluded."
+  }
 }

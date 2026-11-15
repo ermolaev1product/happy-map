@@ -1,0 +1,39 @@
+{
+  "menuSources": [
+    {
+      "url": "https://postopice.rs/en/venue/docker-brewery-beer-garden",
+      "menuMonth": "2026-10",
+      "prices": [
+        {
+          "currency": "RSD",
+          "volumeL": 0.33,
+          "amount": 350
+        },
+        {
+          "currency": "RSD",
+          "volumeL": 0.5,
+          "amount": 420
+        }
+      ],
+      "status": "Read November 11; unchanged October secondary-source menu. Not proof of November on-site prices."
+    },
+    {
+      "url": "https://menu.8000vintages.ge/",
+      "currency": "GEL",
+      "status": "Read November 11; glass of wine 11.00/13.20 GEL, serving volume/menu date/branch not confirmed; no import."
+    },
+    {
+      "url": "https://www.strazek.com/menu-eng",
+      "status": "Official menu page read; Moscow Masterkova8; beer prices not in extracted text. No price import."
+    },
+    {
+      "url": "https://alaska.moscow/ru/menu?tab=bar",
+      "status": "Web reader cache miss; not checked."
+    },
+    {
+      "url": "https://visityerevan.am/restaurants/details/183/en/",
+      "status": "Official tourism listing read: Dargett,72Aram. No menu prices or serving sizes supplied. Discovery only, no new place."
+    }
+  ],
+  "note": "These checks do not represent full city or source-registry coverage."
+}

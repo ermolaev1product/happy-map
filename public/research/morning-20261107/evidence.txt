@@ -1,0 +1,2726 @@
+{
+  "bundle": {
+    "checkedAt": "2026-11-07T03:04:22.809289+00:00",
+    "batchId": "morning-20261107",
+    "reportFile": "data/refresh-20261107/import-report.json",
+    "coverageNote": " Partial editorial refresh on November 7: selected dated announcements rechecked; other records and full city coverage were not revalidated.",
+    "items": [
+      {
+        "city": "tbilisi",
+        "action": "add",
+        "event": {
+          "venue": "Le Tapis Restaurant",
+          "address": "180 Davit Aghmashenebeli Avenue, Tbilisi",
+          "lat": 41.7203358,
+          "lng": 44.7888262,
+          "coordinateSource": "https://maps.app.goo.gl/6Xf6jPueTLrnRbTdA",
+          "id": "n07-882eaa001ffbdc",
+          "title": "Quiz, Please! Classic #153",
+          "titleEn": "Quiz, Please! Classic #153",
+          "date": "2026-11-10",
+          "time": "20:00",
+          "startAt": "2026-11-10T20:00:00+04:00",
+          "timezone": "Asia/Tbilisi",
+          "kind": "event",
+          "category": "games",
+          "price": 20,
+          "currency": "GEL",
+          "source": "Organizer programme",
+          "sourceUrl": "https://t.me/quizplease_tbls/3361",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "availabilityVerified": false,
+          "description": "Dated organizer announcement. Remaining places have not been verified.",
+          "yearEvidence": "Organizer current November2026 programme gives exact date and matching weekday.",
+          "coordinateEvidence": "Previously verified exact venue pin retained.",
+          "language": "RU",
+          "priceNote": "GEL20 per person, cash.",
+          "evidenceUrls": [
+            "https://t.me/quizplease_tbls/3361",
+            "https://tbilisi.quizplease.com/"
+          ]
+        }
+      },
+      {
+        "city": "tbilisi",
+        "action": "add",
+        "event": {
+          "venue": "Le Tapis Restaurant",
+          "address": "180 Davit Aghmashenebeli Avenue, Tbilisi",
+          "lat": 41.7203358,
+          "lng": 44.7888262,
+          "coordinateSource": "https://maps.app.goo.gl/6Xf6jPueTLrnRbTdA",
+          "id": "n07-c0ac0528268dcf",
+          "title": "Quiz, Please! Cinema and Music #37",
+          "titleEn": "Quiz, Please! Cinema and Music #37",
+          "date": "2026-11-13",
+          "time": "20:00",
+          "startAt": "2026-11-13T20:00:00+04:00",
+          "timezone": "Asia/Tbilisi",
+          "kind": "event",
+          "category": "games",
+          "price": 20,
+          "currency": "GEL",
+          "source": "Organizer programme",
+          "sourceUrl": "https://t.me/quizplease_tbls/3367",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "availabilityVerified": false,
+          "description": "Dated organizer announcement. Remaining places have not been verified.",
+          "yearEvidence": "Organizer current November2026 programme gives exact date and matching weekday.",
+          "coordinateEvidence": "Previously verified exact venue pin retained.",
+          "language": "RU",
+          "priceNote": "GEL20 per person, cash.",
+          "evidenceUrls": [
+            "https://t.me/quizplease_tbls/3367",
+            "https://tbilisi.quizplease.com/"
+          ]
+        }
+      },
+      {
+        "city": "tbilisi",
+        "action": "add",
+        "event": {
+          "venue": "KARAVAI",
+          "address": "12 Sulkhan Tsintsadze Street, Tbilisi",
+          "lat": 41.722061,
+          "lng": 44.768782,
+          "coordinateSource": "https://alibi.ge/games/sudya-2026-11-08/",
+          "id": "n07-3bd78d7819d2ee",
+          "title": "ALIBI: The Judge — detective game",
+          "titleEn": "ALIBI: The Judge — detective game",
+          "date": "2026-11-08",
+          "time": "16:00",
+          "startAt": "2026-11-08T16:00:00+04:00",
+          "timezone": "Asia/Tbilisi",
+          "kind": "event",
+          "category": "games",
+          "price": 25,
+          "currency": "GEL",
+          "source": "Organizer programme",
+          "sourceUrl": "https://alibi.ge/games/sudya-2026-11-08/",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "availabilityVerified": false,
+          "description": "Team detective game. Advance registration required; registration capacity not checked.",
+          "yearEvidence": "Official event title explicitly8November2026.",
+          "coordinateEvidence": "Organizer embeds GoogleMaps with q=41.722061,44.768782 for KARAVAI at12SulkhanTsintsadzeStreet.",
+          "language": "RU",
+          "priceNote": "GEL25 per person; the first three teams were offered GEL20. Discount availability not confirmed.",
+          "evidenceUrls": [
+            "https://alibi.ge/games/sudya-2026-11-08/",
+            "https://t.me/quizplease_tbls/3378"
+          ]
+        }
+      },
+      {
+        "city": "tbilisi",
+        "action": "update",
+        "expectedDate": "2026-11-06",
+        "event": {
+          "id": "n06-70bc8a1107134b",
+          "date": "2026-11-10",
+          "time": "20:00",
+          "startAt": "2026-11-10T20:00:00+04:00",
+          "price": 20,
+          "priceNote": "GEL20 prepaid; GEL25 at the venue. Online broadcast GEL15 is a separate option.",
+          "sourceUrl": "https://t.me/auditoria_tbilisi/7717",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "description": "Moved from November6 to November10, as explicitly corrected in the organizer weekly programme.",
+          "descriptionEn": "Moved from November6 to November10, as explicitly corrected in the organizer weekly programme.",
+          "dateEvidence": {
+            "sourceUrl": "https://t.me/auditoria_tbilisi/7691",
+            "date": "2026-11-10",
+            "method": "Original November6 entry now explicitly says the lecture will take place Tuesday10.11at20:00; new7717confirms."
+          },
+          "evidenceUrls": [
+            "https://t.me/auditoria_tbilisi/7691",
+            "https://t.me/auditoria_tbilisi/7717"
+          ]
+        },
+        "reason": "Organizer explicitly corrected the original schedule; preserve existing event ID."
+      },
+      {
+        "city": "tbilisi",
+        "action": "pending",
+        "example": {
+          "title": "Harry Potter: Hogwarts Year2",
+          "sourceUrl": "https://tbilisi.quizplease.com/game/01a143bf-5935-72de-8123-f9a574c0d541",
+          "reason": "Nov7 18:00 official website offers reserve/waitlist only; not imported as available."
+        },
+        "reason": "Nov7 18:00 official website offers reserve/waitlist only; not imported as available."
+      },
+      {
+        "city": "tbilisi",
+        "action": "pending",
+        "example": {
+          "title": "Bassiani–Horoom Nov13",
+          "sourceUrl": "https://ra.co/events/2544905",
+          "reason": "RA confirms2026-11-13 23:59; linked primary bassiani.com/light/nights/1129 returns JS-only shell. Primary programme and exact venuepin not verified in this pass."
+        },
+        "reason": "RA confirms2026-11-13 23:59; linked primary bassiani.com/light/nights/1129 returns JS-only shell. Primary programme and exact venuepin not verified in this pass."
+      },
+      {
+        "city": "tbilisi",
+        "action": "pending",
+        "example": {
+          "title": "Planty, BNKR and other Nov7–8 food events",
+          "sourceUrl": "https://t.me/tbilisieda/8526",
+          "reason": "Aggregator digest found; organizer Instagram announcements and individual branchpins not verified. Do not reuse Auditoria pin for distinct Janashia venues."
+        },
+        "reason": "Aggregator digest found; organizer Instagram announcements and individual branchpins not verified. Do not reuse Auditoria pin for distinct Janashia venues."
+      },
+      {
+        "city": "yerevan",
+        "action": "add",
+        "event": {
+          "venue": "American University of Armenia · Akian Art Gallery, PAB",
+          "address": "40 Marshal Baghramyan Avenue, Yerevan 0019",
+          "lat": 40.1930556,
+          "lng": 44.5044443,
+          "coordinateSource": "https://www.google.com/maps/place/American+University+of+Armenia/@40.1930597,44.5018694,17z/data=!3m1!4b1!4m6!3m5!1s0x406abd173fd4d621:0x213beef7d45c07c5!8m2!3d40.1930556!4d44.5044443!16zL20vMDk0OHdq?authuser=0&entry=tts&g_ep=EgoyMDI0MDkwNC4wKgBIAVAD",
+          "id": "n07-475931f90b0777",
+          "title": "The Impact of Hellenic Paideia on Higher Education in Ancient Armenia",
+          "titleEn": "The Impact of Hellenic Paideia on Higher Education in Ancient Armenia",
+          "date": "2026-11-10",
+          "time": "15:00",
+          "startAt": "2026-11-10T15:00:00+04:00",
+          "timezone": "Asia/Yerevan",
+          "kind": "event",
+          "category": "talk",
+          "price": null,
+          "currency": "AMD",
+          "source": "Organizer programme",
+          "sourceUrl": "https://newsroom.aua.am/event/impact-hellenic-paideia-formation-highereducation-armenia-antiquity/",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "availabilityVerified": false,
+          "description": "Lecture by S. Peter Cowe. Public invitation on the university calendar.",
+          "yearEvidence": "Official calendar dated2026 and direct event JSON-LD startDate/endDate explicitly2026.",
+          "coordinateEvidence": "Previously verified exact venue pin retained.",
+          "language": "EN",
+          "end": "16:30",
+          "evidenceUrls": [
+            "https://newsroom.aua.am/event/impact-hellenic-paideia-formation-highereducation-armenia-antiquity/",
+            "https://newsroom.aua.am/events/2026-11-10/"
+          ],
+          "priceNote": "Price not published."
+        }
+      },
+      {
+        "city": "yerevan",
+        "action": "add",
+        "event": {
+          "venue": "American University of Armenia · Large Auditorium, Main Building",
+          "address": "40 Marshal Baghramyan Avenue, Yerevan 0019",
+          "lat": 40.1930556,
+          "lng": 44.5044443,
+          "coordinateSource": "https://www.google.com/maps/place/American+University+of+Armenia/@40.1930597,44.5018694,17z/data=!3m1!4b1!4m6!3m5!1s0x406abd173fd4d621:0x213beef7d45c07c5!8m2!3d40.1930556!4d44.5044443!16zL20vMDk0OHdq?authuser=0&entry=tts&g_ep=EgoyMDI0MDkwNC4wKgBIAVAD",
+          "id": "n07-917bbbf03f5d85",
+          "title": "Directing Shakespeare in Modern Times — Elliot Huxtable masterclass",
+          "titleEn": "Directing Shakespeare in Modern Times — Elliot Huxtable masterclass",
+          "date": "2026-11-10",
+          "time": "17:30",
+          "startAt": "2026-11-10T17:30:00+04:00",
+          "timezone": "Asia/Yerevan",
+          "kind": "event",
+          "category": "talk",
+          "price": null,
+          "currency": "AMD",
+          "source": "Organizer programme",
+          "sourceUrl": "https://newsroom.aua.am/event/masterclass-elliot-huxtable-directing-shakespeare-modern-times/",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "availabilityVerified": false,
+          "description": "Public masterclass with theatre director Elliot Huxtable.",
+          "yearEvidence": "Official calendar dated2026 and direct event JSON-LD startDate/endDate explicitly2026.",
+          "coordinateEvidence": "Previously verified exact venue pin retained.",
+          "language": "EN",
+          "end": "18:30",
+          "evidenceUrls": [
+            "https://newsroom.aua.am/event/masterclass-elliot-huxtable-directing-shakespeare-modern-times/",
+            "https://newsroom.aua.am/events/2026-11-10/"
+          ],
+          "priceNote": "Price not published."
+        }
+      },
+      {
+        "city": "yerevan",
+        "action": "add",
+        "event": {
+          "venue": "American University of Armenia · Akian Art Gallery, PAB",
+          "address": "40 Marshal Baghramyan Avenue, Yerevan 0019",
+          "lat": 40.1930556,
+          "lng": 44.5044443,
+          "coordinateSource": "https://www.google.com/maps/place/American+University+of+Armenia/@40.1930597,44.5018694,17z/data=!3m1!4b1!4m6!3m5!1s0x406abd173fd4d621:0x213beef7d45c07c5!8m2!3d40.1930556!4d44.5044443!16zL20vMDk0OHdq?authuser=0&entry=tts&g_ep=EgoyMDI0MDkwNC4wKgBIAVAD",
+          "id": "n07-cf97ead8249547",
+          "title": "Exploring Ukrainian Politics — book presentation",
+          "titleEn": "Exploring Ukrainian Politics — book presentation",
+          "date": "2026-11-11",
+          "time": "14:00",
+          "startAt": "2026-11-11T14:00:00+04:00",
+          "timezone": "Asia/Yerevan",
+          "kind": "event",
+          "category": "talk",
+          "price": null,
+          "currency": "AMD",
+          "source": "Organizer programme",
+          "sourceUrl": "https://newsroom.aua.am/event/book-presentation-exploring-ukrainian-politics-institutions-actors-policy-areas/",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "availabilityVerified": false,
+          "description": "Book presentation with Michael Dobbins.",
+          "yearEvidence": "Official calendar dated2026 and direct event JSON-LD startDate/endDate explicitly2026.",
+          "coordinateEvidence": "Previously verified exact venue pin retained.",
+          "language": "EN",
+          "end": "15:30",
+          "evidenceUrls": [
+            "https://newsroom.aua.am/event/book-presentation-exploring-ukrainian-politics-institutions-actors-policy-areas/",
+            "https://newsroom.aua.am/events/2026-11-11/"
+          ],
+          "priceNote": "Price not published."
+        }
+      },
+      {
+        "city": "yerevan",
+        "action": "add",
+        "event": {
+          "venue": "American University of Armenia · Room 306E, PAB",
+          "address": "40 Marshal Baghramyan Avenue, Yerevan 0019",
+          "lat": 40.1930556,
+          "lng": 44.5044443,
+          "coordinateSource": "https://www.google.com/maps/place/American+University+of+Armenia/@40.1930597,44.5018694,17z/data=!3m1!4b1!4m6!3m5!1s0x406abd173fd4d621:0x213beef7d45c07c5!8m2!3d40.1930556!4d44.5044443!16zL20vMDk0OHdq?authuser=0&entry=tts&g_ep=EgoyMDI0MDkwNC4wKgBIAVAD",
+          "id": "n07-d8687fff45c7d5",
+          "title": "Dialogue, Participation, and Community Change",
+          "titleEn": "Dialogue, Participation, and Community Change",
+          "date": "2026-11-11",
+          "time": "18:30",
+          "startAt": "2026-11-11T18:30:00+04:00",
+          "timezone": "Asia/Yerevan",
+          "kind": "event",
+          "category": "talk",
+          "price": null,
+          "currency": "AMD",
+          "source": "Organizer programme",
+          "sourceUrl": "https://newsroom.aua.am/event/dialogue-participation-community-change/",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "availabilityVerified": false,
+          "description": "Interactive session with Rula Kahil. Advance registration required through the organizer page.",
+          "yearEvidence": "Official calendar dated2026 and direct event JSON-LD startDate/endDate explicitly2026.",
+          "coordinateEvidence": "Previously verified exact venue pin retained.",
+          "language": "EN",
+          "end": "21:00",
+          "evidenceUrls": [
+            "https://newsroom.aua.am/event/dialogue-participation-community-change/",
+            "https://newsroom.aua.am/events/2026-11-11/"
+          ],
+          "priceNote": "Price not published."
+        }
+      },
+      {
+        "city": "yerevan",
+        "action": "add",
+        "event": {
+          "venue": "American University of Armenia · Room 308E, PAB",
+          "address": "40 Marshal Baghramyan Avenue, Yerevan 0019",
+          "lat": 40.1930556,
+          "lng": 44.5044443,
+          "coordinateSource": "https://www.google.com/maps/place/American+University+of+Armenia/@40.1930597,44.5018694,17z/data=!3m1!4b1!4m6!3m5!1s0x406abd173fd4d621:0x213beef7d45c07c5!8m2!3d40.1930556!4d44.5044443!16zL20vMDk0OHdq?authuser=0&entry=tts&g_ep=EgoyMDI0MDkwNC4wKgBIAVAD",
+          "id": "n07-9d3e7532e204f3",
+          "title": "The Crisis of Armenian Constitutionalism: Minority vs Minority",
+          "titleEn": "The Crisis of Armenian Constitutionalism: Minority vs Minority",
+          "date": "2026-11-12",
+          "time": "18:00",
+          "startAt": "2026-11-12T18:00:00+04:00",
+          "timezone": "Asia/Yerevan",
+          "kind": "event",
+          "category": "talk",
+          "price": null,
+          "currency": "AMD",
+          "source": "Organizer programme",
+          "sourceUrl": "https://newsroom.aua.am/event/crisis-armenian-constitutionalism-minority-minority/",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "availabilityVerified": false,
+          "description": "Lecture by Armen Harutyunyan. The organizer labels the event English, but specifies the presentation in Armenian; spoken language is not fully clear.",
+          "yearEvidence": "Official calendar dated2026 and direct event JSON-LD startDate/endDate explicitly2026.",
+          "coordinateEvidence": "Previously verified exact venue pin retained.",
+          "language": null,
+          "end": "19:30",
+          "evidenceUrls": [
+            "https://newsroom.aua.am/event/crisis-armenian-constitutionalism-minority-minority/",
+            "https://newsroom.aua.am/events/2026-11-12/"
+          ],
+          "priceNote": "Price not published."
+        }
+      },
+      {
+        "city": "yerevan",
+        "action": "add",
+        "event": {
+          "venue": "American University of Armenia · Room 314W, PAB",
+          "address": "40 Marshal Baghramyan Avenue, Yerevan 0019",
+          "lat": 40.1930556,
+          "lng": 44.5044443,
+          "coordinateSource": "https://www.google.com/maps/place/American+University+of+Armenia/@40.1930597,44.5018694,17z/data=!3m1!4b1!4m6!3m5!1s0x406abd173fd4d621:0x213beef7d45c07c5!8m2!3d40.1930556!4d44.5044443!16zL20vMDk0OHdq?authuser=0&entry=tts&g_ep=EgoyMDI0MDkwNC4wKgBIAVAD",
+          "id": "n07-4d3d4c6b6e3b9e",
+          "title": "Open Class on Country Risk Analysis",
+          "titleEn": "Open Class on Country Risk Analysis",
+          "date": "2026-11-12",
+          "time": "18:30",
+          "startAt": "2026-11-12T18:30:00+04:00",
+          "timezone": "Asia/Yerevan",
+          "kind": "event",
+          "category": "talk",
+          "price": null,
+          "currency": "AMD",
+          "source": "Organizer programme",
+          "sourceUrl": "https://newsroom.aua.am/event/openclass-country-risk-analysis/",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "availabilityVerified": false,
+          "description": "Open class with Arsen Gasparyan for prospective applicants. Advance registration required through the organizer page.",
+          "yearEvidence": "Official calendar dated2026 and direct event JSON-LD startDate/endDate explicitly2026.",
+          "coordinateEvidence": "Previously verified exact venue pin retained.",
+          "language": "EN",
+          "end": "20:30",
+          "evidenceUrls": [
+            "https://newsroom.aua.am/event/openclass-country-risk-analysis/",
+            "https://newsroom.aua.am/events/2026-11-12/"
+          ],
+          "priceNote": "Price not published."
+        }
+      },
+      {
+        "city": "yerevan",
+        "action": "add",
+        "event": {
+          "venue": "Green Room",
+          "address": "31/3 Tumanyan Street, Yerevan",
+          "lat": 40.1857042,
+          "lng": 44.5125331,
+          "coordinateSource": "https://www.openstreetmap.org/node/12714563373",
+          "id": "n07-208bd3594e99ad",
+          "title": "Armenian stand-up open microphone",
+          "titleEn": "Armenian stand-up open microphone",
+          "date": "2026-11-10",
+          "time": "20:00",
+          "startAt": "2026-11-10T20:00:00+04:00",
+          "timezone": "Asia/Yerevan",
+          "kind": "event",
+          "category": "theatre",
+          "price": 0,
+          "currency": "AMD",
+          "source": "Organizer programme",
+          "sourceUrl": "https://t.me/greenroomyerevan/1332",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "availabilityVerified": false,
+          "description": "Hosted by Ashot Danelyan. Free entry; table reservations through the organizer link.",
+          "yearEvidence": "Organizer current November2026 programme gives exact date and matching weekday.",
+          "coordinateEvidence": "Previously verified exact venue pin retained.",
+          "language": "HY",
+          "evidenceUrls": [
+            "https://t.me/greenroomyerevan/1332",
+            "https://t.me/greenroomyerevan/1319"
+          ]
+        }
+      },
+      {
+        "city": "yerevan",
+        "action": "add",
+        "event": {
+          "venue": "Arno Babajanian Concert Hall",
+          "address": "2 Abovyan Street, Yerevan",
+          "lat": 40.1791157,
+          "lng": 44.5136908,
+          "coordinateSource": "https://www.openstreetmap.org/node/2681033804",
+          "id": "n07-01042a616ada75",
+          "title": "Kamil Tchalaev — The Continuous Thread",
+          "titleEn": "Kamil Tchalaev — The Continuous Thread",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "startAt": "2026-11-13T19:00:00+04:00",
+          "timezone": "Asia/Yerevan",
+          "kind": "event",
+          "category": "music",
+          "price": 3000,
+          "currency": "AMD",
+          "source": "Organizer programme",
+          "sourceUrl": "https://philharmonia.am/en/event/kamil-tchalaev/",
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00",
+          "availabilityVerified": false,
+          "description": "Chamber music performed on period instruments, including an1850 Pleyel piano.",
+          "yearEvidence": "Official venue calendar explicitly November2026, Nov13 19:00–21:00.",
+          "coordinateEvidence": "Previously verified exact venue pin retained.",
+          "language": null,
+          "end": "21:00",
+          "priceNote": "Tickets from AMD3000 according to Eventix; remaining seats not verified.",
+          "evidenceUrls": [
+            "https://philharmonia.am/en/event/kamil-tchalaev/",
+            "https://philharmonia.am/en/venue/philharmonia-babajanyan-concert-hall/",
+            "https://eventix.am/concert/kamil-tchalaev-the-continuous-thread-1547846b-6c19-4b3b-bf17-a9df1e7fa70f"
+          ]
+        }
+      },
+      {
+        "city": "yerevan",
+        "action": "pending",
+        "example": {
+          "title": "Oasis film club",
+          "sourceUrl": "https://t.me/ErevanRus/7513",
+          "reason": "Conflicting heading10/09 versus body10November; primary organizer not checked. Hold date conflict."
+        },
+        "reason": "Conflicting heading10/09 versus body10November; primary organizer not checked. Hold date conflict."
+      },
+      {
+        "city": "yerevan",
+        "action": "pending",
+        "example": {
+          "title": "Hrazdan Gorge cleanup",
+          "sourceUrl": "https://t.me/ErevanRus/7514",
+          "reason": "Aggregator givesNov8 12:00 and exactcoords; organizer website stillsays nextlocationnotannounced. Primary dated announcement not found."
+        },
+        "reason": "Aggregator givesNov8 12:00 and exactcoords; organizer website stillsays nextlocationnotannounced. Primary dated announcement not found."
+      },
+      {
+        "city": "yerevan",
+        "action": "pending",
+        "example": {
+          "title": "ArtLav Wednesday pottery",
+          "sourceUrl": "https://t.me/masterskayaArtLav/2548",
+          "reason": "Recurring Wednesdays advertised without explicit date/time in readabletext; image and current session booking not verified."
+        },
+        "reason": "Recurring Wednesdays advertised without explicit date/time in readabletext; image and current session booking not verified."
+      },
+      {
+        "city": "yerevan",
+        "action": "pending",
+        "example": {
+          "title": "ReAnimania festival sessions",
+          "sourceUrl": "https://t.me/ErevanRus/7507",
+          "reason": "Nov7–14 festival overview found; session times/primary fullprogramme not verified. Do not count festival overview as allscreenings."
+        },
+        "reason": "Nov7–14 festival overview found; session times/primary fullprogramme not verified. Do not count festival overview as allscreenings."
+      },
+      {
+        "city": "yerevan",
+        "action": "pending",
+        "example": {
+          "title": "MUHA current week",
+          "sourceUrl": "https://t.me/muhabaryerevan/2399",
+          "reason": "Fresh address3MarshalBaghramyan differs from old9/59pin. Current venuepin unresolved; no import. Furtherprogramme images not read."
+        },
+        "reason": "Fresh address3MarshalBaghramyan differs from old9/59pin. Current venuepin unresolved; no import. Furtherprogramme images not read."
+      },
+      {
+        "city": "belgrade",
+        "action": "add",
+        "event": {
+          "venue": "Auditoria",
+          "address": "Vojvode Dobrnjca 48, Beograd",
+          "lat": 44.8188976,
+          "lng": 20.4749142,
+          "coordinateSource": "https://maps.app.goo.gl/e9z8stFHUZdGM7u88",
+          "id": "morning07-belgrade-c899795ab5e89b",
+          "kind": "event",
+          "title": "Evening of Jazz Guitars",
+          "titleEn": "Evening of Jazz Guitars",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "end": null,
+          "endDate": null,
+          "category": "music",
+          "source": "Auditoria",
+          "sourceUrl": "https://t.me/auditoria_belgrade/1847",
+          "price": 500,
+          "currency": "RSD",
+          "min": false,
+          "description": "Jazz guitar evening with Alexander Dyachenko and Nikita Mache, with viola guest Irina Shakhova. 19:00 is guest arrival; performance start unspecified. Cash at the door.",
+          "language": null,
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Belgrade",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Organizer post published 2026-11-06 explicitly announces 13 November, Friday, guest arrival19:00; upcoming date and weekday jointly identify 2026. Concert start not published.",
+          "timeMeaning": "doors",
+          "dateEvidence": "Organizer post published 2026-11-06 explicitly announces 13 November, Friday, guest arrival19:00; upcoming date and weekday jointly identify 2026. Concert start not published.",
+          "dateEvidenceUrls": [
+            "https://t.me/auditoria_belgrade/1847"
+          ]
+        }
+      },
+      {
+        "city": "belgrade",
+        "action": "add",
+        "event": {
+          "venue": "Vranin Tavan",
+          "address": "Brankova 28, Beograd",
+          "lat": 44.8151404,
+          "lng": 20.4542521,
+          "coordinateSource": "https://t.me/Vranin_Tavan/294",
+          "id": "morning07-belgrade-60f9c770b97278",
+          "kind": "event",
+          "title": "Catnapping — Cat Mischief role-playing one-shot",
+          "titleEn": "Catnapping — Cat Mischief role-playing one-shot",
+          "date": "2026-11-10",
+          "time": "18:00",
+          "end": null,
+          "endDate": null,
+          "category": "games",
+          "source": "Vranin Tavan",
+          "sourceUrl": "https://t.me/Vranin_Tavan/1057",
+          "price": 1500,
+          "currency": "RSD",
+          "min": false,
+          "description": "A one-page role-playing game for2–4 players, about1–1.5 hours. Beginners welcome. Price includes RSD1000 for venue and500 for game master. Register with game master.",
+          "language": null,
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Belgrade",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Organizer post published 2026-11-06 explicitly announces 10 November, Tuesday,18:00; upcoming date and weekday jointly identify 2026.",
+          "registrationUrl": "https://t.me/jan_nasa",
+          "dateEvidence": "Organizer post published 2026-11-06 explicitly announces 10 November, Tuesday,18:00; upcoming date and weekday jointly identify 2026.",
+          "dateEvidenceUrls": [
+            "https://t.me/Vranin_Tavan/1057"
+          ]
+        }
+      },
+      {
+        "city": "belgrade",
+        "action": "add",
+        "event": {
+          "venue": "Vranin Tavan",
+          "address": "Brankova 28, Beograd",
+          "lat": 44.8151404,
+          "lng": 20.4542521,
+          "coordinateSource": "https://t.me/Vranin_Tavan/294",
+          "id": "morning07-belgrade-475b9be23fe40e",
+          "kind": "event",
+          "title": "A Night in the Lonesome October — role-playing playtest",
+          "titleEn": "A Night in the Lonesome October — role-playing playtest",
+          "date": "2026-11-07",
+          "time": "18:00",
+          "end": null,
+          "endDate": null,
+          "category": "games",
+          "source": "Vranin Tavan",
+          "sourceUrl": "https://t.me/Vranin_Tavan/1046",
+          "price": 1000,
+          "currency": "RSD",
+          "min": false,
+          "description": "GM-less urban-fantasy story game for3–5 players, inspired by Roger Zelazny. Characters created on site. Register with Sasha; organizer reported one place on Nov6, remaining availability not verified.",
+          "language": null,
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Belgrade",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Organizer post published 2026-11-03 explicitly announces 7 November, Saturday, 18:00; the future date and weekday jointly identify 2026. Fresh Nov6 follow-up1055 repeats Nov7 18:00.",
+          "registrationUrl": "https://t.me/Katikris",
+          "dateEvidence": "Organizer post published 2026-11-03 explicitly announces 7 November, Saturday, 18:00; the future date and weekday jointly identify 2026. Fresh Nov6 follow-up1055 repeats Nov7 18:00.",
+          "dateEvidenceUrls": [
+            "https://t.me/Vranin_Tavan/1046"
+          ]
+        }
+      },
+      {
+        "city": "belgrade",
+        "action": "add",
+        "event": {
+          "venue": "Sreda Obitaniya",
+          "address": "Šafarikova 6",
+          "lat": 44.816038,
+          "lng": 20.46722,
+          "coordinateSource": "https://afisha.rs/en/venues/sreda-obitania",
+          "id": "morning07-belgrade-e2cb8c9bcc9f51",
+          "kind": "event",
+          "title": "POV — discussion and book club for teenagers",
+          "titleEn": "POV — discussion and book club for teenagers",
+          "date": "2026-11-08",
+          "time": "15:00",
+          "end": "17:00",
+          "endDate": null,
+          "category": "talk",
+          "source": "Sreda Obitaniya",
+          "sourceUrl": "https://t.me/obitaniya_sreda/2312",
+          "price": null,
+          "currency": "RSD",
+          "min": false,
+          "description": "Discussion and book club for ages14–18. First meeting is donation-based; amount unspecified. Registration required. Address confirmed by linked organizer post613.",
+          "language": null,
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Belgrade",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Organizer post published 2026-11-06 explicitly announces Sunday8 November15:00–17:00; upcoming date and weekday jointly identify 2026.",
+          "registrationUrl": "https://t.me/Princessozavr",
+          "priceNote": "Donation; amount unspecified",
+          "addressEvidenceUrl": "https://t.me/obitaniya_sreda/613",
+          "dateEvidence": "Organizer post published 2026-11-06 explicitly announces Sunday8 November15:00–17:00; upcoming date and weekday jointly identify 2026.",
+          "dateEvidenceUrls": [
+            "https://t.me/obitaniya_sreda/2312"
+          ]
+        }
+      },
+      {
+        "city": "belgrade",
+        "action": "add",
+        "event": {
+          "venue": "Sreda Obitaniya",
+          "address": "Šafarikova 6",
+          "lat": 44.816038,
+          "lng": 20.46722,
+          "coordinateSource": "https://afisha.rs/en/venues/sreda-obitania",
+          "id": "morning07-belgrade-0bc41866624c3e",
+          "kind": "event",
+          "title": "Autumn haiku and matcha gathering",
+          "titleEn": "Autumn haiku and matcha gathering",
+          "date": "2026-11-07",
+          "time": "12:30",
+          "end": "14:30",
+          "endDate": null,
+          "category": "art",
+          "source": "Sreda Obitaniya",
+          "sourceUrl": "https://t.me/obitaniya_sreda/2313",
+          "price": null,
+          "currency": "RSD",
+          "min": false,
+          "description": "Japanese poetry discussion, matcha tea and optional haiku writing. Donation amount unspecified; registration required. Exact year confirmed by organizer registration URL.",
+          "language": null,
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Belgrade",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Organizer post published 2026-11-06 announces Saturday07.11 12:30–14:30 and links its registration URL containing2026-11-07. Date and weekday match2026.",
+          "registrationUrl": "https://cal.com/jp-bg-club/2026-11-07-%D0%BE%D1%81%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F-%D1%85%D0%B0%D0%B8%D0%BA%D1%83-%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0?overlayCalendar=true",
+          "priceNote": "Donation; amount unspecified",
+          "addressEvidenceUrl": "https://t.me/obitaniya_sreda/609",
+          "dateEvidence": "Organizer post published 2026-11-06 announces Saturday07.11 12:30–14:30 and links its registration URL containing2026-11-07. Date and weekday match2026.",
+          "dateEvidenceUrls": [
+            "https://t.me/obitaniya_sreda/2313"
+          ]
+        }
+      },
+      {
+        "city": "belgrade",
+        "action": "add",
+        "event": {
+          "venue": "Sreda Obitaniya",
+          "address": "Šafarikova 6",
+          "lat": 44.816038,
+          "lng": 20.46722,
+          "coordinateSource": "https://afisha.rs/en/venues/sreda-obitania",
+          "id": "morning07-belgrade-25cf037f7eec39",
+          "kind": "event",
+          "title": "Voice laboratory — practical voice and speech training",
+          "titleEn": "Voice laboratory — practical voice and speech training",
+          "date": "2026-11-07",
+          "time": "16:00",
+          "end": "17:30",
+          "endDate": null,
+          "category": "theatre",
+          "source": "Sreda Obitaniya",
+          "sourceUrl": "https://t.me/obitaniya_sreda/2314",
+          "price": null,
+          "currency": "RSD",
+          "min": false,
+          "description": "Practical voice and speech exercises with actor and teacher Alexandra Semenova. Donation amount unspecified; registration required.",
+          "language": null,
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Belgrade",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Organizer post published 2026-11-06 explicitly announces Saturday07.11 16:00–17:30; forthcoming date and weekday jointly identify2026.",
+          "registrationUrl": "https://t.me/allleeexxx_1",
+          "priceNote": "Donation; amount unspecified",
+          "addressEvidenceUrl": "https://t.me/obitaniya_sreda/612",
+          "dateEvidence": "Organizer post published 2026-11-06 explicitly announces Saturday07.11 16:00–17:30; forthcoming date and weekday jointly identify2026.",
+          "dateEvidenceUrls": [
+            "https://t.me/obitaniya_sreda/2314"
+          ]
+        }
+      },
+      {
+        "city": "belgrade",
+        "action": "pending",
+        "example": {
+          "sourceUrl": "https://t.me/Vranin_Tavan/1052",
+          "reason": "Date and time by agreement; cannotmap as datedevent."
+        },
+        "reason": "Date and time by agreement; cannotmap as datedevent."
+      },
+      {
+        "city": "belgrade",
+        "action": "pending",
+        "example": {
+          "sourceUrl": "https://t.me/triptix_belgrade/1602",
+          "reason": "Nov8 13:00 undergroundtour, RSD3000, EnglishwithRussiantranslation; exactmeetingpoint onlyafterregistration. No map import."
+        },
+        "reason": "Nov8 13:00 undergroundtour, RSD3000, EnglishwithRussiantranslation; exactmeetingpoint onlyafterregistration. No map import."
+      },
+      {
+        "city": "belgrade",
+        "action": "pending",
+        "example": {
+          "sourceUrl": "https://t.me/triptix_belgrade/1600",
+          "reason": "Nov7 14:00 NationalMuseumtour RSD2000 EN/RU; address/pin not verified in thispass."
+        },
+        "reason": "Nov7 14:00 NationalMuseumtour RSD2000 EN/RU; address/pin not verified in thispass."
+      },
+      {
+        "city": "moscow",
+        "action": "add",
+        "event": {
+          "venue": "Zotov Centre",
+          "address": "2 Khodynskaya Street, building 1, Moscow",
+          "lat": 55.770331040485075,
+          "lng": 37.5646587871239,
+          "coordinateSource": "https://www.afisha.ru/msk/other/centr-zotov-120289/",
+          "id": "morning07-moscow-e041b0a2696cee",
+          "kind": "event",
+          "title": "Anthropology of the Future — New Literary Observer issue200 launch",
+          "titleEn": "Anthropology of the Future — New Literary Observer issue200 launch",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "end": "21:00",
+          "endDate": null,
+          "category": "talk",
+          "source": "Zotov",
+          "sourceUrl": "https://centrezotov.ru/events/antropologiya-budushhego-konflikt-sczenariev-v-perelomnye-epohi-prezentacziya-200-go-nomera-nlo/",
+          "price": null,
+          "currency": "RUB",
+          "min": false,
+          "description": "Journal launch and discussion with editors and authors. Lecture hall, fourth floor; ages18+. Registration required. Price unspecified. Official duration120minutes.",
+          "language": null,
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Moscow",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Official detail page explicitly prints13.11.26 19:00 and120minutes; the dated November2026 programme confirms the year.",
+          "registrationRequired": true,
+          "dateEvidence": "Official detail page explicitly prints13.11.26 19:00 and120minutes; the dated November2026 programme confirms the year.",
+          "dateEvidenceUrls": [
+            "https://centrezotov.ru/events/antropologiya-budushhego-konflikt-sczenariev-v-perelomnye-epohi-prezentacziya-200-go-nomera-nlo/"
+          ]
+        }
+      },
+      {
+        "city": "moscow",
+        "action": "add",
+        "event": {
+          "venue": "Nekrasov Central Library",
+          "address": "58/25 Baumanskaya Street, building 14, Moscow",
+          "lat": 55.76709899999997,
+          "lng": 37.67865800000001,
+          "coordinateSource": "https://kudago.com/msk/place/nekrasovka/",
+          "id": "morning07-moscow-f58c82cfab2030",
+          "kind": "event",
+          "title": "Speaking Club with Nastushka",
+          "titleEn": "Speaking Club with Nastushka",
+          "date": "2026-11-13",
+          "time": "19:30",
+          "end": null,
+          "endDate": null,
+          "category": "city",
+          "source": "Nekrasov Central Library",
+          "sourceUrl": "https://nekrasovka.ru/afisha/13-11-2026/9099",
+          "price": 0,
+          "currency": "RUB",
+          "min": false,
+          "description": "English conversation practice for all levels. Conference hall, fifth floor. Ages12+; free with advance registration.",
+          "language": "EN",
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Moscow",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Official dated event URL explicitly identifies13-11-2026; visible details confirm13 November Friday19:30, matching2026.",
+          "registrationRequired": true,
+          "dateEvidence": "Official dated event URL explicitly identifies13-11-2026; visible details confirm13 November Friday19:30, matching2026.",
+          "dateEvidenceUrls": [
+            "https://nekrasovka.ru/afisha/13-11-2026/9099"
+          ]
+        }
+      },
+      {
+        "city": "moscow",
+        "action": "add",
+        "event": {
+          "venue": "Nekrasov Central Library",
+          "address": "58/25 Baumanskaya Street, building 14, Moscow",
+          "lat": 55.76709899999997,
+          "lng": 37.67865800000001,
+          "coordinateSource": "https://kudago.com/msk/place/nekrasovka/",
+          "id": "morning07-moscow-d6a624dad96485",
+          "kind": "event",
+          "title": "Colour as Cultural Code — Olga Lavrenova lecture",
+          "titleEn": "Colour as Cultural Code — Olga Lavrenova lecture",
+          "date": "2026-11-13",
+          "time": "19:30",
+          "end": null,
+          "endDate": null,
+          "category": "talk",
+          "source": "Nekrasov Central Library",
+          "sourceUrl": "https://nekrasovka.ru/afisha/13-11-2026/9199",
+          "price": 0,
+          "currency": "RUB",
+          "min": false,
+          "description": "Lecture on colour, landscapes and cultural meanings. Art space, second floor. Ages12+; free with advance registration.",
+          "language": null,
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Moscow",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Official dated event URL explicitly identifies13-11-2026; visible details confirm13 November Friday19:30, matching2026.",
+          "registrationRequired": true,
+          "dateEvidence": "Official dated event URL explicitly identifies13-11-2026; visible details confirm13 November Friday19:30, matching2026.",
+          "dateEvidenceUrls": [
+            "https://nekrasovka.ru/afisha/13-11-2026/9199"
+          ]
+        }
+      },
+      {
+        "city": "moscow",
+        "action": "add",
+        "event": {
+          "venue": "GES-2 House of Culture",
+          "address": "Bolotnaya Embankment 15, Moscow",
+          "lat": 55.742751,
+          "lng": 37.612732,
+          "coordinateSource": "https://yandex.ru/maps/-/CCUeVOC8hA",
+          "id": "morning07-moscow-e0c263fe2fa680",
+          "kind": "event",
+          "title": "Carpentry workshop — desktop mirror",
+          "titleEn": "Carpentry workshop — desktop mirror",
+          "date": "2026-11-13",
+          "time": "11:00",
+          "end": "15:00",
+          "endDate": null,
+          "category": "art",
+          "source": "GES-2",
+          "sourceUrl": "https://ges-2.org/masterclass-in-carpentry-desk-mirror",
+          "price": 4000,
+          "currency": "RUB",
+          "min": false,
+          "description": "Svods carpentry workshop, ages18+. Materials included; collect finished work after oil treatment. Two participants. Exact session time confirmed in dated officialcalendar.",
+          "language": null,
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Moscow",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Fresh official calendar URL date=2026-11-13 and visible November2026 heading identify this individual session; visible times match this record. General workshop page start-year is programme inception, not the session date.",
+          "scheduleSourceUrl": "https://ges-2.org/calendar?date=2026-11-13",
+          "dateEvidence": "Fresh official calendar URL date=2026-11-13 and visible November2026 heading identify this individual session; visible times match this record. General workshop page start-year is programme inception, not the session date. Source: https://ges-2.org/calendar?date=2026-11-13; calendar row explicitly shows 11:00–15:00.",
+          "dateEvidenceUrls": [
+            "https://ges-2.org/masterclass-in-carpentry-desk-mirror",
+            "https://ges-2.org/calendar?date=2026-11-13"
+          ],
+          "sourceURLs": [
+            "https://ges-2.org/masterclass-in-carpentry-desk-mirror",
+            "https://ges-2.org/calendar?date=2026-11-13"
+          ]
+        }
+      },
+      {
+        "city": "moscow",
+        "action": "add",
+        "event": {
+          "venue": "GES-2 House of Culture",
+          "address": "Bolotnaya Embankment 15, Moscow",
+          "lat": 55.742751,
+          "lng": 37.612732,
+          "coordinateSource": "https://yandex.ru/maps/-/CCUeVOC8hA",
+          "id": "morning07-moscow-fc868ee3b3b2fd",
+          "kind": "event",
+          "title": "3D scanning and printing workshop",
+          "titleEn": "3D scanning and printing workshop",
+          "date": "2026-11-13",
+          "time": "14:00",
+          "end": "17:00",
+          "endDate": null,
+          "category": "art",
+          "source": "GES-2",
+          "sourceUrl": "https://ges-2.org/vaults-master-class-in-3d-scanning-and-printing",
+          "price": 7000,
+          "currency": "RUB",
+          "min": false,
+          "description": "Svods workshop, ages18+. Price per person includes materials. Two participants. Uses frequent bright scanner flashes. Exact session time confirmed in dated officialcalendar.",
+          "language": null,
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Moscow",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Fresh official calendar URL date=2026-11-13 and visible November2026 heading identify this individual session; visible times match this record. General workshop page start-year is programme inception, not the session date.",
+          "scheduleSourceUrl": "https://ges-2.org/calendar?date=2026-11-13",
+          "dateEvidence": "Fresh official calendar URL date=2026-11-13 and visible November2026 heading identify this individual session; visible times match this record. General workshop page start-year is programme inception, not the session date. Source: https://ges-2.org/calendar?date=2026-11-13; calendar row explicitly shows 14:00–17:00.",
+          "dateEvidenceUrls": [
+            "https://ges-2.org/vaults-master-class-in-3d-scanning-and-printing",
+            "https://ges-2.org/calendar?date=2026-11-13"
+          ],
+          "sourceURLs": [
+            "https://ges-2.org/vaults-master-class-in-3d-scanning-and-printing",
+            "https://ges-2.org/calendar?date=2026-11-13"
+          ]
+        }
+      },
+      {
+        "city": "moscow",
+        "action": "add",
+        "event": {
+          "venue": "GES-2 House of Culture",
+          "address": "Bolotnaya Embankment 15, Moscow",
+          "lat": 55.742751,
+          "lng": 37.612732,
+          "coordinateSource": "https://yandex.ru/maps/-/CCUeVOC8hA",
+          "id": "morning07-moscow-d2e30e8383b763",
+          "kind": "event",
+          "title": "Common Grounds — translation workshop",
+          "titleEn": "Common Grounds — translation workshop",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "end": "21:00",
+          "endDate": null,
+          "category": "talk",
+          "source": "GES-2",
+          "sourceUrl": "https://ges-2.org/common-grounds-an-incomplete-glossary",
+          "price": null,
+          "currency": "RUB",
+          "min": false,
+          "description": "Translation workshop on Fernand Deligny with Alina Belishkina in the Classrooms. Ages18+. Application required; price unspecified. Separate from the November12 lecture.",
+          "language": null,
+          "checkedAt": "2026-11-07T03:02:46.807495+00:00",
+          "timezone": "Europe/Moscow",
+          "availabilityVerified": false,
+          "coordinateEvidence": "Existing exact venue/branch pin reused; fresh organizer source confirms same address.",
+          "yearEvidence": "Official detail explicitly states12–14 November2026 and separately specifies translation workshop13 November19:00–21:00; not the Nov12 lecture.",
+          "registrationRequired": true,
+          "dateEvidence": "Official detail explicitly states12–14 November2026 and separately specifies translation workshop13 November19:00–21:00; not the Nov12 lecture.",
+          "dateEvidenceUrls": [
+            "https://ges-2.org/common-grounds-an-incomplete-glossary"
+          ]
+        }
+      },
+      {
+        "city": "moscow",
+        "action": "pending",
+        "example": {
+          "sourceUrl": "https://t.me/centrezotov/10284",
+          "reason": "Telegram says Nov12 19:30 zinecollage; officiallisting says Oct12; detail cachemiss. Date conflict withheld."
+        },
+        "reason": "Telegram says Nov12 19:30 zinecollage; officiallisting says Oct12; detail cachemiss. Date conflict withheld."
+      },
+      {
+        "city": "moscow",
+        "action": "pending",
+        "example": {
+          "sourceUrl": "https://t.me/privetpoidem/28314",
+          "reason": "Aggregator update says Centrosoyuz tours temporarilycancelled, oldNov13/19 datesstillinpost; no matchingcurrentcatalogue record. Need primaryrecheck beforeimport."
+        },
+        "reason": "Aggregator update says Centrosoyuz tours temporarilycancelled, oldNov13/19 datesstillinpost; no matchingcurrentcatalogue record. Need primaryrecheck beforeimport."
+      },
+      {
+        "city": "moscow",
+        "action": "pending",
+        "example": {
+          "sourceUrl": "https://contextfest.com/article/Momento",
+          "reason": "Discovered viaNov6 organizerreview; Nov13–14 advertised, fullprimarytime/address/price notverified."
+        },
+        "reason": "Discovered viaNov6 organizerreview; Nov13–14 advertised, fullprimarytime/address/price notverified."
+      },
+      {
+        "city": "moscow",
+        "action": "pending",
+        "example": {
+          "sourceUrl": "https://vvfest.ru/",
+          "reason": "Art of Labour exhibition Nov6–30 discoveredfromHlebozavod9/5352; openinghours andprimarydetails notverified."
+        },
+        "reason": "Art of Labour exhibition Nov6–30 discoveredfromHlebozavod9/5352; openinghours andprimarydetails notverified."
+      },
+      {
+        "city": "moscow",
+        "action": "pending",
+        "example": {
+          "sourceUrl": "https://nekrasovka.ru/afisha/13-11-2026/9090",
+          "reason": "Nov13 19 Chuvashclub listedofficialcalendar; detailcachemiss, notimported."
+        },
+        "reason": "Nov13 19 Chuvashclub listedofficialcalendar; detailcachemiss, notimported."
+      },
+      {
+        "city": "barcelona",
+        "action": "add",
+        "event": {
+          "id": "barcelona-20261107-jazz",
+          "kind": "event",
+          "title": "Jazz al Gimnazz",
+          "venue": "Sala Polivalent de Montbau",
+          "address": "Carrer de Domènech i Montaner 3, Barcelona",
+          "date": "2026-11-13",
+          "time": "20:00",
+          "category": "music",
+          "lat": 41.42959732707338,
+          "lng": 2.142512680988442,
+          "coordinateSource": "https://guia.barcelona.cat/en/detall/concert_99400785639.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Barcelona City Council official agenda",
+          "sourceUrl": "https://guia.barcelona.cat/en/detall/concert_99400785639.html",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Free neighbourhood jazz concert in Montbau."
+        }
+      },
+      {
+        "city": "barcelona",
+        "action": "add",
+        "event": {
+          "id": "barcelona-20261107-swap",
+          "kind": "event",
+          "title": "Renova la teva roba: clothing exchange",
+          "venue": "Espai 30 — La Sagrera",
+          "address": "Carrer d’Hondures 28–30, Barcelona",
+          "date": "2026-11-13",
+          "time": "17:00",
+          "category": "city",
+          "lat": 41.4199480251008,
+          "lng": 2.1899553855249594,
+          "coordinateSource": "https://guia.barcelona.cat/es/detall/mercat-de-recollida-i-intercanvi-renova-la-teva-roba_99400723503.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Barcelona City Council official agenda",
+          "sourceUrl": "https://guia.barcelona.cat/es/detall/mercat-de-recollida-i-intercanvi-renova-la-teva-roba_99400723503.html",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Neighbourhood clothing exchange, 17:00–19:30. Clothing collection takes place on November 12; November 13 is the exchange session.",
+          "end": "19:30",
+          "activityType": "clothing-swap"
+        }
+      },
+      {
+        "city": "barcelona",
+        "action": "add",
+        "event": {
+          "id": "barcelona-20261107-story",
+          "kind": "event",
+          "title": "Storytelling and other secrets: workshop",
+          "venue": "Biblioteca Nou Barris",
+          "address": "Plaça Major de Nou Barris 2, Barcelona",
+          "date": "2026-11-13",
+          "time": "18:00",
+          "category": "talk",
+          "lat": 41.436844552510806,
+          "lng": 2.1712296246319656,
+          "coordinateSource": "https://guia.barcelona.cat/es/detall/taller-narracio-de-contes-i-altres-secrets-amb-sherezade-bardaji_99400764245.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Barcelona City Council official agenda",
+          "sourceUrl": "https://guia.barcelona.cat/es/detall/taller-narracio-de-contes-i-altres-secrets-amb-sherezade-bardaji_99400764245.html",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "First session of a four-session storytelling workshop with Sherezade Bardají. Free; prior registration required, limited capacity. Registration closes November 13 at 17:00.",
+          "end": "20:00",
+          "activityType": "workshop",
+          "registrationRequired": true
+        }
+      },
+      {
+        "city": "barcelona",
+        "action": "add",
+        "event": {
+          "id": "barcelona-20261107-javito",
+          "kind": "event",
+          "title": "Javito: Totes les versions de mi",
+          "venue": "Centre Cultural La Casa Elizalde",
+          "address": "Carrer de València 302, Barcelona",
+          "date": "2026-11-13",
+          "time": "19:30",
+          "category": "music",
+          "lat": 41.394518975814755,
+          "lng": 2.165900883899018,
+          "coordinateSource": "https://guia.barcelona.cat/es/detall/concert-javito_99400725903.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Barcelona City Council official agenda",
+          "sourceUrl": "https://guia.barcelona.cat/es/detall/concert-javito_99400725903.html",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Javito presents his new album with a full band. Free admission with advance reservation through casaelizalde.com or 934 880 590. No entry after the concert starts.",
+          "registrationRequired": true
+        }
+      },
+      {
+        "city": "barcelona",
+        "action": "add",
+        "event": {
+          "id": "barcelona-20261107-ai",
+          "kind": "event",
+          "title": "Artificial intelligence in everyday life: workshop",
+          "venue": "Societat Cultural i Esportiva La Lira",
+          "address": "Carrer de Coroleu 15, Barcelona",
+          "date": "2026-11-13",
+          "time": "18:30",
+          "category": "talk",
+          "lat": 41.4327447552922,
+          "lng": 2.1881472060373803,
+          "coordinateSource": "https://guia.barcelona.cat/es/detall/societat-cultural-i-esportiva-la-lira_92086010375.html",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "La Lira organizer listing on Quèdequè",
+          "sourceUrl": "https://quedeque.barcelona/agenda/taller-dintelligencia-artificial",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": "Catalan",
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Marc Martí introduces practical AI tools. Free workshop in Catalan, 18:30–20:00. Advance registration by email to esbarjoicultura@gmail.com.",
+          "end": "20:00",
+          "activityType": "workshop",
+          "registrationRequired": true
+        }
+      },
+      {
+        "city": "barcelona",
+        "action": "pending",
+        "example": {
+          "title": "Benny Sings",
+          "sourceUrl": "https://www.sala-apolo.com/en/event/pinata-presents-benny-sings-20261113-7642",
+          "reason": "Official language versions disagree on confirmed timing: English says doors/start TBC; Spanish says 19:30 doors,20:30 start; Catalan marks TBC. Municipal19:30 must not be assumed concert start."
+        },
+        "reason": "Official language versions disagree on confirmed timing: English says doors/start TBC; Spanish says 19:30 doors,20:30 start; Catalan marks TBC. Municipal19:30 must not be assumed concert start."
+      },
+      {
+        "city": "barcelona",
+        "action": "pending",
+        "example": {
+          "title": "Todo a 1€ market",
+          "sourceUrl": "https://t.me/bcn_afisha/4975",
+          "reason": "Nov8 announced; exact time and correct Ovella Negra branch/pin not verified."
+        },
+        "reason": "Nov8 announced; exact time and correct Ovella Negra branch/pin not verified."
+      },
+      {
+        "city": "barcelona",
+        "action": "pending",
+        "example": {
+          "title": "Setmana de la Ciència 2026",
+          "sourceUrl": "https://t.me/bcn_afisha/4974",
+          "reason": "Festival Nov6–15 discovered; individual sessions require their own date,time,address checks."
+        },
+        "reason": "Festival Nov6–15 discovered; individual sessions require their own date,time,address checks."
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261107-12702023",
+          "kind": "event",
+          "title": "52 Hercios — Antonio Carreño",
+          "venue": "Centro Cultural Miguel Hernández (Latina)",
+          "address": "CALLE SERRADILLA 13, 28044 Madrid",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "category": "music",
+          "lat": 40.37881526578977,
+          "lng": -3.7818814193235477,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/12702023-52-hercios.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/12702023-52-hercios.json",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Antonio Carreño performs songs from his debut EP with Rash and Dani Tejedor. Free admission.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/12702023-52-hercios.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=98aaf275b2745910VgnVCM2000001f4a900aRCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261107-50455287",
+          "kind": "event",
+          "title": "75 years in Madrid, always Vicálvaro",
+          "venue": "Centro Cultural Fuente de San Pedro - Valderrivas (Vicálvaro)",
+          "address": "CALLE TITANIO 5, 28032 Madrid",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "category": "film",
+          "lat": 40.40218085880392,
+          "lng": -3.60141148450391,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50455287-75-anos-madrid-siempre-vicalvaro.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50455287-75-anos-madrid-siempre-vicalvaro.json",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Presentation and screening of a documentary about Vicálvaro’s history, heritage and residents. Free admission.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50455287-75-anos-madrid-siempre-vicalvaro.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=bdbf33a270e51a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261107-50466119",
+          "kind": "event",
+          "title": "A mi manera",
+          "venue": "Centro Cultural Buero Vallejo (San Blas - Canillejas)",
+          "address": "CALLE BOLTAÑA 27, 28022 Madrid",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "category": "theatre",
+          "lat": 40.44477474902185,
+          "lng": -3.6129105844633775,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50466119-mi-manera.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50466119-mi-manera.json",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Ecos de Escena Producciones stages a story of friendship, hidden artistic ambitions and taking a chance on your dreams. Recommended for ages 12+. Free admission.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50466119-mi-manera.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6bfc819fbd871a10VgnVCM100000891ecb1aRCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261107-50329499",
+          "kind": "event",
+          "title": "Aquelarre de humor",
+          "venue": "Centro Sociocultural Rosario de Acuña (Latina)",
+          "address": "CALLE MARIA DEL CARMEN 65, 28011 Madrid",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "category": "theatre",
+          "lat": 40.40647389284976,
+          "lng": -3.7327010920242043,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50329499-aquelarre-humor.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50329499-aquelarre-humor.json",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Eva Garra and Yolanda Mora present comedy, music and improvisation. Free admission.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50329499-aquelarre-humor.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=3d94b9402919e910VgnVCM100000891ecb1aRCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261107-50468201",
+          "kind": "event",
+          "title": "Australia: family clown show",
+          "venue": "Centro Sociocultural Francisco Fatou (Villa de Vallecas)",
+          "address": "CALLE MANUEL VELEZ 10, 28031 Madrid",
+          "date": "2026-11-13",
+          "time": "18:00",
+          "category": "theatre",
+          "lat": 40.37959032098656,
+          "lng": -3.62310875744905,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468201-australia.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50468201-australia.json",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Raquel Martínez presents a playful storytelling clown show. Ages 5+, duration 60 minutes. Free admission.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50468201-australia.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=67859d093d181a10VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261107-50182342",
+          "kind": "event",
+          "title": "Chaché al Deskuido",
+          "venue": "Centro Cultural José Luis Sampedro (Latina)",
+          "address": "CALLE CASTROSERNA 4, 28047 Madrid",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "category": "music",
+          "lat": 40.40159394334669,
+          "lng": -3.749110841406562,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50182342-chache-al-deskuido.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50182342-chache-al-deskuido.json",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Flamenco-rumba duo in the Sentimiento en Latina programme. Free admission.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50182342-chache-al-deskuido.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=21abcfe2f1a5b910VgnVCM200000f921e388RCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261107-50467411",
+          "kind": "event",
+          "title": "Madrid Distrito en Corto: short-film programme",
+          "venue": "Centro Cultural el Torito (Moratalaz)",
+          "address": "AVENIDA MORATALAZ 130, 28030 Madrid",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "category": "film",
+          "lat": 40.40610655994401,
+          "lng": -3.646521482592748,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50467411-cine-madrid-distrito-corto.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50467411-cine-madrid-distrito-corto.json",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Five short films screened as one programme: Una cabeza en la pared, La fuerza, El relevo, Cosas de chicos and Teo va al espacio. Age recommendations vary; some shorts are 12+. Free admission.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50467411-cine-madrid-distrito-corto.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a7748b7818d71a10VgnVCM200000f921e388RCRD"
+          ],
+          "cinemaSession": true
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261107-50457447",
+          "kind": "event",
+          "title": "Bringing painting into history: closing talk",
+          "venue": "Sala de exposiciones La Lonja. Centro Cultural Casa del Reloj (Arganzuela)",
+          "address": "PASEO CHOPERA 10, 28045 Madrid",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "category": "talk",
+          "lat": 40.39307289237465,
+          "lng": -3.699005654074825,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50457447-clausura-llevar-pintura-historia.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50457447-clausura-llevar-pintura-historia.json",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Jesús G. Calero closes the lecture cycle and exhibition. Free admission.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50457447-clausura-llevar-pintura-historia.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=3ff86e87b7761a10VgnVCM100000891ecb1aRCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261107-50466953",
+          "kind": "event",
+          "title": "Plasticine club with Sergio Sosa",
+          "venue": "Centro Sociocultural Blasco Ibáñez (Carabanchel)",
+          "address": "CALLE SOLDADO JOSE MARIA REY 44, 28019 Madrid",
+          "date": "2026-11-13",
+          "time": "18:00",
+          "category": "art",
+          "lat": 40.39496102590205,
+          "lng": -3.7327634025142253,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50466953-club-plastilina-sergio-sosa.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50466953-club-plastilina-sergio-sosa.json",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Hands-on modelling workshop ending with a collective mini-exhibition. Ages 6+, duration 75 minutes, capacity 20. Free admission.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50466953-club-plastilina-sergio-sosa.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=e3abfbbbf3d71a10VgnVCM200000f921e388RCRD"
+          ],
+          "activityType": "workshop"
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261107-50457938",
+          "kind": "event",
+          "title": "Con zarzuela y recitando",
+          "venue": "Centro Cultural Julio Cortázar (Moncloa - Aravaca)",
+          "address": "CALLE ANTONIO MACHADO 20, 28035 Madrid",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "category": "music",
+          "lat": 40.46678417843686,
+          "lng": -3.7195598670929315,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50457938-zarzuela-recitando.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50457938-zarzuela-recitando.json",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "Kaskivania Teatro combines zarzuela, theatre and poetry with Mariel Peralta, tenor Daniel Huerta and pianist Mathew Crawford. Free with advance reservation. No late entry.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50457938-zarzuela-recitando.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b40eec3503861a10VgnVCM200000f921e388RCRD"
+          ],
+          "registrationRequired": true
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "add",
+        "event": {
+          "id": "madrid-20261107-50322790",
+          "kind": "event",
+          "title": "Autumn concert — BBVA Choir",
+          "venue": "Centro Cultural Casa de Vacas (Retiro)",
+          "address": "PASEO COLOMBIA 1, 28009 Madrid",
+          "date": "2026-11-13",
+          "time": "19:00",
+          "category": "music",
+          "lat": 40.41906571939961,
+          "lng": -3.684053112760816,
+          "coordinateSource": "https://datos.madrid.es/egob/catalogo/tipo/evento/50322790-concierto-otono.json",
+          "coordinatePrecision": "official-venue-pin",
+          "coordinateEvidence": "Municipal official event page/record supplies venue coordinates.",
+          "source": "Madrid City Council official cultural agenda",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50322790-concierto-otono.json",
+          "checkedAt": "2026-11-07T03:02:47.095094+00:00",
+          "yearEvidence": "Official page/record explicitly confirms November 13, 2026.",
+          "price": 0,
+          "priceLabel": "Free admission",
+          "currency": "EUR",
+          "timezone": "Europe/Madrid",
+          "language": null,
+          "availabilityVerified": false,
+          "status": "verified_announcement",
+          "description": "BBVA Choir conducted by Jorge L. Benito Santamaría. Free tickets distributed at the centre from one hour before the concert, maximum two per person while capacity remains.",
+          "sourceURLs": [
+            "https://datos.madrid.es/egob/catalogo/tipo/evento/50322790-concierto-otono.json",
+            "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=030b0775d496e910VgnVCM100000891ecb1aRCRD"
+          ]
+        }
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Amor a mano - Villa de Vallecas",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50406313-amor-mano-villa-vallecas.json",
+          "reason": "Official record has date/time but no venue/address/pin."
+        },
+        "reason": "Official record has date/time but no venue/address/pin."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Cine fórum: CICLO 100 AÑOS MEL BROOKS, EL JOVENCITO FRANKENSTEIN",
+          "sourceUrl": "https://datos.madrid.es/egob/catalogo/tipo/evento/50469594-cine-forum-ciclo-100-anos-mel-brooks-jovencito-frankenstein.json",
+          "reason": "Official record has date and venue but no start time. Midnight is a placeholder, not an actual start."
+        },
+        "reason": "Official record has date and venue but no start time. Midnight is a placeholder, not an actual start."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "II Memorial Josep Maria Cuscó — castells",
+          "sourceUrl": "https://t.me/madrid_gorit/3697",
+          "reason": "Telegram and press agree Nov7 16:30 PlazaMurillo; fresh organizer announcement and exact venue pin not verified."
+        },
+        "reason": "Telegram and press agree Nov7 16:30 PlazaMurillo; fresh organizer announcement and exact venue pin not verified."
+      },
+      {
+        "city": "madrid",
+        "action": "pending",
+        "example": {
+          "title": "Madrid Hotel Week",
+          "sourceUrl": "https://t.me/HoyMadridApp/1411",
+          "reason": "Nov6–15 citywide programme discovered; individual hotel session schedules and entry conditions not yet checked."
+        },
+        "reason": "Nov6–15 citywide programme discovered; individual hotel session schedules and entry conditions not yet checked."
+      }
+    ]
+  },
+  "audit": {
+    "tbilisi": {
+      "telegram": [
+        {
+          "channel": "auditoria_tbilisi",
+          "url": "https://t.me/s/auditoria_tbilisi",
+          "pagesRequested": 3,
+          "postsFetched": 42,
+          "postsRead": 3,
+          "readPostIds": [
+            "auditoria_tbilisi/7691",
+            "auditoria_tbilisi/7709",
+            "auditoria_tbilisi/7717"
+          ],
+          "earliest": "2026-10-24T14:26:43+00:00",
+          "latest": "2026-11-06T10:11:51+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-02T19:42:32+00:00",
+          "readLatest": "2026-11-06T10:11:51+00:00"
+        },
+        {
+          "channel": "paperkartuli",
+          "url": "https://t.me/s/paperkartuli",
+          "pagesRequested": 3,
+          "postsFetched": 52,
+          "postsRead": 3,
+          "readPostIds": [
+            "paperkartuli/30063",
+            "paperkartuli/30040",
+            "paperkartuli/30043"
+          ],
+          "earliest": "2026-11-03T10:23:01+00:00",
+          "latest": "2026-11-06T18:41:01+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-05T12:47:01+00:00",
+          "readLatest": "2026-11-06T17:27:01+00:00"
+        },
+        {
+          "channel": "mesto_info",
+          "url": "https://t.me/s/mesto_info",
+          "pagesRequested": 3,
+          "postsFetched": 47,
+          "postsRead": 1,
+          "readPostIds": [
+            "mesto_info/2961"
+          ],
+          "earliest": "2026-10-14T10:03:28+00:00",
+          "latest": "2026-11-06T11:01:09+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-05T06:31:48+00:00",
+          "readLatest": "2026-11-05T06:31:48+00:00"
+        },
+        {
+          "channel": "quizplease_tbls",
+          "url": "https://t.me/s/quizplease_tbls",
+          "pagesRequested": 3,
+          "postsFetched": 32,
+          "postsRead": 14,
+          "readPostIds": [
+            "quizplease_tbls/3368",
+            "quizplease_tbls/3377",
+            "quizplease_tbls/3378",
+            "quizplease_tbls/3379",
+            "quizplease_tbls/3389",
+            "quizplease_tbls/3390",
+            "quizplease_tbls/3391",
+            "quizplease_tbls/3361",
+            "quizplease_tbls/3362",
+            "quizplease_tbls/3363",
+            "quizplease_tbls/3364",
+            "quizplease_tbls/3365",
+            "quizplease_tbls/3366",
+            "quizplease_tbls/3367"
+          ],
+          "earliest": "2026-10-21T08:19:32+00:00",
+          "latest": "2026-11-06T17:17:49+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-01T12:54:59+00:00",
+          "readLatest": "2026-11-06T17:17:49+00:00"
+        },
+        {
+          "channel": "tbilisieda",
+          "url": "https://t.me/s/tbilisieda",
+          "pagesRequested": 3,
+          "postsFetched": 28,
+          "postsRead": 4,
+          "readPostIds": [
+            "tbilisieda/8524",
+            "tbilisieda/8525",
+            "tbilisieda/8526",
+            "tbilisieda/8527"
+          ],
+          "earliest": "2026-10-27T15:05:09+00:00",
+          "latest": "2026-11-06T15:05:06+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-05T09:05:04+00:00",
+          "readLatest": "2026-11-06T15:05:06+00:00"
+        }
+      ],
+      "web": [
+        {
+          "name": "alibi",
+          "url": "https://alibi.ge/games/sudya-2026-11-08/",
+          "status": "fetched",
+          "error": null,
+          "read": true,
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00"
+        },
+        {
+          "name": "quiz",
+          "url": "https://tbilisi.quizplease.com/",
+          "status": "fetched",
+          "error": null,
+          "read": true,
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00"
+        },
+        {
+          "url": "https://ra.co/events/2544905",
+          "status": "read; primary linkedpageJSonly; heldpending",
+          "read": true
+        },
+        {
+          "url": "https://bassiani.com/light/nights/1129",
+          "status": "JS-only shell; event notverified",
+          "read": false
+        }
+      ],
+      "duplicates": [
+        {
+          "sourceUrl": "https://t.me/paperkartuli/30063",
+          "existingId": "n06-9c3a0caa4a9473",
+          "reason": "SameNov10stopmotionfilmclub; repostnotnewevent."
+        },
+        {
+          "sourceUrl": "https://t.me/auditoria_tbilisi/7709",
+          "existingId": "n06-df8d63a54eb3f2",
+          "reason": "SameNov8DeepSea filmclub."
+        }
+      ]
+    },
+    "yerevan": {
+      "telegram": [
+        {
+          "channel": "ErevanRus",
+          "url": "https://t.me/s/ErevanRus",
+          "pagesRequested": 3,
+          "postsFetched": 48,
+          "postsRead": 6,
+          "readPostIds": [
+            "ErevanRus/7500",
+            "ErevanRus/7501",
+            "ErevanRus/7507",
+            "ErevanRus/7509",
+            "ErevanRus/7513",
+            "ErevanRus/7514"
+          ],
+          "earliest": "2026-10-24T10:01:20+00:00",
+          "latest": "2026-11-06T14:05:31+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-04T12:02:15+00:00",
+          "readLatest": "2026-11-06T14:05:31+00:00"
+        },
+        {
+          "channel": "easygoing_yerevan",
+          "url": "https://t.me/s/easygoing_yerevan",
+          "pagesRequested": 3,
+          "postsFetched": 48,
+          "postsRead": 4,
+          "readPostIds": [
+            "easygoing_yerevan/11987",
+            "easygoing_yerevan/11988",
+            "easygoing_yerevan/11989",
+            "easygoing_yerevan/11990"
+          ],
+          "earliest": "2026-10-27T16:07:59+00:00",
+          "latest": "2026-11-06T17:00:59+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-05T07:00:17+00:00",
+          "readLatest": "2026-11-05T13:06:56+00:00"
+        },
+        {
+          "channel": "commonground_yerevan",
+          "url": "https://t.me/s/commonground_yerevan",
+          "pagesRequested": 3,
+          "postsFetched": 23,
+          "postsRead": 2,
+          "readPostIds": [
+            "commonground_yerevan/901",
+            "commonground_yerevan/902"
+          ],
+          "earliest": "2026-09-22T10:26:10+00:00",
+          "latest": "2026-11-05T15:07:22+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-05T15:00:47+00:00",
+          "readLatest": "2026-11-05T15:07:22+00:00"
+        },
+        {
+          "channel": "greenroomyerevan",
+          "url": "https://t.me/s/greenroomyerevan",
+          "pagesRequested": 3,
+          "postsFetched": 57,
+          "postsRead": 3,
+          "readPostIds": [
+            "greenroomyerevan/1319",
+            "greenroomyerevan/1331",
+            "greenroomyerevan/1332"
+          ],
+          "earliest": "2026-10-03T16:23:51+00:00",
+          "latest": "2026-11-06T15:41:25+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-01T14:40:49+00:00",
+          "readLatest": "2026-11-06T15:41:25+00:00"
+        },
+        {
+          "channel": "muhabaryerevan",
+          "url": "https://t.me/s/muhabaryerevan",
+          "pagesRequested": 3,
+          "postsFetched": 51,
+          "postsRead": 7,
+          "readPostIds": [
+            "muhabaryerevan/2395",
+            "muhabaryerevan/2396",
+            "muhabaryerevan/2398",
+            "muhabaryerevan/2399",
+            "muhabaryerevan/2401",
+            "muhabaryerevan/2402",
+            "muhabaryerevan/2403"
+          ],
+          "earliest": "2026-10-11T08:35:34+00:00",
+          "latest": "2026-11-06T10:37:04+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-04T06:48:12+00:00",
+          "readLatest": "2026-11-06T10:37:04+00:00"
+        },
+        {
+          "channel": "relokant",
+          "url": "https://t.me/s/relokant",
+          "pagesRequested": 3,
+          "postsFetched": 60,
+          "postsRead": 3,
+          "readPostIds": [
+            "relokant/2803",
+            "relokant/2804",
+            "relokant/2805"
+          ],
+          "earliest": "2026-09-21T09:33:14+00:00",
+          "latest": "2026-11-02T09:45:10+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-10-05T08:45:19+00:00",
+          "readLatest": "2026-10-05T09:15:14+00:00"
+        },
+        {
+          "channel": "kruzhokww",
+          "url": "https://t.me/s/kruzhokww",
+          "pagesRequested": 3,
+          "postsFetched": 55,
+          "postsRead": 1,
+          "readPostIds": [
+            "kruzhokww/670"
+          ],
+          "earliest": "2026-09-01T11:39:41+00:00",
+          "latest": "2026-11-05T12:27:03+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-05T12:27:03+00:00",
+          "readLatest": "2026-11-05T12:27:03+00:00"
+        },
+        {
+          "channel": "masterskayaArtLav",
+          "url": "https://t.me/s/masterskayaArtLav",
+          "pagesRequested": 3,
+          "postsFetched": 10,
+          "postsRead": 2,
+          "readPostIds": [
+            "masterskayaArtLav/2538",
+            "masterskayaArtLav/2548"
+          ],
+          "earliest": "2026-10-21T11:55:41+00:00",
+          "latest": "2026-11-06T13:16:41+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-06T09:04:59+00:00",
+          "readLatest": "2026-11-06T13:16:41+00:00"
+        },
+        {
+          "channel": "yerevannevents",
+          "url": "https://t.me/s/yerevannevents",
+          "pagesRequested": 3,
+          "postsFetched": 19,
+          "postsRead": 3,
+          "readPostIds": [
+            "yerevannevents/8",
+            "yerevannevents/11",
+            "yerevannevents/12"
+          ],
+          "earliest": "2023-01-25T08:15:50+00:00",
+          "latest": "2026-11-06T08:49:33+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2023-01-27T10:54:58+00:00",
+          "readLatest": "2023-01-29T16:38:47+00:00"
+        },
+        {
+          "channel": "tomsarkgham",
+          "url": "https://t.me/s/tomsarkgham",
+          "pagesRequested": 3,
+          "postsFetched": 13,
+          "postsRead": 3,
+          "readPostIds": [
+            "tomsarkgham/1448",
+            "tomsarkgham/1450",
+            "tomsarkgham/1452"
+          ],
+          "earliest": "2026-10-28T07:36:37+00:00",
+          "latest": "2026-11-06T10:59:40+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-10-29T12:16:37+00:00",
+          "readLatest": "2026-11-01T04:20:17+00:00"
+        },
+        {
+          "channel": "guideyerevan",
+          "url": "https://t.me/s/guideyerevan",
+          "pagesRequested": 3,
+          "postsFetched": 51,
+          "postsRead": 2,
+          "readPostIds": [
+            "guideyerevan/1580",
+            "guideyerevan/1581"
+          ],
+          "earliest": "2026-09-03T12:06:04+00:00",
+          "latest": "2026-11-06T12:06:01+00:00",
+          "status": "public history fetched; selected posts read",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": "2026-11-06T11:05:19+00:00",
+          "readLatest": "2026-11-06T12:06:01+00:00"
+        },
+        {
+          "channel": "greengreenarmenia",
+          "url": "https://t.me/s/greengreenarmenia",
+          "pagesRequested": 1,
+          "postsFetched": 0,
+          "postsRead": 0,
+          "readPostIds": [],
+          "earliest": null,
+          "latest": null,
+          "status": "No public history returned",
+          "readNote": "Only listedposts actually read; downloadedhistory is not full editorialreview.",
+          "readEarliest": null,
+          "readLatest": null
+        }
+      ],
+      "web": [
+        {
+          "name": "aua-constitutional",
+          "url": "https://newsroom.aua.am/event/crisis-armenian-constitutionalism-minority-minority/",
+          "status": "fetched",
+          "error": null,
+          "read": true,
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00"
+        },
+        {
+          "name": "aua-risk",
+          "url": "https://newsroom.aua.am/event/openclass-country-risk-analysis/",
+          "status": "fetched",
+          "error": null,
+          "read": true,
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00"
+        },
+        {
+          "name": "aua-ukraine",
+          "url": "https://newsroom.aua.am/event/book-presentation-exploring-ukrainian-politics-institutions-actors-policy-areas/",
+          "status": "fetched",
+          "error": null,
+          "read": true,
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00"
+        },
+        {
+          "name": "aua-dialogue",
+          "url": "https://newsroom.aua.am/event/dialogue-participation-community-change/",
+          "status": "fetched",
+          "error": null,
+          "read": true,
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00"
+        },
+        {
+          "name": "aua-hellenic",
+          "url": "https://newsroom.aua.am/event/impact-hellenic-paideia-formation-highereducation-armenia-antiquity/",
+          "status": "fetched",
+          "error": null,
+          "read": true,
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00"
+        },
+        {
+          "name": "aua-shakespeare",
+          "url": "https://newsroom.aua.am/event/masterclass-elliot-huxtable-directing-shakespeare-modern-times/",
+          "status": "fetched",
+          "error": null,
+          "read": true,
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00"
+        },
+        {
+          "name": "kamil",
+          "url": "https://philharmonia.am/en/event/kamil-tchalaev/",
+          "status": "fetched",
+          "error": null,
+          "read": true,
+          "checkedAt": "2026-11-07T03:04:05.221747+00:00"
+        },
+        {
+          "url": "https://eventix.am/",
+          "status": "read listing; selectedNov13 details; foundexistingSEVAGIRandMiyazaki",
+          "read": true
+        },
+        {
+          "url": "https://greengreen.am/ru",
+          "status": "read; next event says notannounced",
+          "read": true
+        },
+        {
+          "url": "https://newsroom.aua.am/event/crisis-armenian-constitutionalism-minority-minority/?ical=1",
+          "status": "webtool cachemiss; HTMLJSON-LD dates verifiedinstead",
+          "read": false
+        },
+        {
+          "url": "https://newsroom.aua.am/event/openclass-country-risk-analysis/?ical=1",
+          "status": "webtool cachemiss; HTMLJSON-LD dates verifiedinstead",
+          "read": false
+        }
+      ],
+      "duplicates": [
+        {
+          "sourceUrl": "https://t.me/commonground_yerevan/902",
+          "existingId": "n06-bb0417982d21eb",
+          "reason": "ExistingNov8reading."
+        },
+        {
+          "sourceUrl": "https://t.me/greenroomyerevan/1331",
+          "existingId": "n06-8fb633d3b0c348",
+          "reason": "ExistingNov9filmclub."
+        },
+        {
+          "sourceUrl": "https://eventix.am/concert/sevagir-live-at-tonelab-322c9f47-e2b4-4d77-a698-2441cd1ba185",
+          "existingId": "yerevan-research28-d788f94d1266",
+          "reason": "ExistingNov13concert."
+        },
+        {
+          "sourceUrl": "https://eventix.am/concert/hayao-miyazaki-s-dreams-by-mystery-ensemble-14e46298-c875-4e17-9ebd-ff6122742e78",
+          "existingId": "yerevan-research28-af1928fd8922",
+          "reason": "ExistingNov13concert."
+        }
+      ]
+    },
+    "belgrade": {
+      "telegram": [
+        {
+          "handle": "auditoria_belgrade",
+          "pages": [
+            {
+              "url": "https://t.me/s/auditoria_belgrade",
+              "fetched": 19
+            },
+            {
+              "url": "https://t.me/s/auditoria_belgrade?before=1828",
+              "fetched": 19
+            },
+            {
+              "url": "https://t.me/s/auditoria_belgrade?before=1808",
+              "fetched": 13
+            }
+          ],
+          "fetchedPosts": 51,
+          "postsRead": 7,
+          "readPostIds": [
+            1841,
+            1842,
+            1843,
+            1844,
+            1845,
+            1846,
+            1847
+          ],
+          "publicationRange": [
+            "2026-10-14T13:31:32+00:00",
+            "2026-11-06T11:29:01+00:00"
+          ],
+          "status": "partial_read"
+        },
+        {
+          "handle": "vranin_tavan",
+          "pages": [
+            {
+              "url": "https://t.me/s/vranin_tavan",
+              "fetched": 18
+            },
+            {
+              "url": "https://t.me/s/vranin_tavan?before=1038",
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/vranin_tavan?before=1017",
+              "fetched": 20
+            }
+          ],
+          "fetchedPosts": 58,
+          "postsRead": 7,
+          "readPostIds": [
+            1046,
+            1052,
+            1053,
+            1054,
+            1055,
+            1056,
+            1057
+          ],
+          "publicationRange": [
+            "2026-09-30T11:03:11+00:00",
+            "2026-11-06T17:19:04+00:00"
+          ],
+          "status": "partial_read"
+        },
+        {
+          "handle": "blackcat_beograd",
+          "pages": [
+            {
+              "url": "https://t.me/s/blackcat_beograd",
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/blackcat_beograd?before=1510",
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/blackcat_beograd?before=1485",
+              "fetched": 20
+            }
+          ],
+          "fetchedPosts": 60,
+          "postsRead": 3,
+          "readPostIds": [
+            1527,
+            1528,
+            1529
+          ],
+          "publicationRange": [
+            "2026-09-17T14:23:49+00:00",
+            "2026-11-05T16:32:02+00:00"
+          ],
+          "status": "partial_read"
+        },
+        {
+          "handle": "quizpleasebeg",
+          "pages": [
+            {
+              "url": "https://t.me/s/quizpleasebeg",
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/quizpleasebeg?before=829",
+              "fetched": 19
+            },
+            {
+              "url": "https://t.me/s/quizpleasebeg?before=809",
+              "fetched": 18
+            }
+          ],
+          "fetchedPosts": 57,
+          "postsRead": 4,
+          "readPostIds": [
+            845,
+            846,
+            847,
+            848
+          ],
+          "publicationRange": [
+            "2026-08-26T08:58:26+00:00",
+            "2026-11-05T09:39:41+00:00"
+          ],
+          "status": "partial_read"
+        },
+        {
+          "handle": "triptix_belgrade",
+          "pages": [
+            {
+              "url": "https://t.me/s/triptix_belgrade",
+              "fetched": 16
+            },
+            {
+              "url": "https://t.me/s/triptix_belgrade?before=1582",
+              "fetched": 16
+            },
+            {
+              "url": "https://t.me/s/triptix_belgrade?before=1557",
+              "fetched": 13
+            }
+          ],
+          "fetchedPosts": 45,
+          "postsRead": 7,
+          "readPostIds": [
+            1557,
+            1558,
+            1559,
+            1560,
+            1599,
+            1600,
+            1602
+          ],
+          "publicationRange": [
+            "2026-07-22T12:04:26+00:00",
+            "2026-11-03T15:20:21+00:00"
+          ],
+          "status": "partial_read"
+        },
+        {
+          "handle": "obitaniya_sreda",
+          "pages": [
+            {
+              "url": "https://t.me/s/obitaniya_sreda",
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/obitaniya_sreda?before=2294",
+              "fetched": 19
+            },
+            {
+              "url": "https://t.me/s/obitaniya_sreda?before=2274",
+              "fetched": 20
+            }
+          ],
+          "fetchedPosts": 59,
+          "postsRead": 3,
+          "readPostIds": [
+            2312,
+            2313,
+            2314
+          ],
+          "publicationRange": [
+            "2026-09-15T15:07:59+00:00",
+            "2026-11-06T17:53:01+00:00"
+          ],
+          "status": "partial_read"
+        }
+      ],
+      "web": [
+        {
+          "url": "https://www.kcb.org.rs/najave/?d=13&mo=11&y=2026",
+          "status": "web cache miss"
+        },
+        {
+          "url": "https://bgmanifestacije.rs/",
+          "status": "read: visiblecalendar September2026 only; noNovemberevents confirmed"
+        },
+        {
+          "url": "https://t.me/obitaniya_sreda/609?embed=1",
+          "status": "read exact Šafarikova6 address and entryinstructions; webtool failed, directpublicembed succeeded"
+        },
+        {
+          "url": "https://t.me/obitaniya_sreda/612?embed=1",
+          "status": "read exact Šafarikova6 address and entryinstructions; webtool failed, directpublicembed succeeded"
+        },
+        {
+          "url": "https://t.me/obitaniya_sreda/613?embed=1",
+          "status": "read exact Šafarikova6 address and entryinstructions; webtool failed, directpublicembed succeeded"
+        }
+      ],
+      "duplicates": 10,
+      "duplicateNote": "Freshlyread exactexisting announcements: Auditoria1841–1845 (5), Vranin1053–1054 (2), BlackCat1527–1529 (3). Aggregate1055 is notextraevent."
+    },
+    "moscow": {
+      "telegram": [
+        {
+          "handle": "centrezotov",
+          "pages": [
+            {
+              "url": "https://t.me/s/centrezotov",
+              "fetched": 10
+            },
+            {
+              "url": "https://t.me/s/centrezotov?before=10267",
+              "fetched": 8
+            },
+            {
+              "url": "https://t.me/s/centrezotov?before=10245",
+              "fetched": 10
+            }
+          ],
+          "fetchedPosts": 28,
+          "postsRead": 5,
+          "readPostIds": [
+            10276,
+            10278,
+            10284,
+            10285,
+            10286
+          ],
+          "publicationRange": [
+            "2026-10-29T08:39:06+00:00",
+            "2026-11-06T14:31:25+00:00"
+          ],
+          "status": "partial_read"
+        },
+        {
+          "handle": "privetpoidem",
+          "pages": [
+            {
+              "url": "https://t.me/s/privetpoidem",
+              "fetched": 6
+            },
+            {
+              "url": "https://t.me/s/privetpoidem?before=28297",
+              "fetched": 8
+            },
+            {
+              "url": "https://t.me/s/privetpoidem?before=28275",
+              "fetched": 4
+            }
+          ],
+          "fetchedPosts": 18,
+          "postsRead": 11,
+          "readPostIds": [
+            28314,
+            28316,
+            28322,
+            28278,
+            28280,
+            28281,
+            28287,
+            28288,
+            28294,
+            28306,
+            28308
+          ],
+          "publicationRange": [
+            "2026-10-30T11:22:51+00:00",
+            "2026-11-06T14:35:44+00:00"
+          ],
+          "status": "partial_read"
+        },
+        {
+          "handle": "Hlebozavod9",
+          "pages": [
+            {
+              "url": "https://t.me/s/Hlebozavod9",
+              "fetched": 6
+            },
+            {
+              "url": "https://t.me/s/Hlebozavod9?before=5337",
+              "fetched": 7
+            },
+            {
+              "url": "https://t.me/s/Hlebozavod9?before=5313",
+              "fetched": 3
+            }
+          ],
+          "fetchedPosts": 16,
+          "postsRead": 2,
+          "readPostIds": [
+            5352,
+            5353
+          ],
+          "publicationRange": [
+            "2026-10-15T15:01:00+00:00",
+            "2026-11-06T12:58:11+00:00"
+          ],
+          "status": "partial_read"
+        }
+      ],
+      "web": [
+        {
+          "url": "https://centrezotov.ru/events/antropologiya-budushhego-konflikt-sczenariev-v-perelomnye-epohi-prezentacziya-200-go-nomera-nlo/",
+          "status": "read official dated details, address, price as recorded"
+        },
+        {
+          "url": "https://nekrasovka.ru/afisha/13-11-2026/9099",
+          "status": "read official dated details, address, price as recorded"
+        },
+        {
+          "url": "https://nekrasovka.ru/afisha/13-11-2026/9199",
+          "status": "read official dated details, address, price as recorded"
+        },
+        {
+          "url": "https://ges-2.org/masterclass-in-carpentry-desk-mirror",
+          "status": "read official dated details, address, price as recorded"
+        },
+        {
+          "url": "https://ges-2.org/vaults-master-class-in-3d-scanning-and-printing",
+          "status": "read official dated details, address, price as recorded"
+        },
+        {
+          "url": "https://ges-2.org/common-grounds-an-incomplete-glossary",
+          "status": "read official dated details, address, price as recorded"
+        },
+        {
+          "url": "https://ges-2.org/calendar?date=2026-11-13",
+          "status": "read exactNov2026sessions; recurringworkshop details crosschecked"
+        },
+        {
+          "url": "https://centrezotov.ru/events/",
+          "status": "read currentlisting; zinecollage date conflict heldpending"
+        },
+        {
+          "url": "https://nekrasovka.ru/afisha",
+          "status": "read Nov7–13 calendar; no duplicatefestival subevent inflation"
+        },
+        {
+          "url": "https://nekrasovka.ru/afisha/13-11-2026/9090",
+          "status": "cache miss"
+        },
+        {
+          "url": "https://centrezotov.ru/events/master-klass-tekst-v-kollazhe-odnostranichnyj-zin/",
+          "status": "cache miss"
+        }
+      ]
+    },
+    "barcelona": {
+      "telegram": [
+        {
+          "url": "https://t.me/s/BcnAjuntament",
+          "pages": [
+            {
+              "url": "https://t.me/s/BcnAjuntament",
+              "success": true,
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/BcnAjuntament?before=1137",
+              "success": true,
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/BcnAjuntament?before=1115",
+              "success": true,
+              "fetched": 20
+            }
+          ],
+          "fetched": 60,
+          "fullyRead": 3,
+          "readPostIds": [
+            "BcnAjuntament/1157",
+            "BcnAjuntament/1158",
+            "BcnAjuntament/1159"
+          ],
+          "publicationDateRange": [
+            "2026-08-28T11:25:37+00:00",
+            "2026-11-06T10:38:40+00:00"
+          ],
+          "notes": "Three history pages downloaded; selected relevant posts fully read, remaining fetched posts not claimed as read."
+        },
+        {
+          "url": "https://t.me/s/bcn_afisha",
+          "pages": [
+            {
+              "url": "https://t.me/s/bcn_afisha",
+              "success": true,
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/bcn_afisha?before=4961",
+              "success": true,
+              "fetched": 19
+            },
+            {
+              "url": "https://t.me/s/bcn_afisha?before=4939",
+              "success": true,
+              "fetched": 14
+            }
+          ],
+          "fetched": 53,
+          "fullyRead": 19,
+          "readPostIds": [
+            "bcn_afisha/4961",
+            "bcn_afisha/4962",
+            "bcn_afisha/4963",
+            "bcn_afisha/4964",
+            "bcn_afisha/4965",
+            "bcn_afisha/4966",
+            "bcn_afisha/4967",
+            "bcn_afisha/4968",
+            "bcn_afisha/4969",
+            "bcn_afisha/4970",
+            "bcn_afisha/4971",
+            "bcn_afisha/4972",
+            "bcn_afisha/4973",
+            "bcn_afisha/4974",
+            "bcn_afisha/4975",
+            "bcn_afisha/4976",
+            "bcn_afisha/4977",
+            "bcn_afisha/4959",
+            "bcn_afisha/4960"
+          ],
+          "publicationDateRange": [
+            "2026-10-23T12:05:15+00:00",
+            "2026-11-06T17:30:44+00:00"
+          ],
+          "notes": "Three history pages downloaded; selected relevant posts fully read, remaining fetched posts not claimed as read."
+        },
+        {
+          "url": "https://t.me/s/barca",
+          "pages": [
+            {
+              "url": "https://t.me/s/barca",
+              "success": true,
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/barca?before=125",
+              "success": true,
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/barca?before=101",
+              "success": true,
+              "fetched": 17
+            }
+          ],
+          "fetched": 57,
+          "fullyRead": 1,
+          "readPostIds": [
+            "barca/145"
+          ],
+          "publicationDateRange": [
+            "2026-01-05T08:49:52+00:00",
+            "2026-11-02T05:03:58+00:00"
+          ],
+          "notes": "Three history pages downloaded; selected relevant posts fully read, remaining fetched posts not claimed as read."
+        }
+      ],
+      "web": [
+        {
+          "url": "https://guia.barcelona.cat/en/detall/concert_99400785639.html",
+          "status": "Details fully read; date/year/time/address/price and municipal pin verified.",
+          "evidenceFile": "bcn-jazz.html"
+        },
+        {
+          "url": "https://guia.barcelona.cat/es/detall/mercat-de-recollida-i-intercanvi-renova-la-teva-roba_99400723503.html",
+          "status": "Details fully read; date/year/time/address/price and municipal pin verified.",
+          "evidenceFile": "bcn-swap.html"
+        },
+        {
+          "url": "https://guia.barcelona.cat/es/detall/taller-narracio-de-contes-i-altres-secrets-amb-sherezade-bardaji_99400764245.html",
+          "status": "Details fully read; date/year/time/address/price and municipal pin verified.",
+          "evidenceFile": "bcn-story.html"
+        },
+        {
+          "url": "https://guia.barcelona.cat/es/detall/concert-javito_99400725903.html",
+          "status": "Details fully read; date/year/time/address/price and municipal pin verified.",
+          "evidenceFile": "bcn-javito.html"
+        },
+        {
+          "url": "https://quedeque.barcelona/agenda/taller-dintelligencia-artificial",
+          "status": "Details fully read; date/year/time/address/price and municipal pin verified.",
+          "evidenceFile": "bcn-ai.html"
+        },
+        {
+          "url": "https://guia.barcelona.cat/es/detall/societat-cultural-i-esportiva-la-lira_92086010375.html",
+          "status": "Official venue address/pin read; used for AI workshop.",
+          "evidenceFile": "bcn-lira.html"
+        },
+        {
+          "url": "https://www.sala-apolo.com/en/event/pinata-presents-benny-sings-20261113-7642",
+          "status": "Official language variants read via web search; TBC discrepancy held pending."
+        },
+        {
+          "url": "https://quedeque.barcelona/agenda/taller-dintelligencia-artificial",
+          "status": "Web reader cache miss; direct HTTP fetch succeeded and full event body was read."
+        }
+      ]
+    },
+    "madrid": {
+      "telegram": [
+        {
+          "url": "https://t.me/s/madrid_gorit",
+          "pages": [
+            {
+              "url": "https://t.me/s/madrid_gorit",
+              "success": true,
+              "fetched": 8
+            },
+            {
+              "url": "https://t.me/s/madrid_gorit?before=3683",
+              "success": true,
+              "fetched": 9
+            },
+            {
+              "url": "https://t.me/s/madrid_gorit?before=3662",
+              "success": true,
+              "fetched": 15
+            }
+          ],
+          "fetched": 32,
+          "fullyRead": 6,
+          "readPostIds": [
+            "madrid_gorit/3686",
+            "madrid_gorit/3687",
+            "madrid_gorit/3688",
+            "madrid_gorit/3692",
+            "madrid_gorit/3697",
+            "madrid_gorit/3704"
+          ],
+          "publicationDateRange": [
+            "2026-10-26T11:20:43+00:00",
+            "2026-11-06T10:14:26+00:00"
+          ],
+          "notes": "Three history pages downloaded; selected relevant posts fully read, remaining fetched posts not claimed as read."
+        },
+        {
+          "url": "https://t.me/s/HoyMadridApp",
+          "pages": [
+            {
+              "url": "https://t.me/s/HoyMadridApp",
+              "success": true,
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/HoyMadridApp?before=1393",
+              "success": true,
+              "fetched": 20
+            },
+            {
+              "url": "https://t.me/s/HoyMadridApp?before=1373",
+              "success": true,
+              "fetched": 20
+            }
+          ],
+          "fetched": 60,
+          "fullyRead": 7,
+          "readPostIds": [
+            "HoyMadridApp/1406",
+            "HoyMadridApp/1407",
+            "HoyMadridApp/1408",
+            "HoyMadridApp/1409",
+            "HoyMadridApp/1410",
+            "HoyMadridApp/1411",
+            "HoyMadridApp/1412"
+          ],
+          "publicationDateRange": [
+            "2026-10-13T11:59:47+00:00",
+            "2026-11-06T16:54:44+00:00"
+          ],
+          "notes": "Three history pages downloaded; selected relevant posts fully read, remaining fetched posts not claimed as read."
+        }
+      ],
+      "web": [
+        {
+          "url": "https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json",
+          "status": "Fresh full catalogue fetched; first 15 Nov13 records fully read, 11 confirmed new, 2 duplicates, 2 incomplete.",
+          "fullyReadRecords": 15,
+          "evidenceFile": "madrid-agenda.json"
+        }
+      ]
+    }
+  }
+}

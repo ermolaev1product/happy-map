@@ -891,7 +891,84 @@
       "accessStatus": "read_full_source",
       "count": 0,
       "note": "Actual source-specific retrieval; not complete source/import coverage."
+    },
+    {
+      "id": "valletta-miriam-galea-20261107-0900-detail",
+      "name": "Għadajjar Għajnejja: Ebbs and Flows — Miriam Galea",
+      "url": "https://artsmalta.org/event/ghadajjar-ghajnejja-ebbs-and-flows-an-exhibition-by-miriam-galea/",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "valletta-wicker-20261108-1530-detail",
+      "name": "Wicker",
+      "url": "https://spazjukreattiv.org/event/wicker/2026-11-10/",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "valletta-wicker-20261110-1930-detail",
+      "name": "Wicker",
+      "url": "https://spazjukreattiv.org/event/wicker/2026-11-10/",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "valletta-wicker-20261113-2030-detail",
+      "name": "Wicker",
+      "url": "https://spazjukreattiv.org/event/wicker/2026-11-10/",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "valletta-polish-quintets-20261108-1930-detail",
+      "name": "Polish Quintets: Grażyna Bacewicz and Aleksander Tansman",
+      "url": "https://artsmalta.org/event/polish-quintets-grazyna-bacewicz-and-aleksander-tansman/",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "valletta-too-soon-to-tell-20261113-2000-detail",
+      "name": "Too Soon To Tell — Andrew Vella Zarb Album Launch Concert",
+      "url": "https://artsmalta.org/event/too-soon-to-tell-album-launch-concert-by-andrew-vella-zarb/",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
+    },
+    {
+      "id": "valletta-collar-20261114-1700-detail",
+      "name": "Collar — TOI TOI",
+      "url": "https://booking.teatrumanoel.mt/event/7335/collar?theatreAreaID=1004",
+      "checkedAt": "2026-11-06T05:39:52.917867+00:00",
+      "status": "imported",
+      "type": "web",
+      "count": 1,
+      "note": "Primary schedule/admission checked. Building-level coordinates; checkout fees and inventory unconfirmed."
     }
   ],
-  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
+  "lastPartialRefresh": {
+    "batch": "valletta-antalya-20261106",
+    "baseCommit": "f8fd230f31d4e4c07a7171a66a78920ff870383b",
+    "at": "2026-11-06T05:39:52.917867+00:00",
+    "addedRecords": 7,
+    "note": "Exhibition stored as one programme with five visiting dates. Other dated sessions are separate rows. Held candidates excluded."
+  }
 }

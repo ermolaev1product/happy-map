@@ -3,7 +3,7 @@
   "cityId": "brussels",
   "timezone": "Europe/Brussels",
   "currency": "EUR",
-  "generatedAt": "2026-10-28T11:07:50.879487+00:00",
+  "generatedAt": "2026-11-04T05:14:48.984145+00:00",
   "checkedAt": "2026-10-28T11:07:50.879487+00:00",
   "coverage": "Selective Brussels programme across nine named venues and several districts, not comprehensive city coverage. Broad official/municipal calendars were read only to the documented reachable depth; stale/blocked remainder retained separately.25actualsessions plus2realexhibitions; visiting windows are not performances. Prices retain concession/package distinctions. Exact fetch timestamps missing for some full web reads are explicitly flagged; local evidence review is not a new source fetch. Telegram unavailable,0imports.",
   "startDate": "2026-10-28",
@@ -279,7 +279,7 @@
       "time": "20:30",
       "end": null,
       "startAt": "2026-11-05T20:30:00+01:00",
-      "availability": "last_tickets",
+      "availability": "sold_out",
       "category": "theatre",
       "lat": 50.8552302,
       "lng": 4.3511771,
@@ -288,7 +288,7 @@
       "coordinateEvidence": "named building; not auditorium entrance; ",
       "source": "Brussels official organizer",
       "sourceUrl": "https://www.kvs.be/en/Event/ceci-n-est-pas-noire-act-ii-1",
-      "checkedAt": "2026-10-28T10:24:50.534194+00:00",
+      "checkedAt": "2026-11-04T05:03:11.614Z",
       "yearEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:24:50.534194+00:00",
       "price": null,
       "priceMax": null,
@@ -297,13 +297,24 @@
       "timezone": "Europe/Brussels",
       "language": null,
       "status": "scheduled",
-      "admission": "French and English, with Dutch/French/English surtitles. On Nov 6 a discussion begins ten minutes after the performance and lasts at most 30 minutes; no inferred clock times. Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements. Only a few tickets remained at the recorded source review; check current availability. Directions prose says 7; venue footer and official embedded named KVS BOX marker both say 9. Number 7 is also the general office address.",
+      "admission": "French and English, with Dutch/French/English surtitles. On Nov 6 a discussion begins ten minutes after the performance and lasts at most 30 minutes; no inferred clock times. Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements. Sold out at the latest source review; check the venue for any returns. Directions prose says 7; venue footer and official embedded named KVS BOX marker both say 9. Number 7 is also the general office address.",
       "ticketUrl": null,
       "hall": "BOX",
       "min": false,
       "kind": "event",
       "city": "Brussels",
-      "cityId": "brussels"
+      "cityId": "brussels",
+      "soldOut": true,
+      "availabilityCheckedAt": "2026-11-04T05:03:11.614Z",
+      "correctionHistory": [
+        {
+          "checkedAt": "2026-11-04T05:03:11.614Z",
+          "sourceUrl": "https://www.kvs.be/en/Event/ceci-n-est-pas-noire-act-ii-1",
+          "field": "availability",
+          "before": "last_tickets",
+          "after": "sold_out"
+        }
+      ]
     },
     {
       "id": "brussels-ceci-20261106-2030",
@@ -316,7 +327,7 @@
       "time": "20:30",
       "end": null,
       "startAt": "2026-11-06T20:30:00+01:00",
-      "availability": "last_tickets",
+      "availability": "sold_out",
       "category": "theatre",
       "lat": 50.8552302,
       "lng": 4.3511771,
@@ -325,7 +336,7 @@
       "coordinateEvidence": "named building; not auditorium entrance; ",
       "source": "Brussels official organizer",
       "sourceUrl": "https://www.kvs.be/en/Event/ceci-n-est-pas-noire-act-ii-1",
-      "checkedAt": "2026-10-28T10:24:50.534194+00:00",
+      "checkedAt": "2026-11-04T05:03:11.614Z",
       "yearEvidence": "Dated2026 programme in read full primary source; exact source fetch time 2026-10-28T10:24:50.534194+00:00",
       "price": null,
       "priceMax": null,
@@ -334,13 +345,24 @@
       "timezone": "Europe/Brussels",
       "language": null,
       "status": "scheduled",
-      "admission": "French and English, with Dutch/French/English surtitles. On Nov 6 a discussion begins ten minutes after the performance and lasts at most 30 minutes; no inferred clock times. Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements. Only a few tickets remained at the recorded source review; check current availability. Directions prose says 7; venue footer and official embedded named KVS BOX marker both say 9. Number 7 is also the general office address.",
+      "admission": "French and English, with Dutch/French/English surtitles. On Nov 6 a discussion begins ten minutes after the performance and lasts at most 30 minutes; no inferred clock times. Wheelchair accessible; two dedicated spaces in BOX. Contact the venue in advance for additional arrangements. Sold out at the latest source review; check the venue for any returns. Directions prose says 7; venue footer and official embedded named KVS BOX marker both say 9. Number 7 is also the general office address.",
       "ticketUrl": null,
       "hall": "BOX",
       "min": false,
       "kind": "event",
       "city": "Brussels",
-      "cityId": "brussels"
+      "cityId": "brussels",
+      "soldOut": true,
+      "availabilityCheckedAt": "2026-11-04T05:03:11.614Z",
+      "correctionHistory": [
+        {
+          "checkedAt": "2026-11-04T05:03:11.614Z",
+          "sourceUrl": "https://www.kvs.be/en/Event/ceci-n-est-pas-noire-act-ii-1",
+          "field": "availability",
+          "before": "last_tickets",
+          "after": "sold_out"
+        }
+      ]
     },
     {
       "id": "brussels-ceci-20261107-1800",
@@ -3046,6 +3068,13 @@
       ],
       "sourceCheckScope": "Selected main-agenda and primary programme reads; incomplete source coverage",
       "checkedAt": "2026-10-29T01:36:34.306269+00:00"
+    }
+  ],
+  "maintenanceHistory": [
+    {
+      "at": "2026-11-04T05:14:48.984145+00:00",
+      "batch": "quality-repair-20261104",
+      "scope": "Verified additive sessions and explicit source corrections; not complete city coverage."
     }
   ]
 }

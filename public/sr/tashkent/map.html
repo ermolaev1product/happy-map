@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="sr-Latn">
+
+<head>
+
+<title>Happy Map — Taškent: Događaji i mesta</title>
+
+<meta name="description" content="Otkrij proverene događaje i zanimljiva mesta: Taškent. Izaberi gde želiš da ideš i sačuvaj svoje planove.">
+
+<link rel="canonical" href="https://happymap.app/sr/tashkent/map.html">
+
+<meta property="og:type" content="website"><meta property="og:site_name" content="Happy Map">
+
+<meta property="og:title" content="Happy Map — Taškent: Događaji i mesta"><meta property="og:description" content="Otkrij proverene događaje i zanimljiva mesta: Taškent. Izaberi gde želiš da ideš i sačuvaj svoje planove."><meta property="og:url" content="https://happymap.app/sr/tashkent/map.html">
+
+<meta property="og:image" content="https://happymap.app/assets/happy-map-unified-20261015-en.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Happy Map — Događaji. Mesta. Planovi."><meta property="og:locale" content="sr_RS">
+
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Happy Map — Taškent: Događaji i mesta"><meta name="twitter:description" content="Otkrij proverene događaje i zanimljiva mesta: Taškent. Izaberi gde želiš da ideš i sačuvaj svoje planove."><meta name="twitter:image" content="https://happymap.app/assets/happy-map-unified-20261015-en.png"><meta name="twitter:image:alt" content="Happy Map — Događaji. Mesta. Planovi.">
+
+  
+
+  <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="theme-color" content="#ffffff">
+  
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;450;500;550;600;650;700;750;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/en/assets/leaflet.css?v=337bfca5cabd"><link rel="stylesheet" href="/en/tashkent/style.css?v=0ab72cef3086">
+  
+  <script defer src="/en/assets/leaflet.js?v=db49d009c841"></script><link rel="stylesheet" href="/en/assets/maplibre/maplibre-gl.css?v=43c1d886b5fd"><script defer src="/en/assets/maplibre/maplibre-gl.js?v=1525f971223d"></script><script defer src="/en/assets/maplibre/leaflet-maplibre-gl.js?v=81a92cefb959"></script><script defer src="/sr/map-basemap.js?v=ccb50ccf92ec"></script><script defer src="/sr/tashkent/map-layout.js?v=ba7e7e9975c3"></script><script defer src="/en/discovery-model.js?v=b0724918928a"></script><script defer src="/catalog-client.js?v=3a90244b840c"></script><script defer src="/sr/tashkent/app.js?v=d23299a2a9ad"></script><script defer src="/sr/location-control.js?v=c0c7e1722224"></script>
+
+<script defer src="/sr/tashkent/discovery.js?v=61bb86456ae7"></script>
+
+<script defer src="/sr/catalog-modes.js?v=635db8b33f0c"></script>
+
+<script defer src="/sr/city-state.js?v=4c0f26ad9b7f" data-city="tashkent"></script><link rel="stylesheet" href="/en/discovery.css?v=37c6ea1d9ba7"><link rel="stylesheet" href="/en/social.css?v=a4214c9258b0"><script defer src="/sr/social.js?v=c274d0158394"></script><script defer src="/sr/plan-account.js?v=5af6d3b0087f"></script><link rel="stylesheet" href="/en/dialog.css?v=b43e57321f1f">
+
+<link rel="stylesheet" href="/en/assets/download.css?v=71a91a023af2"><script defer src="/sr/assets/app-shell.js?v=7cbdfd50cadf"></script><script defer src="/sr/freshness.js?v=ebee9557231a"></script><script src="/locale-policy.js?v=43cad9b06257"></script><script src="/language-switch.js?v=79e94e138955"></script><link rel="stylesheet" href="/en/map-space.css?v=c6a1ae597f81"><link rel="stylesheet" href="/en/assets/controls.css?v=7d0afd329dbd"><link rel="stylesheet" href="/en/assets/global-languages.css?v=3e04b730f965"><link rel="stylesheet" href="/en/assets/controls.css?v=7d0afd329dbd"><link rel="stylesheet" href="/assets/global-languages.css?v=3e04b730f965"><link rel="stylesheet" href="/assets/city-coverage.css?v=3791f1ee6b69"><script defer src="/assets/city-coverage.js?v=3791f1ee6b69"></script></head>
+
+<body data-palette="coral" class="map-first">
+  
+  <header class="header">
+    
+    <a class="wordmark" href="/sr/index.html" aria-label="Happy Map — početna"><span translate="no" class="notranslate">Happy Map</span><span class="sunmark" aria-hidden="true">✳</span></a>
+    
+    <div class="city city-picker city-context"><span class="current-city">Taškent</span><a class="change-city" href="/sr/cities.html">Promeni grad</a></div>
+    
+    <nav aria-label="Glavna navigacija"><button class="nav-tab active" id="exploreTab">Mapa</button><button class="nav-tab" id="plansTab">Moji planovi <span id="planCount" class="nav-count">0</span></button></nav>
+    
+    <a class="app-download" href="/sr/android.html"><span aria-hidden="true">↓</span><span>Preuzmi aplikaciju</span></a>
+    
+    <details class="more-menu"><summary aria-label="Meni Happy Map">•••</summary><div><a href="/sr/tashkent/sources.html">Svi izvori ↗</a><button type="button" data-share-city>Podeli ovu mapu · Taškent</button><button id="visitorButton">Moj profil</button><button id="organizerButton">Za organizatore</button><a href="/sr/android.html">Preuzmi aplikaciju (Android)</a><a href="/sr/cities.html">Izaberi grad</a><button data-peace class="peace-link">Za mir</button></div></details>
+  
+  <button type="button" id="addOwnEvent">＋ Dodaj svoj događaj · besplatno</button></header>
+
+  
+
+  <main><!-- city-coverage-notice --><aside id="cityCoverageNotice" class="city-coverage-notice" role="note" data-coverage-city="tashkent" data-coverage-status="conditional" data-coverage-state="unknown" data-coverage-timezone="Asia/Tashkent" data-coverage-unknown="Današnji izbor još nije potvrđen. To ne znači da u gradu nema događaja." data-coverage-partial="Današnji izbor ima manje od 20 aktuelnih događaja. Radimo na dopuni. Ovo nije ceo program grada." aria-labelledby="cityCoverageTitle"><div><strong id="cityCoverageTitle">Dodajemo događaje</strong><p data-coverage-body>Današnji izbor još nije potvrđen. To ne znači da u gradu nema događaja.</p></div><a href="/sr/tashkent/sources.html">Izvori i provera ↗</a></aside><!-- /city-coverage-notice --><div class="journey" id="journey" hidden><strong>Korak 3 od 3 · Napravite plan</strong><span>Otvorite događaj → proverite vreme i cenu → dodirnite „Dodaj u moj plan”.</span></div>
+    
+    <section class="intro">
+      
+      <div><div class="eyebrow"><span class="tiny-star">✳</span> ŠTA SE DEŠAVA U GRADU</div><h1 id="mainTitle">Grad ima planove.<br><span>Sada ih imate i vi.</span></h1></div>
+      
+      <div class="intro-side"><span class="edition">TAŠKENT · UZBEKISTAN</span><p>Od kafe sa novim ljudima<br>do poslednje pesme na plesnom podijumu.</p><button id="sourcesButton" class="demo-label"><span></span> Učitavanje najava događaja…</button></div>
+    
+    </section>
+
+    
+
+    <div class="catalog-status" id="catalogStatus" role="status"></div><div class="layer-tabs" role="group" aria-label="Prikaži na mapi"><button id="eventsLayer" class="active" aria-pressed="true">Događaji</button><button id="cityLayer" aria-pressed="false">Ceo grad</button></div><section class="discovery-controls" aria-label="Izaberite dan i događaje">
+      
+      <div class="calendar-row"><div class="month-label">Oktobar <span>2026</span><span class="week-caption">Vaša naredna nedelja</span></div><div id="calendar" class="calendar" role="group" aria-label="Sedmodnevni kalendar"></div><button class="filter-button week-button" id="wholeWeek">Cela nedelja</button><div class="week-note">Dobar dan<br>počinje idejom <span>↘</span></div></div>
+      
+      <div class="search-row"><label><span>Pronađite događaj ili mesto</span><input id="eventSearch" type="search" placeholder="Džez, predavanja, D&D, naziv bara…" autocomplete="off"></label></div><div class="filters-row" id="filtersRow"><div class="category-scroll"><button class="category-arrow" id="categoryPrev" aria-label="Prethodne kategorije" aria-controls="categories">‹</button><div class="categories" id="categories" role="group" aria-label="Kategorije"></div><button class="category-arrow" id="categoryNext" aria-label="Sledeće kategorije" aria-controls="categories">›</button></div><div class="filter-actions"><button id="nearButton" class="filter-button">U mojoj blizini</button><button id="programOnly" class="filter-button" aria-pressed="false">Sa programom</button><button id="freeFilter" class="filter-button" aria-pressed="false">Besplatno</button><button id="filtersButton" aria-label="Filteri" class="filter-button" aria-expanded="false"><span data-icon="sliders"></span><span class="filters-word">Filteri</span></button></div></div>
+      
+      <div id="extraFilters" class="extra-filters" hidden><label>Kada <select id="timeFilter"><option value="all">Bilo kada</option><option value="day">Tokom dana, pre 18:00</option><option value="evening">Uveče, posle 18:00</option></select></label><label>Jezik događaja <select id="languageFilter"><option value="all">Bilo koji</option><option value="RU">Ruski</option><option value="UZ">Uzbek</option><option value="EN">Engleski</option></select></label><label>Udaljenost<select id="radiusFilter"><option value="0">Ceo grad</option><option value="0.5">U krugu od 500 m</option></select></label><button class="text-button" id="resetFilters">Poništi filtere</button></div>
+    
+    </section>
+
+    
+
+    <p id="discoveryNote" class="discovery-note"></p><section class="workspace" id="workspace">
+      
+      <div class="events-panel">
+        
+        <div class="list-heading"><div><h2 id="listTitle">Nedelja, 4. oktobar</h2><span id="resultCount" class="muted"></span></div><button class="sort-button" id="sortButton" aria-label="Poređaj po vremenu"><span data-icon="sort"></span></button></div>
+        
+        <div id="eventList" class="event-list" aria-live="polite"></div>
+        
+        <div id="planBudget" class="plan-budget" hidden></div>
+        
+        <div class="list-bottom"><span class="tiny-star">✳</span><p>Nešto zanimljivo<br>možda je odmah iza ugla.</p><span class="small-arrow">↗</span></div>
+      
+      </div>
+      
+      <div class="map-shell">
+        
+        <div id="map" aria-label="Mapa događaja · Taškent"></div>
+        
+        <div id="mapEmpty" class="map-empty" hidden></div><div class="map-top"><button class="map-label" id="mapResults" aria-haspopup="dialog"><span class="city-dot"></span><span id="mapLabel">Otvori listu događaja →</span></button><button class="map-home" id="mapHome" aria-label="Prikaži sve događaje na mapi"><span data-icon="focus"></span></button></div>
+        
+        <div class="map-feature" id="mapFeature"><span class="feature-kicker">MALA OTKRIĆA</span><h3>Veliki grad.<br>Vaš mali plan.</h3><p>Otkrijte mesta na mapi.<br>Ostalo će doći samo.</p><span class="feature-flower" aria-hidden="true">✳</span></div>
+        
+        <button class="map-bottom" id="mapPlanButton" type="button"><span class="map-plan-copy"><span class="plan-icon" data-icon="bookmark"></span><span><strong id="mapPlanTitle">Događaji ove nedelje</strong><span id="mapPlanSubtitle">Sačuvajte mesta koja želite da posetite</span></span></span><span class="map-cta-arrow" data-icon="arrow"></span></button>
+        
+        <div id="mapFallback" class="map-fallback" hidden>Mapa nije dostupna. I dalje možete pregledati listu događaja.</div>
+      
+      </div>
+    
+    </section>
+
+    
+
+    <section class="closing-note"><span>DOGAĐAJI I MESTA U VAŠOJ BLIZINI</span><p>Otkrijte događaje i sačuvajte ih u svojim planovima <span>↗</span></p></section>
+    
+    <footer><a class="data-credit" href="/en/tashkent/places.json" download>Imenik mesta · izvori na svakoj kartici</a><a class="wordmark small" href="/sr/index.html"><span translate="no" class="notranslate">Happy Map</span><span class="sunmark" aria-hidden="true">✳</span></a><a class="text-button" href="/sr/android.html">Preuzmi <span translate="no" class="notranslate">Happy Map</span> za Android ↗</a><div class="design-options" aria-label="Tema boja"><span>Tema</span><button class="swatch coral selected" data-palette="coral" aria-label="Koralna tema" aria-pressed="true"></button><button class="swatch cobalt" data-palette="cobalt" aria-label="Plava tema" aria-pressed="false"></button><button class="swatch olive" data-palette="olive" aria-label="Maslinasta tema" aria-pressed="false"></button></div><button data-peace class="peace-link">Za mir</button></footer>
+  
+  </main>
+  
+  <div class="mobile-nav"><button id="mobileExplore" class="active"><span data-icon="map"></span>Mapa</button><button id="mobilePlans"><span data-icon="bookmark"></span>Moji planovi <span id="mobileCount">0</span></button><button id="mobileList">Događaji</button><a class="download-tab" href="/sr/android.html">Preuzmi ↓</a></div>
+  
+  <dialog id="eventDialog" class="event-dialog"><div class="dialog-toolbar"><span><span translate="no" class="notranslate">Happy Map</span></span><button type="button" class="close-dialog" aria-label="Zatvori detalje" id="closeEvent"><span>Zatvori</span><span data-icon="close" aria-hidden="true"></span></button></div><div id="eventDetails"></div></dialog>
+  
+  <dialog id="organizerDialog" class="organizer-dialog"><button class="close-dialog" aria-label="Zatvori obrazac" id="closeOrganizer"><span data-icon="close"></span></button><span class="eyebrow">OKUPITE LJUDE</span><h2>Šta<br>planirate?</h2><p class="muted">Probajte da dodate događaj. Ovo je probni obrazac; ništa neće biti objavljeno.</p><form id="organizerForm"><label>Naziv događaja<input name="title" placeholder="Na primer, veče šaha" required maxlength="80"></label><div class="form-row"><label>Dan<select name="day" id="organizerDay"></select></label><label>Vreme početka<input type="time" value="19:00" required name="time"></label></div><label>Lokacija<input placeholder="Naziv vašeg bara ili lokala" required name="venue"></label><button class="primary-button" type="submit">Pregled događaja <span>↗</span></button></form><div id="organizerPreview" hidden></div></dialog>
+  
+  <div id="toast" role="status" class="toast"></div>
+
+<script src="/sr/map-space.js?v=d0812782afbc"></script><script defer src="/sr/business-entry.js?v=0d45e8cdb941"></script><a data-traffic-privacy href="/sr/traffic-privacy.html" style="display:block;text-align:center;font-size:12px;padding:12px;color:inherit">Statistika poseta i privatnost</a><script src="/en/assets/traffic.js?v=a7289a2bf4be" defer></script></body>
+
+</html>
+

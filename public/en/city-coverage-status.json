@@ -1,0 +1,607 @@
+{
+  "policy": "Show the notice below 20 eligible events on the current local city date. 20 or more hides the notice but is not a claim of complete city coverage. Empty or unavailable data remains unknown.",
+  "contactCollectionEnabled": false,
+  "notificationDeliveryEnabled": false,
+  "cities": [
+    {
+      "city": "tbilisi",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "belgrade",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "moscow",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "palo-alto",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "paris",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "london",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "yerevan",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "flensburg",
+      "noticeEnabled": false,
+      "status": "excluded",
+      "threshold": 20
+    },
+    {
+      "city": "vienna",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "saint-petersburg",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "new-york",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "dubai",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "prague",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "batumi",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "berlin",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "limassol",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "antalya",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "tel-aviv",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "almaty",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "istanbul",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "barcelona",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "madrid",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "minsk",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "baku",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "tashkent",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "astana",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "bishkek",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "riga",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "oslo",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "buenos-aires",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "brasilia",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "tallinn",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "warsaw",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "lisbon",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "chisinau",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "vilnius",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "copenhagen",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "dublin",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "stockholm",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "helsinki",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "amsterdam",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "bratislava",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "sofia",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "rome",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "budapest",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "brussels",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "athens",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "bucharest",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "podgorica",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "zagreb",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "ljubljana",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "skopje",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "sarajevo",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "ankara",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "nicosia",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "abu-dhabi",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "tirana",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "valletta",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "doha",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "manama",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "tokyo",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "seoul",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "bangkok",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "singapore",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "washington",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "kuala-lumpur",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "ottawa",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "hanoi",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "mexico-city",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "new-delhi",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "lima",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "bogota",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "montevideo",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "santiago",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "quito",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "asuncion",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "guatemala-city",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "panama-city",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "san-salvador",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "santo-domingo",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "port-of-spain",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "rabat",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "bridgetown",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "dakar",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "tunis",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "accra",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "algiers",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "reykjavik",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "luxembourg",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "cape-town",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "bern",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "hamburg",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "munich",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "toronto",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "montreal",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "chicago",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "philadelphia",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "los-angeles",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "cologne",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    },
+    {
+      "city": "san-diego",
+      "noticeEnabled": true,
+      "status": "evaluated_in_browser",
+      "threshold": 20
+    }
+  ]
+}

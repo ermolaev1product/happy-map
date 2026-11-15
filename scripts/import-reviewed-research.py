@@ -65,7 +65,7 @@ def main(bundle_path):
    suffix=bundle.get('coverageNote', ' Дополнение 9 октября: отдельные анонсы и уточнения из проверенных источников; остальные записи в этом проходе не перепроверялись. Более поздние события сохранены заранее, карта показывает ближайшие семь дней.')
    if suffix not in catalog.get('coverage',''):catalog['coverage']=catalog.get('coverage','')+suffix
    for name,url in imported_sources[city].items():
-    count=sum(any(s['name']==name for s in e.get('sources',[])) for e in catalog['events'])
+    count=sum(any(isinstance(s,dict) and s.get('name')==name for s in e.get('sources',[])) for e in catalog['events'])
     entry=next((r for r in catalog.get('sourceRegistry',[]) if r['name']==name),None)
     fields={'name':name,'url':url,'status':'imported','type':'curated' if 't.me/' not in url else 'telegram','count':count,'checkedAt':timestamp,'publicNote':'Отдельные проверенные анонсы и уточнения. Это не полный импорт источника.'}
     if entry: entry.update(fields)

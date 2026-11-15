@@ -13,14 +13,10 @@ const distanceLabel=e=>{const d=distance(e);return Number.isFinite(d)?(d<1?Math.
 const shortWhen=e=>e.endDate?'Through '+e.endDate.slice(8)+'.'+e.endDate.slice(5,7):e.date===today()?'Today':e.date===dates[1]?'Tomorrow':e.date.slice(8)+'.'+e.date.slice(5,7);
 function programmeLine(e){return `${shortWhen(e)}${e.time?' · '+e.time:''} — ${e.title}`;}
 async function loadPlaces(){
- const unpack=d=>Array.isArray(d)?d:d.places;
- const valid=d=>Array.isArray(d)&&d.length<150000&&d.every(p=>p&&typeof p.id==='string'&&typeof p.title==='string');
- let local=unpack(await (await fetch('/vienna/places.json')).json());if(!valid(local))local=[];
- if(!isAndroid)return local;
- let cached;try{cached=JSON.parse(localStorage.getItem(nearKey+'-places-catalog'));}catch{}
- const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),4500);
- try{const r=await fetch('/live/'+cityFolder+'places.json',{cache:'no-store',signal:controller.signal});if(!r.ok)throw Error();const remote=unpack(await r.json());if(!valid(remote)||remote.length<local.length/2)throw Error();try{localStorage.setItem(nearKey+'-places-catalog',JSON.stringify({places:remote,version:'2.3'}));}catch{}return remote;}catch{return cached?.version==='2.3'&&valid(cached.places)&&cached.places.length>=local.length?cached.places:local;}finally{clearTimeout(timer);}
+ const result=await window.HappyMapCatalog.load(cityFolder?cityFolder.replace(/\/$/,''):'tbilisi','places',document.documentElement.lang,{legacyCachePrefix:nearKey});
+ return Array.isArray(result.data)?result.data:result.data.places;
 }
+
 const initMapBeforeDiscovery=initMap;
 initMap=function(){
  venueIndex=NoreliDiscovery.connect(places,events);places=venueIndex.places;
@@ -61,7 +57,7 @@ render=function(){
   }
  }
  renderBeforeDiscovery();if(!catalog)return;
- const statusText=$('#catalogStatus span');statusText.textContent='Listings · '+(catalog.generatedAt||'').slice(0,10).split('-').reverse().join('.')+(today()>catalog.endDate?' · fresh listings needed':'');statusText.title='Coverage through '+catalog.endDate+'; published listings checked at launch';
+ if(!isAndroid){const statusText=$('#catalogStatus span');statusText.textContent='Listings · '+(catalog.generatedAt||'').slice(0,10).split('-').reverse().join('.')+(today()>catalog.endDate?' · fresh listings needed':'');statusText.title='Coverage through '+catalog.endDate+'; published listings checked at launch';}
  const nearby=layer==='city'&&view!=='plans',list=visible();document.body.classList.toggle('nearby-view',nearby);
  for(const [id,on] of [['eventsLayer',layer==='events'],['cityLayer',layer==='city']]){
   $('#'+id).classList.toggle('active',on);$('#'+id).setAttribute('aria-pressed',String(on));

@@ -132,7 +132,58 @@
       "accessStatus": "directory_snapshot",
       "count": 0,
       "note": "901 named place records after boundary filtering and deduplication; operating status not individually verified. ODbL source export: /downloads/city-directories-20261019/astana-osm.json.gz"
+    },
+    {
+      "id": "astana-elbrus-20261107-2000-verified-detail",
+      "name": "Zakazbiletov — event ticket operator — Эльбрус Джанмирзоев",
+      "url": "https://zakazbiletov.kz/en/5-astana/3-kontserty/tur-elbrus-janmyrzoev-v-astane/75580",
+      "checkedAt": "2026-11-06T04:52:42Z",
+      "status": "imported",
+      "accessStatus": "permitted_primary_event_evidence",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence only. Restrictions and seller-specific prices retained; no inventory or final checkout guarantee."
+    },
+    {
+      "id": "astana-strangers-20261107-1900-verified-detail",
+      "name": "Astana city event portal — О чём говорят незнакомцы",
+      "url": "https://astana.kz/ru/events/025c4219-ce5c-4cd4-a7d9-34a9231c1378",
+      "checkedAt": "2026-11-06T04:52:42Z",
+      "status": "imported",
+      "accessStatus": "permitted_primary_event_evidence",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence only. Restrictions and seller-specific prices retained; no inventory or final checkout guarantee."
+    },
+    {
+      "id": "astana-tynda-rock-20261108-1830-verified-detail",
+      "name": "Zakazbiletov — event ticket operator — Tynda Music: Rock Concert",
+      "url": "https://zakazbiletov.kz/ru/5-astana/3-kontserty/rock-concert-v-astane/75781",
+      "checkedAt": "2026-11-06T04:52:42Z",
+      "status": "imported",
+      "accessStatus": "permitted_primary_event_evidence",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence only. Restrictions and seller-specific prices retained; no inventory or final checkout guarantee."
+    },
+    {
+      "id": "astana-tynda-zimmer-20261115-1900-verified-detail",
+      "name": "Zakazbiletov — event ticket operator — Tynda Music: The Music of Hans Zimmer",
+      "url": "https://zakazbiletov.kz/en/5-astana/3-kontserty/the-music-of-hans-zimmer-v-astane/75782",
+      "checkedAt": "2026-11-06T04:52:42Z",
+      "status": "imported",
+      "accessStatus": "permitted_primary_event_evidence",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence only. Restrictions and seller-specific prices retained; no inventory or final checkout guarantee."
     }
   ],
-  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
+  "lastPartialRefresh": {
+    "batch": "astana-bucharest-bridgetown-20261106",
+    "baseCommit": "3af4a2cb8eeba73d3b1299db6f2c942e26bb8eff",
+    "at": "2026-11-06T04:52:42Z",
+    "addedOccurrences": 4,
+    "coverage": "Partial verified additions; other holds remain excluded. Three future occurrences are outside current seven-day map window."
+  }
 }

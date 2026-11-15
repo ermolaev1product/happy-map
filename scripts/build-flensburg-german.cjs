@@ -1,9 +1,34 @@
 // Generate a bounded German Flensburg interface from the completed English build.
-// Listing identifiers, source URLs, original titles and data remain unchanged.
+// Listing identifiers, source URLs, original titles and facts remain unchanged.
+// Only allowlisted display fields of individually reviewed event IDs are localized.
 const fs=require('node:fs'),path=require('node:path'),acorn=require('acorn');
 const args=process.argv.slice(2);const option=(name,fallback)=>args.includes(name)?args[args.indexOf(name)+1]:fallback;
 const root=process.cwd(),source=path.resolve(option('--english-root','public/en')),out=path.resolve(option('--output','public/de/flensburg'));
 const dictionary=JSON.parse(fs.readFileSync(option('--dictionary','data/i18n/flensburg-de-ui.json'),'utf8'));
+const eventTranslations=JSON.parse(fs.readFileSync(option('--event-translations','data/i18n/flensburg-de-events-20261112.json'),'utf8'));
+// BEGIN REVIEWED FLENSBURG EVENT TEXT
+// This accepts only reviewed display strings. All facts/provenance and older rows are untouched.
+function reviewedEventText(content,manifest){
+ if(manifest.version!==1||!manifest.records||typeof manifest.records!=='object')throw Error('Invalid Flensburg event translation manifest');
+ const allowed=new Set(['title','description','admission','accessNote','priceNote','timeNote']);
+ const catalog=JSON.parse(content),seen=new Set();let changed=false;
+ if(!Array.isArray(catalog.events))throw Error('Flensburg events array missing');
+ for(const event of catalog.events){
+  if(!Object.hasOwn(manifest.records,event.id))continue;
+  if(seen.has(event.id))throw Error('Duplicate reviewed Flensburg ID: '+event.id);seen.add(event.id);
+  const entry=manifest.records[event.id];
+  if(event.date!==entry.expectedDate||event.sourceUrl!==entry.expectedSourceUrl)throw Error('Flensburg event identity changed: '+event.id);
+  for(const [field,translation] of Object.entries(entry.fields)){
+   if(!allowed.has(field))throw Error('Protected Flensburg field: '+field);
+   if(typeof translation.de!=='string'||!Array.isArray(translation.from)||!translation.from.includes(event[field]))throw Error('Unreviewed Flensburg text: '+event.id+'.'+field);
+   if(event[field]!==translation.de){event[field]=translation.de;changed=true;}
+  }
+ }
+ // A pre-import or partial-import build is valid; do not insert any missing events.
+ return changed?JSON.stringify(catalog,null,2)+'\n':content;
+}
+// END REVIEWED FLENSBURG EVENT TEXT
+
 const keys=Object.keys(dictionary).sort((a,b)=>b.length-a.length),escape=x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 const re=new RegExp('(?<![A-Za-zÀ-ž])(?:'+keys.map(escape).join('|')+')(?![A-Za-zÀ-ž])','g');
 function text(s){if(Object.hasOwn(dictionary,s.trim()))return s.replace(s.trim(),dictionary[s.trim()]);return s.replace(/Happy Map/g,'__HAPPYMAP_BRAND__').replace(re,x=>dictionary[x]).replace(/__HAPPYMAP_BRAND__/g,'Happy Map');}
@@ -59,7 +84,8 @@ for(const name of fs.readdirSync(path.join(source,'flensburg'))){const from=path
   s=s.replace(/'from '/g,"'ab '");
  }
  acorn.parse(s,{ecmaVersion:'latest',sourceType:'module'});content=Buffer.from(s);
- }else if(name.endsWith('.html'))content=Buffer.from(page(content.toString(),name));
+ }else if(name==='events.json')content=Buffer.from(reviewedEventText(content.toString(),eventTranslations));
+ else if(name.endsWith('.html'))content=Buffer.from(page(content.toString(),name));
  fs.writeFileSync(path.join(out,name),content);
 }
 for(const [from,name] of [['map-space.js','map-space.js'],['business-entry.js','business-entry.js'],['city-state.js','city-state.js'],['assets/app-shell.js','app-shell.js']]){

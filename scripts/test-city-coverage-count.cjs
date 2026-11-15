@@ -1,0 +1,30 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const ctx=vm.createContext({Intl,Date,console});vm.runInContext(fs.readFileSync('public/discovery-model.js','utf8')+'\n;globalThis.actualModel=NoreliDiscovery;',ctx);vm.runInContext(fs.readFileSync('public/assets/city-coverage.js','utf8'),ctx);
+const evaluate=ctx.HappyMapCoverageState.evaluate,model=ctx.actualModel;
+const now=Date.parse('2026-11-12T12:00:00Z'),zone='Europe/Berlin';
+const event=(id,date='2026-11-12',extra={})=>({id:String(id),title:'Public event '+id,kind:'event',date,time:'20:00',...extra});
+const rows=n=>Array.from({length:n},(_,i)=>event(i));let n=0;
+const check=(title,data,expected,z=zone,t=now,m=model)=>{const r=evaluate(data,z,m,t);assert.equal(r.state,expected,title);n++;return r;};
+assert.equal(check('19 shows',{events:rows(19)},'populating').count,19);
+assert.equal(check('20 hides',{events:rows(20)},'sufficient').count,20);
+check('21 hides',{events:rows(21)},'sufficient');
+for(const data of [null,{}, {events:null},{events:[]},{events:[null,{id:'invalid',date:'2026-02-31'}]}])assert.equal(check('unknown is not zero',data,'unknown').count,null);
+check('missing model',{events:rows(20)},'unknown',zone,now,null);
+check('invalid IANA',{events:rows(20)},'unknown','Fake/City');
+check('no IANA',{events:rows(20)},'unknown','');
+assert.equal(check('duplicate IDs count once',{events:[...rows(19),event(0)]},'populating').count,19);
+for(const extra of [{kind:'place'},{cancelled:true},{status:'cancelled'},{status:'postponed'},{soldOut:true},{publicationStatus:'held_for_recheck'},{publicationStatus:'draft'},{stale:true},{accessType:'restricted'},{visibility:'private'},{needsReview:['date']},{date:'2026-11-13'},{date:'2026-11-11'},{time:'08:00'},{validDates:['2026-11-13']},{closedDates:['2026-11-12']},{closedWeekdays:[4]},{visitSchedule:{'2026-11-13':{start:'10:00',end:'20:00'}}}])check('excluded '+JSON.stringify(extra),{events:[...rows(19),event('excluded','2026-11-12',extra)]},'populating');
+check('no active events not mistaken for full city coverage',{events:[event('past','2026-11-11')]},'populating');
+check('free unknown and paid are all eligible',{events:rows(20).map((e,i)=>({...e,price:[null,0,20][i%3],language:i%2?'RU':'EN'}))},'sufficient');
+check('city zone overrides wrong record zone',{events:rows(20).map(e=>({...e,timezone:'Pacific/Auckland'}))},'sufficient');
+const la='America/Los_Angeles',boundary=Date.parse('2026-11-13T07:59:00Z');
+const midnightRows=rows(20).map(e=>({...e,time:'23:30',end:'23:59:59'}));
+assert.equal(check('Palo Alto before local midnight',{events:midnightRows},'sufficient',la,boundary).date,'2026-11-12');
+assert.equal(check('Palo Alto after local midnight',{events:midnightRows},'populating',la,boundary+120000).date,'2026-11-13');
+assert.equal(check('Berlin simultaneous new day',{events:midnightRows},'populating',zone,boundary).date,'2026-11-13');
+for(const [t,date] of [['2026-03-08T07:30:00Z','2026-03-07'],['2026-03-08T08:30:00Z','2026-03-08'],['2026-11-01T06:30:00Z','2026-10-31'],['2026-11-01T07:30:00Z','2026-11-01']])assert.equal(check('IANA DST date',null,'unknown',la,Date.parse(t)).date,date);
+const withSchedule=rows(20).map(e=>({...e,date:'2026-10-01',endDate:'2026-12-01',ongoing:true,time:'10:00',end:'18:00'}));check('ongoing exhibition open today',{events:withSchedule},'sufficient');
+const input={events:rows(20)};const before=JSON.stringify(input);check('inputs untouched',input,'sufficient');assert.equal(JSON.stringify(input),before);
+// Only catalogue/time/model determine the result, never selected day/category/radius/locale.
+for(const filters of [{day:6,category:'none',radius:.001,language:'ZZ'},{day:-1,view:'plans',layer:'city',freeOnly:true}]){Object.assign(ctx,filters);check('UI filters ignored',input,'sufficient');}
+console.log('PASS '+n+' city coverage count cases using actual NoreliDiscovery:19/20, city IANA/DST/midnight, expiry/closures, unavailable data, duplicates, filters, privacy and sold-out exclusions.');

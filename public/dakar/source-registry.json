@@ -361,7 +361,86 @@
       "accessStatus": "read_full_source",
       "count": 0,
       "note": "200; actual fetch time, not generatedAt"
+    },
+    {
+      "id": "dakar-source-244e5a62e15c76",
+      "name": "Institut français du Sénégal",
+      "url": "https://ifs.sn/en/agenda-culturel/apero-rythme-sao-girls-dakharmony/",
+      "checkedAt": "2026-11-15T10:02:03.880173+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "eventIds": [
+        "dakar-ifs-apero-rythme-sao-girls-dakharmony-20261118"
+      ],
+      "note": "Official event detail reconciled with explicit 2026 agenda; terms retained, no ticket inventory or complete city coverage claim."
+    },
+    {
+      "id": "dakar-source-83b0fe9c7e6051",
+      "name": "Institut français du Sénégal",
+      "url": "https://ifs.sn/en/agenda-culturel/de-la-fibre-a-la-page/",
+      "checkedAt": "2026-11-15T10:02:03.880173+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "eventIds": [
+        "dakar-ifs-de-la-fibre-a-la-page-20261121"
+      ],
+      "note": "Official event detail reconciled with explicit 2026 agenda; terms retained, no ticket inventory or complete city coverage claim."
+    },
+    {
+      "id": "dakar-source-c692b03071d444",
+      "name": "Institut français du Sénégal",
+      "url": "https://ifs.sn/en/agenda-culturel/concert-senny-camara/",
+      "checkedAt": "2026-11-15T10:02:03.880173+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "eventIds": [
+        "dakar-ifs-concert-senny-camara-20261121"
+      ],
+      "note": "Official event detail reconciled with explicit 2026 agenda; terms retained, no ticket inventory or complete city coverage claim."
+    },
+    {
+      "id": "dakar-source-d50b474fecba73",
+      "name": "Institut français du Sénégal",
+      "url": "https://ifs.sn/en/agenda-culturel/table-ronde-erol-josue/",
+      "checkedAt": "2026-11-15T10:02:03.880173+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "eventIds": [
+        "dakar-ifs-table-ronde-erol-josue-20261124"
+      ],
+      "note": "Official event detail reconciled with explicit 2026 agenda; terms retained, no ticket inventory or complete city coverage claim."
+    },
+    {
+      "id": "dakar-source-c56d1d91fc60df",
+      "name": "Institut français du Sénégal",
+      "url": "https://ifs.sn/en/agenda-culturel/aretha/",
+      "checkedAt": "2026-11-15T10:02:03.880173+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "eventIds": [
+        "dakar-ifs-aretha-20261127"
+      ],
+      "note": "Official event detail reconciled with explicit 2026 agenda; terms retained, no ticket inventory or complete city coverage claim."
+    },
+    {
+      "id": "dakar-source-15ac64a814d35c",
+      "name": "Institut français du Sénégal",
+      "url": "https://ifs.sn/en/agenda-culturel/ma-bd-mon-univers/",
+      "checkedAt": "2026-11-15T10:02:03.880173+00:00",
+      "status": "imported",
+      "accessStatus": "read_full_source",
+      "count": 1,
+      "eventIds": [
+        "dakar-ifs-ma-bd-mon-univers-20261128"
+      ],
+      "note": "Official event detail reconciled with explicit 2026 agenda; terms retained, no ticket inventory or complete city coverage claim."
     }
   ],
-  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
+  "editorialUpdatedAt": "2026-11-15T10:05:59.579783+00:00"
 }

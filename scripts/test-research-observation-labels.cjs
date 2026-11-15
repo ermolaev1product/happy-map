@@ -1,0 +1,12 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const ctx={document:{querySelector:()=>({})},fetch:()=>new Promise(()=>{})};vm.createContext(ctx);vm.runInContext(fs.readFileSync('public/palo-alto/sources-page.js','utf8'),ctx);
+const run=s=>vm.runInContext(s,ctx);
+assert.equal(run('countLabel({})'),'Import count not reconciled');
+assert.equal(run('countLabel({importedCount:null})'),'Import count not reconciled');
+assert.equal(run('countLabel({importedCount:0})'),'0 exact-link listings');
+assert.equal(run('countLabel({importedCount:1})'),'1 exact-link listing');
+assert.equal(run('observationSummary({})'),'');
+assert(run("observationSummary({researchObservations:[{checkedAt:null,summary:'Read',nextAction:'Verify'}]})").includes('exact check time not recorded'));
+assert(run("observationSummary({researchObservations:[{checkedAt:'2026-10-01',summary:'Old'},{checkedAt:'2026-11-12',summary:'New',nextAction:'Return'}]})").includes('2026-11-12'));
+assert(!run("observationSummary({researchObservations:[{checkedAt:null,summary:'<img src=x onerror=alert(1)>',nextAction:'<script>'}]})").includes('<img'));
+console.log('PASS 8 source observation label cases: unknown is not zero, actual checks stay distinct, source text escaped.');

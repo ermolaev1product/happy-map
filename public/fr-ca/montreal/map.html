@@ -34,15 +34,15 @@
   
   <link rel="stylesheet" href="/en/assets/leaflet.css?v=337bfca5cabd"><link rel="stylesheet" href="/en/montreal/style.css?v=0ab72cef3086">
   
-  <script defer src="/en/assets/leaflet.js?v=db49d009c841"></script><link rel="stylesheet" href="/en/assets/maplibre/maplibre-gl.css?v=43c1d886b5fd"><script defer src="/en/assets/maplibre/maplibre-gl.js?v=1525f971223d"></script><script defer src="/en/assets/maplibre/leaflet-maplibre-gl.js?v=81a92cefb959"></script><script defer src="/fr-ca/map-basemap.js?v=5904be4869c8"></script><script defer src="/fr-ca/montreal/map-layout.js?v=ba7e7e9975c3"></script><script defer src="/en/discovery-model.js?v=b0724918928a"></script><script defer src="/fr-ca/montreal/app.js?v=2cb23a1a2bad"></script><script defer src="/fr-ca/location-control.js?v=aeeb8eb2ffe4"></script>
+  <script defer src="/en/assets/leaflet.js?v=db49d009c841"></script><link rel="stylesheet" href="/en/assets/maplibre/maplibre-gl.css?v=43c1d886b5fd"><script defer src="/en/assets/maplibre/maplibre-gl.js?v=1525f971223d"></script><script defer src="/en/assets/maplibre/leaflet-maplibre-gl.js?v=81a92cefb959"></script><script defer src="/fr-ca/map-basemap.js?v=0317ff484fc6"></script><script defer src="/fr-ca/montreal/map-layout.js?v=ba7e7e9975c3"></script><script defer src="/en/discovery-model.js?v=b0724918928a"></script><script defer src="/catalog-client.js?v=3a90244b840c"></script><script defer src="/fr-ca/montreal/app.js?v=9f8d7f9878f7"></script><script defer src="/fr-ca/location-control.js?v=fb7e7eed4abe"></script>
 
-<script defer src="/fr-ca/montreal/discovery.js?v=8e3dd64de062"></script>
+<script defer src="/fr-ca/montreal/discovery.js?v=a031a8c0e71b"></script>
 
-<script defer src="/fr-ca/catalog-modes.js?v=eeb73d42e00a"></script>
+<script defer src="/fr-ca/catalog-modes.js?v=fcb861c8ebe9"></script>
 
-<script defer src="/fr-ca/city-state.js?v=986b70b2d26b" data-city="montreal"></script><link rel="stylesheet" href="/en/discovery.css?v=37c6ea1d9ba7"><link rel="stylesheet" href="/en/social.css?v=a4214c9258b0"><script defer src="/fr-ca/social.js?v=9dfe91e35af8"></script><script defer src="/fr-ca/plan-account.js?v=f8e00848e5a9"></script><link rel="stylesheet" href="/en/dialog.css?v=b43e57321f1f">
+<script defer src="/fr-ca/city-state.js?v=88b4caa30817" data-city="montreal"></script><link rel="stylesheet" href="/en/discovery.css?v=37c6ea1d9ba7"><link rel="stylesheet" href="/en/social.css?v=a4214c9258b0"><script defer src="/fr-ca/social.js?v=4d27cb58f610"></script><script defer src="/fr-ca/plan-account.js?v=050c5a30ea7b"></script><link rel="stylesheet" href="/en/dialog.css?v=b43e57321f1f">
 
-<link rel="stylesheet" href="/en/assets/download.css?v=71a91a023af2"><script defer src="/fr-ca/assets/app-shell.js?v=61bd1e8a75c2"></script><script defer src="/fr-ca/freshness.js?v=7477084cef9f"></script><script src="/en/locale-policy.js?v=90c843aeccb6"></script><script src="/en/language-switch.js?v=894a3ab5bc80"></script><link rel="stylesheet" href="/en/map-space.css?v=c6a1ae597f81"><link rel="stylesheet" href="/en/assets/controls.css?v=dd95db7a686c"><link rel="stylesheet" href="/en/assets/controls.css?v=dd95db7a686c"><link rel="alternate" hreflang="ru" href="https://happymap.app/montreal/map.html"><link rel="alternate" hreflang="en" href="https://happymap.app/en/montreal/map.html"><link rel="alternate" hreflang="fr-CA" href="https://happymap.app/fr-ca/montreal/map.html"><link rel="alternate" hreflang="x-default" href="https://happymap.app/en/montreal/map.html"><link rel="stylesheet" href="/assets/controls.css?v=dd95db7a686c"></head>
+<link rel="stylesheet" href="/en/assets/download.css?v=71a91a023af2"><script defer src="/fr-ca/assets/app-shell.js?v=42224432a192"></script><script defer src="/fr-ca/freshness.js?v=a05ca02cba0b"></script><script src="/locale-policy.js?v=43cad9b06257"></script><script src="/language-switch.js?v=79e94e138955"></script><link rel="stylesheet" href="/en/map-space.css?v=c6a1ae597f81"><link rel="alternate" hreflang="en" href="https://happymap.app/montreal/map.html"><link rel="alternate" hreflang="en" href="https://happymap.app/en/montreal/map.html"><link rel="alternate" hreflang="fr-CA" href="https://happymap.app/fr-ca/montreal/map.html"><link rel="alternate" hreflang="x-default" href="https://happymap.app/en/montreal/map.html"><link rel="stylesheet" href="/en/assets/controls.css?v=7d0afd329dbd"><link rel="stylesheet" href="/en/assets/global-languages.css?v=3e04b730f965"><link rel="stylesheet" href="/en/assets/controls.css?v=7d0afd329dbd"><link rel="stylesheet" href="/assets/global-languages.css?v=3e04b730f965"><link rel="stylesheet" href="/assets/city-coverage.css?v=3791f1ee6b69"><script defer src="/assets/city-coverage.js?v=3791f1ee6b69"></script></head>
 
 <body data-palette="coral" class="map-first">
   
@@ -62,7 +62,7 @@
 
   
 
-  <main><div class="journey" id="journey" hidden><strong>Étape 3 sur 3 · Faire des plans</strong><span>Ouvrez un événement → vérifiez l’heure et le prix → touchez « Ajouter à mes plans ».</span></div>
+  <main><!-- city-coverage-notice --><aside id="cityCoverageNotice" class="city-coverage-notice" role="note" data-coverage-city="montreal" data-coverage-status="conditional" data-coverage-state="unknown" data-coverage-timezone="America/Toronto" data-coverage-unknown="La sélection du jour n’a pas encore pu être confirmée. Cela ne signifie pas qu’il n’y a aucun événement en ville." data-coverage-partial="La sélection du jour compte moins de 20 événements actuels. Nous la complétons. Ce n’est pas tout le programme de la ville." aria-labelledby="cityCoverageTitle"><div><strong id="cityCoverageTitle">Nous ajoutons des événements</strong><p data-coverage-body>La sélection du jour n’a pas encore pu être confirmée. Cela ne signifie pas qu’il n’y a aucun événement en ville.</p></div><a href="/fr-ca/montreal/sources.html">Sources et vérification ↗</a></aside><!-- /city-coverage-notice --><div class="journey" id="journey" hidden><strong>Étape 3 sur 3 · Faire des plans</strong><span>Ouvrez un événement → vérifiez l’heure et le prix → touchez « Ajouter à mes plans ».</span></div>
     
     <section class="intro">
       
@@ -132,7 +132,7 @@
   
   <div id="toast" role="status" class="toast"></div>
 
-<script src="/fr-ca/map-space.js?v=e54251eb0125"></script><script defer src="/fr-ca/business-entry.js?v=9842aaa3f77d"></script><a data-traffic-privacy href="/fr-ca/traffic-privacy.html" style="display:block;text-align:center;font-size:12px;padding:12px;color:inherit">Statistiques de fréquentation &amp; confidentialité</a><script src="/en/assets/traffic.js?v=f992ccfcbc04" defer></script></body>
+<script src="/fr-ca/map-space.js?v=e54251eb0125"></script><script defer src="/fr-ca/business-entry.js?v=b21e95f1f3ff"></script><a data-traffic-privacy href="/fr-ca/traffic-privacy.html" style="display:block;text-align:center;font-size:12px;padding:12px;color:inherit">Statistiques de fréquentation &amp; confidentialité</a><script src="/en/assets/traffic.js?v=a7289a2bf4be" defer></script></body>
 
 </html>
 

@@ -1,0 +1,14 @@
+// Both channels now use the same transport. This guards every delegated client and script binding.
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),{createHash}=require('node:crypto');
+const files=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(path.join(dir,e.name)):[path.join(dir,e.name)]);
+let apps=0,places=0,maps=0,checks=0;
+(async()=>{for(const file of files('public')){
+ const base=path.basename(file);if(['app.js','discovery.js'].includes(base)){
+  const source=fs.readFileSync(file,'utf8');new vm.Script(source);const name=base==='app.js'?'loadCatalog':'loadPlaces',start=source.indexOf('async function '+name+'(){');if(start<0)continue;
+  const end=source.indexOf(base==='app.js'?'\nconst renderOriginal':'\nconst initMapBeforeDiscovery',start);assert(end>start);const code=source.slice(start,end),calls=[],data=base==='app.js'?{events:[]}:{places:[{id:'p',title:'Published'}]};
+  const ctx=vm.createContext({window:{HappyMapCatalog:{load:async(...args)=>{calls.push(args);return {data,origin:'cache'};}}},cityFolder:'paris/',document:{documentElement:{lang:'de'}},nearKey:'old-city-key',catalogOrigin:'bundled',validCatalog:()=>true});vm.runInContext(code,ctx);const result=await ctx[name]();assert.equal(calls.length,1);assert.equal(calls[0][0],'paris');assert.equal(calls[0][1],base==='app.js'?'events':'places');assert.equal(calls[0][2],'de');assert.equal(calls[0][3].legacyCachePrefix,'old-city-key');assert(!code.includes('localStorage.setItem'));assert(!code.includes('/live/'));if(base==='app.js'){assert.equal(result,data);assert.equal(ctx.catalogOrigin,'cache');apps++;}else{assert.equal(result,data.places);places++;}checks+=9;
+ }else if(file.endsWith('.html')){
+  const html=fs.readFileSync(file,'utf8');if(!html.includes('/catalog-client.js?v='))continue;const scripts=[...html.matchAll(/<script\b[^>]*src="([^"]+)"[^>]*>/g)];const shared=scripts.filter(m=>m[1].startsWith('/catalog-client.js?v='));assert.equal(shared.length,1,file);const app=scripts.find(m=>/(?:^|\/)app\.js(?:\?|$)/.test(m[1]));assert(app&&shared[0].index<app.index,file+' shared loader before app');assert(shared[0][0].includes('defer'));
+  for(const m of scripts){const url=new URL(m[1],'https://happymap.app/'+path.relative('public',file));if(!['app.js','discovery.js','catalog-client.js','catalog-modes.js','freshness.js'].includes(path.basename(url.pathname)))continue;const expected=createHash('sha256').update(fs.readFileSync('public'+url.pathname)).digest('hex').slice(0,12);assert.equal(url.searchParams.get('v'),expected,file+' current '+url.pathname);checks++;}maps++;checks+=3;
+ }
+}console.log(JSON.stringify({pass:true,apps,placeClients:places,maps,checks,sharedLoaderOnly:true,scriptVersionsVerified:true,physicalDeviceTest:false}));})().catch(e=>{console.error(e);process.exitCode=1});

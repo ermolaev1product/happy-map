@@ -2,10 +2,10 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),vm=require('node:vm');
 const root=process.argv.includes('--root')?path.resolve(process.argv[process.argv.indexOf('--root')+1]):process.cwd();
 const publicDir=path.join(root,'public');
-const locales={ru:'ru_RU',en:'en_GB',de:'de_DE',fr:'fr_FR',it:'it_IT','de-CH':'de_CH','de-AT':'de_AT','pt-BR':'pt_BR','fr-CA':'fr_CA'};
+const locales={ru:'ru_RU',en:'en_GB',de:'de_DE',fr:'fr_FR',it:'it_IT','de-CH':'de_CH','de-AT':'de_AT','pt-BR':'pt_BR','fr-CA':'fr_CA',sr:'sr_RS','sr-Latn':'sr_RS',es:'es_ES'};
 const alts={ru:'Happy Map — События. Места. Планы.',en:'Happy Map — Events. Places. Plans.',de:'Happy Map — Veranstaltungen. Orte. Pläne.',fr:'Happy Map — Événements. Lieux. Sorties.',it:'Happy Map — Eventi. Luoghi. Programmi.'};
-alts['de-CH']=alts.de;alts['de-AT']=alts.de;alts['pt-BR']=alts.en;alts['fr-CA']=alts.en;
-const artwork=lang=>({'de-CH':'de','de-AT':'de','pt-BR':'en','fr-CA':'en'})[lang]||lang;
+alts['de-CH']=alts.de;alts['de-AT']=alts.de;alts['pt-BR']='Happy Map — Eventos. Lugares. Planos.';alts.es='Happy Map — Eventos. Lugares. Planes.';alts.sr=alts['sr-Latn']='Happy Map — Događaji. Mesta. Planovi.';alts['fr-CA']=alts.en;
+const artwork=lang=>({'de-CH':'de','de-AT':'de','pt-BR':'en','fr-CA':'en',sr:'en','sr-Latn':'en',es:'en'})[lang]||lang;
 const asset=lang=>'https://happymap.app/assets/happy-map-unified-20261015-'+artwork(lang)+'.png';
 const scan=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?scan(path.join(dir,e.name)):[path.join(dir,e.name)]);
 function metadata(html){const found={};for(const tag of html.match(/<meta\b[^>]*>/gi)||[]){const key=tag.match(/(?:property|name)=["']([^"']+)["']/)?.[1];if(!key)continue;assert(!found[key]||!key.startsWith('og:')&&!key.startsWith('twitter:'),'Duplicate social tag '+key);found[key]=tag.match(/content=["']([^"']*)["']/)?.[1];}return found;}
@@ -35,7 +35,7 @@ for(const lang of ['de','fr','it']){
  assert(checked.has(lang+'/share.html'));
  assert.equal(m['og:url'],'https://happymap.app/'+lang+'/share.html');
  assert(!/language-switch|location.replace|http-equiv="refresh"/.test(html),'Share locale must not redirect to unsupported interface');
- assert(html.includes(lang==='de'?'/cities.html?lang=de':'/en/cities.html?lang=en'),'Honest existing interface fallback');
+ assert(html.includes(lang==='de'?'/de/cities.html?lang=de':'/en/cities.html?lang=en'),'Honest existing interface fallback');
  if(lang!=='de')assert.deepEqual(fs.readdirSync(path.join(publicDir,lang)),['share.html'],'Share-only localization must not invent full interface');
  assert(!fs.existsSync(path.join(publicDir,'en',lang)),'No nested locale mirrors');
 }

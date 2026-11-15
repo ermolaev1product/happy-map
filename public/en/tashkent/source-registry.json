@@ -80,7 +80,42 @@
       "status": "checked",
       "accessStatus": "checked",
       "count": 0,
-      "note": ""
+      "note": "",
+      "researchObservations": [
+        {
+          "id": "obs-history-2d315a999157aafd2aea97e8",
+          "cityId": "tashkent",
+          "sourceUrl": "https://www.afisha.uz/ru/exhibitions/2026/10/06/nazhimov",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_schedule_facts",
+          "readDepth": "partial_announcement",
+          "summary": "Selected exhibition date bounds October 6–November 30 and daily 10:00–21:00 hours were read. This supports the bounded visiting-schedule repair; no retained evidence establishes a full announcement or full Afisha programme read.",
+          "dateHorizon": {
+            "startDate": "2026-10-06",
+            "endDate": "2026-11-30",
+            "dates": [
+              "2026-10-06",
+              "2026-11-30"
+            ],
+            "complete": false,
+            "scope": "Published exhibition bounds; not complete Afisha source coverage."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "tashkent-afisha-nazhimov-20261006-1000"
+          ],
+          "evidenceSourceURL": "https://www.afisha.uz/ru/exhibitions/2026/10/06/nazhimov",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T14:27:00Z"
+        }
+      ]
     },
     {
       "id": "source-99b869aaf69b",

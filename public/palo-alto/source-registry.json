@@ -50,7 +50,29 @@
       "accessStatus": "read_full_selected_programme",
       "count": 1,
       "note": "Selected dated programme facts checked; not full venue or city coverage. Unknown fees/end times remain unknown."
+    },
+    {
+      "id": "palo-museum-opening-talks-20261106",
+      "name": "Palo Alto Museum — public programme talks",
+      "url": "https://paloaltomuseum.org/events/",
+      "checkedAt": "2026-11-06T05:09:59Z",
+      "status": "rechecked_existing_programme",
+      "accessStatus": "public_primary_event_detail",
+      "count": 3,
+      "type": "web",
+      "note": "Three talks within the existing November7–8 programme. Event record count unchanged; public hours and reservation conditions retained. No canceled slot imported."
     }
   ],
-  "editorialUpdatedAt": "2026-10-29T01:36:34.306269+00:00"
+  "editorialUpdatedAt": "2026-11-06T05:09:59Z",
+  "lastPartialRefresh": {
+    "batch": "palo-alto-museum-talks-20261106",
+    "baseCommit": "cb045aaceb74f35faecee653775106d254ed717b",
+    "at": "2026-11-06T05:09:59Z",
+    "updatedProgrammeIds": [
+      "pa-231bddd01df62f6c"
+    ],
+    "addedProgrammeSessions": 3,
+    "addedEventRecords": 0,
+    "coverage": "Existing two-date museum programme enriched with three source-confirmed public talks. Canceled and members-only sessions excluded."
+  }
 }

@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-10T08:32:28.647076+00:00",
+  "sources": [
+    {
+      "url": "https://fabrikatbilisi.com/events/",
+      "status": "read_archive",
+      "note": "Visible calendar only2025; no current dates confirmed."
+    },
+    {
+      "url": "https://www.goethe.de/ins/ge/ka/ver.cfm",
+      "status": "calendar_unavailable",
+      "note": "Reader returns calendar template; no current event list confirmed."
+    },
+    {
+      "url": "https://mos-razvitie.ru/afisha/",
+      "status": "access_error",
+      "note": "Webreader cache miss."
+    },
+    {
+      "url": "https://cavea.ge/sessions?lang=eng",
+      "status": "date_context_conflict",
+      "note": "Fresh request shows heading9 Today November onNov10; tabs mix11Wed/12Thu/14Sat/17Tue/16Wed. No new sessions inferred. Existing schedule beyondNov10 remains incomplete."
+    }
+  ]
+}

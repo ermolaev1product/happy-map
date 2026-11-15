@@ -6,7 +6,7 @@
  const drawer=document.createElement('details');drawer.className='map-options';
  const summary=document.createElement('summary');summary.textContent=copy.filters;drawer.append(summary);
  for(const selector of ['.filter-actions','#extraFilters','#catalogStatus','#coverageControls']){const el=document.querySelector(selector);if(el)drawer.append(el)}
- workspace.after(drawer);if(true){const note=document.createElement('p');note.className='muted';note.textContent="Die Bedienoberfläche ist auf Deutsch. Veranstaltungsbeschreibungen können auf Englisch oder in der Originalsprache erscheinen. Jeder Eintrag verlinkt die Originalankündigung.";drawer.append(note);}
+ workspace.after(drawer);if(true){const note=document.createElement('p');note.className='muted';note.textContent="Die Oberfläche ist übersetzt. Beschreibungen von Veranstaltungen und Orten können in der Sprache des Katalogs oder der Quelle bleiben. Die Sprache der Oberfläche filtert keine Veranstaltungen.";drawer.append(note);}
  const events=document.getElementById('eventsLayer');if(events)events.textContent=copy.events;
  const city=document.getElementById('cityLayer');if(city)city.textContent=copy.city;
 })();

@@ -11,7 +11,221 @@
       "accessStatus": "partial_detail_review",
       "count": 16,
       "note": "Main and7category first-visible pages reviewed; next controls had no accessible link. Not complete pagination/import.",
-      "type": "official_city_calendar"
+      "type": "official_city_calendar",
+      "researchObservations": [
+        {
+          "id": "obs-history-2c9319f5d6030295a22da47c",
+          "cityId": "oslo",
+          "sourceUrl": "https://www.visitoslo.com/whats-on/",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "partial_directory_read",
+          "readDepth": "directory",
+          "summary": "main landing and category links read not full calendar pagination. No full calendar pagination or date-window completeness established.",
+          "dateHorizon": {
+            "startDate": null,
+            "endDate": null,
+            "dates": [],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [],
+          "evidenceSourceURL": "https://www.visitoslo.com/whats-on/",
+          "nextAction": "Continue from the visible programme and open exact dated announcements; record pagination/stop conditions instead of claiming the whole calendar is read.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-f40e37f231645e146e649dc3",
+          "cityId": "oslo",
+          "sourceUrl": "https://www.visitoslo.com/event/am-i-being-revealed-now-a-conversation-about-impostor-syndrome",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "full_selected_corroborating_announcement",
+          "readDepth": "full_dated_announcement",
+          "summary": "Retained audit explicitly records a full selected event-detail read. Its dated session corroborates the primary organizer; conflicting end-time and fee limitations remain, and this is not a full city calendar read.",
+          "dateHorizon": {
+            "startDate": "2026-11-16",
+            "endDate": "2026-11-16",
+            "dates": [
+              "2026-11-16"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "oslo-ofo-impostor-syndrome-20261116-1630"
+          ],
+          "evidenceSourceURL": "https://www.visitoslo.com/event/am-i-being-revealed-now-a-conversation-about-impostor-syndrome",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-309d88f02633245372353dd8",
+          "cityId": "oslo",
+          "sourceUrl": "https://www.visitoslo.com/event/naomi-klein-and-astra-taylor-end-times-fascism",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "full_selected_corroborating_announcement",
+          "readDepth": "full_dated_announcement",
+          "summary": "Retained audit explicitly records a full selected event-detail read. Its dated session corroborates the primary organizer; conflicting end-time and fee limitations remain, and this is not a full city calendar read.",
+          "dateHorizon": {
+            "startDate": "2026-11-17",
+            "endDate": "2026-11-17",
+            "dates": [
+              "2026-11-17"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "oslo-neuf-klein-taylor-10254-20261117-1900"
+          ],
+          "evidenceSourceURL": "https://www.visitoslo.com/event/naomi-klein-and-astra-taylor-end-times-fascism",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-fe7b3cbbd7edfb2378923a81",
+          "cityId": "oslo",
+          "sourceUrl": "https://www.visitoslo.com/event/long-day-s-journey-into-night-6",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "full_selected_corroborating_announcement",
+          "readDepth": "full_dated_announcement",
+          "summary": "Retained audit explicitly records a full selected event-detail read. Its dated session corroborates the primary organizer; conflicting end-time and fee limitations remain, and this is not a full city calendar read.",
+          "dateHorizon": {
+            "startDate": "2026-11-18",
+            "endDate": "2026-11-18",
+            "dates": [
+              "2026-11-18"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "oslo-grusomheten-long-day-1184494-20261118-1800"
+          ],
+          "evidenceSourceURL": "https://www.visitoslo.com/event/long-day-s-journey-into-night-6",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-584eb7078ec7b205ff35737d",
+          "cityId": "oslo",
+          "sourceUrl": "https://www.visitoslo.com/event/tour-painting",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_announcement_facts_held",
+          "readDepth": "partial_announcement",
+          "summary": "Live city page lists individual 15 and 17 November 14:00–14:45 and 17 November 18:30–19:15, but selected evidence did not establish explicit 2026 year or current museum admission price. Tour is only free with paid/admissible museum ticket, not a free-entry event. No imported sessions.",
+          "dateHorizon": {
+            "startDate": null,
+            "endDate": null,
+            "dates": [],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "held_year_and_admission_incomplete",
+          "eventIds": [],
+          "evidenceSourceURL": "https://www.visitoslo.com/event/tour-painting",
+          "nextAction": "Resolve the retained date/admission conflict or use the correct target window before importing. Do not infer a full current calendar check.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-fb3e94b0354c607efce63f22",
+          "cityId": "oslo",
+          "sourceUrl": "https://www.visitoslo.com/event/latenight-get-to-know-the-nobel-peace-prize-2026",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_announcement_facts_held",
+          "readDepth": "partial_announcement",
+          "summary": "City page says 18 November 17:00–22:00 from NOK 90. Its organizer link returned 404. A separate official ticket page was found and read, but rendered content omitted date/price, while indexed excerpt showed 17:00–20:00. Do not import 22:00 or indexed 20:00 without a fresh authoritative scheduling read.",
+          "dateHorizon": {
+            "startDate": "2026-11-18",
+            "endDate": "2026-11-18",
+            "dates": [
+              "2026-11-18"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "held_conflicting_or_incomplete_current_schedule",
+          "eventIds": [],
+          "evidenceSourceURL": "https://www.visitoslo.com/event/latenight-get-to-know-the-nobel-peace-prize-2026",
+          "nextAction": "Resolve the retained date/admission conflict or use the correct target window before importing. Do not infer a full current calendar check.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-1733cace6513da235c4f5df5",
+          "cityId": "oslo",
+          "sourceUrl": "https://www.visitoslo.com/event/long-day-s-journey-into-night-11",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "selected_announcement_facts_held",
+          "readDepth": "partial_announcement",
+          "summary": "Exact event is 28 November 2026. Used only to discover organizer; separate 18 November event verified and selected.",
+          "dateHorizon": {
+            "startDate": "2026-11-28",
+            "endDate": "2026-11-28",
+            "dates": [
+              "2026-11-28"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "outside_target_window",
+          "eventIds": [],
+          "evidenceSourceURL": "https://www.visitoslo.com/event/long-day-s-journey-into-night-11",
+          "nextAction": "Resolve the retained date/admission conflict or use the correct target window before importing. Do not infer a full current calendar check.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        }
+      ]
     },
     {
       "id": "oslo-source-67986e6a3519e1",
@@ -77,7 +291,393 @@
       "accessStatus": "read_full_selected_programme",
       "count": 1,
       "note": "Selected dated programme facts checked; partial coverage. Source clock conflicts resolved with own organizer details, history retained."
+    },
+    {
+      "id": "oslo-nb-intervju-med-historien-20261109-official-detail",
+      "name": "Nasjonalbiblioteket official programme — Intervju med historien. Samtale med Vetle Lid Larssen",
+      "url": "https://www.nb.no/hva-skjer/intervju-med-historien/",
+      "checkedAt": "2026-11-06T03:50:41Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "One explicitly dated occurrence. Venue/campus precision retained; no additional recurrence inferred."
+    },
+    {
+      "id": "oslo-nb-kokepunktet-rockekokkenes-inntog-20261110-official-detail",
+      "name": "Nasjonalbiblioteket official programme — Kokepunktet: Rockekokkenes inntog",
+      "url": "https://www.nb.no/hva-skjer/kokepunktet-rockekokkenes-inntog/",
+      "checkedAt": "2026-11-06T03:50:41Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "One explicitly dated occurrence. Venue/campus precision retained; no additional recurrence inferred."
+    },
+    {
+      "id": "oslo-nb-kveldsskolen-hvor-demokratisk-er-egentlig-norge-20261112-official-detail",
+      "name": "Nasjonalbiblioteket official programme — Kveldsskolen: Kor demokratisk er eigentleg Noreg? Foredrag med Carl Henrik Knutsen",
+      "url": "https://www.nb.no/hva-skjer/kveldsskolen-hvor-demokratisk-er-egentlig-norge/",
+      "checkedAt": "2026-11-06T03:50:41Z",
+      "status": "imported",
+      "accessStatus": "public_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "One explicitly dated occurrence. Venue/campus precision retained; no additional recurrence inferred."
+    },
+    {
+      "id": "oslo-dumdum-xl-20261107-1945-primary-detail",
+      "name": "Oslo Spektrum — official running order — Dumdum Boys – XL [romertallførti]",
+      "url": "https://oslospektrum.no/arrangementer/dumdum-boys-xl-romertallforti/",
+      "checkedAt": "2026-11-06T04:32:08Z",
+      "status": "imported",
+      "accessStatus": "public_primary_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence. Performance/support times kept distinct from doors; remaining ticket availability is not guaranteed."
+    },
+    {
+      "id": "oslo-napalm-master-brat-goat-20261111-1840-primary-detail",
+      "name": "Vulkan Arena — official running order — Napalm Death, Master, Brat & Goat Burner",
+      "url": "https://vulkanarena.no/events/napalm-death-master-brat-and-goat-burner/OJjqR2IDsu",
+      "checkedAt": "2026-11-06T04:32:08Z",
+      "status": "imported",
+      "accessStatus": "public_primary_event_detail",
+      "count": 1,
+      "type": "web",
+      "note": "Explicit dated occurrence. Performance/support times kept distinct from doors; remaining ticket availability is not guaranteed."
+    },
+    {
+      "id": "oslo-fjord-oslo-20261108-official",
+      "name": "Fjord Oslo — official festival",
+      "url": "https://fjordoslo.com/",
+      "checkedAt": "2026-11-08T08:01:31.917056Z",
+      "status": "imported",
+      "accessStatus": "read_full_selected_programme",
+      "count": 1,
+      "type": "official_festival",
+      "note": "Official homepage confirms 5–8 November 2026, 18:00–23:00, free admission. Only 8 November imported; map pin is the representative Rådhusplassen area, not every installation."
+    },
+    {
+      "id": "source-oslo-6c70f8da133492c8",
+      "cityId": "oslo",
+      "name": "Chateau Neuf",
+      "url": "https://neuf.no/arrangementer",
+      "type": "Website",
+      "status": "selected_research_retained",
+      "note": "Provider entry registered from retained source reads. The URL is an actually checked entry point; observations retain each exact inspected page. No full provider/calendar coverage is claimed.",
+      "researchObservations": [
+        {
+          "id": "obs-history-0aaf537252b012f17b380cd9",
+          "cityId": "oslo",
+          "sourceUrl": "https://neuf.no/arrangementer/notteknekkeren-kultur-for-folket-2026",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "full_selected_event_announcement",
+          "readDepth": "full_dated_announcement",
+          "summary": "Official occurrence 9989: start 2026-11-15 17:00:00+00:00; displayed Sunday 15 November 18:00, Storsalen. Full selected event body retained in the source audit. Remaining capacity, checkout fees and conflicting/unstated end times were not verified.",
+          "dateHorizon": {
+            "startDate": "2026-11-15",
+            "endDate": "2026-11-15",
+            "dates": [
+              "2026-11-15"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "oslo-neuf-nutcracker-9989-20261115-1800"
+          ],
+          "evidenceSourceURL": "https://neuf.no/arrangementer/notteknekkeren-kultur-for-folket-2026",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-2423221072b21664e2b16cd4",
+          "cityId": "oslo",
+          "sourceUrl": "https://neuf.no/arrangementer/filmvisning-a-grin-wihtout-a-cat",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "full_selected_event_announcement",
+          "readDepth": "full_dated_announcement",
+          "summary": "Official occurrence 10309: start 2026-11-16 18:00:00+00:00; displayed Monday 16 November 19:00, Lillesalen. Full selected event body retained in the source audit. Remaining capacity, checkout fees and conflicting/unstated end times were not verified.",
+          "dateHorizon": {
+            "startDate": "2026-11-16",
+            "endDate": "2026-11-16",
+            "dates": [
+              "2026-11-16"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "oslo-neuf-grin-without-cat-10309-20261116-1900"
+          ],
+          "evidenceSourceURL": "https://neuf.no/arrangementer/filmvisning-a-grin-wihtout-a-cat",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-7426a5255c25218db62d7871",
+          "cityId": "oslo",
+          "sourceUrl": "https://neuf.no/arrangementer/naomi-klein-og-astra-taylor",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "full_selected_event_announcement",
+          "readDepth": "full_dated_announcement",
+          "summary": "Official occurrence 10254: start 2026-11-17 18:00:00+00:00; displayed Tuesday 17 November 19:00, Storsalen. Full selected event body retained in the source audit. Remaining capacity, checkout fees and conflicting/unstated end times were not verified.",
+          "dateHorizon": {
+            "startDate": "2026-11-17",
+            "endDate": "2026-11-17",
+            "dates": [
+              "2026-11-17"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "oslo-neuf-klein-taylor-10254-20261117-1900"
+          ],
+          "evidenceSourceURL": "https://neuf.no/arrangementer/naomi-klein-og-astra-taylor",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-1f1e3ef0a267a92e85680201",
+          "cityId": "oslo",
+          "sourceUrl": "https://neuf.no/arrangementer/free-wednesday-improv-workshop-w-impro-neuf-4",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "full_selected_event_announcement",
+          "readDepth": "full_dated_announcement",
+          "summary": "Official occurrence 10201: start 2026-11-18 17:00:00+00:00; displayed Wednesday 18 November 18:00, Klubbscenen. Body explicitly states 18:00–20:00. Full selected event body retained in the source audit. Remaining capacity, checkout fees and conflicting/unstated end times were not verified.",
+          "dateHorizon": {
+            "startDate": "2026-11-18",
+            "endDate": "2026-11-18",
+            "dates": [
+              "2026-11-18"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "oslo-neuf-open-improv-10201-20261118-1800"
+          ],
+          "evidenceSourceURL": "https://neuf.no/arrangementer/free-wednesday-improv-workshop-w-impro-neuf-4",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-e8b15d2cbe6ab9ebc1b733e2",
+          "cityId": "oslo",
+          "sourceUrl": "https://neuf.no/arrangementer",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "partial_directory_read",
+          "readDepth": "directory",
+          "summary": "visible current programme read and four individual sessions verified. No full calendar pagination or date-window completeness established.",
+          "dateHorizon": {
+            "startDate": null,
+            "endDate": null,
+            "dates": [],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [],
+          "evidenceSourceURL": "https://neuf.no/arrangementer",
+          "nextAction": "Continue from the visible programme and open exact dated announcements; record pagination/stop conditions instead of claiming the whole calendar is read.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        }
+      ]
+    },
+    {
+      "id": "source-oslo-7cf41e05663ccfe3",
+      "cityId": "oslo",
+      "name": "Oslo Philharmonic / MusikkRom",
+      "url": "https://ofo.no/no/konserter/2026-11-16/blir-jeg-avslort-na-en-samtale-om-bedragersyndromet",
+      "type": "Website",
+      "status": "selected_research_retained",
+      "note": "Provider entry registered from retained source reads. The URL is an actually checked entry point; observations retain each exact inspected page. No full provider/calendar coverage is claimed.",
+      "researchObservations": [
+        {
+          "id": "obs-history-c1e46b835c4a584189cda1fe",
+          "cityId": "oslo",
+          "sourceUrl": "https://ofo.no/no/konserter/2026-11-16/blir-jeg-avslort-na-en-samtale-om-bedragersyndromet",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "full_selected_event_announcement",
+          "readDepth": "full_dated_announcement",
+          "summary": "Official organizer explicitly states 16 November 2026 at 4.30 pm; VisitOslo confirms the local 16:30–17:30 session. Full selected event body retained in the source audit. Remaining capacity, checkout fees and conflicting/unstated end times were not verified.",
+          "dateHorizon": {
+            "startDate": "2026-11-16",
+            "endDate": "2026-11-16",
+            "dates": [
+              "2026-11-16"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "oslo-ofo-impostor-syndrome-20261116-1630"
+          ],
+          "evidenceSourceURL": "https://ofo.no/no/konserter/2026-11-16/blir-jeg-avslort-na-en-samtale-om-bedragersyndromet",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-194d0bc1f1836bb8e1987fe2",
+          "cityId": "oslo",
+          "sourceUrl": "https://ofo.no/hvorermusikkrom",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "venue_location_evidence",
+          "readDepth": "venue_evidence",
+          "summary": "The official MusikkRom location link and its coordinate were checked. This is venue evidence, not an event announcement read.",
+          "dateHorizon": {
+            "startDate": null,
+            "endDate": null,
+            "dates": [],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [],
+          "evidenceSourceURL": "https://ofo.no/hvorermusikkrom",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        }
+      ]
+    },
+    {
+      "id": "source-oslo-0e906858a1e59b8b",
+      "cityId": "oslo",
+      "name": "Grusomhetens Teater",
+      "url": "https://www.grusomhetensteater.no/2026/10/lang-dags-ferd-mot-natt/",
+      "type": "Website",
+      "status": "selected_research_retained",
+      "note": "Provider entry registered from retained source reads. The URL is an actually checked entry point; observations retain each exact inspected page. No full provider/calendar coverage is claimed.",
+      "researchObservations": [
+        {
+          "id": "obs-history-54f2bf54be847a7a1c1c89be",
+          "cityId": "oslo",
+          "sourceUrl": "https://www.grusomhetensteater.no/2026/10/lang-dags-ferd-mot-natt/",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "full_selected_event_announcement",
+          "readDepth": "full_dated_announcement",
+          "summary": "Organizer and official TicketCo event 1184494 agree on 18 November 2026 at 18:00. Full selected event body retained in the source audit. Remaining capacity, checkout fees and conflicting/unstated end times were not verified.",
+          "dateHorizon": {
+            "startDate": "2026-11-18",
+            "endDate": "2026-11-18",
+            "dates": [
+              "2026-11-18"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "oslo-grusomheten-long-day-1184494-20261118-1800"
+          ],
+          "evidenceSourceURL": "https://www.grusomhetensteater.no/2026/10/lang-dags-ferd-mot-natt/",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        },
+        {
+          "id": "obs-history-a03d8ce7bbd2f88cf3ac0ddf",
+          "cityId": "oslo",
+          "sourceUrl": "https://grusomhetensteater.ticketco.events/no/nb/e/lang_dags_ferd_mot_natt_1811/cjnTH8awnA",
+          "checkedAt": null,
+          "checkedOn": "2026-11-12",
+          "recordedAt": "2026-11-12T15:59:22.308642+00:00",
+          "timePrecision": "date_only",
+          "checkedAtSemantics": "Only the dated source-audit pass is retained; individual attempt time is unknown.",
+          "accessStatus": "public_page_read",
+          "readKind": "full_selected_corroborating_announcement",
+          "readDepth": "full_dated_announcement",
+          "summary": "Retained audit explicitly records a full selected event-detail read. Its dated session corroborates the primary organizer; conflicting end-time and fee limitations remain, and this is not a full city calendar read.",
+          "dateHorizon": {
+            "startDate": "2026-11-18",
+            "endDate": "2026-11-18",
+            "dates": [
+              "2026-11-18"
+            ],
+            "complete": false,
+            "scope": "Only the named selected page or session dates; no intervening dates or full feed coverage implied."
+          },
+          "decision": "selected_facts_retained",
+          "eventIds": [
+            "oslo-grusomheten-long-day-1184494-20261118-1800"
+          ],
+          "evidenceSourceURL": "https://grusomhetensteater.ticketco.events/no/nb/e/lang_dags_ferd_mot_natt_1811/cjnTH8awnA",
+          "nextAction": "Check this exact announcement for changes when next useful, then read the provider programme for the next uncovered dates. Retain this result instead of repeating discovery.",
+          "coverageComplete": false,
+          "automationConfigured": false,
+          "retainedAuditTimestamp": "2026-11-12T13:54:38Z"
+        }
+      ]
     }
   ],
-  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied."
+  "note": "Discovery, access checks and imported records are separate. No source parser or automatic refresh is implied.",
+  "lastPartialRefresh": {
+    "batch": "oslo-vienna-dublin-primary-20261106",
+    "baseCommit": "9a4cfeb7e2fae6ad9eb46230b272c3ae348da29f",
+    "at": "2026-11-06T04:32:08Z",
+    "addedOccurrences": 2,
+    "coverage": "Partial primary-source additions; unresolved and sold-out candidates not imported."
+  }
 }

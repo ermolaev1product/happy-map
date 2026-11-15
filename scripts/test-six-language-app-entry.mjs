@@ -1,0 +1,9 @@
+import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';import {createLocalePolicy} from '../lib/locale-routing.mjs';
+const data=JSON.parse(fs.readFileSync('public/city-picker.json')),policy=createLocalePolicy(JSON.parse(fs.readFileSync('data/i18n/market-locales.json')));
+const html=fs.readFileSync('public/app-start.html','utf8');assert(html.includes('/locale-policy.js'));assert(html.includes('/entry-language.js'));assert(!/http-equiv=.refresh/i.test(html));
+async function run(lang,city,explicit=false){let next;const calls=[],query=explicit?'?lang='+lang+'&period=week':'?period=week',storage={'happymap-interface-language':explicit?null:lang,'morrow-city':city};
+ await vm.runInNewContext(fs.readFileSync('public/entry-language.js','utf8'),{window:{HappyMapLocalePolicy:policy},URLSearchParams,AbortSignal,location:{pathname:'/app-start.html',search:query,hash:'#event=saved',replace:p=>next=p},localStorage:{getItem:k=>storage[k]},fetch:async url=>{calls.push(url);if(url==='/city-picker.json')return{ok:true,json:async()=>data};return{ok:false}}});
+ const u=new URL(next,'https://appassets.androidplatform.net');assert.equal(u.origin,'https://appassets.androidplatform.net');assert(fs.existsSync('public'+u.pathname),next+' exists offline');assert.equal(policy.parse(u.pathname).lang||policy.parse(u.pathname).locale||policy.parse(u.pathname).explicit||'ru',lang);assert.equal(u.searchParams.get('period'),'week');assert.equal(u.hash,'#event=saved');assert(!calls.includes('/api/locale'),'known language never needs hosting');return next;
+}
+let count=0;for(const lang of ['ru','en','sr','es','de','pt-BR'])for(const city of [null,...data.cities.map(c=>c.id)])for(const explicit of [false,true]){await run(lang,city,explicit);count++;}
+console.log('PASS:',count,'APK app-start saved/explicit language and city scenarios resolve to local files, retain query/hash, and do not depend on hosting locale. Simulated local asset origin.');

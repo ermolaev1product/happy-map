@@ -1,0 +1,132 @@
+{
+  "tbilisi": {
+    "oldIdsPreserved": true,
+    "currentWeekStarts": {
+      "2026-11-09": 140,
+      "2026-11-10": 152,
+      "2026-11-11": 14,
+      "2026-11-12": 17,
+      "2026-11-13": 19,
+      "2026-11-14": 28,
+      "2026-11-15": 19
+    },
+    "beforeWeekStarts": {
+      "2026-11-09": 140,
+      "2026-11-10": 152,
+      "2026-11-11": 13,
+      "2026-11-12": 17,
+      "2026-11-13": 19,
+      "2026-11-14": 28,
+      "2026-11-15": 19
+    }
+  },
+  "yerevan": {
+    "oldIdsPreserved": true,
+    "currentWeekStarts": {
+      "2026-11-09": 6,
+      "2026-11-10": 8,
+      "2026-11-11": 5,
+      "2026-11-12": 6,
+      "2026-11-13": 10,
+      "2026-11-14": 4,
+      "2026-11-15": 5
+    },
+    "beforeWeekStarts": {
+      "2026-11-09": 5,
+      "2026-11-10": 6,
+      "2026-11-11": 3,
+      "2026-11-12": 4,
+      "2026-11-13": 7,
+      "2026-11-14": 4,
+      "2026-11-15": 4
+    }
+  },
+  "belgrade": {
+    "oldIdsPreserved": true,
+    "currentWeekStarts": {
+      "2026-11-09": 3,
+      "2026-11-10": 4,
+      "2026-11-11": 3,
+      "2026-11-12": 5,
+      "2026-11-13": 5,
+      "2026-11-14": 5,
+      "2026-11-15": 5
+    },
+    "beforeWeekStarts": {
+      "2026-11-09": 3,
+      "2026-11-10": 4,
+      "2026-11-11": 3,
+      "2026-11-12": 4,
+      "2026-11-13": 3,
+      "2026-11-14": 3
+    }
+  },
+  "moscow": {
+    "oldIdsPreserved": true,
+    "currentWeekStarts": {
+      "2026-11-09": 23,
+      "2026-11-10": 27,
+      "2026-11-11": 41,
+      "2026-11-12": 33,
+      "2026-11-13": 40,
+      "2026-11-14": 35,
+      "2026-11-15": 29
+    },
+    "beforeWeekStarts": {
+      "2026-11-09": 23,
+      "2026-11-10": 27,
+      "2026-11-11": 41,
+      "2026-11-12": 33,
+      "2026-11-13": 40,
+      "2026-11-14": 35,
+      "2026-11-15": 24
+    }
+  },
+  "barcelona": {
+    "oldIdsPreserved": true,
+    "currentWeekStarts": {
+      "2026-11-09": 1,
+      "2026-11-10": 2,
+      "2026-11-11": 3,
+      "2026-11-12": 5,
+      "2026-11-13": 5,
+      "2026-11-14": 3,
+      "2026-11-15": 2
+    },
+    "beforeWeekStarts": {
+      "2026-11-09": 1,
+      "2026-11-10": 2,
+      "2026-11-11": 3,
+      "2026-11-12": 5,
+      "2026-11-13": 5,
+      "2026-11-14": 3
+    }
+  },
+  "madrid": {
+    "oldIdsPreserved": true,
+    "currentWeekStarts": {
+      "2026-11-09": 1,
+      "2026-11-10": 5,
+      "2026-11-11": 4,
+      "2026-11-12": 5,
+      "2026-11-13": 12,
+      "2026-11-14": 16,
+      "2026-11-15": 14
+    },
+    "beforeWeekStarts": {
+      "2026-11-09": 1,
+      "2026-11-10": 5,
+      "2026-11-11": 4,
+      "2026-11-12": 5,
+      "2026-11-13": 12,
+      "2026-11-14": 16,
+      "2026-11-15": 1
+    }
+  },
+  "investigation": {
+    "tbilisi": "Daily starts drop from152 onNov10 to14 onNov11 because135 Cavea sessions/day are present only throughNov10 in imported data. Non-cinema starts:16 onNov10,14 onNov11. Fresh Cavea page readNov9 shows ambiguous date tabs (9 Tomorrow /10Tue/14Sat/17Tue/16Wed), not proof of zero screenings afterNov10. No inferred recurrences added; cinema coverage remains incomplete.",
+    "belgrade": "Previously zero startsNov15; now5 confirmed starts.",
+    "barcelona": "Previously zero startsNov15; now2 confirmed concerts. Nov9 remains sparse with1 start; no full-calendar coverage claim.",
+    "madrid": "Nov9 remains sparse with1start; municipalNov15 review is partial (16/43 records), additions do not establish full coverage."
+  }
+}

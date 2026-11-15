@@ -63,6 +63,13 @@ jsons=list(P.rglob('*.json'))
 immutable={'id','venueId','slug','url','sourceUrl','sourceURL','website','email','sourceURLs','coordinateSource','evidenceURL','researchEvidenceUrl'}
 # Preserve source-language search/provenance names only in boundary-verified Yerevan imports.
 original_names={'nameRu','titleOriginal','alternateNames','aliases'}
+def is_search_provenance(v,key):
+ return key=='searchHistory' and isinstance(v,dict) and isinstance(v.get('id'),str) and v['id'].startswith('search-') and v.get('engine')=='Google' and isinstance(v.get('cityId'),str) and isinstance(v.get('query'),str)
+def is_search_snippet(v):
+ return isinstance(v,dict) and isinstance(v.get('text'),str) and v.get('readKind')=='search_result_snippet' and isinstance(v.get('url'),str) and v['url'].startswith(('https://','http://')) and isinstance(v.get('sourcePageRead'),bool)
+def walk_search_results(v,apply,preserve_original):
+ if not isinstance(v,list):return walk(v,'results',apply,preserve_original)
+ return [{k:(x if k=='text' else walk(x,k,apply,preserve_original)) for k,x in item.items()} if is_search_snippet(item) else walk(item,'results',apply,preserve_original) for item in v]
 def walk(v,key='',apply=False,preserve_original=False):
  if isinstance(v,str):
   if key in immutable or (preserve_original and key in original_names) or v.startswith(('https://','http://')):return v
@@ -72,7 +79,10 @@ def walk(v,key='',apply=False,preserve_original=False):
   preserve_original=preserve_original or (v.get('cityId')=='yerevan' and v.get('boundaryVerified') is True and v.get('sourceSnapshot')=='2026-10-15T20:21:00Z') or (v.get('cityId') in ['prague','berlin','limassol'] and v.get('directoryResearchBatch')=='2026-10-16-osm' and v.get('sourceSnapshot')=='2026-10-15T20:21:00+00:00')
   if preserve_original and v.get('titleEn'):
    v={**v,'title':v['titleEn'],'venue':v['titleEn']}
-  return {k:walk(x,k,apply,preserve_original) for k,x in v.items()}
+  # Exact performed queries and inspected result snippets are research evidence,
+  # not interface copy. Keep them verbatim only inside structured Google records.
+  search_provenance=is_search_provenance(v,key)
+  return {k:(x if search_provenance and k=='query' else walk_search_results(x,apply,preserve_original) if search_provenance and k=='results' else walk(x,k,apply,preserve_original)) for k,x in v.items()}
  return v
 for f in jsons:walk(json.loads(f.read_text()))
 print('Missing unique text segments:',len(needed),flush=True)
