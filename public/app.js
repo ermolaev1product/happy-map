@@ -89,8 +89,31 @@ function mapPlaces(list){
  if(!radius||view==='plans')return list;
  const savedRadius=radius;try{radius=0;return visible();}finally{radius=savedRadius;}
 }
+function updateOffscreenGuide(list){
+ const host=document.getElementById('map');if(!host||!map)return;
+ let guide=document.getElementById('offscreenNearest');
+ if(!guide){guide=document.createElement('button');guide.id='offscreenNearest';guide.type='button';guide.style.cssText='position:absolute;z-index:850;max-width:230px;padding:11px 14px;border-radius:18px;background:#203c32;color:white;border:2px solid white;box-shadow:0 5px 20px #0004;font:600 13px system-ui;cursor:pointer;text-align:left';host.append(guide);}
+ guide.hidden=true;
+ if(view==='plans'||layer!=='events')return;
+ const size=map.getSize();if(!size.x||!size.y)return;
+ const candidates=list.filter(e=>Number.isFinite(e.lat)&&Number.isFinite(e.lng));
+ if(!candidates.length)return;
+ const inside=candidates.some(e=>{const p=map.latLngToContainerPoint([e.lat,e.lng]);return p.x>=15&&p.y>=15&&p.x<=size.x-15&&p.y<=size.y-15;});
+ if(inside)return;
+ const center=map.getCenter(),rad=Math.PI/180;
+ const km=e=>{const a=(e.lat-center.lat)*rad,b=(e.lng-center.lng)*rad;return 6371*2*Math.asin(Math.sqrt(Math.sin(a/2)**2+Math.cos(e.lat*rad)*Math.cos(center.lat*rad)*Math.sin(b/2)**2));};
+ const nearest=candidates.slice().sort((a,b)=>km(a)-km(b))[0],p=map.latLngToContainerPoint([nearest.lat,nearest.lng]);
+ const dx=p.x-size.x/2,dy=p.y-size.y/2,angle=Math.atan2(dy,dx),margin=60;
+ const scale=Math.min((size.x/2-margin)/Math.max(Math.abs(dx),1),(size.y/2-margin)/Math.max(Math.abs(dy),1));
+ const x=Math.max(12,Math.min(size.x-215,size.x/2+dx*scale-90)),y=Math.max(12,Math.min(size.y-75,size.y/2+dy*scale-25));
+ guide.style.left=x+'px';guide.style.top=y+'px';
+ const d=km(nearest),label=d<1?Math.round(d*1000)+' м':d.toFixed(1)+' км';
+ const arrows=['→','↘','↓','↙','←','↖','↑','↗'];const direction=arrows[Math.round(((angle+2*Math.PI)%(2*Math.PI))/(Math.PI/4))%8];
+ guide.textContent=direction+' Ближайшее событие · '+label+' (по прямой)';
+ guide.title=nearest.title+' — показать на карте';guide.onclick=()=>{map.flyTo([nearest.lat,nearest.lng],Math.max(map.getZoom(),14),{duration:0.9});};guide.hidden=false;
+}
 function renderMap(list){
- if(!map)return;markers.forEach(m=>m.remove());markers=[];
+ if(!map)return;updateOffscreenGuide(list);markers.forEach(m=>m.remove());markers=[];
  const focused=new Set(list.filter(e=>!radius||distance(e)<=radius).map(e=>e.id)),context=!!radius&&view!=='plans';
  if(context){list=mapPlaces(list);$('#mapEmpty').hidden=list.length>0;
   $('#mapLabel').textContent=document.documentElement.lang==='ru'?`${list.length} на карте · ${focused.size} рядом`:`${list.length} on map · ${focused.size} nearby`;
