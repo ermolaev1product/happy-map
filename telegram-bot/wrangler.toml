@@ -1,0 +1,16 @@
+name = "happy-map-telegram-bot"
+main = "worker.mjs"
+compatibility_date = "2026-11-20"
+
+[triggers]
+crons = ["0 * * * *"]
+
+# Create KV namespace with: npx wrangler kv namespace create SUBSCRIBERS
+# Then uncomment and set the returned id:
+# [[kv_namespaces]]
+# binding = "SUBSCRIBERS"
+# id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[vars]
+EVENT_CITY_TIMEZONE = "Asia/Tbilisi"
+# EVENTS_FEED_URL = "https://YOUR_HOST/api/events.json"
